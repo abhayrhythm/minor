@@ -1,0 +1,10 @@
+let us consid program 
+includ stdio h void swap char str1 char str2 char temp str1 str1 str2 str2 temp int main char str1 geek char str2 forgeek swap str1 str2 printf str1 str2 str1 str2 getchar return 0 output program str1 geek str2 forgeek 
+swap function swap string 
+function chang local pointer variabl chang reflect outsid function 
+let us see correct way swap string method 1 swap pointer use charact pointer string array chang str1 str2 point data 
+e swap pointer 
+function want chang pointer obvious want chang reflect outsid function need pass pointer pointer 
+includ stdio h swap string swap pointer void swap1 char str1_ptr char str2_ptr char temp str1_ptr str1_ptr str2_ptr str2_ptr temp int main char str1 geek char str2 forgeek swap1 str1 str2 printf str1 str2 str1 str2 getchar return 0 method cannot appli string store use charact array 
+method 2 swap data use charact array store string prefer way swap data array 
+includ stdio h includ string h includ stdlib h swap string swap data void swap2 char str1 char str2 char temp char malloc strlen str1 1 sizeof char strcpi temp str1 strcpi str1 str2 strcpi str2 temp free temp int main char str1 10 geek char str2 10 forgeek swap2 str1 str2 printf str1 str2 str1 str2 getchar return 0 method cannot appli string store read block memori 

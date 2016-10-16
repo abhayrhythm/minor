@@ -1,0 +1,7 @@
+consid follow prototyp free function use free memori alloc use malloc calloc realloc 
+void free void ptr note free function accept size paramet 
+free function know much memori free given pointer 
+follow common way store size memori free know size memori dealloc 
+memori alloc done actual heap space alloc one word larger request memori 
+extra word use store size alloc later use free pleas write comment find anyth incorrect want share inform topic discuss 
+refer http www cs cmu edu af cs academ class 15213 f10 www lectur 17 alloc basic pptx http en wikipedia org wiki malloc adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,42 @@
+
+
+Mixture is a combination of two or more elements to form a third element. The questions from mixture are usually based on Ratio and Proportion and do not require any special formula.
+Alligation is a rule that enables us to quickly calculate the price of a mixture, given that it is a mix of two elements having different prices.
+Alligation Rule :
+
+
+Here, mean price is the price of 1 unit of the mixture. Please note that in the above formula, everything has to be calculated by considering one unit only.
+Another point to be noted is that mean price would always be between cheaper price and dearer price.
+In questions of replacement where we initially have some quantity of pure element (like petrol), and we keep on replacing a fixed portion of this pure liquid every time with some other element (like water) thus making it a mixture, we apply the following formula for finding the quantity of pure element after ‘n’ replacements :
+P x [1 – (R / P)]n, where
+P is the initial quantity of pure element
+R is the quantity replaced every time
+n is the number of replacements
+
+
+Sample Problems
+Question 1 : From a vessel of 20 liters pure milk, 1 liter is taken out and replaced with water, so as to keep the volume constant to 20 liters. This process is repeated 5 times. Find the percentage of pure milk left in the vessel after 5 replacements.
+Solution : Here, we need to apply the formula P x [1 – (R / P)]n
+P = Initial quantity of pure element = 20 liters
+R = Quantity replaced every time  = 1 liter
+n = Number of replacements = 5
+So, quantity of pure milk after 5 replacements = 20 x [1 – (1 / 20)]5
+Quantity of pure milk after 5 replacements = 20 x (0.95)5 = 20 x 0.773780938 = 15.4756 liters
+Therefore, percentage of pure milk left in the vessel after 5 replacements = (15.4756 / 20) x 100 = 77.378 %
+ 
+Question 2 : A dishonest shopkeeper mixed cheaper quality of rice, priced at Rs. 10 / KG with good quality rice, priced at Rs. 25 / KG and sells the mixture at Rs. 15 / KG. Find the ratio in which he mixes the two qualities of rice.
+Solution : 
+
+Thus, ratio of quantities of cheaper and good quality rice = 10 : 5 = 2 : 1
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

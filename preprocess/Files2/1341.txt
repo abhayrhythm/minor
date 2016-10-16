@@ -1,0 +1,32 @@
+given two link list repres two larg posit number 
+subtract smaller number larger one return differ link list 
+note input list may order alway need subtract smaller larger one 
+may assum extra lead zero input list 
+exampl input l1 1 0 0 null l2 1 null output 0 9 9 null input l1 1 0 0 null l2 1 null output 0 9 9 null input l1 7 8 6 null l2 7 8 9 null output 3 null follow step 
+1 calcul size given two link list 
+2 size append zero smaller link list 
+3 size follow step find smaller valu link list 
+b one one subtract node smaller size link list larger size 
+keep track borrow subtract 
+follow c implement approach 
+c program subtract smaller valu list larger valu list return result list 
+includ bit stdc h use namespac std link list node struct node int data struct node next util creat node 
+node newnod int data node temp new node temp data data temp next null return temp util function get length link list int getlength node node int size 0 node null node node next size return size util padd zero front node given diff node paddzero node snode int diff snode null return null node zhead newnod 0 diff node temp zhead diff temp next newnod 0 temp temp next temp next snode return zhead subtract linkedlist helper recurs function move till last node subtract digit creat node return node 
+d1 d2 borrow number previou digit 
+node subtractlinkedlisthelp node l1 node l2 bool borrow l1 null l2 null borrow 0 return null node previou subtractlinkedlisthelp l1 
+l1 next null l2 
+l2 next null borrow int d1 l1 data int d2 l2 data int sub 0 given valu valu next digit reduc d1 1 borrow d1 borrow fals d1 d2 borrow number previou digit 
+add 10 d1 set borrow true d1 d2 borrow true d1 d1 10 subtract digit sub d1 d2 creat node sub valu node current newnod sub set next pointer previou current next previou return current api subtract two link list return link list shall subtract result 
+node subtractlinkedlist node l1 node l2 base case 
+l1 null l2 null return null either case get length link list 
+int len1 getlength l1 int len2 getlength l2 node lnode null snode null node temp1 l1 node temp2 l2 length differ calcul smaller node padd zero smaller node ensur larger node smaller node equal length 
+len1 len2 lnode len1 len2 
+l1 l2 snode len1 len2 
+l2 l1 snode paddzero snode ab len1 len2 els list length equal calcul larger smaller list 
+5 6 7 5 6 8 link list walk link list last node 7 8 larger node 5 6 8 smaller node 5 6 7 l1 l2 l1 data l2 data lnode l1 data l2 data 
+temp1 temp2 snode l1 data l2 data 
+temp2 temp1 break l1 l1 next l2 l2 next calcul larger smaller node call subtractlinkedlisthelp return subtract link list 
+bool borrow fals return subtractlinkedlisthelp lnode snode borrow util function print link list void printlist struct node node node null printf node data node node next printf n driver program test function int main node head1 newnod 1 head1 next newnod 0 head1 next next newnod 0 node head2 newnod 1 node result subtractlinkedlist head1 head2 printlist result return 0 output 0 9 9 articl contribut mu ven 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

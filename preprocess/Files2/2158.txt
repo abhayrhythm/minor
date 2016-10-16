@@ -1,0 +1,14 @@
+given number n print first n posit integ exactli two set bit binari represent 
+exampl input n 3 output 3 5 6 first 3 number two set bit 3 0011 5 0101 6 0110 input n 5 output 3 5 6 9 10 12 simpl solut consid posit integ one one start 1 everi number check exactli two set bit 
+number exactli two set bit print increment count number 
+effici solut directli gener number 
+clearli observ number rewrit given pow 2 1 pow 2 0 pow 2 2 pow 2 0 pow 2 2 pow 2 1 pow 2 3 pow 2 0 pow 2 3 pow 2 1 pow 2 3 pow 2 2 number gener increas order accord higher two set bit 
+idea fix higher two bit one one 
+current higher set bit consid lower bit print form number 
+c program print first n number exactli two set bit includ iostream use namespac std print first n number two set bit void printtwosetbitnum int n initi higher two set bit int x 1 keep reduc n everi number two set bit 
+n 0 consid lower set bit current higher set bit int 0 x print current number cout 1 x 1 found n number n n 0 return consid next lower bit current higher bit 
+increment higher set bit x driver code int main printtwosetbitnum 4 return 0 output 3 5 6 9 time complex n articl contribut bharath reddi appareddi 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

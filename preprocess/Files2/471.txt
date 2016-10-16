@@ -1,0 +1,22 @@
+given doubli link list data member sort ascend order 
+construct balanc binari search tree data member given doubli link list 
+tree must construct place new node alloc tree convers exampl input doubli link list 1 2 3 output balanc bst 2 1 3 input doubli link list 1 2 3 4 5 6 7 output balanc bst 4 2 6 1 3 4 7 input doubli link list 1 2 3 4 output balanc bst 3 2 4 1 input doubli link list 1 2 3 4 5 6 output balanc bst 4 2 6 1 3 5 doubli link list convers much similar singli link list problem method 1 exactli method 1 previou post 
+method 2 also almost 
+differ method 2 instead alloc new node bst reus dll node 
+use prev pointer left next pointer right 
+method 1 simpl follow simpl algorithm first find middl node list make root tree construct 
+1 get middl link list make root 
+2 recurs left half right half 
+get middl left half make left child root creat step 1 b get middl right half make right child root creat step 1 time complex nlogn n number node link list 
+method 2 tricki method 1 construct tree root leav 
+method construct leav root 
+idea insert node bst order appear doubli link list tree construct n time complex 
+first count number node given link list 
+let count n count node take left n 2 node recurs construct left subtre 
+left subtre construct assign middl node root link left subtre root 
+final recurs construct right subtre link root 
+construct bst also keep move list head pointer next appropri pointer recurs call 
+follow c implement method 2 main code creat balanc bst highlight 
+c includ stdio h includ stdlib h doubli link list node also use tree node struct node int data tree next pointer use right subtre pointer struct node next tree prev pointer use left subtre pointer struct node prev util function count node link list int countnod struct node head struct node sortedlisttobstrecur struct node head_ref int n function count number node link list call sortedlisttobstrecur construct bst struct node sortedlisttobst struct node head count number node link list int n countnod head construct bst return sortedlisttobstrecur head n main function construct balanc bst return root 
+head_ref pointer pointer head node doubli link list n 
+node doubli link list struct node sortedlisttobstrecur struct node head_ref int n base case n 0 return null recurs construct left subtre struct node left sortedlisttobstrecur head_ref n 2 head_ref refer middl node make middl node root bst struct node root head_ref set pointer left subtre root prev left chang head pointer link list parent recurs call head_ref head_ref next recurs construct right subtre link root number node right subtre total node node left subtre 1 root root next sortedlisttobstrecur head_ref n n 2 1 return root util function util function return count node given link list int countnod struct node head int count 0 struct node temp head temp temp temp next count return count function insert node beging doubli link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data sinc ad begin prev alway null new_nod prev null link old list new node new_nod next head_ref chang prev head node new node head_ref null head_ref prev new_nod move head point new node head_ref new_nod function print node given link list void printlist struct node node node null printf node data node node next util function print preorder travers bst void preorder struct node node node null return printf node data preorder node prev preorder node next driver program test function int main start empti list struct node head null let us creat sort link list test function creat link list 7 6 5 4 3 2 1 push head 7 push head 6 push head 5 push head 4 push head 3 push head 2 push head 1 printf given link list n printlist head convert list bst struct node root sortedlisttobst head printf n preorder travers construct bst n preorder root return 0 

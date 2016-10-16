@@ -1,0 +1,15 @@
+given valu v want make chang v rs infinit suppli denomin indian currenc e infinit suppli 1 2 5 10 20 50 100 500 1000 valu coin note minimum number coin note need make chang 
+exampl input v 70 output 2 need 50 rs note 20 rs note 
+input v 121 output 3 need 100 rs note 20 rs note 1 rs coin 
+strongli recommend minim browser tri first 
+idea simpl greedi algorithm 
+start largest possibl denomin keep ad denomin remain valu greater 0 complet algorithm 
+1 initi result empti 
+2 find largest denomin smaller v 3 add found denomin result 
+subtract valu found denomin v 4 v becom 0 print result 
+els repeat step 2 3 new valu v c implement algorithm 
+c program find minimum number denomin includ bit stdc h use namespac std denomin indian currenc int deno 1 2 5 10 20 50 100 500 1000 int n sizeof deno sizeof deno 0 driver program void findmin int v initi result vector int an travers denomin int n 1 0 find denomin v deno v deno an push_back deno print result int 0 an size cout an driver program int main int n 93 cout follow minim number chang n findmin n return 0 output follow minim number chang 93 50 20 20 2 1 note approach may work denomin 
+exampl work denomin 9 6 5 1 v 11 approach would print 9 1 1 use 2 denomin 5 6 gener input use dynam program approach 
+find minimum number coin make given valu thank utkarsh provid solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

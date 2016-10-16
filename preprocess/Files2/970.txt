@@ -1,0 +1,9 @@
+c fseek prefer rewind 
+note follow text c99 standard rewind function set file posit indic stream point stream begin file 
+equival void fseek stream 0l seek_set except error indic stream also clear 
+follow code exampl set file posit indic input stream back begin use rewind 
+way check whether rewind success 
+int main file fp fopen test txt r fp null handl open error process file rewind fp way check rewind success precess file return 0 code fseek use instead rewind see oper succeed 
+follow line code use place rewind fp fseek fp 0l seek_set 0 handl reposit error sourc http www securecod cert org confluenc display seccod fio07 c prefer fseek 28 29 rewind 28 29 articl contribut rahul gupta 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

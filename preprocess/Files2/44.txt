@@ -1,0 +1,25 @@
+given unsort array integ sort array wave like array 
+array arr 0 n 1 sort wave form arr 0 arr 1 arr 2 arr 3 arr 4 exampl input arr 10 5 6 3 2 20 100 80 output arr 10 5 6 2 20 3 100 80 20 5 10 2 80 6 100 3 array wave form input arr 20 10 8 6 4 2 output arr 20 8 10 4 6 2 10 8 20 2 6 4 array wave form input arr 2 4 6 8 10 20 output arr 4 2 8 6 20 10 array wave form input arr 3 6 5 10 7 20 output arr 6 3 10 5 20 7 array wave form strongli recommend click practic move solut 
+simpl solut use sort 
+first sort input array swap adjac element 
+exampl let input array 3 6 5 10 7 20 
+sort get 3 5 6 7 10 20 
+swap adjac element get 5 3 7 6 20 10 
+implement simpl approach 
+c c program sort array wave form use sort function includ iostream includ algorithm use namespac std util method swap two number 
+void swap int x int int temp x x temp function sort arr 0 n 1 wave form e arr 0 arr 1 arr 2 arr 3 arr 4 arr 5 void sortinwav int arr int n sort input array sort arr arr n swap adjac element int 0 n 1 2 swap arr arr 1 driver program test function int main int arr 10 90 49 2 1 5 23 int n sizeof arr sizeof arr 0 sortinwav arr n int 0 n cout arr return 0 python python function sort array arr 0 n 1 wave form e arr 0 arr 1 arr 2 arr 3 arr 4 arr 5 def sortinwav arr n sort array arr sort swap adjac element rang 0 n 1 2 arr arr 1 arr 1 arr driver progrm arr 10 90 49 2 1 5 23 sortinwav arr len arr rang 0 len arr print arr code contribut __devesh agrawal__ java java implement naiv method sort array wave form 
+import java util 
+class sortwav util method swap two number 
+void swap int arr int int b int temp arr arr arr b arr b temp function sort arr 0 n 1 wave form e arr 0 arr 1 arr 2 arr 3 arr 4 void sortinwav int arr int n sort input array array sort arr swap adjac element int 0 n 1 2 swap arr 1 driver method public static void main string arg test ob new test int arr 10 90 49 2 1 5 23 int n arr length ob sortinwav arr n int arr system print code contribut rajat mishra output 2 1 10 5 49 23 90 time complex solut nlogn nlogn sort algorithm like merg sort heap sort etc use 
+done n time singl travers given array 
+idea base fact make sure even posit index 0 2 4 element greater adjac odd element need worri odd posit element 
+follow simpl step 
+1 travers even posit element input array follow 
+current element smaller previou odd element swap previou current 
+b current element smaller next odd element swap next current 
+implement simpl algorithm 
+c n program sort input array wave form includ iostream use namespac std util method swap two number 
+void swap int x int int temp x x temp function sort arr 0 n 1 wave form e arr 0 arr 1 arr 2 arr 3 arr 4 arr 5 void sortinwav int arr int n travers even element int 0 n 2 current even element smaller previou 0 arr 1 arr swap arr arr 1 current even element smaller next n 1 arr arr 1 swap arr arr 1 driver program test function int main int arr 10 90 49 2 1 5 23 int n sizeof arr sizeof arr 0 sortinwav arr n int 0 n cout arr return 0 python python function sort array arr 0 n 1 wave form e arr 0 arr 1 arr 2 arr 3 arr 4 arr 5 def sortinwav arr n travers even element rang 0 n 2 current even element smaller previou 0 arr arr 1 arr arr 1 arr 1 arr current even element smaller next n 1 arr arr 1 arr arr 1 arr 1 arr driver program arr 10 90 49 2 1 5 23 sortinwav arr len arr rang 0 len arr print arr code contribut __devesh agrawal__ java n java program sort input array wave form class sortwav util method swap two number 
+void swap int arr int int b int temp arr arr arr b arr b temp function sort arr 0 n 1 wave form e arr 0 arr 1 arr 2 arr 3 arr 4 void sortinwav int arr int n travers even element int 0 n 2 current even element smaller previou 0 arr 1 arr swap arr 1 current even element smaller next n 1 arr arr 1 swap arr 1 driver program test function public static void main string arg sortwav ob new sortwav int arr 10 90 49 2 1 5 23 int n arr length ob sortinwav arr n int arr system print code contribut rajat mishra output 90 10 49 1 5 2 23 articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

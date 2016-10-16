@@ -1,0 +1,9 @@
+write function take two paramet n k return valu binomi coeffici c n k 
+exampl function return 6 n 4 k 2 return 10 n 5 k 2 discuss n k time k extra space algorithm post 
+valu c n k calcul k time 1 extra space 
+c n k n 
+n k 
+k 
+n n 1 1 n k n k 1 1 k k 1 1 simplifi get c n k n n 1 n k 1 k k 1 1 also c n k c n n k chang r n r r n r follow implement use formula calcul c n k program calcul c n k includ stdio h return valu binomi coeffici c n k int binomialcoeff int n int k int re 1 sinc c n k c n n k k n k k n k calcul valu n n 1 n k 1 k k 1 1 int 0 k re n re 1 return re drier program test function int main int n 8 k 2 printf valu c n k binomialcoeff n k return 0 valu c 8 2 28 time complex k auxiliari space 1 articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

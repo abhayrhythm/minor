@@ -1,0 +1,12 @@
+getchar_unlock similar getchar except thread safe 
+exampl code 
+simpl c program demonstr work getchar_unlock includ stdio h int main syntax getchar char c getchar_unlock printf enter charact c c return 0 input g output enter charact g follow import point sinc thread safe overhead mutual exclus avoid faster getchar 
+especi use competit program problem warn larg data care certain languag though ok algorithm well design 
+issu use getchar_unlock even multithread environ long thread use thread access file object one differ getchar c standard librari function posix function 
+may work window base compil 
+known fact scanf faster cin getchar faster scanf gener 
+getchar_unlock faster getchar henc fastest 
+similarli getc_unlock putc_unlock putchar_unlock non thread safe version getc putc putchar respect 
+simpl c program demonstr work putchar_unlock includ stdio h int main syntax getchar char c getchar_unlock putchar_unlock c return 0 input g output g exercis reader may tri solut given getchar_unlock compar perform getchar 
+articl contribut ayush saluja 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,10 @@
+given valu two node binari tree find lowest common ancestor lca 
+may assum node exist tree 
+exampl consid binari tree diagram lca 10 14 12 lca 8 14 8 let root tree 
+lowest common ancestor two node n1 n2 defin lowest node n1 n2 descend allow node descend 
+sourc wikipedia 
+strongli recommend minim browser tri first 
+discuss differ approach find lca set 1 find lca becom easi parent pointer given easili find ancestor node use parent pointer 
+step find lca 
+creat empti hash tabl 
+insert n1 ancestor hash tabl 

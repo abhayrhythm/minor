@@ -1,0 +1,121 @@
+
+
+Factors and Multiples : All the numbers that divide a number completely, i.e., without leaving any remainder, are called factors of that number. For example, 24 is completely divisible by 1, 2, 3, 4, 6, 8, 12, 24. Each of these numbers is called a factor of 24 and 24 is called a multiple of each of these numbers.
+LCM : The least number which is exactly divisible by each of the given numbers is called the least common multiple of those numbers. For example, consider the numbers 3, 31 and 62 (2 x 31). The LCM of these numbers would be 2 x 3 x 31 = 186.
+To find the LCM of the given numbers, we express each number as a product of prime numbers. The product highest power of the prime numbers that appear in prime factorization of any of the numbers gives us the LCM.
+For example, consider the numbers 2, 3, 4 (2 x 2), 5, 6 (2 x 3). The LCM of these numbers is 2 x 2 x 3 x 5 = 60. The highest power of 2 comes from prime factorization of 4, the highest power of 3 comes from prime factorization of 3 and prime factorization of 6 and the highest power of 5 comes from prime factorization of 5.
+HCF : The largest number that divides two or more numbers is the highest common factor (HCF) for those numbers. For example, consider the numbers 30 (2 x 3 x 5), 36 (2 x 2 x 3 x 3), 42 (2 x 3 x 7), 45 (3 x 3 x 5). 3 is the largest number that divides each of these numbers, and hence, is the HCF for these numbers.
+HCF is also known as Greatest Common Divisor (GCD).
+ 
+To find the HCF of two or more numbers, express each number as product of prime numbers. The product of the least powers of common prime terms gives us the HCF. This is the method we illustrated in the above step.
+Also, for finding the HCF of two numbers, we can also proceed by long division method. We divide the larger number by the smaller number (divisor). Now, we divide the divisor by the remainder obtained in the previous stage. We repeat the same procedure until we get zero as the remainder. At that stage, the last divisor would be the required HCF.
+For example, we find the HCF of 30 and 42.
+
+
+For two numbers ‘a’ and ‘b’, LCM x HCF = a x b
+HCF of co-primes = 1
+For two fractions,
+HCF = HCF (Numerators) / LCM (Denominators)
+LCM = LCM (Numerators) / HCF (Denominators)
+
+
+ 
+ Sample Problems 
+Question 1 : Two numbers are in the ratio of 5:11. If their HCF is 7, find the numbers.
+Solution : Let the numbers be 5m and 11m. Since 5:11 is already the reduced ratio, ‘m’ has to be the HCF. So, the numbers are 5 x 7 = 35 and 11 x 7 = 77.
+ 
+Question 2 : Find the length of the plank which can be used to measure exactly the lengths 4 m 50 cm, 9 m 90 cm and 16 m 20 cm in the least time.
+Solution : Let us first convert each length to cm. So, the lengths are 450 cm, 990 cm and 1620 cm. Now, we need to find the length of the largest plank that can be used to measure these lengths as the largest plank will take the least time. For this, we need to take the HCF of 450, 990 and 1620.
+450 = 2 x 3 x 3 x 5 x 5 = 2 x 32 x 52
+990 = 2 x 3 x 3 x 5 x 11 = 2 x 32 x 5 x 11
+1620 = 2 x 2 x 3 x 3 x 3 x 3 x 5 = 22 x 34 x 5
+Therefore, HCF (450, 990, 1620) = 2 x 3 x 3 x 5 = 90
+Thus, we need a plank of length 90 cm to measure the given lengths in the least time.
+ 
+Question 3 : Find the greatest number which on dividing 70 and 50 leaves remainders 1 and 4 respectively.
+Solution : The required number leaves remainders 1 and 4 on dividing 70 and 50 respectively. This means that the number exactly divides 69 and 46.
+So, we need to find the HCF of 69 (3 x 23) and 46 (2 x 23).
+HCF (69, 46) = 23
+Thus, 23 is the required number.
+ 
+Question 4 : Find the largest number which divides 64, 136 and 238 to leave the same remainder in each case.
+Solution : To find the required number, we need to find the HCF of (136-64), (238-136) and (238-64), i.e., HCF (72, 102, 174).
+72 = 23 x 32
+102 = 2 x 3 x 17
+174 = 2 x 3 x 29
+Therefore, HCF (72, 102, 174) = 2 x 3 = 6
+hence, 6 is the required number.
+ 
+Question 5 : Find the least number which when divided by 5,7,9 and 12, leaves the same remainder 3 in each case
+Solution : In these type of questions, we need to find the LCM of the divisors and add the common remainder (3) to it.
+So, LCM (5, 7, 9, 12) = 1260
+Therefore, required number = 1260 + 3 = 1263
+ 
+Question 6 : Find the largest four digit number exactly divisible by 15,21 and 28.
+Solution : The largest four digit number is 9999.
+Now, LCM (15, 21, 28) = 420
+On dividing 9999 by 420, we get 339 as the remainder.
+Therefore, the required number is 9999-339 = 9660
+ 
+Question 7 : The policemen at three different places on a ground blow a whistle after every 42 sec, 60 sec and 78 sec respectively. If they all blow the whistle simultaneously at 9:30:00 hours, then at what time do they whistle again together ?
+Solution : They all will whistle again at the same time after an interval that is equal to the LCM of their individual whistle blowing cycles.
+So, LCM (42, 60, 78) = 2 x 3 x 7 x 10 x 13 = 5460
+Therefore, they will blow the whistle again simultaneously after 5460 sec, i.e., after 1 hour 31 minutes, i.e., at 11:01:00 hours.
+ 
+Question 8 : Find the least number which when divided by 6,7,8 leaves a remainder 3, but when divided by 9 leaves no remainder .
+Solution : LCM (6, 7, 8) = 168
+So, the number is of the form 168m + 3.
+Now, 168m + 3 should be divisible by 9.
+We know that a number is divisible by 9 if the sum of its digits is a multiple of 9.
+For m = 1, the number is 168 + 3 = 171, the sum of whose digits is 9.
+Therefore, the required number is 171.
+ 
+Question 9 : Two numbers are in the ratio 2:3. If the product of their LCM and HCF is 294, find the numbers.
+Solution : Let the common ratio be ‘m’. So, the numbers are 2m and 3m.
+Now, we know that Product of numbers = Product of LCM and HCF.
+=> 2m x 3m = 294
+=> m2 = 49
+=> m = 7
+Therefore, the numbers are 14 and 21.
+ 
+Question 10 : A rectangular field of dimension 180m x 105m is to be paved by identical square tiles. Find the size of each tile and the number of tiles required.
+Solution : We need to find the size of a square tile such that a number of tiles cover the field exactly, leaving no area unpaved.
+For this, we find the HCF of the length and breadth of the field.
+HCF (180, 105) = 15
+Therefore, size of each tile = 15m x 15m
+Also, number of tiles = area of field / area of each tile
+=> Number of tiles = (180 x 105) / (15 x 15)
+=> Number of tiles = 84
+Hence, we need 84 tiles, each of size 15m x 15m.
+ 
+Question 11 : Three rectangular fields having area 60 m2, 84 m2 and 108 m2 are to be divided into identical rectangular flower beds, each having length 6 m. Find the breadth of each flower bed.
+Solution : We need to divide each large field into smaller flower beds such that the area of each bed is same.
+So, we find the HCF of the larger fields that gives us the area of the smaller field.
+HCF (60, 84, 108) = 12
+Now, this HCF is the area (in m2) of each flower bed.
+Also, area of a rectangular field = Length x Breadth
+=> 12 = 6 x Breadth
+=> Breadth = 2 m
+Hence, each flower bed would be 2 m wide.
+ 
+Question 12 : Find the maximum number of students among whom 182 chocolates and 247 candies can be distributed such that each student gets same number of each. Also, find the number of chocolates and candies each student will get.
+Solution : We need to find the HCF of the number of chocolates and candies available, which would give us the number of students.
+HCF (182, 247) = 13
+So, there can be 13 students.
+Also, Number of chocolates for each student = 182 / 13 = 14
+Number of toffees for each student = 247 / 13 = 19
+ 
+Quiz on LCM
+Quiz on HCF
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

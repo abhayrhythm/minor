@@ -1,0 +1,4 @@
+
+Write an efficient C function to return maximum occurring character in the input string e.g., if input string is “test” then function should return ‘t’.
+
+We strongly recommend that you click here and practice it, before moving on to the solution.

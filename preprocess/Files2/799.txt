@@ -1,0 +1,44 @@
+prerequisit creat proxi webserv python set1 tutori interest featur ad make use 
+add blacklist domain 
+ex 
+googl com facebook com 
+creat list blacklist_domain configur dict 
+ignor drop request receiv blacklist domain 
+ideal must respond forbidden respons 
+check host port blacklist rang 0 len config blacklist_domain config blacklist_domain url conn close return add host block say may need allow connect particular subnet connect particular person 
+add creat list allow host 
+sinc host subnet well add regex match ip address specif ipv4 address 
+ipv4 address canon repres dot decim notat consist four decim number rang 0 255 separ dot e g 172 16 254 1 part repres group 8 bit octet address use regex match correct ip address creat new method _ishostallow server class use fnmatch modul match regex 
+iter regex allow request match 
+client address found part regex send forbidden respons 
+skip respons creation part 
+note would creat full fledg custom webserv upcom tutori creation createrespons function done handl gener respons creation 
+def _ishostallow self host check host allow access content wildcard config host_allow fnmatch fnmatch host wildcard return true return fals default host match regex would match host 
+though regex form 192 168 
+also use 
+server current process request show messag awar state server 
+messag log onto consol 
+purpos use log modul thread safe 
+server multi thread rememb 
+import modul setup initi configur 
+log basicconfig level log debug format currenttim 10 threadnam 10 messag creat separ method log everi messag pass argument addit data thread name current time keep track log 
+also creat function color log look pretti stdout 
+achiev add boolean configur colored_log creat new function color everi msg pass base log_level 
+def log self log_level client msg log messag appropri place loggerdict currenttim strftime b x localtim threadnam thread currentthread getnam client 1 main thread formatedmsg msg els child thread request thread formatedmsg 0 1 2 format client 0 client 1 msg log debug util colorizelog config colored_log log_level formatedmsg extra loggerdict creat new modul colorizepython py contain pycolor class maintain list color code 
+separ anoth modul order make code modular follow pep8 standard 
+colorizepython py class pycolor header 033 95m okblu 033 94m okgreen 033 92m warn 033 93m fail 033 91m endc 033 0m end color bold 033 1m underlin 033 4m modul import colorizepython method def colorizelog shouldcolor log_level msg higher log_level log argument lower prioriti 
+colorize_log normal colorizepython pycolor endc warn colorizepython pycolor warn success colorizepython pycolor okgreen fail colorizepython pycolor fail reset colorizepython pycolor endc shouldcolor lower true log_level colorize_log return colorize_log str log_level msg colorize_log reset return colorize_log normal msg colorize_log reset return msg sinc colorizelog function server class creat separ modul name util py store util make code easier understand put method 
+add appropri log messag wherev requir especi whenev state server chang 
+modifi shutdown method server exit run thread exit applic 
+thread enumer iter run thread need maintain list 
+behavior thread modul unexpect tri end main_thread 
+offici document also state join rais runtimeerror attempt made join current thread would caus deadlock 
+also error join thread start attempt rais except skip appropri 
+code 
+def shutdown self signum frame handl exit server 
+clean trace self log warn 1 shut grace main_thread thread currentthread wait client exit thread enumer main_thread continu self log fail 1 join getnam join self serversocket close sy exit 0 directori structur full code directori download 
+comment suggest queri feel free ask 
+author pinkesh badjatiya hail iiit hyderabad geek heart ampl project worth look 
+project work seen 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

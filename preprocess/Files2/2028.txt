@@ -1,0 +1,8 @@
+c pointer pass hidden argument non static member function call 
+type depend upon function declar 
+member function class x declar const type const x see code 1 member function declar volatil type volatil x see code 2 member function declar const volatil type const volatil x see code 3 
+code 1 includ iostream class x void fun const pass hidden argument fun 
+type const x code 2 includ iostream class x void fun volatil pass hidden argument fun 
+type volatil x code 3 includ iostream class x void fun const volatil pass hidden argument fun 
+type const volatil x refer http www open std org jtc1 sc22 wg21 doc paper 2005 n1905 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

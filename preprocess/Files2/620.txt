@@ -1,0 +1,30 @@
+onlin written test 20 mcq 5 code question f2f 1 1 two sort array 
+find median array obtain merg two array 
+http www geeksforgeek org median two sort array 2 find transpos matrix 
+3 tell garbag collect 
+told gc process differ type gc avail 
+interview ask mark sweep algorithm 
+4 fill 4 lt use 5 lt 3 lt jar 
+f2f 2 1 tupl given user websit si ei si denot user enter websit ei denot user exit websit find maximum number user activ websit time durat 
+2 given array contain posit neg integ find product maximum product subarray http www geeksforgeek org maximum product subarray 3 rotat matrix clockwis 90 degre 
+4 puzzl n prison stand line increas height prison see hat color prison stand ahead cannot see hat color 
+hat two color red blue 
+prison say hat color 
+right live otherwis jailer shoot 
+find strategi save maximum number prison 
+5 class int 0 method updat valu 10 want execut class multi thread environ thread initi valu 0 
+an told use threadloc variabl store 
+start discuss thread local variabl java memori model 
+f2f3 1 binari stream come 
+need print true fals base fact whether number form divis 5 
+hint use state machin 2 print subset set 
+3 implement dictionari 
+use ternari search tri 
+4 adapt design pattern 
+give exampl draw class diagram 
+f2f4 director round telephon short 15 20 min 
+compris gener discuss project intern architectur framework use 
+scalabl concept 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

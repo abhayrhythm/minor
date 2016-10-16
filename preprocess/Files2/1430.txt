@@ -1,0 +1,26 @@
+approach use 1 time n extra space discuss 
+articl new approach discuss support minimum 1 extra space 
+defin variabl minel store current minimum element stack 
+interest part handl case minimum element remov 
+handl push 2x minel stack instead x previou minimum element retriev use current minel valu store stack 
+detail step explan work 
+push x insert x top stack 
+stack empti insert x stack make minel equal x stack empti compar x minel 
+two case aris x greater equal minel simpli insert x x less minel insert 2 x minel stack make minel equal x exampl let previou minel 3 want insert 2 updat minel 2 insert 2 2 3 1 stack 
+pop remov element top stack 
+remov element top 
+let remov element two case aris greater equal minel minimum element stack still minel 
+less minel minimum element becom 2 minel updat minel 2 minel 
+retriev previou minimum current minimum valu stack 
+exampl let element remov 1 minel 2 remov 1 updat minel 2 2 1 3 import point stack hold actual valu element minimum far 
+actual minimum element alway store minel illustr push x number insert 3 stack empti insert 3 stack minel 3 number insert 5 stack empti 5 minel insert 5 stack minel 3 number insert 2 stack empti 2 minel insert 2 2 3 1 stack minel 2 number insert 1 stack empti 1 minel insert 2 1 2 0 stack minel 1 number insert 1 stack empti 1 minel insert 1 stack minel 1 number insert 1 stack empti 1 minel insert 2 1 1 3 stack minel 1 pop initi minimum element minel stack 1 number remov 3 sinc 3 less minimum element origin number remov minel 1 new minel 2 1 3 1 number remov 1 1 minel number remov 1 minel still equal 1 number remov 0 0 minel origin number minel 1 new minel 2 1 0 2 number remov 1 1 minel origin number minel 2 new minel 2 2 1 3 number remov 5 5 minel origin number 5 minel still 3 implement c c program implement stack support getminimum 1 time 1 extra space 
+includ bit stdc h use namespac std user defin stack support getmin addit push pop struct mystack stack int int minel print minimum element mystack void getmin empti cout stack empti n variabl minel store minimum element stack 
+els cout minimum element stack minel n print top element mystack void peek empti cout stack empti return int top top element 
+cout top element minel mean minel store valu minel 
+cout minel cout remov top element mystack void pop empti cout stack empti n return cout top element remov int top pop minimum chang minimum element stack remov 
+minel cout minel n minel 2 minel els cout n remov top element mystack void push int x insert new number stack empti minel x push x cout number insert x n return new number less minel x minel push 2 x minel minel x els push x cout number insert x n driver code int main mystack push 3 push 5 getmin push 2 push 1 getmin pop getmin pop peek return 0 java java program implement stack support getminimum 1 time 1 extra space 
+import java util 
+user defin stack support getmin addit push pop class mystack stack integ integ minel constructor mystack new stack integ print minimum element mystack void getmin get minimum number entir stack isempti system println stack empti variabl minel store minimum element stack 
+els system println minimum element stack minel print top element mystack void peek isempti system println stack empti return integ peek top element 
+system print top element minel mean minel store valu minel system println minel els system println remov top element mystack void pop isempti system println stack empti return system print top element remov integ pop minimum chang minimum element stack remov 
+minel system println minel minel 2 minel els system println insert new number mystack void push integ x isempti minel x push x system println number insert x return new number less origin minel x minel push 2 x minel minel x els push x system println number insert x driver code public class main public static void main string arg mystack new mystack push 3 push 5 getmin push 2 push 1 getmin pop getmin pop peek output 

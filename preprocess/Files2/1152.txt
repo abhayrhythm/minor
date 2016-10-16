@@ -1,0 +1,38 @@
+given array contain posit neg integ find product maximum product subarray 
+expect time complex n 1 extra space use 
+exampl input arr 6 3 10 0 2 output 180 subarray 6 3 10 input arr 1 3 10 0 60 output 60 subarray 60 input arr 2 3 0 2 40 output 80 subarray 2 40 follow solut assum given input array alway posit output 
+solut work case mention 
+work array like 0 0 20 0 0 0 0 etc 
+solut easili modifi handl case 
+similar largest sum contigu subarray problem 
+thing note maximum product also obtain minimum neg product end previou element multipli element 
+exampl array 12 2 3 5 6 2 element 2 maximum product multipl minimum product end 6 2 c c c program find maximum product subarray includ stdio h util function get minimum two integ int min int x int return x 
+x util function get maximum two integ int max int x int return x 
+x return product max product subarray 
+assum given array alway subarray product 1 int maxsubarrayproduct int arr int n max posit product end current posit int max_ending_her 1 min neg product end current posit int min_ending_her 1 initi overal max product int max_so_far 1 travers array 
+follow valu maintain th iter max_ending_her alway 1 posit product end arr min_ending_her alway 1 neg product end arr int 0 n element posit updat max_ending_her 
+updat min_ending_her min_ending_her neg arr 0 max_ending_her max_ending_her arr min_ending_her min min_ending_her arr 1 element 0 maximum product cannot end make max_ending_her min_ending_her 0 assumpt output alway greater equal 1 
+els arr 0 max_ending_her 1 min_ending_her 1 element neg 
+tricki max_ending_her either 1 posit 
+min_ending_her either 1 neg 
+next min_ending_her alway prev 
+max_ending_her arr next max_ending_her 1 prev min_ending_her 1 otherwis next max_ending_her prev min_ending_her arr els int temp max_ending_her max_ending_her max min_ending_her arr 1 min_ending_her temp arr updat max_so_far need max_so_far max_ending_her max_so_far max_ending_her return max_so_far driver program test function int main int arr 1 2 3 0 7 8 2 int n sizeof arr sizeof arr 0 printf maximum sub array product maxsubarrayproduct arr n return 0 java java program find maximum product subarray import java io 
+class productsubarray util function get minimum two integ static int min int x int return x 
+x util function get maximum two integ static int max int x int return x 
+x return product max product subarray 
+assum given array alway subarray product 1 static int maxsubarrayproduct int arr int n arr length max posit product end current posit int max_ending_her 1 min neg product end current posit int min_ending_her 1 initi overal max product int max_so_far 1 travers array 
+follow valu maintain ith iter max_ending_her alway 1 posit product end arr min_ending_her alway 1 neg product end arr int 0 n element posit updat max_ending_her 
+updat min_ending_her min_ending_her neg arr 0 max_ending_her max_ending_her arr min_ending_her min min_ending_her arr 1 element 0 maximum product cannot end make max_ending_her min_end _here 0 assumpt output alway greater equal 1 
+els arr 0 max_ending_her 1 min_ending_her 1 element neg 
+tricki max_ending_her either 1 posit 
+min_ending_her either 1 neg 
+next min_ending_her alway prev 
+max_ending_her arr next max_ending_her 1 prev min_ending_her 1 otherwis next max_ending_her prev min_ending_her arr els int temp max_ending_her max_ending_her max min_ending_her arr 1 min_ending_her temp arr updat max_so_far need max_so_far max_ending_her max_so_far max_ending_her return max_so_far public static void main string arg int arr 1 2 3 0 7 8 2 system println maximum sub array product maxsubarrayproduct arr code contribut devesh agraw python python program find maximum product subarray return product max product subarray 
+assum given array alway subarray product 1 def maxsubarrayproduct arr n len arr max posit product end current posit max_ending_her 1 min posit product end current posit min_ending_her 1 initi maximum far max_so_far 1 travers throughout array 
+follow valu maintain ith iter max_ending_her alway 1 posit product end arr min_ending_her alway 1 neg product end arr rang 0 n element posit updat max_ending_her 
+updat min_ending_her min_ending_her neg arr 0 max_ending_her max_ending_her arr min_ending_her min min_ending_her arr 1 element 0 maximum product cannot end make max_ending_her min_ending_her 0 assumpt output alway greater equal 1 elif arr 0 max_ending_her 1 min_ending_her 1 element neg 
+tricki max_ending_her either 1 posit 
+min_ending_her either 1 neg 
+next min_ending_her alway prev 
+max_ending_her arr next max_ending_her 1 prev min_ending_her 1 otherwis next max_ending_her prev min_ending_her arr els temp max_ending_her max_ending_her max min_ending_her arr 1 min_ending_her temp arr max_so_far max_ending_her max_so_far max_ending_her return max_so_far driver function test function arr 1 2 3 0 7 8 2 print maximum product subarray maxsubarrayproduct arr code contribut devesh agraw output maximum sub array product 112 time complex n auxiliari space 1 articl compil dheeraj jain review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

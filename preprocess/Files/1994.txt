@@ -1,0 +1,50 @@
+
+A function is called pure function if it always returns the same result for same argument values and it has no side effects like modifying an argument (or global variable) or outputting something. The only result of calling a pure function is the return value. Examples of pure functions are strlen(), pow(), sqrt() etc. Examples of impure functions are printf(), rand(), time(), etc.
+If a function is known as pure to compiler then Loop optimization and subexpression elimination can be applied to it. In GCC, we can mark functions as pure using the “pure” attribute. 
+
+__attribute__ ((pure)) return-type fun-name(arguments1, …)
+{
+    /* function body */
+}
+
+Following is an example pure function that returns square of a passed integer.
+
+ __attribute__ _((pure)) int my_square(int val)
+{
+    return val*val;
+}
+
+Consider the below example
+
+for (len = 0; len < strlen(str); ++len)
+    printf("%c", toupper(str[len]));
+
+If “strlen()” function is not marked as pure function then compiler will invoke the “strlen()” function with each iteration of the loop, and if function is marked as pure function then compiler knows that value of “strlen()” function will be same for each call, that’s why compiler optimizes the for loop and generates code like following.
+
+int len = strlen(str);
+
+for (i = 0; i < len; ++i)
+    printf("%c", toupper((str[i]));
+
+Let us write our own pure function to calculate string length.
+
+__attribute__ ((pure)) size_t my_strlen(const char *str)
+{
+    const char *ptr = str;
+    while (*ptr)
+       ++ptr;
+
+    return (ptr – str);
+}
+
+Marking function as pure says that the hypothetical function “my_strlen()” is safe to call fewer times than the program says. 
+This article is compiled by “Narendra Kangralkar” and reviewed by GeeksforGeeks team. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

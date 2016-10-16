@@ -1,0 +1,166 @@
+
+In general or more specifically in competitive programming there are many instances where we need to convert a number to a string or string to a number. But lack of knowledge of certain essential tools bind us to do so. Some methods to achieve this task are mentioned in this article.
+Converting string to number
+Method 1 : Using stringstream class or sscanf()
+Method 2  : String conversion using stoi() or atoi()
+Both these methods have been discussed in detail in the this article.
+Method 3 : Using boost lexical cast
+Boost library offers an inbuild function “lexical_cast(“string”)”, which directly converts a number to string. It returns an exception “bad_lexical_cast” in case of invalid input.
+
+//C++ code to demonstrate working of lexical_cast()
+#include<iostream>
+#include <boost/lexical_cast.hpp>// for lexical_cast()
+#include <string> // for string
+using namespace std;
+int main()
+{
+   string str = "5";
+   string str1 = "6.5";
+
+   // Initializing f_value with casted float
+   // f_value is 6.5
+   float f_value = boost::lexical_cast<float>(str1);
+
+   // Initializing i_value with casted int
+   // i_value is 5
+   int i_value = boost::lexical_cast<int>(str);
+
+   //Displaying casted values
+   cout << "The float value after casting is : ";
+   cout << f_value <<endl;
+   cout << "The int value after casting is : ";
+   cout << i_value <<endl;
+
+   return 0;
+}
+
+Output:
+
+The float value after casting is : 6.5
+The int value after casting is : 5
+
+ 
+ 
+Converting number to string 
+Method 1 : Using string streams 
+In this method, string stream declares a stream object which first inserts a number, as a stream into object and then uses “str()” to follow internal conversion of number to string.
+
+// C++ code to demonstrate string stream method
+// to convert number to string.
+#include<iostream>
+#include <sstream>  // for string streams
+#include <string>  // for string
+using namespace std;
+int main()
+{
+    int num = 2016;
+
+    // declaring output string stream
+    ostringstream str1;
+
+    // Sending a number as a stream into output
+    // string
+    str1 << num;
+
+    // the str() coverts number into string
+    string geek = str1.str();
+
+    // Displaying the string
+    cout << "The newly formed string from number is : ";
+    cout << geek << endl;
+
+    return 0;
+}
+
+Output:
+
+The newly formed string from number is : 2016
+
+Method 2 : Using to_string()
+This function accepts a number(can be any data type) and returns  the number in the desired string.
+
+Implementation:
+
+// C++ code to demonstrate "to_string()" method
+// to convert number to string.
+#include<iostream>
+#include<string> // for string and to_string()
+using namespace std;
+int main()
+{
+    // Declaring integer
+    int i_val = 20;
+
+    // Declaring float
+    float f_val = 30.50;
+
+    // Conversion of int into string using
+    // to_string()
+    string stri = to_string(i_val);
+
+    // Conversion of float into string using
+    // to_string()
+    string strf = to_string(f_val);
+
+    // Displaying the converted strings
+    cout << "The integer in string is : ";
+    cout << stri << endl;
+    cout << "The float in string is : ";
+    cout << strf << endl;
+
+    return 0;    
+}
+
+Output:
+
+The integer in string is : 20
+The float in string is : 30.500000
+
+
+Method 3 : Using boost lexical cast
+Similar to string conversion, the ” lexical_cast() ” function remains the same, but this time argument list modifies to “lexical_cast(numeric_var).
+
+// C++ code to demonstrate "lexical_cast()" method
+// to convert number to string.
+#include <boost/lexical_cast.hpp> // for lexical_cast()
+#include <string> // for string
+using namespace std;
+int main()
+{  
+   // Declaring float
+   float f_val = 10.5;
+
+   // Declaring int
+   int i_val = 17;
+   
+   // lexical_cast() converts a float into string
+   string strf = boost::lexical_cast<string>(f_val); 
+   
+   // lexical_cast() converts a int into string
+   string stri = boost::lexical_cast<string>(i_val); 
+   
+   // Displaying string converted numbers
+   cout << "The float value in string is : ";
+   cout << strf << endl;
+   cout << "The int value in string is : ";
+   cout << stri << endl;
+   
+   return 0;   
+}
+
+Output:
+
+The float value in string is : 10.5
+The int value in string is : 17
+
+This article is contributed by Manjeet Singh . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

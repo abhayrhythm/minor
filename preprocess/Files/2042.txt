@@ -1,0 +1,27 @@
+
+Both languages use try, catch and throw keywords for exception handling, and meaning of try, catch and free blocks is also same in both languages. Following are the differences between Java and C++ exception handling.
+1) In C++, all types (including primitive and pointer) can be thrown as exception. But in Java only throwable objects (Throwable objects are instances of any subclass of the Throwable class) can be thrown as exception. For example, following type of code works in C++, but similar code doesn’t work in Java.
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+   int x = -1; 
+
+   // some other stuff   
+   try {
+      // some other stuff 
+      if( x < 0 )
+      {
+         throw x;
+      }   
+   }
+   catch (int x ) {
+      cout << "Exception occurred: thrown value is " << x << endl;
+   }
+   getchar();
+   return 0;
+}
+
+Output:
+Exception occurred: thrown value is -1

@@ -1,0 +1,40 @@
+follow descript instanc famou puzzl involv n 2 egg build k 36 floor 
+suppos wish know stori 36 stori build safe drop egg caus egg break land 
+make assumpt egg surviv fall use 
+broken egg must discard 
+effect fall egg 
+egg break drop would break drop higher floor 
+egg surviv fall would surviv shorter fall 
+rule first floor window break egg rule 36th floor caus egg break 
+one egg avail wish sure obtain right result experi carri one way 
+drop egg first floor window surviv drop second floor window 
+continu upward break 
+worst case method may requir 36 drop 
+suppos 2 egg avail 
+least number egg drop guarante work case 
+problem actual find critic floor mere decid floor egg drop total number trial minim 
+sourc wiki dynam program strongli recommend click practic move solut 
+post discuss solut gener problem n egg k floor 
+solut tri drop egg everi floor 1 k recurs calcul minimum number drop need worst case 
+floor give minimum valu worst case go part solut 
+follow solut return minimum number trail worst case solut easili modifi print floor number everi trial also 
+1 optim substructur drop egg floor x two case 1 egg break 2 egg break 
+1 egg break drop xth floor need check floor lower x remain egg problem reduc x 1 floor n 1 egg 2 egg break drop xth floor need check floor higher x problem reduc k x floor n egg 
+sinc need minim number trial worst case take maximum two case 
+consid max two case everi floor choos floor yield minimum number trial 
+k number floor n number egg eggdrop n k minimum number trail need find critic floor worst case 
+eggdrop n k 1 min max eggdrop n 1 x 1 eggdrop n k x x 1 2 k 2 overlap subproblem follow recurs implement simpli follow recurs structur mention 
+includ stdio h includ limit h util function get maximum two integ int max int int b return b 
+b function get minimum number trail need worst case n egg k floor int eggdrop int n int k floor trial need 
+one floor one trial need 
+k 1 k 0 return k need k trial one egg k floor n 1 return k int min int_max x re consid drop 1st floor kth floor return minimum valu plu 1 x 1 x k x re max eggdrop n 1 x 1 eggdrop n k x re min min re return min 1 driver program test pront printdup int main int n 2 k 10 printf nminimum number trial worst case egg floor n n k eggdrop n k return 0 output minimum number trial worst case 2 egg 10 floor 4 note function comput subproblem 
+see follow partial recurs tree e 2 2 evalu twice 
+mani repeat subproblem draw complet recurs tree even small valu n k e 2 4 x 1 x 2 x 3 x 4 e 1 0 e 2 3 e 1 1 e 2 2 x 1 e 1 0 e 2 2 partial recurs tree 2 egg 4 floor 
+sinc suproblem call problem overlap subprolem properti 
+egg drop puzzl properti see dynam program problem 
+like typic dynam program dp problem recomput subproblem avoid construct temporari array eggfloor bottom manner 
+dynam program solut follow c python implement egg drop problem use dynam program 
+c dynam program base c program egg drop puzzl includ stdio h includ limit h util function get maximum two integ int max int int b return b 
+b function get minimum number trail need worst case n egg k floor int eggdrop int n int k 2d tabl enteri eggfloor j repres minimum number trial need egg j floor 
+int eggfloor n 1 k 1 int re int j x need one trial one floor and0 trial 0 floor 1 n eggfloor 1 1 eggfloor 0 0 alway need j trial one egg j floor 
+j 1 j k j eggfloor 1 j j fill rest entri tabl use optim substructur properti 2 n j 2 j k j eggfloor j int_max x 1 x j x re 1 max eggfloor 1 x 1 eggfloor j x re eggfloor j eggfloor j re eggfloor n k hold result return eggfloor n k driver program test pront printdup int main int n 2 k 36 printf nminimum number trial worst case egg floor n n k eggdrop n k return 0 

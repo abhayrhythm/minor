@@ -1,0 +1,5 @@
+given three integ b c c either 0 1 without use arithmet relat condit oper set valu variabl x base rule c 0 x els note c binari x b exampl input 5 b 10 c 0 output x 5 input 5 b 10 c 1 output x 10 solut 1 use arithmet oper allow use arithmet oper easili calcul x use one express x 1 c c b x b c b c x c b c includ iostream use namespac std int calcul int int b int c return 1 c c b int main int 5 b 10 c 0 int x calcul b c cout x endl return 0 output 5 solut 2 without use arithmet oper idea construct array size 2 index 0 array store valu variabl index 1 valu variabl b return valu index 0 index 1 array base valu variabl c includ iostream use namespac std int calcul int int b int c int arr b return arr c int main int 5 b 10 c 1 int x calcul b c cout x endl return 0 output 10 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

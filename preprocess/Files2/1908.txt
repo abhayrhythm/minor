@@ -1,0 +1,4 @@
+c high level languag need compil convert execut code program run machin 
+compil run c program 
+step use ubuntu machin gcc compil 
+first creat c program use editor save file filenam c 

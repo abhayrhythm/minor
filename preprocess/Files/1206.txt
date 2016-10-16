@@ -1,0 +1,138 @@
+
+Given a string and a positive integer d, rearrange characters of the given string such that the same characters become at-least d distance away from each other.
+Note that there can be many possible rearrangements, the output should be one of the possible rearrangements. If no such arrangement is possible, that should also be reported.
+Expected time complexity is O(n) where n is length of input string.
+Examples:
+
+Input:  "aaaabbbcc", d = 2
+Output: "ababacabc" 
+
+Input:  "aacbbc", d = 3
+Output: "abcabc" 
+
+Input: "geeksforgeeks", d = 3
+Output: egkesfegkeors
+
+Input:  "aaa",  d = 2
+Output: Cannot be rearranged 
+We have already discussed how to put same characters exactly d distance away. This is a extended version where same characters should be moved at-least d distance away.
+The idea is to use extra space to store frequencies of all characters and maintain an array for inserting the values at correct distance. Following is the complete algorithm –
+
+Let the given string be str and size of string be n and alphabet size is be assumed as 256 (a constant). 
+We scan input string str and store frequencies of all characters in an array freq.
+We create an array dist[] for inserting the values at correct distance. dist[j] will store the least distance between current position and the next position we can use character ‘j’.
+If dist[j] <= 0, character ‘j’ can be inserted in current position. 
+ run a loop n times
+
+Search for next eligible character with maximum frequency and dist[j] <= 0.
+ If we found such character, we put that character at next available position in output array, decrease its frequency and reset its distance as d. If we don’t find any character, string cannot be rearranged and we return false.
+ As we move forward in output string, we decrement distance of all characters in dist[] by 1.
+
+
+
+Following is C++ implementation of above algorithm.
+
+// C++ program to rearrange a string so that all same
+// characters become atleast d distance away
+#include <bits/stdc++.h>
+#define MAX_CHAR 256
+using namespace std;
+
+// The function returns next eligible character
+// with maximum frequency (Greedy!!) and
+// zero or negative distance
+int nextChar(int freq[], int dist[])
+{
+    int max = INT_MIN;
+    for (int i = 0; i < MAX_CHAR; i++)
+        if (dist[i] <= 0 && freq[i] > 0 &&
+        (max == INT_MIN || freq[i] > freq[max]))
+                max = i;
+
+    return max;
+}
+
+// The main function that rearranges input string 'str'
+// such that two same characters become atleast d
+// distance away
+int rearrange(char str[], char out[], int d)
+{
+    // Find length of input string
+    int n = strlen(str);
+
+    // Create an array to store all characters and their
+    // frequencies in str[]
+    int freq[MAX_CHAR] = { 0 };
+
+    // Traverse the input string and store frequencies
+    // of all characters in freq[] array.
+    for (int i = 0; i < n; i++)
+        freq[str[i]]++;
+
+    // Create an array for inserting the values at
+    // correct distance dist[j] stores the least distance
+    // between current position and the next position we
+    // can use character 'j'
+    int dist[MAX_CHAR] = { 0 };
+
+    for (int i = 0; i < n; i++)
+    {
+        // find next eligible character
+        int j = nextChar(freq, dist);
+
+        // return 0 if string cannot be rearranged
+        if (j == INT_MIN)
+            return 0;
+
+        // Put character j at next position
+        out[i] = j;
+
+        // decrease its frequency
+        freq[j]--;
+
+        // set distance as d
+        dist[j] = d;
+
+        // decrease distance of all characters by 1
+        for (int i = 0; i < MAX_CHAR; i++)
+            dist[i]--;
+    }
+
+    // null terminate output string
+    out[n] = '\0';
+
+    // return success
+    return 1;
+}
+
+// Driver code
+int main()
+{
+    char str[] = "aaaabbbcc";
+    int n = strlen(str);
+
+    // To store output
+    char out[n];
+
+    if (rearrange(str, out, 2))
+        cout << out;
+    else
+        cout << "Cannot be rearranged";
+
+    return 0;
+}
+
+Output :
+ababacabc
+
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

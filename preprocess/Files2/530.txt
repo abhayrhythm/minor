@@ -1,0 +1,47 @@
+earlier suffix tree articl creat suffix tree one string queri tree substr check search pattern longest repeat substr built suffix array linear time oper 
+lot problem multipl string involv 
+e g 
+pattern search text file dictionari spell checker phone book autocomplet longest common substr problem longest palindrom substr 
+oper involv string need index faster search retriev 
+one way use suffix trie suffix tree 
+discuss suffix tree 
+suffix tree made set string known gener suffix tree 
+discuss simpl way build gener suffix tree two string 
+later discuss anoth approach build gener suffix tree two string 
+use suffix tree implement one string discuss alreadi modifi bit build gener suffix tree 
+let consid two string x want build gener suffix tree 
+make new string x termin symbol must uniqu 
+build suffix tree x gener suffix tree x logic appli two string e 
+concaten string use uniqu termin symbol build suffix tree concaten string 
+let say x xabxa babxba x xabxa babxba run code implement ukkonen suffix tree construct part 6 string xabxa babxba get follow output click see clearli use tree solv problem refin bit remov unwant substr path label 
+path label substr one input string path label substr multipl input string keep initi portion correspond one string remov later portion 
+exampl path label babxba babxba bxa babxba remov babxba belong 2nd input string new path label bxa respect 
+chang diagram look like click see clearli implement built top origin implement 
+remov unwant charact path label 
+path label charact trim charact path label 
+note implement build gener suffix tree two string x concaten x c program implement ukkonen suffix tree construct build gener suffix tree includ stdio h includ string h includ stdlib h defin max_char 256 struct suffixtreenod struct suffixtreenod children max_char pointer node via suffix link struct suffixtreenod suffixlink start end interv specifi edg node connect parent node 
+edg connect two node one parent one child start end interv given edg store child node 
+let say two nod b connect edg indic 5 8 indic 5 8 store node b 
+int start int end leaf node store index suffix path root leaf int suffixindex typedef struct suffixtreenod node char text 100 input string node root null pointer root node lastnewnod point newli creat intern node wait suffix link set might get new suffix link root next extens phase 
+lastnewnod set null last newli creat intern node got suffix link reset new intern node creat next extens phase 
+node lastnewnod null node activenod null activeedg represet input string charact index charact int activeedg 1 int activelength 0 remainingsuffixcount tell mani suffix yet ad tree int remainingsuffixcount 0 int leafend 1 int rootend null int splitend null int size 1 length input string node newnod int start int end node node node malloc sizeof node int 0 max_char node children null root node suffixlink set null intern node suffixlink set root default current extens may chang next extens node suffixlink root node start start node end end suffixindex set 1 default actual suffix index set later leav end phase node suffixindex 1 return node int edgelength node n n root return 0 return n end n start 1 int walkdown node currnod activepoint chang walk apcfwd use skip count trick trick 1 
+activelength greater current edg length set next intern node activenod adjust activeedg activelength accordingli repres activepoint activelength edgelength currnod activeedg edgelength currnod activelength edgelength currnod activenod currnod return 1 return 0 void extendsuffixtre int po extens rule 1 take care extend leav creat far tree leafend po increment remainingsuffixcount indic new suffix ad list suffix yet ad tree remainingsuffixcount set lastnewnod null start new phase indic intern node wait suffix link reset current phase lastnewnod null add suffix yet ad one one tree remainingsuffixcount 0 activelength 0 activeedg po apcfalz outgo edg start activeedg activenod activenod children text activeedg null extens rule 2 new leaf edg get creat activenod children text activeedg newnod po leafend new leaf edg creat line start existng node current activenod intern node wait suffix link get reset point suffix link last intern node current activenod 
+set lastnewnod null indic node wait suffix link reset 
+lastnewnod null lastnewnod suffixlink activenod lastnewnod null outgo edg start activeedg activenod els get next node end edg start activeedg node next activenod children text activeedg walkdown next walkdown start next node new activenod continu extens rule 3 current charact process alreadi edg text next start activelength text po newli creat node wait suffix link set set suffix link wait node curent activ node lastnewnod null activenod root lastnewnod suffixlink activenod lastnewnod null apcfer3 activelength stop process phase move next phase break activepoint middl edg travers current charact process edg fall tree 
+case add new intern node new leaf edg go new node 
+extens rule 2 new leaf edg new intern node get creat splitend int malloc sizeof int splitend next start activelength 1 new intern node node split newnod next start splitend activenod children text activeedg split new leaf come new intern node split children text po newnod po leafend next start activelength split children text next start next got new intern node 
+intern node creat last extens phase still wait suffix link reset 
+lastnewnod null suffixlink lastnewnod point current newli creat intern node lastnewnod suffixlink split make current newli creat intern node wait suffix link reset point root present 
+come across intern node exist newli creat next extens phase new leaf edg get ad e 
+extens rule 2 appli next extens phase point suffixlink node point intern node 
+lastnewnod split one suffix got ad tree decrement count suffix yet ad 
+remainingsuffixcount activenod root activelength 0 apcfer2c1 activelength activeedg po remainingsuffixcount 1 els activenod root apcfer2c2 activenod activenod suffixlink void print int int j int k k k j text k k printf c text k k j printf print suffix tree well along set suffix index tree print df manner edg along suffix index print void setsuffixindexbydf node n int labelheight n null return n start 1 non root node print label edg parent current node print n start n end int leaf 1 int 0 max_char n children null leaf 1 n start 1 printf n n suffixindex current node leaf outgo edg 
+leaf 0 setsuffixindexbydf n children labelheight edgelength n children leaf 1 n start n end text trim unwant charact n end int malloc sizeof int n end n suffixindex size labelheight printf n n suffixindex void freesuffixtreebypostord node n n null return int 0 max_char n children null freesuffixtreebypostord n children n suffixindex 1 free n end free n build suffix tree print edg label along suffixindex 
+suffixindex leaf edg 0 non leaf edg 1 void buildsuffixtre size strlen text int rootend int malloc sizeof int rootend 1 root special node start end indic 1 parent edg come root root newnod 1 rootend activenod root first activenod root 0 size extendsuffixtre int labelheight 0 setsuffixindexbydf root labelheight free dynam alloc memori freesuffixtreebypostord root driver program test function int main int argc char argv strcpi text xabxac abcabxabcd buildsuffixtre strcpi text xabxa babxba buildsuffixtre return 0 output see output correspond 2nd figur shown 5 12 1 4 11 bx 1 1 ba 7 b 1 1 10 bxba 6 x 1 2 ba 8 x 1 1 3 bxa 0 ba 9 two string size n implement take n time space 
+input string concaten alreadi take 2 n space total n space store gener suffix tree anoth n space store concaten string 
+followup extend implement two string e 
+concaten string use uniqu termin symbol build suffix tree concaten string one problem approach need uniqu termin symbol input string 
+work string mani input string may abl find mani uniqu termin symbol 
+discuss anoth approach build gener suffix tree soon need one uniqu termin symbol resolv problem use build gener suffix tree number input string 
+publish follow articl suffix tree applic suffix tree applic 1 substr check suffix tree applic 2 search pattern suffix tree applic 3 longest repeat substr suffix tree applic 4 build linear time suffix array suffix tree applic 5 longest common substr suffix tree applic 6 longest palindrom substr articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

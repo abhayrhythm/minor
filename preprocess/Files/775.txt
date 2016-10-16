@@ -1,0 +1,41 @@
+
+In data sufficiency questions, we are given a question and a set of statements. We have to find which of the given statements is required to reach the conclusion.
+Sample Problems
+Question 1 : Question – Who is the tallest among the brothers A, B, C, D ?
+Statement 1 : C is shorter than only B
+Statement 2 : D is taller than only A
+I) Statement 1 alone is sufficient
+II) Statement 2 alone is sufficient
+III) Both statement 1 and statement 2 together are sufficient
+IV) Both statement 1 and statement 2 even together are not sufficient
+Solution : If we consider statement 1 only, we can safely conclude that B is the tallest of all.
+If we consider statement 2 only, we can safely conclude that A is the shortest of all.
+Therefore, statement 1 alone is sufficient to answer the question.
+ 
+Question 2 : What is the value of ‘x’
+Statement 1 : x2 + x – 6 = 0
+Statement 2 : x ≥ 0
+I) Statement 1 alone is sufficient
+II) Statement 2 alone is sufficient
+III) Both statement 1 and statement 2 together are sufficient
+IV) Both statement 1 and statement 2 even together are not sufficient
+Solution : If we consider statement 1 alone, we have
+x2 + x – 6 = 0
+=> x2 + 6 x – x – 6 = 0
+=> (x + 6) (x – 1) = 0
+=> x = -6, 1
+If we consider statement 2 alone, we have x ≥ 0
+Combining the two statements, we can safely say that x = 1
+Therefore, both statement 1 and statement 2 together are sufficient but neither alone is sufficient.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

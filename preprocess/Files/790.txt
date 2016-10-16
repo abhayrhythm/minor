@@ -1,0 +1,41 @@
+
+Interview Experiences
+
+TCS
+ITC Infotech
+Citius Tech 
+Wipro
+InfoEdge
+Sapient 
+Accenture 
+
+See this for more interview experiences.
+ 
+Share Your Questions/Experience
+To share your interview experience, please mail your interview experience to contribute@geeksquiz.com
+ 
+Common Interview Questions
+
+
+Accenture’s most asked Interview Questions
+Commonly Asked OOP Interview Questions
+Commonly Asked C++ Interview Questions, 
+Commonly Asked C Programming Interview Questions | Set 1
+Commonly Asked C Programming Interview Questions | Set 2
+Commonly asked DBMS interview questions | Set 1
+Commonly Asked Operating Systems Interview Questions | Set 1
+Commonly Asked Data Structure Interview Questions
+Commonly Asked Algorithm Interview Questions
+Commonly asked Computer Networks Interview Questions
+Common Interview Puzzles
+Amazon’s most asked interview questions
+Microsoft’s most asked interview questions
+
+
+See Books for recommended books on interview preparation. 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

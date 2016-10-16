@@ -1,0 +1,52 @@
+
+What is Laravel ?
+Laravel is a web application framework created by Taylor Otwell in 2011 and like all other modern frameworks, it also follows the Model-View-Controller (MVC) architectural pattern. Laravel values Elegance, Simplicity, and Readability and if one talks of building applications with PHP frameworks, Laravel is second to none.
+Since Laravel is open-source, one can find the source code in its Github repository here. Also, the documentation for the framework can be found on the here.
+ 
+ 
+What are Laracasts?
+If you need help getting started with Laravel, you can right away start learning and developing using Laracasts which has hundreds of video tutorials in it. Skim the basics or start your journey to Laravel mastery, all from Laracasts!
+Want to start now? Laravel from Scratch Laracast link.
+What makes Laravel so special ?
+Laravel is power packed. One can explore more with its ready-to-use bundles some of which are :
+
+Scheduler : It includes support for scheduling periodically executed tasks.
+Cashier : for managing subscription billing services.
+Flysystem : allows remote storage to be used as in the same way as local file systems.
+Socialite : simplified mechanism for authentication with providers like Facebook, Github, Google,  etc.
+
+How good is Laravel ?
+Let us now have a reality check on how good Laravel is as a web application framework based on a few key points :
+
+ Language Support : PHP Version >= 5.5.9
+ MVC Framework : Yes (from Laravel 2 onwards)
+ Object Relational Mapping : Yes. Needed to enforce constraints on the relationship between database objects.
+Testing : Yes. Unit Testing is provided as an integral part of Laravel that prevents regressions in the framework. PHPUnit
+DataBase Migration : Yes. It helps in simplifying the deployment and updating of applications.
+Security : Yes. SSH(Secure Shell )is used as an encrypted network protocol for execution of CLI(command-line interface) commands.
+ Caching : Yes.
+ Form Validation : Yes . Event listeners are bind internally which invokes the form validation methods and thus the actual form is generated.
+ Scaffolding : Yes. In Laravel, the programmer can specify how the application database may be used.
+ Rapid Application Development  : Yes.
+ Mobility : No.
+
+Synopsis
+Developer : Taylor Otwell
+Language : PHP
+Latest Stable Release : Laravel 5.2.21
+Operating System : Cross-platform
+Framework Link: https://laravel.com/
+Github Link : https://github.com/laravel/
+Websites built using Laravel : Deltanet Travel , Neighbourhood Lender
+Article By Harshit Gupta: 
+Kolkata based Harshit Gupta is an active blogger having keen interest in writing about current affairs, technical Blogs, stories, and personal life experiences. Besides passionate about writing, he also loves coding and dancing. Currently studying at IIEST, he is an active blog contributor at geeksforgeeks. You can reach him at https://in.linkedin.com/pub/harshit-gupta/102/b71/605
+If you also wish to showcase your blog here,please see GBlog for guest blog writing on GeeksforGeeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

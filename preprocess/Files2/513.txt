@@ -1,0 +1,28 @@
+worst case search time sort link list n 
+balanc binari search tree skip almost half node one comparison root 
+sort array random access appli binari search array 
+one idea make search faster link list skip list 
+anoth idea discuss post place frequent access item closer head two possibl 
+offlin know complet search sequenc advanc onlin know search sequenc 
+case offlin put node accord decreas frequenc search element maximum search count put first 
+mani practic applic may difficult obtain search sequenc advanc 
+self organ list reorder node base search done 
+idea use local refer typic databas 80 access 20 item 
+follow differ strategi use self organ list 
+1 move front method node search move front 
+strategi easi implement may reward infrequ access item alway move item front 
+2 count method node store count number time search 
+node order decreas count 
+strategi requir extra space store count 
+3 transpos method node search swap preced node 
+unlik move front method adapt quickli chang access pattern 
+competit analysi worst case time complex method n 
+worst case search element alway last element list 
+averag case analysi need probabl distribut search sequenc avail mani time 
+onlin strategi algorithm like total differ way analyz call competit analysi perform onlin algorithm compar perform optim offlin algorithm view sequenc request advanc 
+competit analysi use mani practic algorithm like cach disk page high perform comput 
+best thing competit analysi need assum anyth probabl distribut input 
+move front method 4 competit mean never factor 4 oper offlin algorithm see mit video lectur proof 
+soon discuss implement proof analysi given video lectur 
+refer http en wikipedia org wiki self organizing_list mit video lectur http www eec yorku ca course_arch 2003 04 f 2011 2011a datstr_071_solist pdf http en wikipedia org wiki competitive_analysis_ online_algorithm articl compil abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,8 @@
+stack linear data structur follow particular order oper perform 
+order may lifo last first filo first last 
+mainli follow three basic oper perform stack push add item stack 
+stack full said overflow condit 
+pop remov item stack 
+item pop revers order push 
+stack empti said underflow condit 
+peek get topmost item 

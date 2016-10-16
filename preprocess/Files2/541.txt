@@ -1,0 +1,43 @@
+b tree self balanc search tree 
+self balanc search tree like avl red black tree assum everyth main memori 
+understand use b tree must think huge amount data cannot fit main memori 
+number key high data read disk form block 
+disk access time high compar main memori access time 
+main idea use b tree reduc number disk access 
+tree oper search insert delet max min etc requir h disk access h height tree 
+b tree fat tree 
+height b tree kept low put maximum possibl key b tree node 
+gener b tree node size kept equal disk block size 
+sinc h low b tree total disk access oper reduc significantli compar balanc binari search tree like avl tree red black tree etc 
+properti b tree 1 leav level 
+2 b tree defin term minimum degre 
+valu depend upon disk block size 
+3 everi node except root must contain least 1 key 
+root may contain minimum 1 key 
+4 node includ root may contain 2t 1 key 
+5 number children node equal number key plu 1 
+6 key node sort increas order 
+child two key k1 k2 contain key rang k1 k2 
+7 b tree grow shrink root unlik binari search tree 
+binari search tree grow downward also shrink downward 
+8 like balanc binari search tree time complex search insert delet logn 
+follow exampl b tree minimum degre 3 note practic b tree valu minimum degre much 3 search search similar search binari search tree 
+let key search k start root recurs travers 
+everi visit non leaf node node key simpli return node 
+otherwis recur appropri child child first greater key node 
+reach leaf node find k leaf node return null 
+travers travers also similar inord travers binari tree 
+start leftmost child recurs print leftmost child repeat process remain children key 
+end recurs print rightmost child 
+c implemnt search travers method includ iostream use namespac std btree node class btreenod int key array key int minimum degre defin rang number key btreenod c array child pointer int n current number key bool leaf true node leaf 
+otherwis fals public btreenod int _t bool _leaf constructor function travers node subtre root node void travers function search key subtre root node 
+btreenod search int k return null k present 
+make btree friend access privat member class btree function friend class btree btree class btree btreenod root pointer root node int minimum degre public constructor initi tree empti btree int _t root null _t function travers tree void travers root null root travers function search key tree btreenod search int k return root null 
+null root search k constructor btreenod class btreenod btreenod int _t bool _leaf copi given minimum degre leaf properti _t leaf _leaf alloc memori maximum number possibl key child pointer key new int 2 1 c new btreenod 2 initi number key 0 n 0 function travers node subtre root node void btreenod travers n key n 1 children traver n key first n children int 0 n leaf print key travers subtre root child c 
+leaf fals c travers cout key print subtre root last child leaf fals c travers function search key k subtre root node btreenod btreenod search int k find first key greater equal k int 0 n k key found key equal k return node key k return key found leaf node leaf true return null go appropri child return c search k code contain driver program 
+cover complet program next post b tree insert 
+two convent defin b tree one defin minimum degre follow cormen book second defin order 
+follow minimum degre convent follow come post b tree 
+variabl name use program also kept cormen book better readabl 
+insert delet b tree insert b tree delet refer introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

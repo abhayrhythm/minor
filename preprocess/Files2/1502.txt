@@ -1,0 +1,11 @@
+given array contain 0s 1s find largest subarray contain equal 0s 1s 
+expect time complex n 
+exampl input arr 1 0 1 1 1 0 0 output 1 6 start end index output subarray input arr 1 1 1 1 output subarray input arr 0 0 1 1 0 output 0 3 1 4 sourc largest subarray equal number 0s 1s method 1 simpl simpl method use two nest loop 
+outer loop pick start point inner loop consid subarray start size subarray greater maximum size far updat maximum size 
+code 0s consid 1 sum valu j calcul 
+sum becom 0 size subarray compar largest size far 
+c simpl program find largest subarray equal number 0s 1s includ stdio h function print start end index largest subarray equal number 0s 1s 
+also return size subarray 
+int findsubarray int arr int n int sum 0 int maxsiz 1 startindex pick start point int 0 n 1 sum arr 0 
+1 1 consid subarray start int j 1 j n j arr j 0 
+sum 1 sum 1 0 sum subarray compar maximum size subarray calcul far sum 0 maxsiz j 1 maxsiz j 1 startindex maxsiz 1 printf subarray els printf startindex startindex maxsiz 1 return maxsiz driver program test function int main int arr 1 0 0 1 0 1 1 int size sizeof arr sizeof arr 0 findsubarray arr size return 0 

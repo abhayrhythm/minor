@@ -1,0 +1,15 @@
+given three variabl b c swap without temporari variabl 
+input 10 b 20 c 30 output 30 b 10 c 20 method 1 use arithmet oper idea get sum one two given number 
+number swap use sum subtract sum 
+alreadi discuss swap two variabl 
+extend approach c program swap three variabl without use temporari variabl 
+includ iostream use namespac std assign c valu valu b b valu c void swapthre int int b int c store sum b c 60 b valu b b c b 60 20 30 10 c valu b c b c c 60 10 30 20 valu c b c 60 10 20 30 driver code int main int 10 b 20 c 30 cout swap b b c c endl swapthre b c cout swap b b c c endl return 0 output swap 10 b 20 c 30 swap 30 b 10 c 20 thank mazhar mik suggest method 
+method 2 use bitwis xor bitwis xor oper use swap three variabl 
+idea similar method 1 first store xor number 
+get individu number xor two number 
+c program swap three variabl without use temporari variabl includ iostream use namespac std assign c valu valu b b valu c void swapthre int int b int c store xor b c b valu b b c c valu b c b c valu c b c driver code int main int 10 b 20 c 30 cout swap b b c c endl swapthre b c cout swap b b c c endl return 0 output swap 10 b 20 c 30 swap 30 b 10 c 20 method 1 caus overflow larg valu b c method 2 
+articl contribut shubham 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

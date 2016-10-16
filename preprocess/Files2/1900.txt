@@ -1,0 +1,6 @@
+consid two program program 1 int main int x int x 5 printf x return 0 output c redeclar x linkag program 2 int x int x 5 int main printf x return 0 output c 5 c first program fail compil second program work fine 
+c program fail compil 
+c allow global variabl declar first declar initi variabl 
+program fail c also global variabl initi first declar 
+int x 5 int x 10 int main printf x return 0 output error redefinit x articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

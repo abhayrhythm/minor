@@ -1,0 +1,30 @@
+comput vision know even power tool immens possibl 
+set prepar comic one friend colleg life soon realiz need someth would reduc effort actual paint retain qualiti came follow solut 
+first let show result origin imag cartoon version edg obtain imag adapt threshold result let see code class cartoon cartoon effect class appli cartoon effect imag 
+class use bilater filter adapt threshold creat cartoon effect 
+def __init__ self pass def render self img_rgb img_rgb cv2 imread img_rgb img_rgb cv2 resiz img_rgb 1366 768 numdownsampl 2 number downscal step numbilateralfilt 50 number bilater filter step step 1 downsampl imag use gaussian pyramid img_color img_rgb _ xrang numdownsampl img_color cv2 pyrdown img_color cv2 imshow downcolor img_color cv2 waitkey 0 repeatedli appli small bilater filter instead appli one larg filter _ xrang numbilateralfilt img_color cv2 bilateralfilt img_color 9 9 7 cv2 imshow bilater filter img_color cv2 waitkey 0 upsampl imag origin size _ xrang numdownsampl img_color cv2 pyrup img_color cv2 imshow upscal img_color cv2 waitkey 0 step 2 3 convert grayscal appli median blur img_gray cv2 cvtcolor img_rgb cv2 color_rgb2gray img_blur cv2 medianblur img_gray 3 cv2 imshow grayscal median blur img_color cv2 waitkey 0 step 4 detect enhanc edg img_edg cv2 adaptivethreshold img_blur 255 cv2 adaptive_thresh_mean_c cv2 thresh_binari 9 2 cv2 imshow edg img_edg cv2 waitkey 0 step 5 convert back color bit and color imag x z img_color shape img_edg cv2 resiz img_edg x img_edg cv2 cvtcolor img_edg cv2 color_gray2rgb cv2 imwrit edg png img_edg cv2 imshow step 5 img_edg cv2 waitkey 0 img_edg cv2 resiz img_edg img_color shape 2 print img_edg shape img_color shape return cv2 bitwise_and img_color img_edg tmp_canva cartoon file_nam screenshot png file_nam come re tmp_canva render file_nam cv2 imwrit cartoon version jpg re cv2 imshow cartoon version re cv2 waitkey 0 cv2 destroyallwindow explan basic go use seri filter imag convers 
+first downscal imag appli bilater filter get cartoon flavour 
+upscal imag 
+next step get blur version origin imag 
+want colour interfer process 
+want blur boundari 
+first convert imag gray scale appli media blur filter 
+next step identifi edg imag add previous modifi imag get sketch pen effect 
+first use adapt threshold 
+experi type threshold techniqu also 
+comput vision experi 
+step 5 compil final imag obtain previou step 
+
+experi 
+tri chang sampl step number bilater filter appli even size filter threshold techniqu get edg 
+one thing keep mind 
+process gener one give best result differ imag 
+experi differ valu get feel whole process 
+side 
+auf wiedersehen 
+author vishwesh shrimali undergradu mechan engin student bit pilani 
+fulfil requir taught branch white hat hacker network secur oper ex competit programm 
+firm believ power python major work languag 
+whenev get time apart program attend class watch csi cyber go long walk play guitar silenc 
+motto life enjoy life caus worth enjoy also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

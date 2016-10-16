@@ -1,0 +1,105 @@
+
+Boom numbers are numbers consisting only of digits 2 and 3. Given an integer k (0<k<=10^7) , display the k-th Boom number.
+Examples:
+
+Input : k = 2
+Output: 3
+
+Input : k = 3
+Output: 22
+
+Input : k = 100
+Output: 322323
+
+Input: k = 1000000
+Output: 3332322223223222223
+
+
+
+Reference: http://www.spoj.com/problems/TSHOW1/
+The idea is very simple like  Generate Binary Numbers . Here also we use same approach ,
+we use queue data structure to solve this problem. First enqueue “2” then “3” these two are first and second boom number respectively. Now set count=2, for each time pop() front of queue  and append “2” in poped number and increment count++ if (count==k) then print current Boom number else  append “3” in poped number and increment count++ if (count==k) then print current Boom number. Repeat the process untill we reach to K’th Boom number.  
+This approach can be seen as BFS of a tree with root as empty string. Left child of every node has a 2 appended and right child has 3 appended. Below is C++ implementation of this idea.
+
+// C++ program to find K'th Boom number
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long int ll;
+
+// This function uses queue data structure to K'th
+// Boom number
+void  boomNumber(ll k)
+{
+    // Create an empty queue of strings
+    queue<string> q;
+
+    // Enqueue an empty string
+    q.push("");
+
+    // counter for K'th element
+    ll count = 0;
+
+    // This loop checks the value of count to
+    // become equal to K when value of count
+    // will be equals to k we will print the
+    // Boom number
+    while (count <= k)
+    {
+        // current Boom number
+        string s1 = q.front();
+
+        // pop front
+        q.pop();
+
+        // Store current Boom number before changing it
+        string s2 = s1;
+
+        // Append "2" to string s1 and enqueue it
+        q.push(s1.append("2"));
+        count++;
+
+        // check if count==k
+        if (count==k)
+        {
+            cout << s1 << endl; // K'th Boom number
+            break;
+        }
+
+        // Append "3" to string s2 and enqueue it.
+        // Note that s2 contains the previous front
+        q.push(s2.append("3"));
+        count++;
+
+        // check if count==k
+        if (count==k)
+        {
+            cout << s2 << endl; // K'th Boom number
+            break;
+        }
+    }
+    return ;
+}
+
+// Driver program to test above function
+int main()
+{
+    ll k = 1000000;
+    boomNumber(k);
+    return 0;
+}
+
+Output:
+
+ 3332322223223222223
+
+This article is contributed by Shashank Mishra (Gullu). This article is reviewed by team GeeksforGeeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

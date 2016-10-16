@@ -1,0 +1,10 @@
+predict output follow c program 
+1 includ iostream void init int 1 int b 2 int c 3 int main init return 0 void init int 1 int b 2 int c 3 std cout b c program look correct first glanc fail compil 
+function use default argument default argument written function declar definit 
+declar definit 
+follow program correct 
+includ iostream void init int 1 int b 2 int c 3 int main init fine return 0 void init int int b int c std cout b c 2 includ iostream someth look miss void init int 1 int 2 int 3 int main init return 0 void init int int b int c std cout b c close observ function prototyp look like error actual 
+variabl name omit default argument 
+articl contribut pravasi meet 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

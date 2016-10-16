@@ -1,0 +1,11 @@
+given binari array find maximum number zero array one flip subarray allow 
+flip oper switch 0s 1s 1s 0s 
+exampl input arr 0 1 0 0 1 1 0 output 6 get 6 zero flip subarray 1 1 input arr 0 0 0 1 0 1 output 5 method 1 simpl n2 simpl solut consid subarray find subarray maximum valu count 1s count 0s 
+let valu max_diff 
+final return count zero origin array plu max_diff 
+c program maxim number zero binari array one flip oper includ bit stdc h use namespac std kadan algorithm base solut find maximum number 0s flip subarray 
+int findmaxzerocount bool arr int n initi max_diff maximum count 0s count 1s subarray 
+int max_diff 0 initi count 0s origin array int orig_zero_count 0 consid subarray use two nest two loop int 0 n increment count zero arr 0 orig_zero_count initi count 0s 1s int count1 0 count0 0 consid subarray start arr find differ 1s 0s 
+updat max_diff requir int j j n j arr j 1 
+count1 count0 max_diff max max_diff count1 count0 final result would count 0s origin array plu max_diff 
+return orig_zero_count max_diff driver program int main bool arr 0 1 0 0 1 1 0 int n sizeof arr sizeof arr 0 cout findmaxzerocount arr n return 0 output 6 method 2 effici n 

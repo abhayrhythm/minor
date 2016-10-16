@@ -1,0 +1,11 @@
+given binari tree task flip binari tree toward right direct clockwis 
+see exampl see transform 
+flip oper left node becom root flip tree parent becom right child right sibl becom left child done left node recurs 
+main rotat code subtre root left left root right root left right root root left null root right null code understood follow diagram store root left flip root flip subtre get store recurs call 
+c c program flip binari tree includ bit stdc h use namespac std binari tree node structur struct node int data node left right util function creat new binari tree node struct node newnod int data struct node temp new struct node temp data data temp left temp right null return temp method flip binari tree node flipbinarytre node root base case root null return root root left null root right null return root recurs call method node flippedroot flipbinarytre root left rearrang main root node return recurs call root left left root right root left right root root left root right null return flippedroot iter method level order travers line line void printlevelord node root base case root null return creat empti queue level order travers queue node q enqueu root initi height q push root 1 nodecount queue size indic number node current lelvel 
+int nodecount q size nodecount 0 break dequeu node current level enqueu node next level nodecount 0 node node q front cout node data q pop node left null q push node left node right null q push node right nodecount cout endl driver code int main node root newnod 1 root left newnod 2 root right newnod 3 root right left newnod 4 root right right newnod 5 cout level order travers given tree n printlevelord root root flipbinarytre root cout nlevel order travers flip tree n printlevelord root return 0 output level order travers given tree 1 2 3 4 5 level order travers flip tree 2 3 1 4 5 exercis write iter version code 
+articl contribut utkarsh trivedi 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

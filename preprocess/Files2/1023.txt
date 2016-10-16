@@ -1,0 +1,35 @@
+predict output program question 1 int main unsign int 65000 0 printf return 0 output 1 explan notic semi colon bodi loop 
+even though noth done part bodi control come condit met 
+word soon insid condit becom 0 condit becom fals loop would 
+also notic post increment oper condit 
+first compar 0 increment matter whether condit met 
+sinc initi 65000 keep increment till reach highest posit valu 
+roll happen valu becom zero 
+condit met would increment e 
+1 printf print 1 question 2 int main int 0 0 printf return 0 output 1 explan let us first take condit loop 
+sever oper 
+unari oper anyth 
+simplifi condit becom 0 compar 0 decrement matter whether condit true fals 
+sinc initi 0 condit fals first iter decrement 1 bodi loop execut 
+printf print 1 scari seem 
+question 3 int main float f 5 g 10 enum 10 j 20 k 50 printf n k printf f n f 2 printf lf n f g printf lf n fmod f g return 0 output program compil give 3 error explan j k insid enum therefor like constant 
+word want us 10 anywher program use instead 
+first printf valu modifi allow enum constant 
+second printf left shift oper appli float also allow 
+similarli third printf modulu oper appli float f g also allow 
+question 4 int main int 10 void pascal f int int int f printf return 0 void pascal f integ integ j integ k write j k output program give compil time error explan compil specif question 
+compil support 
+otherwis pascal enforc left right process argument 
+even though argument process order chang use pascal use pascal languag routin write insid c program 
+question 5 void pascal f int int j int k printf j k void cdecl f int int j int k printf j k main int 10 f printf n 10 f printf output compil specif question 
+compil allow 
+explan question deal argument pass mechan 
+call function order argument function process govern c standard 
+one compil process argument left right compil process right left 
+usual program affect argument program differ 
+exampl call funtion fun fun j matter order argument process valu j consist 
+case pass argument function f use variabl 
+order argument process function determin valu argument 
+cdecl enforc right left process argument pascal enforc left right process argument 
+valu j k insid first function f 10 11 12 respect valu j k insid second function f 12 11 10 respect 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

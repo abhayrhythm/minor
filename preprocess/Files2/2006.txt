@@ -1,0 +1,8 @@
+c deriv class redefin base class member method base class method name becom hidden deriv class 
+exampl follow program compil 
+follow program deriv redefin base method fun make fun int hidden 
+includ iostream use namespac std class base public int fun cout base fun call int fun int cout base fun int call class deriv public base public int fun cout deriv fun call int main deriv fun 5 compil error return 0 even signatur deriv class method differ overload method base class becom hidden 
+exampl follow program deriv fun char make base fun base fun int hidden 
+includ iostream use namespac std class base public int fun cout base fun call int fun int cout base fun int call class deriv public base public int fun char c make base fun base fun int hidden cout deriv fun char c call int main deriv fun compil error return 0 note fact true static nonstat method 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,56 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks.
+Rachit Belwariar is studying a 5-Year Integrated B.Tech-M.Tech Dual Degree Course in Information Technology from Indian Institute of Engineering Science and Technology, Shibpur and  currently a Google intern at Google Headquarters, Mountain View, California (more popularly known as “Googleplex”). He is special just not because of his achievements but because he is one of the cherished author at GeeksforGeeks and has published number of articles loved by audiences.
+ 
+
+ 
+How did it all start? What made you land into the world of programming?
+It all started when I switched my department from Mining Engineering to Information Technology in my second year (on the basis of performance in my first year). Had I not followed my brother’s words and not changed from Mining to Information Technology, I would never have been interviewing with GeeksforGeeks today. Hence, luck and a couple of good decisions inspired by some good advices played a crucial role for achieving all this.
+I then started learning Data Structures in my 3rd semester as it was there in my course. I chose C as my language because we were taught that in our first year. I wrapped up the Data Structures course by January, 2016. By that time I had already given few coding contests on Codechef which introduced me to the “World of Algorithms”.
+How did you come to know about GeeksforGeeks?
+I came to knew about GeeksforGeeks when I started facing problems in Algorithms and Data Structures. Whenever I googled something that confused me I only found two dedicated resources on the web. And one of them was GeeksforGeeks , the other being Stackoverflow!
+This year in February, when I was practising Graph Theory problems then I thought of contributing to GeeksforGeeks. I found few topics which were not yet published on GeekforGeeks despite deserving dedicated tutorials on them. As far as I remember, the first article written by me for GeeksforGeeks was on finding Mother Vertex of a Graph. It gave me a lot of fun in writing those articles. I was writing code that would be visible globally to anyone having a decent internet connection. So that was a job of great responsibility.
+Then after my first article I thought of giving some more time to this. Luckily I found an internship at GeeksforGeeks. My internship demanded exactly what I wanted- writing good and clean codes on new and challenging algorithms and data structures and yes I was being paid for doing all this! I started enjoying writing articles and contributing for GeeksforGeeks. The best part at writing GeeksforGeeks were the questions asked by other users on my articles.
+There were few times when even after rigorous checks by me and GeeksforGeeks team, few big bugs still managed to crawl in some of my codes which ultimately got corrected by other active geeks on the website. Thanks to them!
+Hence summarizing all of the above, this internship was my first internship and was a very challenging one which made me more interested towards it.
+Explain your journey as GeeksforGeeks author and how being an author and critic helped you achieve your goals?
+My internship with GeeksforGeeks will always be a memorable one as it was my first internship. I really dedicated myself in this internship this summer. I have written about 40-50 articles on GeeksforGeeks and many of them stayed “Featured Articles” for about 10 days.
+I really learnt a lot from this internship and as an author at GeeksforGeeks. First of all the coding style and the conventions followed at GeeksforGeeks helped me to write clear and neat codes. I had to follow strict rules like- giving proper variable names etc which are very similar to industry standards. Writing the codes while following these rules really gave a positive impression to my Google interviewers. You can see all such rules here.
+In the middle of my GeeksforGeeks internship, I was informed that I have been selected for “Geek of the Month” for June 2016. This was a really a big confidence-booster for me and it only motivated me to write more for GeeksforGeeks.
+P.S:- I also received GeeksforGeeks T-Shirts for my performance and I wear them proudly 😉
+Do you think being from a small town, you have to face hindrances to achieve you want? If yes, how did you overcome them?
+I hail from Patna, Bihar but currently studying in Indian Institute of Engineering Science and Technology, Shibpur, West Bengal.
+I didn’t experience any kind of hindrance. For cracking the coding interviews of big companies you just need few things- A laptop, a descent Wi-Fi connection and a room where you can concentrate.
+There are few privileges you get when you are studying near big cities like-Kolkata. One gets many opportunities to participate in various hackathons and programming competitions happening in the city. I did participate in team in a couple of local programming contests. Although we didn’t win in them but those were experiences worth remembering and I would continue to participate in them in future too.
+I personally feel that apart from hard work, the factors which turned everything in my favour was being surrounded by my parents and my brother who supported me at every step and took right decisions for me whenever I was going to take wrong ones.
+Google internship is actually a dream for so many. How did you do this? Please guide other students how they should prepare for the same?
+Google interviews are heavily based on Algorithms and Data Structures. The questions asked in them are standard and are completely new. My experience in competitive programming helped me a lot. But competitive programming is not the only parameter for getting internships (I was never and still I am not a top notch competitive programmer).
+Had it been so, the companies would never have conducted interviews and would just pick the top competitive programmers according to the ratings/rankings. In my opinion, getting the basics done thoroughly is a very important factor. You can interview in any mainstream language you are comfortable in, but you should be prepare to answer even the deepest questions related to the programming language you chose. For example, while answering a tree based question in my Google interviews I was asked in-depth questions about pointers, since I chose C/C++ as my preferred language. I would describe Google interview in one line as follows-
+“Coding one single never-seen-before question of standard level in your favourite language within 1 hour while describing your thought process clearly”.
+What would you say was the turning point of your life because of which you are here?
+As said earlier, the support from my family is a huge reason for all the things I have achieved till date. I still have a long distance to go but since I have been asked about one “turning point of my life” then I would choose the moment when I switched to Information Technology from Mining Engineering based on my academic performance in the first year. I give credit a huge part of this good decision to my brother as he convinced me to take this decision.
+What’s your advice to students who aim to become excellent programmer and content writer like yours?
+There’s a difference between “being passionate” and “begin motivated”. Try to fall in one of the category (I belong to the second category as I was never passionate about coding. It’s true that if you are passionate then you are automatically motivated but vice versa is not true).
+Rachit can be reached at Github , Projects , Linkedin , Codechef
+Rachit’s Achievements:
+
+Selected for Google Software Engineering Intern in Google, Mountain View, California.
+Wrote almost 50 articles at GeeksforGeeks.
+Qualified the prelims of prestigious Google Code Jam 2016 and solved 2 out of 3 questions in the next round.
+Qualified the prelims of prestigious Facebook Hacker Cup-2016 by solving 3 out of 4 questions.
+Adjudged as a National Finalist at LinkedIn, MTV Get A Job, Flipkart for the position of Mobility Software Engineer Intern 2016 among more than 2 lakh candidates.
+Ranked 124 out of about 5000 participants in March Challenge 2016 – a 10 day Global programming competition- held by Codechef. Codechef is a global programming competition site for students and professionals
+Ranked 35 in ACM ICPC Replay Round held in Codechef.
+Ranked 112 in Microsoft Build The Shield 2016 contest (a 24-hr Hackathon) by scoring 650 points
+
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

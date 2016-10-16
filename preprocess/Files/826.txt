@@ -1,0 +1,27 @@
+
+This project is basically an application which helps friends, colleagues or relatives who live at far off places (generally in another country) plan a trip together to a place in optimal budget.
+Use Case
+One friend lives in Delhi and another in London. They aspire to go for a vacation to a 3rd city. So they put in the details of their respective current locations into the application along with the starting date and duration of the trip. On click of Submit, they are presented with options like “Paris”, “Dubai”, “Abu Dhabi”etc. sorted according to the total budget. The budget includes the costs of their respective flights to and fro, accommodation, average food costs etc.
+Features: 
+
+The factors to be included in calculating the budget can be customized. For example, in addition to already mentioned costs, other costs like international calling card’s cost, Airport pick and drop taxi cost etc. can be added.
+Once the user decides upon the trip to go for, the user will be presented an option to book flight tickets directly from the application.
+The application can act as single solution to cater to all needs of the trip like booking the taxi for pick and drop, buying calling cards, booking the hotel, Visa information, weather details etc.
+Feedback about the trip can be taken after the trip from the user which can be shown to future users for their ready reference.
+
+Technologies: 
+For Web application, the front end can be developed using any JavaScript/HTML based framework like Ext JS, Angular JS. In case of android app, Java is the only option. For backend, PHP can be used to interact with Database.
+Research
+More options can be provided to the users like integration with social networks. For example checking the recently visited places by friends on Facebook to get the first hand trustworthy feedback about the planned trip. Also different algorithms can be developed to design the travel itinerary.
+About the author:
+“Harshit is a technology enthusiast and has keen interest in programming. He holds a  B.Tech. degree in Computer Science from JIIT, Noida and currently works as Front-end Developer at SAP. He is also a state level table tennis player. Apart from this he likes to unwind by watching movies and English sitcoms. He is based out of Delhi and you can reach out to him at https://in.linkedin.com/pub/harshit-jain/2a/129/bb5
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

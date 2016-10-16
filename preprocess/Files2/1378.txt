@@ -1,0 +1,5 @@
+given two number repres two link list write function return sum list 
+sum list link list represent addit two input number 
+allow modifi list 
+also allow use explicit extra space hint use recurs 
+exampl input first list 5 6 3 repres number 563 second list 8 4 2 repres number 842 output result list 1 4 0 5 repres number 1405 strongli recommend click practic move solut 

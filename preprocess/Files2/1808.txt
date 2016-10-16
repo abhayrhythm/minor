@@ -1,0 +1,18 @@
+prerequisit structur c name mark differ subject physic chemistri math given student 
+task comput total mark rank student 
+final display student sort rank 
+rank student comput use rule 
+total mark differ student higher mark get better rank 
+total mark student higher mark math get better rank 
+total mark mark math also student better mark physic get better rank 
+mark total math physic chemistri student assign bedtter rank 
+use structur store detail student 
+struct student string name given int math mark math given int phi mark physic given int che mark chemistri given int total total mark fill int rank rank student fill use std sort structur sort 
+structur sort respect properti possess structur object sort basi one properti object 
+exampl mark student differ subject provid user 
+mark individu subject ad calcul total mark student use sort differ student basi rank explain 
+c program demonstr structur sort c includ bit stdc h use namespac std struct student string name given int math mark math given int phi mark physic given int che mark chemistri given int total total mark fill int rank rank student fill function compar two student accord given rule bool comparetwostud student student b total mark return true higher total total b total return total b total mark math return true higher mark math b math return math b math return phi b phi fill total mark rank student void computerank student int n calcul total mark student int 0 n total math phi che sort structur array use user defin function comparetwostud sort 5 comparetwostud assign rank sort int 0 n rank 1 driver code int main int n 5 array structur object student n detail student 1 0 name bryan 0 math 80 0 phi 95 0 che 85 detail student 2 1 name kevin 1 math 95 1 phi 85 1 che 99 detail student 3 2 name nick 2 math 95 2 phi 85 2 che 80 detail student 4 3 name aj 3 math 80 3 phi 70 3 che 90 detail student 5 4 name howi 4 math 80 4 phi 80 4 che 80 computerank n column name display data cout rank name cout math physic chemistri cout total n display detail student int 0 n cout rank cout name cout math phi che cout total cout n return 0 output rank name math physic chemistri total 1 kevin 95 85 99 279 2 nick 95 85 80 260 3 bryan 80 95 85 260 4 howi 80 80 80 240 5 aj 80 70 90 240 relat articl sort c stl compar function qsort c c qsort vs c sort sort array accord count set bit articl contribut abhinav tiwari 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

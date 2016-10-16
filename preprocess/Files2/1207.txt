@@ -1,0 +1,13 @@
+given string pattern replac multipl occurr pattern charact x 
+convers place solut replac multipl consecut non overlap occurr pattern singl x 
+string geeksforgeek pattern geek output xforx string geeksgeek pattern geek output x string aaaa pattern aa output x string aaaaa pattern aa output xa idea maintain two index j place replac 
+index alway point next charact output string 
+index j travers string search one pattern match 
+match found put charact x index increment index 1 index j length pattern 
+index increment find multipl consecut occurr pattern 
+pattern found copi current charact index j index increment j 1 sinc pattern length alway equal 1 replac 1 charact long would never overwrit unprocess charact e j invari 
+c program place replac multipl occurr pattern charact x includ bit stdc h use namespac std return true pattern prefix str bool compar char str char pattern int 0 pattern str pattern return fals return true function place replac multipl occurr pattern charact x void replacepattern char str char pattern pattern null empti string noth need done pattern null return int len strlen pattern len 0 return int 0 j 0 int count charact str j count 0 compar str j j len pattern compar str j pattern increment j length pattern j j len count singl multipl occurr pattern found replac charact x count 0 str x copi charact current posit j posit increment j str j str str j add null charact termin string str 0 driver code int main char str geeksforgeek char pattern geek replacepattern str pattern cout str return 0 output xforx time complex algorithm n n length string length pattern 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

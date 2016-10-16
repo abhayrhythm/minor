@@ -1,0 +1,45 @@
+articl continu follow four articl ukkonen suffix tree construct part 1 ukkonen suffix tree construct part 2 ukkonen suffix tree construct part 3 ukkonen suffix tree construct part 4 pleas go part 1 part 2 part 3 part 4 look current articl seen basic suffix tree high level ukkonen algorithm suffix link three implement trick detail activepoint along exampl string abcabxabcd went six phase build suffix tree 
+go rest phase 7 11 build tree complet 
+phase 7 phase 7 read 7th charact string set end 7 extens 1 2 3 4 5 6 6 leaf edg far end previou phase 6 increment remainingsuffixcount 1 remainingsuffixcount 1 e 
+1 extens left perform extens 7 suffix run loop remainingsuffixcount time e 
+one time activelength zero activepoint previou phase root x 0 set activeedg current charact activeedg 
+apcfalz 
+activepoint becom root 0 
+check edg go activenod root phase 7 activeedg 
+creat leaf edg 
+present walk 
+exampl edg present go activenod e 
+root increment activelength zero 1 apcfer3 stop process 
+point activepoint root 1 remainingsuffixcount remain set 1 chang end phase 7 remainingsuffixcount 1 one suffix last one ad explicitli tree tree implicitli 
+figur 33 result tree phase 7 
+phase 8 phase 8 read 8th charact b string set end 8 extens 1 2 3 4 5 6 6 leaf edg far end previou phase 7 figur 34 
+increment remainingsuffixcount 1 remainingsuffixcount 2 e 
+two extens left perform extens 7 8 suffix ab b respect run loop remainingsuffixcount time e 
+two time check edg go activenod root phase 8 activeedg 
+creat leaf edg 
+present walk 
+exampl edg present go activenod e 
+root 
+walk trick 1 skip count necessari 
+current phase 8 walk need activelength edgelength 
+activepoint root 1 extens 7 remainingsuffixcount 2 check current charact string b alreadi present activepoint 
+ye process rule 3 
+case exampl increment activelength 1 2 apcfer3 stop rule 3 
+point activepoint root 2 remainingsuffixcount remain set 2 chang remainingsuffixcount end phase 8 remainingsuffixcount 2 two suffix ab b last two ad explicitli tree explicitli tree implicitli 
+phase 9 phase 9 read 9th charact c string set end 9 extens 1 2 3 4 5 6 6 leaf edg far end previou phase 8 increment remainingsuffixcount 1 remainingsuffixcount 3 e 
+three extens left perform extens 7 8 9 suffix abc bc c respect run loop remainingsuffixcount time e 
+three time check edg go activenod root phase 9 activeedg 
+creat leaf edg 
+present walk 
+exampl edg present go activenod e 
+root 
+walk trick 1 skip count necessari 
+current phase 9 walk need activelength 2 edgelength 2 
+walk activepoint chang node c 0 base apcfwd first time apcfwd appli exampl 
+check current charact string c alreadi present activepoint 
+ye process rule 3 
+case exampl increment activelength 0 1 apcfer3 stop rule 3 
+point activepoint node c 1 remainingsuffixcount remain set 3 chang remainingsuffixcount end phase 9 remainingsuffixcount 3 three suffix abc bc c last three ad explicitli tree explicitli tree implicitli 
+phase 10 phase 10 read 10th charact string set end 10 extens 1 2 3 4 5 6 6 leaf edg far end previou phase 9 increment remainingsuffixcount 1 remainingsuffixcount 4 e 
+four extens left perform extens 7 8 9 10 suffix abcd bcd cd respect run loop remainingsuffixcount time e 
+four time extens 7 

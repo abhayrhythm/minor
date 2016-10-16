@@ -1,0 +1,61 @@
+cover basic inform share librari previou post 
+current articl learn creat share librari linux 
+prior need understand program load memori variou basic step involv process 
+let us see typic hello world program c simpl hello world program screen imag given 
+compil code use command gcc sampl share c compil code compil resolv implement function printf 
+verifi syntact check 
+tool chain leav stub applic fill dynam linker 
+sinc printf standard function compil implicitli invok share librari 
+detail 
+use ldd list depend program binari imag 
+screen imag see sampl program depend three binari file name linux vdso 1 libc 6 lib64 ld linux x86 64 2 
+file vdso fast implement system call interfac stuff focu older system may see differ file name liue vsdo 
+ignor file 
+interest two file 
+file libc 6 c implement variou standard function 
+file see printf definit need hello world 
+share librari need load memori run hello world program 
+third file lib64 ld linux x86 64 2 infact execut run applic invok 
+invok program bash termin typic bash fork replac address space imag program run call fork exec pair 
+kernel verifi whether libc 6 resid memori 
+load file memori reloc libc 6 symbol 
+invok dynam linker lib64 ld linux x86 64 2 resolv unresolv symbol applic code printf present case 
+control transfer program main 
+intension omit mani detail process focu understand basic detail 
+creat share librari let us work simpl share librari linux 
+creat file librari c follow content 
+file librari c defin function signum use applic code 
+compil file librari c file use follow command 
+gcc share fpic liblibrari librari c flag share instruct compil build share librari 
+flag fpic gener posit independ code ignor 
+command gener share librari liblibrari current work directori 
+share object file share librari name linux readi use 
+creat anoth file applic c follow content 
+file applic c invok function signum defin share librari 
+compil applic c file use follow command 
+gcc applic c l home geetanjali code llibrari sampl flag llibrari instruct compil look symbol definit avail current code signum function case 
+option l hint compil look directori follow option share librari link time 
+command gener execut name sampl 
+invok execut dynam linker abl find requir share librari 
+default look current work directori 
+explicitli instruct tool chain provid proper path 
+dynam linker search standard path avail ld_library_path also search system cach detail explor command ldconfig 
+add work directori ld_library_path environ variabl 
+follow command 
+export ld_library_path home geetanjali code ld_library_path invok execut shown 
+sampl sampl output system shown 
+note path home geetanjali code work directori path machin 
+need use work directori path ever use command 
+stay tune even explor 1 3rd share librari concept 
+advanc concept later articl 
+exercis workbook like articl 
+gain much unless practic research 
+1 creat similar exampl write function share librari 
+invok function anoth applic 
+2 tool list depend librari 
+3 posit independ code pic 
+4 system cach current context 
+directori etc ld conf relat current context 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

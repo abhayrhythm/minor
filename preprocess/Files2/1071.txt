@@ -1,0 +1,8 @@
+given array arr find maximum valu arr arr j j equal j j vari 0 n 1 n size input array arr 
+exampl input arr 9 15 4 12 13 output 12 get maximum valu 1 j 2 15 1 4 2 12 input arr 1 2 3 4 10 output 6 get maximum valu 4 j 2 10 4 3 2 11 one import observ valu arr arr j j never neg 
+alway swap j convert neg valu posit 
+condit equal j bogu requir explicit check 
+method 1 naiv n2 idea run two loop consid possibl pair keep track maximum valu express arr arr j j 
+c implement idea 
+c program find maximum valu arr arr j j array 
+includ bit stdc h use namespac std return maximum valu arr arr j j int findmaxdiff int arr int n n 2 cout invalid return 0 use two nest loop find result int re int_min int 0 n int j 0 j n j re arr arr j j re arr arr j j return re driver program int main int arr 9 15 4 12 13 int n sizeof arr sizeof arr 0 cout findmaxdiff arr n return 0 output 12 method 2 tricki n 

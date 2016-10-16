@@ -1,0 +1,19 @@
+given two sort array number x find pair whose sum closest x pair element array 
+given two array ar1 0 1 ar2 0 n 1 number x need find pair ar1 ar2 j absolut valu ar1 ar2 j x minimum 
+exampl input ar1 1 4 5 7 ar2 10 20 30 40 x 32 output 1 30 input ar1 1 4 5 7 ar2 10 20 30 40 x 50 output 7 40 strongli recommend minim browser tri first 
+simpl solut run two loop 
+outer loop consid everi element first array inner loop check pair second array 
+keep track minimum differ ar1 ar2 j x n time use follow step 
+1 merg given two array auxiliari array size n use merg process merg sort 
+merg keep anoth boolean array size n indic whether current element merg array ar1 ar2 
+2 consid merg array use linear time algorithm find pair sum closest x one extra thing need consid pair one element ar1 ar2 use boolean array purpos 
+singl pass 1 extra space 
+idea start left side one array right side anoth array use algorithm step 2 approach 
+follow detail algorithm 
+1 initi variabl diff infinit diff use store differ pair x 
+need find minimum diff 
+2 initi two index variabl l r given sort array 
+initi first leftmost index ar1 l 0 b initi second rightmost index ar2 r n 1 3 loop l r 0 ab ar1 l ar2 r sum diff updat diff result b els ar1 l ar2 r sum l c els r 4 print result 
+follow c implement approach 
+c c program find pair two sort aray sum pair closest given number x includ iostream includ climit includ cstdlib use namespac std ar1 0 1 ar2 0 n 1 two given sort array x given number 
+function print pair array sum pair closest x void printclosest int ar1 int ar2 int int n int x initi diff pair sum x int diff int_max res_l res_r result index ar1 ar2 respect int res_l res_r start left side ar1 right side ar2 int l 0 r n 1 l r 0 pair closer x previous found closest updat res_l res_r diff ab ar1 l ar2 r x diff res_l l res_r r diff ab ar1 l ar2 r x sum pair x move smaller side ar1 l ar2 r x r els move greater side l print result cout closest pair ar1 res_l ar2 res_r n driver program test function int main int ar1 1 4 5 7 int ar2 10 20 30 40 int sizeof ar1 sizeof ar1 0 int n sizeof ar2 sizeof ar2 0 int x 38 printclosest ar1 ar2 n x return 0 

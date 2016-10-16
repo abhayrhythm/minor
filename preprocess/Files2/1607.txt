@@ -1,0 +1,24 @@
+given binari tree binari search tree two valu say n1 n2 write program find least common ancestor 
+follow definit lca wikipedia let root tree 
+lowest common ancestor two node n1 n2 defin lowest node n1 n2 descend allow node descend 
+lca n1 n2 share ancestor n1 n2 locat farthest root 
+comput lowest common ancestor may use instanc part procedur determin distanc pair node tree distanc n1 n2 comput distanc root n1 plu distanc root n2 minu twice distanc root lowest common ancestor 
+sourc wiki discuss effici solut find lca binari search tree 
+binari search tree use bst properti find lca h time h height tree 
+implement possibl binari tree key binari tree node follow order 
+follow differ approach find lca binari tree 
+method 1 store root n1 root n2 path follow simpl n algorithm find lca n1 n2 
+1 find path root n1 store vector array 
+2 find path root n2 store anoth vector array 
+3 travers path till valu array 
+return common element mismatch 
+follow c implement algorithm 
+c n solut find lca two given valu n1 n2 includ iostream includ vector use namespac std bianri tree node struct node int key struct node left right util function creat new binari tree node given key node newnod int k node temp new node temp key k temp left temp right null return temp find path root node given root tree store path vector path return true path exist otherwis fals bool findpath node root vector int path int k base case root null return fals store node path vector 
+node remov path root k path push_back root key see k root key root key k return true check k found left right sub tree root left findpath root left path k root right findpath root right path k return true present subtre root root remov root path return fals path pop_back return fals return lca node n1 n2 present given binari tree otherwis return 1 int findlca node root int n1 int n2 store path n1 n2 root vector int path1 path2 find path root n1 root n1 
+either n1 n2 present return 1 findpath root path1 n1 findpath root path2 n2 return 1 compar path get first differ valu int 0 path1 size path2 size path1 path2 break return path1 1 driver program test function int main let us creat binari tree shown diagram 
+node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 cout lca 4 5 findlca root 4 5 cout nlca 4 6 findlca root 4 6 cout nlca 3 4 findlca root 3 4 cout nlca 2 4 findlca root 2 4 return 0 python n solut find lc two given valu n1 n2 binari tree node class node constructor creat new binari node def __init__ self key self key key self left none self right none find path root node given root tree 
+store path list path return true path exist otherwis fals def findpath root path k bae case root none return fals store node path vector 
+node remov path root k path append root key see k root key root key k return true check k found left right sub tree root left none findpath root left path k root right none findpath root right path k return true present subtre root root remov root path return fals path pop return fals return lca node n1 n2 present given binari tre otherwis return 1 def findlca root n1 n2 store path n1 n2 fromth root path1 path2 find path root n1 root n2 
+either n1 n2 present return 1 findpath root path1 n1 findpath root path2 n2 return 1 compar path get first differ valu 0 len path1 len path2 path1 path2 break 1 return path1 1 driver program test function let creat binari tree shown diagram root node 1 root left node 2 root right node 3 root left left node 4 root left right node 5 root right left node 6 root right right node 7 print lca 4 5 findlca root 4 5 print lca 4 6 findlca root 4 6 print lca 3 4 findlca root 3 4 print lca 2 4 findlca root 2 4 code contribut nikhil kumar singh nickzuck_007 output lca 4 5 2 lca 4 6 1 lca 3 4 1 lca 2 4 2 time complex time complex solut n 
+tree travers twice path array compar 
+thank ravi chandra enaganti suggest initi solut base method 

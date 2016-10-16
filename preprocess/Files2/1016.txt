@@ -1,0 +1,5 @@
+follow question ask gate cs 2011 exam 
+1 follow fragment c program print 
+char c gate2011 char p c printf p p 3 p 1 gate2011 b e2011 c 2011 011 answer c see comment explan 
+char c gate2011 p base address string gate2011 char p c p 3 e p 1 
+p 3 p 1 ascii valu e ascii valu 4 express p p 3 p 1 becom p 4 base address string 2011 printf p p 3 p 1 

@@ -1,0 +1,32 @@
+variabl c associ data type 
+data type requir differ amount memori specif oper perform 
+let us briefli describ one one follow exampl common data type use c char basic data type c store singl charact requir singl byte memori almost compil 
+int name suggest int variabl use store integ 
+float use store decim number number float point valu singl precis 
+doubl use store decim number number float point valu doubl precis 
+differ data type also differ rang upto store number 
+rang may vari compil compil 
+list rang along memori requir format specifi 32 bit gcc compil 
+data type memori byte rang format specifi short int 2 32 768 32 767 hd unsign short int 2 0 65 535 hu unsign int 4 0 4 294 967 295 u int 4 2 147 483 648 2 147 483 647 long int 4 2 147 483 648 2 147 483 647 ld unsign long int 4 0 4 294 967 295 lu long long int 8 2 63 2 63 1 lld unsign long long int 8 0 18 446 744 073 709 551 615 llu sign char 1 128 127 c unsign char 1 0 255 c float 4 f doubl 8 lf long doubl 12 lf use sizeof oper check size variabl 
+see follow c program usag variou data type includ stdio h int main int 1 char b g doubl c 3 14 printf hello world n print variabl defin along size printf hello 
+charact 
+valu c size lu byte n b sizeof char use sizeof b well printf hello 
+integ 
+valu size lu byte n sizeof int use sizeof well printf hello 
+doubl float point variabl 
+valu lf size lu byte n c sizeof doubl use sizeof c well printf bye 
+see soon 
+n return 0 output hello world 
+hello 
+charact 
+valu g size 1 byte 
+hello 
+integ 
+valu 1 size 4 byte 
+hello 
+doubl float point variabl 
+valu 3 140000 size 8 byte 
+bye 
+see soon 
+quiz data type c articl contribut ayush jaggi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

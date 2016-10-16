@@ -1,0 +1,17 @@
+given n number arrang circl fnd maximum sum consecut number 
+exampl input 8 8 9 9 10 11 12 output 22 12 8 8 9 9 10 input 10 3 4 7 6 5 4 1 output 23 7 6 5 4 1 10 input 1 40 14 7 6 5 4 1 output 52 7 6 5 4 1 1 40 two case maximum sum case 1 element contribut maximum sum arrang wrap 
+exampl 10 2 1 5 2 4 1 4 1 
+case kadan algorithm produc result 
+case 2 element contribut maximum sum arrang wrap 
+exampl 10 12 11 12 5 4 8 11 
+case chang wrap non wrap 
+let us see 
+wrap contribut element impli non wrap non contribut element find sum non contribut element subtract sum total sum 
+find sum non contribut invert sign element run kadan algorithm 
+array like ring elimin maximum continu neg impli maximum continu posit invert array 
+final compar sum obtain case return maximum two sum 
+thank ashishdey0 suggest solut 
+follow c c java python implement method 
+c c c c program maximum contigu circular sum problem includ stdio h standard kadan algorithm find maximum subarray sum int kadan int int n function return maximum circular contigu sum int maxcircularsum int int n case 1 get maximum sum use standard kadan algorithm int max_kadan kadan n case 2 find maximum sum includ corner element 
+int max_wrap 0 0 n max_wrap calcul array sum invert array chang sign max sum corner element array sum max subarray sum invert array max_wrap max_wrap kadan n maximum circular sum maximum two sum return max_wrap max_kadan 
+max_wrap max_kadan standard kadan algorithm find maximum subarray sum see http www geeksforgeek org archiv 576 detail int kadan int int n int max_so_far 0 max_ending_her 0 int 0 n max_ending_her max_ending_her max_ending_her 0 max_ending_her 0 max_so_far max_ending_her max_so_far max_ending_her return max_so_far driver program test maxcircularsum int main int 11 10 20 5 3 5 8 13 10 int n sizeof sizeof 0 printf maximum circular sum n maxcircularsum n return 0 

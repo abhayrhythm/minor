@@ -1,0 +1,35 @@
+given sort dictionari array word alien languag find order charact languag 
+exampl input word baa abcd abca cab cad output order charact b c note word sort given languag baa come abcd therefor b output 
+similarli find order 
+input word caa aaa aab output order charact c b strongli recommend minim browser tri first 
+idea creat graph charact find topolog sort creat graph 
+follow detail step 
+1 creat graph g number vertic equal size alphabet given alien languag 
+exampl alphabet size 5 5 charact word 
+initi edg graph 
+2 follow everi pair adjac word given sort array 
+let current pair word word1 word2 
+one one compar charact word find first mismatch charact 
+b creat edg g mismatch charact word1 word2 
+3 print topolog sort creat graph 
+follow c implement algorithm 
+c program order charact alien languag includ iostream includ list includ stack includ cstring use namespac std class repres graph class graph int v 
+vertic pointer array contain adjac listslist list int adj function use topologicalsort void topologicalsortutil int v bool visit stack int stack public graph int v constructor function add edg graph void addedg int v int w print topolog sort complet graph void topologicalsort graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+recurs function use topologicalsort void graph topologicalsortutil int v bool visit stack int stack mark current node visit 
+visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit topologicalsortutil visit stack push current vertex stack store result stack push v function topolog sort 
+use recurs topologicalsortutil void graph topologicalsort stack int stack mark vertic visit bool visit new bool v int 0 v visit fals call recurs helper function store topolog sort start vertic one one int 0 v visit fals topologicalsortutil visit stack print content stack stack empti fals cout char stack top stack pop int min int x int return x 
+x function fidn print order charac sort array word 
+n size word 
+alpha set possibl alphabet 
+simplic function written way first alpha charact word array 
+exampl alpha 7 word b c e f g void printord string word int n int alpha creat graph aplha edg graph g alpha process adjac pair word creat graph int 0 n 1 take current two word find first mismatch charact string word1 word word2 word 1 int j 0 j min word1 length word2 length j find mismatch charact add edg charact word1 word2 word1 j word2 j g addedg word1 j word2 j break print topolog sort creat graph g topologicalsort driver program test function int main string word caa aaa aab printord word 3 3 return 0 output c b time complex first step creat graph take n alhpa time n number given word alpha number charact given alphabet 
+second step also topolog sort 
+note would alpha vertic n 1 edg graph 
+time complex topolog sort v e n aplha 
+overal time complex n aplha n aplha n aplha 
+exercis code work input valid 
+exampl aba bba aaa valid first two word deduc appear b last two word deduc b appear possibl 
+extend program handl invalid input gener output valid 
+articl contribut piyush gupta 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

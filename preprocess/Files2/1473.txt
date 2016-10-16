@@ -1,0 +1,11 @@
+given n point 2d plane pair x co ordin need find maximum number point lie line 
+exampl input point 1 1 0 0 1 1 2 2 3 3 3 4 output 4 maximum number point lie line 4 point 0 0 1 1 2 2 3 3 solv problem follow approach point p calcul slope point use map record mani point slope find mani point line p one point 
+point keep thing updat maximum number point count found far 
+thing note implement 1 two point x1 y1 x2 y2 slope y2 y1 x2 x1 doubl valu caus precis problem 
+get rid precis problem treat slope pair y2 y1 x2 x1 instead ratio reduc pair gcd insert map 
+code point vertic repeat treat separ 
+2 use unordered_map c hashmap java store slope pair total time complex solut n 2 c c program find maximum number point lie line includ bit stdc h use namespac std method find maximum colinear point int maxpointonsamelin vector pair int int point int n point size n 2 return n int maxpoint 0 int curmax overlappoint verticalpoint map store slope pair unordered_map pair int int int slopemap loop point int 0 n curmax overlappoint verticalpoint 0 loop 1 ignor pair int j 1 j n j point equal increas overlappoint count point point j overlappoint x co ordin point vertic els point first point j first verticalpoint els int ydif point j second point second int xdif point j first point first int g __gcd xdif ydif reduc differ gcd ydif g xdif g increas frequenc current slope map slopemap make_pair ydif xdif curmax max curmax slopemap make_pair ydif xdif curmax max curmax verticalpoint updat global maximum current point maximum maxpoint max maxpoint curmax overlappoint 1 printf maximum colinear point contain current point n curmax overlappoint 1 slopemap clear return maxpoint driver code int main const int n 6 int arr n 2 1 1 0 0 1 1 2 2 3 3 3 4 vector pair int int point int 0 n point push_back make_pair arr 0 arr 1 cout maxpointonsamelin point endl return 0 output 4 articl contribut utkarsh trivedi 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

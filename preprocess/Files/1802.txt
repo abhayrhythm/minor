@@ -1,0 +1,16 @@
+
+Following two algorithms are generally taught for Minimum Spanning Tree (MST) problem.
+Prim’s algorithm
+Kruskal’s algorithm
+There is a third algorithm called Boruvka’s algorithm for MST which (like the above two) is also Greedy algorithm.  The Boruvka’s algorithm is the oldest minimum spanning tree algorithm was discovered by Boruuvka in 1926, long before computers even existed. The algorithm was published as a method of constructing an efficient electricity network. See following links for the working and applications of the algorithm.
+Sources:
+http://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

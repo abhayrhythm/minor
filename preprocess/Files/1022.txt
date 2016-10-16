@@ -1,0 +1,93 @@
+
+Predict the output of below programs
+
+Question 1
+
+int main()
+{
+    while(1){
+        if(printf("%d",printf("%d")))
+            break;
+        else
+            continue;
+    }
+    return 0;
+}
+
+Output:
+Can’t be predicted
+Explanation:
+The condition in while loop is 1 so at first shot it looks infinite loop. Then there are break and continue in the body of the while loop, so it may not be infinite loop. The break statement will be executed if the condition under if is met, otherwise continue will be executed. Since there’s no other statements after continue in the while loop, continue doesn’t serve any purpose. In fact it is extraneous. So let us see the if condition. If we look carefully, we will notice that the condition of the if will be met always, so break will be executed at the first iteration itself and we will come out of while loop. The reason why the condition of if will be met is printf function. Function printf always returns the no. of bytes it has output. For example, the return value of printf(“geeks”) will be 5 because printf will output 5 characters here. In our case, the inner printf will be executed first but this printf doesn’t have argument for format specifier i.e. %d. It means this printf will print any arbitrary value. But notice that even for any arbirary value, the no. of bytes output by inner printf would be non-zero. And those no. of bytes will work as argument to outer printf. The outer printf will print that many no. of bytes and return non-zero value always. So the condition for if is also true always. Therefore, the while loop be executed only once. As a side note, even without outer printf also, the condition for if is always true. 
+Question 2
+
+int main()
+{
+    unsigned int i=10;
+    while(i-- >= 0)
+        printf("%u ",i);
+    return 0;
+}
+
+Output:
+9 8 7 6 5 4 3 2 1 0 4294967295 4294967294 …… (on a machine where int is 4 bytes long)
+9 8 7 6 5 4 3 2 1 0 65535 65534 …. (on a machine where int is 2 bytes long)
+Explanation:
+Let us examine the condition of while loop. It is obvious that as far as the condition of while loop is met, printf will be executed. There are two operators in the condition of while loop: post-decrement operator and comparison operator. From operator precedence, we know that unary operator post-decrement has higher priority than comparison operator. But due to post-decrement property, the value of i will be decremented only after it had been used for comparison. So at the first iteration, the condition is true because 10>=0 and then i is decremented. Therefore 9 will be printed. Similarly the loop continues and the value of i keeps on decrementing. Let us see what what happen when condition of while loop becomes 0 >= 0. At this time, condition is met and i is decremented. Since i is unsigned integer, the roll-over happens and i takes the value of the highest +ve value an unsigned int can take. So i is never negative. Therefore, it becomes infinite while loop. 
+As a side note, if i was signed int, the while loop would have been terminated after printing the highest negative value.
+Question 3
+
+int main()
+{
+    int x,y=2,z,a;
+    if ( x = y%2) 
+         z =2;
+    a=2;
+    printf("%d %d ",z,x);
+    return 0;
+}
+
+Output:
+< some garbage value of z > 0
+Explanation:
+This question has some stuff for operator precedence. If the condition of if is met, then z will be initialized to 2 otherwise z will contain garbage value. But the condition of if has two operators: assignment operator and modulus operator. The precedence of modulus is higher than assignment. So y%2 is zero and it’ll be assigned to x. So the value of x becomes zero which is also the effective condition for if. And therefore, condition of if is false.  
+Question 4
+ 
+int main()
+{
+    int a[10];
+    printf("%d",*a+1-*a+3);
+    return 0;
+}
+
+Output: 4
+Explanation:
+From operator precedence, de-reference operator has higher priority than addition/subtraction operator. So de-reference will be applied first. Here, a is an array which is not initialized. If we use a, then it will point to the first element of the array. Therefore *a will be the first element of the array. Suppose first element of array is x, then the argument inside printf becomes as follows. It’s effective value is 4.
+x + 1 – x + 3 = 4
+Question 5
+
+#define prod(a,b) a*b
+int main()
+{
+    int x=3,y=4;
+    printf("%d",prod(x+2,y-1));
+    return 0;
+}
+
+Output:
+10
+Explanation:
+This program deals with macros, their side effects and operator precedence. Here prod is a macro which multiplies its two arguments a and b. Let us take a closer look.
+prod(a, b) = a*b
+prod(x+2, y-1) = x+2*y-1 = 3+2*4-1 = 3+8-1=10
+If the programmer really wanted to multiply x+2 and y-1, he should have put parenthesis around a and b as follows.
+prod(a,b) = (a)*(b)
+This type of mistake in macro definition is called – macro side-effects.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

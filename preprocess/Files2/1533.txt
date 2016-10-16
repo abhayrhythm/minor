@@ -1,0 +1,13 @@
+given binari tree print node extrem corner level altern order 
+exampl tree output 1 2 7 8 31 print rightmost node 1st level print leftmost node 2nd level print rightmost node 3rd level print leftmost node 4th level print rightmost node 5th level 1 3 4 15 16 print leftmost node 1st level print rightmost node 2nd level print leftmost node 3rd level print rightmost node 4th level print leftmost node 5th level idea travers tree level level 
+level count number node print leftmost rightmost node base valu boolean flag 
+dequeu node current level enqueu node next level invert valu boolean flag switch level 
+c implement idea c program print node extrem corner level altern order includ bit stdc h use namespac std binari tree node data pointer left child pointer right child struct node int data node left right helper function alloc new node given data null left right pointer 
+node newnod int data node node new node node data data node right node left null return node function print node extrem corner level altern order void printextremenod node root root null return creat queue enqueu left right children root queue node q q push root flag indic whether leftmost node rightmost node print bool flag fals q empti nodecount indic number node current level 
+int nodecount q size int n nodecount dequeu node current level enqueu node next level n node curr q front enqueu left child curr left q push curr left enqueu right child curr right q push curr right dequeu node q pop flag true print leftmost node flag n nodecount 1 cout curr data flag fals print rightmost node flag n 0 cout curr data invert flag next level flag flag driver program test function int main binari tree height 4 node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right right newnod 7 root left left left newnod 8 root left left right newnod 9 root left right left newnod 10 root left right right newnod 11 root right right left newnod 14 root right right right newnod 15 root left left left left newnod 16 root left left left right newnod 17 root right right right right newnod 31 printextremenod root return 0 output 1 2 7 8 31 time complex solut n n total number node given binari tree 
+exercis print node extrem corner level bottom top altern order 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

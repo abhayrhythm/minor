@@ -1,0 +1,36 @@
+strongli recommend refer post prerequisit 
+hash set 1 introduct hash set 2 separ chain open address like separ chain open address method handl collis 
+open address element store hash tabl 
+point size tabl must greater equal total number key note increas tabl size copi old data need 
+insert k keep probe empti slot found 
+empti slot found insert k search k keep probe slot key becom equal k empti slot reach 
+delet k delet oper interest 
+simpli delet key search may fail 
+slot delet key mark special delet 
+insert insert item delet slot search stop delet slot 
+open address done follow way linear probe linear probe linearli probe next slot 
+exampl typic gap two probe 1 taken exampl also 
+let hash x slot index comput use hash function tabl size slot hash x full tri hash x 1 hash x 1 also full tri hash x 2 hash x 2 also full tri hash x 3 let us consid simpl hash function key mod 7 sequenc key 50 700 76 85 92 73 101 cluster main problem linear probe cluster mani consecut element form group start take time find free slot search element 
+b quadrat probe look i2 th slot th iter 
+let hash x slot index comput use hash function 
+slot hash x full tri hash x 1 1 hash x 1 1 also full tri hash x 2 2 hash x 2 2 also full tri hash x 3 3 c doubl hash use anoth hash function hash2 x look hash2 x slot th rotat 
+let hash x slot index comput use hash function 
+slot hash x full tri hash x 1 hash2 x hash x 1 hash2 x also full tri hash x 2 hash2 x hash x 2 hash2 x also full tri hash x 3 hash2 x see step step diagram 
+comparison three linear probe best cach perform suffer cluster 
+one advantag linear probe easi comput 
+quadrat probe lie two term cach perform cluster 
+doubl hash poor cach perform cluster 
+doubl hash requir comput time two hash function need comput 
+open address vs separ chain advantag chain 1 chain simpler implement 
+2 chain hash tabl never fill alway add element chain 
+open address tabl may becom full 
+3 chain less sensit hash function load factor 
+4 chain mostli use unknown mani frequent key may insert delet 
+5 open address requir extra care avoid cluster load factor 
+advantag open address 1 cach perform chain good key store use link list 
+open address provid better cach perform everyth store tabl 
+2 wastag space part hash tabl chain never use 
+open address slot use even input map 
+3 chain use extra space link 
+perform open address like chain perform hash evalu assumpt key equal like hash slot tabl simpl uniform hash number slot hash tabl n number key insert tabl load factor α n 1 expect time search insert delet 1 1 α search insert delet take 1 1 α time refer http cours csail mit edu 6 006 fall11 lectur lecture10 pdf http www cse cuhk edu hk irwin king _media teach csc2100b tu6 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

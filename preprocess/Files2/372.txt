@@ -1,0 +1,18 @@
+given pair sum array size origin array n construct origin array 
+pair sum array array array contain sum pair order form 
+exampl pair sum array arr 6 8 3 4 14 9 10 11 12 7 
+gener pair sum array arr 0 n 1 arr 0 arr 1 arr 0 arr 2 arr 1 arr 2 arr 1 arr 3 arr 2 arr 3 arr 2 arr 4 arr n 2 arr n 1 
+given pair sum array construct origin array strongli recommend minim browser tri 
+let given array pair let n element origin array 
+take look exampl observ arr 0 half pair 0 pair 1 pair n 1 
+note valu pair 0 pair 1 pair n 1 arr 0 arr 1 arr 0 arr 2 arr 1 arr 2 
+evalu arr 0 evalu element subtract arr 0 
+exampl arr 1 evalu subtract arr 0 pair 0 arr 2 evalu subtract arr 0 pair 1 
+follow c java implement idea 
+c includ iostream use namespac std fill element arr pair sum array pair 
+n size arr void constructarr int arr int pair int n arr 0 pair 0 pair 1 pair n 1 2 int 1 n arr pair 1 arr 0 driver program test function int main int pair 15 13 11 10 12 10 9 8 7 5 int n 5 int arr n constructarr arr pair n int 0 n cout arr return 0 java import java io 
+class pairsum fill element arr pair sum array pair 
+n size arr static void constructarr int arr int pair int n arr 0 pair 0 pair 1 pair n 1 2 int 1 n arr pair 1 arr 0 driver program test function public static void main string arg int pair 15 13 11 10 12 10 9 8 7 5 int n 5 int arr new int n constructarr arr pair n int 0 n system print arr code contribut devesh agraw output 8 7 5 3 2 time complex constructarr n n number element arr 
+articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

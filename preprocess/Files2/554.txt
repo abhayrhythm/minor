@@ -1,0 +1,15 @@
+like red black avl tree treap balanc binari search tree guarante height log n 
+idea use random binari heap properti maintain balanc high probabl 
+expect time complex search insert delet log n 
+everi node treap maintain two valu 
+1 key follow standard bst order left smaller right greater 2 prioriti randomli assign valu follow max heap properti 
+basic oper treap like self balanc binari search tree treap use rotat maintain max heap properti insert delet 
+t1 t2 t3 subtre tree root left side x right side x right rotat x t3 t1 t1 t2 left rotat t2 t3 key tree follow follow order key t1 key x key t2 key key t3 bst properti violat anywher 
+search x perform standard bst search find x insert x 1 creat new node key equal x valu equal random valu 
+2 perform standard bst insert 
+3 use rotat make sure insert node prioriti follow max heap properti 
+delet x 1 node delet leaf delet 
+2 els replac node prioriti minu infinit inf appropri rotat bring node leaf 
+refer implement treap search insert delet detail 
+refer http en wikipedia org wiki treap http cours cs washington edu cours cse326 00wi handout lecture19 sld017 htm pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

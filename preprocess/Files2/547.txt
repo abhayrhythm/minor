@@ -1,0 +1,30 @@
+red black tree self balanc binari search tree bst everi node follow follow rule 
+1 everi node color either red black 
+2 root tree alway black 
+3 two adjac red node red node cannot red parent red child 
+4 everi path root null node number black node 
+red black tree 
+bst oper e g search max min insert delet etc take h time h height bst 
+cost oper may becom n skew binari tree 
+make sure height tree remain logn everi insert delet guarante upper bound logn oper 
+height red black tree alway logn n number node tree 
+comparison avl tree avl tree balanc compar red black tree may caus rotat insert delet 
+applic involv mani frequent insert delet red black tree prefer 
+insert delet less frequent search frequent oper avl tree prefer red black tree 
+red black tree ensur balanc 
+simpl exampl understand balanc chain 3 node possibl red black tree 
+tri combin color see violat red black tree properti 
+chain 3 node node possibl red black tree 
+follow red black tree 30 30 30 20 nil 20 nil 20 nil 10 nil 10 nil 10 nil violat violat violat properti 4 properti 4 properti 3 follow differ possibl red black tree 3 key 20 20 10 30 10 30 nil nil nil nil nil nil nil nil exampl get idea red black tree ensur balanc 
+follow import fact balanc red black tree 
+everi red black tree n node height 2log2 n 1 prove use follow fact 1 gener binari tree let k minimum number node root null path n 2k 1 ex 
+k 3 n atleast 7 
+express also written k 2log2 n 1 2 properti 4 red black tree claim say red black tree n node root leaf path log2 n 1 black node 
+3 properti 3 red black tree claim number black node red black tree least n 2 n total number node 
+2 point conclud fact red black tree n node height 2log2 n 1 post introduc red black tree discuss balanc ensur 
+hard part maintain balanc key ad remov 
+soon discuss insert delet oper come post red black tree 
+exercis 1 possibl black node red black tree 
+2 draw red black tree avl tree structur wise 
+insert delet red black tree insert red black tree delet refer introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest http en wikipedia org wiki red e2 80 93black_tre video lectur red black tree tim roughgarden mit video lectur red black tree mit lectur note red black tree pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

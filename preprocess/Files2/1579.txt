@@ -1,0 +1,27 @@
+complet binari tree binari tree whose level except last level complet fill leav last level left side 
+inform complet binari tree found 
+exampl tree complet binari tree node till second last node fill leav left side tree complet binari tree second level complet fill tree complet binari tree leav align left 
+left child node node data 3 empti right child node non empti 
+iter solut problem discuss post 
+check whether given binari tree complet set 1 use level order travers post recurs solut discuss 
+array represent binari tree parent node assign index left child get assign index 2 1 right child assign index 2 2 
+repres binari tree array respect indic assign differ node tree shown seen figur assign indic case complet binari tree strictli less number node complet binari tree 
+exampl non complet binari tree assign array indic 
+seen assign indic equal number node binari tree 
+henc tree complet binari tree 
+henc proceed follow manner order check binari tree complet binari tree 
+calcul number node count binari tree 
+start recurs binari tree root node binari tree index set 0 number node binari count 
+current node examin null tree complet binari tree 
+return true 
+index current node greater equal number node binari tree count e 
+count tree complet binari 
+return fals 
+recurs check left right sub tree binari tree condit 
+left sub tree use index 2 1 right sub tree use index 2 2 
+time complex algorithm n 
+follow code check binari tree complet binari tree 
+c c program check binari tree complet ot includ stdio h includ stdlib h includ stdbool h tree node structur struct node int key struct node left right helper function alloc new node given key null left right pointer 
+struct node newnod char k struct node node struct node malloc sizeof struct node node key k node right node left null return node function count number node binari tree unsign int countnod struct node root root null return 0 return 1 countnod root left countnod root right function check binari tree complet bool iscomplet struct node root unsign int index unsign int number_nod empti tree complet root null return true index assign current node number node tree tree complet index number_nod return fals recur left right subtre return iscomplet root left 2 index 1 number_nod iscomplet root right 2 index 2 number_nod driver program int main le us creat tree last diagram struct node root null root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right right newnod 6 unsign int node_count countnod root unsign int index 0 iscomplet root index node_count printf binari tree complet n els printf binari tree complet n return 0 java java program check binay tree complet tree node structur class node int data node left right node int item data item left right null class binarytre node root function count number node binari tree int countnod node root root null return 0 return 1 countnod root left countnod root right function check binari tree complet boolean iscomplet node root int index int number_nod empti tree complet root null return true index assign current node number node tree tree complet index number_nod return fals recur left right subtre return iscomplet root left 2 index 1 number_nod iscomplet root right 2 index 2 number_nod driver program public static void main string arg binarytre tree new binarytre le us creat tree last diagram node newroot null tree root new node 1 tree root left new node 2 tree root right new node 3 tree root left right new node 5 tree root left left new node 4 tree root right right new node 6 int node_count tree countnod tree root int index 0 tree iscomplet tree root index node_count system print binari tree complet els system print binari tree complet code contribut mayank jaiswal python python program check binari tree complet tree node structur class node contructor creat new node def __init__ self key self key key self left none self right none function count number node binari tree def countnod root root none return 0 return 1 countnod root left countnod root right function check binari tree complet def iscomplet root index number_nod empti complet root none return true index assign current node number node tree tree complet index number_nod return fals recur left right subtress return iscomplet root left 2 index 1 number_nod iscomplet root right 2 index 2 number_nod driver program root node 1 root left node 2 root right node 3 root left left node 4 root left right node 5 root right right node 6 node_count countnod root index 0 iscomplet root index node_count print binari tree complet els print binari tree complet code contribut nikhil kumar singh nickzuck_007 output binari tree complet articl contribut gaurav gupta 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

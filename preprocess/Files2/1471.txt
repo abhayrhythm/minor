@@ -1,0 +1,12 @@
+write function print spiral order travers tree 
+tree function print 1 2 3 4 5 6 7 method 1 recurs problem bee seen extens level order travers post 
+print node spiral order node differ level print altern order 
+addit boolean variabl ltr use chang print order level 
+ltr 1 printgivenlevel print node left right els right left 
+valu ltr flip iter chang order 
+function print level order travers tree printspir tree bool ltr 0 1 height tree printgivenlevel tree ltr ltr ltr flip ltr function print node given level printgivenlevel tree level ltr tree null return level 1 print tree data els level greater 1 ltr printgivenlevel tree left level 1 ltr printgivenlevel tree right level 1 ltr els printgivenlevel tree right level 1 ltr printgivenlevel tree left level 1 ltr follow c implement algorithm 
+c c program recurs level order travers spiral form includ stdio h includ stdlib h includ stdbool h binari tree node data pointer left child pointer right child struct node int data struct node left struct node right function protoyp void printgivenlevel struct node root int level int ltr int height struct node node struct node newnod int data function print spiral travers tree void printspir struct node root int h height root int ltr left right 
+variabl set given level traverse left right 
+bool ltr fals 1 h printgivenlevel root ltr revert ltr travers next level opposit order ltr ltr print node given level void printgivenlevel struct node root int level int ltr root null return level 1 printf root data els level 1 ltr printgivenlevel root left level 1 ltr printgivenlevel root right level 1 ltr els printgivenlevel root right level 1 ltr printgivenlevel root left level 1 ltr comput height tree number node along longest path root node farthest leaf node 
+int height struct node node node null return 0 els comput height subtre int lheight height node left int rheight height node right use larger one lheight rheight return lheight 1 els return rheight 1 helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null return node driver program test function int main struct node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 7 root left right newnod 6 root right left newnod 5 root right right newnod 4 printf spiral order travers binari tree n printspir root return 0 

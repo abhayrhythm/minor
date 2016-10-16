@@ -1,0 +1,17 @@
+given undirect graph tree characterist 
+possibl choos node root task find node minim height tree 
+exampl diagram node made root one one see 3 4 root height tree minimum 2 3 4 answer 
+solv problem first think 1 solut longest graph given node minim height mid node total node count odd mid two node total node count even 
+solut reach follow approach start two pointer end path move one step time pointer meet one step away end pointer node minim height divid node evenli height minimum 
+approach appli gener tree also 
+start pointer leaf node move one step insid time keep combin pointer overlap move end one pointer remain vertex two pointer remain one distanc away 
+node repres root vertex minim height tree 
+one root max two root minimum height depend tree structur explain 
+implement use actual pointer instead follow bf like approach start leaf node push queue remov tree next new leaf node push queue procedur keep go 1 2 node tree repres result 
+access node total time complex solut n 
+c program find root give minimum height tree includ bit stdc h use namespac std class repres undirect graph use adjac list represent class graph public int v 
+vertic pointer array contain adjac list list int adj vector store degre vertic vector int degre graph int v constructor void addedg int v int w add edg function get root give minimum height vector int rootforminimumheight constructor graph initi adjac list degre vector graph graph int v v v adj new list int v int 0 v degre push_back 0 addedg method add vertex adjac list increas degre 1 void graph addedg int v int w adj v push_back w add w v list adj w push_back v add v w list degre v increment degre v 1 degre w increment degre w 1 method return root give minimum height tree vector int graph rootforminimumheight queue int q first enqueu leaf node queue int 0 v degre 1 q push loop until total vertex remain less 2 v 2 int 0 q size int q front q pop v neighbour decreas degre becom leaf insert queue auto j adj begin j adj end j degre j degre j 1 q push j copi result queue result vector vector int re q empti re push_back q front q pop return re driver code test method int main graph g 6 g addedg 0 3 g addedg 1 3 g addedg 2 3 g addedg 4 3 g addedg 5 4 vector int re g rootforminimumheight int 0 re size cout re cout endl output 3 4 articl contribut utkarsh trivedi 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

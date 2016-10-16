@@ -1,0 +1,21 @@
+given huge file dynam data write program read last n line file point without read entir file 
+problem similar tail command linux display last line file 
+mostli use view log file updat updat append log file 
+sourc microsoft interview strongli recommend minim browser tri first 
+problem mainli focus thing 1 program read entir file 
+2 program handl incom dynam data return last n line point 
+3 program close input stream read last n line 
+c implement c program implement tail includ bit stdc h use namespac std defin size 100 util function sleep n second void sleep unsign int n clock_t goal n 1000 clock goal clock function read last n line file point without read entir file void tail file int n int count 0 count n charact unsign long long po store upto 2 64 1 char assum long long int take 8 byte unsign long long po char str 2 size go end file fseek 0 seek_end perror fseek fail els po contain 
+char input file 
+po ftell search n charact po move po away end file 
+fseek po seek_set fgetc n stop read n newlin found count n break els perror fseek fail print last n line printf print last line n n fget str sizeof str printf str printf n n creat file print call tail 10 differ valu n 1 10 int main file fp char buffer size open file binari mode wb mode read write simultan fp fopen input txt wb fp null printf error open file exit exit_failur srand time null dynam add line input file call tail time int index 1 index 10 index gener random log print input file int 0 size 1 buffer rand 26 65 z buffer size 0 code print timestamp log get current calendar time time_t ltime time null asctim return pointer string repres day time char date asctim localtim ltime replac n charact date string 0 print line 
+date strlen date 1 0 note text mode n append two charact open file binari mode fprintf fp nline index date buffer flush input stream call tail fflush fp read last index line file tail fp index sleep 3 second note differ timestamp log sleep 3 close file end program fclose fp return 0 point note 1 code work onlin compil requir file creation permiss 
+run local machin produc sampl input file input txt dynam write data 10 time call tail function everi time 
+2 avoid use fseek ftell huge file gb oper file posit type long int 
+use _fseeki64 _ftelli64 instead 
+3 unsign long max allow valu 232 1 assum unsign long take 4 byte 
+use file size less 4 gb file 
+4 unsign long long max allow valu 264 1 assum unsign long long take 8 byte 
+use file size 4 gb 
+articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

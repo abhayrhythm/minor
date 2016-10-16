@@ -1,0 +1,16 @@
+write c program termin ctrl c press 
+print messag cannot termin use ctrl c continu execut 
+use signal handl c 
+ctrl c press sigint signal gener catch signal run defin signal handler 
+c standard defin follow 6 signal signal h header file 
+sigabrt abnorm termin 
+sigfp float point except 
+sigil invalid instruct 
+sigint interact attent request sent program 
+sigsegv invalid memori access 
+sigterm termin request sent program 
+addit signal specifi unix unix like oper system linux defin 15 addit signal 
+see http en wikipedia org wiki unix_sign posix_sign standard c librari function signal use set handler signal 
+c program termin ctrl c press includ stdio h includ signal h signal handler sigint void siginthandl int sig_num reset handler catch sigint next time 
+refer http en cpprefer com w c program signal signal sigint siginthandl printf n cannot termin use ctrl c n fflush stdout int main set sigint ctrl c signal handler siginthandl refer http en cpprefer com w c program signal signal sigint siginthandl infinit loop 1 return 0 ouput ctrl c press two time cannot termin use ctrl c cannot termin use ctrl c pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

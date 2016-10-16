@@ -11,3 +11,8 @@ class NameForm(forms.Form):
 class LoginForm(forms.Form):
     nameoremail = forms.CharField(label='Your name or email', max_length=100)
     passlogin = forms.CharField(label='password',widget=forms.PasswordInput())
+
+
+class UploadFileForm(forms.Form):
+    title = forms.CharField(max_length=50)
+    file = forms.FileField()

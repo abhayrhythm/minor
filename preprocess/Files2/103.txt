@@ -1,0 +1,13 @@
+given boolean express follow symbol 
+symbol true f fals follow oper fill symbol oper boolean boolean boolean xor count number way parenthes express valu express evalu true 
+let input form two array one contain symbol f order contain oper exampl input symbol f oper output 2 given express f evalu true two way f f input symbol f f oper output 2 given express f f evalu true two way f f f f 
+input symbol f oper output 4 given express f evalu true 4 way f f f f 
+solut let j repres number way parenthes symbol j inclus subexpress j evalu true 
+let f j repres number way parenthes symbol j inclus subexpress j evalu fals 
+base case 1 symbol 0 symbol f f 1 symbol f f 0 symbol draw recurs tree recurs solut observ mani overlap subproblem 
+like dynam program problem solv fill tabl bottom manner 
+follow c implement dynam program solut 
+includ iostream includ cstring use namespac std return count possibl parenthes lead result true boolean express symbol like true fals oper like fill symbol int countparenth char symb char oper int n int f n n n n fill diagin entri first diagon entri 1 symbol true 
+similarli f entri 1 symbol f fals int 0 n f symb f 
+1 0 symb 
+1 0 fill 1 2 3 order f 1 f 2 f 3 order int gap 1 gap n gap int 0 j gap j n j j f j 0 int g 0 g gap g find place parenthes use current valu gap int k g store total k total k 1 j int tik k f k int tkj k 1 j f k 1 j follow recurs formula accord current oper oper k j k k 1 j f j tik tkj k k 1 j oper k f j f k f k 1 j j tik tkj f k f k 1 j oper k j f k k 1 j k f k 1 j f j k k 1 j f k f k 1 j return 0 n 1 driver program test function int main char symbol ttft char oper int n strlen symbol 4 way f f f f cout countparenth symbol oper n return 0 output 4 time complex n3 auxiliari space n2 refer http peopl cs clemson edu bcdean dp_practic dp_9 swf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

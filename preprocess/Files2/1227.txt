@@ -1,0 +1,28 @@
+given stream charact charact receiv one one write function print ye charact make complet string palindrom els print 
+exampl input str abcba output ye palindrom b ab palindrom c abc palindrom b abcb palindrom ye abcba palindrom input str aabaacaabaa output ye palindrom ye aa palindrom b aab palindrom aaba palindrom ye aabaa palindrom c aabaac palindrom aabaaca palindrom aabaacaa palindrom b aabaacaab palindrom aabaacaaba palindrom ye aabaacaabaa palindrom let input string str 0 n 1 
+simpl solut follow everi charact str input string 
+check substr str 0 palindrom print ye els print 
+better solut use idea roll hash use rabin karp algorithm 
+idea keep track revers first half second half also use first half revers second half everi index 
+complet algorithm 
+1 first charact alway palindrom print ye first charact 
+2 initi revers first half second half b 
+let hash valu first half revers firstr second half second 
+3 iter string start second charact follow everi charact str e vari 1 n 1 
+firstr second charact charact check substr end current charact print ye palindrom 
+note hash valu match string need 
+exampl hash valu ab ba string differ 
+check complet string hash 
+b updat firstr second next iter 
+even add next charact begin firstr end second half updat hash valu 
+odd keep firstr remov lead charact second append next charact end 
+let us see step exampl string abcba initi valu firstr second firstr hash second hash b start second charact e 1 compar firstr second match print 
+b calcul hash valu next iter e 2 sinc odd firstr chang second becom hash c 2 compar firstr second match print 
+b calcul hash valu next iter e 3 sinc even firstr becom hash ba second becom hash cb 3 compar first second match print 
+b calcul hash valu next iter e 4 sinc odd firstr chang second becom hash ba 4 firstr second match compar whole string match print ye b need calcul next hash valu last index idea use roll hash next hash valu calcul previou 1 time constant number arithmet oper 
+c python implement approach 
+c c c program onlin algorithm palindrom check includ stdio h includ string h number charact input alphabet defin 256 q prime number use evalu rabin karp roll hash defin q 103 void checkpalindrom char str length input string int n strlen str singl charact alway palindrom printf c ye n str 0 return string one charact n 1 return initi first half revers second half firstr second charact int firstr str 0 q int second str 1 q int h 1 j check palindrom second charact onward 1 n hash valu firstr second match check individu charact firstr second check str 0 palindrom use simpl charact charact match j 0 j 2 j str j str j break j 2 
+printf c ye n str printf c n str els printf c n str calcul hash valu next iter 
+calcul hash next charact last charact string n 1 even next odd 2 0 add next charact first half begin firstr h h q firstr firstr h str 2 q add next charact second half end second half 
+second second str 1 q els next odd next even need chang firstr need remov first charact second append charact 
+second second q str 1 2 h q str 1 q driver program test function int main char txt aabaacaabaa checkpalindrom txt getchar return 0 

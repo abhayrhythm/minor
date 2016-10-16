@@ -1,0 +1,30 @@
+nutanix visit campu 
+3 round total round 1 code round 2 question solv 1hr 15min 
+question 1 given string determin whether sum string 
+string call sum string satisfi follow properti len 3 sub string x sub string x 1 j sub string j l exampl 12358 sum string 
+explan 1 2 3 2 3 5 3 5 8 199100199 sum string 
+explan 1 99 100 99 100 199 2368 sum string 
+question 2 given 2 string s1 s2 determin whether s2 shuffl s1 
+shuffl defin oper switch 2 children node binari tree 
+exampl s1 great s2 taerg binari tree s1 great gr eat g r e shuffl obtain great eat gr shuffl gr eat children great node e r g taerg shuffel string s1 
+tricki question 2 
+12 student qualifi next round 
+solv test case 1st question 5 test case question 2 select 2nd round 
+round 2 ask solv dynam program problem 
+given string digit separ oper 
+parenthes string way first get max valu possibl get least valu possibl string 
+return differ two valu calcul 
+solv problem paper sheet explain whole approach 
+took 30 min complet code paper along explan 
+interview test code simpl case 2 2 2 max 2 2 2 8 min 2 2 2 6 ask question 
+impress solut code style clean neat comment camel case variabl 
+total 6 student shortlist 3rd round includ 
+round 3 interview ask debug code involv reader writer lock 
+os question modifi version reader writer problem 
+point 5 problem code syntact logic 
+deadlock condit write write inconsist read write inconsist wrong els syntax error 
+took 10 min point problem write correct code 
+interview stopwatch run phone got know 5 min 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

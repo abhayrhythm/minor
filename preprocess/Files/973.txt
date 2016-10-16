@@ -1,0 +1,29 @@
+
+How to print numbers from 1 to N without using any semicolon in C.
+
+#include<stdio.h>
+#define N 100
+
+// Add your code here to print numbers from 1
+// to N without using any semicolon
+
+
+What code to add in above  snippet such that it doesn’t contain semicolon and prints numbers from 1 to N?
+We strongly recommend you to minimize your browser and try this yourself first
+Method 1 (Recursive)
+
+// A recursive C program to print all numbers from 1
+// to N without semicoolon
+#include<stdio.h>
+#define N 10
+
+int main(int num)
+{
+    if (num <= N && printf("%d ", num) && main(num + 1))
+    {
+    }	 
+}
+
+Output:
+1 2 3 4 5 6 7 8 9 10 
+See this for complete run.  Thanks to Utkarsh Trivedi for suggesting this solution.

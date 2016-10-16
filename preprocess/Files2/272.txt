@@ -1,0 +1,24 @@
+given snake ladder board find minimum number dice throw requir reach destin last cell sourc 1st cell 
+basic player total control outcom dice throw want find minimum number throw requir reach last cell 
+player reach cell base ladder player climb ladder reach cell mouth snake go tail snake without dice throw 
+exampl consid board shown right side taken minimum number dice throw requir reach cell 30 cell 1 3 follow step 
+first throw two dice reach cell number 3 ladder reach 22 b throw 6 reach 28 c final 2 reach 30 solut well like 2 2 6 2 4 4 2 3 5 etc 
+strongli recommend minim browser tri first 
+idea consid given snake ladder board direct graph number vertic equal number cell board 
+problem reduc find shortest path graph 
+everi vertex graph edg next six vertic next 6 vertic snake ladder 
+next six vertic snake ladder edg current vertex goe top ladder tail snake 
+sinc edg equal weight effici find shortest path use breadth first search graph 
+follow c implement idea 
+input repres two thing first n number cell given board second array move 0 n 1 size n entri move 1 snake ladder otherwis move contain index destin cell snake ladder 
+c program find minimum number dice throw requir reach last cell first cell given snake ladder board includ iostream includ queue use namespac std entri queue use bf struct queueentri int v vertex number int dist distanc vertex sourc function return minimum number dice throw requir reach last cell 0 th cell snake ladder game 
+move array size n n 
+cell board snake ladder cell move 1 otherwis move contain cell snake ladder take 
+int getmindicethrow int move int n graph n vertic 
+mark vertic visit bool visit new bool n int 0 n visit fals creat queue bf queue queueentri q mark node 0 visit enqueu 
+visit 0 true queueentri 0 0 distanc 0 vertex also 0 q push enqueu 0 th vertex bf start vertex index 0 queueentri qe queue entri qe q empti qe q front int v qe v vertex 
+queue entri front vertex destin vertex done v n 1 break otherwis dequeu front vertex enqueu adjac vertic cell number reachabl dice throw q pop int j v 1 j v 6 j n j cell alreadi visit ignor visit j otherwis calcul distanc mark visit queueentri dist qe dist 1 visit j true check snake ladder j tail snake top ladder becom adjac move j 1 v move j els v j q push reach qe last vertex return distanc vertex qe return qe dist driver program test method graph class int main let us construct board given diagram int n 30 int move n int 0 n move 1 ladder move 2 21 move 4 7 move 10 25 move 19 28 snake move 26 0 move 20 8 move 16 3 move 18 6 cout min dice throw requir getmindicethrow move n return 0 output min dice throw requir 3 time complex solut n everi cell ad remov queue 
+typic enqueu dequeu oper take 1 time 
+articl contribut siddharth 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

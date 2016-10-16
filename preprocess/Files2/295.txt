@@ -1,0 +1,40 @@
+direct graph strongli connect path pair vertic 
+strongli connect compon scc direct graph maxim strongli connect subgraph 
+exampl 3 scc follow graph 
+find strongli connect compon v e time use kosaraju algorithm 
+follow detail kosaraju algorithm 
+1 creat empti stack df travers graph 
+df travers call recurs df adjac vertic vertex push vertex stack 
+graph start df vertex 0 get vertic stack 1 2 4 3 0 
+2 revers direct arc obtain transpos graph 
+3 one one pop vertex empti 
+let pop vertex v 
+take v sourc df call dfsutil v 
+df start v print strongli connect compon v exampl process vertic order 0 3 4 2 1 one one pop stack 
+work 
+algorithm df base 
+df two time 
+df graph produc singl tree vertic reachabl df start point 
+otherwis df produc forest 
+df graph one scc alway produc tree 
+import point note df may produc tree forest one scc depend upon chosen start point 
+exampl diagram start df vertic 0 1 2 get tree output 
+start 3 4 get forest 
+find print scc would want start df vertex 4 sink vertex move 3 sink remain set set exclud 4 final remain vertic 0 1 2 
+find sequenc pick vertic start point df 
+unfortun direct way get sequenc 
+howev df graph store vertic accord finish time make sure finish time vertex connect scc scc alway greater finish time vertic scc see proof 
+exampl df exampl graph finish time 0 alway greater 3 4 irrespect sequenc vertic consid df 
+finish time 3 alway greater 4 df guarante vertic exampl finish time 1 2 may smaller greater 3 4 depend upon sequenc vertic consid df 
+use properti df travers complet graph push everi finish vertex stack 
+stack 3 alway appear 4 0 appear 3 4 next step revers graph 
+consid graph scc 
+revers graph edg connect two compon revers 
+scc 0 1 2 becom sink scc 4 becom sourc 
+discuss stack alway 0 3 4 df revers graph use sequenc vertic stack process vertic sink sourc revers graph 
+want achiev need print scc one one 
+follow c implement kosaraju algorithm 
+c c implement kosaraju algorithm print scc includ iostream includ list includ stack use namespac std class graph int v 
+vertic list int adj array adjac list fill stack vertic increas order finish time 
+top element stack maximum finish time void fillord int v bool visit stack int stack recurs function print df start v void dfsutil int v bool visit public graph int v void addedg int v int w main function find print strongli connect compon void printscc function return revers transpos graph graph gettranspos graph graph int v v v adj new list int v recurs function print df start v void graph dfsutil int v bool visit mark current node visit print visit v true cout v recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit graph graph gettranspos graph g v int v 0 v v v recur vertic adjac vertex list int iter adj v begin adj v end g adj push_back v return g void graph addedg int v int w adj v push_back w add w v list 
+void graph fillord int v bool visit stack int stack mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit fillord visit stack vertic reachabl v process push v stack push v main function find print strongli connect compon void graph printscc stack int stack mark vertic visit first df bool visit new bool v int 0 v visit fals fill vertic stack accord finish time int 0 v visit fals fillord visit stack creat revers graph graph gr gettranspos mark vertic visit second df int 0 v visit fals process vertic order defin stack stack empti fals pop vertex stack int v stack top stack pop print strongli connect compon pop vertex visit v fals gr dfsutil v visit cout endl driver program test function int main creat graph given diagram graph g 5 g addedg 1 0 g addedg 0 2 g addedg 2 1 g addedg 0 3 g addedg 3 4 cout follow strongli connect compon given graph n g printscc return 0 

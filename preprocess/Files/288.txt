@@ -1,0 +1,226 @@
+
+Given a Directed Graph and two vertices in it, check whether there is a path from the first given vertex to second.  For example, in the following graph, there is a path from vertex 1 to 3. As another example, there is no path from 3 to 0.
+
+We can either use Breadth First Search (BFS) or Depth First Search (DFS) to find path between two vertices. Take the first vertex as source in BFS (or DFS), follow the standard BFS (or DFS). If we see the second vertex in our traversal, then return true.  Else return false.
+Following are C++ and Java codes that use BFS for finding reachability of second vertex from first vertex.
+
+C++
+
+
+// C++ program to check if there is exist a path between two vertices
+// of a graph.
+#include<iostream>
+#include <list>
+using namespace std;
+
+// This class represents a directed graph using adjacency list 
+// representation
+class Graph
+{
+    int V;    // No. of vertices
+    list<int> *adj;    // Pointer to an array containing adjacency lists
+public:
+    Graph(int V);  // Constructor
+    void addEdge(int v, int w); // function to add an edge to graph
+    bool isReachable(int s, int d);  
+};
+
+Graph::Graph(int V)
+{
+    this->V = V;
+    adj = new list<int>[V];
+}
+
+void Graph::addEdge(int v, int w)
+{
+    adj[v].push_back(w); // Add w to v’s list.
+}
+
+// A BFS based function to check whether d is reachable from s.
+bool Graph::isReachable(int s, int d)
+{
+    // Base case
+    if (s == d)
+      return true;
+
+    // Mark all the vertices as not visited
+    bool *visited = new bool[V];
+    for (int i = 0; i < V; i++)
+        visited[i] = false;
+
+    // Create a queue for BFS
+    list<int> queue;
+
+    // Mark the current node as visited and enqueue it
+    visited[s] = true;
+    queue.push_back(s);
+
+    // it will be used to get all adjacent vertices of a vertex
+    list<int>::iterator i;
+
+    while (!queue.empty())
+    {
+        // Dequeue a vertex from queue and print it
+        s = queue.front();
+        queue.pop_front();
+
+        // Get all adjacent vertices of the dequeued vertex s
+        // If a adjacent has not been visited, then mark it visited
+        // and enqueue it
+        for (i = adj[s].begin(); i != adj[s].end(); ++i)
+        {
+            // If this adjacent node is the destination node, then 
+            // return true
+            if (*i == d)
+                return true;
+
+            // Else, continue to do BFS
+            if (!visited[*i])
+            {
+                visited[*i] = true;
+                queue.push_back(*i);
+            }
+        }
+    }
+    
+    // If BFS is complete without visiting d
+    return false;
+}
+
+// Driver program to test methods of graph class
+int main()
+{
+    // Create a graph given in the above diagram
+    Graph g(4);
+    g.addEdge(0, 1);
+    g.addEdge(0, 2);
+    g.addEdge(1, 2);
+    g.addEdge(2, 0);
+    g.addEdge(2, 3);
+    g.addEdge(3, 3);
+
+    int u = 1, v = 3;
+    if(g.isReachable(u, v))
+        cout<< "\n There is a path from " << u << " to " << v;
+    else
+        cout<< "\n There is no path from " << u << " to " << v;
+
+    u = 3, v = 1;
+    if(g.isReachable(u, v))
+        cout<< "\n There is a path from " << u << " to " << v;
+    else
+        cout<< "\n There is no path from " << u << " to " << v;
+
+    return 0;
+}
+
+Java
+
+
+// Java program to check if there is exist a path between two vertices
+// of a graph.
+import java.io.*;
+import java.util.*;
+import java.util.LinkedList;
+
+// This class represents a directed graph using adjacency list
+// representation
+class Graph
+{
+    private int V;   // No. of vertices
+    private LinkedList<Integer> adj[]; //Adjacency List
+
+    //Constructor
+    Graph(int v)
+    {
+        V = v;
+        adj = new LinkedList[v];
+        for (int i=0; i<v; ++i)
+            adj[i] = new LinkedList();
+    }
+
+    //Function to add an edge into the graph
+    void addEdge(int v,int w)  {   adj[v].add(w);   }
+
+    //prints BFS traversal from a given source s
+    Boolean isReachable(int s, int d)
+    {
+        LinkedList<Integer>temp;
+
+        // Mark all the vertices as not visited(By default set
+        // as false)
+        boolean visited[] = new boolean[V];
+
+        // Create a queue for BFS
+        LinkedList<Integer> queue = new LinkedList<Integer>();
+
+        // Mark the current node as visited and enqueue it
+        visited[s]=true;
+        queue.add(s);
+
+        // 'i' will be used to get all adjacent vertices of a vertex
+        Iterator<Integer> i;
+        while (queue.size()!=0)
+        {
+            // Dequeue a vertex from queue and print it
+            s = queue.poll();
+
+            int n;
+            i = adj[s].listIterator();
+
+            // Get all adjacent vertices of the dequeued vertex s
+            // If a adjacent has not been visited, then mark it
+            // visited and enqueue it
+            while (i.hasNext())
+            {
+                n = i.next();
+
+                // If this adjacent node is the destination node,
+                // then return true
+                if (n==d)
+                    return true;
+
+                // Else, continue to do BFS
+                if (!visited[n])
+                {
+                    visited[n] = true;
+                    queue.add(n);
+                }
+            }
+        }
+
+        // If BFS is complete without visited d
+        return false;
+    }
+
+    // Driver method
+    public static void main(String args[])
+    {
+        // Create a graph given in the above diagram
+        Graph g = new Graph(4);
+        g.addEdge(0, 1);
+        g.addEdge(0, 2);
+        g.addEdge(1, 2);
+        g.addEdge(2, 0);
+        g.addEdge(2, 3);
+        g.addEdge(3, 3);
+
+        int u = 1;
+        int v = 3;
+        if (g.isReachable(u, v))
+            System.out.println("There is a path from " + u +" to " + v);
+        else
+            System.out.println("There is no path from " + u +" to " + v);;
+
+        u = 3;
+        v = 1;
+        if (g.isReachable(u, v))
+            System.out.println("There is a path from " + u +" to " + v);
+        else
+            System.out.println("There is no path from " + u +" to " + v);;
+    }
+}
+// This code is contributed by Aakash Hasija
+
+
+Output:

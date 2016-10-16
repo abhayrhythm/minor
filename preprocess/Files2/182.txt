@@ -1,0 +1,50 @@
+given number find next smallest palindrom larger number 
+exampl input number 2 3 5 4 5 output 2 3 6 3 2 
+input number 9 9 9 output 1 0 0 1 
+input assum array 
+everi entri array repres digit input number 
+let array num size array n three differ type input need handl separ 
+1 input number palindrom 9s 
+exampl 9 9 9 
+output 1 0 0 1 2 input number palindrom 
+exampl 1 2 3 4 
+output 1 3 3 1 3 input number palindrom 9s 
+exampl 1 2 2 1 
+output 1 3 3 1 
+strongli recommend click practic move solut 
+solut input type 1 easi 
+output contain n 1 digit corner digit 1 digit corner digit 0 let us first talk input type 2 3 convert given number greater palindrom 
+understand solut let us first defin follow two term left side left half given number 
+left side 1 2 3 4 5 6 1 2 3 left side 1 2 3 4 5 1 2 right side right half given number 
+right side 1 2 3 4 5 6 4 5 6 right side 1 2 3 4 5 4 5 convert palindrom either take mirror left side take mirror right side 
+howev take mirror right side palindrom form guarante next larger palindrom 
+must take mirror left side copi right side 
+case must handl differ way 
+see follow step 
+start two indic j point two middl element point two element around middl element case n odd 
+one one move j away 
+step 1 initi ignor part left side correspond part right side 
+exampl number 8 3 4 2 2 4 6 9 ignor middl four element 
+point element 3 j point element 6 step 2 step 1 follow case aris case 1 indic j cross boundari 
+case occur input number palindrom 
+case add 1 middl digit digit case n even propag carri toward msb digit left side simultan copi mirror left side right side 
+exampl given number 1 2 9 2 1 increment 9 10 propag carri 
+number becom 1 3 0 3 1 case 2 digit left left side right side 
+mirror left side right side tri minim number form guarante next smallest palindrom 
+case two sub case 
+2 1 copi left side right side suffici need increment digit result mirror left side 
+follow exampl sub case 
+next palindrom 7 8 3 3 2 2 7 8 3 3 8 7 next palindrom 1 2 5 3 2 2 1 2 5 5 2 1 next palindrom 1 4 5 8 7 6 7 8 3 2 2 1 4 5 8 7 6 7 8 5 4 1 check sub case 
+need check digit ignor part step 1 digit highlight exampl 
+digit greater correspond digit right side digit copi left side right side suffici need anyth els 
+2 2 copi left side right side suffici 
+happen defin digit left side smaller 
+follow exampl case 
+next palindrom 7 1 3 3 2 2 7 1 4 4 1 7 next palindrom 1 2 3 4 6 2 8 1 2 3 5 3 2 1 next palindrom 9 4 1 8 7 9 7 8 3 2 2 9 4 1 8 8 0 8 8 1 4 9 handl subcas like case 1 add 1 middl digit digit ase n even propag carri toward msb digit left side simultan copi mirror left side right side 
+includ stdio h util function print array void printarray int arr int n util function check num 9s int areall9 int num int n return next palindrom given number num 
+function input type 2 3 void generatenextpalindromeutil int num int n find index mid digit int mid n 2 bool variabl check copi left side right suffici bool leftsmal fals end left side alway mid 1 int mid 1 begin right side depend n odd even int j n 2 
+mid 1 mid initi ignor middl digit 0 num num j j find middl digit need increment copi left side suffici 0 num num j leftsmal true copi mirror left tight 0 num j num j handl case middl digit must increment 
+part code case 1 case 2 2 leftsmal true int carri 1 mid 1 odd digit increment middl digit store carri n 2 1 num mid carri carri num mid 10 num mid 10 j mid 1 els j mid add 1 rightmost digit left side propag carri toward msb digit simultan copi mirror left side right side 
+0 num carri carri num 10 num 10 num j num copi mirror right function print next palindrom given number num n digit 
+void generatenextpalindrom int num int n int printf nnext palindrom n input type 1 digit 9 simpli p 1 follow n 1 0 follow 1 areall9 num n printf 1 1 n printf 0 printf 1 input type 2 3 els generatenextpalindromeutil num n print result printarray num n util function check num 9s int areall9 int num int n int 0 n num 9 return 0 return 1 util print array line void printarray int arr int n int 0 n printf arr printf n driver program test function int main int num 9 4 1 8 7 9 7 8 3 2 2 int n sizeof num sizeof num 0 generatenextpalindrom num n return 0 output next palindrom 9 4 1 8 8 0 8 8 1 4 9 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,200 @@
+
+Given a Weighted Directed Acyclic Graph (DAG) and a source vertex in it, find the longest distances from source vertex to all other vertices in the given graph.
+For example, consider below Directed Acyclic Graph
+
+The longest distances of other vertices from source vertex 1 of above graph is –
+INT_MIN, 0, 2, 9, 8, 10
+
+
+We have already discussed how we can find Longest Path in Directed Acyclic Graph(DAG) in Set 1. In this post, we will discuss another interesting solution to find longest path of DAG that uses algorithm for finding Shortest Path in a DAG.
+The idea is to negate the weights of the path and find the shortest path in the graph. A longest path between two given vertices s and t in a weighted graph G is the same thing as a shortest path in a graph G’ derived from G by changing every weight to its negation. Therefore, if shortest paths can be found in G’, then longest paths can also be found in G. 
+Below is the step by step process of finding longest paths –
+We change weight of every edge of given graph to its negation and initialize distances to all vertices as infinite and distance to source as 0, then we find a topological sorting of the graph which represents a linear ordering of the graph. When we consider a vertex u in topological order, it is guaranteed that we have considered every incoming edge to it. i.e. We have already found shortest path to that vertex and we can use that info to update shorter path of all its adjacent vertices. Once we have topological order, we one by one process all vertices in topological order. For every vertex being processed, we update distances of its adjacent vertex using shortest distance of current vertex from source vertex and its edge weight. i.e.
+
+for every adjacent vertex v of every vertex u in topological order
+    if (dist[v] > dist[u] + weight(u, v))
+	dist[v] = dist[u] + weight(u, v)
+
+Once we have found all shortest paths from the source vertex, longest paths will be just negation of shortest paths.
+Below is its C++ implementation –
+
+// A C++ program to find single source longest distances
+// in a DAG
+#include <bits/stdc++.h>
+using namespace std;
+
+// Graph is represented using adjacency list. Every node of
+// adjacency list contains vertex number of the vertex to
+// which edge connects. It also contains weight of the edge
+class AdjListNode
+{
+    int v;
+    int weight;
+public:
+    AdjListNode(int _v, int _w)
+    {
+        v = _v;
+        weight = _w;
+    }
+    int getV()
+    {
+        return v;
+    }
+    int getWeight()
+    {
+        return weight;
+    }
+};
+
+// Graph class represents a directed graph using adjacency
+// list representation
+class Graph
+{
+    int V; // No. of vertices
+
+    // Pointer to an array containing adjacency lists
+    list<AdjListNode>* adj;
+
+    // This function uses DFS
+    void longestPathUtil(int, vector<bool> &, stack<int> &);
+public:
+    Graph(int); // Constructor
+    ~Graph();   // Destructor
+
+    // function to add an edge to graph
+    void addEdge(int, int, int);
+
+    void longestPath(int);
+};
+
+Graph::Graph(int V) // Constructor
+{
+    this->V = V;
+    adj = new list<AdjListNode>[V];
+}
+
+Graph::~Graph() // Destructor
+{
+    delete[] adj;
+}
+
+void Graph::addEdge(int u, int v, int weight)
+{
+    AdjListNode node(v, weight);
+    adj[u].push_back(node); // Add v to u's list
+}
+
+// A recursive function used by longestPath. See below
+// link for details.
+// http://www.geeksforgeeks.org/topological-sorting/
+void Graph::longestPathUtil(int v, vector<bool> &visited,
+                            stack<int> &Stack)
+{
+    // Mark the current node as visited
+    visited[v] = true;
+
+    // Recur for all the vertices adjacent to this vertex
+    for (AdjListNode node : adj[v])
+    {
+        if (!visited[node.getV()])
+            longestPathUtil(node.getV(), visited, Stack);
+    }
+
+    // Push current vertex to stack which stores topological
+    // sort
+    Stack.push(v);
+}
+
+// The function do Topological Sort and finds longest
+// distances from given source vertex
+void Graph::longestPath(int s)
+{
+    // Initialize distances to all vertices as infinite and
+    // distance to source as 0
+    int dist[V];
+    for (int i = 0; i < V; i++)
+        dist[i] = INT_MAX;
+    dist[s] = 0;
+
+    stack<int> Stack;
+
+    // Mark all the vertices as not visited
+    vector<bool> visited(V, false);
+
+    for (int i = 0; i < V; i++)
+        if (visited[i] == false)
+            longestPathUtil(i, visited, Stack);
+
+    // Process vertices in topological order
+    while (!Stack.empty())
+    {
+        // Get the next vertex from topological order
+        int u = Stack.top();
+        Stack.pop();
+
+        if (dist[u] != INT_MAX)
+        {
+            // Update distances of all adjacent vertices
+            // (edge from u -> v exists)
+            for (AdjListNode v : adj[u])
+            {
+                // consider negative weight of edges and
+                // find shortest path
+                if (dist[v.getV()] > dist[u] + v.getWeight() * -1)
+                    dist[v.getV()] = dist[u] + v.getWeight() * -1;
+            }
+        }
+    }
+
+    // Print the calculated longest distances
+    for (int i = 0; i < V; i++)
+    {
+        if (dist[i] == INT_MAX)
+            cout << "INT_MIN ";
+        else
+            cout << (dist[i] * -1) << " ";
+    }
+}
+
+// Driver code
+int main()
+{
+    Graph g(6);
+
+    g.addEdge(0, 1, 5);
+    g.addEdge(0, 2, 3);
+    g.addEdge(1, 3, 6);
+    g.addEdge(1, 2, 2);
+    g.addEdge(2, 4, 4);
+    g.addEdge(2, 5, 2);
+    g.addEdge(2, 3, 7);
+    g.addEdge(3, 5, 1);
+    g.addEdge(3, 4, -1);
+    g.addEdge(4, 5, -2);
+
+    int s = 1;
+
+    cout << "Following are longest distances from "
+         << "source vertex " << s << " \n";
+    g.longestPath(s);
+
+    return 0;
+}
+
+Output:
+
+Following are longest distances from source vertex 1 
+INT_MIN 0 2 9 8 10 
+
+Time Complexity: Time complexity of topological sorting is O(V + E). After finding topological order, the algorithm process all vertices and for every vertex, it runs a loop for all adjacent vertices. As total adjacent vertices in a graph is O(E), the inner loop runs O(V + E) times. Therefore, overall time complexity of this algorithm is O(V + E).
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

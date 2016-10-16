@@ -1,0 +1,4 @@
+given binari tree write function get maximum width given tree 
+width tree maximum width level 
+let us consid exampl tree 
+1 2 3 4 5 8 6 7 tree width level 1 1 width level 2 2 width level 3 3 width level 4 2 maximum width tree 3 strongli recommend click practic move solut 

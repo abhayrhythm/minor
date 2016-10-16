@@ -1,0 +1,49 @@
+recent directi visit campu intern select 
+1 onlin code round host codechef 2 algo interview round 1 technic round 
+onlin code round 2 question 
+question 1 2 point wherea question 2 1 point 
+question 1 compress string eg 
+ab2c3 string lowercas charact number 
+uncompress given string follow whenev get number n string portion string number repeat n time 
+exampl get 2 string becom ababc3 get 3 final string ababcababcababc 
+given compress string number k output k th charact uncompress string 
+1 length string 1500 1 n 1000 1 k 2 31 exampl input ab2c3 10 output c question 2 string whose charact either b _ one _ string 
+step modifi string follow 1 
+_ swap adjac charact exampl a_ba chang either _aba ab_a 
+2 two charact adjac _ side _ revers along _ charact differ exampl aa_ba chang aaab_ _aaba charact 
+given two string initi state final state length output minimum number step requir chang string initi state string final state 
+exampl input a_b ab_ output 1 input abaa_a b_aaaa output 4 reason exampl 2 abaa_a aba_aa ab_aaa _baaaa b_aaaa hint use breadth first search shortlist 12 student contest next round 
+round 2 telephon interview question 1 suppos given string length n set pair j 0 j n 
+pair j 0 base index mean swap th j th charact string number time 
+output lexicograph smallest string produc number swap input string 
+exampl input zcxfbe 0 1 0 2 3 5 output cxzebf hint tri model problem graph problem 
+question 2 suppos two pile plate tabl 
+one red plate n black plate 
+chanc player either pick number red plate number black plate equal number red black plate 
+player lose cannot make move chanc 
+play game friend 
+given begin game player play optim output l lose w win 
+exampl input 1 n 2 output l input 2 n 2 output w round select 4 peopl next round interview 
+round 3 face face question 1 suppos n tree liter tree tree comput scienc suppos branch like straight stick height 
+want x length wood 
+woodcutt use cut tree height h ground h greater height tree mean tree cut 
+given height tree length x wood requir output height h ground cut tree 
+question 2 undirect weight graph given input x two vertic graph output edg shortest path x note multipl shortest path x output edg shortest path 
+select 1 student next round 
+round 4 technic round telephon round ask small question includ 1 self project 
+2 advantag disadvantag bst hash 
+question relat collis hash etc 
+3 question relat databas ask make queri 
+4 formul angl hour hand minut hand clock given time 
+5 suppos huge csv file ip address rang correspond countri code given ip address find countri belong 
+6 differ bst tri 
+7 ask question network cours os cours 
+8 huge link list detect loop link list 
+ask small question rememb interview end 
+got select clear round 
+tip 1 main focu string graph prepar well 
+2 practic code paper googl doc get editor code 
+3 keep concept clear topic ask minut detail data structur algorithm 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

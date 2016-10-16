@@ -1,0 +1,23 @@
+c variabl pass refer due follow reason 1 modifi local variabl caller function refer pointer allow call function modifi local variabl caller function 
+exampl consid follow exampl program fun abl modifi local variabl x main 
+void fun int x x 20 int main int x 10 fun x cout new valu x x return 0 output new valu x 20 2 pass larg size argument argument larg pass refer pointer effici address realli pass entir object 
+exampl let us consid follow employe class function printempdetail print employe detail 
+class employe privat string name string desig attribut oper void printempdetail employe emp cout emp getnam cout emp getdesig print attribut problem code everi time printempdetail call new employe abject construct involv creat copi data member 
+better implement would pass employe refer 
+void printempdetail const employe emp cout emp getnam cout emp getdesig print attribut point valid struct class variabl get effici advantag basic type like int char etc 
+3 avoid object slice pass object subclass function expect object superclass pass object slice pass valu 
+exampl consid follow program print pet class 
+includ iostream includ string use namespac std class pet public virtual string getdescript const return pet class class dog public pet public virtual string getdescript const return dog class void describ pet p slice deriv class object cout p getdescript endl int main dog describ return 0 output pet class use pass refer program correctli print dog class 
+see follow modifi program 
+includ iostream includ string use namespac std class pet public virtual string getdescript const return pet class class dog public pet public virtual string getdescript const return dog class void describ const pet p slice deriv class object 
+cout p getdescript endl int main dog describ return 0 output dog class point also valid basic data type like int char etc 
+4 achiev run time polymorph function make function polymorph pass object refer pointer 
+exampl follow program print receiv refer base class object 
+print call base class function show base class object pass deriv class function show deriv class object pass 
+includ iostream use namespac std class base public virtual void show note virtual keyword cout base n class deriv public base public void show cout deriv n sinc pass b refer achiev run time polymorph 
+void print base b b show int main void base b deriv print b print return 0 output base deriv thank venki ad point 
+side note recommend practic make refer argument const pass refer due reason 
+2 3 mention 
+recommend avoid unexpect modif object 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

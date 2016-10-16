@@ -1,0 +1,17 @@
+given graph sourc vertex graph find shortest path sourc vertic given graph 
+discuss dijkstra shortest path algorithm post 
+dijkstra shortest path adjac matrix represent dijkstra shortest path adjac list represent implement discuss find shortest distanc print path 
+post print path discuss 
+exampl consid graph sourc 0 output vertex distanc path 0 1 4 0 1 0 2 12 0 1 2 0 3 19 0 1 2 3 0 4 21 0 7 6 5 4 0 5 11 0 7 6 5 0 6 9 0 7 6 0 7 8 0 7 0 8 14 0 1 2 8 idea creat separ array parent 
+valu parent v vertex v store parent vertex v shortest path tree 
+parent root sourc vertex 1 whenev find shorter path vertex u make u parent current vertex 
+parent array construct print path use recurs function 
+void printpath int parent int j base case j sourc parent j 1 return printpath parent parent j printf j complet run c program 
+c c program dijkstra singl sourc shortest path algorithm 
+program adjac matrix represent graph 
+includ stdio h includ limit h number vertic graph defin v 9 util function find vertex minimum distanc valu set vertic yet includ shortest path tree int mindist int dist bool sptset initi min valu int min int_max min_index int v 0 v v v sptset v fals dist v min min dist v min_index v return min_index function print shortest path sourc j use parent array void printpath int parent int j base case j sourc parent j 1 return printpath parent parent j printf j util function print construct distanc array int printsolut int dist int n int parent int src 0 printf vertex distanc tpath int 1 v printf n src dist src printpath parent funtion implement dijkstra singl sourc shortest path algorithm graph repres use adjac matrix represent void dijkstra int graph v v int src int dist v output array 
+dist hold shortest distanc src sptset true vertex includ shortest path tree shortest distanc src final bool sptset v parent array store shortest path tree int parent v initi distanc infinit stpset fals int 0 v parent 0 1 dist int_max sptset fals distanc sourc vertex alway 0 dist src 0 find shortest path vertic int count 0 count v 1 count pick minimum distanc vertex set vertic yet process 
+u alway equal src first iter 
+int u mindist dist sptset mark pick vertex process sptset u true updat dist valu adjac vertic pick vertex 
+int v 0 v v v updat dist v sptset edg u v total weight path src v u smaller current valu dist v sptset v graph u v dist u graph u v dist v parent v u dist v dist u graph u v print construct distanc array printsolut dist v parent driver program test function int main let us creat exampl graph discuss int graph v v 0 4 0 0 0 0 0 8 0 4 0 8 0 0 0 0 11 0 0 8 0 7 0 4 0 0 2 0 0 7 0 9 14 0 0 0 0 0 0 9 0 10 0 0 0 0 0 4 0 10 0 2 0 0 0 0 0 14 0 2 0 1 6 8 11 0 0 0 0 1 0 7 0 0 2 0 0 0 6 7 0 dijkstra graph 0 return 0 output vertex distanc path 0 1 4 0 1 0 2 12 0 1 2 0 3 19 0 1 2 3 0 4 21 0 7 6 5 4 0 5 11 0 7 6 5 0 6 9 0 7 6 0 7 8 0 7 0 8 14 0 1 2 8 articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,23 @@
+
+Consider the following algorithm for building a Heap of an input array A.  
+
+BUILD-HEAP(A) 
+    heapsize := size(A); 
+    for i := floor(heapsize/2) downto 1 
+        do HEAPIFY(A, i); 
+    end for 
+END
+
+What is the worst case time complexity of the above algo?
+Although the worst case complexity looks like O(nLogn), upper bound of time complexity is O(n).   See following links for the proof of time complexity. 
+http://www.cse.iitk.ac.in/users/sbaswana/Courses/ESO211/heap.pdf/
+http://www.cs.sfu.ca/CourseCentral/307/petra/2009/SLN_2.pdf
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,3 @@
+c differ exit 0 return 0 
+exit 0 use exit program destructor local scope non static object call 
+destructor call return 0 use 

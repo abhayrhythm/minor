@@ -1,0 +1,37 @@
+
+Write a C code that prints “GeeksforGeeks” without any main function. This is a trick question and can be solved in following ways.
+1) Using a macro that defines main
+
+#include<stdio.h>
+#define fun main
+int fun(void)
+{
+    printf("Geeksforgeeks");
+    return 0;
+}
+Output:
+Geeksforgeeks
+2) Using Token-Pasting Operator
+The above solution has word ‘main’ in it.  If we are not allowed to even write main, we ca use token-pasting operator (see this for details)
+
+#include<stdio.h>
+#define fun m##a##i##n
+int fun()
+{
+    printf("Geeksforgeeks");
+    return 0;
+}
+Output:
+Geeksforgeeks
+References:
+Macros and Preprocessors in C
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

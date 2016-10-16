@@ -1,0 +1,12 @@
+given array integ count number subarray size one strictli increas 
+expect time complex n expect extra space 1 exampl input arr 1 4 3 output 1 one subarray 1 4 input arr 1 2 3 4 output 6 6 subarray 1 2 1 2 3 1 2 3 4 2 3 2 3 4 3 4 input arr 1 2 2 4 output 2 2 subarray 1 2 2 4 strongli recommend click practic move solut 
+simpl solut gener possibl subarray everi subarray check subarray strictli increas 
+worst case time complex solut would n3 
+better solut use fact subarray arr j strictli increas subarray arr j 1 arr j 2 arr n 1 cannot strictli increas 
+c program base idea 
+c program count number strictli increas subarray includ bit stdc h use namespac std int countincreas int arr int n initi count subarray 0 int cnt 0 pick start point int 0 n pick end point int j 1 j n j arr j arr j 1 cnt subarray arr j strictli increas subarray e arr j 1 arr j 2 cannot strictli increas els break return cnt driver program int main int arr 1 2 2 4 int n sizeof arr sizeof arr 0 cout count strictli increas subarray countincreas arr n return 0 output count strictli increas subarray 2 time complex solut number subarray output problem solut contribut rahul agraw 
+effici solut count subarray n time 
+idea base fact sort subarray length len add len len 1 2 result 
+exampl 10 20 30 40 add 6 result 
+c program count number strictli increas subarray n time 
+includ bit stdc h use namespac std int countincreas int arr int n int cnt 0 initi result initi length current increas subarray int len 1 travers array int 0 n 1 arr 1 greater arr increment length arr 1 arr len els updat count reset length els cnt len 1 len 2 len 1 last length 1 len 1 cnt len 1 len 2 return cnt driver program int main int arr 1 2 2 4 int n sizeof arr sizeof arr 0 cout count strictli increas subarray countincreas arr n return 0 output count strictli increas subarray 2 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

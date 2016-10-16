@@ -1,0 +1,13 @@
+critic section simpl term critic section group instruct statement region code need execut atom read post atom access resourc file input output port global data etc 
+concurr program one thread tri chang valu share data time anoth thread tri read valu e 
+data race across thread result unpredict 
+access share variabl share memori share file share port etc synchron 
+program languag built support synchron 
+critic understand import race condit write kernel mode program devic driver kernel thread etc 
+sinc programm directli access modifi kernel data structur 
+simpl solut critic section thought shown acquirelock process critic section releaselock thread must acquir lock prior execut critic section 
+lock acquir one thread 
+variou way implement lock pseudo code 
+let us discuss futur articl 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,10 @@
+given string contain alphanumer charact calcul sum number present string 
+exampl input 1abc23 output 24 input geeks4geek output 4 input 1abc2x30yz67 output 100 input 123abc output 123 difficulti level rooki tricki part question multipl consecut digit consid one number 
+idea simpl 
+scan charact input string number form consecut charact string increment result amount 
+c implement c program calcul sum number present string contain alphanumer charact includ iostream use namespac std function calcul sum number present string contain alphanumer charact int findsum string str temporari string string temp hold sum number present string int sum 0 read charcat input string char ch str current charact digit isdigit ch temp ch current charact alphabet els increment sum number found earlier sum atoi temp c_str reset temporari string empti temp atoi temp c_str take care trail number return sum atoi temp c_str driver code int main input alphanumer string string str 12abc20yz68 cout findsum str return 0 output 100 time complex solut n n length string 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

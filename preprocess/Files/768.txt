@@ -1,0 +1,54 @@
+
+
+Factorial : The factorial of ‘n’, written as n ! = n x (n-1) x (n-2) x (n-3) x … x 3 x 2 x 1
+0 ! = 1
+Permutation : It is the different arrangements of a given number of elements taken one by one, or some, or all at a time. For example, if we have two elements A and B, then the possible arrangements are AB and BA. So, total 2 arrangements are possible.
+Number of permutations when ‘r’ elements are arranged out of a total of ‘n’ elements is n P r = n! / (n – r)!
+Combination : It is the different selections of a given number of elements taken one by one, or some, or all at a time. For example, if we have two elements A and B, then the possible selections are AB or BA. So, total 1 arrangements are possible.
+Number of combinations when ‘r’ elements are selected out of a total of ‘n’ elements is n C r = n! / [ (r !) x (n – r)! ]
+n C r = n C (n – r)
+NOTE : In the same example, we have different cases for permutation and combination. For permutation, AB and BA are two different things but for selection, AB and BA are same.
+Sample Problems
+Question 1 : How many words can be formed by using 3 letters from the word “DELHI” ?
+Solution : The word “DELHI” has 5 different words.
+Therefore, required number of words = 5 P 3 = 5! / (5 – 3)!
+=> Required number of words = 5! / 2! = 120 / 2 = 60
+ 
+Question 2 : How many words can be formed by using the letters from the word “DRIVER” such that all the vowels are always together ?
+Solution : In these type of questions, we assume all the vowels to be a single character, i.e., “IE” is a single character.
+So, now we have a total of 5 characters in the word, namely, D, R, V, R, IE.
+But, R occurs 2 times.
+=> Number of possible arrangements = 5! / 2! = 60
+Now, the two vowels can be arranged in 2! = 2 ways.
+=> Total number of possible words such that the vowels are always together= 60 x 2 = 120
+ 
+Question 3 : In how many ways, can we select a team of 4 students from a given choice of 15 ?
+Solution : Number of possible ways of selection = 15 C 4 = 15 ! / [(4 !) x (11 !)]
+=> Number of possible ways of selection = (15 x 14 x 13 x 12) / (4 x 3 x 2 x 1) = 1365
+ 
+Question 4 : In how many ways can a group of 5 members be formed by selecting 3 boys out of 6 and 2 girls out of 5 ?
+Solution : Number of ways 3 boys can be selected out of 6 = 6 C 3 = 6 ! / [(3 !) x (3 !)] = (6 x 5 x 4) / (3 x 2 x 1) = 20
+Number of ways 2 girls can be selected out of 5 = 5 C 2 = 5 ! / [(2 !) x (3 !)] = (5 x 4) / (2 x 1) = 10
+Therefore, total number of ways of forming the group = 20 x 10 = 200
+ 
+Question 5 : How many words can be formed by using the letters from the word “DRIVER” such that all the vowels are never together ?
+Solution : we assume all the vowels to be a single character, i.e., “IE” is a single character.
+So, now we have a total of 5 characters in the word, namely, D, R, V, R, IE.
+But, R occurs 2 times.
+=> Number of possible arrangements = 5! / 2! = 60
+Now, the two vowels can be arranged in 2! = 2 ways.
+=> Total number of possible words such that the vowels are always together = 60 x 2 = 120
+Also, total number of possible words = 6! / 2! = 720 / 2 = 360
+Therefore, total number of possible words such that the vowels are never together = 360 – 120 = 240
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

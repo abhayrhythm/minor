@@ -1,0 +1,44 @@
+given text txt 0 n 1 pattern pat 0 1 write function search char pat char txt print occurr pat txt 
+may assum n preprocess pattern preoprocess text 
+discuss follow algorithm previou post kmp algorithm rabin karp algorithm finit automata base algorithm boyer moor algorithm algorithm preprocess pattern make pattern search faster 
+best time complex could get preprocess pattern n n length text 
+post discuss approach preprocess text 
+suffix tree built text 
+preprocess text build suffix tree text search pattern time length pattern 
+imagin store complet work william shakespear preprocess 
+search string complet work time proport length pattern 
+realli great improv length pattern gener much smaller text 
+preprocess text may becom costli text chang frequent 
+good fix text less frequent chang text though 
+suffix tree given text compress trie suffix given text 
+discuss standard trie 
+let us understand compress trie follow array word 
+bear bell bid bull buy sell stock stop follow standard trie input set word 
+follow compress trie 
+compress trie obtain standard trie join chain singl node 
+node compress trie store store index rang node 
+build suffix tree given text 
+discuss suffix tree compress trie suffix follow abstract step build suffix tree given text 
+1 gener suffix given text 
+2 consid suffix individu word build compress trie 
+let us consid exampl text banana 0 0 string termin charact 
+follow suffix banana 0 banana 0 anana 0 nana 0 ana 0 na 0 0 0 consid suffix individu word build trie get follow 
+join chain singl node get follow compress trie suffix tree given text banana 0 pleas note step manual creat suffix tree 
+discuss actual algorithm implement separ post 
+search pattern built suffix tree 
+discuss build suffix tree need preprocess step pattern search 
+follow abstract step search pattern built suffix tree 
+1 start first charact pattern root suffix tree follow everi charact 
+current charact pattern edg current node suffix tree follow edg 
+b edg print pattern exist text return 
+2 charact pattern process e path root charact given pattern print pattern found 
+let us consid exampl pattern nan see search process 
+follow diagram show path follow search nan nana 
+work 
+everi pattern present text say everi substr text must prefix one possibl suffix 
+statement seem complic simpl statement need take exampl check valid 
+applic suffix tree suffix tree use wide rang problem 
+follow famou problem suffix tree provid optim time complex solut 
+1 pattern search 2 find longest repeat substr 3 find longest common substr 4 find longest palindrom string mani applic 
+see detail 
+ukkonen suffix tree construct discuss follow articl ukkonen suffix tree construct part 1 ukkonen suffix tree construct part 2 ukkonen suffix tree construct part 3 ukkonen suffix tree construct part 4 ukkonen suffix tree construct part 5 ukkonen suffix tree construct part 6 refer http fbim fh regensburg de saj39122 sal skript progr pr45102 tri pdf http www cs ucf edu shzhang combio12 lec3 pdf http www allison org algd tree suffix adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

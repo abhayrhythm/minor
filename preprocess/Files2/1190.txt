@@ -1,0 +1,65 @@
+prerequisit lce set 1 lce set 2 suffix array n log log n kasai algorithm segment tree longest common extens lce problem consid string comput pair l r longest sub string start l r lce queri answer length longest common prefix start index l r exampl string abbababba queri lce 1 2 lce 1 6 lce 0 5 find length longest common prefix start index given 1 2 1 6 0 5 
+string highlight green longest common prefix start index l r respect queri 
+find length longest common prefix start index 1 2 1 6 0 5 
+set discuss segment tree approach solv lce problem 
+set 2 saw lce problem convert rmq problem 
+process rmq effici build segment tree lcp array effici answer lce queri 
+find low high must comput suffix array first suffix array comput invers suffix array 
+also need lcp array henc use kasai algorithm find lcp array suffix array 
+thing done simpli find minimum valu lcp array index low high prove queri 
+without prove use direct result deduc mathemat proof lce l r rmqlcp invsuff r invsuff l 1 subscript lcp mean perform rmq lcp array henc build segment tree lcp array 
+c program find length longest common extens use segment tree includ bit stdc h use namespac std structur repres queri form l r struct queri int l r structur store inform suffix struct suffix int index store origin index int rank 2 store rank next rank pair util function get minimum two number int minval int x int return x 
+x util function get middl index corner index 
+int getmid int int e return e 2 recurs function get minimum valu given rang array index 
+follow paramet function 
+st pointer segment tree index index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e st index qs qe start end index queri rang int rmqutil int st int ss int se int qs int qe int index segment node part given rang return min segment qs ss qe se return st index segment node outsid given rang se qs ss qe return int_max part segment overlap given rang int mid getmid ss se return minval rmqutil st ss mid qs qe 2 index 1 rmqutil st mid 1 se qs qe 2 index 2 return minimum element rang index qs quey start qe queri end 
+mainli use rmqutil int rmq int st int n int qs int qe check erron input valu qs 0 qe n 1 qs qe printf invalid input return 1 return rmqutil st 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st int constructstutil int arr int ss int se int st int si one element array store current node segment tree return ss se st si arr ss return arr ss one element recur left right subtre store minimum two valu node int mid getmid ss se st si minval constructstutil arr ss mid st si 2 1 constructstutil arr mid 1 se st si 2 2 return st si function construct segment tree given array 
+function alloc memori segment tree call constructstutil fill alloc memori int constructst int arr int n alloc memori segment tree height segment tree int x int ceil log2 n maximum size segment tree int max_siz 2 int pow 2 x 1 int st new int max_siz fill alloc memori st constructstutil arr 0 n 1 st 0 return construct segment tree return st comparison function use sort compar two suffix compar two pair return 1 first pair smaller int cmp struct suffix struct suffix b return rank 0 b rank 0 
+rank 1 b rank 1 1 0 rank 0 b rank 0 1 0 main function take string txt size n argument build return suffix array given string vector int buildsuffixarray string txt int n structur store suffix index struct suffix suffix n store suffix index array structur 
+structur need sort suffix alphabat maintain old index sort int 0 n suffix index suffix rank 0 txt suffix rank 1 1 n 
+txt 1 1 sort suffix use comparison function defin 
+sort suffix suffix n cmp point suffix sort accord first 2 charact 
+let us sort suffix accord first 4 charact first 8 int ind n array need get index suffix origin index 
+map need get next suffix 
+int k 4 k 2 n k k 2 assign rank index valu first suffix int rank 0 int prev_rank suffix 0 rank 0 suffix 0 rank 0 rank ind suffix 0 index 0 assign rank suffix int 1 n first rank next rank previou suffix array assign new rank suffix suffix rank 0 prev_rank suffix rank 1 suffix 1 rank 1 prev_rank suffix rank 0 suffix rank 0 rank els otherwis increment rank assign prev_rank suffix rank 0 suffix rank 0 rank ind suffix index assign next rank everi suffix int 0 n int nextindex suffix index k 2 suffix rank 1 nextindex n 
+suffix ind nextindex rank 0 1 sort suffix accord first k charact sort suffix suffix n cmp store index sort suffix suffix array vector int suffixarr int 0 n suffixarr push_back suffix index return suffix array return suffixarr construct return lcp vector int kasai string txt vector int suffixarr vector int invsuff int n suffixarr size store lcp array vector int lcp n 0 fill valu invsuff int 0 n invsuff suffixarr initi length previou lcp int k 0 process suffix one one start first suffix txt int 0 n current suffix n 1 next substr consid 
+lcp defin substr put zero 
+invsuff n 1 k 0 continu j contain index next substr consid compar present substr e next string suffix array int j suffixarr invsuff 1 directli start match k th index least k 1 charact match k n j k n txt k txt j k k lcp invsuff k lcp present suffix 
+delet start charact string 
+k 0 k return construct lcp array return lcp util function find longest common extens index l index r int lce int st vector int lcp vector int invsuff int n int l int r handl corner case l r return n l use formula lce l r rmq lcp invsuff r invsuff l 1 return rmq st n invsuff r invsuff l 1 function answer queri longest common extens void lcequeri string str int n queri q int build suffix array vector int suffixarr buildsuffixarray str str length auxiliari array store invers suffix array element 
+exampl suffixarr 0 5 invsuff 5 would store 0 use get next suffix string suffix array 
+vector int invsuff n 0 build lcp vector vector int lcp kasai str suffixarr invsuff int lcparr n convert lcp array int 0 n lcparr lcp build segment tree lcp array int st constructst lcparr n int 0 int l q l int r q r printf lce n l r lce st lcp invsuff n l r return driver program test function int main string str abbababba int n str length lca queri answer queri q 1 2 1 6 0 5 int sizeof q sizeof q 0 lcequeri str n q return 0 output lce 1 2 1 lce 1 6 3 lce 0 5 4 time complex construct lcp suffix array take n logn time 
+answer queri take log n 
+henc overal time complex n logn q logn 
+although construct lcp array suffix array n time use algorithm 
+q number lce queri 
+n length input string 
+auxiliari space use n auxiliari space store lcp suffix invers suffix array segment tree 
+comparison perform seen three algorithm comput length lce 
+set 1 naiv method n q set 2 rmq direct minimum method n logn q 
+invsuff r invsuff l set 3 segment tree method n logn q logn invsuff invers suffix array input string 
+asymptot time complex seem segment tree method effici two ineffici 
+come practic world case 
+plot graph time vs log invsuff r invsuff l typic file random string variou run result shown 
+graph taken refer 
+test run 25 file random string rang 0 7 mb 2 gb 
+exact size string known obvious 2 gb file lot charact 
+1 charact 1 byte 
+1000 charact equal 1 kilobyt 
+page 2000 charact reason averag doubl space page take 2k 2 kilobyt 
+mean take 500 page text equal one megabyt 
+henc 2 gigabyt 2000 megabyt 2000 500 10 00 000 page text 
+graph clear naiv method discuss set 1 perform best better segment tree method 
+surpris asymptot time complex segment tree method much lesser naiv method 
+fact naiv method gener 5 6 time faster segment tree method typic file random string 
+also forget naiv method place algorithm thu make desir algorithm comput lce 
+bottom line naiv method optim choic answer lce queri come averag case perform 
+kind think rare happen comput scienc faster look algorithm get beaten less effici one practic test 
+learn although asymptot analysi one effect way compar two algorithm paper practic use sometim thing may happen way round 
+refer http www sciencedirect com scienc articl pii s1570866710000377 articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

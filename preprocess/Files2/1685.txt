@@ -1,0 +1,37 @@
+two node binari search tree bst swap 
+fix correct bst 
+input tree 10 5 8 2 20 tree node 20 8 must swap fix tree 
+follow output tree 10 5 20 2 8 inord travers bst produc sort array 
+simpl method store inord travers input tree auxiliari array 
+sort auxiliari array 
+final insert auxiilari array element back bst keep structur bst 
+time complex method nlogn auxiliari space need n 
+solv n time singl travers given bst 
+sinc inord travers bst alway sort array problem reduc problem two element sort array swap 
+two case need handl 1 swap node adjac inord travers bst 
+exampl node 5 25 swap 3 5 7 8 10 15 20 25 
+inord travers given tree 3 25 7 8 10 15 20 5 observ care inord travers find node 7 smaller previou visit node 25 save context node 25 previou node 
+find node 5 smaller previou node 20 time save context node 5 current node 
+final swap two node valu 
+2 swap node adjac inord travers bst 
+exampl node 7 8 swap 3 5 7 8 10 15 20 25 
+inord travers given tree 3 5 8 7 10 15 20 25 unlik case 1 one point exist node valu smaller previou node valu 
+e g 
+node 7 smaller node 8 solv 
+maintain three pointer first middl last 
+find first point current node valu smaller previou node valu updat first previou node middl current node 
+find second point current node valu smaller previou node valu updat last current node 
+case 2 never find second point 
+last pointer updat 
+process last node valu null two swap node bst adjac 
+follow c implement given code 
+two node bst swap correct bst 
+includ stdio h includ stdlib h binari tree node data pointer left child pointer right child struct node int data struct node left right util function swap two integ void swap int int b int b b helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null return node function inord travers find two swap node 
+set three pointer first middl last 
+swap node adjac first middl contain result node els first last contain result node void correctbstutil struct node root struct node first struct node middl struct node last struct node prev root recur left subtre correctbstutil root left first middl last prev node smaller previou node violat bst rule 
+prev root data prev data first violat mark two node first middl 
+first first prev middl root second violat mark node last els last root mark node previou prev root recur right subtre correctbstutil root right first middl last prev function fix given bst two node swap 
+function use correctbstutil find two node swap node fix bst void correctbst struct node root initi pointer need correctbstutil struct node first middl last prev first middl last prev null set poiter find two node correctbstutil root first middl last prev fix correct tree first last swap first data last data els first middl adjac node swap swap first data middl data els node swap pass tree realli bst 
+util function print inod travers void printinord struct node node node null return printinord node left printf node data printinord node right driver program test function int main 6 10 2 1 3 7 12 10 2 swap struct node root newnod 6 root left newnod 10 root right newnod 2 root left left newnod 1 root left right newnod 3 root right right newnod 12 root right left newnod 7 printf inord travers origin tree n printinord root correctbst root printf ninord travers fix tree n printinord root return 0 output inord travers origin tree 1 10 3 6 7 2 12 inord travers fix tree 1 2 3 6 7 10 12 time complex n see differ test case code 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

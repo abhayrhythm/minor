@@ -1,0 +1,36 @@
+onlin round round 20 mcq solv 2 code question 
+20mcq coupl question os quantit aptitud data structur etc 
+www geeksquiz com 
+mcq 0 25 mark everi wrong answer 1 right answer 
+code question 10 mark 
+q1 given array posit neg number arrang altern fashion everi posit number follow neg vice versa maintain order appear count neg number keep extra last array constraint space complex 1 
+q2 given array random number push zero given array right end array minimum possibl swap 
+order appear matter 
+print total nonzero number minimum swap need 
+input 1 9 8 0 0 2 0 1 6 
+output nonzero 6 swap 2 2 swap 1 6 first two zero 
+18 select 55 f2f round 
+round 1 f2f q1 two link list merg one point return converg node 
+constraint 1 space n n length list 
+link http www geeksforgeek org write function get intersect point two link list q2 rotat altern level binari tree 
+input 1 2 3 4 5 6 7 8 11 10 12 13 output 1 3 2 6 7 4 5 13 12 8 11 10 first ask without recurs recurs 
+n time complex 
+q3 write effici function take two string argument remov second string first string place 
+shift allow input str1 aabcabcb str2 abc output ab q4 insert element sort link list loop somewher duplic element well 
+q5 make data structur 
+insert delet give random number 1 time 
+hint use hash tabl array 
+round 2 f2f q1 n pencil l length 
+write 4 kilomet 
+write 4 kilomet l 4 length 
+join 4 pencil l 4 length make 1 pencil 
+make pencil piec remain piec 3 2 1 number 
+includ remain piec whenev need 
+write recurs relat independ l length given pencil much one write n pencil 
+write mathemat equat also 
+q2 find largest sum subtre given binari tree 
+q3 revers level order travers 
+time complex n input 1 2 3 4 5 6 7 8 11 10 12 13 output 13 12 11 10 8 7 6 5 4 3 2 1 permit use extra space print separ level 
+output 13 12 11 10 8 7 6 5 4 3 2 1 like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

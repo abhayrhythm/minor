@@ -1,0 +1,4 @@
+c99 standard c languag support bool variabl 
+unlik c header file need use bool header file stdbool h must includ use bool c save program c compil save cpp work fine 
+int main bool arr 2 true fals return 0 includ header file stdbool h program work fine c program 
+includ stdbool h int main bool arr 2 true fals return 0 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

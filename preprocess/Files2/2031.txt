@@ -1,0 +1,5 @@
+1 static member function pointer 
+exampl follow program fail compil error unavail static member function includ iostream class test static test fun return compil error int main getchar return 0 2 static member function cannot virtual see g fact 3 member function declar name name paramet type list cannot overload static member function declar 
+exampl follow program fail compil error void test fun static void test fun cannot overload includ iostream class test static void fun void fun compil error int main getchar return 0 4 static member function declar const volatil const volatil 
+exampl follow program fail compil error static member function static void test fun cannot const method qualifi includ iostream class test static void fun const compil error return int main getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+refer http www open std org jtc1 sc22 wg21 doc paper 2005 n1905 pdf adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,12 @@
+consid list digit 1 9 map charact 
+1 b c 2 e f 3 g h 4 j k l 5 n 6 p q r 7 u 8 v w x 9 z given number replac digit correspond charact given list print string possibl 
+charact consid everi occurr digit number 
+input number posit contain 0 exampl input 121 output ada bdb cdc aea beb cec afa bfb cfc input 22 output dd ee ff idea digit input number consid string form previou digit append charact map current digit 
+first occurr digit append charact use first occurr 
+c program find string form given number digit map given charact 
+includ bit stdc h use namespac std function find string form given number digit map given charact 
+vector string findcombin vector int input vector char tabl vector string store output vector string temp store index first occurr digit input unordered_map int int mp maintain index current digit consid int index 0 digit int input store index first occurr digit map mp find mp end mp index clear vector content futur use temp clear charact that map digit int 0 tabl 1 size first digit simpli push map charact output list index 0 string 1 tabl 1 push_back second digit onward index 0 string output list append current charact 
+string str convert current charact string string 1 tabl 1 imp first occurr digit use charact use first occurr mp index str mp str str store string form current digit temp push_back str noth need done first occurr digit mp index break replac content output list temp list index 0 temp index return driver program int main vector store map vector char tabl b c e f g h j k l n p q r u v w x z vector store input number vector int input 1 2 1 vector string findcombin input tabl print possibl string string cout return 0 output ada bdb cdc aea beb cec afa bfb cfc articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,23 @@
+write c function ftoa convert given float point number string 
+use standard librari function direct convers allow 
+follow prototyp ftoa 
+ftoa n re afterpoint n input number re array output string store afterpoint number digit consid point 
+exampl ftoa 1 555 str 2 store 1 55 re ftoa 1 555 str 0 store 1 re 
+strongli recommend minim browser tri first 
+simpl way use sprintf use standard librari function direct convers allow 
+idea separ integr fraction part convert string separ 
+follow detail step 
+1 extract integ part float point 
+2 first convert integ part string 
+3 extract fraction part exact integ part n 4 non zero follow 
+convert fraction part integ multipli pow 10 b convert integ valu string append result 
+follow c implement approach 
+c program implement ftoa includ stdio h includ math h revers string str length len void revers char str int len int 0 j len 1 temp j temp str str str j str j temp j convert given integ x string str 
+number digit requir output 
+number digit x 0s ad begin 
+int inttostr int x char str int int 0 x str x 10 0 x x 10 number digit requir add 0s begin str 0 revers str str 0 return convert float point number string 
+void ftoa float n char re int afterpoint extract integ part int ipart int n extract float part float fpart n float ipart convert integ part string int inttostr ipart re 0 check display option point afterpoint 0 re 
+add dot get valu fraction part upto given 
+point dot 
+third paramet need handl case like 233 007 fpart fpart pow 10 afterpoint inttostr int fpart re 1 afterpoint driver program test funtion int main char re 20 float n 233 007 ftoa n re 4 printf n n re return 0 output 233 0070 articl contribut jayasantosh samal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

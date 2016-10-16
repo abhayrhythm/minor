@@ -1,0 +1,30 @@
+
+Given a R x C (1 <= R, C <= 1000000000)  grid and initial position as top left corner and direction as east. Now we start running in forward direction and cross each square blocks of matrix. Whenever we find dead end or reach a cell that is already visited, we take right because we can not cross the visited square blocks again. Tell the direction when we will be at last square block.
+For example : Consider the case with R = 3, C = 3. The path followed will be (0,0) — (0,1) — (0,2) — (1,2) — (2,2) — (2,1) — (2,0) — (1,0) — (1,1). At this point, all squares have been visited, and is facing right.
+Examples:
+
+Input  :  R = 1, C = 1
+Output :  Right
+
+Input   :  R = 2, C = 2
+Output  :  Left
+
+Input   :  R = 3, C = 1
+Output  :  Down
+
+Input  :  R = 3, C = 3
+Output :  Right
+
+
+
+Simple Solution:   One simple solution for this problem is to make it R x C matrix initialized with zero and traverse it in spiral form and take a variable ‘Dir’ that tells the current direction. Whenever we are at the end of any row and column take “Right” and change the value of ‘Dir’ according to your current direction. Now follow the given conditions :
+
+If you are traversing top row , then your current direction is “Right”. 
+If you are right coloumn , then your current direction is “Down”. 
+If you are traversing bottom row , then your current direction is “Left”. 
+If you are traversing left coloumn , then your current direction is “Up”.
+
+When we reach at the last square, just print current direction i.e; value of ‘Dir’ variable.
+Time and space complexity for this problem is O(R x C) and this will work only for small values of R, C but here R and C are too large so creating R x C matrix is not possible for too large values of  R and C.
+
+Efficient Approach :

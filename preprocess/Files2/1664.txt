@@ -1,0 +1,24 @@
+given binari search tree convert min heap contain element n time 
+place 
+input binari search tree 8 4 12 2 6 10 14 output min heap 2 4 6 8 10 12 14 tree follow min heap properti key allow use extra space perform inord travers tree store key auxiliari array 
+inord travers bst array sort 
+final construct complet binari tree sort array 
+construct binari tree level level left right take next minimum element sort array 
+construct binari tree min heap 
+solut work n time place 
+place 
+idea convert binari search tree sort link list first 
+travers bst inord fashion 
+add node begin current link list updat head list use pointer head pointer 
+sinc insert begin maintain sort order first travers right subtre left subtre 
+e 
+revers inord travers 
+final convert sort link list min heap set left right pointer appropri 
+level order travers partial built min heap tree use queue travers link list time 
+everi step take parent node queue make next two node link list children parent node enqueu next two node queue 
+link list sort min heap properti maintain 
+c implement idea program convert bst min heap n time place includ iostream includ queue use namespac std node bst min heap struct node int data node left right util function alloc node bst node newnod int data node node new node node data data node left node right null return node util function print min heap level level void printlevelord node root base case root null return creat empti queue level order travers queue node q q push root q empti int nodecount q size nodecount 0 node node q front cout node data q pop node left q push node left node right q push node right nodecount cout endl simpl recurs function convert given binari search tree sort link list root root binari search tree head_ref pointer head node creat link list void bsttosortedl node root node head_ref base case root null return recurs convert right subtre bsttosortedl root right head_ref insert root link list root right head_ref chang left pointer previou head point null head_ref null head_ref left null chang head link list head_ref root recurs convert left subtre bsttosortedl root left head_ref function convert sort link list min heap 
+root root min heap head pointer head node sort link list void sortedlltominheap node root node head base case head null return queue store parent node queue node q first node alway root node root head advanc pointer next node head head right set right child null root right null add first node queue q push root run end link list reach head take parent node q remov q node parent q front q pop take next two node link list add children current parent node also push queue parent futur node node leftchild head head head right advanc link list next node leftchild right null set right child null q push leftchild assign left child parent parent left leftchild head node rightchild head head head right advanc link list next node rightchild right null set right child null q push rightchild assign right child parent parent right rightchild function convert bst min heap without use extra space node bsttominheap node root head link list node head null convert given bst sort link list bsttosortedl root head set root null root null convert sort link list min heap sortedlltominheap root head driver code int main construct tree 8 4 12 2 6 10 14 node root newnod 8 root left newnod 4 root right newnod 12 root right left newnod 10 root right right newnod 14 root left left newnod 2 root left right newnod 6 bsttominheap root output min heap 2 4 6 8 10 12 14 printlevelord root return 0 output 2 4 6 8 10 12 14 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,27 @@
+given singli link list swap kth node begin kth node end 
+swap data allow pointer chang 
+requir may logic mani situat link list data part huge exampl student detail line name rollno address etc 
+pointer alway fix 4 byte compil 
+problem seem simpl first look mani interest case 
+let x kth node begin kth node end 
+follow interest case must handl 
+1 next x 2 x next 3 x 4 x exist k number node link list strongli recommend click practic move solut 
+c c program swap kth node begin kth node end includ iostream includ stdlib h use namespac std link list node struct node int data struct node next util function insert node begin void push struct node head_ref int new_data struct node new_nod struct node malloc sizeof struct node new_nod data new_data new_nod next head_ref head_ref new_nod util function display link list void printlist struct node node node null cout node data node node next cout endl util function calcul length link list int countnod struct node int count 0 null count next return count function swap kth node end link list void swapkth struct node head_ref int k count node link list int n countnod head_ref check k valid n k return x kth node start kth node end 2 k 1 n return find kth node begin link list 
+also find previou kth node need updat next pointer previou 
+node x head_ref node x_prev null int 1 k x_prev x x x next similarli find kth node end previou 
+kth node end n k 1 th node begin node head_ref node y_prev null int 1 n k 1 y_prev next x_prev exist new next consid case next x case x_prev 
+statement x_prev next creat self loop 
+self loop broken chang next 
+x_prev x_prev next thing appli y_prev y_prev y_prev next x swap next pointer x statement also break self loop x next next x node temp x next x next next next temp chang head pointer k 1 n k 1 head_ref k n head_ref x driver program test function int main let us creat follow link list test 1 2 3 4 5 6 7 8 struct node head null int 8 1 push head cout origin link list printlist head int k 1 k 9 k swapkth head k cout nmodifi list k k endl printlist head return 0 java java program swap kth node begin kth node end class node int data node next node int data next null class linkedlist node head util function insert node begin void push int new_data node new_nod new node new_data new_nod next head head new_nod util function display link list void printlist node node head node null system print node data node node next system println util function calcul length link list int countnod int count 0 node head null count next return count function swap kth node end link list void swapkth int k count node link list int n countnod check k valid n k return x kth node start kth node end 2 k 1 n return find kth node begin link list 
+also find previou kth node need updat next pointer previou 
+node x head node x_prev null int 1 k x_prev x x x next similarli find kth node end previou 
+kth node end n k 1 th node begin node head node y_prev null int 1 n k 1 y_prev next x_prev exist new next 
+consid case next x case x_prev 
+statement x_prev next creat self loop 
+self loop broken chang next 
+x_prev null x_prev next thing appli y_prev y_prev null y_prev next x swap next pointer x statement also break self loop x next next x node temp x next x next next next temp chang head pointer k 1 n k 1 head k n head x driver code test public static void main string arg linkedlist llist new linkedlist int 8 1 llist push system print origin link list llist printlist system println int 1 9 llist swapkth system println modifi list k llist printlist system println output origin link list 1 2 3 4 5 6 7 8 modifi list k 1 8 2 3 4 5 6 7 1 modifi list k 2 8 7 3 4 5 6 2 1 modifi list k 3 8 7 6 4 5 3 2 1 modifi list k 4 8 7 6 5 4 3 2 1 modifi list k 5 8 7 6 4 5 3 2 1 modifi list k 6 8 7 3 4 5 6 2 1 modifi list k 7 8 2 3 4 5 6 7 1 modifi list k 8 1 2 3 4 5 6 7 8 pleas note code run three separ loop count node find x x prev find y_prev 
+three thing done singl loop 
+code use three loop keep thing simpl readabl 
+thank chandra prakash initi solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,20 @@
+onlin round 1 hour 30 min 20 mcq 2 code question 1 given express string exp write program examin whether pair order correct syntax 2 given preorder inord travers binari tree print preoder inord tree modifi node store sum left right subtre 
+build tree requir technic round 1 1hr 30 min f2f 1 given string charact find first non repeat charact 
+hash 
+ask use one loop 
+take two pointer 
+2 given list vehicl group vehicl properti 
+vehicl product year paramet group togeth 
+ask write object orient code 
+list list 
+ask modifi code consid product year paramet object integ string variabl 
+look better method comparison two vehicl 
+oper overload insid vehicl class 
+technic round 2 1 hour 30 min f2f 1 given two number return sum two number consid case like integ overflow underflow etc 
+2 given array element denot price object print maximum sum obtain follow constraint one two end array select time ii seller sell one item per day iii valu element get multipli number day pass 
+dynam program 
+3 print next greater palindrom given array element denot singl digit integ 
+4 connect node level 1 extra space 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

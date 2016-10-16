@@ -1,0 +1,39 @@
+recent interview amazon hyderabad sde 1 around 1 year 9 month experi 
+telephon interview start brief introduct mine work 
+ask code question 1 given link list eg 1 2 3 4 5 6 make follow chang 1 6 2 5 3 4 easi lengthi 
+write product level code 
+2 3 hour got invit hous interview amazon campu round 1 face 2 face start discuss previou work project 
+discuss ask follow technic question 1 given pre order travers construct binari search tree 
+http www geeksforgeek org construct bst given preorder traversa simpl solut 
+ask code 
+2 given alien dictionari find order alphabet dictionari 
+approach requir 
+explain approach satisfi 
+link code anyway http www geeksforgeek org given sort dictionari find preced charact 3 connect n rope minimum cost http www geeksforgeek org connect n rope minimum cost ask write product level code problem 
+round 2 face face interview start discuss project ask technic question 
+1 given sort array n element merg array one sort array size n hear question never realli saw optim solut gave n solut 
+ask optim abl henc ask code n solut 
+took lot time code want handl edg case 
+final code 
+find issu ask make better 
+suggest use heap get minimum array 
+lot question heap bst 
+ask prove mathemat 
+satisfi gave solut use heap 
+http www geeksforgeek org merg k sort array round 3 bar raiser telephon discuss previou project ask behavior question like leav current compani conflict manag etc technic question 1 find maximum element array first increas decreas http www geeksforgeek org find maximum element array first increas decreas 2 find pythagora triplet array gave n3 solut made n2logn 
+ask optimis even 
+final came n2 solut http www geeksforgeek org find pythagorean triplet unsort array 3 given larg binari number cannot store variabl determin remaind decim equival binari number divid 3 clue question 
+gave hint abl solv 
+later ask find remaind number k gave hint abl solv 
+basic append digit binari number previou binari number get doubl henc remaind also get doubl 
+exampl 101 5 1010 2 5 0 10 1011 2 5 1 11 k 3 5 1 3 2 2 5 2 3 2 2 henc remaind 2 2 0 3 1 1010 similarli 1011 remaind 2 2 1 3 2 keep track remaind previou binari number current remaind determin 
+round 4 hire manag face face behavior question along question previou project 
+gave technic question 1 given number say 1234 return number word e one thousand two hundr thirti four abl cover scenario 
+satisfi approach suggest think loud confid 
+okay know answer first 
+mostli see solv question know solut 
+thank geeksforgeek 
+guy awesom job 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

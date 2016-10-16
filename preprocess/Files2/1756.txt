@@ -1,0 +1,25 @@
+given direct two vertic u v find shortest path u v exactli k edg path 
+graph given adjac matrix represent valu graph j indic weight edg vertex vertex j valu inf infinit indic edg j exampl consid follow graph 
+let sourc u vertex 0 destin v 3 k 2 two walk length 2 walk 0 2 3 0 1 3 
+shortest among two 0 2 3 weight path 3 6 9 idea brows path length k u v use approach discuss previou post return weight shortest path 
+simpl solut start u go adjac vertic recur adjac vertic k k 1 sourc adjac vertex destin v follow c java implement simpl solut 
+c c program find shortest path exactli k edg includ iostream includ climit use namespac std defin number vertic graph inifinit valu defin v 4 defin inf int_max naiv recurs function count walk u v k edg int shortestpath int graph v int u int v int k base case k 0 u v return 0 k 1 graph u v inf return graph u v k 0 return inf initi result int re inf go adjac u recur int 0 v graph u inf u v int rec_r shortestpath graph v k 1 rec_r inf re min re graph u rec_r return re driver program test function int main let us creat graph shown diagram int graph v v 0 10 3 2 inf 0 inf 7 inf inf 0 6 inf inf inf 0 int u 0 v 3 k 2 cout weight shortest path shortestpath graph u v k return 0 java dynam program base java program find shortest path exactli k edg import java util 
+import java lang 
+import java io 
+class shortestpath defin number vertic graph inifinit valu static final int v 4 static final int inf integ max_valu naiv recurs function count walk u v k edg int shortestpath int graph int u int v int k base case k 0 u v return 0 k 1 graph u v inf return graph u v k 0 return inf initi result int re inf go adjac u recur int 0 v graph u inf u v int rec_r shortestpath graph v k 1 rec_r inf re math min re graph u rec_r return re public static void main string arg let us creat graph shown diagram int graph new int 0 10 3 2 inf 0 inf 7 inf inf 0 6 inf inf inf 0 shortestpath new shortestpath int u 0 v 3 k 2 system println weight shortest path shortestpath graph u v k output weight shortest path 9 worst case time complex function vk v number vertic given graph 
+simpli analyz time complex draw recurs tree 
+worst occur complet graph 
+worst case everi intern node recurs tree would exactli v children 
+optim solut use dynam program 
+idea build 3d tabl first dimens sourc second dimens destin third dimens number edg sourc destin valu count walk 
+like dynam program problem fill 3d tabl bottom manner 
+c dynam program base c program find shortest path exactli k edg includ iostream includ climit use namespac std defin number vertic graph inifinit valu defin v 4 defin inf int_max dynam program base function find shortest path u v exactli k edg 
+int shortestpath int graph v int u int v int k tabl fill use dp 
+valu sp j e store weight shortest path j exactli k edg int sp v v k 1 loop number edg 0 k int e 0 e k e int 0 v sourc int j 0 j v j destin initi valu sp j e inf base case e 0 j sp j e 0 e 1 graph j inf sp j e graph j go adjac number edg 1 e 1 int 0 v edg either j graph inf j sp j e 1 inf sp j e min sp j e graph sp j e 1 return sp u v k driver program test function int main let us creat graph shown diagram int graph v v 0 10 3 2 inf 0 inf 7 inf inf 0 6 inf inf inf 0 int u 0 v 3 k 2 cout shortestpath graph u v k return 0 java dynam program base java program find shortest path exactli k edg import java util 
+import java lang 
+import java io 
+class shortestpath defin number vertic graph inifinit valu static final int v 4 static final int inf integ max_valu dynam program base function find shortest path u v exactli k edg 
+int shortestpath int graph int u int v int k tabl fill use dp 
+valu sp j e store weight shortest path j exactli k edg int sp new int v v k 1 loop number edg 0 k int e 0 e k e int 0 v sourc int j 0 j v j destin initi valu sp j e inf base case e 0 j sp j e 0 e 1 graph j inf sp j e graph j go adjac number edg 1 e 1 int 0 v edg either j graph inf j sp j e 1 inf sp j e math min sp j e graph sp j e 1 return sp u v k public static void main string arg let us creat graph shown diagram int graph new int 0 10 3 2 inf 0 inf 7 inf inf 0 6 inf inf inf 0 shortestpath new shortestpath int u 0 v 3 k 2 system println weight shortest path shortestpath graph u v k code contribut aakash hasija output weight shortest path 9 time complex dp base solut v3k much better naiv solut 
+articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

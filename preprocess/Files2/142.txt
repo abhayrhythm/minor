@@ -1,0 +1,31 @@
+backtrack algorithm paradigm tri differ solut find solut work 
+problem typic solv use backtrack techniqu follow properti common 
+problem solv tri everi possibl configur configur tri 
+naiv solut problem tri configur output configur follow given problem constraint 
+backtrack work increment way optim naiv solut possibl configur gener tri 
+exampl consid follow knight tour problem 
+knight place first block empti board move accord rule chess must visit squar exactli 
+let us first discuss naiv algorithm problem backtrack algorithm 
+naiv algorithm knight tour naiv algorithm gener tour one one check gener tour satisfi constraint 
+untri tour gener next tour tour cover squar print path backtrack work increment way attack problem 
+typic start empti solut vector one one add item mean item vari problem problem 
+context knight tour problem item knight move 
+add item check ad current item violat problem constraint remov item tri altern 
+none altern work go previou stage remov item ad previou stage 
+reach initi stage back say solut exist 
+ad item violat constraint recurs add item one one 
+solut vector becom complet print solut 
+backtrack algorithm knight tour follow backtrack algorithm knight tour problem 
+squar visit print solut els add one next move solut vector recurs check move lead solut 
+knight make maximum eight move 
+choos one 8 move step 
+b move chosen step lead solut remov move solut vector tri altern move 
+c none altern work return fals return fals remov previous ad item recurs fals return initi call recurs solut exist follow implement knight tour problem 
+print one possibl solut 2d matrix form 
+basic output 2d 8 8 matrix number 0 63 number show step made knight 
+c c program knight tour problem includ stdio h defin n 8 int solvektutil int x int int movei int sol n n int xmove int ymove util function check j valid index n n chessboard bool issaf int x int int sol n n return x 0 x n 0 n sol x 1 util function print solut matrix sol n n void printsolut int sol n n int x 0 x n x int 0 n printf 2d sol x printf n function solv knight tour problem use backtrack 
+function mainli use solvektutil solv problem 
+return fals complet tour possibl otherwis return true print tour 
+pleas note may one solut function print one feasibl solut 
+bool solvekt int sol n n initi solut matrix int x 0 x n x int 0 n sol x 1 xmove ymove defin next move knight 
+xmove next valu x coordin ymove next valu coordin int xmove 8 2 1 1 2 2 1 1 2 int ymove 8 1 2 2 1 1 2 2 1 sinc knight initi first block sol 0 0 0 start 0 0 explor tour use solvektutil solvektutil 0 0 1 sol xmove ymove fals printf solut exist return fals els printsolut sol return true recurs util function solv knight tour problem int solvektutil int x int int movei int sol n n int xmove n int ymove n int k next_x next_i movei n n return true tri next move current coordin x k 0 k 8 k next_x x xmove k next_i ymove k issaf next_x next_i sol sol next_x next_i movei solvektutil next_x next_i movei 1 sol xmove ymove true return true els sol next_x next_i 1 backtrack return fals driver program test function int main solvekt return 0 

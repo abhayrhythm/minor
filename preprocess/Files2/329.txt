@@ -1,0 +1,20 @@
+recommend read follow post prerequisit post 
+k th smallest largest element unsort array set 1 given array number k k smaller size array need find k th smallest element given array 
+given array element distinct 
+exampl input arr 7 10 4 3 20 15 k 3 output 7 input arr 7 10 4 3 20 15 k 4 output 10 discuss three differ solut 
+post method 4 discuss mainli extens method 3 quickselect discuss previou post 
+idea randomli pick pivot element 
+implement random partit use random function rand gener index l r swap element randomli gener index last element final call standard partit process use last element pivot 
+follow implement random quickselect 
+c c c implement random quickselect includ iostream includ climit includ cstdlib use namespac std int randompartit int arr int l int r function return k th smallest element arr l r use quicksort base method 
+assumpt element arr distinct int kthsmallest int arr int l int r int k k smaller number element array k 0 k r l 1 partit array around random element get posit pivot element sort array int po randompartit arr l r posit k po l k 1 return arr po po l k 1 posit recur left subarray return kthsmallest arr l po 1 k els recur right subarray return kthsmallest arr po 1 r k po l 1 k number element array return int_max void swap int int b int temp b b temp standard partit process quicksort 
+consid last element pivot move smaller element left greater element right 
+function use randompartit int partit int arr int l int r int x arr r l int j l j r 1 j arr j x swap arr arr j swap arr arr r return pick random pivot element l r partit arr l r arount randomli pick element use partit int randompartit int arr int l int r int n r l 1 int pivot rand n swap arr l pivot arr r return partit arr l r driver program test method int main int arr 12 3 5 7 4 19 26 int n sizeof arr sizeof arr 0 k 3 cout k th smallest element kthsmallest arr 0 n 1 k return 0 java java program find k th smallest element expect linear time class kthsmallst function return k th smallest element arr l r use quicksort base method 
+assumpt element arr distinct int kthsmallest int arr int l int r int k k smaller number element array k 0 k r l 1 partit array around random element get posit pivot element sort array int po randompartit arr l r posit k po l k 1 return arr po posit recur left subarray po l k 1 return kthsmallest arr l po 1 k els recur right subarray return kthsmallest arr po 1 r k po l 1 k number element array return integ max_valu util method swap arr arr j void swap int arr int int j int temp arr arr arr j arr j temp standard partit process quicksort 
+consid last element pivot move smaller element left greater element right 
+function use randompartit int partit int arr int l int r int x arr r l int j l j r 1 j arr j x swap arr j swap arr r return pick random pivot element l r partit arr l r arount randomli pick element use partit int randompartit int arr int l int r int n r l 1 int pivot int math random n swap arr l pivot r return partit arr l r driver method test public static void main string arg kthsmallst ob new kthsmallst int arr 12 3 5 7 4 19 26 int n arr length k 3 system println k th smallest element ob kthsmallest arr 0 n 1 k code contribut rajat mishra output k th smallest element 5 time complex worst case time complex solut still n2 
+worst case random function may alway pick corner element 
+expect time complex random quickselect θ n see clr book mit video lectur proof 
+assumpt analysi random number gener equal like gener number input rang 
+sourc mit video lectur order statist median introduct algorithm clifford stein thoma h cormen charl e leiserson ronald l articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

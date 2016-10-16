@@ -1,0 +1,12 @@
+consid follow c program 
+program 1 includ stdio h int main void int 1 2 3 printf return 0 program fail compil follow program compil fine print 1 
+program 2 includ stdio h int main void int 1 2 3 printf return 0 follow program print 3 
+program 3 includ stdio h int main void int 1 2 3 printf return 0 c c program comma use two context 1 separ 2 oper 
+see detail 
+comma work separ program 1 get compil error program 
+comma work oper program 2 preced comma oper least oper preced tabl 
+assign oper take preced comma express 1 2 3 becom equival 1 2 3 
+get output 1 second program 
+program 3 bracket use comma oper execut first get output 3 see wiki page detail 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,12 @@
+c follow gener rule oper overload 
+1 built oper overload 
+new oper creat 
+2 ariti oper cannot chang 
+3 preced associ oper cannot chang 
+4 overload oper cannot default argument except function call oper default argument 
+5 oper cannot overload built type 
+least one operand must use defin type 
+6 assign subscript function call member select oper must defin member function 7 except oper specifi point 6 oper either member function non member function 
+8 oper like assign address comma default overload 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

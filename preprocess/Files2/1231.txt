@@ -1,0 +1,30 @@
+write function runcustomersimul take follow two input integ n total number comput cafe string b sequenc uppercas letter seq letter sequenc occur pair 
+first occurr indic arriv custom second indic departur custom 
+custom servic unoccupi comput 
+letter occur two time 
+custom leav without use comput alway depart custom current use comput 
+20 comput per cafe 
+set input function output number tell mani custom walk away without use comput 
+return 0 custom abl use comput 
+runcustomersimul 2 abbajjkzkz return 0 runcustomersimul 3 gaccbddbage return 1 abl get comput runcustomersimul 3 gaccbgddbae return 0 runcustomersimul 1 abcbca return 2 b c abl get comput 
+runcustomersimul 1 abcbcade return 3 b c e abl get comput 
+sourc fiberlink maas360 interview strongli recommend minim browser tri first 
+simpl step find number custom could get comput 
+1 initi result 0 
+2 travers given sequenc 
+travers keep track occupi comput done keep track charact appear comput avail appear 
+point count occupi comput equal n new custom increment result 1 import thing keep track exist custom cafe way indic whether custom got comput 
+note sequenc abcbcade custom b get seat still cafe new custom c next sequenc 
+c python implement idea 
+c c c program find number custom get resourc 
+includ iostream includ cstring use namespac std defin max_char 26 n number comput cafe 
+seq given sequenc custom entri exit event int runcustomersimul int n const char seq seen 0 indic custom cafe seen 1 1 indic custom cafe comput assign yet 
+seen 2 2 indic custom cafe occupi comput 
+char seen max_char 0 initi result number custom could get comput 
+int re 0 int occupi 0 keep track occupi comput traver input sequenc int 0 seq find index current charact seen 0 25 int ind seq first occurr seq seen ind 0 set current charact seen seen ind 1 number occupi comput less n assign comput new custom occupi n occupi set current charact occupi comput seen ind 2 els custom cannot get comput increment result els re second occurr seq els decrement occupi custom use comput seen ind 2 occupi seen ind 0 return re driver program int main cout runcustomersimul 2 abbajjkzkz endl cout runcustomersimul 3 gaccbddbage endl cout runcustomersimul 3 gaccbgddbae endl cout runcustomersimul 1 abcbca endl cout runcustomersimul 1 abcbcade endl return 0 python python program function find number custom could get comput max_char 26 n number comput cafe 
+seq given sequenc custom entri exit event def runcustomersimul n seq seen 0 indic custom cafe seen 1 1 indic custom cafe comput assign yet 
+seen 2 2 indic custom cafe occupi comput 
+seen 0 max_char initi result number custom could get comput 
+re 0 occupi 0 keep track occupi travers input sequenc xrang len seq find index current charact seen 0 25 ind ord seq ord first occurr seq seen ind 0 set current charact seen seen ind 1 number occupi comput less n assign comput new custom occupi n occupi 1 set current charact occupi comput seen ind 2 els custom cannot get comput increment els re 1 second occurr seq els decrement occupi custom use comput seen ind 2 occupi 1 seen ind 0 return re driver program print runcustomersimul 2 abbajjkzkz print runcustomersimul 3 gaccbddbage print runcustomersimul 3 gaccbgddbae print runcustomersimul 1 abcbca print runcustomersimul 1 abcbcade code contribut bhavya jain output 0 1 0 2 3 time complex solut n extra space requir char_max char_max total number possibl charact given sequenc 
+articl contribut lokesh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

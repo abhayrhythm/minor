@@ -1,0 +1,14 @@
+given queue data structur task implement stack use given queue data structur 
+discuss solut use two queue 
+articl new solut discuss use one queue 
+solut assum find size queue point 
+idea keep newli insert element alway front keep order previou element 
+complet step 
+x element push stack push x 1 let size q 1 enqueu x q 2 one one dequeu item queue enqueu 
+remov item stack pop 1 dequeu item q c implement idea 
+c program implement stack use singl queue includ bit stdc h use namespac std user defin stack use queue class stack queue int q public void push int val void pop int top bool empti push oper void stack push int val get previou size queue int q size push current element q push val pop dequeu previou element put current element int 0 add front element rear queue q push q front delet front element q pop remov top element void stack pop q empti cout element n els q pop return top stack int stack top return q empti 
+1 q front return true stack empti els fals bool stack empti return q empti driver code int main stack push 10 push 20 cout top endl pop push 30 pop cout top endl return 0 output 20 10 articl contribut manu agraw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

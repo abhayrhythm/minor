@@ -1,0 +1,19 @@
+given unsort array may contain duplic 
+also given number k smaller size array 
+write function return true array contain duplic within k distanc 
+exampl input k 3 arr 1 2 3 4 1 2 3 4 output fals duplic k distanc away 
+input k 3 arr 1 2 3 1 4 5 output true 1 repeat distanc 3 input k 3 arr 1 2 3 4 5 output fals input k 3 arr 1 2 3 4 4 output true strongli recommend click practic move solut 
+simpl solut run two loop 
+outer loop pick everi element arr start element inner loop compar element within k distanc arr 
+time complex solut kn 
+solv problem θ n time use hash 
+idea one add element hash 
+also remov element k distanc current element 
+follow detail algorithm 
+1 creat empti hashtabl 
+2 travers element left right 
+let current element arr current element arr present hashtabl return true 
+b els add arr hash remov arr k hash greater equal k java program check given array contain duplic element within k distanc import java util 
+class main static boolean checkduplicateswithink int arr int k creat empti hashset hashset integ set new hashset travers input array int 0 arr length alreadi present n hash found duplic within k distanc set contain arr return true add item hashset set add arr remov k 1 distant item k set remov arr k return fals driver method test method public static void main string arg int arr 10 5 3 4 3 5 6 checkduplicateswithink arr 3 system println ye els system println output ye articl contribut anuj 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

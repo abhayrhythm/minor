@@ -1,0 +1,20 @@
+dequ doubl end queue gener version queue data structur allow insert delet end 
+oper dequ mainli follow four basic oper perform queue insetfront add item front dequ 
+insertlast add item rear dequ 
+deletefront delet item front dequ 
+deletelast delet item rear dequ 
+addit oper follow oper also support getfront get front item queue 
+getrear get last item queue 
+isempti check whether dequ empti 
+isful check whether dequ full 
+applic dequ sinc dequ support stack queue oper use 
+dequ data structur support clockwis anticlockwis rotat 1 time use certain applic 
+also problem element need remov ad end effici solv use dequ 
+exampl see maximum subarray size k problem see wiki page anoth exampl steal job schedul algorithm dequ use delet oper requir end 
+languag support c stl provid implement dequ std dequ java provid dequ interfac 
+see detail 
+implement dequ implement either use doubli link list circular array 
+implement implement oper 1 time 
+soon discuss c c implement dequ data structur 
+pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push 

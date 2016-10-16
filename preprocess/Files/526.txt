@@ -1,0 +1,20 @@
+
+This article is continuation of following two articles:
+Ukkonen’s Suffix Tree Construction – Part 1
+Ukkonen’s Suffix Tree Construction – Part 2
+Please go through Part 1 and Part 2, before looking at current article, where we have seen few basics on suffix tree, high level ukkonen’s algorithm, suffix link and three implementation tricks.
+Here we will take string S = “abcabxabcd” as an example and go through all the things step by step and create the tree.
+We will add $ (discussed in Part 1 why we do this) so string S would be “abcabxabcd$”.
+While building suffix tree for string S of length m:
+
+There will be m phases 1 to m (one phase for each character)
+In our current example, m is 11, so there will be 11 phases.
+First phase will add first character ‘a’ in the tree, second phase will add second character ‘b’ in tree, third phase will add third character ‘c’ in tree, ……, mth phase will add mth character in tree (This makes Ukkonen’s algorithm an online algorithm)
+Each phase i will go through at-most i extensions (from 1 to i). If current character being added in tree is not seen so far, all i extensions will be completed (Extension Rule 3 will not apply in this phase). If current character being added in tree is seen before, then phase i will complete early (as soon as Extension Rule 3 applies) without going through all i extensions
+There are three extension rules (1, 2 and 3) and each extension j (from 1 to i) of any phase i will adhere to one of these three rules.
+Rule 1 adds a new character on existing leaf edge
+Rule 2 creates a new leaf edge (And may also create new internal node, if the path label ends in between an edge)
+Rule 3 ends the current phase (when current character is found in current edge being traversed)
+Phase 1 will read first character from the string, will go through 1 extension.
+(In figures, we are showing characters on edge labels just for explanation, while writing code, we will only use start and end indices – The Edge-label compression discussed in Part 2) 
+Extension 1 will add suffix “a” in tree. We start from root and traverse path with label ‘a’. There is no path from root, going out with label ‘a’, so create a leaf edge (Rule 2).

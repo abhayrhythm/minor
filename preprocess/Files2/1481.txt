@@ -1,0 +1,37 @@
+background three basic oper must support hash tabl dictionari lookup key return true key tabl els fals insert key add item key tabl alreadi present delet key remov key tabl collis like even big tabl store key 
+use result birthday paradox 23 person probabl two peopl share birth date 50 
+3 gener strategi toward resolv hash collis close address chain store collid element auxiliari data structur like link list binari search tree 
+open address allow element overflow target bucket space 
+although solut provid expect lookup cost 1 expect worst case cost lookup open address linear probe ω log n θ log n log log n simpl chain sourc standford lectur note 
+close gap expect time worst case expect time two idea use multipl choic hash give element multipl choic posit resid hash tabl reloc hash allow element hash tabl move place cuckoo hash cuckoo hash appli idea multipl choic reloc togeth guarante 1 worst case lookup time 
+multipl choic give key two choic h1 key h2 key resid 
+reloc may happen h1 key h2 key preoccupi 
+resolv imit cuckoo bird push egg young nest hatch 
+analog insert new key cuckoo hash tabl may push older key differ locat 
+leav us problem place older key 
+altern posit older key vacant problem 
+otherwis older key displac anoth key 
+continu procedur find vacant posit enter cycl 
+case cycl new hash function chosen whole data structur rehash 
+multipl rehash might necessari cuckoo succe 
+insert expect 1 amort high probabl even consid possibl rehash long number key kept half capac hash tabl e load factor 50 
+delet 1 worst case requir inspect two locat hash tabl 
+illustr input 20 50 53 75 100 67 105 3 36 39 hash function h1 key key 11 h2 key key 11 11 let start insert 20 possibl posit first tabl determin h1 20 next 50 next 53 h1 53 9 20 alreadi 9 place 53 tabl 1 20 tabl 2 h2 20 next 75 h1 75 9 53 alreadi 9 place 75 tabl 1 53 tabl 2 h2 53 next 100 h1 100 1 next 67 h1 67 1 100 alreadi 1 place 67 tabl 1 100 tabl 2 next 105 h1 105 6 50 alreadi 6 place 105 tabl 1 50 tabl 2 h2 50 4 53 displac 
+h1 53 9 
+75 displac h2 75 6 next 3 h1 3 3 next 36 h1 36 3 h2 3 0 next 39 h1 39 6 h2 105 9 h1 100 1 h2 67 6 h1 75 9 h2 53 4 h1 50 6 h2 39 3 new key 39 displac later recurs call place 105 displac 
+implement c c implement cuckoo hash c program demonstr work cuckoo hash 
+includ bit stdc h upper bound number element set defin maxn 11 choic posit defin ver 2 auxiliari space bound small multipl maxn minim wastag int hashtabl ver maxn array store possibl posit key int po ver function fill hash tabl dummi valu dummi valu int_min number hashtabl ver void initt int j 0 j maxn j int 0 ver hashtabl j int_min return hash valu key function id hash function accord key hash key item hash int hash int function int key switch function case 1 return key maxn case 2 return key maxn maxn function place key one possibl posit tableid tabl key place also equal function accord key must hash cnt number time function alreadi call order place first input key n maximum number time function recurs call stop declar presenc cycl void place int key int tableid int cnt int n function recurs call max number time stop declar cycl 
+rehash 
+cnt n printf unposit n key printf cycl present 
+rehash n return calcul store possibl posit key 
+check key alreadi present posit 
+ye return 
+int 0 ver po hash 1 key hashtabl po key return check anoth key alreadi present posit new key tabl ye place new key posit place older key altern posit next tabl hashtabl tableid po tableid int_min int di hashtabl tableid po tableid hashtabl tableid po tableid key place di tableid 1 ver cnt 1 n els els place new key posit hashtabl tableid po tableid key function print hash tabl content void printtabl printf final hash tabl n int 0 ver printf n int j 0 j maxn j hashtabl j int_min 
+printf printf hashtabl j printf n function cuckoo hash key key input array key n size input array void cuckoo int key int n initi hash tabl dummi valu int min indic empti posit initt start place everi key posit first hash tabl accord first hash function int 0 cnt 0 n cnt 0 place key 0 cnt n print final hash tabl printtabl driver function int main follow array cycl henc key insert without rehash int keys_1 20 50 53 75 100 67 105 3 36 39 int n sizeof keys_1 sizeof int cuckoo keys_1 n follow array cycl henc rehash posit everi key int keys_2 20 50 53 75 100 67 105 3 36 39 6 int sizeof keys_2 sizeof int cuckoo keys_2 return 0 output final hash tabl 100 36 50 75 3 20 39 53 67 105 105 unposit cycl present 
+rehash 
+final hash tabl 67 3 39 53 6 20 36 50 75 100 gener cuckoo hash use 2 altern hash function expect util larger part capac hash tabl effici sacrif lookup insert speed 
+exampl use 3 hash function safe load 91 still oper within expect bound sourc wiki articl contribut yash varyani 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,46 @@
+evalu express repres string 
+express contain parenthes assum parenthes well match 
+simplic assum binari oper allow 
+arithmet express written one three form fix notat oper written operand oper e g 
+3 4 
+prefix notat oper written operand e g 3 4 postfix notat oper written operand 
+fix express harder comput evalu addion work need decid preced 
+fix notat express written recogn human gener input program 
+given harder evalu gener convert one two remain form 
+well known algorithm convert infix notat post fix notat shunt yard algorithm edgar dijkstra 
+algorithm take input infi x express produc queue express convert post fix notat 
+algorithm modifi output result evalu express instead queue 
+trick use two stack instead one one operand one oper 
+algorithm describ succinctli http www ci upenn edu matuszek cit594 2002 assign 5 express htm produc 
+note credit succinct goe author said page 1 still token read 1 1 get next token 
+1 2 token 1 2 1 number push onto valu stack 
+1 2 2 variabl get valu push onto valu stack 
+1 2 3 left parenthesi push onto oper stack 
+1 2 4 right parenthesi 1 thing top oper stack left parenthesi 1 pop oper oper stack 
+2 pop valu stack twice get two operand 
+3 appli oper operand correct order 
+4 push result onto valu stack 
+2 pop left parenthesi oper stack discard 
+1 2 5 oper call thisop 1 oper stack empti top thing oper stack greater preced thisop 1 pop oper oper stack 
+2 pop valu stack twice get two operand 
+3 appli oper operand correct order 
+4 push result onto valu stack 
+2 push thisop onto oper stack 
+2 oper stack empti 1 pop oper oper stack 
+2 pop valu stack twice get two operand 
+3 appli oper operand correct order 
+4 push result onto valu stack 
+3 point oper stack empti valu stack one valu final result 
+clear algorithm run linear time number oper push onto pop stack 
+also see http www2 lawrenc edu fast greggj cmsc270 infix html http faculti cs niu edu hutchin csci241 eval htm 
+follow java implement algorithm 
+java program evalu given express token separ space 
+test case 10 2 6 22 100 2 12 212 100 2 12 1400 100 2 12 14 100 import java util stack public class evaluatestr public static int evalu string express char token express tochararray stack number valu stack integ valu new stack integ stack oper op stack charact op new stack charact int 0 token length current token whitespac skip token continu current token number push stack number token 0 token 9 stringbuff sbuf new stringbuff may one digit number token length token 0 token 9 sbuf append token valu push integ parseint sbuf tostr current token open brace push op els token op push token close brace encount solv entir brace els token op peek valu push applyop op pop valu pop valu pop op pop current token oper 
+els token token token token top op greater preced current token oper 
+appli oper top op top two element valu stack op empti haspreced token op peek valu push applyop op pop valu pop valu pop push current token op 
+op push token entir express pars point appli remain op remain valu op empti valu push applyop op pop valu pop valu pop top valu contain result return return valu pop return true op2 higher preced op1 otherwis return fals 
+public static boolean haspreced char op1 char op2 op2 op2 return fals op1 op1 op2 op2 return fals els return true util method appli oper op operand b 
+return result 
+public static int applyop char op int b int switch op case return b case return b case return b case b 0 throw new unsupportedoperationexcept cannot divid zero return b return 0 driver method test method public static void main string arg system println evaluatestr evalu 10 2 6 system println evaluatestr evalu 100 2 12 system println evaluatestr evalu 100 2 12 system println evaluatestr evalu 100 2 12 14 output 22 212 1400 100 see sampl run test case 
+articl compil ciph 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

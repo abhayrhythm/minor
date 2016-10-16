@@ -1,0 +1,4 @@
+predict output follow c program 
+question 1 includ stdio h int main char 30 char b 40 char c 10 char b c printf return 0 first look express b c seem caus arithmet overflow sign charact valu 128 127 c compil valu subexpress b 1200 exampl follow code snippet print 80 32 bit littl endian machin 
+char 1200 printf arithmet overflow happen origin program output program 120 c char short convert int arithmet calcul 
+express b c b c promot int overflow happen 

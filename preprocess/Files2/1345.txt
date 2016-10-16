@@ -1,0 +1,19 @@
+given k sort link list size n merg print sort output 
+exampl input k 3 n 4 list1 1 3 5 7 null list2 2 4 6 8 null list3 0 9 10 11 output 0 1 2 3 4 5 6 7 8 9 10 11 method 1 simpl simpl solut initi result first list 
+travers list start second list 
+insert everi node current travers list result sort way 
+time complex solut n2 n total number node e n kn 
+method 2 use min heap better solut use min heap base solut discuss array 
+time complex solut would nk log k method 3 use divid conquer post divid conquer approach discuss 
+approach requir extra space heap work nk log k alreadi know merg two link list done n time 1 space array n space requir 
+idea pair k list merg pair linear time use 1 space 
+first cycl k 2 list left size 2 n second cycl k 4 list left size 4 n 
+repeat procedur one list left 
+c implement idea 
+c program merg k sort array size n includ bit stdc h use namespac std link list node struct node int data node next function print node given link list void printlist node node node null printf node data node node next take two list sort increas order merg node togeth make one big sort list 
+function take log n extra space recurs call easili modifi work time 1 extra space node sortedmerg node node b node result null base case null return b els b null return pick either b recur data b data result result next sortedmerg next b els result b result next sortedmerg b next return result main function take array list arr 0 last gener sort output node mergeklist node arr int last repeat one list left last 0 int 0 j last j form pair j merg list list j store merg list list arr sortedmerg arr arr j consid next pair j pair merg updat last j last j return arr 0 util function creat new node 
+node newnod int data struct node temp new node temp data data temp next null return temp driver program test function int main int k 3 number link list int n 4 number element list array pointer store head node link list node arr k arr 0 newnod 1 arr 0 next newnod 3 arr 0 next next newnod 5 arr 0 next next next newnod 7 arr 1 newnod 2 arr 1 next newnod 4 arr 1 next next newnod 6 arr 1 next next next newnod 8 arr 2 newnod 0 arr 2 next newnod 9 arr 2 next next newnod 10 arr 2 next next next newnod 11 merg list node head mergeklist arr k 1 printlist head return 0 output 0 1 2 3 4 5 6 7 8 9 10 11 time complex algorithm nk logk outer loop function mergeklist run log k time everi time process nk element 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

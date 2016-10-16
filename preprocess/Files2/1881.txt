@@ -1,0 +1,13 @@
+sql structur queri languag fourth gener languag 4gl use defin manipul control rdbm relat databas manag system 
+start main articl let us get familiar use tool 
+compil code block ide mingw compil download link binari download code block cross compil run platform like window linux mac free download 
+ide special design c c easi use 
+api go use sqlapi librari download link sqlapi download sqlapi c librari basic set header file access multipl sql databas oracl sql server db2 sybas informix interbas sqlbase mysql postgresql sqlite sql anywher odbc 
+easi implement simpl 
+occi oracl c call interfac download link occi c download occi interfac defin databas compani oracl defin comfort interfacefor c programm access oracl databas class use paramet reminisc sql statement 
+interfac exist oracl 9i oracl 10 come oracl 
+must download instal three 
+almost readi start 
+set start open code block ide go click set compil debugg set see global compil set click linker set linker set click add button add follow window os code c sqlapi lib libsqlapiddl c program file codeblock mingw lib libuser32 c program file codeblock mingw lib libvers c program file codeblock mingw lib liboleaut32 c program file codeblock mingw lib libole32 found sqlapi extract c drive select appropri locat add mention file linker set 
+code use add librari file connect c c program sqlapi 
+basic 2 step connect databas error handl code 

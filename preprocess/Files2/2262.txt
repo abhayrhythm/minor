@@ -1,0 +1,35 @@
+c program compil compil gener object code 
+gener object code compil also invok linker 
+one main task linker make code librari function eg printf scanf sqrt etc avail program 
+linker accomplish task two way copi code librari function object code make arrang complet code librari function copi made avail run time 
+static link static librari result linker make copi use librari function execut file 
+static link creat larger binari file need space disk main memori 
+exampl static librari librari static link file linux lib file window 
+step creat static librari let us creat use static librari unix unix like os 
+1 creat c file contain function librari 
+filenam lib_mylib c includ stdio h void fun void printf fun call static librari creat one file simplic 
+also creat multipl file librari 
+2 creat header file librari filenam lib_mylib h void fun void 3 compil librari file 
+gcc c lib_mylib c lib_mylib 4 creat static librari 
+step bundl multipl object file one static librari see ar detail 
+output step static librari 
+ar rc lib_mylib lib_mylib 5 static librari readi use 
+point could copi lib_hello_stat somewher els use 
+demo purpos let us keep librari current directori 
+let us creat driver program use creat static librari 
+1 creat c file main function filenam driver c includ lib_mylib h void main fun 2 compil driver program 
+gcc c driver c driver 3 link compil driver program static librari 
+note l use tell static librari current folder see detail l l option 
+gcc driver driver l l_mylib 4 run driver program driver fun call static librari follow import point static librari 
+1 static librari actual code extract librari linker use build final execut point compil build applic 
+2 process get copi code data 
+case dynam librari code share data specif process 
+static librari memori footprint larger 
+exampl window system tool static link sever ten megabyt ram would wast typic user user would slow lot page 
+3 sinc librari code connect compil time final execut depend librari run time e 
+addit run time load cost mean need carri along copi librari use everyth control depend 
+4 static librari everyth bundl applic worri client right librari version avail system 
+5 one drawback static librari chang gradat static librari recompil main program everi time 
+6 one major advantag static librari prefer even speed 
+dynam queri symbol static librari 
+mani product line softwar use static librari even today 

@@ -1,0 +1,7 @@
+one simpl solut two write revers function revers string c 
+simpl c program revers string includ bit stdc h use namespac std function revers string void reversestr string str int n str length swap charact start two corner int 0 n 2 swap str str n 1 driver program int main string str geeksforgeek reversestr str cout str return 0 output skeegrofskeeg direct function algorithm header file revers save time program 
+revers element begin end void revers bidirectionaliter begin bidirectionaliter end simpl c program 
+quickli written program revers string use revers includ bit stdc h use namespac std int main string str geeksforgeek revers str beign end revers str begin str end cout str return 0 output skeegrofskeeg articl contribut priyam kakati 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

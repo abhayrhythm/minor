@@ -1,0 +1,18 @@
+given array size n gener print possibl combin r element array 
+exampl input array 1 2 3 4 r 2 output 1 2 1 3 1 4 2 3 2 4 3 4 
+follow two method 
+method 1 fix element recur creat temporari array data store output one one 
+idea start first index index 0 data one one fix element index recur remain index 
+let input array 1 2 3 4 5 r 3 first fix 1 index 0 data recur remain index fix 2 index 0 recur 
+final fix 3 recur remain index 
+number element data becom equal r size combin print data 
+follow diagram show recurs tree input 
+follow c implement approach 
+c program print combin size r array size n includ stdio h void combinationutil int arr int data int start int end int index int r main function print combin size r arr size n function mainli use combinationutil void printcombin int arr int n int r temporari array store combin one one int data r print combin use temprari array data combinationutil arr data 0 n 1 0 r arr input array data temporari array store current combin start end stare end index arr index current index data r size combin print void combinationutil int arr int data int start int end int index int r current combin readi print print index r int j 0 j r j printf data j printf n return replac index possibl element 
+condit end 1 r index make sure includ one element index make combin remain element remain posit int start end end 1 r index data index arr combinationutil arr data 1 end index 1 r driver program test function int main int arr 1 2 3 4 5 int r 3 int n sizeof arr sizeof arr 0 printcombin arr n r java java program print combin size r array size n import java io 
+class permut arr input array data temporari array store current combin start end stare end index arr index current index data r size combin print static void combinationutil int arr int data int start int end int index int r current combin readi print print index r int j 0 j r j system print data j system println return replac index possibl element 
+condit end 1 r index make sure includ one element index make combin remain element remain posit int start end end 1 r index data index arr combinationutil arr data 1 end index 1 r main function print combin size r arr size n function mainli use combinationutil static void printcombin int arr int n int r temporari array store combin one one int data new int r print combin use temprari array data combinationutil arr data 0 n 1 0 r driver function check function public static void main string arg int arr 1 2 3 4 5 int r 3 int n arr length printcombin arr n r code contribut devesh agraw output 1 2 3 1 2 4 1 2 5 1 3 4 1 3 5 1 4 5 2 3 4 2 3 5 2 4 5 3 4 5 handl duplic 
+note method handl duplic 
+exampl input array 1 2 1 r 2 program print 1 2 2 1 two differ combin 
+avoid duplic ad follow two addit thing code 
+1 add code sort array call combinationutil printcombin 2 add follow line end loop combinationutil sinc element sort occurr element must togeth arr arr 1 see implement handl duplic 

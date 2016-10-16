@@ -1,0 +1,19 @@
+given binari tree write program count number singl valu subtre 
+singl valu subtre one node valu 
+expect time complex n 
+exampl input root tree 5 1 5 5 5 5 output 4 4 subtre singl valu 
+input root tree 5 4 5 4 4 5 output 5 five subtre singl valu 
+strongli recommend minim browser tri first 
+simpl solut travers tree 
+everi travers node check valu node 
+increment count 
+time complex solut n2 
+effici solut travers tree bottom manner 
+everi subtre visit return true subtre root singl valu increment count 
+idea use count refer paramet recurs call use return valu find left right subtre singl valu 
+implement idea 
+c c program find count singl valu subtre includ bit stdc h use namespac std tree node struct node int data struct node left right util function creat new node node newnod int data node temp new node temp data data temp left temp right null return temp function increment count number singl valu subtre root 
+return true subtre root singli els fals 
+bool countsinglerec node root int count return fals indic null root null return true recurs count left right subtre also bool left countsinglerec root left count bool right countsinglerec root right count subtre singli cannot singli 
+left fals right fals return fals left subtre singli non empti data match root left root data root left data return fals right subtre root right root data root right data return fals none condit true tree root root singl valu increment count return true 
+count return true function mainli call countsinglerec initi count 0 int countsingl node root initi result int count 0 recurs function count countsinglerec root count return count driver program test int main let us construct tree 5 4 5 4 4 5 node root newnod 5 root left newnod 4 root right newnod 5 root left left newnod 4 root left right newnod 4 root right right newnod 5 cout count singl valu subtre countsingl root return 0 

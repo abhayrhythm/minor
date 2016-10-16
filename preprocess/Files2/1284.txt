@@ -1,0 +1,14 @@
+given n x n binari matrix find size largest form 1s 
+exampl matrix largest would form highlight part size 17 idea maintain four auxiliari matric left right top bottom store consecut 1 everi direct 
+cell j input matrix store inform four matric left j store maximum number consecut 1 left cell j includ cell j 
+right j store maximum number consecut 1 right cell j includ cell j 
+top j store maximum number consecut 1 top cell j includ cell j 
+bottom j store maximum number consecut 1 bottom cell j includ cell j 
+comput valu cell matric largest would form cell input matrix maximum valu consid minimum left j right j top j bottom j use dynam program comput total amount consecut 1 everi direct 
+mat j 1 left j left j 1 1 els left j 0 mat j 1 top j top 1 j 1 els top j 0 mat j 1 bottom j bottom 1 j 1 els bottom j 0 mat j 1 right j right j 1 1 els right j 0 c implement idea c program find size largest form 1 given binari matrix includ bit stdc h use namespac std size binari squar matrix defin n 10 function find size largest form 1 given binari matrix int findlargestplu int mat n n left j j right j top j bottom j store maximum number consecut 1 present left right top bottom mat j includ cell j respect int left n n right n n top n n bottom n n initi four matrix int 0 n initi first row top top 0 mat 0 initi last row bottom bottom n 1 mat n 1 initi first column left left 0 mat 0 initi last column right right n 1 mat n 1 fill cell four matrix int 0 n int j 1 j n j calcul left matrix fill left right mat j 1 left j left j 1 1 els left j 0 calcul top matrix mat j 1 top j top j 1 1 els top j 0 calcul new valu j calcul valu bottom j right j j n 1 j calcul bottom matrix mat j 1 bottom j bottom j 1 1 els bottom j 0 calcul right matrix mat j 1 right j right j 1 1 els right j 0 revert back old j j n 1 j n store length longest found far int n 0 comput longest int 0 n int j 0 j n j find minimum left j right j top j bottom j int len min min top j bottom j min left j right j largest would form cell maximum valu len n n len 4 direct length n 1 1 middl cell n return 4 n 1 1 matrix contain 0 return 0 driver function test function int main binari matrix size n int mat n n 1 0 1 1 1 1 0 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 0 0 0 0 1 0 0 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 1 0 0 1 0 1 1 0 1 1 1 1 0 0 1 1 1 1 0 0 1 0 1 0 0 1 1 0 1 1 1 1 0 1 0 0 cout findlargestplu mat return 0 output 17 time complex solut n2 
+auxiliari space use program n2 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

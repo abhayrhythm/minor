@@ -1,0 +1,36 @@
+
+1.
+
+Abut my DS related work.
+Why change?
+IsBST()
+Kadane algo with start and end indices.
+
+2.
+
+What is SVM?
+Given a hard disk with unencrypted data. What can u tell about the hard disk’s data(use LDA)?
+Is LDA supervised or unsupervised?
+How many ways are there to do unsupervised learning(K-means, auto encoders , etc.)
+How decision trees works?
+How u execute in any new area in a timely manner.(like spark quickstart)
+
+3.
+
+How to handle LDA with uncertainties(we can use probabilities)
+How to handle tail queries(we actually need not to handle because we have limited human resources and servers)
+Design features for the OLA app in order to match supply and demand optimally to optimise OLA’s revenue.
+(think about user segmentation based on which car he takes even if other cars are available, festivals, regular user vs. occasional user, etc.. We will be predicting revenue and giving the best car to the user who is giving best revenue)
+Why do u want to change?
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

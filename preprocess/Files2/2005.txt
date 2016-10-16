@@ -1,0 +1,36 @@
+typic memori represent c program consist follow section 
+1 text segment 2 initi data segment 3 uniniti data segment 4 stack 5 heap typic memori layout run process 1 text segment text segment also known code segment simpli text one section program object file memori contain execut instruct 
+memori region text segment may place heap stack order prevent heap stack overflow overwrit 
+usual text segment sharabl singl copi need memori frequent execut program text editor c compil shell 
+also text segment often read prevent program accident modifi instruct 
+2 initi data segment initi data segment usual call simpli data segment 
+data segment portion virtual address space program contain global variabl static variabl initi programm 
+note data segment read sinc valu variabl alter run time 
+segment classifi initi read area initi read write area 
+instanc global string defin char hello world c c statement like int debug 1 outsid main e 
+global would store initi read write area 
+global c statement like const char string hello world make string liter hello world store initi read area charact pointer variabl string initi read write area 
+ex static int 10 store data segment global int 10 also store data segment 3 uniniti data segment uniniti data segment often call bss segment name ancient assembl oper stood block start symbol data segment initi kernel arithmet 0 program start execut uniniti data start end data segment contain global variabl static variabl initi zero explicit initi sourc code 
+instanc variabl declar static int would contain bss segment 
+instanc global variabl declar int j would contain bss segment 
+4 stack stack area tradit adjoin heap area grew opposit direct stack pointer met heap pointer free memori exhaust 
+modern larg address space virtual memori techniqu may place almost anywher still typic grow opposit direct 
+stack area contain program stack lifo structur typic locat higher part memori 
+standard pc x86 comput architectur grow toward address zero architectur grow opposit direct 
+stack pointer regist track top stack adjust time valu push onto stack 
+set valu push one function call term stack frame stack frame consist minimum return address 
+stack automat variabl store along inform save time function call 
+time function call address return certain inform caller environ machin regist save stack 
+newli call function alloc room stack automat temporari variabl 
+recurs function c work 
+time recurs function call new stack frame use one set variabl interfer variabl anoth instanc function 
+5 heap heap segment dynam memori alloc usual take place 
+heap area begin end bss segment grow larger address heap area manag malloc realloc free may use brk sbrk system call adjust size note use brk sbrk singl heap area requir fulfil contract malloc realloc free may also implement use mmap reserv potenti non contigu region virtual memori process virtual address space 
+heap area share share librari dynam load modul process 
+exampl 
+size 1 command report size byte text data bss segment 
+detail pleas refer man page size 1 1 check follow simpl c program includ stdio h int main void return 0 narendra cento gcc memori layout c memori layout narendra cento size memori layout text data bss dec hex filenam 960 248 8 1216 4c0 memori layout 2 let us add one global variabl program check size bss highlight red color 
+includ stdio h int global uniniti variabl store bss int main void return 0 narendra cento gcc memori layout c memori layout narendra cento size memori layout text data bss dec hex filenam 960 248 12 1220 4c4 memori layout 3 let us add one static variabl also store bss 
+includ stdio h int global uniniti variabl store bss int main void static int uniniti static variabl store bss return 0 narendra cento gcc memori layout c memori layout narendra cento size memori layout text data bss dec hex filenam 960 248 16 1224 4c8 memori layout 4 let us initi static variabl store data segment ds includ stdio h int global uniniti variabl store bss int main void static int 100 initi static variabl store ds return 0 narendra cento gcc memori layout c memori layout narendra cento size memori layout text data bss dec hex filenam 960 252 12 1224 4c8 memori layout 5 let us initi global variabl store data segment ds includ stdio h int global 10 initi global variabl store ds int main void static int 100 initi static variabl store ds return 0 narendra cento gcc memori layout c memori layout narendra cento size memori layout text data bss dec hex filenam 960 256 8 1224 4c8 memori layout articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+sourc http en wikipedia org wiki data_seg http en wikipedia org wiki code_seg http en wikipedia org wiki bss http www amazon com advanc program unix environ 2nd dp 0201433079 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

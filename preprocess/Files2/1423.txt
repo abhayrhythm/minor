@@ -1,0 +1,7 @@
+algorithm c c iter link list delet node one one 
+main point access next current pointer current pointer delet 
+java automat garbag collect happen delet link list easi 
+need chang head null 
+implement c c c program delet link list includ stdio h includ stdlib h includ assert h link list node struct node int data struct node next function delet entir link list void deletelist struct node head_ref deref head_ref get real head struct node current head_ref struct node next current null next current next free current current next deref head_ref affect real head back caller 
+head_ref null given refer pointer pointer head list int push new node front list 
+void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod drier program test count function int main start empti list struct node head null use push construct list 1 12 1 4 1 push head 1 push head 4 push head 1 push head 12 push head 1 printf n delet link list deletelist head printf n link list delet 

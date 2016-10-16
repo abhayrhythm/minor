@@ -1,0 +1,13 @@
+follow typic recurs implement quicksort array 
+implement use last element pivot 
+typic recurs implement quicksort array function take last element pivot place pivot element correct posit sort array place smaller smaller pivot left pivot greater element right pivot int partit int arr int l int h int x arr h int l 1 int j l j h 1 j arr j x swap arr arr j swap arr 1 arr h return 1 array sort l start index h end index void quicksort int int l int h l h int p partit l h partit index quicksort l p 1 quicksort p 1 h use algorithm link list 
+follow c implement doubli link list 
+idea simpl first find pointer last node 
+pointer last node recurs sort link list use pointer first last node link list similar recurs function pass index first last array element 
+partit function link list also similar partit array 
+instead return index pivot element return pointer pivot element 
+follow implement quicksort wrapper function main recurs function _quicksort similar quicksort array implement 
+c c program sort link list use quicksort includ iostream includ stdio h use namespac std node doubli link list struct node int data struct node next struct node prev util function swap two element void swap int int b int b b util function find last node link list struct node lastnod node root root root next root root next return root consid last element pivot place pivot element correct posit sort array place smaller smaller pivot left pivot greater element right pivot node partit node l node h set pivot h element int x h data similar l 1 array implement node l prev similar int j l j h 1 j node j l j h j j next j data x similar array null 
+l next swap data j data null 
+l next similar swap data h data return recurs implement quicksort link list void _quicksort struct node l struct node h h null l h l h next struct node p partit l h _quicksort l p prev _quicksort p next h main function sort link list 
+mainli call _quicksort void quicksort struct node head find last node struct node h lastnod head call recurs quicksort _quicksort head h util function print content arr void printlist struct node head head cout head data head head next cout endl function insert node beging doubli link list void push struct node head_ref int new_data struct node new_nod new node alloc node new_nod data new_data sinc ad begin prev alway null new_nod prev null link old list new node new_nod next head_ref chang prev head node new node head_ref null head_ref prev new_nod move head point new node head_ref new_nod driver program test function int main struct node null push 5 push 20 push 4 push 3 push 30 cout link list sort n printlist quicksort cout link list sort n printlist return 0 

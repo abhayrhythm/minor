@@ -1,0 +1,29 @@
+
+Predict the output of below C programs. 
+Question 1:
+
+#include<stdio.h>
+int main()
+{
+    int x = 5, p = 10;
+    printf("%*d", x, p);
+
+    getchar();
+    return 0;
+}
+
+Output:
+
+   10
+
+Explanation:
+Please see standard printf function definition
+       int printf ( const char * format, ... );
+
+format: String that contains the text to be written to stdout. It can optionally contain embedded format tags that are substituted by the values specified in subsequent argument(s) and formatted as  requested.  The number of arguments following the format parameters should at least be as much as the number of format tags. The format tags follow this prototype:
+       %[flags][width][.precision][length]specifier
+
+You can see details of all above parts here http://www.cplusplus.com/reference/clibrary/cstdio/printf/.
+The main thing to note is below the line about precision
+* (star): The precision is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted.
+So, in the above example 5 is precision and 10 is the actual value to be printed. (Thanks to Ajay Mishra for providing the solution)

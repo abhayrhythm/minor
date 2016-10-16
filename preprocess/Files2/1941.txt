@@ -1,0 +1,45 @@
+one advantag c c except handl 
+c provid follow special keyword purpos 
+tri repres block code throw except 
+catch repres block code execut particular except thrown 
+throw use throw except 
+also use list except function throw handl 
+except handl 
+follow main advantag except handl tradit error handl 
+1 separ error handl code normal code tradit error handl code alway els condit handl error 
+condit code handl error get mix normal flow 
+make code less readabl maintain 
+tri catch block code error handl becom separ normal flow 
+2 function method handl except choos function throw mani except may choos handl 
+except thrown caught handl caller 
+caller choos catch except handl caller caller 
+c function specifi except throw use throw keyword 
+caller function must handl except way either specifi catch 3 group error type c basic type object thrown except 
+creat hierarchi except object group except namespac class categor accord type 
+except handl c 1 follow simpl exampl show except handl c 
+output program explain flow execut tri catch block 
+includ iostream use namespac std int main int x 1 code cout tri n tri cout insid tri n x 0 throw x cout throw never execut n catch int x cout except caught n cout catch execut n return 0 output tri insid tri except caught catch execut 2 special catch block call catch catch use catch type except 
+exampl follow program int thrown except catch block int catch block execut 
+includ iostream use namespac std int main tri throw 10 catch char excp cout caught excp catch cout default except n return 0 output default except 3 implicit type convers happen primit type 
+exampl follow program implicitli convert int includ iostream use namespac std int main tri throw catch int x cout caught x catch cout default except n return 0 output default except 4 except thrown caught anywher program termin abnorm 
+exampl follow program char thrown catch block catch char 
+includ iostream use namespac std int main tri throw catch int x cout caught return 0 output termin call throw instanc char applic request runtim termin unusu way 
+pleas contact applic support team inform 
+chang abnorm termin behavior write unexpect function 
+5 deriv class except caught base class except 
+see detail 
+6 like java c librari standard except class base class standard except 
+object thrown compon standard librari deriv class 
+therefor standard except caught catch type 7 unlik java c except uncheck 
+compil check whether except caught see detail 
+exampl c necessari specifi uncaught except function declar 
+although recommend practic 
+exampl follow program compil fine ideal signatur fun list uncheck except 
+includ iostream use namespac std function signatur fine compil recommend 
+ideal function specifi uncaught except function signatur void fun int ptr int x throw int int void fun int ptr int x ptr null throw ptr x 0 throw x function int main tri fun null 0 catch cout caught except fun return 0 output caught except fun 8 c tri catch block nest 
+also except thrown use throw includ iostream use namespac std int main tri tri throw 20 catch int n cout handl partial throw throw except catch int n cout handl remain return 0 output handl partial handl remain function also throw function use throw 
+function handl part ask caller handl remain 
+9 except thrown object creat insid enclos tri block destruct control transfer catch block 
+includ iostream use namespac std class test public test cout constructor test endl test cout destructor test endl int main tri test t1 throw 10 catch int cout caught endl output constructor test destructor test caught 10 10 may like tri quiz except handl c 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

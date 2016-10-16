@@ -1,0 +1,76 @@
+
+Given a linked list, print reverse of it using a recursive function.  For example, if the given linked list is 1->2->3->4, then output should be 4->3->2->1.
+Note that the question is only about printing the reverse.  To reverse the list itself see this
+
+Difficulty Level: Rookie
+
+Algorithm 
+
+printReverse(head)
+  1. call print reverse for hed->next
+  2. print head->data
+
+Implementation:
+
+C
+
+
+
+// C program to print reverse of a linked list
+#include<stdio.h>
+#include<stdlib.h>
+ 
+/* Link list node */
+struct node
+{
+    int data;
+    struct node* next;
+};
+ 
+/* Function to reverse the linked list */
+void printReverse(struct node* head)
+{
+    // Base case  
+    if (head == NULL)
+       return;
+
+    // print the list after head node
+    printReverse(head->next);
+
+    // After everything else is printed, print head
+    printf("%d  ", head->data);
+}
+ 
+/*UTILITY FUNCTIONS*/
+/* Push a node to linked list. Note that this function
+  changes the head */
+void push(struct node** head_ref, char new_data)
+{
+    /* allocate node */
+    struct node* new_node =
+            (struct node*) malloc(sizeof(struct node));
+ 
+    /* put in the data  */
+    new_node->data  = new_data;
+ 
+    /* link the old list off the new node */
+    new_node->next = (*head_ref);   
+ 
+    /* move the head to pochar to the new node */
+    (*head_ref)    = new_node;
+} 
+ 
+/* Drier program to test above function*/
+int main()
+{
+    // Let us create linked list 1->2->3->4
+    struct node* head = NULL;    
+    push(&head, 4);
+    push(&head, 3);
+    push(&head, 2);
+    push(&head, 1);
+  
+    printReverse(head);
+    return 0;
+}
+

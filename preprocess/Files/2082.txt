@@ -1,0 +1,34 @@
+
+exit()
+
+void exit ( int status ); 
+
+exit() terminates the process normally. 
+status:  Status value returned to the parent process. Generally, a status value of 0 or EXIT_SUCCESS indicates success, and any other value or the constant EXIT_FAILURE is used to indicate an error. exit() performs following operations.
+* Flushes unwritten buffered data.
+* Closes all open files.
+* Removes temporary files.
+* Returns an integer exit status to the operating system.
+The C standard atexit() function can be used to customize exit() to perform additional actions at program termination.
+Example use of exit.
+
+/* exit example */
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main ()
+{
+  FILE * pFile;
+  pFile = fopen ("myfile.txt", "r");
+  if (pFile == NULL)
+  {
+    printf ("Error opening file");
+    exit (1);
+  }
+  else
+  {
+    /* file operations here */
+  }
+  return 0;
+}
+

@@ -1,0 +1,24 @@
+given undirect connect weight graph find minimum span tree mst graph use kruskal algorithm 
+input graph array edg output edg mst 6 7 2 8 5 6 0 1 2 5 2 3 0 7 3 4 weight mst 37 note two possibl mst mst includ edg 1 2 place 0 7 discuss kruskal mst implement 
+greedi algorithm set 2 kruskal minimum span tree algorithm step find mst use kruskal algorithm sort edg non decreas order weight 
+pick smallest edg 
+check form cycl span tree form far 
+cycl form includ edg 
+els discard 
+repeat step 2 v 1 edg span tree 
+key point use us implement kruskal algorithm use stl 
+use vector edg consist edg graph item vector contain 3 paramet sourc destin cost edg sourc destin 
+vector pair int pair int int edg outer pair e pair int pair int int first element correspond cost edg second element pair contain two vertic edg 
+use inbuilt std sort sort edg non decreas order default sort function sort non decreas order 
+use union find algorithm check current edg form cycl ad current mst 
+ye discard els includ union 
+pseudo code initi result mst_weight 0 creat v singl item set vertex v parent v v rank v 0 sort edg non decreas order weight w u v taken sort list e find set u find set v print edg u v mst_weight weight edg u v union u v c implement algorithm 
+c program kruskal algorithm find minimum span tree given connect undirect weight graph includ bit stdc h use namespac std creat shortcut integ pair typedef pair int int ipair structur repres graph struct graph int v e vector pair int ipair edg constructor graph int v int e v v e e util function add edg void addedg int u int v int w edg push_back w u v function find mst use kruskal mst algorithm int kruskalmst repres disjoint set struct disjointset int parent rnk int n constructor 
+disjointset int n alloc memori n n parent new int n 1 rnk new int n 1 initi vertic differ set rank 0 int 0 n rnk 0 everi element parent parent find parent node u path compress int find int u make parent node path u parent u point parent u u parent u parent u find parent u return parent u union rank void merg int x int x find x find make tree smaller height subtre tree rnk x rnk parent x els rnk x rnk parent x rnk x rnk rnk function return weight mst int graph kruskalmst int mst_wt 0 initi result sort edg increas order basi cost sort edg begin edg end creat disjoint set disjointset ds v iter sort edg vector pair int ipair iter edg begin edg end int u second first int v second second int set_u ds find u int set_v ds find v check select edg creat cycl cycl creat u v belong set set_u set_v current edg mst print cout u v endl updat mst weight mst_wt first merg two set ds merg set_u set_v return mst_wt driver program test function int main let us creat shown weight unidrect graph int v 9 e 14 graph g v e make shown graph g addedg 0 1 4 g addedg 0 7 8 g addedg 1 2 8 g addedg 1 7 11 g addedg 2 3 7 g addedg 2 8 2 g addedg 2 5 4 g addedg 3 4 9 g addedg 3 5 14 g addedg 4 5 10 g addedg 5 6 2 g addedg 6 7 1 g addedg 6 8 6 g addedg 7 8 7 cout edg mst n int mst_wt g kruskalmst cout nweight mst mst_wt return 0 output edg mst 6 7 2 8 5 6 0 1 2 5 2 3 0 7 3 4 weight mst 37 optim code optim stop main loop kruskal number select edg becom v 1 
+know mst v 1 edg point iter v 1 edg select 
+ad optim keep code simpl 
+refer introduct algorithm cormen leiserson rivest stein clr 3 time complex step step illustr discuss previou post kruskal algorithm 
+articl contribut chirag agraw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,21 @@
+chang gender string e toggl gender specif word input string 
+exampl input sister output brother 
+two gender specif word sentenc sister 
+toggl gender specif word respect counterpart brother gender specif word string chang 
+algorithm maintain hash map map femal word male word male word femal one 
+word string check whether gender specif word 
+swap word counterpart word 
+els swap word 
+word get concaten new string end print requir string 
+c program chang gender string includ bit stdc h use namespac std funtion return new string gender chang string changegend string str dictionari store map gender user add word 
+unordered_multimap string string dictionari batman batwoman batwoman batman boy girl girl boy boyfriend girlfriend girlfriend boyfriend father mother mother father husband wife wife husband male femal femal male man woman woman man mr ms mr ms sir madam madam sir son daughter daughter son uncl aunt aunt uncl str str append space end int n str length temp string hold intermedi word an string result string temp an int 0 n 1 str temp push_back str els male femal word swap counterpart dictionari find temp dictionari end temp dictionari find temp second an an temp temp clear return an driver program test function int main string str go watch movi boyfriend cout changegend str return 0 time complex n 2 n length string append oper string take upto n time assum lookup dictionari take 1 wors case time 
+auxiliari space apart dictionari map word counterpart declar n space new string n length input string 
+scope improv add word counterpart dictionari increas accuraci program 
+exampl add actor actress god goddess dictionari 
+text file word femal male word also import 
+program modifi becom case insensit 
+articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

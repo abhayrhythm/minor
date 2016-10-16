@@ -1,0 +1,15 @@
+given set string find longest common prefix 
+input geeksforgeek geek geek geezer output gee input appl ape april output ap previou approach word word match charact charact match divid conquer articl approach use binari search discuss 
+step find string minimum length 
+let length l perform binari search one string input array string 
+let us take first string binari search charact index 0 l 1 
+initi take low 0 high l 1 divid string two halv left low mid right mid 1 high 
+check whether charact left half present correspond indic low mid string 
+present append half prefix string look right half hope find longer prefix 
+guarante common prefix string 
+otherwis charact left half present correspond indic low mid string need look right half charact left half part longest prefix string 
+inde look left half hope find common prefix string 
+may possibl find common prefix string algorithm illustr consid string geeksforgeek geek geek geezer c program find longest common prefix includ bit stdc h use namespac std function find string minimum length return length int findminlength string arr int n int min int_max int 0 n 1 arr length min min arr length return min bool allcontainsprefix string arr int n string str int start int end int 0 n 1 int j start j end j arr j str j return fals return true function return longest common prefix array string string commonprefix string arr int n int index findminlength arr n string prefix result string place binari search first string array rang 0 index int low 0 high index low high low high 2 avoid overflow larg low high int mid low high low 2 allcontainsprefix arr n arr 0 low mid string input array contain prefix append substr answer prefix prefix arr 0 substr low mid low 1 go right part low mid 1 els go left part high mid 1 return prefix driver program test function int main string arr geeksforgeek geek geek geezer int n sizeof arr sizeof arr 0 string an commonprefix arr n an length cout longest common prefix an els cout common prefix return 0 output longest common prefix gee time complex recurr relat 2 mn n number string length largest string string say time complex nm log auxiliari space store longest prefix string alloc space n n length largest string among string articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

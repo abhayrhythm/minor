@@ -1,0 +1,27 @@
+adob visit campu recent 
+first shortlist student onlin test basi cgpa 
+student even got direct offer 
+onlin round 8 question total 
+5 mcq 2 code 1 question base creativ 
+mcq heap probabl 
+find expect run time complex heap main focu mcq 
+code question write pseudo code actual c code 
+1st question stream incom integ would maintain median use minheap maxheap 
+http www geeksforgeek org median stream integ run integ 2nd question start time end time index number racer race 
+need tell rank racer 
+rank calcul follow racer b start racer finish racer rank racer increas 1 eg index start time end time 0 100 170 1 80 150 2 120 165 3 110 145 output index rank 2 0 3 0 1 1 0 2 n 2 think nlogn algorithm 
+last creativ question 3g wireless network smart phone penetr india reach much cellular network penetr product would design would benefit custom ii would profit 
+write roughli 200 word 
+shortlist telephon interview 
+telephon interview introduc project 
+ask detail project found interest 
+ask algorithm question 
+run time insert delet extract min minheap 
+ii run time insert delet search element sort array unsort array 
+iii would determin coin bias 
+degre biasiti effect number experi perform 
+eg prob head 0 6 one case 0 7 anoth would still perform number experi decid bias differ number experi 
+thank geeksforgeek 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

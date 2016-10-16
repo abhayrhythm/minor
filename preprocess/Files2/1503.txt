@@ -1,0 +1,17 @@
+given binari tree find vertic sum node vertic line 
+print sum differ vertic line 
+exampl 1 2 3 4 5 6 7 tree 5 vertic line vertic line 1 one node 4 vertic sum 4 vertic line 2 one node 2 vertic sum 2 vertic line 3 three node 1 5 6 vertic sum 1 5 6 12 vertic line 4 one node 3 vertic sum 3 vertic line 5 one node 7 vertic sum 7 expect output 4 2 12 3 7 solut need check horizont distanc root node 
+two node horizont distanc hd vertic line 
+idea hd simpl 
+hd root 0 right edg edg connect right subtre consid 1 horizont distanc left edg consid 1 horizont distanc 
+exampl tree hd node 4 2 hd node 2 1 hd 5 6 0 hd node 7 2 
+inord travers given binari tree 
+travers tree recurs calcul hd 
+initi pass horizont distanc 0 root 
+left subtre pass horizont distanc horizont distanc root minu 1 right subtre pass horizont distanc horizont distanc root plu 1 follow java implement 
+hashmap use store vertic sum differ horizont distanc 
+thank nage suggest method 
+import java util hashmap class tree node class treenod data member privat int key privat treenod left privat treenod right accessor method public int key return key public treenod left return left public treenod right return right constructor public treenod int key key key left null right null method set left right subtre public void setleft treenod left left left public void setright treenod right right right class binari tree class tree privat treenod root constructor public tree root null public tree treenod n root n method call consum class like main class public void verticalsummain verticalsum root wrapper verticalsumutil privat void verticalsum treenod root base case root null return creat empti hashmap hm hashmap integ integ hm new hashmap integ integ call verticalsumutil store vertic sum valu hm verticalsumutil root 0 hm print valu store verticalsumutil hm null system println hm entryset travers tree inoord form build hashmap hm contain vertic sum privat void verticalsumutil treenod root int hd hashmap integ integ hm base case root null return store valu hm left subtre verticalsumutil root left hd 1 hm updat vertic sum hd node int prevsum hm get hd null 
+0 hm get hd hm put hd prevsum root key store valu hm right subtre verticalsumutil root right hd 1 hm driver class test verticalsum method public class main public static void main string arg creat follow binari tree 1 2 3 4 5 6 7 treenod root new treenod 1 root setleft new treenod 2 root setright new treenod 3 root left setleft new treenod 4 root left setright new treenod 5 root right setleft new treenod 6 root right setright new treenod 7 tree new tree root system println follow valu vertic sum posit column respect root verticalsummain see sampl run 
+vertic sum binari tree set 2 space optim time complex n pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

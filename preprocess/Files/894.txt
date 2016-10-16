@@ -1,0 +1,18 @@
+
+In C/C++, precedence of Prefix ++ (or Prefix –) and dereference (*) operators is same, and precedence of Postfix ++ (or Postfix –) is higher than both Prefix ++ and *. 
+If p is a pointer then *p++ is equivalent to *(p++) and ++*p is equivalent to ++(*p) (both Prefix ++ and * are right associative).
+For example, program 1 prints ‘h’ and program 2 prints ‘e’.
+
+// Program 1
+#include<stdio.h>
+int main()
+{
+  char arr[] = "geeksforgeeks";
+  char *p = arr;
+  ++*p;
+  printf(" %c", *p);
+  getchar();
+  return 0;
+}
+
+Output:  h

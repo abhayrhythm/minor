@@ -1,0 +1,3 @@
+question 1 predict output follow program 
+follow fun gener 
+includ stdio h int fun int int b b 0 return 0 b 2 0 return fun b 2 return fun b 2 int main printf fun 4 3 getchar return 0 output 12 calul b multipi b 

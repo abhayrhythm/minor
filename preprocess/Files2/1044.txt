@@ -1,0 +1,14 @@
+predict output follow c program 
+int main void struct str int 1 int j 2 int k 3 int l 4 struct str 1 j 2 k 5 l 10 printf n j n k n l n j k l getchar return 0 code non portabl output compil depend 
+get follow output use gcc compil intel 32 bit machin 
+narendra ubuntu structur 1 j 2 k 3 l 6 let us take closer look declar structur 
+struct str int 1 int j 2 int k 3 int l 4 structur declar structur member use width bit field 1 width j 2 
+first look store valu rang 0 1 rang 0 3 j 
+declar type bit field integ sign 
+avail bit 1 bit use store sign inform 
+valu store 0 1 machin use two complement store sign integ 
+variabl k number bit 3 3 bit 2 bit use store data 1 bit use store sign 
+let use declar structur member unsign int check output 
+int main void struct str unsign int 1 unsign int j 2 unsign int k 3 unsign int l 4 struct str 1 j 2 k 5 l 10 printf n j n k n l n j k l getchar return 0 output narendra ubuntu structur 1 j 2 k 5 l 10 articl compil narendra kangralkar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,24 @@
+given text txt 0 n 1 pattern pat 0 1 write function search char pat char txt print occurr pat permut anagram txt 
+may assum n expect time complex n exampl 1 input txt bacdgabcda pat abcd output found index 0 found index 5 found index 6 2 input txt aaababaa pat aaba output found index 0 found index 1 found index 4 strongli recommend click practic move solut 
+problem slightli differ standard pattern search problem need search anagram well 
+therefor cannot directli appli standard pattern search algorithm like kmp rabin karp boyer moor etc 
+simpl idea modifi rabin karp algorithm 
+exampl keep hash valu sum ascii valu charact modulo big prime number 
+everi charact text add current charact hash valu subtract first charact previou window 
+solut look good like standard rabin karp worst case time complex solut mn 
+worst case occur hash valu match one one match charact 
+achiev n time complex assumpt alphabet size fix typic true maximum 256 possibl charact ascii 
+idea use two count array 1 first count array store frequenc charact pattern 
+2 second count array store frequenc charact current window text 
+import thing note time complex compar two count array 1 number element fix independ pattern text size 
+follow step algorithm 
+1 store count frequenc pattern first count array countp 
+also store count frequenc charact first window text array counttw 
+2 run loop n 1 
+follow loop 
+two count array ident found occurr 
+b increment count current charact text counttw c decrement count first charact previou window countwt 3 last window check loop explicitli check 
+follow c implement algorithm 
+c program search anagram pattern text includ iostream includ cstring defin max 256 use namespac std function return true content arr1 arr2 otherwis fals 
+bool compar char arr1 char arr2 int 0 max arr1 arr2 return fals return true function search permut pat txt void search char pat char txt int strlen pat n strlen txt countp store count charact pattern counttw store count current window text char countp max 0 counttw max 0 int 0 countp pat counttw txt travers remain charact pattern int n compar count current window text count pattern compar countp counttw cout found index endl add current charact current window counttw txt remov first charact previou window counttw txt check last window text compar countp counttw cout found index n endl driver program test function int main char txt bacdgabcda char pat abcd search pat txt return 0 output found index 0 found index 5 found index 6 articl contribut piyush gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

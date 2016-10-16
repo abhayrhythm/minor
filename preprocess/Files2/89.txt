@@ -1,0 +1,8 @@
+discuss dynam program solut longest increas subsequ problem post nlogn solut post 
+follow commonli ask variat standard li problem 
+1 build bridg consid 2 map horizont river pass center 
+n citi southern bank x coordin 1 n n citi northern bank x coordin b 1 b n 
+want connect mani north south pair citi possibl bridg two bridg cross 
+connect citi connect citi northern bank citi southern bank 
+8 1 4 3 5 2 6 7 citi bank river river 1 2 3 4 5 6 7 8 citi one bank river sourc dynam program practic problem 
+link also well explain solut problem 

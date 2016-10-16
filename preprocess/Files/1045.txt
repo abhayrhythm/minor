@@ -1,0 +1,15 @@
+
+Predict the output of following C programs.
+Question 1
+
+#include <stdio.h>
+ 
+int main()
+{
+  int arr[] = {};
+  printf("%d", sizeof(arr));
+  return 0;
+}
+
+Output: 0
+C (or C++) allows arrays of size 0.  When an array is declared with empty initialization list, size of the array becomes 0.

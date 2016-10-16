@@ -1,0 +1,9 @@
+round 1 code round given matrix nxm fill integ 
+robot travel cell 1 1 cell n robot move one cell right downward 
+robot requir strength travel one cell anoth 
+move forward strength posit 
+move cell cell valu ad strength valu neg posit 
+calcul minimum strength give robot initi make last cell 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

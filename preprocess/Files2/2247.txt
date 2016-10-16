@@ -1,0 +1,19 @@
+1 string immut string defin cannot chang 
+python program show string cannot chang geek print output display 2 e print caus error output traceback recent call last line 3 2 e typeerror str object support item assign code work fine 
+python program show string append string 
+geek print output display print work fine output geek geeksfor second program interpret make copi origin string work modifi 
+express chang string reassign variabl new string gener result drop previou string 
+2 three way creat string string python creat use singl quot doubl quot tripl quot 
+singl quot doubl quot work string creation 
+exampl singl quot doubl quot string 
+talk tripl quot use write string multipl line print without use escap sequenc 
+python program creat string three differ way concaten 
+geek string singl quot b string doubl quot c geek portal geek string tripl quot print print b print c concaten string creat use differ quot print b c output geek geek portal geek geeksforgeek portal geek print singl quot doubl quot screen 
+follow two way first one use escap charact display addit quot 
+second way use mix quot e want print singl quot use doubl quot delimit vice versa 
+exampl print hi mr geek 
+use escap sequenc print said welcom geeksforgeek print hey happi use mix quot print get geeki love output hi mr geek 
+said welcom geeksforgeek hey happi get geeki love articl contribut arpit agarw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

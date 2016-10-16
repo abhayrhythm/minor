@@ -1,0 +1,367 @@
+
+Given two numbers represented by two lists, write a function that returns sum list. The sum list is list representation of addition of two input numbers.
+Example 1
+Input:
+  First List: 5->6->3  // represents number 365
+  Second List: 8->4->2 //  represents number 248
+Output
+  Resultant list: 3->1->6  // represents number 613
+
+Example 2
+Input:
+  First List: 7->5->9->4->6  // represents number 64957
+  Second List: 8->4 //  represents number 48
+Output
+  Resultant list: 5->0->0->5->6  // represents number 65005
+
+
+Solution
+Traverse both lists. One by one pick nodes of both lists and add the values. If sum is more than 10 then make carry as 1 and reduce sum. If one list has more elements than the other then consider remaining values of this list as 0. Following is the implementation of this approach.
+
+C
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+/* Linked list node */
+struct node
+{
+    int data;
+    struct node* next;
+};
+
+/* Function to create a new node with given data */
+struct node *newNode(int data)
+{
+    struct node *new_node = (struct node *) malloc(sizeof(struct node));
+    new_node->data = data;
+    new_node->next = NULL;
+    return new_node;
+}
+
+/* Function to insert a node at the beginning of the Doubly Linked List */
+void push(struct node** head_ref, int new_data)
+{
+    /* allocate node */
+    struct node* new_node = newNode(new_data);
+
+    /* link the old list off the new node */
+    new_node->next = (*head_ref);
+
+    /* move the head to point to the new node */
+    (*head_ref)    = new_node;
+}
+
+/* Adds contents of two linked lists and return the head node of resultant list */
+struct node* addTwoLists (struct node* first, struct node* second)
+{
+    struct node* res = NULL; // res is head node of the resultant list
+    struct node *temp, *prev = NULL;
+    int carry = 0, sum;
+
+    while (first != NULL || second != NULL) //while both lists exist
+    {
+        // Calculate value of next digit in resultant list.
+        // The next digit is sum of following things
+        // (i)  Carry
+        // (ii) Next digit of first list (if there is a next digit)
+        // (ii) Next digit of second list (if there is a next digit)
+        sum = carry + (first? first->data: 0) + (second? second->data: 0);
+
+        // update carry for next calulation
+        carry = (sum >= 10)? 1 : 0;
+
+        // update sum if it is greater than 10
+        sum = sum % 10;
+
+        // Create a new node with sum as data
+        temp = newNode(sum);
+
+        // if this is the first node then set it as head of the resultant list
+        if(res == NULL)
+            res = temp;
+        else // If this is not the first node then connect it to the rest.
+            prev->next = temp;
+
+        // Set prev for next insertion
+        prev  = temp;
+
+        // Move first and second pointers to next nodes
+        if (first) first = first->next;
+        if (second) second = second->next;
+    }
+
+    if (carry > 0)
+      temp->next = newNode(carry);
+
+    // return head of the resultant list
+    return res;
+}
+
+// A utility function to print a linked list
+void printList(struct node *node)
+{
+    while(node != NULL)
+    {
+        printf("%d ", node->data);
+        node = node->next;
+    }
+    printf("\n");
+}
+
+/* Driver program to test above function */
+int main(void)
+{
+    struct node* res = NULL;
+    struct node* first = NULL;
+    struct node* second = NULL;
+
+    // create first list 7->5->9->4->6
+    push(&first, 6);
+    push(&first, 4);
+    push(&first, 9);
+    push(&first, 5);
+    push(&first, 7);
+    printf("First List is ");
+    printList(first);
+
+    // create second list 8->4
+    push(&second, 4);
+    push(&second, 8);
+    printf("Second List is ");
+    printList(second);
+
+    // Add the two lists and see result
+    res = addTwoLists(first, second);
+    printf("Resultant list is ");
+    printList(res);
+
+   return 0;
+}
+
+Java
+
+
+// Java program to delete a given node in linked list under given constraints
+
+class LinkedList {
+
+    static Node head1, head2;
+
+    static class Node {
+
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
+
+    /* Adds contents of two linked lists and return the head node of resultant list */
+    Node addTwoLists(Node first, Node second) {
+        Node res = null; // res is head node of the resultant list
+        Node prev = null;
+        Node temp = null;
+        int carry = 0, sum;
+
+        while (first != null || second != null) //while both lists exist
+        {
+            // Calculate value of next digit in resultant list.
+            // The next digit is sum of following things
+            // (i)  Carry
+            // (ii) Next digit of first list (if there is a next digit)
+            // (ii) Next digit of second list (if there is a next digit)
+            sum = carry + (first != null ? first.data : 0)
+                    + (second != null ? second.data : 0);
+
+            // update carry for next calulation
+            carry = (sum >= 10) ? 1 : 0;
+
+            // update sum if it is greater than 10
+            sum = sum % 10;
+
+            // Create a new node with sum as data
+            temp = new Node(sum);
+
+            // if this is the first node then set it as head of
+            // the resultant list
+            if (res == null) {
+                res = temp;
+            } else // If this is not the first node then connect it to the rest.
+            {
+                prev.next = temp;
+            }
+
+            // Set prev for next insertion
+            prev = temp;
+
+            // Move first and second pointers to next nodes
+            if (first != null) {
+                first = first.next;
+            }
+            if (second != null) {
+                second = second.next;
+            }
+        }
+
+        if (carry > 0) {
+            temp.next = new Node(carry);
+        }
+
+        // return head of the resultant list
+        return res;
+    }
+    /* Utility function to print a linked list */
+
+    void printList(Node head) {
+        while (head != null) {
+            System.out.print(head.data + " ");
+            head = head.next;
+        }
+        System.out.println("");
+    }
+
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+
+        // creating first list
+        list.head1 = new Node(7);
+        list.head1.next = new Node(5);
+        list.head1.next.next = new Node(9);
+        list.head1.next.next.next = new Node(4);
+        list.head1.next.next.next.next = new Node(6);
+        System.out.print("First List is ");
+        list.printList(head1);
+
+        // creating seconnd list
+        list.head2 = new Node(8);
+        list.head2.next = new Node(4);
+        System.out.print("Second List is ");
+        list.printList(head2);
+
+        // add the two lists and see the result
+        Node rs = list.addTwoLists(head1, head2);
+        System.out.print("Resultant List is ");
+        list.printList(rs);
+    }
+}
+
+// this code has been contributed by Mayank Jaiswal
+
+
+Python
+
+
+
+# Python program to add two numbers represented by linked list
+
+# Node class
+class Node:
+
+    # Constructor to initialize the node object
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+
+    # Function to initialize head
+    def __init__(self):
+        self.head = None
+
+    # Function to insert a new node at the beginning
+    def push(self, new_data):
+        new_node = Node(new_data)
+        new_node.next = self.head
+        self.head = new_node
+
+    # Add contents of two linked lists and return the head
+    # node of resultant list
+    def addTwoLists(self, first, second):
+        prev = None
+        temp = None
+        carry = 0 
+
+        # While both list exists
+        while(first is not None or second is not None):
+
+            # Calculate the value of next digit in
+            # resultant list
+            # The next digit is sum of following things
+            # (i) Carry
+            # (ii) Next digit of first list (if ther is a
+            # next digit)
+            # (iii) Next digit of second list ( if there
+            # is a next digit)
+            fdata = 0 if first is None else first.data
+            sdata = 0 if second is None else second.data
+            Sum = carry + fdata + sdata
+
+            # update carry for next calculation
+            carry = 1 if Sum >= 10 else 0
+
+            # update sum if it is greater than 10
+            Sum = Sum if Sum < 10 else Sum % 10
+
+            # Create a new node with sum as data
+            temp = Node(Sum)
+
+            # if this is the first node then set it as head
+            # of resultant list
+            if self.head is None:
+                self.head = temp
+            else :
+                prev.next = temp 
+
+            # Set prev for next insertion
+            prev = temp
+
+            # Move first and second pointers to next nodes
+            if first is not None:
+                first = first.next
+            if second is not None:
+                second = second.next
+
+        if carry > 0:
+            temp.next = Node(carry)
+
+    # Utility function to print the linked LinkedList
+    def printList(self):
+        temp = self.head
+        while(temp):
+            print temp.data,
+            temp = temp.next
+
+# Driver program to test above function
+first = LinkedList()
+second = LinkedList()
+
+# Create first list
+first.push(6)
+first.push(4)
+first.push(9)
+first.push(5)
+first.push(7)
+print "First List is ",
+first.printList()
+
+# Create second list
+second.push(4)
+second.push(8)
+print "\nSecond List is ",
+second.printList()
+
+# Add the two lists and see result
+res = LinkedList()
+res.addTwoLists(first.head, second.head)
+print "\nResultant list is ",
+res.printList()
+
+# This code is contributed by Nikhil Kumar Singh(nickzuck_007)
+
+
+
+Output:

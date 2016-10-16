@@ -1,0 +1,22 @@
+binari search tree bst key left subtre key must smaller key right subtre must greater 
+binari search tree definit distinct key 
+allow duplic everi insert insert one key valu everi delet delet one occurr 
+simpl solut allow key right side could also choos left side 
+exampl consid insert key 12 10 20 9 11 10 12 12 empti binari search tree 12 10 20 9 11 12 10 12 better solut augment everi tree node store count togeth regular field like key left right pointer 
+insert key 12 10 20 9 11 10 12 12 empti binari search tree would creat follow 
+12 3 10 2 20 1 9 1 11 1 count key shown bracket approach follow advantag simpl approach 
+1 height tree small irrespect number duplic 
+note bst oper search insert delet time complex h h height bst 
+abl keep height small get advantag less number key comparison 
+2 search insert delet becom easier 
+use insert search delet algorithm small modif see code 
+3 approach suit self balanc bst avl tree red black tree etc also 
+tree involv rotat rotat may violat bst properti simpl solut key either left side right side rotat 
+c implement normal binari search tree count everi key 
+code basic taken code insert delet bst 
+chang made handl duplic highlight rest code 
+c program implement basic oper search insert delet bst handl duplic store count everi node includ stdio h includ stdlib h struct node int key int count struct node left right util function creat new bst node struct node newnod int item struct node temp struct node malloc sizeof struct node temp key item temp left temp right null temp count 1 return temp util function inord travers bst void inord struct node root root null inord root left printf root key root count inord root right util function insert new node given key bst struct node insert struct node node int key tree empti return new node node null return newnod key key alreadi exist bst icnrement count return key node key node count return node otherwis recur tree key node key node left insert node left key els node right insert node right key return unchang node pointer return node given non empti binari search tree return node minimum key valu found tree 
+note entir tree need search 
+struct node minvaluenod struct node node struct node current node loop find leftmost leaf current left null current current left return current given binari search tree key function delet given key return root modifi tree struct node deletenod struct node root int key base case root null return root key delet smaller root key lie left subtre key root key root left deletenod root left key key delet greater root key lie right subtre els key root key root right deletenod root right key key root key els key present simpli decrement count return root count 1 root count return root els delet node node one child child root left null struct node temp root right free root return temp els root right null struct node temp root left free root return temp node two children get inord successor smallest right subtre struct node temp minvaluenod root right copi inord successor content node root key temp key delet inord successor root right deletenod root right temp key return root driver program test function int main let us creat follow bst 12 3 10 2 20 1 9 1 11 1 struct node root null root insert root 12 root insert root 10 root insert root 20 root insert root 9 root insert root 11 root insert root 10 root insert root 12 root insert root 12 printf inord travers given tree n inord root printf ndelet 20 n root deletenod root 20 printf inord travers modifi tree n inord root printf ndelet 12 n root deletenod root 12 printf inord travers modifi tree n inord root printf ndelet 9 n root deletenod root 9 printf inord travers modifi tree n inord root return 0 output inord travers given tree 9 1 10 2 11 1 12 3 20 1 delet 20 inord travers modifi tree 9 1 10 2 11 1 12 3 delet 12 inord travers modifi tree 9 1 10 2 11 1 12 2 delet 9 inord travers modifi tree 10 2 11 1 12 2 soon discuss avl red black tree duplic allow 
+articl contribut chirag 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

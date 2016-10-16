@@ -1,0 +1,14 @@
+input array arr two element valu 0 1 output make element 0 specif follow specif follow 
+1 guarante one element 0 know posit 
+2 say anoth element 0 1 
+3 complement array element oper like multi divis 
+etc 
+4 use els loop construct 
+5 obvious directli assign 0 array element 
+sever way sure alway one zero 
+thank devendraiiit suggest follow 3 method 
+method 1 void changetozero int 2 1 1 int main int 1 0 changetozero printf arr 0 n 0 printf arr 1 1 getchar return 0 method 2 void changetozero int 2 0 1 method 3 method even need complement 
+void changetozero int 2 1 0 method 4 thank purvi suggest method 
+void changetozero int 2 0 0 1 0 may mani method 
+sourc http geeksforgeek org forum topic googl challeng pleas write comment find code incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

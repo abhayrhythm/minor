@@ -1,0 +1,11 @@
+count sort sort techniqu base key specif rang 
+work count number object distinct key valu kind hash 
+arithmet calcul posit object output sequenc 
+let us understand help exampl 
+simplic consid data rang 0 9 input data 1 4 1 2 7 5 2 1 take count array store count uniqu object 
+index 0 1 2 3 4 5 6 7 8 9 count 0 2 2 0 1 1 0 1 0 0 2 modifi count array element index store sum previou count 
+index 0 1 2 3 4 5 6 7 8 9 count 0 2 4 4 5 6 6 7 7 7 modifi count array indic posit object output sequenc 
+3 output object input sequenc follow decreas count 1 process input data 1 4 1 2 7 5 2 posit 1 2 put data 1 index 2 output 
+decreas count 1 place next data 1 index 1 smaller index 
+follow c implement count sort 
+c c c program count sort includ stdio h includ string h defin rang 255 main function sort given string arr alphabat order void countsort char arr output charact array sort arr char output strlen arr creat count array store count inidividul charact initi count array 0 int count rang 1 memset count 0 sizeof count store count charact 0 arr count arr chang count count contain actual posit charact output array 1 rang count count 1 build output charact array 0 arr output count arr 1 arr count arr copi output array arr arr contain sort charact 0 arr arr output driver program test function int main char arr geeksforgeek applepp countsort arr printf sort charact array n arr return 0 

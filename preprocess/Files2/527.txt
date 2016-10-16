@@ -1,0 +1,99 @@
+articl continu follow three articl ukkonen suffix tree construct part 1 ukkonen suffix tree construct part 2 ukkonen suffix tree construct part 3 pleas go part 1 part 2 part 3 look current articl seen basic suffix tree high level ukkonen algorithm suffix link three implement trick detail activepoint along exampl string abcabxabcd went four phase build suffix tree 
+let revisit four phase seen alreadi part 3 term trick 2 trick 3 activepoint 
+activepoint initi root null 0 e 
+activenod root activeedg null easi understand give charact valu activeedg code implemnt index charact activelength zero 
+global variabl end remainingsuffixcount initi zero phase 1 phase 1 read 1st charact string set end 1 increment remainingsuffixcount 1 remainingsuffixcount 1 e 
+1 extens left perform run loop remainingsuffixcount time e 
+one time activelength zero set activeedg current charact activeedg 
+apcfalz 
+check edg go activenod root phase 1 activeedg 
+creat leaf edg 
+present walk 
+exampl leaf edg get creat rule 2 
+extens perform decrement remainingsuffixcount 1 point activepoint root 0 end phase 1 remainingsuffixcount zero suffix ad explicitli 
+figur 20 part 3 result tree phase 1 
+phase 2 phase 2 read 2nd charact b string set end 2 extens 1 increment remainingsuffixcount 1 remainingsuffixcount 1 e 
+1 extens left perform run loop remainingsuffixcount time e 
+one time activelength zero set activeedg current charact activeedg b 
+apcfalz 
+check edg go activenod root phase 2 activeedg 
+creat leaf edg 
+present walk 
+exampl leaf edg get creat 
+extens perform decrement remainingsuffixcount 1 point activepoint root b 0 end phase 2 remainingsuffixcount zero suffix ad explicitli 
+figur 22 part 3 result tree phase 2 
+phase 3 phase 3 read 3rd charact c string set end 3 extens 1 2 increment remainingsuffixcount 1 remainingsuffixcount 1 e 
+1 extens left perform run loop remainingsuffixcount time e 
+one time activelength zero set activeedg current charact activeedg c 
+apcfalz 
+check edg go activenod root phase 3 activeedg 
+creat leaf edg 
+present walk 
+exampl leaf edg get creat 
+extens perform decrement remainingsuffixcount 1 point activepoint root c 0 end phase 3 remainingsuffixcount zero suffix ad explicitli 
+figur 25 part 3 result tree phase 3 
+phase 4 phase 4 read 4th charact string set end 4 extens 1 2 3 increment remainingsuffixcount 1 remainingsuffixcount 1 e 
+1 extens left perform run loop remainingsuffixcount time e 
+one time activelength zero set activeedg current charact activeedg 
+apcfalz 
+check edg go activenod root phase 3 activeedg 
+creat leaf edg 
+present walk trick 1 skip count 
+exampl edg present go activenod e 
+root 
+walk need activelength edgelength 
+increment activelength zero 1 apcfer3 stop process rule 3 
+point activepoint root 1 remainingsuffixcount remain set 1 chang end phase 4 remainingsuffixcount 1 one suffix last one ad explicitli tree tree implicitli 
+figur 28 part 3 result tree phase 4 revisit complet 1st four phase continu build tree see goe 
+phase 5 phase 5 read 5th charact b string set end 5 extens 1 2 3 
+see figur 29 shown 
+increment remainingsuffixcount 1 remainingsuffixcount 2 e 
+2 extens left perform extens 4 5 extens 4 suppos add suffix ab extens 5 suppos add suffix b tree run loop remainingsuffixcount time e 
+two time check edg go activenod root phase 3 activeedg 
+creat leaf edg 
+present walk 
+exampl edg present go activenod e 
+root 
+walk trick 1 skip count necessari 
+current phase 5 walk need activelength edgelength 
+activepoint root 1 extens 4 remainingsuffixcount 2 check current charact string b alreadi present activepoint 
+ye process rule 3 
+case exampl increment activelength 1 2 apcfer3 stop rule 3 
+point activepoint root 2 remainingsuffixcount remain set 2 chang remainingsuffixcount end phase 5 remainingsuffixcount 2 two suffix ab b last two ad explicitli tree tree implicitli 
+phase 6 phase 6 read 6th charact x string set end 6 extens 1 2 3 increment remainingsuffixcount 1 remainingsuffixcount 3 e 
+3 extens left perform extens 4 5 6 suffix abx bx x respect run loop remainingsuffixcount time e 
+three time extens 4 activepoint root 2 point b edg start 
+extens 4 current charact x string match next charact edg activepoint case extens rule 2 leaf edg creat edg label x also travers end middl edg new intern node also get creat end activepoint 
+decrement remainingsuffixcount 1 3 2 suffix abx ad tree 
+activepoint chang appli rule 2 three case apcfer3 apcfwd apcfalz activepoint chang alreadi discuss part 3 activepoint chang extens rule 2 apcfer2 case 1 apcfer2c1 activenod root activelength greater zero decrement activelength 1 activeedg set remainingsuffixcount 1 current phase number 
+see chang activepoint 
+look current extens discuss phase 6 6 ad suffix abx 
+activelength 2 activeedg 
+next extens need add suffix bx tree e 
+path label next extens start b 
+b 5th charact string activ edg next extens index b remainingsuffixcount 1 6 2 1 5 
+activelength decrement 1 activepoint get closer root length 1 everi extens 
+happen activenod root activelength zero 
+case alreadi taken care apcfalz 
+case 2 apcfer2c2 activenod root follow suffix link current activenod 
+new node root node anoth intern node point suffix link activenod next extens 
+chang activelength activeedg 
+see chang activepoint 
+two node connect suffix link label path go two node start charact exactli two correspond similar point path activeedg activelength two node activenod 
+look figur 18 part 2 let say phase extens j suffix xaabcdedg ad tree 
+point let say activepoint node v 7 e 
+point g 
+next extens j 1 would add suffix aabcdefg need travers 2nd path shown figur 18 done follow suffix link current activenod v suffix link take us path travers somewher node v path exactli previou activenod v said earlier activepoint get closer root length 1 everi extens reduct length happen node v v chang 
+activenod root current extens next extens activenod chang chang activeedg activelength 
+point extens 4 current activepoint root 2 base apcfer2c1 new activepoint next extens 5 root b 1 next suffix ad bx remainingsuffixcount 2 
+current charact x string match next charact edg activepoint case extens rule 2 leaf edg creat edg label x also travers end middl edg new intern node also get creat end activepoint 
+suffix link also creat previou intern node extens 4 new intern node creat current extens 5 decrement remainingsuffixcount 1 2 1 suffix bx ad tree 
+point extens 5 current activepoint root b 1 base apcfer2c1 new activepoint next extens 6 root x 0 next suffix ad x remainingsuffixcount 1 
+next extens 6 charact x match exist edg root new edg label x creat root node 
+also suffix link previou extens intern node goe root new intern node creat current extens 6 
+decrement remainingsuffixcount 1 1 0 suffix x ad tree complet phase 6 note phase 6 complet 6 extens 
+current charact c seen string far rule 3 stop extens never got chanc get appli phase 6 tree gener phase 6 true suffix tree e 
+implicit tree charact abcabx read far suffix explicitli tree 
+build tree follow fact notic newli creat intern node extens point anoth intern node root activenod root extens 1 end extens 1 via suffix link everi intern node must suffix link point anoth intern node root suffix link provid short cut search path label end next suffix proper track activepoint extens phase unnecessari walkdown root avoid 
+go rest phase 7 11 part 5 build tree complet see code algorithm part 6 refer http web stanford edu mjkay gusfield pdf ukkonen suffix tree algorithm plain english articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

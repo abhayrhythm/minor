@@ -1,0 +1,6 @@
+multipli number 7 use bitwis oper 
+first left shift number 3 bit get 8n subtract origin numberfrom shift number return differ 8n n 
+program includ stdio h int multiplybyseven unsign int n note inner bracket 
+need preced oper higher return n 3 n driver program test function int main unsign int n 4 printf u multiplybyseven n getchar return 0 time complex 1 space complex 1 note work posit integ 
+concept use fast multipl 9 number 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,32 @@
+
+In C++, namespaces can be nested, and resolution of namespace variables is hierarchical. For example, in the following code, namespace inner  is created inside namespace outer, which is inside the global namespace. In the line “int z = x”, x refers to outer::x.  If x would not have been in outer then this x would have referred to x in global namespace.
+
+#include <iostream>
+
+int x = 20;
+namespace outer {
+  int x = 10;         
+  namespace inner {
+    int z = x; // this x refers to outer::x
+  }
+}
+
+int main()
+{
+  std::cout<<outer::inner::z; //prints 10
+  getchar();
+  return 0;
+}
+
+Output of the above program is 10.
+On a side node, unlike C++ namespaces, Java packages are not hierarchical.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

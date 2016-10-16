@@ -1,0 +1,17 @@
+given singli link list select random node link list probabl pick node 1 n n node list 
+given random number gener 
+simpl solut 1 count number node travers list 
+2 travers list select everi node probabl 1 n 
+select done gener random number 0 n th node select th node node gener number equal 0 fix number 0 n 
+get uniform probabl scheme 
+1 probabl select first node 1 n 2 probabl select second node probabl first node select probabl second node select n 1 n 1 n 1 1 n similarli probabl select node 1 n solut requir two travers link list 
+select random node one travers allow 
+idea use reservoir sampl 
+follow step 
+simpler version reservoir sampl need select one key instead k key 
+1 initi result first node result head key 2 initi n 2 3 one one consid node 2nd node onward 
+3 gener random number 0 n 1 
+let gener random number j 
+3 b j equal 0 could choos fix number 0 n 1 replac result current node 
+3 c n n 1 3 current current next implement algorithm 
+c c program randomli select node singli link list includ stdio h includ stdlib h includ time h link list node struct node int key struct node next reservoir sampl base function print random node link list void printrandom struct node head list empti head null return use differ seed valu get result time run program srand time null initi result first node int result head key iter k 1 th element nth element struct node current head int n n 2 current null n chang result probabl 1 n rand n 0 result current key move next node current current next printf randomli select key n result function util test util function creat new node struct node newnod int new_key alloc node struct node new_nod struct node malloc sizeof struct node put key new_nod key new_key new_nod next null return new_nod util function insert node begin link list void push struct node head_ref int new_key alloc node struct node new_nod new node put key new_nod key new_key link old list new node new_nod next head_ref move head point new node head_ref new_nod driver program test function int main struct node head null push head 5 push head 20 push head 4 push head 3 push head 30 printrandom head return 0 

@@ -1,0 +1,17 @@
+follow common definit binomi coeffici 
+1 binomi coeffici c n k defin coeffici x k expans 1 x n 
+2 binomi coeffici c n k also give number way disregard order k object chosen among n object formal number k element subset k combin n element set 
+problem write function take two paramet n k return valu binomi coeffici c n k 
+exampl function return 6 n 4 k 2 return 10 n 5 k 2 
+1 optim substructur valu c n k recurs calcul use follow standard formula binomi coeffici 
+c n k c n 1 k 1 c n 1 k c n 0 c n n 1 follow simpl recurs implement simpli follow recurs structur mention 
+c c naiv recurs implement includ stdio h return valu binomi coeffici c n k int binomialcoeff int n int k base case k 0 k n return 1 recur return binomialcoeff n 1 k 1 binomialcoeff n 1 k driver program test function int main int n 5 k 2 printf valu c n k binomialcoeff n k return 0 python naiv recurs python implement def binomialcoeff n k k 0 k n return 1 recurs call return binomialcoeff n 1 k 1 binomialcoeff n 1 k driver program test ht function n 5 k 2 print valu c n k binomialcoeff n k code contribut nikhil kumar singh nickzuck_007 2 overlap subproblem note function comput subproblem 
+see follow recurs tree n 5 k 2 function c 3 1 call two time 
+larg valu n mani common subproblem 
+c 5 2 c 4 1 c 4 2 c 3 0 c 3 1 c 3 1 c 3 2 c 2 0 c 2 1 c 2 0 c 2 1 c 2 1 c 2 2 c 1 0 c 1 1 c 1 0 c 1 1 c 1 0 c 1 1 sinc suproblem call problem overlap subproblem properti 
+binomi coeffici problem properti see dynam program problem 
+like typic dynam program dp problem comput subproblem avoid construct temporari array c bottom manner 
+follow dynam program base implement 
+c dynam program base solut use tabl c calcul binomi coeffici includ stdio h prototyp util function return minimum two integ int min int int b return valu binomi coeffici c n k int binomialcoeff int n int k int c n 1 k 1 int j cacul valu binomi coeffici bottom manner 0 n j 0 j min k j base case j 0 j c j 1 calcul valu use previosli store valu els c j c 1 j 1 c 1 j return c n k util function return minimum two integ int min int int b return b 
+b drier program test function int main int n 5 k 2 printf valu c n k binomialcoeff n k return 0 java dynam program base solut use tabl c calcul binomi coeffici class binomialcoeffici return valu binomi coeffici c n k static int binomialcoeff int n int k int c new int n 1 k 1 int j calcul valu binomi coeffici bottom manner 0 n j 0 j min k j base case j 0 j c j 1 calcul valu use previosli store valu els c j c 1 j 1 c 1 j return c n k util function return minimum two integ static int min int int b return b 
+b driver program test function public static void main string arg int n 5 k 2 system println valu c n k binomialcoeff n k code contribut rajat mishra python dynam program base python program use tabl c calcul binomi coeffici return valu binomi coeffici c n k def binomialcoef n k c 0 x rang k 1 x rang n 1 calcul valu binomi coeffici bottom manner rang n 1 j rang min k 1 base case j 0 j c j 1 calcul valu use previosli store valu els c j c 1 j 1 c 1 j return c n k driver program test function n 5 k 2 print valu c str n str k str binomialcoef n k code contribut bhavya jain output 

@@ -1,0 +1,8 @@
+given unsort array nonneg integ find contin subarray add given number 
+exampl input arr 1 4 20 3 10 5 sum 33 ouptut sum found index 2 4 input arr 1 4 0 0 3 10 5 sum 7 ouptut sum found index 1 4 input arr 1 4 sum 0 output subarray found may one subarray sum given sum 
+follow solut print first subarray 
+sourc googl interview question method 1 simpl simpl solut consid subarray one one check sum everi subarray 
+follow program implement simpl solut 
+run two loop outer loop pick start point inner loop tri subarray start c simpl program print subarray sum given sum includ stdio h return true subarray arr sum equal sum otherwis return fals 
+also print result int subarraysum int arr int n int sum int curr_sum j pick start point 0 n curr_sum arr tri subarray start j 1 j n j curr_sum sum printf sum found index j 1 return 1 curr_sum sum j n break curr_sum curr_sum arr j printf subarray found return 0 driver program test function int main int arr 15 2 4 8 9 5 10 23 int n sizeof arr sizeof arr 0 int sum 23 subarraysum arr n sum return 0 java class subarraysum return true subarray arr sum equal sum otherwis return fals 
+also print result int subarraysum int arr int n int sum int curr_sum j pick start point 0 n curr_sum arr tri subarray start j 1 j n j curr_sum sum int p j 1 system println sum found index p return 1 curr_sum sum j n break curr_sum curr_sum arr j system println subarray found return 0 public static void main string arg subarraysum arraysum new subarraysum int arr 15 2 4 8 9 5 10 23 int n arr length int sum 23 arraysum subarraysum arr n sum code contribut mayank jaiswal mayank_24 output sum found index 1 4 time complex n 2 worst case 

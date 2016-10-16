@@ -1,0 +1,23 @@
+subarray substr subbarray contigu part array 
+array insid anoth array 
+exampl consid array 1 2 3 4 10 non empti sub array 
+subbaray 1 2 3 4 1 2 2 3 3 4 1 2 3 2 3 4 1 2 3 4 
+gener array string size n n n 1 2 non empti subarray subsr 
+gener subarray 
+run two nest loop outer loop pick start element inner loop consid element right pick element end element subarray 
+c code gener possibl subarray subarray complex n 3 includ bit stdc h use namespac std print subarray arr 0 n 1 void subarray int arr int n pick start point int 0 n pick end point int j j n j print subarray current start end point int k k j k cout arr k cout endl driver program int main int arr 1 2 3 4 int n sizeof arr sizeof arr 0 cout non empti subarray n subarray arr n return 0 output non empti subarray 1 1 2 1 2 3 1 2 3 4 2 2 3 2 3 4 3 3 4 4 subsequ subsequ sequenc deriv anoth sequenc zero element without chang order remain element 
+exampl 15 sub sequenc 
+1 2 3 4 1 2 1 3 1 4 2 3 2 4 3 4 1 2 3 1 2 4 1 3 4 2 3 4 1 2 3 4 
+gener say sequenc size n 2n 1 non empti sub sequenc total 
+string exampl differenti consid string geeksforgeek gk 
+gk subsequ geeksforgeek substr 
+geek subsequ subarray 
+everi subarray subsequ 
+specif subsequ gener substr 
+gener subsequ 
+use algorithm gener power set gener subsequ 
+c code gener possibl subsequ 
+time complex n 2 n includ bit stdc h use namespac std void printsubsequ int arr int n number subsequ 2 n 1 unsign int opsiz pow 2 n run counter 000 1 111 1 int counter 1 counter opsiz counter int j 0 j n j check jth bit counter set set print jth element arr counter 1 j cout arr j cout endl driver program int main int arr 1 2 3 4 int n sizeof arr sizeof arr 0 cout non empti subsequ n printsubsequ arr n return 0 non empti subsequ 1 2 1 2 3 1 3 2 3 1 2 3 4 1 4 2 4 1 2 4 3 4 1 3 4 2 3 4 1 2 3 4 articl contribut harshit gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

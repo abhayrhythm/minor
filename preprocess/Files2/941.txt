@@ -1,0 +1,14 @@
+know function c return one valu 
+achiev purpos return multipl valu 
+well first take look declar function 
+int foo int arg1 int arg2 notic interfac function argument return valu 
+unless talk modifi global insid function let us take deeper look even though function return one valu valu pointer type 
+correct specul right 
+declar function return structur type user defin variabl pointer 
+properti structur know structur c hold multipl valu asymmetr type e 
+one int variabl four char variabl two float variabl want function return multipl valu data type could return pointer array data type 
+also make function return multipl valu use argument function 
+
+provid pointer argument 
+usual function need return sever valu use one pointer return instead sever pointer argumentss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

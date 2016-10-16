@@ -1,0 +1,104 @@
+
+At compile time, the compiler exports each global symbol to the assembler as either strong or weak, and the assembler encodes this information implicitly in the symbol table of the relocatable object file. Functions and initialized global variables get strong symbols. Uninitialized global variables get weak symbols.
+For the following example programs, buf, bufp0, main, and swap are strong symbols; bufp1 is a weak symbol.
+
+ /* main.c */
+ void swap();
+ int buf[2] = {1, 2};
+ int main()
+ {
+   swap();
+   return 0;
+ }
+
+ /* swap.c */
+ extern int buf[];
+
+ int *bufp0 = &buf[0];
+ int *bufp1;
+
+ void swap()
+ {
+   int temp;
+
+   bufp1 = &buf[1];
+   temp = *bufp0;
+   *bufp0 = *bufp1;
+   *bufp1 = temp;
+}
+
+Given this notion of strong and weak symbols, Unix linkers use the following rules for dealing with multiply defined symbols:
+Rule 1: Multiple strong symbols are not allowed.
+Rule 2: Given a strong symbol and multiple weak symbols, choose the strong symbol.
+Rule 3: Given multiple weak symbols, choose any of the weak symbols.
+For example, suppose we attempt to compile and link the following two C modules:
+
+/* foo1.c */        
+int main()          
+{                   
+  return 0;       
+}                  
+
+/* bar1.c */
+int main()
+{
+  return 0;
+}
+
+In this case, the linker will generate an error message because the strong symbol main is defined multiple times (rule 1):
+unix> gcc foo1.c bar1.c
+/tmp/cca015022.o: In function ‘main’:
+/tmp/cca015022.o(.text+0x0): multiple definition of ‘main’
+/tmp/cca015021.o(.text+0x0): first defined here
+Similarly, the linker will generate an error message for the following modules because the strong symbol x is defined twice (rule 1):
+
+/* foo2.c */
+int x = 15213;
+int main()
+{
+  return 0;
+}
+
+/* bar2.c */
+int x = 15213;
+void f()
+{
+}
+
+However, if x is uninitialized in one module, then the linker will quietly choose the strong symbol defined in the other (rule 2) as is the case in following program:
+
+/* foo3.c */
+#include <stdio.h>
+void f(void);
+int x = 15213;
+int main()
+{
+  f();
+  printf("x = %d\n", x);
+  return 0;
+}
+
+/* bar3.c */
+int x;
+void f()
+{
+  x = 15212;
+}
+
+At run time, function f() changes the value of x from 15213 to 15212, which might come as a unwelcome surprise to the author of function main! Notice that the linker normally gives no indication that it has detected multiple definitions of x.
+unix> gcc -o foobar3 foo3.c bar3.c
+unix> ./foobar3
+x = 15212
+The same thing can happen if there are two weak definitions of x (rule 3).
+See below source link for more detailed explanation and more examples.
+Source:
+http://csapp.cs.cmu.edu/public/ch7-preview.pdf
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

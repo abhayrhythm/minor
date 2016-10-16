@@ -1,0 +1,81 @@
+
+In C and C++, comma (,) can be used in two contexts: 
+1) Comma as an operator:
+The comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, it then evaluates the second operand and returns this value (and type). The comma operator has the lowest precedence of any C operator, and acts as a sequence point. 
+
+/* comma as an operator */
+int i = (5, 10);  /* 10 is assigned to i*/
+int j = (f1(), f2());  /* f1() is called (evaluated) first followed by f2(). 
+                      The returned value of f2() is assigned to j */
+
+2) Comma as a separator:
+Comma acts as a separator when used with function calls and definitions, function like macros, variable declarations, enum declarations, and similar constructs.
+ 
+  /* comma as a separator */
+  int a = 1, b = 2;
+  void fun(x, y);
+
+The use of comma as a separator should not be confused with the use as an operator.  For example, in below statement, f1() and f2() can be called in any order. 
+
+/* Comma acts as a separator here and doesn't enforce any sequence. 
+    Therefore, either f1() or f2() can be called first */
+void fun(f1(), f2());
+
+See this  for C vs C++ differences of using comma operator.
+You can try below programs to check your understanding of comma in C.
+
+// PROGRAM 1
+#include<stdio.h>
+int main()
+{
+   int x = 10;
+   int y = 15; 
+ 
+   printf("%d", (x, y));
+   getchar();
+   return 0;
+}
+
+
+// PROGRAM 2:  Thanks to Shekhu for suggesting this program
+#include<stdio.h>
+int main()
+{
+   int x = 10;
+   int y = (x++, ++x);
+   printf("%d", y);
+   getchar();
+   return 0;
+}
+
+
+// PROGRAM 3:  Thanks to Venki for suggesting this program
+int main()
+{
+    int x = 10, y;
+ 
+    // The following is equavalent to y = x++
+    y = (x++, printf("x = %d\n", x), ++x, printf("x = %d\n", x), x++);
+ 
+    // Note that last expression is evaluated
+    // but side effect is not updated to y
+    printf("y = %d\n", y);
+    printf("x = %d\n", x);
+ 
+    return 0;
+}
+
+References:
+http://en.wikipedia.org/wiki/Comma_operator
+http://publib.boulder.ibm.com/infocenter/comphelp/v101v121/index.jsp?topic=/com.ibm.xlcpp101.aix.doc/language_ref/co.html
+http://msdn.microsoft.com/en-us/library/zs06xbxh.aspx
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

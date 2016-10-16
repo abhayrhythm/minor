@@ -1,0 +1,26 @@
+given array rotat oper allow array 
+rotat array mani time want 
+return maximum possbil summat arr 
+exampl input arr 1 20 2 10 output 72 72 rotat array twice 
+2 10 1 20 20 3 1 2 10 1 2 0 72 input arr 10 1 2 3 4 5 6 7 8 9 output 330 330 rotat array 9 time 
+1 2 3 4 5 6 7 8 9 10 0 1 1 2 2 3 9 10 330 strongli recommend minim browser tri first 
+simpl solut find rotat one one check sum everi rotat return maximum sum 
+time complex solut n2 
+solv problem n time use effici solut 
+let rj valu arr j rotat 
+idea calcul next rotat valu previou rotat e calcul rj rj 1 
+calcul initi valu result r0 keep calcul next rotat valu 
+effici calcul rj rj 1 
+done 1 time 
+detail 
+let us calcul initi valu arr rotat r0 0 arr 0 1 arr 1 n 1 arr n 1 1 rotat arr n 1 becom first element array arr 0 becom second element arr 1 becom third element 
+r1 0 arr n 1 1 arr 0 n 1 arr n 2 r1 r0 arr 0 arr 1 arr n 2 n 1 arr n 1 2 rotat arr n 2 becom first element array arr n 1 becom second element arr 0 becom third element 
+r2 0 arr n 2 1 arr n 1 n 1 arr n 3 r2 r1 arr 0 arr 1 arr n 3 n 1 arr n 2 arr n 1 take closer look valu observ pattern rj rj 1 arrsum n arr n j arrsum sum array element e arrsum sum arr 0 n 1 complet algorithm 1 comput sum array element 
+let sum arrsum 
+2 comput r0 arr given array 
+let valu currval 
+3 initi result maxval currval maxval result 
+loop comput rj rj 1 4 follow j 1 n 1 currval currval arrsum n arr n j b currval maxval maxval currval 5 return maxval c python implement idea 
+c c program find max valu arr includ iostream use namespac std return max possibl valu arr int maxsum int arr int n find array sum arr rotat int arrsum 0 store sum arr int currval 0 store sum arr int 0 n arrsum arrsum arr currval currval arr initi result 0 rotat sum int maxval currval tri rotat one one find maximum rotat sum 
+int j 1 j n j currval currval arrsum n arr n j currval maxval maxval currval return result return maxval driver program int main void int arr 10 1 2 3 4 5 6 7 8 9 int n sizeof arr sizeof arr 0 cout nmax sum maxsum arr n return 0 python python program find maximum valu sum arr return max possibl valu sum arr def maxsum arr store sum arr arrsum 0 store sum arr currval 0 n len arr rang 0 n arrsum arrsum arr currval currval arr initi result maxval currval tri rotat one one find maximum rotat sum j rang 1 n currval currval arrsum n arr n j currval maxval maxval currval return result return maxval test maxsum arr function arr 10 1 2 3 4 5 6 7 8 9 print max sum maxsum arr output max sum 330 time complex n auxiliari space 1 articl contribut nitesh singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

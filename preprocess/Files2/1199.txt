@@ -1,0 +1,16 @@
+problem given string contain lowercas letter gener string letter uppercas 
+input geeksforgeek output geeksforgeek first method come mind c program convert string uppercas includ iostream use namespac std convert string uppercas string to_upp string int 0 length z return driver code int main string str geeksforgeek cout to_upp str return 0 output geeksforgeek interest solut hand would c program convert string uppercas includ iostream use namespac std convert string uppercas string to_upp string int 0 length z 1 5 return driver code int main string str geeksforgeek cout to_upp str return 0 output geeksforgeek explan ascii tabl construct way binari represent lowercas letter almost ident binari represent uppercas letter 
+differ sixth bit set lowercas letter 
+eleg function unset bit index 5 consequ make charact lowercas 
+disadvantag strategi work alphabet charact 
+input contain number punctuat use naiv way 
+exampl charact integ 65 0100 0001 2 charact integ 97 0110 0001 2 
+note 97 65 32 guess 
+exercis write function make letter string lowercas 
+exampl geeksforgeek turn geeksforgeek 
+write function chang case string 
+exampl geeksforgeek turn geeksforgeek 
+articl contribut igor carpanes 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

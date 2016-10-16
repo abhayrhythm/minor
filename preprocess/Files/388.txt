@@ -1,0 +1,15 @@
+
+We have introduced Linked Lists in the previous post.  We also created a simple linked list with 3 nodes and discussed linked list traversal.
+All programs discussed in this post consider following representations of linked list .
+
+C
+
+
+
+// A linked list node
+struct node
+{
+  int data;
+  struct node *next;
+};
+

@@ -1,0 +1,8 @@
+declar function argument int return pointer array 4 integ pointer 
+first glanc may look complex declar requir function seri decompos statement 
+1 need function argument int function int 2 function argument int return pointer function int 3 function argument int return pointer array 4 function int 4 4 function argument int return pointer array 4 integ pointer int function int 4 ensur declar correct 
+follow program cross check declar includ stdio h symbol size defin size_of_array 4 pointer array size_of_array integ typedef int p_array_t size_of_array declar compil throw error match definit int function int arg 4 definit function return pointer array integ pointer p_array_t function int arg array integ pointer static int arr size_of_array null return p_array_t pret arr return pret int main macro size_of_array use symbol represent array size 
+p_array_t typedefin pointer array 4 integ 
+declar wrong program throw error function definit 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

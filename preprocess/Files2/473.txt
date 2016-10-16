@@ -1,0 +1,21 @@
+total number possibl binari search tree n differ key catalan number cn 2n n 1 n 
+n 0 1 2 3 valu catalan number 1 1 2 5 14 42 132 429 1430 4862 
+number binari search tree 
+code n th catalan number taken 
+see http www geeksforgeek org program nth catalan number refer code 
+unsign long int binomialcoeff unsign int n unsign int k unsign long int re 1 sinc c n k c n n k k n k k n k calcul valu n n 1 n k 1 k k 1 1 int 0 k re n re 1 return re binomi coeffici base function find nth catalan number n time unsign long int catalan unsign int n calcul valu 2ncn unsign long int c binomialcoeff 2 n n return 2ncn n 1 return c n 1 systemat way enumer bst 
+consid possibl binari search tree element root 
+n node choic root node n 1 non root node non root node must partit less chosen root greater chosen root 
+let say node chosen root 
+1 node smaller n node bigger two set node certain number possibl subtre 
+let n total number bst n node 
+total number bst root 1 n 
+two term multipli togeth arrang left right subtre independ 
+arrang left tree arrang right tree get one bst root 
+sum give total number binari search tree n node 
+base case 0 1 1 1 e 
+one empti bst one bst one node 
+articl contribut shubham agarw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

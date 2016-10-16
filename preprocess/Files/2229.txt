@@ -1,0 +1,43 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks. Our first Geek is the coding champ – Sumeet Varma who is extremely talented and leaving no stones unturned to make India proud on international platforms.
+Sumeet Varma is persuing his Bachelor’s degree at Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar. He is one of the most talented Competitive programmer in India as of today. GeeksforGeeks team feels proud to interact with him and inspire other students to follow their goals in the sport called competitive programming.
+
+How did it all start? What motivated you for Competitive Programming?
+During my third semester, there was an intra-college contest organized by Programming Club, DA-IICT. That was my first contest ever and I could only solve 1 question, but I liked it a lot. In the next 10 days or so of Diwali Vacation, I practiced 5-6 hours daily on HackerRank. Then there were college exams and I had to leave it. I started again (and never looked back) when I did my first contest on CodeForces in the first week of 4’th semester.
+The real motivation was always that I was having lots of fun solving the problems. When I started competitive programming, I was not even aware that most of software development interviews are so heavily based on algorithmic skills! 
+What are the skill-sets required to be too good in programming?
+The most important thing is to be mentally ready with a sky high attitude that “If anyone else can solve that problem, even I can solve it, it shouldn’t be very tough”.
+Also, people who are good at maths tend to perform a lot better at these contests, so if maths is your strong point you really have an advantage over other participants.
+And for all the algorithmic skills, GeeksforGeeks is surely there 
+ What should one keep in mind when beginning to pursue the Competitive Programming?
+The initial phase when you are not clear with the basics is the most frustrating part of competitive programming. You will face lots of situation when you think everything is right in your algorithm as well as your code, but still you are getting WA / TLE / RTE. That’s really quite frustrating. But the key is not to get demotivated and just practice so that you don’t make the same silly mistakes again. Once you are comfortable with coding, the actual fun begins when you can solely concentrate on finding algorithms to solve the given problem.
+What do you like to do in free time except programming? 
+I used to play a lot of counter strike on lan with my friends in college every night initially. Now a days, whenever I am free, I mostly watch movies or random videos on YouTube.
+
+How did you feel meeting Gennady Korotkevich?
+He is the best in world right now. So meeting him during SnackDown was really a great experience. I couldn’t interact with him but I was lucky enough to get a photo with him. Apart from coding, he plays football really well. I was in the team opposite to his and they beat us 9-0.
+How your college has supported you for your achievement?
+The most important thing that my college (DA-IICT) has given me are few friends who are also interested a lot in competitive programming. I can discuss algorithms and solutions to tough questions with them whenever I want to.
+Other than that, I also had a data structures and algorithms course in my third semester. Also the teams going for ICPC regionals get good reimbursement.
+My first contest was a one which was organized by Programming Club. Had the club not been active, I wouldn’t even have started programming in the first place.
+Your advice to students who are aiming for similar targets as yours?
+Practice a lot! Don’t get demotivated! Believe in yourself and Have lots of Fun!
+Sumeet’s achievements: 
+
+ CodeForces Maximum Rating: 2406, Handle: Sumeet.Varma    
+ TopCoder Maximum Rating: 2177, Handle: Sumeet.Varma       
+ CodeChef: Been in top 3 in India in 2 long challenges, 4 cook-offs and 3 lunch-times, Handle: sumeet_varma 
+ HackerRank Maximum Rating: 3780, Handle: Sumeet_Varma     
+Google Code Jam’16: India Rank – 2 / 6400, World Rank – 191 / 27000
+
+Sumeet can be reached at facebook , linkedin
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org. Let the top geeks inspire other students.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

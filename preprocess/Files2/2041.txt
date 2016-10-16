@@ -1,0 +1,10 @@
+c support variabl number argument 
+languag provid way find total number argument pass 
+user handl one follow way 1 pass first argument count argument 
+2 pass last argument null 0 
+3 use printf scanf like mechan first argument placehold rest argument 
+follow exampl use first argument arg_count hold count argument 
+includ stdarg h includ stdio h function return minimum integ number pass 
+first argument count number 
+int min int arg_count int int min va_list type hold inform variabl argument va_list ap va_start must call access variabl argument list va_start ap arg_count argument access one one use va_arg macro initi min first argument list min va_arg ap int travers rest argument find minimum 2 arg_count va_arg ap int min min va_end execut function return whenev va_start previous use function va_end ap return min int main int count 5 find minimum 5 number 12 67 6 7 100 printf minimum valu min count 12 67 6 7 100 getchar return 0 output minimum valu 6 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,7 @@
+uniniti pointer known wild pointer point arbitrari memori locat may caus program crash behav badli 
+int main int p wild pointer unknown memori locat corrupt 
+never done 
+p 12 pleas note pointer p point known variabl wild pointer 
+program p wild pointer till point int main int p wild pointer int 10 p p wild pointer p 12 fine 
+valu chang want pointer valu set valu without variabl valu explicitli alloc memori put valu alloc memori 
+int main int p malloc sizeof int p 12 fine assum malloc return null adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

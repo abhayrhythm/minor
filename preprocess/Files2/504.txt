@@ -1,0 +1,34 @@
+bipartit graph graph whose vertic divid two independ set u v everi edg u v either connect vertex u v vertex v u word everi edg u v either u belong u v v u belong v v u also say edg connect vertic set 
+bipartit graph possibl graph color possibl use two color vertic set color color 
+note possibl color cycl graph even cycl use two color 
+exampl see follow graph 
+possibl color cycl graph odd cycl use two color 
+algorithm check graph bipartit one approach check whether graph 2 color use backtrack algorithm color problem 
+follow simpl algorithm find whether given graph birpartit use breadth first search bf 
+1 assign red color sourc vertex put set u 
+2 color neighbor blue color put set v 
+3 color neighbor neighbor red color put set u 
+4 way assign color vertic satisfi constraint way color problem 2 
+5 assign color find neighbor color color current vertex graph cannot color 2 vertic graph bipartit c c program find whether given graph bipartit includ iostream includ queue defin v 4 use namespac std function return true graph g v v bipartit els fals bool isbipartit int g v int src creat color array store color assign veritc 
+vertex number use index array 
+valu 1 colorarr use indic color assign vertex 
+valu 1 use indic first color assign valu 0 indic second color assign 
+int colorarr v int 0 v colorarr 1 assign first color sourc colorarr src 1 creat queue fifo vertex number enqueu sourc vertex bf travers queue int q q push src run vertic queue similar bf q empti dequeu vertex queue refer http goo gl 35oz8 int u q front q pop find non color adjac vertic int v 0 v v v edg u v exist destin v color g u v colorarr v 1 assign altern color adjac v u colorarr v 1 colorarr u q push v edg u v exist destin v color color u els g u v colorarr v colorarr u return fals reach adjac vertic color altern color return true driver program test function int main int g v 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 isbipartit g 0 
+cout ye cout return 0 java java program find whether given graph bipartit import java util 
+import java lang 
+import java io 
+class bipartit final static int v 4 
+vertic function return true graph g v v bipartit els fals boolean isbipartit int g int src creat color array store color assign veritc 
+vertex number use index array 
+valu 1 colorarr use indic color assign vertex 
+valu 1 use indic first color assign valu 0 indic second color assign 
+int colorarr new int v int 0 v colorarr 1 assign first color sourc colorarr src 1 creat queue fifo vertex number enqueu sourc vertex bf travers linkedlist integ q new linkedlist integ q add src run vertic queue similar bf q size 0 dequeu vertex queue int u q poll find non color adjac vertic int v 0 v v v edg u v exist destin v color g u v 1 colorarr v 1 assign altern color adjac v u colorarr v 1 colorarr u q add v edg u v exist destin v color color u els g u v 1 colorarr v colorarr u return fals reach adjac vertic color altern color return true driver program test function public static void main string arg int g 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 bipartit b new bipartit b isbipartit g 0 system println ye els system println contribut aakash hasija output ye refer c implement 
+time complex approach breadth first search 
+implement v 2 v number vertic 
+graph repres use adjac list complex becom v e 
+exercis 1 df algorithm use check bipartit ness graph 
+ye 
+2 algorithm work graph strongli connect 
+extend code work graph one compon 
+refer http en wikipedia org wiki graph_color http en wikipedia org wiki bipartite_graph articl compil aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

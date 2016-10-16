@@ -1,0 +1,7 @@
+qualifi const appli declar variabl specifi valu chang depend upon const variabl store may chang valu const variabl use pointer 
+result implement defin attempt made chang const see forum topic 
+1 pointer variabl 
+int ptr chang valu ptr also chang valu object ptr point 
+pointer valu point pointer store read write area 
+see follow code fragment 
+includ stdio h int main void int 10 int j 20 int ptr pointer integ printf ptr n ptr pointer point anoth variabl ptr j printf ptr n ptr chang valu store pointer ptr 100 printf ptr n ptr return 0 output ptr 10 ptr 20 ptr 100 

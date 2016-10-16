@@ -1,0 +1,63 @@
+factor multipl number divid number complet e without leav remaind call factor number 
+exampl 24 complet divis 1 2 3 4 6 8 12 24 number call factor 24 24 call multipl number 
+lcm least number exactli divis given number call least common multipl number 
+exampl consid number 3 31 62 2 x 31 
+lcm number would 2 x 3 x 31 186 find lcm given number express number product prime number 
+product highest power prime number appear prime factor number give us lcm 
+exampl consid number 2 3 4 2 x 2 5 6 2 x 3 
+lcm number 2 x 2 x 3 x 5 60 highest power 2 come prime factor 4 highest power 3 come prime factor 3 prime factor 6 highest power 5 come prime factor 5 hcf largest number divid two number highest common factor hcf number 
+exampl consid number 30 2 x 3 x 5 36 2 x 2 x 3 x 3 42 2 x 3 x 7 45 3 x 3 x 5 
+3 largest number divid number henc hcf number 
+hcf also known greatest common divisor gcd 
+find hcf two number express number product prime number 
+product least power common prime term give us hcf 
+method illustr step 
+also find hcf two number also proceed long divis method 
+divid larger number smaller number divisor 
+divid divisor remaind obtain previou stage 
+repeat procedur get zero remaind 
+stage last divisor would requir hcf 
+exampl find hcf 30 42 two number b lcm x hcf x b hcf co prime 1 two fraction hcf hcf numer lcm denomin lcm lcm numer hcf denomin sampl problem question 1 two number ratio 5 11 hcf 7 find number 
+solut let number 5m 11m 
+sinc 5 11 alreadi reduc ratio hcf 
+number 5 x 7 35 11 x 7 77 question 2 find length plank use measur exactli length 4 50 cm 9 90 cm 16 20 cm least time 
+solut let us first convert length cm 
+length 450 cm 990 cm 1620 cm 
+need find length largest plank use measur length largest plank take least time 
+need take hcf 450 990 1620 
+450 2 x 3 x 3 x 5 x 5 2 x 32 x 52 990 2 x 3 x 3 x 5 x 11 2 x 32 x 5 x 11 1620 2 x 2 x 3 x 3 x 3 x 3 x 5 22 x 34 x 5 therefor hcf 450 990 1620 2 x 3 x 3 x 5 90 thu need plank length 90 cm measur given length least time 
+question 3 find greatest number divid 70 50 leav remaind 1 4 respect 
+solut requir number leav remaind 1 4 divid 70 50 respect 
+mean number exactli divid 69 46 need find hcf 69 3 x 23 46 2 x 23 
+hcf 69 46 23 thu 23 requir number 
+question 4 find largest number divid 64 136 238 leav remaind case 
+solut find requir number need find hcf 136 64 238 136 238 64 e hcf 72 102 174 
+72 23 x 32 102 2 x 3 x 17 174 2 x 3 x 29 therefor hcf 72 102 174 2 x 3 6 henc 6 requir number 
+question 5 find least number divid 5 7 9 12 leav remaind 3 case solut type question need find lcm divisor add common remaind 3 
+lcm 5 7 9 12 1260 therefor requir number 1260 3 1263 question 6 find largest four digit number exactli divis 15 21 28 solut largest four digit number 9999 lcm 15 21 28 420 divid 9999 420 get 339 remaind 
+therefor requir number 9999 339 9660 question 7 policemen three differ place ground blow whistl everi 42 sec 60 sec 78 sec respect 
+blow whistl simultan 9 30 00 hour time whistl togeth 
+solut whistl time interv equal lcm individu whistl blow cycl 
+lcm 42 60 78 2 x 3 x 7 x 10 x 13 5460 therefor blow whistl simultan 5460 sec e 1 hour 31 minut e 11 01 00 hour 
+question 8 find least number divid 6 7 8 leav remaind 3 divid 9 leav remaind 
+solut lcm 6 7 8 168 number form 168m 3 168m 3 divis 9 know number divis 9 sum digit multipl 9 1 number 168 3 171 sum whose digit 9 therefor requir number 171 question 9 two number ratio 2 3 product lcm hcf 294 find number 
+solut let common ratio 
+number 2m 3m 
+know product number product lcm hcf 
+2m x 3m 294 m2 49 7 therefor number 14 21 question 10 rectangular field dimens 180m x 105m pave ident squar tile 
+find size tile number tile requir 
+solut need find size squar tile number tile cover field exactli leav area unpav 
+find hcf length breadth field 
+hcf 180 105 15 therefor size tile 15m x 15m also number tile area field area tile number tile 180 x 105 15 x 15 number tile 84 henc need 84 tile size 15m x 15m 
+question 11 three rectangular field area 60 m2 84 m2 108 m2 divid ident rectangular flower bed length 6 find breadth flower bed 
+solut need divid larg field smaller flower bed area bed 
+find hcf larger field give us area smaller field 
+hcf 60 84 108 12 hcf area m2 flower bed 
+also area rectangular field length x breadth 12 6 x breadth breadth 2 henc flower bed would 2 wide 
+question 12 find maximum number student among 182 chocol 247 candi distribut student get number 
+also find number chocol candi student get 
+solut need find hcf number chocol candi avail would give us number student 
+hcf 182 247 13 13 student 
+also number chocol student 182 13 14 number toffe student 247 13 19 quiz lcm quiz hcf articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

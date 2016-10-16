@@ -1,0 +1,37 @@
+note use onlin compil go work 
+pleas instal python 2 7x cv2 argpars modul actual tri exampl 
+us big fan action movi game like modern warfar black op alway dream opportun say target acquir wait approv team alpha permit fire mission go 
+let blow guy 
+hurrah cours well alway get want least get close enough dream 
+need lesson python 2 7 cv2 modul would great nice video record help get live video stream 
+anyway matter even one 
+step 1 check weapon download python 2 7 ensur cv2 modul pleas note cv modul old replac cv2 argpars modul 
+import cv2 cv import argpars give error good go step 2 mission detail weapon time ensur mission detail requir 
+first need specifi target 
+target target time set test field 
+get sever printout target past sever place hous 
+realli want get feel make quadcopt fix small camera record whole hous properli ensur cover place past target 
+case want go troubl grab camera record hous 
+would recommend keep video short 
+step 3 buckl 
+mission complet 
+okay 
+alpha 1 report duti 
+send us mission coordin 
+target need acquir 
+go use comput vision modul cv2 code snippet direct code link http code geeksforgeek org xfuet4 import argpars import cv2 construct argument pars pars argument ap argpars argumentpars ap add_argu v video help path video file arg var ap parse_arg load video camvideo cv2 videocaptur arg video keep loop true grab current frame initi statu text grab frame camvideo read statu target sight check see reach end video grab break convert frame grayscal blur detect edg gray cv2 cvtcolor frame cv2 color_bgr2gray grayscal blur cv2 gaussianblur gray 7 7 0 blur edg cv2 canni blur 50 150 canni edg detect find contour edg map cnt _ cv2 findcontour edg copi cv2 retr_extern cv2 chain_approx_simpl loop contour cnt cnt approx cv2 approxpolydp cnt 0 01 cv2 arclength cnt true true len approx 5 cv2 drawcontour frame approx 1 0 0 255 4 statu target sight 
+draw statu text frame cv2 puttext frame statu 20 30 cv2 font_hershey_simplex 0 5 0 0 255 2 show frame record key press cv2 imshow frame frame key cv2 waitkey 1 0xff key press stop loop key ord break cleanup input record video close open window camvideo releas cv2 destroyallwindow code explain loop frame record video detect target convert gray scale blur final use canni edg detect method find outlin imag 
+rememb camvideo read return tupl first element specifi whether frame read success second element actual frame work 
+frame use contour approxim check number element output obtain previou step 
+number element 5 regular pentagon look henc updat statu 
+quit easi basic 
+realli want build one program look variou filter remov nois effect frame get accur result 
+best thing keep experi 
+tri exercis hous record video share result us sign 
+peac 
+stay safe author vishwesh shrimali undergradu mechan engin student bit pilani 
+fulfil requir taught branch white hat hacker network secur oper ex competit programm 
+firm believ power python major work languag 
+whenev get time apart program attend class watch csi cyber go long walk play guitar silenc 
+motto life enjoy life caus worth enjoy also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

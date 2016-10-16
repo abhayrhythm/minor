@@ -1,0 +1,18 @@
+decim equival 1 3 0 33333333333333 
+infinit length number would requir infinit memori store typic 4 8 byte 
+therefor float point number store certain number signific digit rest lost 
+precis float point number defin mani signific digit repres without inform loss 
+output float point number cout default precis 6 truncat anyth 
+given librari method use provid precis float point number c floor floor round given valu closest integ less given valu 
+c program demonstr work floor c c includ bit stdc h use namespac std int main doubl x 1 411 1 500 z 1 711 cout floor x endl cout floor endl cout floor z endl doubl 1 411 b 1 500 c 1 611 cout floor endl cout floor b endl cout floor c endl return 0 output 1 1 1 2 2 2 ceil ceil round given valu closest integ given valu 
+c program demonstr work ceil c c includ bit stdc h use namespac std int main doubl x 1 411 1 500 z 1 611 cout ceil x endl cout ceil endl cout ceil z endl doubl 1 411 b 1 500 c 1 611 cout ceil endl cout ceil b endl cout ceil c endl return 0 output 2 2 2 1 1 1 trunc trunc round remov digit decim point 
+c program demonstr work trunc c c includ bit stdc h use namespac std int main doubl x 1 411 1 500 z 1 611 cout trunc x endl cout trunc endl cout trunc z endl doubl 1 411 b 1 500 c 1 611 cout trunc endl cout trunc b endl cout trunc c endl return 0 output 1 1 1 1 1 1 round round given number closest integ 
+c program demonstr work round c c includ bit stdc h use namespac std int main doubl x 1 411 1 500 z 1 611 cout round x endl cout round endl cout round z endl doubl 1 411 b 1 500 c 1 611 cout round endl cout round b endl cout round c endl return 0 output 1 2 2 1 2 2 setprecis setprecis use along fix provid precis float point number correct decim number mention bracket setprecison 
+c program demonstr work setprecis c c includ bit stdc h use namespac std int main doubl pi 3 14159 npi 3 14159 cout fix setprecis 0 pi npi endl cout fix setprecis 1 pi npi endl cout fix setprecis 2 pi npi endl cout fix setprecis 3 pi npi endl cout fix setprecis 4 pi npi endl cout fix setprecis 5 pi npi endl cout fix setprecis 6 pi npi endl output 3 3 3 1 3 1 3 14 3 14 3 142 3 142 3 1416 3 1416 3 14159 3 14159 3 141590 3 141590 note valu mention setprecis exce number float point digit origin number 0 append float point digit match precis mention user 
+exist method provid precis float point number 
+mention commonli use method provid precis float point number competit code 
+articl contribut aditya gupta 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

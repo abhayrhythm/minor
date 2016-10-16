@@ -1,0 +1,59 @@
+
+Given a number x, find sum of digits in all numbers from 1 to n.
+Examples:
+
+Input: n = 5
+Output: Sum of digits in numbers from 1 to 5 = 15
+
+Input: n = 12
+Output: Sum of digits in numbers from 1 to 12 = 51
+
+Input: n = 328
+Output: Sum of digits in numbers from 1 to 328 = 3241
+
+Naive Solution:
+A naive solution is to go through every number x from 1 to n, and compute sum in x by traversing all digits of x. Below is C++ implementation of this idea.
+
+// A Simple C++ program to compute sum of digits in numbers from 1 to n
+#include<iostream>
+using namespace std;
+
+int sumOfDigits(int );
+
+// Returns sum of all digits in numbers from 1 to n
+int sumOfDigitsFrom1ToN(int n)
+{
+    int result = 0; // initialize result
+
+    // One by one compute sum of digits in every number from
+    // 1 to n
+    for (int x=1; x<=n; x++)
+        result += sumOfDigits(x);
+
+    return result;
+}
+
+// A utility function to compute sum of digits in a
+// given number x
+int sumOfDigits(int x)
+{
+    int sum = 0;
+    while (x != 0)
+    {
+        sum += x %10;
+        x   = x /10;
+    }
+    return sum;
+}
+
+// Driver Program
+int main()
+{
+    int n = 328;
+    cout << "Sum of digits in numbers from 1 to " << n << " is "
+         << sumOfDigitsFrom1ToN(n);
+    return 0;
+}
+
+Output
+Sum of digits in numbers from 1 to 328 is 3241

@@ -1,0 +1,5 @@
+c return type getchar fgetc getc int char 
+recommend assign return valu function integ type variabl 
+char ch may caus problem ch getchar eof putchar ch version use integ compar valu getchar 
+int getchar eof putchar see detail 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,81 @@
+
+Telephonic
+Production level code in any language was expected with unit test. Collabedit link was shared before interview
+
+ Project discussion.
+ Given an array of integers. Find minimum difference between any pair of integers.
+ Time complexities of various sorting techniques.
+ Given a binary tree. Replace each node’s value with sum of every nodes occurring right to it.
+
+
+Face to Face 
+Round 1
+
+ Brief introduction
+ Current project detailed discussion (25-30 mins). Follow up questions on the project.
+ Many behavioural questions like
+
+ Why amazon?
+Why do you want leave your current company?
+Any situation when you suggested some idea and your entire(majority) team was against it? How did you handle this situation?
+ Code review and deployment process in current company?
+Any specific task/project that makes you feel accomplished?
+ How will you convince a reluctant team-mate to help you when you are blocked on something which can only be resolved by him?
+Any technology/language that you’ve learned on your own?
+
+
+
+He explained the code-reviews, deployment, testing etc practices followed at Amazon. He gave a brief background/goals of the team for which i applied.
+Round 2
+
+ Introduction
+ Detailed projects discussion. Follow up questions on the technologies used and design of the system.
+ Behavioural questions like Why amazon?, Why do you want to leave your current company? etc.
+In an incoming stream of +ve integers, return true if 2 numbers with sum equal to 10 has occurred till now.
+ Given a number n, return the dimension(l, b) of rectangle which
+
+ is maximally close to square. For eg- If there are 2 solutions – 4X3 and 6X2, then return 4X3.
+ Can accommodate n or n+1 or n+2 elements in itself i.e. n <= Area of rectangle <= n+2
+For eg: i) n = 16, return (4, 4)
+ii) n = 13, return (5, 3)
+iii) n = 12, return (4, 3)
+
+
+
+ Round 3
+
+Given an array of integers. Find nearest greater elements on its right for each index. Expected time complexity: O(n)
+For eg:
+In = [5, 3, 6, 12, 10, 6, 11]
+Out= [6, 6, 12, -1, 11, 11, -1]
+ Given a linked list, write a function to reverse every k nodes window (where k is an input to the function).
+Eg:
+Inputs: 1->2->3->4->5->6->7->8->NULL and k = 3
+Output: 3->2->1->6->5->4->8->7->NULL.
+ Detailed discussion on one of my project.
+
+Round 4
+
+Design a system to maintain states of online orders(placed, delivered, dispatched etc) and support queries like get current state, get history, allow updation of state etc. Requirement was not very well defined, we have to dig deeper and get the requirements out by asking them questions.
+ Discussion on my current projects.
+ Check whether given binary tree is BST or not.
+What data structure to use to represent cordinates in cartesian(x, y) 2D plane.
+I asked all the required queries to be done on this DS like search, insertion etc. I told him to use Quad trees for this and he asked me to code quad tree. After coding it, follow up questions like time complexity, how to further improve worst case scenario in quad trees when data points are unevenly distributed etc.
+
+Then he asked me how to do it without using quad trees?
+It can be done using x-y linked BSTs where x cordinates are stored in the 1st BST and each node(x value) in first BST is pointing to another BST which contains y axis values of all the points at that x.
+Follow up questions like comparing time and space complexity of above 2 techniques, advantages and disadvantages of both the techniques etc.
+
+
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

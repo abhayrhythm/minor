@@ -1,0 +1,21 @@
+given string number row n 
+print string form concaten n row input string written row wise zig zag fashion 
+exampl input str abcdefgh n 2 output acegbdfh explan let us write input string zig zag fashion 2 row 
+c e g b f h concaten two row ignor space everi row 
+get acegbdfh input str geeksforgeek n 3 output gsgsekfrekeo explan let us write input string zig zag fashion 3 row 
+g g e k f r e k e e concaten two row ignor space everi row 
+get gsgsekfrekeo strongli recommend click practic move solut 
+idea travers input string 
+everi charact go one row 
+one one add charact differ row 
+algorithm 1 creat array n string arr n 2 initi direct row 0 direct indic whether need move row 
+3 travers input string follow everi charact 
+append current charact string current row 
+b row number n 1 chang direct c row number 0 chang direct direct row 
+els row 
+4 one one print string arr 
+c implement idea 
+c program print string obtain concaten differ row zig zag fashion includ bit stdc h use namespac std print concaten row str zig zag fasion void printzigzagconcat string str int n corner case one row n 1 cout str return find length string int len str length creat array string n row string arr n initi index array string arr int row 0 bool true move row els fals traver given string int 0 len append current charact current row arr row push_back str last row reach chang direct row n 1 fals 1st row reach chang direct els row 0 true direct increment els decrement 
+row row print concaten row int 0 n cout arr driver program int main string str geeksforgeek int n 3 printzigzagconcat str n return 0 output gsgsekfrekeo time complex len len length input string 
+auxiliari space len thank gaurav ahirwar suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

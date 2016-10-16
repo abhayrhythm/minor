@@ -1,0 +1,32 @@
+
+Online Round (1 hr 30 min): 20 MCQs and 2 coding questions
+MCQs : There were 20 MCQs based on DS, OS, IQ and output questions.
+Coding questions:
+
+Given an expression containing alphanumeric characters and parenthesis, check if “(” and “)” are balanced. http://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+The preorder and the inorder traversals of a binary tree are given.Convert this to a tree where each node contains the sum of the left and right sub trees in the original tree. The values of leaf nodes are changed to 0. Print the preorder and theinorder traversals of the modified tree. http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/
+
+Technical Round 1 (around 1 hr)
+
+1. The interviewer asked me about my project, mainly the database part.
+Given a rectangular matrix and n moves. If you are at a position (x,y) , you can move to (x+1,y) , (x-1,y), (x,y+1), (x,y-1). What is the probability that after n moves ,you will remain inside the rectangle?
+http://www.geeksforgeeks.org/find-four-elements-a-b-c-and-d-in-an-array-such-that-ab-cd/
+
+Technical Round 2 (around 1 hr)
+
+The interviewer asked me what data structures I know. Then he asked me the applications of graph.
+Suppose there is a social networking site like Facebook. Every user gets some friend recommendations (i.e. People you may know!). Now, if there is a user A and he has 100 friends and each of his friends has got 5 other friends,A can get these 500 recommendations. But the condition is that he should only get the top 10 recommendations with whom he has the maximum number of mutual friends(If A and B are friends and B and C are friends, then A and C have a mutual friend, B). Suggest an efficient data structure for this and how to implement it. The implementation should be flexible as at any moment, any user can make new friends and he may also unfriend someone!
+Applications of heap. Insertion in a heap ( insertion of strings in a heap, priority is decided lexicographically). Time complexity of insertion.
+
+Thanks GeeksforGeeks 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

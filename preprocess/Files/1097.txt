@@ -1,0 +1,145 @@
+
+Given a sorted array of integers, return the  number of distinct absolute values among the elements of the array. The input can contain duplicates values.
+
+Input: [-3, -2, 0, 3, 4, 5]
+Output: 5
+There are 5 distinct absolute values
+among the elements of this array, i.e.
+0, 2, 3, 4 and 5)
+
+Input:  [-1, -1, -1, -1, 0, 1, 1, 1, 1]
+Output: 2
+
+Input:  [-1, -1, -1, -1, 0]
+Output: 2
+
+Input:  [0, 0, 0]
+Output: 1 
+
+The solution should do only one scan of the input array and should not use any extra space. i.e. expected time complexity is O(n) and auxiliary space is O(1).
+We strongly recommend you to minimize your browser and try this yourself first.
+One simple solution is to use set. For each element of the input array, we insert its absolute value in the set. As set doesn’t support duplicate elements, the element’s absolute value will be inserted only once. Therefore, the required count is size of the set.
+Below is C++ implementation of the idea.
+
+// Program to find absolute distinct
+// count of an array in O(n) time.
+#include <bits/stdc++.h>
+using namespace std;
+
+// The function returns number of
+// distinct absolute values among
+// the elements of the array
+int distinctCount(int arr[], int n)
+{
+    unordered_set<int> s;
+
+    // Note that set keeps only one
+    // copy even if we try to insert
+    // multiple values
+    for (int i = 0 ; i < n; i++)
+        s.insert(abs(arr[i]));
+
+    return s.size();
+}
+
+// Driver code
+int main()
+{
+    int arr[] = {-2, -1, 0, 1, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    cout << "Count of absolute distinct values : "
+         << distinctCount(arr, n);
+
+    return 0;
+}
+
+Output :
+Count of absolute distinct values : 3
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+
+The above implementation takes O(n) extra space, how to do in O(1) extra space?
+
+The idea is to take advantage of the fact that the array is already Sorted. We initialize the count of distinct elements to number of elements in the array. We start with two index variables from two corners of the array and check for pair in the input array with sum as 0. If pair with 0 sum is found or duplicates are encountered, we decrement the count of distinct elements.Finally we return the updated count.
+Below is C++ implementation of the idea.
+
+// Program to find absolute distinct
+// count of an array using O(1) space.
+#include <bits/stdc++.h>
+using namespace std;
+
+// The function returns return number
+// of distinct absolute values
+// among the elements of the array
+int distinctCount(int arr[], int n)
+{
+    // initialize count as number of elements
+    int count = n;
+    int i = 0, j = n - 1, sum = 0;
+
+    while (i < j)
+    {
+        // Remove duplicate elements from the
+        // left of the current window (i, j)
+        // and also decrease the count
+        while (i != j && arr[i] == arr[i + 1])
+            count--, i++;
+
+        // Remove duplicate elements from the
+        // right of the current window (i, j)
+        // and also decrease the count
+        while (i != j && arr[j] == arr[j - 1])
+            count--, j--;
+
+        // break if only one element is left
+        if (i == j)
+            break;
+
+        // Now look for the zero sum pair
+        // in current window (i, j)
+        sum = arr[i] + arr[j];
+
+        if (sum == 0)
+        {
+            // decrease the count if (positive,
+            // negative) pair is encountered
+            count--;
+            i++, j--;
+        }
+        else if(sum < 0)
+            i++;
+        else
+            j--;
+    }
+
+    return count;
+}
+
+// Driver code
+int main()
+{
+    int arr[] = {-2, -1, 0, 1, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    cout << "Count of absolute distinct values : "
+         << distinctCount(arr, n);
+
+    return 0;
+}
+
+Output :
+Count of absolute distinct values : 3
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

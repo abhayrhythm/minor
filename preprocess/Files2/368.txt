@@ -1,0 +1,6 @@
+given number n find number valid parenthes express length 
+input 2 output 1 possibl valid express length 2 input 4 output 2 possibl valid express length 4 input 6 output 5 possibl valid express mainli applic catalan number 
+total possibl valid express input n n 2 th catalan number n even 0 n odd 
+follow c implement idea 
+c program find valid paranthesis length n major code taken method 3 http www geeksforgeek org program nth catalan number includ iostream use namespac std return valu binomi coeffici c n k unsign long int binomialcoeff unsign int n unsign int k unsign long int re 1 sinc c n k c n n k k n k k n k calcul valu n n 1 n k 1 k k 1 1 int 0 k re n re 1 return re binomi coeffici base function find nth catalan number n time unsign long int catalan unsign int n calcul valu 2ncn unsign long int c binomialcoeff 2 n n return 2ncn n 1 return c n 1 function find possibl way put balanc parenthesi express length n unsign long int findway unsign n n odd possibl creat valid parenthes n 1 return 0 otherwis return n 2 th catalan numer return catalan n 2 driver program test function int main int n 6 cout total possibl express length n findway 6 return 0 output total possibl express length 6 5 time complex n articl contribut sachin 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

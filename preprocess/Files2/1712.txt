@@ -1,0 +1,34 @@
+given tree necessarili binari tree number queri everi queri take two node tree paramet 
+everi queri pair find two node path root bottom 
+exampl consid tree given queri 1 5 1 6 2 6 answer true true fals respect 
+note 1 5 lie root leaf path 1 6 2 6 root leaf path 
+obviou depth first search techniqu use solv problem main problem respond multipl queri fast 
+graph tree may number children 
+df tree start root node proce depth search manner e 
+suppos root three children children one child df start first visit first child root node go deep child node 
+situat small tree shown follow order visit node 1 2 5 3 6 4 7 
+thu children node visit later complet one child succes visit till depth 
+simplifi assum watch hand start walk root df manner 
+intim visit node first time outtim visit node later children unvisit call outtim note node sub tree alway intim children children children alway visit first children due df outtim node sub tree note outtim wait children mark visit 
+two node u v path intim v intim u outtim v outtim u intim u intim v outtim u outtim v given pair node follow two condit root leaf path 
+els path two node differ path mean one subtre 
+pseudo code use global variabl time increment df node begin also increment df v increment timer intim v timer mark v visit u children v df u increment timer outtim v timer end time complex n preprocess 1 per queri 
+implement c implement pseudo code 
+c program check given pair lie path 
+includ bit stdc h use namespac std const int max 100001 keep track visit vertic df bool visit max 0 store start end time vertic df 
+int intim max int outtim max initi timer zero int timer 0 df given graph fill array intim outtim 
+array use answer given queri 
+void df vector int graph int v visit v true increment timer enter recurs v timer upgrad time vertex intim v timer vector int iter graph v begin graph v end visit fals df graph increment timer exit recurs v timer upgrad outtim node outtim v timer return true u v lie root leaf path els fals 
+bool queri int u int v return intim u intim v outtim u outtim v intim v intim u outtim v outtim u driver code int main let us creat shown tree int n 9 total number node vector int graph n 1 graph 1 push_back 2 graph 1 push_back 3 graph 3 push_back 6 graph 2 push_back 4 graph 2 push_back 5 graph 5 push_back 7 graph 5 push_back 8 graph 5 push_back 9 start df root node 1 df graph 1 call pair node queri 1 5 
+cout ye n cout n queri 2 9 
+cout ye n cout n queri 2 6 
+cout ye n cout n return 0 output ye ye illustr diagram understand exampl 
+df algorithm modifi result follow intim outtim vertex tree label 
+consid case 
+case 1 node 2 4 node 2 intim less node 4 sinc 4 sub tree greater exit time 4 
+thu conditon valid path 
+case 2 node 7 6 node 7 intim less node 6 sinc node sub tree exit time follow requir condit 
+articl contribut saurabh joshi 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

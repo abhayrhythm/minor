@@ -1,0 +1,17 @@
+difficulti level rooki write c function insert new valu sort circular link list cll 
+exampl input cll follow 
+insert 7 cll chang follow algorithm alloc memori newli insert node put data newli alloc node 
+let pointer new node new_nod 
+memori alloc follow three case need handl 
+1 link list empti sinc new_nod node cll make self loop 
+new_nod next new_nod b chang head pointer point new node 
+head_ref new_nod 2 new node insert head node find last node use loop 
+current next head_ref current current next b chang next last node 
+current next new_nod c chang next new node point head 
+new_nod next head_ref chang head pointer point new node 
+head_ref new_nod 3 new node insert somewher head locat node new node insert 
+current next head_ref current next data new_nod data current current next b make next new_nod next locat pointer new_nod next current next c chang next locat pointer current next new_nod c includ stdio h includ stdlib h structur node struct node int data struct node next function insert new_nod list sort way 
+note function expect pointer head node modifi head input link list void sortedinsert struct node head_ref struct node new_nod struct node current head_ref case 1 algo current null new_nod next new_nod head_ref new_nod case 2 algo els current data new_nod data valu smaller head valu need chang next last node current next head_ref current current next current next new_nod new_nod next head_ref head_ref new_nod case 3 algo els locat node point insert current next head_ref current next data new_nod data current current next new_nod next current next current next new_nod function print node given link list void printlist struct node start struct node temp start null temp start printf n printf temp data temp temp next temp start driver program test function int main int arr 12 56 2 11 1 90 int list_siz start empti link list struct node start null struct node temp creat link list array arr 
+creat link list 1 2 11 56 12 0 6 temp struct node malloc sizeof struct node temp data arr sortedinsert start temp printlist start return 0 java java program sort insert circular link list class node int data node next node int data next null class linkedlist node head constructor linkedlist head null function insert new_nod list sort way 
+note function expect pointer head node modifi head input link list void sortedinsert node new_nod node current head case 1 algo current null new_nod next new_nod head new_nod case 2 algo els current data new_nod data valu smaller head valu need chang next last node current next head current current next current next new_nod new_nod next head head new_nod case 3 algo els locat node point insert current next head current next data new_nod data current current next new_nod next current next current next new_nod util method print link list void printlist head null node temp head system print temp data temp temp next temp head driver code test public static void main string arg linkedlist list new linkedlist creat linkedlist int arr new int 12 56 2 11 1 90 start empti link list node temp null creat link list array arr 
+creat link list 1 2 11 56 90 int 0 6 temp new node arr list sortedinsert temp list printlist code contribut mayank jaiswal output 1 2 11 12 56 90 

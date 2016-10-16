@@ -1,0 +1,14 @@
+given string find way break given string bracket form 
+enclos substr within parenthesi 
+exampl input abc output b c bc ab c abc input abcd output b c b cd bc bcd ab c ab cd abc abcd strongli recommend minim browser tri first 
+idea use recurs 
+maintain two paramet index next charact process output string far 
+start index next charact process append substr form unprocess string output string recurs remain string process whole string 
+use std substr form output string 
+substr po n return substr length n start posit po current string 
+diagram show recurs tree input string abc 
+node diagram show process string mark green unprocess string mark red 
+c implement program find combin non overlap substr form given string includ iostream use namespac std find combin non overlap substr form input string str index index next charact process output string far void findcombin string str int index string index str length cout endl int index str length append substr form str index output string findcombin str 1 str substr index 1 index driver code int main input string string str abcd findcombin str 0 return 0 ourput b c b cd bc bcd ab c ab cd abc abcd articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

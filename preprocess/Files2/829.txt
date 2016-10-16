@@ -1,0 +1,12 @@
+idea behind develop framework provid user friendli environ provid knowledg give everyon chanc learn intent web applic provid inform student syllabu previou year question paper 
+system also provid user friendli login softwar access 
+featur see syllabu panel see question paper panel 
+implement front end develop html css bootstrap framework back end php mysql 
+tool xampp free open sourc cross platform web server solut stack packag develop apach friend consist mainli apach http server mysql databas interpret script written php perl program languag 
+http www apachefriend org index html sourc code sourc code project avail github 
+view code click follow link http github com nvthejaswini csewebnod refer mani tutori php 
+exampl learn php mysql follow link would prefer 
+http www w3school com php follow link download xampp softwar also document beginn 
+http www apachefriend org index html articl contribut n venkatathejaswini like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,314 @@
+
+We have discussed Thread based Morris Traversal.  Can we do inorder traversal without threads if we have parent pointers available to us?
+
+Input: Root of Below Tree [Every node of 
+       tree has parent pointer also]
+        10
+      /    \
+     5     100
+           /  \
+          80  120 
+Output: 5 10 80 100 120
+The code should not extra space (No Recursion
+and stack)
+
+We strongly recommend you to minimize your browser and try this yourself first.
+In inorder traversal, we follow “left root right”.  We can move to children using left and right pointers.  Once a node is visited, we need to move to parent also.  For example, in the above tree, we need to move to 10 after printing 5.  For this purpose, we use parent pointer. Below is algorithm. 
+
+1. Initialize current node as root
+2. Initialize a flag: leftdone = false;
+3. Do following while root is not NULL
+     a) If leftdone is false, set current node as leftmost
+        child of node. 
+     b) Mark leftdone as true and print current node.
+     c) If right child of current nodes exists, set current
+        as right child and set leftdone as false.
+     d) Else If parent exists, If current node is left child
+        of its parent, set current node as parent. 
+        If current node is right child, keep moving to ancestors
+        using parent pointer while current node is right child
+        of its parent.  
+     e) Else break (We have reached back to root)
+
+Illustration:
+
+Let us consider below tree for illustration.
+        10
+      /    \
+     5     100
+           /  \
+          80  120 
+
+Initialize: Current node = 10, leftdone = false
+
+Since leftdone is false, we move to 5 (3.a), print it
+and set leftdone = true.
+
+Now we move to parent of 5 (3.d). Node 10 is 
+printed because leftdone is true.
+
+We move to right of 10 and set leftdone as false (3.c)
+
+Now current node is 100. Since leftdone is false, we move
+to 80 (3.a) and set leftdone as true.  We print current 
+node 80 and move back to parent 100 (3.d).  Since leftdone
+is true, we print current node 100. 
+
+Right of 100 exists, so we move to 120 (3.c).   We print
+current node 120.
+
+Since 120 is right child of its parent we keep moving to parent
+while parent is right child of its parent.  We reach root. So
+we break the loop and stop
+Below is C++ implementation of above algorithm.  Note that the implementation uses Binary Search Tree instead of Binary Tree.  We can use the same function inorder() for Binary Tree also.  The reason for using Binary Search Tree in below code is, it is easy to construct a Binary Search Tree with parent pointers and easy to test the outcome (In BST inorder traversal is always sorted).
+
+C++
+
+
+// C++ program to print inorder traversal of a Binary Search
+// Tree (BST) without recursion and stack
+#include <bits/stdc++.h>
+using namespace std;
+
+// BST Node
+struct Node
+{
+    Node *left, *right, *parent;
+    int key;
+};
+
+// A utility function to create a new BST node
+Node *newNode(int item)
+{
+    Node *temp = new Node;
+    temp->key = item;
+    temp->parent = temp->left = temp->right = NULL;
+    return temp;
+}
+
+/* A utility function to insert a new node with
+   given key in BST */
+Node *insert(Node *node, int key)
+{
+    /* If the tree is empty, return a new node */
+    if (node == NULL) return newNode(key);
+
+    /* Otherwise, recur down the tree */
+    if (key < node->key)
+    {
+        node->left  = insert(node->left, key);
+        node->left->parent = node;
+    }
+    else if (key > node->key)
+    {
+        node->right = insert(node->right, key);
+        node->right->parent = node;
+    }
+
+    /* return the (unchanged) node pointer */
+    return node;
+}
+
+// Function to print inorder traversal using parent
+// pointer
+void inorder(Node *root)
+{
+    bool leftdone = false;
+
+    // Start traversal from root
+    while (root)
+    {
+        // If left child is not traversed, find the
+        // leftmost child
+        if (!leftdone)
+        {
+            while (root->left)
+                root = root->left;
+        }
+
+        // Print root's data
+        printf("%d ", root->key);
+
+        // Mark left as done
+        leftdone = true;
+
+        // If right child exists
+        if (root->right)
+        {
+            leftdone = false;
+            root = root->right;
+        }
+
+        // If right child doesn't exist, move to parent
+        else if (root->parent)
+        {
+            // If this node is right child of its parent,
+            // visit parent's parent first
+            while (root->parent &&
+                   root == root->parent->right)
+                root = root->parent;
+            if (!root->parent)
+                break;
+            root = root->parent;
+        }
+        else break;
+    }
+}
+
+int main(void)
+{
+    Node * root = NULL;
+
+    root = insert(root, 24);
+    root = insert(root, 27);
+    root = insert(root, 29);
+    root = insert(root, 34);
+    root = insert(root, 14);
+    root = insert(root, 4);
+    root = insert(root, 10);
+    root = insert(root, 22);
+    root = insert(root, 13);
+    root = insert(root, 3);
+    root = insert(root, 2);
+    root = insert(root, 6);
+
+    printf("Inorder traversal is \n");
+    inorder(root);
+
+    return 0;
+}
+
+Java
+
+
+/* Java program to print inorder traversal of a Binary Search Tree
+   without recursion and stack */
+ 
+// BST node
+class Node 
+{
+    int key;
+    Node left, right, parent;
+ 
+    public Node(int key) 
+    {
+        this.key = key;
+        left = right = parent = null;
+    }
+}
+ 
+class BinaryTree 
+{
+    Node root;
+ 
+    /* A utility function to insert a new node with
+       given key in BST */
+    Node insert(Node node, int key) 
+    {
+        /* If the tree is empty, return a new node */
+        if (node == null) 
+            return new Node(key);
+ 
+        /* Otherwise, recur down the tree */
+        if (key < node.key) 
+        {
+            node.left = insert(node.left, key);
+            node.left.parent = node;
+        } 
+        else if (key > node.key) 
+        {
+            node.right = insert(node.right, key);
+            node.right.parent = node;
+        }
+         
+        /* return the (unchanged) node pointer */
+        return node;
+    }
+ 
+    // Function to print inorder traversal using parent
+    // pointer
+    void inorder(Node root) 
+    {
+        boolean leftdone = false;
+ 
+        // Start traversal from root
+        while (root != null) 
+        {
+            // If left child is not traversed, find the
+            // leftmost child
+            if (!leftdone) 
+            {
+                while (root.left != null) 
+                {
+                    root = root.left;
+                }
+            }
+ 
+            // Print root's data
+            System.out.print(root.key + " ");
+ 
+            // Mark left as done
+            leftdone = true;
+ 
+            // If right child exists
+            if (root.right != null) 
+            {
+                leftdone = false;
+                root = root.right;
+            } 
+             
+            // If right child doesn't exist, move to parent
+            else if (root.parent != null) 
+            {
+                // If this node is right child of its parent,
+                // visit parent's parent first
+                while (root.parent != null
+                        && root == root.parent.right) 
+                    root = root.parent;
+                 
+                if (root.parent == null) 
+                    break;
+                root = root.parent;
+            } 
+            else
+                break;
+        }
+    }
+ 
+    public static void main(String[] args) 
+    {
+        BinaryTree tree = new BinaryTree();
+        tree.root = tree.insert(tree.root, 24);
+        tree.root = tree.insert(tree.root, 27);
+        tree.root = tree.insert(tree.root, 29);
+        tree.root = tree.insert(tree.root, 34);
+        tree.root = tree.insert(tree.root, 14);
+        tree.root = tree.insert(tree.root, 4);
+        tree.root = tree.insert(tree.root, 10);
+        tree.root = tree.insert(tree.root, 22);
+        tree.root = tree.insert(tree.root, 13);
+        tree.root = tree.insert(tree.root, 3);
+        tree.root = tree.insert(tree.root, 2);
+        tree.root = tree.insert(tree.root, 6);
+ 
+        System.out.println("Inorder traversal is ");
+        tree.inorder(tree.root);
+    }
+}
+// This code has been contributed by Mayank Jaiswal(mayank_24)
+
+
+Output:
+
+Inorder traversal is 
+2 3 4 6 10 13 14 22 24 27 29 34
+This article is contributed by Rishi Chhibber. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

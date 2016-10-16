@@ -1,0 +1,17 @@
+prerequisit namespac c inlin namespac namespac use option keyword inlin origin namespac definit 
+c program demonstr work inlin namespac includ iostream use namespac std namespac ns1 inlin namespac ns2 int var 10 int main cout ns1 var return 0 output 10 see exampl member inlin namespac treat member enclos namespac mani situat list 
+properti transit namespac n contain inlin namespac turn contain inlin namespac member use though member n c program demonstr work inlin namespac insid inlin namespac includ iostream use namespac std namespac ns1 inlin namespac ns2 inlin namespac ns3 int var 10 int main cout ns1 var return 0 output 10 inlin specifi make declar nest namespac appear exactli declar enclos namespac 
+mean drag declar var exampl nest namespac contain namespac 
+advantag use inlin namespac avoid verbos consid code want print var write cout ns1 ns2 ns3 var look good namespac name short exampl 
+use inlin namespac need type entir namespac given use use direct 
+support librari inlin namespac mechan intend support librari evolut provid mechan support form version 
+refer detail 
+use direct behavior inlin namesapc also achiev use use declar insid namespac 
+use direct name inlin namespac implicitli insert enclos namespac similar implicit use direct unnam namespac 
+consid follow c code c program demonstr work use get effect inlin 
+includ iostream use namespac std namespac ns1 namespac ns2 namespac ns3 int var 10 use namespac ns3 use namespac ns2 int main cout ns1 var return 0 output 10 use direct make declar nest namespac appear exactli declar enclos namespac 
+also see nest namespac refer http en cpprefer com w cpp languag namespac articl contribut arnav shrivastava 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

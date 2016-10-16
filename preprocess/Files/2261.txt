@@ -1,0 +1,35 @@
+
+This article is not for those algo geeks. If you are interested in systems related stuff, just read on…
+Shared libraries are useful in sharing code which is common across many applications. For example, it is more economic to pack all the code related to TCP/IP implementation in a shared library. However, data can’t be shared as every application needs its own set of data. Applications like, browser, ftp, telnet, etc… make use of the shared ‘network’ library to elevate specific functionality.
+Every operating system has its own representation and tool-set to create shared libraries. More or less the concepts are same. On Windows every object file (*.obj, *.dll, *.ocx, *.sys, *.exe etc…) follow a format called Portalbe Executable. Even shared libraries (called as Dynamic Linked Libraries or DLL in short) are also represented in PE format. The tool-set that is used to create these libraries need to understand the binary format. Linux variants follow a format called Executable and Linkable Format (ELF). The ELF files are position independent (PIC) format. Shared libraries in Linux are referred as shared objects (generally with extension *.so). These are similar to DLLs in Windows platform. Even shared object files follow the ELF binary format.
+Remember, the file extensions (*.dll, *.so, *.a, *.lib, etc…) are just for programmer convenience. They don’t have any significance. All these are binary files. You can name them as you wish. Yet ensure you provide absolute paths in building applications.
+In general, when we compile an application the steps are simple. Compile, Link and Load. However, it is not simple. These steps are more versatile on modern operating systems.
+When you link your application against static library, the code is part of your application. There is no dependency. Even though it causes the application size to increase, it has its own advantages. The primary one is speed as there will be no symbol (a program entity) resolution at runtime. Since every piece of code part of the binary image, such applications are independent of version mismatch issues. However, the cost is on fixing an issue in library code. If there is any bug in library code, entire application need to be recompiled and shipped to the client. In case of dynamic libraries, fixing or upgrading the libraries is easy. You just need to ship the updated shared libraries. The application need not to recompile, it only need to re-run. You can design a mechanism where we don’t need to restart the application.
+When we link an application against a shared library, the linker leaves some stubs (unresolved symbols) to be filled at application loading time. These stubs need to be filled by a tool called, dynamic linker at run time or at application loading time. Again loading of a library is of two types, static loading and dynamic loading. Don’t confuse between static loading vs static linking and dynamic loading vs dynamic linking.
+For example, you have built an application that depends on libstdc++.so which is a shared object (dynamic libary). How does the application become aware of required shared libraries? (If you are interested, explore the tools tdump from Borland tool set, objdump or nm or readelf tools on Linux).
+Static loading:
+
+In static loading, all of those dependent shared libraries are loaded into memory even before the application starts execution. If loading of any shared library fails, the application won’t run.
+A dynamic loader examines application’s dependency on shared libraries. If these libraries are already loaded into the memory, the library address space is mapped to application virtual address space (VAS) and the dynamic linker does relocation of unresolved symbols.
+If these libraries are not loaded into memory (perhaps your application might be first to invoke the shared library), the loader searches in standard library paths and loads them into memory, then maps and resolves symbols. Again loading is big process, if you are interested write your own loader :). 
+While resolving the symbols, if the dynamic linker not able to find any symbol (may be due to older version of shared library), the application can’t be started.
+
+Dynamic Loading:
+
+As the name indicates, dynamic loading is about loading of library on demand.
+For example, if you want a small functionality from a shared library. Why should it be loaded at the application load time and sit in the memory? You can invoke loading of these shared libraries dynamically when you need their functionality. This is called dynamic loading. In this case, the programmer aware of situation ‘when should the library be loaded’. The tool-set and relevant kernel provides API to support dynamic loading, and querying of symbols in the shared library.
+
+More details in later articles.
+Note: If you come across terms like loadable modules or equivalent terms, don’t mix them with shared libraries. They are different from shared libraries  The kernels provide framework to support loadable modules.
+Exercise:
+1. Assuming you have understood the concepts, How do you design an application (e.g. Banking) which can upgrade to new shared libraries without re-running the application.
+— Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

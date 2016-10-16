@@ -1,0 +1,42 @@
+maq softwar interview experi campu fte internship four round 
+round 1 round offlin written round consist 30 aptitiud question given time 30 min 
+topic time work pipe cistern calendar date common puzzl speed distanc simpl compund interest profit loss area neg mark wrong answer 
+round 2 round offlin code round 
+consist two question time allot 30 min 
+q1 
+print matrix spiral order 
+http www geeksforgeek org print given matrix spiral form q2 
+snake ladder problem 
+http www geeksforgeek org snake ladder problem 2 one could write pseudo code algorithm full code 
+around 18 peopl select interview round base previou two round weightag first round 
+total 2 interview technic round 
+technic interview round 1 40 min 1 tell 
+2 famili background 
+3 rate data structur array string binari tree bst etc 
+4 index dbm 
+type index 
+implement index use b tree b tree 
+lot discuss b tree b tree insert delet 
+5 bst 
+give real life exampl 
+6 type link list 
+detect remov loop link list 
+7 lot question ask base project machin learn neural network 
+8 given rang count time 7th digit occur 
+implement recurs iter form 
+eg rang 1 20 count 2 9 revers string one pass 
+eg input string name mohan output mohan name 
+http stackoverflow com question 1009160 revers order word string 
+hr question like 1 futur goal 
+2 prefer locat mumbai hyderbad 
+3 question relat team manag 
+7 student select 2nd technic round 
+technic interview round 2 1 hr 1 wap print permut given string eg 
+input string abc output abc acb bac bca cba cab http www geeksforgeek org write c program print permut given string 2 serial deseri binari tree http www geeksforgeek org serial deseri binari tree write full code base case 
+3 appl puzzl 
+http www youtub com watch v o6nbg69ml4c 4 mani squar chessboard 
+total 4 student select campu 
+thank geeksforgeek help lot prepar interview 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

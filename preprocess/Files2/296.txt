@@ -1,0 +1,25 @@
+given direct graph find vertex j reachabl anoth vertex vertex pair j given graph 
+reachabl mean path vertex j reach abil matrix call transit closur graph 
+exampl consid graph transit closur graph 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 graph given form adjac matrix say graph v v graph j 1 edg vertex vertex j equal j otherwis graph j 0 floyd warshal algorithm use calcul distanc matrix dist v v use floyd warshal dist j infinit j reachabl otherwis j reachabl valu dist j less v instead directli use floyd warshal optim term space time particular problem 
+follow optim 1 instead integ result matrix dist v v floyd warshal creat boolean reach abil matrix reach v v save space 
+valu reach j 1 j reachabl otherwis 0 
+2 instead use arithmet oper use logic oper 
+arithmet oper logic use min logic use 
+save time constant factor 
+time complex though c program transit closur use floyd warshal algorithm includ stdio h number vertic graph defin v 4 function print solut matrix void printsolut int reach v print transit closur graph use floyd warshal algorithm void transitiveclosur int graph v reach output matrix final shortest distanc everi pair vertic int reach v v j k initi solut matrix input graph matrix 
+say initi valu shortest distanc base shortest path consid intermedi vertex 
+0 v j 0 j v j reach j graph j add vertic one one set intermedi vertic 
+start iter reachabl valu pair vertic reachabl valu consid vertic set 0 1 2 k 1 intermedi vertic 
+end iter vertex 
+k ad set intermedi vertic set becom 0 1 k k 0 k v k pick vertic sourc one one 0 v pick vertic destin pick sourc j 0 j v j vertex k path j make sure valu reach j 1 reach j reach j reach k reach k j print shortest distanc matrix printsolut reach util function print solut void printsolut int reach v printf follow matrix transit closur given graph n int 0 v int j 0 j v j printf reach j printf n driver program test function int main let us creat follow weight graph 10 0 3 5 1 1 2 3 int graph v v 1 1 0 1 0 1 1 0 0 0 1 1 0 0 0 1 print solut transitiveclosur graph return 0 java program transit closur use floyd warshal algorithm import java util 
+import java lang 
+import java io 
+class graphclosur final static int v 4 number vertic graph print transit closur graph use floyd warshal algorithm void transitiveclosur int graph reach output matrix final shortest distanc everi pair vertic int reach new int v v int j k initi solut matrix input graph matrix 
+say initi valu shortest distanc base shortest path consid intermedi vertex 
+0 v j 0 j v j reach j graph j add vertic one one set intermedi vertic 
+start iter reachabl valu pair vertic reachabl valu consid vertic set 0 1 2 k 1 intermedi vertic 
+end iter vertex 
+k ad set intermedi vertic set becom 0 1 2 k k 0 k v k pick vertic sourc one one 0 v pick vertic destin pick sourc j 0 j v j vertex k path j make sure valu reach j 1 reach j reach j 0 reach k 0 reach k j 0 1 0 print shortest distanc matrix printsolut reach util function print solut void printsolut int reach system println follow matrix transit closur given graph int 0 v int j 0 j v j system print reach j system println driver program test function public static void main string arg let us creat follow weight graph 10 0 3 5 1 1 2 3 let us creat follow weight graph 10 0 3 5 1 1 2 3 int graph new int 1 1 0 1 0 1 1 0 0 0 1 1 0 0 0 1 print solut graphclosur g new graphclosur g transitiveclosur graph code contribut aakash hasija output follow matrix transit closur given graph 1 1 1 1 0 1 1 1 0 0 1 1 0 0 0 1 time complex v3 v number vertic given graph 
+see post v2 solut 
+transit closur graph use df refer introduct algorithm clifford stein thoma h cormen charl e leiserson ronald l pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,20 @@
+given sequenc matric find effici way multipli matric togeth 
+problem actual perform multipl mere decid order perform multipl 
+mani option multipli chain matric matrix multipl associ 
+word matter parenthes product result 
+exampl four matric b c would abc ab cd bcd howev order parenthes product affect number simpl arithmet oper need comput product effici 
+exampl suppos 10 30 matrix b 30 5 matrix c 5 60 matrix 
+ab c 10 30 5 10 5 60 1500 3000 4500 oper bc 30 5 60 10 30 60 9000 18000 27000 oper 
+clearli first parenthes requir less number oper 
+given array p repres chain matric ith matrix ai dimens p 1 x p 
+need write function matrixchainord return minimum number multipl need multipli chain 
+input p 40 20 30 10 30 output 26000 4 matric dimens 40x20 20x30 30x10 10x30 
+let input 4 matric b c minimum number multipl obtain put parenthesi follow way bc 20 30 10 40 20 10 40 10 30 input p 10 20 30 40 30 output 30000 4 matric dimens 10x20 20x30 30x40 40x30 
+let input 4 matric b c minimum number multipl obtain put parenthesi follow way ab c 10 20 30 10 30 40 10 40 30 input p 10 20 30 output 6000 two matric dimens 10x20 20x30 
+one way multipli matric cost 10 20 30 1 optim substructur simpl solut place parenthesi possibl place calcul cost placement return minimum valu 
+chain matric size n place first set parenthesi n 1 way 
+exampl given chain 4 matric 
+let chain abcd 3 way place first set parenthesi bcd ab cd abc place set parenthesi divid problem subproblem smaller size 
+therefor problem optim substructur properti easili solv use recurs 
+minimum number multipl need multipli chain size n minimum n 1 placement placement creat subproblem smaller size 2 overlap subproblem follow recurs implement simpli follow optim substructur properti 
+c naiv recurs implement simpli follow optim substructur properti includ stdio h includ limit h matrix ai dimens p 1 x p 1 n int matrixchainord int p int int j j return 0 int k int min int_max int count place parenthesi differ place first last matrix recurs calcul count multipl parenthesi placement return minimum count k k j k count matrixchainord p k matrixchainord p k 1 j p 1 p k p j count min min count return minimum count return min driver program test function int main int arr 1 2 3 4 3 int n sizeof arr sizeof arr 0 printf minimum number multipl matrixchainord arr 1 n 1 getchar return 0 

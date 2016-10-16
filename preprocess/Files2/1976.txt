@@ -1,0 +1,5 @@
+pointer pass hidden argument nonstat member function call avail local variabl within bodi nonstat function 
+pointer constant pointer hold memori address current object 
+pointer avail static member function static member function call without object class name 
+class x type pointer x const 
+also member function x declar const type pointer const x const see gfact follow situat pointer use 1 local variabl name member name includ iostream use namespac std local variabl member name class test privat int x public void setx int x pointer use retriev object x hidden local variabl x x x void print cout x x endl int main test obj int x 20 obj setx x obj print return 0 output x 20 constructor initi list also use paramet name member name 

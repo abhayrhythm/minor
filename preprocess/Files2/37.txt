@@ -1,0 +1,2 @@
+follow typic recurs implement quick sort use last element pivot 
+c typic recurs c c implement quicksort function take last element pivot place pivot element correct posit sort array place smaller smaller pivot left pivot greater element right pivot int partit int arr int l int h int x arr h int l 1 int j l j h 1 j arr j x swap arr arr j swap arr 1 arr h return 1 array sort l start index h end index void quicksort int int l int h l h partit index int p partit l h quicksort l p 1 quicksort p 1 h 

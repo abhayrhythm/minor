@@ -1,0 +1,22 @@
+c c loos definit basic integ data type char short int long long long 
+languag guarante repres least rang valu particular platform compil oper system hardwar might larger 
+good exampl long 
+one machin might 32 bit minimum requir c 
+anoth 64 bit 
+want integ type precis 32 bit long 
+int32_t come alia whatev integ type particular system exactli 32 bit 
+templat intn_t uintn_t n width integ 8 16 32 64 type width support librari 
+c program show use extend integr type includ iostream use namespac std int main uint8_t width exact 8 bit minimum valu repres unsign 8 bit 0 0 cout minimum valu int endl maximum valu repres unsign 8 bit 255 255 cout maximum valu int endl warn larg integ implicitli truncat unsign type 
+print garbag valu 2436 cout beyond rang valu int endl return 0 output function int main 19 7 warn larg integ implicitli truncat unsign type woverflow 2436 minimum valu 0 maximum valu 255 beyond rang valu 132 differ variat 1 fix width unsign 8 bit integ uint8_t mean give unsign int exactli 8 bit 
+2 minimum width unsign 8 bit integ uint_least8_t mean give smallest type unsign int least 8 bit 
+optim memori consumpt 
+3 fastest minimum width unsign 8 bit integ uint_fast8_t mean give unsign int least 8 bit make program faster 
+may pick larger data type align consider 
+optim speed 
+thu uint8_t guarante exactli 8 bit wide 
+uint_least8_t smallest integ guarante least 8 bit wide 
+uint_fast8_t fastest integ guarante least 8 bit wide 
+extend integr type help us write portabl effici code 
+articl contribut rohit kasl 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

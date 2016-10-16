@@ -1,0 +1,33 @@
+heap sort comparison base sort techniqu base binari heap data structur 
+similar select sort first find maximum element place maximum element end 
+repeat process remain element 
+binari heap 
+let us first defin complet binari tree 
+complet binari tree binari tree everi level except possibl last complet fill node far left possibl sourc wikipedia binari heap complet binari tree item store special order valu parent node greater smaller valu two children node 
+former call max heap latter call min heap 
+heap repres binari tree array 
+array base represent binari heap 
+sinc binari heap complet binari tree easili repres array array base represent space effici 
+parent node store index left child calcul 2 1 right child 2 2 assum index start 0 
+heap sort algorithm sort increas order 1 build max heap input data 
+2 point largest item store root heap 
+replac last item heap follow reduc size heap 1 final heapifi root tree 
+3 repeat step size heap greater 1 build heap 
+heapifi procedur appli node children node heapifi 
+heapif must perform bottom order 
+let understand help exampl input data 4 10 3 5 1 4 0 10 1 3 2 5 3 1 4 number bracket repres indic array represent data 
+appli heapifi procedur index 1 4 0 10 1 3 2 5 3 1 4 appli heapifi procedur index 0 10 0 5 1 3 2 4 3 1 4 heapifi procedur call recurs build heap top manner 
+c c program implement heap sort includ iostream use namespac std heapifi subtre root node index arr 
+n size heap void heapifi int arr int n int int largest initi largest root int l 2 1 left 2 1 int r 2 2 right 2 2 left child larger root l n arr l arr largest largest l right child larger largest far r n arr r arr largest largest r largest root largest swap arr arr largest recurs heapifi affect sub tree heapifi arr n largest main function heap sort void heapsort int arr int n build heap rearrang array int n 2 1 0 heapifi arr n one one extract element heap int n 1 0 move current root end swap arr 0 arr call max heapifi reduc heap heapifi arr 0 util function print array size n void printarray int arr int n int 0 n cout arr cout n driver program int main int arr 12 11 13 5 6 7 int n sizeof arr sizeof arr 0 heapsort arr n cout sort array n printarray arr n java java program implement heap sort public class heapsort public void sort int arr int n arr length build heap rearrang array int n 2 1 0 heapifi arr n one one extract element heap int n 1 0 move current root end int temp arr 0 arr 0 arr arr temp call max heapifi reduc heap heapifi arr 0 heapifi subtre root node index arr 
+n size heap void heapifi int arr int n int int largest initi largest root int l 2 1 left 2 1 int r 2 2 right 2 2 left child larger root l n arr l arr largest largest l right child larger largest far r n arr r arr largest largest r largest root largest int swap arr arr arr largest arr largest swap recurs heapifi affect sub tree heapifi arr n largest util function print array size n static void printarray int arr int n arr length int 0 n system print arr system println driver program public static void main string arg int arr 12 11 13 5 6 7 int n arr length heapsort ob new heapsort ob sort arr system println sort array printarray arr python python program implement heap sort heapifi subtre root index 
+n size heap def heapifi arr n largest initi largest root l 2 1 left 2 1 r 2 2 right 2 2 see left child root exist greater root l n arr arr l largest l see right child root exist greater root r n arr largest arr r largest r chang root need largest arr arr largest arr largest arr swap heapifi root 
+heapifi arr n largest main function sort array given size def heapsort arr n len arr build maxheap 
+rang n 1 1 heapifi arr n one one extract element rang n 1 0 1 arr arr 0 arr 0 arr swap heapifi arr 0 driver code test arr 12 11 13 5 6 7 heapsort arr n len arr print sort array rang n print arr code contribut mohit kumra output sort array 5 6 7 11 12 13 previou c code refer 
+note heap sort place algorithm 
+typic implement stabl made stabl see time complex time complex heapifi logn 
+time complex createandbuildheap n overal time complex heap sort nlogn 
+applic heapsort 1 sort nearli sort k sort array 2 k largest smallest element array heap sort algorithm limit use quicksort mergesort better practic 
+nevertheless heap data structur enorm use 
+see applic heap data structur quiz heap sort sort algorithm geeksforgeek geeksquiz quicksort select sort bubbl sort insert sort merg sort heap sort quicksort radix sort count sort bucket sort shellsort comb sort pigeonhol sort code practic sort 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

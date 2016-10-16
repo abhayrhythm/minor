@@ -1,0 +1,13 @@
+yield statement suspend function execut send valu back caller retain enough state enabl function resum left 
+resum function continu execut immedi last yield run 
+allow code produc seri valu time rather comput send back like list 
+let see exampl simpl python program demonstr work yield gener function yield 1 first time 2 second time 3 third time def simplegeneratorfun yield 1 yield 2 yield 3 driver code check gener function valu simplegeneratorfun print valu output 1 2 3 return send specifi valu back caller wherea yield produc sequenc valu 
+use yield want iter sequenc want store entir sequenc memori 
+yield use python gener 
+gener function defin like normal function whenev need gener valu yield keyword rather return 
+bodi def contain yield function automat becom gener function 
+python program gener squar 1 100 use yield therefor gener infinit gener function print next squar number 
+start 1 def nextsquar 1 infinit loop gener squar true yield 1 next execut resum point driver code test gener function num nextsquar num 100 break print num output 1 4 9 16 25 36 49 64 81 100 articl contribut arpit agarw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

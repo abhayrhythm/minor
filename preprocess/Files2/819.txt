@@ -1,0 +1,31 @@
+project idea aim project creat game python user present anagram word guess right word within limit number attempt 
+featur project user given fix number attempt guess correct word 
+number attempt depend length word 
+incorrect attempt user provid hint correct word 
+user abl guess right word within fix number attempt correct word display game move next word 
+ctrl c ctrl exit game 
+implement tutori valid linux base system 
+tutori written linux mint 17 1 system 
+implement linux system redhat arch see special note end tutori 
+almost linux base system file locat directori locat usr share dict differ name like cracklib small ubuntu base system word redhat arch contain word dictionari often use mani applic implement featur spell check 
+project use file creat game anagram 
+read file provid us word requir game 
+word file separ new line read file need split word base new line charact get individu word 
+code would look like loc usr share dict cracklib small open loc f content f read split n f close file also contain word like zoo want word game omit 
+avoid make game simpl decid also ommit word length less 5 step option skip 
+code look like l len content word rang 0 l content len content 5 continu word append content file also contain word like 2nd 3rd start file 
+prevent appear game omit word word 1 len word word word final word contain word need game proceed 
+choos specif word particular round game word word random randint 0 word would randomli chosen list word creat 
+creat anagram word need shuffl charact done shuffl list word random shuffl shuffl length word chosen round 7 user get 7 attempt els number attempt 5 len word 7 chanc 7 els chanc 5 tri 0 variabl tri keep track number attempt taken user 
+initi zero 
+user attempt take input compar correct word 
+match congratul user present next anagram els provid hint 
+gener hint particular word choos two random integ 0 length word 
+t1 random randint 0 len word t2 random randint 0 len word display correct charact two posit t1 t2 posit display 
+hint rang 0 len word t1 t2 hint hint word els hint hint 
+print hint number tri number chanc display corect word game continu 
+tri chanc print answer word special note make code platform independ possibl choos locat file dynam use platform modul python 
+os platform dist 0 os linuxmint os ubuntu loc usr share dict cracklib small els loc usr share dict word softwar tool requir game implement python use modul platform random 
+github link http github com sub123 practic blob master python anagramwa py idea contribut subham like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,8 @@
+given array 0s 1s random order 
+segreg 0s left side 1s right side array 
+travers array 
+input array 0 1 0 1 0 0 1 1 1 0 output array 0 0 0 0 0 1 1 1 1 1 method 1 count 0s 1s thank naveen suggest method 
+1 count number 0s 
+let count c 2 count put c 0s begin 1s remain n c posit array 
+time complex n method 1 travers array two time 
+method 2 singl pass 

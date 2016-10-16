@@ -1,0 +1,31 @@
+n station rout train 
+train goe station 0 n 1 
+ticket cost pair station j given j greater find minimum cost reach destin 
+consid follow exampl input cost n n 0 15 80 90 inf 0 40 50 inf inf 0 70 inf inf inf 0 4 station cost j indic cost reach j entri j meaningless 
+output minimum cost 65 minimum cost obtain first go station 1 0 station 1 station 3 strongli recommend minim browser tri first 
+minimum cost reach n 1 0 recurs written follow mincost 0 n 1 min cost 0 n 1 cost 0 1 mincost 1 n 1 mincost 0 2 mincost 2 n 1 mincost 0 n 2 cost n 2 n 1 follow implement recurs formula 
+c naiv recurs solut find min cost path station 0 station n 1 includ iostream includ climit use namespac std infinit valu defin inf int_max number station defin n 4 recurs function find shortest path sourc destin 
+int mincostrec int cost n int int sourc destin destin next sourc 1 return cost initi min cost direct ticket sourc destin 
+int min cost tri everi intermedi vertex find minimum int 1 int c mincostrec cost mincostrec cost c min min c return min function return smallest possibl cost reach station n 1 station 0 function mainli use mincostrec 
+int mincost int cost n return mincostrec cost 0 n 1 driver program test function int main int cost n n 0 15 80 90 inf 0 40 50 inf inf 0 70 inf inf inf 0 cout minimum cost reach station n mincost cost return 0 java naiv recurs solut find min cost path station 0 station n 1 class shortest_path static int inf integ max_valu n 4 recurs function find shortest path sourc destin 
+static int mincostrec int cost int int sourc destin destin next sourc 1 return cost initi min cost direct ticket sourc destin 
+int min cost tri everi intermedi vertex find minimum int 1 int c mincostrec cost mincostrec cost c min min c return min function return smallest possibl cost reach station n 1 station 0 function mainli use mincostrec 
+static int mincost int cost return mincostrec cost 0 n 1 public static void main string arg int cost 0 15 80 90 inf 0 40 50 inf inf 0 70 inf inf inf 0 system println minimum cost reach station n mincost cost code contribut rajat mishra output minimum cost reach station 4 65 time complex implement exponenti tri everi possibl path 0 n 1 
+solut solv subrpoblem multipl time seen draw recurs tree mincostpathrec 0 5 
+sinc problem properti dynam program problem see 
+like typic dynam program dp problem comput subproblem avoid store solut subproblem solv problem bottom manner 
+one dynam program solut creat 2d tabl fill tabl use given recurs formula 
+extra space requir solut would n2 time complex would n3 solv problem use n extra space n2 time 
+idea base fact given input matrix direct acycl graph dag 
+shortest path dag calcul use approach discuss post 
+shortest path direct acycl graph need less work compar mention post know topolog sort graph 
+topolog sort vertic 0 1 n 1 
+follow idea topolog sort known 
+idea code first calcul min cost station 1 station 2 
+cost store array dist 0 n 1 
+1 min cost station 0 0 e dist 0 0 2 min cost station 1 cost 0 1 e dist 1 cost 0 1 3 min cost station 2 minimum follow two 
+dist 0 cost 0 2 b dist 1 cost 1 2 3 min cost station 3 minimum follow three 
+dist 0 cost 0 3 b dist 1 cost 1 3 c dist 2 cost 2 3 similarli dist 4 dist 5 dist n 1 calcul 
+implement idea 
+c dynam program base solut find min cost reach station n 1 station 0 
+includ iostream includ climit use namespac std defin inf int_max defin n 4 function return smallest possibl cost reach station n 1 station 0 int mincost int cost n dist store minimum cost reach station station 0 int dist n int 0 n dist inf dist 0 0 go everi station check use intermedi station give better path int 0 n int j 1 j n j dist j dist cost j dist j dist cost j return dist n 1 driver program test function int main int cost n n 0 15 80 90 inf 0 40 50 inf inf 0 70 inf inf inf 0 cout minimum cost reach station n mincost cost return 0 

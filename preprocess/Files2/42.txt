@@ -1,0 +1,16 @@
+consid follow c implement binari search function anyth wrong 
+iter binari search function 
+return locat x given array arr l r present otherwis 1 int binarysearch int arr int l int r int x l r find index middl element int l r 2 check x present mid arr x return x greater ignor left half arr x l 1 x smaller ignor right half els r 1 reach element present return 1 look fine except one subtl thing express l r 2 
+fail larg valu l r specif fail sum low high greater maximum posit int valu 231 1 
+sum overflow neg valu valu stay neg divid two 
+c caus array index bound unpredict result 
+way resolv problem 
+follow one way int mid low high low 2 probabl faster arguabl clear work java refer int mid low high 1 c c oper mid unsign int low unsign int high 1 similar problem appear merg sort well 
+content taken googl reasearch blog 
+pleas refer well point solut may alway work 
+problem occur array length 230 greater search repeatedli move second half array 
+much size array like appear time 
+exampl tri program 32 bit code block compil get compil error 
+int main int arr 1 30 return 0 output error size array arr larg even tri boolean array program compil fine crash run window 7 0 code block 32 bit compil includ stdbool h int main bool arr 1 30 return 0 output compil error crash run time 
+sourc http googleresearch blogspot 2006 06 extra extra read nearli html http locklessinc com articl binary_search articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

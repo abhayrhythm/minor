@@ -1,0 +1,19 @@
+given array size n array contain number rang 0 k 1 k posit integ k n find maximum repeat number array 
+exampl let k 10 given array arr 1 2 2 2 0 2 0 2 3 8 0 9 2 3 maximum repeat number would 2 expect time complex n extra space allow 1 
+modif array allow 
+naiv approach run two loop outer loop pick element one one inner loop count number occurr pick element 
+final return element maximum count 
+time complex approach n 2 
+better approach creat count array size k initi element count 0 iter element input array everi element arr increment count arr 
+final iter count return index maximum valu 
+approach take n time requir k space 
+follow n time 1 extra space approach 
+let us understand approach simpl exampl arr 2 3 3 5 3 4 1 7 k 8 n 8 number element arr 
+1 iter though input array arr everi element arr increment arr arr k k arr becom 2 11 11 29 11 12 1 15 2 find maximum valu modifi array maximum valu 29 
+index maximum valu maximum repeat element index 29 3 
+3 want get origin array back iter array one time arr arr k vari 0 n 1 
+algorithm work 
+sinc use arr k index add valu k index arr k index equal maximum repeat element maximum valu end 
+note k ad maximum number time index equal maximum repeat element array element smaller k follow c implement algorithm 
+c c program find maximum repeat number includ iostream use namespac std return maximum repeat element arr 0 n 1 
+array element rang 0 k 1 int maxrep int arr int n int k iter though input array everi element arr increment arr arr k k int 0 n arr arr k k find index maximum repeat element int max arr 0 result 0 int 1 n arr max max arr result uncom code get origin array back int 0 n arr arr k return index maximum element return result driver program test function int main int arr 2 3 3 5 3 4 1 7 int n sizeof arr sizeof arr 0 int k 8 cout maximum repeat number maxrep arr n k endl return 0 

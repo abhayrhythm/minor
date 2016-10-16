@@ -1,0 +1,16 @@
+given number print possibl combin string use dial given number phone follow specif 
+given phone dial 2 use b c 3 use e f 
+8 use u v 9 use w x z 1 use 1 0 use 0 exampl 23 given phone number program print ad ae af bd bf cd ce cf idea store digit charact map hash map 
+map store charact use dial digit 
+place everi possibl charact current digit recur remain digit 
+java implement idea 
+java program print possibl key string use dial phone number 
+import java util hashmap class converttostr recurs function print combin use dial given number 
+phno given phone number current digit phno process hm store charact use dial digit 
+str current output string static void printstr string phno int hashmap charact string hm stringbuild str digit process print output string phno length system print str return get current digit phno recur charact use dial 
+string hm get phno charat int j 0 j length j str append charat j printstr phno 1 hm str str deletecharat str length 1 print possibl combin string use dial c 
+static void printstringfornumb string phno creat hashmap hashmap charact string hm new hashmap charact string everi digit store charact use dial 
+hm put 2 abc hm put 3 def hm put 4 ghi hm put 5 jkl hm put 6 mno hm put 7 pqr hm put 8 tuv hm put 9 wxyz hm put 1 1 hm put 0 0 creat string store particular output string stringbuild str new stringbuild call recurs function printstr phno 0 hm str driver code test method public static void main string arg print printstringfornumb 23 output ad ae af bd bf cd ce cf articl contribut phalgun 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

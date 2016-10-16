@@ -1,0 +1,40 @@
+thread 
+thread singl sequenc stream within process 
+thread properti process sometim call lightweight process 
+differ process thread 
+thread independ one like process result thread share thread code section data section os resourc like open file signal 
+like process thread program counter pc regist set stack space 
+multithread 
+thread popular way improv applic parallel 
+exampl browser multipl tab differ thread 
+ms word use multipl thread one thread format text thread process input etc 
+thread oper faster process due follow reason 1 thread creation much faster 
+2 context switch thread much faster 
+3 thread termin easili 4 commun thread faster 
+see http www person kent edu rmuhamma opsystem myo thread htm detail 
+write multithread program c 
+unlik java multithread support languag standard 
+posix thread pthread posix standard thread 
+implement pthread avail gcc compil 
+simpl c program demonstr use pthread basic function pleas program may compil c compil pthread librari 
+includ stdio h includ stdlib h includ pthread h normal c function execut thread name specifi pthread_creat void mythreadfun void vargp sleep 1 printf print geeksquiz thread n return null int main pthread_t tid printf thread n pthread_creat tid null mythreadfun null pthread_join tid null printf thread n exit 0 main declar variabl call thread_id type pthread_t integ use identifi thread system 
+declar thread_id call pthread_creat function creat thread 
+pthread_creat take 4 argument 
+first argument pointer thread_id set function 
+third argument name function execut thread creat 
+fourth argument use pass argument thread 
+pthread_join function thread equival wait process 
+call pthread_join block call thread thread identifi equal first argument termin 
+compil program 
+compil multithread program use gcc need link pthread librari 
+follow command use compil program 
+gfg ubuntu gcc multithread c lpthread gfg ubuntu thread print geeksquiz thread thread gfg ubuntu c program show multipl thread global static variabl mention thread share data segment 
+global static variabl store data segment 
+therefor share thread 
+follow exampl program demonstr 
+includ stdio h includ stdlib h includ pthread h let us creat global variabl chang thread int g 0 function execut thread void mythreadfun void vargp store valu argument pass thread int myid int vargp let us creat static variabl observ chang static int 0 chang static global variabl g print argument static global variabl printf thread id static global n myid g int main int pthread_t tid let us creat three thread 0 3 pthread_creat tid null mythreadfun void pthread_exit null return 0 gfg ubuntu gcc multithread c lpthread gfg ubuntu thread id 1 static 1 global 1 thread id 0 static 2 global 2 thread id 2 static 3 global 3 gfg ubuntu pleas note simpl exampl show thread work 
+access global variabl thread gener bad idea 
+thread 2 prioriti thread 1 thread 1 need chang variabl 
+practic requir access global variabl multipl thread access use mutex 
+refer http www csc villanova edu mdamian thread posixthread html comput system programm articl contribut rahul jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

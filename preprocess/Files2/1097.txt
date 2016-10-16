@@ -1,0 +1,23 @@
+given sort array integ return number distinct absolut valu among element array 
+input contain duplic valu 
+input 3 2 0 3 4 5 output 5 5 distinct absolut valu among element array e 
+0 2 3 4 5 input 1 1 1 1 0 1 1 1 1 output 2 input 1 1 1 1 0 output 2 input 0 0 0 output 1 solut one scan input array use extra space 
+e 
+expect time complex n auxiliari space 1 
+strongli recommend minim browser tri first 
+one simpl solut use set 
+element input array insert absolut valu set 
+set support duplic element element absolut valu insert 
+therefor requir count size set 
+c implement idea 
+program find absolut distinct count array n time 
+includ bit stdc h use namespac std function return number distinct absolut valu among element array int distinctcount int arr int n unordered_set int note set keep one copi even tri insert multipl valu int 0 n insert ab arr return size driver code int main int arr 2 1 0 1 1 int n sizeof arr sizeof arr 0 cout count absolut distinct valu distinctcount arr n return 0 output count absolut distinct valu 3 time complex n auxiliari space n implement take n extra space 1 extra space 
+idea take advantag fact array alreadi sort 
+initi count distinct element number element array 
+start two index variabl two corner array check pair input array sum 0 pair 0 sum found duplic encount decrement count distinct element final return updat count 
+c implement idea 
+program find absolut distinct count array use 1 space 
+includ bit stdc h use namespac std function return return number distinct absolut valu among element array int distinctcount int arr int n initi count number element int count n int 0 j n 1 sum 0 j remov duplic element left current window j also decreas count j arr arr 1 count remov duplic element right current window j also decreas count j arr j arr j 1 count j break one element left j break look zero sum pair current window j sum arr arr j sum 0 decreas count posit neg pair encount count j els sum 0 els j return count driver code int main int arr 2 1 0 1 1 int n sizeof arr sizeof arr 0 cout count absolut distinct valu distinctcount arr n return 0 output count absolut distinct valu 3 time complex n auxiliari space 1 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

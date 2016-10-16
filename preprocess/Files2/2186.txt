@@ -1,0 +1,20 @@
+given number n gener bit pattern 0 2 n 1 success pattern differ one bit 
+exampl follow 2 bit sequenc n 2 00 01 11 10 follow 3 bit sequenc n 3 000 001 011 010 110 111 101 100 follow 4 bit sequenc n 4 0000 0001 0011 0010 0110 0111 0101 0100 1100 1101 1111 1110 1010 1011 1001 1000 sequenc gray code differ width 
+follow interest pattern gray code 
+n bit gray code gener list n 1 bit gray code use follow step 
+1 let list n 1 bit gray code l1 
+creat anoth list l2 revers l1 
+2 modifi list l1 prefix 0 code l1 
+3 modifi list l2 prefix 1 code l2 
+4 concaten l1 l2 
+concaten list requir list n bit gray code 
+exampl follow step gener 3 bit gray code list list 2 bit gray code list 
+l1 00 01 11 10 list 2 bit gray code l2 10 11 01 00 revers l1 prefix entri l1 0 l1 becom 000 001 011 010 prefix entri l2 1 l2 becom 110 111 101 100 concaten l1 l2 get 000 001 011 010 110 111 101 100 gener n bit gray code start list 1 bit gray code 
+list 1 bit gray code 0 1 
+repeat step gener 2 bit gray code 1 bit gray code 3 bit gray code 2 bit gray code till number bit becom equal n follow c implement approach 
+c program gener n bit gray code includ iostream includ string includ vector use namespac std function gener n bit gray code print gener code void generategrayarr int n base case n 0 return arr store gener code vector string arr start one bit pattern arr push_back 0 arr push_back 1 everi iter loop gener 2 code previous gener code 
+int j 2 1 n 1 enter prviousli gener code arr revers order 
+arr doubl number code 
+j 1 j 0 j arr push_back arr j append 0 first half j 0 j j arr j 0 arr j append 1 second half j j 2 j arr j 1 arr j print content arr 0 arr size cout arr endl driver program test function int main generategrayarr 4 return 0 output 000 001 011 010 110 111 101 100 articl compil ravi chandra enaganti 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

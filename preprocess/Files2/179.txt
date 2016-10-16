@@ -1,0 +1,7 @@
+write function calcul day week particular date past futur 
+typic applic calcul day week someon born special event occur 
+follow simpl c function suggest sakamoto lachman keith craver calcul day 
+follow function return 0 sunday 1 monday etc 
+program find day given date includ stdio h int dayofweek int int int static int 0 3 2 5 0 3 5 1 4 6 2 4 3 return 4 100 400 1 7 driver function test function int main int day dayofweek 30 8 2010 printf day return 0 output 1 monday see explan function 
+refer http en wikipedia org wiki determination_of_the_day_of_the_week articl compil dheeraj jain review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

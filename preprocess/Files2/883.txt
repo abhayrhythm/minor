@@ -1,0 +1,29 @@
+discuss introduct oper c arithmet oper 
+articl relat logic oper discuss 
+relat oper relat oper use comparison two valu 
+let see one one oper check whether two given operand equal 
+return true 
+otherwis return fals 
+exampl 5 5 return true 
+oper check whether two given operand equal 
+return true 
+otherwis return fals 
+exact boolean complement oper 
+exampl 5 5 return fals 
+oper check whether first operand greater second operand 
+return true 
+otherwis return fals 
+exampl 6 5 return true 
+oper check whether first operand lesser second operand 
+return true 
+otherwis return fals 
+exampl 6 5 return fals 
+oper check whether first operand greater equal second operand 
+return true 
+otherwis return fals 
+exampl 5 5 return true 
+oper check whether first operand lesser equal second operand 
+return true 
+otherwis return fals 
+exampl 5 5 also return true 
+c program demonstr work relat oper includ stdio h int main int 10 b 4 relat oper greater exampl b printf greater b n els printf less equal b n greater equal b printf greater equal b n els printf lesser b n less exampl b printf less b n els printf greater equal b n lesser equal b printf lesser equal b n els printf greater b n equal b printf equal b n els printf b equal n equal b printf equal b n els printf equal b n return 0 output greater b greater equal b greater equal b greater b b equal equal b 

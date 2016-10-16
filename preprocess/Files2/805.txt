@@ -1,0 +1,17 @@
+note post contain code cannot run use onlin compil 
+pleas make sure python 2 7 cv2 modul instal tri run program system 
+hi everyon 
+read brilliant work aditya prakash opencv c program blur imag decid come someth similar time python 
+simpl program basic result 
+python program blur imag import cv2 give error cv2 modul img cv2 imread bat jpg bat jpg batman imag 
+make sure save folder blurimg cv2 blur img 10 10 chang kernel size want cv2 imshow blur imag blurimg cv2 waitkey 0 cv2 destroyallwindow program use imag blur techniqu call averag option avail well gaussian blur median blur bilater filter 
+let make coupl addit program compar result 
+import cv2 give error cv2 modul img cv2 imread bat jpg bat jpg batman imag 
+make sure save folder averag avg cv2 blur img 10 10 chang kernel size want cv2 imshow averag avg cv2 waitkey 0 gaussian blur gausblur cv2 gaussianblur img 5 5 0 chang kernel size cv2 imshow gaussian blur gausblur cv2 waitkey 0 median blur medblur cv2 medianblur img 5 cv2 imshow media blur medblur cv2 waitkey 0 bilater filter bilfilt cv2 bilateralfilt img 9 75 75 cv2 imshow bilater filter bilfilt cv2 waitkey 0 cv2 destroyallwindow hope enjoy post 
+auf wiedersehen 
+author vishwesh shrimali undergradu mechan engin student bit pilani 
+fulfil requir taught branch white hat hacker network secur oper ex competit programm 
+firm believ power python major work languag 
+whenev get time apart program attend class watch csi cyber go long walk play guitar silenc 
+motto life enjoy life caus worth enjoy also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,24 @@
+
+A quine is a program which prints a copy of its own as the only output. A quine takes no input. Quines are named after the American mathematician and logician Willard Van Orman Quine (1908–2000).  The interesting thing is you are not allowed to use open and then print file of the program. 
+To the best of our knowledge, below is the shortest quine in C. 
+
+main() { char *s="main() { char *s=%c%s%c; printf(s,34,s,34); }"; printf(s,34,s,34); } 
+
+This program uses the printf function without including its corresponding header (#include ), which can result in undefined behavior. Also, the return type declaration for main has been left off to reduce the length of the program.  Two 34s are used to print double quotes around the string s.
+Following is a shorter version of the above program suggested by Narendra.
+
+main(a){printf(a="main(a){printf(a=%c%s%c,34,a,34);}",34,a,34);}
+
+If you find a shorter C quine or you want to share quine in other programming languages, then please do write in the comment section.
+Quine in Python
+Source:
+http://en.wikipedia.org/wiki/Quine_%28computing%29
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

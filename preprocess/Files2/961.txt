@@ -1,0 +1,138 @@
+mean data align structur pack pad 
+predict output follow program 
+includ stdio h align requir typic 32 bit machin char 1 byte short int 2 byte int 4 byte doubl 8 byte structur typedef struct structa_tag char c short int structa_t structur b typedef struct structb_tag short int char c int structb_t structur c typedef struct structc_tag char c doubl int structc_t structur typedef struct structd_tag doubl int char c structd_t int main printf sizeof structa_t n sizeof structa_t printf sizeof structb_t n sizeof structb_t printf sizeof structc_t n sizeof structc_t printf sizeof structd_t n sizeof structd_t return 0 move write answer paper read 
+urg see explan may miss understand lacuna analog 
+also read post kartik 
+data align everi data type c c align requir infact mandat processor architectur languag 
+processor process word length data bu size 
+32 bit machin process word size 4 byte 
+histor memori byte address arrang sequenti 
+memori arrang singl bank one byte width processor need issu 4 memori read cycl fetch integ 
+econom read 4 byte integ one memori cycl 
+take advantag memori arrang group 4 bank shown figur 
+memori address still sequenti 
+bank 0 occupi address x bank 1 bank 2 bank 3 x 1 x 2 x 3 address 
+integ 4 byte alloc x address x multipl 4 processor need one memori cycl read entir integ 
+integ alloc address multipl 4 span across two row bank shown figur 
+integ requir two memori read cycl fetch data 
+variabl data align deal way data store bank 
+exampl natur align int 32 bit machin 4 byte 
+data type natur align cpu fetch minimum read cycl 
+similarli natur align short int 2 byte 
+mean short int store bank 0 bank 1 pair bank 2 bank 3 pair 
+doubl requir 8 byte occupi two row memori bank 
+misalign doubl forc two read cycl fetch doubl data 
+note doubl variabl alloc 8 byte boundari 32 bit machin requir two memori read cycl 
+64 bit machin base number bank doubl variabl alloc 8 byte boundari requir one memori read cycl 
+structur pad c c structur use data pack 
+provid data encapsul data hide featur c case except due semant similar class 
+align requir variou data type everi member structur natur align 
+member structur alloc sequenti increas order 
+let us analyz struct declar program 
+output program sake conveni assum everi structur type variabl alloc 4 byte boundari say 0x0000 e 
+base address structur multipl 4 need necessari alway see explan structc_t 
+structur structa_t first element char one byte align follow short int 
+short int 2 byte align 
+short int element immedi alloc char element start odd address boundari 
+compil insert pad byte char ensur short int address multipl 2 e 
+2 byte align 
+total size structa_t sizeof char 1 pad sizeof short 1 1 2 4 byte 
+structur b first member structb_t short int follow char 
+sinc char byte boundari pad requir short int char total occupi 3 byte 
+next member int 
+int alloc immedi start odd byte boundari 
+need 1 byte pad char member make address next int member 4 byte align 
+total structb_t requir 2 1 1 pad 4 8 byte 
+structur c everi structur also align requir appli analysi structc_t need sizeof char 7 byte pad sizeof doubl sizeof int 1 7 8 4 20 byte 
+howev sizeof structc_t 24 byte 
+along structur member structur type variabl also natur align 
+let us understand exampl 
+say declar array structc_t shown structc_t structc_array 3 assum base address structc_array 0x0000 easi calcul 
+structc_t occupi 20 0x14 byte calcul second structc_t array element index 1 0x0000 0x0014 0x0014 
+start address index 1 element array 
+doubl member structc_t alloc 0x0014 0x1 0x7 0x001c decim 28 multipl 8 conflict align requir doubl 
+mention top align requir doubl 8 byte 
+inord avoid misalign compil introduc align requir everi structur 
+largest member structur 
+case align structa_t 2 structb_t 4 structc_t 8 need nest structur size largest inner structur align immedi larger structur 
+structc_t program pad 4 byte int member make structur size multipl align 
+thu sizeof structc_t 24 byte 
+guarante correct align even array 
+cross check 
+structur reduc pad 
+may clear pad unavoid 
+way minim pad 
+programm declar structur member increas decreas order size 
+exampl structd_t given code whose size 16 byte lieu 24 byte structc_t 
+structur pack 
+time mandatori avoid pad byte among member structur 
+exampl read content elf file header bmp jpeg file header 
+need defin structur similar header layout map 
+howev care exercis access member 
+typic read byte byte option avoid misalign except 
+hit perform 
+compil provid non standard extens switch default pad like pragma command line switch 
+consult document respect compil detail 
+pointer mishap possibl potenti error deal pointer arithmet 
+exampl dereferenc gener pointer void shown caus misalign except deferenc gener pointer safe guarante pgener integ align int pgener possibl type code program 
+pointer pgener align per requir cast data type possibl get misalign except 
+infact processor last two bit address decod way access misalign address 
+processor gener misalign except programm tri access address 
+note malloc return pointer pointer return malloc void 
+convert data type per need programm 
+implement malloc return pointer align maximum size primit data type defin compil 
+usual align 8 byte boundari 32 bit machin 
+object file align section align page align specif oper system implement compil writer beyond scope articl 
+infact much inform 
+gener question 1 align appli stack 
+ye 
+stack also memori 
+system programm load stack pointer memori address properli align 
+gener processor check stack align programm respons ensur proper align stack memori 
+misalign caus run time surpris 
+exampl processor word length 32 bit stack pointer also align multipl 4 byte 
+2 char data place bank bank 0 place wrong data line memori read 
+processor handl char type 
+usual processor recogn data type base instruct e g 
+ldrb arm processor 
+depend bank store processor shift byte onto least signific data line 
+3 argument pass stack subject align 
+ye 
+compil help programm make proper align 
+exampl 16 bit valu push onto 32 bit wide stack valu automat pad zero 32 bit 
+consid follow program 
+void argument_alignment_check char c1 char c2 consid downward stack upward stack output neg printf displac n int c2 int c1 output 4 32 bit machin 
+charact occupi 4 byte due align requir 
+4 happen tri access misalign data 
+depend processor architectur 
+access misalign processor automat issu suffici memori read cycl pack data properli onto data bu 
+penalti perform 
+processor last two address line mean way access odd byte boundari 
+everi data access must align 4 byte properli 
+misalign access critic except processor 
+except ignor read data incorrect henc result 
+5 way queri align requir data type 
+ye 
+compil provid non standard extens need 
+exampl __alignof visual studio help get align requir data type 
+read msdn detail 
+6 memori read effici read 4 byte time 32 bit machin doubl type align 8 byte boundari 
+import note processor math co processor call float point unit fpu 
+float point oper code translat fpu instruct 
+main processor noth float point execut 
+done behind scene 
+per standard doubl type occupi 8 byte 
+everi float point oper perform fpu 64 bit length 
+even float type promot 64 bit prior execut 
+64 bit length fpu regist forc doubl type alloc 8 byte boundari 
+assum concret inform case fpu oper data fetch might differ mean data bu sinc goe fpu 
+henc address decod differ doubl type expect 8 byte boundari 
+mean address decod circuit float point unit last 3 pin 
+answer sizeof structa_t 4 sizeof structb_t 8 sizeof structc_t 24 sizeof structd_t 16 updat 1 may 2013 observ latest processor get size struct_c 16 byte 
+yet read relev document 
+updat got proper inform written expert hardwar 
+older processor amd athlon x2 use set tool gcc 4 7 got struct_c size 24 byte 
+size depend memori bank organ hardwar level 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,15 @@
+ordinari doubli link list requir space two address field store address previou next node 
+memori effici version doubli link list creat use one space address field everi node 
+memori effici doubli link list call xor link list memori effici list use bitwis xor oper save space one address 
+xor link list instead store actual memori address everi node store xor address previou next node 
+consid doubli link list 
+follow ordinari xor memori effieci represent doubli link list 
+ordinari represent node prev null next add b previou null next address b node b prev add next add c previou address next address c node c prev add b next add previou address b next address node prev add c next null previou address c next null xor list represent let us call address variabl xor represent npx xor next previou node npx 0 xor add b bitwis xor zero address b node b npx add xor add c bitwis xor address address c node c npx add b xor add bitwis xor address b address node npx add c xor 0 bitwis xor address c 0 travers xor link list travers xor list forward revers direct 
+travers list need rememb address previous access node order calcul next node address 
+exampl node c must address b xor add b npx c give us add 
+reason simpl npx c add b xor add 
+xor npx c add b get result add b xor add xor add b add xor 0 add 
+address next node 
+similarli travers list backward direct 
+cover xor link list follow post 
+xor link list memori effici doubli link list set 2 refer http en wikipedia org wiki xor_linked_list http www linuxjourn com articl 6828 page 0 0 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

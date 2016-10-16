@@ -1,0 +1,9 @@
+size dynam alloc memori chang use realloc 
+per c99 standard void realloc void ptr size_t size realloc dealloc old object point ptr return pointer new object size specifi size 
+content new object ident old object prior dealloc lesser new old size 
+byte new object beyond size old object indetermin valu 
+point note realloc use dynam alloc memori 
+memori dynam alloc behavior undefin 
+exampl program 1 demonstr incorrect use realloc program 2 demonstr correct use realloc 
+program 1 includ stdio h includ stdlib h int main int arr 2 int ptr arr int ptr_new arr 0 10 arr 1 20 incorrect use new_ptr undefin behaviour ptr_new int realloc ptr sizeof int 3 ptr_new 2 30 0 3 printf ptr_new getchar return 0 output undefin behavior program 2 includ stdio h includ stdlib h int main int ptr int malloc sizeof int 2 int int ptr_new ptr 10 ptr 1 20 ptr_new int realloc ptr sizeof int 3 ptr_new 2 30 0 3 printf ptr_new getchar return 0 output 10 20 30 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

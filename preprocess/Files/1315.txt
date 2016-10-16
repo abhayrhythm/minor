@@ -1,0 +1,93 @@
+
+Given a rectangular matrix which has only two possible values ‘X’ and ‘O’. The values ‘X’ always appear in form of rectangular islands and these islands are always row-wise and column-wise separated by at least one line of ‘O’s.  Note that islands can only be diagonally adjacent. Count the number of islands in the given matrix.  
+Examples:
+
+mat[M][N] =  {{'O', 'O', 'O'},
+              {'X', 'X', 'O'},
+              {'X', 'X', 'O'},
+              {'O', 'O', 'X'},
+              {'O', 'O', 'X'},
+              {'X', 'X', 'O'}
+             };
+Output: Number of islands is 3
+
+mat[M][N] =  {{'X', 'O', 'O', 'O', 'O', 'O'},
+              {'X', 'O', 'X', 'X', 'X', 'X'},
+              {'O', 'O', 'O', 'O', 'O', 'O'},
+              {'X', 'X', 'X', 'O', 'X', 'X'},
+              {'X', 'X', 'X', 'O', 'X', 'X'},
+              {'O', 'O', 'O', 'O', 'X', 'X'},
+             };
+Output: Number of islands is 4
+
+We strongly recommend to minimize your browser and try this yourself first.
+The idea is to count all top-leftmost corners of given matrix.  We can check if a ‘X’ is top left or not by checking following conditions.
+1) A ‘X’ is top of rectangle if the cell just above it is a ‘O’
+2) A ‘X’ is leftmost of rectangle if the cell just left of it is a ‘O’
+Note that we must check for both conditions as there may be more than one top cells and more than one leftmost cells in a rectangular island.  Below is C++ implementation of above idea.
+
+// A C++ program to count the number of rectangular
+// islands where every island is separated by a line
+#include<iostream>
+using namespace std;
+
+// Size of given matrix is M X N
+#define M 6
+#define N 3
+
+// This function takes a matrix of 'X' and 'O'
+// and returns the number of rectangular islands
+// of 'X' where no two islands are row-wise or
+// column-wise adjacent, the islands may be diagonaly
+// adjacent
+int countIslands(int mat[][N])
+{
+    int count = 0; // Initialize result
+
+    // Traverse the input matrix
+    for (int i=0; i<M; i++)
+    {
+        for (int j=0; j<N; j++)
+        {
+            // If current cell is 'X', then check
+            // whether this is top-leftmost of a
+            // rectangle. If yes, then increment count
+            if (mat[i][j] == 'X')
+            {
+                if ((i == 0 || mat[i-1][j] == 'O') &&
+                    (j == 0 || mat[i][j-1] == 'O'))
+                    count++;
+            }
+        }
+    }
+
+    return count;
+}
+
+// Driver program to test above function
+int main()
+{
+    int mat[M][N] =  {{'O', 'O', 'O'},
+                      {'X', 'X', 'O'},
+                      {'X', 'X', 'O'},
+                      {'O', 'O', 'X'},
+                      {'O', 'O', 'X'},
+                      {'X', 'X', 'O'}
+                    };
+    cout << "Number of rectangular islands is "
+         << countIslands(mat);
+    return 0;
+}
+Output:
+Number of rectangular islands is 3
+Time complexity of this solution is O(MN).
+This article is contributed by Udit Gupta. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

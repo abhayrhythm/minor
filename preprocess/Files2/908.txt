@@ -1,0 +1,12 @@
+defin preprocessor direct 
+thing defin defin replac preprocessor compil begin 
+const variabl actual variabl like normal variabl 
+big advantag const defin type check 
+also poitner const varaibl pass around typecast thing done normal variabl 
+one disadvantag one could think extra space variabl immateri due optim done compil 
+gener const better option choic 
+situat defin cannot replac const 
+exampl defin take paramet see exampl 
+defin also use replac text program anoth text 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

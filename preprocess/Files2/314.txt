@@ -1,0 +1,29 @@
+given array string find given string chain form circl 
+string x put anoth string circl last charact x first charact exampl input arr geek king output ye given string chain 
+note last charact first string first charact second string vice versa also true 
+input arr geek rig kaf output ye given string chain 
+string chain rig geek kaf input arr aab bac aaa cda output ye given string chain 
+string chain aaa aab bac cda input arr aaa bbb baa aab output ye given string chain 
+string chain aaa aab bbb baa input arr aaa output ye input arr aaa bbb output idea creat direct graph charact find eulerian circuit graph 
+eulerian circuit chain form otherwis 
+note direct graph eulerian circuit degre degre everi vertex non zero degre vertic form singl strongli connect compon 
+follow detail step algorithm 
+1 creat direct graph g number vertic equal size alphabet 
+creat graph 26 vertic program 
+2 follow everi string given array string 
+add edg first charact last charact given graph 
+3 creat graph eulerian circuit return true els return fals 
+follow c python implement algorithm 
+c c c program check given direct graph eulerian includ iostream includ list defin char 26 use namespac std class repres undirect graph class graph int v 
+vertic list int adj dynam array adjac list int public constructor destructor graph int v graph delet adj delet function add edg graph void addedg int v int w adj v push_back w w method check graph eulerian bool iseuleriancycl method check non zero degre vertic connect bool issc function df start v use isconnect void dfsutil int v bool visit graph gettranspos graph graph int v v v adj new list int v new int v int 0 v 0 function return true direct graph eulerian cycl otherwis return fals bool graph iseuleriancycl check non zero degre vertic connect issc fals return fals check degre degre everi vertex int 0 v adj size return fals return true recurs function df start v void graph dfsutil int v bool visit mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit function return revers transpos graph function need issc graph graph gettranspos graph g v int v 0 v v v recur vertic adjac vertex list int iter adj v begin adj v end g adj push_back v g v return g function return true non zero degre vertic graph strongli connect 
+pleas refer http www geeksforgeek org connect direct graph bool graph issc mark vertic visit first df bool visit v int 0 v visit fals find first vertex non zero degre int n n 0 n v n adj n size 0 break df travers start first non zero degre vertex 
+dfsutil n visit df travers visit vertic return fals 
+int 0 v adj size 0 visit fals return fals creat revers graph graph gr gettranspos mark vertic visit second df int 0 v visit fals df revers graph start first vertex 
+stare vertex must start point first df gr dfsutil n visit vertic visit second df return fals int 0 v adj size 0 visit fals return fals return true function take string return true given array string chain form cycl bool canbechain string arr int n creat graph aplha edg graph g char creat edg first charact last charact everi string int 0 n string arr g addedg 0 length 1 given array string chain eulerian cycl creat graph return g iseuleriancycl driver program test function int main string arr1 geek rig kaf int n1 sizeof arr1 sizeof arr1 0 canbechain arr1 n1 
+cout chain n cout chain n string arr2 aab abb int n2 sizeof arr2 sizeof arr2 0 canbechain arr2 n2 
+cout chain n cout chain n return 0 python python program check given direct graph eulerian char 26 class repres undirect graph class graph object def __init__ self v self v v 
+vertic self adj x xrang v dynam array self inp 0 v function add edg graph def addedg self v w self adj v append w self inp w 1 method check graph eulerian def issc self mark vertic visit first df visit fals self v find first vertex non zero degre n 0 n xrang self v len self adj n 0 break df travers start first non zero degre vertex 
+self dfsutil n visit df travers visit vertic return fals 
+xrang self v len self adj 0 visit fals return fals creat revers graph gr self gettranspos mark vertic visit second df xrang self v visit fals df revers graph start first vertex 
+stare vertex must start point first df gr dfsutil n visit vertic visit second df return fals xrang self v len self adj 0 visit fals return fals return true function return true direct graph eulerian cycl otherwis return fals def iseuleriancycl self check non zero degre vertic connect self issc fals return fals check degre degre everi vertex xrang self v len self adj self inp return fals return true recurs function df start v def dfsutil self v visit mark current node visit print visit v true recur vertic adjac vertex xrang len self adj v visit self adj v self dfsutil self adj v visit function return revers transpos graph function need issc def gettranspos self g graph self v v xrang self v recur vertic adjac vertex xrang len self adj v g adj self adj v append v g inp v 1 return g function take string return true given array string chain form cycl def canbechain arr n creat graph aplha edg g graph char creat edg first charact last charact everi string xrang n arr g addedg ord 0 ord ord len 1 ord given array string chain eulerian cycl creat graph return g iseuleriancycl driver program arr1 geek rig kaf n1 len arr1 canbechain arr1 n1 print chain els print cant chain arr2 aab abb n2 len arr2 canbechain arr2 n2 print chain els print chain code contribut bhavya jain output chain chain articl contribut piyush gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

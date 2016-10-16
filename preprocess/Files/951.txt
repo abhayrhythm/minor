@@ -1,0 +1,31 @@
+
+Most of the time, pointer and array accesses can be treated as acting the same, the major exceptions being:
+1) the sizeof operator
+o sizeof(array) returns the amount of memory used by all elements in array
+o sizeof(pointer) only returns the amount of memory used by the pointer variable itself
+2) the & operator
+o &array is an alias for &array[0] and returns the address of the first element in array
+o &pointer returns the address of pointer
+3) a string literal initialization of a character array
+o char array[] = “abc” sets the first four elements in array to ‘a’, ‘b’, ‘c’, and ‘\0′
+o char *pointer = “abc” sets pointer to the address of the “abc” string (which may be stored in read-only memory and thus unchangeable)
+4) Pointer variable can be assigned a value whereas array variable cannot be.
+
+int a[10];
+int *p; 
+p=a; /*legal*/
+a=p; /*illegal*/ 
+5) Arithmetic on pointer variable is allowed.
+
+p++; /*Legal*/
+a++; /*illegal*/ 
+References: http://icecube.wisc.edu/~dglo/c_class/array_ptr.html
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

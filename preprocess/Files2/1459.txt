@@ -1,0 +1,12 @@
+given number n write function gener print binari number decim valu 1 n exampl input n 2 output 1 10 input n 5 output 1 10 11 100 101 simpl method run loop 1 n call decim binari insid loop 
+follow interest method use queue data structur print binari number 
+thank vivek suggest approach 
+1 creat empti queue string 2 enqueu first binari number 1 queue 
+3 run loop gener print n binari number 
+dequeu print front queue 
+b append 0 end front item enqueu 
+c append 1 end front item enqueu 
+follow c implement algorithm 
+c program gener binari number 1 n includ iostream includ queue use namespac std function use queue data structur print binari number void generateprintbinari int n creat empti queue string queue string q enqueu first binari number q push 1 loop like bf tree 1 root 0 left child 1 right child n print front queue string s1 q front q pop cout s1 n string s2 s1 store s1 chang append 0 s1 enqueu q push s1 append 0 append 1 s2 enqueu 
+note s2 contain previou front q push s2 append 1 driver program test function int main int n 10 generateprintbinari n return 0 output 1 10 11 100 101 110 111 1000 1001 1010 articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

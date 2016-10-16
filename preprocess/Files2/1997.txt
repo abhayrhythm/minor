@@ -1,0 +1,17 @@
+predict output follow c program 
+includ iostream use namespac std templat int n struct funstruct enum val 2 funstruct n 1 val templat struct funstruct 0 enum val 1 int main cout funstruct 8 val endl return 0 output 256 program calcul 2 rais power 8 2 8 
+fact structur funstruct use calcul 2 n known n constant n 
+special thing program calcul done compil time 
+compil calcul 2 8 
+understand compil let us consid follow fact templat enum 1 pass nontyp paramet paramet data type class function templat 
+2 like const express valu enumar constant evalu compil time 
+3 compil see new argument templat compil creat new instanc templat 
+let us take closer look origin program 
+compil see funstruct 8 val tri creat instanc funstruct paramet 8 turn funstruct 7 must also creat enumar constant val must evalu compil time 
+funstruct 7 compil need funstruct 6 
+final compil use funstruct 1 val compil time recurs termin 
+use templat write program comput compil time program call templat metaprogram 
+templat metaprogram fact ture complet mean comput express comput program comput form templat metaprogram 
+templat metaprogram gener use practic program interest conecpt though 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

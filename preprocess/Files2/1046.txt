@@ -1,0 +1,8 @@
+predict output follow c program 
+question 1 includ stdio h int main void int int power_of_ten 5 00001 00010 00100 01000 10000 0 5 printf power_of_ten printf n return 0 exampl creat array 5 element whose element power ten e 
+1 10 100 1000 10 000 print element use simpl loop 
+expect output program 1 10 100 1000 10000 program show output instead show 1 8 64 512 10000 let us discuss program detail 
+insid array declar element start 0 octal represent decim number see gfact detail 
+number octal represent 
+010 octal represent decim 8 0100 octal represent decim 64 
+last element 10000 start 0 decim format print 

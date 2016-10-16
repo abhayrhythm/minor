@@ -1,0 +1,6 @@
+predict output c program 
+question 1 includ stdio h char fun return awak int main printf fun printf see getchar return 0 output string start see explan thank venki suggest solut function fun return pointer char 
+apart print string see printf function return number charact print e 
+9 
+express fun printf see boil awak 9 noth base address string liter awak displac 9 charact 
+henc express awak 9 return junk data print via specifi till find 0 

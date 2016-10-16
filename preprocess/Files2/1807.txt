@@ -1,0 +1,16 @@
+sinc dawn comput hollywood greatli demonstr hacker programm someon sit comput type random key comput ultim compil fall matrix like simul 
+tri implement similar fall matrix simul consol use c 
+idea print random charact defin width two success charact may may certain amount gap defin randomli 
+certain amount delay print success line implement order fall effect 
+c program implement fall matrix 
+includ iostream includ string includ thread includ cstdlib includ ctime includ chrono width matrix line const int width 70 defin number flip boolean array switch const int flipsperlin 5 delay two success line print const int sleeptim 100 use namespac std int main int 0 x 0 srand initi time function get distinct rand valu runtim srand time null use decid whether print charact particular iter bool switch width 0 set charact print const string ch 1234567890qwertyuiopasdfghjkl zxcvbnm 
+_ const int l ch size green font black consol duh 
+system color 0a indefinit loop true loop width increment 2 give better effect 0 width 2 print charact switch 1 els print blank charact switch cout ch rand l els cout flip defin amount boolean valu line 0 flipsperlin x rand width switch x switch x new line cout endl use sleep_for function delay chrono millisecond function convert millisecond this_thread sleep_for chrono millisecond sleeptim return 0 print amaz fall matrix simul consol 
+note program would run use run ide button system disabl 
+get compil error compil program 
+compil use command gcc 
+g std c 11 abc cpp fall fall articl contribut raghav jajodia 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

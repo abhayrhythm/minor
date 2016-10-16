@@ -1,0 +1,17 @@
+given link list check link list loop 
+diagram show link list loop 
+follow differ way use hash travers list one one keep put node address hash tabl 
+point null reach return fals next current node point previous store node hash return true 
+mark visit node solut requir modif basic link list data structur 
+visit flag node 
+travers link list keep mark visit node 
+see visit node loop 
+solut work n requir addit inform node 
+variat solut requir modif basic data structur implement use hash 
+store address visit node hash see address alreadi exist hash loop 
+floyd cycl find algorithm fastest method 
+travers link list use two pointer 
+move one pointer one pointer two 
+pointer meet node loop 
+pointer meet link list loop 
+implement floyd cycl find algorithm c c c program detect loop link list includ stdio h includ stdlib h link list node struct node int data struct node next void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod int detectloop struct node list struct node slow_p list fast_p list slow_p fast_p fast_p next slow_p slow_p next fast_p fast_p next next slow_p fast_p printf found loop return 1 return 0 drier program test function int main start empti list struct node head null push head 20 push head 4 push head 15 push head 10 creat loop test head next next next next head detectloop head return 0 

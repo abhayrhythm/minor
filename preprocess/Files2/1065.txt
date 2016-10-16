@@ -1,0 +1,33 @@
+post second set commonli ask c program interview question set 1 main characterist c languag 
+c procedur languag 
+main featur c languag includ low level access memori simpl set keyword clean style 
+featur make suitabl system program like oper system compil develop 
+differ 
+1 express return old valu increment express increment valu return new valu 
+2 preced postfix higher prefix 
+3 associ postfix left right associ prefix right left 
+4 c use l valu cannot 
+c cannot use l valu 
+see differ p p p detail 
+l valu 
+l valu locat valu refer express use left side assign oper 
+exampl express 3 l valu 3 r valu 
+l valu two type nonmodifi l valu repres l valu modifi 
+const variabl nonmodifi l valu 
+modifi l valu repres l valu modifi 
+differ array pointer 
+see array vs pointer write sizeof oper 
+defin my_sizeof type char type 1 char type see implement sizeof detail 
+print number 1 100 without use loop 
+use recurs purpos 
+print number 1 n void printno unsign int n n 0 printno n 1 printf n volatil keyword 
+volatil keyword intend prevent compil appli optim object chang way cannot determin compil 
+object declar volatil omit optim valu chang code outsid scope current code time 
+see understand volatil qualifi c detail 
+variabl const volatil 
+ye const mean variabl cannot assign new valu 
+valu chang code pointer 
+exampl follow program work fine 
+int main void const volatil int local 10 int ptr int local printf initi valu local n local ptr 100 printf modifi valu local n local return 0 practic quizz c c articl soon publish set commonli ask c program question 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

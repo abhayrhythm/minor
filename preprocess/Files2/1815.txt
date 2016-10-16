@@ -1,0 +1,14 @@
+namespac c set 1 introduct namespac c set 2 extend namespac unnam namespac differ way access namespac c two way access namespac variabl function 
+normal way c program demonstr access variabl normal way e use includ iostream use namespac std namespac geek int rel 300 int main variabl rel access use scope resolut oper cout geek rel n print 300 return 0 output 300 use direct c program demonstr access variabl normal way e use use direct includ iostream use namespac std namespac geek int rel 300 use use direct use namespac geek int main variabl rel access without use scope resolut variabl cout rel n print 300 return 0 output 300 use namespac header file creat namespac one file access content use anoth program 
+done follow manner 
+need creat two file 
+one contain namespac data member member function want use later 
+program directli call first program use data member member function 
+file 1 file1 cpp includ iostream use namespac std namespac foo int valu return 5 file 2 file2 cpp execut onlin includ iostream includ program1 cpp includ file1 use namespac std int main cout foo valu return 0 see namespac creat file1 cpp valu namespac get call file2 cpp 
+nest namespac c namespac also nest e one namespac insid anoth 
+resolut namespac variabl hierarch 
+c program demonstr nest namespac includ iostream use namespac std nest namespac namespac int val 5 namespac int val2 val driver code int main cout val2 print 5 return 0 output 5 namespac alias c use alia name namespac name eas use 
+exist namespac alias new name follow syntax namespac new_nam current_nam includ iostream namespac name1 namespac name2 namespac name3 int var 42 alias namespac alia name1 name2 name3 int main std cout alia var n output 42 articl contribut abhinav tiwari like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

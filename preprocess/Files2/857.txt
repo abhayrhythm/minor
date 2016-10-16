@@ -1,0 +1,23 @@
+time declar simpl read hard read declar involv pointer function 
+exampl consid follow declar signal h 
+void bsd_signal int void int int let us see step read complic declar 
+1 convert c declar postfix format read left right 
+2 convert experss postfix start innermost parenthesi innermost parenthesi present start declar name go right first 
+first end parenthesi encount go left 
+whole parenthesi pars come parenthesi 
+3 continu complet declar pars 
+let us start simpl exampl 
+exampl k r book 
+1 int fp let us convert express postfix format 
+exampl innermost parenthesi print declar name e 
+fp 
+next step go right side express noth right side fp pars go left side 
+left side found print come parenthesi 
+get postfix express 
+fp int read postfix express left right 
+e g 
+fp pointer function return int let us see exampl 
+2 int daytab 13 postfix daytab 13 int mean daytab pointer array 13 integ 
+3 void f 10 int int postfix f 10 int int void mean f array 10 pointer function take 2 argument type int return void 4 char x postfix x char mean x function return pointer array pointer function returng char 5 char x 3 5 postfix x 3 5 char mean x array 3 pointer function return pointer array 5 char 6 int arr 5 postfix arr 5 int mean arr array 5 pointer function return pointer function return pointer integ 7 void bsd_signal int sig void func int int postfix bsd_signal int sig void func int int void mean bsd_signal function take integ pointer function take integ argument return void return pointer function take integ argument return void articl compil narendra kangralkar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,10 @@
+c pass paramet function either pointer refer 
+case get result 
+follow question inevit one prefer 
+reason use one 
+pass pointer c program swap two number use pass pointer 
+includ iostream use namespac std void swap int x int int z x x z int main int 45 b 35 cout swap n cout b b n swap b cout swap pass pointer n cout b b n output swap 45 b 35 swap pass pointer 35 b 45 pass refer c program swap two number use pass refer 
+includ iostream use namespac std void swap int x int int z x x z int main int 45 b 35 cout swap n cout b b n swap b cout swap pass refer n cout b b n output swap 45 b 35 swap pass refer 35 b 45 differ refer variabl pointer variabl refer gener implement use pointer 
+refer object differ name refer must refer object 
+sinc refer null safer use 
+pointer assign refer cannot must assign initi 

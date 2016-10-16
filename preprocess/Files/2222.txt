@@ -1,0 +1,70 @@
+
+Consider a sequence that starts with a 1 on a machine. At each successive step, the machine simultaneously transforms each digit 0 into the sequence 10 and each digit 1 into the sequence 01.
+After the first time step, the sequence 01 is obtained; after the second, the sequence 1001, after the third, the sequence 01101001 and so on.
+How many pairs of consecutive zeros will appear in the sequence after n steps?
+Examples:
+
+Input : Number of steps = 3
+Output: 1
+// After 3rd step sequence will be  01101001
+
+Input : Number of steps = 4
+Output: 3
+// After 4rd step sequence will be 1001011001101001
+
+Input : Number of steps = 5
+Output: 5
+// After 3rd step sequence will be  01101001100101101001011001101001
+
+
+
+This is a simple reasoning problem. If we see the sequence very carefully , then we will be able to find a pattern for given sequence. If n=1 sequence will be {01} so number of pairs of consecutive zeros are 0, If n = 2 sequence will be {1001} so number of pairs of consecutive zeros are 1, If n=3 sequence will be {01101001} so number of pairs of consecutive zeros are 1,
+If n=4 sequence will be {1001011001101001} so number of pairs of consecutive zeros are 3.
+So length of the sequence will always be a power of 2. We can see after length 12 sequence is repeating and in lengths of 12. And in a segment of length 12, there are total 2 pairs of consecutive zeros. Hence we can generalize the given pattern q = (2^n/12) and total pairs of consecutive zeros will be 2*q+1.
+
+// C++ program to find number of consecutive
+// 0s in a sequence
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function to find number of consecutive Zero Pairs
+// Here n is number of steps
+int consecutiveZeroPairs(int n)
+{
+    // Base cases
+    if (n==1)
+        return 0;
+    if (n==2 || n==3)
+        return 1;
+
+    // Calculating how many times divisible by 12, i.e.,
+    // count total number repeating segments of length 12
+    int q = (pow(2,n) / 12);
+
+    // number of consecutive Zero Pairs
+    return 2*q + 1;
+}
+
+// Driver program to run the test case
+int main()
+{
+    int n = 5;
+    cout << consecutiveZeroPairs(n) << endl;
+    return 0;
+}
+
+Output:
+
+ 5
+
+This article is contributed by Shashank Mishra ( Gullu ). this article is reviewed by team GeeksForGeeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,16 @@
+given n x n matrix mat n n integ find maximum valu mat c mat b choic index c b exampl input mat n n 1 2 1 4 20 8 3 4 2 1 3 8 6 1 3 4 1 1 7 6 0 4 10 5 1 output 18 maximum valu 18 mat 4 2 mat 1 0 18 maximum differ 
+program one travers matrix 
+e 
+expect time complex n2 simpl solut would appli brute forc 
+valu mat b matrix find mat c maximum valu c b keep updat maximum valu found far 
+final return maximum valu 
+implement 
+naiv method find maximum valu mat1 b c b includ bit stdc h use namespac std defin n 5 function return maximum valu c b choic index c b int findmaxvalu int mat n store maximum valu int maxvalu int_min consid possibl pair mat b mat1 int 0 n 1 int b 0 b n 1 b int c 1 c n c int b 1 n maxvalu mat1 mat b maxvalu mat1 mat b return maxvalu driver program test function int main int mat n n 1 2 1 4 20 8 3 4 2 1 3 8 6 1 3 4 1 1 7 6 0 4 10 5 1 cout maximum valu findmaxvalu mat return 0 output maximum valu 18 program run n 4 time nowher close expect time complex n 2 effici solut use extra space 
+pre process matrix index j store max element matrix j n 1 n 1 process keep updat maximum valu found far 
+final return maximum valu 
+effici method find maximum valu mat1 b c b includ bit stdc h use namespac std defin n 5 function return maximum valu c b choic index c b int findmaxvalu int mat n store maximum valu int maxvalu int_min maxarr j store max element matrix j n 1 n 1 int maxarr n n last element maxarr input matrix maxarr n 1 n 1 mat n 1 n 1 preprocess last row int maxv mat n 1 n 1 initi max int j n 2 j 0 j mat n 1 j maxv maxv mat n 1 j maxarr n 1 j maxv preprocess last column maxv mat n 1 n 1 initi max int n 2 0 mat n 1 maxv maxv mat n 1 maxarr n 1 maxv preprocess rest matrix bottom int n 2 0 int j n 2 j 0 j updat maxvalu maxarr 1 j 1 mat j maxvalu maxvalu maxarr 1 j 1 mat j set maxarr j maxarr j max mat j max maxarr j 1 maxarr 1 j return maxvalu driver program test function int main int mat n n 1 2 1 4 20 8 3 4 2 1 3 8 6 1 3 4 1 1 7 6 0 4 10 5 1 cout maximum valu findmaxvalu mat return 0 output maximum valu 18 allow modifi matrix avoid use extra space use input matrix instead 
+exercis print index b c well 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

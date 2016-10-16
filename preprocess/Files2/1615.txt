@@ -1,0 +1,11 @@
+given binari tree print left view 
+left view binari tree set node visibl tree visit left side 
+left view follow tree 12 10 25 
+12 10 30 25 40 left view contain node first node level 
+simpl solut level order travers print first node everi level 
+problem also solv use simpl recurs travers 
+keep track level node pass paramet recurs call 
+idea keep track maximum level also 
+whenev see node whose level maximum level far print node first node level note travers left subtre right subtre 
+follow implement c c program print left view binari tree includ stdio h includ stdlib h struct node int data struct node left right util function creat new binari tree node struct node newnod int item struct node temp struct node malloc sizeof struct node temp data item temp left temp right null return temp recurs function print left view binari tree 
+void leftviewutil struct node root int level int max_level base case root null return first node level max_level level printf root data max_level level recur left right subtre leftviewutil root left level 1 max_level leftviewutil root right level 1 max_level wrapper leftviewutil void leftview struct node root int max_level 0 leftviewutil root 1 max_level driver program test function int main struct node root newnod 12 root left newnod 10 root right newnod 30 root right left newnod 25 root right right newnod 40 leftview root return 0 

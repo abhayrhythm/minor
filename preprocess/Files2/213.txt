@@ -1,0 +1,7 @@
+given radiu circl draw circl without use float point arithmet 
+follow program use simpl concept 
+let radiu circl r consid squar size 2r 1 2r 1 around circl drawn 
+walk everi point insid squar 
+everi everi point x x lie insid circl x 2 2 r 2 print otherwis print space 
+includ stdio h void drawcircl int r consid rectangl size n n int n 2 r 1 int x coordin insid rectangl draw squar size n n int 0 n int j 0 j n j start left corner point x r j r point insid circl print x x r r 1 printf 
+els outsid circl print space printf printf printf n driver program test function int main drawcircl 8 return 0 output pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

@@ -1,0 +1,47 @@
+given array non neg integ 
+find largest multipl 3 form array element 
+exampl input array 8 1 9 output 9 8 1 input array 8 1 7 6 0 output 8 7 6 0 
+method 1 brute forc simpl straight forward approach gener combin element keep track largest number form divis 3 time complex n x 2 n 
+2 n combin array element 
+compar combin largest number far may take n time 
+auxiliari space n avoid integ overflow largest number assum store form array 
+method 2 tricki problem solv effici help n extra space 
+method base follow fact number multipl 3 
+1 number multipl 3 sum digit number multipl 3 exampl let us consid 8760 multipl 3 sum digit 8 7 6 0 21 multipl 3 
+2 number multipl 3 permut also multipl 3 exampl sinc 6078 multipl 3 number 8760 7608 7068 also multipl 3 
+3 get remaind divid number sum digit number 
+exampl divid number 151 sum digit 7 3 get remaind 1 idea behind fact 
+valu 10 3 100 3 1 true higher power 10 3 divid 9 99 999 etc 
+let us consid 3 digit number n prove fact 
+let first second third digit n b c respect 
+n written n 100 10 b c sinc 10 x 3 1 x express give remaind follow express 1 1 b c remaind obtain sum digit n 
+follow solut base observ 
+1 sort array non decreas order 
+2 take three queue 
+one store element divid 3 give remaind 0 second queue store digit divid 3 give remaind 1 third queue store digit divid 3 give remaind 2 call queue0 queue1 queue2 3 find sum digit 
+4 three case aris 4 1 sum digit divis 3 dequeu digit three queue 
+sort non increas order 
+output array 
+4 2 sum digit produc remaind 1 divid 3 remov one item queue1 
+queue1 empti remov two item queue2 
+queue2 contain less two item number possibl 
+4 3 sum digit produc remaind 2 divid 3 remov one item queue2 
+queue2 empti remov two item queue1 
+queue1 contain less two item number possibl 
+5 final empti queue auxiliari array 
+sort auxiliari array non increas order 
+output auxiliari array 
+base c implement code work input array number 0 9 easili extend posit integ array 
+modifi part sort array decreas order end code 
+program find largest multipl 3 array element includ stdio h includ stdlib h queue node typedef struct queue int front int rear int capac int array queue util function creat queue given capac queue createqueu int capac queue queue queue malloc sizeof queue queue capac capac queue front queue rear 1 queue array int malloc queue capac sizeof int return queue util function check queue empti int isempti queue queue return queue front 1 function add item queue void enqueu queue queue int item queue array queue rear item isempti queue queue front function remov item queue int dequeu queue queue int item queue array queue front queue front queue rear queue front queue rear 1 els queue front return item util function print array content void printarr int arr int size int 0 size printf arr follow two function need librari function qsort 
+refer follow link help qsort http www cplusplu com refer clibrari cstdlib qsort int compareasc const void const void b return int int b int comparedesc const void const void b return int int b function put element 3 queue auxiliari array void populateaux int aux queue queue0 queue queue1 queue queue2 int top put item first queue aux isempti queue0 aux top dequeu queue0 put item second queue aux isempti queue1 aux top dequeu queue1 put item third queue aux isempti queue2 aux top dequeu queue2 main function find largest possibl multipl 3 form arr element int findmaxmultupleof3 int arr int size step 1 sort array non decreas order qsort arr size sizeof int compareasc creat 3 queue store number remaind 0 1 2 respect queue queue0 createqueu size queue queue1 createqueu size queue queue2 createqueu size step 2 3 get sum number place correspond queue int sum 0 sum 0 size sum arr arr 3 0 enqueu queue0 arr els arr 3 1 enqueu queue1 arr els enqueu queue2 arr step 4 2 sum produc remaind 1 sum 3 1 either remov one item queue1 isempti queue1 dequeu queue1 remov two item queue2 els isempti queue2 dequeu queue2 els return 0 isempti queue2 dequeu queue2 els return 0 step 4 3 sum produc remaind 2 els sum 3 2 either remov one item queue2 isempti queue2 dequeu queue2 remov two item queue1 els isempti queue1 dequeu queue1 els return 0 isempti queue1 dequeu queue1 els return 0 int aux size top 0 empti queue auxiliari array 
+populateaux aux queue0 queue1 queue2 top sort array non increas order qsort aux top sizeof int comparedesc print result printarr aux top return top driver program test function int main int arr 8 1 7 6 0 int size sizeof arr sizeof arr 0 findmaxmultupleof3 arr size 0 printf possibl return 0 method optim follow way 
+1 use heap sort merg sort make time complex nlogn 
+2 avoid extra space queue 
+know two item remov input array 
+keep track two item two variabl 
+3 end instead sort array descend order print ascend sort array revers order 
+print revers order skip two element remov 
+time complex nlogn assum nlogn algorithm use sort 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

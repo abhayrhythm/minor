@@ -1,0 +1,7 @@
+simpl interest program puzzl 
+given three integ low high x high low 
+check x lie rang low high use singl comparison 
+exampl rang 10 100 number 30 output true number 5 output fals rang 
+simpl solut compar x low high includ iostream use namespac std return true x rang low high els fals bool inrang unsign low unsign high unsign x return low x x high int main inrang 10 100 30 
+cout ye n cout n inrang 10 100 5 
+cout ye n cout n output ye solut two comparison task use one comparison 

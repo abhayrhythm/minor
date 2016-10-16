@@ -1,0 +1,22 @@
+given two array arr1 0 1 arr2 0 n 1 
+find whether arr2 subset arr1 
+array sort order 
+may assum element array distinct 
+exampl input arr1 11 1 13 21 3 7 arr2 11 3 7 1 output arr2 subset arr1 input arr1 1 2 3 4 5 6 arr2 1 2 4 output arr2 subset arr1 input arr1 10 5 2 23 19 arr2 19 5 3 output arr2 subset arr1 method 1 simpl use two loop outer loop pick element arr2 one one 
+inner loop linearli search element pick outer loop 
+element found return 1 els return 0 
+includ stdio h return 1 arr2 subset arr1 bool issubset int arr1 int arr2 int int n int 0 int j 0 0 n j 0 j j arr2 arr1 j break inner loop broken arr2 present arr1 j return 0 reach element arr2 present arr1 return 1 int main int arr1 11 1 13 21 3 7 int arr2 11 3 7 1 int sizeof arr1 sizeof arr1 0 int n sizeof arr2 sizeof arr2 0 issubset arr1 arr2 n printf arr2 subset arr1 els printf arr2 subset arr1 getchar return 0 time complex n method 2 use sort binari search 1 sort arr1 mlogm 2 element arr2 binari search sort arr1 
+element found return 0 
+3 element present return 1 
+includ stdio h fucntion prototyp void quicksort int arr int si int ei int binarysearch int arr int low int high int x return 1 arr2 subset arr1 bool issubset int arr1 int arr2 int int n int 0 quicksort arr1 0 1 0 n binarysearch arr1 0 1 arr2 1 return 0 reach element arr2 present arr1 return 1 follow function search sort purpos standard binari search function int binarysearch int arr int low int high int x high low int mid low high 2 low high low 2 check arr mid first occurr x arr mid first occurr x one follow true mid 0 arr mid x ii arr mid 1 x arr mid x mid 0 x arr mid 1 arr mid x return mid els x arr mid return binarysearch arr mid 1 high x els return binarysearch arr low mid 1 x return 1 void exchang int int b int temp temp b b temp int partit int int si int ei int x ei int si 1 int j j si j ei 1 j j x exchang j exchang 1 ei return 1 implement quick sort array sort si start index ei end index void quicksort int int si int ei int pi partit index si ei pi partit si ei quicksort si pi 1 quicksort pi 1 ei driver program test function int main int arr1 11 1 13 21 3 7 int arr2 11 3 7 1 int sizeof arr1 sizeof arr1 0 int n sizeof arr2 sizeof arr2 0 issubset arr1 arr2 n printf arr2 subset arr1 els printf arr2 subset arr1 getchar return 0 time complex mlogm nlogm 
+pleas note complex mlogm algorithm use sort case code 
+code quick sort su worst case time complex quick sort 2 method 3 use sort merg 1 sort array arr1 arr2 mlogm nlogn 2 use merg type process see element sort arr2 present sort arr1 
+thank parthsarthi suggest method 
+return 1 arr2 subset arr1 bool issubset int arr1 int arr2 int int n int 0 j 0 n return 0 quicksort arr1 0 1 quicksort arr2 0 n 1 n j arr1 j arr2 j els arr1 j arr2 j els arr1 j arr2 return 0 n return 0 els return 1 time complex mlogm nlogn better method 2 pleas note complex nlogn algorithm use sort array case code 
+code quick sort su worst case time complex quick sort n 2 method 4 use hash 1 creat hash tabl element arr1 
+2 travers arr2 search element arr2 hash tabl 
+element found return 0 
+3 element found return 1 note method 1 method 2 method 4 handl case duplic arr2 
+exampl 1 4 4 2 subset 1 4 2 method print subset 
+sourc http geeksforgeek org forum topic array subset anoth pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

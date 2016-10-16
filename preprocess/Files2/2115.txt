@@ -1,0 +1,15 @@
+first function overload 
+function overload featur program languag allow one mani function name differ signatur 
+featur present object orient languag c java 
+c object orient languag support featur 
+howev one achiev similar function c indirectli 
+one approach follow 
+void type pointer argument function 
+anoth argument tell actual data type first argument pass 
+int foo void arg1 int arg2 suppos arg2 interpret follow 
+0 struct1 type variabl 1 struct2 type variabl etc 
+struct1 struct2 user defin struct type 
+call function foo differ place foo arg1 0 arg1 pointer struct type struct1 variabl foo arg1 1 arg1 pointer struct type struct2 variabl sinc second argument foo keep track data type first type insid function foo one get actual data type first argument typecast accordingli 
+e 
+insid foo function arg2 0 struct1ptrvar struct1 arg1 els arg2 1 struct2ptrvar struct2 arg1 els error handl sever way implement function overload c use pointer power featur c fact said without use pointer one use c effici effect real world program 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

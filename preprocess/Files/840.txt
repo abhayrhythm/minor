@@ -1,0 +1,41 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks.
+Vaibhav Gosain is another geek who might be known to so many geeks already because of his tremendous achievements like Google Code Jam winner and codeforces master.
+
+How did it all start? What made you land into the world of competitive programming?
+I was first introduced to online judges by college seniors in the first semester. After solving a few problems on SPOJ, I was hooked . The first contest that I took part in was a codeforces round in November 2014. I was only able to solve 1 problem, that too towards the end of the contest 😛 . The joy of solving problems and my interest in mathematics made me continue further.
+How does it feel to be amongst the top Indians at Codeforces?
+Although rating is just a number and is not a direct indicator of ability, it feels good to have hard work being reflected in the form of results 😀
+Which do you think are most important subjects in engineering curriculum that helped you?
+Courses in the engineering curriculum are not specifically designed to help students who want to excel at competitive programming. Those which are related to algorithms only cover the basics and do not delve much into details and applications of algorithms which might help in programming contests. Instead of courses of curriculum, practice and self-study matter more.
+How important a programming club like PAG(Programming and Algorithms Group) is important and how does it help other students?
+Programming and Algorithms Group, IITR is aimed at spreading a culture for Algorithms and related stuff among people both in and outside IIT Roorkee. Every year, we introduce new entrants of the college to competitive programming and motivate them to improve at an early stage. We organize lectures on algorithm concepts, as well as competitions: both Intra college as well as international, including Insomnia and Codematics, our annual competitions.
+Last year we started a series of facebook posts called “Questions of the Week”, each post in which contained tutorials, and practice problems along with editorials for a specific topic, ranging from basic to more advanced topics. We are planning on starting a series of blog posts in the near future.
+What kind of the skill set you think is needed to excel in the art of programming and perform well in programming contests?
+A keen interest for solving problems and a will to regularly learn new concepts and techniques is all it takes to excel at competitive programming. Though, being good at high school level mathematics, especially combinatorics gives you an initial advantage.
+Is there any difference while preparing for contest events by codeforces, topcoder, codechef etc?
+There is not much difference in the skill-set required for contests on codeforces, topcoder or codechef . Although problems on topcoder require more intuitive mathematical reductions, hence I find them a bit more challenging. Also, Topcoder rounds are shorter, hence speed is also of higher importance there.
+What’s your advice to students who aim to become excellent programmer like yours?
+Practice is the key! Solve as many problems as you can, and regularly take part in live contests on various OJs . After taking part in a contest, be sure to upsolve and read the editorials, and practice any new concepts you come across. While practicing, it is important to solve problems which are a bit above your current level, neither too easy nor hard.
+Another thing to keep in mind while writing code: Do not think as you code. Before starting to write even a line of your code, try to have the entire structure of the code well defined in your head, or on paper. This will help reduce bugs significantly and will result in cleaner code and less coding time.
+Vaibhav’s Achievements:
+
+Google Code Jam 2016 (semi-finals): Rank 1 in India, 86 overall
+Codeforces rating: 2229, Handle: gvaibhav21
+Topcoder rating: 1888, Handle: gvaibhav21
+Codechef: been in top 5 in India in 4 Cook-offs, 2 long challenges, and 5 Lunch-times, handle: gvaibhav21
+Hackerrank rating: 3568, Handle: gvaibhav21
+Winner, Topcoder Collegiate Contest India 2015
+
+Vaibhav can be reached at Facebook
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

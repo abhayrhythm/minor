@@ -1,0 +1,21 @@
+given binari search tree bst rang min max remov key outsid given rang 
+modifi tree also bst 
+exampl consid follow bst rang 10 13 
+given tree chang follow 
+note key outsid rang 10 13 remov modifi tree bst 
+two possibl case everi node 
+1 node key outsid given rang 
+case two sub case 
+node key smaller min valu 
+b node key greater max valu 
+2 node key rang 
+need anyth case 2 case 1 need remov node chang root sub tree root node 
+idea fix tree postord fashion 
+visit node make sure left right sub tree alreadi fix 
+case 1 simpli remov root return right sub tree new root 
+case 1 b remov root return left sub tree new root 
+follow c implement approach 
+c program remov bst key outsid given rang includ stdio h includ iostream use namespac std bst node key left right pointer struct node int key struct node left struct node right resmov node valu outsid given rang return root modifi tree node removeoutsiderang node root int min int max base case root null return null first fix left right subtre root root left removeoutsiderang root left min max root right removeoutsiderang root right min max fix root 
+2 possibl case toot 1 root key smaller min valu root rang root key min node rchild root right delet root return rchild 1 b root key greater max valu root rang root key max node lchild root left delet root return lchild 2 root rang return root util function creat new bst node key given num node newnod int num node temp new node temp key num temp left temp right null return temp util function insert given key bst node insert node root int key root null return newnod key root key key root left insert root left key els root right insert root right key return root util function travers binari tree convers void inordertravers node root root inordertravers root left cout root key inordertravers root right driver program test function int main node root null root insert root 6 root insert root 13 root insert root 14 root insert root 8 root insert root 15 root insert root 13 root insert root 7 cout inord travers given tree inordertravers root root removeoutsiderang root 10 13 cout ninord travers modifi tree inordertravers root return 0 output inord travers given tree 13 8 6 7 13 14 15 inord travers modifi tree 8 6 7 13 time complex n n number node given bst 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

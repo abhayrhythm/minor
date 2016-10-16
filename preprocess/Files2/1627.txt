@@ -1,0 +1,53 @@
+discuss simpl iter postord travers use two stack previou post 
+post approach one stack discuss 
+idea move leftmost node use left pointer 
+move push root root right child stack 
+reach leftmost node print right child 
+right child chang root right child process 
+follow detail algorithm 
+1 1 creat empti stack 2 1 follow root null push root right child root stack 
+b set root root left child 
+2 2 pop item stack set root 
+pop item right child right child top stack remov right child stack push root back set root root right child 
+b els print root data set root null 
+2 3 repeat step 2 1 2 2 stack empti 
+let us consid follow tree follow step print postord travers tree use one stack 
+1 right child 1 exist 
+push 3 stack 
+push 1 stack 
+move left child 
+stack 3 1 2 right child 2 exist 
+push 5 stack 
+push 2 stack 
+move left child 
+stack 3 1 5 2 3 right child 4 exist 
+push 4 stack 
+move left child 
+stack 3 1 5 2 4 4 current node null 
+pop 4 stack 
+right child 4 exist 
+print 4 set current node null 
+stack 3 1 5 2 5 current node null 
+pop 2 stack 
+sinc right child 2 equal stack top element pop 5 stack 
+push 2 stack 
+move current node right child 2 e 
+5 stack 3 1 2 6 right child 5 exist 
+push 5 stack 
+move left child 
+stack 3 1 2 5 7 current node null 
+pop 5 stack 
+right child 5 exist 
+print 5 set current node null 
+stack 3 1 2 8 current node null 
+pop 2 stack 
+right child 2 equal stack top element 
+print 2 set current node null 
+stack 3 1 9 current node null 
+pop 1 stack 
+sinc right child 1 equal stack top element pop 3 stack 
+push 1 stack 
+move current node right child 1 e 
+3 stack 1 10 repeat step print 6 7 3 pop 1 print 1 c c program iter postord travers use one stack includ stdio h includ stdlib h maximum stack size defin max_siz 100 tree node struct node int data struct node left right stack type struct stack int size int top struct node array util function creat new tree node struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node util function creat stack given size struct stack createstack int size struct stack stack struct stack malloc sizeof struct stack stack size size stack top 1 stack array struct node malloc stack size sizeof struct node return stack basic oper stack int isful struct stack stack return stack top 1 stack size int isempti struct stack stack return stack top 1 void push struct stack stack struct node node isful stack return stack array stack top node struct node pop struct stack stack isempti stack return null return stack array stack top struct node peek struct stack stack isempti stack return null return stack array stack top iter function postord travers given binari tree void postorderit struct node root check empti tree root null return struct stack stack createstack max_siz move leftmost node root push root right child root stack 
+root right push stack root right push stack root set root root left child root root left pop item stack set root root pop stack pop item right child right child process yet make sure right child process root root right peek stack root right pop stack remov right child stack push stack root push root back stack root root right chang root right child process next els els print root data set root null printf root data root null isempti stack driver program test function int main let us construct tree shown figur struct node root null root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 printf post order travers binari tree n printf postorderit root printf return 0 java java program iter postord travers use stack import java util arraylist import java util stack binari tree node class node int data node left right node int item data item left right class binarytre node root arraylist integ list new arraylist integ iter function postord travers given binari tree arraylist integ postorderit node node stack node new stack node check empti tree node null return list push node node prev null isempti node current peek go tree search leaf process pop stack otherwis move prev null prev left current prev right current current left null push current left els current right null push current right els pop list add current data go tree left node child right push onto stack otherwis process parent pop stack els current left prev current right null push current right els pop list add current data go tree right node come back right node process parent pop stack els current right prev pop list add current data prev current return list driver program test function public static void main string arg binarytre tree new binarytre let us creat tree shown diagram tree root new node 1 tree root left new node 2 tree root right new node 3 tree root left left new node 4 tree root left right new node 5 tree root right left new node 6 tree root right right new node 7 arraylist integ mylist tree postorderit tree root system println post order travers binari tree system println mylist code contribut mayank jaiswal python python program iter postord travers use one stack store answer an binari tree node class node constructor creat new node def __init__ self data self data data self left none self right none def peek stack len stack 0 return stack 1 return none iter function postord travers given binari tree def postorderit root check empti tree root none return stack true root push root right child root stack root right none stack append root right stack append root set root root left child root root left pop item stack set root root stack pop pop item right child right child process yet make sure right child process root root right none peek stack root right stack pop remov right child stack stack append root push root back stack root root right chang root righ childi process next els print root data set root none els an append root data root none len stack 0 break driver pogram test function root node 1 root left node 2 root right node 3 root left left node 4 root left right node 5 root right left node 6 root right right node 7 print post order travers binari tree postorderit root print an code contribut nikhil kumar singh nickzuck_007 output post order travers binari tree 4 5 2 6 7 3 1 articl compil aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

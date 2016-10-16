@@ -1,0 +1,29 @@
+
+Introduction
+The main object of this project is to provide the database in GUI oriented format through which we can retrieve information about the remote database and their tables for proper manipulation. GUI programming can be done in JAVA IDE.
+Features
+This Universal Persistent Viewer is a utility for database browsing. It provides an interface for viewing a database. We can browse a remote database also and change its contents even if the client side software is not available for the database.
+One main important aspect of this project is SQL interpreter, which is used to execute queries by which the table can be modified. Queries can also be executed in this utility. The records can be added deleted and modified in a table. Records can be viewed with the specified condition. The final results are provided in a table format.  The project also includes the properties of database, which provide the functions, keywords, supporting functions, maximum functions whichever needed.
+Software Required
+
+Any Java basedIDE.
+Any Database Management Software (Preferably MySQL).
+
+Advanced Features
+
+We will import and export the table across the Database.
+Within the Database version dependency will be prevented. As it can convert Oracle’s version 10 to 11 version.
+Across the Database transparency.
+Data type difference can be managed easily.
+
+This Project Idea is contributed by Anurag Gupta.If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

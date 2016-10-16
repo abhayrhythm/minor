@@ -1,0 +1,12 @@
+strongli recommend click practic move solut 
+1 simpl method take log given number base 4 get integ number power 4 
+2 anoth solut keep divid number 4 e n n 4 iter 
+iter n 4 becom non zero n 1 n power 4 otherwis n power 4 
+includ stdio h defin bool int function check x power 4 bool ispoweroffour int n n 0 return 0 n 1 n 4 0 return 0 n n 4 return 1 driver program test function int main int test_no 64 ispoweroffour test_no printf power 4 test_no els printf power 4 test_no getchar 3 number n power 4 follow condit met 
+one bit set binari represent n n power 2 b count zero bit set bit even 
+exampl 16 10000 power 4 one bit set count 0s set bit 4 even 
+thank geek4u suggest approach provid code 
+includ stdio h defin bool int bool ispoweroffour unsign int n int count 0 check one bit set n n 
+n n 1 count 0 bit set bit n 1 n 1 count 1 count even return true els fals return count 2 0 
+1 0 1 bit set n power 4 return 0 driver program test function int main int test_no 64 ispoweroffour test_no printf power 4 test_no els printf power 4 test_no getchar pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

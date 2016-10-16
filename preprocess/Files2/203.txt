@@ -1,0 +1,12 @@
+given polynomi form cnxn cn 1xn 1 cn 2xn 2 c1x c0 valu x find valu polynomi given valu x cn cn 1 integ may neg n posit integ 
+input form array say poli poli 0 repres coeffici xn poli 1 repres coeffici xn 1 
+exampl evalu valu 2x3 6x2 2x 1 x 3 input poli 2 6 2 1 x 3 output 5 evalu valu 2x3 3x 1 x 2 input poli 2 0 3 1 x 2 output 23 naiv way evalu polynomi one one evalu term 
+first calcul xn multipli valu cn repeat step term return sum 
+time complex approach n2 use simpl loop evalu xn 
+time complex improv nlogn use logn approach evalu xn 
+horner method use evalu polynomi n time 
+understand method let us consid exampl 2x3 6x2 2x 1 polynomi evalu 2x 6 x 2 x 1 idea initi result coeffici xn 2 case repeatedli multipli result x add next coeffici result 
+final return result 
+follow c implement horner method 
+includ iostream use namespac std return valu poli 0 x n 1 poli 1 x n 2 poli n 1 int horner int poli int n int x int result poli 0 initi result evalu valu polynomi use horner method int 1 n result result x poli return result driver program test function 
+int main let us evalu valu 2x3 6x2 2x 1 x 3 int poli 2 6 2 1 int x 3 int n sizeof poli sizeof poli 0 cout valu polynomi horner poli n x return 0 output valu polynomi 5 time complex n pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

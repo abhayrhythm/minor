@@ -1,0 +1,22 @@
+predict output follow c program 
+includ iostream use namespac std class test protect int x public test int x void fun const cout fun const call endl void fun cout fun call endl int main test t1 10 const test t2 20 t1 fun t2 fun return 0 output program compil run fine produc follow output 
+fun call fun const call two method void fun const void fun signatur except one const 
+also take closer look output observ const void fun call const object void fun call non const object 
+c allow member method overload basi const type 
+overload basi const type use function return refer pointer 
+make one function const return const refer const pointer non const function return non const refer pointer 
+see detail 
+paramet 
+rule relat const paramet interest 
+let us first take look follow two exampl 
+program 1 fail compil program 2 compil run fine 
+program 1 fail compil includ iostream use namespac std void fun const int cout fun const int call void fun int cout fun int call int main const int 10 fun return 0 output compil error redefinit void fun int program 2 compil run fine includ iostream use namespac std void fun char cout non const fun void fun const char cout const fun int main const char ptr geeksforgeek fun ptr return 0 output const fun geeksforgeek c allow function overload basi const ness paramet const paramet refer pointer 
+program 1 fail compil program 2 work fine 
+rule actual make sens 
+program 1 paramet pass valu fun copi main 
+henc fun cannot modifi main 
+therefor matter whether receiv const paramet normal paramet 
+pass refer pointer modifi valu refer point two version function one modifi refer point valu 
+exercis predict output follow program 
+includ iostream use namespac std void fun const int cout fun const int call void fun int cout fun int call int main const int 10 fun return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

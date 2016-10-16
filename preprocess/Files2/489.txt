@@ -1,0 +1,14 @@
+given two link list creat union intersect list contain union intersect element present given list 
+order elment output list matter 
+exampl input list1 10 15 4 20 lsit2 8 4 2 10 output intersect list 4 10 union list 2 8 20 4 15 10 method 1 simpl follow simpl algorithm get union intersect list respect 
+intersect list1 list2 initi result list null 
+travers list1 look element list2 element present list2 add element result 
+union list1 list2 initi result list null 
+travers list1 add element result 
+travers list2 
+element list2 alreadi present result insert result otherwis insert 
+method assum duplic given list 
+thank shekhu suggest method 
+follow c java implement method 
+c c c c program find union intersect two unsort link list includ stdio h includ stdlib h link list node struct node int data struct node next util function insert node begin link list void push struct node head_ref int new_data util function check given data present list bool ispres struct node head int data function get union two link list head1 head2 struct node getunion struct node head1 struct node head2 struct node result null struct node t1 head1 t2 head2 insert element list1 result list t1 null push result t1 data t1 t1 next insert element list2 present result list t2 null ispres result t2 data push result t2 data t2 t2 next return result function get intersect two link list head1 head2 struct node getintersect struct node head1 struct node head2 struct node result null struct node t1 head1 travers list1 search element list2 
+element present list 2 insert element result t1 null ispres head2 t1 data push result t1 data t1 t1 next return result util function insert node begin link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod util function print link list void printlist struct node node node null printf node data node node next util function return true data present link list els return fals bool ispres struct node head int data struct node head null data data return 1 next return 0 drier program test function int main start empti list struct node head1 null struct node head2 null struct node intersecn null struct node unin null creat link lit 10 15 5 20 push head1 20 push head1 4 push head1 15 push head1 10 creat link lit 8 4 2 10 push head2 10 push head2 2 push head2 4 push head2 8 intersecn getintersect head1 head2 unin getunion head1 head2 printf n first list n printlist head1 printf n second list n printlist head2 printf n intersect list n printlist intersecn printf n union list n printlist unin return 0 

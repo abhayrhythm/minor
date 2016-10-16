@@ -1,0 +1,5 @@
+c support function overload e one function name differ paramet 
+c compil distinguish differ function gener object code chang name ad inform argument 
+techniqu ad addit inform function name call name mangl 
+c standard specifi particular techniqu name mangl differ compil may append differ inform function name 
+consid follow declar function f int f void return 1 int f int return 0 void g void int f j f 0 c compil may mangl name follow sourc wiki int __f_v void return 1 int __f_i int return 0 void __g_v void int __f_v j __f_i 0 

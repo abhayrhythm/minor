@@ -1,0 +1,17 @@
+cost stock day given array find max profit make buy sell day 
+exampl given array 100 180 260 310 40 535 695 maximum profit earn buy day 0 sell day 3 buy day 4 sell day 6 given array price sort decreas order profit cannot earn 
+strongli recommend click practic move solut 
+allow buy sell use follow algorithm 
+maximum differ two element 
+allow buy sell multipl time 
+follow algorithm problem 
+1 find local minima store start index 
+exist return 
+2 find local maxima 
+store end index 
+reach end set end end index 
+3 updat solut increment count buy sell pair 4 repeat step end reach 
+c program find best buy sell day includ stdio h solut structur struct interv int buy int sell function find buy sell schedul maximum profit void stockbuysel int price int n price must given least two day n 1 return int count 0 count solut pair solut vector interv sol n 2 1 travers given price array int 0 n 1 find local minima 
+note limit n 2 compar present element next element 
+n 1 price 1 price reach end break solut possibl n 1 break store index minima sol count buy find local maxima 
+note limit n 1 compar previou element n price price 1 store index maxima sol count sell 1 increment count buy sell pair count print solut count 0 printf day buy stock make profit n els int 0 count printf buy day sell day n sol buy sol sell return driver program test function int main stock price consecut day int price 100 180 260 310 40 535 695 int n sizeof price sizeof price 0 fucntion call stockbuysel price n return 0 

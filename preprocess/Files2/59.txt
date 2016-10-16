@@ -1,0 +1,57 @@
+huffman code lossless data compress algorithm 
+idea assign variabl legth code input charact length assign code base frequenc correspond charact 
+frequent charact get smallest code least frequent charact get largest code 
+variabl length code assign input charact prefix code mean code bit sequenc assign way code assign one charact prefix code assign charact 
+huffman code make sure ambigu decod gener bit stream 
+let us understand prefix code counter exampl 
+let four charact b c correspond variabl length code 00 01 0 1 code lead ambigu code assign c prefix code assign b compress bit stream 0001 de compress output may cccd ccb acd ab 
+see applic huffman code 
+mainli two major part huffman code 1 build huffman tree input charact 
+2 travers huffman tree assign code charact 
+step build huffman tree input array uniqu charact along frequenc occurr output huffman tree 
+1 creat leaf node uniqu charact build min heap leaf node min heap use prioriti queue 
+valu frequenc field use compar two node min heap 
+initi least frequent charact root 2 extract two node minimum frequenc min heap 
+3 creat new intern node frequenc equal sum two node frequenc 
+make first extract node left child extract node right child 
+add node min heap 
+4 repeat step 2 3 heap contain one node 
+remain node root node tree complet 
+let us understand algorithm exampl charact frequenc 5 b 9 c 12 13 e 16 f 45 step 1 build min heap contain 6 node node repres root tree singl node 
+step 2 extract two minimum frequenc node min heap 
+add new intern node frequenc 5 9 14 min heap contain 5 node 4 node root tree singl element one heap node root tree 3 element charact frequenc c 12 13 intern node 14 e 16 f 45 step 3 extract two minimum frequenc node heap 
+add new intern node frequenc 12 13 25 min heap contain 4 node 2 node root tree singl element two heap node root tree one node 
+charact frequenc intern node 14 e 16 intern node 25 f 45 step 4 extract two minimum frequenc node 
+add new intern node frequenc 14 16 30 min heap contain 3 node 
+charact frequenc intern node 25 intern node 30 f 45 step 5 extract two minimum frequenc node 
+add new intern node frequenc 25 30 55 min heap contain 2 node 
+charact frequenc f 45 intern node 55 step 6 extract two minimum frequenc node 
+add new intern node frequenc 45 55 100 min heap contain one node 
+charact frequenc intern node 100 sinc heap contain one node algorithm stop 
+step print code huffman tree travers tree form start root 
+maintain auxiliari array 
+move left child write 0 array 
+move right child write 1 array 
+print array leaf node encount 
+code follow charact code word f 0 c 100 101 1100 b 1101 e 111 c c program huffman code includ stdio h includ stdlib h constant avoid explicitli calcul height huffman tree defin max_tree_ht 100 huffman tree node struct minheapnod char data one input charact unsign freq frequenc charact struct minheapnod left right left right child node min heap collect min heap hufmman tree node struct minheap unsign size current size min heap unsign capac capac min heap struct minheapnod array attay minheap node pointer util function alloc new min heap node given charact frequenc charact struct minheapnod newnod char data unsign freq struct minheapnod temp struct minheapnod malloc sizeof struct minheapnod temp left temp right null temp data data temp freq freq return temp util function creat min heap given capac struct minheap createminheap unsign capac struct minheap minheap struct minheap malloc sizeof struct minheap minheap size 0 current size 0 minheap capac capac minheap array struct minheapnod malloc minheap capac sizeof struct minheapnod return minheap util function swap two min heap node void swapminheapnod struct minheapnod struct minheapnod b struct minheapnod b b standard minheapifi function 
+void minheapifi struct minheap minheap int idx int smallest idx int left 2 idx 1 int right 2 idx 2 left minheap size minheap array left freq minheap array smallest freq smallest left right minheap size minheap array right freq minheap array smallest freq smallest right smallest idx swapminheapnod minheap array smallest minheap array idx minheapifi minheap smallest util function check size heap 1 int issizeon struct minheap minheap return minheap size 1 standard function extract minimum valu node heap struct minheapnod extractmin struct minheap minheap struct minheapnod temp minheap array 0 minheap array 0 minheap array minheap size 1 minheap size minheapifi minheap 0 return temp util function insert new node min heap void insertminheap struct minheap minheap struct minheapnod minheapnod minheap size int minheap size 1 minheapnod freq minheap array 1 2 freq minheap array minheap array 1 2 1 2 minheap array minheapnod standard funvtion build min heap void buildminheap struct minheap minheap int n minheap size 1 int n 1 2 0 minheapifi minheap util function print array size n void printarr int arr int n int 0 n printf arr printf n util function check node leaf int isleaf struct minheapnod root return 
+root left 
+root right creat min heap capac equal size insert charact data min heap 
+initi size min heap equal capac struct minheap createandbuildminheap char data int freq int size struct minheap minheap createminheap size int 0 size minheap array newnod data freq minheap size size buildminheap minheap return minheap main function build huffman tree struct minheapnod buildhuffmantre char data int freq int size struct minheapnod left right top step 1 creat min heap capac equal size 
+initi mode equal size 
+struct minheap minheap createandbuildminheap data freq size iter size heap becom 1 issizeon minheap step 2 extract two minimum freq item min heap left extractmin minheap right extractmin minheap step 3 creat new intern node frequenc equal sum two node frequenc 
+make two extract node left right children new node 
+add node min heap special valu intern node use top newnod left freq right freq top left left top right right insertminheap minheap top step 4 remain node root node tree complet 
+return extractmin minheap print huffman code root huffman tree 
+use arr store code void printcod struct minheapnod root int arr int top assign 0 left edg recur root left arr top 0 printcod root left arr top 1 assign 1 right edg recur root right arr top 1 printcod root right arr top 1 leaf node contain one input charact print charact code arr isleaf root printf c root data printarr arr top main function build huffman tree print code travers built huffman tree void huffmancod char data int freq int size construct huffman tree struct minheapnod root buildhuffmantre data freq size print huffman code use huffman tree built int arr max_tree_ht top 0 printcod root arr top driver program test function int main char arr b c e f int freq 5 9 12 13 16 45 int size sizeof arr sizeof arr 0 huffmancod arr freq size return 0 c use stl c program huffman code includ bit stdc h use namespac std huffman tree node struct minheapnod char data one input charact unsign freq frequenc charact minheapnod left right left right child minheapnod char data unsign freq left right null data data freq freq comparison two heap node need min heap struct compar bool oper minheapnod l minheapnod r return l freq r freq print huffman code root huffman tree 
+void printcod struct minheapnod root string str root return root data cout root data str n printcod root left str 0 printcod root right str 1 main function build huffman tree print code travers built huffman tree void huffmancod char data int freq int size struct minheapnod left right top creat min heap insert charact data priority_queu minheapnod vector minheapnod compar minheap int 0 size minheap push new minheapnod data freq iter size heap becom 1 minheap size 1 extract two minimum freq item min heap left minheap top minheap pop right minheap top minheap pop creat new intern node frequenc equal sum two node frequenc 
+make two extract node left right children new node 
+add node min heap special valu intern node use top new minheapnod left freq right freq top left left top right right minheap push top print huffman code use huffman tree built printcod minheap top driver program test function int main char arr b c e f int freq 5 9 12 13 16 45 int size sizeof arr sizeof arr 0 huffmancod arr freq size return 0 code contribut aditya goel f 0 c 100 101 1100 b 1101 e 111 time complex nlogn n number uniqu charact 
+n node extractmin call 2 n 1 time 
+extractmin take logn time call minheapifi 
+overal complex nlogn 
+input array sort exist linear time algorithm 
+soon discuss next post 
+refer http en wikipedia org wiki huffman_cod articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

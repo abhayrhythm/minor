@@ -1,0 +1,13 @@
+problem know clock angl problem need find angl hand analog clock given time 
+exampl input h 12 00 30 00 output 165 degre input h 3 00 30 00 output 75 degre idea take 12 00 h 12 0 refer 
+follow detail step 
+1 calcul angl made hour hand respect 12 00 h hour minut 
+2 calcul angl made minut hand respect 12 00 h hour minut 
+3 differ two angl angl two hand 
+calcul two angl respect 12 00 
+minut hand move 360 degre 60 minut 6 degre one minut hour hand move 360 degre 12 hour 0 5 degre 1 minut 
+h hour minut minut hand would move h 60 6 hour hand would move h 60 0 5 
+c program find angl hour minut hand includ stdio h includ stdlib h util function find minimum two integ int min int x int return x 
+x int calcangl doubl h doubl valid input h 0 0 h 12 60 printf wrong input h 12 h 0 60 0 calcul angl move hour minut hand refer 12 00 int hour_angl 0 5 h 60 int minute_angl 6 find differ two angl int angl ab hour_angl minute_angl return smaller angl two possibl angl angl min 360 angl angl return angl driver program test function int main printf n calcangl 9 60 printf n calcangl 3 30 return 0 output 90 75 exercis find time hour minut hand get superimpos 
+articl contribut ashish bansal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

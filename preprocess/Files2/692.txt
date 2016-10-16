@@ -1,0 +1,79 @@
+would like share amazon interview experi internship audienc 
+1st round onlin code round 90 min test hackerrank 
+20 mcq 2 code question 
+mcq topic like time complex differ sort algorithm dbm os 3 4 puzzl apti output code etc 
+mcq neg mark 0 50 student cse ece allow around 160 candid 
+code question 1 find first non repeat charact string 
+2 squar matrix order n fill 1 n 2 row major 
+find kth element spiral travers matrix 
+exampl given n 3 k 5 
+matrix 1 2 3 4 5 6 7 8 9 output 9 solv code question attempt 16 mcq qualifi next round 
+import solv least one code question qualifi next round 
+second round person interview time 40 50 minut 
+31 candid select round 
+start tell 
+interview ask jee main rank also data structur know 
+ask basic tree question tree bst mani type travers name 
+next gave problem 1 given array element find array repres pre order travers bst 
+thought second gave n 2 logic 
+ask optim told tri optim 
+think minut told n logic 
+listen approach ask code 
+wrote code without error one go 
+ask time complex space complex code check error free 
+interview ask theoret question os critic section mutex semaphor virtual memori page fault way prevent deadlock etc 
+made simpl tabl ask write sql queri easi 
+ask index dbm differ type queri wrote case sensit 
+next interview ask know clone link list problem 
+said ye 
+interview chang question 
+2 given array neg posit number find maximum sum contigu sub array 
+told interview approach modif kadan algorithm 
+ask write code 
+wrote code without error 
+third round person interview ii time 80 90 minut 
+8 candid shortlist round 
+first interview went resum ask recent project 
+ask comfort tree 
+said ye 
+ask 1 http www geeksforgeek org vertic sum given binari tree told approach ask write code 
+wrote code without error 
+ask theoret question 
+start virtual memori concept next wrote code ask error 
+ask c c question base malloc calloc new oper etc 
+tricki question except handl 
+mani theoret question rememb 
+2 gave problem n number peopl requir task 
+among n person x number person requir key start work 
+infinit key thrown one one front peopl everi unit time 
+time requir person pick key one unit time 
+furthermor interview mention condit particular person start particular person finish task 
+time requir person finish task one unit 
+ask find minimum time peopl finish task 
+think minut told interview approach use topolog sort graph 
+ask explain topolog sort detail 
+move anoth question 
+3 forest mani path 
+need get forest 
+path choos 
+problem find minimum distanc sourc node destin node graph 
+told approach ask explain dijkstra algorithm 
+interview ask differ dijkstra algorithm floyd warshal algorithm 
+ask prim algorithm kruskal algorithm 
+gave anoth interest problem 
+4 node binari tree given node id sum id children 
+find node id root 
+minut came wrong approach 
+soon told interview understood wrong 
+told focu sum id 
+within minut told anoth approach 
+ask work explain satisfi 
+interview ask question 
+last ask one project use alexa 
+keep calm help come correct solut faster ask question interview doubt friendli 
+practic question geeksforgeek 
+help lot 
+thank geek 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

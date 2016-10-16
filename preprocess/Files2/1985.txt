@@ -1,0 +1,13 @@
+predict output follow c program 
+includ iostream use namespac std class complex privat doubl real doubl imag public default constructor complex doubl r 0 0 doubl 0 0 real r imag method compar two complex number bool oper complex rh return real rh real imag rh imag 
+true fals int main complex object complex com1 3 0 0 0 com1 3 0 cout els cout return 0 output program compil fine produc follow output 
+discuss gfact c class constructor call singl argument constructor becom convers constructor constructor allow convers singl argument class construct 
+avoid implicit convers may lead unexpect result 
+make constructor explicit help explicit keyword 
+exampl tri follow program use explicit keyword constructor get compil error 
+includ iostream use namespac std class complex privat doubl real doubl imag public default constructor explicit complex doubl r 0 0 doubl 0 0 real r imag method compar two complex number bool oper complex rh return real rh real imag rh imag 
+true fals int main complex object complex com1 3 0 0 0 com1 3 0 cout els cout return 0 output compil error match oper com1 3 0e 0 still typecast doubl valu complex explicitli typecast 
+exampl follow program work fine 
+includ iostream use namespac std class complex privat doubl real doubl imag public default constructor explicit complex doubl r 0 0 doubl 0 0 real r imag method compar two complex number bool oper complex rh return real rh real imag rh imag 
+true fals int main complex object complex com1 3 0 0 0 com1 complex 3 0 cout els cout return 0 output program compil fine produc follow output 
+also see advanc c convers oper pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

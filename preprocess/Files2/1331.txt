@@ -1,0 +1,22 @@
+given binari matrix print uniqu row given matrix 
+input 0 1 0 0 1 1 0 1 1 0 0 1 0 0 1 1 1 1 0 0 output 0 1 0 0 1 1 0 1 1 0 1 1 1 0 0 method 1 simpl simpl approach check row process row 
+print first row 
+start second row row compar row alreadi process row 
+row match process row print 
+current row match row print 
+time complex row 2 x col auxiliari space 1 method 2 use binari search tree find decim equival row insert bst 
+node bst contain two field one field decim valu row number 
+insert node duplic 
+final travers bst print correspond row 
+time complex row x col row x log row auxiliari space row method lead integ overflow number column larg 
+method 3 use trie data structur sinc matrix boolean variant trie data structur use node two children one 0 1 insert row trie 
+row alreadi print row 
+row trie insert trie print 
+c implement method 3 
+given binari matrix x n integ need return uniqu row binari array includ stdio h includ stdlib h includ stdbool h defin row 4 defin col 5 trie node typedef struct node bool isendofcol struct node child 2 two children need 0 1 node util function alloc memori new trie node node newnod node temp node malloc sizeof node temp isendofcol 0 temp child 0 temp child 1 null return temp insert new matrix row trie 
+row alreadi present return 0 otherwis inset row return 1 bool insert node root int col int row int col base case root null root newnod recur entri row col col return insert root child row col row col 1 els entri row process uniqu row found return 1 
+root isendofcol return root isendofcol 1 duplic row found return 0 return 0 util function print row void printrow int col int row int 0 col printf row printf n main function print uniqu row given matrix 
+void finduniquerow int col node root null creat empti trie int iter row 0 row insert row trie insert root 0 uniqu row found print printrow driver program test function int main int row col 0 1 0 0 1 1 0 1 1 0 0 1 0 0 1 1 0 1 0 0 finduniquerow return 0 time complex row x col auxiliari space row x col method better time complex 
+also rel order row maintain print 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

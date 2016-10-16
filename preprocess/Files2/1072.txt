@@ -1,0 +1,16 @@
+given binari array size n n 3 true 1 valu array mean activ fals 0 mean inact 
+given number k task find count activ inact cell k day 
+everi day statu th cell becom inact left right cell valu e either 0 1 sinc cell leftmost rightmost cell valu cell leftmost rightmost cell alway consid 0 inact 
+exampl input cell 1 0 1 1 k 2 output activ cell 1 inact cell 3 explan 1 day cell 1 0 1 0 2 day cell 1 0 0 0 input cell 0 1 0 1 0 1 0 1 k 3 output activ cell 2 inact cell 6 explan 1 day cell 1 0 0 0 0 0 0 0 2 day cell 0 1 0 0 0 0 0 0 3 day cell 1 0 1 0 0 0 0 0 input cell 0 1 1 1 0 1 1 0 k 4 output activ cell 3 inact cell 5 import thing make sure maintain copi given array need previou valu updat next day 
+detail step 
+first copi cell array temp array make chang temp array accord given condit 
+condit given immedi left right cell th cell either inact activ next day becom inact e cell 1 0 cell 1 0 cell 1 1 cell 1 1 cell 0 condit appli use xor cell 1 cell 1 
+0 th index cell temp 0 0 cell 1 n 1 th index cell temp n 1 0 cell n 2 
+index 1 n 2 follow oper temp cell 1 cell 1 repeat process till k day complet 
+follow c implement step 
+c program count activ inact cell k day includ bit stdc h use namespac std cell store current statu cell n number cell temp perform intermedi oper k number day activ count activ cell k day inact count activ cell k day void activeandinact bool cell int n int k copi cell array temp array bool temp n int 0 n temp cell iter k day k find next valu corner cell temp 0 0 cell 1 temp n 1 0 cell n 2 comput valu intermedi cell cell activ inact temp 0 els temp 1 int 1 n 2 temp cell 1 cell 1 copi temp cell next iter int 0 n cell temp count activ inact cell int activ 0 inact 0 int 0 n cell 1 
+activ inact printf activ cell inact cell activ inact driver program check test case int main bool cell 0 1 0 1 0 1 0 1 int k 3 int n sizeof cell sizeof cell 0 activeandinact cell n k return 0 output activ cell 2 inact cell 6 articl contribut shashank mishra gullu 
+articl review team geeksforgeek 
+better approach problem pleas share 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

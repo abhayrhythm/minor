@@ -1,0 +1,16 @@
+discuss differ approach swap two integ without temporari variabl 
+swap singl line without use librari function 
+python python simpl syntact neat construct swap variabl need write x x 
+c c one gener provid classic solut swap use bitwis xor wrong solut c c x x solut wrong c c caus undefin behaviour compil free behav way 
+reason modifi variabl express caus undefin behaviour sequenc point modif 
+howev use comma introduc sequenc point 
+modifi solut swap use bitwis xor correct solut c c sequenc point introduc use comma 
+x x x java java rule subexpress evalu clearli defin 
+left hand operand alway evalu right hand operand see detail 
+java express x x produc correct result accord java rule 
+make x 0 howev use x x x note express evalu left right 
+x 5 10 initi express equival x 5 10 5 
+note use c c c c defin whether left operand right operand execut oper see detail c c c c program swap two variabl singl line includ stdio h int main int x 5 10 x x x printf swap valu x x return 0 java java program swap two variabl singl line class gfg public static void main string arg int x 5 10 x x x system println swap valu x x python python program swap two variabl singl line x 5 10 x x print swap valu x x output swap valu x 10 5 articl contribut harshit gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

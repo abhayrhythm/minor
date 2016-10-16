@@ -1,0 +1,27 @@
+
+Give a = 12 and b = 36 write a C function/macro that returns 3612 without using arithmetic, strings  and predefined functions.
+We strongly recommend you to minimize your browser and try this yourself first.
+Below is one solution that uses String Token-Pasting Operator (##) of C macros.  For example, the expression “a##b” prints concatenation of ‘a’ and ‘b’.  
+Below is a working C code.
+
+#include <stdio.h>
+#define merge(a, b) b##a
+int main(void)
+{
+    printf("%d ", merge(12, 36));
+    return 0;
+}
+
+Output:
+3612
+Thanks to an anonymous user to suggest this solution here.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

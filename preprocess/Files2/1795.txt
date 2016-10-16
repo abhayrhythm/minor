@@ -1,0 +1,27 @@
+given boolean 2d matrix find number island 
+variat standard problem count number connect compon undirect graph 
+go problem let us understand connect compon 
+connect compon undirect graph subgraph everi two vertic connect path connect vertic outsid subgraph 
+exampl graph shown three connect compon 
+graph vertic connect exactli one connect compon consist whole graph 
+graph one connect compon call strongli connect graph 
+problem easili solv appli df compon 
+df call compon sub graph visit 
+call df next un visit compon 
+number call df give number connect compon 
+bf also use 
+island 
+group connect 1s form island 
+exampl matrix contain 5 island 1 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 1 cell 2d matrix connect 8 neighbor 
+unlik standard df recurs call adjac vertic recurs call 8 neighbor 
+keep track visit 1s visit 
+c c program count island boolean 2d matrix includ stdio h includ string h includ stdbool h defin row 5 defin col 5 function check given cell row col includ df int issaf int col int row int col bool visit col row number rang column number rang valu 1 yet visit return row 0 row row col 0 col col row col visit row col util function df 2d boolean matrix 
+consid 8 neighbour adjac vertic void df int col int row int col bool visit col array use get row column number 8 neighbour given cell static int rownbr 1 1 1 0 0 1 1 1 static int colnbr 1 0 1 1 1 1 0 1 mark cell visit visit row col true recur connect neighbour int k 0 k 8 k issaf row rownbr k col colnbr k visit df row rownbr k col colnbr k visit main function return count island given boolean 2d matrix int countisland int col make bool array mark visit cell 
+initi cell unvisit bool visit row col memset visit 0 sizeof visit initi count 0 traves cell given matrix int count 0 int 0 row int j 0 j col j j visit j cell valu 1 visit yet new island found df j visit visit cell island 
+count increment island count return count driver program test function int main int col 1 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 1 printf number island n countisland return 0 java java program count island boolean 2d matrix import java util 
+import java lang 
+import java io 
+class island row column static final int row 5 col 5 function check given cell row col includ df boolean issaf int int row int col boolean visit row number rang column number rang valu 1 yet visit return row 0 row row col 0 col col row col 1 visit row col util function df 2d boolean matrix 
+consid 8 neighbor adjac vertic void df int int row int col boolean visit array use get row column number 8 neighbor given cell int rownbr new int 1 1 1 0 0 1 1 1 int colnbr new int 1 0 1 1 1 1 0 1 mark cell visit visit row col true recur connect neighbour int k 0 k 8 k issaf row rownbr k col colnbr k visit df row rownbr k col colnbr k visit main function return count island given boolean 2d matrix int countisland int make bool array mark visit cell 
+initi cell unvisit boolean visit new boolean row col initi count 0 traves cell given matrix int count 0 int 0 row int j 0 j col j j 1 visit j cell valu 1 visit yet new island found visit cell island increment island count df j visit count return count driver method public static void main string arg throw java lang except int new int 1 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 1 island new island system println number island countisland contribut aakash hasija output number island 5 time complex row x col find number island set 2 use disjoint set refer http en wikipedia org wiki connected_component_ 28graph_theori 29 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

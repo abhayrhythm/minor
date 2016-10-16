@@ -1,0 +1,53 @@
+
+I had worked at TCS,Chennai for 6 months and then was working at SAPLabs,Bangalore for last one year. I was interviewed at Amazon,World Trade Center for the position of Software Development Engineer.
+
+Round 1:Written Round
+
+a. Find a pair that sums to zero in a sorted array.
+http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+b. Buy and sell shares to maximize profit
+http://www.geeksforgeeks.org/stock-buy-sell/
+c. Replace all nodes in BST with its greater sum
+http://www.geeksforgeeks.org/add-greater-values-every-node-given-bst/
+
+Round 2:Face to Face
+
+a. Find all anagrams of a given string.
+The question is simple but there was a twist,the file size was 1TB.Interviewer asked me to optimize the solution.I gave a HashMap solution where key was the length of strings in the file and value was number of such strings.
+Finally,I was able to solve the question with Trie data structure.
+b. Given a Hotel and checkin/Checkout time of visitors, find the maximum numbers of rooms required. (different version of Trains/Platform question)
+
+Round 3:Face to Face
+
+a. Find a row with maximum number of 1s in a
+binary sorted matrix.I knew this questions before so I got another question
+b. Rain Water Trapping problem
+http://www.geeksforgeeks.org/trapping-rain-water/
+c. Given two strings print all possible permutations of two strings such that the order of characters are maintained.
+I gave a topological sort solution and then a recursive solution.
+
+Round 4:Hiring Manager Round
+
+a.A lot of behavioural questions like weakness,strengths,why leaving previous organization.
+b.Detailed description of projects
+c.Given an array,generate all valid ip address from the array.
+A lot of discussion on this question and finally I gave a hashmap solution to this question.Time complexity:O(n)
+
+Round 5: Bar Raiser
+
+a. A lot of behavioural questions,why amazon etc etc
+b. Find the longest palindromic substring in a string.
+I told him we can reverse the string and find the LCS for both strings.
+
+Full working code was required at each round and time complexity was discussed in detail for questions. Thanks a lot geeksforgeeks.
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,26 @@
+first round onlin round 15 mcq question technic question almost cs subject learnt colleg 
+lucki enough guess question correctli call code round 
+second round select student code round 2 standard question data structur geeksforgeek org 
+solv one question fulli test case work later result 1 month 
+lucki get round without solv one program solv one program 
+third round next round group fli round written program round follow technic person interview 
+round held bangalor 
+find least common ancestor two node binari tree 
+ask person assign group could chang structur node make tree parent pointer person told ok chang structur made parent pointer also use boolean flag variabl simpl two node common node path root node ancestor two node 
+assum function given three paramet root node1 node2 
+first made assumpt flag node zero later travers one node root make everi node path flag variabl set 1 later travers second node root travers check flag variabl 1 node alreadi return node ancestor two node 
+time complex h think explain well test case person assign group happi solut 
+given two sort array repetit element find kth minimum number array 
+approach problem maintain index array initi first element respect array 
+loop k time iter find minimum element among current indic increment index array contain minimum 
+element equal increment indic 
+time complex k 
+explain well test case made sure person assign group happi solut 
+made sure took care corner case importantli satisfi person assign group solut gave call person interview 
+person interview quick brief introduct 
+spoke project also want see app phone 
+ask basic question project implement 
+later gave technic question fold merg link list compar littl less nervou still good paper code made lot mistak somehow wrote code mistak found correct point time lucki enough reject round 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

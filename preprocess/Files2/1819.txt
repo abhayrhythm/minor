@@ -1,0 +1,12 @@
+solut remov space string alreadi post 
+articl anoth solut use stringstream discuss 
+algorithm 1 enter whole string stringstream 
+2 empti string 
+3 extract word word concaten string 
+read stringstream c program remov space use stringstream includ bit stdc h use namespac std function remov space string removespac string str stringstream ss string temp store whole string string stream ss str make string empti str run loop till end stream ss eof extract word word stream ss temp concaten string return str str temp return str driver function int main string test cout removespac endl geek geek cout removespac endl geek quiz awsom 
+cout removespac endl love code cout removespac endl return 0 output thisisatest geeksforgeek geeksquizisawsom 
+ilovetocod articl contribut nishant 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

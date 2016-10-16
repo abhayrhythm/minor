@@ -1,0 +1,110 @@
+
+Predict the output of below programs.
+
+Question 1
+
+char *getString()
+{
+    char str[] = "Will I be printed?";    
+    return str;
+}
+int main()
+{
+    printf("%s", getString());
+    getchar();
+}
+
+Output: Some garbage value
+The above program doesn’t  work because array variables are stored in Stack Section. So, when getString returns values at  str  are deleted and  str becomes dangling pointer.
+Question 2
+
+int main()
+{
+    static int i=5;
+    if(--i){
+        main();
+        printf("%d ",i);
+    }   
+}
+
+Output: 0 0 0 0
+Explanation:  Since i is a static variable and is stored in Data Section, all calls to main share same i. 
+Question 3
+
+int main()
+{
+    static int var = 5;
+    printf("%d ",var--);
+    if(var)
+        main();                   
+}
+
+Output:  5 4 3 2 1
+Explanation:  Same as previous question. The only difference here is,  sequence of calling main and printf is changed, therefore different output.
+Question 4
+
+int main()
+{
+    int x;
+    printf("%d",scanf("%d",&x)); 
+    /* Suppose that input value given 
+        for above scanf is 20 */
+    return 1;
+} 
+
+Output:  1
+scanf  returns the no. of inputs it has successfully read.
+Question 5
+
+# include <stdio.h>
+int main()
+{
+   int i=0;
+   for(i=0; i<20; i++)
+   {
+     switch(i)
+     {
+       case 0:
+         i+=5;
+       case 1:
+         i+=2;
+       case 5:
+         i+=5;
+       default:               
+         i+=4;
+         break;
+     }
+     printf("%d  ", i);
+   }
+
+   getchar();
+   return 0;
+}   
+
+Output: 16 21
+Explanation:
+Initially i = 0.  Since case 0 is true i becomes 5, and since there is no break statement till last statement of switch block,  i becomes 16.  Now in next iteration no case is true, so execution goes to default and i becomes 21.
+In C, if one case is true switch block is executed until it finds break statement. If no break statement is present all cases are executed after the true case.  If you want to know why switch is implemented like this, well this implementation is useful for situations like below.
+
+ switch (c)
+ {
+    case 'a':
+    case 'e':
+    case 'i' :
+    case 'o':
+    case 'u':
+      printf(" Vowel character");
+      break;
+    default : 
+      printf("Not a Vowel character");; break;    
+  }
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

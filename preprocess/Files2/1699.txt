@@ -1,0 +1,5 @@
+given array store complet binari search tree write function effici print given array ascend order 
+exampl given array 4 2 5 1 3 function print 1 2 3 4 5 solut inord travers bst print ascend order 
+trick modifi recurs termin condit standard inord tree travers 
+implement includ stdio h void printsort int arr int start int end start end return print left subtre printsort arr start 2 1 end print root printf arr start print right subtre printsort arr start 2 2 end int main int arr 4 2 5 1 3 int arr_siz sizeof arr sizeof int printsort arr 0 arr_siz 1 getchar return 0 time complex n pleas write comment find solut incorrect find better way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

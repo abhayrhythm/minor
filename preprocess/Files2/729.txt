@@ -1,0 +1,41 @@
+recent facebook visit campu 
+onlin round first 
+7 peopl shortlist telephon interview 
+2 telephon interview taken peopl us 
+onlin round 2 code question given time 75 minut 
+1 n tree circl 
+tree fruit valu associ 
+bird sit tree 0 5 sec move neighbour tree 
+take bird 0 5 second move one tree anoth 
+bird get fruit valu sit tree 
+given n number second bird fruit valu tree 
+maximis total fruit valu bird gather 
+bird start tree 
+forgot exampl sorri 2 given encod base 58 number 
+convert number 1 n base 58 number use encod given 
+question difficult shortlist basi strang 
+friend finish much shortlist 
+think look cv project 
+1st telephon round introduc tell project 
+ask 2 algorithm question 
+1 given start time finish time n interv 
+write function return boolean valu indic overlap interv set exist interv 
+sort check time complex nlogn 2 2 spars vector larg number 0 
+first tell way repres store find dot product 
+store store valu index index non zero valu find dot product straight forward 
+2nd telephon round interview 
+introduc tell project 
+even ask 2 algorithm question 
+1 array n element sum 
+check 2 element array sum given sum 
+expect time complex n 
+use hash 2 extend previou problem sum 3 element array sum given sum 
+pointer 
+alway explain 
+
+first explain algorithm start code 
+
+give hint take use 
+thank geeksforgeek org like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

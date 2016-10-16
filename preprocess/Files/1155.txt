@@ -1,0 +1,16 @@
+
+Given an unsorted array that contains even number of occurrences for all numbers except two numbers. Find the two numbers which have odd occurrences in O(n) time complexity and O(1) extra space.
+Examples:
+
+Input: {12, 23, 34, 12, 12, 23, 12, 45}
+Output: 34 and 45
+
+Input: {4, 4, 100, 5000, 4, 4, 4, 4, 100, 100}
+Output: 100 and 5000
+
+Input: {10, 20}
+Output: 10 and 20
+
+A naive method to solve this problem is to run two nested loops. The outer loop picks an element and the inner loop counts the number of occurrences of the picked element. If the count of occurrences is odd then print the number. The time complexity of this method is O(n^2).
+We can use sorting to get the odd occurring numbers in O(nLogn) time. First sort the numbers using an O(nLogn) sorting algorithm like Merge Sort, Heap Sort.. etc. Once the array is sorted, all we need to do is a linear scan of the array and print the odd occurring number. 
+We can also use hashing. Create an empty hash table which will have elements and their counts. Pick all elements of input array one by one. Look for the picked element in hash table. If the element is found in hash table, increment its count in table. If the element is not found, then enter it in hash table with count as 1. After all elements are entered in hash table, scan the hash table and print elements with odd count. This approach may take O(n) time on average, but it requires O(n) extra space.

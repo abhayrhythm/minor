@@ -1,0 +1,21 @@
+modulu oper costli 
+modulu oper variou languag costli oper 
+ultim everi oper oper must result processor instruct 
+processor modulu instruct hardwar level case compil insert stub predefin function perform modulu 
+impact perform 
+simpl techniqu extract remaind number divid anoth number divisor power 2 
+number exact power 2 one bit set binari represent 
+consid follow power 2 binari represent 2 10 4 100 8 1000 16 10000 note zero red color contribut remaind divis oper 
+get mask zero decrement divisor 1 gener pattern number written 2n form one bit set follow n zero right side 1 number n divid 2n bit posit correspond mention zero contribut remaind divis oper 
+exampl make clear n 87 1010111 binari form n 2 n 2 1 1010111 1 1 1 n 4 n 4 1 1010111 11 11 3 n 8 n 8 1 1010111 111 111 7 n 16 n 16 1 1010111 1111 111 7 n 32 n 32 1 1010111 11111 10111 23 modulu oper exact power 2 simpl faster bitwis and 
+reason programm usual make buffer length power 2 note techniqu work divisor power 2 exampl implement circular queue ring buffer use array 
+omit one posit circular buffer implement make easi distinguish full empti condit 
+buffer reach size 1 need wrap back initi posit 
+wrap back oper simpl oper buffer size power 2 use size would need use modulu oper 
+note per expert comment prematur optim evil 
+optim techniqu provid fine tune code final design strategi algorithm data structur implement 
+recommend avoid start code develop 
+code readabl key mainten 
+thank venki write articl 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

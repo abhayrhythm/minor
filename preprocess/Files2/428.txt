@@ -1,0 +1,28 @@
+like stack queue linear structur follow particular order oper perform 
+order first first fifo 
+good exampl queue queue consum resourc consum came first serv first 
+differ stack queue remov 
+stack remov item recent ad queue remov item least recent ad 
+oper queue mainli follow four basic oper perform queue enqueu add item queue 
+queue full said overflow condit 
+dequeu remov item queue 
+item pop order push 
+queue empti said underflow condit 
+front get front item queue 
+rear get last item queue 
+applic queue queue use thing process immediatli process first infirst order like breadth first search 
+properti queue make also use follow kind scenario 
+1 resourc share among multipl consum 
+exampl includ cpu schedul disk schedul 
+2 data transfer asynchron data necessarili receiv rate sent two process 
+exampl includ io buffer pipe file io etc 
+see detail applic queue stack 
+array implement queue implement queue need keep track two indic front rear 
+enqueu item rear dequeu item front 
+simpli increment front rear indic may problem front may reach end array 
+solut problem increas front rear circular manner see detail c program array implement queue includ stdio h includ stdlib h includ limit h structur repres queue struct queue int front rear size unsign capac int array function creat queue given capac 
+initi size queue 0 struct queue createqueu unsign capac struct queue queue struct queue malloc sizeof struct queue queue capac capac queue front queue size 0 queue rear capac 1 import see enqueu queue array int malloc queue capac sizeof int return queue queue full size becom equal capac int isful struct queue queue return queue size queue capac queue empti size 0 int isempti struct queue queue return queue size 0 function add item queue 
+chang rear size void enqueu struct queue queue int item isful queue return queue rear queue rear 1 queue capac queue array queue rear item queue size queue size 1 printf enqueu queue n item function remov item queue 
+chang front size int dequeu struct queue queue isempti queue return int_min int item queue array queue front queue front queue front 1 queue capac queue size queue size 1 return item function get front queue int front struct queue queue isempti queue return int_min return queue array queue front function get rear queue int rear struct queue queue isempti queue return int_min return queue array queue rear driver program test function int main struct queue queue createqueu 1000 enqueu queue 10 enqueu queue 20 enqueu queue 30 enqueu queue 40 printf dequeu queue n dequeu queue printf front item n front queue printf rear item n rear queue return 0 output 10 enqueu queue 20 enqueu queue 30 enqueu queue 40 enqueu queue 10 dequeu queue front item 20 rear item 40 time complex time complex oper like enqueu dequeu isful isempti front rear 1 
+loop oper 
+link list implement easier discuss queue set 2 link list implement pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

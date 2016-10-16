@@ -1,0 +1,48 @@
+
+C++ programming language allows both auto(or stack allocated) and dynamically allocated objects. In java & C#, all objects must be dynamically allocated using new. 
+C++ supports stack allocated objects for the reason of runtime efficiency. Stack based objects are implicitly managed by C++ compiler. They are destroyed when they go out of scope and dynamically allocated objects must be manually released, using delete operator otherwise memory leak occurs. C++ doesn’t support automatic garbage collection approach used by languages such as Java & C#.  
+How do we achieve following behavior from a class ‘Test’ in C++?
+
+Test* t = new Test; // should produce compile time error
+Test t;    // OK 
+The idea of is to keep new operator function private so that new cannot be called. See the following program. Objects of ‘Test’ class cannot be created using new as new operator function is private in ‘Test’. If we uncomment the 2nd line of main(), the program would produce compile time error. 
+
+#include <iostream>
+using namespace std;
+
+// Objects of Test can not be dynamically allocated
+class Test
+{
+    // Notice this, new operator function is private
+    void* operator new(size_t size);
+    int x;
+public:
+    Test()          { x = 9; cout << "Constructor is called\n"; }
+    void display()  { cout << "x = " << x << "\n";  }
+    ~Test()         { cout << "Destructor is executed\n"; }
+};
+
+int main()
+{
+    // Uncommenting following line would cause a compile time error.
+    // Test* obj=new Test();
+    Test t;          // Ok, object is allocated at compile time
+    t.display();
+    return 0;
+} // object goes out of scope, destructor will be called 
+Output:
+Constructor is called
+x = 9
+Destructor is executed
+Reference:
+Design and evolution of C++, Bjarne Stroustrup
+This article is contributed by Pravasi Meet. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

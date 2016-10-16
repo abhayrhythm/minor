@@ -1,0 +1,3 @@
+question given array posit number find maximum sum subsequ constraint 2 number sequenc adjac array 
+3 2 7 10 return 13 sum 3 10 3 2 5 10 7 return 15 sum 3 5 7 answer question effici way 
+strongli recommend click practic move solut 

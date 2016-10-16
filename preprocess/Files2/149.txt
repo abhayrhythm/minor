@@ -1,0 +1,21 @@
+given set n integ divid set two subset n 2 size differ sum two subset minimum possibl 
+n even size two subset must strictli n 2 n odd size one subset must n 1 2 size subset must n 1 2 
+exampl let given set 3 4 5 3 100 1 89 54 23 20 size set 10 output set 4 100 1 23 20 3 5 3 89 54 
+output subset size 5 sum element subset 148 148 
+let us consid anoth exampl n odd 
+let given set 23 45 34 12 0 98 99 4 189 1 4 
+output subset 45 34 12 98 1 23 0 99 4 189 4 
+sum element two subset 120 121 respect 
+follow solut tri everi possibl subset half size 
+one subset half size form remain element form subset 
+initi current set empti one one build 
+two possibl everi element either part current set part remain element subset 
+consid possibl everi element 
+size current set becom n 2 check whether solut better best solut avail far 
+updat best solut 
+follow c implement tug war problem 
+print requir array 
+includ iostream includ stdlib h includ limit h use namespac std function tri everi possibl solut call recurs void towutil int arr int n bool curr_el int no_of_selected_el bool soln int min_diff int sum int curr_sum int curr_posit check whether go bound curr_posit n return check number element left less number element requir form solut n 2 no_of_selected_el n curr_posit return consid case current element includ solut towutil arr n curr_el no_of_selected_el soln min_diff sum curr_sum curr_posit 1 add current element solut no_of_selected_el curr_sum curr_sum arr curr_posit curr_el curr_posit true check solut form no_of_selected_el n 2 check solut form better best solut far ab sum 2 curr_sum min_diff min_diff ab sum 2 curr_sum int 0 n soln curr_el els consid case current element includ solut towutil arr n curr_el no_of_selected_el soln min_diff sum curr_sum curr_posit 1 remov current element return caller function curr_el curr_posit fals main function gener arr void tugofwar int arr int n boolen array contain inclus exclus element current set 
+number exclud automat form set bool curr_el new bool n inclus exclus array final solut bool soln new bool n int min_diff int_max int sum 0 int 0 n sum arr curr_el soln fals find solut use recurs function towutil towutil arr n curr_el 0 soln min_diff sum 0 0 print solut cout first subset int 0 n soln true cout arr cout nthe second subset int 0 n soln fals cout arr driver program test function int main int arr 23 45 34 12 0 98 99 4 189 1 4 int n sizeof arr sizeof arr 0 tugofwar arr n return 0 output first subset 45 34 12 98 1 second subset 23 0 99 4 189 4 articl compil ashish anand review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,12 @@
+given two integ n sum find count n digit number sum digit sum 
+lead 0 count digit 
+1 n 100 1 sum 50000 exampl input n 2 sum 2 output 2 explan number 11 20 input n 2 sum 5 output 5 explan number 14 23 32 41 50 input n 3 sum 6 output 21 strongli recommend click practic move solut 
+idea simpl subtract valu 0 9 given sum recur sum minu digit 
+recurs formula 
+countrec n sum finalcount n 1 sum x 1 x 9 sum x 0 one import observ lead 0 must handl explicitli count digit 
+final count written 
+finalcount n sum finalcount n 1 sum x 0 x 9 sum x 0 simpl recurs solut base recurs formula 
+c recurs program count number sum digit given sum includ bit stdc h use namespac std recurs function count n digit number sum digit sum 
+function consid lead 0 also digit directli call unsign long long int countrec int n int sum base case n 0 return sum 0 initi answer unsign long long int an 0 travers everi digit count number begin use recurs int 0 9 sum 0 an countrec n 1 sum return an mainli wrapper countrec 
+explicitli handl lead digit call countrec remain digit 
+unsign long long int finalcount int n int sum initi final answer unsign long long int an 0 travers everi digit 1 9 count number begin int 1 9 sum 0 an countrec n 1 sum return an driver program int main int n 2 sum 5 cout finalcount n sum return 0 

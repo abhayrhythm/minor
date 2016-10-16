@@ -1,0 +1,13 @@
+discuss set 1 follow two main properti problem suggest given problem solv use dynam program 
+1 overlap subproblem 2 optim substructur alreadi discuss overlap subproblem properti set 1 let us discuss optim substructur properti 
+2 optim substructur given problem optim substructur properti optim solut given problem obtain use optim solut subproblem 
+exampl shortest path problem follow optim substructur properti node x lie shortest path sourc node u destin node v shortest path u v combin shortest path u x shortest path x v standard pair shortest path algorithm like floyd warshal bellman ford typic exampl dynam program 
+hand longest path problem optim substructur properti 
+longest path mean longest simpl path path without cycl two node 
+consid follow unweight graph given clr book 
+two longest path q q r q 
+unlik shortest path longest path optim substructur properti 
+exampl longest path q r combin longest path q r longest path r longest path q r q r 
+cover exampl problem futur post dynam program 
+pleas write comment find anyth incorrect want share inform topic discuss 
+refer http en wikipedia org wiki optimal_substructur clr book adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

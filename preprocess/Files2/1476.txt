@@ -1,0 +1,11 @@
+given array print subarray array sum 0 exampl input arr 6 3 1 3 4 2 2 4 6 12 7 output subarray found index 2 4 subarray found index 2 6 subarray found index 5 6 subarray found index 6 9 subarray found index 0 10 relat post find subarray 0 sum simpl solut consid subarray one one check sum everi subarray equal 0 
+complex solut would n 2 
+better approach use hash 
+follow element array maintain sum element encount far variabl say sum 
+current sum 0 found subarray start index 0 end index current index check current sum exist hash tabl 
+current sum exist hash tabl mean subarray present 0 sum end current index 
+insert current sum hash tabl c implement idea c program print subarray array sum 0 includ iostream includ unordered_map includ vector use namespac std function print subarray array sum 0 vector pair int int findsubarray int arr int n creat empti map unordered_map int vector int map creat empti vector pair store subarray start end index vector pair int int maintain sum element far int sum 0 int 0 n add current element sum sum arr sum 0 found subarray start index 0 end index sum 0 push_back make_pair 0 sum alreadi exist map exist least one subarray end index 0 sum map find sum map end map sum store start index subarray vector int vc map sum auto vc begin vc end push_back make_pair 1 import els map sum push_back return output vector return util function print subarray sum 0 void print vector pair int int auto begin end cout subarray found index first second endl driver code int main int arr 6 3 1 3 4 2 2 4 6 12 7 int n sizeof arr sizeof arr 0 vector pair int int findsubarray arr n find subarray 0 sum subarray exist size 0 cout subarray exist els print return 0 output subarray found index 2 4 subarray found index 2 6 subarray found index 5 6 subarray found index 6 9 subarray found index 0 10 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

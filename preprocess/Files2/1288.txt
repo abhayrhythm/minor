@@ -1,0 +1,19 @@
+given number n print n x n spiral matrix number 1 n x n clockwis direct use 1 space 
+input n 5 output 25 24 23 22 21 10 9 8 7 20 11 2 1 6 19 12 3 4 5 18 13 14 15 16 17 strongli recommend minim browser tri first 
+solut becom simpl extra space allow 
+alloc memori n x n matrix everi element start n n 1 start fill matrix spiral order 
+maintain spiral order four loop use top right bottom left corner matrix 
+solv 1 space 
+n x n matrix ceil n 2 squar cycl 
+cycl form ith row n 1 th column n 1 th row ith column vari 1 ceil n 2 
+25 24 23 22 21 10 9 8 7 20 11 2 1 6 19 12 3 4 5 18 13 14 15 16 17 first cycl form element first row last column last row first column mark red 
+first cycl consist element n n n 2 n 2 1 e 
+25 10 second cycl form element second row second last column second last row second column mark blue 
+second cycl consist element n 2 n 2 n 4 n 4 1 e 
+9 2 third cycl form element third row third last column third last row third column mark black 
+third cycl consist element n 4 n 4 1 e 
+1 idea squar cycl associ marker 
+outer cycl marker valu 0 second cycl valu 1 third cycl valu 2 gener n x n matrix th cycl marker valu 1 divid matrix two part upper right triangl mark orang lower left triangl mark green use marker x easili calcul valu present index j n x n spiral matrix use formula 25 24 23 22 21 10 9 8 7 20 11 2 1 6 19 12 3 4 5 18 13 14 15 16 17 upper right half mat j n 2 x n 2 x x j x lower left half mat j n 2 x 2 n 2 x 2 x j x c implement idea 
+c program print n x n spiral matrix clockwis direct use 1 space includ bit stdc h use namespac std print spiral matrix size n x n contain number 1 n x n void printspir int n int 0 n int j 0 j n j x store layer j th element lie int x find minimum four input x min min j min n 1 n 1 j upper right half j printf 2d n 2 x n 2 x x j x lower left half els printf 2d n 2 x 2 n 2 x 2 x j x printf n driver code int main int n 5 print n x n spiral matrix 1 space printspir n return 0 output 25 24 23 22 21 10 9 8 7 20 11 2 1 6 19 12 3 4 5 18 13 14 15 16 17 exercis given number n print n x n spiral matrix counter clockwis direct use 1 space 
+articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

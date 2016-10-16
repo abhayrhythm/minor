@@ -1,0 +1,68 @@
+
+Predict the output of below C++ programs. 
+Question 1
+
+// Assume that integers take 4 bytes.
+#include<iostream>
+
+using namespace std;   
+
+class Test
+{
+  static int i;
+  int j;
+};
+
+int Test::i;
+
+int main()
+{
+    cout << sizeof(Test);
+    return 0;
+}
+
+Output: 4 (size of integer)
+static data members do not contribute in size of an object.  So ‘i’ is not considered in size of Test. Also, all functions (static and non-static both) do not contribute in size.
+Question 2
+
+#include<iostream>
+
+using namespace std;
+class Base1 {
+ public:
+     Base1()
+     { cout << " Base1's constructor called" << endl;  }
+};
+
+class Base2 {
+ public:
+     Base2()
+     { cout << "Base2's constructor called" << endl;  }
+};
+
+class Derived: public Base1, public Base2 {
+   public:
+     Derived()
+     {  cout << "Derived's constructor called" << endl;  }
+};
+
+int main()
+{
+   Derived d;
+   return 0;
+}
+
+Ouput:
+Base1’s constructor called
+Base2’s constructor called
+Derived’s constructor called
+In case of Multiple Inheritance, constructors of base classes are always called in derivation order from left to right and Destructors are called in reverse order.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

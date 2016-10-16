@@ -1,0 +1,11 @@
+regular express sometim call ration express sequenc charact defin search pattern mainli use pattern match string string match e 
+find replac like oper wikipedia 
+regular express gener way match pattern sequenc charact 
+use everi program languag like c java python 
+regular express make import 
+regex use googl analyt url match support search replac popular editor like sublim notepad bracket googl doc microsoft word 
+exampl regular express email address za z0 9_ za z0 9_ 
+za z 2 5 regular express use check given set charact email address 
+write regular express 
+repeat symbol act repeat tell comput preced charact use one time 
+asterisk symbol tell comput match preced charact set charact 0 time upto infinit 

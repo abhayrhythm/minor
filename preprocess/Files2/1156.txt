@@ -1,0 +1,34 @@
+given unsort array posit neg element 
+find smallest posit number miss array n time use constant extra space 
+modifi origin array 
+exampl input 2 3 7 6 8 1 10 15 output 1 input 2 3 7 6 8 1 10 15 output 4 input 1 1 0 1 2 output 2 sourc find smallest posit miss unsort array naiv method solv problem search posit integ start 1 given array 
+may search n 1 number given array 
+solut take n 2 worst case 
+use sort solv lesser time complex 
+sort array nlogn time 
+array sort need linear scan array 
+approach take nlogn n time nlogn 
+also use hash 
+build hash tabl posit element given array 
+hash tabl built 
+look hash tabl posit integ start 1 soon find number hash tabl return 
+approach may take n time averag requir n extra space 
+n time 1 extra space solut idea similar post 
+use array element index 
+mark presenc element x chang valu index x neg 
+approach work non posit 0 number 
+segreg posit neg number first step appli approach 
+follow two step algorithm 
+1 segreg posit number other e move non posit number left side 
+follow code segreg function part 
+2 ignor non posit element consid part array contain posit element 
+travers array contain posit number mark presenc element x chang sign valu index x neg 
+travers array print first index posit valu 
+follow code findmissingposit function part 
+note findmissingposit subtract 1 valu index start 0 c program find smallest posit miss number includ stdio h includ stdlib h util swap integ void swap int int b int temp temp b b temp util function put non posit 0 neg number left side arr return count number int segreg int arr int size int j 0 0 size arr 0 swap arr arr j j increment count non posit integ return j find smallest posit miss number array contain posit integ int findmissingposit int arr int size int mark arr visit make arr arr 1 neg 
+note 1 subtract index start 0 posit number start 1 0 size ab arr 1 size arr ab arr 1 0 arr ab arr 1 arr ab arr 1 return first index valu posit 0 size arr 0 return 1 1 ad becuas index start 0 return size 1 find smallest posit miss number array contain posit neg integ int findmiss int arr int size first separ posit neg number int shift segreg arr size shift array call findmissingposit posit part return findmissingposit arr shift size shift int main int arr 0 10 2 10 20 int arr_siz sizeof arr sizeof arr 0 int miss findmiss arr arr_siz printf smallest posit miss number miss getchar return 0 output smallest posit miss number 1 note method modifi origin array 
+chang sign element segreg array get set element back 
+still loos order element 
+want keep origin array creat copi array run approach temp array 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

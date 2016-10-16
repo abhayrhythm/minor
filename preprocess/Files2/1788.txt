@@ -1,0 +1,52 @@
+given graph sourc vertex graph find shortest path sourc vertic given graph 
+dijkstra algorithm similar prim algorithm minimum span tree 
+like prim mst gener spt shortest path tree given sourc root 
+maintain two set one set contain vertic includ shortest path tree set includ vertic yet includ shortest path tree 
+everi step algorithm find vertex set set yet includ minimum distanc sourc 
+detail step use dijkstra algorithm find shortest path singl sourc vertex vertic given graph 
+algorithm 1 creat set sptset shortest path tree set keep track vertic includ shortest path tree e whose minimum distanc sourc calcul final 
+initi set empti 
+2 assign distanc valu vertic input graph 
+initi distanc valu infinit 
+assign distanc valu 0 sourc vertex pick first 
+3 sptset includ vertic pick vertex u sptsetand minimum distanc valu 
+b includ u sptset 
+c updat distanc valu adjac vertic u updat distanc valu iter adjac vertic 
+everi adjac vertex v sum distanc valu u sourc weight edg u v less distanc valu v updat distanc valu v let us understand follow exampl set sptseti initi empti distanc assign vertic 0 inf inf inf inf inf inf inf inf indic infinit 
+pick vertex minimum distanc valu 
+vertex 0 pick includ sptset 
+sptset becom 0 
+includ 0 sptset updat distanc valu adjac vertic 
+adjac vertic 0 1 7 distanc valu 1 7 updat 4 8 follow subgraph show vertic distanc valu vertic finit distanc valu shown 
+vertic includ spt shown green color 
+pick vertex minimum distanc valu alreadi includ spt sptset 
+vertex 1 pick ad sptset 
+sptset becom 0 1 
+updat distanc valu adjac vertic 1 distanc valu vertex 2 becom 12 pick vertex minimum distanc valu alreadi includ spt sptset 
+vertex 7 pick 
+sptset becom 0 1 7 
+updat distanc valu adjac vertic 7 distanc valu vertex 6 8 becom finit 15 9 respect 
+pick vertex minimum distanc valu alreadi includ spt sptset 
+vertex 6 pick 
+sptset becom 0 1 7 6 
+updat distanc valu adjac vertic 6 distanc valu vertex 5 8 updat 
+repeat step sptset includ vertic given graph 
+final get follow shortest path tree spt 
+implement algorithm 
+use boolean array sptset repres set vertic includ spt 
+valu sptset v true vertex v includ spt otherwis 
+array dist use store shortest distanc valu vertic 
+c c c c program dijkstra singl sourc shortest path algorithm 
+program adjac matrix represent graph includ stdio h includ limit h number vertic graph defin v 9 util function find vertex minimum distanc valu set vertic yet includ shortest path tree int mindist int dist bool sptset initi min valu int min int_max min_index int v 0 v v v sptset v fals dist v min min dist v min_index v return min_index util function print construct distanc array int printsolut int dist int n printf vertex distanc sourc n int 0 v printf n dist funtion implement dijkstra singl sourc shortest path algorithm graph repres use adjac matrix represent void dijkstra int graph v v int src int dist v output array 
+dist hold shortest distanc src bool sptset v sptset true vertex includ shortest path tree shortest distanc src final initi distanc infinit stpset fals int 0 v dist int_max sptset fals distanc sourc vertex alway 0 dist src 0 find shortest path vertic int count 0 count v 1 count pick minimum distanc vertex set vertic yet process 
+u alway equal src first iter 
+int u mindist dist sptset mark pick vertex process sptset u true updat dist valu adjac vertic pick vertex 
+int v 0 v v v updat dist v sptset edg u v total weight path src v u smaller current valu dist v sptset v graph u v dist u int_max dist u graph u v dist v dist v dist u graph u v print construct distanc array printsolut dist v driver program test function int main let us creat exampl graph discuss int graph v v 0 4 0 0 0 0 0 8 0 4 0 8 0 0 0 0 11 0 0 8 0 7 0 4 0 0 2 0 0 7 0 9 14 0 0 0 0 0 0 9 0 10 0 0 0 0 0 4 14 10 0 2 0 0 0 0 0 0 0 2 0 1 6 8 11 0 0 0 0 1 0 7 0 0 2 0 0 0 6 7 0 dijkstra graph 0 return 0 java java program dijkstra singl sourc shortest path algorithm 
+program adjac matrix represent graph import java util 
+import java lang 
+import java io 
+class shortestpath util function find vertex minimum distanc valu set vertic yet includ shortest path tree static final int v 9 int mindist int dist boolean sptset initi min valu int min integ max_valu min_index 1 int v 0 v v v sptset v fals dist v min min dist v min_index v return min_index util function print construct distanc array void printsolut int dist int n system println vertex distanc sourc int 0 v system println dist funtion implement dijkstra singl sourc shortest path algorithm graph repres use adjac matrix represent void dijkstra int graph int src int dist new int v output array 
+dist hold shortest distanc src sptset true vertex includ shortest path tree shortest distanc src final boolean sptset new boolean v initi distanc infinit stpset fals int 0 v dist integ max_valu sptset fals distanc sourc vertex alway 0 dist src 0 find shortest path vertic int count 0 count v 1 count pick minimum distanc vertex set vertic yet process 
+u alway equal src first iter 
+int u mindist dist sptset mark pick vertex process sptset u true updat dist valu adjac vertic pick vertex 
+int v 0 v v v updat dist v sptset edg u v total weight path src v u smaller current valu dist v sptset v graph u v 0 dist u integ max_valu dist u graph u v dist v dist v dist u graph u v print construct distanc array printsolut dist v driver method public static void main string arg let us creat exampl graph discuss int graph new int 0 4 0 0 0 0 0 8 0 4 0 8 0 0 0 0 11 0 0 8 0 7 0 4 0 0 2 0 0 7 0 9 14 0 0 0 0 0 0 9 0 10 0 0 0 0 0 4 14 10 0 2 0 0 0 0 0 0 0 2 0 1 6 8 11 0 0 0 0 1 0 7 0 0 2 0 0 0 6 7 0 shortestpath new shortestpath dijkstra graph 0 code contribut aakash hasija output 

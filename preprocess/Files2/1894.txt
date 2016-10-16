@@ -1,0 +1,6 @@
+given two array first array enough extra space accommod element second array 
+concaten second array first c without use loop program 
+exampl input arr1 5 1 2 3 arr2 4 5 output arr1 1 2 3 4 5 strongli recommend minim browser tri first 
+hint may use librari function c idea use memcpi memmov c arr1 size n arr2 size n function append content arr2 end arr1 void concaten int arr1 int arr2 int int n memcpi arr1 arr2 sizeof arr2 see complet run code 
+thank utkarsh trivedi suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,17 @@
+given bst transform greater sum tree node contain sum node greater node 
+strongli recommend minim gbrowser tri first 
+method 1 naiv method requir tree bst 
+follow step 
+1 travers node node inord preorder etc 
+2 node find node greater current node sum valu 
+store sum 
+3 replac node valu correspond sum travers order step 1 take n 2 time complex 
+method 2 use one travers leverag fact tree bst find n solut 
+idea travers bst revers inord 
+revers inord travers bst give us key decreas order 
+visit node visit greater node node 
+travers keep track sum key sum key greater key current node 
+c program transform bst sum tree includ iostream use namespac std bst node struct node int data struct node left right util function creat new binari tree node struct node newnod int item struct node temp new node temp data item temp left temp right null return temp recurs function transform bst sum tree 
+function travers tree revers inord visit greater key node current visit node void transformtreeutil struct node root int sum base case root null return recur right subtre transformtreeutil root right sum updat sum sum sum root data store old sum current node root data sum root data recur left subtre transformtreeutil root left sum wrapper transformtreeutil void transformtre struct node root int sum 0 initi sum transformtreeutil root sum util function print indord travers binari tree void printinord struct node root root null return printinord root left cout root data printinord root right driver program test function int main struct node root newnod 11 root left newnod 2 root right newnod 29 root left left newnod 1 root left right newnod 7 root right left newnod 15 root right right newnod 40 root right right left newnod 35 cout inord travers given tree n printinord root transformtre root cout n ninord travers transform tree n printinord root return 0 output inord travers given tree 1 2 7 11 15 29 35 40 inord travers transform tree 139 137 130 119 104 75 40 0 time complex method n simpl travers tree 
+articl contribut bhavana 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

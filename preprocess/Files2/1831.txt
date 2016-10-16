@@ -1,0 +1,30 @@
+given obfusc code gener map india explain work 
+follow code execut gener map india includ stdio h int main int b c b c 10 hello welcom geeksforgeek tfi qju roo tnn roo slq slq ulo uh ujq tnn rpn qpbews_jswqaijo nbelpehbfht tnalvlblofakhfoufetp hcsthaufagceaelclcn r r tzvyxxi pn spm son tnn ulo0ulo ulo w hq wf xdt 
+b 21 64 putchar c z 
+c c 9 33 b 1 return 0 code typic exampl obfusc code e 
+code difficult human understand 
+work 
+basic string run length encod map india 
+altern charact string store mani time draw space mani time draw exclam mark consecut 
+analysi differ element program encod string hello welcom geeksforgeek 
+tfi qju roo tnn roo slq slq ulo uh ujq tnn rpn qpbews_jswqaijo nbelpehbfht tnalvlbl ofakhfoufetphcsthaufagceaelclcn r r tzvyxxyt pn spm son tnn ulo0ulo ulo whq wf xdt 
+notic b 21 end encod string 
+b 21 equival b 21 evalu 31 10 21 first 31 charact string ignor contribut anyth 
+remain encod string contain instruct draw map 
+individu charact determin mani space exclam mark draw consecut 
+outer loop loop goe charact string 
+iter increas valu b one assign next charact string inner loop loop draw individu charact newlin whenev reach end line 
+consid putchar statement putchar c z 
+c c 9 33 b 1 z repres number 90 ascii 90 9 give us 10 newlin charact 
+decim 33 ascii 
+toggl low order bit 33 give 32 ascii space 
+caus 
+print b odd blank space print b even 
+less obfusc version code c program print map india includ stdio h int main int 10 b 0 c 10 encod string remov first 31 charact individu charact determin mani space exclam mark draw consecut 
+char str tfi qju roo tnn roo slq slq ulo uh ujq tnn rpn qpbews_jswqaijo nbelpehbfht tnalvlbl ofakhfoufetphcsthaufagceaelclcn r r tzvyxxyt pn spm son tnn ulo0ulo ulo whq wf xdt 
+0 read charact encod string str b 64 c 90 z 90 ascii reset c 10 end line reach c 10 n 10 ascii print newlin putchar n putchar c els draw appropri charact depend whether b even odd b 2 0 putchar 
+els putchar return 0 output refer http stackoverflow com question 3533348 code gener map india articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

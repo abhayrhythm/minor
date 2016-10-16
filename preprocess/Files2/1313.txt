@@ -1,0 +1,13 @@
+given matrix clockwis rotat element 
+exampl input 1 2 3 4 5 6 7 8 9 output 4 1 2 7 5 3 8 9 6 4 4 matrix input 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 output 5 1 2 3 9 10 6 4 13 11 7 8 14 15 16 12 strongli recommend minim browser tri first 
+idea use loop similar program print matrix spiral form 
+one one rotat ring element start outermost 
+rotat ring need follow 
+1 move element top row 
+2 move element last column 
+3 move element bottom row 
+4 move element first column 
+repeat step inner ring inner ring 
+implement idea 
+thank gaurav ahirwar suggest solut 
+c c c program rotat matrix includ bit stdc h defin r 4 defin c 4 use namespac std function rotat matrix mat size r x c initi r n c void rotatematrix int int n int mat r c int row 0 col 0 int prev curr row stare row index end row index col start column index n end column index iter row col n row 1 col 1 n break store first element next row element replac first element current row prev mat row 1 col move element first row remain row int col n curr mat row mat row prev prev curr row move element last column remain column int row curr mat n 1 mat n 1 prev prev curr n move element last row remain row row int n 1 col curr mat 1 mat 1 prev prev curr move element first column remain row col n int 1 row curr mat col mat col prev prev curr col print rotat matrix int 0 r int j 0 j c j cout mat j cout endl driver program test function int main test case 1 int r c 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 tese case 2 int r c 1 2 3 4 5 6 7 8 9 rotatematrix r c return 0 

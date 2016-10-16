@@ -1,0 +1,16 @@
+given array contain odd number occurr number except element present even number time 
+find element even occurr array n time complex 1 extra space 
+assum array contain element rang 0 63 exampl input 9 12 23 10 12 12 15 23 14 12 15 output 12 23 15 input 1 4 7 5 9 7 3 4 6 8 3 0 3 output 4 7 input 4 4 10 10 4 4 4 4 10 10 output 4 10 simpl method would travers array store frequenc element map 
+later print element even count map 
+solut take n time requir extra space store frequenc 
+interest method solv problem use bitwis oper 
+method assum long long integ store use 64 bit 
+idea use xor oper 
+know 1 xor 1 0 1 xor 0 1 0 xor 1 1 0 xor 0 0 consid input 1 4 7 5 9 7 3 4 6 8 3 0 3 right shift 1 valu element array take xor item get binari integ 1101101011 1 th index right repres odd occurr element 0 th index right repres even non occurr element array 
+0 present 2nd 4th 7th posit binari number 
+2 present array 
+answer 4 7 c implement idea c program find even occur element given array includ iostream use namespac std function find even occur element given array void printrepeatingeven int arr int n long long _xor 0l long long po element array int 0 n right po 1 valu current element po 1 arr toggl bit everytim element get repeat _xor po travers array use _xor find even occur element int 0 n right shift 1 valu current element po 1 arr 0 _xor repres even occurr 
+po _xor print even occur number cout arr set bit 1 avoid print duplic _xor po driver code int main int arr 9 12 23 10 12 12 15 23 14 12 15 int n sizeof arr sizeof arr 0 printrepeatingeven arr n return 0 output 12 23 15 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

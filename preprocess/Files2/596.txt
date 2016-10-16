@@ -1,0 +1,12 @@
+write code input two number n creat matrix size x n row n column everi element either x 0 xs 0s must fill altern matrix outermost rectangl xs rectangl 0s rectangl xs 
+exampl input 3 n 3 output follow matrix x x x x 0 x x x x input 4 n 5 output follow matrix x x x x x x 0 0 0 x x 0 0 0 x x x x x x input 5 n 5 output follow matrix x x x x x x 0 0 0 x x 0 x 0 x x 0 0 0 x x x x x x input 6 n 7 output follow matrix x x x x x x x x 0 0 0 0 0 x x 0 x x x 0 x x 0 x x x 0 x x 0 0 0 0 0 x x x x x x x x strongli recommend minim browser tri first 
+question ask campu recruit shreepartn gurgaon 
+follow follow approach 
+1 use code print matrix spiral form 
+2 instead print array insert element x 0 altern array 
+follow c implement approach 
+includ stdio h function print altern rectangl 0 x void fill0x int int n k start row index end row index l start column index n end column index iter int k 0 l 0 store given number row column later use int r c n 2d array store output print char n char x x iniiti charact sto fill charact spiral form 
+everi iter fill one rectangl either xs os k l n fill first row remain row l n k x k fill last column remain column k n 1 x n fill last row remain row k n 1 l 1 x print first column remain column l n 1 k l x l flip charact next iter x x 0 
+x 0 print fill matrix 0 r int j 0 j c j printf c j printf n driver program test function int main put output 5 n 6 fill0x 5 6 put noutput 4 n 4 fill0x 4 4 put noutput 3 n 4 fill0x 3 4 return 0 output output 5 n 6 x x x x x x x 0 0 0 0 x x 0 x x 0 x x 0 0 0 0 x x x x x x x output 4 n 4 x x x x x 0 0 x x 0 0 x x x x x output 3 n 4 x x x x x 0 0 x x x x x time complex mn auxiliari space mn pleas suggest someon better solut effici term space time 
+articl contribut deepak bisht 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

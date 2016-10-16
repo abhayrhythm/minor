@@ -1,0 +1,17 @@
+given integ array n integ find sum bit differ pair form array element 
+bit differ pair x count differ bit posit binari represent x exampl bit differ 2 7 2 binari represent 2 010 7 111 first last bit differ two number 
+exampl input arr 1 2 output 4 pair array 1 1 1 2 2 1 2 2 sum bit differ 0 2 2 0 4 input arr 1 3 5 output 8 pair array 1 1 1 3 1 5 3 1 3 3 3 5 5 1 5 3 5 5 sum bit differ 0 1 1 1 0 2 1 2 0 8 sourc googl interview question strongli recommend click practic move solut 
+simpl solut run two loop consid pair one one 
+everi pair count bit differ 
+final return sum count 
+time complex solut n2 
+effici solut solv problem n time use fact number repres use 32 bit fix number bit 
+idea count differ individu bit posit 
+travers 0 31 count number th bit set 
+let count count 
+would n count number th bit set 
+count differ th bit would count n count 2 
+c implement idea 
+c program comput sum pairwis bit differ includ bit stdc h use namespac std int sumbitdiffer int arr int n int an 0 initi result travers bit int 0 32 count number element th bit set int count 0 int j 0 j n j arr j 1 count add count n count 2 answer an count n count 2 return an driver prorgram int main int arr 1 3 5 int n sizeof arr sizeof arr 0 cout sumbitdiffer arr n endl return 0 output 8 thank gaurav ahirwar suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

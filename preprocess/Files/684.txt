@@ -1,0 +1,33 @@
+
+I have just entered my third year and Amazon was the first company to visit our campus for Software Internship. The process was :
+ONLINE ROUND
+2 Coding questions and 20 MCQs . The coding questions were:
+
+http://quiz.geeksforgeeks.org/lexicographically-minimum-string-rotation/
+It was an easy string question similar to finding that the parenthesis are balanced or not . Instead of the parenthesis , a and b were to be checked for , For eg )
+ababab is balanced ;Its a good string
+abbbaa is a bad string .
+
+I had practised MCQS from http://quiz.geeksforgeeks.org/quiz-corner/  and many of the MCQs I had seen here before that were asked in the test. Sorting, hashing, complexity, recursion based MCQs were asked .
+Also, 2 questions on OS , 1 on Networking and 1 on DBMS was present . I did not attempt these since there was negative marking . I solved around 14-15 MCQs and both the coding questions . (However, some students completing 1 were also selected .)
+ROUND 1
+1. http://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+2. Spiral level order traversal of a binary tree from bottom level to top level.( I was allowed to use extra space(O(n)) .)
+ROUND 2
+This round was easier than the previous one for me and went smooth .
+
+Set the rows and columns of a matrix equal to zero if an element in that row or column is zero (The elements could be positive or negative too ). I told him the solution using O(n) space . He then asked me to do it without the auxillary space and I told him that it was not possible . (A solution without space could be given if all the elements were either non-negative or non-positive )
+Merge k sorted linked lists . I discussed the approach using priority queue . Then he proposed another method of merging two lists into one and then merging it with the next . I explained him the complexities of both the approaches and then wrote the code for priority queue approach . He was impressed.
+
+I would like to thank GeeksforGeeks for providing a huge set of problems for practicing for interviews. The internship archives were extremely helpful . Also I practiced on http://www.practice.geeksforgeeks.org/ and interviewbit regularly in the summer break.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

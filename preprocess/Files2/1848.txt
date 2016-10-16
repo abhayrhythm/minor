@@ -1,0 +1,11 @@
+instanc need return multipl valu may differ data type solv problem 
+one method use pointer structur global variabl alreadi discuss anoth interest method without use method use tupl return multipl valu pair two valu 
+declar function return type pair tupl whichev requir pack valu return return pack set valu 
+return valu unpack call function 
+tupl tupl object capabl hold collect element element differ type 
+class templat std tupl fix size collect heterogen valu pair class coupl togeth pair valu may differ type pair specif case std tupl two element note tupl also use return two valu instead use pair 
+includ bit stdc h use namespac std method return multipl valu use tupl c 
+tupl int int char foo int n1 int n2 pack valu return tupl return make_tupl n2 n1 method return pair valu use pair std pair int int foo1 int num1 int num2 pack two valu return pair return std make_pair num2 num1 int main int b char cc unpack element return foo tie b cc foo 5 10 store return valu pair pair int int p foo1 5 2 cout valu return tupl cout b cc endl cout valu return pair cout p first p second return 0 output valu return tupl 10 5 valu return pair 2 5 articl contribut mayank rawat 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

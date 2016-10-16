@@ -1,0 +1,41 @@
+greedi algorithm paradigm build solut piec piec alway choos next piec offer obviou immedi benefit 
+greedi algorithm use optim problem 
+optim problem solv use greedi problem follow properti everi step make choic look best moment get optim solut complet problem 
+greedi algorithm solv problem gener becom best method solv problem greedi algorithm gener effici techniqu like dynam program 
+greedi algorithm cannot alway appli 
+exampl fraction knapsack problem see solv use greedi 0 1 knapsack cannot solv use greedi 
+follow standard algorithm greedi algorithm 
+1 kruskal minimum span tree mst kruskal algorithm creat mst pick edg one one 
+greedi choic pick smallest weight edg caus cycl mst construct far 
+2 prim minimum span tree prim algorithm also creat mst pick edg one one 
+maintain two set set vertic alreadi includ mst set vertic yet includ 
+greedi choic pick smallest weight edg connect two set 
+3 dijkstra shortest path dijkstra algorithm similar prim algorithm 
+shortest path tree built edg edg 
+maintain two set set vertic alreadi includ tree set vertic yet includ 
+greedi choic pick edg connect two set smallest weight path sourc set contain yet includ vertic 
+4 huffman code huffman code loss less compress techniqu 
+assign variabl length bit code differ charact 
+greedi choic assign least bit length code frequent charact 
+greedi algorithm sometim also use get approxim hard optim problem 
+exampl travel salesman problem np hard problem 
+greedi choic problem pick nearest unvisit citi current citi everi step 
+solut alway produc best optim solut use get approxim optim solut 
+let us consid activ select problem first exampl greedi algorithm 
+follow problem statement 
+given n activ start finish time 
+select maximum number activ perform singl person assum person work singl activ time 
+exampl consid follow 6 activ 
+start 1 3 0 5 8 5 finish 2 4 6 7 9 9 maximum set activ execut singl person 0 1 3 4 strongli recommend click practic move solut 
+greedi choic alway pick next activ whose finish time least among remain activ start time equal finish time previous select activ 
+sort activ accord finish time alway consid next activ minimum finish time activ 
+1 sort activ accord finish time 2 select first activ sort array print 
+3 follow remain activ sort array 
+start time activ greater finish time previous select activ select activ print 
+follow c implement assum activ alreadi sort accord finish time 
+c includ stdio h print maximum set activ done singl person one time 
+n total number activ array contain start time activ f array contain finish time activ void printmaxact int int f int n int j printf follow activ select n first activ alway get select 0 printf consid rest activ j 1 j n j activ start time greater equal finish time previous select activ select j f printf j j driver program test function int main int 1 3 0 5 8 5 int f 2 4 6 7 9 9 int n sizeof sizeof 0 printmaxact f n getchar return 0 java import java util 
+import java lang 
+import java io 
+class activityselect print maximum set activ done singl person one time 
+n total number activ array contain start time activ f array contain finish time activ public static void printmaxact int int f int n int j system print follow activ select n first activ alway get select 0 system print consid rest activ j 1 j n j activ start time greater equal finish time previous select activ select j f system print j j driver program test function public static void main string arg int 1 3 0 5 8 5 int f 2 4 6 7 9 9 int n length printmaxact f n python follow implement assum activ alreadi sort accord finish time print maximum set activ done singl person one time n total number activ array contain start time activ f array conatin finish time activ def printmaxact f n len f print follow activ select first activ alway select 0 print consid rest activ j xrang n activ start time greater equal finish time previous select activ select j f print j j driver program test function 1 3 0 5 8 5 f 2 4 6 7 9 9 printmaxact f code contribut nikhil kumar singh output 

@@ -1,0 +1,43 @@
+socket program python user friendli compar c programm need worri minut detail regard socket 
+python user chanc focus applic layer rather network layer 
+tutori would develop simpl multi thread proxi server capabl handl http traffic 
+would mostli base basic socket program idea 
+sure basic would recommend brush go tutori 
+naiv implement proxi server 
+would gradual develop quit use server upcom tutori 
+begin would achiev process 3 easi step 1 creat incom socket creat socket serversocket __init__ method server class 
+creat socket incom connect 
+bind socket wait client connect 
+def __init__ self config shutdown ctrl c signal signal signal sigint self shutdown creat tcp socket self serversocket socket socket socket af_inet socket sock_stream use socket self serversocket setsockopt socket sol_socket socket so_reuseaddr 1 bind socket public host port self serversocket bind config host_nam config bind_port self serversocket listen 10 becom server socket self __client 2 accept client process easiest yet import step 
+wait client connect request success connect made dispatch request separ thread make avail next request 
+allow us handl multipl request simultan boost perform server multifold time 
+true establish connect clientsocket client_address self serversocket accept thread thread name self _getclientnam client_address target self proxy_thread arg clientsocket client_address setdaemon true start 3 redirect traffic main featur proxi server act intermedi sourc destin 
+would fetch data sourc pass client 
+first extract url receiv request data 
+get request browser request conn recv config max_request_len pars first line first_lin request split n 0 get url url first_lin split 1 find destin address request 
+address tupl destination_ip_address destination_port_no 
+receiv data address 
+http_po url find find po http_po 1 temp url els temp url http_po 3 get rest url port_po temp find find port po find end web server webserver_po temp find webserver_po 1 webserver_po len temp webserv port 1 port_po 1 webserver_po port_po default port port 80 webserv temp webserver_po els specif port port int temp port_po 1 webserver_po port_po 1 webserv temp port_po setup new connect destin server remot server send copi origin request server 
+server respond respons 
+respons messag use gener messag format rfc 822 socket socket socket af_inet socket sock_stream settimeout config connection_timeout connect webserv port sendal request redirect server respons client 
+conn origin connect client 
+respons may bigger max_request_len receiv one call null respons mark end respons 
+1 receiv data web server data recv config max_request_len len data 0 conn send data send browser client els break close server connect appropri error handl make sure server work expect 
+test server 
+1 run server termin 
+keep run switch favorit browser 
+2 go browser proxi set chang proxi server localhost port 12345 
+3 open http websit http eg 
+geeksforgeek org volla 
+abl access content browser 
+server run monitor request come client 
+use data monitor content go develop statist base content 
+even restrict access websit blacklist ip address 
+would deal featur upcom tutori 
+next 
+would ad follow featur proxi server upcom tutori 
+blacklist domain content monitor log http webserv proxyserv whole work sourc code tutori avail creat proxi webserv python set 2 question comment feel free post comment section 
+author pinkesh badjatiya hail iiit hyderabad geek heart ampl project worth look 
+project work seen 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

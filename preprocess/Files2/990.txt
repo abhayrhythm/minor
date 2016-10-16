@@ -1,0 +1,15 @@
+itoa function convert integ null termin string 
+convert neg number 
+standard definit itoa function give char itoa int num char buffer int base third paramet base specifi convers base 
+exampl base 2 convert integ binari compat string base 16 creat hexadecim convert string form integ number 
+base 10 valu neg result string preced minu sign 
+base valu alway consid unsign 
+refer http www cplusplu com refer cstdlib itoa kw itoa exampl itoa 1567 str 10 return string 1567 itoa 1567 str 10 return string 1567 itoa 1567 str 2 return string 11000011111 itoa 1567 str 16 return string 61f individu digit given number must process correspond charact must put given string 
+use repeat divis given base get individu digit least signific signific digit 
+output digit need revers order 
+therefor revers string obtain repeat divis return 
+c program implement itoa includ iostream use namespac std util function revers string void revers char str int length int start 0 int end length 1 start end swap str start str end start end implement itoa char itoa int num char str int base int 0 bool isneg fals handl 0 explicit otherwis empti string print 0 num 0 str 0 str 0 return str standard itoa neg number handl base 10 otherwis number consid unsign 
+num 0 base 10 isneg true num num process individu digit num 0 int rem num base str rem 9 
+rem 10 rem 0 num num base number neg append isneg str str 0 append string termin revers string revers str return str driver program test implement itoa int main char str 100 cout base 10 itoa 1567 str 10 endl cout base 10 itoa 1567 str 10 endl cout base 2 itoa 1567 str 2 endl cout base 8 itoa 1567 str 8 endl cout base 16 itoa 1567 str 16 endl return 0 output base 10 1567 base 10 1567 base 2 11000011111 base 8 3037 base 16 61f articl contribut neha mahajan 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

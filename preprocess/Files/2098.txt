@@ -1,0 +1,29 @@
+
+In C, a string can be referred either using a character pointer or as a character array. 
+Strings as character arrays
+
+char str[4] = "GfG"; /*One extra for string terminator*/
+/*    OR    */
+char str[4] = {‘G’, ‘f’, ‘G’, '\0'}; /* '\0' is string terminator */
+
+When strings are declared as character arrays, they are stored like other types of arrays in C. For example, if str[] is an auto variable then string is stored in stack segment, if it’s a global or static variable then stored in data segment, etc.
+Strings using character pointers
+Using character pointer strings can be stored in two ways:
+1) Read only string in a shared segment.
+When string value is directly assigned to a pointer, in most of the compilers, it’s stored in a read only block (generally in data segment) that is shared among functions.  
+  
+  char *str  =  "GfG";  
+
+In the above line “GfG” is stored in a shared read only location, but pointer str is stored in a read-write memory. You can change str to point something else but cannot change value at present str. So this kind of string should only be used when we don’t want to modify string at a later stage in program.
+2) Dynamically allocated in heap segment.
+Strings are stored like other dynamically allocated things in C and can be shared among functions.
+
+  char *str;
+  int size = 4; /*one extra for ‘\0’*/
+  str = (char *)malloc(sizeof(char)*size);
+  *(str+0) = 'G'; 
+  *(str+1) = 'f';  
+  *(str+2) = 'G';  
+  *(str+3) = '\0';  
+
+ 

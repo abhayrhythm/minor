@@ -1,0 +1,47 @@
+follow explan c code coin detect c use tool opencv 
+thing know code compil linux environ 
+run window pleas use file coin run cmd 
+howev run problem system architectur compil window make suitabl obviou chang code like use place 
+compil command g w coin cpp coin exe pkg config lib opencv run command coin imag contain coin coin directori code 
+run code pleas make sure opencv instal system 
+code snippet explain includ opencv2 highgui highgui hpp highgui interfac video imag captur 
+includ opencv2 imgproc imgproc hpp imgproc imag process modul linear non linear imag filter geometr imag transform color space convers 
+includ iostream includ stdio h header file perform input output 
+use namespac cv namespac c opencv function resid 
+use namespac std input output oper 
+int main mat imag mat object basic imag contain 
+imag object mat 
+imag imread img 20160425 wa0002 jpg cv_load_image_grayscal take imag make sure folder 
+first argument denot imag load 
+second argument specifi imag format follow cv_load_image_unchang 0 load imag 
+cv_load_image_grayscal 0 load imag gray scale 
+cv_load_image_color 0 load imag bgr format 
+second argument impli cv_load_image_color 
+vector coin vector data type store detail coin 
+houghcircl imag coin cv_hough_gradi 2 20 450 60 0 0 argument 1 input imag mode argument 2 vector store 3 valu x r circl 
+argument 3 cv_hough_gradi detect method 
+argument 4 invers ratio resolut 
+argument 5 minimum distanc center 
+argument 6 upper threshold canni edg detector 
+argument 7 threshold center detect 
+argument 8 minimum radiu detect 
+put zero default argument 9 maximum radiu detect 
+put zero default int l coin size get number coin 
+cout n number coin l n n draw detect circl 
+size_t 0 coin size point center cvround coin 0 cvround coin 1 detect center cvround round float point number nearest integ 
+int radiu cvround coin 2 get radiu second argument vector coin 
+circl imag center 3 scalar 0 255 0 1 8 0 circl center get circl outlin 
+circl imag center radiu scalar 0 0 255 3 8 0 circl outlin cout center locat circl 1 center n diamet 2 radiu n cout n namedwindow coin counter cv_window_autos creat window call a_good_nam 
+first argument name window 
+second argument flag type window_norm user resiz window 
+window_autos window size automat adjust fit display imag cannot chang window size manual 
+window_opengl window creat opengl support 
+imshow coin counter imag first argument name window second argument imag shown mat object waitkey 0 wait infinit time key press 
+return 0 return main function 
+end explan 
+author aditya prakash undergradu student indian institut inform technolog vadodara 
+primarili code c 
+motto far good 
+play cricket watch superhero movi footbal big fan answer question 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

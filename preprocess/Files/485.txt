@@ -1,0 +1,3 @@
+
+We strongly recommend to refer below post as a prerequisite of this.
+http://quiz.geeksforgeeks.org/hashing-set-1-introduction/

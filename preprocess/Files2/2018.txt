@@ -1,0 +1,17 @@
+c follow function declar cannot overload 
+1 function declar differ return type 
+exampl follow program fail compil 
+includ iostream int foo return 10 char foo return int main char x foo getchar return 0 2 member function declar name name paramet type list cannot overload static member function declar 
+exampl follow program fail compil 
+includ iostream class test static void fun int void fun int int main test getchar return 0 3 paramet declar differ pointer versu array equival 
+array declar adjust becom pointer declar 
+second subsequ array dimens signific paramet type 
+exampl follow two function declar equival 
+int fun int ptr int fun int ptr redeclar fun int ptr 4 paramet declar differ one function type pointer function type equival 
+void h int void h int redeclar h int 5 paramet declar differ presenc absenc const volatil equival 
+const volatil type specifi paramet type ignor determin function declar defin call 
+exampl follow program fail compil error redefinit int f int exampl includ iostream includ stdio h use namespac std int f int x return x 10 int f const int x return x 10 int main getchar return 0 const volatil type specifi outermost level paramet type specif ignor fashion const volatil type specifi buri within paramet type specif signific use distinguish overload function declar 
+particular type pointer pointer const pointer volatil consid distinct paramet type refer refer const refer volatil exampl see exampl comment post venki 
+6 two paramet declar differ default argument equival 
+exampl follow program fail compil error redefinit int f int int includ iostream includ stdio h use namespac std int f int x int return x 10 int f int x int 10 return x int main getchar return 0 refer http www open std org jtc1 sc22 wg21 doc paper 2005 n1905 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

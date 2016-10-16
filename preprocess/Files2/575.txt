@@ -1,0 +1,8 @@
+given list n 1 integ integ rang 1 n duplic list 
+one integ miss list 
+write effici code find miss integ 
+exampl p 1 2 4 6 3 7 8 p 5 method 1 use sum formula algorithm 1 get sum number total n n 1 2 2 subtract number sum get miss number 
+includ stdio h getmissingno take array size array argument int getmissingno int int n int total total n 1 n 2 2 0 n total return total program test function int main int 1 2 4 5 6 int miss getmissingno 5 printf miss getchar time complex n overflow n larg 
+order avoid integ overflow pick one number known number subtract one number given number 
+way wont integ overflow ever 
+thank sahil ralli suggest improv 

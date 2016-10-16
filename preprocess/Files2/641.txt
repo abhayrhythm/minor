@@ -1,0 +1,46 @@
+interview 1 interview began ask solv 6 question see imag first interview ask solv q4 replac space 20 q6 nth node end link list 
+discuss detail project previou employ 
+ask question q1 dynam program set 21 variat li geeksforgeek 1 build bridg consid 2 map horizont river pass center 
+n citi southern bank x coordin 1 n n citi northern bank x coordin b 1 b n 
+want connect mani north south pair citi possibl bridg two bridg cross 
+connect citi connect citi northern bank citi southern bank 
+q2 write c program print permut given string geeksforgeek print permut string q3 given arriv departur time variou train station 
+calcul minimum number platform requir train wait anoth train vacat platform 
+question basic mean calcul maximum number train would present platform given time 
+answer sort arriv time sort departur time keep count initi 0 compar first element arriv time first departur increas valu count valu current index arriv less valu index departur increment arriv index vice versa 
+keep maximum count see 
+round 2 q1 given x z coordin billion star basic entir array fit ram calcul k closest 
+answer use max heap contain k minimum distanc 
+time n log k question chang sever comput combin fit entir set star solv 
+answer use select algo similar step 1 quick sort find k closest star comput 
+time n use k comput find minimum k one way sort individu 
+creat min heap calcul k minimum 
+k 2 log k q2 symmetr tree mirror imag geeksforgeek check tree mirror question extend n ari tree 
+answer pleas read link read answer creat n ari tree like struct node int data vector struct node child number children node nodenam child size use compar first child node last child 2nd 2nd last follow step written http www geeksforgeek org symmetr tree tree mirror imag round 3 q1 write c code evalu express tree 
+answer done post order travers method sinc valu left subtre independ right subtre 
+q2 articul point cut vertic graph geeksforgeek check articul point q3 given stream number like 1 3 5 4 6 9 print 1 3 6 9 answer creat hash map contain valu end index previou sequenc 
+exampl get 1 3 5 hash map 1 0 3 1 5 2 key number valu index occur 
+get 4 check index 3 5 
+one one valu 3 1 4 index 3 pair 
+check 5 
+5 index 2 4 3 sinc togeth pair 
+1 0 3 1 5 2 3 4 2 3 check 3 3 index 1 4 index 2 3 match 1 0 3 1 3 5 1 3 4 1 3 go 
+think answer question way ask seem ok answer gave 
+next modifi includ distribut system 
+ask sever system receiv input round robin manner would implement algorithm 
+idea 
+round 3 call amazon told first two round posit round 3 
+round 3 hire manag round happi littl idea raid standard raid level wikipedia free encyclopedia anoth hire manag round 
+round 4 http www geeksforgeek org find pair given sum bst find pair given sum bst question happen round 3 want leav current firm 
+round 5 bar raiser question like 1 tell time differ opinion rest team 
+2 tell time think problem someth els turn someth els 3 tell time opinion discard 
+4 tell time work short notic 
+code question 1 given form pack 6 9 20 pen 
+given number x calcul form combin pack form mani pen 
+eg 24 pen form 2 pack 9 pen 1 6 23 pen form 
+answer dynam program recurs function dp dp 6 dp 9 dp 20 2 design escal system 
+class would make etc 
+round 5 find cultur fit conduct round 6 round 6 question like tell someth time help someon time share differ opinion manag 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

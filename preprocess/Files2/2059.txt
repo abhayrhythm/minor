@@ -1,0 +1,7 @@
+c c comma last oper preced tabl 
+comma care use right side assign express 
+exampl one might expect output b 10 program 
+program print b 20 assign higher preced comma statement b 20 becom equival b 20 
+includ stdio h int main int 10 b b 20 b 20 printf b b getchar return 0 put bracket comma make b 10 
+includ stdio h int main int 10 b b 20 b printf b b getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

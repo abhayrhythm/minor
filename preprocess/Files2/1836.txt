@@ -1,0 +1,18 @@
+case array much choic copi array iter method e run loop copi element respect index 
+vector class one method copi entir vector easier way basic two type copi method 1 iter method 
+method gener method copi method loop use push_back old vector element new vector deepli copi c code demonstr copi vector iter method 
+includ iostream includ vector use namespac std int main initi vector valu vector int vect1 1 2 3 4 declar new vector vector int vect2 loop copi element old vector new vector iter method int 0 vect1 size vect2 push_back vect1 cout old vector element int 0 vect1 size cout vect1 cout endl cout new vector element int 0 vect2 size cout vect2 cout endl chang valu vector show new copi creat 
+vect1 0 2 cout first element old vector cout vect1 0 endl cout first element new vector cout vect2 0 endl return 0 output old vector element 1 2 3 4 new vector element 1 2 3 4 first element old vector 2 first element new vector 1 code chang valu one vector alter valu vector henc alloc address henc deep copi 
+method 2 assign oper 
+simpli assign new vector old one copi vector 
+way assign possibl case array 
+c code demonstr copi vector iter method 
+includ iostream includ vector use namespac std int main initi vector valu vector int vect1 1 2 3 4 declar new vector vector int vect2 use assign oper copi one vector vect2 vect1 cout old vector element int 0 vect1 size cout vect1 cout endl cout new vector element int 0 vect2 size cout vect2 cout endl chang valu vector show new copi creat 
+vect1 0 2 cout first element old vector cout vect1 0 endl cout first element new vector cout vect2 0 endl return 0 output old vector element 1 2 3 4 new vector element 1 2 3 4 first element old vector 2 first element new vector 1 method 3 pass vector constructor 
+time declar vector pass old initi vector copi element pass vector newli declar vector 
+deepli copi 
+c code demonstr copi vector constructor method 
+includ bit stdc h use namespac std int main initi vector valu vector int vect1 1 2 3 4 declar new vector copi element old vector constructor method deep copi vector int vect2 vect1 cout old vector element int 0 vect1 size cout vect1 cout endl cout new vector element int 0 vect2 size cout vect2 cout endl chang valu vector show new copi creat 
+vect1 0 2 cout first element old vector cout vect1 0 endl cout first element new vector cout vect2 0 endl return 0 output old vector element 1 2 3 4 new vector element 1 2 3 4 first element old vector 2 first element new vector 1 method 4 use inbuilt function copi first_iterator_o last_iterator_o back_insert anoth way copi old vector new one 
+function take 3 argument first first iter old vector second last iter old vector third back_insert function insert valu back 
+also gener deep copi 

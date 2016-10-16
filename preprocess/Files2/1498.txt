@@ -1,0 +1,16 @@
+given array integ find length longest subarray contain number arrang continu sequenc 
+previou post discuss solut assum element given array distinct 
+discuss solut work even input array duplic 
+exampl input arr cc output length longest contigu subarray 4 input arr 10 12 12 10 10 11 10 output length longest contigu subarray 2 strongli recommend minim browser tri first 
+idea similar previou post 
+previou post check whether maximum valu minu minimum valu equal end index minu start index 
+sinc duplic element allow also need check subarray contain duplic element 
+exampl array 12 14 12 follow first properti number contigu element 
+check duplic element subarray creat hash set everi subarray find element alreadi hash consid current subarray 
+follow java implement idea 
+java program find length largest subarray contigu element import java util 
+class main function print distinct element static int findlength int arr int n arr length int max_len 1 inial result one one fix start point int 0 n 1 creat empti hash set add th element 
+hashset integ set new hashset set add arr initi max min current subarray int mn arr mx arr one one fix end point int j 1 j n j current element alreadi hash set subarray cannot contain contigu element set contain arr j break els add curremt element hash set updat min max requir 
+set add arr j mn math min mn arr j mx math max mx arr j alreadi chech duplic check properti updat max_len need mx mn j max_len math max max_len mx mn 1 return max_len return result driver method test method public static void main string arg int arr 10 12 12 10 10 11 10 system println length longest contigu subarray findlength arr output length longest contigu subarray 2 time complex solut n2 assumpt hash set oper like add contain work 1 time 
+articl contribut arjun 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

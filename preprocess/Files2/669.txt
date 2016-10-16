@@ -1,0 +1,70 @@
+elig criteria cgpa 7 5 histori arrear round 1 technic test 1 hour 30 min onlin test held hackerrank consist 20 mcq 2 code question 
+code question 1 find next greater number set digit code question 2 merg two sort array 1 extra space mcq pretti simpl straight forward 
+5 question gener aptitud like probabl permut combinator 
+rest question data structur algorithm c c output question 
+read geekquiz help lot 
+around 300 student took test 21 shortlist 
+also one 
+interview follow day 
+face face interview 1 1 hour interview ask introduc 
+gave introduct went straight question 
+question 1 program check binari tree bst given binari tree need check binari search tree 
+wrote follow function bool isbst node root ask could modifi function templat includ min max valu 
+said modifi function templat 
+gave approach describ 
+review solut ask explain exampl 
+drew small tree explain 
+satisfi move next question 
+question 2 maximum sum two element adjac given array posit neg number find maximum sum array two element adjac 
+question found 
+soon gave question said dynam program problem 
+ask write code 
+wrote code use dp array size n size array gave top approach 
+thoroughli check code could handl corner test case 
+ask run code array size 1 2 explain 
+satisfi move next question 
+question 3 find given word matrix charact 
+given nxm matrix string check string part matrix 
+move top left right bottom given cell 
+question similar 
+initi give question said use depth first search 
+gave case work ask modifi approach 
+said bf ask write code 
+wrote code handl edg condit 
+miss visit array part 
+read code gave case would run infinit loop 
+found miss said includ visit array 
+satisfi ask add part code 
+interview 
+ask question 
+ask question done 
+21 student 12 student select second interview 
+fortun also select 
+face face interview 2 1 hour interview read resum ask introduc 
+gave introduct went question 
+question 1 count possibl decod given digit sequenc let 1 repres 2 repres b etc 
+given digit sequenc count number possibl decod given digit sequenc 
+question found 
+gave approach use dynam program 
+ask reduc space complex 
+gave approach like find nth fibonacci number 
+satisfi 
+ask gener possibl decod instead count 
+gave approach use backtrack satisfi 
+question 2 identifi class requir play chess game 
+like gener question 
+said four class like piec board clock player game 
+ask identifi attribut function class interact 
+told 
+satisfi 
+final ask question 
+ask question done 
+interview 
+gener tip nervou speak interview 
+think long time 
+speak thought help go wrong 
+prepar geeksforgeek help lot 
+best luck 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

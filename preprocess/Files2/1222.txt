@@ -1,0 +1,18 @@
+two string str1 str2 call isomorph one one map possibl everi charact str1 everi charact str2 
+occurr everi charact str1 map charact str2 exampl input str1 aab str2 xxi output true map x b map 
+input str1 aab str2 xyz output fals one occurr str1 x str2 occurr 
+strongli recommend click practic move solut 
+simpl solut consid everi charact str1 check occurr map charact str2 
+time complex solut n n 
+effici solut solv problem n time 
+idea creat array store map process charact 
+1 length str1 str2 return fals 
+2 follow everi charact str1 str2 charact seen first time str1 current str2 must appear 
+current charact str2 seen return fals 
+mark current charact str2 visit 
+ii store map current charact 
+b els check previou occurr str1 map charact 
+c python implement algorithm 
+c c program check two string isomorph includ bit stdc h use namespac std defin max_char 256 function return true str1 str2 ismorph bool areisomorph string str1 string str2 int str1 length n str2 length length string must one one correspon n return fals mark visit charact str2 bool mark max_char fals store map everi charact str1 str2 
+initi entri map 1 int map max_char memset map 1 sizeof map process charact one int 0 n current charact str1 seen first time 
+map str1 1 current charact str2 alreadi seen one one map possibl mark str2 true return fals mark current charact str2 visit mark str2 true store map current charact map str1 str2 first appear current charact str1 check previou appear map charact str2 els map str1 str2 return fals return true driver program int main cout areisomorph aab xxi endl cout areisomorph aab xyz endl return 0 

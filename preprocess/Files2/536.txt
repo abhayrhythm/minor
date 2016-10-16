@@ -1,0 +1,50 @@
+avl tree self balanc binari search tree bst differ height left right subtre cannot one node 
+avl tree 
+bst oper e g search max min insert delet etc take h time h height bst 
+cost oper may becom n skew binari tree 
+make sure height tree remain logn everi insert delet guarante upper bound logn oper 
+height avl tree alway logn n number node tree see video lectur proof 
+insert make sure given tree remain avl everi insert must augment standard bst insert oper perform balanc 
+follow two basic oper perform balanc bst without violat bst properti key left key root key right 
+1 left rotat 2 right rotat t1 t2 t3 subtre tree root left side x right side x right rotat x t3 t1 t1 t2 left rotat t2 t3 key tree follow follow order key t1 key x key t2 key key t3 bst properti violat anywher 
+step follow insert let newli insert node w 1 perform standard bst insert w 2 start w travel find first unbalanc node 
+let z first unbalanc node child z come path w z x grandchild z come path w z 
+3 balanc tree perform appropri rotat subtre root z 4 possibl case need handl x z arrang 4 way 
+follow possibl 4 arrang left child z x left child left left case b left child z x right child left right case c right child z x right child right right case right child z x left child right left case follow oper perform mention 4 case 
+case need balanc subtre root z complet tree becom balanc height subtre appropri rotat root z becom insert 
+see video lectur proof left left case t1 t2 t3 t4 subtre 
+z t4 right rotat z x z x t3 t1 t2 t3 t4 t1 t2 b left right case z z x t4 left rotat x t4 right rotat z z t1 x t3 t1 t2 t3 t4 t2 t3 t1 t2 c right right case z t1 left rotat z z x t2 x t1 t2 t3 t4 t3 t4 right left case z z x t1 right rotat t1 x left rotat z z x t4 t2 t1 t2 t3 t4 t2 t3 t3 t4 implement follow implement avl tree insert 
+follow implement use recurs bst insert insert new node 
+recurs bst insert insert get pointer ancestor one one bottom manner 
+need parent pointer travel 
+recurs code travel visit ancestor newli insert node 
+1 perform normal bst insert 
+2 current node must one ancestor newli insert node 
+updat height current node 
+3 get balanc factor left subtre height right subtre height current node 
+4 balanc factor greater 1 current node unbalanc either left left case left right case 
+check whether left left case compar newli insert key key left subtre root 
+5 balanc factor less 1 current node unbalanc either right right case right left case 
+check whether right right case compar newli insert key key right subtre root 
+c includ stdio h includ stdlib h avl tree node struct node int key struct node left struct node right int height util function get maximum two integ int max int int b util function get height tree int height struct node n n null return 0 return n height util function get maximum two integ int max int int b return b 
+b helper function alloc new node given key null left right pointer 
+struct node newnod int key struct node node struct node malloc sizeof struct node node key key node left null node right null node height 1 new node initi ad leaf return node util function right rotat subtre root see diagram given 
+struct node rightrot struct node struct node x left struct node t2 x right perform rotat x right left t2 updat height height max height left height right 1 x height max height x left height x right 1 return new root return x util function left rotat subtre root x see diagram given 
+struct node leftrot struct node x struct node x right struct node t2 left perform rotat left x x right t2 updat height x height max height x left height x right 1 height max height left height right 1 return new root return get balanc factor node n int getbal struct node n n null return 0 return height n left height n right struct node insert struct node node int key 1 perform normal bst rotat node null return newnod key key node key node left insert node left key els node right insert node right key 2 updat height ancestor node node height max height node left height node right 1 3 get balanc factor ancestor node check whether node becam unbalanc int balanc getbal node node becom unbalanc 4 case left left case balanc 1 key node left key return rightrot node right right case balanc 1 key node right key return leftrot node left right case balanc 1 key node left key node left leftrot node left return rightrot node right left case balanc 1 key node right key node right rightrot node right return leftrot node return unchang node pointer return node util function print preorder travers tree 
+function also print height everi node void preorder struct node root root null printf root key preorder root left preorder root right drier program test function int main struct node root null construct tree given figur root insert root 10 root insert root 20 root insert root 30 root insert root 40 root insert root 50 root insert root 25 construct avl tree would 30 20 40 10 25 50 printf pre order travers construct avl tree n preorder root return 0 java java program insert avl tree class node int key height node left right node int key height 1 class avltre static node root util function get height tree int height node n n null return 0 return n height util function get maximum two integ int max int int b return b 
+b util function right rotat subtre root see diagram given 
+node rightrot node node x left node t2 x right perform rotat x right left t2 updat height height max height left height right 1 x height max height x left height x right 1 return new root return x util function left rotat subtre root x see diagram given 
+node leftrot node x node x right node t2 left perform rotat left x x right t2 updat height x height max height x left height x right 1 height max height left height right 1 return new root return get balanc factor node n int getbal node n n null return 0 return height n left height n right node insert node node int key 1 perform normal bst rotat node null return new node key key node key node left insert node left key els node right insert node right key 2 updat height ancestor node node height max height node left height node right 1 3 get balanc factor ancestor node check whether node becam unbalanc int balanc getbal node node becom unbalanc 4 case left left case balanc 1 key node left key return rightrot node right right case balanc 1 key node right key return leftrot node left right case balanc 1 key node left key node left leftrot node left return rightrot node right left case balanc 1 key node right key node right rightrot node right return leftrot node return unchang node pointer return node util function print preorder travers tree 
+function also print height everi node void preorder node node node null system print node key preorder node left preorder node right public static void main string arg avltre tree new avltre construct tree given figur root tree insert root 10 root tree insert root 20 root tree insert root 30 root tree insert root 40 root tree insert root 50 root tree insert root 25 construct avl tree would 30 20 40 10 25 50 system println preorder travers construct tree tree preorder root code contribut mayank jaiswal output pre order travers construct avl tree 30 20 10 25 40 50 time complex rotat oper left right rotat take constant time pointer chang 
+updat height get balanc factor also take constant time 
+time complex avl insert remain bst insert h h height tree 
+sinc avl tree balanc height logn 
+time complex avl insert logn 
+avl tree self balanc search tree like red black use get basic oper done logn time 
+avl tree balanc compar red black tree may caus rotat insert delet 
+applic involv mani frequent insert delet red black tree prefer 
+insert delet less frequent search frequent oper avl tree prefer red black tree 
+follow post delet 
+avl tree set 2 delet follow previou post use self balanc search tree 
+median stream integ run integ maximum subarray size k count smaller element right side refer iitd video lectur avl tree introduct iitd video lectur avl tree insert delet pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

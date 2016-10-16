@@ -1,0 +1,28 @@
+given infinit stream integ find k th largest element point time 
+exampl input stream 10 20 11 70 50 40 100 5 k 3 output _ _ 10 11 20 40 50 50 extra space allow k 
+strongli recommend minim browser tri first 
+discuss differ approach find k th largest element array follow post 
+k th smallest largest element unsort array set 1 k th smallest largest element unsort array set 2 expect linear time k th smallest largest element unsort array set 3 worst case linear time stream instead whole array allow store k element 
+simpl solut keep array size k idea keep array sort k th largest element found 1 time need return first element array array sort increas order process new element stream 
+everi new element stream check new element smaller current k th largest element 
+ye ignor 
+remov smallest element array insert new element sort order 
+time complex process new element k 
+better solut use self balanc binari search tree size k k th largest element found logk time 
+process new element stream 
+everi new element stream check new element smaller current k th largest element 
+ye ignor 
+remov smallest element tree insert new element 
+time complex process new element logk 
+effici solut use min heap size k store k largest element stream 
+k th largest element alway root found 1 time 
+process new element stream 
+compar new element root heap 
+new element smaller ignor 
+otherwis replac root new element call heapifi root modifi heap 
+time complex find k th largest element logk 
+c program find k th smallest element stream includ iostream includ climit use namespac std prototyp util function swap two integ void swap int x int class min heap class minheap int harr pointer array element heap int capac maximum possibl size min heap int heap_siz current number element min heap public minheap int int size constructor void buildheap void minheapifi int minheapifi subtre root index int parent int return 1 2 int left int return 2 1 int right int return 2 2 int extractmin extract root minimum element int getmin return harr 0 replac root new node x heapifi new root void replacemin int x harr 0 x minheapifi 0 minheap minheap int int size heap_siz size harr store address array void minheap buildheap int heap_siz 1 2 0 minheapifi method remov minimum element root min heap int minheap extractmin heap_siz 0 return int_max store minimum vaku 
+int root harr 0 1 item move last item root call heapifi 
+heap_siz 1 harr 0 harr heap_siz 1 minheapifi 0 heap_siz return root recurs method heapifi subtre root given index method assum subtre alreadi heapifi void minheap minheapifi int int l left int r right int smallest l heap_siz harr l harr smallest l r heap_siz harr r harr smallest smallest r smallest swap harr harr smallest minheapifi smallest util function swap two element void swap int x int int temp x x temp function return k th largest element input stream void kthlargest int k count total 
+element stream seen far int count 0 x x new element creat min heap size k int arr new int k minheap mh arr k 1 take next element stream cout enter next element stream cin x noth much first k 1 element count k 1 arr count x count els k th element store build heap creat count k 1 arr count x mh buildheap next element greater k th largest replac root x mh getmin mh replacemin x replacemin call heapifi root heap k th largest element cout k th largest element mh getmin endl count driver program test method int main int k 3 cout k k endl kthlargest k return 0 output k 3 enter next element stream 23 enter next element stream 10 enter next element stream 15 k th largest element 10 enter next element stream 70 k th largest element 15 enter next element stream 5 k th largest element 15 enter next element stream 80 k th largest element 23 enter next element stream 100 k th largest element 70 enter next element stream ctrl c press articl contribut shivam gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,25 @@
+manipul ratio arithmet discuss set 1 ratio manipul c set 1 arithmet articl comparison ration discuss 
+1 ratio_equ templet alia check ratio argument equal 
+return true equal els return fals 
+return boolean member constant valu 
+1 ratio_not_equ templet alia check ratio argument equal 
+return true equal els equal return fals 
+return boolean member constant valu 
+c code demonstr work ratio_equ ratio_not_equ includ iostream includ ratio ratio manipul use namespac std int main declar ratio typedef ratio 10 100 ratio1 typedef ratio 1 10 ratio2 check ratio equal use ratio_equ ratio_equ ratio1 ratio2 valu 
+cout ratio equal cout ratio equal cout endl check ratio equal use ratio_not_equ ratio_not_equ ratio1 ratio2 valu 
+cout ratio equal cout ratio equal return 0 output ratio equal ratio equal 3 ratio_great temporari alia check ratio1 greater ratio2 
+return boolean member constant valu return true ratio1 greater ratio2 els return fals 
+4 ratio_less temporari alia check ratio1 less ratio2 
+return boolean member constant valu return true ratio1 less ratio2 els return fals 
+c code demonstr work ratio_great ratio_less includ iostream includ ratio ratio manipul use namespac std int main declar ratio typedef ratio 10 100 ratio1 typedef ratio 11 100 ratio2 check ratio1 greater ratio2 use ratio_great ratio_great ratio1 ratio2 valu 
+cout ratio1 greater ratio2 cout ratio1 greater ratio2 cout endl check ratio1 less ratio2 use ratio_less ratio_less ratio1 ratio2 valu 
+cout ratio1 less ratio2 cout ratio1 less ratio2 cout endl return 0 output ratio1 greater ratio2 ratio1 less ratio2 5 ratio_greater_equ temporari alia check ratio1 greater equal ratio2 
+return boolean member constant valu return true ratio1 greater equal ratio2 els return fals 
+6 ratio_less_equ temporari alia check ratio1 less equal ratio2 
+return boolean member constant valu return true ratio1 less equal ratio2 els return fals 
+c code demonstr work ratio_greater_equ ratio_less_equ includ iostream includ ratio ratio manipul use namespac std int main declar ratio typedef ratio 10 100 ratio1 typedef ratio 1 10 ratio2 check ratio1 greater equal ratio2 use ratio_greater_equ ratio_greater_equ ratio1 ratio2 valu 
+cout ratio1 greater equal ratio2 cout ratio1 greater equal ratio2 cout endl check ratio1 less equal ratio2 use ratio_less_equ ratio_less_equ ratio1 ratio2 valu 
+cout ratio1 less equal ratio2 cout ratio1 less equal ratio2 cout endl return 0 output ratio1 greater equal ratio2 ratio1 less equal ratio2 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

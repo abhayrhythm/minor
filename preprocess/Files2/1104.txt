@@ -1,0 +1,15 @@
+given unsort array find minimum differ pair given array 
+exampl input 1 5 3 19 18 25 output 1 minimum differ 18 19 input 30 5 20 9 output 4 minimum differ 5 9 input 1 19 4 31 38 25 100 output 5 minimum differ 1 4 strongli recommend click practic move solut 
+method 1 simpl n2 simpl solut use two loop 
+c implement simpl method find minimum differ pair includ bit stdc h use namespac std return minimum differ pair int findmindiff int arr int n initi differ infinit int diff int_max find min diff compar differ possibl pair given array int 0 n 1 int j 1 j n j ab arr arr j diff diff ab arr arr j return min diff return diff driver code int main int arr 1 5 3 19 18 25 int n sizeof arr sizeof arr 0 cout minimum differ findmindiff arr n return 0 output minimum differ 1 method 2 effici n log n idea use sort 
+step 
+1 sort array ascend order 
+step take n log n time 
+2 initi differ infinit 
+step take 1 time 
+3 compar adjac pair sort array keep track minimum differ 
+step take n time 
+c implement idea 
+c program find minimum differ pair unsort array includ bit stdc h use namespac std return minimum differ pair int findmindiff int arr int n sort array non decreas order sort arr arr n initi differ infinit int diff int_max find min diff compar adjac pair sort array int 0 n 1 arr 1 arr diff diff arr 1 arr return min diff return diff driver code int main int arr 1 5 3 19 18 25 int n sizeof arr sizeof arr 0 cout minimum differ findmindiff arr n return 0 output minimum differ 1 articl contribut harshit agraw 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,7 @@
+discuss space effici implement 2 stack singl array 
+post gener solut k stack discuss 
+follow detail problem statement 
+creat data structur kstack repres k stack 
+implement kstack use one array e k stack use array store element 
+follow function must support kstack 
+push int x int sn push x stack number sn sn 0 k 1 pop int sn pop element stack number sn sn 0 k 1 

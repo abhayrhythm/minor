@@ -1,0 +1,15 @@
+unlik c java c support gener 
+creat link list c use data type 
+c use void pointer function pointer implement function 
+great thing void pointer use point data type 
+also size type pointer alway alway alloc link list node 
+function pointer need process actual content store address point void pointer 
+follow sampl c code demonstr work gener link list 
+c program gener link list includ stdio h includ stdlib h link list node struct node data type store node void data struct node next function add node begin link list 
+function expect pointer data ad size data type void push struct node head_ref void new_data size_t data_s alloc memori node struct node new_nod struct node malloc sizeof struct node new_nod data malloc data_s new_nod next head_ref copi content new_data newli alloc memori 
+assumpt char take 1 byte 
+int 0 data_s char new_nod data char new_data chang head pointer new node ad begin head_ref new_nod function print node given link list 
+fpitr use access function use print current node data 
+note differ data type need differ specifi printf void printlist struct node node void fptr void node null fptr node data node node next function print integ void printint void n printf int n function print float void printfloat void f printf f float f driver program test function int main struct node start null creat print int link list unsign int_siz sizeof int int arr 10 20 30 40 50 4 0 push start arr int_siz printf creat integ link list n printlist start printint creat print float link list unsign float_siz sizeof float start null float arr2 10 1 20 2 30 3 40 4 50 5 4 0 push start arr2 float_siz printf n ncreat float link list n printlist start printfloat return 0 output creat integ link list 10 20 30 40 50 creat float link list 10 100000 20 200001 30 299999 40 400002 50 500000 articl contribut himanshu gupta 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

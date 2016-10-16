@@ -1,0 +1,18 @@
+given arriv departur time train reach railway station find minimum number platform requir railway station train wait 
+given two array repres arriv departur time train stop exampl input arr 9 00 9 40 9 50 11 00 15 00 18 00 dep 9 10 12 00 11 20 11 30 19 00 20 00 output 3 three train time time 11 00 11 20 strongli recommend click practic move solut 
+need find maximum number train given railway station time 
+simpl solut take everi interv one one find number interv overlap 
+keep track maximum number interv overlap interv 
+final return maximum valu 
+time complex solut n2 
+solv problem nlogn time 
+idea consid even sort order 
+event sort order trace number train time keep track train arriv depart 
+exampl consid exampl 
+arr 9 00 9 40 9 50 11 00 15 00 18 00 dep 9 10 12 00 11 20 11 30 19 00 20 00 event sort time 
+total platform time obtain subtract total departur total arriv time 
+time event type total platform need time 9 00 arriv 1 9 10 departur 0 9 40 arriv 1 9 50 arriv 2 11 00 arriv 3 11 20 departur 2 11 30 departur 1 12 00 departur 0 15 00 arriv 1 18 00 arriv 2 19 00 departur 1 20 00 departur 0 minimum platform need railway station maximum platform need time 3 follow c implement approach 
+note implement creat singl sort list event rather individu sort arr dep array use merg process merg sort process togeth singl sort array 
+program find minimum number platform requir railway station includ iostream includ algorithm use namespac std return minimum number platform reqquir int findplatform int arr int dep int n sort arriv departur array sort arr arr n sort dep dep n plat_need indic number platform need time int plat_need 1 result 1 int 1 j 0 similar merg merg sort process event sort order n j n next event sort order arriv increment count platform need arr dep j plat_need plat_need result updat result need result plat_need els els decrement count platform need plat_need j return result driver program test method graph class int main int arr 900 940 950 1100 1500 1800 int dep 910 1200 1120 1130 1900 2000 int n sizeof arr sizeof arr 0 cout minimum number platform requir findplatform arr dep n return 0 output minimum number platform requir 3 algorithm paradigm dynam program time complex nlogn assum nlogn sort algorithm sort arr dep 
+articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,52 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks. Rodrigo San Martin Monroy is a humble guy with tremendous skills who has already worked in Amazon and now with the biggest of all tech giant Google, California.
+How did it all start? What made you land into the world of competitive programming?
+Everything started in the University, I learnt Math (Algebra, Calculus, etc.), Programming, and also I decided to register in my first year to the ACM ICPC local contest and I lost, I just solve 1 of the 5 problems  , I didn’t give up and all year I studied algorithms and data structures on my own, and next year I could won the local contest I could go to the regional contest 😀
+How does it feel to be working in the top most company in the world- Google?
+It’s awesome be around smart people, you learn a lot, every body trust you, and help you to grow.
+Which do you think are most important subjects in engineering curriculum that helped you?
+Algorithms and data structures, Distributed systems and Object Oriented Programming.
+How did you come to know about GeeksforGeeks?
+I had 2 interviews for google and amazon, I searched for some specific problems that could ask in the interviews, and I found GfG and I really liked the way of the problem and the solution are explained, and decided to study all my technical questions from there.
+How and when should a student systematically begin preparation for placements?
+I think that the first thing to do is:
+
+Study the material by the recruiter (and also the problems given as example)
+Read interview questions previously asked by the company you want to join, study in deep and try to extract common questions of those interviews and then Sort the common topics.
+For me I think these are the most important topics to ask are:
+
+Search and Sorting (Binary Search, Quick Sort & Merge Sort)
+Tree problems (DFS, BFS, BinaryTree, Binary Search Tree)
+Array and Matrix problems
+List (Stack and Queues)
+Misc (Cache LRU)
+Recursive problems
+Design Patterns
+Heaps
+Graphs
+
+
+If you have time you should try to solve more and more problems (without IDE)
+I also tried to pick a random problem and start my stopwatch and tried to solve it in less than 10 mins. If I couldn’t I try to memorize the problem and try again.
+
+You have lived in different parts of US, Which city is your personal favorite and why?
+I’ve majorly lived in Michigan and California and all the places are different. What I  recommend you is if you have the option to select a place, you should check the cost of living, weather, security, time to arrive from your work to your home etc. For example, Michigan’s cost of live is half of California, but could be a problem if you don’t like cold (around 6 months of snow) 😛
+Programming culture is not immensely developed in your country and what you think students must do to promote the culture in their countries?
+I’m from Mexico, and is not immensely developed so I always try to teach, explain, and promote all related to programming, to ease and enthuse people.
+What are your hobbies?
+I think that is always good work with people open to do something different even if they didn’t do it before, is good take breaks like that. I love play soccer, but also I like to play any sports with my teammates.
+How can freshers /pass-outs prepare for tech giants especially off campus?
+I think that it is always good be honest with yourself and  to know what you need to learn. You can visit to places where you can see what is the process of the company where you want to join. Also creating connections with people who can help you (recruiters, developers) with that.
+What’s your advice to students who aim at a job like yours?
+I think that all the people who really enjoy programming can get it. Just Organize yourself  (what you should learn, how you should practice). Be constant try to study as often as you can (if you study just once a week, you probably forget what you learn last week), take it serious (study for real), learn from you errors and never give up.
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

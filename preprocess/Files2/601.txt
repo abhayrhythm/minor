@@ -1,0 +1,25 @@
+data structur 
+data structur way organ data data use effici 
+differ kind data structur suit differ kind applic highli special specif task 
+exampl b tree particularli well suit implement databas compil implement usual use hash tabl look identifi 
+sourc wiki page data structur use bf df graph 
+queue use bf stack use df 
+df also implement use recurs note recurs also use function call stack 
+doubli link implement use singl pointer variabl everi node 
+doubli link list implement use singl pointer 
+see xor link list memori effici doubli link list implement stack use queue 
+see implement stack use queue implement queue use stack 
+see implement queue use stack link list question link list insert link list delet middl given link list nth node end link list tree travers question inord preorder postod travers level order travers height binari tree 
+check given binari tree bst 
+inord travers binari tree sort binari tree bst 
+idea simpli inord travers travers keep track previou key valu 
+current key valu greater continu els return fals 
+see program check binari tree bst detail 
+convert dll binari tree place see place convers sort dll balanc bst convert binari tree dll place see convert given binari tree doubli link list set 1 convert given binari tree doubli link list set 2 delet given node singli link list given pointer node delet singli link list delet 
+revers link list write function revers link list detect loop line list write c function detect loop link list 
+data structur use dictionari spell checker 
+data structur dictionari spell checker 
+data structur use lru cach 
+implement lru cach scheme 
+data structur use 
+practic quizz data structur last minut note ds may also like common interview puzzl amazon ask interview question microsoft ask interview question accentur ask interview question commonli ask oop interview question commonli ask c interview question commonli ask c program interview question set 1 commonli ask c program interview question set 2 commonli ask dbm interview question set 1 commonli ask oper system interview question set 1 commonli ask data structur interview question commonli ask algorithm interview question pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

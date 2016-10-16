@@ -1,0 +1,64 @@
+
+C/C++ has very loose definitions on its basic integer data types (char, short, int, long, and long long). The language guarantees that they can represent at least some range of values, but any particular platform (compiler, operating system, hardware) might be larger than that.
+A good example is long. On one machine, it might be 32 bits (the minimum required by C). On another, it’s 64 bits. What do you do if you want an integer type that’s precisely 32 bits long? That’s where int32_t comes in: it’s an alias for whatever integer type your particular system has that is exactly 32 bits.
+Template:
+
+intN_t or uintN_t
+Where N is width of integer which can be 8, 16, 32, 64
+or any other type width supported by the library.
+
+
+// C++ program to show use of extended integral types
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    uint8_t i;      // i with width of exact 8 bits
+
+    // Minimum value represented by unsigned 8 bit is 0
+    i = 0;
+    cout << "Minimum value of  i\t: "<< (int)i << endl;
+
+    // Maximum value represented by unsigned 8 bit is 255
+    i = 255;
+    cout << "Maximum value of i\t: "<< (int)i << endl;
+
+    // Warning: large integer implicitly truncated to
+    // unsigned type. It will print any garbage value
+    i = 2436;
+    cout << "Beyond range value of i\t: " << (int)i << endl;
+
+    return 0;
+}
+
+Output:
+
+ In function 'int main()':
+19:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+     i = 2436;
+       ^
+
+Minimum value of  i	: 0
+Maximum value of i	: 255
+Beyond range value of i	: 132
+
+Different Variations
+1. Fixed width unsigned 8 bit integer: uint8_t
+It means give me an unsigned int of exactly 8 bits.
+2. Minimum width unsigned 8 bit integer: uint_least8_t
+It means give me the smallest type of unsigned int which has at least 8 bits. Optimized for memory consumption.
+3. Fastest minimum width unsigned 8 bit integer: uint_fast8_t
+It means give me an unsigned int of at least 8 bits which will make my program faster. It may pick larger data type because of alignment considerations. Optimized for speed.
+Thus a uint8_t is guaranteed to be exactly 8 bits wide. A uint_least8_t is the smallest integer guaranteed to be at least 8 bits wide. An uint_fast8_t is the fastest integer guaranteed to be at least 8 bits wide. 
+So the extended integral types help us in writing portable and efficient code.
+This article is contributed by Rohit Kasle. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

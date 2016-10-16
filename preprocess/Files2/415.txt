@@ -1,0 +1,29 @@
+postfix notat use repres algebra express 
+express written postfix form evalu faster compar infix notat parenthesi requir postfix 
+discuss infix postfix convers 
+post evalu postfix express discuss 
+follow algorithm evalu postfix express 
+1 creat stack store operand valu 
+2 scan given express follow everi scan element 
+element number push stack b element oper pop operand oper stack 
+evalu oper push result back stack 3 express end number stack final answer exampl let given express 2 3 1 9 
+scan element one one 
+1 scan 2 number push stack 
+stack contain 2 2 scan 3 number push stack stack contain 2 3 bottom top 3 scan 1 number push stack stack contain 2 3 1 4 scan oper pop two operand stack appli oper operand get 3 1 result 3 push result 3 stack 
+stack becom 2 3 
+5 scan oper pop two operand stack appli oper operand get 3 2 result 5 push result 5 stack 
+stack becom 5 
+6 scan 9 number push stack 
+stack becom 5 9 
+7 scan oper pop two operand stack appli oper operand get 5 9 result 4 push result 4 stack 
+stack becom 4 
+8 element scan return top element stack element left stack 
+follow c implement algorithm 
+c program evalu valu postfix express includ stdio h includ string h includ ctype h includ stdlib h stack type struct stack int top unsign capac int array stack oper struct stack createstack unsign capac struct stack stack struct stack malloc sizeof struct stack stack return null stack top 1 stack capac capac stack array int malloc stack capac sizeof int stack array return null return stack int isempti struct stack stack return stack top 1 char peek struct stack stack return stack array stack top char pop struct stack stack isempti stack return stack array stack top return void push struct stack stack char op stack array stack top op main function return valu given postfix express int evaluatepostfix char exp creat stack capac equal express size struct stack stack createstack strlen exp int see stack creat success stack return 1 scan charact one one 0 exp scan charact operand number push stack 
+isdigit exp push stack exp 0 scan charact oper pop two element stack appli oper els int val1 pop stack int val2 pop stack switch exp case push stack val2 val1 break case push stack val2 val1 break case push stack val2 val1 break case push stack val2 val1 break return pop stack driver program test function int main char exp 231 9 printf valu exp evaluatepostfix exp return 0 output valu 231 9 4 time complex evalu algorithm n n number charact input express 
+follow limit implement 
+1 support 4 binari oper 
+extend oper ad switch case 
+2 allow operand singl digit operand 
+program extend multipl digit ad separ like space element oper operand given express 
+refer http www cs nthu edu tw wkhon ds ds10 tutori tutorial2 pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

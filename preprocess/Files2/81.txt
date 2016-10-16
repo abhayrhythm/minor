@@ -1,0 +1,11 @@
+given rod length n inch array price contain price piec size smaller n determin maximum valu obtain cut rod sell piec 
+exampl length rod 8 valu differ piec given follow maximum obtain valu 22 cut two piec length 2 6 length 1 2 3 4 5 6 7 8 price 1 5 8 9 10 17 17 20 price follow maximum obtain valu 24 cut eight piec length 1 length 1 2 3 4 5 6 7 8 price 3 5 8 9 10 17 17 20 naiv solut problem gener configur differ piec find highest price configur 
+solut exponenti term time complex 
+let us see problem possess import properti dynam program dp problem effici solv use dynam program 
+1 optim substructur get best price make cut differ posit compar valu obtain cut 
+recurs call function piec obtain cut 
+let cutroad n requir best possibl price valu rod lenght n cutrod n written follow 
+cutrod n max price cutrod n 1 0 1 n 1 2 overlap subproblem follow simpl recurs implement rod cut problem 
+implement simpli follow recurs structur mention 
+c naiv recurs solut rod cut problem includ stdio h includ limit h util function get maximum two integ int max int int b return b 
+b return best obtain price rod length n price price differ piec int cutrod int price int n n 0 return 0 int max_val int_min recurs cut rod differ piec compar differ configur int 0 n max_val max max_val price cutrod price n 1 return max_val driver program test function int main int arr 1 5 8 9 10 17 17 20 int size sizeof arr sizeof arr 0 printf maximum obtain valu n cutrod arr size getchar return 0 

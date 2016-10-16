@@ -1,0 +1,22 @@
+condit probabl condit probabl p b indic probabl even happen given even b happen 
+easili understand formula use diagram 
+sinc b alreadi happen sampl space reduc b probabl happen becom p b divid p b bay formula condit probabl 
+formula provid relationship p b p b 
+mainli deriv form condit probabl formula discuss previou post 
+consid forrmula condit probabl p b p b sinc p b p b replac p b first formula p b p replac get given formula 
+refer exampl bay formula 
+random variabl random variabl actual function map outcom random event like coin toss real valu 
+exampl coin toss game player pay 50 buck result coin toss head person get 50 buck result tail 
+random variabl profit person defin profit 50 head 50 tail gener gambl game fair player organ take share profit arrang 
+expect profit neg player gambl posit organ 
+organ make money 
+expect valu random variabl expect valu random variabl r defin follow e r r1 p1 r2 p2 rk pk ri valu r probabl pi expect valu basic sum product follow two term possibl event probabl event 
+b valu r even exampl 1 exampl coin toss expect valu profit 50 1 2 50 1 2 0 exampl 2 expect valu six face dice throw 1 1 6 2 1 6 6 1 6 3 5 linear expect let r1 r2 two discret random variabl probabl space e r1 r2 e r1 e r2 exampl expect valu sum 3 dice throw 3 7 2 7 refer detail explan exampl 
+expect number trial success probabl success p everi trial expect number trial success 1 p 
+exampl consid 6 face fair dice thrown 5 seen result dice throw 
+expect number throw see 5 6 note 1 6 probabl get 5 everi trial 
+number trial 1 1 6 6 anoth exampl consid quicksort version keep look pivot one middl n 2 element pick 
+expect time number trial find middl pivot would 2 probabl pick one middl n 2 element 1 2 
+exampl discuss detail set 1 refer detail explan exampl 
+random algorithm random algorithm set 1 introduct analysi random algorithm set 2 classif applic random algorithm set 3 1 2 approxim median random algorithm topic articl contribut shivam gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

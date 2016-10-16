@@ -1,0 +1,24 @@
+introduct array class c 11 offer better altern c style array 
+advantag array class c style array array class know size wherea c style array lack properti 
+pass function need pass size array separ paramet 
+c style array risk array decay pointer 
+array class decay pointer array class gener effici light weight reliabl c style array 
+oper array 1 function use access element array 
+2 get function also use access element array 
+function member array class overload function class tupl 
+3 oper similar c style array 
+method also use access array element 
+c code demonstr work array get includ iostream includ array array includ tupl get use namespac std int main initi array element array int 6 ar 1 2 3 4 5 6 print array element use cout array elemet use int 0 6 cout ar cout endl print array element use get cout array elemet use get cout get 0 ar get 1 ar cout get 2 ar get 3 ar cout get 4 ar get 5 ar cout endl print array element use oper cout array element use oper int 0 6 cout ar cout endl return 0 output array elemet use 1 2 3 4 5 6 array elemet use get 1 2 3 4 5 6 array element use oper 1 2 3 4 5 6 4 front return first element array 
+5 back return last element array 
+c code demonstr work front back includ iostream includ array front back use namespac std int main initi array element array int 6 ar 1 2 3 4 5 6 print first element array cout first element array cout ar front endl print last element array cout last element array cout ar back endl return 0 output first element array 1 last element array 6 6 size return number element array 
+properti c style array lack 
+7 max_siz return maximum number element array hold e size array declar 
+size max_siz return valu 
+c code demonstr work size max_siz includ iostream includ array size max_siz use namespac std int main initi array element array int 6 ar 1 2 3 4 5 6 print number array element cout number array element cout ar size endl print maximum element array hold cout maximum element array hold cout ar max_siz endl return 0 output number array element 6 maximum element array hold 6 8 swap swap swap element one array 
+c code demonstr work swap includ iostream includ array swap array use namespac std int main initi 1st array array int 6 ar 1 2 3 4 5 6 initi 2nd array array int 6 ar1 7 8 9 10 11 12 print 1st 2nd array swap cout first array element swap int 0 6 cout ar cout endl cout second array element swap int 0 6 cout ar1 cout endl swap ar1 valu ar ar swap ar1 print 1st 2nd array swap cout first array element swap int 0 6 cout ar cout endl cout second array element swap int 0 6 cout ar1 cout endl return 0 output first array element swap 1 2 3 4 5 6 second array element swap 7 8 9 10 11 12 first array element swap 7 8 9 10 11 12 second array element swap 1 2 3 4 5 6 9 empti function return true array size zero els return fals 
+10 fill function use fill entir array particular valu 
+c code demonstr work empti fill includ iostream includ array fill empti use namespac std int main declar 1st array array int 6 ar declar 2nd array array int 0 ar1 check size array empti ar1 empti 
+cout array empti cout array empti cout endl fill array 0 ar fill 0 display array fill cout array fill oper int 0 6 cout ar return 0 output array empti array fill oper 0 0 0 0 0 0 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

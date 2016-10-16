@@ -1,0 +1,7 @@
+
+Progressions (or Sequences and Series) are numbers arranged in a particular order such that they form a predictable order. By predictable order, we mean that given some numbers, we can find next numbers in the series.
+Arithmetic Progression (AP)
+A sequence of numbers is called an arithmetic progression if the difference between any two consecutive terms is always same. In simple terms, it means that next number in the series is calculated by adding a fixed number to the previous number in the series. This fixed number is called the common difference.
+For example, 2,4,6,8,10 is an AP because difference between any two consecutive terms in the series (common difference) is same (4 – 2 = 6 – 4 = 8 – 6 = 10 – 8 = 2).
+
+If ‘a’ is the first term and ‘d’ is the common difference,

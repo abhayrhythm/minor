@@ -1,0 +1,17 @@
+given string find longest substr palindrom 
+exampl given string forgeeksskeegfor output geeksskeeg 
+strongli recommend click practic move solut 
+method 1 brute forc simpl approach check substr whether substr palindrom 
+run three loop outer two loop pick substr one one fix corner charact inner loop check whether pick substr palindrom 
+time complex n 3 auxiliari complex 1 method 2 dynam program time complex reduc store result subproblem 
+idea similar post 
+maintain boolean tabl n n fill bottom manner 
+valu tabl j true substr palindrom otherwis fals 
+calcul tabl j first check valu tabl 1 j 1 valu true str str j make tabl j true 
+otherwis valu tabl j made fals 
+dynam program solut longest palindr 
+code adopt follow link http www leetcod com 2011 11 longest palindrom substr part html includ stdio h includ string h util function print substr str low high void printsubstr char str int low int high int low high printf c str function print longest palindrom substr str 
+also return length longest palindrom int longestpalsubstr char str int n strlen str get length input string tabl j fals substr str j palindrom 
+els tabl j true bool tabl n n memset tabl 0 sizeof tabl substr length 1 palindrom int maxlength 1 int 0 n tabl true check sub string length 2 int start 0 int 0 n 1 str str 1 tabl 1 true start maxlength 2 check length greater 2 k length substr int k 3 k n k fix start index int 0 n k 1 get end index substr start index length k int j k 1 check sub string ith index jth index iff str 1 str j 1 palindrom tabl 1 j 1 str str j tabl j true k maxlength start maxlength k printf longest palindrom substr printsubstr str start start maxlength 1 return maxlength return length lp driver program test function int main char str forgeeksskeegfor printf nlength n longestpalsubstr str return 0 output longest palindrom substr geeksskeeg length 10 time complex n 2 auxiliari space n 2 soon ad optim method separ post 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

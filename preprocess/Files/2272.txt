@@ -1,0 +1,23 @@
+
+Object Oriented Programming paradigm deals with centralizing data and associated behaviours in a single entity. The entities will communicate by message passing.
+The high level languages like C++, Java, C#, etc… provide rich features in designing applications. One can learn the language constructs easily. However, few design principles guide the programmer for better utilization of language features. The following principles help programmer to arrive at flexible class design.
+
+Single Responsibility Principle
+Open Closed Principle
+Liskov Substitution Principle
+Interface Segregation Principle
+Dependency Inversion Principle
+
+All the above five principles are collectively called as SOLID principles. We will have detailed explanation of each principle.
+Note that there are few more principles that will be useful in OOD. We will expand the post when respective principles are published (We are sorry, at present the post is a moving target).
+Contributed by Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

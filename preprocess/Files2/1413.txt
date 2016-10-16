@@ -1,0 +1,50 @@
+two singli link list system 
+program error end node one link list got link second list form invert shape list 
+write program get point two link list merg 
+diagram show exampl two link list 15 intersect point 
+method 1 simpli use two loop use 2 nest loop 
+outer loop node 1st list inner loop 2nd list 
+inner loop check node 2nd list current node first link list 
+time complex method mn n number node two list 
+method 2 mark visit node solut requir modif basic link list data structur 
+visit flag node 
+travers first link list keep mark visit node 
+travers second link list see visit node intersect point return intersect node 
+solut work n requir addit inform node 
+variat solut requir modif basic data structur implement use hash 
+travers first link list store address visit node hash 
+travers second link list see address alreadi exist hash return intersect node 
+method 3 use differ node count 1 get count node first list let count c1 
+2 get count node second list let count c2 
+3 get differ count ab c1 c2 4 travers bigger list first node till node onward list equal node 
+5 travers list parallel till come across common node 
+note get common node done compar address node c includ stdio h includ stdlib h link list node struct node int data struct node next function get count node link list int getcount struct node head function get intersect point two link list head1 head2 head1 node head2 int _getintesectionnod int struct node head1 struct node head2 function get intersect point two link list head1 head2 int getintesectionnod struct node head1 struct node head2 int c1 getcount head1 int c2 getcount head2 int c1 c2 c1 c2 return _getintesectionnod head1 head2 els c2 c1 return _getintesectionnod head2 head1 function get intersect point two link list head1 head2 head1 node head2 int _getintesectionnod int struct node head1 struct node head2 int struct node current1 head1 struct node current2 head2 0 current1 null return 1 current1 current1 next current1 null current2 null current1 current2 return current1 data current1 current1 next current2 current2 next return 1 take head pointer link list return count node list int getcount struct node head struct node current head int count 0 current null count current current next return count ignor line code 
+line quickli test function int main creat two link list 1st 3 6 9 15 30 2nd 10 15 30 15 intersect point struct node newnod struct node head1 struct node malloc sizeof struct node head1 data 10 struct node head2 struct node malloc sizeof struct node head2 data 3 newnod struct node malloc sizeof struct node newnod data 6 head2 next newnod newnod struct node malloc sizeof struct node newnod data 9 head2 next next newnod newnod struct node malloc sizeof struct node newnod data 15 head1 next newnod head2 next next next newnod newnod struct node malloc sizeof struct node newnod data 30 head1 next next newnod head1 next next next null printf n node intersect n getintesectionnod head1 head2 getchar java java program get intersect point two link list class linkedlist static node head1 head2 static class node int data node next node int data next null function get intersect point two link list head1 head2 int getnod int c1 getcount head1 int c2 getcount head2 int c1 c2 c1 c2 return _getintesectionnod head1 head2 els c2 c1 return _getintesectionnod head2 head1 function get intersect point two link list head1 head2 head1 node head2 int _getintesectionnod int node node1 node node2 int node current1 node1 node current2 node2 0 current1 null return 1 current1 current1 next current1 null current2 null current1 data current2 data return current1 data current1 current1 next current2 current2 next return 1 take head pointer link list return count node list int getcount node node node current node int count 0 current null count current current next return count public static void main string arg linkedlist list new linkedlist creat first link list list head1 new node 3 list head1 next new node 6 list head1 next next new node 15 list head1 next next next new node 15 list head1 next next next next new node 30 creat second link list list head2 new node 10 list head2 next new node 15 list head2 next next new node 30 system println node intersect list getnod code contribut mayank jaiswal time complex n auxiliari space 1 method 4 make circl first list thank saravanan man provid solut 
+1 travers first link list count element make circular link list 
+rememb last node break circl later 
+2 view problem find loop second link list 
+problem solv 
+3 sinc alreadi know length loop size first link list travers mani number node second list start anoth pointer begin second list 
+travers equal requir intersect point 
+4 remov circl link list 
+time complex n auxiliari space 1 method 5 revers first list make equat thank saravanan mani provid method 
+1 let x length first link list intersect point 
+let length second link list intersect point 
+let z length link list intersect point end link list includ intersect node 
+x z c1 z c2 2 revers first link list 
+3 travers second link list 
+let c3 length second list 1 x c3 3 linear equat 
+solv get x c1 c3 c2 2 c2 c3 c1 2 z c1 c2 c3 2 got intersect point 
+4 revers first link list 
+advantag comparison pointer 
+disadvantag modifi link list revers list 
+time complex n auxiliari space 1 method 6 travers list compar address last node method detect intersect point 
+thank neothesaviour suggest 1 travers list 1 store last node address 2 travers list 2 store last node address 
+3 node store 1 2 intersect 
+time complex method n use auxiliari space 1 method 7 use hash basic need find common node two link list 
+hash node first list check second list 
+1 creat empti hash tabl node address use key binari valu present absent use valu 
+2 travers first link list insert node address hash tabl 
+3 travers second list 
+everi node check present hash tabl 
+find node hash tabl return node 

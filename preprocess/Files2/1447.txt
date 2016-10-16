@@ -1,0 +1,21 @@
+problem opposit post 
+given queue data structur support standard oper like enqueu dequeu 
+need implement stack data structur use instanc queue 
+stack implement use two queue 
+let stack implement queue use implement q1 q2 
+stack implement two way method 1 make push oper costli method make sure newli enter element alway front q1 pop oper dequeu q1 
+q2 use put everi new element front q1 
+push x x element push stack 1 enqueu x q2 2 one one dequeu everyth q1 enqueu q2 
+3 swap name q1 q2 swap name done avoid one movement element q2 q1 
+pop 1 dequeu item q1 return 
+method 2 make pop oper costli push oper new element alway enqueu q1 
+pop oper q2 empti element except last move q2 
+final last element dequeu q1 return 
+push x 1 enqueu x q1 assum size q1 unlimit 
+pop 1 one one dequeu everyth except last element q1 enqueu q2 
+2 dequeu last item q1 dequeu item result store 
+3 swap name q1 q2 4 return item store step 2 
+swap name done avoid one movement element q2 q1 
+refer implement stack use two queue articl compil sumit jain review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

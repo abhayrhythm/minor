@@ -1,0 +1,18 @@
+given dictionari contain map employe manag number employe manag pair like 
+c b c c f e e f f f exampl c manag c also manag b f manag c 
+write function get employe manag hierarchi direct report 
+may assum employe directli report one manag 
+dictionari root node ceo list report 
+output dictionari contain follow 
+0 b 0 c 2 0 e 1 f 5 sourc microsoft interview question might solv differ follow found interest share 1 creat revers map manag directreportingemploye combin 
+cours employe multipl valu map list string 
+c b e f c e f 2 use given employe manag map iter time use newli revers map find count employe manag 
+let map creat step 2 mngrempmap follow everi employe emp 
+emp present mngrempmap count emp 0 nobodi report emp b emp present mngrempmap use list direct report map mngrempmap recurs calcul number total employe emp 
+trick step 2 b use memor dynam program find number employe manag need find number employe employe 
+code populateresultutil recurs function use memoiz avoid comput result 
+java implement ide java program find number person everi employe import java util arraylist import java util hashmap import java util list import java util map public class numberemployeeundermanag hashmap store result 
+store count employe everi employe count may 0 also static map string integ result new hashmap string integ driver function public static void main string arg map string string dataset new hashmap string string dataset put c dataset put b c dataset put c f dataset put e dataset put e f dataset put f f populateresult dataset system println result result function popul result given input dataset privat static void populateresult map string string dataset store revers origin map key 0 multipl valu map string list string mngrempmap new hashmap string list string fill mngrempmap iter given map map entri string string entri dataset entryset string emp entri getkey string mngr entri getvalu emp equal mngr exclud emp emp entri get previou list direct report current mgr add current emp list list string directreportlist mngrempmap get mngr emp first employe mgr directreportlist null directreportlist new arraylist string directreportlist add emp replac old valu mgr new directreportlist mngrempmap put mngr directreportlist use manag emp map built popul result use populateresultutil note iter origin emp manag map use mngr emp map helper get count string mngr dataset keyset populateresultutil mngr mngrempmap recurs function fill count mgr use mngrempmap 
+function use memoiz avoid comput subproblem 
+privat static int populateresultutil string mngr map string list string mngrempmap int count 0 mean employe manag employe mngrempmap containskey mngr result put mngr 0 return 0 employe count alreadi done method avoid comput els result containskey mngr count result get mngr els list string directreportemplist mngrempmap get mngr count directreportemplist size string directreportemp directreportemplist count populateresultutil directreportemp mngrempmap result put mngr count return count output result 0 e 1 f 5 0 b 0 c 2 articl contribut chandan prakash 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

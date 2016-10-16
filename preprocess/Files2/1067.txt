@@ -1,0 +1,22 @@
+given array contain posit neg number 
+array repres checkpoint one end end street 
+posit neg valu repres amount energi checkpoint 
+posit number increas energi neg number decreas 
+find minimum initi energi requir cross street energi level never becom 0 less 0 note valu minimum initi energi requir 1 even cross street success without loos energi less equal 0 checkpoint 
+1 requir initi check point 
+exampl input arr 4 10 4 4 4 output 7 suppos initi energi 0 1st checkpoint get 4 2nd checkpoint energi get reduc 10 4 10 6 checkpoint valu energi less equal 0 initi energi must least 7 7 initi energi valu 1st checkpoint energi 7 4 11 cross 2nd checkpoint success 
+2nd checkpoint checkpoint posit valu cross street success 7 initi energi 
+input arr 3 5 2 6 1 output 1 need least 1 initi energi reach first checkpoint input arr 1 5 9 output 16 take initi minimum energi 0 e initminenergi 0 energi checkpoint currenergi 0 travers checkpoint linearli add energi level th checkpoint e currenergi currenergi arr 
+currenergi becom non posit need least ab currenergi 1 extra initi energi cross point 
+therefor updat initminenergi initminenergi ab currenergi 1 
+also updat currenergi 1 requir extra minimum initi energi next point 
+implement idea 
+c c c program find minimum initi energi reach end includ bit stdc h use namespac std function calcul minimum initi energi arr store energi checkpoint street int mininitialenergi int arr int n initminenergi variabl store minimum initi energi requir 
+int initminenergi 0 currenergi variabl store current valu energi th checkpoint street int currenergi 0 flag check success cross street without energi loss checkpoint bool flag 0 travers check point linerali int 0 n currenergi arr current energi becom neg 0 increment initi minimum energi neg valu plu 1 
+keep current energi posit least 1 
+also updat current energi flag 
+currenergi 0 initminenergi ab currenergi 1 currenergi 1 flag 1 energi never becam neg 0 return 1 els return comput initminenergi return flag 0 
+1 initminenergi driver program test case int main int arr 4 10 4 4 4 int n sizeof arr sizeof arr 0 cout mininitialenergi arr n return 0 python python program find mimimum initi eneri reach end function calcul minimum initi eneri arr stroe eneri checkpoint street def mininitialenergi arr n len arr initminenergi variabl store minimum initi energi requir initminenergi 0 curreneri variabl store current valu eneri th checkpoint street currenergi 0 flag check sucess cross street without energi loss 0 checkpoint flag 0 travers check point linearli rang n currenergi arr current energi becom neg 0 increment initi minimum energi neg valu plu 1 
+keep current energi posit least 1 
+also updat current energi flag 
+currenergi 0 initminenergi ab currenergi 1 currenergi 1 flag 1 energi never becam neg 0 return 1 els return comput initminenergi return 1 flag 0 els initminenergi driver program test function arr 4 10 4 4 4 print mininitialenergi arr code contribut nikhil kumar singh nickzuck_007 output 

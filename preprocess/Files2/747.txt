@@ -1,0 +1,51 @@
+hi 
+interview experi internship amazon 
+posit 2 month intern 
+round 1 onlin 2 pi 2 f2f round 1 90 minut 20 mcq 2 code question 20 mcq base c output probabl basic math oop algorithm analysi oper system 
+question 1 given link list write function revers everi k node k input function 
+exampl input 1 2 3 4 5 6 7 8 null k 3 output 3 2 1 6 5 4 8 7 null 
+input 1 2 3 4 5 6 7 8 null k 5 output 5 4 3 2 1 8 7 6 null 
+question 2 given string contain word separ arbitrari number space 
+write function return string consist first letter word 
+note may number space start given string end given string word string 
+exampl input test case output tiatc function prototyp main given question 
+although mani solut pass initi test case reject later satisfi boundari case 
+round 2 face face 1 hour 20 min question 1 given two number repres two link list write function return sum list 
+sum list link list represent addit two input number 
+exampl input first list 5 6 3 repres number 563 second list 8 4 2 repres number 842 output result list 1 4 0 5 repres number 1405 revers link list simpli ad correspond node along carri 
+ask solv question without revers list 
+solv question iter without revers list 
+interview ask write recurs code problem 
+ask modifi code carri place pass valu instead use pointer use code 
+question 2 iter recurs code revers link list take care corner case list node contain singl node question 3 write function check whether binari tree sub tree anoth binari tree check corner case 
+solv n 2 time complex 
+ask optim code 
+question 4 data structur would use keep record stock market 
+ask clarifi problem statement 
+ask suppos maintain stock valu variou compani variou period return minimum stock valu particular compani given period time 
+answer segment tree probabl correct answer queue data structur 
+howev interview proceed question segment tree 
+ask write code creat segment tree b perform rang minimum queri segment tree c updat segment tree ask analyz time complex build segment tree perform rang minimum queri segment tree 
+ask maintain stock valu compani past 6 month updat segment tree everi day delet stock valu insert new stock valu 
+would 
+got stuck could perform updat better n time 
+howev use queue perform 1 time 
+final ask question 
+round 3 face face 20 min one technic question ask round 
+ask speak someth technic achiev b store binari tree file read back 
+necessarili bst first answer would store level order travers tree 
+ask would maintain node variou level unabl answer 
+chang approach told would store order pre order travers tree origin tree easili retriev 
+told optim approach approach would requir twice origin space store data node 
+could optim approach howev better approach use parenthes 
+b c e binari tree store b e c file 
+c 10 min discuss project problem encount solv 
+final ask question 
+ask intern project amazon use dbm network 
+start elabor entir work process amazon work experi could hardli understand 
+also told good knowledg java requir stage project 
+final got select 
+mani mani congratul author 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

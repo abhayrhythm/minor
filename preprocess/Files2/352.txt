@@ -1,0 +1,67 @@
+algorithm 
+inform algorithm well defin comput procedur take valu set valu input produc valu set valu output 
+algorithm thu sequenc comput step transform input output 
+sourc introduct algorithm 3rd edit clr time complex binari search 
+time complex binari search logn 
+see binari search detail 
+binari search use link list 
+sinc random access allow link list cannot reach middl element 1 time 
+therefor binari search possibl link list 
+way though refer skip list exampl 
+find two given rectangl overlap 
+two rectangl overlap one follow condit true 
+1 one rectangl top edg rectangl 
+2 one rectangl left side left edg rectangl 
+see find two rectangl overlap detail 
+find angl hour minut hand given time 
+idea take refer point 12 find angl move hour minut hand subtract two angl find angl 
+see angl hour hand minut hand detail worst case quicksort occur 
+quicksort select pivot element partit given array around pivot element place pivot element correct posit sort array 
+worst case quicksort occur one part partit contain element part empti 
+exampl input array sort last first element chosen pivot worst occur 
+see http quiz geeksforgeek org quick sort detail 
+sort array rotat unknown point effici search element 
+simpl approach linear search search logn time use binari search 
+see search element sort pivot array detail 
+variat problem like find minimum element maximum element sort rotat array 
+given big string charact effici find first uniqu charact 
+effici solut use charact index count array 
+travers given string store index first occurr everi charact also store count occurr 
+travers count array find smallest index count 1 see find first uniqu charact detail 
+count invers sort array 
+two element arr arr j array arr form invers j j count invers unsort array 
+see count invers array approach 
+given big array effici find k th largest element 
+mani solut 
+best solut use min heap 
+build min heap mh first k element 
+element kth element arr k arr n 1 compar root mh element greater root make root call heapifi mh els ignor 
+final mh k largest element root mh kth largest element 
+see k largest smallest element detail 
+given array size n rang number 1 n 1 
+array contain duplic one number miss find miss number 
+mani way solv 
+best among use xor 
+see find miss number detail 
+mani variat problem like find two repeat number find miss repeat number etc 
+write effici method calcul x rais power n 
+idea use divid conquer logn time 
+see write c program calcul pow x n detail 
+given input string dictionari word find input string segment space separ sequenc dictionari word 
+idea use dynam program 
+see word break problem detail 
+given row n coin valu v1 
+
+
+vn n even 
+play game oppon altern turn 
+turn player select either first last coin row remov row perman receiv valu coin 
+determin maximum possibl amount money definit win move first 
+also dynam program question 
+see optim strategi game detail 
+given array sort word arbitrari languag need find order preced charact languag 
+exampl given array baa abcd abca cab cad order charact b c 
+note word sort given languag baa come abcd therefor b output 
+similarli find order 
+solv use two step first creat graph process given set word topolog sort creat graph see detail 
+may also like commonli ask data structur interview question set 1 practic quizz variou algorithm topic last minut note algo pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

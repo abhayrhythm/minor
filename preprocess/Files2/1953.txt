@@ -1,0 +1,10 @@
+write c program print geeksforgeek empti main function 
+allow write anyth main 
+one way appli constructor attribut function execut main see detail 
+includ iostream use namespac std appli constructor attribut mystartupfun execut main void mystartupfun void __attribute__ constructor implement mystartupfun void mystartupfun void cout geeksforgeek int main output geeksforgeek approach would work gcc famili compil 
+follow interest way c 
+includ iostream use namespac std class myclass public myclass cout geeksforgeek int main output geeksforgeek idea creat class cout statement constructor creat global object class 
+object creat constructor call geeksforgeek print 
+articl contribut viki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

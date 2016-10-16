@@ -1,0 +1,21 @@
+given text txt 0 n 1 pattern pat 0 1 write function search char pat char txt print occurr pat txt 
+may assum n exampl 1 input txt test text pat test output pattern found index 10 2 input txt aabaacaadaabaaabaa pat aaba output pattern found index 0 pattern found index 9 pattern found index 13 pattern search import problem comput scienc 
+search string notepad word file browser databas pattern search algorithm use show search result 
+strongli recommend click practic move solut 
+naiv pattern search slide pattern text one one check match 
+match found slide 1 check subsequ match 
+c c program naiv pattern search algorithm includ stdio h includ string h void search char pat char txt int strlen pat int n strlen txt loop slide pat one one int 0 n int j current index check pattern match j 0 j j txt j pat j break j pat 0 1 txt 1 1 printf pattern found index n driver program test function int main char txt aabaacaadaabaaabaa char pat aaba search pat txt return 0 python python program naiv pattern search def search pat txt len pat n len txt loop slide pat one one xrang n 1 current index check pattern match j xrang txt j pat j break j 1 pat 0 1 txt 1 1 print pattern found index str driver program test function txt aabaacaadaabaaabaa pat aaba search pat txt code contribut bhavya jain output pattern found index 0 pattern found index 9 pattern found index 13 best case 
+best case occur first charact pattern present text 
+txt aabccaadde pat faa number comparison best case n 
+worst case 
+worst case naiv pattern search occur follow scenario 
+1 charact text pattern 
+txt aaaaaaaaaaaaaaaaaa pat aaaaa 
+2 worst case also occur last charact differ 
+txt aaaaaaaaaaaaaaaaab pat aaaab number comparison worst case n 1 
+although string repeat charact like appear english text may well occur applic exampl binari text 
+kmp match algorithm improv worst case n 
+cover kmp next post 
+also write post cover pattern search algorithm data structur 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

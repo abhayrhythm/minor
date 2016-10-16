@@ -1,0 +1,17 @@
+breadth first travers search graph similar breadth first travers tree see method 2 post 
+catch unlik tree graph may contain cycl may come node 
+avoid process node use boolean visit array 
+simplic assum vertic reachabl start vertex 
+exampl follow graph start travers vertex 2 come vertex 0 look adjac vertic 
+2 also adjac vertex 0 mark visit vertic 2 process becom non termin process 
+breadth first travers follow graph 2 0 3 1 follow c java implement simpl breadth first travers given sourc 
+c implement use adjac list represent graph 
+stl list contain use store list adjac node queue node need bf travers 
+c program print bf travers given sourc vertex 
+bf int travers vertic reachabl includ iostream includ list use namespac std class repres direct graph use adjac list represent class graph int v 
+vertic list int adj pointer array contain adjac list public graph int v constructor void addedg int v int w function add edg graph void bf int print bf travers given sourc graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+void graph bf int mark vertic visit bool visit new bool v int 0 v visit fals creat queue bf list int queue mark current node visit enqueu visit true queue push_back use get adjac vertic vertex list int iter queue empti dequeu vertex queue print queue front cout queue pop_front get adjac vertic dequeu vertex adjac visit mark visit enqueu adj begin adj end visit visit true queue push_back driver program test method graph class int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 cout follow breadth first travers start vertex 2 n g bf 2 return 0 java java program print bf travers given sourc vertex 
+bf int travers vertic reachabl import java io 
+import java util 
+class repres direct graph use adjac list represent class graph privat int v 
+vertic privat linkedlist integ adj adjac list constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w print bf travers given sourc void bf int mark vertic visit default set fals boolean visit new boolean v creat queue bf linkedlist integ queue new linkedlist integ mark current node visit enqueu visit true queue add queue size 0 dequeu vertex queue print queue poll system print get adjac vertic dequeu vertex adjac visit mark visit enqueu iter integ adj listiter hasnext int n next visit n visit n true queue add n driver method public static void main string arg graph g new graph 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 system println follow breadth first travers start vertex 2 g bf 2 code contribut aakash hasija output 

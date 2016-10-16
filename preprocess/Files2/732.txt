@@ -1,0 +1,56 @@
+interview compris 3 round 
+1 onlin 2 face face round 
+onlin round round 20 mcq solv 2 code question 
+20mcq coupl question quantit aptitud relationship os dbm data structur etc 
+neg mark everi wrong answer attempt 15 sure 
+q1 find first non repeat charact string 
+q2 given binari tree node weight 
+return max weight binari tree 
+maxweight valu root node valu left subtre right subtre 
+ex 2 1 3 output 4 round 33 student select face 2 face round 
+round 1 f2f 40 50 min q1 given binari tree left subtre mirror imag right subtre 
+check whether tree symmetr structur wise 
+n ex 1 2 3 4 5 output ye q2 given sort 2d matrix given valu search valu matrix 
+gave two solut 
+row col q3 given two array sort form 
+first array empti space equal size second array end 
+merg array smartest possibl way first array 
+constraint auxiliari space 1 
+ex arr1 9 2 4 5 7 8 _ _ _ _ arr2 4 3 6 8 9 merg arr1 2 3 4 5 6 7 8 8 9 everi question ask write work code corner case handl 
+impress interview much round 
+ask question like intern contribut amazon claim custom centric compani 
+round 2 f2f 70 80 min interview senior guy 
+q1 given larg n ari tree 
+root node inform want pass children leav constraint pass inform one children time take one iter 
+next iter child node transfer inform one children time instanc child parent e 
+root pass info one remain children 
+continu way find minimum iter requir pass inform node tree 
+minimum iter tree 6 consid pass root inform first child except b answer come 7 6 minimum answer 
+gave mani approach question satisfi approach 
+said tri binari tree gener n ari tree 
+said binari tree approach correct way gener n ari wrong 
+interview gave mani hint said almost solv question miss singl point abl find till end 
+final move question 
+q2 given binari tree check whether bst 
+question easi 
+solv within minut one inord travers approach n surpris interview say wrong 
+explain said wrong 
+motiv pressur stick solut final move question 
+answer correct 
+q3 given bst find nth maximum nth minimum element 
+solv n 
+fine said logarithm time 
+preprocess code approach 
+overal nice experi interview 
+tip confid 
+let pressur prevail 
+amazon mainli look write code tell approach fine 
+start practic much 
+barrier program languag 
+pleas ask question interview ask tri ask someth show much interest work www geeksforgeek org guidebook 
+util immens resourc avail portal benefit mug code 
+tri first solv 
+good luck 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

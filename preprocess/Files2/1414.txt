@@ -1,0 +1,8 @@
+algorithm let input link list sort increas order 
+1 link list empti make node head return 
+2 valu node insert smaller valu head node insert node start make head 
+3 loop find appropri node input node let 9 insert 
+find appropri node start head keep move reach node gn 10 diagram valu greater input node 
+node gn appropri node 7 
+4 insert node 9 appropri node 7 found step 3 initi link list link list insert 9 implement c c program insert sort list includ stdio h includ stdlib h link list node struct node int data struct node next function insert new_nod list 
+note function expect pointer head_ref modifi head input link list similar push void sortedinsert struct node head_ref struct node new_nod struct node current special case head end head_ref null head_ref data new_nod data new_nod next head_ref head_ref new_nod els locat node point insert current head_ref current next null current next data new_nod data current current next new_nod next current next current next new_nod function util test sortedinsert util function creat new node struct node newnod int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data new_nod next null return new_nod function print link list void printlist struct node head struct node temp head temp null printf temp data temp temp next drier program test count function int main start empti list struct node head null struct node new_nod newnod 5 sortedinsert head new_nod new_nod newnod 10 sortedinsert head new_nod new_nod newnod 7 sortedinsert head new_nod new_nod newnod 3 sortedinsert head new_nod new_nod newnod 1 sortedinsert head new_nod new_nod newnod 9 sortedinsert head new_nod printf n creat link list n printlist head return 0 

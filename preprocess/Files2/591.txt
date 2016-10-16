@@ -1,0 +1,11 @@
+given binari matrix find maximum size squar sub matrix 1s 
+exampl consid binari matrix 
+0 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 maximum squar sub matrix set bit 1 1 1 1 1 1 1 1 1 strongli recommend click practic move solut 
+algorithm let given binari matrix r c 
+idea algorithm construct auxiliari size matrix entri j repres size squar sub matrix 1s includ j j rightmost bottommost entri sub matrix 
+1 construct sum matrix r c given r c 
+copi first row first column b entri use follow express construct j 1 j min j 1 1 j 1 j 1 1 els j 0 j 0 2 find maximum entri r c 3 use valu coordin maximum entri print sub matrix given r c exampl construct r c would 0 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 2 2 0 1 2 2 3 1 0 0 0 0 0 valu maximum entri matrix 3 coordin entri 4 3 
+use maximum valu coordin find requir sub matrix 
+includ stdio h defin bool int defin r 6 defin c 5 void printmaxsubsquar bool r c int j int r c int max_of_ max_i max_j set first column 0 r 0 0 set first row j 0 j c j 0 j 0 j construct entri 1 r j 1 j c j j 1 j min j 1 1 j 1 j 1 1 els j 0 find maximum entri index maximum entri max_of_ 0 0 max_i 0 max_j 0 0 r j 0 j c j max_of_ j max_of_ j max_i max_j j printf n maximum size sub matrix n max_i max_i max_of_ j max_j j max_j max_of_ j printf j printf n util function function get minimum three valu int min int int b int c int b b c c return driver function test function int main bool r c 0 1 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 printmaxsubsquar getchar time complex n number row n number column given matrix 
+auxiliari space n number row n number column given matrix 
+algorithm paradigm dynam program pleas write comment find bug code algorithm find way solv problem adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

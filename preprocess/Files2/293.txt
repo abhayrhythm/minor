@@ -1,0 +1,35 @@
+eulerian path path graph visit everi edg exactli 
+eulerian circuit eulerian path start end vertex 
+find whether given graph eulerian 
+problem follow question 
+possibl draw given graph without lift pencil paper without trace edg 
+graph call eulerian eulerian cycl call semi eulerian eulerian path 
+problem seem similar hamiltonian path np complet problem gener graph 
+fortun find whether given graph eulerian path polynomi time 
+fact find v e time 
+follow interest properti undirect graph eulerian path cycl 
+use properti find whether graph eulerian 
+eulerian cycl undirect graph eulerian cycl follow two condit true 
+vertic non zero degre connect 
+care vertic zero degre belong eulerian cycl path consid edg 
+b vertic even degre 
+eulerian path undirect graph eulerian path follow two condit true 
+condit eulerian cycl b zero two vertic odd degre vertic even degre 
+note one vertex odd degre possibl undirect graph sum degre alway even undirect graph note graph edg consid eulerian edg travers 
+work 
+eulerian path time visit vertex v walk two unvisit edg one end point v therefor middl vertic eulerian path must even degre 
+eulerian cycl vertex middl vertex therefor vertic must even degre 
+c c program check given graph eulerian includ iostream includ list use namespac std class repres undirect graph class graph int v 
+vertic list int adj dynam array adjac list public constructor destructor graph int v v v adj new list int v graph delet adj avoid memori leak function add edg graph void addedg int v int w method check graph eulerian int iseulerian method check non zero degre vertic connect bool isconnect function df start v use isconnect void dfsutil int v bool visit void graph addedg int v int w adj v push_back w adj w push_back v note graph undirect void graph dfsutil int v bool visit mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit method check non zero degre vertic connect 
+mainli df travers start bool graph isconnect mark vertic visit bool visit v int 0 v visit fals find vertex non zero degre 0 v adj size 0 break edg graph return true v return true start df travers vertex non zero degre dfsutil visit check non zero degre vertic visit 0 v visit fals adj size 0 return fals return true function return one follow valu 0 grpah eulerian 1 graph euler path semi eulerian 2 graph euler circuit eulerian int graph iseulerian check non zero degre vertic connect isconnect fals return 0 count vertic odd degre int odd 0 int 0 v adj size 1 odd count 2 graph eulerian odd 2 return 0 odd count 2 semi eulerian 
+odd count 0 eulerian note odd count never 1 undirect graph return odd 
+1 2 function run test case void test graph g int re g iseulerian re 0 cout graph eulerian n els re 1 cout graph euler path n els cout graph euler cycl n driver program test function int main let us creat test graph shown figur graph g1 5 g1 addedg 1 0 g1 addedg 0 2 g1 addedg 2 1 g1 addedg 0 3 g1 addedg 3 4 test g1 graph g2 5 g2 addedg 1 0 g2 addedg 0 2 g2 addedg 2 1 g2 addedg 0 3 g2 addedg 3 4 g2 addedg 4 0 test g2 graph g3 5 g3 addedg 1 0 g3 addedg 0 2 g3 addedg 2 1 g3 addedg 0 3 g3 addedg 3 4 g3 addedg 1 3 test g3 let us creat graph 3 vertic connect form cycl graph g4 3 g4 addedg 0 1 g4 addedg 1 2 g4 addedg 2 0 test g4 let us creat graph veritc zero degre graph g5 3 test g5 return 0 java java program check given graph eulerian import java io 
+import java util 
+import java util linkedlist class repres undirect graph use adjac list represent class graph privat int v 
+vertic array list adjac list represent privat linkedlist integ adj constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w add w v list 
+adj w add v graph undirect function use df void dfsutil int v boolean visit mark current node visit visit v true recur vertic adjac vertex iter integ adj v listiter hasnext int n next visit n dfsutil n visit method check non zero degre vertic connect 
+mainli df travers start boolean isconnect mark vertic visit boolean visit new boolean v int 0 v visit fals find vertex non zero degre 0 v adj size 0 break edg graph return true v return true start df travers vertex non zero degre dfsutil visit check non zero degre vertic visit 0 v visit fals adj size 0 return fals return true function return one follow valu 0 grpah eulerian 1 graph euler path semi eulerian 2 graph euler circuit eulerian int iseulerian check non zero degre vertic connect isconnect fals return 0 count vertic odd degre int odd 0 int 0 v adj size 2 0 odd count 2 graph eulerian odd 2 return 0 odd count 2 semi eulerian 
+odd count 0 eulerian note odd count never 1 undirect graph return odd 2 
+1 2 function run test case void test int re iseulerian re 0 system println graph eulerian els re 1 system println graph euler path els system println graph euler cycl driver method public static void main string arg let us creat test graph shown figur graph g1 new graph 5 g1 addedg 1 0 g1 addedg 0 2 g1 addedg 2 1 g1 addedg 0 3 g1 addedg 3 4 g1 test graph g2 new graph 5 g2 addedg 1 0 g2 addedg 0 2 g2 addedg 2 1 g2 addedg 0 3 g2 addedg 3 4 g2 addedg 4 0 g2 test graph g3 new graph 5 g3 addedg 1 0 g3 addedg 0 2 g3 addedg 2 1 g3 addedg 0 3 g3 addedg 3 4 g3 addedg 1 3 g3 test let us creat graph 3 vertic connect form cycl graph g4 new graph 3 g4 addedg 0 1 g4 addedg 1 2 g4 addedg 2 0 g4 test let us creat graph veritc zero degre graph g5 new graph 3 g5 test code contribut aakash hasija output graph euler path graph euler cycl graph eulerian graph euler cycl graph euler cycl time complex v e soon cover follow topic eulerian path circuit 1 eulerian path circuit direct graph 
+2 print eulerian path circuit 
+refer http en wikipedia org wiki eulerian_path pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

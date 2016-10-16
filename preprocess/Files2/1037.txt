@@ -1,0 +1,5 @@
+predict output follow c program 
+question 1 includ stdio h int fun static int num 40 return num int main fun fun fun printf fun getchar return 0 output 38 35 32 29 26 23 20 17 14 11 8 5 2 sinc num static fun old valu num preserv subsequ function call 
+also sinc statement return num postfix return old valu num updat valu next function call 
+question 2 includ stdio h int main char knowledg power char p p printf p printf p printf p getchar return 0 output nowledg nowledg let us consid express p first printf 
+sinc preced prefix 

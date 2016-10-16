@@ -1,0 +1,93 @@
+
+You are given a string that represent an expression of digits and operands. E.g. 1+2*3, 1-2+4. You need to evaluate the string or the expression. NO BODMAS is followed. If the expression is of incorrect syntax return -1.
+Test cases:
+a) 1+2*3 will be evaluated to 9.
+b) 4-2+6*3 will be evaluated to 24.
+c) 1++2 will be evaluated to -1(INVALID).
+Also, in the string spaces can occur. For that case we need to ignore the spaces. Like :- 1*2 -1 is equals to 1.
+Source: Amazon Interview Question
+It is strongly recommend to minimize the browser and try this yourself first.
+The idea is simple start from the first character and traverse from left to right and check for errors like two consecutive operators and operands.  We also keep track of result and update the result while traversing the expression.
+Following is C++ program to evaluate the given expression.
+
+// C++ program to evaluate a given expression
+#include <ioexpeam>
+using namespace std;
+
+// A utility function to check if a given character is operand
+bool isOperand(char c) { return (c >= '0' && c <= '9'); }
+
+// utility function to find value of and operand
+int value(char c) {  return (c - '0'); }
+
+// This function evaluates simple expressions. It returns -1 if the
+// given expression is invalid.
+int evaluate(char *exp)
+{
+    // Base Case: Given expression is empty
+    if (*exp == '\0')  return -1;
+
+    // The first character must be an operand, find its value
+    int res = value(exp[0]);
+
+    // Traverse the remaining characters in pairs
+    for (int i = 1; exp[i]; i += 2)
+    {
+        // The next character must be an operator, and
+        // next to next an operand
+        char opr = exp[i], opd = exp[i+1];
+
+        // If next to next character is not an operand
+        if (!isOperand(opd))  return -1;
+
+        // Update result according to the operator
+        if (opr == '+')       res += value(opd);
+        else if (opr == '-')  res -= value(opd);
+        else if (opr == '*')  res *= value(opd);
+        else if (opr == '/')  res /= value(opd);
+
+        // If not a valid operator
+        else                  return -1;
+    }
+    return res;
+}
+
+// Driver program to test above function
+int main()
+{
+    char expr1[] = "1+2*5+3";
+    int res = evaluate(expr1);
+    (res == -1)? cout << expr1 << " is " << "Invalid\n":
+                 cout << "Value of " << expr1 << " is " << res << endl;
+
+    char expr2[] = "1+2*3";
+    res = evaluate(expr2);
+    (res == -1)? cout << expr2 << " is " << "Invalid\n":
+                 cout << "Value of " << expr2 << " is " << res << endl;
+
+    char expr3[] = "4-2+6*3";
+    res = evaluate(expr3);
+    (res == -1)? cout << expr3 << " is " << "Invalid\n":
+                 cout << "Value of " << expr3 << " is " << res << endl;
+
+    char expr4[] = "1++2";
+    res = evaluate(expr4);
+    (res == -1)? cout << expr4 << " is " << "Invalid\n":
+                 cout << "Value of " << expr4 << " is " << res << endl;
+    return 0;
+}
+
+Output:
+Value of 1+2*5+3 is 18
+Value of 1+2*3 is 9
+Value of 4-2+6*3 is 24
+1++2 is Invalid
+The above code doesn’t handle spaces.  We can handle spaces by first removing all spaces from the given string.  A better solution is to handle spaces in single traversal.  This is left as an exercise.
+Time Complexity is O(n) where n is length of the given expression.
+This article is contributed by Abhishek. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

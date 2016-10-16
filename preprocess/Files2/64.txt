@@ -1,0 +1,55 @@
+recommend read follow two post prerequisit post 
+1 greedi algorithm set 7 dijkstra shortest path algorithm 2 graph represent discuss dijkstra algorithm implement adjac matrix represent graph 
+time complex matrix represent v 2 
+post elogv algorithm adjac list represent discuss 
+discuss previou post dijkstra algorithm two set maintain one set contain list vertic alreadi includ spt shortest path tree set contain vertic yet includ 
+adjac list represent vertic graph travers v e time use bf 
+idea travers vertic graph use bf use min heap store vertic yet includ spt vertic shortest distanc final yet 
+min heap use prioriti queue get minimum distanc vertex set yet includ vertic 
+time complex oper like extract min decreas key valu logv min heap 
+follow detail step 
+1 creat min heap size v v number vertic given graph 
+everi node min heap contain vertex number distanc valu vertex 
+2 initi min heap sourc vertex root distanc valu assign sourc vertex 0 
+distanc valu assign vertic inf infinit 
+3 min heap empti follow extract vertex minimum distanc valu node min heap 
+let extract vertex u 
+b everi adjac vertex v u check v min heap 
+v min heap distanc valu weight u v plu distanc valu u updat distanc valu v let us understand follow exampl 
+let given sourc vertex 0 initi distanc valu sourc vertex 0 inf infinit vertic 
+sourc vertex extract min heap distanc valu vertic adjac 0 1 7 updat 
+min heap contain vertic except vertex 0 vertic green color vertic minimum distanc final min heap sinc distanc valu vertex 1 minimum among node min heap extract min heap distanc valu vertic adjac 1 updat distanc updat vertex min heap distanc 1 shorter previou distanc 
+min heap contain vertic except vertex 0 1 pick vertex minimum distanc valu min heap 
+vertex 7 pick 
+min heap contain vertic except 0 1 7 updat distanc valu adjac vertic 7 distanc valu vertex 6 8 becom finit 15 9 respect 
+pick vertex minimum distanc min heap 
+vertex 6 pick 
+min heap contain vertic except 0 1 7 6 updat distanc valu adjac vertic 6 distanc valu vertex 5 8 updat 
+step repeat till min heap becom empti 
+final get follow shortest path tree 
+c c program dijkstra shortest path algorithm adjac list represent graph includ stdio h includ stdlib h includ limit h structur repres node adjac list struct adjlistnod int dest int weight struct adjlistnod next structur repres adjac liat struct adjlist struct adjlistnod head pointer head node list structur repres graph 
+graph array adjac list 
+size array v number vertic graph struct graph int v struct adjlist array util function creat new adjac list node struct adjlistnod newadjlistnod int dest int weight struct adjlistnod newnod struct adjlistnod malloc sizeof struct adjlistnod newnod dest dest newnod weight weight newnod next null return newnod util function creat graph v vertic struct graph creategraph int v struct graph graph struct graph malloc sizeof struct graph graph v v creat array adjac list 
+size array v graph array struct adjlist malloc v sizeof struct adjlist initi adjac list empti make head null int 0 v graph array head null return graph add edg undirect graph void addedg struct graph graph int src int dest int weight add edg src dest 
+new node ad adjac list src 
+node ad begin struct adjlistnod newnod newadjlistnod dest weight newnod next graph array src head graph array src head newnod sinc graph undirect add edg dest src also newnod newadjlistnod src weight newnod next graph array dest head graph array dest head newnod structur repres min heap node struct minheapnod int v int dist structur repres min heap struct minheap int size number heap node present current int capac capac min heap int po need decreasekey struct minheapnod array util function creat new min heap node struct minheapnod newminheapnod int v int dist struct minheapnod minheapnod struct minheapnod malloc sizeof struct minheapnod minheapnod v v minheapnod dist dist return minheapnod util function creat min heap struct minheap createminheap int capac struct minheap minheap struct minheap malloc sizeof struct minheap minheap po int malloc capac sizeof int minheap size 0 minheap capac capac minheap array struct minheapnod malloc capac sizeof struct minheapnod return minheap util function swap two node min heap 
+need min heapifi void swapminheapnod struct minheapnod struct minheapnod b struct minheapnod b b standard function heapifi given idx function also updat posit node swap 
+posit need decreasekey void minheapifi struct minheap minheap int idx int smallest left right smallest idx left 2 idx 1 right 2 idx 2 left minheap size minheap array left dist minheap array smallest dist smallest left right minheap size minheap array right dist minheap array smallest dist smallest right smallest idx node swap min heap minheapnod smallestnod minheap array smallest minheapnod idxnod minheap array idx swap posit minheap po smallestnod v idx minheap po idxnod v smallest swap node swapminheapnod minheap array smallest minheap array idx minheapifi minheap smallest util function check given minheap ampti int isempti struct minheap minheap return minheap size 0 standard function extract minimum node heap struct minheapnod extractmin struct minheap minheap isempti minheap return null store root node struct minheapnod root minheap array 0 replac root node last node struct minheapnod lastnod minheap array minheap size 1 minheap array 0 lastnod updat posit last node minheap po root v minheap size 1 minheap po lastnod v 0 reduc heap size heapifi root minheap size minheapifi minheap 0 return root function decreasi dist valu given vertex v function use po min heap get current index node min heap void decreasekey struct minheap minheap int v int dist get index v heap array int minheap po v get node updat dist valu minheap array dist dist travel complet tree hepifi 
+logn loop minheap array dist minheap array 1 2 dist swap node parent minheap po minheap array v 1 2 minheap po minheap array 1 2 v swapminheapnod minheap array minheap array 1 2 move parent index 1 2 util function check given vertex v min heap bool isinminheap struct minheap minheap int v minheap po v minheap size return true return fals util function use print solut void printarr int dist int n printf vertex distanc sourc n int 0 n printf n dist main function calul distanc shortest path src vertic 
+elogv function void dijkstra struct graph graph int src int v graph v get number vertic graph int dist v dist valu use pick minimum weight edg cut minheap repres set e struct minheap minheap createminheap v initi min heap vertic 
+dist valu vertic int v 0 v v v dist v int_max minheap array v newminheapnod v dist v minheap po v v make dist valu src vertex 0 extract first minheap array src newminheapnod src dist src minheap po src src dist src 0 decreasekey minheap src dist src initi size min heap equal v minheap size v followin loop min heap contain node whose shortest distanc yet final 
+isempti minheap extract vertex minimum distanc valu struct minheapnod minheapnod extractmin minheap int u minheapnod v store extract vertex number travers adjac vertic u extract vertex updat distanc valu struct adjlistnod pcrawl graph array u head pcrawl null int v pcrawl dest shortest distanc v final yet distanc v u less previous calcul distanc isinminheap minheap v dist u int_max pcrawl weight dist u dist v dist v dist u pcrawl weight updat distanc valu min heap also decreasekey minheap v dist v pcrawl pcrawl next print calcul shortest distanc printarr dist v driver program test function int main creat graph given fugur int v 9 struct graph graph creategraph v addedg graph 0 1 4 addedg graph 0 7 8 addedg graph 1 2 8 addedg graph 1 7 11 addedg graph 2 3 7 addedg graph 2 8 2 addedg graph 2 5 4 addedg graph 3 4 9 addedg graph 3 5 14 addedg graph 4 5 10 addedg graph 5 6 2 addedg graph 6 7 1 addedg graph 6 8 6 addedg graph 7 8 7 dijkstra graph 0 return 0 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 time complex time complex code algorithm look v 2 two nest loop 
+take closer look observ statement inner loop execut v e time similar bf 
+inner loop decreasekey oper take logv time 
+overal time complex e v logv e v logv elogv note code use binari heap prioriti queue implement 
+time complex reduc e vlogv use fibonacci heap 
+reason fibonacci heap take 1 time decreas key oper binari heap take logn time 
+note 1 code calcul shortest distanc calcul path inform 
+creat parent array updat parent array distanc updat like prim implement use show shortest path sourc differ vertic 
+2 code undirect graph dijekstra function use direct graph also 
+3 code find shortest distanc sourc vertic 
+interest shortest distanc sourc singl target break loop pick minimum distanc vertex equal target step 3 algorithm 
+4 dijkstra algorithm work graph neg weight edg 
+graph neg weight edg bellman ford algorithm use soon discuss separ post 
+print path dijkstra shortest path algorithm dijkstra shortest path algorithm use set stl refer introduct algorithm clifford stein thoma h cormen charl e leiserson ronald l algorithm sanjoy dasgupta christo papadimitri umesh vazirani pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

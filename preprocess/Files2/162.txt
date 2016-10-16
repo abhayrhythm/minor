@@ -1,0 +1,64 @@
+discuss problem detect two given line segment intersect 
+post extend problem 
+given n line segment need find two line segment intersect 
+naiv algorithm naiv solut solv problem check everi pair line check pair intersect 
+check two line segment 1 time 
+therefor approach take n2 
+sweep line algorithm solv problem nlogn time use sweep line algorithm 
+algorithm first sort end point along x axi left right pass vertic line point left right check intersect 
+follow detail step 
+1 let n given line 
+must 2n end point repres n line 
+sort point accord x coordin 
+sort maintain flag indic whether point left point line right point 
+2 start leftmost point 
+follow everi point current point left point line segment check intersect line segment segment 
+add line activ line segment line segment left end point seen right end point seen yet 
+note consid neighbor still activ 
+b current point right point remov line segment activ list check whether two activ neighbor point intersect 
+step 2 like pass vertic line point start leftmost point rightmost point 
+algorithm call sweep line algorithm 
+sweep line techniqu use mani geometr algorithm like calcul 2d voronoi diagram data structur use effici implement 
+step 2 need store activ line segment 
+need follow oper effici insert new line segment b delet line segment c find predecessor successor accord coordin valu obviou choic oper self balanc binari search tree like avl tree red black tree 
+self balanc bst oper logn time 
+also step 1 instead sort use min heap data structur 
+build min heap take n time everi extract min oper take logn time see 
+pseudocod follow pseudocod use heap 
+simpli sort array 
+sweeplineintersect point 0 2n 1 1 sort point left right accord x coordin 2 creat empti self balanc bst contain activ line segment order coordin 
+process 2n point 3 0 2n 1 point left end line point isleft insert point line insert tree check point intersect predecessor successor dointersect point line pred point line return true dointersect point line succ point line return true els right end line check predecessor successor intersect dointersect pred point line succ point line return true delet point line delet tree 4 return fals exampl let us consid follow exampl taken 
+5 line segment 1 2 3 4 5 dot green line show sweep line 
+follow step follow algorithm 
+point left right process one one 
+maintain self balanc binari search tree 
+left end point line segment 1 process 1 insert tree 
+tree contain 1 intersect 
+left end point line segment 2 process intersect 1 2 check 
+2 insert tree 
+intersect 
+tree contain 1 2 left end point line segment 3 process intersect 3 1 check 
+intersect 
+3 insert tree 
+tree contain 2 1 3 right end point line segment 1 process 1 delet tree 
+intersect 2 3 check 
+intersect 2 3 report 
+tree contain 2 3 note pseudocod return point 
+continu report intersect point 
+left end point line segment 4 process intersect line 4 line 2 3 check 
+intersect 
+4 insert tree 
+tree contain 2 4 3 left end point line segment 5 process intersect 5 3 check 
+intersect 
+4 insert tree 
+tree contain 2 4 3 5 right end point line segment 5 process 5 delet tree 
+tree contain 2 4 3 right end point line segment 4 process 4 delet tree 
+tree contain 2 4 3 intersect 2 3 check 
+intersect 2 3 report 
+tree contain 2 3 note intersect 2 3 report 
+add logic check duplic 
+right end point line segment 2 3 process delet tree tree becom empti 
+time complex first step sort take nlogn time 
+second step process 2n point process everi point take logn time 
+therefor overal time complex nlogn refer http www cs uiuc edu jeff teach 373 note x06 sweeplin pdf http cours csail mit edu 6 006 spring11 lectur lec24 pdf http www youtub com watch v depdhvovjl http www eec wsu edu cook aa lectur l25 node10 html pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

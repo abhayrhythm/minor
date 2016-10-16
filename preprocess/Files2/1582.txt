@@ -1,0 +1,18 @@
+top view binari tree set node visibl tree view top 
+given binari tree print top view 
+output node print order 
+expect time complex n node x output x topmost node horizont distanc 
+horizont distanc left child node x equal horizont distanc x minu 1 right child horizont distanc x plu 1 
+1 2 3 4 5 6 7 top view binari tree 4 2 1 3 7 1 2 3 4 5 6 top view binari tree 2 1 3 6 strongli recommend minim browser tri first 
+idea someth similar vertic order travers 
+like vertic order travers need node horizont distanc togeth 
+level order travers topmost node horizont node visit node horizont distanc 
+hash use check node given horizont distanc seen 
+java program print top view binari tree import java util 
+class tree node class treenod member int key treenod left right constructor public treenod int key key key left right null class repres queue item 
+queue use level order travers 
+everi queue item contain node horizont distanc node root class qitem treenod node int hd public qitem treenod n int h node n hd h class binari tree class tree treenod root constructor public tree root null public tree treenod n root n method print node top view binari tree public void printtopview base case root null return creat empti hashset hashset integ set new hashset creat queue add root queue qitem q new linkedlist qitem q add new qitem root 0 horizont distanc root 0 standard bf level order travers loop q isempti remov front item get detail qitem qi q remov int hd qi hd treenod n qi node first node horizont distanc node top view set contain hd set add hd system print n key enqueu left right children current node n left null q add new qitem n left hd 1 n right null q add new qitem n right hd 1 driver class test method public class main public static void main string arg creat follow binari tree 1 2 3 4 5 6 treenod root new treenod 1 root left new treenod 2 root right new treenod 3 root left right new treenod 4 root left right right new treenod 5 root left right right right new treenod 6 tree new tree root system println follow node top view binari tree printtopview output follow node top view binari tree 1 2 3 6 time complex implement n n number node given binari tree 
+assumpt add contain method hashset work 1 time 
+articl contribut rohan 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

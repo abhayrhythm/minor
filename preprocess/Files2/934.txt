@@ -1,0 +1,44 @@
+function set statement take input specif comput produc output 
+idea put commonli repeatedli done task togeth make function instead write code differ input call function 
+exampl simpl c program demonstr function c includ stdio h exampl function take two paramet x input return max two input number int max int x int x return x els return main function receiv paramet return integ 
+int main void int 10 b 20 call function find max b int max b printf return 0 output 20 function declar function declar tell compil number paramet function take data type paramet return type function 
+put paramet name function declar option function declar necessari put definit 
+exampl function declar 
+paramet name declar function take two integ paramet return integ int max int int function take char int paramet return integ int fun char int alway recommend declar function use see detail c declar definit place like done exampl program 
+c also allow declar defin function separ special need case librari function 
+librari function declar header file defin librari file 
+exampl declar 
+paramet pass function paramet pass function call actual paramet 
+exampl program 10 20 actual paramet 
+paramet receiv function call formal paramet 
+exampl program x formal paramet 
+two popular way pass paramet 
+pass valu paramet pass method valu actual paramet copi function formal paramet two type paramet store differ memori locat 
+chang made insid function reflect actual paramet caller 
+pass refer actual formal paramet refer locat chang made insid function actual reflect actual paramet caller 
+c paramet alway pass valu 
+paramet alway pass valu c exampl 
+code valu modifi use function fun 
+includ stdio h void fun int x x 30 int main void int x 20 fun x printf x x return 0 output x 20 howev c use pointer get effect pass refer 
+exampl consid program 
+function fun expect pointer ptr integ address integ 
+modifi valu address ptr 
+derefer oper use access valu address 
+statement ptr 30 valu address ptr chang 30 address oper use get address variabl data type 
+function call statement fun address pass modifi use address 
+includ stdio h void fun int ptr ptr 30 int main int x 20 fun x printf x x return 0 output x 30 follow import point function c 1 everi c program function call main call oper system user run program 
+2 everi function return type 
+function return valu void use return type 
+3 c function return type except array function 
+get around limit return pointer array pointer function 
+4 empti paramet list c mean paramet list specifi function call paramet 
+c good idea declar function like fun 
+declar function call without paramet use void fun void 
+side note c empti list mean function call without paramet 
+c void fun void fun void 
+function c quiz function c import function prototyp c function execut main c return statement vs exit main count variabl number argument c evalu order function paramet c 
+c support function overload 
+return multipl valu function 
+purpos function prototyp 
+static function c exit abort assert implicit return type int c happen function call declar c 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

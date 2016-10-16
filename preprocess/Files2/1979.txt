@@ -1,0 +1,10 @@
+copi elis copi omiss compil optim techniqu avoid unnecessari copi object 
+day almost everi compil use 
+let us understand help exampl 
+includ iostream use namespac std class b public b const char str 0 default constructor cout constructor call endl b const b b copi constructor cout copi constructor call endl int main b ob copi return 0 output program constructor call copi constructor call 
+accord theori object ob construct one argument constructor use convert copi temporari object temporari object copi object ob 
+statement b ob copi broken compil b ob b copi howev c compil avoid overhead creat temporari object copi 
+modern compil break statement b ob copi copi initi b ob copi direct initi thu elid call copi constructor 
+howev still want ensur compil elid call copi constructor disabl copi elis compil program use fno elid constructor option g see output follow aashish aashish thinkpad sl400 g copy_elis cpp fno elid constructor aashish aashish thinkpad sl400 constructor call copi constructor call fno elid constructor option use first default constructor call creat temporari object copi constructor call copi temporari object ob 
+refer http en wikipedia org wiki copy_elis articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

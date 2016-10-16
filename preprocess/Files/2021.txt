@@ -1,0 +1,46 @@
+
+Given below a small piece of code from an open source project, 
+
+#ifndef __cplusplus
+
+typedef enum BoolenTag
+{
+   false,
+   true
+} bool;
+
+#endif
+
+#define CRASH() do { \
+      ((void(*)())0)(); \
+   } while(false)
+
+int main()
+{
+   CRASH();
+   return 0;
+}
+
+Can you interpret above code?
+It is simple, a step by step approach is given below,
+The statement while(false) is meant only for testing purpose. Consider the following operation,
+((void(*)())0)();
+It can be achieved as follows,
+0;                      /* literal zero */
+(0); ( ()0 );                /* 0 being casted to some type */
+( (*) 0 );              /* 0 casted some pointer type */
+( (*)() 0 );            /* 0 casted as pointer to some function */
+( void (*)(void) 0 );   /* Interpret 0 as address of function 
+ taking nothing and returning nothing */
+( void (*)(void) 0 )(); /* Invoke the function */
+So the given code is invoking the function whose code is stored at location zero, in other words, trying to execute an instruction stored at location zero. On systems with memory protection (MMU) the OS will throw an exception (segmentation fault) and on systems without such protection (small embedded systems), it will execute and error will propagate further.
+— Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

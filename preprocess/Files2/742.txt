@@ -1,0 +1,23 @@
+amazon came campu recent placement internship 
+attend internship share experi 
+first round onlin 20 mcq base basic aptitud os c program data structur 
+2 code question 1st consid coordin system consist n coordin x1 y1 xn yn also two valu ymin ymax given 
+return min x 2 2 lie ymin ymax inclus 
+return 1 
+2nd given number n number k find next bigger number n obtain exaclti k swap 
+eg take n 43592169 k 5 1st swap 43952169 2nd swap 49352169 3rd swap 94352169 4th swap 94532169 5th swap 95432169 final number 
+first interview 1 check link list palindrom 
+2 given array n integ posit neg 
+find maximum sum subsequ array also total number array possibl maximum sum 
+second interview final 1 link list consist two pointer next pointer child pointer 
+make link list linear e 
+make child pointer null 
+eg 1 2 3 4 5 6 8 7 answer would 1 2 3 4 5 6 8 7 
+2 given distanc n person stand posit 0 reach n either take 1 step 2 step time 
+mani way reach 
+final definit oop os basic data structur 
+final hire internship amazon 
+would like thank geek geek help lot prepar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

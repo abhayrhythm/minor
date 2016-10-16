@@ -1,0 +1,11 @@
+given binari search tree bst posit integ k find k th smallest element binari search tree 
+exampl follow bst k 3 output 10 k 5 output 14 discuss two method post one method post 
+previou method requir extra space 
+find k th largest element without extra space 
+strongli recommend minim browser tri first 
+implement idea use morri travers 
+travers first creat link inord successor print data use link final revert chang restor origin tree 
+see detail 
+c implement idea 
+c program find k th largest element bst includ iostream includ climit use namespac std bst node struct node int key node left right function find int ksmallestusingmorri node root int k count iter element till get kth smallest number int count 0 int ksmall int_min store kth smallest node curr root store current node curr null like morri travers current left child rather print inord increment count number increas order curr left null count count equal k found kth smallest store ksmall count k ksmall curr key go current right child curr curr right els creat link inord successor count use link node pre curr left pre right null pre right curr pre pre right build link pre right null link made inord successor pre right curr curr curr left break link made temporari thread tree check k smallest condit els revert chang made part break link inord successor pre right null count count equal k found kth smallest store ksmall count k ksmall curr key curr curr right return ksmall return found valu util function creat new bst node node newnod int item node temp new node temp key item temp left temp right null return temp util function insert new node given key bst node insert node node int key tree empti return new node node null return newnod key otherwis recur tree key node key node left insert node left key els key node key node right insert node right key return unchang node pointer return node driver program test function int main let us creat follow bst 50 30 70 20 40 60 80 node root null root insert root 50 insert root 30 insert root 20 insert root 40 insert root 70 insert root 60 insert root 80 int k 1 k 7 k cout ksmallestusingmorri root k return 0 output 20 30 40 50 60 70 80 articl contribut abhishek somani 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

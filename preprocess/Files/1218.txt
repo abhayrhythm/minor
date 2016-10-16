@@ -1,0 +1,115 @@
+
+Given a string and number of rows ‘n’.  Print the string formed by concatenating n rows when  input string is written in row-wise Zig-Zag fashion.
+Examples:
+
+Input: str = "ABCDEFGH"
+       n = 2
+Output: "ACEGBDFH"
+Explanation: Let us write input string in Zig-Zag fashion
+             in 2 rows.
+A   C   E   G   
+  B   D   F   H
+Now concatenate the two rows and ignore spaces 
+in every row. We get "ACEGBDFH"
+
+Input: str = "GEEKSFORGEEKS"
+       n = 3
+Output: GSGSEKFREKEOE
+Explanation: Let us write input string in Zig-Zag fashion
+             in 3 rows.
+G       S       G       S
+  E   K   F   R   E   K
+    E       O       E
+Now concatenate the two rows and ignore spaces 
+in every row. We get "GSGSEKFREKEOE"
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+The idea is to traverse the input string.  Every character has to go to one of the rows.  One by one add all characters to different rows. Below is algorithm:
+
+1) Create an array of n strings, arr[n]
+2) Initialize direction as "down" and row as 0. The 
+   direction indicates whether we need to move up or 
+   down in rows. 
+3) Traverse the input string, do following for every
+   character.
+   a) Append current character to string of current row.
+   b) If row number is n-1, then change direction to 'up'
+   c) If row number is 0, then change direction to 'down'
+   d) If direction is 'down', do row++.  Else do row--.
+4) One by one print all strings of arr[]. 
+Below is C++ implementation of above idea.
+
+// C++ program to print string obtained by concatenation
+// of different rows of Zig-Zag fashion
+#include<bits/stdc++.h>
+using namespace std;
+
+// Prints concatenation of all rows of str's Zig-Zag fasion
+void printZigZagConcat(string str, int n)
+{
+    // Corner Case (Only one row)
+    if (n == 1)
+    {
+        cout << str;      
+        return;
+    }   
+
+    // Find length of string
+    int len = str.length();
+
+    // Create an array of strings for all n rows
+    string arr[n];
+
+    // Initialize index for array of strings arr[]
+    int row = 0;
+    bool down; // True if we are moving down in rows, 
+               // else false
+
+    // Travers through given string
+    for (int i = 0; i < len; ++i)
+    {
+        // append current character to current row
+        arr[row].push_back(str[i]);
+
+        // If last row is reached, change direction to 'up'
+        if (row == n-1)
+          down = false;
+
+        // If 1st row is reached, change direction to 'down'
+        else if (row == 0)
+          down = true;
+
+        // If direction is down, increment, else decrement
+        (down)? (row++): (row--);
+    }
+
+    // Print concatenation of all rows
+    for (int i = 0; i < n; ++i)
+        cout << arr[i];
+}
+
+// Driver program
+int main()
+{
+    string str = "GEEKSFORGEEKS";
+    int n = 3;
+    printZigZagConcat(str, n);
+    return 0;
+}
+
+Output:
+GSGSEKFREKEOE
+Time Complexity: O(len) where len is length of input string.
+Auxiliary Space: O(len)
+Thanks to Gaurav Ahirwar for suggesting above solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

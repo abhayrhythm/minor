@@ -1,0 +1,9 @@
+valu exponenti function e x express use follow taylor seri 
+e x 1 x 1 
+x 2 2 
+x 3 3 
+effici calcul sum seri 
+seri written e x 1 x 1 1 x 2 1 x 3 let sum need calcul n term calcul sum use follow loop 
+n 1 sum 1 0 sum 1 x sum follow implement idea 
+effici program calcul e rais power x includ stdio h return approxim valu e x use sum first n term taylor seri float exponenti int n float x float sum 1 0f initi sum seri int n 1 0 sum 1 x sum return sum driver program test function int main int n 10 float x 1 0f printf e x f exponenti n x return 0 output e x 2 718282 articl compil rahul review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

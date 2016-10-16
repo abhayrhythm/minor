@@ -1,0 +1,19 @@
+given n x n binari matrix element matrix either 1 0 row column matrix sort ascend order count number 0s present 
+expect time complex n 
+exampl input 0 0 0 0 1 0 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 output 8 input 0 0 0 0 output 4 input 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 output 0 idea simpl 
+start bottom left corner matrix repeat step find top right edg matrix 
+1 decrement row index find 0 
+2 add number 0s current column e 
+current row index 1 result move right next column increment col index 1 
+logic work sinc matrix row wise column wise sort 
+logic also work matrix contain non neg integ 
+c implement c program count number 0s given row wise column wise sort binari matrix 
+includ iostream use namespac std defin size squar matrix defin n 5 function count number 0s given row wise column wise sort binari matrix 
+int countzero int mat n n start bottom left corner matrix int row n 1 col 0 store number zero matrix int count 0 col n move find 0 mat row col zero found current column done row 0 return count add 0s present current column result count row 1 move right next column col return count driver program test function int main int mat n n 0 0 0 0 1 0 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 cout countzero mat return 0 output 8 time complex solut n sinc solut follow singl path bottom left corner top right edg matrix 
+auxiliari space use program 1 
+share us find interest method solv problem 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

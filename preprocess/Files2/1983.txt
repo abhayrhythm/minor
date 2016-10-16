@@ -1,0 +1,25 @@
+function prototyp tell compil number paramet function take data type paramet return type function 
+use inform compil cross check function paramet data type function definit function call 
+ignor function prototyp program may compil warn may work properli 
+time give strang output hard find program mistak 
+let us see exampl includ errno h includ stdio h int main int argc char argv file fp fp fopen argv 1 r fp null fprintf stderr n strerror errno return errno printf file exist n fclose fp return 0 program check exist file provid command line given file exist program print file exist otherwis print appropri error messag 
+let us provid filenam exist file system check output program x86_64 architectur 
+narendra media partit gfg file_exist hello c segment fault core dump program crash instead show appropri error messag 
+program work fine x86 architectur crash x86_64 architectur 
+let us see wrong code 
+care go program deliber includ prototyp strerror function 
+function return pointer charact print error messag depend errno pass function 
+note x86 architectur ilp 32 model mean integ pointer long 32 bit wide program work correctli architectur 
+x86_64 lp 64 model mean long pointer 64 bit wide 
+c languag provid prototyp function compil assum function return integ 
+exampl includ string h header file strerror prototyp declar file compil assum function return integ 
+return type pointer charact 
+x86_64 pointer 64 bit wide integ 32 bit wide return function return address get truncat e 
+32 bit wide address size integ x86_64 invalid tri derefer address result segment fault 
+includ string h header file check output program work correctli 
+narendra media partit gfg file_exist hello c file directori consid one exampl 
+includ stdio h int main void int p malloc sizeof int p null perror malloc return 1 p 10 free p return 0 code work fine ia 32 model fail ia 64 model 
+reason failur code includ prototyp malloc function return valu truncat ia 64 model 
+articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

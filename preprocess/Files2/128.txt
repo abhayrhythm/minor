@@ -1,0 +1,9 @@
+question discuss naiv string match algorithm 
+consid situat charact pattern differ 
+modifi origin naiv string match algorithm work better type pattern 
+chang origin algorithm 
+solut origin naiv string match algorithm alway slide pattern 1 charact pattern differ slide pattern 1 let us see 
+mismatch occur j match know first charact pattern match j match charact charact pattern differ 
+alway slide pattern j without miss valid shift 
+follow modifi code optim special pattern 
+c c program modifi naiv pattern search algorithm optim case charact pattern differ includ stdio h includ string h modifi naiv pettern search algorithn optim case charact pattern differ void search char pat char txt int strlen pat int n strlen txt int 0 n int j current index check pattern match j 0 j j txt j pat j break j pat 0 1 txt 1 1 printf pattern found index n els j 0 1 els j slide pattern j driver program test function int main char txt abceabcdabceabcd char pat abcd search pat txt return 0 

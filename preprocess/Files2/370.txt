@@ -1,0 +1,9 @@
+gener permut given length everi permut equal 1 0 prefix permut 
+exampl input len 4 output 1111 1110 1101 1100 1011 1010 note permut like 0101 output 0 index 0 2 permut 
+input len 3 output 111 110 101 input len 2 output 11 10 strongli recommend minim browser tri first 
+like permut gener problem recurs simplest approach solv 
+start empti string attach 1 recur 
+recur find 1 point append 0 make one recurs call 
+c program gener permut 1 0 everi permut 1 0 index 
+includ iostream includ cstring use namespac std one zero count 1 0 current string str len desir length everi permut void gener int one int zero string str int len length current string becom desir length len str length cout str return append 1 recur gener one 1 zero str 1 len 1 append 0 well recur one zero gener one zero 1 str 0 len driver program test function int main string str gener 0 0 str 4 return 0 output 1111 1110 1101 1100 1011 1010 articl contribut sachin 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

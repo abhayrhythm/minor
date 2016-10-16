@@ -1,0 +1,23 @@
+given two binari array arr1 arr2 size n find length longest common span j j arr1 arr1 1 
+arr1 j arr2 arr2 1 
+arr2 j 
+expect time complex θ n 
+exampl input arr1 0 1 0 0 0 0 arr2 1 0 1 0 0 1 output 4 longest span sum index 1 4 input arr1 0 1 0 1 1 1 1 arr2 1 1 1 1 1 0 1 output 6 longest span sum index 1 6 input arr1 0 0 0 arr2 1 1 1 output 0 input arr1 0 0 1 0 arr2 1 1 1 1 output 1 strongli recommend click practic move solut 
+method 1 simpl solut one one consid subarray array 
+subarray comput sum sum current length max length updat max length 
+c implement simpl approach 
+simpl c program find longest common subarray two binari array sum includ bit stdc h use namespac std return length longest common subarray sum int longestcommonsum bool arr1 bool arr2 int n initi result int maxlen 0 one one pick possibl start point subarray int 0 n initi sum current subarray int sum1 0 sum2 0 conid point start arr int j j n j updat sum sum1 arr1 j sum2 arr2 j sum current length maxlen updat maxlen sum1 sum2 int len j 1 len maxlen maxlen len return maxlen driver progra test function int main bool arr1 0 1 0 1 1 1 1 bool arr2 1 1 1 1 1 0 1 int n sizeof arr1 sizeof arr1 0 cout length longest common span sum longestcommonsum arr1 arr2 n return 0 output length longest common span sum 6 time complex n2 auxiliari space 1 method 2 use auxiliari array idea base observ 
+sinc total n element maximum sum n array 
+differ two sum vari n n total 2n 1 possibl valu differ 
+differ prefix sum two array becom two point subarray two point sum 
+complet algorithm 
+creat auxiliari array size 2n 1 store start point possibl valu differ note possibl valu differ vari n n e total 2n 1 possibl valu initi start point differ 1 initi maxlen 0 prefix sum array 0 presum1 0 presum2 0 traver array 0 n 1 
+updat prefix sum presum1 arr1 presum2 arr2 comput differ current prefix sum curr_diff presum1 presum2 find index diff array diffindex n curr_diff curr_diff neg go till n curr_diff 0 1 maxlen far els curr_diff seen first time e start point current diff 1 updat start point els curr_diff seen first time consid end point find length current sum span 
+length updat maxlen return maxlen c implement algorithm 
+n n extra space c program find longest common subarray two binari array sum includ bit stdc h use namespac std return length longest common sum arr1 arr2 
+size n int longestcommonsum bool arr1 bool arr2 int n initi result int maxlen 0 initi prefix sum two array int presum1 0 presum2 0 creat array store stare end index possibl diff valu 
+diff would store start end point differ n int diff 2 n 1 initi start end valu 1 memset diff 1 sizeof diff travers array int 0 n updat prefix sum presum1 arr1 presum2 arr2 comput current diff index use diff array 
+note diff neg minimum valu 1 int curr_diff presum1 presum2 int diffindex n curr_diff current diff 0 number 1 far array e 1 maximum length 
+curr_diff 0 maxlen 1 current diff seen first time updat start index diff 
+els diff diffindex 1 diff diffindex current diff alreadi seen els find lenght sum common span int len diff diffindex updat max len need len maxlen maxlen len return maxlen driver progra test function int main bool arr1 0 1 0 1 1 1 1 bool arr2 1 1 1 1 1 0 1 int n sizeof arr1 sizeof arr1 0 cout length longest common span sum longestcommonsum arr1 arr2 n return 0 output length longest common span sum 6 time complex θ n auxiliari space θ n articl contribut sumit gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

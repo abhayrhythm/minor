@@ -1,0 +1,11 @@
+given tree everi node contain variabl number children convert tree mirror 
+diagram show exampl 
+strongli recommend minim browser tri first 
+node tree repres key variabl size array children pointer 
+idea similar mirror binari tree 
+everi node first recur children revers array children pointer 
+also step way e revers array children pointer first recur children 
+c implement idea 
+c c program mirror n ari tree includ bit stdc h use namespac std repres node n ari tree struct node int key vector node child function convert tree mirror void mirrortre node root base case noth root null root null return number children root int n root child size number child less 2 e 
+0 1 need anyth n 2 return call mirror function child int 0 n mirrortre root child revers vector variabl size array child pointer revers root child begin root child end util function creat new tree node node newnod int key node temp new node temp key key return temp print n ari tree level wise void printnodelevelwis node root root null return creat queue enqueu root queue node q q push root level order travers 
+two loop use make sure differ level print differ line q empti int n q size n 0 dequeu item queue print node p q front q pop cout p key enqueu childrent dequeu item int 0 p child size q push p child n cout endl separ level driver program int main let us creat tree 10 2 34 56 100 1 7 8 9 node root newnod 10 root child push_back newnod 2 root child push_back newnod 34 root child push_back newnod 56 root child push_back newnod 100 root child 2 child push_back newnod 1 root child 3 child push_back newnod 7 root child 3 child push_back newnod 8 root child 3 child push_back newnod 9 cout level order travers mirror n printnodelevelwis root mirrortre root cout nlevel order travers mirror n printnodelevelwis root return 0 

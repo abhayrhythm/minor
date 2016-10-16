@@ -1,0 +1,11 @@
+given two polynomi repres two array write function add given two polynomi 
+exampl input 5 0 10 6 b 1 2 4 output sum 5 10 30 26 52 24 first input array repres 5 0x 1 10x 2 6x 3 second array repres 1 2x 1 4x 2 output 6 2x 1 14x 2 6x 3 strongli recommend minim browser tri first 
+addit simpler multipl polynomi 
+initi result one two polynomi travers polynomi add term result 
+add 0 1 b 0 n01 1 creat sum array sum size equal maximum n 2 copi sum 
+3 traver array b follow everi element b sum sum b 4 return sum 
+follow c implement algorithm 
+simpl c program add two polynomi includ iostream use namespac std util function return maximum two integ int max int int n return n 
+n repres coeffici first polynomi b repres coeffici second polynomi n size b respect int add int int b int int n int size max n int sum new int size initi porduct polynomi int 0 sum take ever term first polynomi int 0 n sum b return sum util function print polynomi void printpoli int poli int n int 0 n cout poli 0 cout x n 1 cout driver program test function int main follow array repres polynomi 5 10x 2 6x 3 int 5 0 10 6 follow array repres polynomi 1 2x 4x 2 int b 1 2 4 int sizeof sizeof 0 int n sizeof b sizeof b 0 cout first polynomi n printpoli cout nsecond polynomi n printpoli b n int sum add b n int size max n cout nsumuct polynomi n printpoli sum size return 0 output first polynomi 5 0x 1 10x 2 6x 3 second polynomi 1 2x 1 4x 2 sum polynomi 6 2x 1 14x 2 6x 3 time complex algorithm program n n order two given polynomi 
+articl contribut harsh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

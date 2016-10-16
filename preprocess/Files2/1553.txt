@@ -1,0 +1,18 @@
+given binari tree find vertic sum node vertic line 
+print sum differ vertic line 
+exampl 1 2 3 4 5 6 7 tree 5 vertic line vertic line 1 one node 4 vertic sum 4 vertic line 2 one node 2 vertic sum 2 vertic line 3 three node 1 5 6 vertic sum 1 5 6 12 vertic line 4 one node 3 vertic sum 3 vertic line 5 one node 7 vertic sum 7 expect output 4 2 12 3 7 discuss hash base solut set 1 hash base solut requir hash tabl maintain 
+know hash requir space number entri 
+post doubli link list base solut discuss 
+solut discuss requir n node link list n total number vertic line binari tree 
+algorithm 
+verticalsumdl root 1 creat node doubli link list node valu 0 let node llnode 
+2 verticalsumdl root llnode verticalsumdl tnode llnode 1 add current node data vertic line llnode data llnode data tnode data 2 recurs process left subtre left child empti tnode left null llnode prev null llnode prev new llnode 0 llnode prev next llnode verticalsumdllutil tnode left llnode prev 3 recurs process right subtre tnode right null llnode next null llnode next new llnode 0 llnode next prev llnode verticalsumdllutil tnode right llnode next java implement idea 
+java implement space optim solut find vertic sum 
+public class verticalsumbinarytre print vertic sum differ vertic line tree 
+method mainli use verticalsumdllutil 
+static void verticalsumdl tnode root creat doubli link list node store sum line go root 
+vertic sum initi 0 llnode llnode new llnode 0 comput vertic sum differ line verticalsumdllutil root llnode llnode refer sum vertic line go root 
+move llnode leftmost line 
+llnode prev null llnode llnode prev print vertic sum line start leftmost vertic line llnode null system print llnode data llnode llnode next construct link list static void verticalsumdllutil tnode tnode llnode llnode add current node data vertic line llnode data llnode data tnode data recurs process left subtre tnode left null llnode prev null llnode prev new llnode 0 llnode prev next llnode verticalsumdllutil tnode left llnode prev process right subtre tnode right null llnode next null llnode next new llnode 0 llnode next prev llnode verticalsumdllutil tnode right llnode next driver code public static void main string arg let us construct tree shown tnode root new tnode 1 root left new tnode 2 root right new tnode 3 root left left new tnode 4 root left right new tnode 5 root right left new tnode 6 root right right new tnode 7 system println vertic sum verticalsumdl root doubli link list node static class llnode int data llnode prev next public llnode int data binari tree node static class tnode int data tnode left right public tnode int data output vertic sum 4 2 12 3 7 articl contribut rahul titar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

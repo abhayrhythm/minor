@@ -1,0 +1,62 @@
+percentag import topic qa point view also extens use data interpret 
+percentag mean per 100 e p mean p 100 convert fraction percentag multipli 100 add sign 
+exampl express 1 5 percentag simpli multipli 100 1 5 x 100 20 convert percentag fraction simpli divid 100 exampl 25 25 100 1 4 expenditur price x consumpt price articl increas p necessari reduct consumpt avoid increas expenditur p 100 p x 100 price articl decreas p necessari increas consumpt keep expenditur p 100 p x 100 popul popul group commun countri place etc 
+current p increas r everi year popul n year p x 1 r 100 n popul n year p 1 r 100 n depreci price valu articl current p depreci r everi year price valu n year p x 1 r 100 n price valu n year p 1 r 100 n x x 
+exampl 10 100 100 10 
+success increas b equival net increas b x b 100 success decreas b equival net decreas b x b 100 success increas decreas b equival net chang b x b 100 success decreas increas b equival net chang b x b 100 increas n success decreas n equal equival decreas n 10 2 
+exampl price articl increas 10 success decreas 10 equal decreas 10 10 2 1 sampl problem question 1 defect find machin reject 0 085 cricket bat 
+find number bat manufactur particular day given day machin reject 34 bat 
+solut let total number bat day n 0 085 n 34 0 085 100 x n 34 n 34 x 100 0 085 n 40 000 therefor total number bat manufactur day 40 000 question 2 25 number 8 less one third number 
+find number 
+solut let number n n 3 25 n 8 n 3 n 4 8 n 12 8 n 96 thu 96 requir number 
+question 3 differ two number x x 100 also 10 x equal 15 
+find number 
+solut given x 100 10 x 15 x 100 10 100 x 15 100 x 100 10 x 15 x 100 2 x 3 x 100 x 1 5 1 5 100 0 5 100 200 x 1 5 300 thu requir number 300 200 question 4 game event 75 regist particip actual turn 
+2 declar unfit particip 
+winner defeat 9261 particip 75 total valid particip 
+find number regist particip 
+solut let number regist particip n number particip actual turn 75 n number valid particip 98 75 n 2 invalid number particip defeat winner 75 98 75 n 9261 0 75 x 0 98 x 0 75 x n 9261 0 55125 x n 9261 n 16800 therefor number regist particip 16800 question 5 test geek could answer 70 c question 40 c question 60 java question correctli 
+test total 75 question 10 c 30 c 35 java 
+minimum 60 aggreg requir consid interview 
+geek could clear test shortlist interview 
+find much mark geek miss interview call given question 1 mark neg mark incorrect answer 
+solut given geek could answer 70 c question 40 c question 60 java question correctli total 75 question 10 c 30 c 35 java 
+c question answer correctli 70 10 7 c question answer correctli 40 30 12 java question answer correctli 60 35 21 total question answer correctli 7 12 21 40 mark secur 40 x 1 40 mark requir 60 75 45 shortfal mark 45 40 5 therefor geek miss interview call 5 mark 
+question 6 geek gave 40 retir money wife 
+also gave 20 remain amount 3 son 
+50 amount left spent miscellan item remain amount rs 
+1 20 000 deposit bank 
+much money geek got retir money 
+solut let retir money rs 
+100 n money given wife 40 100 n 40 n balanc 60 n money given 3 son 3 x 20 60 n 3 x 12 n 36 n balanc 24 n money spent miscellan item 50 24 n 12 n balanc 12 n remain 12 n money deposit bank e rs 
+1 20 000 12 n 1 20 000 n 10 000 therefor geek retir money 100 n rs 
+10 00 000 question 7 broker charg commiss 5 order upto rs 10 000 4 order exceed rs 
+10 000 remit rs 
+31 100 client deduct commiss 
+find order amount 
+solut let order amount rs 
+n commiss charg 5 rs 
+10 000 4 rs 
+n 10 000 rs 
+500 0 04 n 400 commiss charg rs 
+100 0 04 n amount remit rs 
+n 100 0 04 n 31 100 0 96 n 100 31 100 0 96 n 31200 n 32500 therefor order amount rs 
+32 500 question 8 seller mark price articl 20 gave discount 20 
+find percent lose transact 
+solut know increas n success decreas n equal equival decreas n 10 2 
+net decreas loss seller 20 10 2 4 question 9 price commod increas 25 
+percent consumpt reduc keep expenditur 
+solut know price increas p necessari reduct consumpt avoid increas expenditur p 100 p x 100 therefor reduct consumpt requir 25 125 x 100 20 question 10 numer fraction decreas 15 denomin diminish 10 valu fraction 2 9 find origin fraction 
+solut let fraction n n numer denomin 
+n 15 n 10 2 9 0 85 n 0 9 2 9 85 n 90 2 9 n 4 17 therefor origin fraction 4 17 question 11 popul town 1 60 000 current year 
+increas rate 5 per annum popul 3 year 
+solut know popul current p increas r everi year popul n year p x 1 r 100 n popul 3 year 1 60 000 x 1 5 100 3 popul 3 year 1 60 000 x 1 05 3 popul 3 year 1 60 000 x 1 157625 185220 question 12 valu car rs 1 60 000 current year 
+depreci rate 5 per annum valu car 3 year 
+solut know valu current p depreci r everi year valu n year p x 1 r 100 n valu 3 year 1 60 000 x 1 5 100 3 valu 3 year 1 60 000 x 0 95 3 valu 3 year 1 60 000 x 0 857375 rs 
+1 37 180 question 13 much sugar kg must ad 50 kg 2 sugar solut make concentr 10 
+solut sugar initi solut 2 50 kg 1 kg let sugar ad n kg 
+1 n 50 n 10 100 n 40 9 therefor 40 9 kg sugar ad 
+question 14 examin 80 student pass english 85 mathemat 75 english mathemat 
+40 student fail subject find total number student appear examin 
+solut let total number student 100 n student pass english 80 100 n 80 n student pass mathemat 85 100 n 85 n student pass english mathemat 75 100 n 75 n total number student pass atleast one subject 80 n 85 n 75 n 90 n number student fail subject 100 n 90 n 10 n 40 given n 4 therefor total number student appear examin 100 n 400 articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

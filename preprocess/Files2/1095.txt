@@ -1,0 +1,26 @@
+given integ array find maximum product triplet array 
+exampl input 10 3 5 6 20 output 1200 multipl 10 6 20 input 10 3 5 6 20 output 90 input 1 4 3 6 7 0 output 168 strongli recommend click practic move solut 
+approach 1 naiv n3 time 1 space simpl solut check everi triplet use three nest loop 
+c implement c program find maximum product triplet array integ includ bit stdc h use namespac std function find maximum product triplet array integ size n int maxproduct int arr int n size less 3 triplet exist n 3 return 1 contain max product int max_product int_min int 0 n 2 int j 1 j n 1 j int k j 1 k n k max_product max max_product arr arr j arr k return max_product driver program test function int main int arr 10 3 5 6 20 int n sizeof arr sizeof arr 0 int max maxproduct arr n max 1 cout triplet exist els cout maximum product max return 0 output maximum product 1200 approach 2 n time n space construct four auxiliari array leftmax rightmax leftmin rightmin size input array 
+fill leftmax rightmax leftmin rightmin manner 
+leftmax contain maximum element left arr exclud arr 
+index 0 left contain 1 leftmin contain minimum element left arr exclud arr 
+index 0 left contain 1 rightmax contain maximum element right arr exclud arr 
+index n 1 right contain 1 rightmin contain minimum element right arr exclud arr 
+index n 1 right contain 1 array index except first last index comput maximum arr x x leftmax leftmin rightmax rightmin 
+return maximum step 3 c implement c program find maximum product triplet array integ includ bit stdc h use namespac std function find maximum product triplet array integ size n int maxproduct int arr int n size less 3 triplet exist n 3 return 1 construct four auxiliari vector size n initail 1 vector int leftmin n 1 vector int rightmin n 1 vector int leftmax n 1 vector int rightmax n 1 contain max product int max_product int_min store maximum element left array int max_sum arr 0 store minimum element left array int min_sum arr 0 leftmax contain max element left arr exclud arr 
+leftmin contain min element left arr exclud arr 
+int 1 n leftmax max_sum arr max_sum max_sum arr leftmin min_sum arr min_sum min_sum arr reset max_sum store maximum element right array max_sum arr n 1 reset min_sum store minimum element right array min_sum arr n 1 rightmax contain max element right arr exclud arr 
+rightmin contain min element right arr exclud arr 
+int j n 2 j 0 j rightmax j max_sum arr j max_sum max_sum arr j rightmin j min_sum arr j min_sum min_sum arr j array index except first last comput maximum arr x x leftmax leftmin rightmax rightmin 
+int 1 n 1 int max1 max arr leftmax rightmax arr leftmin rightmin int max2 max arr leftmax rightmin arr leftmin rightmax max_product max max_product max max1 max2 return max_product driver program test function int main int arr 1 4 3 6 7 0 int n sizeof arr sizeof arr 0 int max maxproduct arr n max 1 cout triplet exist els cout maximum product max return 0 output maximum product 168 approach 3 nlogn time 1 space sort array use effici place sort algorithm ascend order 
+return maximum product last three element array product first two element last element 
+c implement c program find maximum product triplet array integ includ bit stdc h use namespac std function find maximum product triplet array integ size n int maxproduct int arr int n size less 3 triplet exist n 3 return 1 sort array ascend order sort arr arr n return maximum product last three element product first two element last element return max arr 0 arr 1 arr n 1 arr n 1 arr n 2 arr n 3 driver program test function int main int arr 10 3 5 6 20 int n sizeof arr sizeof arr 0 int max maxproduct arr n max 1 cout triplet exist els cout maximum product max return 0 output maximum product 1200 approach 4 n time 1 space scan array comput maximum second maximum third maximum element present array 
+scan array comput minimum second minimum element present array 
+return maximum product maximum second maximum third maximum product minimum second minimum maximum element 
+note step 1 step 2 done singl travers array 
+c implement n c program find maximum product pair array 
+includ bit stdc h use namespac std function find maximum product triplet array integ size n int maxproduct int arr int n size less 3 triplet exist n 3 return 1 initi maximum second maximum third maximum element int maxa int_min maxb int_min maxc int_min initi minimum second mimimum element int mina int_max minb int_max int 0 n updat maximum second maximum third maximum element arr maxa maxc maxb maxb maxa maxa arr updat second maximum third maximum element els arr maxb maxc maxb maxb arr updat third maximum element els arr maxc maxc arr updat minimum second mimimum element arr mina minb mina mina arr updat second mimimum element els arr minb minb arr return max mina minb maxa maxa maxb maxc driver program test function int main int arr 1 4 3 6 7 0 int n sizeof arr sizeof arr 0 int max maxproduct arr n max 1 cout triplet exist els cout maximum product max return 0 output maximum product 168 exercis 1 print triplet maximum product 
+2 find minimum product triplet array 
+articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

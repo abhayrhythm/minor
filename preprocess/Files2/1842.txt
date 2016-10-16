@@ -1,0 +1,18 @@
+nan 
+nan acronym number except usual occur case express result number repres 
+exampl squar root neg number 
+c code demonstr nan except includ iostream includ cmath sqrt use namespac std int main float 2 b 2 print number 1 41421 cout sqrt endl print nan except sqrt 2 complex number cout sqrt b endl return 0 output 1 41421 nan check nan 
+method 1 use compar oper 
+method check number complex compar 
+result true number complex e real 
+result fals nan return e number complex 
+c code check nan except use oper includ iostream includ cmath sqrt use namespac std int main float sqrt 2 float b sqrt 2 return true real number print real number 
+cout real number endl cout nan endl return fals b complex number print nan b b 
+cout real number endl cout nan endl return 0 output real number nan method 2 use inbuilt function isnan 
+anoth way check nan use isnan function function return true number complex els return fals 
+c code check nan except use isnan includ iostream includ cmath sqrt isnan use namespac std int main float sqrt 2 float b sqrt 2 return fals real number isnan 
+cout nan endl cout real number endl return true b nan isnan b 
+cout nan endl cout real number endl return 0 output real number nan articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

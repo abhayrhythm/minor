@@ -1,0 +1,15 @@
+given set string find longest common prefix 
+input geeksforgeek geek geek geezer output gee input appl ape april output ap discuss word word match charact charact match algorithm 
+algorithm divid conquer approach discuss 
+first divid array string two part 
+left part right part 
+unless string becom length 1 start conquer return common prefix left right string 
+algorithm clear use illustr 
+consid string geeksforgeek geek geek geezer c implement 
+c program find longest common prefix includ bit stdc h use namespac std util function find common prefix string str1 str2 string commonprefixutil string str1 string str2 string result int n1 str1 length n2 str2 length int 0 j 0 n1 1 j n2 1 j str1 str2 j break result push_back str1 return result divid conquer base function find longest common prefix 
+similar merg sort techniqu string commonprefix string arr int low int high low high return arr low high low low high 2 avoid overflow larg low high int mid low high low 2 string str1 commonprefix arr low mid string str2 commonprefix arr mid 1 high return commonprefixutil str1 str2 driver program test function int main string arr geeksforgeek geek geek geezer int n sizeof arr sizeof arr 0 string an commonprefix arr 0 n 1 an length cout longest common prefix an els cout common prefix return 0 output longest common prefix gee time complex sinc iter charact string say time complex n n number string length largest string string auxiliari space store longest prefix string alloc space log n 
+articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

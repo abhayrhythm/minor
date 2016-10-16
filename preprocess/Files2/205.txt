@@ -1,0 +1,8 @@
+catalan number sequenc natur number occur mani interest count problem like follow 
+1 count number express contain n pair parenthes correctli match 
+n 3 possibl express 
+2 count number possibl binari search tree n key see 3 count number full binari tree root binari tree full everi vertex either two children children n 1 leav 
+see applic 
+first catalan number n 0 1 2 3 1 1 2 5 14 42 132 429 1430 4862 recurs solut catalan number satisfi follow recurs formula 
+follow implement recurs formula 
+c includ iostream use namespac std recurs function find nth catalan number unsign long int catalan unsign int n base case n 1 return 1 catalan n sum catalan catalan n 1 unsign long int re 0 int 0 n re catalan catalan n 1 return re driver program test function int main int 0 10 cout catalan return 0 

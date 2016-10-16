@@ -1,0 +1,23 @@
+number non decreas everi digit except first one greater equal previou digit 
+exampl 223 4455567 899 non decreas number 
+given number digit n requir find count total non decreas number n digit 
+exampl input n 1 output count 10 input n 2 output count 55 input n 3 output count 220 strongli recommend minim browser tri first 
+one way look problem count number equal count n digit number end 9 plu count end digit 8 plu count 7 
+get count end particular digit 
+recur n 1 length digit smaller equal last digit 
+recurs formula 
+count n digit number count n 1 digit number end digit 9 count n 1 digit number end digit 8 count n 1 digit number end digit 0 let count end digit length n count n count n count n 1 vari 0 total count count n 1 vari 0 n 1 recurs solut go mani overlap subproblem 
+therefor use dynam program build tabl bottom manner 
+dynam program base c program 
+c c program count non decreas number n digit includ bit stdc h use namespac std long long int countnondecreas int n dp j contain total count non decreas number end digit length j long long int dp 10 n 1 memset dp 0 sizeof dp fill tabl non decreas number length 1 base case 0 1 2 3 4 5 6 7 8 9 int 0 10 dp 1 1 fill tabl bottom manner int digit 0 digit 9 digit comput total number non decreas number length len int len 2 len n len sum number length len 1 last digit x digit int x 0 x digit x dp digit len dp x len 1 long long int count 0 total nondecreas number length n wiint dp 0 n dp 1 n dp 9 n int 0 10 count dp n return count driver program int main int n 3 cout countnondecreas n return 0 java class ndn static int countnondecreas int n dp j contain total count non decreas number end digit length j int dp new int 10 n 1 fill tabl non decreas number length 1 base case 0 1 2 3 4 5 6 7 8 9 int 0 10 dp 1 1 fill tabl bottom manner int digit 0 digit 9 digit comput total number non decreas number length len int len 2 len n len sum number length len 1 last digit x digit int x 0 x digit x dp digit len dp x len 1 int count 0 total nondecreas number length n wiint dp 0 n dp 1 n dp 9 n int 0 10 count dp n return count public static void main string arg int n 3 system println countnondecreas n code contribut rajat mishra output 220 thank gaurav ahirwar suggest method 
+anoth method base direct formula count non decreas number n digit n n 1 2 n 2 3 n n 1 n n 10 c program comput count use formula 
+c program count non decreas numner n digit includ bit stdc h use namespac std long long int countnondecreas int n int n 10 comput valu n n 1 2 n 2 3 n n 1 n long long count 1 int 1 n count n 1 count return count driver program int main int n 3 cout countnondecreas n return 0 output 220 thank abhishek somani suggest method 
+formula work 
+n n 1 2 n 2 3 n n 1 n n 10 let us tri differ valu n n 1 valu n formula 
+true n 1 singl digit number 0 1 2 3 4 5 6 7 8 9 n 2 valu n n 1 2 formula n number begin 0 n 1 number begin 1 
+sum n n 1 1 n n 1 2 n 3 valu n n 1 2 n 2 3 formula n n 1 2 number begin 0 n 1 n 2 number begin 1 note begin 1 n 1 digit left consid remain place n 2 n 1 2 begin 2 
+count n n 1 2 n 1 n 2 n 2 n 1 2 n 3 n 2 2 3 1 combin first 2 term next 2 term 1 2 n2 n 2 2 4 n n 1 n 2 6 refer put n n 2 even sum formula gener n digit case appli mathemat induct 
+count would equal count n 1 digit begin 0 e n n 1 2 n 2 3 n n 1 1 n 1 
+plu count n 1 digit number begin 1 e n 1 n 2 n 1 3 
+n 1 n 1 1 n 1 note n replac n 1 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

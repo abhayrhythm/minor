@@ -1,0 +1,39 @@
+
+Consider the below C/C++ program. 
+
+#include<stdio.h>
+int x = 0;
+
+int f1()
+{
+  x = 5;
+  return x;
+}
+
+int f2()
+{
+  x = 10;
+  return x;
+}
+
+int main()
+{
+  int p = f1() + f2();
+  printf("%d ", x);
+  getchar();
+  return 0;
+}
+
+What would the output of the above program – ‘5’ or ’10’?
+The output is undefined as the order of evaluation of f1() + f2() is not mandated by standard. The compiler is free to first call either f1() or f2(). Only when equal level precedence operators appear in an expression, the associativity comes into picture. For example, f1()  +  f2()  +  f3() will be considered as (f1()  +  f2())  +  f3(). But among first pair, which function (the operand) evaluated first is not defined by the standard. 
+Thanks to Venki  for suggesting the solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

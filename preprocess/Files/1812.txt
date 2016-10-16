@@ -1,0 +1,4 @@
+
+Bitset is a container in C++ Standard Template Library for dealing with data at the bit level. 
+
+A bitset stores bits (elements with only two possible values: 0 or 1).  We can however get the part of a string by providing positions to bitset constructor (Positions are with respect to string position from left to right)

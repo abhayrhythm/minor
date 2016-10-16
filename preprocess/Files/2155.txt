@@ -1,0 +1,115 @@
+
+Given three variables, a, b and c, swap them without temporary variable.
+
+Input  : a = 10, b = 20 and c = 30
+Output : a = 30, b = 10 and c = 20
+
+
+
+Method 1 (Using Arithmetic Operators)
+The idea is to get sum in one of the two given numbers. The numbers can then be swapped using the sum and subtraction from sum.
+We have already discussed swapping two variables here. We can extend the same approaches  
+
+// C++ program to swap three variables
+// without using temporary variable.
+#include <iostream>
+using namespace std;
+
+// Assign c's value to a, a's value to b and
+// b's value to c.
+void swapThree(int &a, int &b, int &c)
+{
+    // Store sum of all in a
+    a = a + b + c;  // (a = 60)
+
+    // After this, b has value of a
+    b = a - (b+c);  // (b = 60 – (20+30) =10)
+
+    // After this, c has value of b
+    c = a - (b+c);  // (c = 60 – (10 + 30) = 20)
+
+    // After this, a has value of c
+    a = a - (b+c);   //(a = 60 – (10 + 20) = 30)
+}
+
+// Driver code
+int main()
+{
+    int a = 10, b = 20, c = 30;
+
+    cout << "Before swapping a = " << a << ", b = "
+         << b << ", c = " << c << endl;
+
+    swapThree(a, b, c);
+
+    cout << "After swapping a = " << a << ", b = "
+         << b << ", c = " << c << endl;
+
+    return 0;
+}
+
+Output:
+
+Before swapping a = 10, b = 20, c = 30
+After swapping a = 30, b = 10, c = 20
+
+Thanks to Mazhar MIK for suggesting this method here.
+ 
+Method 2 (Using Bitwise XOR)
+The bitwise XOR operator can be used to swap three variables. The idea is similar to method 1. We first store XOR of all numbers in ‘a’.  Then we get individual numbers by doing XOR of this with other two numbers.
+
+// C++ program to swap three variables
+// without using temporary variable
+#include <iostream>
+using namespace std;
+
+// Assign c's value to a, a's value to b and
+// b's value to c.
+void swapThree(int &a, int &b, int &c)
+{
+    // Store XOR of all in a
+    a = a ^ b ^ c;
+
+    // After this, b has value of a
+    b = a ^ b ^ c;
+
+    // After this, c has value of b
+    c = a ^ b ^ c;
+
+    // After this, a has value of c
+    a = a ^ b ^ c;
+}
+
+// Driver code
+int main()
+{
+    int a = 10, b = 20, c = 30;
+
+    cout << "Before swapping a = " << a << ", b = "
+         << b << ", c = " << c << endl;
+
+    swapThree(a, b, c);
+
+    cout << "After swapping a = " << a << ", b = "
+         << b << ", c = " << c << endl;
+
+    return 0;
+}
+
+Output:
+
+Before swapping a = 10, b = 20, c = 30
+After swapping a = 30, b = 10, c = 20
+
+The method 1 causes overflow for large values of a, b and c, while method 2 doesn’t.
+This article is contributed by Shubham. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

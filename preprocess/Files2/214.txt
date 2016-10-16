@@ -1,0 +1,39 @@
+8 puzzl 
+given 3 3 board 8 tile everi tile one number 1 8 one empti space 
+object place number tile order use empti space 
+slide four adjac left right tile empti space 
+find given state solvabl 
+follow two exampl first exampl reach goal state seri slide 
+second exampl cannot 
+follow simpl rule check 8 puzzl solvabl 
+possibl solv instanc 8 puzzl number invers odd input state 
+exampl given figur first exampl 10 invers therefor solvabl 
+second exampl 11 invers therefor unsolv 
+invers 
+pair tile form invers valu tile revers order appear goal state 
+exampl follow instanc 8 puzzl two invers 8 6 8 7 
+1 2 3 4 _ 5 8 6 7 follow simpl c program check whether given instanc 8 puzzl solvabl 
+idea simpl count invers given 8 puzzl 
+c program check given instanc 8 puzzl solvabl includ iostream use namespac std util function count invers given array arr int getinvcount int arr int inv_count 0 int 0 9 1 int j 1 j 9 j valu 0 use empti space arr j arr arr arr j inv_count return inv_count function return true given 8 puzzl solvabl 
+bool issolv int puzzl 3 3 count invers given 8 puzzl int invcount getinvcount int puzzl return true invers count even 
+return invcount 2 0 driver progra test function int main int argv int arg int puzzl 3 3 1 8 2 0 4 3 valu 0 use empti space 7 6 5 issolv puzzl 
+cout solvabl cout solvabl return 0 output solvabl note implement use simpl algorithm invers count 
+done way simplic 
+code optim nlogn use merg sort base algorithm invers count 
+work 
+idea base fact pariti invers remain set move e invers count odd initi stage remain odd sequenc move invers count even remain even sequenc move 
+goal state 0 invers 
+reach goal state state even invers count 
+pariti invers count invari 
+slide tile either make row move move left right tile blank space make column move move tile blank space 
+row move chang invers count 
+see follow exampl 1 2 3 row move 1 2 3 4 _ 5 _ 4 5 8 6 7 8 6 7 invers count remain 2 move 1 2 3 row move 1 2 3 4 _ 5 4 5 _ 8 6 7 8 6 7 invers count remain 2 move b column move one follow three 
+increas invers count 2 see follow exampl 
+1 2 3 column move 1 _ 3 4 _ 5 4 2 5 8 6 7 8 6 7 invers count increas 2 chang 2 4 ii decreas invers count 2 1 3 4 column move 1 3 4 5 _ 6 5 2 6 7 2 8 7 _ 8 invers count decreas 2 chang 5 3 iii keep invers count 
+1 2 3 column move 1 2 3 4 _ 5 4 6 5 7 6 8 7 _ 8 invers count remain 1 move move either increas decreas invers count 2 keep invers count possibl chang pariti state sequenc row column move 
+exercis check given instanc 15 puzzl solvabl 
+15 puzzl 4 4 board 15 tile number one empti space 
+note simpl rule invers count directli work 15 puzzl rule need modifi 15 puzzl 
+relat articl check instanc 15 puzzl solvabl 
+articl contribut ishan 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

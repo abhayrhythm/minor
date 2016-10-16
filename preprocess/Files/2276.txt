@@ -1,0 +1,101 @@
+
+Recursion:
+In programming terms a recursive function can be defined as a routine that calls itself directly or indirectly.
+Using recursive algorithm, certain problems can be solved quite easily. Towers of Hanoi (TOH) is one such programming exercise. Try to write an iterative algorithm for TOH. Moreover, every recursive program can be written using iterative methods (Refer Data Structures by Lipschutz).
+Mathematically recursion helps to solve few puzzles easily.
+For example, a routine interview question,
+In a party of N people, each person will shake her/his hand with each other person only once. On total how many hand-shakes would happen?
+Solution:
+It can be solved in different ways, graphs, recursion, etc. Let us see, how recursively it can be solved.
+There are N persons. Each person shake-hand with each other only once. Considering N-th person, (s)he has to shake-hand with (N-1) persons. Now the problem reduced to small instance of (N-1) persons. Assuming TN as total shake-hands, it can be formulated recursively.
+TN = (N-1) + TN-1 [T1 = 0, i.e. the last person have already shook-hand with every one]
+Solving it recursively yields an arithmetic series, which can be evaluated to N(N-1)/2.
+Exercise: In a party of N couples, only one gender (either male or female) can shake hand with every one. How many shake-hands would happen?
+Usually recursive programs results in poor time complexities. An example is Fibonacci series. The time complexity of calculating n-th Fibonacci number using recursion is approximately 1.6n. It means the same computer takes almost 60% more time for next Fibonacci number. Recursive Fibonacci algorithm has overlapped subproblems. There are other techniques like dynamic programming to improve such overlapped algorithms.
+However, few algorithms, (e.g. merge sort, quick sort, etc…) results in optimal time complexity using recursion.
+Base Case:
+One critical requirement of recursive functions is termination point or base case. Every recursive program must have base case to make sure that the function will terminate. Missing base case results in unexpected behaviour.
+Different Ways of Writing Recursive Functions in C/C++:
+ Function calling itself: (Direct way)
+
+Most of us aware atleast two different ways of writing recursive programs. Given below is towers of Hanoi code. It is an example of direct calling.
+
+// Assuming n-th disk is bottom disk (count down)
+void tower(int n, char sourcePole, char destinationPole, char auxiliaryPole)
+{
+   // Base case (termination condition)
+   if(0 == n)
+     return;
+
+   // Move first n-1 disks from source pole
+   // to auxiliary pole using destination as
+   // temporary pole
+   tower(n-1, sourcePole, auxiliaryPole,
+      destinationPole);
+
+// Move the remaining disk from source
+   // pole to destination pole
+   printf("Move the disk %d from %c to %c\n", n,
+     sourcePole, destinationPole);
+
+   // Move the n-1 disks from auxiliary (now source)
+   // pole to destination pole using source pole as
+   // temporary (auxiliary) pole
+   tower(n-1, auxiliaryPole, destinationPole,
+     sourcePole);
+}
+
+void main()
+{
+   tower(3, 'S', 'D', 'A');
+}
+
+The time complexity of TOH can be calculated by formulating number of moves.
+We need to move the first N-1 disks from Source to Auxiliary and from Auxiliary to Destination, i.e. the first N-1 disks requires two moves. One more move of last disk from Source to Destination. Mathematically it can be defined recursively.
+MN = 2MN-1 + 1.
+We can easily solve the above recursive relation (2N-1), which is exponential.
+
+Recursion using mutual function call: (Indirect way)
+
+Indirect calling. Though least pratical, a function [funA()] can call another function [funB()] which inturn calls [funA()] former function. In this case both the functions should have the base case.
+Defensive Programming:
+We can combine defensive coding techniques with recursion for graceful functionality of application. Usually recursive programming is not allowed in safety critical applications, such as flight controls, health monitoring, etc. However, one can use a static count technique to avoid uncontrolled calls (NOT in safety critical systems, may be used in soft real time systems).
+
+void recursive(int data)
+{
+   static callDepth;
+   if(callDepth > MAX_DEPTH)
+      return;
+
+   // Increase call depth
+   callDepth++;
+
+   // do other processing
+   recursive(data);
+
+   // do other processing
+   // Decrease call depth
+   callDepth--;
+}
+
+callDepth depth depends on function stack frame size and maximum stack size.
+ Recursion using function pointers: (Indirect way)
+
+Recursion can also implemented with function pointers. An example is signal handler in POSIX complaint systems. If the handler causes to trigger same event due to which the handler being called, the function will reenter.
+
+Related Articles:
+
+ Iterative solution to TOH puzzle
+ Tail recursion
+Quiz on Recursion
+
+Thanks to Venki for writing the above post. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

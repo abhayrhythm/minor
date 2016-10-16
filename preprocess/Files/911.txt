@@ -1,0 +1,18 @@
+
+How to print and store a variable name in  string variable?
+We strongly recommend you to minimize your browser and try this yourself first
+In C, there’s a # directive, also called ‘Stringizing Operator’, which does this magic. Basically # directive converts its argument in a string.  
+
+#include <stdio.h>
+#define getName(var)  #var
+
+int main()
+{
+	int myVar;
+	printf("%s", getName(myVar));
+	return 0;
+} 
+
+Output:
+
+MyVar

@@ -1,0 +1,33 @@
+recent interview amazon 
+interview experi code round hacker rank 1 hour 1 find minimum number coin make given valu given valu v want make chang v cent infinit suppli c c1 c2 cm valu coin minimum number coin make chang 
+2 suppos given two string s1 s2 
+find s1 substr s2 
+s1 present s2 return start index s1 s2 present return 1 
+3 http www geeksforgeek org find two rectangl overlap face face round 1 technic 1 hour 1 lca bst 
+lowest common ancestor binari search tree 2 swap two node singli link list swap node link list without swap data 3 build bridg problem dynam program set 21 variat li algorithm build bridg problem appli longest 4 implement data structur push pop find minimum element 1 
+design implement special stack data structur ad question ask write code also tell test case 
+face face round 2 technic 45 min 1 find number island find number island geeksforgeek 2 calcul mani path exist top left bottom right corner matrix cost k number path exactli k coin geeksforgeek question ask write code also tell test case 
+face face round 3 hire manag technic 1hour 1 tell 
+2 given 4 digit find sum 4 digit number form use 4 digit solut find sum four digit number 3 merg two balanc bst merg two bst limit extra space geeksforgeek question code dri run expect 4 tell situat manag disagre 
+telephon round 4 technic 45 min held 3 4 day interview taken senior guy belong team hire 
+1 gave brief introduct ask mine 
+2 want leav current compani 3 amazon 
+4 challeng project thing ever done 
+challeng 
+would u project thing 
+need tell improv previou approach design code 
+5 tell situat manag disagre differ opinion 6 tell situat time constraint project deliveri handl 
+7 find element rotat sort array search element sort rotat array collabedit link share mail work interview 
+interview ask explain logic suggest 1 practic tree link list dp array string stack queue hash heap backtrack basic graph question gfg 
+question ask 
+2 look solut write whole code paper practis 
+3 interview start less optim solut move optimis solut 
+4 practic latest 20 25 set amazon interview set gfg 5 ask question take hint interview co oper 
+6 prepar behaviour question like leav amazon situat manag etc 
+answer question readi practic speak interview otherwis might get nervou 
+big thank gfg make everyth easi 
+best folk 
+prepar well 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

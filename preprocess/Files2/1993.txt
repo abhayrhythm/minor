@@ -1,0 +1,11 @@
+predict output follow c program 
+includ iostream use namespac std class test public test cout construct object test endl test cout destruct object test endl int main tri test t1 throw 10 catch int cout caught endl output construct object test destruct object test caught 10 except thrown destructor object whose scope end tri block automat call catch block get exectut 
+program print destruct object test caught 10 
+happen except thrown constructor 
+consid follow program 
+includ iostream use namespac std class test1 public test1 cout construct object test1 endl test1 cout destruct object test1 endl class test2 public follow constructor throw integ except test2 cout construct object test2 endl throw 20 test2 cout destruct object test2 endl int main tri test1 t1 construct destruct test2 t2 partial construct test1 t3 t3 construct statement never get execut catch int cout caught endl output construct object test1 construct object test2 destruct object test1 caught 20 destructor call complet construct object 
+constructor object throw except destructor object call 
+excecis predict output follow program 
+includ iostream use namespac std class test static int count int id public test count id count cout construct object number id endl id 4 throw 4 test cout destruct object number id endl int test count 0 int main tri test array 5 catch int cout caught endl cover topic separ post 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

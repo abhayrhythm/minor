@@ -1,0 +1,3 @@
+explain function follow function 
+question 1 assum n greater equal 1 int fun1 int n n 1 return 0 els return 1 fun1 n 2 answer function calcul return 
+exampl n 8 15 fun1 return 3 n 16 31 fun1 return 4 

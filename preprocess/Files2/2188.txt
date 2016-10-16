@@ -1,0 +1,13 @@
+write modifi strcmp function ignor case return 1 s1 s2 0 s1 s2 els return 1 exampl strcmp consid geeksforgeek geeksforgeek string 
+sourc microsoft interview set 5 follow solut assum charact repres use ascii represent e code b c z 97 98 99 122 respect 
+code b c z 65 66 95 respect 
+follow detail step 
+1 iter everi charact string follow charact 
+str1 str2 continu 
+b invert 6th least signific bit str1 make str2 continu 
+exampl str1 65 invert 6th bit make 97 str1 97 invert 6th bit make 65 
+c two condit true break 
+2 compar last first mismatch case charact 
+includ stdio h implement strcmp ingnor case int ic_strcmp char s1 char s2 int 0 s1 s2 charact invert 6th bit make s1 s2 s1 32 s2 continu els break compar last first mismatch case charact s1 s2 return 0 s1 32 s2 32 set 6th bit compar return 1 return 1 driver program test function int main void printf ret n ic_strcmp geek appl printf ret n ic_strcmp abcd printf ret n ic_strcmp abcd z printf ret n ic_strcmp abcd abcdegh printf ret n ic_strcmp geeksforgeek geeksforgeek printf ret n ic_strcmp geeksforgeek geeksforgeek return 0 output ret 1 ret 1 ret 1 ret 1 ret 0 ret 0 articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

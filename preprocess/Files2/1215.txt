@@ -1,0 +1,14 @@
+given binari string count minimum number subsequ remov make empti string 
+exampl input str 10001 output 1 sinc whole string palindrom need one remov 
+input str 10001001 output 2 remov middl 1 first remov first remov string becom 1000001 palindrom 
+expect time complex n strongli recommend click practic move solut 
+problem simpl solv easili use two fact 
+1 given string palindrom need one remov 
+2 els need two remov 
+note everi binari string 1 subsequ 0 anoth subsequ 
+remov two subsequ get unari string 
+unari string alway palindrom 
+c program count minimum palindrom subsequ remov make string empti 
+includ bit stdc h use namespac std function check string str palindrom bool ispalindrom const char str start leftmost rightmost corner str int l 0 int h strlen str 1 keep compar charact h l str l str h return fals return true return count minimum palindrom subseuqnc remov make string empti int minremov const char str string empti str 0 0 return 0 string palindrom ispalindrom str return 1 string palindrom return 2 driver code test int main cout minremov 010010 endl cout minremov 0100101 endl return 0 output 1 2 exercis extend solut count minimum number subsequ remov make empti string 
+maximum count ternari string problem solut contribut hardik gulati 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

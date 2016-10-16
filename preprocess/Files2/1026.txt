@@ -1,0 +1,5 @@
+predict output program 
+question 1 int main int c 5 printf n n c c 2 c 2 getchar output compil depend evalu order paramet defin c standard depend compil implement 
+never safe depend order paramet evalu 
+exampl function call like may well behav differ one compil anoth 
+refer http gcc gnu org onlinedoc gcc non_002dbug html 

@@ -1,0 +1,20 @@
+given singli link list delet middl link list 
+exampl given link list 1 2 3 4 5 link list modifi 1 2 4 5 even node would two middl node need delet second middl element 
+exampl given link list 1 2 3 4 5 6 modifi 1 2 3 5 6 
+input link list null remain null 
+input link list 1 node node delet new head return 
+simpl solut first count number node link list delet n 2 th node use simpl delet process 
+solut requir two travers link list 
+delet middl node use one travers 
+idea use two pointer slow_ptr fast_ptr 
+pointer start head list 
+fast_ptr reach end slow_ptr reach middl 
+idea one use method 2 post 
+addit thing post keep track previou middl delet middl 
+c implement 
+c program delet middl link list includ bit stdc h use namespac std link list node struct node int data struct node next delet middl node return head modifi list struct node deletemid struct node head base case head null return null head next null delet head return null initi slow fast pointer reach middl link list struct node slow_ptr head struct node fast_ptr head find middl previou middl 
+struct node prev store previou slow_ptr fast_ptr null fast_ptr next null fast_ptr fast_ptr next next prev slow_ptr slow_ptr slow_ptr next delet middl node prev next slow_ptr next delet slow_ptr return head util function print given link list void printlist struct node ptr ptr null cout ptr data ptr ptr next cout null n util function creat new node 
+node newnod int data struct node temp new node temp data data temp next null return temp drier program test function int main start empti list struct node head newnod 1 head next newnod 2 head next next newnod 3 head next next next newnod 4 cout gven link list n printlist head head deletemid head cout link list delet middl n printlist head return 0 output gven link list 1 2 3 4 null link list delet middl 1 2 4 null articl contribut piyush gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

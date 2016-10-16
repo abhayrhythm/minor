@@ -1,0 +1,27 @@
+amazon sde1 campu written round 1 given array element first increas decreas 
+find maximum element array 
+2 given array unsort element find minimum differ 2 element array 
+1st f2f discuss project nearli 20 min 1 given array posit number find maximum sum subsequ constraint 2 number sequenc adjac array 
+extend neg number 2 write function print level order travers binari tree spiral form 
+2nd f2f small discuss project 1 write function find next smallest palindrom number given number 
+exampl given number 12345 next smallest palindrom 12421 
+2 given 2 string str1 str2 
+effici way navig str1 str2 
+constraint string chang anoth string chang one charact 
+ii intermedi string must present dictionari 
+possibl return possibl navig str1 str2 
+pre process allow enough memori avail 
+exampl str1 feel str2 pelt navig feel fell felt pelt hint graph 3rd f2f discuss project nearli 20 min 1 given two number repres two link list write function return sum list 
+sum list link list represent addit two input number 
+allow modifi list 
+also allow use explicit extra space 
+2 given matrix charact string find whether string obtain matrix 
+charact matrix move right left 
+exampl matrix 3 4 f l l q w z w k string follow function return true 
+4th f2f hire manag deep discuss current project nearli 45 min applic architectur challeng face lot technic discuss 1 write program check whether given binari tree bst 
+5th f2f bar raiser deep discuss current project challeng face etc nearli 20 min deep discuss rest api authent hash key vs encrypt decrypt nearli 20 min 1 given input string write function return compress string input string inplac 
+extra memori length compress string length input string exampl input string aaabcdeee function return a3b1c1d1e4 
+geeksforgeek help lot improv skill ds algorithm 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

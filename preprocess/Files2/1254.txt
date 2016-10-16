@@ -1,0 +1,10 @@
+given string count number word 
+word separ follow charact space new line n tab combin 
+mani solut problem 
+follow simpl interest solut 
+idea maintain two state 
+state indic separ seen 
+state indic word charact seen 
+increment word count previou state next charact word charact 
+c c c c program count word given input string 
+includ stdio h defin 0 defin 1 return number word str unsign countword char str int state unsign wc 0 word count scan charact one one str next charact separ set state str str n str state next charact word separ state set state increment word count els state state wc move next charact str return wc driver program te function int main void char str one two three n four nfive printf word u n countword str return 0 

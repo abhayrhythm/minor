@@ -1,0 +1,68 @@
+
+To calculate time taken by a process, we can use clock() function which is available time.h.  We can call the clock function at the beginning and end of the code for which we measure time, subtract the values, and then divide by CLOCKS_PER_SEC (the number of clock ticks per second) to get processor time, like following.
+
+     #include <time.h>
+     
+     clock_t start, end;
+     double cpu_time_used;
+     
+     start = clock();
+     ... /* Do the work. */
+     end = clock();
+     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+
+Following is a sample C program where we measure time taken by fun().  The function fun() waits for enter key press to terminate.  
+
+/* Program to demonstrate time taken by function fun() */
+#include <stdio.h>
+#include <time.h>
+
+// A function that terminates when enter key is pressed
+void fun()
+{
+    printf("fun() starts \n");
+    printf("Press enter to stop fun \n");
+    while(1)
+    {
+        if (getchar())
+            break;
+    }
+    printf("fun() ends \n");
+}
+
+// The main program calls fun() and measures time taken by fun()
+int main()
+{
+    // Calculate the time taken by fun()
+    clock_t t;
+    t = clock();
+    fun();
+    t = clock() - t;
+    double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
+
+    printf("fun() took %f seconds to execute \n", time_taken);
+    return 0;
+}
+
+Output:  The following output is obtained after waiting for around 4 seconds and then hitting enter key.
+
+fun() starts
+Press enter to stop fun
+
+fun() ends
+fun() took 4.017000 seconds to execute
+
+How to find time taken by a command/program on Linux Shell?
+References:
+http://www.gnu.org/software/libc/manual/html_node/CPU-Time.html
+http://www.cplusplus.com/reference/ctime/clock/?kw=clock
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

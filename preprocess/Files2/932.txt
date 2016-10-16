@@ -1,0 +1,11 @@
+follow two code segment faster 
+assum compil make optim 
+first 0 10 j 0 j 100 j somth second 0 100 j 0 j 10 j someth code segment provid function code insid two loop would execut number time code segment 
+take closer look see second oper first 
+execut three part assign comparison increment loop time correspond part first second execut assign oper j 0 0 101 time first execut 11 time 
+b second 101 1100 comparison 100 j 10 first 11 1010 comparison 10 j 100 
+c second execut 1100 increment oper j first execut 1010 increment oper 
+c code count number increment oper execut first second print count 
+program count number increment oper first second includ iostream use namespac std int main int c1 0 c2 0 first int 0 10 c1 int j 0 j 100 j c1 someth second int 0 100 c2 int j 0 j 10 j c2 someth cout count first c1 endl cout count second c2 endl getchar return 0 c code count number comparison oper execut first second program count number comparison oper execut first second includ iostream use namespac std int main int c1 0 c2 0 first int 0 c1 10 int j 0 c1 j 100 j someth second int 0 c2 100 int j 0 c2 j 10 j someth cout count fot first c1 endl cout count fot second c2 endl getchar return 0 thank dheeraj suggest solut 
+pleas write comment find answer code incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

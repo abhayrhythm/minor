@@ -1,0 +1,28 @@
+given binari array integ find posit zero flip creat maximum number consecut 1s array 
+exampl input arr 1 0 0 1 1 0 1 0 1 1 1 2 output 5 7 allow flip maximum 2 zero 
+flip arr 5 arr 7 get 8 consecut 1 maximum possibl given constraint input arr 1 0 0 1 1 0 1 0 1 1 1 1 output 7 allow flip maximum 1 zero 
+flip arr 7 get 5 consecut 1 maximum possibl given constraint 
+input arr 0 0 0 1 4 output 0 1 2 sinc number zero flip zero 
+sourc http www careercup com question id 5106425965576192 strongli recommend click practic move solut 
+simpl solut consid everi subarray run two loop 
+everi subarray count number zero 
+return maximum size subarray less zero 
+time complex solut n2 
+better solut use auxiliari space solv problem n time 
+posit 0 calcul left right defin number consecut 1 left right respect 
+exampl arr 1 1 0 1 1 0 0 1 1 1 1 left 2 2 right 2 2 left 5 2 right 5 0 left 6 0 right 6 3 left right fill n time travers array keep track last seen 1 last seen 0 fill left right also store index zero third array say zero 
+exampl third array store 2 5 6 travers zero consecut entri array comput sum 1s produc 
+step done n use left right 
+effici solut solv problem n time 1 space 
+idea use slide window given array 
+solut taken 
+let us use window cover index wl index wr 
+let number zero insid window zerocount 
+maintain window zero insid 
+main step zerocount expand window right wr updat count zerocount 
+zerocount exce shrink window left wl updat zerocount updat widest window along way 
+posit output zero insid best window 
+c implement idea 
+c program find posit zero flip produc maximum number xonsecut 1 includ bit stdc h use namespac std maximum number zero allow flip n size array void findzero int arr int n int left right index current window int wl 0 wr 0 left index size widest window int bestl 0 bestwindow 0 count zero current window int zerocount 0 right boundari current window cross right end wr n zero count current window less widen window toward right zerocount arr wr 0 zerocount wr zero count current window reduc window left zerocount arr wl 0 zerocount wl updqat widest window window size wr wl bestwindow bestwindow wr wl bestl wl print posit zero widest window int 0 bestwindow arr bestl 0 cout bestl driver program int main int arr 1 0 0 1 1 0 1 0 1 1 int 2 int n sizeof arr sizeof arr 0 cout index zero flip findzero arr n return 0 output index zero flip 5 7 articl contribut ekta goel 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

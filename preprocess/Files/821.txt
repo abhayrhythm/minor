@@ -1,0 +1,119 @@
+
+This is where you can get started with building Chrome Extensions which ultimately increase your productivity and fasten our tasking. Be it live match score, music, GeeksforGeeks new article updates or a whole page screenshot, you can build your own chrome extension for every task.
+So there’s some basic stuff which is required, it’s just like making a website, with a manifest!
+HTML:Building block of all websites, a standard markup language which along with CSS and JAVASCRIPT is used by web developers to create websites, mobile user interfaces and applications.
+CSS: A style sheet language used to set style for the HTML elements.
+JavaScript: Commonly used to create interactive effects within web browsers.
+JSON: JavaScript Object Notation, is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs. It is the primary data format used for asynchronous browser/server communication (AJAJ), largely replacing XML (used by AJAX).
+A few Preliminaries : –
+
+Chrome Extensions follow a specific directory structure. That means, file name are already fixed, they should be organised in a certain way as instructed.
+
+A Chrome App contains these components:
+
+The manifest tells Chrome about your app, what it is, how to launch it and the extra permissions that it requires.
+The background script is used to create the event page responsible for managing the app life cycle.
+All code must be included in the Chrome App package. This includes HTML, JS, CSS and Native Client modules.
+All icons and other assets must be included in the package as well.
+
+
+Directory Structure
+
+json
+<content>.js [ Javascript Files]
+<markup>.html [ HTML files ]
+png
+
+
+
+Here, we are going to make a simple “Hello World” extension for this tutorial. Efficient and Meaningful extensions which require basic understanding will follow up next
+Here we go!
+Step 1: Create a new Directory, this is where we will keep all our files.
+Step 2 Create a file called Manifest.json
+Here’s the Basic Format.
+{
+"manifest_version": 2,
+"name": “EXTENSION NAME",
+"description": "DESCRIPTION",
+"version": "1.0",
+"browser_action": {
+"default_icon": “ICON (WITH EXTENSION) ”,
+"default_popup": “LAYOUT HTML FILE"
+},
+"permissions": [
+//ANY OTHER PERMISSIONS
+]
+}
+
+Here is our Manifest.json file
+{
+"manifest_version": 2,
+"name": "Hello World!",
+"description": "This extension shows a Hello World message!",
+"version": "1.0",
+"browser_action": {
+"default_icon": "icon.png",
+"default_popup": "window.html"
+}
+}
+
+So once’s you’ve got the hang of manifest.json, lets go ahead.
+Step 3 Create a new file called window.html.
+It is the HTML which POPS UP, when you click the Chrome extension button.
+<!DOCTYPE html>
+<html>
+<head>
+<script src="background.js"></script>
+</head>
+<body>
+<div>Hello! Geeks For Geeks !!</div>
+<div>This is a Chrome Extension!</div>
+<div>And this is some html</div>
+</body>
+</html>
+We are going great!
+Step 4 Create the javascript file, lets call it, background.js, Since we are creating a simple HTML file, you can skip this step completely as our present project won’t be needing any javascript.
+I am creating it just for demonstrating how to include script in extension.
+Step 4   You must have observed that a icon is an integral part of extension, where you can click and begin the execution of extension.
+I’m adding a icon file, from which you can get an idea.
+icon.png (https://developer.chrome.com/extensions/examples/tutorials/getstarted/icon.png)
+All set!
+
+This is how your directory must be looking after creating all 4 files.
+The Last One :-
+To Load the extension,
+
+Drag and drop the directory where your extension files live onto chrome://extensions in your browser to load it.
+If the extension is valid, it’ll be loaded up and active right away!
+If it’s invalid, an error message will be displayed, it’s time for debugging.
+
+
+
+Open the chrome://extensions page.
+
+
+Drag the folder to the chrome://extensions page.
+
+
+Installation Successful!
+
+
+Click on the icon & the message will get displayed!
+
+
+This simple Hello World extension gives us the basic know-how of How we can begin creating Chrome Extensions, as we are now familiar with manifest.json and directory structure, the two new things apart from basic web technologies like HTML, CSS, JavaScript, JQuery etc.
+Here this extensive Chrome Extension Development Guide:
+https://developer.chrome.com/extensions/examples/tutorials/getstarted/
+Post your doubts and suggestion in comment section and I’ll get back to you.
+Happy Coding!
+About the Author: Hemang Kumar is an open source developer and a sophomore at USICT, New Delhi pursing BTech CSE, loves to design code, web and user interfaces.He can be reached at https://www.linkedin.com/in/hemangkumar
+If you also wish to showcase your blog here,please see GBlog for guest blog writing on GeeksforGeeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

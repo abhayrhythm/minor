@@ -1,0 +1,5 @@
+predict output program int main char ptr geeksforgeek printf c n ptr getchar return 0 output g explan oper use dereferenc oper use get address 
+oper cancel effect use one anoth 
+appli altern 
+time 
+exampl ptr give us g ptr give address g ptr g ptr address g final ptr give g tri int main char ptr geeksforgeek printf n ptr getchar return 0 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

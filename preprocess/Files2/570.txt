@@ -1,0 +1,13 @@
+background flow network cut cut requir sourc sink differ subset consist edg go sourc side sink side 
+capac cut defin sum capac edg cut set 
+sourc wiki 
+given two vertic find minimum cut use max flow algorithm 
+sinc total n2 possibl pair first look seem would total n2 total minimum cut valu 
+use gomori hu tree would see total n 1 differ cut valu tree n vertic n 1 edg popular graph problem solv use gomori hu tree given weight connect graph find minimum cut pair vertic 
+problem like find minimum possibl minimum cut 
+minimum k cut problem find minimum weight set edg whose remov would partit graph k connect compon 
+np hard problem gomori hu tree provid approxim solut problem 
+gomori hu tree 
+gomori hu tree defin flow graph edg capac function c tree set vertic input graph n 1 n number vertic edg 
+edg capac function c defin use follow properti equival flow tree pair vertic minimum cut graph equal smallest capac edg path tree 
+cut properti minimum cut tree also minimum cut graph g exampl consid follow graph correspond gomori hu tree 

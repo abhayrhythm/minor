@@ -1,0 +1,13 @@
+predict output follow c program 
+includ iostream use namespac std class base public virtual void fun int x 0 cout base fun x x endl class deriv public base public virtual void fun int x cout deriv fun x x endl int main deriv d1 base bp d1 bp fun return 0 output deriv fun x 0 take closer look output observ fun deriv class call default valu base class fun use 
+default argument particip signatur function 
+signatur fun base class deriv class consid henc fun base class overridden 
+also default valu use compil time 
+compil see argument miss function call substitut default valu given 
+therefor program valu x substitut compil time run time deriv class fun call 
+predict output follow program 
+includ iostream use namespac std class base public virtual void fun int x 0 cout base fun x x endl class deriv public base public virtual void fun int x 10 note chang cout deriv fun x x endl int main deriv d1 base bp d1 bp fun return 0 output program previou program 
+reason default valu substitut compil time 
+fun call bp pointer base type 
+compil substitut 0 10 
+gener best practic avoid default valu virtual function avoid confus see detail pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,22 @@
+onlin test test organ cocub com complet within hour 
+two code question 1 link list whose node defin follow struct node int x node next implement function take head link list three consecut point lie horizont vertic line remov middl node 
+link list either empti contain atleast two node 
+function prototyp void remov node head exampl input 1 2 2 3 2 4 2 5 3 4 output 1 2 2 3 2 5 3 4 2 given sort array convert height balanc binari search tree 
+height balanc tree one everi node height differ left right subtre 1 node binari tree struct node int data node left node right function implement node binary_tre int ar int len interview 3 round interview write code paper 
+round 1 two question 1 given string remov continu occur occur b 
+exampl input aacbccdbsssaba output acccdsssa 2 data structur use implement insert delet function text editor 
+function fast possibl 
+round 2 question 1 given string two posit string shuffl string move given substr front 
+exampl input abcdefgh 4 6 output defabcgh done inplac n time complex 
+question 2 implement dictionari data structur c 
+kind hash function shall use 
+manag collis 
+question 3 would implement vector data structur c 
+would access time complex 
+make 1 
+resiz structur 
+round 3 question 1 given k ari tree print element layer wise 
+question 2 given singli link list number n write code revers everi n element link list 
+exampl input 1 2 3 4 5 6 n 3 output 3 2 1 6 5 4 like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

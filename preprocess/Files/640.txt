@@ -1,0 +1,8 @@
+
+
+
+I recently had interviews with Amazon.com, Bangalore.
+Here’s my interview experienceCoding round (1 hour):
+1. Find minimum number of coins that make a given value
+Given a value V, if we want to make change for V cents, and we have infinite supply of each of C = { C1, C2, .. , Cm} valued coins, what is the minimum number of coins to make the change?
+2. Suppose you have given two strings S1 and S2. Find out if S1 is substring of S2. If S1 is present in S2 return starting index of S1 in S2 and if not present return -1.

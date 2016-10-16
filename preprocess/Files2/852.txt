@@ -1,0 +1,60 @@
+variabl simpl term storag place memori alloc 
+basic variabl use store form data 
+differ type variabl requir differ amount memori specif set oper appli 
+variabl declar typic variabl declar form type variable_nam multipl variabl type variable1_nam variable2_nam variable3_nam variabl name consist alphabet upper lower case number underscor _ charact 
+howev name must start number 
+differ b w variabl declar definit variabl declar refer part variabl first declar introduc first use 
+variabl definit part variabl assign memori locat valu 
+time variabl declar definit done togeth see follow c program better clarif includ stdio h int main declar definit variabl a123 char a123 also declar definit b alloc memori assign garbag valu 
+float b multipl declar definit int _c _d45 e let us print variabl printf c n a123 return 0 output possibl separ declar definit 
+possibl case extern variabl function 
+see question 1 detail 
+keyword specif reserv word c specif featur associ 
+almost word help us use function c languag includ list keyword 
+imagin list keyword go small one 
+total 32 keyword c auto break case char const continu default doubl els enum extern float goto int long regist return short sign sizeof static struct switch typedef union unsign void volatil keyword alreadi discuss variou sub section c languag like data type storag class control statement function etc 
+let us discuss keyword allow us use basic function c const const use declar constant variabl 
+constant variabl variabl initi chang valu 
+word valu assign unmodifi 
+syntax const data_typ var_nam var_valu note constant variabl need compulsorili initi declar 
+const keyword also use pointer 
+pleas refer const qualifi c understand 
+extern extern simpli tell us variabl defin elsewher within block use 
+basic valu assign differ block overwritten chang differ block well 
+extern variabl noth global variabl initi legal valu declar order use elsewher 
+access within function block 
+also normal global variabl made extern well place extern keyword declar definit function block 
+basic signifi initi new variabl instead use access global variabl 
+main purpos use extern variabl access two differ file part larg program 
+syntax extern data_typ var_nam var_valu static static keyword use declar static variabl popularli use write program c languag 
+static variabl properti preserv valu even scope 
+henc static variabl preserv valu last use scope 
+say initi exist till termin program 
+thu new memori alloc declar 
+scope local function defin 
+global static variabl access anywher program 
+default assign valu 0 compil 
+syntax static data_typ var_nam var_valu void void special data type 
+make special 
+void liter mean empti data type 
+mean noth hold valu 
+exampl use return data type function simpli repres function return valu 
+similarli ad function head repres function take argument 
+note void also signific use pointer 
+pleas refer void pointer c understand 
+typedef typedef use give new name alreadi exist even custom data type like structur 
+come handi time exampl case name structur defin long need short hand notat per exist data type 
+let implement keyword discuss 
+see follow code work exampl demonstr keyword includ stdio h declar initi extern variabl extern int x 9 declar initi global variabl simpli int z would initi z default valu global variabl 0 int z 10 use typedef give short name long long int conveni use due short name typedef long long int function print squar 
+void return data type void calsquar int arg printf squar n arg arg arg void mean function main take paramet int main void declar constant variabl valu cannot modifi const int 32 declar char variabl char b g tell compil variabl z extern variabl defin elsewher main function extern int z c 1000000 printf hello world n print variabl printf valu constant variabl n printf b char variabl 
+valu c n b printf c long long int variabl 
+valu lld n c printf valu extern variabl x z respect n x z valu extern variabl x modifi x 2 valu extern variabl z modifi z 5 print modifi valu extern variabl x z printf modifi valu extern variabl x z respect n x z use static variabl printf valu static variabl initi 5 first iter 
+see n x 0 static int 5 print valu iter printf valu n x print squar 5 calsquar 5 printf bye 
+see soon 
+n return 0 output hello world valu constant variabl 32 b char variabl 
+valu g c long long int variabl 
+valu 1000000 valu extern variabl x z respect 9 10 modifi valu extern variabl x z respect 2 5 valu static variabl initi 5 first iter 
+see valu 6 valu 7 squar 5 25 bye 
+see soon 
+articl contribut ayush jaggi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

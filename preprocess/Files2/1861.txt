@@ -1,0 +1,10 @@
+consid problem ad content two array third array 
+given array size 
+follow simpl c program without transform 
+c code add two array includ bit stdc h use namespac std int main int arr1 1 2 3 int arr2 4 5 6 int n sizeof arr1 sizeof arr1 0 int re n code add two array int 0 n re arr1 arr2 int 0 3 cout re output 5 7 9 use transform function stl add array singl line 
+use tansform stl add two array includ bit stdc h use namespac std int main int arr1 1 2 3 int arr2 4 5 6 int n sizeof arr1 sizeof arr1 0 int re n singl line code add arr1 arr2 store result re transform arr1 arr1 n arr2 re plu int int 0 n cout re output 5 7 9 transform c use two form unari oper appli unari oper input convert output transform iter inputbegin iter inputend iter outputbegin unary_oper follow c exampl 
+c program demonstr work transform unari oper 
+includ bit stdc h use namespac std int increment int x return x 1 int main int arr 1 2 3 4 5 int n sizeof arr sizeof arr 0 appli increment element arr store modifi element back arr transform arr arr n arr increment int 0 n cout arr return 0 output 2 3 4 5 6 binari oper appli binari oper input convert output transform iter inputbegin1 iter inputend1 iter inputbegin2 iter outputbegin binary_oper exampl mention ad two array exampl transform binari oper 
+exampl use transform convert string upper case see modifi exampl vector also 
+vect vector integ 
+transform vect begin vect end vect begin increment relat topic functor c pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

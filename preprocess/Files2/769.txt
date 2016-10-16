@@ -1,0 +1,13 @@
+sampl space set possibl outcom event probabl like event happen probabl number favor outcom total number outcom 0 p 1 sampl problem question 1 three unbias coin toss 
+probabl atmost one head occur 
+solut hhh hht hth thh htt tht tth ttt favor outcom htt tht tth ttt total number outcom 8 number favor outcom 4 requir probabl 4 8 0 50 question 2 find probabl get red card card drawn well shuffl pack card 
+solut total number outcom 52 number favor outcom number red card 26 requir probabl 26 52 0 50 question 3 bag contain 6 white 4 black ball 
+two ball drawn random bag 
+find probabl ball color 
+solut outcom favor two ball drawn color 
+number favor outcom 6 c 2 4 c 2 21 total number outcom 10 c 2 45 therefor requir probabl 21 45 7 15 question 4 unbias die toss 
+find probabl get even number 
+solut 1 2 3 4 5 6 favor outcom 2 4 6 requir probabl 3 6 0 50 question 5 bag contain red blue ball 10 2 ball drawn random 
+find probabl one red blue 
+solut total number outcom 20 c 2 190 number favor outcom 10 c 1 x 10 c 1 100 therefor requir probabl 100 190 10 19 articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

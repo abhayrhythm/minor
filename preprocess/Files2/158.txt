@@ -1,0 +1,5 @@
+given two line segment p1 q1 p2 q2 find given line segment intersect 
+discuss solut let us defin notion orient 
+orient order triplet point plane counterclockwis clockwis colinear follow diagram show differ possibl orient b c orient use 
+two segment p1 q1 p2 q2 intersect one follow two condit verifi 1 gener case p1 q1 p2 p1 q1 q2 differ orient p2 q2 p1 p2 q2 q1 differ orient 
+exampl 

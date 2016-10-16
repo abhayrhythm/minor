@@ -1,0 +1,26 @@
+given k sort list integ size n find smallest rang includ least element k list 
+one smallest rang found print one 
+exampl input k 3 arr1 4 7 9 12 15 arr2 0 8 10 14 20 arr3 6 12 16 30 50 output smallest rang 6 8 explan smallest rang form number 7 first list 8 second list 6 third list 
+input k 3 arr1 4 7 30 arr2 1 2 arr3 20 40 smallest rang 2 20 idea use min heap 
+step creat min heap size k insert first element k list heap 
+maintain two variabl min max store minimum maximum valu present heap point 
+note min alway contain valu root heap 
+repeat follow step get minimum element heap minimum alway root comput rang 
+replac heap root next element list min element extract 
+replac root heapifi tree 
+updat max next element greater 
+list element break loop 
+c implement approach c program find smallest rang includ element given sort list 
+includ iostream includ limit h use namespac std defin n 5 min heap node struct minheapnod int element element store int index list element taken int j index next element pick list prototyp util function swap two min heap node void swap minheapnod x minheapnod class min heap class minheap minheapnod harr pointer array element heap int heap_siz size min heap public constructor creat min heap given size minheap minheapnod int size heapifi subtre root given index void minheapifi int get index left child node index int left int return 2 1 get index right child node index int right int return 2 2 get root minheapnod getmin return harr 0 replac root new node x heapifi new root void replacemin minheapnod x harr 0 x minheapifi 0 constructor build heap given array given size minheap minheap minheapnod int size heap_siz size harr store address array int heap_siz 1 2 0 minheapifi recurs method heapifi subtre root given index 
+method assum subtre alreadi heapifi void minheap minheapifi int int l left int r right int smallest l heap_siz harr l element harr element smallest l r heap_siz harr r element harr smallest element smallest r smallest swap harr harr smallest minheapifi smallest function take k sort list form 2d array argument 
+find smallest rang includ element k list 
+void findsmallestrang int arr n int k creat min heap k heap node 
+everi heap node first element list int rang int_max int min int_max max int_min int start end minheapnod harr new minheapnod k int 0 k harr element arr 0 store first element harr index list harr j 1 index next element store list store max element harr element max max harr element minheap hp harr k creat heap one one get minimum element min heap replac next element list 1 get minimum element store output minheapnod root hp getmin updat min min hp getmin element updat rang rang max min 1 rang max min 1 start min end max find next element replac current root heap 
+next element belong list current root 
+root j n root element arr root root j root j 1 updat max element root element max max root element break reach end list els break replac root next element list hp replacemin root cout smallest rang start end endl driver program test function int main int arr n 4 7 9 12 15 0 8 10 14 20 6 12 16 30 50 int k sizeof arr sizeof arr 0 findsmallestrang arr k return 0 output smallest rang 6 8 time complex loop insid findsmallestrang function run maximum n k time 
+everi iter loop call heapifi take logk time 
+therefor time complex nk logk 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

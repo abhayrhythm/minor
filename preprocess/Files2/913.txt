@@ -1,0 +1,14 @@
+introduc array set 1 introduct array c 
+post array properti c discuss 
+1 c possibl array type except void function 
+see detail 
+2 c array pointer differ 
+seem similar array name give address first element array element access use pointer arithmet 
+see array vs pointer c detail 
+3 array alway pass pointer function 
+see detail 
+4 charact array initi doubl quot string last element 0 
+see detail 
+5 like variabl array alloc memori three segment data heap stack see detail 
+dynam alloc array alloc memori heap static global array alloc memori data segment local array alloc memori stack segment 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

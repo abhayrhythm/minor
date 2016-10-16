@@ -1,0 +1,311 @@
+
+Topics:
+
+Basics
+Variable Declaration, Definition and Scope
+Data Types
+Storage Classes
+Input/Output
+Operators
+Preprocessor
+Array & Strings
+Control Statements
+Functions
+Pointers
+Enum, Struct and Union
+Memory Management
+File Handling
+Puzzles
+Misc
+C Language GATE Questions
+Output Questions
+Quizzes on C
+
+Basics: 
+
+C Language Introduction
+C Programming Language Standard
+Is it fine to write “void main()” or “main()” in C/C++?
+Difference between “int main()” and “int main(void)” in C/C++?
+Macros and Preprocessors in C
+Compiling a C program:- Behind the Scenes
+
+Variable Declaration, Definition and Scope:
+
+Variables and Keywords in C
+How are variables scoped in C – Static or Dynamic?
+Scope rules in C
+How Linkers Resolve Multiply Defined Global Symbols?
+Quiz on Variable Declaration and Scope
+Complicated declarations in C
+Redeclaration of global variable in C
+
+Data Types: 
+
+Data Types in C
+Use of bool in C
+Integer Promotions in C
+Quiz on Data Types in C
+Comparison of a float with a value in C
+
+Storage Classes:  
+
+Storage Classes in C
+Static Variables in C
+Understanding “extern” keyword in C
+What are the default values of static variables in C?
+Understanding “volatile” qualifier in C
+Const Qualifier in C
+Initialization of static variables in C
+Understanding “register” keyword in C
+Quiz on Storage Classes in C
+
+Input/Output: 
+
+Returned values of printf() and scanf()
+What is return type of getchar(), fgetc() and getc() ?
+Scansets in C
+puts() vs printf() for printing a string
+What is use of %n in printf() ?
+How to print % using printf()?
+Quiz on Input Output in C
+Difference between printf, sprintf and fprintf?
+Difference between getc(), getchar(), getch() and getche()
+
+Operators: 
+
+Introduction to operators in C and Arithmetic Operators
+Relational and Logical Operators in C
+Bitwise Operators in C
+Operator Precedence and Associativity in C
+Evaluation order of operands
+Comma in C and C++
+sizeof operator in C
+Operands for sizeof operator
+A comma operator question
+Result of comma operator as l-value in C and C++
+Order of operands for logical operators
+Increment (Decrement) operators require L-value Expression
+Precedence of postfix ++ and prefix ++ in C/C++
+Modulus on Negative Numbers
+C/C++ Ternary Operator – Some Interesting Observations
+Pre-increment (or pre-decrement) in C++
+Difference between ++*p, *p++ and *++p
+Results of comparison operations in C and C++
+To find sum of two numbers without using any operator
+Sequence Points in C
+
+Preprocessor:
+
+Write a C macro PRINT(x) which prints x
+Variable length arguments for Macros
+Multiline macros in C
+CRASH() macro – interpretation
+The OFFSETOF() macro,   
+Branch prediction macros in GCC
+Diffference between #define and const in C?
+A C Programming Language Puzzle
+What’s difference between header files “stdio.h” and “stdlib.h” ?
+How to print a variable name in C?
+
+Arrays & Strings:
+
+Introduction to Arrays in C Language
+Properties of array in C Language
+Do not use sizeof for array parameters
+Initialization of variables sized arrays in C
+Are array members deeply copied?
+What is the difference between single quoted and double quoted declaration of char array?
+Initialization of a multidimensional arrays in C/C++
+Write one line functions for strcat() and strcmp()
+What’s difference between char s[] and char *s in C
+gets() is risky to use!
+C function to Swap strings,  
+Storage for Strings in C
+Difference between array and pointer
+How to dynamically allocate a 2D array in C?
+How to pass a 2D array as a parameter in C?
+How to write long strings in Multi-lines C/C++?
+What are the data types for which it is not possible to create an array?
+Variable Length Arrays in C and C++
+
+Control Statements: 
+
+What should be data type of case labels of switch statement in C?
+For Versus While
+A nested loop puzzle
+switch statement in C
+
+Functions:
+
+Functions in C
+Importance of function prototype in C
+Functions that are executed before and after main() in C
+return statement vs exit() in main()
+How to Count Variable Numbers of Arguments in C?, 
+What is evaluation order of function parameters in C?
+Does C support function overloading?
+How can we return multiple values from a function?
+What is the purpose of a function prototype?
+Static functions in C
+exit(), abort() and assert()
+Implicit return type int in C
+What happens when a function is called before its declaration in C?
+
+Pointers:
+
+Why C treats array parameters as pointers?
+Output of the program | Dereference, Reference, Dereference, Reference
+An Uncommon representation of array elements
+How to declare a pointer to a function?
+Pointer vs Array in C
+void pointer in C
+Few bytes on NULL pointer in C !
+Function Pointer in C
+near, far and huge pointers
+Generic Linked List in C
+
+Enum, Struct and Union:
+
+Enum in C
+Structures in C
+Union in C
+Struct Hack
+Structure Member Alignment, Padding and Data Packing
+Operations on struct variables in C
+Bit Fields in C
+
+Memory Management:
+
+Memory Layout of C Programs,
+How to deallocate memory without using free() in C?
+calloc() versus malloc()
+How does free() know the size of memory to be deallocated?
+Use of realloc()
+What is Memory Leak? How can we avoid?
+
+File Handling:
+
+fseek() vs rewind() in C
+EOF, getc() and feof() in C
+fopen() for an existing file in write mode
+
+Puzzles:
+
+C Program to print numbers from 1 to N without using semicolon?
+How to find sum of two numbers without using any operator
+How will you show memory representation of C variables?
+Condition To Print “HelloWord”
+Change/add only one character and print ‘*’ exactly 20 times
+How can we sum the digits of a given number in single statement?
+What is the best way in C to convert a number to a string?
+Calculate Logn in one line
+Print “Even” or “Odd” without using Conditional statement
+How will you print numbers from 1 to 100 without using loop?
+How can we sum the digits of a given number in single statement?
+How will you print “Geeks for Geeks” without using a semicolon
+Write a one line C function to round floating point numbers
+How will implement Your Own sizeof
+How to count set bits in a floating point number in C?
+How to change the output of printf() in main() ?
+How to find length of a string without string.h and loop in C?
+Implement your own itoa()
+Write a C program that does not terminate when Ctrl+C is pressed
+How to measure time taken by a function in C?
+Print a long int in C using putchar() only
+Convert a floating point number to string in C
+How to write a running C code without main()?
+Write your own memcpy()
+
+Misc:
+
+Quine – A self-reproducing program
+Complicated declarations in C
+Use of bool in C
+Sequence Points in C | Set 1
+Optimization Techniques | Set 2 (swapping),  
+ASCII NUL, ASCII 0 (’0?) and Numeric literal 0
+Little and Big Endian Mystery, 
+Comparator function of qsort() in C
+Program to validate an IP address
+Multithreading in C
+Assertions in C/C++
+fork() in C
+
+C Language GATE Questions: 
+
+C Language | Set 1
+C Language | Set 2
+C Language | Set 3
+C Language | Set 4
+C Language | Set 5
+C Language | Set 6
+C Language | Set 7
+C Language | Set 8
+C Language | Set 9
+
+Output Questions: 
+
+Output of C Programs | Set 1
+Output of C Programs | Set 2
+Output of C Programs | Set 3
+Output of C Programs | Set 4
+Output of C Programs | Set 5
+Output of C Programs | Set 6
+Output of C Programs | Set 7
+Output of C programs | Set 8
+Output of C Programs | Set 9
+Output of C Programs | Set 10
+Output of C Programs | Set 11
+Output of C Programs | Set 12
+Output of C Programs | Set 13
+Result of sizeof operator
+Output of C Programs | Set 14
+Output of C Programs | Set 15
+Output of C Programs | Set 16
+Output of C++ Program | Set 1
+Output of C Program | Set 17
+Output of C Program | Set 18
+Output of C Program | Set 19
+Output of C Program | Set 20
+Output of C Program | Set 21
+Output of C Program | Set 22
+Output of C Program | Set 23
+Output of C Program | Set 24
+Output of C program | Set 25
+Output of C Program | Set 26
+Output of C Program | Set 27
+Output of C Program | Set 28
+
+Quizzes on C
+
+Input and Output
+Data Types
+Variable Declaration and Scope
+Storage Classes and Type Qualifiers
+Operators
+Loops & Control Structure
+Structure & Union
+Macro & Preprocessor
+Arrays
+String
+Functions
+Pointer Basics
+Dynamic Memory Allocation
+Misc
+Advanced Pointer
+File Handling
+Commonly Asked C Programming Interview Questions | Set 1
+Commonly Asked C Programming Interview Questions | Set 2
+
+C/C++ Programs
+You can create a new C topic and discuss it with other geeks using GeeksforGeeks Q&A page. See already discussed C/C++ questions on Q&A.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

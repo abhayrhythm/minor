@@ -1,0 +1,15 @@
+exampl tree root leaf path 10 8 3 10 8 5 10 2 2 algorithm use path array path store current root leaf path 
+travers root leav top fashion 
+travers store data node current path array path 
+reach leaf node print path array 
+c includ stdio h includ stdlib h binari tree node data pointer left child pointer right child struct node int data struct node left struct node right prototyp funtion need printpath void printpathsrecur struct node node int path int pathlen void printarray int int int len given binari tree print root leaf path one per line 
+use recurs helper work 
+void printpath struct node node int path 1000 printpathsrecur node path 0 recurs helper function given node array contain path root node includ node print root leaf path 
+void printpathsrecur struct node node int path int pathlen node null return append node path array path pathlen node data pathlen leaf print path led node left null node right null printarray path pathlen els otherwis tri subtre printpathsrecur node left path pathlen printpathsrecur node right path pathlen util function util print array line 
+void printarray int int int len int 0 len printf int printf n util alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null return node driver program test function int main construct binari tree 10 8 2 3 5 2 struct node root newnod 10 root left newnod 8 root right newnod 2 root left left newnod 3 root left right newnod 5 root right left newnod 2 printpath root getchar return 0 java java program print node leaf path binari tree node data pointer left child pointer right child class node int data node left right node int item data item left right null class binarytre node root given binari tree print root leaf path one per line 
+use recurs helper work 
+void printpath node node int path new int 1000 printpathsrecur node path 0 recurs helper function given node array contain path root node includ node print root leaf path 
+void printpathsrecur node node int path int pathlen node null return append node path array path pathlen node data pathlen leaf print path led node left null node right null printarray path pathlen els otherwis tri subtre printpathsrecur node left path pathlen printpathsrecur node right path pathlen util function print array line 
+void printarray int int int len int 0 len system print int system println driver program test function public static void main string arg binarytre tree new binarytre tree root new node 10 tree root left new node 8 tree root right new node 2 tree root left left new node 3 tree root left right new node 5 tree root right left new node 2 let us test built tree print insord travers tree printpath tree root code contribut mayank jaiswal time complex n refer http cslibrari stanford edu 110 binarytre html pleas write comment find bug code algorithm find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

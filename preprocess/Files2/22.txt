@@ -1,0 +1,73 @@
+like merg sort quicksort divid conquer algorithm 
+pick element pivot partit given array around pick pivot 
+mani differ version quicksort pick pivot differ way 
+alway pick first element pivot 
+alway pick last element pivot implement pick random element pivot 
+pick median pivot 
+key process quicksort partit 
+target partit given array element x array pivot put x correct posit sort array put smaller element smaller x x put greater element greater x x done linear time 
+strongli recommend click practic move solut 
+partit algorithm mani way partit follow code adopt method given clr book 
+logic simpl start leftmost element keep track index smaller equal element travers find smaller element swap current element arr 
+otherwis ignor current element 
+implement follow c implement quicksort 
+c c c implement quicksort includ stdio h util function swap two element void swap int int b int b b function take last element pivot place pivot element correct posit sort array place smaller smaller pivot left pivot greater element right pivot int partit int arr int low int high int pivot arr high pivot int low 1 index smaller element int j low j high 1 j current element smaller equal pivot arr j pivot increment index smaller element swap arr arr j swap arr 1 arr high return 1 main function implement quicksort arr array sort low start index high end index void quicksort int arr int low int high low high pi partit index arr p right place int pi partit arr low high separ sort element partit partit quicksort arr low pi 1 quicksort arr pi 1 high function print array void printarray int arr int size int 0 size printf arr printf n driver program test function int main int arr 10 7 8 9 1 5 int n sizeof arr sizeof arr 0 quicksort arr 0 n 1 printf sort array n printarray arr n return 0 java java program implement quicksort class quicksort function take last element pivot place pivot element correct posit sort array place smaller smaller pivot left pivot greater element right pivot int partit int arr int low int high int pivot arr high int low 1 index smaller element int j low j high 1 j current element smaller equal pivot arr j pivot swap arr arr j int temp arr arr arr j arr j temp swap arr 1 arr high pivot int temp arr 1 arr 1 arr high arr high temp return 1 main function implement quicksort arr array sort low start index high end index void sort int arr int low int high low high pi partit index arr pi right place int pi partit arr low high recurs sort element partit partit sort arr low pi 1 sort arr pi 1 high util function print array size n static void printarray int arr int n arr length int 0 n system print arr system println driver program public static void main string arg int arr 10 7 8 9 1 5 int n arr length quicksort ob new quicksort ob sort arr 0 n 1 system println sort array printarray arr code contribut rajat mishra python python program implement quicksort sort function take last element pivot place pivot element correct posit sort array place smaller smaller pivot left pivot greater element right pivot def partit arr low high low 1 index smaller element pivot arr high pivot j rang low high current element smaller equal pivot arr j pivot increment index smaller element 1 arr arr j arr j arr arr 1 arr high arr high arr 1 return 1 main function implement quicksort arr array sort low start index high end index function quick sort def quicksort arr low high low high pi partit index arr p right place pi partit arr low high separ sort element partit partit quicksort arr low pi 1 quicksort arr pi 1 high driver code test arr 10 7 8 9 1 5 n len arr quicksort arr 0 n 1 print sort array rang n print arr code contribut mohit kumra output sort array 1 5 7 8 9 10 illustr partit arr 10 80 30 90 40 50 70 index 0 1 2 3 4 5 6 low 0 high 6 pivot arr h 70 initi index smaller element 1 travers element j low high 1 j 0 sinc arr j pivot swap arr arr j 0 arr 10 80 30 90 40 50 70 chang j j 1 sinc arr j pivot noth chang arr j 2 sinc arr j pivot swap arr arr j 1 arr 10 30 80 90 40 50 70 swap 80 30 j 3 sinc arr j pivot noth chang arr j 4 sinc arr j pivot swap arr arr j 2 arr 10 30 40 90 80 50 70 80 40 swap j 5 sinc arr j pivot swap arr arr j 3 arr 10 30 40 50 80 90 70 90 50 swap come loop j equal high 1 
+final place pivot correct posit swap arr 1 arr high pivot arr 10 30 40 50 70 90 80 80 70 swap 70 correct place 
+element smaller 70 element greater 70 
+analysi quicksort time taken quicksort gener written follow 
+n k n k 1 n first two term two recurs call last term partit process 
+k number element smaller pivot 
+time taken quicksort depend upon input array partit strategi 
+follow three case 
+worst case worst case occur partit process alway pick greatest smallest element pivot 
+consid partit strategi last element alway pick pivot worst case would occur array alreadi sort increas decreas order 
+follow recurr worst case 
+n 0 n 1 n equival n n 1 n solut recurr n2 
+best case best case occur partit process alway pick middl element pivot 
+follow recurr best case 
+n 2t n 2 n solut recurr nlogn 
+solv use case 2 master theorem 
+averag case averag case analysi need consid possibl permut array calcul time taken everi permut look easi 
+get idea averag case consid case partit put n 9 element one set 9n 10 element set 
+follow recurr case 
+n n 9 9n 10 n solut recurr also nlogn although worst case time complex quicksort n2 mani sort algorithm like merg sort heap sort quicksort faster practic inner loop effici implement architectur real world data 
+quicksort implement differ way chang choic pivot worst case rare occur given type data 
+howev merg sort gener consid better data huge store extern storag 
+3 way quicksort 
+simpl quicksort algorithm select element pivot partit array around pivot recur subarray left right pivot 
+consid array mani redund element 
+exampl 1 4 2 4 2 4 1 2 4 1 2 2 2 2 4 1 4 4 4 
+4 pick pivot simpl quicksort fix one 4 recurs process remain occurr 
+3 way quicksort array arr l r divid 3 part arr l element less pivot 
+b arr 1 j 1 element equal pivot 
+c arr j r element greater pivot 
+see implement 
+implement quicksort link list 
+quicksort singli link list quicksort doubli link list implement quicksort iter 
+ye pleas refer iter quick sort 
+quick sort prefer mergesort sort array quick sort gener form place sort e 
+requir extra storag wherea merg sort requir n extra storag n denot array size may quit expens 
+alloc de alloc extra space use merg sort increas run time algorithm 
+compar averag complex find type sort nlogn averag complex constant differ 
+array merg sort lose due use extra n storag space 
+practic implement quick sort use random version 
+random version expect time complex nlogn 
+worst case possibl random version also worst case occur particular pattern like sort array random quick sort work well practic 
+quick sort also cach friendli sort algorithm good local refer use array 
+quick sort also tail recurs therefor tail call optim done 
+mergesort prefer quicksort link list 
+case link list case differ mainli due differ memori alloc array link list 
+unlik array link list node may adjac memori 
+unlik array link list insert item middl 1 extra space 1 time 
+therefor merg oper merg sort implement without extra space link list 
+array random access element continu memori 
+let us say integ 4 byte array let address 0 x access directli access memori x 4 
+unlik array random access link list 
+quick sort requir lot kind access 
+link list access th index travel everi node head th node continu block memori 
+therefor overhead increas quick sort 
+merg sort access data sequenti need random access low 
+optim quicksort take log n extra space worst case 
+pleas see quicksort tail call optim reduc worst case space log n quiz quicksort refer http en wikipedia org wiki quicksort sort algorithm geeksforgeek geeksquiz select sort bubbl sort insert sort merg sort heap sort quicksort radix sort count sort bucket sort shellsort comb sort pigeonhol sort code practic sort 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

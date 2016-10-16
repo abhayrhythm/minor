@@ -1,0 +1,14 @@
+ms paint take brush pixel click color region pixel replac new select color 
+follow problem statement task 
+given 2d screen locat pixel screen color replac color given pixel adjac color pixel given color 
+exampl input screen n 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 0 1 1 1 2 2 2 2 0 1 0 1 1 1 2 2 0 1 0 1 1 1 2 2 2 2 0 1 1 1 1 1 2 1 1 1 1 1 1 1 2 2 1 x 4 4 newcolor 3 valu given 2d screen indic color pixel 
+x coordin brush newcolor color replac previou color screen x surround pixel color 
+output screen chang follow 
+screen n 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 0 1 1 1 3 3 3 3 0 1 0 1 1 1 3 3 0 1 0 1 1 1 3 3 3 3 0 1 1 1 1 1 3 1 1 1 1 1 1 1 3 3 1 flood fill algorithm idea simpl first replac color current pixel recur 4 surround point 
+follow detail algorithm 
+recurs function replac previou color prevc x surround pixel x new color newc floodfil screen n x prevc newc 1 x outsid screen return 
+2 color screen x prevc return 3 recur north south east west 
+floodfillutil screen x 1 prevc newc floodfillutil screen x 1 prevc newc floodfillutil screen x 1 prevc newc floodfillutil screen x 1 prevc newc follow c implement algorithm 
+c program implement flood fill algorithm includ iostream use namespac std diment paint screen defin 8 defin n 8 recurs function replac previou color prevc x surround pixel x new color newc void floodfillutil int screen n int x int int prevc int newc base case x 0 x 0 n return screen x prevc return replac color x screen x newc recur north east south west floodfillutil screen x 1 prevc newc floodfillutil screen x 1 prevc newc floodfillutil screen x 1 prevc newc floodfillutil screen x 1 prevc newc mainli find previou color x call floodfillutil void floodfil int screen n int x int int newc int prevc screen x floodfillutil screen x prevc newc driver program test function int main int screen n 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 0 1 1 1 2 2 2 2 0 1 0 1 1 1 2 2 0 1 0 1 1 1 2 2 2 2 0 1 1 1 1 1 2 1 1 1 1 1 1 1 2 2 1 int x 4 4 newc 3 floodfil screen x newc cout updat screen call floodfil n int 0 int j 0 j n j cout screen j cout endl output updat screen call floodfil 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 0 1 1 1 3 3 3 3 0 1 0 1 1 1 3 3 0 1 0 1 1 1 3 3 3 3 0 1 1 1 1 1 3 1 1 1 1 1 1 1 3 3 1 refer http en wikipedia org wiki flood_fil articl contribut anmol 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

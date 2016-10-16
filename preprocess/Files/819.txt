@@ -1,0 +1,88 @@
+
+Project idea:
+The aim of this project is to create a game in python in which the user is presented with an anagram of a word and has to guess the right word within a limited number of attempts.
+Features of Project:
+
+The user is given a fixed number of attempts to guess the correct word. The number of attempts is dependent on the length of the word.
+After each incorrect attempt the user is provided with a hint of the correct word.
+If the user is not able to guess the right word within the fixed number of attempt the correct word is displayed and the game moves on to the next word.
+Ctrl+C or Ctrl+D exits the game.
+
+Implementation:
+This tutorial is valid only for Linux based systems. This tutorial is written on a Linux Mint 17.1 system. For implementing on other Linux systems (Redhat,Arch) see special note at the end of this tutorial.
+In almost all the Linux based systems there is a file located at directory location “/usr/share/dict/” under different names like “cracklib-small”(Ubuntu based systems),”words”(Redhat,Arch) which contains words from dictionary and are often used by many applications to implement features such as “spell-check”.
+In this project I will be using the same file to create a game of anagrams.
+Reading the file can provide us with all the words required for the game. The words in the file are separated with a new-line so while reading the file we need to split the words based on the new-line character to get individual words. The code for the same would look like:
+loc='/usr/share/dict/cracklib-small'
+with open(loc) as f:
+content=f.read().split('\n')
+f.close()
+
+The file also contains words like “zoo’s” but we do not want such words in our game so we can omit them. To avoid making the game too simple I decided to also ommit words of length less than 5 but this step is optional and can be skipped. The code for the same looks like:
+l=len(content)
+words=[]
+for i in range(0,l):
+    if '\'' in content[i] or len(content[i])<5:
+    continue
+words.append(content[i])
+
+The file also contains words like “2nd,3rd” at the start of the file. To prevent them from appearing in our game we omit them by:
+words=words[1:]
+d=len(words)
+words=words[:d]
+
+Finally “words” contain all the words we need for the game to proceed.
+We can choose a specific word for a particular round of the game by:
+word=words[random.randint(0,d)]
+The word would be randomly chosen from the list of words created.
+To create the anagram of the word we need to shuffle the characters.This can be done by:
+shuffle=list(word)
+random.shuffle(shuffle)
+
+If the length of the word chosen for the round is more than 7 the user gets 7 attempts else the number of attempts is 5.
+if len(word)>7:
+    chances=7
+else:
+    chances=5
+    tries=0
+
+The variable “tries” keeps track of the number of attempts taken by the user. We initialize it to zero.
+During each user attempt we take their input and compare it with the correct word. If they match we  congratulate the user and present the next anagram else we provide them with a hint.
+To generate hint for a particular word we choose two random integers between 0 and the length of the word.
+t1=random.randint(0,len(word))
+t2=random.randint(0,len(word))
+
+We display the correct characters at these two positions t1 and t2 and at all the other positions we display “.”.
+hint=""
+for i in range(0,len(word)):
+    if i==t1 or i==t2:
+        hint=hint+word[i]
+    else:
+        hint=hint+"."
+print hint
+
+If the number of tries= number of chances, we display the corect word and the game continues.
+if tries==chances:
+    print "The answer was "+word
+
+Special Note:To make the code as platform independant as possible we can choose the location of the file dynamically using the platform module of python.
+os=platform.dist()[0]
+if os=='LinuxMint' or os=='Ubuntu':
+    loc='/usr/share/dict/cracklib-small'
+else:
+    loc='/usr/share/dict/words'
+
+Software Tools Required:The game can be implemented in Python using modules platform and random.
+Github Link: https://github.com/sub123/practice/blob/master/python/anagramwa.py
+ 
+This idea is contributed by Subham.If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

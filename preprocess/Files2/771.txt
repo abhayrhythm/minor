@@ -1,0 +1,19 @@
+calendar question mainli base find day week given date 
+exampl may ask find day 2 februari 1981 find day date base calcul number odd day 
+odd day mean number day complet number week 
+exampl number day non leap year 365 365 mod 7 1 number odd day non leap year 1 number day leap year 366 number odd day leap year 366 mod 7 2 number odd day 100 year 76 non leap year 24 leap year 76 x 1 24 x 2 mod 7 76 48 mod 7 124 mod 7 5 day number odd day 200 year 2 x number odd day 100 year mod 7 10 mod 7 3 number odd day 300 year 3 x 5 mod 7 1 number odd day 400 year 4 x 5 1 mod 7 21 mod 7 0 note ad 1 day extra 400th year would leap year 
+check non centenni year leap year divid 4 remaind 0 year leap year 
+exampl 2016 mod 4 0 thu safe deduc 2016 leap year 
+check centenni year leap year divid 400 remaind 0 year leap year 
+exampl 1700 mod 400 100 leap year 
+1600 mod 400 0 thu safe deduc 1600 leap year 
+number odd day 0 day sunday number odd day 1 day monday number odd day 2 day tuesday number odd day 3 day wednesday number odd day 4 day thursday number odd day 5 day friday number odd day 6 day saturday sampl problem question 1 day 14 april 2000 
+solut 1600 0 odd day 
+300 year 1 odd day 
+next 99 year would 75 non leap year 24 leap year 
+number odd day 75 x 1 24 x 2 75 48 123 mod 7 4 odd day total odd day till 1 4 5 number odd day januari 31 mod 7 3 number odd day februari 2000 leap year 29 mod 7 1 number odd day march 31 mod 7 3 number odd day till 14 april 2000 month april 14 mod 7 0 total number odd day 5 3 1 3 12 mod 7 5 thu 14 april 2000 friday odd day 5 friday question 2 day 16 august 1947 
+solut 1600 0 odd day 
+300 year 1 odd day 
+next 47 year would 36 non leap year 11 leap year 
+number odd day 36 x 1 11 x 2 36 22 58 mod 7 2 odd day total odd day till 1 2 3 number odd day januari 31 mod 7 3 number odd day februari 1947 non leap leap year 28 mod 7 0 number odd day march 31 mod 7 3 number odd day april 30 mod 7 2 number odd day may 31 mod 7 3 number odd day june 30 mod 7 2 number odd day juli 31 mod 7 3 number odd day till 16 august 1947 16 mod 7 2 total number odd day 3 3 0 3 2 3 2 3 2 21 mod 7 0 thu 16 august 1947 sunday odd day 0 sunday articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

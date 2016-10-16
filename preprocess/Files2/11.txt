@@ -1,0 +1,14 @@
+time complex follow function fun 
+assum log x return log valu base 2 void fun int j 1 n j 1 j log j printf geeksforgeek time complex function written θ log 1 θ log 2 θ log 3 
+
+
+
+θ log n θ log n 
+order growth log n n log n larg valu n e θ log n 
+θ n log n 
+time complex fun θ n log n 
+express θ log n 
+θ n log n easili deriv follow stirl approxim stirl formula 
+log n 
+n log n n log n pleas write comment find anyth incorrect want share inform topic discuss 
+sourc http en wikipedia org wiki stirl 27s_approxim adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

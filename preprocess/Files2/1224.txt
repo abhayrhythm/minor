@@ -1,0 +1,21 @@
+given two string b task convert b possibl 
+oper allow put charact insert front 
+find possibl convert string 
+ye output minimum 
+oper requir transform 
+input abd b bad output 1 explan pick b insert front 
+input eacbd b eabcd output 3 explan pick b insert front eacbd beacd pick insert front beacd abecd pick e insert front abecd eabcd strongli recommend minim browser tri first 
+check whether string transform anoth simpl 
+need check whether string number charact set charact 
+easili done creat count array first string check second string count everi charact 
+find minimum number oper sure transform b 
+idea start match last charact string 
+last charact match task reduc n 1 charact 
+last charact match find posit b mismatch charact differ two posit indic mani charact must move current charact complet algorithm 
+1 find transform b first creat count array charact check b b count everi charact 
+2 initi result 0 
+2 start travers end string 
+current charact b match e b j 1 j j 1 b current charact match search b j remain 
+search keep increment result charact must move ahead b transform 
+c python implement base idea 
+c c program find minimum number oper requir transform one string includ bit stdc h use namespac std function find minimum number oper requir transform b int minop string string b int length n b length part check whether convers possibl n return 1 int count 256 memset count 0 sizeof count int 0 n count charact count b int 0 n subtract count count everi charact b int 0 256 check count becom 0 count return 1 part calcul number oper requir int re 0 int n 1 j n 1 0 mismatch keep increment result re b j found 0 0 b j re b j match 0 j return re driver program int main string eacbd string b eabcd cout minimum number oper requir minop b return 0 

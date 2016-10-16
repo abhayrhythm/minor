@@ -1,0 +1,6 @@
+ask varun bhatia 
+question write recurs function treetolist node root take order binari tree rearrang intern pointer make circular doubli link list tree node 
+previou pointer store small field next pointer store larg field 
+list arrang node increas order 
+return head pointer new list 
+well explain implement http cslibrari stanford edu 109 treelistrecurs html adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

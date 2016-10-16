@@ -1,0 +1,33 @@
+given array arr 0 n 1 
+follow oper need perform 
+updat l r val add val element array l r 
+getel find element array index 
+initi element array 0 queri oder e mani updat point queri 
+exampl input arr 0 0 0 0 0 queri updat l 0 r 4 val 2 getel 3 updat l 3 r 4 val 3 getel 3 output element 3 2 element 3 5 explan array first updat becom 2 2 2 2 2 array second updat becom 2 2 2 5 5 method 1 updat n getel 1 updat l r val iter subarray l r increas element val 
+getel get element th index simpli return arr 
+time complex worst case q n q number queri n number element 
+method 2 updat 1 getel n avoid updat element updat 2 index array 
+updat l r val add val lth element subtract val r 1 th element updat queri 
+arr l arr l val arr r 1 arr r 1 val getel get ith element array find sum integ array 0 
+prefix sum 
+let analyz updat queri 
+add val lth index 
+ad val lth index mean element l increas val sinc comput prefix sum everi element 
+subtract val r 1 th index 
+rang updat requir l r updat l n 1 need remov val element r e subtract val r 1 th index 
+thu val ad rang l r 
+c implement approach 
+c program demonstr rang updat point queri without use bit includ iostream use namespac std updat getel get increas valu queri l r void updat int arr int l int r int val arr l val arr r 1 val get element index int getel int arr int get ith element sum element 0 need comput int re 0 int j 0 j j re arr j return re driver program test function int main int arr 0 0 0 0 0 int n sizeof arr sizeof arr 0 int l 2 r 4 val 2 updat arr l r val find element index 4 int index 4 cout element index index getel arr index endl l 0 r 3 val 4 updat arr l r val find element index 3 index 3 cout element index index getel arr index endl return 0 output element index 4 2 element index 3 6 time complex q n q number queri 
+method 3 use binari index tree method 2 seen problem reduc updat prefix sum queri 
+seen bit use updat prefix sum queri logn time 
+c implement 
+c code demonstr rang updat point queri binari index tree includ iostream use namespac std updat node binari index tree bitre given index bitre 
+given valu val ad bitre ancestor tree 
+void updatebit int bitre int n int index int val index bitre 1 index arr index index 1 travers ancestor add val index n add val current node bi tree bitre index val updat index parent updat view index index index construct return binari index tree given array size n int constructbitre int arr int n creat initi bitre 0 int bitre new int n 1 int 1 n bitre 0 store actual valu bitre use updat int 0 n updatebit bitre n arr uncom line see content bitre int 1 n cout bitre return bitre serv purpos getel return sum arr 0 index 
+function assum array preprocess partial sum array element store bitre int getsum int bitre int index int sum 0 iniial result index bitre 1 index arr index index 1 travers ancestor bitre index index 0 add current element bitre sum sum bitre index move index parent node getsum view index index index return sum updat getel get increas valu queri l r void updat int bitre int l int r int n int val increas valu l val updatebit bitre n l val decreas valu r 1 val updatebit bitre n r 1 val driver program test function int main int arr 0 0 0 0 0 int n sizeof arr sizeof arr 0 int bitre constructbitre arr n add 2 element 2 4 int l 2 r 4 val 2 updat bitre l r n val find element index 4 int index 4 cout element index index getsum bitre index n add 2 element 0 3 l 0 r 3 val 4 updat bitre l r n val find element index 3 index 3 cout element index index getsum bitre index n return 0 output element index 4 2 element index 3 6 time complex q log n n log n q number queri 
+method 1 effici queri getel method 2 effici queri updat method 3 prefer mix queri 
+articl contribut chirag agarw 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

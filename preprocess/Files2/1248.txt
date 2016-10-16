@@ -1,0 +1,35 @@
+given string posit integ charact may repeat given string 
+rearrang charact given string charact becom distanc away 
+note mani possibl rearrang output one possibl rearrang 
+arrang possibl also report 
+expect time complex n n length input string 
+exampl input abb 2 output bab input aacbbc 3 output abcabc input geeksforgeek 3 output egkegkesfesor input aaa 2 output cannot rearrang strongli recommend minim browser tri first 
+hint alphabet size may assum constant 256 extra space may use 
+solut idea count frequenc charact consid frequent charact first place occurr close possibl 
+frequent charact place repeat process remain charact 
+1 let given string str size string n 2 travers str store charact frequenc max heap mh 
+valu frequenc decid order mh e frequent charact root mh 
+3 make charact str 0 
+4 follow mh empti 
+extract frequent charact 
+let extract charact x frequenc f b find first avail posit str e find first 0 str 
+c let first posit p fill x p p p f 1 follow c python implement algorithm 
+c c c program rearrang string charact becom least distanc away includ iostream includ cstring includ cstdlib defin max 256 use namespac std structur store charact c frequenc f input string struct charfreq char c int f util function swap two charfreq item 
+void swap charfreq x charfreq charfreq z x x z util function maxheapifi node freq heap store freq void maxheapifi charfreq freq int int heap_siz int l 2 1 int r 2 2 int largest l heap_siz freq l f freq f largest l r heap_siz freq r f freq largest f largest r largest swap freq freq largest maxheapifi freq largest heap_siz util function convert array freq max heap void buildheap charfreq freq int n int n 1 2 0 maxheapifi freq n util function remov max item root max heap charfreq extractmax charfreq freq int heap_siz charfreq root freq 0 heap_siz 1 freq 0 freq heap_siz 1 maxheapifi freq 0 heap_siz 1 return root main function rearrang input string str two charact becom distanc away void rearrang char str int find length input string int n strlen str creat array store charact frequenc str charfreq freq max 0 0 int 0 store count distinct charact str travers input string store frequenc charact freq array 
+int 0 n char x str charact occur first time increment freq x c 0 freq x c x freq x f str 0 chang use later build max heap charact buildheap freq max one one extract distinct charact max heap put back str distanc constraint int 0 charfreq x extractmax freq max find first avail posit str int p str p 0 p fill x c p p p 2d p f 1 int k 0 k x f k index goe beyond size string cannot rearrang 
+p k n cout cannot rearrang exit 0 str p k x c driver program test function int main char str aabbcc rearrang str 3 cout str python python program rearrang string charact becom least distanc away max 256 structur store charact c frequenc f input string class charfreq object def __init__ self c f self c c self f f util function swap two charfreq item 
+def swap x return x util function def tolist string x string append x return util function def tostr l return join l util function maxheapifi node freq heap store freq def maxheapifi freq heap_siz l 2 1 r 2 2 largest l heap_siz freq l f freq f largest l r heap_siz freq r f freq largest f largest r largest freq freq largest swap freq freq largest maxheapifi freq largest heap_siz util function convert array freq max heap def buildheap freq n n 1 2 0 maxheapifi freq n 1 util function remov max item root max heap def extractmax freq heap_siz root freq 0 heap_siz 1 freq 0 freq heap_siz 1 maxheapifi freq 0 heap_siz 1 return root main function rearrang input string str two charact becom distanc away def rearrang string find length input string n len string creat array store charact frequenc str freq x xrang max freq append charfreq 0 0 0 travers input string store frequenc charact freq array 
+xrang n x ord string charact occur first time increment freq x c 0 freq x c chr x 1 freq x f 1 string 0 build max heap charact buildheap freq max one one extract distinct charact max heap put back str distanc constraint xrang x extractmax freq max find first avail posit str p string p 0 p 1 fill x c p p p 2d p f 1 k xrang x f index goe beyond size string cannot rearrang 
+p k n print cannot rearrang return string p k x c return tostr string driver program string aabbcc print rearrang tolist string 3 code contribut bhavya jain output abcabc algorithm paradigm greedi algorithm time complex time complex implement n mlog max 
+n length str count distinct charact str max maximum possibl differ charact 
+max typic 256 constant smaller max 
+time complex consid n 
+analysi code optim store charact heap kept way keep code simpl 
+time complex improv n mlogm 
+much matter max constant 
+also algorithm implement use mlogm sort algorithm 
+first step algorithm remain 
+instead build heap sort freq array non increas order frequenc consid charact one one sort array 
+soon cover extend version charact move least distanc away 
+articl contribut himanshu gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

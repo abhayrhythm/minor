@@ -1,0 +1,9 @@
+bit rotat rotat circular shift oper similar shift except bit fall one end put back end 
+left rotat bit fall left end put back right end 
+right rotat bit fall right end put back left end 
+exampl let n store use 8 bit 
+left rotat n 11100101 3 make n 00101111 left shift 3 first 3 bit put back last 
+n store use 16 bit 32 bit left rotat n 000 11100101 becom 00 0011100101000 right rotat n 11100101 3 make n 10111100 right shift 3 last 3 bit put back first n store use 8 bit 
+n store use 16 bit 32 bit right rotat n 000 11100101 3 becom 101000 0011100 
+includ stdio h defin int_bit 32 function left rotat n bit int leftrot int n unsign int n last bit 0 put first 3 bit n last bitwis n n int_bit return n n int_bit function right rotat n bit int rightrot int n unsign int n first bit 0 put last 3 bit first bitwis n n int_bit return n n int_bit driver program test function int main int n 16 int 2 printf left rotat n printf leftrot n printf nright rotat n printf rightrot n getchar pleas write comment find bug program way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

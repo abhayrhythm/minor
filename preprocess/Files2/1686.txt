@@ -1,0 +1,26 @@
+given preorder travers bst check non leaf node one child 
+assum bst contain uniqu entri 
+exampl input pre 20 10 11 13 12 output ye give array repres follow bst 
+follow bst everi intern node exactli 1 child 
+therefor output true 
+20 10 11 13 12 preorder travers descend preorder successor everi node appear node 
+exampl 20 first node preorder descend 20 appear 
+descend 20 smaller 
+10 descend greater 
+gener say intern node one child bst descend everi node either smaller larger node 
+reason simpl sinc tree bst everi node one child descend node either left side right side mean descend either smaller greater 
+approach 1 naiv approach simpli follow idea valu right side either smaller larger 
+use two loop outer loop pick element one one start leftmost element 
+inner loop check element right side pick element either smaller greater 
+time complex method n 2 
+approach 2 sinc descend node must either larger smaller node 
+follow everi node loop 
+1 find next preorder successor descend node 
+2 find last preorder successor last element pre node 
+3 successor less current node successor greater current node continu 
+els return fals 
+c includ stdio h bool hasonlyonechild int pre int size int nextdiff lastdiff int 0 size 1 nextdiff pre pre 1 lastdiff pre pre size 1 nextdiff lastdiff 0 return fals return true driver program test function int main int pre 8 3 5 7 6 int size sizeof pre sizeof pre 0 hasonlyonechild pre size true printf ye els printf return 0 java check intern node bst one child class binarytre boolean hasonlyonechild int pre int size int nextdiff lastdiff int 0 size 1 nextdiff pre pre 1 lastdiff pre pre size 1 nextdiff lastdiff 0 return fals return true public static void main string arg binarytre tree new binarytre int pre new int 8 3 5 7 6 int size pre length tree hasonlyonechild pre size true system println ye els system println code contribut mayank jaiswal output ye approach 3 1 scan last two node preorder mark min max 
+2 scan everi node preorder array 
+node must either smaller min node larger max node 
+updat min max accordingli 
+c includ stdio h int hasonlyonechild int pre int size initi min max use last two element int min max pre size 1 pre size 2 max pre size 1 min pre size 2 els max pre size 2 min pre size 1 everi element must either smaller min greater max int size 3 0 pre min min pre els pre max max pre els return fals return true driver program test function int main int pre 8 3 5 7 6 int size sizeof pre sizeof pre 0 hasonlyonechild pre size printf ye els printf return 0 java check intern node bst one child class binarytre boolean hasonlyonechild int pre int size initi min max use last two element int min max pre size 1 pre size 2 max pre size 1 min pre size 2 els max pre size 2 min pre size 1 everi element must either smaller min greater max int size 3 0 pre min min pre els pre max max pre els return fals return true public static void main string arg binarytre tree new binarytre int pre new int 8 3 5 7 6 int size pre length tree hasonlyonechild pre size true system println ye els system println code contribut mayank jaiswal output ye pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

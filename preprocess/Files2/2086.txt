@@ -1,0 +1,18 @@
+recurs use task one line 
+one line implement stracat strcmp 
+my_strcat dest src copi data src dest 
+first reach end string dest use recurs call my_strcat dest src 
+end dest reach data copi use dest src 
+my_strcat dest src 
+void my_strcat char dest char src dest 
+my_strcat dest src dest src 
+my_strcat dest src 0 driver function test function int main char dest 100 geeksfor char src geek my_strcat dest src printf dest getchar function my_strcmp simpl compar my_strcmp 
+my_strcmp b return 0 string b otherwis 1 recurs increas b pointer 
+point equal b 1 return 
+reach end string time 0 return 
+int my_strcmp char char b return b b 0 
+0 b 
+my_strcmp b 1 driver function test function int main char geeksforgeek char b geeksforgeek my_strcmp b 0 printf string els printf string getchar return 0 function basic string concaten string comparison 
+function provid function standard librari function 
+ask geek4u pleas write comment find code incorrect find better way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

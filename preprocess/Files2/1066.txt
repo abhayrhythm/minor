@@ -1,0 +1,23 @@
+given array n distinct element 
+find maximum product minimum two number array absolut differ posit e find maximum valu ab j min arr arr j j vari 0 n 1 
+input arr 3 2 1 4 output 9 arr 0 3 arr 3 4 minimum 3 absolut differ posit ab 0 3 3 product 3 3 9 input arr 8 1 9 4 output 16 arr 0 8 arr 2 9 minimum 8 absolut differ posit ab 0 2 2 product 8 2 16 simpl solut problem take element one one compar element element right 
+calcul product minimum absolut differ index maxim result 
+time complex approach n 2 
+effici solut solv problem linear time complex 
+take two iter left 0 right n 1 compar element arr left arr right 
+left 0 right n 1 maxproduct inf left right arr left arr right currproduct arr left right left left 
+arr right arr left currproduct arr right right left right 
+maxproduct max maxproduct currproduct c implement idea 
+c implement code includ bit stdc h use namespac std function calcul maximum valu ab j min arr arr j arr int maximum_product int arr int n int maxproduct int_min initi result int currproduct product current pair loop meet int left 0 right n 1 left right arr left arr right currproduct arr left right left left els arr right smaller currproduct arr right right left right maxim product maxproduct max maxproduct currproduct return maxproduct driver program test case int main int arr 8 1 9 4 int n sizeof arr sizeof arr 0 cout maximum_product arr n return 0 output 16 work 
+import thing show miss potenti pair linear algorithm e need show left right lead case would got higher valu maxproduct 
+pleas note alway multipli right left 
+1 arr left arr right smaller valu right current left useless produc higher valu maxproduct multipli arr left right left 
+arr left greater element left side 
+case better pair element must found current right 
+therefor safe increas left without miss better pair current left 
+2 similar argument applic arr right arr left 
+articl contribut shashank mishra gullu 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,33 @@
+perform analysi 
+mani import thing taken care like user friendli modular secur maintain etc 
+worri perform 
+answer simpl thing perform 
+perform like currenc buy thing 
+anoth reason studi perform speed fun 
+given two algorithm task find one better 
+one naiv way implement algorithm run two program comput differ input see one take less time 
+mani problem approach analysi algorithm 
+1 might possibl input first algorithm perform better second 
+input second perform better 
+2 might also possibl input first algorithm perform better one machin second work better machin input 
+asymptot analysi big idea handl issu analyz algorithm 
+asymptot analysi evalu perform algorithm term input size measur actual run time 
+calcul time space taken algorithm increas input size 
+exampl let us consid search problem search given item sort array 
+one way search linear search order growth linear way binari search order growth logarithm 
+understand asymptot analysi solv mention problem analyz algorithm let us say run linear search fast comput binari search slow comput 
+small valu input array size n fast comput may take less time 
+certain valu input array size binari search definit start take less time compar linear search even though binari search run slow machin 
+reason order growth binari search respect input size logarithm order growth linear search linear 
+machin depend constant alway ignor certain valu input size 
+asymptot analysi alway work 
+asymptot analysi perfect best way avail analyz algorithm 
+exampl say two sort algorithm take 1000nlogn 2nlogn time respect machin 
+algorithm asymptot order growth nlogn 
+asymptot analysi judg one better ignor constant asymptot analysi 
+also asymptot analysi alway talk input size larger constant valu 
+might possibl larg input never given softwar algorithm asymptot slower alway perform better particular situat 
+may end choos algorithm asymptot slower faster softwar 
+next analysi algorithm set 2 worst averag best case refer mit video lectur 1 introduct algorithm 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

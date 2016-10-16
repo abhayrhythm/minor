@@ -1,0 +1,5 @@
+
+Prerequisite – Vector Basics
+Following are some important points that can save time on little things in an interview or an important coding contest.
+
+ vector <int> vect(10) vs vector<int> vect[10] 

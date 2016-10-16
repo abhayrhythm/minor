@@ -1,0 +1,26 @@
+given two string str1 str2 oper perform str1 
+find minimum number edit oper requir convert str1 str2 
+insert remov replac oper equal cost 
+exampl input str1 geek str2 gesek output 1 convert str1 str2 insert 
+input str1 cat str2 cut output 1 convert str1 str2 replac u 
+input str1 sunday str2 saturday output 3 last three first charact 
+basic need convert un atur 
+done use three oper 
+replac n r insert insert subproblem case 
+idea process charact one one stare either left right side string 
+let travers right corner two possibl everi pair charact travers 
+length str1 first string n length str2 second string last charact two string noth much 
+ignor last charact get count remain string 
+recur length 1 n 1 
+els last charact consid oper str1 consid three oper last charact first string recurs comput minimum cost three oper take minimum three valu 
+insert recur n 1 remov recur 1 n replac recur 1 n 1 c implement naiv recurs solut 
+c naiv recurs c program find minimum number oper convert str1 str2 includ bit stdc h use namespac std util function find minimum three number int min int x int int z return min min x z int editdist string str1 string str2 int int n first string empti option insert charact second string first 0 return n second string empti option remov charact first string n 0 return last charact two string noth much 
+ignor last charact get count remain string 
+str1 1 str2 n 1 return editdist str1 str2 1 n 1 last charact consid three oper last charact first string recurs comput minimum cost three oper take minimum three valu 
+return 1 min editdist str1 str2 n 1 insert editdist str1 str2 1 n remov editdist str1 str2 1 n 1 replac driver program int main code goe string str1 sunday string str2 saturday cout editdist str1 str2 str1 length str2 length return 0 java naiv recurs java program find minimum number oper convert str1 str2 class edist static int min int x int int z x x z return x x z return els return z static int editdist string str1 string str2 int int n first string empti option insert charact second string first 0 return n second string empti option remov charact first string n 0 return last charact two string noth much 
+ignor last charact get count remain string 
+str1 charat 1 str2 charat n 1 return editdist str1 str2 1 n 1 last charact consid three oper last charact first string recurs comput minimum cost three oper take minimum three valu 
+return 1 min editdist str1 str2 n 1 insert editdist str1 str2 1 n remov editdist str1 str2 1 n 1 replac public static void main string arg string str1 sunday string str2 saturday system println editdist str1 str2 str1 length str2 length code contribut rajat mishra python naiv recurs python program fin minimum number oper convert str1 str2 def editdist str1 str2 n first string empti option insert charact second string first 0 return n second string empti option remov charact first string n 0 return last charact two string noth much 
+ignor last charact get count remain string 
+str1 1 str2 n 1 return editdist str1 str2 1 n 1 last charact consid three oper last charact first string recurs comput minimum cost three oper take minimum three valu 
+return 1 min editdist str1 str2 n 1 insert editdist str1 str2 1 n remov editdist str1 str2 1 n 1 replac driver program test function str1 sunday str2 saturday print editdist str1 str2 len str1 len str2 code contribut bhavya jain output 

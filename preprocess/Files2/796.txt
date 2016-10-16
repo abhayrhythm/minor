@@ -1,0 +1,28 @@
+introduct far use c languag simpl consol output 
+us unawar use c low level graphic program also made 
+mean incorpor shape color design font program 
+articl deal step enabl devc compil gener graphic 
+configur devc step 1 download devc version 5 11 
+step 2 download graphic header file etc stuff need given dropbox link 
+step 3 extract content rar file 
+step 4 go locat devc instal 
+drive 
+go insid mingw64 folder 
+copi graphic h winbgim h includ folder dev cpp mingw64 x86_64 w64 mingw32 includ folder 
+step 5 copi libbgi file lib folder dev cpp mingw64 x86_64 w64 mingw32 lib folder 
+step 6 copi consoleappgraph templat consoleapp_cpp_graph txt file past insid templat folder devc instal locat 
+done configur devc support graphic program 
+shall write first graphic program 
+run first graphic program open devc 
+click file new project 
+make sure get consol graphic option 
+howev go click 
+choos empti project option give project name make sure select languag c 
+copi follow code editor window 
+includ graphic h includ conio h int main int gd detect gm initgraph gd gm c tc bgi circl 300 300 50 closegraph getch go project menu choos project option press alt p 
+go paramet tab linker field enter follow text lbgi lgdi32 lcomdlg32 luuid loleaut32 lole32 click ok compil run project get output program explan initgraph function initi graphic system 
+c program execut start main similarli graphic environ start function 
+initgraph initi graphic system load graphic driver disk valid regist driver put system graphic mode articl contribut mudit maheshwari 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

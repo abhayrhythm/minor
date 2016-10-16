@@ -1,0 +1,56 @@
+round 1 code q 1 5 5 matrix spiral order n n spiral matrix fill similar one given find element present r c posit r row number c column number 
+constraint creat matrix 
+print number without creat matrix explicitli 
+q2 
+given string two index j modifi string pattern charact 0 index back string 
+charact j till end string front string 
+e g 
+abcdef 1 j 3 
+output defcab constraint constant space 
+q3 
+http leetcod com problem simplifi path round 2 group flyer q1 
+given array posit integ sort array manner element new array concaten string number form maximum 
+e g 
+input 12 9 32 output 32 9 12 q2 
+nativ languag alphabet order b c k l g h ng q r given two string str1 str2 find one larger among 2 
+larger mean rankwis e g 
+da c given da c come first 
+write function bool compar char str1 char str2 return 1 str1 str2 
+return 1 str2 str1 return 0 otherwis interview need write code paper 
+first f2f round q http leetcod com problem letter combin phone number use recurs ask think iter approach 
+one que dbm told ece studi dbm 
+ask cours done cse dept 
+told oop ds architectur network 
+final ask question 
+ask diff b w msidc msit 
+second f2f round q1 
+http www geeksforgeek org find longest path direct acycl graph gave que ask solv 45 minut 
+first ask approach 
+told approach procedur go code 
+chang question know next que q2 
+degre n tree 
+find lca 2 given node 
+element uniqu tree 
+first gave gener solut 
+seem convinc space complex told think 
+answer approach store path root node given node match path 
+convinc told wait 5 minut 3rd round 
+3rd f2f round ask 
+ask part like ds 
+said tree link list 
+q1 
+given 2 number n n last rang index j 1 32 denot index binari represent n chang bit rang bit number 
+also j equal signific bit e g 
+n 9 binari 000000 0001001 2 binari 000000 0000010 1 j 2 impli 1 2 bit n chang equal bit 
+expect output 10 binari 000000 0001010 19 zero first get explain exampl 
+answer 32 second go 
+q2 
+popul next pointer binari tree 1 space 
+http www geeksforgeek org connect node level o1 extra space q3 
+someth deadlock 
+ask subject said os 
+told studi 
+calmli said ohh okay problem final someon team told done day leav total 11 student select 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

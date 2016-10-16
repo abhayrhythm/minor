@@ -1,0 +1,15 @@
+given postord inord travers construct tree 
+exampl input 2 1 3 post 2 3 1 output root tree 1 2 3 input 4 8 2 5 1 6 3 7 post 8 4 5 2 6 7 3 1 output root tree 1 2 3 4 5 6 7 8 alreadi discuss construct tree iven inord preorder travers 
+idea similar 
+let us see process construct tree 4 8 2 5 1 6 3 7 post 8 4 5 2 6 7 3 1 1 first find last node post 
+last node 1 know valu root root alway appear end postord travers 
+2 search 1 find left right subtre root 
+everyth left 1 left subtre everyth right right subtre 
+1 4 8 2 5 6 3 7 3 recur process follow two 
+b recur 6 3 7 post 6 7 3 make creat tree right child root 
+recur 4 8 2 5 post 8 4 5 2 
+make creat tree left child root 
+c implement idea 
+one import observ recurs call right subtre left subtre decreas index postord index whenev creat new node 
+c c program construct tree use inord postord travers includ bit stdc h use namespac std binari tree node data pointer left child pointer right child struct node int data node left right util function creat new node node newnod int data prototyp util function int search int arr int strt int end int valu recurs function construct binari size n inord travers preorder travers post 
+initi valu instrt inend 0 n 1 function error check case inord postord form tree node buildutil int int post int instrt int inend int pindex base case instrt inend return null pick current node preorder travers use postindex decrement postindex node node newnod post pindex pindex node children return instrt inend return node els find index node inord travers int iindex search instrt inend node data use index inord travers construct left right subtress node right buildutil post iindex 1 inend pindex node left buildutil post instrt iindex 1 pindex return node function mainli initi index root call buildutil node buildtre int int post int n int pindex n 1 return buildutil post 0 n 1 pindex function find index valu arr start end function assum valu postsent int search int arr int strt int end int valu int strt end arr valu break return helper function alloc new node node newnod int data node node node malloc sizeof node node data data node left node right null return node funtcion test void preorder node node node null return printf node data preorder node left preorder node right driver code int main int 4 8 2 5 1 6 3 7 int post 8 4 5 2 6 7 3 1 int n sizeof sizeof 0 node root buildtre post n cout preorder construct tree n preorder root return 0 

@@ -1,0 +1,45 @@
+telephon product level code languag expect unit test 
+collabedit link share interview project discuss 
+given array integ 
+find minimum differ pair integ 
+time complex variou sort techniqu 
+given binari tree 
+replac node valu sum everi node occur right 
+face face round 1 brief introduct current project detail discuss 25 30 min 
+follow question project 
+mani behaviour question like amazon 
+want leav current compani 
+situat suggest idea entir major team 
+handl situat 
+code review deploy process current compani 
+specif task project make feel accomplish 
+convinc reluct team mate help block someth resolv 
+technolog languag learn 
+explain code review deploy test etc practic follow amazon 
+gave brief background goal team appli 
+round 2 introduct detail project discuss 
+follow question technolog use design system 
+behaviour question like amazon want leav current compani 
+etc 
+incom stream integ return true 2 number sum equal 10 occur till 
+given number n return dimens l b rectangl maxim close squar 
+eg 2 solut 4x3 6x2 return 4x3 
+accommod n n 1 n 2 element e 
+n area rectangl n 2 eg n 16 return 4 4 ii n 13 return 5 3 iii n 12 return 4 3 round 3 given array integ 
+find nearest greater element right index 
+expect time complex n eg 5 3 6 12 10 6 11 6 6 12 1 11 11 1 given link list write function revers everi k node window k input function 
+eg input 1 2 3 4 5 6 7 8 null k 3 output 3 2 1 6 5 4 8 7 null 
+detail discuss one project 
+round 4 design system maintain state onlin order place deliv dispatch etc support queri like get current state get histori allow updat state etc 
+requir well defin dig deeper get requir ask question 
+discuss current project 
+check whether given binari tree bst 
+data structur use repres cordin cartesian x 2d plane 
+ask requir queri done ds like search insert etc 
+told use quad tree ask code quad tree 
+code follow question like time complex improv worst case scenario quad tree data point unevenli distribut etc 
+ask without use quad tree 
+done use x link bst x cordin store 1st bst node x valu first bst point anoth bst contain axi valu point x follow question like compar time space complex 2 techniqu advantag disadvantag techniqu etc 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

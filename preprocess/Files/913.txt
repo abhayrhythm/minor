@@ -1,0 +1,15 @@
+
+We have introduced arrays in set 1 (Introduction to arrays in C).
+In this post array properties in C are discussed.
+1) In C, it is possible to have array of all types except void and functions.  See this for details.
+2) In C, array and pointer are different.  They seem similar because array name gives address of first element and array elements are accessed using pointer arithmetic.  See array vs pointer in C for details. 
+3) Arrays are always passed as pointer to functions.  See this for details.
+4) A character array initialized with double quoted string has last element as ‘\0′.  See this for details.
+5) Like other variables, arrays can be allocated memory in any of the three segments, data, heap, and stack (See this for details).   Dynamically allocated arrays are allocated memory on heap, static or global arrays are allocated memory on data segment and local arrays are allocated memory on stack segment. 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

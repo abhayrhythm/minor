@@ -1,0 +1,8 @@
+gener test case array program cumbersom process 
+gener generate_n function stl standard templat librari come handi popul array random valu 
+gener gener function assign random valu provid call gener function gen element rang begin end 
+notic begin includ rang end includ 
+follow code demonstr implement gener c program demonstr gener function stl includ bit stdc h use namespac std function gener random number rang 0 999 int random return rand 1000 int main differ valu time run code srand time null vector int vect 10 declar vector fill element use random gener vect begin vect end random display content vector int 0 vect size cout vect return 0 output 832 60 417 710 487 260 920 803 576 58 note output would differ time run code srand 
+remov srand would get set random number everi time run code 
+generate_n generate_n job gener upto n element start element point begin iter 
+follow code demonstr work generate_n 

@@ -1,0 +1,26 @@
+given two sort array array may common element 
+find sum maximum sum path reach begin array end two array 
+switch one array anoth array common element 
+expect time complex n number element ar1 n number element ar2 
+exampl input ar1 2 3 7 10 12 ar2 1 5 7 8 output 35 35 sum 1 5 7 10 12 start first element arr2 1 move 5 7 7 switch ar1 7 common travers 10 12 input ar1 10 12 ar2 5 7 9 output 22 22 sum 10 12 sinc common element need take element array sum 
+input ar1 2 3 7 10 12 15 30 34 ar2 1 5 7 8 10 15 16 19 output 122 122 sum 1 5 7 8 10 12 15 30 34 idea someth similar merg process merg sort 
+need calcul sum element common point array 
+whenev see common point compar two sum add maximum two result 
+follow detail step 
+1 initi result 0 also initi two variabl sum1 sum2 0 sum1 sum2 use store sum element ar1 ar2 respect 
+sum two common point 
+2 run loop travers element array 
+travers compar current element ar1 ar2 
+2 current element ar1 smaller current element ar2 updat sum1 els current element ar2 smaller updat sum2 
+2 b current element ar1 ar2 take maximum sum1 sum2 add result 
+also add common element result 
+follow c implement approach 
+c includ iostream use namespac std util function find maximum two integ int max int x int return x 
+x function return sum element maximum path begin end int maxpathsum int ar1 int ar2 int int n initi index ar1 ar2 int 0 j 0 initi result current sum ar1 ar2 
+int result 0 sum1 0 sum2 0 3 loop similar merg merg sort j n add element ar1 sum1 ar1 ar2 j sum1 ar1 add element ar2 sum2 els ar1 ar2 j sum2 ar2 j els reach common point take maximum two sum add result result max sum1 sum2 updat sum1 sum2 element intersect point sum1 0 sum2 0 keep updat result common element j n ar1 ar2 j result result ar1 j add remain element ar1 sum1 ar1 add remain element ar2 j n sum2 ar2 j add maximum two sum remain element result max sum1 sum2 return result driver program test function int main int ar1 2 3 7 10 12 15 30 34 int ar2 1 5 7 8 10 15 16 19 int sizeof ar1 sizeof ar1 0 int n sizeof ar2 sizeof ar2 0 cout maximum sum path maxpathsum ar1 ar2 n return 0 java class maximumsumpath util function find maximum two integ int max int x int return x 
+x function return sum element maximum path begin end int maxpathsum int ar1 int ar2 int int n initi index ar1 ar2 int 0 j 0 initi result current sum ar1 ar2 
+int result 0 sum1 0 sum2 0 3 loop similar merg merg sort j n add element ar1 sum1 ar1 ar2 j sum1 ar1 add element ar2 sum2 els ar1 ar2 j sum2 ar2 j reach common point els take maximum two sum add result result max sum1 sum2 updat sum1 sum2 element intersect point sum1 0 sum2 0 keep updat result common element j n ar1 ar2 j result result ar1 j add remain element ar1 sum1 ar1 add remain element ar2 j n sum2 ar2 j add maximum two sum remain element result max sum1 sum2 return result driver program test function public static void main string arg maximumsumpath sumpath new maximumsumpath int ar1 2 3 7 10 12 15 30 34 int ar2 1 5 7 8 10 15 16 19 int ar1 length int n ar2 length system println maximum sum path sumpath maxpathsum ar1 ar2 n code contribut mayank jaiswal python python program find maximum sum path function return sum element maximum path begin end def maxpathsum ar1 ar2 n initi index ar1 ar2 j 0 0 initi result current sum ar1 ar2 result sum1 sum2 0 0 0 3 loop similar merg merg sort j n add element ar1 sum1 ar1 ar2 j sum1 ar1 1 add element ar2 sum1 elif ar1 ar2 j sum2 ar2 j j 1 els reach common point take maximum two sum add result result max sum1 sum2 updat sum1 sum2 element intersect point sum1 sum2 0 0 keep updat result common element j n ar1 ar2 j result ar1 1 j 1 add remain element ar1 sum1 ar1 1 add remain element b j n sum2 ar2 j j 1 add maximum two sum remain element result max sum1 sum2 return result driver function ar1 2 3 7 10 12 15 30 34 ar2 1 5 7 8 10 15 16 19 len ar1 n len ar2 print maximum sum path maxpathsum ar1 ar2 n code contribut __devesh agrawal__ output maximum sum path 122 time complex everi iter loop process element either two array 
+total n element 
+therefor time complex n 
+articl contribut piyush gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

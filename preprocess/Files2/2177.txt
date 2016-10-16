@@ -1,0 +1,12 @@
+write function subtract x return x x integ 
+function use arithmet oper etc 
+idea use bitwis oper 
+addit two number discuss use bitwis oper 
+like addit idea use subtractor logic 
+truth tabl half subtractor given 
+x diff borrow 0 0 0 0 0 1 1 1 1 0 1 0 1 1 0 0 tabl one draw karnaugh map differ borrow 
+logic equat diff x borrow x 
+sourc wikipedia page subtractor follow c implement base equat 
+includ stdio h int subtract int x int iter till carri 0 borrow contain common set bit unset bit x int borrow x subtract bit x least one bit set x x borrow shift one subtract x give requir sum borrow 1 return x driver program int main int x 29 13 printf x subtract x return 0 output x 16 follow recurs implement approach 
+includ stdio h int subtract int x int 0 return x return subtract x x 1 driver program int main int x 29 13 printf x subtract x return 0 output x 16 articl contribut dheeraj 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,17 @@
+find number neg number column wise row wise sort matrix 
+suppos n row column 
+exampl input 3 2 1 1 2 2 3 4 4 5 7 8 output 4 4 neg number matrix strongli recommend minim browser tri first 
+naiv solut naiv non optim solut 
+start top left corner count number neg number one one left right top bottom 
+given exampl 3 2 1 1 2 2 3 4 4 5 7 8 evalu process 1 2 3 4 4 5 7 8 python implement idea 
+python implement naiv method count neg number n def countneg n count 0 follow path shown use arrow rang n j rang j 0 count 1 els neg number row break return count driver code 3 2 1 1 2 2 3 4 4 5 7 8 print countneg 3 4 output 4 approach travers element therefor worst case scenario number neg matrix take n time 
+optim solut effici solut start top right corner find posit last neg number first row 
+use inform find posit last neg number second row 
+keep repeat process either run neg number get last row 
+given exampl 3 2 1 1 2 2 3 4 4 5 7 8 idea 3 2 found 3 neg number row 4 found 1 neg number row 5 7 8 neg number row python implement effici method count neg number n def countneg n count 0 initi result start top right corner 0 j 1 follow path shown use arrow j 0 n j 0 j index last neg number row 
+must j 1 count j 1 neg number row 
+1 els move left see find neg number j 1 return count driver code 3 2 1 1 2 2 3 4 4 5 7 8 print countneg 3 4 output 4 solut solv problem n time 
+articl contribut yk sugishita 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

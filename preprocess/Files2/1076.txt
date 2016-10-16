@@ -1,0 +1,14 @@
+given array revers everi sub array form consecut k element 
+exampl input arr 1 2 3 4 5 6 7 8 9 k 3 output 3 2 1 6 5 4 9 8 7 input arr 1 2 3 4 5 6 7 8 k 5 output 5 4 3 2 1 8 7 6 input arr 1 2 3 4 5 6 k 1 output 1 2 3 4 5 6 input arr 1 2 3 4 5 6 7 8 k 10 output 8 7 6 5 4 3 2 1 idea simpl 
+consid everi sub array size k start begin array revers 
+need handl special case 
+k multipl n n size array last group less k element left need revers remain element 
+k 1 array remain unchang 
+k n revers element present array 
+c implement idea c program revers everi sub array form consecut k element includ iostream use namespac std function revers everi sub array form consecut k element void revers int arr int n int k int 0 n k int left handl case k multipl n int right min k 1 n 1 revers sub array left right left right swap arr left arr right driver code int main int arr 1 2 3 4 5 6 7 8 int k 3 int n sizeof arr sizeof arr 0 revers arr n k int 0 n cout arr return 0 output 3 2 1 6 5 4 8 7 time complex solut n 
+auxiliari space use program 1 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,58 @@
+
+Given a string, Check if characters of the given string can be rearranged to form a palindrome. 
+For example characters of “geeksogeeks” can be rearranged to form a palindrome “geeksoskeeg”, but characters of “geeksforgeeks” cannot be rearranged to form a palindrome.
+We strongly recommend to minimize the browser and try this yourself first.
+A set of characters can form a palindrome if at most one character occurs odd number of times and all characters occur even number of times.
+A simple solution is to run two loops, the outer loop picks all characters one by one, the inner loop counts number of occurrences of the picked character. We keep track of odd counts. Time complexity of this solution is O(n2).
+We can do it in O(n) time using a count array.  Following are detailed steps.
+1) Create a count array of alphabet size which is typically 256. Initialize all values of count array as 0.
+2) Traverse the given string and increment count of every character.
+3) Traverse the count array and if the count array has more than one odd values, return false.  Otherwise return true.
+Following is C++ implementation of above approach.
+
+#include <iostream>
+using namespace std;
+#define NO_OF_CHARS 256
+
+/* function to check whether characters of a string can form 
+   a palindrome */
+bool canFormPalindrome(char *str)
+{
+    // Create a count array and initialize all values as 0
+    int count[NO_OF_CHARS] = {0};
+
+    // For each character in input strings, increment count in
+    // the corresponding count array
+    for (int i = 0; str[i];  i++)
+        count[str[i]]++;
+
+    // Count odd occurring characters
+    int odd = 0;
+    for (int i = 0; i < NO_OF_CHARS; i++)
+        if (count[i] & 1)
+            odd++;
+    
+    // Return true if odd count is 0 or 1, otherwise false
+    return (odd <= 1);
+}
+
+/* Driver program to test to pront printDups*/
+int main()
+{
+  canFormPalindrome("geeksforgeeks")? cout << "Yes\n": 
+                                     cout << "No\n";
+  canFormPalindrome("geeksogeeks")? cout << "Yes\n": 
+                                    cout << "No\n";
+  return 0;
+}
+
+Output:
+No
+Yes
+This article is contributed by Abhishek. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

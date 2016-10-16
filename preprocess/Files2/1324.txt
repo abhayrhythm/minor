@@ -1,0 +1,25 @@
+given n x n matrix everi row column sort non decreas order 
+find kth smallest element given 2d array 
+exampl consid follow 2d array 
+10 20 30 40 15 25 35 45 24 29 37 48 32 33 39 50 3rd smallest element 20 7th smallest element 30 strongli recommend minim browser tri first 
+idea use min heap 
+follow detail step 
+1 build min heap element first row 
+heap entri also store row number column number 
+2 follow k time 
+get minimum element root min heap 
+b find row number column number minimum element 
+c replac root next element column min heapifi root 
+3 return last extract root 
+follow c implement algorithm 
+kth largest element 2d array sort row wise column wise includ iostream includ climit use namespac std structur store entri heap 
+entri contain valu 2d array row column number valu struct heapnod int val valu store int r row number valu 2d array int c column number valu 2d array util function swap two heapnod item 
+void swap heapnod x heapnod heapnod z x x z util function minheapifi node harr heap store harr void minheapifi heapnod harr int int heap_siz int l 2 1 int r 2 2 int smallest l heap_siz harr l val harr val smallest l r heap_siz harr r val harr smallest val smallest r smallest swap harr harr smallest minheapifi harr smallest heap_siz util function convert harr max heap void buildheap heapnod harr int n int n 1 2 0 minheapifi harr n function return kth smallest element 2d array mat int kthsmallest int mat 4 4 int n int k k must greater 0 smaller n n k 0 k n n return int_max creat min heap element first row 2d array heapnod harr n int 0 n harr mat 0 0 buildheap harr n heapnod hr int 0 k get current heap root hr harr 0 get next valu column root valu 
+valu store root last valu column assign infinit next valu int nextval hr r n 1 
+mat hr r 1 hr c int_max updat heap root next valu harr 0 nextval hr r 1 hr c heapifi root minheapifi harr 0 n return valu last extract root return hr val driver program test function int main int mat 4 4 10 20 30 40 15 25 35 45 25 29 37 48 32 33 39 50 cout 7th smallest element kthsmallest mat 4 7 return 0 output 7th smallest element 30 time complex solut involv follow step 
+1 build min heap take n time 2 heapifi k time take klogn time 
+therefor overal time complex n klogn time 
+code optim build heap size k k smaller n case kth smallest element must first k row k column 
+soon publish effici algorithm find kth smallest element 
+articl compil ravi gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

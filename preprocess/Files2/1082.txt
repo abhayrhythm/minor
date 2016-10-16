@@ -1,0 +1,11 @@
+given array consist n posit integ integ k find largest product subarray size k e find maximum produc k contigu element array k n exampl input arr 1 5 9 8 2 4 1 8 1 2 k 6 output 4608 subarray 9 8 2 4 1 8 input arr 1 5 9 8 2 4 1 8 1 2 k 4 output 720 subarray 5 9 8 2 input arr 2 5 8 1 1 3 k 3 output 80 subarray 2 5 8 method 1 simpl n k naiv approach would consid subarray size k one one 
+approach would requir two loop henc complex would n k 
+method 2 effici n solv n use fact product subarray size k comput 1 time product previou subarray avail us 
+curr_product prev_product arr 1 arr k 1 prev_product product subarray size k begin arr 1 curr_product product subarray size k begin arr way comput maximum k size subarray product one travers 
+c implement idea 
+c program find maximum product subarray size k includ bit stdc h use namespac std function return maximum product subarray size k given arrar arr 0 n 1 
+function assum k smaller equal n int findmaxproduct int arr int n int k initi maxproduct 1 element array posit int maxproduct 1 int 0 k maxproduct arr int prev_product maxproduct consid everi product begin arr vari 1 n k 1 int 1 n k int curr_product prev_product arr 1 arr k 1 maxproduct max maxproduct curr_product prev_product curr_product return maximum product found return maxproduct driver code int main int arr1 1 5 9 8 2 4 1 8 1 2 int k 6 int n sizeof arr1 sizeof arr1 0 cout findmaxproduct arr1 n k endl k 4 cout findmaxproduct arr1 n k endl int arr2 2 5 8 1 1 3 k 3 n sizeof arr2 sizeof arr2 0 cout findmaxproduct arr2 n k return 0 output 4608 720 80 articl contribut ashutosh kumar 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

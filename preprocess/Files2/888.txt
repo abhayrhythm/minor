@@ -1,0 +1,4 @@
+sizeof much use c program languag 
+compil time unari oper use comput size operand 
+result sizeof unsign integr type usual denot size_t 
+sizeof appli data type includ primit type integ float point type pointer type compound datatyp structur union etc 

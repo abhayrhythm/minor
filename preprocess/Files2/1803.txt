@@ -1,0 +1,17 @@
+depth first search df algorithm techniqu travers graph 
+follow problem use df buld block 
+1 unweight graph df travers graph produc minimum span tree pair shortest path tree 
+2 detect cycl graph graph cycl see back edg df 
+run df graph check back edg 
+see detail 3 path find special df algorithm find path two given vertic u z call df g u u start vertex 
+ii use stack keep track path start vertex current vertex 
+iii soon destin vertex z encount return path content stack see detail 
+4 topolog sort topolog sort mainli use schedul job given depend among job 
+comput scienc applic type aris instruct schedul order formula cell evalu recomput formula valu spreadsheet logic synthesi determin order compil task perform makefil data serial resolv symbol depend linker 2 
+5 test graph bipartit augment either bf df first discov new vertex color opposit parent edg check link two vertic color 
+first vertex connect compon red black 
+see detail 
+6 find strongli connect compon graph direct graph call strongli connect path vertex graph everi vertex 
+see df base algo find strongli connect compon 7 solv puzzl one solut maze 
+df adapt find solut maze includ node current path visit set 
+sourc 

@@ -1,0 +1,22 @@
+
+What will be the output of the following C program? 
+
+int main()
+{
+   int a = 3, b = -8, c = 2;
+   printf("%d", a % b / c);
+   return 0;
+}
+
+The output is 1.
+% and / have same precedence and left to right associativity. So % is performed first which results in 3 and / is performed next resulting in 1. The emphasis is, sign of left operand is appended to result in case of modulus operator in C.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

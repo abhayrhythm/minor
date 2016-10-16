@@ -1,0 +1,56 @@
+
+Write a C++ program that prints “GeeksforGeeks” with empty main() function.  You are not allowed to write anything in main().
+One way of doing this is to apply constructor attribute to a function so that it executes before main() (See this for details).
+
+#include <iostream>
+using namespace std;
+
+/* Apply the constructor attribute to myStartupFun() so that it
+   is executed before main() */
+void myStartupFun (void) __attribute__ ((constructor));
+
+/* implementation of myStartupFun */
+void myStartupFun (void)
+{
+    cout << "GeeksforGeeks";
+}
+
+int main ()
+{
+
+}
+
+Output:
+GeeksforGeeks
+The above approach would work only with GCC family of compilers.  Following is an interesting way of doing it in C++.
+
+#include <iostream>
+using namespace std;
+
+class MyClass
+{
+public:
+    MyClass()
+    {
+        cout << "GeeksforGeeks";
+    }
+}m;
+
+int main()
+{
+
+}
+
+Output:
+GeeksforGeeks
+The idea is to create a class, have a cout statement in constructor and create a global object of the class.  When the object is created, constructor is called and “GeeksforGeeks” is printed.
+This article is contributed by Viki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

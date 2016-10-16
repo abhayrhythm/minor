@@ -1,0 +1,27 @@
+crc cyclic redund check method detect accident chang error commun channel 
+crc use gener polynomi avail sender receiv side 
+exampl gener polynomi form like x3 x 1 gener polynomi repres key 1011 anoth exampl x2 1 repres key 101 n number bit data sent sender side 
+k number bit key obtain gener polynomi 
+sender side gener encod data data gener polynomi key binari data first augment ad k 1 zero end data use modulo 2 binari divis divid binari data key store remaind divis 
+append remaind end data form encod data send 
+receiv side check error introduc transmiss perform modulo 2 divis remaind 0 error 
+articl focu find remaind e 
+check word code word 
+modulo 2 divis process modulo 2 binari divis familiar divis process use decim number 
+instead subtract use xor 
+step copi divisor data xore k bit dividend key 
+result xor oper remaind n 1 bit use next step 1 extra bit pull make n bit long 
+bit left pull result 
+n 1 bit remaind append sender side 
+illustr exampl 1 error transmiss data word sent 100100 key 1101 gener polynomi x3 x 1 sender side therefor remaind 001 henc encod data sent 100100001 receiv side code word receiv receiv side 100100001 therefor remaind zero 
+henc data receiv error 
+exampl 2 error transmiss data word sent 100100 key 1101 sender side therefor remaind 001 henc code word sent 100100001 receiv side let error transmiss media code word receiv receiv side 100000001 sinc remaind zero error detect receiv side 
+implement python implement gener code word given binari data key 
+return xor b length def xor b initi result result travers bit bit xor 0 els 1 rang 1 len b b result append 0 els result append 1 return join result perform modulo 2 divis def mod2div divid divisor number bit xore time 
+pick len divisor slice divid appropri length particular step tmp divid 0 pick pick len divid tmp 0 1 replac divid result xor pull 1 bit tmp xor divisor tmp divid pick els leftmost bit 0 leftmost bit dividend part use step 0 step cannot use regular divisor need use 0s divisor 
+tmp xor 0 pick tmp divid pick increment pick move pick 1 last n bit carri normal increas valu pick caus index bound 
+tmp 0 1 tmp xor divisor tmp els tmp xor 0 pick tmp checkword tmp return checkword function use sender side encod data append remaind modular divison end data 
+def encodedata data key l_key len key append n 1 zero end data appended_data data 0 l_key 1 remaind mod2div appended_data key append remaind origin data codeword data remaind print remaind remaind print encod data data remaind codeword driver code data 100100 key 1101 encodedata data key output remaind 001 encod data data remaind 100100001 note crc mainli design use protect common error commun channel suitabl protect intent alter data see reason refer http en wikipedia org wiki cyclic_redundancy_check articl contribut jay patel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,59 @@
+simpl sentenc syntact correct fulfil given rule 
+follow given rule 
+1 sentenc must start uppercas charact e g 
+noun etc 
+2 lowercas charact follow 
+3 must space word 
+4 sentenc must end full stop 
+word 
+5 two continu space allow 
+6 two continu upper case charact allow 
+7 howev sentenc end upper case charact 
+exampl correct sentenc name ram 
+vertex singl 
+love geeksquiz geeksforgeek 
+incorrect sentenc name kg 
+love cinema 
+geeksquiz 
+quiz site 
+friend 
+love cinema question given sentenc valid given sentenc given rule 
+strongli recommend minim browser tri first 
+idea use automata given set rule 
+algorithm 1 check corner case 1 check first charact uppercas sentenc 
+1 b check last charact full stop 
+2 rest string problem could solv follow state diagram 
+pleas refer state diagram 
+3 need maintain previou current state differ charact string 
+base alway valid sentenc everi charact travers 
+c base implement 
+way sentenc also correct accord rule code c c program valid given sentenc set rule includ stdio h includ string h includ stdbool h method check given sentenc given rule bool checksent char str calcul length string 
+int len strlen str check first charact lie z 
+otherwis return fals 
+str 0 str 0 z return fals last charact full stop 
+need check 
+str len 1 
+return fals maintain 2 state 
+previou current state base vertex state 
+initialis 0 start state 
+int prev_stat 0 curr_stat 0 keep index next charact string 
+int index 1 loop go string 
+str index set state accord input charact string rule defin descript 
+current charact z 
+set current state 0 str index str index z curr_stat 0 current charact space 
+set current state 1 els str index curr_stat 1 current charact z 
+set current state 2 els str index str index z curr_stat 2 current state dot 
+set current state 3 els str index 
+curr_stat 3 valid current state previou state rule descript problem 
+prev_stat curr_stat curr_stat 2 return fals prev_stat 2 curr_stat 0 return fals reach last state previou state 1 check next charact 
+next charact 0 return true els fals curr_stat 3 prev_stat 1 return str index 1 0 index set previou state current state go next charact 
+prev_stat curr_stat return fals driver program int main char str love cinema 
+vertex singl 
+name kg 
+love cinema 
+geeksquiz 
+quiz site 
+love geeksquiz geeksforgeek 
+friend 
+love cinema int str_size sizeof str sizeof str 0 int 0 0 str_size checksent str 
+printf correct n str printf incorrect n str return 0 

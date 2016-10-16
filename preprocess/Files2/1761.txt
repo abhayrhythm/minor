@@ -1,0 +1,39 @@
+transmitt n receiv station 
+given matrix keep track number packet transmit given transmitt receiv 
+j th entri matrix k mean time station k packet transmiss station j time slot transmitt send one packet receiv receiv one packet 
+find channel assign maximum number packet transfer transmitt receiv next time slot 
+exampl 0 2 0 3 0 1 2 4 0 input format 
+call matrix valu j repres number packet transmitt send receiv j 
+output number maximum packet sent time slot 3 t1 r2 t2 r3 t3 r1 note maximum number packet transfer slot min n 
+algorithm channel assign problem sender receiv easili transform maximum bipartit match mbp problem solv convert flow network 
+step 1 build flow network must sourc sink flow network 
+add dummi sourc add edg sourc sender 
+similarli add edg receiv dummi sink 
+capac ad edg mark 1 unit 
+step 2 find maximum flow 
+use ford fulkerson algorithm find maximum flow flow network built step 1 maximum flow actual maximum number packet transmit without bandwidth interfer time slot 
+implement let us first defin input output form 
+input form edmond matrix 2d array tabl n row sender n column n receiv 
+valu tabl j number packet sent transmitt receiv j 
+output maximum number packet transmit without bandwidth interfer time slot 
+simpl way implement creat matrix repres adjac matrix represent direct graph n 2 vertic 
+call fordfulkerson matrix 
+implement requir n n extra space 
+extra space reduc code simplifi use fact graph bipartit 
+idea use df travers find receiv transmitt similar augment path ford fulkerson 
+call bpm everi applic bpm df base function tri possibl assign receiv sender 
+bpm one one tri receiv sender u interest find receiv receiv tri without luck 
+everi receiv tri follow receiv assign anybodi simpli assign sender return true 
+receiv assign somebodi els say x recurs check whether x assign receiv 
+make sure x get receiv mark receiv v seen make recurs call x x get receiv chang sender receiv v return true 
+use array maxr 0 n 1 store sender assign differ receiv 
+bmp return true mean augment path flow network 1 unit flow ad result maxbpm 
+time space complex analysi case bipartit match problem f 
+v sinc v possibl edg come sourc node 
+total run time n n n 
+space complex also substanti reduc n n singl dimension array size thu store map n includ iostream includ string h includ vector defin 3 defin n 4 use namespac std depth first search base recurs function return true match vertex u possibl bool bpm int tabl n int u bool seen int matchr tri everi receiv one one int v 0 v n v sender u packet send receiv v receiv v alreadi map sender check number packet greater 0 one packet sent time frame anyway tabl u v 0 seen v seen v true mark v visit receiv v assign sender previous assign sender receiv v matchr v altern receiv avail 
+sinc v mark visit line matchr v follow recurs call get receiv v matchr v 0 bpm tabl matchr v seen matchr matchr v u return true return fals return maximum number packet sent paral 1 time slot sender receiv int maxbpm int tabl n array keep track receiv assign sender 
+valu matchr sender id assign receiv 
+valu 1 indic nobodi assign 
+int matchr n initi receiv map sender memset matchr 1 sizeof matchr int result 0 count receiv assign sender int u 0 u u mark receiv seen next sender bool seen n memset seen 0 sizeof seen find sender u assign receiv bpm tabl u seen matchr result cout number maximum packet sent time slot result n int x 0 x n x matchr x 1 0 cout matchr x 1 r x 1 n return result driver program test function int main int tabl n 0 2 0 3 0 1 2 4 0 int max_flow maxbpm tabl return 0 output number maximum packet sent time slot 3 t3 r1 t1 r2 t2 r3 articl contribut vignesh narayanan 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

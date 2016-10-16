@@ -1,0 +1,55 @@
+
+Predict the output of following C program.
+
+#include<stdio.h>
+int main()
+{
+    float x = 0.1;
+    if (x == 0.1)
+        printf("IF");
+    else if (x == 0.1f)
+        printf("ELSE IF");
+    else
+        printf("ELSE");
+}
+
+The output of above program is “ELSE IF” which means the expression “x == 0.1″ returns false and expression “x == 0.1f” returns true.  
+Let consider the of following program to understand the reason behind the above output.
+
+#include<stdio.h>
+int main()
+{
+   float x = 0.1;
+   printf("%d %d %d", sizeof(x), sizeof(0.1), sizeof(0.1f));
+   return 0;
+}
+
+The output of above program is “4 8 4” on a typical C compiler.  It actually prints size of float, size of double and size of float.
+The values used in an expression are considered as double (double precision floating point format) unless a ‘f’ is specified at the end.  So the expression “x==0.1″ has a double on right side and float which are stored in a single precision floating point format on left side.  In such situations float is promoted to double (see this). The double precision format uses uses more bits for precision than single precision format.
+Note that the promotion of float to double can only cause mismatch when a value (like 0.1) uses more precision bits than the bits of single precision.  For example, the following C program prints “IF”.
+
+#include<stdio.h>
+int main()
+{
+    float x = 0.5;
+    if (x == 0.5)
+        printf("IF");
+    else if (x == 0.5f)
+        printf("ELSE IF");
+    else
+        printf("ELSE");
+}
+
+Output:
+IF
+You can refer Floating Point Representation – Basics for representation of floating point numbers.
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

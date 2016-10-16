@@ -1,0 +1,65 @@
+
+Today we are going to discuss formatting files in the user’s workspace by their extension. For this we are going to make use of Clang’s format tools.
+Prerequisites:
+
+Linux Machine
+Python
+Clang Tool
+
+Setup:
+
+Install Python using the following command:
+sudo apt-get install python
+
+Install Clang Format Tools
+sudo apt-get install clang-format-3.5
+
+
+
+Create a python file named format-code.py at any location where you have read and write permissions. In this example we are going to create it in /home/user/. It shall contain the following code:
+
+# Python program to format C/C++ files using clang-format
+import os
+
+# File Extension filter. You can add new extension
+cpp_extensions = (".cxx",".cpp",".c", ".hxx", ".hh", ".cc", ".hpp")
+
+# Set the current working directory for scanning c/c++ sources (including
+# header files) and apply the clang formatting
+# Please note "-style" is for standard style options
+# and "-i" is in-place editing
+for root, dirs, files in os.walk(os.getcwd()):
+    for file in files:
+        if file.endswith(cpp_extensions):
+            os.system("clang-format-3.5 -i -style=file " + root + "/" + file)
+
+
+Create format specification file and copy it to project’s top level directory , e.g., /home/user/myproject/
+
+Create formatting file (in example, we are creating google coding style tool)
+clang-format-3.5 -style=google -dump-config > .clang-format 
+
+Copy it to project’s directory i.e., it’s location becomes: /home/user/myproject/.clang-format
+
+
+
+How to use it?
+
+Navigate to the directory whose files you want to format, e.g.,
+cd  /home/user/myproject/c-source/
+
+Run the format-code file that you created earlier
+python /home/user/format-code.py
+
+This shall format all the files in our source directory with the extension same as that mentioned in the code.
+This article is contributed by Nitin Deokate  .If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

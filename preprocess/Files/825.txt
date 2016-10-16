@@ -1,0 +1,53 @@
+
+ABSTRACT:
+A prerequisite for object-based image analysis is the generation of adequate segments. However, the parameters for the image segmentation algorithms are often manually defined. Therefore, the generation of an ideal segmentation level is usually costly and user-depended. A strategy for a semi-automatic optimization of object-based classification of multi-temporal data is introduced by using Super-Pixel algorithm (SP). The Super pixel Contour algorithm is used to generate a set of different levels of segmentation, using various combinations of parameters. Finally, the best parameter combination is selected based on cross validation like Out-of-bag (OOB) error that is provided by SP. By moving the selected combinations, the hidden object is found. This proposed strategy that uses the OOB error for the selection of the ideal segmentation level provides similar classification accuracies, when compared to the results achieved by manual-based image segmentation. This system is operational and easy to handle and thus economizes the findings of missing objects in the dense forest.
+ IMPLEMENTATION
+Classification into multiple segments is based on decision trees.
+
+Decision trees are individual learners that are combined. They are one of the most popular learning methods commonly used for data exploration.
+One type of decision tree is called CART-classification and regression tree.
+CART- greedy, top-down binary, recursive partitioning, that divides feature space into sets of disjoint rectangular regions.
+
+Regions should be pure with respect to response variable.
+Simple model is fit in each region – majority vote for classification, constant value for regression.
+
+
+
+RESEARCH:
+Super-pixel based image segmentation.
+TOOLS:
+Java provides rich libraries for networking and Image processing. Java and Netbeans can be downloaded from below link:
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+CONCLUSION
+            In this project, static image is obtained from the user and then Super-Pixel algorithm is used to detect the pixel of objects by using segmentation technique. Super-Pixel algorithm used her if found to be most accurate when compared to other algorithms.
+Further the segmented frames are processed to obtain the exact location of the target image which has to be found. This helps to find the objects which are lost in the dense forest.
+After seeing the difficulties in finding the object in the dense forest, we were motivated and inspired to create this project that would lighten their burden. This project helps them to locate the exact position of the object in the forest environment easily. So, man power, energy and cost can be reduced. This hopefully makes them work smarter.
+FUTURE ENHANCEMENTS
+i) Human detection
+
+This project can be extended for 3D images to find the humans in the frame. The output can be further processed to distinguish between human and non-human in the field view.
+This can be implemented by using object recognition algorithm. After which template matching can be performed.
+By using template matching, the human detected frame can be matched with several images stored in the database.
+Hence, the identity of the frame can be matched if a match exists. Thus by adding these features, more precision and finer details can be introduced.
+
+ii)Motion Tracking
+
+The proposed system can be made wearable by integrating it with embedded hardware and software along with camera.
+This enhances portability and improves accessibility.
+A further extension of the project would include motion tracking of the object of interest.
+Used to locate the lost object easily.
+This can be used in robotic vision and surveillance system.
+
+REFERENCE:
+Shin, K.G. and Mckay, N.D. (1984) ‘Super-Pixel Image Segmentation’, Proc.Amer.Contr.Conf., San Diego, CA, pp. 1231-1236.
+This article is  contributed by Kishar Ahmed. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

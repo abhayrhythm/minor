@@ -1,0 +1,14 @@
+given bag size w kg provid cost packet differ weight orang array cost cost basic cost kg packet orang 
+cost 1 mean kg packet orang unavail find minimum total cost buy exactli w kg orang possibl buy exactli w kg orang print 1 may assum infinit suppli avail packet type 
+note array start index 1 exampl input w 5 cost 1 1 4 5 1 output 1 packet size 1 2 5 kg unavail cost 1 cost 3 kg packet 4 rs 4 kg 5 rs 
+weight 3 4 use two make exactli w kg weight therefor answer 1 input w 5 cost 1 2 3 4 5 output 5 cost 1 2 3 4 5 kg packet 1 2 3 4 5 rs respect 
+choos packet 5kg cost 5 minimum cost get 5kg orang 
+problem reduc 0 1 knapsack problem 
+cost array first ignor packet avail e cost 1 travers cost array creat two array val store cost kg packet orang wt store weight correspond packet 
+suppos cost 50 weight packet cost 50 algorithm creat matrix min_cost n 1 w 1 n number distinct weight packet orang w maximum capac bag 
+initi 0th row inf infin 0th column 0 fill matrix wt 1 j min_cost j min_cost 1 j wt 1 j min_cost j min min_cost 1 j val 1 min_cost j wt 1 min_cost n w inf output 1 mean cant make make weight w use weight els output min_cost n w 
+c program find minimum cost get exactli w kg given packet includ bit stdc h defin inf 1000000 use namespac std cost initi cost array includ unavail packet w capac bag int minimumcost int cost int n int w val wt array val array store cost kg packet orang wt array weight packet orang vector int val wt travers origin cost array skip unavail packet make val wt array 
+size variabl tell avail number distinct weight packet int size 0 int 0 n cost 1 val push_back cost wt push_back 1 size n size int min_cost n 1 w 1 fill 0th row infin int 0 w min_cost 0 inf fill 0 th coloumn 0 int 1 n min_cost 0 0 check weight one one fill matrix accord condit int 1 n int j 1 j w j wt 1 j mean capac bag less weight item wt 1 j min_cost j min_cost 1 j check get minimum cost either includ exclud els min_cost j min min_cost 1 j min_cost j wt 1 val 1 exactli weight w made given weight return min_cost n w inf 
+1 min_cost n w driver program run test case int main int cost 1 2 3 4 5 w 5 int n sizeof cost sizeof cost 0 cout minimumcost cost n w return 0 output 5 articl contribut shashank mishra gullu articl review team geeksforgeek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

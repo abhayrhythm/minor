@@ -1,0 +1,25 @@
+resum forward microsoft consult firm 
+call day long interview process microsoft idc bangalor 
+round 1 1 hour question 1 http www geeksforgeek org median stream integ run integ first gave insert sort algorithm told improv upon 
+stuck time gave anoth problem http www geeksforgeek org k largestor smallest element array 
+abl solv minut use min heap method told think similar line origin question gave 
+around 20 30 minut brainstorm abl solv use heap method 
+question 2 http www geeksforgeek org count possibl path top left bottom right nxm matrix solv question pretti quickli 
+ask come across question lie told alreadi knew 
+follow discuss happen bing team microsoft 
+round 2 1 hour question 1 given larg text file find effici algorithm find least distanc measur number word two given word 
+solv use hash extend problem say program would execut larg number time find distanc mani pair word need improv algorithm time complex reduc first iter problem solv 
+solv use hash use binari search find nearest index second word index first word hash 
+question 2 first gave background autocorrect featur phone keypad work explain probabl autocorrect word would greater type word 
+told find algorithm find probabl word length n occur given possibl charact 
+probabl word occur give p 1st letter p 2nd letter given 1st press alreadi p 2nd letter p 3rd letter given 2nd press alreadi 
+valu individu term equat alreadi given 
+think problem mxn grid element column connect everi element next column weight 
+solv problem bruteforc would n 
+store solut subproblem complex would reduc n solut interview want 
+round 3 1 hr hire manag round gener question bit unexpect 
+start ask current job want chang convers went toward chosen non cs cours undergradu convers took complet differ path comput comput scienc cannot reach way upto ture machin 
+honest nervou round 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

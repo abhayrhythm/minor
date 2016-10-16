@@ -1,0 +1,17 @@
+given binari tree odd even element sink odd valu node node odd valu could parent node even valu 
+multipl output given tree need print one 
+alway possibl convert tree note node even node odd node follow rule input 1 2 3 output 2 2 1 3 3 1 input 1 5 8 2 4 9 10 output 2 4 4 8 2 8 tree key 5 1 9 10 5 1 9 10 odd parent even strongli recommend minim browser tri first 
+basic need swap odd valu node even valu one descend 
+idea travers tree postord fashion 
+sinc process postord odd node encount left right subtre alreadi balanc sink check odd node left right child even valu 
+even valu found swap node data even child node call procedur even child balanc subtre 
+children odd valu mean descend odd 
+c implement idea 
+program sink odd node bottom binari tree includ bit stdc h use namespac std binari tree node struct node int data node left right helper function alloc new node node newnod int data node node new node node data data node left node right null return node helper function check node leaf node bool isleaf node root return root left null root right null recurs method sink tree odd root method assum subtre alreadi sink 
+method similar heapifi heap sort void sink node root null leaf noth root null isleaf root return left subtre exist left child even root left 
+root left data 1 swap root data left child fix left subtre swap root data root left data sink root left right subtre exist right child even els root right 
+root right data 1 swap root data right child fix right subtre swap root data root right data sink root right function sink odd node bottom binari tree 
+postord travers call sink odd node found void sinkoddnod node root null leaf noth root null isleaf root return process left right subtre node sinkoddnod root left sinkoddnod root right root odd sink root data 1 sink root helper function level order travers binari tree level level 
+function use show modifi tree 
+void printlevelord node root queue node q q push root level order travers q empti int nodecount q size print one level time nodecount node node q front printf node data q pop node left null q push node left node right null q push node right nodecount line separ level printf n driver program test function int main construct binari tree 1 5 8 2 4 9 10 node root newnod 1 root left newnod 5 root right newnod 8 root left left newnod 2 root left right newnod 4 root right left newnod 9 root right right newnod 10 sinkoddnod root printf level order travers modifi tree n printlevelord root return 0 output level order travers modifi tree 2 4 8 5 1 9 10 articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

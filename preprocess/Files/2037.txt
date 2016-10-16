@@ -1,0 +1,20 @@
+
+The ASCII NUL and zero are represented as 0x00 and 0x30 respectively. An ASCII NUL character serves as sentinel characters of strings in C/C++. When the programmer uses ‘0’ in his code, it will be represented as 0x30 in hex form. What will be filled in the binary representation of ‘integer’ in the following program?
+
+char charNUL = '\0';
+
+unsigned int integer = 0;
+
+char charBinary = '0';
+
+The binary form of charNUL will have all its bits set to logic 0. The binary form of integer will have all its bits set to logic 0, which means each byte will be filled with NUL character (\ 0). The binary form of charBinary will be set to binary equivalent of hex 0x30.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

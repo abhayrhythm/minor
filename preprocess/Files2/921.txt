@@ -1,0 +1,6 @@
+ask geek4u consid program 
+void read char str 20 get str printf str return code look simpl read string standard input print enter string suffer buffer overflow get array bound test 
+get keep read see newlin charact 
+avoid buffer overflow fget use instead get fget make sure max_limit charact read 
+defin max_limit 20 void read char str max_limit fget str max_limit stdin printf str getchar return pleas write comment find anyth incorrect articl want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

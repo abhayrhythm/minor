@@ -1,0 +1,6 @@
+given array random number find longest monoton increas subsequ li array 
+want understand nlogn approach explain clearli 
+post simpl time save implement nlogn approach use stl discuss 
+code li nlogn simpl c implement find li includ iostream includ iostream includ algorithm includ set use namespac std return length li arr size n int li int arr int n int set int set int iter k 0 n check element actual insert element set insert alreadi present 
+pleas see http www cplusplu com refer set set insert insert arr second find posit insert element iter k k find arr k find next greater element set new element insert end remov greater element next tricki k end eras k note set may contain actual li size give us length li return size int main int arr 8 9 12 10 11 int n sizeof arr sizeof arr 0 cout li arr n endl output 4 articl contribut raj kumar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

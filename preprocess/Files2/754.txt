@@ -1,0 +1,49 @@
+time speed distanc popularli known tsd import topic written round placement compani 
+distanc speed x time convert km hour sec multipli 5 18 1 km hour 5 18 sec convert sec km hour multipli 18 5 1 sec 18 5 km hour 3 6 km hour certain distanc ratio speed x ratio time taken cover distanc would x vice versa 
+person cover certain distanc multipl time differ speed averag speed n 1 si n number time distanc cover si respect speed cover distanc 
+exampl person travel distanc 10 km three time speed 4 km h 5 km h 6 km h averag speed would 3 1 4 1 5 1 6 3 37 60 180 37 approx 4 86 km h rel speed two peopl object move direct speed x km h km h x rel speed would x km h two peopl object move opposit direct speed x km h km h rel speed would x km h rel speed rate two move bodi separ come closer 
+exampl two person move 10 km h 20 km h opposit direct rel speed would 10 20 30 km h e distanc one hour would 30 km 
+similarli move direct rel speed would 20 10 10 km h e distanc one hour would 10 km 
+sampl problem question 1 runner complet 750 race two half minut 
+abl beat anoth runner run 17 95 km hr 
+solut given first runner complet 750 race 2 minut 30 second 150 second 
+speed first runner 750 150 5 sec convert speed km hr multipli 18 5 
+speed first runner 18 km hr also given speed second runner 17 95 km hr 
+therefor first runner beat second runner 
+question 2 man decid cover distanc 6 km 84 minut 
+decid cover two third distanc 4 km hr remain differ speed 
+find speed two third distanc cover 
+solut given two third 6 km cover 4 km hr 
+4 km distanc cover 4 km hr 
+time taken cover 4 km 4 km 4 km hr 1 hr 60 minut time left 84 60 24 minut man cover remain 2 km 24 minut 24 60 0 4 hour speed requir remain 2 km 2 km 0 4 hr 5 km hr question 3 postman travel post offic villag order distribut mail 
+start bicycl post offic speed 25 km hr 
+return thief stole bicycl 
+result walk back post offic foot speed 4 km hr 
+travel part day last 2 hour 54 minut find distanc post offic villag 
+solut let time taken postman travel post offic villag minut 
+accord given situat distanc post offic villag say d1 25 60 km 25 km hr 25 60 km minut distanc villag post offic say d2 4 60 174 km 2 hour 54 minut 174 minut sinc distanc villag post offic alway remain e 
+d1 d2 25 60 4 60 174 24 minut 
+distanc post offic villag speed time 25 60 24 10km question 4 walk speed 5 km hr home geek miss train 7 minut 
+walk 1 km hr faster would reach station 5 minut actual departur time train 
+find distanc home station 
+solut let distanc home station km 
+time requir reach station 5 km hr 5 hour time requir reach station 6 km hr 6 hour differ time 12 minut 0 2 hour 
+7 minut late 5 minut earli 7 5 12 minut therefor 5 6 0 2 30 0 2 6 thu distanc home station 6 km 
+question 5 two station b 465 km distant 
+train start b toward 10 speed 65 km hr 
+anoth train leav toward b 11 speed 35 km hr 
+find time train meet 
+solut train leav b leav hour earli train leav distanc cover train leav b 65 km hr x 1 hr 65 km distanc left 465 65 400 km train also get move move toward 
+appli formula rel speed rel speed 65 35 100 km hr time requir train meet 400 km 100 km hr 4 hour thu train meet 4 hour 11 e 3 pm 
+question 6 policeman sight robber distanc 300 robber also notic policeman start run 8 km hr 
+policeman also start run speed 10 km hr 
+find distanc robber would run caught 
+solut sinc run direct rel speed 10 8 2 km hr catch robber stagnant policeman would run 300 sinc move policeman need finish separ 300 300 0 3 km cover rel speed 2 km hr 
+time taken 0 3 2 0 15 hour therefor distanc run robber caught distanc run 0 15 hour distanc run robber 8 x 0 15 1 2 km anoth solut time run policeman robber 
+know distanc speed x time time distanc speed let distanc run robber x km speed 8 km hr 
+distanc run policeman speed 10 km hr x 0 3 therefor x 8 x 0 3 10 10 x 8 x 0 3 10 x 8 x 2 4 2 x 2 4 x 1 2 therefor distanc run robber get caught 1 2 km question 7 cover certain distanc geek two option either ride hors walk 
+walk one side rode back side would taken 4 hour 
+walk way would taken 6 hour 
+much time take rode hors way 
+solut time taken walk one side time taken ride one side 4 hour time taken ride side 2 x time taken walk one side 6 hour time taken walk one side 3 hour therefor time taken ride one side 4 3 1 hour thu time taken ride side 2 x 1 2 hour articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

@@ -1,0 +1,14 @@
+boom number number consist digit 2 3 given integ k 0 k 10 7 display k th boom number 
+exampl input k 2 output 3 input k 3 output 22 input k 100 output 322323 input k 1000000 output 3332322223223222223 refer http www spoj com problem tshow1 idea simpl like gener binari number 
+also use approach use queue data structur solv problem 
+first enqueu 2 3 two first second boom number respect 
+set count 2 time pop front queue append 2 pope number increment count count k print current boom number els append 3 pope number increment count count k print current boom number 
+repeat process until reach k th boom number 
+approach seen bf tree root empti string 
+left child everi node 2 append right child 3 append 
+c implement idea 
+c program find k th boom number includ bit stdc h use namespac std typedef long long int function use queue data structur k th boom number void boomnumb k creat empti queue string queue string q enqueu empti string q push counter k th element count 0 loop check valu count becom equal k valu count equal k print boom number count k current boom number string s1 q front pop front q pop store current boom number chang string s2 s1 append 2 string s1 enqueu q push s1 append 2 count check count k count k cout s1 endl k th boom number break append 3 string s2 enqueu 
+note s2 contain previou front q push s2 append 3 count check count k count k cout s2 endl k th boom number break return driver program test function int main k 1000000 boomnumb k return 0 output 3332322223223222223 articl contribut shashank mishra gullu 
+articl review team geeksforgeek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

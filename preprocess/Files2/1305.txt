@@ -1,0 +1,12 @@
+given n n matrix number number distinct distribut rang 1 n2 find maximum length path start cell cell along path increas order differ 1 move 4 direct given cell j e move 1 j j 1 1 j j 1 condit adjacen exampl input mat 1 2 9 5 3 8 4 6 7 output 4 longest path 6 7 8 9 strongli recommend minim browser tri first 
+idea simpl calcul longest path begin everi cell 
+comput longest cell return maximum longest path 
+one import observ approach mani overlap subproblem 
+therefor problem optim solv use dynam program 
+dynam program base c implement use lookup tabl dp check problem alreadi solv 
+includ bit stdc h defin n 3 use namespac std return length longest path begin mat j 
+function mainli use lookup tabl dp n n int findlongestfromacel int int j int mat n n int dp n n base case 0 n j 0 j n return 0 subproblem alreadi solv dp j 1 return dp j sinc number uniqu rang 1 n n atmost one possibl direct cell j n 1 mat j 1 mat j 1 return dp j 1 findlongestfromacel j 1 mat dp j 0 mat j 1 mat j 1 return dp j 1 findlongestfromacel j 1 mat dp 0 mat j 1 mat 1 j return dp j 1 findlongestfromacel 1 j mat dp n 1 mat j 1 mat 1 j return dp j 1 findlongestfromacel 1 j mat dp none adjac four one greater return dp j 1 return length longest path begin cell int finlongestoveral int mat n n int result 1 initi result creat lookup tabl fill entri 1 int dp n n memset dp 1 sizeof dp comput longest path begin cell int 0 n int j 0 j n j dp j 1 findlongestfromacel j mat dp updat result need result max result dp j return result driver program int main int mat n n 1 2 9 5 3 8 4 6 7 cout length longest path finlongestoveral mat return 0 output length longest path 4 time complex solut n2 
+may seem first look 
+take closer look notic valu dp j comput 
+articl contribut ekta goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

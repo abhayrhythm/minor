@@ -1,0 +1,25 @@
+strongli recommend refer articl move articl 
+push relabel algorithm set 1 introduct illustr problem statement given graph repres flow network everi edg capac 
+also given two vertic sourc sink graph find maximum possibl flow follow constraint flow edg exceed given capac edg 
+b incom flow equal outgo flow everi vertex except exampl consid follow graph clr book 
+maximum possibl flow graph 23 push relabel algorithm 1 initi preflow initi flow height 2 possibl perform push relablel vertex vertex excess flow push relabel point vertic excess flow 0 except sourc sink 3 return flow 
+main oper perform push relabel algorithm 
+three main oper push relabel algorithm initi preflow initi height flow vertic 
+preflow 1 initi height flow everi vertex 0 
+2 initi height sourc vertex equal total number vertic graph 
+3 initi flow everi edg 0 
+4 vertic adjac sourc flow excess flow equal capac initi 
+push use make flow node excess flow 
+vertex excess flow adjac smaller height residu graph push flow vertex adjac lower height 
+amount push flow pipe edg equal minimum excess flow capac edg 
+relabel oper use vertex excess flow none adjac lower height 
+basic increas height vertex perform push 
+increas height pick minimum height adjac residu graph e adjac add flow add 1 
+implement follow implement use structur repres flow network 
+struct vertex int h height node int e_flow excess flow struct edg int u v edg u v int flow current flow int capac class graph edg edg array edg vertex ver array vertic code use given graph flow network residu graph 
+creat separ graph residu graph use graph simplic 
+c program implement push relabel algorithm get maximum flow graph includ bit stdc h use namespac std struct edg store current flow capac edg int flow capac edg u v start vertex u end vertex v int u v edg int flow int capac int u int v flow flow capac capac u u v v repres vertex struct vertex int h e_flow vertex int h int e_flow h h e_flow e_flow repres flow network class graph int v 
+vertic vector vertex ver vector edg edg function push excess flow u bool push int u function relabel vertex u void relabel int u function call initi preflow void preflow int function revers edg void updatereverseedgeflow int int flow public graph int v constructor function add edg graph void addedg int u int v int w return maximum flow int getmaxflow int int graph graph int v v v vertic initi 0 height 0 excess flow int 0 v ver push_back vertex 0 0 void graph addedg int u int v int capac flow initi 0 edg edg push_back edg 0 capac u v void graph preflow int make h sourc vertex equal 
+vertic height vertic 0 ver h ver size int 0 edg size current edg goe sourc edg u flow equal capac edg flow edg capac initi excess flow adjac v ver edg v e_flow edg flow add edg v residu graph capac equal 0 edg push_back edg edg flow 0 edg v return index overflow vertex int overflowvertex vector vertex ver int 1 ver size 1 ver e_flow 0 return 1 overflow vertex return 1 updat revers flow flow ad ith edg void graph updatereverseedgeflow int int flow int u edg v v edg u int j 0 j edg size j edg j v v edg j u u edg j flow flow return ad revers edg residu graph edg e edg 0 flow u v edg push_back e push flow overflow vertex u bool graph push int u travers edg find adjac u flow push int 0 edg size check u current edg given overflow vertex edg u u flow equal capac push possibl edg flow edg capac continu push possibl height adjac smaller height overflow vertex ver u h ver edg v h flow push equal minimum remain flow edg excess flow 
+int flow min edg capac edg flow ver u e_flow reduc excess flow overflow vertex ver u e_flow flow increas excess flow adjac ver edg v e_flow flow add residu flow capac 0 neg flow edg flow flow updatereverseedgeflow flow return true return fals function relabel vertex u void graph relabel int u initi minimum height adjac int mh int_max find adjac minimum height int 0 edg size edg u u flow equal capac relabel edg flow edg capac continu updat minimum height ver edg v h mh mh ver edg v h updat height u ver u h mh 1 main function print maximum flow graph int graph getmaxflow int int preflow loop until none vertex overflow overflowvertex ver 1 int u overflowvertex ver push u relabel u ver back return last vertex whose e_flow final maximum flow return ver back e_flow driver program test function int main int v 6 graph g v creat shown flow network g addedg 0 1 16 g addedg 0 2 13 g addedg 1 2 10 g addedg 2 1 4 g addedg 1 3 12 g addedg 2 4 14 g addedg 3 2 9 g addedg 3 5 20 g addedg 4 3 7 g addedg 4 5 4 initi sourc sink int 0 5 cout maximum flow g getmaxflow return 0 output maximum flow 23 code articl contribut siddharth lalwani utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

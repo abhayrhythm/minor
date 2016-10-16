@@ -1,0 +1,47 @@
+
+Following questions have been asked in GATE 2012 exam.
+1. What will be the output of the following C program segment?
+  
+    char inchar = 'A';
+    switch (inchar)
+    {
+    case 'A' :
+        printf ("choice A \n") ;
+    case 'B' :
+        printf ("choice B ") ;
+    case 'C' :
+    case 'D' :
+    case 'E' :
+    default:
+        printf ("No Choice") ;
+    }
+
+(A) No choice
+(B) Choice A
+(C) Choice A
+     Choice B No choice
+(D) Program gives no output as it is erroneous
+Answer (C)
+There is no break statement in case ‘A’.  If a case is executed and it doesn’t contain break, then all the subsequent cases are executed until a break statement is found.  That is why everything inside the switch is printed.
+Try following program as an exercise.
+
+int main()
+{
+    char inchar = 'A';
+    switch (inchar)
+    {
+    case 'A' :
+        printf ("choice A \n") ;
+    case 'B' :
+    {
+        printf ("choice B") ;
+        break;
+    }
+    case 'C' :
+    case 'D' :
+    case 'E' :
+    default:
+        printf ("No Choice") ;
+    }
+}
+

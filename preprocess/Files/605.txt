@@ -1,0 +1,43 @@
+
+Round 1 (Telephonic) :
+
+Discussed about previous projects.
+How Node.js internally works.
+What is left joins and how it’s works.
+
+Round 2 (F2F) :
+
+How inodb (mysql engine) works and it’s internal architecture.
+How joins works. More question from DB
+Inorder traversal of binary tree.
+Missing number Problem !! ( http://www.geeksforgeeks.org/find-the-missing-number/)
+Some basic Ubuntu commands.
+
+ how to install : apt-get install package_name
+ how to copy complete folder using terminal.
+
+
+2-3 more basic questions,
+2 puzzle
+
+a) standard puzzle you have 9 coins and a weight machine. Out of which one coins is lighter find that coins in less attempt.
+note : instead of 9 coins he ask for 80 coins .
+ans is 3^4 >= 80 i.e. 4
+divide into 26,27,27 group and apply the same algo as 9 coins.
+b) there is a dark room and you have 13 head and 8 coins on a table, make a two group as number of tails coins are equal in both group.
+(I asked the ans to him and it was too funny when he was trying to explain and no ans)
+
+
+
+NOTE : their main focus is on database, prepare it very well and deeply.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

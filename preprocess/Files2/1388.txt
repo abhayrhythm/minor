@@ -1,0 +1,23 @@
+given singli link list remov node greater valu right side 
+strongli recommend click practic move solut 
+exampl list 12 15 10 11 5 6 2 3 null chang 15 11 6 3 null 
+note 12 10 5 2 delet greater valu right side 
+examin 12 see 12 one node valu greater 12 e 
+15 delet 12 examin 15 find node 15 valu greater 15 keep node 
+go like get 15 6 3 b list 10 20 30 40 50 60 null chang 60 null 
+note 10 20 30 40 50 delet greater valu right side 
+c list 60 50 40 30 20 10 null chang 
+method 1 simpl use two loop 
+outer loop pick node link list one one 
+inner loop check exist node whose valu greater pick node 
+exist node whose valu greater delet pick node 
+time complex n 2 method 2 use revers thank para provid algorithm 
+1 revers list 
+2 travers revers list 
+keep max till 
+next node max delet next node otherwis max next node 
+3 revers list retain origin order 
+time complex n thank r srinivasan provid code 
+c c program delet node greater valu right side includ stdio h includ stdlib h structur link list node struct node int data struct node next prototyp util function void reverselist struct node headref void _dellessernod struct node head delet node node greater valu node left side void dellessernod struct node head_ref 1 revers link list reverselist head_ref 2 revers list delet node node greater valu node left side 
+note head node never delet leftmost node 
+_dellessernod head_ref 3 revers link list retain origin order reverselist head_ref delet node greater valu node left side void _dellessernod struct node head struct node current head initi max struct node maxnod head struct node temp current null current next null current smaller max delet current current next data maxnod data temp current next current next temp next free temp current greater max updat max move current els current current next maxnod current util function insert node begin void push struct node head_ref int new_data struct node new_nod struct node malloc sizeof struct node new_nod data new_data new_nod next head_ref head_ref new_nod util function revers link list void reverselist struct node headref struct node current headref struct node prev null struct node next current null next current next current next prev prev current current next headref prev util function print link list void printlist struct node head head null printf head data head head next printf n driver program test function int main struct node head null creat follow link list 12 15 10 11 5 6 2 3 push head 3 push head 2 push head 6 push head 5 push head 11 push head 10 push head 15 push head 12 printf given link list n printlist head dellessernod head printf modifi link list n printlist head return 0 

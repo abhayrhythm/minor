@@ -1,0 +1,18 @@
+given singli link list everi node addit arbitrari pointer current point null 
+need make arbitrari pointer point next higher valu node 
+strongli recommend minim browser tri first simpl solut travers node one one everi node find node next greater valu current node chang next pointer 
+time complex solut n2 
+effici solut work nlogn time 
+idea use merg sort link list 
+1 travers input list copi next pointer arbit pointer everi node 
+2 merg sort link list form arbit pointer 
+c implement idea 
+merger sort function taken 
+taken function modifi work arbit pointer instead next pointer 
+c program popul arbit pointer next higher valu use merg sort includ stdio h includ stdlib h link list node struct node int data struct node next arbit function prototyp struct node sortedmerg struct node struct node b void frontbacksplit struct node sourc struct node frontref struct node backref sort link list form arbit pointer chang next pointer data void mergesort struct node headref struct node head headref struct node b base case length 0 1 head null head arbit null return split head b sublist frontbacksplit head b recurs sort sublist mergesort mergesort b answer merg two sort list togeth headref sortedmerg b see http geeksforgeek org p 3622 detail function struct node sortedmerg struct node struct node b struct node result null base case null return b els b null return pick either b recur data b data result result arbit sortedmerg arbit b els result b result arbit sortedmerg b arbit return result split node given list front back halv return two list use refer paramet 
+length odd extra node go front list 
+use fast slow pointer strategi 
+void frontbacksplit struct node sourc struct node frontref struct node backref struct node fast slow sourc null sourc arbit null length 2 case frontref sourc backref null return slow sourc fast sourc arbit advanc fast two node advanc slow one node fast null fast fast arbit fast null slow slow arbit fast fast arbit slow midpoint list split two point 
+frontref sourc backref slow arbit slow arbit null function insert node beging link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref new_nod arbit null move head point new node head_ref new_nod util function print result link list void printlistaft struct node node struct node anod printf travers use next pointer n node null printf node data node node next printf ntravers use arbit pointer n anod null printf anod data anod anod arbit function popul arbit pointer everi node next higher valu 
+return pointer node minimum valu struct node populatearbit struct node head copi next pointer arbit pointer struct node temp head temp null temp arbit temp next temp temp next merg sort arbitrari pointer mergesort head return head arbitrari pointer link list return head drier program test function int main start empti list struct node head null let us creat list shown push head 3 push head 2 push head 10 push head 5 sort creat link list struct node ahead populatearbit head printf nresult link list n printlistaft head ahead getchar return 0 output result link list travers use next pointer 5 10 2 3 travers use arbit pointer 2 3 5 10 articl contribut saurabh bansal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

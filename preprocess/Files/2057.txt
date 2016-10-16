@@ -1,0 +1,51 @@
+
+In C switch statement, the expression of each case label must be an integer constant expression. 
+For example, the following program fails in compilation.
+
+/* Using non-const in case label */
+#include<stdio.h>
+int main()
+{
+  int i = 10;
+  int c = 10;
+  switch(c) 
+  {
+    case i: // not a "const int" expression
+         printf("Value of c = %d", c);
+         break;
+    /*Some more cases */
+                   
+  }
+  getchar();
+  return 0;
+}
+
+Putting const before i makes the above program work.
+
+#include<stdio.h>
+int main()
+{
+  const int i = 10;
+  int c = 10;
+  switch(c) 
+  {
+    case i:  // Works fine
+         printf("Value of c = %d", c);
+         break;
+    /*Some more cases */
+                   
+  }
+  getchar();
+  return 0;
+}
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

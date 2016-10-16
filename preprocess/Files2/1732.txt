@@ -1,0 +1,15 @@
+given undirect simpl graph need find mani triangl 
+exampl graph 2 triangl 
+let adjac matrix represent graph 
+calcul a3 number triangl undirect graph equal trace a3 6 trace sum element main diagon matrix trace graph repres adjac matrix v v trace v v 0 0 1 1 v 1 v 1 count triangl trace a3 6 c implement formula 
+c program find number triangl undirect graph 
+program adjac matrix represent graph includ bit stdc h use namespac std number vertic graph defin v 4 util function matrix multipl void multipli int v int b v int c v int 0 v int j 0 j v j c j 0 int k 0 k v k c j k b k j util function calcul trace matrix sum diagnon element int gettrac int graph v int trace 0 int 0 v trace graph return trace util function calcul number triangl graph int triangleingraph int graph v int aux2 v v store graph 2 int aux3 v v store graph 3 initialis aux matric 0 int 0 v int j 0 j v j aux2 j aux3 j 0 aux2 graph 2 printmatrix aux2 multipli graph graph aux2 multipl aux3 graph 3 printmatrix aux3 multipli graph aux2 aux3 int trace gettrac aux3 return trace 6 driver program test function int main let us creat exampl graph discuss int graph v v 0 1 1 0 1 0 1 1 1 1 0 1 0 1 1 0 printf total number triangl graph n triangleingraph graph return 0 output total number triangl graph 2 work 
+comput adjac matrix represent graph valu j repres number distinct walk vertex j graph 
+a3 get distinct path length 3 everi pair vertic 
+triangl cyclic path length three e 
+begin end vertex 
+a3 repres triangl begin end vertex sinc triangl three vertic count everi vertex need divid result 3 furthermor sinc graph undirect everi triangl twice p q j q p j divid 2 also 
+therefor number triangl trace a3 6 time complex time complex algorithm v3 v number vertic graph improv perform v2 8074 use strassen matrix multipl algorithm 
+refer http www umn edu math technic 20report technic 20report 202007 tr 202012 yang pdf number triangl direct undirect graph articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,58 @@
+develop specialist java javascript posit 4 6 yr 
+long process awesom one 
+round 1 telephon 1hr 1 main method void java 
+2 string paramet mandatori main method 
+time paramet read 
+3 differ sleep wait 4 differ yield vs join 5 check uncheck except 
+6 concurr hash map 
+7 differ isinst instanc 8 use reflect name method 
+9 fail fast vs fail safe iter 10 jvm jre jdk rt jar contain 
+11 use linkedhash map tree map 
+better insert delet search 
+12 static method static variabl store memori 
+13 java memori model 
+14 java garbag collect process survivor space 
+15 overrid tostr method 
+16 design ds follow oper 1 insert 2 delet 3 search 1 complex 
+gener question previou experi hobbi etc 3 4 hr got updat telephon screen attend f2f 
+round 2 f2f 90 min introduct question java start ask code question 
+1 write recurs program find distanc 2 node binari tree 
+modifi know differ parent root 
+2 write program isperfectsquar without use sqrt oper 
+3 write infinit stack doubli link list 
+4 design chess board 
+discuss went almost 30 min solut increment improv interview seem satisfi 
+round 3 f2f 90 min 1 strategi pattern 
+explain implement 
+2 depend inject pattern support 
+3 explain heap sort end end exampl 
+implement execut code 
+4 deadlock race condit mutual exclus 
+5 write java program implement deadlock resolv 
+round 4 f2f 60 min pure design round quit challeng 
+1 creat rest api job schedul 
+2 use use relationship 
+differ compost aggreg associ special realiz gener 
+3 design rest api checkout option shop cart api design gener order id 4 1 join queri sql 
+round 5 f2f 90 min 1 write sql queri remov duplic row tabl 
+2 draw uml class diagram file folder structur 
+3 implement oper use condit oper 
+4 find nth largest element binari search tree sol travers inord n time 5 construct binari tree infix express without use stack 
+round 6 90 min techno manageri round f2f 1 puzzl 2 explain project indepth question 
+3 quora implement architectur 
+4 friend friend featur implement facebook 
+5 best way design rest api 
+6 detail background sap etc round 7 45 min techno manageri round telephon 1 hash map implement java 
+2 column orient databas evolv explain 
+3 question java 
+4 behaviour question give hypothet situat tricki 5 biggest challeng task done till technic 
+round 8 hr telephon 1 strength weak 
+2 sap 
+3 notic period 
+4 expect salari 
+tip 1 question firm difficult like amazon firm subject cover broader compani ask 
+limit ds algo 2 even though profici mani topic technolog mention resum interview would give option choos topic choic 
+3 perfect 
+interview help give tip clue problem solv pleas ask need detail question rather keep mum aall best folk like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

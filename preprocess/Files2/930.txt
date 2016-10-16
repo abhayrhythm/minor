@@ -1,0 +1,5 @@
+c switch statement express case label must integ constant express 
+exampl follow program fail compil 
+use non const case label includ stdio h int main int 10 int c 10 switch c case const int express printf valu c c break case getchar return 0 put const make program work 
+includ stdio h int main const int 10 int c 10 switch c case work fine printf valu c c break case getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

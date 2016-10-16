@@ -1,0 +1,27 @@
+suppos circl 
+n petrol pump circl 
+given two set data 
+1 amount petrol everi petrol pump 
+2 distanc petrol pump next petrol pump 
+calcul first point truck abl complet circl truck stop petrol pump infinit capac 
+expect time complex n 
+assum 1 litr petrol truck go 1 unit distanc 
+exampl let 4 petrol pump amount petrol distanc next petrol pump valu pair 4 6 6 5 7 3 4 5 
+first point truck make circular tour 2nd petrol pump 
+output start 1 index 2nd petrol pump 
+simpl solut consid everi petrol pump start point see possibl tour 
+find start point feasibl solut return start point 
+worst case time complex solut n 2 
+use queue store current tour 
+first enqueu first petrol pump queue keep enqueu petrol pump till either complet tour current amount petrol becom neg 
+amount becom neg keep dequeu petrol pump till current amount becom posit queue becom empti 
+instead creat separ queue use given array queue 
+maintain two index variabl start end repres rear front queue 
+c program find circular tour truck includ stdio h petrol pump petrol distanc next petrol pump struct petrolpump int petrol int distanc function return start point possibl solut otherwis return 1 int printtour struct petrolpump arr int n consid first petrol pump start point int start 0 int end 1 int curr_petrol arr start petrol arr start distanc run loop petrol pump visit 
+reach first petrol pump 0 petrol end start curr_petrol 0 curremt amount petrol truck becom less 0 remov start petrol pump tour curr_petrol 0 start end remov start petrol pump 
+chang start curr_petrol arr start petrol arr start distanc start start 1 n 0 consid start possibl solut start 0 return 1 add petrol pump current tour curr_petrol arr end petrol arr end distanc end end 1 n return start point return start driver program test function int main struct petrolpump arr 6 4 3 6 7 3 int n sizeof arr sizeof arr 0 int start printtour arr n start 1 
+printf solut printf start start return 0 output start 2 time complex seem linear first look 
+consid item start end part circular queue observ everi item enqueu two time queue 
+total number oper proport total number enqueu oper 
+therefor time complex n 
+auxiliari space 1 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

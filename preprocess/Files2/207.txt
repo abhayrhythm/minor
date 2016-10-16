@@ -1,0 +1,15 @@
+ms excel column pattern like b c z aa ab ac 
+az ba bb zz aaa aab etc 
+word column 1 name column 2 b column 27 aa 
+given column number find correspond excel column name 
+follow exampl 
+input output 26 z 51 ay 52 az 80 cb 676 yz 702 zz 705 aac strongli recommend click practic move solut 
+thank mrigank dembla suggest solut comment 
+suppos number n let say 28 correspond need print column name 
+need take remaind 26 remaind 26 come 0 mean 26 52 put z output string new n becom n 26 1 consid 26 z actual 25th respect 
+similarli remaind come non zero 
+like 1 2 3 need insert char accordingli string n n 26 
+final revers string print 
+exampl n 700 remaind n 26 24 put x output string n becom n 26 26 remaind 26 26 0 put z output string n becom n 26 1 0 follow c implement approach 
+c includ bit stdc h defin max 50 use namespac std function print excel column name given column number void printstr int n char str max store result excel column name int 0 store current index str result n 0 find remaind int rem n 26 remaind 0 z must output rem 0 str z n n 26 1 els remaind non zero str rem 1 n n 26 str 0 revers string print result revers str str strlen str cout str endl return driver program test function int main printstr 26 printstr 51 printstr 52 printstr 80 printstr 676 printstr 702 printstr 705 return 0 python python program find excel column name given column number max 50 function print excel column name given column number def printstr n store result excel column name string 0 max store current index str result 0 n 0 find remaind rem n 26 remaind 0 z must output rem 0 string z 1 n n 26 1 els string chr rem 1 ord 1 n n 26 string 0 revers string print result string string 1 print join string driver program test function printstr 26 printstr 51 printstr 52 printstr 80 printstr 676 printstr 702 printstr 705 code contribut bhavya jain output z ay az cb yz zz aac articl contribut kartik 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

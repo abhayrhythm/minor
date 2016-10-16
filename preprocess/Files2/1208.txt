@@ -1,0 +1,14 @@
+given string check pangram 
+pangram sentenc contain everi letter english alphabet 
+exampl quick brown fox jump lazi dog pangram contain charact z quick brown fox jump dog pangram contain charact z l z miss creat mark array boolean type 
+iter charact string whenev see charact mark 
+lowercas uppercas consid 
+mark index 0 similarli z z mark index 25 iter charact check whether charact mark 
+return fals pangram els return true 
+c program check given string pangram includ bit stdc h use namespac std return true string pangram els fals bool checkpangram string str creat hash tabl mark charact present string vector bool mark 26 fals index mark int index travers charact int 0 str length uppercas charact subtract find index 
+str str z index str lowercas charact subtract find index 
+els str str z index str mark current charact mark index true return fals charact unmark int 0 25 mark fals return fals charact present return true driver program test function int main string str quick brown fox jump lazi dog checkpangram str true printf pangram str c_str els printf pangram str c_str return 0 output quick brown fox jump lazi dog pangram time complex n n length string auxiliari space 1 
+articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

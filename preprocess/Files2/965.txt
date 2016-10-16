@@ -1,0 +1,20 @@
+question dealloc dynam alloc memori without use free function 
+solut standard librari function realloc use dealloc previous alloc memori 
+function declar realloc stdlib h void realloc void ptr size_t size size zero call realloc equival free ptr 
+ptr null size non zero call realloc equival malloc size 
+let us check simpl exampl 
+code memori leak includ stdio h includ stdlib h int main void int ptr int malloc 10 return 0 check leak summari valgrind tool 
+show memori leak 10 byte highligh red colour 
+narendra ubuntu valgrind leak check full free 1238 leak summari 1238 definit lost 10 byte 1 block 
+1238 possibl lost 0 byte 0 block 
+1238 still reachabl 0 byte 0 block 
+1238 suppress 0 byte 0 block 
+narendra ubuntu let us modifi code 
+includ stdio h includ stdlib h int main void int ptr int malloc 10 call realloc size 0 realloc ptr 0 return 0 check valgrind output 
+show memori leak possibl highlight red color 
+narendra ubuntu valgrind leak check full 1435 error summari 0 error 0 context suppress 11 1 1435 malloc free use exit 0 byte 0 block 
+1435 malloc free 1 alloc 1 free 10 byte alloc 
+1435 count detect error rerun v 1435 heap block freed leak possibl 
+narendra ubuntu articl compil narendra kangralkar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

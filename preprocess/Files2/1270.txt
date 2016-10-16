@@ -1,0 +1,4 @@
+difficulti level rooki question write program print n equal part given string 
+solut 1 get size string use string function strlen present string h 2 get size part 
+part_siz string_length n 3 loop input string 
+loop index becom multipl part_siz put part separ n implement c c program divid string n equal part includ stdio h includ string h function print n equal part str void dividestr char str int n int str_size strlen str int int part_siz check string divid n equal part str_size n 0 printf invalid input string size divis n return calcul size part find divis point part_siz str_size n 0 str_size part_siz 0 printf n newlin separ differ part printf c str int main length od string 28 char str a_simple_divide_string_quest print 4 equal part string dividestr str 4 getchar return 0 

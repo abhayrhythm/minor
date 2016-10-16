@@ -1,0 +1,15 @@
+given direct graph sourc vertex destin vertex print path given 
+consid follow direct graph 
+let 2 3 4 differ path 2 3 strongli recommend minim browser tri first idea depth first travers given direct graph 
+start travers sourc 
+keep store visit vertic array say path 
+reach destin vertex print content path 
+import thing mark current vertic path visit also travers go cycl 
+follow c implement idea 
+c program print path sourc destin 
+includ iostream includ list use namespac std direct graph use adjac list represent class graph int v 
+vertic graph list int adj pointer array contain adjac list recurs function use printallpath void printallpathsutil int int bool int int public graph int v constructor void addedg int u int v void printallpath int int graph graph int v v v adj new list int v void graph addedg int u int v adj u push_back v add v u list 
+print path void graph printallpath int int mark vertic visit bool visit new bool v creat array store path int path new int v int path_index 0 initi path empti initi vertic visit int 0 v visit fals call recurs helper function print path printallpathsutil visit path path_index recurs function print path u 
+visit keep track vertic current path 
+path store actual vertic path_index current index path void graph printallpathsutil int u int bool visit int path int path_index mark current node store path visit u true path path_index u path_index current vertex destin print current path u int 0 path_index cout path cout endl els current vertex destin recur vertic adjac current vertex list int iter adj u begin adj u end visit printallpathsutil visit path path_index remov current vertex path mark unvisit path_index visit u fals driver program int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 0 3 g addedg 2 0 g addedg 2 1 g addedg 1 3 int 2 3 cout follow differ path endl g printallpath return 0 output follow differ path 2 3 2 0 1 3 2 0 3 2 1 3 articl contribut shivam gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

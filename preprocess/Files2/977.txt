@@ -1,0 +1,8 @@
+code chang add one charact print exactli 20 time 
+int main int n 20 0 n printf getchar return 0 solut 1 replac n loop third express includ stdio h int main int n 20 0 n n printf getchar return 0 2 put loop second express includ stdio h int main int n 20 0 n printf getchar return 0 3 replac loop second express includ stdio h int main int n 20 0 n printf getchar return 0 let extend problem littl 
+chang add one charact print exactli 21 time 
+solut put negat oper loop second express 
+explan negat oper convert number one complement 
+
+one complement 0 00000 00 1 1111 11 1 11 1111 0 00 0000 2 11 1110 1 00 0001 3 11 1101 2 00 0010 20 11 01100 19 00 10011 includ stdio h int main int n 20 0 n printf getchar return 0 pleas comment find solut problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

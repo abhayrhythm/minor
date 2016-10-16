@@ -1,0 +1,14 @@
+
+Explain the functionality of following functions. 
+Question 1
+
+/* Assume that n is greater than or equal to 1 */
+int fun1(int n)
+{
+  if(n == 1)
+     return 0;
+  else
+     return 1 + fun1(n/2);
+} 
+
+Answer: The function calculates and returns .  For example, if n is between 8 and 15 then fun1() returns 3. If n is between 16 to 31 then fun1() returns 4.

@@ -1,0 +1,11 @@
+today go discuss format file user workspac extens 
+go make use clang format tool 
+prerequisit linux machin python clang tool setup instal python use follow command sudo apt get instal python instal clang format tool sudo apt get instal clang format 3 5 creat python file name format code py locat read write permiss 
+exampl go creat home user 
+shall contain follow code python program format c c file use clang format import os file extens filter 
+add new extens cpp_extens cxx cpp c hxx hh cc hpp set current work directori scan c c sourc includ header file appli clang format pleas note style standard style option place edit root dir file os walk os getcwd file file file endswith cpp_extens os system clang format 3 5 style file root file creat format specif file copi project top level directori e g home user myproject creat format file exampl creat googl code style tool clang format 3 5 style googl dump config clang format copi project directori e locat becom home user myproject clang format use 
+navig directori whose file want format e g cd home user myproject c sourc run format code file creat earlier python home user format code py shall format file sourc directori extens mention code 
+articl contribut nitin deokat like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

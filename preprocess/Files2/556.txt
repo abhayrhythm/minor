@@ -1,0 +1,43 @@
+consid situat set interv need follow oper implement effici 
+1 add interv 2 remov interv 3 given interv x find x overlap exist interv 
+interv tree idea augment self balanc binari search tree bst like red black tree avl tree etc maintain set interv oper done logn time 
+everi node interv tree store follow inform 
+interv repres pair low high b max maximum high valu subtre root node 
+low valu interv use key maintain order bst 
+insert delet oper insert delet self balanc bst use 
+main oper search overlap interv 
+follow algorithm search overlap interv x interv tree root root 
+interv overlappingintervalsearch root x 1 x overlap root interv return root interv 
+2 left child root empti max left child greater x low valu recur left child 3 els recur right child 
+algorithm work 
+let interv search x need prove follow two case 
+case 1 go right subtre one follow must true 
+overlap right subtre fine need return one overlap interv 
+b overlap either subtre go right subtre either left null maximum valu left smaller x low 
+interv cannot present left subtre 
+case 2 go left subtre one follow must true 
+overlap left subtre fine need return one overlap interv 
+b overlap either subtre import part 
+need consid follow fact 
+went left subtre x low max left subtre 
+max left subtre high one interv let us say max left subtre 
+
+sinc x overlap node left subtre x low must smaller 
+
+node bst order low valu node right subtre must low valu greater 
+
+two fact say interv right subtre low valu greater x low 
+x cannot overlap interv right subtre 
+implement interv tree follow c implement interv tree 
+implement use basic insert oper bst keep thing simpl 
+ideal insert avl tree insert red black tree 
+delet bst left exercis 
+includ iostream use namespac std structur repres interv struct interv int low high structur repres node interv search tree struct itnod interv could also normal variabl int max itnod left right util function creat new interv search tree node itnod newnod interv itnod temp new itnod temp new interv temp max high temp left temp right null util function insert new interv search tree node similar bst insert 
+low valu interv use tomaintain bst properti itnod insert itnod root interv base case tree empti new node becom root root null return newnod get low valu interv root int l root low root low valu smaller new interv goe left subtre low l root left insert root left els new node goe right subtre 
+els root right insert root right updat max valu ancestor need root max high root max high return root util function check given two interv overlap bool dooverlap interv i1 interv i2 i1 low i2 high i2 low i1 high return true return fals main function search given interv given interv tree 
+interv overlapsearch itnod root interv base case tree empti root null return null given interv overlap root dooverlap root return root left child root present max left child greater equal given interv may overlap interv left subtre root left null root left max low return overlapsearch root left els interv overlap right subtre return overlapsearch root right void inord itnod root root null return inord root left cout root low root high max root max endl inord root right driver program test function int main let us creat interv tree shown figur interv int 15 20 10 30 17 19 5 20 12 15 30 40 int n sizeof int sizeof int 0 itnod root null int 0 n root insert root int cout inord travers construct interv tree n inord root interv x 6 7 cout nsearch interv x low x high interv re overlapsearch root x re null cout nno overlap interv els cout noverlap re low re high return 0 output inord travers construct interv tree 5 20 max 20 10 30 max 30 12 15 max 15 15 20 max 40 17 19 max 40 30 40 max 40 search interv 6 7 overlap 5 20 applic interv tree interv tree mainli geometr data structur often use window queri instanc find road computer map insid rectangular viewport find visibl element insid three dimension scene sourc wiki 
+interv tree vs segment tree segment interv tree store interv 
+segment tree mainli optim queri given point interv tree mainli optim overlap queri given interv 
+exercis 1 implement delet oper interv tree 
+2 extend intervalsearch print overlap interv instead one 
+http en wikipedia org wiki interval_tre http www cse unr edu mgune cs302 intervaltre pptx introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest http www youtub com watch v dqf0zyaym8a pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

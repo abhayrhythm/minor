@@ -1,0 +1,17 @@
+forward list c set 1 introduct import function function discuss articl oper insert delet use forward list follow 1 merg function use merg one forward list 
+list sort result list return also sort 
+2 oper oper copi one forward list 
+copi made case deep copi 
+c code demonstr work merg oper includ iostream includ forward_list use namespac std int main initi 1st forward list forward_list int flist1 1 2 3 declar 2nd forward list forward_list int flist2 creat deep copi use flist2 flist1 display flist2 cout content 2nd forward list copi int x flist2 cout x cout endl use merg merg list 1 flist1 merg flist2 display merg forward list print sort list cout content forward list merg int x flist1 cout x cout endl return 0 output content 2nd forward list copi 1 2 3 content forward list merg 1 1 2 2 3 3 3 sort function use sort forward list 
+4 uniqu function delet multipl occurr number return forward list uniqu element 
+forward list sort function execut success 
+c code demonstr work sort uniqu includ iostream includ forward_list sort uniqu use namespac std int main initi 1st forward list forward_list int flist1 1 2 3 2 3 3 1 sort forward list use sort flist1 sort display sort forward list cout content forward list sort int x flist1 cout x cout endl use uniqu remov repeat occurr flist1 uniqu display forward list use uniqu cout content forward list uniqu oper int x flist1 cout x cout endl return 0 output content forward list sort 1 1 2 2 3 3 3 content forward list uniqu oper 1 2 3 5 revers function use revers forward list 
+6 swap function swap content one forward list 
+c code demonstr work revers swap includ iostream includ forward_list revers swap use namespac std int main initi 1st forward list forward_list int flist1 1 2 3 initi 2nd forward list forward_list int flist2 4 5 6 use revers revers 1st forward list flist1 revers display revers forward list cout content forward list revers int x flist1 cout x cout endl endl display forward list swap cout content 1st forward list swap int x flist1 cout x cout endl cout content 2nd forward list swap int x flist2 cout x cout endl use swap swap list flist1 swap flist2 display forward list swap cout content 1st forward list swap int x flist1 cout x cout endl cout content 2nd forward list swap int x flist2 cout x cout endl return 0 output content forward list revers 3 2 1 content 1st forward list swap 3 2 1 content 2nd forward list swap 4 5 6 content 1st forward list swap 4 5 6 content 2nd forward list swap 3 2 1 7 clear function clear content forward list 
+function forward list becom empti 
+8 empti function return true list empti otherwis fals 
+c code demonstr work clear empti includ iostream includ forward_list clear empti use namespac std int main initi forward list forward_list int flist1 1 2 3 display forward list clear cout content forward list int x flist1 cout x cout endl use clear clear forward list flist1 clear display revers forward list cout content forward list clear int x flist1 cout x cout endl check list empti flist1 empti 
+cout forward list empti cout forward list empti return 0 output content forward list 1 2 3 content forward list clear forward list empti articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

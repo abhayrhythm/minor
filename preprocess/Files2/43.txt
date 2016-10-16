@@ -1,0 +1,17 @@
+given array sort sort element move either adjac posit e arr may present arr 1 arr 1 
+write effici function search element array 
+basic element arr swap either arr 1 arr 1 
+exampl consid array 2 3 10 4 40 4 move next posit 10 move previou posit 
+exampl input arr 10 3 40 20 50 80 70 key 40 output 2 output index 40 given array input arr 10 3 40 20 50 80 70 key 90 output 1 1 return indic element present simpl solut linearli search given key given array 
+time complex solut n 
+cab modifi binari search logn time 
+idea compar key middl 3 element present return index 
+present compar key middl element decid whether go left half right half 
+compar middl element enough element mid 2 must greater element mid element mid 2 must smaller mid element 
+follow c implement approach 
+c c program find element almost sort array includ stdio h recurs binari search base function 
+return index x given array arr l r present otherwis 1 int binarysearch int arr int l int r int x r l int mid l r l 2 element present one middl 3 posit arr mid x return mid mid l arr mid 1 x return mid 1 mid r arr mid 1 x return mid 1 element smaller mid present left subarray arr mid x return binarysearch arr l mid 2 x els element present right subarray return binarysearch arr mid 2 r x reach element present array return 1 driver program test function int main void int arr 3 2 10 4 40 int n sizeof arr sizeof arr 0 int x 4 int result binarysearch arr 0 n 1 x result 1 
+printf element present array printf element present index result return 0 java java program find element almost sort array class searchalmost recurs binari search base function 
+return index x given array arr l r present otherwis 1 int binarysearch int arr int l int r int x r l int mid l r l 2 element present one middl 3 posit arr mid x return mid mid l arr mid 1 x return mid 1 mid r arr mid 1 x return mid 1 element smaller mid present left subarray arr mid x return binarysearch arr l mid 2 x els element present right subarray return binarysearch arr mid 2 r x reach element present array return 1 driver method public static void main string arg abc ob new abc int arr 3 2 10 4 40 int n arr length int x 4 int result ob binarysearch arr 0 n 1 x result 1 system println element present array els system println element present index result code contribut rajat mishra output element present index 3 time complex function logn 
+articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

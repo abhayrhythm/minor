@@ -1,0 +1,71 @@
+
+Given a number as a string, write a function to find the number of substrings (or  contiguous subsequences) of the given string which recursively add up to 9.
+For example digits of 729 recursively add to 9,
+7 + 2 + 9 = 18
+Recur for 18
+1 + 8 = 9 
+Examples:
+ 
+Input: 4189
+Output: 3
+There are three substrings which recursively add to 9.
+The substrings are 18, 9 and 189.
+
+Input: 999
+Output: 6
+There are 6 substrings which recursively add to 9.
+9, 99, 999, 9, 99, 9
+All digits of a number recursively add up to 9, if only if the number is multiple of 9. We basically need to check for s%9 for all substrings s.  One trick used in below program is to do modular arithmetic to avoid overflow for big strings. 
+Following is a simple implementation based on this approach.  The implementation assumes that there are no leading 0’s in input number.
+
+// C++ program to count substrings with recursive sum equal to 9
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int count9s(char number[])
+{
+    int count = 0; // To store result
+    int n = strlen(number);
+
+    // Consider every character as beginning of substring
+    for (int i = 0; i < n; i++)
+    {
+        int sum = number[i] - '0';  //sum of digits in current substring
+
+        if (number[i] == '9') count++;
+
+        // One by one choose every character as an ending character
+        for (int j = i+1; j < n; j++)
+        {
+            // Add current digit to sum, if sum becomes multiple of 5
+            // then increment count. Let us do modular arithmetic to
+            // avoid overflow for big strings
+            sum = (sum + number[j] - '0')%9;
+
+            if (sum == 0)
+               count++;
+        }
+    }
+    return count;
+}
+
+// driver program to test above function
+int main()
+{
+    cout << count9s("4189") << endl;
+    cout << count9s("1809");
+    return 0;
+}
+
+Output:
+3
+5
+Time complexity of the above program is O(n2).  Please let me know if there is a better solution.
+This article is contributed by Abhishek. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

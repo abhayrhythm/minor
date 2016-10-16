@@ -1,0 +1,20 @@
+lucki number subset integ 
+rather go much theori let us see process arriv lucki number take set integ 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 first delet everi second number get follow reduc set 
+1 3 5 7 9 11 13 15 17 19 delet everi third number get 1 3 7 9 13 15 19 
+continu process indefinit number get delet due process call lucki 
+therefor set lucki number 1 3 7 13 given integ n write function say whether number lucki 
+bool islucki int n algorithm everi iter calcul posit given given iter determin delet 
+suppos calcul posit given 
+p iter ith 
+go remov iter p input lucki p p 0 divisor p input lucki 
+recurs way includ stdio h defin bool int return 1 n lucki 
+ohterwis return 0 bool islucki int n static int counter 2 variabl next_posit readabl program remov use n int next_posit n counter n return 1 n counter 0 return 0 calcul next posit input next_posit next_posit counter counter return islucki next_posit driver function test function int main int x 5 islucki x printf lucki 
+x els printf lucki 
+x getchar exampl let us take exampl 19 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 15 17 18 19 20 21 1 3 5 7 9 11 13 15 17 19 1 3 7 9 13 15 19 
+1 3 7 13 15 19 1 3 7 13 19 next step everi 6th sequenc delet 
+19 delet step posit 19 5th step 
+therefor 19 lucki 
+let see c code find current function call posit call counter next call next call islucki 19 10 3 islucki 10 islucki 10 7 4 islucki 7 islucki 7 6 5 islucki 6 islucki 6 5 6 islucki 5 islucki 6 call return 1 counter n 
+iter way pleas see comment anoth simpl eleg implement algorithm 
+pleas write comment find bug given program way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

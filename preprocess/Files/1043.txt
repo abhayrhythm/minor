@@ -1,0 +1,37 @@
+
+Predict the output of following C programs:
+Difficulty Level: Rookie 
+Question 1
+
+#include<stdio.h>
+int main()
+{
+    int arr[] = {10, 20, 30, 40, 50, 60};
+    int *ptr1 = arr;
+    int *ptr2 = arr + 5;
+    printf ("ptr2 - ptr1 = %d\n", ptr2 - ptr1);
+    printf ("(char*)ptr2 - (char*) ptr1 = %d",  (char*)ptr2 - (char*)ptr1);
+    getchar();
+    return 0;
+}
+
+Output:
+
+  ptr2 - ptr1 = 5
+  (char*)ptr2 - (char*) ptr1 = 20
+
+In C, array name gives address of the first element in the array. So when we do ptr1 = arr, ptr1 starts pointing to address of first element of arr. Since array elements are accessed using pointer arithmetic, arr + 5 is a valid expression and gives the address of 6th element. Predicting value ptr2 – ptr1 is easy, it gives 5 as there are 5 inetegers between these two addresses. When we do (char *)ptr2, ptr2 is typecasted to char pointer. In expression “(int*)ptr2 – (int*)ptr1″, pointer arithmetic happens considering character poitners. Since size of a character is one byte, we get 5*sizeof(int) (which is 20) as difference of two pointers.
+As an excercise, predict the output of following program.
+
+#include<stdio.h>
+int main()
+{
+    char arr[] = "geeksforgeeks";
+    char *ptr1 = arr;
+    char *ptr2 = ptr1 + 3;
+    printf ("ptr2 - ptr1 = %d\n", ptr2 - ptr1);
+    printf ("(int*)ptr2 - (int*) ptr1 = %d",  (int*)ptr2 - (int*)ptr1);
+    getchar();
+    return 0;
+}
+

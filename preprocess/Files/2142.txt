@@ -1,0 +1,39 @@
+
+First of all, what is function overloading? Function overloading is a feature of a programming language that allows one to have many functions with same name but with different signatures.
+This feature is present in most of the Object Oriented Languages such as C++ and Java. But C (not Object Oriented Language) doesn’t support this feature. However, one can achieve the similar functionality in C indirectly. One of the approach is as follows.
+Have a void * type of pointer as an argument to the function. And another argument telling the actual data type of the first argument that is being passed.
+
+   int foo(void * arg1, int arg2);
+
+Suppose, arg2 can be interpreted as follows. 0 = Struct1 type variable, 1 = Struct2 type variable etc. Here Struct1 and Struct2 are user defined struct types.
+While calling the function foo at different places…
+
+    foo(arg1, 0);   /*Here, arg1 is pointer to struct type Struct1 variable*/
+    foo(arg1, 1);    /*Here, arg1 is pointer to struct type Struct2 variable*/
+
+Since the second argument of the foo keeps track the data type of the first type, inside the function foo, one can get the actual data type of the first argument by typecast accordingly. i.e. inside the foo function
+
+if(arg2 == 0)
+{
+  struct1PtrVar = (Struct1 *)arg1;
+}
+else if(arg2 == 1)
+{
+  struct2PtrVar = (Struct2 *)arg1;
+}
+else
+{
+  /*Error Handling*/
+}
+
+There can be several other ways of implementing function overloading in C. But all of them will have to use pointers – the most powerful feature of C.
+In fact, it is said that without using the pointers, one can’t use C efficiently & effectively in a real world program!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,24 @@
+post tri cover mani ambigu question like follow 
+guess output follow program 
+program 1 includ stdio h int f1 printf geek return 1 int f2 printf forgeek return 1 int main int p f1 f2 return 0 program 2 includ stdio h int x 20 int f1 x x 10 return x int f2 x x 5 return x int main int p f1 f2 printf p p return 0 program 3 includ stdio h int main int 8 int p printf n p output program undefin unspecifi 
+output may differ differ compil differ machin 
+like ask valu undefin automat variabl 
+reason undefin behavior program 1 oper standard defin order evalu operand 
+either f1 f2 may execut first 
+output may either geeksforgeek forgeeksgeek 
+similar oper similar oper like bitwis bitwis etc standard defin order evalu operand 
+evalu express may also produc side effect 
+exampl program 2 final valu p ambigu 
+depend order express evalu f1 execut first valu p 55 otherwis 40 output program 3 also undefin 
+may 64 72 may someth els 
+subexpress caus side effect modifi valu lead undefin behavior sinc also referenc elsewher express 
+unlik case certain specifi point execut sequenc call sequenc point side effect previou evalu guarante complet 
+sequenc point defin point comput program execut guarante side effect previou evalu perform side effect subsequ evalu yet perform 
+follow sequenc point list c standard end first operand follow oper logic b logic c condit 
+comma exampl output follow program guarante geeksforgeek compil machin 
+follow 3 line common program includ stdio h int f1 printf geek return 1 int f2 printf forgeek return 1 program 4 int main sinc defin sequenc point first operand guarante f1 complet first 
+int p f1 f2 return 0 program 5 int main sinc comma oper defin sequenc point first operand guarante f1 complet first 
+int p f1 f2 return 0 program 6 int main sinc 
+oper defin sequenc point first operand guarante f1 complet first 
+int p f1 
+f2 3 return 0 

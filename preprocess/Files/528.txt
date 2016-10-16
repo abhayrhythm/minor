@@ -1,0 +1,70 @@
+
+This article is continuation of following four articles:
+Ukkonen’s Suffix Tree Construction – Part 1
+Ukkonen’s Suffix Tree Construction – Part 2
+Ukkonen’s Suffix Tree Construction – Part 3
+Ukkonen’s Suffix Tree Construction – Part 4
+Please go through Part 1, Part 2, Part 3 and Part 4, before looking at current article, where we have seen few basics on suffix tree, high level ukkonen’s algorithm, suffix link and three implementation tricks and some details on activePoint along with an example string “abcabxabcd” where we went through six phases of building suffix tree.
+Here, we will go through rest of the phases (7 to 11) and build the tree completely.
+*********************Phase 7*********************************
+In phase 7, we read 7th character (a) from string S
+
+Set END to 7 (This will do extensions 1, 2, 3, 4, 5 and 6) – because we have 6 leaf edges so far by the end of previous phase 6.
+
+                    
+
+Increment remainingSuffixCount by 1 (remainingSuffixCount will be 1 here, i.e. there is only 1 extension left to be performed, which is extensions 7 for suffix ‘a’)
+Run a loop remainingSuffixCount times (i.e. one time) as below:
+
+If activeLength is ZERO [activePoint in previous phase was (root, x, 0)], set activeEdge to the current character (here activeEdge will be ‘a’). This is APCFALZ. Now activePoint becomes (root, ‘a’, 0).
+Check if there is an edge going out from activeNode (which is root in this phase 7) for the activeEdge. If not, create a leaf edge. If present, walk down. In our example, edge ‘a’ is present going out of activeNode (i.e. root), here we increment activeLength from zero to 1 (APCFER3) and stop any further processing.
+At this point, activePoint is (root, a, 1) and remainingSuffixCount remains set to 1 (no change there)
+
+
+At the end of phase 7, remainingSuffixCount is 1 (One suffix ‘a’, the last one, is not added explicitly in tree, but it is there in tree implicitly).
+Above Figure 33 is the resulting tree after phase 7.
+*********************Phase 8*********************************
+In phase 8, we read 8th character (b) from string S
+
+Set END to 8 (This will do extensions 1, 2, 3, 4, 5 and 6) – because we have 6 leaf edges so far by the end of previous phase 7 (Figure 34).
+
+                    
+
+Increment remainingSuffixCount by 1 (remainingSuffixCount will be 2 here, i.e. there are two extensions left to be performed, which are extensions 7 and 8 for suffixes ‘ab’ and ‘b’ respectively)
+Run a loop remainingSuffixCount times (i.e. two times) as below:
+
+Check if there is an edge going out from activeNode (which is root in this phase 8) for the activeEdge. If not, create a leaf edge. If present, walk down. In our example, edge ‘a’ is present going out of activeNode (i.e. root).
+Do a walk down (The trick 1 – skip/count) if necessary. In current phase 8, no walk down needed as activeLength < edgeLength. Here activePoint is (root, a, 1) for extension 7 (remainingSuffixCount = 2)
+Check if current character of string S (which is ‘b’) is already present after the activePoint. If yes, no more processing (rule 3). Same is the case in our example, so we increment activeLength from 1 to 2 (APCFER3) and we stop here (Rule 3).
+At this point, activePoint is (root, a, 2) and remainingSuffixCount remains set to 2 (no change in remainingSuffixCount)
+
+
+At the end of phase 8, remainingSuffixCount is 2 (Two suffixes, ‘ab’ and ‘b’, the last two, are not added explicitly in tree explicitly, but they are in tree implicitly).
+*********************Phase 9*********************************
+In phase 9, we read 9th character (c) from string S
+
+Set END to 9 (This will do extensions 1, 2, 3, 4, 5 and 6) – because we have 6 leaf edges so far by the end of previous phase 8.
+
+                    
+
+Increment remainingSuffixCount by 1 (remainingSuffixCount will be 3 here, i.e. there are three extensions left to be performed, which are extensions 7, 8 and 9 for suffixes ‘abc’, ‘bc’ and ‘c’ respectively)
+Run a loop remainingSuffixCount times (i.e. three times) as below:
+
+Check if there is an edge going out from activeNode (which is root in this phase 9) for the activeEdge. If not, create a leaf edge. If present, walk down. In our example, edge ‘a’ is present going out of activeNode (i.e. root).
+Do a walk down (The trick 1 – skip/count) if necessary. In current phase 9,walk down needed as activeLength(2) >= edgeLength(2). While walk down, activePoint changes to (Node A, c, 0) based on APCFWD (This is first time APCFWD is being applied in our example).
+Check if current character of string S (which is ‘c’) is already present after the activePoint. If yes, no more processing (rule 3). Same is the case in our example, so we increment activeLength from 0 to 1 (APCFER3) and we stop here (Rule 3).
+At this point, activePoint is (Node A, c, 1) and remainingSuffixCount remains set to 3 (no change in remainingSuffixCount)
+
+
+At the end of phase 9, remainingSuffixCount is 3 (Three suffixes, ‘abc’, ‘bc’ and ‘c’, the last three, are not added explicitly in tree explicitly, but they are in tree implicitly).
+*********************Phase 10*********************************
+In phase 10, we read 10th character (d) from string S
+
+Set END to 10 (This will do extensions 1, 2, 3, 4, 5 and 6) – because we have 6 leaf edges so far by the end of previous phase 9.
+
+                    
+
+Increment remainingSuffixCount by 1 (remainingSuffixCount will be 4 here, i.e. there are four extensions left to be performed, which are extensions 7, 8, 9 and 10 for suffixes ‘abcd’, ‘bcd’, ‘cd’ and ‘d’ respectively)
+Run a loop remainingSuffixCount times (i.e. four times) as below:
+
+*********************Extension 7*********************************

@@ -1,0 +1,38 @@
+introduct main idea creat app protect user confidenti data password bank accno pin 
+situat transfer one sensit data trust person 
+assum data kept secret long 
+someon open trust person mobil may look messag 
+vulner lose sensit data 
+avoid situat app provid use featur 
+user send sensit data app 
+app encod data format send respect person messag notif 
+messag default messag inbox encod form 
+even someon tri open messag app may abl read actual data messag 
+decod messag see messag help app 
+messag compos app call magic messag 
+modul magic hangout featur app use default messag servic android enabl sim 
+app allow user compos read messag 
+app uniqu inbox featur 
+app distinguish messag compos sent app normal messag app 
+make work properli view messag app inbox 
+applic also use advantag content provid one compon android make uniqu inbox 
+major modul app sendsmsact respons encod sensit data send encrypt messag respect person 
+receivesmsact act uniqu inbox help us decod messag uniqu featur app distinguish differ messag compos app messag compos app flag front 
+make inbox identifi differ normal messag magic messag 
+flag spoil data integr 
+data integr check flag 
+overal process magic hangout describ diagram caesar cipher plaintext shiftkey 26 key app use doubl encrypt 
+first encrypt normal substitut method 
+make stronger stream cipher techniqu use 
+key use second encrypt modifi mors code 
+app design view good ui 
+app self activ encod decod process 
+requir user choos encod pattern 
+user feel use like normal messag app great featur 
+also includ user want pick pattern decod messag 
+app identifi magic messag help flag set 
+magic messag uniqu flag set start 011 010 preambl make inbox prepar decod process 
+softwar tool requir android studio ide 1 0 2 sdk api level 21 minvers java 7 test real hardwar android smart phone version 4 2 2 jelli bean 51 android rule debug purpos idea contribut sowmya l r 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

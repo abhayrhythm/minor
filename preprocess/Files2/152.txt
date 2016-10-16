@@ -1,0 +1,5 @@
+solut divid problem subproblem size 2 call subproblem recurs 
+includ stdio h function calcul x rais power int power int x unsign int 0 return 1 els 2 0 return power x 2 power x 2 els return x power x 2 power x 2 program test function power int main int x 2 unsign int 3 printf power x getchar return 0 time complex n space complex 1 algorithm paradigm divid conquer 
+function optim logn calcul power x 2 store 
+function calcul x rais power logn int power int x unsign int int temp 0 return 1 temp power x 2 2 0 return temp temp els return x temp temp time complex optim solut logn let us extend pow function work neg float x 
+extend version power function work float x neg includ stdio h float power float x int float temp 0 return 1 temp power x 2 2 0 return temp temp els 0 return x temp temp els return temp temp x program test function power int main float x 2 int 3 printf f power x getchar return 0 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

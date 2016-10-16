@@ -1,0 +1,35 @@
+
+Predict the output of below program
+
+
+int main()
+{
+ char *ptr = "geeksforgeeks";
+ printf("%c\n", *&*&*ptr);
+ 
+ getchar();
+ return 0;
+}
+
+Output: g
+Explanation:  The operator * is used for dereferencing and the operator & is used to get the address.  These operators cancel effect of each other when used one after another. We can apply them alternatively any no. of times.  For example *ptr gives us g,  &*ptr gives address of g, *&*ptr again g, &*&*ptr address of g, and finally *&*&*ptr gives ‘g’
+Now try below
+
+int main()
+{
+ char *ptr = "geeksforgeeks";
+ printf("%s\n", *&*&ptr);
+ 
+ getchar();
+ return 0;
+}
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

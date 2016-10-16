@@ -1,0 +1,17 @@
+
+Predict the output of below C programs. 
+Question 1
+
+#include<stdio.h>
+int main(void)
+{
+  int a = 1;
+  int b = 0;
+  b = ++a + ++a;
+  printf("%d %d",a,b);
+  getchar();
+  return 0;
+}
+
+Output: Undefined Behavior
+See http://en.wikipedia.org/wiki/C_syntax#Undefined_behavior )

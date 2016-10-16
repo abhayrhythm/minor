@@ -1,0 +1,21 @@
+typic prioriti queue requir follow oper effici 
+get top prioriti element get minimum maximum insert element remov top prioriti element decreas key binari heap support oper follow time complex 1 logn logn logn self balanc binari search tree like avl tree red black tree etc also support oper time complex 
+find minimum maximum natur 1 easili implement 1 keep extra pointer minimum maximum updat pointer insert delet requir 
+delet updat find inord predecessor successor 
+insert element natur logn remov maximum minimum also logn decreas key done logn delet follow insert 
+see detail 
+binari heap prefer prioriti queue 
+sinc binari heap implement use array alway better local refer oper cach friendli 
+although oper time complex constant binari search tree higher 
+build binari heap n time 
+self balanc bst requir nlogn time construct 
+binari heap requir extra space pointer 
+binari heap easier implement 
+variat binari heap like fibonacci heap support insert decreas key θ 1 time binari heap alway better 
+although binari heap prioriti queue bst advantag list advantag fact bigger compar binari heap 
+search element self balanc bst logn n binari heap 
+print element bst sort order n time binari heap requir nlogn time 
+floor ceil found logn time 
+k th largest smallest element found logn time augment tree addit field 
+articl contribut vivek gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

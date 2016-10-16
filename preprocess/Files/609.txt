@@ -1,0 +1,68 @@
+
+I was interviewed in Delhi for SDE-I position in Kindle Frameworks Team at Amazon. I was working as a Project Lead in Samsung, Noida and had a total experience of 1 year 10 months in the Software Industry.
+Round 1 : Written
+
+Print Boundary Traversal of a Given Binary Tree – http://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+Add Two Numbers Represented by Linked Lists – http://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+Print all Possible Permutations of a Given String by Placing Spaces (zero or one) – http://www.geeksforgeeks.org/print-possible-strings-can-made-placing-spaces/ 
+
+There were about 80 candidates and the time allotted for this round is 1 hour. I was able to write all the 3 codes correctly in just 20 min and was the first candidate to move onto the second round.
+Round 2 : Problem Solving (F2F)
+
+Median of Two Sorted Arrays –http://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+Equal Size – http://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+Different Sizes – http://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/
+Maximum Size Square Sub-matrix with all 1s in a Given Boolean Matrix – http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+
+Round 3 : Design and Data Structures (F2F)
+
+Behavioral Questions :
+
+Tell me about your Current Projects in Samsung.
+What are your responsibilites as a Project Lead ?
+Why do you want to join Amazon when you are doing so good in Samsung ?
+At last a 15 min discussion about the most difficult problem I ever faced and how I tackled it with my coding skills and knowledge.
+
+
+
+
+Given a Sorted Dictionary of an Alien Language, Find Order of Characters – http://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+What do mean by Dynamic Binding and Virtual Functions in C++ ? http://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/
+Discussion about Mutexes, Semaphores, ISR (Interrupt Service Routines), Deadlocks. http://www.geeksforgeeks.org/mutex-vs-semaphore/ 
+
+The interviewer was highly impressed with my coding skills and shook hands with a sense of approval.
+Round 4 : Hiring Manager (F2F)
+The Hiring Manager introduced himself and told me that I’ve been doing really great till now. Then he grinned at me and said “ Lets hope you don’t mess it up in this round “ .
+(1) Which Sorting Algorithm is the fastest and why would you prefer it over others ?
+While telling the answer, I said in between “ If there would have been millions of numbers…… “ and he caught that specific word of mine “millions” and hence the next 2 questions found the way on their own.
+
+In a city with millions of people, I want to sort them on the basis of their age. Which Sorting Algorithm would you use and why ?There’s a Galaxy with Billions of Stars and distance of each star from the Sun is given . I want the closest 1 million stars from the Sun. Which Data Structure would you use and what would be the complexity ? (It is a variation of Finding K Smallest Elements in an Array)-   http://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+Find distance between two given keys of a Binary Tree http://www.geeksforgeeks.org/find-distance-two-given-nodes/ 
+
+He scrutinized the entire code for any possible errors and found it perfect.
+
+Discussion about Inner and Outer Joins in SQL. http://quiz.geeksforgeeks.org/inner-join-vs-outer-join/ 
+
+Then he stood up and shook my hands with a broad smile and said “ Well Done Man ! ” and left.
+Round 5 : Bar Raiser (F2F)
+
+ Design an  Algorithm to Transform One Word to Another through Valid Words of a Given Dictionary. (It is clearly a variation of the  Edit Distance Problem, but in Edit Distance we do not care about if the intermediate word is valid or not) .- http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
+
+Only this question was asked in this round and the discussion went on for about 45 minutes.
+All credit goes to  http://www.geeksforgeeks.org/ team for providing such an inspirational and a brilliant platform for coders. Keep it up guys, Way to go !
+Suggestion for other candidates interviewing at Amazon :
+
+Try to write Neat and Clean codes without any cutting or hassle, taking care of all the boundary cases.
+Be very precise and explicit in your answers. Keep Coding and All the Best !
+
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,21 @@
+edit two string one follow chang 
+add charact delet charact chang charact given two string s1 s2 find s1 convert s2 exactli one edit 
+expect time complex n n length two string 
+exampl input s1 geek s2 geek output ye number edit 1 input s1 geek s2 geek output number edit 0 input s1 geak s2 geek output ye number edit 1 input s1 peak s2 geek output number edit 2 strongli recommend minim browser tri first 
+simpl solut find edit distanc use dynam program 
+distanc 1 return true els return fals 
+time complex solut n2 effici solut simultan travers string keep track count differ charact 
+complet algorithm 
+let input string s1 s2 length input string n respect 
+1 differ n 1 return fals 
+2 initi count edit 0 
+3 start travers string first charact 
+current charact match increment count edit ii count becom 1 return fals iii length one string possibl edit remov charact 
+therefor move ahead larger string 
+iv length possibl edit chang charact 
+therefor move ahead string 
+b els move ahead string 
+c python implement idea 
+c c program check given two string distanc one 
+includ bit stdc h use namespac std return true edit distanc s1 s2 one els fals bool iseditdistanceon string s1 string s2 find length given string int s1 length n s2 length differ length 1 string one distanc ab n 1 return fals int count 0 count edit int 0 j 0 j n current charact match s1 s2 j count 1 return fals length one string possibl edit remov charact n els n j els iflength string j increment count edit count els current charact match j last charact extra string j n count return count 1 driver program int main string s1 gfg string s2 gf iseditdistanceon s1 s2 
+cout ye cout return 0 

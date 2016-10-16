@@ -1,0 +1,19 @@
+steiner tree 
+given graph subset vertic graph steiner tree span though given subset 
+steiner tree may contain vertic given subset use connect vertic subset 
+given set vertic call termin vertic vertic use construct steiner tree call steiner vertic 
+steiner tree problem find minimum cost steiner tree 
+see exampl 
+span tree vs steiner tree minimum span tree minimum weight tree span vertic 
+given subset termin vertic equal set vertic steiner tree problem problem becom minimum span tree problem 
+given subset contain two vertic shortest path problem two vertic 
+find minimum span tree polynomi time solvabl minimum steiner tree problem np hard relat decis problem np complet 
+applic steiner tree situat task minim cost connect among import locat like vlsi design comput network etc 
+shortest path base approxim algorithm sinc steiner tree problem np hard polynomi time solut alway give optim cost 
+therefor approxim algorithm solv 
+one simpl approxim algorithm 
+1 start subtre consist one given termin vertex 2 span termin select termin x closest vertex b add shortest path connect x algorithm 2 2 n approxim e guarante solut produc algorithm ration optim solut given graph n vertic 
+better algorithm also provid better ratio 
+refer refer detail 
+refer www cs uu nl doc vakken teoud steiner ppt articl contribut shivam gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

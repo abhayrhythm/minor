@@ -1,0 +1,31 @@
+given string partit string palindrom partit everi substr partit palindrom 
+exampl aba b bbabb b aba palindrom partit ababbbabbababa 
+determin fewest cut need palindrom partit given string 
+exampl minimum 3 cut need ababbbabbababa 
+three cut babbbab b ababa 
+string palindrom minimum 0 cut need 
+string length n contain differ charact minimum n 1 cut need 
+solut problem variat matrix chain multipl problem 
+string palindrom simpli return 0 els like matrix chain multipl problem tri make cut possibl place recurs calcul cost cut return minimum valu 
+let given string str minpalpart function return fewest cut need palindrom partit 
+follow optim substructur properti 
+start index j end index 
+must pass 0 j n 1 minpalpart str j 0 j 
+string length 1 minpalpart str j 0 str j palindrom 
+none condit true minpalpart str j calcul recurs use follow formula 
+minpalpart str j min minpalpart str k 1 minpalpart str k 1 j k vari j 1 follow dynam program solut 
+store solut subproblem two array p c reus calcul valu 
+dynam program solut palindrom partit problem includ stdio h includ string h includ limit h util function get minimum two integ int min int int b return b 
+b return minimum number cut need partit string everi part palindrom int minpalpart char str get length string int n strlen str creat two array build solut bottom manner c j minimum number cut need palindrom partit substr str j p j true substr str j palindrom els fals note c j 0 p j true int c n n bool p n n int j k l differ loop variabl everi substr length 1 palindrom 0 n p true c 0 l substr length 
+build solut bottom manner consid substr length start 2 n loop structur matrx chain multipl problem see http www geeksforgeek org archiv 15553 l 2 l n l substr length l set differ possibl start index 0 n l 1 j l 1 set end index l 2 need compar two charact 
+els need check two corner charact valu p 1 j 1 l 2 p j str str j els p j str str j p 1 j 1 str j palindrom c j 0 p j true c j 0 els make cut everi possibl localt start j get minimum cost cut 
+c j int_max k k j 1 k c j min c j c k c k 1 j 1 return min cut valu complet string 
+e str 0 n 1 return c 0 n 1 driver program test function int main char str ababbbabbababa printf min cut need palindrom partit minpalpart str return 0 output min cut need palindrom partit 3 time complex n3 optim approach approach calcul minimum cut find palindrom substr 
+find palindrom substr 1st calcul minimum cut time complex reduc n2 
+thank vivek suggest optim 
+dynam program solut palindrom partit problem includ stdio h includ string h includ limit h util function get minimum two integ int min int int b return b 
+b return minimum number cut need partit string everi part palindrom int minpalpart char str get length string int n strlen str creat two array build solut bottom manner c minimum number cut need palindrom partit substr str 0 p j true substr str j palindrom els fals note c 0 p 0 true int c n bool p n n int j k l differ loop variabl everi substr length 1 palindrom 0 n p true l substr length 
+build solut bottom manner consid substr length start 2 n l 2 l n l substr length l set differ possibl start index 0 n l 1 j l 1 set end index l 2 need compar two charact 
+els need check two corner charact valu p 1 j 1 l 2 p j str str j els p j str str j p 1 j 1 0 n p 0 true c 0 els c int_max j 0 j j p j 1 true 1 c j c c 1 c j return min cut valu complet string 
+e str 0 n 1 return c n 1 driver program test function int main char str ababbbabbababa printf min cut need palindrom partit minpalpart str return 0 output min cut need palindrom partit 3 time complex n2 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

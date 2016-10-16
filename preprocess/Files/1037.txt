@@ -1,0 +1,41 @@
+
+Predict the output of following C programs.
+Question 1
+
+#include<stdio.h>
+int fun()
+{
+  static int num = 40;
+  return num--;
+}
+
+int main()
+{
+  for(fun(); fun(); fun())
+  {
+    printf("%d ", fun());
+  }
+  getchar();
+  return 0;
+}
+
+Output: 38 35 32 29 26 23 20 17 14 11 8 5 2
+Since num is static in fun(), the old value of num is preserved for subsequent functions calls.  Also, since the statement return num– is postfix, it returns the old value of num, and updates the value for next function call.
+Question 2
+
+#include<stdio.h>
+int main()
+{
+  char *s[] = { "knowledge","is","power"};
+  char **p;
+  p = s;
+  printf("%s ", ++*p);
+  printf("%s ", *p++);
+  printf("%s ", ++*p);
+
+  getchar();
+  return 0;
+}
+
+Output:  nowledge nowledge s
+Let us consider the expression ++*p in first printf(). Since precedence of prefix ++ and * is same

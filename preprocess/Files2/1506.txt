@@ -1,0 +1,11 @@
+given array represent min heap convert max heap n time 
+input arr 3 5 9 6 8 20 10 12 18 9 3 5 9 6 8 20 10 12 18 9 output arr 20 18 10 12 9 9 3 5 6 8 max heap form input element 20 18 10 12 9 9 3 5 6 8 problem might look complex first look 
+final goal build max heap 
+idea simpl simpli build max heap without care input 
+start bottom rightmost intern mode min heap heapifi intern mode bottom way build max heap 
+c implement c program convert min heap max heap includ bit stdc h use namespac std heapifi subtre root given index void maxheapifi int arr int int n int l 2 1 int r 2 2 int largest l n arr l arr largest l r n arr r arr largest largest r largest swap arr arr largest maxheapifi arr largest n function basic build max heap void convertmaxheap int arr int n start bottommost rightmost intern mode heapifi intern mode bottom way int n 2 2 0 maxheapifi arr n util function print given array given size void printarray int arr int size int 0 size printf arr driver program test function int main array repres min heap int arr 3 5 9 6 8 20 10 12 18 9 int n sizeof arr sizeof arr 0 printf min heap array printarray arr n convertmaxheap arr n printf nmax heap array printarray arr n return 0 output min heap array 3 5 9 6 8 20 10 12 18 9 max heap array 20 18 10 12 9 9 3 5 6 8 complex solut might look like nlogn n 
+refer g fact detail 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

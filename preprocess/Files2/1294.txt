@@ -1,0 +1,16 @@
+given n x n matrix find k x k submatrix k n k 1 sum element submatrix maximum 
+input matrix contain zero posit neg number 
+exampl consid matrix k 3 output print sub matrix enclos blue 
+strongli recommend minim browser tri first 
+simpl solut consid possibl sub squar size k x k input matrix find one maximum sum 
+time complex solut n2k2 
+solv problem n2 time 
+problem mainli extens problem print sum 
+idea preprocess given squar matrix 
+preprocess step calcul sum vertic strip size k x 1 temporari squar matrix stripsum 
+sum vertic strip calcul sum first sub squar row sum first k strip row remain sub squar calcul sum 1 time remov leftmost strip previou subsquar ad rightmost strip new squar 
+c implement idea 
+effici c program find maximum sum sub squar matrix includ bit stdc h use namespac std size given matrix defin n 5 n 2 function maximum sum sub squar size k x k given squar matrix size n x n void printmaxsumsub int mat n int k k must smaller equal n k n return 1 preprocess store sum strip size k x 1 int stripsum n n go column column int j 0 j n j calcul sum first k x 1 rectangl column int sum 0 int 0 k sum mat j stripsum 0 j sum calcul sum remain rectangl int 1 n k 1 sum mat k 1 j mat 1 j stripsum j sum max_sum store maximum sum posit matrix int max_sum int_min po null 2 calcul sum sub squar use stripsum int 0 n k 1 calcul print sum first subsquar row int sum 0 int j 0 j k j sum stripsum j updat max_sum posit result sum max_sum max_sum sum po mat 0 calcul sum remain squar current row remov leftmost strip previou sub squar ad new strip int j 1 j n k 1 j sum stripsum j k 1 stripsum j 1 updat max_sum posit result sum max_sum max_sum sum po mat j print result matrix int 0 k int j 0 j k j cout po n j cout endl driver program test function int main int mat n n 1 1 1 1 1 2 2 2 2 2 3 8 6 7 3 4 4 4 4 4 5 5 5 5 5 int k 3 cout maximum sum 3 x 3 matrix n printmaxsumsub mat k return 0 output maximum sum 3 x 3 matrix 8 6 7 4 4 4 5 5 5 relat articl given n x n squar matrix find sum sub squar size k x k maximum sum rectangl 2d matrix articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

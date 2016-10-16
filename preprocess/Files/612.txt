@@ -1,0 +1,46 @@
+
+Online Round: 2 Programming questions for 2 Hours
+
+ Convert set of strings in number as given on phone keypad. String will contain only lower case characters. Print these strings with numbers in descending order of numbers, if numbers are same then lexicographical order of strings.
+Input: amazon, rat,pat
+Output: 262966 amazon
+            728 pat
+            728 rat
+ In a M*N maze you can move in any direction(left,right,up,down). There are bomb on some positions. Starting from (0,0) find the number of moves require to exit from the maze. Exit point is (m-1,n-1). If its not possible then return -1. Similar to Minesweeper Game.
+
+1st Round(F2F) 1hr:
+Ask everything about project working at current company. 
+
+ https://www.careercup.com/question?id=7449675 in-place. Had to write proper code for it.
+
+2nd Round(F2F) 1hr:
+Asked everything about project and lots of cross questions on the same. Interviewer gave me lots of scenarios related to my project and ask to solve then.
+
+http://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/  in place. He asked me if i knew the question, I said yes. Then he told me to write code covering all corner cases.
+
+
+3rd Round(F2F) 1hr:
+
+ http://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/ . Asked all possible solutions and then asked to write code for it.
+http://www.geeksforgeeks.org/merging-intervals/. Code for it.
+ http://stackoverflow.com/questions/14094914/count-the-number-of-occurrences-of-a-number-in-a-sorted-array. O(nlogn). Asked to explain the solution then to write the code.
+
+4th Round(F2F) 2hr:
+
+ Correct a deformed BST. All kind of approaches and proper reasoning for each. Then asked to write the code.
+Array question. similar to http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/ .
+http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/.
+
+
+All the interviewers were very helpful. In all rounds for every question they were looking for what kind of approach you are going to use and proper reasoning for the same. Not just coding , neat and efficient coding was required because for each question at the end you have to code and they expect you not to miss edge cases. 
+If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

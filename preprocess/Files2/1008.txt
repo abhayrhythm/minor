@@ -1,0 +1,24 @@
+fork system call use creat new process 
+newli creat process becom child caller process 
+take paramet return integ valu 
+differ valu return fork 
+neg valu creation child process unsuccess 
+zero return newli creat child process 
+posit valu return parent caller 
+valu contain process id newli creat child process 
+exampl 1 output program 
+includ stdio h includ sy type h int main pid_t pid fork pid 0 printf child process creat n els printf parent process creat n return 0 output parent process creat child process creat code child process creat fork return 0 child process posit integ parent process 
+2 calcul number time hello print 
+includ stdio h includ sy type h int main fork fork fork printf hello n return 0 output hello hello hello hello hello hello hello hello number time hello print equal number process creat 
+total number process 2n n number fork system call 
+n 3 2 3 8 let us put label name three line fork line 1 fork line 2 fork line 3 l1 1 child process creat line 1 l2 l2 2 child process creat line 2 l3 l3 l3 l3 4 child process creat line 3 total eight process new child process one origin process 
+pleas note program compil window environ 
+fork vs exec fork system call creat new process 
+new process creat fork copi current process except return valu 
+exex system call replac current process new program 
+exercis 1 process execut follow code 0 n fork total number child process creat gate cs 2008 n b 2 n 1 c 2 n 2 n 1 1 see solut 
+2 consid follow code fragment fork 0 5 printf n els 5 printf n let u v valu print parent process x valu print child process 
+one follow true 
+gate cs 2005 u x 10 v b u x 10 v c u 10 x v u 10 x v see solut 
+3 predict output program 
+includ stdio h includ unistd h int main fork fork fork fork fork printf fork n return 0 see solut refer http www csl mtu edu cs4411 ck www note process fork creat html pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

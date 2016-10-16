@@ -1,0 +1,6 @@
+time complex function 
+void fun int n int k int 1 n int p pow k int j 1 j p j 1 work time complex function written 1k 2k 3k n1k 
+let us tri exampl k 1 sum 1 2 3 n n n 1 2 n2 n 2 k 2 sum 12 22 32 n12 
+n n 1 2n 1 6 n3 3 n2 2 n 6 k 3 sum 13 23 33 n13 
+n2 n 1 2 4 n4 4 n3 2 n2 4 gener asymptot valu written nk 1 k 1 θ nk note asymptot notat like θ alway ignor lower order term 
+time complex θ nk 1 k 1 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

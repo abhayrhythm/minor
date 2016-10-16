@@ -1,0 +1,10 @@
+order operand logic oper import c c 
+mathemat logic exor etc oper commut 
+result chang even swap rh lh oper 
+c c may languag well even though oper commut order critic 
+exampl see follow code travers everi altern node ptemp ptemp next jump next node ptemp ptemp next next first part ptemp evalu null follow ptemp next 
+ptemp next place first pointer ptemp dereferenc runtim error ptemp null 
+mandatori follow order 
+infact help gener effici code 
+pointer ptemp null second part evalu sinc outcom express guarante 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

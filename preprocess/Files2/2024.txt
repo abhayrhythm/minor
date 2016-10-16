@@ -1,0 +1,19 @@
+swap two variabl 
+question may look silli neither geeki 
+see follow piec code swap two integ xor swap void myswap int x int x x x first glanc may think noth wrong code 
+howev prompt reason behind opt xor swap logic person clue less 
+perhap commut oper fulfil need corner case 
+avoid use fanci code snippet product softwar 
+creat runtim surpris 
+observ follow note code code behavior undefin 
+statement x x modifi variabl without sequenc point 
+creat pipelin stall execut processor pipelin architectur 
+compil take advantag optim swap oper 
+processor provid singl instruct swap two variabl 
+opt standard librari function chanc librari would optim 
+even compil recogn standard function gener optimum code 
+code readabl poor 
+much import write maintain code 
+thank venki write articl 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

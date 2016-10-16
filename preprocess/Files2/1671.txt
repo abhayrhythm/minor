@@ -1,0 +1,22 @@
+design data structur reserv futur job singl machin follow constraint 
+1 everi job requir exactli k time unit machin 
+2 machin one job time 
+3 time part system 
+futur job keep come differ time 
+reserv futur job done exist reserv within k time frame 4 whenev job finish reserv time plu k becom equal current time remov system 
+exampl let time taken job k 4 time 0 reserv request job time 2 futur come reserv done machin avail conflict reserv reserv 2 time 3 reserv request time 15 7 20 3 job 7 15 20 reserv 3 cannot reserv conflict reserv 2 reserv 2 7 15 20 time 6 reserv request time 30 17 35 45 job 30 35 45 reserv 17 cannot reserv conflict reserv 15 reserv 7 15 30 35 45 
+note job 2 remov must finish 6 let us consid differ data structur task 
+one solut keep futur reserv sort array 
+time complex check conflict done logn use binari search insert delet take n time 
+hash cannot use search exact search search within k time frame 
+idea use binari search tree maintain set reserv job 
+everi reserv request insert conflict reserv 
+insert job within k time frame check 
+k distant node insert path root reject reserv request otherwis reserv 
+bst node store futur reserv struct node int time reserv time struct node left right util function creat new bst node struct node newnod int item struct node temp struct node malloc sizeof struct node temp time item temp left temp right null return temp bst insert process new reserv request given time futur time 
+function reserv exist job within k time frame new job struct node insert struct node root int time int k tree empti return new node root null return newnod time check job conflict exist reserv time k root time time k root time return root otherwis recur tree time root time root left insert root left time k els root right insert root right time k return unchang node pointer return root delet job simpl bst delet oper 
+normal bst take h time insert delet oper 
+use self balanc binari search tree like avl red black oper log n time 
+question adopt mit lectur 
+articl contribut rajeev 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,20 @@
+two string said complet concaten contain 26 english alphabet 
+exampl abcdefghi jklmnopqrstuvwxyz complet togeth charact z 
+given two set size n respect need find number pair complet concaten string set 1 string set 2 input set1 abcdefgh geeksforgeek lmnopqrst abc set2 ijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz defghijklmnopqrstuvwxyz output 7 total complet pair form abcdefghijklmnopqrstuvwxyz abcdefghabcdefghijklmnopqrstuvwxyz abcdefghdefghijklmnopqrstuvwxyz geeksforgeeksabcdefghijklmnopqrstuvwxyz lmnopqrstabcdefghijklmnopqrstuvwxyz abcabcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz method 1 naiv method simpl solut consid pair string concaten check concaten string charact z use frequenc array 
+c implement find pair complet string 
+includ iostream use namespac std return count complet pair set 0 n 1 set2 0 1 int countcompletepair string set1 string set2 int n int int result 0 consid pair string int 0 n int j 0 j j creat concaten current pair string concat set1 set2 j comput frequenc charact concaten string 
+int frequenc 26 0 int k 0 k concat length k frequenc concat k frequenc charact greater 0 pair complet 
+int 0 26 frequenc 1 break 26 result return result driver code int main string set1 abcdefgh geeksforgeek lmnopqrst abc string set2 ijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz defghijklmnopqrstuvwxyz int n sizeof set1 sizeof set1 0 int sizeof set2 sizeof set2 0 cout countcompletepair set1 set2 n return 0 output 7 method 2 optim method use bit manipul method compress frequenc array integ 
+assign bit integ charact set 1 charact found 
+perform string set 
+final compar two integ set combin bit set form complet string pair 
+c program find count complet pair includ iostream use namespac std return count complet pair set 0 n 1 set2 0 1 int countcompletepair string set1 string set2 int n int int result 0 con_s1 go store integ whose set bit repres presenc absenc charact string set1 
+similarli con_s2 go store integ whose set bit repres presenc absenc charact string set2 int con_s1 n con_s2 process string set1 int 0 n initi bit 0 con_s1 0 int j 0 j set1 length j set ascii code char j 1 compress integ 
+con_s1 con_s1 1 set1 j process string set2 int 0 initi bit 0 con_s2 0 int j 0 j set2 length j set ascii code char j 1 compress integ 
+con_s2 con_s2 1 set2 j assign variabl whose 26 0 25 bit set 1 long long complet 1 26 1 consid everi pair integ con_s1 con_s2 check pair complet 
+int 0 n int j 0 j j bit set string complet 
+con_s1 con_s2 j complet result return result driver code int main string set1 abcdefgh geeksforgeek lmnopqrst abc string set2 ijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz defghijklmnopqrstuvwxyz int n sizeof set1 sizeof set1 0 int sizeof set2 sizeof set2 0 cout countcompletepair set1 set2 n return 0 output 7 articl contribut rishabh jain 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

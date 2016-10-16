@@ -1,0 +1,9 @@
+problem print possibl path top left bottom right mxn matrix constraint cell either move right 
+algorithm simpl recurs algorithm cell first print path go print path go right 
+recurs cell encount 
+follow c implement algorithm 
+includ iostream use namespac std mat pointer start mxn matrix j current posit robot first call use 0 0 n diment given matrix pi next index file path array path 0 pi 1 path travers robot till array hold path need space least n element void printallpathsutil int mat int int j int int n int path int pi reach bottom matrix left option move right 1 int k j k n k path pi k j mat n k int l 0 l pi n j l cout path l cout endl return reach right corner matrix left downward movement 
+j n 1 int k k k path pi k mat k n j int l 0 l pi l cout path l cout endl return add current cell path gener path pi mat n j print path possibl move printallpathsutil mat 1 j n path pi 1 print path possibl move right printallpathsutil mat j 1 n path pi 1 print path possibl move diagon printallpathsutil mat 1 j 1 n path pi 1 main function print path top left bottom right matrix mat size mxn void printallpath int mat int int n int path new int n printallpathsutil mat 0 0 n path 0 driver program test abv function int main int mat 2 3 1 2 3 4 5 6 printallpath mat 2 3 return 0 output 1 4 5 6 1 2 5 6 1 2 3 6 note code last line printallpathsutil comment uncom line get path top left bottom right nxm matrix diagon movement also allow 
+also move cell permit code improv pass restrict array function left exercis 
+articl contribut hariprasad ng 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,8 @@
+follow differ malloc oper new 
+1 new call constructor malloc 
+fact primit data type char int float etc also initi new 
+exampl program print 10 
+includ iostream use namespac std int main int n new int 10 initi new cout n getchar return 0 2 new oper malloc fucntion 
+3 new return exact data type malloc return void 
+pleas write comment find anyth incorrect post want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

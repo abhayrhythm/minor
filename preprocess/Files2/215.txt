@@ -1,0 +1,27 @@
+mani peopl must room make probabl 100 two peopl room birthday 
+answer 367 sinc 366 possibl birthday includ februari 29 
+question simpl 
+tri question 
+mani peopl must room make probabl 50 two peopl room birthday 
+answer 23 number surprisingli low 
+fact need 70 peopl make probabl 99 9 
+let us discuss gener formula 
+probabl two person among n birthday 
+let probabl two peopl room n birthday p 
+p easili evalu term p differ p differ probabl differ birthday 
+p 1 p differ p differ written 1 x 364 365 x 363 365 x 362 365 x 
+x 1 n 1 365 get express 
+person first last get birthday follow order birthday distinct first person birthday among 365 second person birthday first person third person birthday first two person 
+
+n th person birthday earlier consid n 1 person 
+approxim express express approxim use taylor seri 
+provid first order approxim ex x 1 appli approxim first express deriv p differ set x 365 thu express deriv p differ written 1 x 1 1 365 x 1 2 365 x 1 3 365 x 
+x 1 n 1 365 put valu 1 365 e 365 get follow 
+therefor p 1 p differ even coarser approxim given p take log side get revers formula 
+use approxim formula approxim number peopl given probabl 
+exampl follow c function find return smallest n probabl greater given p c implement approxim formula 
+follow c program approxim number peopl given probabl 
+c program approxim number peopl birthday paradox problem includ cmath includ iostream use namespac std return approxim number peopl given probabl int find doubl p return ceil sqrt 2 365 log 1 1 p int main cout find 0 70 output 30 sourc http en wikipedia org wiki birthday_problem applic 1 birthday paradox gener discuss hash show import collis handl even small set key 
+2 birthday attack articl contribut shubham 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

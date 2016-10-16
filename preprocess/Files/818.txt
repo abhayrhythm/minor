@@ -1,0 +1,25 @@
+
+Project Description
+The project, Client Master, is a simple but sophisticated client manager program, made using the Python language. I started this project in my attempt help my father, who is an Investment Consultant. This is my trial version, and there is still a lot more to add to this project.
+Purpose of Project
+
+It deals with Client Relationship Management System (CRM).
+ It helps the Investment Consultants to store each and every information related to their clients in a simple manner. The goal is to bring simple yet powerful client management system to the masses.
+It also finds the maturity value i.e. the amount payable at the end of a particular period, in case of a fixed deposit. If a client wants to get an FD done on the basis of the estimated maturity value then he can easily do that with the help of this application. The Investment Consultant can add his/her fixed deposit details and easily view them as and when required.
+
+Implementation
+https://github.com/gargi08/Client-Master
+Software Requirements
+Python 2.7;Python’s standard package Tkinter is used.
+An internet connection is required to open the Home Page as it includes the current position of the market including SENSEX, GOLD, etc for which data is fetched from a website.
+ 
+This idea is contributed by Gargi. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

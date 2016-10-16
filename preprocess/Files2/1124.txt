@@ -1,0 +1,30 @@
+given array integ write function return true triplet b c satisfi a2 b2 c2 
+exampl input arr 3 1 4 6 5 output true pythagorean triplet 3 4 5 
+input arr 10 4 6 12 5 output fals pythagorean triplet 
+strongli recommend click practic move solut 
+method 1 naiv simpl solut run three loop three loop pick three array element check current three element form pythagorean triplet 
+c implement simpl solut 
+c c program return true pythagorean triplet given aray 
+includ iostream use namespac std return true pythagorean triplet ar 0 n 1 bool istriplet int ar int n int 0 n int j 1 j n j int k j 1 k n k calcul squar array element int x ar ar ar j ar j z ar k ar k x z x z z x return true reach triplet found return fals driver program test function int main int ar 3 1 4 6 5 int ar_siz sizeof ar sizeof ar 0 istriplet ar ar_siz 
+cout ye cout return 0 java java program return true pythagorean triplet given aray 
+import java io 
+class pythagoreantriplet return true pythagorean triplet ar 0 n 1 static boolean istriplet int ar int n int 0 n int j 1 j n j int k j 1 k n k calcul squar array element int x ar ar ar j ar j z ar k ar k x z x z z x return true reach triplet found return fals driver program test function public static void main string arg int ar 3 1 4 6 5 int ar_siz ar length istriplet ar ar_siz true system println ye els system println code contribut devesh agraw output ye time complex solut n3 
+method 2 use sort solv n2 time sort array first 
+1 squar everi element input array 
+step take n time 
+2 sort squar array increas order 
+step take nlogn time 
+3 find triplet b c b c follow 
+fix last element sort array 
+search pair b c subarray first element 
+pair b c given sum found n time use meet middl algorithm discuss method 1 post 
+pair found current move one posit back repeat step 3 2 c implement algorithm 
+c c program return true pythagorean triplet given array 
+includ iostream includ algorithm use namespac std return true triplet follow properti j j k k note function modifi given array bool istriplet int arr int n squar array element int 0 n arr arr arr sort array element sort arr arr n fix one element one one find two element int n 1 2 find two element start two index variabl two corner array move toward int l 0 index first element arr 0 1 int r 1 index last element arr 0 1 l r triplet found arr l arr r arr return true els either move l r arr l arr r arr 
+l r reach triplet found return fals driver program test function int main int arr 3 1 4 6 5 int arr_siz sizeof arr sizeof arr 0 istriplet arr arr_siz 
+cout ye cout return 0 java java program return true pythagorean triplet given aray 
+import java io 
+import java util 
+class pythagoreantriplet return true triplet follow properti j j k k note function modifi given array static boolean istriplet int arr int n squar array element int 0 n arr arr arr sort array element array sort arr fix one element one one find two element int n 1 2 find two element start two index variabl two corner array move toward int l 0 index first element arr 0 1 int r 1 index last element arr 0 1 l r triplet found arr l arr r arr return true els either move l r arr l arr r arr l els r reach triplet found return fals driver program test function public static void main string arg int arr 3 1 4 6 5 int arr_siz arr length istriplet arr arr_siz true system println ye els system println code contribut devesh agraw output ye time complex method n2 
+articl contribut harshit gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

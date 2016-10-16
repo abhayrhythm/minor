@@ -1,0 +1,32 @@
+idea articl introduc c standard 
+c program produc differ result two differ compil 
+exampl consid follow simpl c program 
+void main program fail gcc return type main void compil turbo c decid whether legitim c program 
+consid follow program anoth exampl 
+produc differ result differ compil 
+includ stdio h int main int 1 printf n return 0 2 1 3 use g 4 2 1 linux i686 1 2 3 use sunstudio c 5 9 linux i686 2 1 3 use g 4 2 1 suno x86pc 1 2 3 use sunstudio c 5 9 suno x86pc 1 2 3 use g 4 2 1 suno sun4u 1 2 3 use sunstudio c 5 9 suno sun4u sourc stackoverflow compil right 
+answer question c standard 
+case need see c standard say program 
+c standard 
+latest c standard iso iec 9899 2011 also known c11 final draft publish 2011 c11 c99 
+c11 final draft avail 
+see complet histori c standard 
+know behavior program c standard 
+c standard leav behavior mani c construct undefin unspecifi simplifi specif allow flexibl implement 
+exampl c use automat variabl initi yield undefin behavior order evalu subexpress unspecifi 
+specif free compil whatev easiest effici program submit 
+conclus two exampl 
+let us consid first exampl void main standard say follow prototyp main 
+function call program startup name main 
+implement declar prototyp function 
+shall defin return type int paramet int main void two paramet refer argc argv though name may use local function declar int main int argc char argv equival 10 implement defin manner 
+return type void follow standard someth allow certain compil 
+let us talk second exampl 
+note follow statement c standard list unspecifi behavior 
+order function design argument subexpress within argument evalu function call 6 5 2 2 
+program whose behavior undefin unspecifi standard 
+programm never good idea use program construct whose behaviour undefin unspecifi program alway discourag 
+output program may chang compil machin 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

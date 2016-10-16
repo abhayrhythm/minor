@@ -1,0 +1,38 @@
+prerequisit grundi number nimber mex alreadi seen set 2 http www geeksforgeek org combinatori game theori set 2 game nim find win game nim without actual play game 
+suppos chang classic nim game bit 
+time player remov 1 2 3 stone number stone classic game nim 
+predict win 
+ye predict winner use spragu grundi theorem 
+spragu grundi theorem 
+suppos composit game one sub game made n sub game two player b spragu grundi theorem say b play optim e make mistak player start first guarante win xor grundi number posit sub game begin game non zero 
+otherwis xor evalu zero player lose definit matter 
+appli spragu grundi theorem 
+appli spragu grundi theorem imparti game solv 
+basic step list follow break composit game sub game 
+sub game calcul grundi number posit 
+calcul xor calcul grundi number 
+xor valu non zero player go make turn first player win els destin lose matter 
+exampl game game start 3 pile 3 4 5 stone player move may take posit number stone upto 3 pile provid pile much amount stone 
+last player move win 
+player win game assum player play optim 
+tell win appli spragu grundi theorem 
+see game compos sever sub game 
+first step sub game consid pile 
+second step see tabl grundi 3 3 grundi 4 0 grundi 5 1 alreadi seen calcul grundi number game previou articl 
+third step xor 3 4 5 2 fourth step sinc xor non neg number say first player win 
+c program implement 4 step 
+game descript game play two player n pile stone pile certain number stone 
+turn player select pile take non neg number stone upto 3 e 1 2 3 player cannot move consid lose game e one take last stone winner 
+find player win game player play optim make mistak 
+dynam program approach calcul grundi number mex find winner use spragu grundi theorem 
+includ bit stdc h use namespac std pile array initi count stone coin pile game start 
+n number pile grundi array grundi number correspond initi posit pile game pile grundi 0 base index defin player1 1 defin player2 2 function calcul mex valu set int calculatemex unordered_set int set int mex 0 set find mex set end mex return mex function comput grundi number n int calculategrundi int n int grundi grundi 0 0 grundi 1 1 grundi 2 2 grundi 3 3 grundi n 1 return grundi n unordered_set int set hash tabl int 1 3 set insert calculategrundi n grundi store result grundi n calculatemex set return grundi n function declar winner game void declarewinn int whoseturn int pile int grundi int n int xorvalu grundi pile 0 int 1 n 1 xorvalu xorvalu grundi pile xorvalu 0 whoseturn player1 printf player 1 win n els printf player 2 win n els whoseturn player1 printf player 2 win n els printf player 1 win n return driver program test function int main test case 1 int pile 3 4 5 int n sizeof pile sizeof pile 0 find maximum element int maximum max_el pile pile n array cach sub problem comput sub problem avoid int grundi maximum 1 memset grundi 1 sizeof grundi calcul grundi valu pile store int 0 n 1 calculategrundi pile grundi declarewinn player1 pile grundi n test case 2 int pile 3 8 2 int n sizeof pile sizeof pile 0 int maximum max_el pile pile n array cach sub problem comput sub problem avoid int grundi maximum 1 memset grundi 1 sizeof grundi calcul grundi valu pile store int 0 n 1 calculategrundi pile grundi declarewinn player2 pile grundi n return 0 output player 1 win refer http en wikipedia org wiki spragu e2 80 93grundy_theorem exercis reader consid game 
+game play two player n integ a1 a2 
+turn player select integ divid 2 3 6 take floor 
+integ becom 0 remov 
+last player move win 
+player win game player play optim hint see exampl 3 previou articl 
+articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

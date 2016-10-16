@@ -1,0 +1,22 @@
+given graph count number triangl 
+graph direct undirect 
+exampl input digraph v v 0 0 1 0 1 0 0 1 0 1 0 0 0 0 1 0 output 2 give adjac matrix repres follow direct graph 
+discuss method base graph trace work undirect graph 
+post new method discuss simpler work direct undirect graph 
+idea use three nest loop consid everi triplet j k check condit edg j j k k howev undirect graph triplet j k permut give six combin see previou post detail 
+henc divid total count 6 get actual number triangl 
+case direct graph number permut would 3 order node becom relev 
+henc case total number triangl obtain divid total count 3 exampl consid direct graph given follow c implement 
+c program count triangl graph 
+program adjac matrix represent graph 
+includ bit stdc h number vertic graph defin v 4 use namespac std function calcul number triangl simpl direct undirect graph 
+isdirect true graph direct fals otherwis int counttriangl int graph v v bool isdirect int count_triangl 0 initi result consid everi possibl triplet edg graph int 0 v int j 0 j v j int k 0 k v k check triplet satisfi condit graph j graph j k graph k count_triangl graph direct divis done 3 els divis 6 done isdirect 
+count_triangl 3 count_triangl 6 return count_triangl driver function check program int main creat adjac matrix undirect graph int graph v 0 1 1 0 1 0 1 1 1 1 0 1 0 1 1 0 creat adjac matrix direct graph int digraph v 0 0 1 0 1 0 0 1 0 1 0 0 0 0 1 0 cout number triangl undirect graph counttriangl graph fals cout n nthe number triangl direct graph counttriangl digraph true return 0 output number triangl undirect graph 2 number triangl direct graph 2 comparison approach previou approach advantag need calcul trace 
+matrix multipl requir 
+auxiliari matric requir henc optim space 
+work direct graph 
+disadvantag time complex n3 reduc 
+articl contribut ashutosh kumar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

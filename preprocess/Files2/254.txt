@@ -1,0 +1,15 @@
+given unsign integ swap odd bit even bit 
+exampl given number 23 00010111 convert 43 00101011 
+everi even posit bit swap adjac bit right side even posit bit highlight binari represent 23 everi odd posit bit swap adjac left side 
+take closer look exampl observ basic need right shift even bit exampl even bit 23 highlight 1 becom odd bit highlight 43 left shift odd bit 1 becom even bit 
+follow solut base observ 
+solut assum input number store use 32 bit 
+let input number x 1 get even bit x bitwis x 0xaaaaaaaa 
+number 0xaaaaaaaa 32 bit number even bit set 1 odd bit 0 
+2 get odd bit x bitwis x 0x55555555 
+number 0x55555555 32 bit number odd bit set 1 even bit 0 
+3 right shift even bit 
+4 left shift odd bit 
+5 combin new even odd bit return 
+c program swap even odd bit given number includ stdio h unsign int swapbit unsign int x get even bit x unsign int even_bit x 0xaaaaaaaa get odd bit x unsign int odd_bit x 0x55555555 even_bit 1 right shift even bit odd_bit 1 left shift odd bit return even_bit odd_bit combin even odd bit driver program test function int main unsign int x 23 00010111 output 43 00101011 printf u swapbit x return 0 output 43 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

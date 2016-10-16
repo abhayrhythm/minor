@@ -1,0 +1,28 @@
+given list contact contain usernam email phone number order 
+identifi contact e person mani differ contact output contact togeth 
+note 1 contact store three field order e phone number appear usernam usernam appear phone number 
+2 two contact either usernam email phone number 
+exampl input contact gaurav gaurav gmail com gaurav gfgqa com lucki lucki gmail com 1234567 gaurav123 5412312 gaurav123 skype com 
+gaurav1993 5412312 gaurav gfgqa com output 0 2 3 1 contact 2 contact 3 contact number 
+contact 0 contact 3 e mail address 
+therefor contact 0 contact 2 also 
+strongli recommend minim browser tri first 
+input basic array structur 
+structur contain three field field repres detail contact 
+idea first creat graph contact use given array 
+graph edg vertex vertex j either usernam email phone number 
+graph construct task reduc find connect compon undirect graph 
+find connect compon either df bf start everi unvisit vertex 
+code df use 
+c implement idea 
+c program find contact list contact includ bit stdc h use namespac std structur store contact detail 
+struct contact string field1 field2 field3 util function fill entri adjac matrix represent graph void buildgraph contact arr int n int mat initi adjac matrix int 0 n int j 0 j n j mat j 0 travers contact int 0 n add mat j vice versa possibl 
+sinc length contact field max constant 
+say 30 bodi execut loop take constant time 
+int j 1 j n j arr field1 arr j field1 arr field1 arr j field2 arr field1 arr j field3 arr field2 arr j field1 arr field2 arr j field2 arr field2 arr j field3 arr field3 arr j field1 arr field3 arr j field2 arr field3 arr j field3 mat j 1 mat j 1 break recues function perform df vertex sourc void dfsvisit int int mat bool visit vector int sol int n visit true sol push_back int j 0 j n j mat j visit j dfsvisit j mat visit sol n find similar contacr array contact void findsamecontact contact arr int n vector store solut vector int sol declar 2d adjaceni matrix mat int mat new int n int 0 n mat new int n visit array keep track visit node bool visit n memset visit 0 sizeof visit fill adjac matrix buildgraph arr n mat sinc made graph contact node field link 
+two node link repres person 
+total number connect compon node compon answer 
+int 0 n visit dfsvisit mat visit sol n add delimet separ node one compon 
+sol push_back 1 print solut int 0 sol size sol 1 cout endl els cout sol drive program int main contact arr gaurav gaurav gmail com gaurav gfgqa com lucki lucki gmail com 1234567 gaurav123 5412312 gaurav123 skype com gaurav1993 5412312 gaurav gfgqa com raja 2231210 raja gfg com bahubali 878312 raja int n sizeof arr sizeof arr 0 findsamecontact arr n return 0 output 0 3 2 1 4 5 time complex n2 n number contact 
+thank gaurav ahirwar solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

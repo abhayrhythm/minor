@@ -1,0 +1,32 @@
+strongli recommend refer post prerequisit 
+hopcroft karp algorithm maximum match set 1 introduct import thing note start implement 
+need find augment path path altern match match edg free vertic start end point 
+find altern path need add found path exist match 
+ad path mean make previou match edg path match previou match edg match 
+idea use bf breadth first search find augment path 
+sinc bf travers level level use divid graph layer match match edg 
+dummi vertex nil ad connect vertic left side vertic right side 
+follow array use find augment path 
+distanc nil initi inf infinit 
+start dummi vertex come back use altern path distinct vertic augment path 
+pairu array size 1 number vertic left side bipartit graph 
+pairu u store pair u right side u match nil otherwis 
+pairv array size n 1 n number vertic right side bipartit graph 
+pairu v store pair v left side v match nil otherwis 
+dist array size 1 number vertic left side bipartit graph 
+dist u initi 0 u match inf infinit otherwis 
+dist nil also initi inf augment path found df depth first search use add augment path current match 
+df simpli follow distanc array setup bf 
+fill valu pairu u pairv v v next u bf 
+c implement hopkroft karp algorithm 
+c implement hopcroft karp algorithm maximum match includ bit stdc h use namespac std defin nil 0 defin inf int_max class repres bipartit graph hopcroft karp implement class bipgraph n number vertic left right side bipartit graph int n adj u store adjac left side vertex u 
+valu u rang 1 0 use dummi vertex list int adj basic pointer array need hopcroftkarp int pairu pairv dist public bipgraph int int n constructor void addedg int u int v add edg return true augment path bool bf add augment path one begin u bool df int u return size maximum matc int hopcroftkarp return size maximum match int bipgraph hopcroftkarp pairu u store pair u match u vertex left side bipartit graph 
+u pair pairu u nil pairu new int 1 pairv v store pair v match 
+v pair pairu v nil pairv new int n 1 dist u store distanc left side vertic dist u one dist u u next u augment path dist new int 1 initi nil pair vertic int u 0 u u pairu u nil int v 0 v n v pairv v nil initi result int result 0 keep updat result augment path 
+bf find free vertex int u 1 u u current vertex free augment path current vertex pairu u nil df u result return result return true augment path els return fals bool bipgraph bf queue int q integ queue first layer vertic set distanc 0 int u 1 u u free vertex add queue pairu u nil u match dist u 0 q push u els set distanc infinit vertex consid next time els dist u inf initi distanc nil infinit dist nil inf q go contain vertic left side 
+q empti dequeu vertex int u q front q pop node nil provid shorter path nil dist u dist nil get adjac vertic dequeu vertex u list int iter adj u begin adj u end int v pair v consid far v pairv v yet explor edg 
+dist pairv v inf consid pair add queue dist pairv v dist u 1 q push pairv v could come back nil use altern path distinct vertic augment path return dist nil inf return true augment path begin free vertex u bool bipgraph df int u u nil list int iter adj u begin adj u end adjac u int v follow distanc set bf dist pairv v dist u 1 df pair v also return true df pairv v true pairv v u pairu u v return true augment path begin u dist u inf return fals return true constructor bipgraph bipgraph int int n n n adj new list int 1 add edg u v v u void bipgraph addedg int u int v adj u push_back v add u v list 
+adj v push_back u add u v list 
+driver program int main bipgraph g 4 4 g addedg 1 2 g addedg 1 3 g addedg 2 1 g addedg 3 2 g addedg 4 2 g addedg 4 4 cout size maximum match g hopcroftkarp return 0 output size maximum match 4 implement mainli adopt algorithm provid wiki page hopcroft karp algorithm 
+articl contribut rahul gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

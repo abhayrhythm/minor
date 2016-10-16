@@ -1,0 +1,161 @@
+
+Given an array of positive integers, find maximum possible value K such that the array has at-least K elements that are greater than or equal to K. The array is unsorted and may contain duplicate values.
+Examples :
+
+Input: [2, 3, 4, 5, 6, 7]
+Output: 4
+Explanation : 4 elements [4, 5, 6, 7] 
+            are greater than equal to 4
+
+Input: [1, 2, 3, 4]
+Output: 2
+Explanation : 3 elements [2, 3, 4] are 
+               greater than equal to 2
+
+Input: [4, 7, 2, 3, 8]
+Output: 3 
+Explanation : 4 elements [4, 7, 3, 8] 
+          are greater than equal to 3
+ 
+
+Input: [6, 7, 9, 8, 10]
+Output: 5
+Explanation : All 5 elements are greater
+              than equal to 5 
+Expected time complexity : O(n)
+
+ 
+Method 1 [Simple : O(n2) time]
+Let size of input array be n.  Let us consider following important observations.
+
+ The maximum possible value of result can be n.  We get the maximum possible value when all elements are greater than or equal to n.  For example, if input array is {10, 20, 30}, n is 3.  The value of result can’t be greater than 3. 
+ The minimum possible value would be 1.  An example case when get this output is, when all elements are 1. 
+
+So we can run a loop from n to 1 and count greater elements for every value.  
+
+// C++ program to find maximum possible value K
+// such that array has at-least K elements that
+// are greater than or equals to K.
+#include <iostream>
+using namespace std;
+
+// Function to return maximum possible value K
+// such that array has atleast K elements that
+// are greater than or equals to K
+int findMaximumNum(unsigned int arr[], int n)
+{
+    // output can contain any number from n to 0
+    // where n is length of the array
+
+    // We start a loop from n as we need to find
+    // maximum possible value
+    for (int i = n; i >= 1; i--)
+    {
+        // count contains total number of elements
+        // in input array that are more than equal to i
+        int count = 0;
+
+        // traverse the input array and find count
+        for (int j=0; j<n; j++)
+            if (i <= arr[j])
+                count++;
+
+        if (count >= i)
+          return i;
+    }    
+    return 1;
+}
+
+// Driver code
+int main()
+{
+    unsigned int arr[] = {1, 2, 3, 8, 10 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    cout << findMaximumNum(arr, n);
+    return 0;
+}
+
+Output :
+3
+Method 2 [Efficient : O(n) time and O(n) extra space]
+1) The idea is to construct axillary array of size n + 1, and use that array to find count of greater elements in input array.  Let the auxiliary array be freq[].  We initialize all elements of this array as 0.
+2) We process all input elements.
+        a) If an element arr[i] is less than n, then we increment its frequency, i.e., we do freq[arr[i]]++.
+        b) Else we increment freq[n].
+3) After step 2 we have two things.
+        a) Frequencies of elements for elements smaller than n stored in freq[0..n-1].
+        b) Count of elements greater than n stored in freq[n].
+Finally, we process the freq[] array backwards to find the output by keeping sum of the values processed so far.
+Below is C++ implementation of above idea.
+
+// C++ program to find maximum possible value K such
+// that array has atleast K elements that are greater
+// than or equals to K.
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to return maximum possible value K such
+// that array has at-least K elements that are greater
+// than or equals to K.
+int findMaximumNum(unsigned int arr[], int n)
+{
+    // construct axillary array of size n + 1 and
+    // initialize the array with 0
+    vector<int> freq(n+1, 0);
+
+    // store the frequency of elements of
+    // input array in the axillary array
+    for (int i = 0; i < n; i++)
+    {
+        // If element is smaller than n, update its
+        // frequency
+        if (arr[i] < n)
+            freq[arr[i]]++;
+
+        // Else increment count of elements greater
+        // than n.
+        else
+            freq[n]++;
+    }
+
+    // sum stores number of elements in input array
+    // that are greater than or equal to current
+    // index
+    int sum = 0;
+
+    // scan auxillary array backwards
+    for (int i = n; i > 0; i--)
+    {
+        sum += freq[i];
+
+        // if sum is greater than current index,
+        // current index is the answer
+        if (sum >= i)
+            return i;
+    }
+}
+
+// Driver code
+int main()
+{
+    unsigned int arr[] = {1, 2, 3, 8, 10 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << findMaximumNum(arr, n);
+
+    return 0;
+}
+
+Output :
+3
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

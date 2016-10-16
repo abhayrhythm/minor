@@ -1,0 +1,36 @@
+given string number k find k th non repeat charact string 
+consid larg input string lac charact small charact set 
+find charact one travers input string 
+exampl input str geeksforgeek k 3 output r first non repeat charact f second third r input str geeksforgeek k 2 output input str geeksforgeek k 4 output less k non repeat charact input 
+problem mainli extens first non repeat charact problem 
+method 1 simpl n2 simpl solut run two loop 
+start travers left side 
+everi charact check repeat 
+charact repeat increment count non repeat charact 
+count becom k return charact 
+method 2 n requir two travers creat empti hash 
+scan input string left right insert valu count hash 
+scan input string left right keep count charact count 1 count becom k return charact 
+method 3 n requir one travers idea use two auxiliari array size 256 assum charact store use 8 bit 
+two array count x store count charact x str 
+x present store 0 index x store index non repeat charact str 
+charact x present x repeat store valu cannot valid index str 
+exampl length string 
+initi valu count 0 valu index n n length string 
+travers input string str follow everi charact c str 
+increment count x 
+count x 1 store index x index x e index x count x 2 remov x index e index x n index index non repeat charact 
+sort index increas order get k th smallest element index k 
+note step take 1 time 256 element index 
+c implement idea 
+c program find k th non repeat charact string includ bit stdc h use namespac std const int max_char 256 return index k th non repeat charact given string str int kthnonrep string str int k int n str length count x go store count charact x str 
+x present go store 0 int count max_char index x go store index charact x str 
+x present x repeat go store valu exampl length string cannot valid index str int index max_char initi count charact index non repeat charact 
+int 0 max_char count 0 index n valu index str travers input string int 0 n find current charact increment count char x str count x first occurr set valu index index 
+count x 1 index x charact repeat remov index count x 2 index x n sort index increas order 
+step take 1 time size index 256 sort index index max_char sort index k 1 valu return els return 1 return index k 1 n 
+index k 1 1 driver code int main string str geeksforgeek int k 3 int re kthnonrep str k re 1 
+cout less k non repeat charact cout k th non repeat charact str re return 0 output k th non repeat charact r articl contribut shivam gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

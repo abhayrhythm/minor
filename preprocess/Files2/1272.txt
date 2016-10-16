@@ -1,0 +1,2 @@
+write recurs c function print revers given string 
+program c c program revers string use recurs includ stdio h function print revers pass string void revers char str str revers str 1 printf c str driver program test function int main char geek geek revers return 0 

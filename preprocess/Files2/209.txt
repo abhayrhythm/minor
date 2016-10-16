@@ -1,0 +1,18 @@
+let 1 repres 2 repres b etc 
+given digit sequenc count number possibl decod given digit sequenc 
+exampl input digit 121 output 3 possibl decod aba au la input digit 1234 output 3 possibl decod abcd lcd awd empti digit sequenc consid one decod 
+may assum input contain valid digit 0 9 lead 0 extra trail 0 two consecut 0 
+strongli recommend minim browser tri first 
+problem recurs broken sub problem 
+start end given digit sequenc 
+initi total count decod 0 recur two subproblem 
+1 last digit non zero recur remain n 1 digit add result total count 
+2 last two digit form valid charact smaller 27 recur remain n 2 digit add result total count 
+follow c implement approach 
+naiv recurs c implement count number decod form given digit sequenc includ iostream includ cstring use namespac std given digit sequenc length n return count possibl decod replac 1 2 woth b 26 z int countdecod char digit int n base case n 0 n 1 return 1 int count 0 initi count last digit 0 last digit must add number word digit n 1 0 count countdecod digit n 1 last two digit form number smaller equal 26 consid last two digit recur digit n 2 2 digit n 2 2 digit n 1 7 count countdecod digit n 2 return count driver program test function int main char digit 1234 int n strlen digit cout count countdecod digit n return 0 output count 3 time complex code exponenti 
+take closer look program observ recurs solut similar fibonacci number 
+therefor optim solut work n time use dynam program 
+follow c implement 
+dynam program base c implement count decod includ iostream includ cstring use namespac std dynam program base function count decod int countdecodingdp char digit int n int count n 1 tabl store result subproblem count 0 1 count 1 1 int 2 n count 0 last digit 0 last digit must add number word digit 1 0 count count 1 second last digit smaller 2 last digit smaller 7 last two digit form valid charact digit 2 2 digit 2 2 digit 1 7 count count 2 return count n driver program test function int main char digit 1234 int n strlen digit cout count countdecodingdp digit n return 0 output count 3 time complex solut n requir n auxiliari space 
+reduc auxiliari space 1 use space optim version discuss fibonacci number post 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

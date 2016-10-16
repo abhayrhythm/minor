@@ -1,0 +1,98 @@
+
+Given a Binary Tree, find density of it by doing one traversal of it.
+
+Density of Binary Tree = Size / Height 
+Examples:
+
+Input: Root of following tree
+   10
+  /   \
+ 20   30
+
+Output: 1.5
+Height of given tree = 2
+Size of given tree = 3
+
+Input: Root of following tree
+     10
+    /   
+   20   
+ /
+30
+Output: 1
+Height of given tree = 3
+Size of given tree = 3 
+Density of a Binary Tree indicates, how balanced Binary Tree is.  For example density of a skewed tree is minimum and that of a perfect tree is maximum.
+We strongly recommend you to minimize your browser and try this yourself first.
+Two traversal based approach is very simple. First find the height using one traversal, then find the size using another traversal. Finally return the ratio of two values.
+To do it in one traversal, we compute size of Binary Tree while finding its height.  Below is C++ implementation.
+
+C++
+
+
+
+//C++ program to find density of a binary tree
+#include<stdio.h>
+#include<stdlib.h>
+
+// A binary tree node
+struct Node
+{
+    int data;
+    Node *left, *right;
+};
+
+// Helper function to allocates a new node
+Node* newNode(int data)
+{
+    Node* node = new Node;
+    node->data = data;
+    node->left = node->right = NULL;
+    return node;
+}
+
+// Function to compute height and
+// size of a binary tree
+int heighAndSize(Node* node, int &size)
+{
+    if (node==NULL)
+        return 0;
+
+    // compute height of each subtree
+    int l = heighAndSize(node->left, size);
+    int r = heighAndSize(node->right, size);
+
+    //increase size by 1
+    size++;
+
+    //return larger of the two
+    return (l > r) ? l + 1 : r + 1;
+}
+
+//function to calculate density of a binary tree
+float density(Node* root)
+{
+    if (root == NULL)
+        return 0;
+
+    int size = 0; // To store size
+
+    // Finds height and size
+    int _height = heighAndSize(root, size);
+
+    return (float)size/_height;
+}
+
+// Driver code to test above methods
+int main()
+{
+    Node* root = newNode(1);
+    root->left = newNode(2);
+    root->right = newNode(3);
+
+    printf("Density of given binary tree is %f",
+           density(root));
+
+    return 0;
+}
+

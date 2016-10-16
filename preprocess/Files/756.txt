@@ -1,0 +1,157 @@
+
+Percentages is an important topic not only from QA point of view, but also because of its extensive use in Data Interpretation.
+
+Percentage means per 100, i.e., p% means p / 100
+To convert a fraction to percentage, we multiply by 100 and add the “%” sign. For example, to express 1 / 5 in percentage, we simply multiply by 100, (1 / 5) x 100 = 20 %
+To convert a percentage to fraction, we simply divide by 100. For example, 25 % = 25 / 100 = 1 / 4
+Expenditure = Price x Consumption
+
+If price of an article increases by P %, the necessary reduction in consumption to avoid increase in expenditure = [( P / (100 + P) ) x 100] %
+If price of an article decreases by P %, the necessary increase in consumption to keep the same expenditure = [( P / (100 – P) ) x 100] %
+
+
+Population : If the population of a group/community/country/place(etc.) is currently P and if it increases by R % every year, then :
+
+Population after ‘n’ years = P x [1 + (R / 100)]n
+Population before ‘n’ years = P / [1 + (R / 100)]n
+
+
+Depreciation : If the price (or value) of an article is currently P and if it depreciates by R % every year, then:
+
+Price (or value) after ‘n’ years = P x [1 – (R / 100)]n
+Price (or value) before ‘n’ years = P / [1 – (R / 100)]n
+
+
+x % of y and y % of x are same. For example, 10 % of 100 and 100 % of 10 are same. 
+A successive increase of a% and b% is equivalent to a net increase of a + b – ((a x b) / 100) %
+A successive decrease of a% and b% is equivalent to a net decrease of a + b – ((a x b) / 100) %
+A successive increase of a% and decrease of b% is equivalent to a net change of a – b + ((a x b) / 100) %
+A successive decrease of a% and increase of b% is equivalent to a net change of b – a + ((a x b) / 100) %
+An increase by n % and a successive decrease by n % is equal to an equivalent decrease of (n/10)2 %. For example, if the price of an article is increased by 10 %, and is then successively decreased by 10 %, then this is equal to a decrease of (10/10)2 = 1 %
+
+Sample Problems
+Question 1 : A defect finding machine rejects 0.085% of all the cricket bats. Find the number of bats manufactured on a particular day if it is given that on that day, the machine rejected only 34 bats.
+Solution : Let the total number of bats on that day be n.
+=> 0.085 % of n = 34
+=> (0.085 / 100) x n = 34
+=> n = 34 x (100 / 0.085)
+=> n = 40,000
+Therefore, total number of bats manufactured on the day = 40,000
+ 
+Question 2 : 25 % of a number is 8 less than  one third of that number. Find the number.
+Solution : Let the number be n.
+=> (n / 3) – 25 % of n = 8
+=> (n / 3) – (n / 4) = 8
+=> n / 12 = 8
+=> n = 96
+Thus, 96 is the required number.
+ 
+Question 3 : Difference of two numbers ‘x’ and ‘y’ (x > y) is 100. Also, 10 % of ‘x’ is equal to 15 % of ‘y’. Find the numbers.
+Solution : We are given that x – y = 100 and 10 % of x = 15 % of y
+=> x – y = 100 and (10 / 100) x = (15 / 100) y
+=> x – y = 100 and 10 x = 15 y
+=> x – y = 100 and 2 x = 3 y
+=> x – y = 100 and  x = 1.5 y
+=> 1.5 y – y = 100
+=> 0.5 y = 100
+=> y = 200
+=> x = 1.5 y = 300
+Thus, the required numbers are 300 and 200.
+ 
+Question 4 : In a gaming event, 75 % of the registered participants actually turned up. Out of those, 2 % were declared unfit for participation. The winner defeated 9261 participants which is 75 % of the total valid participations. Find the number of registered participants.
+Solution : Let the number of registered participants be n.
+Number of participants who actually turned up = 75 % of n
+Number of valid participations = 98 % of (75 % of n) [because 2% were invalid]
+Number of participants defeated by the winner = 75 % of 98 % of (75 % of n) = 9261
+=> 0.75 x 0.98 x 0.75 x n = 9261
+=> 0.55125 x n = 9261
+=> n = 16800
+Therefore, number of registered participants = 16800
+ 
+Question 5 : In a test, a geek could answer 70 % C++ questions, 40 % C questions and 60 % Java questions correctly. The test had a total of 75 questions, 10 from C++, 30 from C and 35 from Java. A minimum of 60 % in aggregate was required to be considered for interview. The geek could not clear the test and was not shortlisted for interview. Find by how much marks did the geek miss the interview call, given that each question was of 1 mark and there was no negative marking for incorrect answers.
+Solution : We are given that the geek could answer 70 % C++ questions, 40 % C questions and 60 % Java questions correctly and there were total 75 questions : 10 from C++, 30 from C and 35 from Java.
+=> C++ questions answered correctly = 70 % of 10 = 7
+=> C questions answered correctly = 40 % of 30 = 12
+=> Java questions answered correctly = 60 % of 35 = 21
+=> Total questions answered correctly = 7 + 12 + 21 = 40
+=> Marks secured = 40 x 1 = 40
+Now, marks required = 60 % of 75 = 45
+=> Shortfall in marks = 45 – 40 = 5
+Therefore, the geek missed the interview call by 5 marks.
+ 
+Question 6 : A geek gave 40% of his retirement money to his wife. He also gave 20 % of the remaining amount to each of his 3 sons. 50 % of the amount now left was spent on miscellaneous items and the remaining amount of Rs. 1,20,000 was deposited in the bank. How much money did the geek got as the retirement money?
+Solution : Let the retirement money be Rs. 100 n
+=> Money given to wife = 40 % of 100 n = 40 n, Balance = 60 n
+=> Money given to 3 sons = 3 x (20 % of 60 n) = 3 x 12 n = 36 n, Balance = 24 n
+=> Money spent on miscellaneous items = 50 % of 24 n = 12 n, Balance = 12 n
+Now, this remaining 12 n is the money deposited in the bank, i.e., Rs. 1,20,000
+=> 12 n = 1,20,000
+=> n = 10,000
+Therefore, geek’s retirement money = 100 n = Rs. 10,00,000
+ 
+Question 7 : A broker charges commission of 5% on all orders upto Rs.10,000 and 4% on all orders exceeding Rs. 10,000. He remits Rs. 31,100 to his client after deducting his commission. Find the order amount.
+Solution : Let the order amount be Rs. n
+=> Commission charged = 5 % of Rs. 10,000 + 4 % of (Rs. n – 10,000) = Rs. 500 + 0.04 n – 400
+=> Commission charged = Rs. 100 + 0.04 n
+Now, amount remitted = Rs. n – (100 + 0.04 n) = 31,100
+=> 0.96 n – 100 = 31,100
+=> 0.96 n = 31200
+=> n = 32500
+Therefore, order amount = Rs. 32,500
+ 
+Question 8 : A seller marked up the price of an article by 20 % and then gave a discount of 20 %. Find what percent did he lose in the transaction.
+Solution : We know that an increase by n % and a successive decrease by n % is equal to an equivalent decrease of (n/10)2 %.
+=> Net decrease or loss of the seller = (20/10)2 = 4 %
+ 
+Question 9 : The price of a commodity increased by 25 %. By what percent should the consumption be reduced so as to keep the expenditure same ?
+Solution : We know that if price of increases by P %, the necessary reduction in consumption to avoid increase in expenditure = [( P / (100 + P) ) x 100] %
+Therefore, reduction in consumption required = (25 / 125) x 100 = 20 %
+ 
+Question 10 : If the numerator of a fraction is decreased by 15% and its denominator is diminished by 10% , the value of the fraction is 2 / 9. Find the original fraction.
+Solution : Let the fraction be N / D, where N is the numerator and D is the denominator.
+=> (N – 15 % of N) / (D – 10 % of D)  =  2 / 9
+=> 0.85 N  /  0.9 D = 2 / 9
+=> 85 N / 90 D = 2 / 9
+=> N / D = 4 / 17
+Therefore, the original fraction is 4 / 17
+ 
+Question 11 : The population of a town is 1,60,000 in the current year. If it increases at the rate of 5% per annum, what will be the population 3 years from now ?
+Solution : We know that if the population is currently P and it increases by R % every year, then, population after ‘n’ years = P x [1 + (R / 100)]n
+=> Population after 3 years = 1,60,000 x [1 + (5 / 100)]3
+=> Population after 3 years = 1,60,000 x (1.05)3
+=> Population after 3 years = 1,60,000 x 1.157625 = 185220
+ 
+Question 12 : The value of a car is Rs 1,60,000 in the current year. If it depreciates at the rate of 5% per annum, what will be the value of the car 3 years from now ?
+Solution : We know that if the value is currently P and it depreciates by R % every year, then, value after ‘n’ years = P x [1 – (R / 100)]n
+=> Value after 3 years = 1,60,000 x [1 – (5 / 100)]3
+=> Value after 3 years = 1,60,000 x (0.95)3
+=> Value after 3 years = 1,60,000 x 0.857375 = Rs. 1,37,180
+ 
+Question 13 : How much sugar (in KG) must be added to 50 KG of a 2 % sugar solution so as to make the concentration 10 % ?
+Solution : Sugar in initial solution = 2 % of 50 KG = 1 KG
+Let the sugar added be n KG.
+=> (1 + n) / (50 + n) = 10 / 100
+=> n = 40 / 9
+Therefore, 40 / 9 KG of sugar should be added.
+ 
+Question 14 : In an examination , 80% of the students passed in English , 85% in Mathematics and 75% in both English and Mathematics. If 40 students failed in both the subjects, find the total number of students who appeared in the examination.
+Solution : Let the total number of students be 100 n.
+=> Students passed in English = 80 % of 100 n = 80 n
+=> Students passed in Mathematics = 85 % of 100 n = 85 n
+=> Students passed in both English and Mathematics = 75 % of 100 n = 75 n
+=> Total number of students passed in atleast one subject = 80 n  + 85 n – 75 n = 90 n
+=> Number of students who failed in both the subjects = 100 n – 90 n = 10 n = 40 (given)
+=> n = 4
+Therefore, total number of students who appeared in the examination = 100 n = 400
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

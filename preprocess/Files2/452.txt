@@ -1,0 +1,13 @@
+depend travers given 
+one travers method inord tree construct otherwis 
+therefor follow combin uniqu identifi tree 
+inord preorder 
+inord postord 
+inord level order 
+follow 
+postord preorder 
+preorder level order 
+postord level order 
+exampl preorder level order postord travers tree given diagram 
+preorder travers ab postord travers ba level order travers ab even three pre post level given tree construct 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

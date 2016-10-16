@@ -1,0 +1,8 @@
+storag class use describ featur variabl function 
+featur basic includ scope visibl life time help us trace exist particular variabl runtim program 
+c languag use 4 storag class name auto default storag class variabl declar insid function block 
+henc keyword auto rare use write program c languag 
+auto variabl access within block function declar outsid defin scope 
+cours access within nest block within parent block function auto variabl declar 
+howev access outsid scope well use concept pointer given point exact memori locat variabl resid 
+assign garbag valu default whenev declar 

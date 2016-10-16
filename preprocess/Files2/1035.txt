@@ -1,0 +1,7 @@
+predict output c program 
+question 1 assum integ take 4 byte 
+includ iostream use namespac std class test static int int j int test int main cout sizeof test return 0 output 4 size integ static data member contribut size object 
+consid size test 
+also function static non static contribut size 
+question 2 includ iostream use namespac std class base1 public base1 cout base1 constructor call endl class base2 public base2 cout base2 constructor call endl class deriv public base1 public base2 public deriv cout deriv constructor call endl int main deriv return 0 ouput base1 constructor call base2 constructor call deriv constructor call case multipl inherit constructor base class alway call deriv order left right destructor call revers order 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

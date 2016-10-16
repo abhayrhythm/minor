@@ -1,0 +1,135 @@
+
+Given a matrix with 0 and 1’s, find the largest rectangle of all 1’s in the matrix.  The rectangle can be formed by swapping any pair of columns of given matrix.
+Example:
+
+Input: bool mat[][] = { {0, 1, 0, 1, 0},
+                        {0, 1, 0, 1, 1},
+                        {1, 1, 0, 1, 0}
+                      };
+Output: 6
+The largest rectangle's area is 6. The rectangle 
+can be formed by swapping column 2 with 3
+The matrix after swapping will be
+     0 0 1 1 0
+     0 0 1 1 1
+     1 0 1 1 0
+
+
+Input: bool mat[R][C] = { {0, 1, 0, 1, 0},
+                         {0, 1, 1, 1, 1},
+                         {1, 1, 1, 0, 1},
+                         {1, 1, 1, 1, 1}
+                      };
+Output: 9
+
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use an auxiliary matrix to store count of consecutive 1’s in every column.  Once we have these counts, we sort all rows of auxiliary matrix in non-increasing order of counts.  Finally traverse the sorted rows to find the maximum area.
+Below are detailed steps for first example mentioned above.
+Step 1: First of all, calculate no. of consecutive 1’s in every column. An auxiliary array hist[][] is used to store the counts of consecutive 1’s. So for the above first example, contents of hist[R][C] would be
+
+    0 1 0 1 0
+    0 2 0 2 1
+    1 3 0 3 0
+Time complexity of this step is O(R*C) 
+Step 2:  Sort the rows in non-increasing fashion. After sorting step the matrix hist[][] would be
+
+    1 1 0 0 0
+    2 2 1 0 0
+    3 3 1 0 0
+This step can be done in O(R * (R + C)).  Since we know that the values are in range from 0 to R, we can use counting sort for every row.
+Step 3: Traverse each row of hist[][] and check for the max area.  Since every row is sorted by count of 1’s, current area can be calculated by multiplying column number with value in hist[i][j].  This step also takes O(R * C) time.
+Below is C++ implementation based of above idea.
+
+// C++ program to find the largest rectangle of 1's with swapping
+// of columns allowed.
+#include<bits/stdc++.h>
+#define R 3
+#define C 5
+using namespace std;
+
+// Returns area of the largest rectangle of 1's
+int maxArea(bool mat[R][C])
+{
+    // An auxiliary array to store count of consecutive 1's
+    // in every column.
+    int hist[R+1][C+1];
+
+    // Step 1: Fill the auxiliary array hist[][]
+    for (int i=0; i<C; i++)
+    {
+        // First row in hist[][] is copy of first row in mat[][]
+        hist[0][i] = mat[0][i];
+
+        // Fill remaining rows of hist[][]
+        for (int j=1; j<R; j++)
+            hist[j][i] = (mat[j][i]==0)? 0: hist[j-1][i]+1;
+    }
+
+
+    // Step 2: Sort rows of hist[][] in non-increasing order
+    for (int i=0; i<R; i++)
+    {
+        int count[R+1] = {0};
+
+        // counting occurrence
+        for (int j=0; j<C; j++)
+            count[hist[i][j]]++;
+
+        //  Traverse the count array from right side
+        int col_no = 0;
+        for (int j=R; j>=0; j--)
+        {
+            if (count[j] > 0)
+            {
+                for (int k=0; k<count[j]; k++)
+                {
+                    hist[i][col_no] = j;
+                    col_no++;
+                }
+            }
+        }
+    }
+
+    // Step 3: Traverse the sorted hist[][] to find maximum area
+    int curr_area, max_area = 0;
+    for (int i=0; i<R; i++)
+    {
+        for (int j=0; j<C; j++)
+        {
+            // Since values are in decreasing order,
+            // The area ending with cell (i, j) can
+            // be obtained by multiplying column number
+            // with value of hist[i][j]
+            curr_area = (j+1)*hist[i][j];
+            if (curr_area > max_area)
+                max_area = curr_area;
+        }
+    }
+    return max_area;
+}
+
+// Driver program
+int main()
+{
+    bool mat[R][C] = { {0, 1, 0, 1, 0},
+                       {0, 1, 0, 1, 1},
+                       {1, 1, 0, 1, 0}
+                     };
+    cout << "Area of the largest rectangle is " << maxArea(mat);
+    return 0;
+}
+
+Output:
+Area of the largest rectangle is 6
+Time complexity of above solution is O(R * (R + C)) where R is number of rows and C is number of columns in input matrix.  
+Extra space:  O(R * C)
+This article is contributed by Shivprasad Choudhary. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

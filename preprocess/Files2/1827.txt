@@ -1,0 +1,14 @@
+iter use point memori address stl contain 
+primarili use sequenc number charact etc 
+reduc complex execut time program 
+oper iter 1 begin function use return begin posit contain 
+2 end function use return end posit contain 
+c code demonstr work iter begin end includ iostream includ iter iter includ vector vector use namespac std int main vector int ar 1 2 3 4 5 declar iter vector vector int iter ptr display vector element use begin end cout vector element ptr ar begin ptr ar end ptr cout ptr return 0 output vector element 1 2 3 4 5 3 advanc function use increment iter posit till specifi number mention argument 
+c code demonstr work advanc includ iostream includ iter iter includ vector vector use namespac std int main vector int ar 1 2 3 4 5 declar iter vector vector int iter ptr ar begin use advanc increment iter posit point 4 advanc ptr 3 display iter posit cout posit iter advanc cout ptr return 0 output posit iter advanc 4 4 next function return new iter iter would point advanc posit mention argument 
+5 prev function return new iter iter would point decrement posit mention argument 
+c code demonstr work next prev includ iostream includ iter iter includ vector vector use namespac std int main vector int ar 1 2 3 4 5 declar iter vector vector int iter ptr ar begin vector int iter ftr ar end use next return new iter point 4 auto next ptr 3 use prev return new iter point 3 auto it1 prev ftr 3 display iter posit cout posit new iter use next cout cout endl display iter posit cout posit new iter use prev cout it1 cout endl return 0 output posit new iter use next 4 posit new iter use prev 3 6 insert function use insert element posit contain 
+accept 2 argument contain iter posit element insert 
+c code demonstr work insert includ iostream includ iter iter includ vector vector use namespac std int main vector int ar 1 2 3 4 5 vector int ar1 10 20 30 declar iter vector vector int iter ptr ar begin use advanc set posit advanc ptr 3 copi 1 vector element use insert insert ar1 3rd posit ar copi ar1 begin ar1 end insert ar ptr display new vector element cout new vector insert element int x ar cout x return 0 output new vector insert element 1 2 3 10 20 30 4 5 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

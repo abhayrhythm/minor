@@ -1,0 +1,59 @@
+
+Assertions are statements used to test assumptions made by programmer.  For example, we may use assertion to check if pointer returned by malloc() is NULL or not.  
+Following is syntax for assertion.
+void assert( int expression ); 
+If expression evaluates to 0 (false), then the expression, sourcecode filename, and line number are sent to the standard error, and then abort() function is called. 
+For example, consider the following program.
+
+#include <stdio.h>
+#include <assert.h>
+
+int main()
+{
+    int x = 7;
+
+    /*  Some big code in between and let's say x 
+       is accidentally changed to 9  */
+    x = 9;
+
+    // Programmer assumes x to be 7 in rest of the code
+    assert(x==7);
+
+    /* Rest of the code */
+
+    return 0;
+}
+
+Output
+
+Assertion failed: x==5, file test.cpp, line 13 
+This application has requested the Runtime to terminate it in an unusual 
+way. Please contact the application's support team for more information.
+
+Assertion Vs Normal Error Handling
+Assertions are mainly used to check logically impossible situations. For example, they can be used to check the state a code expects before it starts running or state after it finishes running.  Unlike normal error handling, assertions are generally disabled at run-time.  Therefore, it is not a good idea to write statements in asser() that can cause side effects.  For example writing something like assert(x = 5) is not a good ideas as x is changed and this change won’t happen when assertions are disabled.  See this for more details.
+Ignoring Assertions
+In C/C++, we can completely remove assertions at compile time using the preprocessor NODEBUG.
+
+// The below program runs fine because NDEBUG is defined
+# define NDEBUG
+# include <assert.h>
+
+int main()
+{
+    int x = 7;
+    assert (x==5);
+    return 0;
+}
+
+The above program compiles and runs fine. 
+In Java, assertions are not enabled by default and we must pass an option to run-time engine to enable them.
+Reference:
+http://en.wikipedia.org/wiki/Assertion_%28software_development%29
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

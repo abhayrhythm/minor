@@ -1,0 +1,19 @@
+select procedur consist onlin round follow two person interview 
+onlin round first round 20 mcq two code question 
+mcq base concept os dsa compil architectur etc 
+code question 1 given array posit neg number arrang altern fashion everi posit number follow neg vice versa maintain order appear 
+2 given n x matrix print element diagon wise top bottom 
+first round pi 1 given number n find number balanc parenthes express length 
+input 2 output 1 input 4 output 2 
+gave complex solut involv segment tree point mistak ask write code check given express balanc 
+2 tell someth lru 
+ds use 
+write pseudo code 
+hint quit simpl use doubli second round pi interview introduc first ask 
+discuss project 
+1 given two binari tree write pseudo code determin one subtre 
+answer modifi question check tree element subset element first tree 
+hint inord travers 2 given sort circular link list rotat point write pseudo code insert new node 
+ex 8 1 2 5 7 insert 6 like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,48 @@
+round 1 onlin 20 mcq 2 code question 90 minut 
+question oper system data structur aptitud etc 
+exactli www geeksquiz com 
+mcq 0 25 mark everi wrong answer 1 right answer 
+code question 10 mark 
+code question q1 
+find first non repeat charact string 
+q2 
+given phone keypad like follow diagram charact correspond digit mention box 
+given n string find decim represent 
+print string correspond decim represent descend order 
+exampl given amazon correspond decim notat 262966 one string decim notat print order input given 
+given string consist lower case alphabet 
+test case 1 5 amazon microsoft facebook aa bb output 642767638 microsoft 32232665 facebook 262966 amazon 22 aa 22 bb round 2 face face q1 
+given link list write function revers everi k node 
+exampl input 1 2 3 4 5 6 7 8 k 3 output 3 2 1 6 5 4 8 7 input 1 2 3 4 5 6 7 80 k 5 output 5 4 3 2 1 8 7 6 q2 
+given array arr integ find maximum differ two element larger element appear smaller number arr 
+print indic two element also 
+exampl array 2 3 10 6 4 8 1 return valu 8 differ 10 2 
+array 7 9 5 6 3 2 return valu 2 differ 7 9 
+round 3 face face brief introduct 
+ask question resum 
+ask tell project love felt proud success 
+interest know detail implement project 
+2 code question q1 
+given string find longest substr without repeat charact 
+exampl longest substr without repeat charact abdefgabef bdefga defgab 
+q2 
+given log file page visit websit differ user day 
+entri log file like user 1 visit page 4 user 3 visit page 2 user 7 visit page 9 
+
+
+design effici data structur support queri like follow page visit exactli 2 user day 
+page visit one user exactli 2 time day 
+page visit user 3 
+5 time day 
+2nd 3rd round write code paper 
+overal interview experi quit good 
+want optim solut gave hint think direct 
+final select tip first explain approach start code 
+tri interact interview code paper 
+want get bore interview 
+case doubt clarifi asap 
+never ignor hint given interview 
+100 honest 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

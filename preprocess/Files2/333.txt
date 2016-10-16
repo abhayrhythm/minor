@@ -1,0 +1,30 @@
+branch bound algorithm design paradigm gener use solv combinatori optim problem 
+problem typic exponenti term time complex may requir explor possibl permut worst case 
+branch bound solv problem rel quickli 
+let us consid 0 1 knapsack problem understand branch bound 
+given two integ array val 0 n 1 wt 0 n 1 repres valu weight associ n item respect 
+find maximum valu subset val sum weight subset smaller equal knapsack capac w let us explor approach problem 
+greedi approach pick item decreas order valu per unit weight 
+greedi approach work fraction knapsack problem may produc correct result 0 1 knapsack 
+use dynam program dp 0 1 knapsack problem 
+dp use 2d tabl size n x w dp solut work item weight integ 
+sinc dp solut alway work solut use brute forc 
+n item 2n solut gener check see satisfi constraint save maximum solut satisfi constraint 
+solut express tree 
+use backtrack optim brute forc solut 
+tree represent df tree 
+reach point solut longer feasibl need continu explor 
+given exampl backtrack would much effect even item smaller knapsack capac 
+branch bound backtrack base solut work better brute forc ignor infeas solut 
+better backtrack know bound best possibl solut subtre root everi node 
+best subtre wors current best simpli ignor node subtre 
+comput bound best solut everi node compar bound current best solut explor node 
+exampl bound use diagram give 315 b 275 c 225 125 e 30 
+next articl discuss process get bound 
+branch bound use techniqu search solut worst case need fulli calcul entir tree 
+best need fulli calcul one path tree prune rest 
+sourc imag content adopt follow nice link 
+http www cse msu edu torng class archiv cse830 03fall lectur lecture11 ppt branch bound set 2 implement 0 1 knapsack articl contribut utkarsh trivedi 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

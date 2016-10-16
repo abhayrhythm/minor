@@ -1,0 +1,17 @@
+nibbl four bit aggreg half octet 
+two nibbl byte 
+given byte swap two nibbl 
+exampl 100 repres 01100100 byte 8 bit 
+two nibbl 0110 0100 
+swap two nibbl get 01000110 70 decim 
+strongli recommend click practic move solut 
+swap nibbl use bitwis bitwis oper 
+byte repres use unsign char c size char 1 byte typic c compil 
+follow c program swap two nibbl byte 
+includ stdio h unsign char swapnibbl unsign char x return x 0x0f 4 x 0xf0 4 int main unsign char x 100 printf u swapnibbl x return 0 output 70 explan 100 01100100 binari 
+oper split mainli two part 1 express x 0x0f give us last 4 bit x x 100 result 00000100 use bitwis oper shift last four bit left 4 time make new last four bit 0 result shift 01000000 
+2 express x 0xf0 give us first four bit x x 100 result 01100000 use bitwis oper shift digit right 4 time make first four bit 0 result shift 00000110 end use bitwis oper two express explain 
+oper place first nibbl end last nibbl first 
+x 100 valu 01000000 00000110 give result 01000110 equal 70 decim 
+articl contribut anuj garg 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

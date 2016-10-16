@@ -1,0 +1,5 @@
+compil depend c never safe depend order evalu side effect 
+exampl function call like may well behav differ one compil anoth void func int int int 2 func guarante either c c standard languag definit increment evalu particular order 
+either increment might happen first 
+func might get argument 2 3 might get 3 2 even 2 2 
+sourc http gcc gnu org onlinedoc gcc non_002dbug html adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,63 @@
+
+Write a function to count number of smaller elements on right of each element in an array. Given an unsorted array arr[] of distinct integers, construct another array countSmaller[] such that countSmaller[i] contains count of smaller elements on right side of each element arr[i] in array.
+Examples:
+
+Input:   arr[] =  {12, 1, 2, 3, 0, 11, 4}
+Output:  countSmaller[]  =  {6, 1, 1, 1, 0, 1, 0} 
+
+(Corner Cases)
+Input:   arr[] =  {5, 4, 3, 2, 1}
+Output:  countSmaller[]  =  {4, 3, 2, 1, 0} 
+
+Input:   arr[] =  {1, 2, 3, 4, 5}
+Output:  countSmaller[]  =  {0, 0, 0, 0, 0}
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+Method 1 (Simple)
+Use two loops. The outer loop picks all elements from left to right. The inner loop iterates through all the elements on right side of the picked element and updates countSmaller[].
+
+C
+
+
+
+void constructLowerArray (int *arr[], int *countSmaller, int n)
+{
+  int i, j;
+
+  // initialize all the counts in countSmaller array as 0
+  for  (i = 0; i < n; i++)
+     countSmaller[i] = 0;
+
+  for (i = 0; i < n; i++)
+  {
+    for (j = i+1; j < n; j++)
+    {
+       if (arr[j] < arr[i])
+         countSmaller[i]++;
+    }
+  }
+}
+
+/* Utility function that prints out an array on a line */
+void printArray(int arr[], int size)
+{
+  int i;
+  for (i=0; i < size; i++)
+    printf("%d ", arr[i]);
+
+  printf("\n");
+}
+
+// Driver program to test above functions
+int main()
+{
+  int arr[] = {12, 10, 5, 4, 2, 20, 6, 1, 0, 2};
+  int n = sizeof(arr)/sizeof(arr[0]);
+  int *low = (int *)malloc(sizeof(int)*n);
+  constructLowerArray(arr, low, n);
+  printArray(low, n);
+  return 0;
+}
+

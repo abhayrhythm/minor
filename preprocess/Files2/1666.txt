@@ -1,0 +1,21 @@
+given two binari search tree find common node 
+word find intersect two bst 
+exampl strongli recommend minim browser tri first 
+method 1 simpl solut simpl way one search everi node first tree second tree 
+time complex solut h number node first tree h height second tree 
+method 2 linear time find common element n time 
+1 inord travers first tree store travers auxiliari array ar1 
+see sortedinord 
+2 inord travers second tree store travers auxiliari array ar2 3 find intersect ar1 ar2 
+see detail 
+time complex method n n number node first second tree respect 
+solut requir n extra space 
+method 3 linear time limit extra space find common element n time h1 h2 extra space h1 h2 height first second bst respect 
+idea use iter inord travers 
+use two auxiliari stack two bst 
+sinc need find common element whenev get element print 
+iter travers base method find common element two bst 
+includ iostream includ stack use namespac std bst node struct node int key struct node left right util function creat new node node newnod int ele node temp new node temp key ele temp left temp right null return temp function two print common element given two tree void printcommon node root1 node root2 creat two stack two inord travers stack node stack1 s1 s2 1 push node first tree stack s1 root1 s1 push root1 root1 root1 left push node second tree stack s2 els root2 s2 push root2 root2 root2 left root1 root2 null els s1 empti s2 empti root1 s1 top root2 s2 top current key two tree root1 key root2 key cout root1 key s1 pop s2 pop move inord successor root1 root1 right root2 root2 right els root1 key root2 key node first tree smaller second tree obviou inord successor current node valu second tree node 
+thu pop s2 s1 pop root1 root1 right root2 set null need new node tree 1 root2 null els root1 key root2 key s2 pop root2 root2 right root1 null root stack empti els break util function inord travers void inord struct node root root inord root left cout root key inord root right util function insert new node given key bst struct node insert struct node node int key tree empti return new node node null return newnod key otherwis recur tree key node key node left insert node left key els key node key node right insert node right key return unchang node pointer return node driver program int main creat first tree shown exampl node root1 null root1 insert root1 5 root1 insert root1 1 root1 insert root1 10 root1 insert root1 0 root1 insert root1 4 root1 insert root1 7 root1 insert root1 9 creat second tree shown exampl node root2 null root2 insert root2 10 root2 insert root2 7 root2 insert root2 20 root2 insert root2 4 root2 insert root2 9 cout tree 1 inord root1 cout endl cout tree 2 inord root2 cout ncommon node printcommon root1 root2 return 0 output 4 7 9 10 articl contribut ekta goel 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

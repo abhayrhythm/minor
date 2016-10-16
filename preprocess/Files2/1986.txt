@@ -1,0 +1,21 @@
+scanf famili function support scanset specifi repres 
+insid scanset specifi singl charact rang charact 
+process scanset scanf process charact part scanset 
+defin scanset put charact insid squre bracket 
+pleas note scanset case sensit 
+let us see exampl 
+exampl store capit letter charact array str charact store insid charact array 
+simpl scanset exampl includ stdio h int main void char str 128 printf enter string scanf z str printf enter n str return 0 root cento 6 c scan set enter string geeks_for_geek enter geek first charact scanset specifi stop read first occur charact 
+exampl given scanset read charact stop first occur scanf str let us see exampl 
+anoth scanset exampl includ stdio h int main void char str 128 printf enter string scanf str printf enter n str return 0 root cento 6 c scan set enter string http geek geek enter http geek f root cento 6 c let us implement get function use scan set 
+get fucntion read line stdin buffer point either termin newlin eof found 
+implement get function use scanset includ stdio h int main void char str 128 printf enter string space scanf n str printf enter n str return 0 root cento 6 c get enter string space geek geek enter geek geek root cento 6 c side note use get may good indea gener 
+check note linux man page 
+never use get 
+imposs tell without know data advanc mani charact get read get continu store charact past end buffer extrem danger use 
+use break comput secur 
+use fget instead 
+also see post 
+articl compil narendra kangralkar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

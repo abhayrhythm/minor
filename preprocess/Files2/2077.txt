@@ -1,0 +1,6 @@
+write c c program accept number user print even enter number even print odd number odd 
+allow use comparison etc condit els switch ternari oper etc statement 
+method 1 tricki code use print even odd accordingli 
+includ iostream includ conio h use namespac std int main char arr 2 5 even odd int cout enter number cin cout arr 2 getch return 0 method 2 anoth tricki code use print even odd accordingli 
+thank student suggest method 
+includ stdio h int main int printf enter scanf 1 printf odd printf even return 0 pleas write comment find code incorrect find better way solv problem adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

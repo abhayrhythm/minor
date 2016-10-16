@@ -1,0 +1,29 @@
+begin competit program bare anyon know code style follow 
+exampl help understand style 
+let us consid problem statement exampl 
+problem statement linear search given integ array element x find element present array 
+element present print index first occurr 
+els print 1 input first line contain integ number test case 
+test case integ 
+size array n second line 
+third line input integ element array singl line separ space 
+element x input fourth line e enter element array 
+repeat step second line onward multipl test case 
+output print output separ line return index element x element present print 1 constraint 1 100 1 n 100 1 arr 100 exampl input output program input 2 4 1 2 3 4 3 5 10 90 20 30 40 40 output 2 4 explan 2 test case note 2 begin input test case 1 input arr 1 2 3 4 element search 3 output 2 explan 3 present index 2 test case 2 input arr 10 90 20 30 40 element search 40 output 4 explan 40 present index 4 c sampl c program beginn competit program includ stdio h function return index element x arr int search int arr int n int x int 0 n return index element element found arr x return return 1 element found return 1 int main note size arr consid 100 accord constraint mention problem statement 
+int arr 100 x n input number test case want run scanf one one run input test case input size array scanf n input array 0 n scanf arr input element search scanf x comput print result printf n search arr n x return 0 c sampl c program beginn competit program includ iostream use namespac std function return index element x arr int search int arr int n int x int 0 n return index element element found arr x return return 1 element found return 1 int main note size arr consid 100 accord constraint mention problem statement 
+int arr 100 x n input number test case want run cin one one run input test case input size array cin n input array int 0 n cin arr input element search cin x comput print result cout search arr n x endl return 0 python sampl python program beginn competit program return index x arr present els return 1 def search arr x n len arr j rang 0 n x arr j return j return 1 input number test case int raw_input one one run input test case rang 0 input size array n int raw_input input array arr map int raw_input split input element search x int raw_input print search arr x element also search index method need handl except element found uncom line get work 
+arr index x java sampl java program beginn competit program import java util 
+import java lang 
+import java io 
+class linearsearch function return index element x arr static int search int arr int n int x int 0 n return index element element found arr x return return 1 element found return 1 public static void main string arg note size arr consid 100 accord constraint mention problem statement 
+int arr new int 100 input number test case want run scanner sc new scanner system int sc nextint one one run input test case 0 input size array int n sc nextint input array int 0 n arr sc nextint input element search int x sc nextint comput print result system println search arr n x common mistak beginn program print extra charact 
+write statement like printf enter valu n would caus reject platform 
+input output format specif must read care 
+exampl problem expect new line everi output 
+write printf n equival statement loop run test case program would reject 
+begin practic 
+know write first program competit program environ start basic practic problem competit program 
+begin studi 
+top 10 algorithm data structur competit program 
+see faq beginn 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

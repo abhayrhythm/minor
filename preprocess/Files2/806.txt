@@ -1,0 +1,23 @@
+follow explan c code blur imag c use tool opencv 
+thing know 1 code compil linux environ 
+2 compil command g w articl cpp articl pkg config lib opencv 3 run command articl 4 imag bat jpg directori code 
+run code pleas make sure opencv instal system 
+code snippet explain author aditya prakash titl opencv c program blur imag 
+import core header file includ opencv2 core core hpp core compact modul defin basic data structur includ dens multi dimension array mat basic function use modul 
+highgui easi use interfac video captur imag video codec well simpl ui capabl 
+includ opencv2 highgui highgui hpp imgproc imag process modul includ linear non linear imag filter geometr imag transform resiz affin perspect warp gener tabl base remap color space convers histogram 
+includ opencv2 imgproc imgproc hpp stdio h header defin three variabl type sever macro variou function perform input output 
+includ stdio h includ iostream namespac c opencv function resid use namespac cv use namespac std also use namespac std need 
+int main main function read imag data file mypic jpg store img mat imag imread bat jpg cv_load_image_unchang mat object basic imag contain 
+imread first argument denot imag load second argument specifi imag format 
+cv_load_image_unchang 0 load imag cv_load_image_grayscal 0 load imag intens one cv_load_image_color 0 load imag bgr format second argument specifi impli cv_load_image_color check data 
+imag data cout could open find imag n return 1 unsuccess function blur imag first argument input sourc second argument output sourc third argument blur kernel size blur imag imag size 10 10 creat window first argument name window second argument flag type window_norm set user resiz window 
+window_autos set window size automat adjust fit display imag cannot chang window size manual 
+window_opengl set window creat opengl support 
+namedwindow bat cv_window_autos display imag specifi window 
+first argument name window second argument imag shown mat object imshow bat imag waitkey 0 wait infinit time keypress return 0 return main function opencv python program blur imag author aditya prakash undergradu student indian institut inform technolog vadodara 
+primarili code c 
+motto far good 
+play cricket watch superhero movi footbal big fan answer question 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

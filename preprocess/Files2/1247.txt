@@ -1,0 +1,17 @@
+given two sequenc print longest subsequ present 
+exampl lc input sequenc abcdgh aedfhr adh length 3 lc input sequenc aggtab gxtxayb gtab length 4 discuss longest common subsequ lc problem previou post 
+function discuss mainli find length lc 
+find length lc 2d tabl l construct 
+post function construct print lc discuss 
+follow detail algorithm print lc 
+use 2d tabl l 
+1 construct l 1 n 1 use step discuss previou post 
+2 valu l n contain length lc 
+creat charact array lc length equal length lc plu 1 one extra store 0 
+2 travers 2d array start l n 
+follow everi cell l j charact x correspond l j x 1 j 1 includ charact part lc 
+b els compar valu l 1 j l j 1 go direct greater valu 
+follow tabl taken wiki show step highlight follow algorithm 
+0 1 2 3 4 5 6 7 ø z j w x u 0 ø 0 0 0 0 0 0 0 0 1 x 0 0 0 0 0 0 1 1 2 0 1 1 1 1 1 1 1 3 j 0 1 1 2 2 2 2 2 4 0 1 1 2 2 2 2 2 5 0 1 1 2 3 3 3 3 6 u 0 1 1 2 3 3 3 4 7 z 0 1 2 2 3 3 3 4 follow c implement approach 
+c c dynam program implement lc problem includ iostream includ cstring includ cstdlib use namespac std return length lc x 0 1 0 n 1 void lc char x char int int n int l 1 n 1 follow step build l 1 n 1 bottom fashion 
+note l j contain length lc x 0 1 0 j 1 int 0 int j 0 j n j 0 j 0 l j 0 els x 1 j 1 l j l 1 j 1 1 els l j max l 1 j l j 1 follow code use print lc int index l n creat charact array store lc string char lc index 1 lc index 0 set termin charact start right bottom corner one one store charact lc int j n 0 j 0 current charact x current charact part lc x 1 j 1 lc index 1 x 1 put current charact result j index reduc valu j index find larger two go direct larger valu els l 1 j l j 1 els j print lc cout lc x lc driver program test function int main char x aggtab char gxtxayb int strlen x int n strlen lc x n return 0 

@@ -1,0 +1,99 @@
+
+In Python, we can return multiple values from a function.  Following are different ways
+1) Using Object: This is similar to C/C++ and Java, we can create a class (in C, struct) to hold multiple values and return an object of the class.
+
+# A Python program to to return multiple 
+# values from a method using class
+class Test:
+    def __init__(self):
+        self.str = "geeksforgeeks"
+        self.x = 20   
+
+# This function returns an object of Test
+def fun():
+    return Test()
+    
+# Driver code to test above method
+t = fun() 
+print(t.str)
+print(t.x)
+
+Output:
+
+geeksforgeeks
+20
+Below are interesting methods for somebody shifting C++/Java world.
+ 
+2) Using Tuple: A Tuple is a comma separated sequence of items.  It is created with or without ().  Tuples are immutable. See this for details of tuple and list.
+
+# A Python program to to return multiple 
+# values from a method using tuple
+
+# This function returns a tuple
+def fun():
+    str = "geeksforgeeks"
+    x   = 20
+    return str, x;  # Return tuple, we could also
+                    # write (str, x)
+
+# Driver code to test above method
+str, x = fun() # Assign returned tuple
+print(str)
+print(x)
+
+Output:
+
+geeksforgeeks
+20
+ 
+3) Using a list: A list is like an array of items created using square brackets. They are different from arrays as they can contain items of different types.  Lists are different from tuples as they mutable.
+
+# A Python program to to return multiple 
+# values from a method using list
+
+# This function returns a list
+def fun():
+    str = "geeksforgeeks"
+    x = 20   
+    return [str, x];  
+
+# Driver code to test above method
+list = fun() 
+print(list)
+
+Output:
+
+['geeksforgeeks', 20]
+ 
+4) Using a Dictionary: A Dictionary is similar to hash or map in other languages. See this for details of dictionary.
+
+# A Python program to to return multiple 
+# values from a method using dictionary
+
+# This function returns a dictionary
+def fun():
+    d = dict(); 
+    d['str'] = "GeeksforGeeks"
+    d['x']   = 20
+    return d
+
+# Driver code to test above method
+d = fun() 
+print(d)
+
+Output:
+{'x': 20, 'str': 'GeeksforGeeks'}
+ 
+Reference:
+http://stackoverflow.com/questions/354883/how-do-you-return-multiple-values-in-python
+This article is contributed by Shubham Agrawal. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

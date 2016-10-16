@@ -1,0 +1,17 @@
+given binari search tree bst posit integ k find k th largest element binari search tree 
+exampl follow bst k 3 output 14 k 5 output 10 discuss two method post 
+method 1 requir n time 
+method 2 take h time h height bst requir augment bst store count node left subtre everi node 
+find k th largest element better n time augment 
+strongli recommend minim browser tri first 
+post method discuss take h k time 
+method requir chang bst 
+idea revers inord travers bst 
+revers inord travers travers node decreas order 
+travers keep track count node visit far 
+count becom equal k stop travers print key 
+c program find k th largest element bst includ iostream use namespac std struct node int key node left right util function creat new bst node node newnod int item node temp new node temp key item temp left temp right null return temp function find k th largest element given tree 
+void kthlargestutil node root int k int c base case second condit import avoid unnecessari recurs call root null c k return follow revers inord travers largest element visit first kthlargestutil root right k c increment count visit node c c becom k k th largest c k cout k th largest element root key endl return recur left subtre kthlargestutil root left k c function find k th largest element void kthlargest node root int k initi count node visit 0 int c 0 note c pass refer kthlargestutil root k c util function insert new node given key bst node insert node node int key tree empti return new node node null return newnod key otherwis recur tree key node key node left insert node left key els key node key node right insert node right key return unchang node pointer return node driver program test function int main let us creat follow bst 50 30 70 20 40 60 80 node root null root insert root 50 insert root 30 insert root 20 insert root 40 insert root 70 insert root 60 insert root 80 int c 0 int k 1 k 7 k kthlargest root k return 0 k th largest element 80 k th largest element 70 k th largest element 60 k th largest element 50 k th largest element 40 k th largest element 30 k th largest element 20 time complex code first travers rightmost node take h time travers k element k time 
+therefor overal time complex h k 
+articl contribut chirag sharma 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

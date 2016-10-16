@@ -1,0 +1,8 @@
+queue use thing process immediatli process first first order like breadth first search 
+properti queue make also use follow kind scenario 
+1 resourc share among multipl consum 
+exampl includ cpu schedul disk schedul 
+2 data transfer asynchron data necessarili receiv rate sent two process 
+exampl includ io buffer pipe file io etc 
+see detail applic queue stack 
+refer http introc cs princeton edu 43stack adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

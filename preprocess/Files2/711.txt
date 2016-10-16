@@ -1,0 +1,36 @@
+appli two month long summer internship coden 
+campu internship recruit 
+consist 1 code round 3 question done 1 30 hr given string may append number last 
+need find whether length string exclud number equal number 
+exampl helloworld10 answer true helloworld consist 10 letter 
+length string less 10 000 
+need check last 5 place 
+simpl dp bitmask question 
+n thing select n peopl given nxn matrix cost element need find one combin max total weight person get exactli one thing 
+bi partit graph implement question 
+check whether graph bi partiti complex problem statement problem eventu broke 
+2 debug round happen onlin skype ask us share screen elimin chanc cheat 
+given code told meant ask debug minimum chang possibl minimum time 
+got simpl iter heap sort 
+chang recurs heapsort took 2 line chang ask question recurs itter ask memoiz fibonacci along question system stack os 
+3 interview round 1 happen skype ask project discuss way thought implement approach short everyth 
+question differ approach could use instead use 
+gave question say k array consist number variou length 
+need find shortest rang rang includ atleast one number array 
+propos n k log max length solut 
+satisfi answer 
+4 interview round2 happen skype ask project work experi 
+ask creat recurs function tree question ask propos data structur implement googl map 
+propos graph graph graph dijiktra find shortest path 
+later ask self balanc tree avl splay tree 
+5 interview round3 happen skype ask project 
+ask think approach find lower bound array structur 3 integ lower bound 3 integ togeth 
+ask queri 1 time subtract integ reinsert structur later ask think data structur minmum memori time complex text editor 
+suggest rope data structur ask think thing 
+suggest trie tree vector last keep track first posit word come 
+satisfi answer 
+6 hr round much round 
+came skype ask check mail offer letter wait 
+could turn speechless smile like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

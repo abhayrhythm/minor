@@ -1,0 +1,15 @@
+n stair person stand bottom want reach top 
+person climb either 1 stair 2 stair time 
+count number way person reach top 
+consid exampl shown diagram 
+valu n 3 3 way reach top 
+diagram taken easier fibonacci puzzl exampl input n 1 output 1 one way climb 1 stair input n 2 output 2 two way 1 1 2 input n 4 output 5 1 1 1 1 1 1 2 2 1 1 1 2 1 2 2 strongli recommend click practic move solut 
+easili find recurs natur problem 
+person reach n th stair either n 1 th stair n 2 th stair 
+let total number way reach n stair way n 
+valu way n written follow 
+way n way n 1 way n 2 express actual express fibonacci number one thing notic valu way n equal fibonacci n 1 
+way 1 fib 2 1 way 2 fib 3 2 way 3 fib 4 3 use function fibonacci number find valu way n 
+follow c implement idea 
+c c program count number way reach n stair person climb 1 2 stair time 
+includ stdio h simpl recurs program find n th fibonacci number int fib int n n 1 return n return fib n 1 fib n 2 return number way reach th stair int countway int return fib 1 driver program test function int main int 4 printf number way countway getchar return 0 

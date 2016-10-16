@@ -1,0 +1,15 @@
+given string contain special charact togeth alphabet z z revers string way special charact affect 
+exampl input str b c output str c b note move anywher 
+subsequ abc revers input str ab c de output str ed c ba strongli recommend minim browser tri first 
+simpl solut 1 creat temporari charact array say temp 
+2 copi alphabet charact given array temp 
+3 revers temp use standard string revers algorithm 
+4 travers input string temp singl loop 
+wherev alphabet charact input string replac current charact temp 
+effici solut time complex solut n requir extra space two travers input string 
+revers one travers without extra space 
+algorithm 
+1 let input string str length string n 2 l 0 r n 1 3 l smaller r follow str l alphabet charact l b els str r alphabet charact r c els swap str l str r c implement algorithm 
+c c program revers string special charact includ bit stdc h use namespac std return true x aplhabat charact fals otherwis bool isalphabet char x return x x z x x z void revers char str initi left right pointer int r strlen str 1 l 0 travers string end l r l r ignor special charact isalphabet str l l els isalphabet str r r els str l str r spacial swap str l str r l r driver program int main char str 
+b c e f ghi cout input string str endl revers str cout output string str endl return 0 python python program revers string special charact return true x aplhabat charact fals otherwis def isalphabet x return x isalpha def revers string list tolist string initi left right pointer r len list 1 l 0 travers list end l r l r ignor special charact isalphabet list l l 1 elif isalphabet list r r 1 els list l list r special list l list r swap list l list r l 1 r 1 return tostr list util function def tolist string list string list append return list def tostr list return join list def swap b return b driver program string 
+b c e f ghi print input string string string revers string print output string string code contribut bhavya jain output 

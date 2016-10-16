@@ -1,0 +1,13 @@
+write util program list content directori irrespect oper system 
+c c compil defin macro use detect oper system 
+exampl gcc follow common macro 
+_win32 defin 32 bit 64 bit window os 
+_win64 defin 64 bit window os 
+unix __unix __unix__ defin unix os __apple__ __mach__ defin mac os sourc stackoverflow window us dir call list directori oper system ls use 
+simpl c implement list directori folder irrespect os 
+c program list directori 
+includ bit stdc h use namespac std int main ifdef _win32 system dir els system ls endif return 0 os independ code total differ java platform independ 
+java intermedi byte code clean way handl platform depend 
+rememb compil specif macro write code use clumsi ifdef els import need recompil code everi os 
+articl contrubut shubham agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

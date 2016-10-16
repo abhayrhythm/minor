@@ -1,0 +1,64 @@
+articl algo geek 
+interest system relat stuff read share librari use share code common across mani applic 
+exampl econom pack code relat tcp ip implement share librari 
+howev data share everi applic need set data 
+applic like browser ftp telnet etc make use share network librari elev specif function 
+everi oper system represent tool set creat share librari 
+less concept 
+window everi object file obj dll ocx sy exe etc follow format call portalb execut 
+even share librari call dynam link librari dll short also repres pe format 
+tool set use creat librari need understand binari format 
+linux variant follow format call execut linkabl format elf 
+elf file posit independ pic format 
+share librari linux refer share object gener extens 
+similar dll window platform 
+even share object file follow elf binari format 
+rememb file extens dll lib etc programm conveni 
+signific 
+binari file 
+name wish 
+yet ensur provid absolut path build applic 
+gener compil applic step simpl 
+compil link load 
+howev simpl 
+step versatil modern oper system 
+link applic static librari code part applic 
+depend 
+even though caus applic size increas advantag 
+primari one speed symbol program entiti resolut runtim 
+sinc everi piec code part binari imag applic independ version mismatch issu 
+howev cost fix issu librari code 
+bug librari code entir applic need recompil ship client 
+case dynam librari fix upgrad librari easi 
+need ship updat share librari 
+applic need recompil need run 
+design mechan need restart applic 
+link applic share librari linker leav stub unresolv symbol fill applic load time 
+stub need fill tool call dynam linker run time applic load time 
+load librari two type static load dynam load 
+confus static load vs static link dynam load vs dynam link 
+exampl built applic depend libstdc share object dynam libari 
+applic becom awar requir share librari 
+interest explor tool tdump borland tool set objdump nm readelf tool linux 
+static load static load depend share librari load memori even applic start execut 
+load share librari fail applic run 
+dynam loader examin applic depend share librari 
+librari alreadi load memori librari address space map applic virtual address space va dynam linker reloc unresolv symbol 
+librari load memori perhap applic might first invok share librari loader search standard librari path load memori map resolv symbol 
+load big process interest write loader 
+resolv symbol dynam linker abl find symbol may due older version share librari applic start 
+dynam load name indic dynam load load librari demand 
+exampl want small function share librari 
+load applic load time sit memori 
+invok load share librari dynam need function 
+call dynam load 
+case programm awar situat librari load 
+tool set relev kernel provid api support dynam load queri symbol share librari 
+detail later articl 
+note come across term like loadabl modul equival term mix share librari 
+differ share librari kernel provid framework support loadabl modul 
+exercis 1 assum understood concept design applic e g 
+bank upgrad new share librari without run applic 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

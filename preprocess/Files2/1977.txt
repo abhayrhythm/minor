@@ -1,0 +1,4 @@
+variabl declar refer becom altern name exist variabl 
+variabl declar refer put declar 
+includ iostream use namespac std int main int x 10 ref refer x int ref x valu x chang 20 ref 20 cout x x endl valu x chang 30 x 30 cout ref ref endl return 0 output x 20 ref 30 follow one exampl use refer swap two variabl 
+includ iostream use namespac std void swap int first int second int temp first first second second temp int main int 2 b 3 swap b cout b return 0 output 3 2 

@@ -1,0 +1,30 @@
+given integ array size n find maximum minimum everi window size array 
+note window size vari 1 n exampl input arr 10 20 30 50 10 70 30 output 70 30 20 10 10 10 10 first element output indic maximum minimum window size 1 minimum window size 1 10 20 30 50 10 70 30 
+maximum minimum 70 second element output indic maximum minimum window size 2 minimum window size 2 10 20 30 10 10 30 
+maximum minimum 30 third element output indic maximum minimum window size 3 minimum window size 3 10 20 10 10 10 
+maximum minimum 20 similarli element output comput 
+strongli recommend click practic move solut 
+simpl solut go window everi size find maximum window 
+c implement idea 
+naiv method find maximum minimum window differ size includ iostream use namespac std void printmaxofmin int arr int n consid window differ size start size 1 int k 1 k n k initi max min current window size k int maxofmin arr 0 travers window current size k int 0 n k find minimum current window int min arr int j 1 j k j arr j min min arr j updat maxofmin requir min maxofmin maxofmin min print max min current window size cout maxofmin driver program int main int arr 10 20 30 50 10 70 30 int n sizeof arr sizeof arr 0 printmaxofmin arr n return 0 output 70 30 20 10 10 10 10 time complex solut upper bound n3 
+solv problem n time use effici solut 
+idea extra space 
+detail step 
+step 1 find index next smaller previou smaller everi element 
+next smaller largest element right side arr element smaller arr 
+similarli previou smaller element left side smaller element right side next smaller n smaller left side previou smaller 1 input 10 20 30 50 10 70 30 array index next smaller 7 4 4 4 7 6 7 
+input 10 20 30 50 10 70 30 array index previou smaller 1 0 1 2 1 4 4 step done n time use approach discuss next greater element 
+step 2 index next previou smaller know arr minimum window length right left 1 
+length window element minimum 7 3 2 1 7 1 2 
+array indic first element minimum window size 7 second element minimum window size 1 
+creat auxiliari array an n 1 store result 
+valu an fill iter right left int 0 n length interv int len right left 1 possibl answer length len interv an len max an len arr get an array 0 70 30 20 0 0 0 10 
+note an 0 answer length 0 useless 
+step 3 entri an 0 yet fill 
+exampl know maximum minimum length 1 2 3 7 70 30 20 10 respect know length 4 5 6 import observ fill remain entri result length e 
+an would alway greater result length 1 e 1 
+b an fill mean direct element minimum length therefor either element length an 1 an 2 an fill rest entri use loop 
+int n 1 1 an max an an 1 c implement algorithm 
+effici c program find maximum minimum window differ size includ iostream includ stack use namespac std void printmaxofmin int arr int n stack int use find previou next smaller array store previou next smaller int left n 1 int right n 1 initi element left right int 0 n left 1 right n fill element left use logic discuss http www geeksforgeek org next greater element int 0 n empti arr top arr pop empti left top push empti stack stack go use right empti pop fill element right use logic int n 1 0 empti arr top arr pop empti right top push creat initi answer array int an n 1 int 0 n an 0 fill answer array compar minimum length comput use left right int 0 n length interv int len right left 1 arr possibl answer length len interv check arr max len an len max an len arr entri an may fill yet 
+fill take valu right side an int n 1 1 an max an an 1 print result int 1 n cout an driver program int main int arr 10 20 30 50 10 70 30 int n sizeof arr sizeof arr 0 printmaxofmin arr n return 0 output 70 30 20 10 10 10 10 time complex n auxiliari space n articl contribut ekta goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,30 @@
+
+The biggest problem that students face when they join big corporates is difficulty in writing high quality code that these corporates demand. The prime reason for this difficulty is because their minds have been trained in college to just make things work somehow, even if it means using dirty hacks. To help coders in general and fellow college students in particular, building a tool which can run static code checks on a given code can help improve the quality of code to a great extend.
+Features:
+Static code checker can check and warn the programmer about best practices, possible mistakes, loopholes without even executing the code. For example.
+
+Memory leaks
+Unused variables
+Undeclared variables
+Array’s bound checks
+Dead code
+
+Research:
+There are lots of best practices which should be followed in language like C++ to ensure that written code is of high quality. More research can be done about what are the various best practices, loopholes, obvious errors which the project can take into consideration. 
+Implementation:
+Static code checker could be written as a plugin to any existing IDE like Eclipse/Codeblocks (recommended) or it can be in the form of any website where you paste your code and run static code checks.
+References:
+There are a lot of existing static code checkers available. For example the best static code checkers available for Javascript are JsLint and JsHint.
+http://www.jslint.com/
+http://jshint.com/
+About the author:
+“Harshit is a technology enthusiast and has keen interest in programming. He holds a  B.Tech. degree in Computer Science from JIIT, Noida and currently works as Front-end Developer at SAP. He is also a state level table tennis player. Apart from this he likes to unwind by watching movies and English sitcoms. He is based out of Delhi and you can reach out to him at https://in.linkedin.com/pub/harshit-jain/2a/129/bb5
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

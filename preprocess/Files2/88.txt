@@ -1,0 +1,16 @@
+given n pair number 
+everi pair first number alway smaller second number 
+pair c follow anoth pair b b c chain pair form fashion 
+find longest chain form given set pair 
+sourc amazon interview set 2 exampl given pair 5 24 39 60 15 28 27 40 50 90 longest chain form length 3 chain 5 24 27 40 50 90 problem variat standard longest increas subsequ problem 
+follow simpl two step process 
+1 sort given pair increas order first smaller element 
+2 run modifi li process compar second element alreadi final li first element new li construct 
+follow code slight modif method 2 post 
+includ stdio h includ stdlib h structur pair struct pair int int b function assum arr sort increas order accord first smaller valu pair 
+int maxchainlength struct pair arr int n int j max 0 int mcl int malloc sizeof int n initi mcl max chain length valu index 0 n mcl 1 comput optim chain length valu bottom manner 1 n j 0 j j arr arr j b mcl mcl j 1 mcl mcl j 1 mcl store maximum chain length end pair pick maximum mcl valu 0 n max mcl max mcl free memori avoid memori leak free mcl return max driver program test function int main struct pair arr 5 24 15 25 27 40 50 60 int n sizeof arr sizeof arr 0 printf length maximum size chain n maxchainlength arr n return 0 output length maximum size chain 3 time complex n 2 n number pair 
+given problem also variat activ select problem solv nlogn time 
+solv activ select problem consid first element pair start time activ select problem second element pair end time 
+thank palash suggest approach 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

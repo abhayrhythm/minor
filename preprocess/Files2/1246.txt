@@ -1,0 +1,35 @@
+advent qwerti keyboard text number place key 
+exampl 2 abc want write anyth start need type key 2 
+want type b press key 2 twice thrice type c 
+pictur keypad 
+given keypad shown diagram n digit number list word possibl press number 
+exampl input number 234 possibl word form alphabet order adg adh adi aeg aeh aei afg afh afi bdg bdh bdi beg beh bei bfg bfh bfi cdg cdh cdi ceg ceh cei cfg cfh cfi let calcul first 
+mani word possibl seven digit digit repres n letter 
+first digit four choic choic first letter four choic second digit 
+simpl math 4n 
+sinc key 0 1 correspond alphabet mani charact 3 charact 4n would upper bound number word minimum word 
+let exampl 
+number 234 see pattern 
+ye notic last charact alway either g h whenev reset valu g digit left get chang 
+similarli whenev second last alphabet reset valu third last alphabet get chang 
+first charact reset gener word 
+look end also 
+say whenev charact posit chang charact posit 1 goe possibl charact creat rippl effect till reach end 
+sinc 0 1 charact associ 
+break iter digit 
+let take second approach easi implement use recurs 
+go till end come back one one 
+perfect condit recurs 
+let search base case 
+reach last charact print word possibl charact last digit return 
+simpl base case 
+reach last charact print word possibl charact last digit return 
+simpl base case 
+strongli recommend click practic move solut 
+follow c implement recurs approach print possibl word correspond n digit input number 
+note input number repres array simplifi code 
+includ stdio h includ string h hashtabl store charact correspond digit phone const char hashtabl 10 5 abc def ghi jkl mno pqr tuv wxyz recurs function print possibl word obtain input number size n output word one one store output void printwordsutil int number int curr_digit char output int n base case current output word prepar int curr_digit n printf output return tri 3 possibl charact current digir number recur remain digit 0 strlen hashtabl number curr_digit output curr_digit hashtabl number curr_digit printwordsutil number curr_digit 1 output n number curr_digit 0 number curr_digit 1 return wrapper printwordsutil 
+creat output array call printwordsutil void printword int number int n char result n 1 result n 0 printwordsutil number 0 result n driver program int main void int number 2 3 4 int n sizeof number sizeof number 0 printword number n return 0 output adg adh adi aeg aeh aei afg afh afi bdg bdh bdi beg beh bei bfg bfh bfi cdg cdh cdi ceg ceh cei cfg cfh cfi process return 0 0x0 execut time 0 025 press key continu 
+time complex time complex code 4n n number digit input number 
+refer buy program interview expos secret land next job 3rd edit flipkart com articl contribut jitendra sangar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

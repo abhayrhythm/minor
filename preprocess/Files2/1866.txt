@@ -1,0 +1,22 @@
+type infer refer automat deduct data type express program languag 
+c 11 data type need explicitli declar compil time limit valu express run time new version c mani keyword includ allow programm leav type deduct compil 
+type infer capabl spend less time write thing compil alreadi know 
+type deduc compil phase time compil increas slightli affect run time program 
+auto keywprd auto keyword specifi type variabl begin declar automat deduc initi function return type auto evalu return type express runtim 
+c program demonstr work auto type infer includ bit stdc h use namespac std int main auto x 4 auto 3 37 auto ptr x cout typeid x name endl typeid name endl typeid ptr name endl return 0 output pi use typeid get type variabl 
+typeid oper use dynam type object need known 
+typeid x name return short hand name data type x exampl return integ doubl pi pointer integ etc actual name return mostli compil depend 
+read typeid 
+good use auto avoid long initi creat iter contain 
+c program demonstr use auto save time creat iter includ bit stdc h use namespac std int main creat set string set string st st insert geek geek org evalu iter set string type automat auto st begin st end cout return 0 output geek org thing note auto auto becom int type even integ refer assign 
+make refer type use auto 
+function return refer int type int fun default int type instead int type auto fun n int type use extra auto keyword auto n fun decltyp keyword inspect declar type entiti type express 
+auto let declar variabl particular type wherea decltyp let extract type variabl decltyp sort oper evalu type pass express 
+explan keyword use given c program demonstr use decltyp includ bit stdc h use namespac std int fun1 return 10 char fun2 return g int main data type x return type fun1 type return type fun2 decltyp fun1 x decltyp fun2 cout typeid x name endl cout typeid name endl return 0 output c one exampl demonstr use decltyp anoth c program demonstr use decltyp includ bit stdc h use namespac std int main int x 5 j type int data type x decltyp x j x 5 cout typeid j name return 0 output c program demonstr use auto decltyp 
+c templat function min_typ return minimum two number 
+two number integr type 
+return type determin use type minimum two 
+c program demonstr use decltyp function includ bit stdc h use namespac std gener function find minimum two valu return type type variabl minimum templat class class b auto findmin b b decltyp b 
+b return b 
+b driver function test variou infer int main call return 3 44 doubal type cout findmin 4 3 44 endl call return 3 int type cout findmin 5 4 3 endl return 0 output i3 44 3 articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

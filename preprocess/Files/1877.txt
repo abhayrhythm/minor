@@ -1,0 +1,45 @@
+
+Generating test cases for array programs can be a cumbersome process. But the generate and generate_n functions in the STL (Standard Template Library), come handy to populate the array with random values.
+
+generate()
+The generate functions assigns random values provided by calling the generator function ‘gen’ to the elements in the range [begin, end). Notice that begin is included in the range but end is NOT included.
+Following code demonstrates the implementation of generate : 
+
+// C++ program to demonstrate generate function in STL
+#include <bits/stdc++.h>     
+using namespace std;
+
+// function to generate random numbers in range [0-999] :
+int randomize() 
+{   
+    return (rand() % 1000); 
+}
+
+int main () 
+{
+  // for different values each time we run the code
+  srand(time(NULL)); 
+  
+  vector<int> vect(10); // declaring the vector
+
+  // Fill all elements using randomize()
+  generate(vect.begin(), vect.end(), randomize);
+
+  // displaying the content of vector
+  for (int i=0; i<vect.size(); i++)
+     cout << vect[i] << " " ;
+  
+  return 0;
+}
+
+Output : 
+
+832 60 417 710 487 260 920 803 576 58
+
+NOTE : The output would be different each time we run the code because of srand. If we remove srand, we would get the same set of random numbers every time we run the code.
+
+ 
+generate_n()
+The generate_n does the same job as generate upto n elements starting from the element pointed to by the begin iterator.
+ 
+The following code demonstrates the working of generate_n : 

@@ -1,0 +1,79 @@
+
+Consider below simple program in C.  The program reads an integer using scanf(), then reads a string using fgets().
+
+// C program to demonstrate the problem when
+// fgets()/gets() is used after scanf()
+#include<stdio.h>
+
+int main()
+{
+   int x;
+   char str[100];
+   scanf("%d", &x);
+   fgets(str, 100, stdin);
+   printf("x = %d, str = %s", x, str);
+   return 0;
+}
+
+Input
+10
+test
+Output:
+x = 10, str =  
+The problem with above code is scanf() reads an integer and leaves a newline character in buffer. So fgets() only reads newline and the string “test” is ignored by the program.
+The similar problem occurs when scanf() is used in a loop.
+
+// C program to demonstrate the problem when
+// scanf() is used in a loop
+#include<stdio.h>
+
+int main()
+{
+    char c;
+    printf("......Enter q to quit......\n");
+    do
+    {
+        printf("Enter a character\n");
+        scanf("%c", &c);
+        printf("%c\n", c);
+    }
+    while (c != 'q');
+    return 0;
+}
+
+Input
+a
+b
+q
+Output:
+......Enter q to quit......
+Enter a character
+a
+Enter a character
+
+
+Enter a character
+b
+Enter a character
+
+
+Enter a character
+q
+We can notice that above program prints an extra “Enter a character” followed by an extra new line. This happens because every scanf() leaves a newline character in buffer that is read by next scanf.
+How to solve above problem?
+
+ We can make scanf() to read a new line by using an extra “\n”, i.e., scanf(“%d\n”, &x) . In fact scanf(“%d “, &x)  also works (Note extra space).
+ We can add a getchar() after scanf() to read an extra newline. 
+
+See this and this for corrected programs.
+Same problem occurs with Scanner in Java when nextLine() is used after nextXXX().
+This article is contributed by Dheeraj Gupta. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

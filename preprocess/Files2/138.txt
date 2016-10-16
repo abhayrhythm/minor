@@ -1,0 +1,32 @@
+given string find longest substr palindrom 
+given string forgeeksskeegfor output geeksskeeg given string abaaba output abaaba given string abababa output abababa given string abcbabcbabcba output abcbabcba alreadi discuss naïv n3 quadrat n2 approach set 1 set 2 articl talk manach algorithm find longest palindrom substr linear time 
+one way set 2 find palindrom start center string compar charact direct one one 
+correspond charact side left right center match make palindrom 
+let consid string abababa 
+center string 4th charact index 3 b match charact left right center charact match string abababa palindrom 
+center posit actual string charact posit could posit two charact also 
+consid string abaaba even length 
+string palindrom around posit 3rd 4th charact respect 
+find longest palindrom substr string length n one way take possibl 2 n 1 center n charact posit n 1 two charact posit 2 posit left right end charact match left right direct 2 n 1 center keep track lp 
+approach take n 2 time set 2 let consid two string abababa abaaba shown two string left right side center posit posit 7 1st string posit 6 2nd string symmetr 
+
+whole string palindrom around center posit 
+need calcul longest palindrom substr 2 n 1 posit left right palindrom symmetr properti could help avoid unnecessari comput e 
+charact comparison 
+palindrom length l canter posit p may need compar charact left right side posit p 1 
+alreadi calcul lp posit p help avoid comparison posit p use inform previou posit later point time make manach algorithm linear 
+set 2 reus previou inform quadrat 
+manach algorithm probabl consid complex understand discuss detail way 
+portion may requir multipl read understand properli 
+let look string abababa 
+3rd figur 15 center posit shown 
+need calcul length longest palindrom string posit 
+posit 0 lp charact left side compar length lp 0 posit 1 lp length lp 1 posit 2 lp left right charact b match length lp 0 posit 3 lp aba length lp 3 posit 4 lp left right charact b match length lp 0 posit 5 lp ababa length lp 5 
+store palindrom length array say l string lp length l look like similarli lp length l string abaaba look like lp array l lp length valu odd posit actual charact posit odd greater equal 1 1 come center charact noth els match left right side lp length valu even posit posit two charact extrem left right posit even greater equal 0 0 come match left right side posit index string two differ thing 
+given string length n index 0 n 1 total n index posit 0 2 n total 2 n 1 posit 
+lp length valu interpret two way one term index second term posit 
+lp valu posit l tell substr posit palindrom length term posit substr index 2 2 1 palindrom length term index e g 
+string abaaba l 3 3 mean substr posit 0 3 3 6 3 3 palindrom aba length 3 also mean substr index 0 3 3 2 2 3 3 2 1 palindrom aba length 3 main task comput lp array effici 
+array comput lp string center posit maximum lp length valu 
+see part 2 articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

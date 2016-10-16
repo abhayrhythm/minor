@@ -1,0 +1,14 @@
+process remov function entri function call stack run time call stack unwind 
+stack unwind gener relat except handl 
+c except occur function call stack linearli search except handler entri function except handler remov function call stack 
+except handl involv stack unwind except handl function thrown 
+exampl output follow program f3 start f2 start f1 start caught except 100 f3 end includ iostream use namespac std sampl function f1 throw int except void f1 throw int cout n f1 start throw 100 cout n f1 end anoth sampl function f2 call f1 void f2 throw int cout n f2 start f1 cout n f2 end anoth sampl function f3 call f2 handl except thrown f1 void f3 cout n f3 start tri f2 catch int cout n caught except cout n f3 end driver function demonstr stack unwind process int main f3 getchar return 0 program f1 throw except entri remov function call stack f1 contain except handler thrown except next entri call stack look except handler 
+next entri f2 
+sinc f2 also handler entri also remov function call stack 
+next entri function call stack f3 
+sinc f3 contain except handler catch block insid f3 execut final code catch block execut 
+note follow line insid f1 f2 execut 
+insid f1 cout n f1 end insid f2 cout n f2 end side note local class object insid f1 f2 destructor local object would call stack unwind process 
+stack unwind also happen java except handl function 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

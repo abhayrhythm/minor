@@ -1,0 +1,9 @@
+variabl length array featur alloc auto array stack variabl size 
+c support variabl size array c99 standard 
+exampl program compil run fine c void fun int n int arr n int main fun 6 c standard till c 11 support variabl size array 
+c 11 standard mention array size constant express see see 8 3 4 page 179 n3337 
+program may valid c program 
+program may work gcc compil gcc compil provid extens support 
+side note latest c 14 see 8 3 4 page 184 n3690 mention array size simpl express constant express 
+refer http stackoverflow com question 1887097 variabl length array c http gcc gnu org onlinedoc gcc variabl length html articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

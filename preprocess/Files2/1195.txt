@@ -1,0 +1,29 @@
+given string contain mani consecut space trim space word contain singl space 
+convers done place solut handl trail lead space also remov preced space common punctuat like full stop comma question mark 
+exampl input str hello geek 
+welcom geeksforgeek 
+output hello geek 
+welcom geeksforgeek 
+input str geeksforgeek output geeksforgeek chang need problem extens remov space given string idea maintain 2 pointer 
+initi point begin array 
+first pointer keep track next posit fill output string 
+second pointer advanc read charact string one one 
+find non space charact charact copi locat first pointer first second pointer advanc 
+non space charact full stop comma question mark also remov preced space 
+find consecut space charact one space copi locat first pointer rest ignor 
+lead trail space handl separ solut 
+c implement idea 
+c program implement custom trim function includ iostream use namespac std function place trim space string word contain singl space 
+void removespac string str n length origin string int n str length point next postion fill output string j point next charact origin string int 0 j 1 flag set true space found bool spacefound fals handl lead space j n str j read charact origin string j n current charact non space str j remov preced space dot comma question mark str j 
+str j str j 
+1 0 str 1 str 1 str j els copi current charact index increment j str str j set space flag fals non space charact found spacefound fals current charact space els str j space encount first time word put one space output set space flag true spacefound str spacefound true remov trail space 1 str eras str begin str end els str eras str begin 1 str end driver code int main string str hello geek 
+welcom geeksforgeek 
+removespac str cout str return 0 output hello geek 
+welcom geeksforgeek 
+time complex solut n 
+auxiliari space 1 convers done place 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

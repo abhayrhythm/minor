@@ -1,0 +1,15 @@
+find size array use sizeof oper shown 
+find size arr store size int size sizeof arr sizeof arr 0 without use sizeof oper 
+method 1 write sizeof given array dont know type element array find total number element array without use sizeof oper 
+one solut write sizeof oper see detail c program find size array write sizeof includ bit stdc h use namespac std user defin sizeof macro defin my_sizeof type char type 1 char type int main int arr 1 2 3 4 5 6 int size my_sizeof arr my_sizeof arr 0 cout number element arr size return 0 output number element arr 6 method 2 use pointer hack follow solut short compar solut 
+number element array found use express int size arr 1 arr c program find size array use pointer hack 
+includ bit stdc h use namespac std int main int arr 1 2 3 4 5 6 int size arr 1 arr cout number element arr size return 0 output number element arr 6 work 
+pointer arithmet part 
+need explicitli convert locat charact pointer 
+arr pointer array 6 element 
+see differ arr arr arr 1 address 6 integ ahead pointer type pointer array 6 integ 
+arr 1 address arr 1 type pointer int 
+arr 1 arr sinc arr 1 point address 6 integ ahead arr differ two 6 articl contribut nikhil chakravartula jntuh colleg engin hyderabad 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

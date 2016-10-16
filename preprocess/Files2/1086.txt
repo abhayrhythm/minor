@@ -1,0 +1,19 @@
+surpass element array greater element right therefor x j surpass x j x x j 
+surpass count element number surpass 
+given array distinct integ element array find surpass count e 
+count number element right greater element 
+exampl input 2 7 5 3 0 8 1 output 4 1 1 1 2 0 0 method 1 naiv naiv solut would run two loop 
+element array count element greater right 
+complex solut n2 naiv c program find surpass count element array includ bit stdc h use namespac std function find surpass count element array void findsurpass int arr int n int 0 n store surpass count element arr int count 0 int j 1 j n j arr j arr count cout count function print array void printarray int arr int n int 0 n printf arr printf n driver program test function int main int arr 2 7 5 3 0 8 1 int n sizeof arr sizeof arr 0 printf given array n printarray arr n printf surpass count array n findsurpass arr n return 0 output given array 2 7 5 3 0 8 1 surpass count array 4 1 1 1 2 0 0 time complex n2 method 2 use merg sort element array easili find number element right greater element know number element right less element 
+idea count number invers element array use merg sort 
+surpass count element posit equal n invers count posit n size array 
+alreadi discuss find invers count complet array 
+modifi discuss approach find number invers element array instead return invers count whole array 
+also element array distinct maintain map store invers count element array 
+c implement idea c program find surpass count element array includ bit stdc h use namespac std function merg two have arr l arr 1 r array arr int merg int arr int l int int r unordered_map int int hm int j k int n1 l 1 int n2 r creat temp array int l n1 r n2 copi data temp array l r 0 n1 l arr l j 0 j n2 j r j arr 1 j merg temp array back arr l r 0 j 0 k l int c 0 n1 j n2 l r j increment invers count l hm l c arr k l els arr k r j invers found c copi remain element l n1 hm l c arr k l copi remain element r j n2 arr k r j l left index r right index sub array arr sort int mergesort int arr int l int r unordered_map int int hm l r int l r l 2 mergesort arr l hm mergesort arr 1 r hm merg arr l r hm function print array void printarray int arr int n int 0 n printf arr printf n void findsurpass int arr int n store invers count element unordered_map int int hm store copi array int dup n memcpi dup arr n sizeof arr 0 sort copi store invers count element 
+mergesort dup 0 n 1 hm printf surpass count array n int 0 n printf n 1 hm arr driver program test function int main int arr 2 7 5 3 0 8 1 int n sizeof arr sizeof arr 0 printf given array n printarray arr n findsurpass arr n return 0 output given array 2 7 5 3 0 8 1 surpass count array 4 1 1 1 2 0 0 time complex solut nlogn 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

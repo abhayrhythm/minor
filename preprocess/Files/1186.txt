@@ -1,0 +1,104 @@
+
+Given an input string and a pattern, check if characters in the input string follows the same order as determined by characters present in the pattern. Assume there won’t be any duplicate characters in the pattern.
+Examples:
+
+Input: 
+string = "engineers rock"
+pattern = "er";
+Output: true
+Explanation: 
+All 'e' in the input string are before all 'r'.
+
+Input: 
+string = "engineers rock"
+pattern = "egr";
+Output: false
+Explanation: 
+There are two 'e' after 'g' in the input string.
+
+Input: 
+string = "engineers rock"
+pattern = "gsr";
+Output: false
+Explanation: 
+There are one 'r' before 's' in the input string.
+
+
+
+The idea is very simple. For every pair (x, y) of consecutive characters in the pattern string, we find the last occurrence of x and first occurrence of y in the input string. If last occurrence of character x is after first occurrence of character y for any pair, we return false. Checking for every pair of consecutive characters in the pattern string will suffice. For example, if we consider three consecutive characters in the pattern say x, y and z, if (x, y) and (y, z) returns true, that implies (x, z) is also true. 
+Below is C++ implementation of above idea –
+
+// C++ program check if characters in the input string 
+// follows the same order as determined by characters 
+// present in the given pattern
+#include <iostream>
+using namespace std;
+ 
+// Function to check if characters in the input string 
+// follows the same order as determined by characters 
+// present in the given pattern
+bool checkPattern(string str, string pattern)
+{
+    // len stores length of the given pattern 
+    int len = pattern.length();
+     
+    // if length of pattern is more than length of 
+    // input string, return false;
+    if (str.length() < len)
+        return false;
+     
+    for (int i = 0; i < len - 1; i++) 
+    {
+    	// x, y are two adjacent characters in pattern
+    	char x = pattern[i];
+    	char y = pattern[i + 1];
+    	
+        // find index of last occurrence of character x
+        // in the input string
+        size_t last = str.find_last_of(x);
+         
+        // find index of first occurrence of character y
+        // in the input string
+        size_t first = str.find_first_of(y);
+         
+        // return false if x or y are not present in the 
+        // input string OR last occurrence of x is after 
+        // the first occurrence of y in the input string
+        if (last == string::npos || first ==  
+            string::npos || last > first)    
+        return false;
+    }
+     
+    // return true if string matches the pattern
+    return true;
+}
+
+// Driver code
+int main()
+{
+    string str = "engineers rock";
+    string pattern = "gsr";
+ 
+    cout << boolalpha << checkPattern(str, pattern);
+ 
+    return 0;
+}
+
+Output:
+
+false
+
+We have discussed two more approaches to solve this problem.
+Check if string follows order of characters defined by a pattern or not | Set 2
+Check if string follows order of characters defined by a pattern or not | Set 3
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

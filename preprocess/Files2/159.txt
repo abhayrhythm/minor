@@ -1,0 +1,25 @@
+given polygon point p find p lie insid polygon 
+point lie border consid insid 
+strongli recommend see follow post first 
+check two given line segment intersect 
+follow simpl idea check whether point insid outsid 
+1 draw horizont line right point extend infin 1 count number time line intersect polygon edg 
+2 point insid polygon either count intersect odd point lie edg polygon 
+none condit true point lie outsid 
+handl point g figur 
+note return true point lie line one vertic given polygon 
+handl check line p extrem intersect check whether p colinear vertic current line polygon 
+coliear check point p lie current side polygon lie return true els fals 
+follow c implement idea 
+c program check given point lie insid given polygon refer http www geeksforgeek org check two given line segment intersect explan function onseg orient dointersect includ iostream use namespac std defin infinit use int_max caus overflow problem defin inf 10000 struct point int x int given three colinear point p q r function check point q lie line segment pr bool onseg point p point q point r q x max p x r x q x min p x r x q max p r q min p r return true return fals find orient order triplet p q r 
+function return follow valu 0 p q r colinear 1 clockwis 2 counterclockwis int orient point p point q point r int val q p r x q x q x p x r q val 0 return 0 colinear return val 0 
+1 2 clock counterclock wise function return true line segment p1q1 p2q2 intersect 
+bool dointersect point p1 point q1 point p2 point q2 find four orient need gener special case int o1 orient p1 q1 p2 int o2 orient p1 q1 q2 int o3 orient p2 q2 p1 int o4 orient p2 q2 q1 gener case o1 o2 o3 o4 return true special case p1 q1 p2 colinear p2 lie segment p1q1 o1 0 onseg p1 p2 q1 return true p1 q1 p2 colinear q2 lie segment p1q1 o2 0 onseg p1 q2 q1 return true p2 q2 p1 colinear p1 lie segment p2q2 o3 0 onseg p2 p1 q2 return true p2 q2 q1 colinear q1 lie segment p2q2 o4 0 onseg p2 q1 q2 return true return fals fall case return true point p lie insid polygon n vertic bool isinsid point polygon int n point p must least 3 vertic polygon n 3 return fals creat point line segment p infinit point extrem inf p count intersect line side polygon int count 0 0 int next 1 n check line segment p extrem intersect line segment polygon polygon next dointersect polygon polygon next p extrem point p colinear line segment next check lie segment 
+lie return true otherwis fals orient polygon p polygon next 0 return onseg polygon p polygon next count next 0 return true count odd fals otherwis return count 1 count 2 1 driver program test function int main point polygon1 0 0 10 0 10 10 0 10 int n sizeof polygon1 sizeof polygon1 0 point p 20 20 isinsid polygon1 n p 
+cout ye n cout n p 5 5 isinsid polygon1 n p 
+cout ye n cout n point polygon2 0 0 5 5 5 0 p 3 3 n sizeof polygon2 sizeof polygon2 0 isinsid polygon2 n p 
+cout ye n cout n p 5 1 isinsid polygon2 n p 
+cout ye n cout n p 8 1 isinsid polygon2 n p 
+cout ye n cout n point polygon3 0 0 10 0 10 10 0 10 p 1 10 n sizeof polygon3 sizeof polygon3 0 isinsid polygon3 n p 
+cout ye n cout n return 0 output ye ye ye time complex n n number vertic given polygon 
+sourc http www dc gla ac uk pat 52233 slide geometry1x1 pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

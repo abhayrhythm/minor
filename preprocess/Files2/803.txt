@@ -1,0 +1,31 @@
+follow explan c code play video c use tool opencv 
+thing know 1 code compil linux environ 
+2 run window pleas use file play_video run cmd 
+howev run problem system architectur compil window make suitabl obviou chang code like use iostream h place iostream 
+3 compil command g w vid cpp vid pkg config lib opencv 4 run command vid 5 pleas make sure video bumpi mp4 locat 
+run code pleas make sure opencv instal system 
+code snippet includ opencv2 highgui highgui hpp highgui interfac video imag captur 
+includ header file perform input output 
+use namespac cv namespac c opencv function resid 
+use namespac std input output oper 
+int main videocaptur cap bumpi mp4 cap object class video captur tri captur bumpi mp4 cap isopen isopen return true captur initi 
+cout cannot open video file 
+n return 1 doubl fp cap get cv_cap_prop_fp get frame per second video function get use deriv properti element 
+exampl cv_cap_prop_pos_msec current video captur timestamp 
+cv_cap_prop_pos_fram index next frame 
+namedwindow a_good_nam cv_window_autos creat window call myvideo first argument name window 
+second argument flag type window_norm user resiz window 
+window_autos window size automat adjust fitvth display imag cannot chang window size manual 
+window_opengl window creat opengl support 
+1 mat frame mat object basic imag contain 
+frame object mat 
+cap read frame success break loop read decod captur next frame 
+cout n cannot read video file 
+n break imshow a_good_nam frame first argument name window 
+second argument imag shown mat object 
+waitkey 30 27 wait esc key press exit break return 0 end program author aditya prakash undergradu student indian institut inform technolog vadodara 
+primarili code c 
+motto far good 
+play cricket watch superhero movi footbal big fan answer question 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

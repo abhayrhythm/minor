@@ -1,0 +1,110 @@
+
+Given an array of integers, find if it’s possible to remove exactly one integer from the array that divides the array into two subarrays with the same sum.
+Examples:
+
+Input:  arr = [6, 2, 3, 2, 1]
+Output:  true
+Explanation:  On removing element 2 at index 1,
+the array gets divided into two subarrays [6]
+ and [3, 2, 1] having equal sum
+
+Input:  arr = [6, 1, 3, 2, 5]
+Output:  true
+Explanation:  On removing element 3 at index 2,
+the array gets divided into two subarrays [6, 1]
+and [2, 5] having equal sum.
+
+Input:  arr = [6, -2, -3, 2, 3]
+Output: true
+Explanation:  On removing element 6 at index 0, 
+the array gets divided into two sets [] 
+and [-2, -3, 2, 3] having equal sum
+
+Input:  arr = [6, -2, 3, 2, 3]
+Output: false
+
+
+
+A naive solution would be to consider all elements of the array and calculate their left and right sum and return true if left and right sum are found to be equal. The time complexity of this solution would be O(n2).
+The efficient solution involves calculating sum of all elements of the array in advance. Then for each element of the array we can calculate its right sum in O(1) time by using total sum of the array elements minus sum of elements found so far. The time complexity of this solution would be O(n) and auxiliary space used by it will be O(1).
+Below is its C++ implementation –
+
+// C++ program to divide the array into two
+// subarrays with the same sum on removing
+// exactly one integer from the array
+#include <iostream>
+using namespace std;
+
+// Uitlity function to print the sub-array
+void printSubArray(int arr[], int start, int end)
+{
+    cout << "[ ";
+    for (int i = start; i <= end; i++)
+        cout << arr[i] << " ";
+    cout << "] ";
+}
+
+// Function that divides the array into two subarrays
+// with the same sum
+bool divideArray(int arr[], int n)
+{
+    // sum stores sum of all elements of the array
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+        sum += arr[i];
+
+    // sum stores sum till previous index of the array
+    int sum_so_far = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        // If on removing arr[i], we get equals left
+        // and right half
+        if (2 * sum_so_far + arr[i] == sum)
+        {
+            cout << "The array can be divided into
+                    "two subarrays with equal sum\nThe"
+                    " two subarrays are - ";
+            printSubArray(arr, 0, i - 1);
+            printSubArray(arr, i + 1, n - 1);
+
+            return true;
+        }
+        // add current element to sum_so_far
+        sum_so_far += arr[i];
+    }
+
+    // The array cannot be divided
+    cout << "The array cannot be divided into two "
+         "subarrays with equal sum";
+
+    return false;
+}
+
+// Driver code
+int main()
+{
+    int arr[] = {6, 2, 3, 2, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    divideArray(arr, n);
+
+    return 0;
+}
+
+Output:
+
+The array can be divided into two subarrays with equal sum
+The two sets are - [6] [3 2 1]
+
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

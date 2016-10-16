@@ -1,0 +1,50 @@
+
+“Setjump” and “Longjump” are defined in setjmp.h, a header file in C standard library.  
+
+setjump(jmp_buf buf) : uses buf to remember current position and returns 0.
+longjump(jmp_buf buf, i) : Go back to place buf is pointing to and return i .
+
+
+// A simple C program to demonstrate working of setjmp() and longjmp()
+#include<stdio.h>
+#include<setjmp.h>
+jmp_buf buf;
+void func()
+{
+    printf("Welcome to GeeksforGeeks\n");
+
+    // Jump to the point setup by setjmp
+    longjmp(buf, 1);
+
+    printf("Geek2\n");
+}
+
+int main()
+{
+    // Setup jump position using buf and return 0
+    if (setjmp(buf))
+        printf("Geek3\n");
+    else
+    {
+        printf("Geek4\n");
+        func();
+    }
+    return 0;
+}
+
+Output :
+
+Geek4
+Welcome to GeeksforGeeks
+Geek3
+The main feature of these function is to provide a way that deviates from standard call and return sequence.  This is mainly used to implement exception handling in C.  setjmp can be used like try (in languages like C++ and Java).  The call to longjmp can be used like throw (Note that longjmp() transfers control to the point set by setjmp()).
+This article is contributed by Aditya Chatterjee.Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

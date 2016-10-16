@@ -1,0 +1,28 @@
+dijkstra shortest path algorithm run elog v time implement adjac list represent see c implement stl base c implement detail 
+input sourc 0 maximum weight w 14 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 optim dijkstra shortest path algorithm work better e log v maximum weight small rang edg weight small 
+exampl diagram maximum weight 14 mani time rang weight edg small rang e 
+edg weight map 0 1 2 w w small number 
+case dijkstra algorithm modifi use differ data structur bucket call dial implement dijkstra algorithm 
+time complex e wv w maximum weight edg graph see w small implement run much faster tradit algorithm 
+follow import observ 
+maximum distanc two node max w v 1 w maximum edg weight max v 1 edg two vertic 
+dijkstra algorithm distanc final non decreas e distanc closer given sourc vertic final distant vertic 
+algorithm complet algorithm maintain bucket number 0 1 2 wv 
+bucket k contain temporarili label node distanc equal k node bucket repres list vertic 
+bucket 0 1 2 wv check sequenti first non empti bucket found 
+node contain first non empti bucket minimum distanc label definit 
+one one node minimum distanc label perman label delet bucket scan process 
+thu oper involv vertex includ check bucket empti ad vertex bucket delet vertex bucket 
+posit temporarili label vertex bucket updat accordingli distanc label vertex chang 
+process repeat vertic perman label distanc vertic final 
+implement sinc maximum distanc w v 1 creat wv bucket simplic code implement algorithm larg w big 
+c program dijkstra dial implement includ bit stdc h use namespac std defin inf 0x3f3f3f3f class repres direct graph use adjac list represent class graph int v 
+vertic weight graph need store vertex weight pair everi edg list pair int int adj public graph int v constructor function add edg graph void addedg int u int v int w print shortest path void shortestpath int int w alloc memori adjac list graph graph int v v v adj new list pair int int v add edg u v weight w void graph addedg int u int v int w adj u push_back make_pair v w adj v push_back make_pair u w print shortest path src vertic 
+w maximum weight edg void graph shortestpath int src int w distanc iter vertex bucket store vertex delet 1 time updat 
+dist first distanc ith vertex src vertex dit second iter vertex bucket number vector pair int list int iter dist v initi distanc infinit inf int 0 v dist first inf creat bucket b 
+b keep vertex distanc label list int b w v 1 b 0 push_back src dist src first 0 int idx 0 1 go sequenti bucket till one non empti bucket found b idx size 0 idx w v idx bucket empti done 
+idx w v break take top vertex bucket pop int u b idx front b idx pop_front process adjac extract vertex u updat distanc requir 
+auto adj u begin adj u end int v first int weight second int du dist u first int dv dist v first short path v u dv du weight dv inf must b dv bucket eras entri use iter 1 dv inf b dv eras dist v second updat distanc dist v first du weight dv dist v first push vertex v updat distanc bucket b dv push_front v store updat iter dist v second dist v second b dv begin print shortest distanc store dist printf vertex distanc sourc n int 0 v printf n dist first driver program test method graph class int main creat graph given fugur int v 9 graph g v make shown graph g addedg 0 1 4 g addedg 0 7 8 g addedg 1 2 8 g addedg 1 7 11 g addedg 2 3 7 g addedg 2 8 2 g addedg 2 5 4 g addedg 3 4 9 g addedg 3 5 14 g addedg 4 5 10 g addedg 5 6 2 g addedg 6 7 1 g addedg 6 8 6 g addedg 7 8 7 maximum weight edg 14 g shortestpath 0 14 return 0 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 illustr step step illustr taken 
+articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

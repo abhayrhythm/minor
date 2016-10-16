@@ -1,0 +1,9 @@
+given two integ n find step number rang n 
+number call step number adjac digit absolut differ 1 
+321 step number 421 
+exampl input n 0 21 output 0 1 2 3 4 5 6 7 8 9 10 12 21 input n 10 15 output 10 12 method 1 brute forc approach method brute forc approach use iter integ n check step number 
+c c program find step number n includ bit stdc h use namespac std function check integ n step number bool isstepnum int n init prevdigit 1 int prevdigit 1 iter digit n compar differ valu previou current digit n get current digit int curdigit n 10 singl digit consid step number prevdigit 1 prevdigit curdigit els check absolut differ prev digit current digit 1 ab prevdigit curdigit 1 return fals prevdigit curdigit n 10 return true brute forc approach base function find step number 
+void displaysteppingnumb int n int iter number n check step number 
+int n isstepnum cout driver program test function int main int n 0 21 display step number rang n displaysteppingnumb n return 0 java java program find step number n class main method check integ n step number public static boolean isstepnum int n init prevdigit 1 int prevdigit 1 iter digit n compar differ valu previou current digit n 0 get current digit int curdigit n 10 singl digit consid step number prevdigit 1 check absolut differ prev digit current digit 1 math ab curdigit prevdigit 1 return fals n 10 prevdigit curdigit return true brute forc approach base function find step number 
+public static void displaysteppingnumb int n int iter number n check step number 
+int n isstepnum system print driver code public static void main string arg int n 0 21 display step number rang n displaysteppingnumb n output 

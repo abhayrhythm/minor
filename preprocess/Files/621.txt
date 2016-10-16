@@ -1,0 +1,18 @@
+
+1.       Given infinite sequence of number, how you will store it in a system. Find whether the given  sequence is palindrome or not.
+Ans: He suggested to store all the number in a linked list and then find Palindrome or not
+2.       A) Find the path with given sum in a Binary tree from the root
+B) Find the path with given sum in a Binary tree from any node in the tree.
+3.       Print all possible balanced parenthesis.
+4.       Implementation of publisher and subscriber design pattern.
+5.       Find the given sum in unsorted array.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

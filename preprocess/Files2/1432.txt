@@ -1,0 +1,22 @@
+given express 
+express may balanc 
+find minimum number bracket revers make express balanc 
+exampl input exp output 2 need chang express becom balanc balanc express input exp output made balanc use revers input exp output 2 input exp output 1 input exp output 3 strongli recommend minim browser tri first 
+one simpl observ string balanc total number bracket even must equal naiv solut consid everi bracket recurs count number revers take two case keep bracket ii revers bracket 
+get balanc express updat result number step follow reach smaller minimum far 
+time complex solut 2n 
+effici solut solv problem n time 
+idea first remov balanc part express 
+exampl convert remov highlight part 
+take closer look notic remov balanc part alway end express form express contain 0 number close bracket follow 0 number open bracket 
+mani minimum revers requir express form 
+let total number close bracket n number open bracket 
+need 2 n 2 revers 
+exampl requir 2 1 revers 
+c implement idea 
+c program find minimum number revers requir balanc express includ bit stdc h use namespac std return count minimum revers make expr balanc 
+return 1 expr cannot balanc 
+int countminrevers string expr int len expr length length express must even make balanc use revers 
+len 2 return 1 loop stack contain unbalanc part express e express form stack char int 0 len expr empti top pop els push expr els push expr length reduc express red_len n int red_len size count open bracket end stack int n 0 empti top pop n return ceil 2 ceil n 2 actual equal n 2 n 2 n even 
+return red_len 2 n 2 driver program test function int main string expr cout countminrevers expr return 0 output 2 time complex n auxiliari space n thank utkarsh trivedi suggest approach 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

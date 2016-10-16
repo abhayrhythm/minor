@@ -1,0 +1,18 @@
+sequenc n number n 3000 call jolli jumper absolut valu differ success element take possibl valu 1 n 1 
+definit impli sequenc singl integ jolli jumper 
+exampl input 1 4 2 3 output true sequenc 1 4 2 3 jolli jumper absolut differ 3 2 1 input 1 4 2 1 6 output fals absolut differ 3 2 3 7 contain valu 1 n 1 
+sequenc jolli 
+input 11 7 4 2 1 6 output true idea maintain boolean array store set absolut differ success element 
+absolut differ two element n 1 0 return fals 
+b absolut differ repeat absolut differ 1 n 1 present pigeon hole principl return fals 
+c implement base idea 
+program jolli jumper sequenc includ bit stdc h use namespac std function check whether given sequenc jolli jumper bool isjolli int int n boolean vector diffset set differ 
+vector initi fals 
+vector bool diffset n fals travers array element int 0 n 1 find absolut differ current two int ab 1 differ rang repeat return fals 
+0 n 1 diffset true return fals set presenc set 
+diffset true return true driver code int main int 11 7 4 2 1 6 int n sizeof sizeof 0 isjolli n 
+cout ye cout return 0 output ye time complex n refer http user csc calpoli edu jdalbey 301 lab jollyjump html articl contribut rahul agraw 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

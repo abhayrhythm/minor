@@ -1,0 +1,24 @@
+
+The idea is to automate the manual process of registration of courses. This system provides a number of functionalities pertaining to  COURSE REGISTRATION for the students as well as faculty members. Registration for the course is possible only if the student has paid the fees, i.e, has a valid fee receipt number. Students can login, view, register, drop courses, whereas teachers can login, view the number of students registered for their course, add a new course they are planning to teach, drop a course they are planning to not teach anymore etc. 
+The entire system has been built using AngularJS framework.
+Features
+Students:
+a) Can view/register/drop courses of their semester or previous semesters ( incase they have any backlogs and have to repeat the course)
+b) Can view all the courses they have registered for at a given time
+Faculty:
+a) Can view the count and list of students registered for each course they teach
+b) Can forward a request for the addition/removal of a course to the admin
+Implementation:
+Registration of courses is possible only after the payment of fees, hence the fee receipt number entered by the student is validated with the bank database.
+Tools:
+AngularJS is a Javascript framework used for the development and testing of rich internet applications. It extends the HTML vocabulary to create dynamic web pages. You can download AngularJS from here
+This idea is contributed by Madhavi Srinivasan. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks. 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

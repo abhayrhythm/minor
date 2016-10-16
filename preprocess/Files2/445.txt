@@ -1,0 +1,29 @@
+bf df binari tree 
+tree typic travers two way breadth first travers level order travers depth first travers inord travers left root right preorder travers root left right postord travers left right root bf dfss tree breadth first travers 1 2 3 4 5 depth first travers preorder travers 1 2 4 5 3 inord travers 4 2 5 1 3 postord travers 4 5 2 3 1 care 
+mani tree question solv use four travers 
+exampl question size maximum minimum print left view etc 
+differ term time complex 
+four travers requir n time visit everi node exactli 
+differ term extra space 
+differ term extra space requir 
+extra space requir level order travers w w maximum width binari tree 
+level order travers queue one one store node differ level 
+extra space requir depth first travers h h maximum height binari tree 
+depth first travers stack function call stack store ancestor node 
+maximum width binari tree depth height h 2h h start 0 maximum number node last level 
+worst case occur binari tree perfect binari tree number node like 1 3 7 15 etc 
+worst case valu 2h ceil n 2 
+height balanc binari tree log n 
+worst case occur skew tree worst case height becom n 
+worst case extra space requir n 
+worst case occur differ type tree 
+evid point extra space requir level order travers like tree balanc extra space depth first travers like tree less balanc 
+pick one 
+extra space one factor explain depth first travers typic recurs recurs code requir function call overhead 
+import point bf start visit node root df start visit node leav 
+problem search someth like closer root would prefer bf 
+target node close leaf would prefer df 
+exercis travers use print leav binari tree 
+travers use print node k th level k much less total number level 
+articl contribut dheeraj gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

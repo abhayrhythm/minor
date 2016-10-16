@@ -1,0 +1,13 @@
+given weight valu n item put item knapsack capac w get maximum total valu knapsack 
+word given two integ array val 0 n 1 wt 0 n 1 repres valu weight associ n item respect 
+also given integ w repres knapsack capac find maximum valu subset val sum weight subset smaller equal w cannot break item either pick complet item pick 0 1 properti 
+simpl solut consid subset item calcul total weight valu subset 
+consid subset whose total weight smaller w subset pick maximum valu subset 
+1 optim substructur consid subset item two case everi item 1 item includ optim subset 2 includ optim set 
+therefor maximum valu obtain n item max follow two valu 
+1 maximum valu obtain n 1 item w weight exclud nth item 
+2 valu nth item plu maximum valu obtain n 1 item w minu weight nth item includ nth item 
+weight nth item greater w nth item cannot includ case 1 possibl 
+2 overlap subproblem follow recurs implement simpli follow recurs structur mention 
+c c naiv recurs implement 0 1 knapsack problem includ stdio h util function return maximum two integ int max int int b return b 
+b return maximum valu put knapsack capac w int knapsack int w int wt int val int n base case n 0 w 0 return 0 weight nth item knapsack capac w item cannot includ optim solut wt n 1 w return knapsack w wt val n 1 return maximum two case 1 nth item includ 2 includ els return max val n 1 knapsack w wt n 1 wt val n 1 knapsack w wt val n 1 driver program test function int main int val 60 100 120 int wt 10 20 30 int w 50 int n sizeof val sizeof val 0 printf knapsack w wt val n return 0 

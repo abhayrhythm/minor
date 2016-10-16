@@ -1,0 +1,9 @@
+given number string write function find number substr contigu subsequ given string recurs add 9 exampl digit 729 recurs add 9 7 2 9 18 recur 18 1 8 9 exampl input 4189 output 3 three substr recurs add 9 substr 18 9 189 input 999 output 6 6 substr recurs add 9 
+9 99 999 9 99 9 digit number recurs add 9 number multipl 9 basic need check 9 substr one trick use program modular arithmet avoid overflow big string 
+follow simpl implement base approach 
+implement assum lead 0 input number 
+c program count substr recurs sum equal 9 includ iostream includ cstring use namespac std int count9 char number int count 0 store result int n strlen number consid everi charact begin substr int 0 n int sum number 0 sum digit current substr number 9 count one one choos everi charact end charact int j 1 j n j add current digit sum sum becom multipl 5 increment count 
+let us modular arithmet avoid overflow big string sum sum number j 0 9 sum 0 count return count driver program test function int main cout count9 4189 endl cout count9 1809 return 0 output 3 5 time complex program n2 
+pleas let know better solut 
+articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

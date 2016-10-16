@@ -1,0 +1,22 @@
+
+Assume the structure of a Linked List node is as follows. 
+
+struct node
+{
+  int data;
+  struct node *next;
+};
+
+Explain the functionality of following C functions.
+1. What does the following function do for a given Linked List?
+
+void fun1(struct node* head)
+{
+  if(head == NULL)
+    return;
+ 
+  fun1(head->next);
+  printf("%d  ", head->data);
+}
+
+fun1() prints the given Linked List in reverse manner. For Linked List 1->2->3->4->5, fun1() prints 5->4->3->2->1.

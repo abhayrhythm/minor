@@ -1,0 +1,17 @@
+given binari tree bt convert doubli link list dll place 
+left right pointer node use previou next pointer respect convert dll 
+order node dll must inord given binari tree 
+first node inord travers left node bt must head node dll 
+three differ solut discuss problem 
+convert given binari tree doubli link list set 1 convert given binari tree doubli link list set 2 convert given binari tree doubli link list set 3 follow implement travers tree inord fashion 
+add node begin current link list updat head list use pointer head pointer 
+sinc insert begin need process leav revers order 
+revers order first travers right subtre left subtre 
+e 
+revers inord travers 
+c c program convert given binari tree doubli link list includ stdio h includ stdlib h structur tree link list struct node int data node left right simpl recurs function convert given binari tree doubli link list root root binari tree head_ref pointer head node creat doubli link list void btodll node root node head_ref base case root null return recurs convert right subtre btodll root right head_ref insert root dll root right head_ref chang left pointer previou head head_ref null head_ref left root chang head doubli link list head_ref root recurs convert left subtre btodll root left head_ref util function alloc node binari tree 
+node newnod int data node node new node node data data node left node right null return node util function print doubl link list 
+void printlist node head printf extract doubl link list n head printf head data head head right driver program test function int main construct tree 5 3 6 1 4 8 0 2 7 9 node root newnod 5 root left newnod 3 root right newnod 6 root left left newnod 1 root left right newnod 4 root right right newnod 8 root left left left newnod 0 root left left right newnod 2 root right right left newnod 7 root right right right newnod 9 node head null btodll root head printlist head return 0 java java program convert given binari tree doubli link list structur tree link list class node int data node left right public node int data data data left right null class binarytre root root binari tree node root head refer head node creat doubl link list node head simpl recurs function convert given binari tree doubli link list void btodll node root base case root null return recurs convert right subtre btodll root right insert root dll root right head chang left pointer previou head head null head left root chang head doubli link list head root recurs convert left subtre btodll root left util function print doubl link list 
+void printlist node head system println extract doubl link list head null system print head data head head right driver program test function public static void main string arg construct tree 5 3 6 1 4 8 0 2 7 9 binarytre tree new binarytre tree root new node 5 tree root left new node 3 tree root right new node 6 tree root left right new node 4 tree root left left new node 1 tree root right right new node 8 tree root left left right new node 2 tree root left left left new node 0 tree root right right left new node 7 tree root right right right new node 9 tree btodll tree root tree printlist tree head code contribut mayank jaiswal mayank_24 output extract doubl link list 0 1 2 3 4 5 6 7 8 9 time complex n solut singl travers given binari tree 
+articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

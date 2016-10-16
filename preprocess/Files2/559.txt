@@ -1,0 +1,31 @@
+given book word 
+assum enough main memori accommod word 
+design data structur find top k maximum occur word 
+data structur dynam new word ad 
+simpl solut use hash 
+hash word one one hash tabl 
+word alreadi present increment count 
+final travers hash tabl return k word maximum count 
+use trie min heap get k frequent word effici 
+idea use trie search exist word ad new word effici 
+trie also store count occurr word 
+min heap size k use keep track k frequent word point time use min heap use find k largest element post 
+trie min heap link store addit field trie indexminheap pointer trnode min heap 
+valu indexminheap maintain 1 word current min heap current among top k frequent word 
+word present min heap indexminheap contain index word min heap 
+pointer trnode min heap point leaf node correspond word trie 
+follow complet process print k frequent word file 
+read word one one 
+everi word insert trie 
+increas counter word alreadi exist 
+need insert word min heap also 
+insert min heap 3 case aris 1 word alreadi present 
+increas correspond frequenc valu min heap call minheapifi index obtain indexminheap field trie 
+min heap node swap chang correspond minheapindex trie 
+rememb node min heap also pointer trie leaf node 
+2 minheap full 
+insert new word min heap updat root node min heap node min heap index trie leaf node 
+call buildminheap 
+3 min heap full 
+two sub case aris 
+3 1 

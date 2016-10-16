@@ -1,0 +1,8 @@
+write removedupl function take list sort non decreas order delet duplic node list 
+list travers 
+exampl link list 11 11 11 21 43 43 60 removedupl convert list 11 21 43 60 
+algorithm travers list head start node 
+travers compar node next node 
+data next node current node delet next node 
+delet node need store next pointer node implement function removedupl creat link link list test removedupl 
+c c program remov duplic sort link list includ stdio h includ stdlib h link list node struct node int data struct node next function remov duplic sort list void removedupl struct node head pointer travers link list struct node current head pointer store next pointer node delet struct node next_next noth list empti current null return travers list till last node current next null compar current node next node current data current next data sequenc step import next_next current next next free current next current next next_next els tricki advanc delet current current next util function function insert node beging link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function print node given link list void printlist struct node node node null printf node data node node next drier program test function int main start empti list struct node head null let us creat sort link list test function creat link list 11 11 11 13 13 20 push head 20 push head 13 push head 13 push head 11 push head 11 push head 11 printf n link list duplic remov printlist head remov duplic link list removedupl head printf n link list duplic remov printlist head return 0 

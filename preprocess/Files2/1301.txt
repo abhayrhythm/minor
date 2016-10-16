@@ -1,0 +1,15 @@
+given matrix size x n larg number queri find submatrix sum 
+input queri left top right bottom index submatrix whose sum find 
+preprocess matrix submatrix sum queri perform 1 time 
+exampl tli row number top left queri submatrix tlj column number top left queri submatrix rbi row number bottom right queri submatrix rbj column number bottom right queri submatrix input mat n 1 2 3 4 6 5 3 8 1 2 4 6 7 5 5 2 4 8 9 4 query1 tli 0 tlj 0 rbi 1 rbj 1 query2 tli 2 tlj 2 rbi 3 rbj 4 query3 tli 1 tlj 2 rbi 3 rbj 3 output query1 11 sum 0 0 1 1 query2 38 sum 2 2 3 4 query3 38 sum 1 2 3 3 strongli recommend minim browser tri first 
+idea first creat auxiliari matrix aux n aux j store sum element submatrix 0 0 j 
+aux construct comput sum submatrix tli tlj rbi rbj 1 time 
+need consid aux rbi rbj subtract unncessari element 
+complet express comput submatrix sum 1 time 
+sum tli tlj rbi rbj aux rbi rbj aux tli 1 rbj aux rbi tlj 1 aux tli 1 tlj 1 submatrix aux tli 1 tlj 1 ad element subtract twice 
+illustr mat n 1 2 3 4 6 5 3 8 1 2 4 6 7 5 5 2 4 8 9 4 first preprocess matrix build follow aux n aux n 1 3 6 10 16 6 11 22 27 35 10 21 39 49 62 12 27 53 72 89 queri tli 2 tlj 2 rbi 3 rbj 4 sum 2 2 3 4 89 35 27 11 38 build aux n 
+1 copi first row mat aux 2 column wise sum matrix store 
+3 row wise sum updat matrix aux step 2 c program base idea 
+c program comput submatrix queri sum 1 time includ iostream use namespac std defin 4 defin n 5 function preprcess input mat n 
+function mainli fill aux n aux j store sum element 0 0 j int preprocess int mat n int aux n copi first row mat aux int 0 n aux 0 mat 0 column wise sum int 1 int j 0 j n j aux j mat j aux 1 j row wise sum int 0 int j 1 j n j aux j aux j 1 1 time function comput sum submatrix tli tlj rbi rbj use aux built preprocess function int sumqueri int aux n int tli int tlj int rbi int rbj result sum element 0 0 rbi rbj int re aux rbi rbj remov element 0 0 tli 1 rbj tli 0 re re aux tli 1 rbj remov element 0 0 rbi tlj 1 tlj 0 re re aux rbi tlj 1 add aux tli 1 tlj 1 element 0 0 tli 1 tlj 1 subtract twice tli 0 tlj 0 re re aux tli 1 tlj 1 return re driver program int main int mat n 1 2 3 4 6 5 3 8 1 2 4 6 7 5 5 2 4 8 9 4 int aux n preprocess mat aux int tli 2 tlj 2 rbi 3 rbj 4 cout nquery1 sumqueri aux tli tlj rbi rbj tli 0 tlj 0 rbi 1 rbj 1 cout nquery2 sumqueri aux tli tlj rbi rbj tli 1 tlj 2 rbi 3 rbj 3 cout nquery3 sumqueri aux tli tlj rbi rbj return 0 output query1 38 query2 11 query3 38 sourc http www geeksforgeek org amazon interview experi set 241 1 5 year experi articl contribut shivam gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

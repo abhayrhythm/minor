@@ -1,0 +1,29 @@
+given array posit integ 
+need make given array palindrom 
+allow oper array merg 
+merg two adjac element mean replac sum 
+task find minimum number merg oper requir make given array palindrom 
+make array palindrom simpli appli merg oper n 1 time n size array note singl element array alway palindrom similar singl charact string 
+case size array reduc 1 problem ask minimum number oper 
+exampl input arr 15 4 15 output 0 array alreadi palindrom 
+need merg oper 
+input arr 1 4 5 1 output 1 make given array palindrom minimum one merg merg 4 5 make 9 input arr 11 14 15 99 output 3 need merg element make palindrom 
+expect time complex n 
+strongli recommend click practic move solut 
+let f j minimum merg oper make subarray arr j palindrom 
+j answer 0 start 0 j n 1 
+arr arr j need merg oper index index j answer case f 1 j 1 
+els need merg oper 
+follow case aris 
+arr arr j merg oper index j merg index j 1 j updat arr j 1 arr j 1 arr j 
+answer case 1 f j 1 
+case arr arr j updat arr 1 arr 1 arr 
+answer case 1 f 1 j 
+answer f 0 n 1 n size array arr 
+therefor problem solv iter use two pointer first pointer point start array second pointer point last element array method keep count total merg oper done till 
+c implement idea 
+c program find number oper make array palindrom includ bit stdc h use namespac std return minimum number count oper requir make arr palindrom int findminop int arr int n int an 0 initi result start two corner int 0 j n 1 j corner element problem reduc arr 1 j 1 arr arr j j left element greater merg right two element els arr arr j need merg tail 
+j arr j arr j 1 an els merg left two element els arr arr 1 an return an driver program test int main int arr 1 4 5 9 1 int n sizeof arr sizeof arr 0 cout count minimum oper findminop arr n endl return 0 output count minimum oper 1 time complex given program n articl contribut ashish jain 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

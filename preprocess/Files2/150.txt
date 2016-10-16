@@ -1,0 +1,3 @@
+newspap magazin often crypt arithmet puzzl form send money goal assign letter digit 0 9 arithmet work correctli 
+rule occurr letter must assign digit digit assign one letter 
+first creat list charact need assign pass solv charact assign return true puzzl solv fals otherwis otherwis consid first unassign charact everi possibl choic among digit use make choic recurs tri assign rest charact recurs sucess return true success unmak assign tri anoth digit 

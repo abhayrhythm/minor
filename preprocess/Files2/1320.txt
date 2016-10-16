@@ -1,0 +1,26 @@
+given n x n matrix everi row column sort non decreas order 
+print element matrix sort order 
+exampl input mat 10 20 30 40 15 25 35 45 27 29 37 48 32 33 39 50 output element matrix sort order 10 15 20 25 27 29 30 32 33 35 37 39 40 45 48 50 strongli recommend minim browser tri first 
+use young tableau solv problem 
+idea consid given 2d array young tableau call extract minimum n c program print element sort order row column wise sort matrix includ iostream includ climit use namespac std defin inf int_max defin n 4 util function youngifi young tableau 
+differ standard youngifi 
+assum valu mat 0 0 infinit 
+void youngifi int mat n int int j find valu right side mat j int downval 1 n 
+mat 1 j inf int rightval j 1 n 
+mat j 1 inf mat j right corner element return downval inf rightval inf return move smaller two valu downval rightval mat j recur smaller valu downval rightval mat j downval mat 1 j inf youngifi mat 1 j els mat j rightval mat j 1 inf youngifi mat j 1 util function extract minimum element young tableau int extractmin int mat n int ret mat 0 0 mat 0 0 inf youngifi mat 0 0 return ret function use extractmin print element sort order void printsort int mat n cout element matrix sort order n int 0 n n cout extractmin mat driver program test function int main int mat n n 10 20 30 40 15 25 35 45 27 29 37 48 32 33 39 50 printsort mat return 0 output element matrix sort order 10 15 20 25 27 29 30 32 33 35 37 39 40 45 48 50 time complex extract minimum n call n2 time 
+therefor overal time complex n3 
+better solut use approach use merg k sort array 
+idea use min heap size n store element first column 
+extract minimum 
+extract minimum replac minimum element next element row element extract 
+time complex solut n2logn 
+c program merg k sort array size n 
+includ iostream includ climit use namespac std defin n 4 min heap node struct minheapnod int element element store int index row element taken int j index next element pick row prototyp util function swap two min heap node void swap minheapnod x minheapnod class min heap class minheap minheapnod harr pointer array element heap int heap_siz size min heap public constructor creat min heap given size minheap minheapnod int size heapifi subtre root given index void minheapifi int get index left child node index int left int return 2 1 get index right child node index int right int return 2 2 get root minheapnod getmin return harr 0 replac root new node x heapifi new root void replacemin minheapnod x harr 0 x minheapifi 0 function print element given matrix non decreas order 
+assum sort row wise sort 
+void printsort int mat n creat min heap k heap node 
+everi heap node first element array minheapnod harr new minheapnod n int 0 n harr element mat 0 store first element harr index row harr j 1 index next element store row minheap hp harr n creat min heap one one get minimum element min heap replac next element array int count 0 count n n count get minimum element store output minheapnod root hp getmin cout root element find next elel replac current root heap 
+next element belong array current root 
+root j n root element mat root root j root j 1 root last element array els root element int_max int_max infinit replac root next element array hp replacemin root follow implement standard min heap method cormen book constructor build heap given array given size minheap minheap minheapnod int size heap_siz size harr store address array int heap_siz 1 2 0 minheapifi recurs method heapifi subtre root given index method assum subtre alreadi heapifi void minheap minheapifi int int l left int r right int smallest l heap_siz harr l element harr element smallest l r heap_siz harr r element harr smallest element smallest r smallest swap harr harr smallest minheapifi smallest util function swap two element void swap minheapnod x minheapnod minheapnod temp x x temp driver program test function int main int mat n n 10 20 30 40 15 25 35 45 27 29 37 48 32 33 39 50 printsort mat return 0 output 10 15 20 25 27 29 30 32 33 35 37 39 40 45 48 50 exercis solut work squar matrix 
+extend solut work n rectangular matrix 
+articl contribut varun 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

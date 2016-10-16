@@ -1,0 +1,7 @@
+list comprehens eleg way defin creat list python 
+creat list like mathemat statement one line 
+syntax list comprehens easier grasp 
+list comprehens gener consist part output express input sequenc variabl repres member input sequenc option predic part 
+exampl lst x 2 x rang 1 11 x 2 1 x 2 output express rang 1 11 input sequenc x variabl x 2 1 predic part 
+python program demonstr list comprehens python list contain squar odd number rang 1 10 odd_squar x 2 x rang 1 11 x 2 1 print odd_squar understand gener odd_squar x rang 1 11 x 2 1 odd_squar append x 2 print odd_squar list contain power 2 1 8 power_of_2 2 x x rang 1 9 print power_of_2 list contain prime non prime rang 1 50 noprim j rang 2 8 j rang 2 50 prime x x rang 2 50 x noprim print prime list lower charact print x lower x b c list extract number string phone number 11122 
+print nextract digit number x x string x isdigit print number list list multipl tabl 5 tabl b b b rang 1 11 print nmultipl tabl tabl print output 1 9 25 49 81 1 9 25 49 81 2 4 8 16 32 64 128 256 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 b c extract digit 1 1 1 2 2 multipl tabl 5 1 5 5 2 10 5 3 15 5 4 20 5 5 25 5 6 30 5 7 35 5 8 40 5 9 45 5 10 50 

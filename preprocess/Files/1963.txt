@@ -1,0 +1,45 @@
+
+Following is a C++ program that prints 1 to 100 without loop and without recursion.
+
+#include <iostream>
+using namespace std;
+
+template<int N>
+class PrintOneToN
+{
+public:
+    static void print()
+    {
+        PrintOneToN<N-1>::print();  // Note that this is not recursion
+        cout << N << endl;
+    }
+};
+
+template<>
+class PrintOneToN<1>
+{
+public:
+    static void print()
+    {
+        cout << 1 << endl;
+    }
+};
+int main()
+{
+    const int N = 100;
+    PrintOneToN<N>::print();
+    return 0;
+}
+
+Output:
+1
+2
+3
+..
+..
+98
+99
+100
+
+The program prints all numbers from 1 to n without using a loop and recursion.  The concept used in this program is Template Metaprogramming.
+Let us see how this works. Templates in C++ allow non-datatypes also as parameter. Non-datatype means a value, not a datatype.  For example, in the above program, N is passed as a value which is not a datatype.  A new instance of a generic class is created for every parameter and these classes are created at compile time.  In the above program, when compiler sees the statement “PrintOneToN<>::print()” with N = 100, it creates an instance PrintOneToN<100>.  In function PrintOneToN<100>::print(),  another function PrintOneToN<99>::print() is called, therefore an instance PrintOneToN<99> is created. Similarly, all instances from PrintOneToN<100> to PrintOneToN<2> are created. PrintOneToN<1>::print() is already there and prints 1.  The function PrintOneToN<2> prints 2 and so on.  Therefore we get all numbers from 1 to N printed on the screen.

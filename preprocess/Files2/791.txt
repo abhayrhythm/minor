@@ -1,0 +1,45 @@
+post describ creat calcul applic especi help competit code android devic 
+apk creat use instal applic differ devic 
+project design entri level android programm 
+calcul applic calcul handl arbitrari larg number arithemat oper implement boolean oper implement xor primal check find mod expon gcd oper also implement also need android studio build debug applic 
+interfac first creat gui applic 
+android simplifi work let us separ design phase work 
+layout use creat screen see open app android devic 
+screen see usual see differ layout file differ java file handl interact relat screen also known user interfac togeth compris activ android 
+layout design contain simpl widget arrang drag drop even attribut valu set gui 
+interfac calcul applic consist grid layout contain button 
+button consist 10 number button 0 9 button arithmet boolean miscellan oper 
+widget display text known textview android 
+five textview two show input text one show oper select one result 
+one left widget use display perman inform case name 
+layout resid re layout folder defin xml format 
+creat activity_main xml layout file re layout directori copi code 
+use android studio activity_main xml creat automat creat new project 
+activity_main xml code creat user interfac user interact xml file 
+linearlayout relativelayout use arrang widget say button hierarchi 
+rel layout arrang children posit relat wherea linear layout arrang linear fashion 
+work interfac design phase still defin brain behind user interfac 
+exampl thing happen click particular button interact layout object 
+brain behind activ thing contain mainact java file handl respons user interact relat particular interfac also perform addit work 
+mainact java open mainact java file also creat automat copi follow code 
+mainact set xml file correspond interfac also handl interact user interfac specif button click 
+code goe mainact java file 
+perform calcul class handl user interact thing left calcul actual result 
+creat one class handl calcul relat work 
+work separ mainact class 
+creat new calcul class copi follow code 
+use handl calcul 
+sinc member function defin static call without make object calcul class 
+calculatorclass button click anim one littl thing left 
+still defin anim relat button press press button zoom goe back normal size 
+anim defin seper xml file call need 
+creat file scale xml re anim folder past follow code 
+xml version 1 0 encod utf 8 set xmln android http schema android com apk re android scale android fromxscal 1 0 android toxscal 2 0 android fromyscal 1 0 android toyscal 2 0 android durat 50 android pivoti 50 android pivotx 50 android repeatcount 1 android repeatmod revers set set go 
+run project emul click run button instal gener apk run physic android devic 
+project run perfectli 5 inch screen 1280 720 resolut perfect 
+screenshot obtain run app yu yuphoria 
+output articl contribut sy hassan ashraf 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

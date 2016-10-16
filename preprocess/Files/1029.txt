@@ -1,0 +1,79 @@
+
+Predict the output of below programs. 
+Question 1
+
+int fun(char *str1)
+{
+  char *str2 = str1;
+  while(*++str1);
+  return (str1-str2);
+}    
+
+int main()
+{
+  char *str = "geeksforgeeks";
+  printf("%d", fun(str));
+  getchar();
+  return 0;
+}
+
+Output: 13
+Inside fun(), pointer str2 is initialized as str1 and str1 is moved till ‘\0’ is reached (note ; after while loop). So str1 will be incremented by 13 (assuming that char takes 1 byte).
+Question 2
+
+void fun(int *p)
+{
+  static int q = 10;
+  p = &q;
+}    
+
+int main()
+{
+  int r = 20;
+  int *p = &r;
+  fun(p);
+  printf("%d", *p);
+  getchar();
+  return 0;
+}
+
+Output: 20
+Inside fun(), q is a copy of the pointer p. So if we change q to point something else then p remains unaffected.
+Question 3
+
+void fun(int **p)
+{
+  static int q = 10;
+  *p = &q;
+}    
+
+int main()
+{
+  int r = 20;
+  int *p = &r;
+  fun(&p);
+  printf("%d", *p);
+  getchar();
+  return 0;
+}
+
+Output 10
+Note that we are passing address of p to fun(). p in fun() is actually a pointer to p in main() and we are changing value at p in fun(). So p of main is changed to point q of fun(). To understand it better, let us rename p in fun() to p_ref or ptr_to_p
+
+void fun(int **ptr_to_p)
+{
+  static int q = 10;
+  *ptr_to_p = &q;  /*Now p of main is pointing to q*/
+}
+
+Also, note that the program won’t cause any problem because q is a static  variable. Static variables exist in memory even after functions return. For an auto  variable, we might have seen some weird output because auto variable may not exist in memory after functions return.
+Please write comments if you find any of the answers/explanations incorrect, or you want to share more information about the topics discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

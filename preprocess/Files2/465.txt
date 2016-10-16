@@ -1,0 +1,27 @@
+given valu two node binari search tree write c program find lowest common ancestor lca 
+may assum valu exist tree 
+function prototyp follow struct node lca node root int n1 int n2 n1 n2 two given valu tree given root 
+exampl consid bst diagram lca 10 14 12 lca 8 14 8 follow definit lca wikipedia let root tree 
+lowest common ancestor two node n1 n2 defin lowest node n1 n2 descend allow node descend 
+lca n1 n2 share ancestor n1 n2 locat farthest root 
+comput lowest common ancestor may use instanc part procedur determin distanc pair node tree distanc n1 n2 comput distanc root n1 plu distanc root n2 minu twice distanc root lowest common ancestor 
+sourc wiki solut given bst everi node parent pointer lca easili determin travers use parent pointer print first intersect node 
+solv problem use bst properti 
+recurs travers bst root 
+main idea solut travers top bottom first node n encount valu n1 n2 e n1 n n2 one n1 n2 lca n1 n2 assum n1 n2 
+recurs travers bst node valu greater n1 n2 lca lie left side node smaller n1 n2 lca lie right side 
+otherwis root lca assum n1 n2 present bst c recurs c program find lca two node n1 n2 
+includ stdio h includ stdlib h struct node int data struct node left right function find lca n1 n2 
+function assum n1 n2 present bst struct node lca struct node root int n1 int n2 root null return null n1 n2 smaller root lca lie left root data n1 root data n2 return lca root left n1 n2 n1 n2 greater root lca lie right root data n1 root data n2 return lca root right n1 n2 return root helper function alloc new node given data 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node driver program test lca int main let us construct bst shown figur struct node root newnod 20 root left newnod 8 root right newnod 22 root left left newnod 4 root left right newnod 12 root left right left newnod 10 root left right right newnod 14 int n1 10 n2 14 struct node lca root n1 n2 printf lca n n1 n2 data n1 14 n2 8 lca root n1 n2 printf lca n n1 n2 data n1 10 n2 22 lca root n1 n2 printf lca n n1 n2 data getchar return 0 java recurs java program print lca two node binari tree node class node int data node left right node int item data item left right null class binarytre node root function find lca n1 n2 
+function assum n1 n2 present bst node lca node node int n1 int n2 node null return null n1 n2 smaller root lca lie left node data n1 node data n2 return lca node left n1 n2 n1 n2 greater root lca lie right node data n1 node data n2 return lca node right n1 n2 return node driver program test lca public static void main string arg let us construct bst shown figur binarytre tree new binarytre tree root new node 20 tree root left new node 8 tree root right new node 22 tree root left left new node 4 tree root left right new node 12 tree root left right left new node 10 tree root left right right new node 14 int n1 10 n2 14 node tree lca tree root n1 n2 system println lca n1 n2 data n1 14 n2 8 tree lca tree root n1 n2 system println lca n1 n2 data n1 10 n2 22 tree lca tree root n1 n2 system println lca n1 n2 data code contribut mayank jaiswal python recurs python program find lca two node n1 n2 binari tree node class node constructor creat new node def __init__ self data self data data self left none self right none function find lca n1 n2 
+function assum n1 n2 present bst def lca root n1 n2 base case root none return none n1 n2 smaller root lca lie left root data n1 root data n2 return lca root left n1 n2 n1 n2 greater root lca lie right root data n1 root data n2 return lca root right n1 n2 return root driver program test function let us construct bst shown figur root node 20 root left node 8 root right node 22 root left left node 4 root left right node 12 root left right left node 10 root left right right node 14 n1 10 n2 14 lca root n1 n2 print lca n1 n2 data n1 14 n2 8 lca root n1 n2 print lca n1 n2 data n1 10 n2 22 lca root n1 n2 print lca n1 n2 data code contribut nikhil kumar singh nickzuck_007 output lca 10 14 12 lca 14 8 8 lca 10 22 20 time complex solut h h height tree 
+also solut requir h extra space function call stack recurs function call 
+avoid extra space use iter solut 
+function find lca n1 n2 
+function assum n1 n2 present bst struct node lca struct node root int n1 int n2 root null n1 n2 smaller root lca lie left root data n1 root data n2 root root left n1 n2 greater root lca lie right els root data n1 root data n2 root root right els break return root see complet program 
+may like see articl well lowest common ancestor binari tree lca use parent pointer find lca binari tree use rmq exercis function assum n1 n2 bst 
+n1 n2 present may return incorrect result 
+extend solut return null n1 n2 present bst 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

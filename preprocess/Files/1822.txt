@@ -1,0 +1,6 @@
+
+We have introduced namespaces in below set 1.
+Namespace in C++ | Set 1 (Introduction)
+It is also possible to create more than one namespaces in the global space. This can be done in two ways. 
+
+namespaces having different names

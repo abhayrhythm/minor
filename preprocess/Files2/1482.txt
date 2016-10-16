@@ -1,0 +1,41 @@
+everi data structur special characterist exampl bst use quick search element log n requir 
+heap prioriti queue use minimum maximum element need fetch constant time 
+similarli hash tabl use fetch add remov element constant time 
+necessari anyon clear work hash tabl move implement aspect 
+brief background work hash tabl also note use hash map hash tabl terminolog interchang though java hashtabl thread safe hashmap 
+code go implement avail link 1 link2 strongli recommend one must read blog complet tri deciph nitti gritti goe implement hash map tri write code 
+background everi hash tabl store data form key valu combin 
+interestingli everi key uniqu hash tabl valu repeat mean valu differ key present 
+observ array fetch valu provid posit index correspond valu array 
+hash tabl instead index use key fetch valu correspond key 
+entir process describ everi time key gener 
+key pass hash function 
+everi hash function two part hash code compressor 
+hash code integ number random nonrandom 
+java everi object hash code 
+use hash code gener jvm hash function compress hash code modulo hash code size hash tabl 
+modulo oper compressor implement 
+entir process ensur key get integ posit within size hash tabl insert correspond valu 
+process simpl user give key valu pair set input base valu gener hash function index gener valu correspond particular key store 
+whenev need fetch valu correspond key 1 
+pictur stop rosi perfect concept hash collis introduc 
+imagin differ key valu block hash tabl alloc previous store valu correspond previou key go 
+certainli replac disastr 
+resolv issu use separ chain techniqu pleas note open address techniqu like doubl hash linear probe whose effici almost separ chain read link 1 link 2 link3 make link list correspond particular bucket hash tabl accommod valu correspond differ key map bucket 
+may scenario key get map bucket link list n size hash tabl size one singl bucket bucket empti worst case hash tabl act link list search n 
+load factor n total number bucket decid fill initi say 10 let say 7 got fill load factor 7 10 0 7 
+implement whenev add key valu pair hash tabl check load factor greater 0 7 doubl size hash tabl 
+implement hash node data type tri make gener map without put restrict data type key valu 
+also everi hash node need know next node point link list next pointer also requir 
+function plan keep hash map get k key return valu correspond key key present ht hast tabl getsiz return size ht add add new valid key valu pair ht alreadi present updat valu remov remov key valu pair isempti return true size zero everi hash map must array list link list initi size bucket size get increas uniti everi time key valu pair ad decreas uniti everi time node delet arraylist hashnod k v bucket new arraylist helper function implement get index key avoid redund function like get add remov 
+function use built java function gener hash code compress hash code size ht index within rang size ht get get function take key input return correspond valu key present tabl otherwis return null 
+step retriev input key find index ht travers like list correspond ht find valu return els fulli travers list without return mean valu present tabl fetch return null remov fetch index correspond input key use helper function travers link list similar like get special one need remov key along find two case aris key remov present head link list key remov present head somewher els add interest challeng function entir implement interest need dynam increas size list load factor valu specifi 
+like remov step till travers ad two case addit head spot non head spot remain 
+toward end load factor greater 0 7 doubl size array list recurs call add function exist key case hash valu gener use size array compress inbuilt jvm hash code use need fetch new indic exist key 
+import understand pleas read paragraph till get hang happen add function 
+java implement hash tabl use binari search tree link list correspond particular bucket tend get long 
+java program demonstr implement hash tabl chain collis detect import java util arraylist node chain class hashnod k v k key v valu refer next node hashnod k v next constructor public hashnod k key v valu key key valu valu class repres entir hash tabl class map k v bucketarray use store array chain privat arraylist hashnod k v bucketarray current capac array list privat int numbucket current size array list privat int size constructor initi capac size empti chain 
+public map bucketarray new arraylist numbucket 10 size 0 creat empti chain int 0 numbucket bucketarray add null public int size return size public boolean isempti return size 0 implement hash function find index key privat int getbucketindex k key int hashcod key hashcod int index hashcod numbucket return index method remov given key public v remov k key appli hash function find index given key int bucketindex getbucketindex key get head chain hashnod k v head bucketarray get bucketindex search key chain hashnod k v prev null head null key found head key equal key break els keep move chain prev head head head next key head null return null reduc size size remov key prev null prev next head next els bucketarray set bucketindex head next return head valu return valu key public v get k key find head chain given key int bucketindex getbucketindex key hashnod k v head bucketarray get bucketindex search key chain head null head key equal key return head valu head head next key found return null add key valu pair hash public void add k key v valu find head chain given key int bucketindex getbucketindex key hashnod k v head bucketarray get bucketindex check key alreadi present head null head key equal key head valu valu return head head next insert key chain size head bucketarray get bucketindex hashnod k v newnod new hashnod k v key valu newnod next head bucketarray set bucketindex newnod load factor goe beyond threshold doubl hash tabl size 1 0 size numbucket 0 7 arraylist hashnod k v temp bucketarray bucketarray new arraylist numbucket 2 numbucket size 0 int 0 numbucket bucketarray add null hashnod k v headnod temp headnod null add headnod key headnod valu headnod headnod next driver method test map class public static void main string arg map string integ map new map map add 1 map add coder 2 map add 4 map add hi 5 system println map size system println map remov system println map remov system println map size system println map isempti output 3 4 null 2 fals entir code avail http github com ishaan007 data structur blob master hashmap map java articl contribut ishaan arora 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

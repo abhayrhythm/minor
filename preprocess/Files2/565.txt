@@ -1,0 +1,20 @@
+let us consid follow problem understand binari index tree 
+array arr 0 
+
+
+n 1 
+abl 1 find sum first element 
+2 chang valu specifi element array arr x 0 n 1 
+simpl solut run loop 0 1 calcul sum element 
+updat valu simpli arr x first oper take n time second oper take 1 time 
+anoth simpl solut creat anoth array store sum start th index array 
+sum given rang calcul 1 time updat oper take n time 
+work well number queri oper larg updat 
+perform oper log n time given array 
+one effici solut use segment tree oper logn time 
+use binari index tree task logn time 
+advantag binari index tree segment requir less space easi implement represent binari index tree repres array 
+let array bitre 
+node binari index tree store sum element given array 
+size binari index tree equal n n size input array 
+code use size n 1 eas implement 

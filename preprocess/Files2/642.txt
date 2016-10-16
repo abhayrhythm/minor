@@ -1,0 +1,40 @@
+goldman sach interview question onsit experi 1 year technic round 4 manageri round 1 technic round round 1 1 explain rest web servic 
+jersey syntax 2 race condit 
+3 segment fault 
+4 abstract class 
+class abstract without abstract method 
+differ interfac abstract class 
+5 java support multipl inherit 
+6 static method inherit 
+overridden 
+7 merg sort quick sort 
+round 2 1 given array 1 0 
+segreg 
+2 given two sort array size n merg third array size n 
+3 function given return 1 probabl p return 0 probabl p 1 
+write anoth function call function return 1 0 probabl 1 2 
+4 three ant corner triangl puzzl 
+round 3 vice presid 1 question project work 
+2 hashmap work java 
+3 explain jvm architectur 
+4 garbag collector work java 
+5 given array number arrang way a1 a2 a3 a4 a5 a6 round 4 1 given link list revers element begin block two 
+given 7 4 9 2 null 
+output 4 7 2 9 null 
+2 given rubik cube size n made n 3 smaller cube 
+remov visibl outsid 
+mani cube left 
+3 4 peopl bridg one torch puzzl 
+4 java gener syntax 
+5 implement multipl stack one array 
+6 array posit integ find pythagorean triplet n 2 runtim 
+manageri round 1 want leav job 
+2 goldman sach 
+3 googl 
+said would happi work googl offer job 4 fine work proprietari languag 
+5 
+100 gold coin 5 pirat puzzl 
+6 notic period 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

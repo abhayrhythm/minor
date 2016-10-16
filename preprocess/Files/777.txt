@@ -1,0 +1,68 @@
+
+In these type of questions, we are given certain conditions and we have to answer certain questions that follow those conditions.
+Sample Problems
+Question 1 : Six events A, B, C, D, E and F happen on six days of the week starting from Monday and ending on Saturday.
+Event C happens on Tuesday.
+Event A, F and B happen one after the other in the same order.
+Event D did not happen on Monday or Wednesday.
+1) How many events happened after A ?
+2) Which event happened immediately after E ?
+3) If D happened on Monday, which event happened on Saturday, given that all other conditions prevail ?
+4) Which event happened on Thursday (considering original statements) ?
+Solution : 
+The day – event plan would be :
+Monday – E
+Tuesday – C
+Wednesday – A
+Thursday – F
+Friday – B
+Saturday – D
+ 
+1) Three – F, B, D
+2) C
+3) The new day – event plan would be :
+Monday – D
+Tuesday – C
+Wednesday – A
+Thursday – F
+Friday – B
+Saturday – E
+OR
+The new day – event plan would be :
+Monday – D
+Tuesday – C
+Wednesday – E
+Thursday – A
+Friday – F
+Saturday – B
+Therefore, if D happened on Monday, then either E or B would have happened on Saturday.
+4) F
+ 
+Question 2 : Seven friends T, U, V, W, X, Y and Z are sitting in a straight line on a sofa facing the TV.
+W sits fifth to the right of T
+W does not sit at any of the extreme ends
+Two people sit between Z and X
+Y sits third to the left of U
+Y sits exactly in the middle
+Z is not an immediate neighbor of Y
+1) What is Z’s position with respect to W ?
+2) Who is sitting second to the right of T ?
+3) If all the friends were made to sit in the alphabetical order from right to left, position of how many friends would remain unchanged ?
+4) Which two friends sit at the extreme ends of the line ?
+Solution : The sitting order from left to right is : T – Z – V – Y – X – W – U
+1) Fourth to the left
+2) V
+3) None
+4) T and U
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

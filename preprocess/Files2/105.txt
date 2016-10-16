@@ -1,0 +1,28 @@
+triangul convex polygon form draw diagon non adjac vertic corner diagon never intersect 
+problem find cost triangul minimum cost 
+cost triangul sum weight compon triangl 
+weight triangl perimet sum length side see follow exampl taken sourc 
+two triangul convex pentagon 
+triangul left cost 8 2 2 2 5 approxim 15 30 one right cost 4 2 2 4 5 approxim 15 77 
+problem recurs substructur 
+idea divid polygon three part singl triangl sub polygon left sub polygon right 
+tri possibl divis like find one minim cost triangl plu cost triangul two sub polygon 
+let minimum cost triangul vertic j mincost j j 2 mincost j 0 els mincost j min mincost k mincost k j cost k j k vari 1 j 1 cost triangl form edg j j k k j cost j k dist j dist j k dist k j follow c implement naiv recurs formula 
+recurs implement minimum cost convex polygon triangul includ iostream includ cmath defin max 1000000 0 use namespac std structur point 2d plane struct point int x util function find minimum two doubl valu doubl min doubl x doubl return x 
+x util function find distanc two point plane doubl dist point p1 point p2 return sqrt p1 x p2 x p1 x p2 x p1 p2 p1 p2 util function find cost triangl 
+cost consid perimet sum length edg triangl doubl cost point point int int j int k point p1 point p2 point j p3 point k return dist p1 p2 dist p2 p3 dist p3 p1 recurs function find minimum cost polygon triangul polygon repres point j 
+doubl mtc point point int int j must least three point j includ j j 2 return 0 initi result infinit doubl re max find minimum triangul consid int k 1 k j k re min re mtc point k mtc point k j cost point k j return re driver program test function int main point point 0 0 1 0 2 1 1 2 0 2 int n sizeof point sizeof point 0 cout mtc point 0 n 1 return 0 output 15 3006 problem similar matrix chain multipl 
+follow recurs tree mtc point 0 4 
+easili seen recurs tree problem mani overlap subproblem 
+sinc problem properti optim substructur overlap subproblem effici solv use dynam program 
+follow c implement dynam program solut 
+dynam program base program find minimum cost convex polygon triangul includ iostream includ cmath defin max 1000000 0 use namespac std structur point 2d plane struct point int x util function find minimum two doubl valu doubl min doubl x doubl return x 
+x util function find distanc two point plane doubl dist point p1 point p2 return sqrt p1 x p2 x p1 x p2 x p1 p2 p1 p2 util function find cost triangl 
+cost consid perimet sum length edg triangl doubl cost point point int int j int k point p1 point p2 point j p3 point k return dist p1 p2 dist p2 p3 dist p3 p1 dynam program base function find minimum cost convex polygon triangul 
+doubl mtcdp point point int n must least 3 point form triangl n 3 return 0 tabl store result subproblem 
+tabl j store cost triangul point j entri tabl 0 n 1 store final result 
+doubl tabl n n fill tabl use recurs formula 
+note tabl fill diagon fashion e diagon element tabl 0 n 1 result 
+int gap 0 gap n gap int 0 j gap j n j j 2 tabl j 0 0 els tabl j max int k 1 k j k doubl val tabl k tabl k j cost point j k tabl j val tabl j val return tabl 0 n 1 driver program test function int main point point 0 0 1 0 2 1 1 2 0 2 int n sizeof point sizeof point 0 cout mtcdp point n return 0 output 15 3006 time complex dynam program solut n3 
+pleas note implement assum point covnvex polygon given order either clockwis anticlockwis exercis extend solut print triangul also 
+exampl optim triangul 0 3 4 0 1 3 1 2 3 sourc http www cs utexa edu user djimenez utsa cs3343 lecture12 html http www cs utoronto ca heap cours 270f02 a4 chain node2 html pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

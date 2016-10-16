@@ -1,0 +1,7 @@
+simpl solut travers link list find node want delet 
+solut requir pointer head node contradict problem statement 
+fast solut copi data next node node delet delet next node 
+someth like follow 
+struct node temp node_ptr next node_ptr data temp data node_ptr next temp next free temp program c includ stdio h includ assert h includ stdlib h link list node struct node int data struct node next given refer pointer pointer head list int push new node front list 
+void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod void printlist struct node head struct node temp head temp null printf temp data temp temp next void deletenod struct node node_ptr struct node temp node_ptr next node_ptr data temp data node_ptr next temp next free temp drier program test function int main start empti list struct node head null use push construct list 1 12 1 4 1 push head 1 push head 4 push head 1 push head 12 push head 1 printf n delet n printlist head delet head 
+check case deletenod head printf n delet n printlist head getchar 

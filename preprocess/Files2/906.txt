@@ -1,0 +1,24 @@
+know element structur store sequenti order declar 
+extract displac element structur 
+make use offsetof macro 
+usual call structur union type class trivial constructor plain old data pod type use aggreg data type 
+follow non standard macro use get displac element byte base address structur variabl 
+defin offsetof type element size_t type 0 element zero cast type structur requir element address access cast size_t 
+per standard size_t type unsign int 
+overal express result number byte element place structur 
+exampl follow code return 16 byte pad consid 32 bit machin displac charact variabl c structur pod 
+includ stdio h defin offsetof type element size_t type 0 element typedef struct podtag int doubl char c podtyp int main printf offsetof podtyp c getchar return 0 code follow express return displac element c structur podtyp 
+offsetof podtyp c preprocess stage macro expand size_t podtyp 0 c sinc consid 0 address structur variabl c place 16 byte base address e 
+0x00 0x10 
+appli structur element case c return address element 0x10 
+cast address unsign int size_t result number byte element place structur 
+note may consid address oper redund 
+without address oper macro code de refer element structur place null address 
+caus access violat except segment fault runtim 
+note way implement offsetof macro accord compil behaviour 
+ultim goal extract displac element 
+see practic usag offsetof macro like list connect similar object exampl thread pool anoth articl 
+articl compil venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+refer 1 linux kernel code 
+2 http msdn microsoft com en us librari dz4y9b9a aspx 3 gnu c c compil document adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

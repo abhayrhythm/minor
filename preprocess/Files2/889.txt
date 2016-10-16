@@ -1,0 +1,5 @@
+c sizeof oper work follow kind operand 1 type name type name must specifi parenthes 
+sizeof type name 2 express express specifi without parenthes 
+sizeof express express use get type operand evalu 
+exampl code print valu 5 
+includ stdio h int main int 5 int int_siz sizeof printf n size int_siz printf n valu getchar return 0 output program size depend compil valu 5 refer http h30097 www3 hp com doc base_doc document v40g_html aqtltct docu0015 htm http www gnu org softwar gnu c manual gnu c manual html sizeof oper adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

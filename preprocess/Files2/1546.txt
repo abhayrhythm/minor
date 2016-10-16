@@ -1,0 +1,15 @@
+given binari tree print root leaf path without use recurs 
+exampl consid follow binari tree 
+6 3 5 2 5 4 7 4 4 leav henc 4 root leaf path 6 3 2 6 3 5 7 6 3 5 4 6 5 4 strongli recommend minim browser tri first 
+travers tree iter use iter preorder 
+question extend travers print root leaf path 
+idea maintain map store parent pointer binari tree node 
+whenev encount leaf node iter preorder travers easili print root leaf path use parent pointer 
+c implement idea 
+c program print root leaf path without use recurs includ bit stdc h use namespac std binari tree struct node int data struct node left right helper function alloc new node given data null left right pointer 
+node newnod int data node node new node node data data node left node right null return node function print root leaf path leaf use parent node store map void printtoptobottompath node curr map node node parent stack node stk start leaf node keep push node stack till root node reach curr stk push curr curr parent curr start pop node stack print stk empti curr stk top stk pop cout curr data cout endl iter function preorder travers binari tree print root leaf path without use recurs void printroottoleaf node root corner case root null return creat empti stack push root stack node nodestack nodestack push root creat map store parent pointer binari tree node map node node parent parent root null parent root null pop item one one 
+follow everi pop item push right child set parent pointer b push left child set parent pointer note right child push first left process first nodestack empti pop top item stack node current nodestack top nodestack pop leaf node encount print top bottom path 
+current left 
+current right printtoptobottompath current parent push right left children pop node stack 
+also set parent pointer map current right parent current right current nodestack push current right current left parent current left current nodestack push current left driver program test function int main construct binari tree 10 8 2 3 5 2 node root newnod 10 root left newnod 8 root right newnod 2 root left left newnod 3 root left right newnod 5 root right left newnod 2 printroottoleaf root return 0 output 10 8 3 10 8 5 10 2 2 articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

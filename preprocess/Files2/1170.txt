@@ -1,0 +1,2 @@
+write function rotat arr n rotat arr size n element 
+exampl input arr 1 2 3 4 5 6 7 2 output arr 3 4 5 6 7 1 2 rotat array 2 make array 

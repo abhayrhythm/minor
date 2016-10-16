@@ -1,0 +1,34 @@
+
+Predict the output of following C programs.
+Question 1
+
+#include<stdio.h>
+#define fun (x) (x)*10
+
+int main()
+{
+    int t = fun(5);
+    int i; 
+    for(i = 0; i < t; i++)
+       printf("GeesforGeeks\n");
+
+    return 0;
+}
+
+Output: Compiler Error
+There is an extra space in macro declaration which causes fun to be raplaced by (x).   If we remove the extra space then program works fine and prints “GeeksforGeeks” 50 times. Following is the working program. 
+
+#include<stdio.h>
+#define fun(x) (x)*10
+
+int main()
+{
+    int t = fun(5);
+    int i; 
+    for(i = 0; i < t; i++)
+       printf("GeesforGeeks\n");
+
+    return 0;
+}
+
+Be careful when dealing with macros. Extra spaces may lead to problems.  

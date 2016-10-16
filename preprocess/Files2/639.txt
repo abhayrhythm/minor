@@ -1,0 +1,24 @@
+interview 1 45 min q1 write function return differ string everi time call 
+answer return time form string 
+question chang two differ comput call function time 
+answer append comput id ip string 
+question chang comput call function time answer append processor id string q2 given integ calcul number time binari represent bit chang 
+eg 43 e 0000101001 5 chang 0 1 1 0 1st 3rd 4th 5th 6th bit right 
+answer start rightmost bit keep move left see number toggl log n time 
+modifi question reduc number comparison use extra space 
+answer store number toggl number 0 255 array array repres number toggl interg eg array 43 valu 5 divid 32 bit number four 8 bit number 
+calcul number toggl hash map check last first bit 8 bit number differ next bit add 1 count 
+lunch break interview 2 q1 given array integ find longest sequenc consecut natur number array number less everi number sequenc occur array 
+eg array 4 7 5 9 11 6 8 14 13 12 1 answer 3 4 5 6 though longest consecut list 11 14 13 occur 14 answer start left keep store hash map key number valu longest consecut list end 
+set valu number find valu current key 1 
+present add one valu store current key valu otherwis set 1 list key valu 4 1 7 1 5 2 4 valu 1 9 1 11 1 6 3 5 valu 2 8 2 14 1 13 1 12 1 1 1 keep maximum count 
+q2 design data structur find number occurr string 
+use trie count repres count struct trie int count struct trie children 26 q3 question suffix tree 
+rememb 
+q4 design system receiv lot entri million flip flop stop follow function 1 calcul valu flip flop kth time 2 kth posit edg 
+use hash map memori constraint problem said number stop answer use bst key time stop occur 
+understand littl hard understand question pretti easi interview 3 q1 design b tree code 
+good luck interview keep studi geeksforgeek know websit well much need get select compani 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

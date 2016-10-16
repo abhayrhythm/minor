@@ -1,0 +1,40 @@
+select procedur consist onlin round follow two person interview 
+onlin round first round 20 mcq consist 3 4 question aptitud 2 question os rest basic c data structur 
+2 code question well 
+question 1 given phone keypad like follow diagram charact correspond digit mention box 
+given n string find decim represent 
+print string correspond decim represent descend order 
+like given amazon correspond decim notat 262966 one string decim notat print order input given 
+given given string consist lower case alphabet 
+test case 1 5 amazon microsoft facebook aa bb output 642767638 microsoft 32232665 facebook 262966 amazon 22 aa 22 bb question 2 given string 
+print possibl permut differ length sort order 
+input abc output ab ac abc b bc c candid could solv least one question 2 code question select person interview 
+round 2 p 
+1 firstli interview deep discuss project 
+also ask write code one mini project backtrack 
+ask two back back code question 1 given bst 
+print kth smallest element 
+http www geeksforgeek org find k th smallest element bst order statist bst 
+2 given two sort array print median obtain merg log n time complex 
+http www geeksforgeek org median two sort array ask languag comfort code 
+said c 
+ask alloc dynam memori 2 array c use malloc function 
+ask differ b w malloc new c function 
+round 2 p 
+2 firstli ask tell academ background 
+directli put code question front 
+1 given binari tree two node 
+print horizont distanc 
+let us say given node b c answer would 2 given node e answer would 0 given node g answer would 4 long discuss 45 min approx 
+problem 
+one friend ask follow question 2 given link list 
+determin whether palindrom order n time without use auxiliari space 
+3 given array integ 
+find maximum sum sequenc 
+need contigu 
+round friend select 
+total 16 candid select 
+realli thank geeksforgeek support help prepar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

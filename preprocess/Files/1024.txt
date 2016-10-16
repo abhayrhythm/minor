@@ -1,0 +1,28 @@
+
+Predict the output of below programs
+Question 1
+
+int main()
+{
+    int i = 0;
+    while (i <= 4)
+    {
+       printf("%d", i);
+       if (i > 3)
+        goto inside_foo;
+       i++;
+    }  
+    getchar();
+    return 0;
+}
+
+void foo()
+{
+   inside_foo:
+     printf("PP");
+}
+
+Output: Compiler error: Label “inside_foo” used but not defined.
+Explanation:  Scope of a label is within a function. We cannot goto a label from other function.
+
+Question 2

@@ -1,0 +1,42 @@
+amazon visit campu offer internship 6 month 
+3 round onlin code round 2 face face interview 
+onlin code round durat 1 hr 30 min round conduct hackerrank com 
+20 mcq relat comput scienc aptitud mani question mcq section geeksforgeek 
+2 code question 1 given txt 0 n 1 pat 0 1 write function search char txt char pat print occur pat anagram txt 
+assum n 
+exampl txt bacdgabcda pat abcd ouput 0 5 6 2 
+cluster program given 2d matrix contain 0s 1s 
+given posit matrix move 8 direct e 
+1 j j 1 1 j 1 
+print number cluster 1 matrix 
+two 1 lie cluster move directli one 1 anoth 
+input 5 n 5 
+mat 1 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 1 output 5 first 0 0 0 1 1 1 2 0 second 1 4 2 3 2 4 third 4 0 fourth 4 2 fifth 4 4 face face interview 1 durat 1 hr interview start ask question straight away without introduct 
+ask worst case complex quick sort merg sort 
+ask 2 question relat tree 1 given array contain post order travers binari tree 
+construct singl tree 
+said 
+ask make binari search tree array said ye 
+discuss approach ask write code 
+2 ask write code level order travers tree 
+also ask calcul complex code 
+face face interview 2 durat 1hr 30min interview start gener introduct 
+start ask question 
+1 given n appoint start time end time boolean variabl hasconfilct set boolean variabl hasconflict appoint conflict appoint 
+exampl appointment1 2 00 3 00 appointment2 2 30 3 30 appointment3 4 00 6 00 set hasconflict appoint 1 2 true 
+initi n 2 
+ask optim solut 
+discuss abl solv nlogn 
+2 given amazon detail page item show one field dynam pick databas improv perform accord line 80 user visit detail page 20 product said could store 20 web server fetch item detail databas everytim 
+ask store 
+answer main memori use bst store 
+lot discuss 30 min get put oper use satisfi solut 
+3 given link list place memori problem aris simultan oper perform list 
+start ask thread answer relat 
+4 singl thread applic convert multi thread applic kind chang oper system make 
+5 step taken os shift one thread execut anoth 
+final hire 
+thank geeksforgeek help throughout interview prepar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

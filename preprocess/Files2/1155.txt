@@ -1,0 +1,16 @@
+given unsort array contain even number occurr number except two number 
+find two number odd occurr n time complex 1 extra space 
+exampl input 12 23 34 12 12 23 12 45 output 34 45 input 4 4 100 5000 4 4 4 4 100 100 output 100 5000 input 10 20 output 10 20 naiv method solv problem run two nest loop 
+outer loop pick element inner loop count number occurr pick element 
+count occurr odd print number 
+time complex method n 2 
+use sort get odd occur number nlogn time 
+first sort number use nlogn sort algorithm like merg sort heap sort etc 
+array sort need linear scan array print odd occur number 
+also use hash 
+creat empti hash tabl element count 
+pick element input array one one 
+look pick element hash tabl 
+element found hash tabl increment count tabl 
+element found enter hash tabl count 1 element enter hash tabl scan hash tabl print element odd count 
+approach may take n time averag requir n extra space 

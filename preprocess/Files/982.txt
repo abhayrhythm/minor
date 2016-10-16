@@ -1,0 +1,38 @@
+
+Here is a solution that prints numbers using recursion.
+
+Other alternatives for loop statements are recursion and goto statement,  but use of goto is not suggestible as a general programming practice as goto statement changes the normal program execution sequence and makes it difficult to undestand and maintain.  
+
+#include <stdio.h>
+
+/* Prints numbers from 1 to n */
+void printNos(unsigned int n)
+{
+  if(n > 0)
+  {
+    printNos(n-1);
+    printf("%d ",  n);
+  }
+  return;
+}
+
+/* Driver program to test printNos */
+int main()
+{
+  printNos(100);
+  getchar();
+  return 0;
+}
+
+Time Complexity: O(n)
+Now try writing a program that does the same but without any if construct. 
+Print 1 to 100 in C++, without loop and recursion
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

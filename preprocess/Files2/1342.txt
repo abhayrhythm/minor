@@ -1,0 +1,7 @@
+given list integ rearrang list consist altern minimum maximum element use list oper 
+first element list minimum second element maximum element present list 
+similarli third element next minimum element fourth element next maximum element 
+use extra space permit 
+exampl input 1 3 8 2 7 5 6 4 output 1 8 2 7 3 6 4 5 input 1 2 3 4 5 6 7 output 1 7 2 6 3 5 4 input 1 6 2 5 3 4 output 1 6 2 5 3 4 idea sort list ascend order first 
+start pop element end list insert correct posit list 
+c implement idea c c c program rearrang given list consist altern minimum maximum element includ bit stdc h use namespac std function rearrang given list consist altern minimum maximum element void alternatesort list int inp sort list ascend order inp sort get iter first element list list int iter inp begin int 1 inp size 1 2 pop last element next greatest int val inp back inp pop_back insert next minimum element inp insert val increment pointer next pair driver code int main input list list int inp 1 3 8 2 7 5 6 4 rearrang given list alternatesort inp print modifi list int inp cout return 0 

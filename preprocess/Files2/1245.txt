@@ -1,0 +1,21 @@
+given string check rotat palindrom 
+exampl function return true aab rotat aba 
+exampl input str aaaad output 1 aaaad rotat palindrom aadaa input str abcd output 0 abcd rotat palindrom 
+strongli recommend click practic move solut 
+simpl solut take input string tri everi possibl rotat return true rotat palindrom 
+rotat palindrom return fals 
+follow c implement approach 
+c includ iostream includ string use namespac std util function check string str palindrom bool ispalindrom string str start leftmost rightmost corner str int l 0 int h str length 1 keep compar charact h l str l str h return fals reach charact match return true function chech given string rotat palindrom 
+bool isrotationofpalindrom string str string iteself palindrom ispalindrom str return true tri rotat one one int n str length int 0 n 1 string str1 str substr 1 n 1 string str2 str substr 0 1 check rotat palindrom ispalindrom str1 append str2 return true return fals driver program test function int main cout isrotationofpalindrom aab endl cout isrotationofpalindrom abcd endl cout isrotationofpalindrom aaaad endl return 0 python python program check given string rotat palindrom util function check string str palindrom def ispalindrom string start leftmost rightmost corner str l 0 h len string 1 keep compar charact h l l 1 h 1 string l 1 string h 1 return fals reach charact match return true function chech given string rotat palindrom 
+def isrotationofpalindrom string string palindrom ispalindrom string return true tri rotat one one n len string xrang n 1 string1 string 1 n string2 string 0 1 check rotat palindrom string1 string2 ispalindrom string1 return true return fals driver program print 1 isrotationofpalindrom aab true els 0 print 1 isrotationofpalindrom abcd true els 0 print 1 isrotationofpalindrom aaaad true els 0 code contribut bhavya jain output 1 0 1 time complex n2 auxiliari space n store rotat 
+note algorithm optim work 1 extra space rotat string n time 1 extra space 
+optim solut work n time 
+idea similar post 
+follow step 
+1 let given string str length string n 
+creat temporari string temp size 2n contain str follow str 
+exampl let str aab temp would aabaab 
+2 problem reduc find palindrom substr length n str 
+palindrom substr length n return true els return fals 
+find whether palindrom substr size n n time see longest palindrom substr articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

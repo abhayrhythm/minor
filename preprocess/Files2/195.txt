@@ -1,0 +1,32 @@
+two vessel capac b respect 
+infinit water suppli 
+give effici algorithm make exactli 1 litr water one vessel 
+throw water vessel point time 
+assum b coprim 
+follow step let v1 vessel capac v2 vessel capac b smaller b 
+1 follow amount water v1 1 
+v1 empti complet fill v1 b transfer water v1 v2 
+v2 becom full keep remain water v1 empti v2 2 v1 1 litr termin loop step 1 return 
+follow c implement algorithm 
+sampl run algo v1 capac 3 v2 capac 7 1 fill v1 v1 3 v2 0 2 transfer v1 v2 fill v1 v1 3 v2 3 2 transfer v1 v2 fill v1 v1 3 v2 6 3 transfer v1 v2 empti v2 v1 2 v2 0 4 transfer v1 v2 fill v1 v1 3 v2 2 5 transfer v1 v2 fill v1 v1 3 v2 5 6 transfer v1 v2 empti v2 v1 1 v2 0 7 stop v1 contain 1 litr 
+note v2 made empti step 3 6 becam full includ iostream use namespac std util function get gcd two number int gcd int int b return b 
+gcd b b class repres vessel class vessel vessel capac current amount water int capac current public constructor initi capac given current 0 vessel int capac capac capac current 0 main function fill one litr vessel 
+capac v2 must greater vessel two capac must co prime void makeonelitr vessel v2 fill vessel given amount return amount water transfer 
+vessel becom full vessel made empti 
+int transfer int amount main function fill one litr vessel 
+capac v2 must greater vessel two capac must coprim void vessel makeonelitr vessel v2 solut exist iff b co prime gcd capac v2 capac 1 return current 1 fill smaller vessel current 0 current capac cout vessel 1 current vessel 2 v2 current endl transfer water v1 v2 reduc current v1 amount equal transfer water current current v2 transfer current final 1 litr vessel 1 cout vessel 1 current vessel 2 v2 current endl fill vessel given amount return amount water transfer 
+vessel becom full vessel made empti int vessel transfer int amount vessel accommod given amount current amount capac current amount return amount vessel cannot accommod given amount store amount water transfer int transfer capac current sinc vessel becom full make vessel empti fill current 0 return transfer driver program test function int main int 3 b 7 must smaller b creat two vessel capac b vessel v1 v2 b get 1 litr first vessel v1 makeonelitr v2 return 0 output vessel 1 3 vessel 2 0 vessel 1 3 vessel 2 3 vessel 1 3 vessel 2 6 vessel 1 2 vessel 2 0 vessel 1 3 vessel 2 2 vessel 1 3 vessel 2 5 vessel 1 1 vessel 2 0 work 
+prove algorithm work need proof certain number iter loop get 1 litr v1 
+let capac vessel v1 b capac v2 
+sinc repeatedli transfer water v1 v2 v2 becom full b mod water v1 v2 becom full first time 
+v2 becom full empti 
+2b mod water v1 v2 full second time 
+repeat step get nb mod water v1 vessel v2 fill empti n time 
+need prove valu nb mod 1 finit integ n 
+prove let us consid follow properti coprim number 
+two coprim integ b integ b multipl invers modulo 
+word exist integ b 1 mod see 3rd point 
+1 iter 1 b mod water v1 valu express 1 1 mod 1 algorithm converg get 1 litr v1 
+articl compil aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

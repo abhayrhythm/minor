@@ -1,0 +1,85 @@
+
+Predict the output of following C++ program. 
+ 
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int test = 0;
+   cout << "First  character " << '1' << endl;
+   cout << "Second character " << (test ? 3 : '1') << endl;
+
+   return 0;
+}
+
+One would expect the output will be same in both the print statements. However, the output will be,
+
+First  character 1
+Second character 49
+
+Why the second statement printing 49? Read on the ternary expression.
+
+Ternary Operator (C/C++):
+A ternary operator has the following form,
+exp1 ? exp2 : exp3
+The expression exp1 will be evaluated always. Execution of exp2 and exp3 depends on the outcome of exp1. If the outcome of exp1 is non zero exp2 will be evaluated, otherwise exp3 will be evaluated.
+Side Effects:
+ Any side effects of exp1 will be evaluated and updated immediately before executing exp2 or exp3. In other words, there is sequence point after the evaluation of condition in the ternary expression. If either exp2 or exp3 have side effects, only one of them will be evaluated. See the related post.
+Return Type:
+ It is another interesting fact. The ternary operator has return type. The return type depends on exp2, and convertibility of exp3 into exp2 as per usual\overloaded conversion rules. If they are not convertible, the compiler throws an error. See the examples below,
+The following program compiles without any error. The return type of ternary expression is expected to be float (as that of exp2) and exp3 (i.e. literal zero – int type) is implicitly convertible to float.
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int test = 0;
+   float fvalue = 3.111f;
+   cout << (test ? fvalue : 0) << endl;
+
+   return 0;
+}
+
+The following program will not compile, because the compiler is unable to find return type of ternary expression or implicit conversion is unavailable between exp2 (char array) and exp3 (int).
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int test = 0;
+   cout << test ? "A String" : 0 << endl;
+
+   return 0;
+}
+
+The following program *may* compile, or but fails at runtime. The return type of ternary expression is bounded to type (char *), yet the expression returns int, hence the program fails. Literally, the program tries to print string at 0th address at runtime.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int test = 0;
+   cout << (test ? "A String" : 0) << endl;
+
+   return 0;
+}
+
+We can observe that exp2 is considered as output type and exp3 will be converted into exp2 at runtime. If the conversion is implicit the compiler inserts stubs for conversion. If the conversion is explicit the compiler throws an error. If any compiler misses to catch such error, the program may fail at runtime.
+Best Practice:
+It is the power of C++ type system that avoids such bugs. Make sure both the expressions exp2 and exp3 return same type or atleast safely convertible types. We can see other idioms like C++ convert union for safe conversion.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above. We will be happy to learn and update from other geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

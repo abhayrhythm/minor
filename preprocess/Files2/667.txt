@@ -1,0 +1,23 @@
+onlin round 1 hr 30 min 20 mcq 2 code question mcq 20 mcq base ds os iq output question 
+code question given express contain alphanumer charact parenthesi check balanc 
+http www geeksforgeek org check balanc parenthes express preorder inord travers binari tree given convert tree node contain sum left right sub tree origin tree 
+valu leaf node chang 0 print preorder theinord travers modifi tree 
+http www geeksforgeek org convert given tree sum tree technic round 1 around 1 hr 1 interview ask project mainli databas part 
+given rectangular matrix n move 
+posit x move x 1 x 1 x 1 x 1 
+probabl n move remain insid rectangl 
+http www geeksforgeek org find four element b c array ab cd technic round 2 around 1 hr interview ask data structur know 
+ask applic graph 
+suppos social network site like facebook 
+everi user get friend recommend e 
+peopl may know 
+user 100 friend friend got 5 friend get 500 recommend 
+condit get top 10 recommend maximum number mutual friend b friend b c friend c mutual friend b 
+suggest effici data structur implement 
+implement flexibl moment user make new friend may also unfriend someon 
+applic heap 
+insert heap insert string heap prioriti decid lexicograph 
+time complex insert 
+thank geeksforgeek like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

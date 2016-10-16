@@ -1,0 +1,17 @@
+1st round 2 hr 1 current work 2 os factor consid design oper system 
+follow discuss virtual memori page thrash memori manag 
+3 java singleton pattern code basic question one problem relat constructor chain 
+4 problem relat find suitabl data structur problem answer trie question relat implement time complex 5 find pair whose sum equal x array follow number fit main memori 
+tree bst differ approach discuss 
+6 find miss number array number given rang differ approach 7 puzzl 25 hors 5 track 3 fastest 2nd round 1 5 hr 1 question similar number way reach bottom right 2 matrix 2 minimum number weight requir weigh 1 n kg rice given balanc ex 1 5 
+an 3 1 2 4 1 10 
+an 1 2 4 8 3 train schedul given find maximum number platform requir point time 4 java gener 5 sql queri told work db colleg question 6 project work distribut system question scale horizont vertic fault toler etc 7 tree travers 
+time space complex consid stack frame differ situat skew tree balanc avl tree 
+8 interest thing algorithm tool anyth past work came across till answer apach meso 
+follow discuss 3rd round 1 hr 1 cousin node binari tree write code 2 n queen problem backtrack write code 3 project colleg current work 
+4 network tcp v ip protocol ip v mac address basic question 5 java composit vs polymorph pro con basic question 6 discuss program languag mention resum 
+that could rememb 
+conduct bangalor hotel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

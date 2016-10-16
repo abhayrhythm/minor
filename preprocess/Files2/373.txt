@@ -1,0 +1,25 @@
+given string repres express digit operand 
+e g 
+1 2 3 1 2 4 
+need evalu string express 
+bodma follow 
+express incorrect syntax return 1 test case 1 2 3 evalu 9 b 4 2 6 3 evalu 24 c 1 2 evalu 1 invalid 
+also string space occur 
+case need ignor space 
+like 1 2 1 equal 1 sourc amazon interview question strongli recommend minim browser tri first 
+idea simpl start first charact travers left right check error like two consecut oper operand 
+also keep track result updat result travers express 
+follow c program evalu given express 
+c program evalu given express includ ioexpeam use namespac std util function check given charact operand bool isoperand char c return c 0 c 9 util function find valu operand int valu char c return c 0 function evalu simpl express 
+return 1 given express invalid 
+int evalu char exp base case given express empti exp 0 return 1 first charact must operand find valu int re valu exp 0 travers remain charact pair int 1 exp 2 next charact must oper next next operand char opr exp opd exp 1 next next charact operand isoperand opd return 1 updat result accord oper opr re valu opd els opr re valu opd els opr re valu opd els opr re valu opd valid oper els return 1 return re driver program test function int main char expr1 1 2 5 3 int re evalu expr1 re 1 
+cout expr1 invalid n cout valu expr1 re endl char expr2 1 2 3 re evalu expr2 re 1 
+cout expr2 invalid n cout valu expr2 re endl char expr3 4 2 6 3 re evalu expr3 re 1 
+cout expr3 invalid n cout valu expr3 re endl char expr4 1 2 re evalu expr4 re 1 
+cout expr4 invalid n cout valu expr4 re endl return 0 output valu 1 2 5 3 18 valu 1 2 3 9 valu 4 2 6 3 24 1 2 invalid code handl space 
+handl space first remov space given string 
+better solut handl space singl travers 
+left exercis 
+time complex n n length given express 
+articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

@@ -1,0 +1,8 @@
+c refer variabl safer pointer refer variabl must initi cannot chang refer someth els initi 
+except invalid refer 
+1 refer valu uniniti pointer 
+int ptr int ref ptr refer valu random memori locat 2 refer local variabl return 
+int fun int 10 return fun return space alloc stack frame taken back 
+refer local variabl valid 
+pleas write comment find anyth incorrect gfact want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

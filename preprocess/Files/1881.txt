@@ -1,0 +1,39 @@
+
+SQL (Structured Query Language) is a fourth-generation language (4GL) that is used to define, manipulate, and control an RDBMS (relational database management system).
+Before starting the main article, let us get familiar with the used tools.
+
+
+Compiler: Code::Blocks IDE with MinGW compiler
+Download Link: Binary Download
+Code::Blocks is a cross compiler (It can run on any platform like Windows, Linux and Mac) and it is free to download. This IDE is specially designed for C and C++ and easy to use.
+
+
+API: We are going to use SQLAPI++ Library
+Download Link: SQLAPI Download
+SQLAPI++ is a C++ library (basically a set of header files) for accessing multiple SQL databases (Oracle, SQL Server, DB2, Sybase, Informix, InterBase, SQLBase, MySQL, PostgreSQL, SQLite, SQL Anywhere and ODBC). It is easy to implement and simple.
+
+
+OCCI: Oracle C++ Call Interface
+Download Link: OCCI C++ Download 
+OCCI is an interface defined by the database company ORACLE that defines a comfortable interfacefor the C++ programmer to access the Oracle database with classes using parameters that are reminiscent of SQL statements. The interface exists for ORACLE 9i, ORACLE 10 and comes with the Oracle.
+
+
+We must download and install the above three (if we don’t have them). Now we are almost ready to start.
+ 
+Some settings before starting:
+-> Open the code::blocks IDE and go to or click on settings -> compiler and debugger settings (You will now see global compiler settings)
+-> Now click on “Linker settings” in the linker settings click on ADD button and add the following
+For Windows OS :
+Code:
+C:\SQLAPI\lib\libsqlapiddll.a
+C:\Program Files\CodeBlocks\MinGW\lib\libuser32.a
+C:\Program Files\CodeBlocks\MinGW\lib\libversion.a
+C:\Program Files\CodeBlocks\MinGW\lib\liboleaut32.a
+C:\Program Files\CodeBlocks\MinGW\lib\libole32.a
+These will be found in your SQLAPI++ (If you have not extracted in C: drive then select the appropriate location and add the mentioned files to linker settings).
+The above code is used to add library files to connect C/C++ program with SQLAPI.
+Basically, there are 2 steps:
+
+
+ Connecting to database (and error handling)
+Code:

@@ -1,0 +1,10 @@
+c deriv class object assign base class object way possibl 
+class base int x class deriv public base int z w int main deriv base b object slice z w slice object slice happen deriv class object assign base class object addit attribut deriv class object slice form base class object 
+includ iostream use namespac std class base protect int public base int virtual void display cout base class object endl class deriv public base int j public deriv int int b base j b virtual void display cout deriv class object j j endl global method base class object pass valu void somefunc base obj obj display int main base b 33 deriv 45 54 somefunc b somefunc object slice member j slice return 0 output base class object 33 base class object 45 avoid unexpect behavior use pointer refer 
+object slice occur pointer refer object pass function argument sinc pointer refer type take amount memori 
+exampl chang global method myfunc program follow object slice happen 
+rest code similar void somefunc base obj obj display rest code similar output base class object 33 deriv class object 45 j 54 get output use pointer chang program follow 
+rest code similar void somefunc base objp objp display int main base bp new base 33 deriv dp new deriv 45 54 somefunc bp somefunc dp object slice return 0 output base class object 33 deriv class object 45 j 54 object slice prevent make base class function pure virtual disallow object creation 
+possibl creat object class contain pure virtual method 
+articl contribut pravasi meet 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

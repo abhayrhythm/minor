@@ -1,0 +1,27 @@
+constexpr featur ad c 11 main idea perform improv program comput compil time rather run time 
+note program compil final develop run multipl time user 
+idea spend time compil save time run time similar templat metaprogram constexpr specifi valu object function evalu compil time express use constant express 
+exampl code product evalu compil time 
+constexpr function product two number 
+specifi constexpr suggest compil evalu valu compil time constexpr int product int x int return x int main const int x product 10 20 cout x return 0 output 200 function declar consexpr c 11 constexpr function contain one return statement 
+c 14 allow one statement 
+constexpr function refer constant global variabl 
+constexpr function call constexpr function simpl function 
+function void type oper like prefix increment v allow consexpr function 
+constexpr vs inlin function perform improv inlin function request compil expand compil time save time function call overhead 
+inlin function express alway evalu run time 
+constexpr differ express evalu compil time 
+exampl perform improv constexpr consid follow c program c program demonstr use constexpr includ iostream use namespac std constexpr long int fib int n return n 1 
+n fib n 1 fib n 2 int main valu re comput compil time 
+const long int re fib 30 cout re return 0 program run gcc take 0 003 second measur time use time command remov const line valu fib 5 evalu compil time result constexpr use const express 
+chang const long int re fib 30 long int re fib 30 make chang time taken program becom higher 0 017 second 
+constexpr constructor constexpr use constructor object also 
+see restrict constructor use constexpr 
+c program demonstr use constexpr constructor includ bit stdc h use namespac std class constexpr constructor function class rectangl int _h _w public constexpr constructor constexpr rectangl int h int w _h h _w w constexpr int getarea return _h _w driver program test function int main object initi compil time constexpr rectangl obj 10 20 cout obj getarea return 0 output 200 constexpr vs const serv differ purpos 
+constexpr mainli optim const practic const object like valu pi 
+appli member method 
+member method made const make sure accident chang method 
+hand idea use constexpr comput express compil time time save code run 
+const use non static member function wherea constexpr use member non member function even constructor condit argument return type must liter type 
+articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,23 @@
+given string find longest palindrom construct remov shuffl charact string 
+return one palindrom multipl palindrom string longest length 
+exampl input abc output b c input aabbcc output abccba baccab cbaabc palindrom string length 6 input abbaccd output abcdcba input aba output aba divid palindrom string three part beg mid end 
+palindrom string odd length say 2n 1 beg consist first n charact string mid consist 1 charact e 
+n 1 th charact end consist last n charact palindrom string 
+palindrom string even length 2n mid alway empti 
+note end revers beg order string palindrom 
+idea use observ solut 
+shuffl charact allow order charact matter input string 
+first get frequenc charact input string 
+charact even occurr say 2n input string part output string easili place n charact beg string n charact end string preserv palindrom order 
+charact odd occurr say 2n 1 fill mid one charact 
+remain 2n charact divid halv ad begin end 
+c implement idea c program find longest palindrom remov shuffl charact given string includ bit stdc h use namespac std function find longest palindrom remov shuffl charact given string string findlongestpalindrom string str store freq charact string int count 256 0 find freq charact input string int 0 str size count str palindrom string consist three part beg mid end string beg mid end solut assum lowercas charact present string 
+easili extend consid set charact char ch ch z ch current charact freq odd count ch 1 mid contain 1 charact 
+overridden next charact odd freq mid ch decrement charact freq make even consid current charact count ch current charact freq even els count n even number push n 2 charact beg string rest n 2 charact form part end string int 0 count ch 2 beg push_back ch end revers beg end beg revers end begin end end return palindrom string return beg mid end driver code int main string str abbaccd cout findlongestpalindrom str return 0 output abcdcba time complex solut n n length string 
+sinc number charact alphabet constant contribut asymptot analysi 
+auxiliari space use program number ascii charact 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

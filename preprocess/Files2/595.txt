@@ -1,0 +1,19 @@
+given two squar matric b size n x n find multipl matrix 
+naiv method follow simpl way multipli two matric 
+void multipli int n int b n int c n int 0 n int j 0 j n j c j 0 int k 0 k n k c j k b k j time complex method n3 
+divid conquer follow simpl divid conquer method multipli two squar matric 
+1 divid matric b 4 sub matric size n 2 x n 2 shown diagram 
+2 calcul follow valu recurs 
+ae bg af bh ce dg cf dh 
+method 8 multipl matric size n 2 x n 2 4 addit 
+addit two matric take n2 time 
+time complex written n 8t n 2 n2 master theorem time complex method n3 unfortun naiv method 
+simpl divid conquer also lead n3 better way 
+divid conquer method main compon high time complex 8 recurs call 
+idea strassen method reduc number recurs call 7 strassen method similar simpl divid conquer method sens method also divid matric sub matric size n 2 x n 2 shown diagram strassen method four sub matric result calcul use follow formula 
+time complex strassen method addit subtract two matric take n2 time 
+time complex written n 7t n 2 n2 master theorem time complex method nlog7 approxim n2 8074 gener strassen method prefer practic applic follow reason 
+1 constant use strassen method high typic applic naiv method work better 
+2 spars matric better method especi design 
+3 submatric recurs take extra space 
+4 limit precis comput arithmet noninteg valu larger error accumul strassen algorithm naiv method sourc clr book refer introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest http www youtub com watch v lolebq8nkha http www youtub com watch v qxy4rsklqci pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

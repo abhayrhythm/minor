@@ -1,0 +1,73 @@
+
+Given an array of integers print the missing elements that lie in range 0-99.  If there are more than one missing, collate them, otherwise just print the number.
+Note that the input array may not be sorted and may contain numbers outside the range [0-99], but only this range is to be considered for printing missing elements.
+Examples
+
+     Input: {88, 105, 3, 2, 200, 0, 10}
+     Output: 1
+             4-9
+             11-87
+             89-99
+
+
+     Input: {9, 6, 900, 850, 5, 90, 100, 99}
+     Output: 0-4
+             7-8
+             10-89
+             91-98
+Expected time complexity O(n), where n is the size of the input array.
+
+The idea is to use a boolean array of size 100 to keep track of array elements that lie in range 0 to 99.  We first traverse input array and mark such present elements in the boolean array.  Once all present elements are marked, the boolean array is used to print missing elements. 
+Following is the implementation of above idea.
+
+C
+
+
+
+// C program for print missing elements
+#include<stdio.h>
+#define LIMIT 100
+
+// A O(n) function to print missing elements in an array
+void printMissing(int arr[], int n)
+{
+    // Initialize all number from 0 to 99 as NOT seen
+    bool seen[LIMIT] = {false};
+
+    // Mark present elements in range [0-99] as seen
+    for (int i=0; i<n; i++)
+      if (arr[i] < LIMIT)
+       seen[arr[i]] = true;
+
+    // Print missing element
+    int i = 0;
+    while (i < LIMIT)
+    {
+        // If i is missing
+        if (seen[i] == false)
+        {
+            // Find if there are more missing elements after i
+            int j = i+1;
+            while (j < LIMIT && seen[j] == false)
+                  j++;
+
+            // Print missing single or range
+            (i+1 == j)? printf("%d\n", i): printf("%d-%d\n", i, j-1);
+
+            // Update u
+            i = j;
+        }
+        else
+            i++;
+    }
+}
+
+// Driver program
+int main()
+{
+    int arr[] = {88, 105, 3, 2, 200, 0, 10};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    printMissing(arr, n);
+    return 0;
+}
+

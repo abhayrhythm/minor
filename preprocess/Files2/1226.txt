@@ -1,0 +1,10 @@
+given string remov space string return 
+input g eek ge eek output geeksforgeek expect time complex n one travers string 
+strongli recommend click practic move solut 
+simpl solut 1 iter charact given string follow current charact space move subsequ charact one posit back decreas length result string 
+time complex solut n2 
+better solut solv n time 
+idea keep track count non space charact seen far 
+1 initi count 0 count non space charact seen far 2 iter charact given string follow current charact non space put charact index count increment count 3 final put 0 index count c python implement algorithm 
+c effici c program remov space string includ iostream use namespac std function remov space given string void removespac char str keep track non space charact count int count 0 travers given string 
+current charact space place index count int 0 str str str count str count increment str count 0 driver program test function int main char str g eek ge eek removespac str cout str return 0 

@@ -1,0 +1,35 @@
+given link list represent complet binari tree construct binari tree 
+complet binari tree repres array follow approach 
+root node store index left right children store indic 2 1 2 2 respect 
+suppos tree repres link list way convert normal link represent binari tree everi node data left right pointer 
+link list represent cannot directli access children current node unless travers list 
+mainli given level order travers sequenti access form 
+know head link list alway root tree 
+take first node root also know next two node left right children root 
+know partial binari tree 
+idea level order travers partial built binari tree use queue travers link list time 
+everi step take parent node queue make next two node link list children parent node enqueu next two node queue 
+1 creat empti queue 
+2 make first node list root enqueu queue 
+3 reach end list follow 
+
+dequeu one node queue 
+current parent 
+b 
+travers two node list add children current parent 
+c 
+enqueu two node queue 
+code implement c 
+c c program creat complet binari tree link list represent includ iostream includ string includ queue use namespac std link list node struct listnod int data listnod next binari tree node structur struct binarytreenod int data binarytreenod left right function insert node begin link list void push struct listnod head_ref int new_data alloc node assign data struct listnod new_nod new listnod new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod method creat new binari tree node given data binarytreenod newbinarytreenod int data binarytreenod temp new binarytreenod temp data data temp left temp right null return temp convert given link list repres complet binari tree link represent binari tree 
+void convertlist2binari listnod head binarytreenod root queue store parent node queue binarytreenod q base case head null root null note root pass refer return 1 
+first node alway root node add queue root newbinarytreenod head data q push root advanc pointer next node head head next end link list reach follow step head 2 take parent node q remov q binarytreenod parent q front q pop 2 c take next two node link list 
+add children current parent node step 2 b 
+push queue parent futur node binarytreenod leftchild null rightchild null leftchild newbinarytreenod head data q push leftchild head head next head rightchild newbinarytreenod head data q push rightchild head head next 2 b assign left right children parent parent left leftchild parent right rightchild util function travers binari tree convers void inordertravers binarytreenod root root inordertravers root left cout root data inordertravers root right driver program test function int main creat link list shown diagram struct listnod head null push head 36 last node link list push head 30 push head 25 push head 15 push head 12 push head 10 first node link list binarytreenod root convertlist2binari head root cout inord travers construct binari tree n inordertravers root return 0 java java program creat complet binari tree link list represent import necessari class import java util 
+link list node class listnod int data listnod next listnod int data next null binari tree node class binarytreenod int data binarytreenod left right null binarytreenod int data data data left right null class binarytre listnod head binarytreenod root function insert node begin link list void push int new_data alloc node assign data listnod new_nod new listnod new_data link old list new node new_nod next head move head point new node head new_nod convert given link list repres complet binari tree link represent binari tree 
+binarytreenod convertlist2binari binarytreenod node queue store parent node queue binarytreenod q new linkedlist binarytreenod base case head null node null return null 1 
+first node alway root node add queue node new binarytreenod head data q add node advanc pointer next node head head next end link list reach follow step head null 2 take parent node q remov q binarytreenod parent q peek binarytreenod pp q poll 2 c take next two node link list 
+add children current parent node step 2 b 
+push queue parent futur node binarytreenod leftchild null rightchild null leftchild new binarytreenod head data q add leftchild head head next head null rightchild new binarytreenod head data q add rightchild head head next 2 b assign left right children parent parent left leftchild parent right rightchild return node util function travers binari tree convers void inordertravers binarytreenod node node null inordertravers node left system print node data inordertravers node right driver program test function public static void main string arg binarytre tree new binarytre tree push 36 last node link list tree push 30 tree push 25 tree push 15 tree push 12 tree push 10 first node link list binarytreenod node tree convertlist2binari tree root system println inord travers construct binari tree tree inordertravers node code contribut mayank jaiswal python python program creat complet binari tree link list represent link list node class listnod constructor creat new node def __init__ self data self data data self next none binari tree node structur class binarytreenod constructor creat new node def __init__ self data self data data self left none self right none class convert link list binari tree class convers constructor store head link list root binari tree def __init__ self data none self head none self root none def push self new_data creat new link list node store data new_nod listnod new_data make next new node head new_nod next self head move head point new node self head new_nod def convertlist2binari self queue store parent node q base case self head none self root none return 1 
+first node alway root node add queue self root binarytreenod self head data q append self root advanc pointer next node self head self head next th end link list reach self head 2 take parent node q remov q parent q pop 0 front queue 2 c take next two node link list 
+add children current parent node step 2 b 
+push queue parent futur node leftchild none rightchild none leftchild binarytreenod self head data q append leftchild self head self head next self head rightchild binarytreenod self head data q append rightchild self head self head next 2 b assign left right children parent parent left leftchild parent right rightchild def inordertravers self root root self inordertravers root left print root data self inordertravers root right driver program test function object convers class conv convers conv push 36 conv push 30 conv push 25 conv push 15 conv push 12 conv push 10 conv convertlist2binari print inord travers contruct binari tree conv inordertravers conv root code contribut nikhil kumar singh nickzuck_007 output 

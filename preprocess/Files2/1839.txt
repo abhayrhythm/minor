@@ -1,0 +1,14 @@
+array decay 
+loss type dimens array known decay array gener occur pass array function valu pointer 
+send first address array pointer henc size array origin one one occupi pointer memori 
+c code demonstr array decay includ iostream use namespac std driver function show array decay pass array valu void adecay int p print size pointer cout modifi size array pass valu cout sizeof p endl function show array decay happen even use pointer void pdecay int p 7 print size array cout modifi size array pass pointer cout sizeof p endl int main int 7 1 2 3 4 5 6 7 print origin size array cout actual size array cout sizeof endl call function valu adecay call function pointer pdecay return 0 output actual size array 28 modifi size array pass valu 8 modifi size array pass pointer 8 code actual array 7 int element henc 28 size 
+call valu pointer array decay pointer print size 1 pointer e 
+8 4 32 bit 
+prevent array decay 
+typic solut handl decay pass size array also paramet use sizeof array paramet see detail anoth way prevent array decay send array function refer 
+prevent convers array pointer henc prevent decay 
+c code demonstr prevent decay array includ iostream use namespac std function prevent array decay pass array refer void fun int p 7 print size array cout modifi size array pass refer cout sizeof p endl int main int 7 1 2 3 4 5 6 7 print origin size array cout actual size array cout sizeof endl call function refer fun return 0 output actual size array 28 modifi size array pass refer 28 code pass array refer solv problem decay array 
+size case 28 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,54 @@
+
+Academic Project management is a major issue which is faced by many educational institutes, the main reason for this is there is no automated system followed in any institute. College management/staff gathers all the project reports and project sources from students and store them physically in some locations probably libraries. To overcome this practical problem and also to make the process easy we developed a secured intranet application which is useful for each.
+Features:
+Admin panel:
+
+Provide user/password to each member
+Create new user, changing request.
+Can send notification to all members
+Create different types of roles and granting permission
+
+Head of Department panel:
+
+Can see project details
+Approve project according to requirement
+Comment and feedback.
+
+Project in-charge: 
+
+Can see project details
+Approve project according to requirement
+Comment and feedback
+
+Internal guide:
+
+Can see project details
+Approve project according to requirement
+Comment and feedback
+
+Student Panel:
+
+Can change own profile details and user/password given by admin
+Upload any number of project abstract,synopsis,report and software code
+Can see project approval stage
+Can see notification on mail after successful approval of project.
+
+Note: each project uploaded by student will process from HOD to project in-charge to internal guide and student can see project status after approval of one authorities project will go to next phase .in any phase if project don’t fulfill requirement project will be rejected. 
+Login Panel:
+
+Encrypted/ decrypted username/password.
+
+Tools: 
+JSP, Servlet, AJAX, Netbean, gmail api.
+Research:
+      RSA algorithms for encryption and decyption.
+This idea is contributed by Jitendra Singh.If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

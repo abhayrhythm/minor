@@ -1,0 +1,3 @@
+c compil default creat default constructor everi class 
+defin constructor compil creat default constructor 
+exampl program 1 compil without error compil program 2 fail error match function call myinteg myinteg program 1 includ iostream use namespac std class myinteg privat int valu thing class int main myinteg i1 getchar return 0 

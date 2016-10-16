@@ -1,0 +1,43 @@
+
+Introduction
+Machine learning is one of the most exciting technologies that one would have ever come across. As it is evident from the name, it gives the computer that which makes it more similar to humans: The ability to learn. Machine learning is actively being used today, perhaps in many more places than one would expect. We probably use a learning algorithm dozens of time without even knowing it. Applications of Machine Learning include:
+
+Web Search Engine: One of the reasons why search engines like google, bing etc work so well is because the system has learnt how to rank pages through a complex learning algorithm.
+
+
+Photo tagging Applications: Be it facebook or any other photo tagging application, the ability to tag friends makes it even more happening. It is all possible because of a face recognition algorithm that runs behind the application.
+
+
+Spam Detector: Our mail agent like Gmail or Hotmail does a lot of hard work for us in classifying the mails and moving the spam mails to spam folder. This is again achieved by a spam classifier running in the back end of mail application.
+
+Today, companies are using Machine Learning to improve business decisions,increase productivity, detect disease, forecast weather, and do many more things. With the exponential growth of technology, we not only need better tools to understand the data we currently have, but we also need to prepare ourselves for the data we will have. To achieve this goal we need to build intelligent machines. We can write a program to do simple things. But for most of times Hardwiring Intelligence in it is difficult. Best way to do it is to have some way for machines to learn things themselves. A mechanism for learning – if a machine can learn from input then it does the hard work for us. This is where Machine Learning comes in action. Some examples of machine learning are:
+
+Database Mining for growth of automation: Typical applications include Web-click data for better UX( User eXperience), Medical records for better automation in healthcare, biological data and many more.
+
+
+Applications that cannot be programmed: There are some tasks that cannot be programmed as the computers we use are not modelled that way. Examples include Autonomous Driving, Recognition tasks from unordered data (Face Recognition/ Handwriting Recognition), Natural language Processing, computer Vision etc.
+Understanding Human Learning: This is the closest we have understood and mimicked the human brain. It is the start of a new revolution, The real AI. Now, After a brief insight lets come to a more formal definition of Machine Learning
+Arthur Samuel(1959): “Machine Learning is a field of study that gives computers, the ability to learn without explicitly being programmed.”Samuel wrote a Checker playing program which could learn over time. At first it could be easily won. But over time, it learnt all the board position that would eventually lead him to victory or loss and thus became a better chess player than Samuel itself. This was one of the most early attempts of defining Machine Learning and is somewhat less formal.
+Tom Michel(1999): “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.” This is a more formal and mathematical definition. For the previous Chess program
+
+E is number of games.
+T is playing chess against computer.
+P is win/loss by computer.
+
+
+
+In the Next tutorial we shall classify the types of Machine Learning problems and shall also discuss about useful packages and setting environment for Machine Learning and how can we use it to design new projects.
+References:
+[1] Machine Learning in action by Peter Harrington.
+[2] cs229.stanford.edu
+This article is contributed by Abhishek Sharma. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,6 @@
+c data type result comparison oper int 
+exampl see follow program 
+includ stdio h int main int x 10 10 printf n sizeof x printf n sizeof x return 0 output 4 4 wherea c type result comparison oper bool 
+exampl see follow program 
+includ iostream use namespac std int main int x 10 10 cout sizeof x endl cout sizeof x return 0 output 1 1 articl contribut rajat 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

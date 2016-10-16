@@ -1,0 +1,11 @@
+class declar contain static object self type also pointer self type cannot non static object self type 
+exampl follow program work fine 
+class static member self type includ iostream use namespac std class test static test self work fine stuff class int main test getchar return 0 follow program also work fine 
+class pointer self type includ iostream use namespac std class test test self work fine stuff class int main test getchar return 0 follow program gener compil error field self incomplet type class cannot non static object self type 
+includ iostream use namespac std class test test self error stuff class int main test getchar return 0 non static object member declar class incomplet compil way find size object class 
+static variabl contribut size object 
+problem calcul size static variabl self type 
+compil pointer fix size irrespect data type point problem also 
+thank manish jain venki contribut post 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

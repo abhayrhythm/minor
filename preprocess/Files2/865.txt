@@ -1,0 +1,2 @@
+static variabl properti preserv valu even scope henc static variabl preserv previou valu previou scope initi new scope 
+syntax static data_typ var_nam var_valu 

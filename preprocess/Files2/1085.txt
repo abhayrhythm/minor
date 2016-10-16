@@ -1,0 +1,22 @@
+given array prime rang prime small 
+remov duplic array 
+exampl input arr 3 5 7 2 2 5 7 7 output arr 2 3 5 7 output print order 
+input arr 3 5 7 3 3 13 5 13 29 13 output arr 3 5 7 13 29 output print order 
+sourc amazon interview question method 1 naiv n2 simpl solut run two loop 
+pick element one one 
+everi pick element check alreadi seen 
+alreadi seen ignor 
+els add array 
+c program implement naiv approach remov duplic 
+includ bit stdc h use namespac std int removedup vector int vect int res_ind 1 loop invari element vect 0 vect res_ind 1 uniqu 
+int 1 vect size int j j 0 j j vect vect j break j vect res_ind vect remov element vect res_ind vect end vect eras vect begin res_ind vect end driver code int main vector int vect 3 5 7 2 2 5 7 7 removedup vect int 0 vect size cout vect return 0 output 3 5 7 2 time complex n2 method 2 sort n log n better solut first sort array remov adjac element sort array 
+c program remov duplic use sort includ bit stdc h use namespac std int removedup vector int vect sort vector sort vect begin vect end uniqu remov adjac duplic 
+uniqu function put uniqu element begin return iter point first element uniqu element 
+eras function remov element two given iter vect eras uniqu vect begin vect end vect end driver code int main vector int vect 3 5 7 2 2 5 7 7 removedup vect int 0 vect size cout vect return 0 output 2 3 5 7 time complex n log n auxiliari space 1 method 3 hash n idea keep track visit element hash tabl 
+c program remov duplic use hash includ bit stdc h use namespac std int removedup vector int vect creat set vector element unordered_set int vect begin vect end take element set put back vect vect assign begin end driver code int main vector int vect 3 5 7 2 2 5 7 7 removedup vect int 0 vect size cout vect return 0 output 2 7 5 3 time complex n auxiliari space n method 4 work small rang n solut use fact number prime 
+work product distinct prime array less maximum valu long long int 
+remov duplic use multipl distinct prime array includ bit stdc h use namespac std int removedup vector int vect long long int prod vect 0 int res_ind 1 int 1 vect size prod vect 0 vect res_ind vect prod vect vect eras vect begin res_ind vect end driver code int main vector int vect 3 5 7 2 2 5 7 7 removedup vect int 0 vect size cout vect return 0 output 3 5 7 2 time complex n auxiliari space 1 note solut would work composit array 
+articl contribut shivam mittal 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

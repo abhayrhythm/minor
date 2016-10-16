@@ -1,0 +1,9 @@
+given array distinct integ find length longest subarray contain number arrang continu sequenc 
+exampl input arr 10 12 11 output length longest contigu subarray 3 input arr 14 12 11 20 output length longest contigu subarray 2 input arr 1 56 58 57 90 92 94 93 91 45 output length longest contigu subarray 5 strongli recommend minim browser tri first 
+import thing note question given element distinct 
+element distinct subarray contigu element differ maximum minimum element subarray equal differ last first index subarray 
+idea keep track minimum maximum element everi subarray 
+follow implement idea 
+c includ iostream use namespac std util function find minimum maximum two element int min int x int return x 
+x int max int x int return x 
+x return length longest contigu subarray int findlength int arr int n int max_len 1 initi result int 0 n 1 initi min max subarray start int mn arr mx arr consid subarray start end j int j 1 j n j updat min max subarray need mn min mn arr j mx max mx arr j current subarray contigu element mx mn j max_len max max_len mx mn 1 return max_len return result driver program test function int main int arr 1 56 58 57 90 92 94 93 91 45 int n sizeof arr sizeof arr 0 cout length longest contigu subarray findlength arr n return 0 

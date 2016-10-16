@@ -1,0 +1,30 @@
+number call jump number adjac digit differ 1 differ 9 0 consid 1 singl digit number consid jump number 
+exampl 7 8987 4343456 jump number 796 89098 
+given posit number x print jump number smaller equal x number print order 
+exampl input x 20 output 0 1 2 3 4 5 6 7 8 9 10 12 input x 105 output 0 1 2 3 4 5 6 7 8 9 10 12 21 23 32 34 43 45 54 56 65 67 76 78 87 89 98 101 note order output matter e number print order strongli recommend click practic move solut 
+one simpl solut travers number 0 x everi travers number check jump number 
+ye print 
+otherwis ignor 
+time complex solut x 
+effici solut solv problem k time k number jump number smaller equal x idea use bf df 
+assum graph start node 0 need travers start node reachabl node 
+restrict given graph jump number think restrict defin next transit graph 
+let take exampl input x 90 start node 0 0 move 1 2 3 4 5 6 7 8 9 rang add 1 move 12 10 2 23 21 3 34 32 
+
+
+
+
+
+
+bf base c implement idea 
+find print jump number smaller equal x 
+includ bit stdc h use namespac std print jump number smaller equal x start num 
+mainli bf start num 
+void bf int x int num creat queue enqueu queue int q q push num bf start q empti num q front q pop num x cout num int last_dig num 10 last digit 0 append next digit last_dig 0 q push num 10 last_dig 1 last digit 9 append previou digit els last_dig 9 q push num 10 last_dig 1 last digit neighter 0 9 append previou next digit els q push num 10 last_dig 1 q push num 10 last_dig 1 print jump number smaller equal posit number x void printjump int x cout 0 int 1 9 x bf x driver program int main int x 40 printjump x return 0 output 0 1 10 12 2 21 23 3 32 34 4 5 6 7 8 9 thank gaurav ahirwar solut 
+exercis chang solut use df instead bf 
+extend solut print number sort order instead order 
+extend solut print number given rang 
+see solut exercis 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

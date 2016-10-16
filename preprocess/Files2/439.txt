@@ -1,0 +1,16 @@
+discuss introduct binari tree set 1 post properti binari discuss 
+1 maximum number node level l binari tree 2l 1 
+level number node path root node includ root node 
+level root 1 prove induct 
+root l 1 number node 21 1 1 assum maximum number node level l 2l 1 sinc binari tree everi node 2 children next level would twice node e 
+2 2l 1 2 maximum number node binari tree height h 2h 1 height tree maximum number node root leaf path 
+height leaf node consid 1 result deriv point 2 
+tree maximum node level maximum node 
+maximum number node binari tree height h 1 2 4 2h 1 
+simpl geometr seri h term sum seri 2h 1 book height leaf consid 0 convent formula becom 2h 1 1 3 binari tree n node minimum possibl height minimum number level log2 n 1 directli deriv point 2 
+consid convent height leaf node consid 0 formula minimum possibl height becom log2 n 1 1 4 binari tree l leav least log2l 1 level binari tree maximum number leav level fulli fill 
+let leav level l true number leav l l 2l 1 point 1 log2l l 1 l log2l 1 5 binari tree number leaf node alway one node two children 
+l 1 l number leaf node number intern node two children see handshak lemma tree proof 
+next articl tree seri discuss differ type binari tree properti 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

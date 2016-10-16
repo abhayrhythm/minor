@@ -1,0 +1,20 @@
+
+Predict the output of following C programs.
+Question 1
+
+#include<stdio.h>
+
+#define R 10
+#define C 20
+
+int main()
+{
+   int (*p)[R][C];
+   printf("%d",  sizeof(*p));
+   getchar();
+   return 0;
+}
+
+Output: 10*20*sizeof(int) which is “800” for compilers with integer size as 4 bytes.
+The pointer p is de-referenced, hence it yields type of the object. In the present case, it is an array of array of integers. So, it prints R*C*sizeof(int).
+Thanks to Venki for suggesting this solution.

@@ -1,0 +1,13 @@
+comput size array paramet function 
+consid c program c program show wrong comput size array paramet function includ iostream use namespac std void findsiz int arr cout sizeof arr endl int main int 10 cout sizeof findsiz return 0 output 40 8 output machin size integ 4 byte size pointer 8 byte 
+cout statement insid main print 40 cout findsiz print 8 reason array alway pass pointer function e findsiz int arr findsiz int arr mean exactli thing 
+therefor cout statement insid findsiz print size pointer 
+see detail 
+find size array function 
+pass refer array 
+c program show use refer find size array includ iostream use namespac std void findsiz int arr 10 cout sizeof arr endl int main int 10 cout sizeof findsiz return 0 output 40 40 program look good hardcod size array paramet 
+better use templat c 
+c program show use templat refer find size integ array paramet includ iostream use namespac std templat size_t n void findsiz int arr n cout sizeof int n endl int main int 10 cout sizeof findsiz return 0 output 40 40 make gener function well c program show use templat refer find size type array paramet includ iostream use namespac std templat typenam size_t n void findsiz arr n cout sizeof n endl int main int 10 cout sizeof findsiz float f 20 cout sizeof f findsiz f return 0 output 40 40 80 80 next step print size dynam alloc array 
+task man 
+give hint 
+includ iostream includ cstdlib use namespac std int main int arr int malloc sizeof float 20 return 0 articl contribut swarupananda dhua pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

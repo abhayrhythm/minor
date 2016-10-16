@@ -1,0 +1,43 @@
+
+Write a one line C function that calculates and returns .  For example, if n = 64, then your function should return 6, and if n = 129, then your function should return 7. 
+Following is a solution using recursion. 
+#include<stdio.h>
+
+unsigned int Log2n(unsigned int n)
+{
+   return (n > 1)? 1 + Log2n(n/2): 0;
+}
+
+int main()
+{
+  unsigned int n = 32;
+  printf("%u", Log2n(n));
+  getchar();
+  return 0;
+}
+Let us try an extended verision of the problem. Write a one line function Logn(n ,r) which returns .  Following is the solution for the extended problem.
+#include<stdio.h>
+
+unsigned int Logn(unsigned int n, unsigned int r)
+{
+   return (n > r-1)? 1 + Logn(n/r, r): 0;
+}
+
+int main()
+{
+  unsigned int n = 256;
+  unsigned int r = 4;
+  printf("%u", Logn(n, r));
+  getchar();
+  return 0;
+}
+Please write comments if you find any of the above codes incorrect, or find other ways to solve the same problem.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

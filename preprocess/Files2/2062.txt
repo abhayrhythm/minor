@@ -1,0 +1,6 @@
+c assign oper overload self assign check 
+exampl consid follow class array overload assign oper function without self assign check 
+sampl class class array privat int ptr int size public array oper const array rh constructor function class overload assign oper class array without self assign check array array oper const array rh dealloc old memori delet ptr alloc new space ptr new int rh size copi valu size rh size int 0 size ptr rh ptr return object say a1 type array line like a1 a1 somewher program result unpredict behavior self assign check code 
+avoid issu self assign check must overload assign oper 
+exampl follow code self assign check 
+overload assign oper class array self assign check array array oper const array rh self assign check rh dealloc old memori delet ptr alloc new space ptr new int rh size copi valu size rh size int 0 size ptr rh ptr return refer http www cs caltech edu cours cs11 materi cpp donni cpp op html pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

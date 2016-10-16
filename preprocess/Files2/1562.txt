@@ -1,0 +1,25 @@
+leaf travers sequenc leav travers left right 
+problem check leaf travers two given binari tree 
+expect time complex n 
+expect auxiliari space h1 h2 h1 h2 height two binari tree 
+exampl input root binari tree 1 2 3 4 6 7 0 5 8 4 6 7 output leaf order travers tree 4 6 7 input root binari tree 0 1 2 8 9 1 4 3 8 2 9 output leaf travers two tree differ 
+first 8 9 2 second 8 2 9 strongli recommend minim browser tri first 
+simpl solut travers first tree store leav left right array 
+travers tree store leav anoth array 
+final compar two array 
+array return true 
+solut requir n extra space n node first second tree respect 
+check h1 h2 space 
+idea use iter travers 
+travers tree simultan look leaf node tree compar found leav 
+leav must match 
+algorithm 1 creat empti stack stack1 stack2 iter travers tree1 tree2 2 insert root tree1 stack1 insert root tree2 stack2 3 store current leaf node tree1 tree2 temp1 root tree1 temp2 root tree2 4 travers tree use stack stack1 stack2 parent empti mean excess leav one tree one stack empti return fals get next leaf node tree1 temp1 stack1 pop temp1 leaf node push right child stack1 push left child stack1 get next leaf node tree2 temp2 stack2 pop temp2 leaf node push right child stack2 push left child stack2 leav match return fals temp1 temp2 return fals 5 leav match return true java implement algorithm 
+java program check two leaf travers two binari tree import java util 
+import java lang 
+import java io 
+binari tree node class node int data node left right public node int x data x left right null public boolean isleaf return left null right null class leafordertravers return true leaf travers two tree els fals public static boolean issam node root1 node root2 creat empti stack 
+stack go use iter travers 
+stack node s1 new stack node stack node s2 new stack node s1 push root1 s2 push root2 loop either two stack empti s1 empti s2 empti one stack empti mean stack extra leav return fals s1 empti s2 empti return fals node temp1 s1 pop temp1 null temp1 isleaf push right left children temp1 
+note right child insert left temp1 right null s1 push temp1 
+right temp1 left null s1 push temp1 left temp1 s1 pop tree2 node temp2 s2 pop temp2 null temp2 isleaf temp2 right null s2 push temp2 right temp2 left null s2 push temp2 left temp2 s2 pop one null return fals temp1 null temp2 null return fals temp1 null temp2 null return fals null data return fals temp1 null temp2 null temp1 data temp2 data return fals control reach point leav match return true driver program test public static void main string arg let us creat tree exampl 1 node root1 new node 1 root1 left new node 2 root1 right new node 3 root1 left left new node 4 root1 right left new node 6 root1 right right new node 7 node root2 new node 0 root2 left new node 1 root2 right new node 5 root2 left right new node 4 root2 right left new node 6 root2 right right new node 7 issam root1 root2 system println els system println output articl contribut kumar gaurav 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

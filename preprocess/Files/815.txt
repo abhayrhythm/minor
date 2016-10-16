@@ -1,0 +1,44 @@
+
+INTRODUCTION 
+The main idea in creating this app is to protect user’s confidential data such as passwords, bank accno, pin no and so on. There will be a situation in that we have to transfer one of the above sensitive data to some other trusted persons. We can’t assume that our data will be kept secret as long. Someone can open that trusted person’s mobile and may look the messages. So there is vulnerability in losing our sensitive data. To avoid such situation, this app provides useful features. Users can send their sensitive data through this app. This app will encode those data into a format and send it to the respective person’s message notification. The message will be in the default messaging inbox but it will be in encoded form. Even if someone tries to open the messaging app they may not be able to read the actual data or message. To decode that message they have to see that message with the help of this app. The messages which are composed by this app are called “Magical messages”.
+MODULES IN MAGICAL HANGOUTS
+The features of this app are it uses the default messaging service of android which will be enabled by a SIM. This app allows the users to compose and read messages. This app has a unique inbox features. This app can distinguish between messages which are compose and sent by this app and from normal messaging app. This makes it to work properly while viewing messages in this app’s inbox. This application also uses the advantages of Content Provider one of the components of android which makes it to have a unique inbox. The major modules of this app are
+
+SendSMSActivity
+
+This is responsible for encoding the sensitive data and sends the encrypted message to the respective person.
+
+ReceiveSMSActivity
+
+This act as the unique inbox which will help us to decode the messages.The unique feature of this app is that it can distinguish the difference between the messages that have been composed by this app.All messages which are composed by this app will have a flag in front of it. This makes the inbox to identify the difference between normal message and magical messages. This flag will not spoil the data integrity. Data integrity can be checked by this flag.
+The overall process of this magical hangouts can be described by the below diagram
+
+ 
+Caesar Cipher  = (plaintext + shiftkey ) %26
+MY OWN KEY:
+This app uses double encryption. First encryption is a normal substitution method. To make it stronger stream cipher techniques have been used. The key used for the second encryption is a modified morse code.
+This app has been designed with the view to have a good UI. This app has self-activating encoding and decoding processes. It does not require the user to choose the encoding patterns. User can feel to use it like a normal messaging app but with great features. This also includes that the user don’t want to pick up a pattern for decoding the messages. The app itself will identify the magical messages with the help of flag set. Magical messages will have a unique flag set that starts with “011 010 “ as a preamble which makes the inbox to prepare itself for the decoding process.
+SOFTWARE TOOLS REQUIRED
+
+ANDROID-STUDIO IDE (1.0.2)
+SDK having API level -21(minversion)
+JAVA 7 and above
+For testing in real hardware
+
+
+An android smart phone – version 4.2.2(Jelly bean and above)
+
+
+51-android rules for debugging purposes
+
+This idea is contributed by Sowmya.L.R. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

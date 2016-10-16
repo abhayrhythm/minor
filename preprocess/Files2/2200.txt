@@ -1,0 +1,16 @@
+write program add one given number 
+allow use oper like etc 
+exampl input 12 output 13 input 6 output 7 ye guess right use bitwis oper achiev 
+follow differ method achiev use bitwis oper 
+method 1 add 1 number x say 0011000111 need flip bit rightmost 0 bit get 0011000000 
+final flip rightmost 0 bit also get 0011001000 done 
+includ stdio h int addon int x int 1 flip set bit find 0 x x x 1 flip rightmost 0 bit x x return x driver program test function int main printf addon 13 getchar return 0 method 2 know neg number repres 2 complement form architectur 
+follow lemma hold 2 complement represent sign number 
+say x numer valu number x x 1 bitwis complement x 1 due addit 1 2 complement convers get x 1 appli negat 
+final express becom x 
+int addon int x return x driver program test function int main printf addon 13 getchar return 0 exampl assum machin word length one nibbl simplic 
+x 2 0010 x 2 1101 13 numer x 1101 interpret bit 1101 2 complement form yield numer valu 2 4 13 3 appli result leav 3 analog hold decrement 
+see comment implement decrement 
+note method work number store 2 complement form 
+thank venki suggest method 
+pleas write comment find code algorithm incorrect find better way solv problem adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

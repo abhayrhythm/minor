@@ -1,0 +1,36 @@
+find largest rectangular area possibl given histogram largest rectangl made number contigu bar 
+simplic assum bar width width 1 unit 
+exampl consid follow histogram 7 bar height 6 2 5 4 5 2 6 
+largest possibl rectangl possibl 12 see figur max area rectangl highlight red strongli recommend click practic move solut 
+discuss divid conquer base nlogn solut problem 
+post n time solut discuss 
+like previou post width bar assum 1 simplic 
+everi bar x calcul area x smallest bar rectangl 
+calcul area everi bar x find maximum area task done 
+calcul area x smallest bar 
+need know index first smaller smaller x bar left x index first smaller bar right x 
+let us call index left index right index respect 
+travers bar left right maintain stack bar 
+everi bar push stack 
+bar pop stack bar smaller height seen 
+bar pop calcul area pop bar smallest bar 
+get left right index pop bar current index tell us right index index previou item stack left index 
+follow complet algorithm 
+1 creat empti stack 
+2 start first bar follow everi bar hist vari 0 n 1 
+stack empti hist higher bar top stack push stack 
+b bar smaller top stack keep remov top stack top stack greater 
+let remov bar hist tp 
+calcul area rectangl hist tp smallest bar 
+hist tp left index previou previou tp item stack right index current index 
+3 stack empti one one remov bar stack step 2 b everi remov bar 
+follow c implement algorithm 
+c program find maximum rectangular area linear time includ iostream includ stack use namespac std main function find maximum rectangular area given histogram n bar int getmaxarea int hist int n creat empti stack 
+stack hold index hist array bar store stack alway increas order height 
+stack int int max_area 0 init max area int tp store top stack int area_with_top store area top bar smallest bar run bar given histogram int 0 n bar higher bar top stack push stack empti hist top hist push bar lower top stack calcul area rectangl stack top smallest minimum height bar 
+right index top element top stack left index els tp top store top index pop pop top calcul area hist tp stack smallest bar area_with_top hist tp empti 
+top 1 updat max area need max_area area_with_top max_area area_with_top pop remain bar stack calcul area everi pop bar smallest bar empti fals tp top pop area_with_top hist tp empti 
+top 1 max_area area_with_top max_area area_with_top return max_area driver program test function int main int hist 6 2 5 4 5 1 6 int n sizeof hist sizeof hist 0 cout maximum area getmaxarea hist n return 0 output maximum area 12 time complex sinc everi bar push pop time complex method n 
+refer http www informatik uni ulm de acm local 2003 html histogram html http www informatik uni ulm de acm local 2003 html judg html thank ashish anand suggest initi solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

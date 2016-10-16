@@ -1,0 +1,21 @@
+round 1 q 1 given array os 0s 1s anoth input suppos tell longest continu streak 1s flip 0s 1s 
+e g array 1 1 0 0 1 1 1 0 1 1 1 mean flip one 0 1 answer 6 flip 0 index 7 get longest continu streak 1s length 6 q 2 given n rope length l1 l2 l3 l4 ln 
+join everi rope get final rope length l1 l2 ln 
+howev join two rope time cost join two rope l1 l2 
+suppos join rope way cost minimum 
+round 2 q 3 given bst need serial deseri 
+essenti boil gener travers string get bst back travers 
+q 4 two link list 
+link list singl digit number node 
+need treat link list number add store digit new link list 
+e g head 5 6 7 9 head 2 1 1 result link list head 5 8 9 0 5679 211 5890 round 3 hire manag round q 5 project discuss detail 
+challeng problem solv disagr manag fix etc 
+q 6 given array 2 4 6 0 1 8 1 element repres height tower locat index 
+suppos tell much maximum water accumul valley rain 
+round 4 q 7 given encod rule 0 b 1 c 2 k 10 z 25 suppos get number origin string possibl given encod input 
+e g given input 10 two possibl origin string possibl ba k answer 2 q 8 given two tree find second tree subtre first one 
+e g tree 1 b c e f g tree 2 b e g answer ye b subtre tree 2 b e answer tree 2 subtre tree round 5 engin manag round q 8 engin manag round behavior want leav compani one challeng problem overcom biggest failur etc 
+etc 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

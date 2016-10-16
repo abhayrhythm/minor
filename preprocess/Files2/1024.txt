@@ -1,0 +1,4 @@
+predict output program question 1 int main int 0 4 printf 3 goto inside_foo getchar return 0 void foo inside_foo printf pp output compil error label inside_foo use defin 
+explan scope label within function 
+cannot goto label function 
+question 2 

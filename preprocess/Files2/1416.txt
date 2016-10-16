@@ -1,0 +1,16 @@
+given doubl link list one pointer node point next node like singl link list 
+second pointer howev point node list previou node 
+write program n time duplic list 
+write program creat copi list 
+let us call second pointer arbit pointer point arbitrari node link list 
+arbitrari pointer shown red next pointer black figur 1 method 1 use n extra space method store next arbitrari map origin list array first modifi origin link list creat copi creat copi 
+final restor origin list 
+1 creat node copi link list use next pointer 
+3 store node next pointer map origin link list 
+3 chang next pointer node origin link list point correspond node copi link list 
+follow diagram show statu link list 3 step 
+red arrow show arbit pointer black arrow show next pointer 
+figur 2 4 chang arbit pointer node copi link list point correspond node origin link list 
+5 construct arbit pointer copi link list restor next pointer node origin link list 
+copy_list_nod arbit copy_list_nod arbit arbit next copy_list_nod copy_list_nod next 6 restor next pointer origin link list store map step 2 
+time complex n auxiliari space n 

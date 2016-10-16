@@ -1,0 +1,27 @@
+imag situat want use print long long string c c 
+c c break string point middl use two doubl quot middl 
+simpl exampl demonstr 
+includ stdio h int main put two doubl quot anywher string char str1 geek quiz put space line break two doubl quot char str2 qeek quiz char str3 qeek quiz put str1 put str2 put str3 put geek break string multipl line forgeek return 0 output geeksquiz geeksquiz geeksquiz geeksforgeek exampl long long string broken use two doubl quot better readabl 
+includ stdio h int main char str reserv word c languag int float els etc 
+identifi sequenc letter digit must start letter 
+underscor _ treat letter 
+identifi case sensit 
+identifi use name variabl function etc 
+put str return 0 output reserv word c languag int float els etc 
+identifi sequenc oflett digit must start letter 
+underscor _ treat letter 
+identifi case sensit 
+identifi use name variabl function etc 
+similarli write long string printf cout 
+includ stdio h int main char str identifi sequenc letter digit must start letter 
+underscor _ treat letter 
+identifi case sensit 
+identifi use name variabl function etc 
+printf reserv word c languag int float els etc 
+str return 0 output reserv word c languag int float els etc 
+identifi sequenc oflett digit must start letter 
+underscor _ treat letter 
+identifi case sensit 
+identifi use name variabl function etc 
+articl contribut ayush jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

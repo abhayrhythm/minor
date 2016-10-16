@@ -1,0 +1,16 @@
+anxiou anyth everyth prayer petit thanksgiv present request god 
+philippian 4 6 bibl destructor pure virtual c 
+ye possibl pure virtual destructor 
+pure virtual destructor legal standard c one import thing class contain pure virtual destructor must provid function bodi pure virtual destructor 
+seem strang virtual function pure requir function bodi 
+destructor alway call revers order class deriv 
+mean deriv class destructor invok first base class destructor call 
+definit pure virtual destructor provid function bodi call object destruct 
+therefor compil linker enforc exist function bodi pure virtual destructor 
+consid follow program includ iostream class base public virtual base 0 pure virtual destructor class deriv public base public deriv std cout deriv execut int main base b new deriv delet b return 0 linker produc follow error program 
+test cpp text _zn7derivedd1ev __zn7derivedd1ev 0x4c undefin refer base base definit pure virtual destructor provid program compil run fine 
+includ iostream class base public virtual base 0 pure virtual destructor base base std cout pure virtual destructor call class deriv public base public deriv std cout deriv execut n int main base b new deriv delet b return 0 output deriv execut pure virtual destructor call import note class becom abstract class contain pure virtual destructor 
+exampl tri compil program 
+includ iostream class test public virtual test 0 test becom abstract class test test int main test p test t1 new test return 0 program fail compil show follow error messag 
+error cannot declar variabl p abstract type test note follow virtual function pure within test note virtual test test error cannot alloc object abstract type test note sinc type test pure virtual function sourc http www bogotobogo com cplusplu virtualfunct php http www open std org jtc1 sc22 wg21 doc paper 2005 n1905 pdf articl contribut meet pravasi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

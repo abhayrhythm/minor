@@ -1,0 +1,18 @@
+given array number x find pair product equal x exampl input arr 10 20 9 40 int x 400 output ye input arr 10 20 9 40 int x 190 output input arr 10 20 9 40 int x 400 output ye input arr 10 20 9 40 int x 400 output ye input arr 0 20 9 40 int x 0 output ye naiv approach n2 run two loop consid possibl pair 
+everi pair check product equal x 
+simpl c program find pair given product 
+includ bit stdc h use namespac std return true pair arr 0 n 1 product equal x bool isproduct int arr int n int x consid possibl pair check everi pair 
+int 0 n 1 int j 1 n arr arr j x return true return fals driver code int main int arr 10 20 9 40 int x 400 int n sizeof arr sizeof arr 0 isproduct arr n x 
+cout ye n cout n x 190 isproduct arr n x 
+cout ye n cout n return 0 output ye effici solut n improv time complex n use hash 
+step 
+creat empti hash tabl travers array elment follow everi element arr 
+arr 0 x also 0 return true els ignor arr 
+x arr 0 x arr exist tabl return true 
+insert arr hash tabl 
+return fals c implement idea 
+c program find pair given product 
+includ bit stdc h use namespac std return true pair arr 0 n 1 product equal x bool isproduct int arr int n int x n 2 return fals creat empti set insert first element unordered_set int travers remain element int 0 n 0 case must handl explicitli x 0 undefin behaviour c arr 0 x 0 return true els continu x arr exist hash found pair x arr 0 find x arr end return true insert arr insert arr return fals driver code int main int arr 10 20 9 40 int x 400 int n sizeof arr sizeof arr 0 isproduct arr n x 
+cout ye n cout n x 190 isproduct arr n x 
+cout ye n cout n return 0 output ye next set discuss approach print pair product equal 0 articl contribut shubham goyal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,4 @@
+use result comma oper l valu valid c c result comma oper use l valu right operand comma oper l valu 
+exampl compil follow program c program work print b 30 compil program c program give warn error compil warn dev c error code block 
+includ stdio h int main int 10 b 20 b 30 sinc b l valu statement valid c c printf b b getchar return 0 c output b 30 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

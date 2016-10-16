@@ -1,0 +1,96 @@
+
+Given an array of n distinct elements. Find the maximum of product of Minimum of two numbers in the array and absolute difference of their positions, i.e., find maximum value of abs(i – j) * min(arr[i], arr[j]) where i and j vary from 0 to n-1.
+
+Input : arr[] = {3, 2, 1, 4}
+Output: 9
+// arr[0] = 3 and arr[3] = 4 minimum of them is 3 and 
+// absolute difference between their position is 
+// abs(0-3) = 3. So product is 3*3 = 9
+
+Input : arr[] = {8, 1, 9, 4}
+Output: 16
+// arr[0] = 8 and arr[2] = 9 minimum of them is 8 and 
+// absolute difference between their position is 
+// abs(0-2) = 2. So product is 8*2 = 16 
+
+
+
+A simple solution for this problem is to take each element one by one and compare this element with the elements on right of it. Then calculate product of minimum of them and absolute difference between their indexes and maximize the result. Time complexity for this approach is O(n^2).
+An efficient solution to solves the problem in linear time complexity. We take two iterators Left=0 and Right=n-1, compare elements arr[Left] and arr[right]. 
+
+left = 0, right = n-1
+maxProduct = -INF
+While (left < right)
+    If arr[Left] < arr[right] 
+        currProduct = arr[Left]*(right-Left) 
+        Left++ . 
+    If arr[right] < arr[Left] 
+        currProduct = arr[Right]*(Right-Left) 
+        Right-- . 
+  
+    maxProduct = max(maxProduct, currProduct)
+
+Below is C++ implementation of above idea.
+
+// C++ implementation of code
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function to calculate maximum value of 
+// abs(i - j) * min(arr[i], arr[j]) in arr[]
+int Maximum_Product(int arr[], int n)
+{
+    int maxProduct = INT_MIN; // Initialize result
+    int currProduct; // product of current pair
+
+    // loop  until they meet with each other
+    int Left = 0, right = n-1;
+    while (Left < right)
+    {
+        if (arr[Left] < arr[right])
+        {
+            currProduct = arr[Left]*(right-Left);
+            Left++;
+        }
+        else // arr[right] is smaller
+        {
+            currProduct = arr[right]*(right-Left);
+            right--;
+        }
+
+        // maximizing the product
+        maxProduct = max(maxProduct, currProduct)
+    }
+
+    return maxProduct;
+}
+
+// Driver program to test the case
+int main()
+{
+    int arr[] = {8, 1, 9, 4};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    cout << Maximum_Product(arr,n);
+    return 0;
+}
+
+Output:
+
+ 16
+
+How does this work?
+The important thing to show that we don't miss any potential pair in above linear algorithm, i.e., we need to show that doing left++ or right-- doesn't lead to a case where we would have got higher value of maxProduct.
+Please note that we always multiply with (right - left).  
+1) If arr[left] < arr[right], then smaller values of right for current left are useless as they can not produce higher value of maxProduct (because we multiply with arr[left] with (right - left)). What if arr[left] was greater than any of the elements on its left side. In that case, a better pair for that element must have been found with current right.  Therefore we can safely increase left without missing any better pair with current left.
+2) Similar arguments are applicable when arr[right] < arr[left].
+This article is contributed by Shashank Mishra ( Gullu ). If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

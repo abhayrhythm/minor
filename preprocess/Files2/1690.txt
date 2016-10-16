@@ -1,0 +1,7 @@
+given binari tree write function return size largest subtre also binari search tree bst 
+complet binari tree bst return size whole tree 
+exampl input 5 2 4 1 3 output 3 follow subtre maximum size bst subtre 2 1 3 input 50 30 60 5 20 45 70 65 80 output 5 follow subtre maximum size bst subtre 60 45 70 65 80 method 1 simpl ineffici start root inord travers tree 
+node n check whether subtre root n bst 
+bst return size subtre root n els recur left right subtre return maximum valu return left right subtre 
+see http www geeksforgeek org archiv 632 implement size see method 3 http www geeksforgeek org archiv 3042 implement isbst max return maximum two integ int largestbst struct node root isbst root return size root els return max largestbst root left largestbst root right time complex worst case time complex method n 2 
+consid skew tree worst case analysi 

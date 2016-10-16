@@ -1,0 +1,210 @@
+
+We have introduced Combinatorial Game Theory in Set 1 and discussed Game of Nim in  Set 2.
+Grundy Number is a number that defines a state of a game. We can define any impartial game in terms of Grundy Number.
+Grundy Numbers or Nimbers determine how any Impartial Game (not only the Game of Nim) can be solved once we have calculated the Grundy Numbers associated with that game using Sprague-Grundy Theorem.
+But before calculating Grundy Numbers, we need to learn about another term- Mex.
+What is Mex?
+‘Minimum excludant’ a.k.a ‘Mex’ of a set of numbers is the smallest non-negative number not present in the set.
+
+How to calculate Grundy Numbers?
+We use this definition- The Grundy Number/ nimber is equal to 0 for a game that is lost immediately by the first player, and is equal to Mex of the nimbers of all possible next positions for any other game.
+Below are three example games and programs to calculate Grundy Number and Mex for each of them. Calculation of Grundy Numbers is done basically by a recursive function called as calculateGrundy() function which uses calculateMex() function as its sub-routine.
+Example 1
+The game starts with a pile of n stones, and the player to move may take any positive number of stones. Calculate the Grundy Numbers for this game. The last player to move wins. Which player wins the game?
+Since if the first player has 0 stones, he will lose immediately, so Grundy(0) = 0
+If a player has 1 stones, then he can take all the stones and win. So the next possible position of the game (for the other player) is (0) stones
+Hence, Grundy(1) = Mex(0) = 1 [According to the definition of Mex]
+Similarly, If a player has 2 stones, then he can take only 1 stone or he can take all the stones and wins. So the next possible position of the game (for the other player) is (1, 0) stones respectively.
+Hence, Grundy(2) = Mex(0, 1) = 2 [According to the definition of Mex]
+Similarly, If a player has ‘n’ stones, then he can take only 1 stone, or he can take 2 stones…….. or he can take all the stones and win. So the next possible position of the game (for the other player) is (n-1, n-2,….1) stones respectively.
+Hence, Grundy(n) = Mex (0, 1, 2, ….n-1) = n [According to the definition of Mex]
+We summarize the first the Grundy Value from 0 to 10 in the below table-
+
+
+/* A recursive C++ program to find Grundy Number for
+   a game which is like a one-pile version of Nim.
+  Game Description : The game starts with a pile of n stones,
+  and the player to move may take any positive number of
+  stones. The last player to move wins. Which player wins
+  the game? */
+#include<bits/stdc++.h>
+using namespace std;
+
+// A Function to calculate Mex of all the values in
+// that set.
+int calculateMex(unordered_set<int> Set)
+{
+    int Mex = 0;
+
+    while (Set.find(Mex) != Set.end())
+        Mex++;
+
+    return (Mex);
+}
+
+// A function to Compute Grundy Number of 'n'
+// Only this function varies according to the game
+int calculateGrundy(int n)
+{
+    if (n == 0)
+        return (0);
+
+    unordered_set<int> Set; // A Hash Table
+
+    for (int i=0; i<=n-1; i++)
+            Set.insert(calculateGrundy(i));
+
+    return (calculateMex(Set));
+}
+
+// Driver program to test above functions
+int main()
+{
+    int n = 10;
+    printf("%d", calculateGrundy(n));
+    return (0);
+}
+
+Output :
+10
+The above solution can be optimized using Dynamic Programming as there are overlapping subproblems.  The Dynamic programming based implementation can be found here.
+ 
+Example 2
+The game starts with a pile of n stones, and the player to move may take any positive number of stones upto 3 only. The last player to move wins. Which player wins the game? This game is 1 pile version of Nim.
+Since if the first player has 0 stones, he will lose immediately, so Grundy(0) = 0
+If a player has 1 stones, then he can take all the stones and win. So the next possible position of the game (for the other player) is (0) stones
+Hence, Grundy(1) = Mex(0) = 1 [According to the definition of Mex]
+Similarly, if a player has 2 stones, then he can take only 1 stone or he can take 2 stones and win. So the next possible position of the game (for the other player) is (1, 0) stones respectively.
+Hence, Grundy(2) = Mex(0, 1) = 2 [According to the definition of Mex]
+Similarly, Grundy(3) = Mex(0, 1, 2) = 3 [According to the definition of Mex]
+But what about 4 stones ?
+If a player has 4 stones, then he can take 1 stone or he can take 2 stones or 3 stones, but he can’t take 4 stones (see the constraints of the game). So the next possible position of the game (for the other player) is (3, 2, 1) stones respectively.
+Hence, Grundy(4) = Mex (1, 2, 3) = 0 [According to the definition of Mex]
+So we can define Grundy Number of any n >= 4 recursively as-
+Grundy(n) = Mex[Grundy (n-1), Grundy (n-2), Grundy (n-3)]
+We summarize the first the Grundy Value from 0 to 10 in the below table-
+
+
+/* A recursive C++ program to find Grundy Number for
+   a game which is one-pile version of Nim.
+  Game Description : The game starts with a pile of
+  n stones, and the player to move may take any
+  positive number of stones upto 3 only.
+  The last player to move wins. */
+#include<bits/stdc++.h>
+using namespace std;
+
+// A Function to calculate Mex of all the values in
+// that set.
+int calculateMex(unordered_set<int> Set)
+{
+    int Mex = 0;
+
+    while (Set.find(Mex) != Set.end())
+        Mex++;
+
+    return (Mex);
+}
+
+// A function to Compute Grundy Number of 'n'
+// Only this function varies according to the game
+int calculateGrundy(int n)
+{
+    if (n == 0)
+        return (0);
+    if (n == 1)
+        return (1);
+    if (n == 2)
+        return (2);
+    if (n == 3)
+        return (3);
+
+    unordered_set<int> Set; // A Hash Table
+
+    for (int i=1; i<=3; i++)
+            Set.insert(calculateGrundy(n - i));
+
+    return (calculateMex(Set));
+}
+
+// Driver program to test above functions
+int main()
+{
+    int n = 10;
+    printf("%d", calculateGrundy(n));
+    return (0);
+}
+
+Output :
+2
+The above solution can be optimized using Dynamic Programming as there are overlapping subproblems.  The Dynamic programming based implementation can be found here.
+ 
+Example 3
+The game starts with a number- ‘n’ and the player to move divides the number- ‘n’ with 2, 3 or 6 and then takes the floor. If the integer becomes 0, it is removed. The last player to move wins. Which player wins the game?
+We summarize the first the Grundy Value from 0 to 10 in the below table:
+
+Think how we generated this table.
+
+/* A recursive C++ program to find Grundy Number for
+   a game.
+ Game Description :  The game starts with a number- 'n'
+ and the player to move divides the number- 'n' with 2, 3
+ or 6 and then takes the floor. If the integer becomes 0,
+ it is removed. The last player to move wins.  */
+#include<bits/stdc++.h>
+using namespace std;
+
+// A Function to calculate Mex of all the values in
+// that set.
+int calculateMex(unordered_set<int> Set)
+{
+    int Mex = 0;
+
+    while (Set.find(Mex) != Set.end())
+        Mex++;
+
+    return (Mex);
+}
+
+// A function to Compute Grundy Number of 'n'
+// Only this function varies according to the game
+int calculateGrundy (int n)
+{
+    if (n == 0)
+        return (0);
+
+    unordered_set<int> Set; // A Hash Table
+
+    Set.insert(calculateGrundy(n/2));
+    Set.insert(calculateGrundy(n/3));
+    Set.insert(calculateGrundy(n/6));
+
+    return (calculateMex(Set));
+}
+
+// Driver program to test above functions
+int main()
+{
+    int n = 10;
+    printf("%d", calculateGrundy (n));
+    return (0);
+}
+
+Output :
+0
+The above solution can be optimized using Dynamic Programming as there are overlapping subproblems.  The Dynamic programming based implementation can be found here.
+References-
+https://en.wikipedia.org/wiki/Mex_(mathematics)
+https://en.wikipedia.org/wiki/Nimber
+In the next post, we will be discussing solutions of Impartial Games using Grundy Numbers or Nimbers.
+This article is contributed by Rachit Belwariar. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

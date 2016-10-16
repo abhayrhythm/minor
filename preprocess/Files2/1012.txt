@@ -1,0 +1,10 @@
+follow question ask gate cs exam 
+1 c languag gate cs 2002 one activ record exist current activ record activ record main b number activ record current activ record activ record main depend actual function call sequenc 
+c visibl global variabl depend actual function call sequenc 
+recurs requir activ record recurs function save differ stack recurs function call 
+answer b restrict c languag b true c fals 
+c variabl static scope dynam 
+c fals 
+activ record store stack 
+2 consid c program shown 
+includ stdio h defin print x printf x int x void q int z z x print z void p int int x 2 q x x 1 print x main void x 5 p x print x getchar output program gate cs 2003 1276 b 22 12 11 c 14 6 6 766 answer note main q access global variabl x insid p pointer variabl also hold address global variabl x x p p local variabl 

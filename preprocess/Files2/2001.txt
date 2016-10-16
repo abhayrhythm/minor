@@ -1,0 +1,14 @@
+predict output follow program 
+includ iostream use namespac std class empti int main cout sizeof empti return 0 output 1 size empti class zero 
+1 byte gener 
+nonzero ensur two differ object differ address 
+see follow exampl 
+includ iostream use namespac std class empti int main empti b b cout imposs endl els cout fine endl return 0 output fine reason differ object differ address new alway return pointer distinct object 
+see follow exampl 
+includ iostream use namespac std class empti int main empti p1 new empti empti p2 new empti p1 p2 cout imposs endl els cout fine endl return 0 output fine guess output follow program tricki includ iostream use namespac std class empti class deriv empti int int main cout sizeof deriv return 0 output gcc compil 
+see 4 note output greater 4 interest rule say empti base class need repres separ byte 
+compil free make optim case empti base class 
+excercis tri follow program compil 
+thank venki suggest code 
+includ iostream use namespac std class empti class derived1 public empti class derived2 virtual public empti class derived3 public empti char c class derived4 virtual public empti char c class dummi char c int main cout sizeof empti sizeof empti endl cout sizeof derived1 sizeof derived1 endl cout sizeof derived2 sizeof derived2 endl cout sizeof derived3 sizeof derived3 endl cout sizeof derived4 sizeof derived4 endl cout sizeof dummi sizeof dummi endl return 0 sourc http www2 research att com bs bs_faq2 html pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

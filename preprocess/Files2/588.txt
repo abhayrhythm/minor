@@ -1,0 +1,6 @@
+given 2d array print spiral form 
+see follow exampl 
+input 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 output 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 input 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 output 1 2 3 4 5 6 12 18 17 16 15 14 13 7 8 9 10 11 strongli recommend click practic move solut 
+solut code adopt solut given http effprog blogspot com 2011 01 spiral print two dimension html includ stdio h defin r 3 defin c 6 void spiralprint int int n int r c int k 0 l 0 k start row index end row index l start column index n end column index iter k l n print first row remain row l n printf k k print last column remain column k printf n 1 n print last row remain row k n 1 l printf 1 print first column remain column l n 1 k printf l l driver program test function int main int r c 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 spiralprint r c return 0 output 1 2 3 4 5 6 12 18 17 16 15 14 13 7 8 9 10 11 time complex time complex solut mn 
+pleas write comment find code incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

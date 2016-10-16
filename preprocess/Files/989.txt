@@ -1,0 +1,40 @@
+
+Find the length of a string without using any loops and string.h in C. Your program is supposed to behave in following way: 
+Enter a string: GeeksforGeeks (Say user enters GeeksforGeeks)
+Entered string is: GeeksforGeeks
+Length is: 13
+You may assume that the length of entered string is always less than 100.
+The following is solution.
+
+#include <stdio.h>
+
+int main()
+{
+     char str[100];
+     printf("Enter a string: ");
+     printf( "\rLength is: %d",
+              printf("Entered string is: %s\n", gets(str)) - 20
+           );
+
+     return 0;
+}
+
+Output:
+
+Enter a string: GeeksforGeeks
+Entered string is: GeeksforGeeks
+Length is: 13
+The idea is to use return values of printf() and gets().
+gets() returns the enereed string.
+printf() returns the number of characters successfully written on output.
+In the above program, gets() returns the entered string. We print the length using the first printf. The second printf() calls gets() and prints the entered string using returned value of gets(), it also prints 20 extra characters for printing “Entered string is: ” and “\n”.  That is why we subtract 20 from the returned value of second printf and get the length. 
+This article is contributed by Umesh Sharma. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

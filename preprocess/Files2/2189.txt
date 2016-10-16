@@ -1,0 +1,8 @@
+write program print binari represent given number 
+sourc microsoft interview set 3 method 1 iter number check whether th bit 0 1 bitwis and 2 2 rais 
+1 let us take number num want check whether 0th bit bit 2 0 0th bit num bit 1 mean 0th bit els 0th bit 2 similarli want check whether 5th bit bit 2 5 5th bit num bit 1 mean 5th bit els 5th bit 
+let us take unsign integ 32 bit consist 0 31 bit 
+print binari represent unsign integ start 31th bit check whether 31th bit print 1 els print 0 
+check whether 30th bit print 1 els print 0 bit 31 0 final get binari represent number 
+void bin unsign n unsign 1 31 0 2 n 
+printf 1 printf 0 int main void bin 7 printf n bin 4 

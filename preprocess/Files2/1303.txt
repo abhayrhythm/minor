@@ -1,0 +1,34 @@
+given charact matrix everi cell one follow valu 
+c cell coin cell block cell 
+go anywher 
+e cell empti 
+get coin move 
+initi posit cell 0 0 initi direct right 
+follow rule movement across cell 
+face right move cell move one step ahead e cell j 1 direct remain right 
+move one step face left e cell 1 j direct becom left 
+face left move cell move one step ahead e cell j 1 direct remain left 
+move one step face right e cell 1 j direct becom right 
+final posit anywher final direct also anyth 
+target collect maximum coin 
+exampl strongli recommend minim browser tri first 
+problem recurs defin maxcoin j maximum number coin collect begin cell j direct either 0 left 1 right block cell return 0 isvalid check j valid row column index 
+arr j isvalid j fals return 0 initi result arr j c result 1 els result 0 0 left direct return result max maxcoin 1 j 1 maxcoin j 1 0 ahead left 1 right direct return result max maxcoin 1 j 1 maxcoin j 1 0 ahead right c implement recurs algorithm 
+naiv recurs c program find maximum number coin collect hit dead end includ bit stdc h use namespac std defin r 5 defin c 5 check whether current cell grid bool isvalid int int j return 0 r j 0 j c dir 0 left dir 1 face right 
+function return number maximum coin collect start j 
+int maxcoinsrec char arr r c int int j int dir invalid cell cell block cell isvalid j fals arr j return 0 check cell contain coin c empti e 
+int result arr j c 
+1 0 get maximum two case face right cell dir 1 direct right return result max maxcoinsrec arr 1 j 0 maxcoinsrec arr j 1 1 ahead right direct left get maximum two case face left cell return result max maxcoinsrec arr 1 j 1 maxcoinsrec arr j 1 0 ahead left driver program test function int main char arr r c e c c c c c c e c c c c e e c e c e c e per question initi cell 0 0 direct right cout maximum number collect coin maxcoinsrec arr 0 0 1 return 0 output maximum number collect coin 8 time complex solut recurs exponenti 
+solv problem polynomi time use dynam program 
+idea use 3 dimension tabl dp r c k r number row c number column direct 
+dynam program base c implement 
+dynam program base c program find maximum number coin collect hit dead end includ bit stdc h use namespac std defin r 5 defin c 5 check whether current cell grid bool isvalid int int j return 0 r j 0 j c dir 0 left dir 1 right 
+function return number maximum coin collect start j 
+int maxcoinsutil char arr r c int int j int dir int dp r c 2 invalid cell cell block cell isvalid j fals arr j return 0 subproblem alreadi solv return alreadi evalu answer 
+dp j dir 1 return dp j dir check cell contain coin c e 
+dp j dir arr j c 
+1 0 get maximum two case face right cell dir 1 direct right dp j dir max maxcoinsutil arr 1 j 0 dp maxcoinsutil arr j 1 1 dp ahead rught get maximum two case face left cell dir 0 direct left dp j dir max maxcoinsutil arr 1 j 1 dp maxcoinsutil arr j 1 0 dp ahead left return answer return dp j dir function mainli creat lookup tabl call maxcoinsutil int maxcoin char arr r c creat lookup tabl initi valu 1 int dp r c 2 memset dp 1 sizeof dp per question initi cell 0 0 direct right return maxcoinsutil arr 0 0 1 dp driver program test function int main char arr r c e c c c c c c e c c c c e e c e c e c e cout maximum number collect coin maxcoin arr return 0 output maximum number collect coin 8 time complex solut r x c x 
+sinc 2 time complex written r x c 
+thank gaurav ahirwar suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

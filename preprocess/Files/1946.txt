@@ -1,0 +1,15 @@
+
+Although C++ is designed to have backward compatibility with C there can be many C programs that would produce compiler error when compiled with a C++ compiler. Following are some of them.
+1) In C++, it is a compiler error to call a function before it is declared.  But in C, it may compile (See http://www.geeksforgeeks.org/g-fact-95/)
+
+#include<stdio.h>
+int main()
+{
+   foo(); // foo() is called before its declaration/definition
+} 
+
+int foo()
+{
+   printf("Hello");
+   return 0; 
+}

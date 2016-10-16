@@ -1,0 +1,26 @@
+c program line start process preprocessor special program invok compil 
+basic term preprocessor take c program produc anoth c program without 
+follow interest fact preprocessor c 1 use includ direct content includ header file preprocess copi current file 
+angular bracket instruct preprocessor look standard folder header file held 
+doubl quot instruct preprocessor look current folder file present current folder standard folder header file 
+2 use defin constant preprocessor produc c program defin constant search match token replac given express 
+exampl follow program max defin 100 
+includ stdio h defin max 100 int main printf max max return 0 output max 100 note max insid replac 3 macro take function like argument argument check data type 
+exampl follow macro increment x use x data type 
+includ stdio h defin increment x x int main char ptr geeksquiz int x 10 printf increment ptr printf increment x return 0 output eeksquiz 11 4 macro argument evalu macro expans 
+exampl consid follow program includ stdio h defin multipli b b int main macro expend 2 3 3 5 5 8 printf multipli 2 3 3 5 return 0 output 16 5 token pass macro concaten use oper call token past oper 
+includ stdio h defin merg b b int main printf merg 12 34 output 1234 6 token pass macro convert sting liter use 
+includ stdio h defin get int main geeksquiz chang geeksquiz printf get geeksquiz output geeksquiz 7 macro written multipl line use 
+last line need 
+includ stdio h defin print limit limit printf geeksquiz int main int 0 print 3 return 0 output geeksquiz geeksquiz geeksquiz 8 macro argument avoid caus problem sometim 
+inlin function prefer type check paramet evalu inlin function 
+c99 onward inlin function support c languag also 
+exampl consid follow program 
+first look output seem 1 produc 36 output 
+defin squar x x x int main int x 36 squar 6 expend 36 6 6 printf x return 0 output 36 use inlin function get expect output 
+also program given point 4 correct use inlin function 
+inlin int squar int x return x x int main int x 36 squar 6 printf x return 0 output 1 9 preprocessor also support els direct typic use condit compil 
+int main verbos 2 printf trace messag endif 10 header file may includ one time directli indirectli lead problem redeclar variabl function 
+avoid problem direct like defin ifdef ifndef use 
+11 standard macro use print program file __file__ date compil __date__ time compil __time__ line number c code __line__ includ stdio h int main printf current file n __file__ printf current date n __date__ printf current time n __time__ printf line number n __line__ return 0 output current file c user gfg download deletebst c current date feb 15 2014 current time 07 04 25 line number 8 may like take quiz macro preprocessor c pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

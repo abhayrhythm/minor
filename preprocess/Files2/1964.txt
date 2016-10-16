@@ -1,0 +1,9 @@
+discuss assign oper overload dynam alloc resourc 
+extens previou post 
+previou post discuss write assign oper compil creat assign oper shallow copi caus problem 
+happen refer class user defin assign oper 
+exampl predict output follow program 
+includ iostream use namespac std class test int x int ref public test int x ref x void print cout ref void setx int x int main test t1 10 test t2 20 t2 t1 t1 setx 40 t2 print return 0 output compil error non static refer member int test ref use default assign oper compil creat default assign oper follow case 1 class nonstat data member const type refer type 2 class nonstat data member type inaccess copi assign oper 3 class deriv base class inaccess copi assign oper condit true user must defin assign oper 
+exampl add assign oper code code work fine without error 
+includ iostream use namespac std class test int x int ref public test int x ref x void print cout ref void setx int x test oper const test x x return int main test t1 10 test t2 20 t2 t1 t1 setx 40 t2 print return 0 output 10 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

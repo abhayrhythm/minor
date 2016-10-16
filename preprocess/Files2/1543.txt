@@ -1,0 +1,11 @@
+given binari tree find densiti one travers 
+densiti binari tree size height exampl input root follow tree 10 20 30 output 1 5 height given tree 2 size given tree 3 input root follow tree 10 20 30 output 1 height given tree 3 size given tree 3 densiti binari tree indic balanc binari tree 
+exampl densiti skew tree minimum perfect tree maximum 
+strongli recommend minim browser tri first 
+two travers base approach simpl 
+first find height use one travers find size use anoth travers 
+final return ratio two valu 
+one travers comput size binari tree find height 
+c implement 
+c c program find densiti binari tree includ stdio h includ stdlib h binari tree node struct node int data node left right helper function alloc new node node newnod int data node node new node node data data node left node right null return node function comput height size binari tree int heighands node node int size node null return 0 comput height subtre int l heighands node left size int r heighands node right size increas size 1 size return larger two return l r 
+l 1 r 1 function calcul densiti binari tree float densiti node root root null return 0 int size 0 store size find height size int _height heighands root size return float size _height driver code test method int main node root newnod 1 root left newnod 2 root right newnod 3 printf densiti given binari tree f densiti root return 0 

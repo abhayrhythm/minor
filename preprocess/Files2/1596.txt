@@ -1,0 +1,29 @@
+given two binari tree check first tree subtre second one 
+subtre tree tree consist node descend subtre correspond root node entir tree subtre correspond node call proper subtre 
+exampl follow case tree1 subtre tree2 
+tree1 x b c tree2 z x e b k c discuss n2 solut problem 
+post n solut discuss 
+idea base fact inord preorder postord uniqu identifi binari tree 
+tree subtre inord preorder travers arew substr inord preorder travers respect 
+follow detail step 
+1 find inord preorder travers store two auxiliari array int pret 
+2 find inord preorder travers store two auxiliari array in pre 
+3 in subarray int pre subarray pret subtre els 
+also use postord travers place preorder algorithm 
+let us consid exampl inord preorder travers big tree 
+int c x b z e k pret z x c b e k inord preorder travers small tree in c x b pre x c b easili figur in subarray int pre subarray pret 
+edit algorithm work case tree present anoth tree subtre 
+consid follow exampl 
+tree1 x b c tree2 x b c inord preorder travers big tree tree2 
+inord preorder travers small tree tree1 tree2 subtre tree1 in pre subarray int pret respect 
+algorithm extend handl case ad special charact whenev encount null inord preorder travers 
+thank shivam goel suggest extens 
+follow implement algorithm 
+c includ iostream includ cstring use namespac std defin max 100 structur tree node struct node char key struct node left right util function creat new bst node node newnod char item node temp new node temp key item temp left temp right null return temp util function store inord travers tree root root array arr 
+note pass refer void storeinord node root char arr int root null arr return storeinord root left arr arr root key storeinord root right arr util function store preorder travers tree root root array arr 
+note pass refer void storepreord node root char arr int root null arr return arr root key storepreord root left arr storepreord root right arr function return true subtre otherwis fals bool issubtre node node base case null return true null return fals store inord travers int 0 1 in 0 n 1 respect int 0 n 0 char int max in max storeinord int storeinord in n int 0 in n 0 in substr pre return fals strstr int in null return fals store preorder travers int 0 1 in 0 n 1 respect 0 n 0 char pret max pre max storepreord pret storepreord pre n pret 0 pre n 0 in substr pre return fals els return true return strstr pret pre null driver program test function int main node newnod left newnod b right newnod left left newnod c right right newnod e node newnod left newnod b left left newnod c right newnod issubtre cout ye subtre els cout subtre return 0 java java program check binari tree subtre anoth binari tree class node char data node left right node char item data item left right null class pass int int 0 int n 0 class binarytre static node root pass p new pass string strstr string haystack string needl haystack null needl null return null int hlength haystack length int nlength needl length hlength nlength return null nlength 0 return haystack int 0 hlength nlength haystack charat needl charat 0 int j 0 j nlength j haystack charat j needl charat j break j nlength return haystack substr return null util function store inord travers tree root root array arr 
+note pass refer void storeinord node node char arr pass node null arr return storeinord node left arr arr node data storeinord node right arr util function store preorder travers tree root root array arr 
+note pass refer void storepreord node node char arr pass node null arr return arr node data storepreord node left arr storepreord node right arr function return true subtre otherwis fals boolean issubtre node node base case null return true null return fals store inord travers int 0 1 in 0 n 1 respect char int new char 100 string op1 string valueof int char in new char 100 string op2 string valueof in storeinord int p storeinord in p int p 0 in p 0 in substr pre return fals strstr op1 op2 null return fals store preorder travers int 0 1 in 0 n 1 respect p 0 p n 0 char pret new char 100 char pre new char 100 string op3 string valueof pret string op4 string valueof pre storepreord pret p storepreord pre p pret p 0 pre p n 0 in substr pre return fals els return true return strstr op3 op4 null driver program test function public static void main string arg binarytre tree new binarytre node new node left new node b right new node left left new node c right right new node e node new node left new node b right new node left left new node c tree issubtre system println ye subtre els system println subtre code contribut mayank jaiswal output subtre time complex inord preorder travers binari tree take n time 
+function strstr also implement n time use kmp string match algorithm 
+auxiliari space n thank ashwini singh suggest method 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

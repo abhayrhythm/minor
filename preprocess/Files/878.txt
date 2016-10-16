@@ -1,0 +1,44 @@
+
+Asked by Tanuj
+Here is the standard prototype of printf function in C.
+
+
+          int printf(const char *format, ...);
+
+The format string is composed of zero or more   directives:  ordinary  characters  (not  %),  which  are  copied  unchanged to the output stream; and conversion specifications, each  of  argument (and it is an  error  if  insufficiently  many  arguments  are  given).
+The character % is followed by one of the following characters.
+The flag character
+The field width
+The precision
+The length modifier
+The conversion specifier: 
+See http://swoolley.org/man.cgi/3/printf for details of all the above characters. The main thing to note in the standard is the below line about conversion specifier.
+
+A `%' is written. No argument is converted. The complete conversion specification is`%%'.
+
+So we can print “%” using “%%”
+
+/* Program to print %*/
+#include<stdio.h>
+/* Program to print %*/
+int main()
+{
+   printf("%%");
+   getchar();
+   return 0;
+}
+
+We can also print “%” using below.
+
+   printf("%c", '%');
+   printf("%s", "%");
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

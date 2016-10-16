@@ -1,0 +1,5 @@
+c friendship inherit 
+base class friend function function becom friend deriv class es 
+exampl follow program print error show friend base class tri access privat data deriv class b 
+includ iostream use namespac std class protect int x public x 0 friend void show class b public public b 0 privat int void show b b cout default valu x b x access privat member declar class b cout default valu b b int main show getchar return 0 thank venki code explan 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

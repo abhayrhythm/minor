@@ -1,0 +1,116 @@
+gener array consid data structur size fix compil time array memori alloc either data section e g 
+global array stack section e g 
+local array 
+similarli link list consid data structur size fix memori alloc heap section e g 
+use malloc etc 
+need 
+sens array taken static data structur resid data stack section link list taken dynam data structur resid heap section 
+memori represent array link list visual follow array 4 element integ type initi 1 2 3 4 suppos element alloc memori address 0x100 0x104 0x08 0x10b respect 
+1 2 3 4 0x100 0x104 0x108 0x10b link list 4 node node integ data data initi 1 2 3 4 suppos node alloc via malloc memori alloc 0x200 0x308 0x404 0x20b respect 
+1 0x308 2 0x404 3 0x20b 4 null 0x200 0x308 0x404 0x20b anyon even littl understand array link list might interest explan 
+mean well know array element alloc memori sequenc e 
+contigu memori node link list non contigu memori 
+though sound trivial yet import differ array link list 
+note due contigu versu non contigu memori array link list differ 
+fact differ make array vs link list 
+follow section tri explor idea 
+sinc element array contigu memori access element randomli use index e g 
+intarr 3 access directli fourth element array 
+newbi array index start 0 fourth element index 3 
+also due contigu memori success element array extra inform need store individu element e 
+overhead metadata array 
+contrari link list node non contigu memori 
+mean need mechan travers access link list node 
+achiev node store locat next node form basi link one node next node 
+therefor call link list 
+though store locat next node overhead link list requir 
+typic see link list node declar follow struct llnode int dataint nextnod pointer next node link list struct llnode nextnod array element contigu memori therefor requir metadata 
+link list node non contigu memori therebi requir metadata form locat next node 
+apart differ see array could sever unus element memori alreadi alloc 
+link list requir 
+data item 
+inform array link list mention sever textbook though differ way 
+need alloc array memori heap section e 
+run time link list memori data stack section 
+first possibl 
+one might ask would someon need 
+hope remain articl would make rethink idea array vs link list consid case need store certain data array array properti random access due contigu memori know total size apriori 
+one possibl alloc memori array heap run time 
+exampl follow run time suppos know requir size integ array e g 
+input size user 
+say array size store variabl arrsiz 
+alloc array heap follow int dynarr int malloc sizeof int arrsiz though memori array alloc heap element still access via index mechan e g 
+dynarr 
+basic base program problem combin one benefit array e 
+random access element one benefit link list e 
+delay memori alloc till run time alloc memori heap 
+anoth advantag type dynam array method alloc array heap run time could reduc code size cours depend certain factor e g 
+program format etc 
+consid case need store data link list 
+node link list would equal actual data item store e 
+extra space like array allow get memori heap node 
+might look hypothet situat folk uncommon requir embed system 
+basic sever embed program alloc memori via malloc etc 
+allow due multipl reason 
+one obviou reason perform e 
+alloc memori via malloc costli term time complex embed program requir determinist time 
+anoth reason could modul specif memori manag e 
+possibl modul embed system manag memori 
+short need perform memori manag instead reli system provid api malloc free might choos link list simul use array 
+hope got idea might need simul link list use array 
+let us first see done 
+suppos type node link list e 
+underli array declar follow struct sllnode int dataint note nextindex store locat next node link list int nextindex struct sllnode arrayl 5 initi link list actual array would look follow memori 0 1 0 1 0 1 0 1 0 1 0x500 0x508 0x510 0x518 0x520 import thing notic node link list contigu memori one occupi 8 byte nextindex node set 1 e 
+1 done denot node link list empti 
+link list denot head index 0 link list updat four element data part 4 3 2 1 success would look follow memori 
+link list view 0x500 0x508 0x510 0x518 
+1 1 2 2 3 3 4 2 0 1 0x500 0x508 0x510 0x518 0x520 import thing notic nextindex last node e 
+fourth node set 2 e 
+2 done denot end link list 
+also head node link list index 0 concept simul link list use array would look interest delet say second node link list 
+case link list look follow memori 1 2 0 1 3 3 4 2 0 1 0x500 0x508 0x510 0x518 0x520 result link list 0x500 0x510 0x518 
+note even though delet second node link list memori node still underli array still 
+nextindex first node point third node index 2 
+hope exampl would given idea simul link list need write api similar malloc free would basic use insert delet node 
+call memori manag 
+let us see done algorithm manner 
+multipl way 
+take simplist approach creat link list use array use follow logic 
+insert node travers underli array find node whose nextindex 1 mean node empti 
+use node new node 
+updat data part new node set nextindex node current head node e 
+head index link list 
+final make index new node head index link list 
+visual let us take exampl 
+suppos link list follow head index 0 e 
+link list 0x500 0x508 0x518 0x520 1 1 2 3 0 1 4 4 5 2 0x500 0x508 0x510 0x518 0x520 insert new node data 8 link list would look follow head index 2 
+1 1 2 3 8 0 4 4 5 2 0x500 0x508 0x510 0x518 0x520 link list node would address 0x510 0x500 0x508 0x518 0x520 delet node need set nextindex node 1 node mark empti node 
+need make sure nextindex previou node updat correctli index next node node delet 
+see done memori manag creat link list array memori 
+one way insert delet node link list 
+easili notic find empti node effici term time complex 
+basic search complet array linearli find empti node 
+let us see optim 
+basic maintain link list empti node well array 
+case link list would denot two index one index would link list actual data valu e 
+node insert far index would link list empti node 
+whenev need insert new node exist link list quickli find empti node 
+let us take exampl 4 2 0 3 5 5 0 1 0 1 9 1 0x500 0x508 0x510 0x518 0x520 0x528 link list repres use two index 0 5 two link list one actual valu anoth empti node 
+link list actual valu node address 0x500 0x510 0x528 link list empti node node address 0x520 0x508 0x518 
+seen find empti node e 
+write api similar malloc rel faster quickli find free node 
+real world embed program fix chunk memori normal call memori pool alloc use malloc modul 
+manag memori pool basic array done modul use techniqu mention earlier 
+sometim multipl memori pool one differ size node 
+cours sever aspect memori manag leav 
+worth mention sever method insert requir memori alloc delet requir memori free improv 
+look care notic heap section memori basic big array byte manag underli oper system os 
+os provid memori manag servic programm via malloc free etc 
+aha 
+import take away articl sum follow array mean contigu memori 
+exist memori section data stack heap 
+b link list mean non contigu link memori 
+exist memori section heap data stack 
+c programm look data structur memori perspect could provid us better insight choos particular data structur even design new data structur 
+exampl might creat array link list etc 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

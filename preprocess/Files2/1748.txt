@@ -1,0 +1,28 @@
+person determin finish book k day never want stop chapter 
+find optim assign chapter person read mani extra less page overal 
+exampl 1 input number day finish book 2 number page chapter 10 5 5 output day 1 chapter 1 day 2 chapter 2 3 exampl 2 input number day finish book 3 number page chapter 8 5 6 12 output day 1 chapter 1 day 2 chapter 2 3 day 2 chapter 4 target minim sum differ page read day averag number page 
+averag number page non integ round closest integ 
+exampl 2 averag number page 8 5 6 12 3 31 3 round 10 differ averag number page day output shown ab 8 10 ab 5 6 10 ab 12 10 5 valu 5 optim valu sum differ 
+strongli recommend minim browser tri first 
+consid exampl 2 book 4 chapter page 8 5 6 12 user wish finish 3 day 
+graphic represent scenario graph vertex repres chapter edg e u v repres number page read reach v u 
+sink node ad symbol end book 
+first calcul averag number page read day 31 3 roughli 10 
+new edg weight e u v would mean differ avg e u v 
+modifi graph problem would thank armadillo initi thought comment 
+idea start chapter 1 df find sink count edg k 
+keep store visit vertic array say path 
+reach destin vertex path sum less optim path updat optim assign optimal_path 
+note graph dag thu need take care cycl df 
+follow c implement adjac matrix use repres graph 
+follow program mainli 4 phase 
+1 construct direct acycl graph 
+2 find optim path use df 
+3 print found optim path 
+c df solut schedul chapter read given day includ iostream includ cstdlib includ climit includ cmath use namespac std defin total chapter book number day user spend read defin chapter 4 defin day 3 defin nolink 1 array store final balanc schedul int optimal_path day 1 graph node chapter 1 sink describ graph int dag chapter 1 chapter 1 updat optim assign current assign void updateassign int path int path_len df base recurs function store optim path path size path_len 
+variabl sum store sum edg current path 
+k number day spent far 
+void assignchapt int u int path int path_len int sum int k static int min int_max ignor assign requir requir day k 0 return current assign chapter day path path_len u path_len updat optim assign necessari k 0 u chapter sum min updateassign path path_len min sum df depth first search sink int v u 1 v chapter v sum dag u v assignchapt v path path_len sum k 1 sum dag u v function find print optim read list 
+first creat graph call assignchapt 
+void minassign int page 1 construct graph partial sum array construct total page till ith chapter int avg_pag 0 sum 0 chapter 1 path day 1 0 0 int 0 chapter sum page 1 sum averag page read day avg_pag round sum day dag construct vertic chapter name edg weight avg_pag page chapter adjac matrix represent int 0 chapter int j 0 j chapter j j dag j nolink els sum ab avg_pag j dag j sum 2 find optim path assignchapt 0 path 0 0 day 3 print optim read list use optim path cout optim chapter assign endl int ch int 0 day ch optimal_path cout day 1 ch ch day 1 ch optimal_path 1 day 1 ch chapter cout ch ch cout endl funtion updat optimal_path void updateassign int path int path_len int 0 path_len optimal_path path 1 driver program test schedul int main void int page chapter 7 5 6 12 get read list given day minassign page return 0 output optim chapter assign day1 1 day2 2 3 day3 4 articl contribut balaji pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

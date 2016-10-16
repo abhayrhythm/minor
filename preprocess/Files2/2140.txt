@@ -1,0 +1,19 @@
+function prototyp serv follow purpos 1 tell return type data function return 
+2 tell number argument pass function 
+3 tell data type pass argument 
+4 also tell order argument pass function 
+therefor essenti function prototyp specifi input output interlac function e 
+give function expect function 
+prototyp function also call signatur function 
+one specifi function prototyp 
+output kind program gener ask mani place 
+int main foo getchar return 0 void foo printf foo call one specifi function prototyp behavior specif c standard either c90 c99 compil implement 
+c90 standard c compil assum return type omit function prototyp int 
+assumpt compil side may lead unspecifi program behavior 
+later c99 standard specifi compil longer assum return type int 
+therefor c99 becam restrict type check function prototyp 
+make c99 standard backward compat practic compil throw warn say return type assum int 
+go ahead compil 
+thu becom respons programm make sure assum function prototyp actual function type match 
+avoid implement specif c standard best function prototyp 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,12 @@
+write function alternatingsplit take one list divid node make two smaller list b 
+sublist made altern element origin list 
+origin list 0 1 0 1 0 1 one sublist 0 0 0 1 1 1 
+method 1 simpl simplest approach iter sourc list pull node sourc altern put front begin b 
+strang part node revers order occur sourc list 
+method 2 insert node end keep track last node sublist 
+program altern split link list two halv includ stdio h includ stdlib h includ assert h link list node struct node int data struct node next pull front node sourc put dest void movenod struct node destref struct node sourceref given sourc list split node two shorter list 
+number element 0 1 2 even element go first list odd element second 
+element new list may order 
+void alternatingsplit struct node sourc struct node aref struct node bref split node sourc b list struct node null struct node b null struct node current sourc current null movenod current move node list current null movenod b current move node list b aref bref b take node front sourc move front dest 
+error call sourc list empti 
+call movenod sourc 1 2 3 dest 1 2 3 affter call movenod sourc 2 3 dest 1 1 2 3 void movenod struct node destref struct node sourceref front sourc node struct node newnod sourceref assert newnod null advanc sourc pointer sourceref newnod next link old dest new node newnod next destref move dest point new node destref newnod util function function insert node beging link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function print node given link list void printlist struct node node node null printf node data node node next drier program test function int main start empti list struct node head null struct node null struct node b null let us creat sort link list test function creat link list 0 1 2 3 4 5 push head 5 push head 4 push head 3 push head 2 push head 1 push head 0 printf n origin link list printlist head remov duplic link list alternatingsplit head b printf n result link list printlist printf n result link list b printlist b getchar return 0 time complex n n number node given link list 

@@ -1,0 +1,5 @@
+write c program find smallest three integ without use comparison oper 
+let 3 input number x z method 1 repeat subtract take counter variabl c initi 0 loop repeatedli subtract x z 1 increment c number becom 0 first smallest 
+loop termin c hold minimum 3 
+includ stdio h int smallest int x int int z int c 0 x z x z c return c int main int x 12 15 z 5 printf minimum 3 number smallest x z return 0 methid work neg number 
+method 2 work neg nnumber also 

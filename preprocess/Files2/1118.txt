@@ -1,0 +1,16 @@
+given array distinct element rearrang element array zig zag fashion n time 
+convert array form b c e f exampl input arr 4 3 7 8 6 2 1 output arr 3 7 4 8 2 6 1 input arr 1 4 3 2 output arr 1 4 2 3 simpl solut first sort array 
+sort exclud first element swap remain element pair 
+e 
+keep arr 0 swap arr 1 arr 2 swap arr 3 arr 4 
+time complex nlogn sinc need sort array first 
+convert n time use effici approach 
+idea use modifi one pass bubbl sort 
+maintain flag repres order e 
+current need 
+current two element order swap element otherwis 
+let us see main logic use three consecut element b c suppos process b c current current relat 
+b c sinc current relat previou relat must e must greater b relat b b c deduc c swap b c relat c c b final get desir order c b refer explan 
+c implement algorithm c program sort array zig zag form includ iostream use namespac std program zig zag convers array void zigzag int arr int n flag true indic relat expect els expect 
+first expect relat bool flag true int 0 n 2 flag relat expect situat like b c get b c swap b c arr arr 1 swap arr arr 1 els relat expect situat like b c get c b swap b c arr arr 1 swap arr arr 1 flag flag flip flag driver program int main int arr 4 3 7 8 6 2 1 int n sizeof arr sizeof arr 0 zigzag arr n int 0 n cout arr return 0 output 3 7 4 8 2 6 1 time complex n auxiliari space 1 articl contribut siva krishna aleti 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

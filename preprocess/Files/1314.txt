@@ -1,0 +1,128 @@
+
+Given a 2D matrix and a set of cell indexes e.g., an array of (i, j) where i indicates row and j column. For every given cell index (i, j), find sums of all matrix elements except the elements present in i’th row and/or j’th column.
+
+Example:
+mat[][]  = { {1, 1, 2}
+             {3, 4, 6}
+             {5, 3, 2} }
+Array of Cell Indexes: {(0, 0), (1, 1), (0, 1)}
+Output:  15, 10, 16
+
+We strongly recommend you to minimize your browser and try this yourself first.
+Source: http://qa.geeksforgeeks.org/622/select-column-matrix-then-find-remaining-elements-matrices?show=625#a625
+A Naive Solution is to one by once consider all given cell indexes.  For every cell index (i, j), find the sum of matrix elements that are not present either at i’th row or at j’th column.  Below is C++ implementation of the Naive approach.
+
+#include<bits/stdc++.h>
+#define R 3
+#define C 3
+using namespace std;
+
+// A structure to represent a cell index
+struct Cell
+{ 
+    int r; // r is row, varies from 0 to R-1
+    int c; // c is column, varies from 0 to C-1
+};
+
+// A simple solution to find sums for a given array of cell indexes
+void printSums(int mat[][C], struct Cell arr[], int n)
+{
+    // Iterate through all cell indexes
+    for (int i=0; i<n; i++)
+    {
+        int sum = 0, r = arr[i].r, c = arr[i].c;
+
+        // Compute sum for current cell index
+        for (int j=0; j<R; j++)
+            for (int k=0; k<C; k++)
+                if (j != r && k != c)
+                    sum += mat[j][k];
+        cout << sum << endl;
+    }
+}
+
+// Driver program to test above
+int main()
+{
+    int mat[][C] = {{1, 1, 2}, {3, 4, 6}, {5, 3, 2}};
+    struct Cell arr[] = {{0, 0}, {1, 1}, {0, 1}};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    printSums(mat, arr, n);
+    return 0;
+}
+Output:
+15
+10
+16
+Time complexity of the above solution is O(n * R * C) where n is number of given cell indexes and R x C is matrix size.  
+An Efficient Solution can compute all sums in O(R x C  + n) time.  The idea is to precompute total sum, row and column sums before processing the given array of indexes.  Below are details
+1. Calculate sum of matrix, call it sum.
+2. Calculate sum of individual rows and columns. (row[] and col[])
+3. For a cell index (i, j), the desired sum will be “sum- row[i] – col[j] + arr[i][j]”
+Below is C++ implementation of above idea.
+
+// An efficient C++ program to compute sum for given array of cell indexes
+#include<bits/stdc++.h>
+#define R 3
+#define C 3
+using namespace std;
+
+// A structure to represent a cell index
+struct Cell
+{
+    int r; // r is row, varies from 0 to R-1
+    int c; // c is column, varies from 0 to C-1
+};
+
+void printSums(int mat[][C], struct Cell arr[], int n)
+{
+    int sum = 0;
+    int row[R] = {};
+    int col[C] = {};
+
+    // Compute sum of all elements, sum of every row and sum every column
+    for (int i=0; i<R; i++)
+    {
+      for (int j=0; j<C; j++)
+       {
+             sum += mat[i][j];
+             col[j] += mat[i][j];
+             row[i] += mat[i][j];
+       }
+    }
+
+    // Compute the desired sum for all given cell indexes
+    for (int i=0; i<n; i++)
+    {
+        int ro = arr[i].r, co = arr[i].c;
+        cout << sum - row[ro] - col[co] + mat[ro][co] << endl;
+    }
+}
+
+// Driver program to test above function
+int main()
+{
+    int mat[][C] = {{1, 1, 2}, {3, 4, 6}, {5, 3, 2}};
+    struct Cell arr[] = {{0, 0}, {1, 1}, {0, 1}};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    printSums(mat, arr, n);
+    return 0;
+}
+
+Output:
+15
+10
+16
+Time Complexity: O(R x C + n)
+Auxiliary Space:  O(R + C)
+Thanks to Gaurav Ahirwar for suggesting this efficient solution here.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

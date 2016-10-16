@@ -1,0 +1,22 @@
+vigener cipher method encrypt alphabet text 
+use simpl form polyalphabet substitut 
+polyalphabet cipher cipher base substitut use multipl substitut alphabet encrypt origin text done use vigenèr squar vigenèr tabl 
+tabl consist alphabet written 26 time differ row alphabet shift cyclic left compar previou alphabet correspond 26 possibl caesar cipher 
+differ point encrypt process cipher use differ alphabet one row 
+alphabet use point depend repeat keyword 
+exampl input plaintext geeksforgeek keyword ayush output ciphertext gcyczfmlyleim gener key given keyword repeat circular manner match length plain text 
+keyword ayush gener key ayushayushayu plain text encrypt use process explain 
+encrypt first letter plaintext g pair first letter key 
+use row g column vigenèr squar name g similarli second letter plaintext second letter key use letter row e column c rest plaintext enciph similar fashion 
+tabl encrypt geek decrypt decrypt perform go row tabl correspond key find posit ciphertext letter row use column label plaintext 
+exampl row ayush ciphertext g appear column g first plaintext letter 
+next go row ayush locat ciphertext c found column e thu e second plaintext letter 
+easi implement could visual vigenèr algebra convert z number 0 25 
+encrypt plaintext p key k ad modulo 26 ei pi ki mod 26 decrypt di ei ki 26 mod 26 note di denot offset th charact plaintext 
+like offset 0 b 1 
+c implement idea 
+c code implement vigener cipher includ bit stdc h use namespac std function gener key cyclic manner length isi nt equal length origin text string generatekey string str string key int x str size int 0 x 0 key size str size break key push_back key return key function return encrypt text gener help key string ciphertext string str string key string cipher_text int 0 str size convert rang 0 25 int x str key 26 convert alphabet ascii x cipher_text push_back x return cipher_text function decrypt encrypt text return origin text string originaltext string cipher_text string key string orig_text int 0 cipher_text size convert rang 0 25 int x cipher_text key 26 26 convert alphabet ascii x orig_text push_back x return orig_text driver program test function int main string str geeksforgeek string keyword ayush string key generatekey str keyword string cipher_text ciphertext str key cout ciphertext cipher_text n cout origin decrypt text originaltext cipher_text key return 0 output ciphertext gcyczfmlyleim origin decrypt text geeksforgeek refer http en wikipedia org wiki vigen c3 a8re_ciph articl contribut ayush khanduri 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,12 @@
+given binari array sort non increas order count number 1 
+exampl input arr 1 1 0 0 0 0 0 output 2 input arr 1 1 1 1 1 1 1 output 7 input arr 0 0 0 0 0 0 0 output 0 simpl solut linearli travers array 
+time complex simpl solut n 
+use binari search find count logn time 
+idea look last occurr 1 use binari search 
+find index last occurr return index 1 count 
+follow c implement idea 
+c c program count one boolean array includ iostream use namespac std return count 1 arr low high 
+array assum sort non increas order int counton bool arr int low int high high low get middl index int mid low high low 2 check element middl index last 1 mid high arr mid 1 0 arr mid 1 return mid 1 element last 1 recur right side arr mid 1 return counton arr mid 1 high els recur left side return counton arr low mid 1 return 0 driver program test function int main bool arr 1 1 1 1 0 0 0 int n sizeof arr sizeof arr 0 cout count 1 given array counton arr 0 n 1 return 0 python python program count one boolean array return count 1 arr low high 
+array assum sort non increas order def counton arr low high high low get middl index mid low high low 2 check element middl index last 1 mid high arr mid 1 0 arr mid 1 return mid 1 element last 1 recur right side arr mid 1 return counton arr mid 1 high els recur left side return counton arr low mid 1 return 0 driver function arr 1 1 1 1 0 0 0 print count 1 given array counton arr 0 len arr 1 code contribut __devesh agrawal__ java java program count 1 sort array class counton return count 1 arr low high 
+array assum sort non increas order int counton int arr int low int high high low get middl index int mid low high low 2 check element middl index last 1 mid high arr mid 1 0 arr mid 1 return mid 1 element last 1 recur right side arr mid 1 return counton arr mid 1 high els recur left side return counton arr low mid 1 return 0 driver program test function public static void main string arg counton ob new counton int arr 1 1 1 1 0 0 0 int n arr length system println count 1 given array ob counton arr 0 n 1 code contribut rajat mishra output count 1 given array 4 time complex solut logn pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

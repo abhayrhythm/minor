@@ -1,0 +1,10 @@
+spaghetti stack spaghetti stack n ari tree data structur child node pointer parent node vice versa spaghetti stack structur use situat record dynam push pop onto stack execut progress refer pop record remain use 
+follow applic spaghetti stack 
+compil languag c creat spaghetti stack open close symbol tabl repres block scope 
+new block scope open symbol tabl push onto stack 
+close curli brace encount scope close symbol tabl pop 
+symbol tabl rememb rather destroy 
+cours rememb higher level parent symbol tabl 
+spaghetti stack also use implement disjoint set data structur 
+pleas write comment find anyth incorrect want share inform topic discuss 
+sourc http en wikipedia org wiki spaghetti_stack adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,107 @@
+
+Given an array, count number of pairs that can be formed from all possible contiguous sub-arrays containing distinct numbers. The array contains positive numbers between 0 to n-1 where n is the size of the array.
+Examples:
+
+Input:  [1, 4, 2, 4, 3, 2]
+Output: 8
+The subarrays with distinct elements 
+are [1, 4, 2], [2, 4, 3] and [4, 3, 2].
+There are 8 pairs that can be formed 
+from above array.
+(1, 4), (1, 2), (4, 2), (2, 4), (2, 3),
+(4, 3), (4, 2), (3, 2)
+
+
+Input:  [1, 2, 2, 3]
+Output: 2
+There are 2 pairs that can be formed
+from above array.
+(1, 2), (2, 3)
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use Sliding Window for the given array. Let us use a window covering from index left to index right and an Boolean array visited to mark elements in current window. The window invariant is that all elements inside the window are distinct. We keep on expanding the window to the right and if a duplicate is found, we shrink the window from left till all elements are distinct again. We update the count of pairs in current window along the way. An observation showed that in an expanding window, number of pairs can be incremented by value equal to window size – 1. For example, 
+
+Expanding Window   Count
+  
+[1]              Count = 0
+
+[1, 2]           Count += 1 pair  
+                 i.e. (1, 2)
+
+[1, 2, 3]        Count += 2 pairs 
+                 i.e. (1, 3) and (2, 3)
+
+[1, 2, 3, 4]     Count += 3 pairs 
+                 i.e. (1, 4), (2, 4) 
+                 and (3, 4)
+So, total Count for above window of size 4 containing distinct elements is 6. Nothing need to be done when the window is shrinking.
+Below is C++ implementation of the idea.
+
+// C++ program to count number of distinct pairs
+// that can be formed from all possible contiguous
+// sub-arrays containing distinct numbers
+#include <bits/stdc++.h>
+using namespace std;
+
+int countPairs(int arr[], int n)
+{
+    // initialize number of pairs to zero
+    int count = 0;
+
+    //Left and right indexes of current window
+    int right = 0, left = 0;
+
+    // Boolean array visited to mark elements in
+    // current window. Initialized as false
+    vector<bool> visited(n, false);
+
+    // While right boundary of current window
+    // doesn't cross right end
+    while (right < n)
+    {
+        // If current window contains all distinct
+        // elements, widen the window toward right
+        while (right < n && !visited[arr[right]])
+        {
+            count += (right - left);
+            visited[arr[right]] = true;
+            right++;
+        }
+
+        // If duplicate is found in current window,
+        // then reduce the window from left
+        while (left < right && (right != n &&
+               visited[arr[right]]))
+        {
+            visited[arr[left]] = false;
+            left++;
+        }
+    }
+
+    return count;
+}
+
+// Driver code
+int main()
+{
+    int arr[] = {1, 4, 2, 4, 3, 2};
+    int n = sizeof arr / sizeof arr[0];
+
+    cout << countPairs(arr, n);
+
+    return 0;
+}
+
+Output:
+8
+Time Complexity: The complexity might look O(n^2) as 2 while loop are involved but note that left and right index are changing from 0 to N-1. So overall complexity is O(n + n) = O(n). Auxiliary space required in above solution is O(n) as we are using visited array to mark elements of the current window.
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

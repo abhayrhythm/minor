@@ -1,0 +1,33 @@
+disjoint set data structur data structur keep track set element partit number disjoint non overlap subset 
+union find algorithm algorithm perform two use oper data structur find determin subset particular element 
+use determin two element subset 
+union join two subset singl subset 
+post discuss applic disjoint set data structur 
+applic check whether given graph contain cycl 
+union find algorithm use check whether undirect graph contain cycl 
+note discuss algorithm detect cycl 
+anoth method base union find 
+method assum graph contain self loop 
+keep track subset 1d array let call parent 
+let us consid follow graph 0 1 2 edg make subset use vertic edg 
+vertic subset cycl found 
+initi slot parent array initi 1 mean one item everi subset 
+0 1 2 1 1 1 process edg one one 
+edg 0 1 find subset vertic 0 1 
+sinc differ subset take union 
+take union either make node 0 parent node 1 vice versa 
+0 1 2 1 made parent 0 1 repres subset 0 1 1 1 1 edg 1 2 1 subset 1 2 subset 2 take union 
+0 1 2 2 made parent 1 2 repres subset 0 1 2 1 2 1 edg 0 2 0 subset 2 2 also subset 2 henc includ edg form cycl 
+subset 0 2 
+0 1 2 1 parent 0 2 parent 1 base explan implement c c union find algorithm detect cycl graph includ stdio h includ stdlib h includ string h structur repres edg graph struct edg int src dest structur repres graph struct graph v number vertic e number edg int v e graph repres array edg struct edg edg creat graph v vertic e edg struct graph creategraph int v int e struct graph graph struct graph malloc sizeof struct graph graph v v graph e e graph edg struct edg malloc graph e sizeof struct edg return graph util function find subset element int find int parent int parent 1 return return find parent parent util function union two subset void union int parent int x int int xset find parent x int yset find parent parent xset yset main function check whether given graph contain cycl int iscycl struct graph graph alloc memori creat v subset int parent int malloc graph v sizeof int initi subset singl element set memset parent 1 sizeof int graph v iter edg graph find subset vertic everi edg subset cycl graph 
+int 0 graph e int x find parent graph edg src int find parent graph edg dest x return 1 union parent x return 0 driver program test function int main let us creat follow graph 0 1 2 int v 3 e 3 struct graph graph creategraph v e add edg 0 1 graph edg 0 src 0 graph edg 0 dest 1 add edg 1 2 graph edg 1 src 1 graph edg 1 dest 2 add edg 0 2 graph edg 2 src 0 graph edg 2 dest 2 iscycl graph printf graph contain cycl els printf graph contain cycl return 0 java java program union find algorithm detect cycl graph import java util 
+import java lang 
+import java io 
+class graph int v e v 
+vertic e edg edg edg collect edg class edg int src dest creat graph v vertic e edg graph int v int e v v e e edg new edg e int 0 e edg new edg util function find subset element int find int parent int parent 1 return return find parent parent util function union two subset void union int parent int x int int xset find parent x int yset find parent parent xset yset main function check whether given graph contain cycl int iscycl graph graph alloc memori creat v subset int parent new int graph v initi subset singl element set int 0 graph v parent 1 iter edg graph find subset vertic everi edg subset cycl graph 
+int 0 graph e int x graph find parent graph edg src int graph find parent graph edg dest x return 1 graph union parent x return 0 driver method public static void main string arg let us creat follow graph 0 1 2 int v 3 e 3 graph graph new graph v e add edg 0 1 graph edg 0 src 0 graph edg 0 dest 1 add edg 1 2 graph edg 1 src 1 graph edg 1 dest 2 add edg 0 2 graph edg 2 src 0 graph edg 2 dest 2 graph iscycl graph 1 system println graph contain cycl els system println graph contain cycl output graph contain cycl note implement union find naiv take n time worst case 
+method improv logn use union rank height 
+soon discuss union rank separ post 
+relat articl union find algorithm set 2 union rank path compress disjoint set data structur java implement greedi algorithm set 2 kruskal minimum span tree algorithm job sequenc problem set 2 use disjoint set articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,92 @@
+
+Given three integers a, b and c where c can be either 0 or 1. Without using any arithmetic, relational and conditional operators set the value of a variable x based on below rules –
+
+If c = 0
+    x = a
+Else // Note c is binary
+    x = b.
+
+Examples:
+
+Input: a = 5, b = 10, c = 0;
+Output: x = 5
+
+Input: a = 5, b = 10, c = 1;
+Output: x = 10
+
+
+
+Solution 1: Using arithmetic operators
+If we are allowed to use arithmetic operators, we can easily calculate x by using any one of below expressions – 
+
+x = ((1 - c) * a) + (c * b)
+
+OR
+
+x = (a + b) - (!c * b) - (c * a);
+
+OR
+
+x = (a * !c) | (b * c);
+
+
+#include <iostream>
+using namespace std;
+
+int calculate(int a, int b, int c)
+{
+    return ((1 - c) * a) + (c * b);	
+}
+
+int main()
+{
+   int a = 5, b = 10, c = 0;
+	
+   int x = calculate(a, b, c);
+   cout << x << endl;
+	
+   return 0;
+}
+
+Output:
+
+5
+
+ 
+Solution 2: Without using arithmetic operators
+The idea is to construct an array of size 2 such that index 0 of the array stores value of variable ‘a’ and index 1 value of variable b. Now we return value at index 0 or at index 1 of the array based on value of variable c.
+
+#include <iostream>
+using namespace std;
+
+int calculate(int a, int b, int c)
+{
+   int arr[] = {a, b};
+   return *(arr + c);
+}
+
+int main()
+{
+   int a = 5, b = 10, c = 1;
+	
+   int x = calculate(a, b, c);
+   cout << x << endl;
+	
+   return 0;
+}
+
+Output:
+
+10
+
+This article is contributed by Aditya Goel . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

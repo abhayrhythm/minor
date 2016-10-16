@@ -1,0 +1,98 @@
+
+The atoi() function takes a string (which represents an integer) as an argument and returns its value.
+Following is a simple implementation. We initialize result as 0. We start from the first character and update result for every character.  
+
+C/C++
+
+
+// A simple C++ program for implementation of atoi
+#include <stdio.h>
+ 
+// A simple atoi() function
+int myAtoi(char *str)
+{
+    int res = 0; // Initialize result
+ 
+    // Iterate through all characters of input string and
+    // update result
+    for (int i = 0; str[i] != '\0'; ++i)
+        res = res*10 + str[i] - '0';
+ 
+    // return result.
+    return res;
+}
+ 
+// Driver program to test above function
+int main()
+{
+    char str[] = "89789";
+    int val = myAtoi(str);
+    printf ("%d ", val);
+    return 0;
+}
+
+Python
+
+
+
+# Python program for implementation of atoi
+
+# A simple atoi() function
+def myAtoi(string):
+    res = 0
+
+    # Iterate through all characters of input string and 
+    # update result
+    for i in xrange(len(string)):
+        res = res*10 + (ord(string[i]) - ord('0'))
+
+    return res
+
+# Driver program
+string = "89789"
+print myAtoi(string)
+
+# This code is contributed by BHAVYA JAIN
+
+
+Output:
+89789
+The above function doesn’t handle negative numbers.  Following is a simple extension to handle negative numbers.
+
+C
+
+
+
+// A C++ program for implementation of atoi
+#include <stdio.h>
+ 
+// A simple atoi() function
+int myAtoi(char *str)
+{
+    int res = 0;  // Initialize result
+    int sign = 1;  // Initialize sign as positive
+    int i = 0;  // Initialize index of first digit
+     
+    // If number is negative, then update sign
+    if (str[0] == '-')
+    {
+        sign = -1;  
+        i++;  // Also update index of first digit
+    }
+     
+    // Iterate through all digits and update the result
+    for (; str[i] != '\0'; ++i)
+        res = res*10 + str[i] - '0';
+   
+    // Return result with sign
+    return sign*res;
+}
+ 
+// Driver program to test above function
+int main()
+{
+    char str[] = "-123";
+    int val = myAtoi(str);
+    printf ("%d ", val);
+    return 0;
+}

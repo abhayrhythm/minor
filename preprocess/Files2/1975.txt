@@ -1,0 +1,8 @@
+c support follow 4 type cast oper 1 const_cast 2 static_cast 3 dynamic_cast 4 reinterpret_cast 1 const_cast const_cast use cast away const variabl 
+follow interest fact const_cast 
+1 const_cast use chang non const class member insid const member function 
+consid follow code snippet 
+insid const member function fun treat compil const student const e 
+constant pointer constant object thu compil allow chang data member pointer 
+const_cast chang type pointer student const 
+includ iostream use namespac std class student privat int roll public constructor student int r roll r const function chang roll help const_cast void fun const const_cast student roll 5 int getrol return roll int main void student 3 cout old roll number getrol endl fun cout new roll number getrol endl return 0 output old roll number 3 new roll number 5 

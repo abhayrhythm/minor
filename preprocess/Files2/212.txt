@@ -1,0 +1,11 @@
+given number n find smallest number p multipli digit p get n 
+result p minimum two digit 
+exampl input n 36 output p 49 note 4 9 36 49 smallest number input n 100 output p 455 note 4 5 5 100 455 smallest number input n 1 output p 11 note 1 1 1 input n 13 output possibl given n follow two case consid 
+case 1 n 10 n smaller n output alway n 10 
+exampl n 7 output 17 n 9 output 19 case 2 n 10 find factor n 2 9 inclus 
+idea start search 9 number digit result minim 
+exampl 9 prefer 33 8 prefer 24 store found factor array 
+array would contain digit non increas order final print array revers order 
+follow c implement concept 
+includ stdio h maximum number digit output defin max 50 print smallest number whose digit multipli n void findsmallest int n int j 0 int re max sore digit result revers order case 1 number smaller 10 n 10 printf n 10 return case 2 start 9 tri everi possibl digit 9 1 current digit divid n store occurr current digit re n 0 n n re j j n could broken form digit prime factor n greater 9 n 10 printf possibl return print result array revers order j 1 0 printf re driver program test function int main findsmallest 7 printf n findsmallest 36 printf n findsmallest 13 printf n findsmallest 100 return 0 output 17 49 possibl 455 articl contribut ashish bansal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

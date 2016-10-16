@@ -1,0 +1,58 @@
+
+Following is a general way of printing 2D matrix such that every row is printed in separate lines.
+
+for (int i = 0; i < m; i++)
+{
+   for (int j = 0; j < n; j++)
+   {
+      cout << arr[i][j] << " ";
+   }
+   
+   // Newline for new row
+   cout << endl;
+}
+How to print print without using any curly braces in for loops?
+ 
+We strongly recommend you to minimize your browser and try this yourself first.
+ 
+We can simply removed inner curly bracket as there is single line inner for loop. How to remove outer curly braces?  Below is solution.
+
+// C++ program to print a matrix line by line without
+// using curly braces.
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int m = 2, n = 3; 
+    int mat[][3] = { {1, 2, 3},
+                    {4, 5, 6},
+                  };
+    for (int i = 0; i < m; i++)
+       for (int j = 0; j < n; j++)
+
+          // Prints ' ' if j != n-1 else prints '\n'          
+          cout << mat[i][j] << " \n"[j == n-1];
+
+    return 0;
+}
+
+Output:
+1 2 3
+4 5 6
+The actual trick is in following statement “\n”[j == n-1], explanation is as follows: 
+” \n” is a 2 character string where 1st character is space and 2nd character is newline,  so we want space after each value except last for which we want a newline.  In C, string literals are treated character arrays [See this for more details]. 
+j == n-1 statement evaluates to 0 for internal elements (because for them j < n-1) and for last value(of each row) it becomes 1. So for internal elements, statement evaluate to " \n"[0]  i.e.   " " and for last element of each row " \n"[1] i.e. "\n"
+
+
+Source: http://qa.geeksforgeeks.org/6300/print-2d-array-without-using-brackets
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

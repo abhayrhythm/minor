@@ -1,0 +1,21 @@
+
+Below are the different methods to remove duplicates in a string.
+METHOD 1 (Use Sorting)
+Algorithm:
+  1) Sort the elements.
+  2) Now in a loop, remove duplicates by comparing the 
+      current character with previous character.
+  3)  Remove extra characters at the end of the resultant string.
+
+
+Example:
+Input string:  geeksforgeeks
+1) Sort the characters
+   eeeefggkkorss
+2) Remove duplicates
+    efgkosgkkorss
+3) Remove extra characters
+     efgkos
+
+ 
+We strongly recommend that you click here and practice it, before moving on to the solution.

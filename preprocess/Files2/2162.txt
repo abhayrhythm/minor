@@ -1,0 +1,12 @@
+given two number x rang l r 1 l r 32 task consid set bit rang l r set bit x also 
+exampl input x 10 13 l 2 r 3 output x 14 binari represent 10 1010 1101 one set bit 3 rd posit given rang 
+copi bit x x becom 1110 binari represent 14 input x 8 7 l 1 r 2 output x 11 sourc e shaw interview strongli recommend click practic move solut 
+one one find set bit travers given rang 
+everi set bit exist bit x becom set x set 
+c implement 
+c program rearrang array altern c program copi set bit given rang l r x 
+includ bit stdc h use namespac std copi set bit rang l r x 
+note x pass refer modifi function 
+void copysetbit unsign x unsign unsign l unsign r l r must 1 32 assum int store use 32 bit l 1 r 32 return traver given rang int l r finff mask number whose set bit th posit int mask 1 1 th bit set set th bit x also 
+mask x x mask driver code int main unsign x 10 13 l 2 r 3 copysetbit x l r cout modifi x x return 0 output modifi x 14 articl contribut rishi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,21 @@
+predict output program 
+question 1 includ stdio h int main printf main getchar return 0 output address function main 
+explan name function actual pointer variabl function print address function 
+symbol tabl implement like 
+struct char name int funcptr symtab func func anotherfunc anotherfunc question 2 includ stdio h int main printf new_c_quest printf rgeeksforgeek getchar return 0 output geeksforgeeksl explan first printf print ew_c_questioy 
+second printf r goe back start line start print charact 
+tri print follow without use escap charact 
+new c question geeksforgeek question 3 includ stdio h includ stdlib h void fun int int malloc sizeof int int main int p fun p p 6 printf n p getchar return 0 work 
+tri replac int p int p null tri derefer null pointer 
+fun make copi pointer malloc call set copi pointer memori locat p p point random memori call fun derefer crash 
+want add memori pointer function need pass address pointer ie 
+doubl pointer 
+thank john doe provid correct solut 
+question 4 includ stdio h int main int 1 2 3 printf n getchar return 0 output 1 program print 1 associ comma oper left right oper higher preced comma oper 
+therefor statement 1 2 3 treat 1 2 3 compil 
+easi tell output program 
+includ stdio h int main int 1 2 3 printf n getchar return 0 question 5 includ stdio h int main int first 50 second 60 third third first comment work 
+second printf 
+n third getchar return 0 output 110 
+explan compil remov everyth present insid doubl quot 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

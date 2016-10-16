@@ -1,0 +1,7 @@
+ask kapil predict output program 
+includ stdio h defin total_el sizeof array sizeof array 0 int array 1 2 3 4 5 6 7 int main int 1 total_el 2 printf n array 1 getchar return 0 output noth print loop condit true first time 
+result sizeof array operand number element array multipli size element byte 
+valu express total_el program 7 data type sizeof result unsign int unsign long depend upon compil implement 
+therefor loop condit total_el 2 int compar unsign valu 
+int implicitli convert unsign true unsign int unsign long 
+1 unsign equival 4294967295 integ store use 32 bit compar total_el 2 condit true first time 

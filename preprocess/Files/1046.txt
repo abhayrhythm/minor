@@ -1,0 +1,29 @@
+
+Predict the output of following C programs.
+Question 1
+
+#include <stdio.h>
+
+int main(void)
+{
+	int i;
+	int power_of_ten[5] = {
+							00001,
+							00010,
+							00100,
+							01000,
+							10000,
+						};
+	
+	for (i = 0; i < 5; ++i)
+		printf("%d ", power_of_ten[i]);
+	printf("\n");
+	
+	return 0;
+}
+
+In the above example, we have created an array of 5 elements, whose elements are power of ten (i.e. 1, 10, 100, 1000 and 10,000) and we are printing these element by using a  simple for loop. So we are expecting output of above program is ” 1 10 100 1000 and 10000″, but above program doesn’t show this output, instead it shows
+"1 8 64 512 10000" 
+Let us discuss above program in more detail. Inside array we declared elements which starts with “0”, and this is octal representation of decimal number (See this GFact for details).
+That’s why all these numbers are in octal representation. “010” is octal representation of decimal “8”, “0100” is octal representation of decimal “64” and so on.
+Last element “10000” which doesn’t start with “0”, that’s why it is in decimal format and it is printed as it is.

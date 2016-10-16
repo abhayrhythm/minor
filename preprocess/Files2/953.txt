@@ -1,0 +1,55 @@
+high level think null null pointer use c variou purpos 
+common use case null initi pointer variabl pointer variabl assign valid memori address yet 
+b check null pointer access pointer variabl 
+perform error handl pointer relat code e g 
+derefer pointer variabl null 
+c pass null pointer function argument want pass valid memori address 
+exampl int pint null exampl b pint null could use pint well code els code exampl c int fun int ptr fun specif stuff done ptr return 10 fun null note null pointer differ uniniti dangl pointer 
+specif program context uniniti dangl null pointer invalid null specif invalid pointer mention c standard specif purpos 
+mean uniniti dangl pointer invalid point memori address may access though memori access unintend 
+includ stdio h int main int j int ii null jj null j printf might get print j chanc 
+ii jj printf alway print coz ii jj 
+return 0 specif mention null pointer c standard give mechan use c programm use check whether given pointer legitim 
+exactli null defin 
+strictli speak null expand implement defin null pointer constant defin mani header file stdio h stddef h stdlib h etc 
+let us see c standard say null pointer 
+c11 standard claus 6 3 2 3 integ constant express valu 0 express cast type void call null pointer constant 
+null pointer constant convert pointer type result pointer call null pointer guarante compar unequ pointer object function proceed null discuss let mention line c standard case want refer studi 
+pleas note iso iec 9899 2011 c languag latest standard publish dec 2011 also call c11 standard 
+complet let us mention previou standard c c99 c90 also known iso c c89 also known ansi c 
+though actual c11 standard purchas iso draft document avail public domain free 
+come discuss null macro defin void 0 header file c compil implement 
+c standard say 0 also null pointer constant 
+mean follow also perfectli legal per standard 
+int ptr 0 pleas note 0 c statement use pointer context differ 0 integ 
+one reason usag null prefer make explicit code programm use null pointer integ 0 anoth import concept null null expand implement defin null pointer constant 
+statement also c11 claus 7 19 mean intern represent null pointer could non zero bit pattern convey null pointer 
+null alway intern repres zero bit pattern 
+compil implement choos repres null pointer constant bit pattern 1s anyth els 
+c programm worri much intern valu null pointer unless involv compil code even level code 
+said typic null repres bit set 0 
+know specif platform one use follow includ stdio h int main printf null return 0 like print 0 typic intern null pointer valu vari depend c compil platform 
+tri thing program printf c null printf null even printf f null 
+output go differ depend platform use interest especi usag f null 
+use sizeof oper null c 
+well usag sizeof null allow exact size would depend platform 
+includ stdio h int main printf sizeof null return 0 sinc null defin void 0 think null special pointer size would equal pointer 
+pointer size platform 4 byte output program would 4 pointer size platform 8 byte output program would 8 dereferenc null 
+go happen use follow c code includ stdio h int main int ptr null printf ptr return 0 machin would compil success crash program run though show behavior across machin 
+depend lot factor 
+idea mention snippet alway check null access 
+sinc null typic defin void 0 let us discuss littl bit void type well 
+per c11 standard claus 6 2 5 void type compris empti set valu incomplet object type cannot complet 
+even c11 claus 6 5 3 4 mention sizeof oper shall appli express function type incomplet type parenthes name type express design bit field member basic mean void incomplet type whose size make sens c program implement gcc choos sizeof void 1 flat memori point void pointer view untyp memori e 
+sequenc byte 
+output follow platform 
+includ stdio h int main printf sizeof void return 0 gcc would output 1 sizeof void 
+c11 mention guidelin 
+claus 6 2 5 pointer void shall represent align requir pointer charact type 
+output follow would pointer size machin 
+includ stdio h int main printf sizeof void return 0 inspit mention machin depend stuff c programm alway strive make code portabl possibl 
+conclud null follow 1 alway initi pointer variabl null 
+2 alway perform null check access pointer 
+pleas like tweet g 1 find use 
+also pleas leav us comment clarif info 
+would love help learn adsbygoogl window adsbygoogl push 

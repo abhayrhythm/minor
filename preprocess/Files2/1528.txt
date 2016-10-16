@@ -1,0 +1,20 @@
+given binari tree find length longest path compris node consecut valu increas order 
+everi node consid path length 1 exampl 10 11 9 13 12 13 8 maximum consecut path length 3 10 11 12 note 10 9 8 consid sinc node increas order 
+5 8 11 9 10 6 15 maximum consecut path length 2 8 9 
+everi node binari tree either becom part path start one parent node new path start node 
+key recurs find path length left right sub tree return maximum 
+case need consid travers tree discuss 
+prev store valu parent node 
+initi prev one less valu root node path start root length least 1 len store path length end parent current visit node 
+case 1 valu current node prev 1 case increas path length 1 recurs find path length left right sub tree return maximum two length 
+case 2 valu current node prev 1 new path start node recurs find path length left right sub tree 
+path end parent node current node might greater path start node take maximum path start node end previou node 
+c implement idea 
+c program find maximum consecut path length binari tree includ iostream use namespac std repres node binari tree struct node node left right int val creat new node return address node newnod int val node temp new node temp val val temp left temp right null return temp return maximum consecut path length int maxpathlenutil node root int prev_val int prev_len root return prev_len get valu current node valu current node prev node left right children int cur_val root val current node part consecut path 1 greater valu previou node cur_val prev_val 1 find length left path b find length right path return maximum left path right path return max maxpathlenutil root left cur_val prev_len 1 maxpathlenutil root right cur_val prev_len 1 find length maximum path subtre root node path may may includ node int newpathlen max maxpathlenutil root left cur_val 1 maxpathlenutil root right cur_val 1 take maximum previou path path subtre root node 
+return max prev_len newpathlen wrapper maxpathlenutil 
+int maxconsecutivepathlength node root return 0 root null root null return 0 els comput maximum consecut increas path length use maxpathlenutil 
+return maxpathlenutil root root val 1 0 drive program test function int main node root newnod 10 root left newnod 11 root right newnod 9 root left left newnod 13 root left right newnod 12 root right left newnod 13 root right right newnod 8 cout maximum consecut increas path length maxconsecutivepathlength root return 0 output maximum consecut increas path length 3 articl contribut chirag agarw 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,125 @@
+
+We recommend that you read about Time Speed Distance before proceeding on with this topic.
+Trains
+
+If two trains are moving in same direction with speeds a km / hr and b km / hr, then their relative speed would be |a – b| km / hr.
+If two trains are moving in different directions, i.e., coming towards each other or going away from each other, with speeds a km / hr and b km / hr, then their relative speed would be (a + b) km / hr.
+Time taken by a train, ‘t’ meters long, to pass a stationary object of length ‘l’ meters would be the time taken by the train to travel ‘t + l’ meters. For example, to cover a platform of 800 m, a train of length 200 m moving at the speed of 10 m / s would be the time taken by the train to cover 800 + 200 = 1000 m at the speed of 10 m / s, i.e., 1000 / 10 = 100 s.
+To pass a pole or a man or a post (or any stationary object with negligible length as compared to the length of the train, like if the train is 500 m long and a pole is 1 m in length), the time taken by the train would be the time it takes to travel the length of the train. For example, if a train of length 100 m is moving at the speed of 10 m / s, it would take 100 / 10 = 10 s to pass a pole / man / post.
+If two trains of lengths L1 and L2 are moving in the same direction with speeds S1 and S2, then the time required by faster train to overtake the slower train would be the time taken to cover an equivalent distance of L1 + L2, with relative speed |S1 – S2|, i.e., Time = (L1 + L2) / |S1 – S2|.
+If two trains of lengths L1 and L2 are moving in opposite directions with speeds S1 and S2, then the time required by the trains to cross each other completely would be the time taken to cover an equivalent distance of L1 + L2, with relative speed (S1 + S2), i.e., Time = (L1 + L2) / (S1 + S2).
+If two trains started moving towards each other at the same time with speeds S1 and S2 respectively and after meeting, they take ‘T1′ and ‘T2′ seconds respectively, then S1 : S2 = T21/2 : T11/2
+
+Boats and Streams
+
+
+If the boat is moving in the direction of the stream, it is said to be going downstream. And if the boat is moving opposite to the direction of stream, it is said to be going upstream.
+If the speed of boat in still water is B km / hr and speed of the stream is S km / hr,
+
+Speed Upstream = B – S km / hr
+Speed Downstream = B + S km / hr
+
+
+If the speed upstream is U km / hr and speed downstream is D km / hr,
+
+Speed of boat in still water = 0.5 x (D + U) km / hr
+Speed of stream = 0.5 x (D – U) km / hr
+
+
+
+
+Sample Problems
+Question 1 : A 100 m long train moving at a speed of 60 km / hr passes a man standing on a pavement near a railway track. Find the time taken by the train to pass the man.
+Solution : Length of the train = 100 m = 0.1 km
+Speed of the train = 60 km / hr
+So, time taken by the train to pass the man = time taken to cover 0.1 km at the speed of 60 km / hr
+Therefore, time taken by the train to pass the man = 0.1 / 60 hour = (0.1 / 60) x 3600 sec = 6 sec
+Question 2 : How long does a train 1000 m long moving at a speed of 90 km / hr would take to pass through a 500 m long bridge?
+Solution : Here, time taken by the train to pass the bridge completely would be the time it takes to cover 1000 + 500 = 1500 m at the speed of 90 km / hr = 90 x (5/18) = 25 m / sec.
+Therefore, time required = 1500 / 25 = 60 sec = 1 minute
+Question 3 : A man standing near a railway track observes that a train passes him in 80 seconds but to pass by a 180 m long bridge, the same train takes 200 seconds. Find the speed of the train.
+Solution : Let the length of the train be L meters.
+=> The train covers L meters in 80 seconds and L + 180 meters in 200 seconds, with the same speed.
+We know that Speed = Distance / Time.
+=> Speed = L / 80 = (L + 180) / 200
+=> L / 80 = (L + 180) / 200
+=> 2.5 L = L + 180
+=> 1.5 L = 180
+=> L = 120
+Thus, speed of the train = 120 / 80 = 1.5 m / sec
+Question 4 : Two trains 140 m and 160 m long are moving towards each other on parallel tracks with speeds 40 km / hr and 50 km / hr respectively. How much time would they take to pass each other completely ?
+Solution : Total distance to be covered = 140 + 160 m = 300 m
+Relative speed = 40 + 50 = 90 km / hr = 90 x (5 / 18) m / sec = 25 m / sec
+Therefore, time taken to pass each other = 300 / 25 = 12 sec
+Question 5 : Two trains 140 m and 160 m long are moving in the same direction on parallel tracks with speeds 40 km / hr and 50 km / hr respectively. How much time would the faster train require to overtake the slower train ?
+Solution : Total distance to be covered = 140 + 160 m = 300 m
+Relative speed = 50 – 40 = 10 km / hr = 10 x (5 / 18) m / sec = 50 / 18 m / sec
+Therefore, time taken by faster train to overtake the slower train = 300 / (50/18) = 108 sec
+Question 6 : A 500 m long train takes 36 seconds to cross a man walking in the opposite direction at the speed of 10 km / hr. Find the speed of the train.
+Solution : Let the speed of the train be T km / hr.
+=> Relative speed = T + 10 km / hr
+=> Length of the train = 500 m = 0.5 km
+We know that Distance = Speed x Time
+=> 0.5 = (T + 10) x (36 / 3600)
+=> 50 = T + 10
+=> T = 40 km / hr
+Therefore, speed of the train is 40 km / hr.
+Question 7 : A non – stop train started from Delhi towards Mumbai and at the same time, another non – stop train started from Mumbai towards Delhi. If after meeting in Bhopal they took 9 and 16 hours respectively to reach their destinations, find the speed of the train that started from Delhi, given that the speed of the train that started from Mumbai was moving at a speed of 90 km / hr.
+Solution : We know that for two trains starting at the same time, S1 : S2 = T21/2 : T11/2
+Here, S2 = 90 km / hr
+T1 = 9  hrs
+T2 = 16  hrs
+=> S1 : 90 = 4 : 3
+=> S1 = 120 km / hr
+Therefore, speed of train that started from Delhi = 120 km / hr
+Question 8 : A boatman can row a boat upstream at 14 km / hr and downstream at 20 km / hr. Find the speed of the boat in still water and speed of the stream.
+Solution : We are given that speed downstream, D = 20 km / hr and speed upstream, U = 14 km / hr
+Therefore, Speed of boat in still water = 0.5 x (D + U) km / hr = 0.5 x (14 + 20) = 17 km / hr
+Also, speed of the stream = 0.5 x (D – U) km / hr = 0.5 x (20 – 14) = 3 km / hr
+Another method : 
+Speed of the stream = 0.5 x (D – U) = 0.5 x 6 = 3 km / hr
+Speed of the boat in still water = Speed of the stream + Speed Upstream = 3 + 14 = 17 km / hr
+Question 9 : A boatman can row a boat at the speed of 5 km upstream and 15 km downstream. To cover upstream he needs 2.5 hours and to cover downstream, he needs 1.5 hours. Find the speed of the stream and speed of the boat in still water.
+Solution : We are given that the boatman covers 5 km upstream in 2.5 hours and 15 km downstream in 10 hours.
+=> Speed upstream, U = 5 / 2.5 = 2 km / hr
+=> Speed downstream, D = 15 / 1.5 = 10 km / hr
+Therefore, Speed of boat in still water = 0.5 x (D + U) km / hr = 0.5 x (10 + 2) = 6 km / hr
+Also, speed of the stream = 0.5 x (D – U) km / hr = 0.5 x (10 – 2) = 4 km / hr
+Question 10 : A man has to go from a port to an island and return. He can row a boat with the speed 7 km / hr in still water. The speed of the stream is 2 km / hr. If he takes 56 minutes to complete the round trip, find the distance between the port and the island.
+Solution : Speed upstream = 7 – 2 = 5 km / hr
+Speed downstream = 7 + 2 = 9 km / hr
+Let the distance between the port and the island be D km. Also, we know that Time = Distance / Speed
+=> (D/5) + (D/9) = 56/60
+=> (14 D) / 45 = 56 / 60
+=> D = 3 km
+Therefore, distance between the port and the island = 3 km
+Question 11 : In a boat race, a person rows a boat 6 km upstream and return to the starting point in 4 hours. If the speed of the stream is 2 km / hr, find the speed of the boat in still water.
+Solution : Let the speed of the boat in still water be B km / hr.
+=> Speed upstream = (B – 2) km / hr
+=> Speed downstream = (B + 2) km / hr
+We know that Time = Distance / Speed
+=> 6/(B-2) + 6/(B+2) = 4
+=> 6 B + 12 + 6 B – 12 = 4 (B – 2) (B + 2)
+=> 12 B = 4 (B – 2) (B + 2)
+=> 3 B = B2 – 4
+=> B2 – 3 B – 4 = 0
+=> (B + 1) (B – 4) = 0
+=> B = 4 km / hr (Speed cannot be negative)
+Question 12 : A racer can row a boat 30 km upstream and 44 km downstream in 10 hours. Also, he can row 40 km upstream and 55 km downstream in 13 hours. Find the speed of the boat in still water and speed of the stream.
+Solution : Let the speed upstream be U km / hr and speed downstream be D km / hr.
+We know that Distance / Speed = Time
+=> (30 / U) + (44 / D) = 10 and (40 / U) + (55 / D) = 13
+Solving the above pair of linear equations, we get
+D = 11 km / hr
+U = 5 km / hr
+Therefore, Speed of boat in still water = 0.5 x (D + U) km / hr = 0.5 x (11 + 5) = 8 km / hr
+Also, speed of the stream = 0.5 x (D – U) km / hr = 0.5 x (11 – 5) = 3 km / hr
+This article has been contributed by Nishant Arora
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

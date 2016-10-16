@@ -1,0 +1,59 @@
+
+The problem is to create a class such that the non-dynamic allocation of object causes compiler error.  For example, create a class ‘Test’ with following rules.
+
+    Test t1;  // Should generate compiler error
+    Test *t3 = new Test; // Should work fine
+
+The idea is to create a private destructor in the class.  When we make a private destructor, the compiler would generate a compiler error for non-dynamically allocated objects because compiler need to remove them from stack segment once they are not in use.
+Since compiler is not responsible for deallocation of dynamically allocated objects (programmer should explicitly deallocate them), compiler won’t have any problem with them.  To avoid memory leak, we create a friend function destructTest() which can be called by users of class to destroy objects.
+
+#include <iostream>
+using namespace std;
+
+// A class whose object can only be dynamically created
+class Test
+{
+private:
+    ~Test() { cout << "Destroying Object\n"; }
+public:
+     Test() { cout << "Object Created\n"; }
+friend void destructTest(Test* );
+};
+
+// Only this function can destruct objects of Test
+void destructTest(Test* ptr)
+{
+    delete ptr;
+    cout << "Object Destroyed\n";
+}
+
+int main()
+{
+    /* Uncommenting following following line would cause compiler error */
+    // Test t1;
+
+    // create an object
+    Test *ptr = new Test;
+
+    // destruct the object to avoid memory leak
+    destructTest(ptr);
+
+    return 0;
+}
+
+Output:
+
+Object Created
+Destroying Object
+Object Destroyed
+If we don’t want to create a friend function, we can also overload delete and delete[] operators in Test, this way we don’t have to call a specific function to delete dynamically allocated objects.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

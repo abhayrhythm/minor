@@ -1,0 +1,21 @@
+given direct graph check whether graph contain cycl 
+function return true given graph contain least one cycl els return fals 
+exampl follow graph contain three cycl 0 2 0 0 1 2 0 3 3 function must return true 
+solut depth first travers use detect cycl graph 
+df connect graph produc tree 
+cycl graph back edg present graph 
+back edg edg node selfloop one ancestor tree produc df 
+follow graph 3 back edg mark cross sign 
+observ 3 back edg indic 3 cycl present graph 
+disconnect graph get df forrest output 
+detect cycl check cycl individu tree check back edg 
+detect back edg keep track vertic current recurs stack function df travers 
+reach vertex alreadi recurs stack cycl tree 
+edg connect current vertex vertex recurs stack back edg 
+use recstack array keep track vertic recurs stack 
+c program detect cycl graph includ iostream includ list includ limit h use namespac std class graph int v 
+vertic list int adj pointer array contain adjac list bool iscyclicutil int v bool visit bool rs use iscycl public graph int v constructor void addedg int v int w add edg graph bool iscycl return true cycl graph graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+function variat dfsuytil http www geeksforgeek org archiv 18212 bool graph iscyclicutil int v bool visit bool recstack visit v fals mark current node visit part recurs stack visit v true recstack v true recur vertic adjac vertex list int iter adj v begin adj v end visit iscyclicutil visit recstack return true els recstack return true recstack v fals remov vertex recurs stack return fals return true graph contain cycl els fals 
+function variat df http www geeksforgeek org archiv 18212 bool graph iscycl mark vertic visit part recurs stack bool visit new bool v bool recstack new bool v int 0 v visit fals recstack fals call recurs helper function detect cycl differ df tree int 0 v iscyclicutil visit recstack return true return fals int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 g iscycl cout graph contain cycl els cout graph contain cycl return 0 output graph contain cycl time complex method time complex df travers v e 
+articl anoth v e method discuss detect cycl direct graph use color pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

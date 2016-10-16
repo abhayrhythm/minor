@@ -1,0 +1,23 @@
+
+Given a graph with both directed and undirected edges. It is given that the directed edges don’t form cycle.  How to assign directions to undirected edges so that the graph (with all directed edges) remains acyclic even after the assignment?  
+For example, in the below graph, blue edges don’t have directions.
+
+We strongly recommend to minimize your browser and try this yourself first.
+The idea is to use Topological Sorting.  Following are two steps used in the algorithm.  
+1) Consider the subgraph with directed edges only and find topological sorting of the subgraph.  In the above example, topological sorting is {0, 5, 1, 2, 3, 4}. Below diagram shows topological sorting for the above example graph.
+
+2) Use above topological sorting to assign directions to undirected edges.  For every undirected edge (u, v), assign it direction from u to v if u comes before v in topological sorting, else assign it direction from v to u.
+Below diagram shows assigned directions in the example graph.
+
+
+Source:  http://courses.csail.mit.edu/6.006/oldquizzes/solutions/q2-f2009-sol.pdf
+This article is contributed by Aditya Agrawal. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

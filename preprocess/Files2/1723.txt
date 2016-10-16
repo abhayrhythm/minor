@@ -1,0 +1,16 @@
+topolog sort direct acycl graph dag linear order vertic everi direct edg uv vertex u come v order 
+topolog sort graph possibl graph dag 
+given dag print topolog sort graph 
+exampl consid graph 
+topolog sort given graph 4 5 0 2 3 1 4 5 2 0 3 1 4 5 2 3 0 1 4 5 2 3 1 0 5 2 3 4 0 1 5 2 3 4 1 0 5 2 4 0 3 1 5 2 4 3 0 1 5 2 4 3 1 0 5 4 0 2 3 1 5 4 2 0 3 1 5 4 2 3 0 1 5 4 2 3 1 0 direct acycl graph mani time vertic unrel order mani way 
+variou topolog sort import mani case exampl rel weight also avail vertic minim need take care rel order well rel weight creat need check possibl topolog order 
+go possibl order via backtrack algorithm step follow initi vertic unvisit 
+choos vertex unvisit zero indegre decreas indegre vertic 1 correspond remov edg add vertex result call recurs function backtrack 
+return function reset valu visit result indegre enumer possibl 
+c implement step 
+c program print topolog sort graph includ bit stdc h use namespac std class graph int v 
+vertic pointer array contain adjac list list int adj vector store indegre vertic vector int indegre function use alltopologicalsort void alltopologicalsortutil vector int re bool visit public graph int v constructor function add edg graph void addedg int v int w print topolog sort void alltopologicalsort constructor graph graph graph int v v v adj new list int v initialis indegre 0 int 0 v indegre push_back 0 util function add edg void graph addedg int v int w adj v push_back w add w v list 
+increas inner degre w 1 indegre w main recurs function print possibl topolog sort void graph alltopologicalsortutil vector int re bool visit indic whether topolog found bool flag fals int 0 v indegre 0 yet visit choos vertex indegre 0 visit reduc indegre adjac vertic list int iter j j adj begin j adj end j indegre j includ result re push_back visit true alltopologicalsortutil re visit reset visit re indegre backtrack visit fals re eras re end 1 j adj begin j adj end j indegre j flag true reach vertic visit 
+print solut flag int 0 re size cout re cout endl function topolog sort 
+use recurs alltopologicalsortutil void graph alltopologicalsort mark vertic visit bool visit new bool v int 0 v visit fals vector int re alltopologicalsortutil re visit driver program test function int main creat graph given diagram graph g 6 g addedg 5 2 g addedg 5 0 g addedg 4 0 g addedg 4 1 g addedg 2 3 g addedg 3 1 cout topolog sort n g alltopologicalsort return 0 output topolog sort 4 5 0 2 3 1 4 5 2 0 3 1 4 5 2 3 0 1 4 5 2 3 1 0 5 2 3 4 0 1 5 2 3 4 1 0 5 2 4 0 3 1 5 2 4 3 0 1 5 2 4 3 1 0 5 4 0 2 3 1 5 4 2 0 3 1 5 4 2 3 0 1 5 4 2 3 1 0 articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

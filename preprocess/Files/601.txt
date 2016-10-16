@@ -1,0 +1,59 @@
+
+What is a Data Structure?
+A data structure is a way of organizing the data so that the data can be used efficiently. Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. For example, B-trees are particularly well-suited for implementation of databases, while compiler implementations usually use hash tables to look up identifiers. (Source: Wiki Page)
+Which data structures are used for BFS and DFS of a graph?
+Queue is used for BFS and Stack is used for DFS. DFS can also be implemented using recursion (Note that recursion also uses function call stack).
+Can doubly linked be implemented using a single pointer variable in every node?
+Doubly linked list can be implemented using a single pointer. See XOR Linked List – A Memory Efficient Doubly Linked List
+How to implement a stack using queue?
+See Implement Stack using Queues
+How to implement a queue using stack?
+See Implement Queue using Stacks
+Linked List Questions
+Linked List Insertion, Linked List Deletion, middle of a given linked list, Nth node from the end of a Linked List,
+Tree Traversal Questions
+Inorder, Preorder and Postoder Traversals, Level order traversal, Height of Binary Tree.
+How to check if a given Binary Tree is BST or not?
+If inorder traversal of a binary tree is sorted, then the binary tree is BST. The idea is to simply do inorder traversal and while traversing keep track of previous key value. If current key value is greater, then continue, else return false. See A program to check if a binary tree is BST or not for more details.
+Convert a DLL to Binary Tree in-place
+See In-place conversion of Sorted DLL to Balanced BST
+Convert Binary Tree to DLL in-place
+See Convert a given Binary Tree to Doubly Linked List | Set 1, Convert a given Binary Tree to Doubly Linked List | Set 2
+Delete a given node in a singly linked list
+Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?
+Reverse a Linked List
+Write a function to reverse a linked list
+Detect Loop in a Lined List
+Write a C function to detect loop in a linked list.
+Which data structure is used for dictionary and spell checker?
+Data Structure for Dictionary and Spell Checker?
+Which Data Structure Should be used for LRU cache?
+How to implement LRU caching scheme? What data structures should be used?
+
+Practice Quizzes on Data Structures
+ Last Minute Notes – DS
+
+You may also like 
+
+
+Common Interview Puzzles
+Amazon’s most asked interview questions
+Microsoft’s most asked interview questions
+Accenture’s most asked Interview Questions
+Commonly Asked OOP Interview Questions
+Commonly Asked C++ Interview Questions, 
+Commonly Asked C Programming Interview Questions | Set 1
+Commonly Asked C Programming Interview Questions | Set 2
+Commonly asked DBMS interview questions | Set 1
+Commonly Asked Operating Systems Interview Questions | Set 1
+Commonly Asked Data Structure Interview Questions
+Commonly Asked Algorithm Interview Questions
+
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

@@ -1,0 +1,11 @@
+difficulti level rooki given stream number print averag mean stream everi point 
+exampl let us consid stream 10 20 30 40 50 60 averag 1 number 10 00 averag 2 number 15 00 averag 3 number 20 00 averag 4 number 25 00 averag 5 number 30 00 averag 6 number 35 00 print mean stream need find find averag new number ad stream 
+need count number seen far stream previou averag new number 
+let n count prev_avg previou averag x new number ad 
+averag includ x number written prev_avg n x n 1 
+includ stdio h return new averag includ x float getavg float prev_avg int x int n return prev_avg n x n 1 print averag stream number void streamavg float arr int n float avg 0 int 0 n avg getavg avg arr printf averag number f n 1 avg return driver program test function int main float arr 10 20 30 40 50 60 int n sizeof arr sizeof arr 0 streamavg arr n return 0 function getavg optim use follow chang 
+avoid use prev_avg number element use static variabl assum function call averag stream 
+follow oprimn version 
+includ stdio h return new averag includ x float getavg int x static int sum n sum x return float sum n print averag stream number void streamavg float arr int n float avg 0 int 0 n avg getavg arr printf averag number f n 1 avg return driver program test function int main float arr 10 20 30 40 50 60 int n sizeof arr sizeof arr 0 streamavg arr n return 0 thank abhijeet deshpand suggest optim version 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

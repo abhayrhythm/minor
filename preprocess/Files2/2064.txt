@@ -1,0 +1,4 @@
+c member function declar virtual function base class becom virtual everi class deriv base class 
+word necessari use keyword virtual deriv class declar redefin version virtual base class function 
+sourc http www umsl edu subramaniana virtual2 html exampl follow program print c fun call b fun becom virtual automat 
+includ iostream use namespac std class public virtual void fun cout n fun call class b public public void fun cout n b fun call class c public b public void fun cout n c fun call int main c c object class c b b c pointer type b point c b fun line print c fun call getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

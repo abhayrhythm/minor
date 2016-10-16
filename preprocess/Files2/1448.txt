@@ -1,0 +1,60 @@
+parti n peopl one person known everyon 
+person may present parti ye know anyon parti 
+ask question like know b 
+
+find stranger celebr minimum number question 
+describ problem input array number charact repres person parti 
+also hypothet function haveacquaint b return true know b fals otherwis 
+solv problem 
+measur complex term call made haveacquaint 
+method 1 graph model solut use graph 
+initi indegre outdegre everi vertex 0 know b draw direct edg b increas indegre b outdegre 1 construct possibl edg graph everi possibl pair j 
+nc2 pair 
+celebr present parti one sink node graph outdegre zero indegre n 1 
+find sink node n time overal complex n2 need construct graph first 
+method 2 recurs decompos problem combin smaller instanc 
+say know celebr n 1 person extend solut n 
+two possibl celebr n 1 may know n n alreadi knew celebr n 1 
+former case n celebr n know anyon els 
+later case need check celebr n 1 know n solv problem smaller instanc divid step 
+way back find celebr present smaller instanc 
+combin stage check whether return celebr known everyon know anyon 
+recurr recurs decomposit n n 1 n n n2 
+may tri write pseudo code check recurs skill 
+method 3 use stack graph construct take n2 time similar brute forc search 
+case recurs reduc problem instanc one also combin step may examin 1 person instanc size 
+follow observ base elimin techniqu refer polya solv book 
+know b celebr 
+discard b may celebr 
+know b b celebr 
+discard b may celebr 
+repeat two step till left one person 
+ensur remain person celebr 
+need step 
+use stack veriti celebr 
+push celebr stack 
+pop top two person stack discard one person base return statu haveacquaint b 
+push remain person onto stack 
+repeat step 2 3 one person remain stack 
+check remain person stack acquaint anyon els 
+discard n element utmost 
+celebr present parti call haveacquaint 3 n 1 time 
+code use stack 
+c program find celebr includ bit stdc h includ list use namespac std max person parti defin n 8 person 2 celebr bool matrix n n 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 bool know int int b return matrix b return 1 celebr present 
+present return id valu 0 n 1 
+int findcelebr int n handl trivial case size 2 stack int int c celebr push everybodi stack int 0 n push extract top 2 int top pop int b top pop find potenti celevr size 1 know b top pop els b top pop potenti candid 
+c top pop last candid examin lead one excess comparison optim know c b c b know c c check c actual celebr int 0 n person know know person return 1 c know c know c return 1 return c driver code int main int n 4 int id findcelebr n id 1 
+cout celebr cout celebr id id return 0 output celebr id 2 complex n 
+total comparison 3 n 1 
+tri code success matrix 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 
+note may think need new graph alreadi access input matrix 
+note matrix matrix use help hypothet function haveacquaint b never access via usual notat matrix j 
+access input function haveacquiant b 
+matrix way code solut 
+assum cost hypothet function 1 
+still clear assum function haveacquiant access inform store set link list arrang level 
+list node next nextlevel pointer 
+everi level n node e 
+n element list next point next node current level list nextlevel pointer last node everi list point head next level list 
+exampl link list represent matrix look like l0 0 0 1 0 l1 0 0 1 0 l2 0 0 1 0 l3 0 0 1 0 function haveacquanint j search list j th node th level 
+goal minim call haveacquanint function 

@@ -8,5 +8,5 @@ class User(Document):
     email = StringField(required=True)
     name = StringField(max_length=50,required=True)
     username = StringField(max_length=50,required=True)
-    photo=FileField
+    photo=FileField(required=True)
     password=StringField(required=True)

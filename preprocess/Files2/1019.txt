@@ -1,0 +1,12 @@
+predict output program 
+question 1 char getstr char str print 
+return str int main printf getstr getchar output garbag valu program work array variabl store stack section 
+getstr return valu str delet str becom dangl pointer 
+question 2 int main static int 5 main printf output 0 0 0 0 explan sinc static variabl store data section call main share question 3 int main static int var 5 printf var var main output 5 4 3 2 1 explan previou question 
+differ sequenc call main printf chang therefor differ output 
+question 4 int main int x printf scanf x suppos input valu given scanf 20 return 1 output 1 scanf return 
+input success read 
+question 5 includ stdio h int main int 0 0 20 switch case 0 5 case 1 2 case 5 5 default 4 break printf getchar return 0 output 16 21 explan initi 0 sinc case 0 true becom 5 sinc break statement till last statement switch block becom 16 next iter case true execut goe default becom 21 c one case true switch block execut find break statement 
+break statement present case execut true case 
+want know switch implement like well implement use situat like 
+switch c case case e case case case u printf vowel charact break default printf vowel charact break adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,33 @@
+given number one 1 0 binari represent find posit set bit 
+sourc microsoft interview 18 strongli recommend click practic move solut 
+idea start rightmost bit one one check valu everi bit 
+follow detail algorithm 
+1 number power two binari represent contain one 1 
+check whether given number power 2 
+given number power 2 print error messag exit 
+2 initi two variabl 1 loop po 1 find posit set bit 3 insid loop bitwis number n 
+valu oper true po bit set break loop return posit 
+otherwis increment po 1 left shift 1 repeat procedur 
+c program find posit set bit given number includ stdio h util function check whether n power 2 
+see http goo gl 17arj int ispoweroftwo unsign n return n 
+n n 1 return posit set bit n int findposit unsign n ispoweroftwo n return 1 unsign 1 po 1 iter bit n till find set bit n non zero n set bit posit 
+n unset current bit set next bit 1 increment posit po return po driver program test function int main void int n 16 int po findposit n po 1 
+printf n invalid number n n printf n posit n n po n 12 po findposit n po 1 
+printf n invalid number n n printf n posit n n po n 128 po findposit n po 1 
+printf n invalid number n n printf n posit n n po return 0 output n 16 posit 5 n 12 invalid number n 128 posit 8 follow anoth method problem 
+idea one one right shift set bit given number n n becom 0 count mani time shift make n zero 
+final count posit set bit 
+c program find posit set bit given number includ stdio h util function check whether n power 2 int ispoweroftwo unsign n return n 
+n n 1 return posit set bit n int findposit unsign n ispoweroftwo n return 1 unsign count 0 one one move set bit right till reach end n n n 1 increment count shift count return count driver program test function int main void int n 0 int po findposit n po 1 
+printf n invalid number n n printf n posit n n po n 12 po findposit n po 1 
+printf n invalid number n n printf n posit n n po n 128 po findposit n po 1 
+printf n invalid number n n printf n posit n n po return 0 output n 0 invalid number n 12 invalid number n 128 posit 8 also use log base 2 find posit 
+thank arunkumar suggest solut 
+includ stdio h unsign int log2n unsign int n return n 1 
+1 log2n n 2 0 int ispoweroftwo unsign n return n 
+n n 1 int findposit unsign n ispoweroftwo n return 1 return log2n n 1 driver program test function int main void int n 0 int po findposit n po 1 
+printf n invalid number n n printf n posit n n po n 12 po findposit n po 1 
+printf n invalid number n n printf n posit n n po n 128 po findposit n po 1 
+printf n invalid number n n printf n posit n n po return 0 output n 0 invalid number n 12 invalid number n 128 posit 8 articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,13 @@
+two tree ident data arrang data also 
+identifi two tree ident need travers tree simultan travers need compar data children tree 
+exampl input root tree 10 10 5 6 5 output fals input root tree 10 10 5 6 5 6 output true discuss recurs solut 
+articl iter solut discuss 
+idea use level order travers 
+travers tree simultan compar data whenev dequeu item queue 
+c implement idea 
+iter c program check two includ bit stdc h use namespac std binari tree node struct node int data struct node left right iter method find height bianri tree bool areident node root1 node root2 return true tree empti root1 root2 return true return fals one empti root1 root2 return fals creat empti queue simultan travers queue node q1 q2 enqueu root tree respect queue q1 push root1 q2 push root2 q1 empti q2 empti get front node compar node n1 q1 front node n2 q2 front n1 data n2 data return fals remov front node queue q1 pop q2 pop enqueu left children node n1 left n2 left q1 push n1 left q2 push n2 left one left child empti els n1 left n2 left return fals right child code similar left child code n1 right n2 right q1 push n1 right q2 push n2 right els n1 right n2 right return fals return true util function creat new tree node node newnod int data node temp new node temp data data temp left temp right null return temp driver program test function int main node root1 newnod 1 root1 left newnod 2 root1 right newnod 3 root1 left left newnod 4 root1 left right newnod 5 node root2 newnod 1 root2 left newnod 2 root2 right newnod 3 root2 left left newnod 4 root2 left right newnod 5 areident root1 root2 
+cout ye cout return 0 output ye time complex solut n n number node two tree 
+articl contribut ankur lathiya like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

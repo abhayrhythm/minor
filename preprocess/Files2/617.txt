@@ -1,0 +1,50 @@
+round 1 q1 
+implement memcpi function 
+make compil give warn user pass nomberofbyt less equal zero 
+q2 
+write code multipli two matrix 
+q3 
+simd 
+q4 
+differ ipc mechanisam 
+q5 
+find least common ancestor n ari tree given pointer two node 
+tree structur parent pointer 
+q6 
+principl dynam program 
+round 2 q1 
+design like unlik featur facebook one upload photo 
+u notifi user alreadi like photo 
+observ pattern 10 million user like photo time handl scenario 
+solut duplic photo instanc multipl server base load balanc parallel reduct techniqu like lock like server server broadcast number l ike server q2 
+write code inord travers tree 
+recurs iter use stack 
+q3 
+given matrix size nxn mani way go 0 0 n 1 n 1 
+recurs dp base solut 
+q4 
+given matrix sise nxn fill 0s 1s 
+cant step cell zero 
+shortest path go 0 0 n 1 n 1 
+recurs dp base solut 
+round 3 director round q1 
+need copi constructor 
+q2 
+write method signatur copi constructor 
+q3 
+write method signatur oper overload 
+q4 
+implement stack support push pop function 
+write product level code 
+question relat work behavior question 
+round 4 q1 two player b pot gold arrang line contain gold coin player see mani gold coin gold pot perfect inform 
+get altern turn player pick pot one end line 
+winner player highest number gold coin end 
+object maxim number gold coin collect assum b also play optim 
+start game 
+need tell final state player 
+q2 
+array like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

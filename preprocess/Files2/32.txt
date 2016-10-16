@@ -1,0 +1,9 @@
+problem sort view follow 
+input sequenc n number a1 a2 
+
+
+
+output permut reorder 1 2 
+
+
+n input sequenc 1 2 

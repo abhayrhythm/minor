@@ -1,0 +1,14 @@
+given string find longest substr palindrom 
+exampl given string forgeeksskeegfor output geeksskeeg 
+discuss dynam program solut previou post 
+time complex dynam program base solut n 2 requir n 2 extra space 
+find longest palindrom substr n 2 time 1 extra space 
+idea gener even length odd length palindrom keep track longest palindrom seen far 
+step gener odd length palindrom fix centr expand direct longer palindrom 
+step gener even length palindrom fix two centr low high expand direct longer palindrom 
+c c n 2 time 1 space program find longest palindrom substr includ stdio h includ string h util function print substr str low high void printsubstr char str int low int high int low high printf c str function print longest palindrom substr lp str 
+also return length longest palindrom int longestpalsubstr char str int maxlength 1 result length lp int start 0 int len strlen str int low high one one consid everi charact center point even length palindrom int 1 len find longest even length palindrom center point 1 low 1 high low 0 high len str low str high high low 1 maxlength start low maxlength high low 1 low high find longest odd length palindrom center point low 1 high 1 low 0 high len str low str high high low 1 maxlength start low maxlength high low 1 low high printf longest palindrom substr printsubstr str start start maxlength 1 return maxlength driver program test function int main char str forgeeksskeegfor printf nlength n longestpalsubstr str return 0 python n 2 time 1 space program find longest palindrom substr function print longest palindrom substr lp str 
+also return length longest palindrom def longestpalsubstr string maxlength 1 start 0 length len string low 0 high 0 one one consid everi charact center point even length palindrom xrang 1 length find longest even length palindrom center point 1 low 1 high low 0 high length string low string high high low 1 maxlength start low maxlength high low 1 low 1 high 1 find longest odd length palindrom center point low 1 high 1 low 0 high length string low string high high low 1 maxlength start low maxlength high low 1 low 1 high 1 print longest palindrom substr print string start start maxlength return maxlength driver program test function string forgeeksskeegfor print length str longestpalsubstr string code contribut bhavya jain output longest palindrom substr geeksskeeg length 10 time complex n 2 n length input string 
+auxiliari space 1 soon ad optim method separ post 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

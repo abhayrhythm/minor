@@ -1,0 +1,32 @@
+match bipartit graph set edg chosen way two edg share endpoint 
+maximum match match maximum size maximum number edg 
+maximum match edg ad longer match 
+one maximum match given bipartit graph 
+discuss import maximum match ford fulkerson base approach maxim bipartit match previou post 
+time complex ford fulkerson base algorithm v x e 
+hopcroft karp algorithm improv run v x e time 
+let us defin term discuss algorithm free node vertex given match node part match call free node 
+initi vertic free see first graph diagram 
+second graph u2 v2 free 
+third graph vertex free 
+match match edg given match edg part match call match edg edg part connect free node call match edg 
+first graph edg non match 
+second graph u0 v1 u1 v0 u3 v3 match other match 
+altern path given match altern path path edg belong altern match match 
+singl edg path altern path 
+exampl altern path middl graph u0 v1 u2 u2 v1 u0 v2 
+augment path given match augment path altern path start end free vertic 
+singl edg path start end free vertic augment path 
+diagram augment path highlight blue color 
+note augment path alway one extra match edg 
+hopcroft karp algorithm base concept 
+match maximum exist augment path 
+also true way e match maximum augment path exist idea one one look augment path 
+add found path current match 
+hopcroft karp algorithm 1 initi maxim match empti 
+2 exist augment path p remov match edg p add match edg p increas size 1 p start end free vertex 3 return diagram show work algorithm 
+initi graph singl edg augment path pick order 
+middl stage one augment path 
+remov match edg path add match edg 
+final match augment path match maximum 
+implement hopcroft karp algorithm discuss set 2 hopcroft karp algorithm maximum match set 2 implement refer http en wikipedia org wiki hopcroft e2 80 93karp_algorithm http www di uniroma1 leon tc lecture2 pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

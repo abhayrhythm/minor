@@ -1,0 +1,25 @@
+n pair therefor 2n peopl 
+everyon one uniqu number rang 1 2n 
+2n person arrang random fashion array size 2n 
+also given partner 
+find minimum number swap requir arrang pair pair becom adjac 
+exampl input n 3 pair 1 3 2 6 4 5 1 partner 3 arr 3 5 6 4 1 2 output 2 get 3 1 5 4 6 2 swap 5 6 6 1 sourc googl interview question strongli recommend minim browser tri first 
+idea start first second element recur remain element 
+detail step 1 first second element pair simpli recur remain n 1 pair return valu return recurs call 
+2 first second pair two way arrang 
+tri return minimum two 
+swap second pair first recur n 1 element 
+let valu return recurs call 
+b revert chang made previou step 
+c swap first pair second recur n 1 element 
+let valu return recurs call b 
+revert chang made previou step return control parent call 
+e return 1 min b c implement algorithm 
+c program find minimum number swap requir pair becom adjac 
+includ bit stdc h use namespac std function updat index element b void updateindex int index int int ai int b int bi index ai index b bi function return minimum number swap requir arrang element arr n becom arang int minswapsutil int arr int pair int index int int n pair proces swap need return 0 n return 0 current pair valid disturb pair move ahead 
+pair arr arr 1 return minswapsutil arr pair index 2 n reach arr arr 1 form pair swap pair arr arr 1 recurs comput minimum swap requir move made 
+int one arr 1 int indextwo 1 int indexon index pair arr int two arr index pair arr swap arr 1 arr indexon updateindex index one indexon two indextwo int minswapsutil arr pair index 2 n backtrack previou configur 
+also restor previou indic one two swap arr 1 arr indexon updateindex index one indextwo two indexon one arr indexon index pair arr 1 swap arr pair arr 1 recurs comput minimum swap requir subproblem move two arr index pair arr 1 indextwo swap arr arr indexon updateindex index one indexon two indextwo int b minswapsutil arr pair index 2 n backtrack previou configur 
+also restor previou indic one two swap arr arr indexon updateindex index one indextwo two indexon return minimum two case return 1 min b return minimum swap requir int minswap int n int pair int arr int index 2 n 1 store indic array element store index element array index int 1 2 n index arr call recurs function return minswapsutil arr pair index 1 2 n driver program int main simplic assum arr 0 use 
+element index 1 n valid element int arr 0 3 5 6 4 1 2 b pair assign element array pair b pair b int pair 0 3 6 1 5 4 2 int sizeof arr sizeof arr 0 int n 2 number pair n half total element n element array n pair cout min swap requir minswap n pair arr return 0 output min swap requir 2 thank gaurav ahirwar solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

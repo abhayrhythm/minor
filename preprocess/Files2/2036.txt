@@ -1,0 +1,5 @@
+nest class class declar anoth enclos class 
+nest class member access right member 
+member enclos class special access member nest class usual access rule shall obey 
+exampl program 1 compil without error program 2 fail compil 
+program 1 includ iostream use namespac std start enclos class declar class enclos int x start nest class declar class nest int void nestedfun enclos e cout e x work fine nest class access privat member enclos class declar nest class end declar enclos class end int main 

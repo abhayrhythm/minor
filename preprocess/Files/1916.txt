@@ -1,0 +1,60 @@
+
+Predict the output of following C++ programs.
+1)
+
+#include <iostream>
+void init(int a=1, int b=2, int c=3);
+
+int main()
+{
+    init();
+    return 0;
+}
+void init(int a=1, int b=2, int c=3)
+{
+    std::cout << a << ' ' << b << ' ' << c;
+}
+
+The above program looks correct at first glance but will fail in compilation. If function uses default arguments then default arguments can’t be written in both function declaration & definition. It should only be in declaration, not in definition.
+The following program is now correct.
+
+#include <iostream>
+void init(int a=1, int b=2, int c=3);
+int main()
+{
+    init();	// It is fine
+    return 0;
+}
+void init(int a,int b,int c)
+{
+    std::cout << a << ' ' << b << ' ' << c;
+}
+
+2)
+
+#include <iostream>
+
+// something looks missing
+void init(int =1, int =2, int =3);
+
+int main()
+{
+    init();
+    return 0;
+}
+
+void init(int a, int b, int c)
+{
+    std::cout << a << ' ' << b << ' ' << c;
+}
+If you closely observe function prototype then it looks like an error but it isn’t actually. Variable names can be omitted in default arguments.
+This article is contributed by Pravasi Meet. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

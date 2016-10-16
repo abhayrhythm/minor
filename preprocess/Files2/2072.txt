@@ -1,0 +1,10 @@
+c c comma use two context 1 comma oper comma oper repres token binari oper evalu first operand discard result evalu second operand return valu type 
+comma oper lowest preced c oper act sequenc point 
+comma oper int 5 10 10 assign int j f1 f2 f1 call evalu first follow f2 
+return valu f2 assign j 2 comma separ comma act separ use function call definit function like macro variabl declar enum declar similar construct 
+comma separ int 1 b 2 void fun x use comma separ confus use oper 
+exampl statement f1 f2 call order 
+comma act separ enforc sequenc 
+therefor either f1 f2 call first void fun f1 f2 see c vs c differ use comma oper 
+tri program check understand comma c program 1 includ stdio h int main int x 10 int 15 printf x getchar return 0 program 2 thank shekhu suggest program includ stdio h int main int x 10 int x x printf getchar return 0 program 3 thank venki suggest program int main int x 10 follow equaval x x printf x n x x printf x n x x note last express evalu side effect updat printf n printf x n x return 0 refer http en wikipedia org wiki comma_oper http publib boulder ibm com infocent comphelp v101v121 index jsp topic com ibm xlcpp101 aix doc language_ref co html http msdn microsoft com en us librari zs06xbxh aspx pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

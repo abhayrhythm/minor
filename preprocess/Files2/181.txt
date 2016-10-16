@@ -1,0 +1,18 @@
+given function foo return integ 1 5 equal probabl write function return integ 1 7 equal probabl use foo 
+minim number call foo method 
+also use librari function allow float point arithmet allow 
+solut know foo return integ 1 5 ensur integ 1 7 occur equal probabl 
+somehow gener integ 1 multipl 7 like 7 14 21 equal probabl use modulo divis 7 follow ad 1 get number 1 7 equal probabl 
+gener 1 21 equal probabl use follow express 
+5 foo foo 5 let us see express use 
+1 valu first foo 5 possibl combin valu second foo 
+total 25 combin possibl 
+2 rang valu return equat 1 25 integ occur exactli 
+3 valu equat come less 22 return modulo divis 7 follow ad 1 els call method recurs 
+probabl return integ thu becom 1 7 
+program show express return integ 1 25 exactli 
+includ stdio h int main int first second first 1 first 5 first second 1 second 5 second printf n 5 first second 5 return 0 output 1 2 
+
+24 25 program depict use foo return 1 7 equal probabl 
+includ stdio h int foo given method return 1 5 equal probabl code int my_rand return 1 7 equal probabl int 5 foo foo 5 22 return 7 1 return my_rand int main printf my_rand return 0 articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

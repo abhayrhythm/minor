@@ -1,0 +1,89 @@
+
+Question 1
+Predict the output of following program. 
+
+#include<stdio.h>
+void fun(int x)
+{
+  if(x > 0)
+  {
+     fun(--x);
+     printf("%d\t", x);
+     fun(--x);
+  }
+}
+
+int main()
+{
+  int a = 4;
+  fun(a);
+  getchar();
+  return 0;
+}
+
+Output: 0 1 2 0 3 0 1
+ 
+                   fun(4);
+                   /
+                fun(3), print(3), fun(2)(prints 0 1)
+               /
+           fun(2), print(2), fun(1)(prints 0)
+           /
+       fun(1), print(1), fun(0)(does nothing)
+       /
+    fun(0), print(0), fun(-1) (does nothing)
+
+Question 2
+Predict the output of following program. What does the following fun() do in general? 
+
+int fun(int a[],int n)
+{
+  int x;
+  if(n == 1)
+    return a[0];
+  else
+    x = fun(a, n-1);
+  if(x > a[n-1])
+    return x;
+  else
+    return a[n-1];
+}
+
+int main()
+{
+  int arr[] = {12, 10, 30, 50, 100};
+  printf(" %d ", fun(arr, 5));
+  getchar();
+  return 0;
+}
+
+Output: 100
+fun() returns the maximum value in the input array a[] of size n.
+Question 3
+Predict the output of following program. What does the following fun() do in general? 
+
+int fun(int i)
+{
+  if ( i%2 ) return (i++);
+  else return fun(fun( i - 1 ));
+}
+
+int main()
+{
+  printf(" %d ", fun(200));
+  getchar();
+  return 0;
+}
+
+Output: 199
+If n is odd then returns n, else returns (n-1). Eg., for n = 12, you get 11 and for n = 11 you get 11. The statement “return i++;” returns value of i only as it is a post increment. 
+Please write comments if you find any of the answers/codes incorrect, or you want to share more information/questions about the topics discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

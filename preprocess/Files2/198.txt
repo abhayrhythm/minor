@@ -1,0 +1,38 @@
+given n number frequenc occurr 
+return random number probabl proport frequenc occurr 
+exampl let follow given number 
+arr 10 30 20 40 let follow frequenc given number 
+freq 1 6 2 1 output 10 probabl 1 10 30 probabl 6 10 20 probabl 2 10 40 probabl 1 10 quit clear simpl random number gener work keep track frequenc occurr 
+need somehow transform problem problem whose solut known us 
+one simpl method take auxiliari array say aux duplic number accord frequenc occurr 
+gener random number say r 0 sum 1 includ sum repres summat frequenc array freq exampl 
+return random number aux r implement method left exercis reader 
+limit method discuss huge memori consumpt frequenc occurr high 
+input 997 8761 1 method clearli effici 
+reduc memori consumpt 
+follow detail algorithm use n extra space n number element input array 
+1 take auxiliari array say prefix size n 2 popul prefix sum prefix repres sum number 0 
+3 gener random number say r 1 sum includ sum repres summat input frequenc array 
+4 find index ceil random number gener step 3 prefix array 
+let index indexc 
+5 return random number arr indexc arr contain input n number 
+go implement part let us quick look algorithm exampl arr 10 20 30 freq 2 3 1 prefix 2 5 6 sinc last entri prefix 6 possibl valu r 1 2 3 4 5 6 1 ceil 2 random number gener 10 
+2 ceil 2 random number gener 10 
+3 ceil 5 random number gener 20 
+4 ceil 5 random number gener 20 
+5 ceil 5 random number gener 20 
+6 ceil 6 random number gener 30 exampl 10 gener probabl 2 6 
+20 gener probabl 3 6 
+30 gener probabl 1 6 
+work 
+number input gener mani time frequenc occurr exist count integ rang prefix 1 prefix input 
+like exampl 3 gener thrice exist 3 integ 3 4 5 whose ceil 5 
+c program gener random number accord given frequenc distribut includ stdio h includ stdlib h util function find ceil r arr l h int findceil int arr int r int l int h int mid l h mid l h l 1 mid l h 2 r arr mid 
+l mid 1 h mid return arr l r 
+l 1 main function return random number arr accord distribut array defin freq 
+n size array 
+int myrand int arr int freq int n creat fill prefix array int prefix n prefix 0 freq 0 1 n prefix prefix 1 freq prefix n 1 sum frequenc 
+gener random number valu 1 sum int r rand prefix n 1 1 find index ceil r prefix arrat int indexc findceil prefix r 0 n 1 return arr indexc driver program test function int main int arr 1 2 3 4 int freq 10 5 20 100 int n sizeof arr sizeof arr 0 use differ seed valu everi run 
+srand time null let us gener 10 random number accrod given distribut 0 5 printf n myrand arr freq n return 0 output may differ differ run 4 3 4 4 4 articl compil aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

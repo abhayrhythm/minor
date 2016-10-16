@@ -1,0 +1,41 @@
+recent amazon india visit campu 2 month internship 
+four round 
+2 onlin code question 20 mcq mcq 15 question exactli os surpris one aptitud probabl rest c c 2nd round group interview written round 21 select second round 
+2 question 
+1 given two string find whether anagram 
+easi 
+http www geeksforgeek org check whether two string anagram 2 given n ari tree convert array return 
+construct n ari tree array 
+df better reconstruct necessari push root stack 
+pop stack store valu root node number children array push children stack right left stack becom empti array df along number children node 
+reconstruct pass refer iter array take valu index 0 make root 
+increment children root recurs call function 
+return root 
+hope work p 3rd round face face 5 select ask one question didnt well 
+find squar root number 
+answer done use babylonian method 
+http www geeksforgeek org squar root perfect squar binari search method ask implement binari search method 
+mistak 
+ask correct correct 
+abl impress much 
+rememb float point arithmet limit fail 
+4th round face face call 4th round 
+4th round bad perform 3rd round 
+interview ask lot question 
+easi 1 given array 0s 1s sort 
+find first occurr 1 binari search 2 given infinit array 0s 1s 
+sort find first occur 1 similar http www geeksforgeek org find point function becom neg 3 given matrix sort ascend order row column wise 
+search element http www geeksforgeek org search row wise column wise sort matrix 
+n 
+ask better solut tri help lot though abl deliv 
+4 given tree print max sum path root leaf http www geeksforgeek org find maximum sum path binari tree 5 given tree print spiral column order tree 
+ex 1 2 3 4 5 6 7 p 4 2 6 5 1 3 7 6 implement stack use array 
+implement two stack use array 
+implement 3 stack 
+7 given array 
+creat stack user want delet stack user say wont given number stack creat 
+thank geeksforgeek provid excel platform learn new thing 
+check interview corner compani interview 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

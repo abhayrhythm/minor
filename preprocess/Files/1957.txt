@@ -1,0 +1,54 @@
+
+Write a C program that doesn’t terminate when Ctrl+C is pressed. It prints a message “Cannot be terminated using Ctrl+c” and continues execution.
+We can use signal handling in C for this. When Ctrl+C is pressed, SIGINT signal is generated, we can catch this signal and run our defined signal handler.  C standard defines following 6 signals in signal.h header file.
+SIGABRT – abnormal termination.
+SIGFPE – floating point exception.
+SIGILL – invalid instruction.
+SIGINT – interactive attention request sent to the program.
+SIGSEGV – invalid memory access.
+SIGTERM – termination request sent to the program.
+Additional signals are specified Unix and Unix-like operating systems (such as Linux) defines more than 15 additional signals. See http://en.wikipedia.org/wiki/Unix_signal#POSIX_signals
+The standard C library function signal() can be used to set up a handler for any of the above signals.
+
+/* A C program that does not terminate when Ctrl+C is pressed */
+#include <stdio.h>
+#include <signal.h>
+
+/* Signal Handler for SIGINT */
+void sigintHandler(int sig_num)
+{
+    /* Reset handler to catch SIGINT next time.
+       Refer http://en.cppreference.com/w/c/program/signal */
+    signal(SIGINT, sigintHandler);
+    printf("\n Cannot be terminated using Ctrl+C \n");
+    fflush(stdout);
+}
+
+int main ()
+{
+    /* Set the SIGINT (Ctrl-C) signal handler to sigintHandler 
+       Refer http://en.cppreference.com/w/c/program/signal */
+    signal(SIGINT, sigintHandler);
+
+    /* Infinite loop */
+    while(1)
+    {        
+    }
+    return 0;
+}
+
+Ouput: When Ctrl+C was pressed two times
+ 
+ Cannot be terminated using Ctrl+C
+ 
+ Cannot be terminated using Ctrl+C
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

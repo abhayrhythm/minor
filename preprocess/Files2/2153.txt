@@ -1,0 +1,14 @@
+given number check whether even odd 
+exampl input 2 output even input 5 output odd one simpl solut find remaind divid 2 
+simpl c program check even odd includ iostream use namespac std return true n even els odd bool iseven int n return n 2 0 driver code int main int n 101 iseven n 
+cout even cout odd return 0 odd better solut use bitwis oper 
+need check whether last bit 1 
+last bit 1 number odd otherwis alway even 
+explan input 5 odd 00000101 00000001 00000001 input 8 even 00001000 00000001 00000000 c implement idea 
+simpl c program check even odd includ iostream use namespac std return true n even els odd bool iseven int n n 1 1 odd els even return 
+n 1 driver code int main int n 101 iseven n 
+cout even cout odd return 0 output odd articl contribut prabhat raushan 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

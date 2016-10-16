@@ -1,0 +1,25 @@
+topolog sort direct acycl graph dag linear order vertic everi direct edg uv vertex u come v order 
+topolog sort graph possibl graph dag 
+exampl topolog sort follow graph 5 4 2 3 1 0 
+one topolog sort graph 
+exampl anoth topolog sort follow graph 4 5 2 0 3 1 
+first vertex topolog sort alway vertex degre 0 vertex come edg 
+df base solut find topolog sort alreadi discuss 
+articl see anoth way find linear order vertic direct acycl graph dag 
+approach base fact dag g least one vertex degre 0 one vertex degre 0 proof simpl proof fact dag contain cycl mean path finit length 
+let longest path u sourc v destin 
+sinc longest path incom edg u outgo edg v situat occur would longest path indegre u 0 outdegre v 0 algorithm step involv find topolog order dag step 1 comput degre number incom edg vertex present dag initi count visit node 0 step 2 pick vertic degre 0 add queue enqueu oper step 3 remov vertex queue dequeu oper 
+increment count visit node 1 decreas degre 1 neighbor node 
+degre neighbor node reduc zero add queue 
+step 5 repeat step 3 queue empti 
+step 5 count visit node equal number node graph topolog sort possibl given graph 
+find degre node 
+2 way calcul degre everi vertex take degre array keep track 1 travers array edg simpli increas counter destin node 1 node node indegre node 0 edg src dest edg indegre dest time complex v e 2 travers list everi node increment degre node connect 1 node node list node size 0 dest list indegre dest time complex outer loop execut v number time inner loop execut e number time thu overal time complex v e 
+overal time complex algorithm v e c implement algorithm 
+implement use method 2 discuss find indegre 
+c c program print topolog sort graph use indegre 
+includ bit stdc h use namespac std class repres graph class graph int v 
+vertic pointer array contain adjac listslist list int adj public graph int v constructor function add edg graph void addedg int u int v print topolog sort complet graph void topologicalsort graph graph int v v v adj new list int v void graph addedg int u int v adj u push_back v function topolog sort 
+void graph topologicalsort creat vector store indegre vertic 
+initi indegre 0 vector int in_degre v 0 travers adjac list fill indegre vertic 
+step take v e time int u 0 u v u list int iter itr itr adj u begin itr adj u end itr in_degre itr creat queue enqueu vertic indegre 0 queue int q int 0 v in_degre 0 q push initi count visit vertic int cnt 0 creat vector store result topolog order vertic vector int top_ord one one dequeu vertic queue enqueu adjac indegre adjac becom 0 q empti extract front queue perform dequeu add topolog order int u q front q pop top_ord push_back u iter neighbour node dequeu node u decreas degre 1 list int iter itr itr adj u begin itr adj u end itr degre becom zero add queue in_degre itr 0 q push itr cnt check cycl cnt v cout exist cycl graph n return print topolog order int 0 top_ord size cout top_ord cout endl driver program test function int main creat graph given diagram graph g 6 g addedg 5 2 g addedg 5 0 g addedg 4 0 g addedg 4 1 g addedg 2 3 g addedg 3 1 cout follow topolog sort n g topologicalsort return 0 

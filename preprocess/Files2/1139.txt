@@ -1,0 +1,26 @@
+given array random number push zero given array end array 
+exampl given array 1 9 8 4 0 0 2 7 0 6 0 chang 1 9 8 4 2 7 6 0 0 0 0 
+order element 
+expect time complex n extra space 1 
+strongli recommend click practic move solut 
+mani way solv problem 
+follow simpl interest way solv problem 
+travers given array arr left right 
+travers maintain count non zero element array 
+let count count 
+everi non zero element arr put element arr count increment count 
+complet travers non zero element alreadi shift front end count set index first 0 need run loop make element zero count till end array 
+c implement approach 
+c c program move zero end array includ iostream use namespac std function push zero end array 
+void pushzerostoend int arr int n int count 0 count non zero element travers array 
+element encount non zero replac element index count element int 0 n arr 0 arr count arr count increment non zero element shift front count set index first 0 
+make element 0 count end 
+count n arr count 0 driver program test function int main int arr 1 9 8 4 0 0 2 7 0 6 0 9 int n sizeof arr sizeof arr 0 pushzerostoend arr n cout array push zero end array n int 0 n cout arr return 0 java java program push zero back array import java io 
+class pushzero function push zero end array 
+static void pushzerostoend int arr int n int count 0 count non zero element travers array 
+element encount non zero replac element index count element int 0 n arr 0 arr count arr count increment non zero element shift front count set index first 0 
+make element 0 count end 
+count n arr count 0 driver function check function public static void main string arg int arr 1 9 8 4 0 0 2 7 0 6 0 9 int n arr length pushzerostoend arr n system println array push zero back int 0 n system print arr code contribut devesh agraw output array push zero end array 1 9 8 4 2 7 6 9 0 0 0 0 time complex n n number element input array 
+auxiliari space 1 articl contribut chandra prakash 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

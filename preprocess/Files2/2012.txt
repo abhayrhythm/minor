@@ -1,0 +1,33 @@
+c c array pointer similar semant except type inform 
+exampl given 3d array int buffer 5 7 6 element locat 2 1 2 access buffer 2 1 2 buffer 2 1 2 
+observ follow declar p p pointer object type pointer p point object type express p type exampl buffer type array 5 two dimension array 
+type express buffer array array e 
+two dimension array 
+base concept translat express buffer 2 1 2 step step make clear 
+buffer array 5 two dimension array e 
+type array 5 two dimension array 
+buffer 2 displac 3rd element array 5 two dimension array 
+buffer 2 dereferenc e 
+type two dimension array 
+buffer 2 1 displac access 2nd element array 7 one dimension array 
+buffer 2 1 dereferenc access type express buffer 2 1 array integ 
+buffer 2 1 2 displac get element 3rd posit singl dimens array integ 
+buffer 2 1 2 access element 3rd posit overal express type int 
+compil calcul offset access array element 
+offset calcul base dimens array 
+case offset 2 7 6 1 6 2 blue colour dimens note higher dimens use offset calcul 
+compil time compil awar dimens array 
+use offset access element shown element_data int buffer offset alway possibl declar dimens array compil time 
+sometim need interpret buffer multidimension array object 
+instanc process 3d imag whose dimens determin run time usual array subscript rule use 
+due lack fix dimens compil time 
+consid follow exampl int base base point larg imag buffer repres 3d imag dimens l x b x h l b h variabl 
+want access element locat 2 3 4 need calcul offset element offset 2 b x h 3 h 4 element locat base offset 
+gener given start address say base array size l x b x h dimens access element arbitrari locat b c follow way data base b x h b h c note use higher dimens l concept appli number dimens 
+need higher dimens calcul offset element multidimension array 
+reason behind omit higher dimens pass multidimension array function 
+higher dimens need programm iter limit number element higher dimens 
+c c puzzl predict output follow program int main char arr 5 7 6 char p 5 7 6 arr hint arr type const pointer array 5 two dimension array size 7 6 printf n arr 1 arr printf n char arr 1 char arr printf n unsign arr 1 unsign arr printf n unsign p 1 unsign p return 0 output 1 210 42 210 thank student point error 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

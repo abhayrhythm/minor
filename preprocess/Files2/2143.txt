@@ -1,0 +1,81 @@
+sure post interest inform c virgin e 
+beginn well vers c let start say extern keyword appli c variabl data object c function 
+basic extern keyword extend visibl c variabl c function 
+probabl reason name extern 
+though almost everyon know mean declar definit variabl function yet sake complet post would like clarifi 
+declar variabl function simpli declar variabl function exist somewher program memori alloc 
+declar variabl function serv import role 
+type variabl function 
+therefor variabl declar program know data type variabl 
+case function declar program know argument function data type order argument return type function 
+declar 
+come definit defin variabl function apart role declar also alloc memori variabl function 
+therefor think definit super set declar 
+declar subset definit 
+explan obviou variabl function declar number time defin 
+rememb basic principl two locat variabl function 
+declar definit 
+come back main object understand extern keyword c explain role declar definit mandatori understand understand extern keyword 
+let us first take easi case 
+use extern c function 
+default declar definit c function extern prepend 
+mean even though use extern declar definit c function present 
+exampl write 
+int foo int arg1 char arg2 extern present begin hidden compil treat 
+extern int foo int arg1 char arg2 case definit c function definit c function mean write bodi function 
+therefor whenev defin c function extern present begin function definit 
+sinc declar done number time definit done notic declar function ad sever c h file singl c h file sever time 
+notic actual definit function e 
+one file 
+extern extend visibl whole program function use call anywher file whole program provid declar function known 
+know declar function c compil know definit function exist goe ahead compil program 
+extern c function 
+let us take second final case e 
+use extern c variabl 
+feel interest inform previou case extern present default c function 
+let ask question would declar c variabl without defin 
+mani would see trivial import question understand extern c variabl 
+answer goe follow 
+extern int var integ type variabl call var declar rememb definit e 
+memori alloc var far 
+declar mani time need 
+rememb declar done number time far good 
+would defin variabl 
+agre trivial question program answer follow 
+int var integ type variabl call var declar well defin 
+rememb definit super set declar 
+memori var also alloc 
+come surpris declar defin c function saw extern present default 
+defin function prepend extern without issu 
+case c variabl 
+put presenc extern variabl default memori alloc ever declar 
+therefor put extern explicitli c variabl want declar without defin 
+also extern extend visibl whole program extern variabl use variabl anywher program provid know declar variabl defin somewher 
+let us tri understand extern exampl 
+exampl 1 int var int main void var 10 return 0 analysi program compil success 
+var defin declar implicitli global 
+exampl 2 extern int var int main void return 0 analysi program compil success 
+var declar 
+notic var never use problem 
+exampl 3 extern int var int main void var 10 return 0 analysi program throw error compil 
+var declar defin anywher 
+essenti var alloc memori 
+program tri chang valu 10 variabl exist 
+exampl 4 includ somefil h extern int var int main void var 10 return 0 analysi suppos somefil h definit var 
+program compil success 
+exampl 5 extern int var 0 int main void var 10 return 0 analysi guess program work 
+well come anoth surpris c standard 
+say variabl declar initi also provid declar memori variabl alloc e 
+variabl consid defin 
+therefor per c standard program compil success work 
+preliminari look extern keyword c sure want take away read post 
+would disappoint 
+short say 1 declar done number time definit 
+2 
+extern keyword use extend visibl variabl function 
+3 sinc function visibl program default 
+use extern need function declar definit 
+use redund 
+4 extern use variabl declar defin 
+5 except extern variabl declar initi taken definit variabl well 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

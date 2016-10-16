@@ -1,0 +1,12 @@
+write function add return sum two integ 
+function use arithmet oper etc 
+sum two bit obtain perform xor two bit 
+carri bit obtain perform two bit 
+simpl half adder logic use add 2 singl bit 
+extend logic integ 
+x set bit posit bitwis xor x give sum x incorpor common set bit also bitwis use 
+bitwis x give carri bit 
+calcul x 1 add x get requir result 
+includ stdio h int add int x int iter till carri 0 carri contain common set bit x int carri x sum bit x least one bit set x x carri shift one ad x give requir sum carri 1 return x int main printf add 15 32 return 0 follow recurs implement approach 
+int add int x int 0 return x els return add x x 1 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

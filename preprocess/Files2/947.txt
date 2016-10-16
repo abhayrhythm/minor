@@ -1,0 +1,8 @@
+c array paramet treat pointer 
+follow two definit foo look differ compil mean exactli thing 
+prefer use whichev syntax accur readabl 
+pointer come realli base address whole array use 
+void foo int arr_param silli valid 
+chang local pointer arr_param null void foo int arr_param ditto arr_param null array paramet treat pointer effici 
+ineffici copi array data term memori time time pass array intent tell array interest creat copi array 
+ask shobhit refer http cslibrari stanford edu 101 essentialc pdf adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

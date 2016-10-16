@@ -1,0 +1,16 @@
+given array string lowercas letter task group way string group shift version 
+two string call shift length length k 1 length constant integ k exampl string acd dfg wyz yab mop shift version 
+input str acd dfg wyz yab mop bdfh x moq output x acd dfg wyz yab mop bdfh moq shift string group togeth 
+see pattern among string one group differ consecut charact charact string equal 
+exampl take acd dfg mop c 2 1 f g 2 1 p 2 1 sinc differ use identifi string belong group 
+idea form string differ key 
+string differ string found string also belong group 
+exampl three string differ string 21 
+implement add everi differ store 21 ba 
+c c program print group shift string togeth 
+includ bit stdc h use namespac std const int alpha 26 total lowercas letter method differ string given string 
+string adf differ string cb first differ 3 differ 2 string getdiffstr string str string shift int 1 str length int dif str str 1 dif 0 dif alpha repres differ char shift dif string 1 less length str return shift method group shift string void groupshiftedstr string str int n map store indic string group map string vector int groupmap int 0 n string diffstr getdiffstr str groupmap diffstr push_back iter map print group auto groupmap begin groupmap end vector int v second int 0 v size cout str v cout endl driver method test method int main string str acd dfg wyz yab mop bdfh x moq int n sizeof str sizeof str 0 groupshiftedstr str n return 0 output x acd dfg wyz yab mop bdfh moq articl contribut utkarsh trivedi 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

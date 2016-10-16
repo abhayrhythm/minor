@@ -1,0 +1,25 @@
+given binari string find possibl make digit equal either 0 1 flip exactli one bit 
+input 101 output ye explan 101 0 flip make 1 input 11 output explan matter whichev digit flip get desir string 
+input 1 output ye explan flip 1 make 0 method 1 count 0 1 digit string made ident exactli one flip mean string digit equal one anoth except digit flip digit must differ digit string 
+valu digit could either zero one 
+henc string either exactli one digit equal zero digit equal one exactli one digit equal one digit equal zero 
+therefor need check whether string exactli one digit equal zero one answer ye otherwis answer 
+c implement idea 
+c program check sinl bit flip tp make one includ bit stdc h use namespac std function return true bit given binari string str 
+bool canmakeallsam string str int zero 0 one 0 travers given string count number 0 1 char ch str ch 0 
+zero one return true two count 1 return zero 1 one 1 driver code int main canmakeallsam 101 
+printf ye n printf n return 0 output ye time complex n n length string 
+method 2 count 0 1 idea comput sum bit 
+sum n 1 1 output true els fals 
+solut requir comparison loop 
+c implement idea 
+chang bit made singl flip idea add integ valu element given string 
+sum 1 indic singl 1 string 
+sum 0 indic singl 0 string 
+take n time 
+includ bit stdc h use namespac std bool isoneflip string str int sum 0 int n str length travers given string count total sum number int 0 n sum str 0 return true two count 1 return sum n 1 sum 1 main function int main isoneflip 101111111111 
+printf ye n printf n return 0 output ye thank sourabh gavhal suggest solut articl contribut subrata ghosh 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

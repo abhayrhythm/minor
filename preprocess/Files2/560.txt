@@ -1,0 +1,28 @@
+given array word print anagram togeth 
+exampl given array cat dog tac god act output may cat tac act dog god 
+discuss two differ method previou post 
+post effici solut discuss 
+trie data structur use effici solut 
+insert sort order word trie 
+sinc anagram end leaf node 
+start link list leaf node node repres index origin array word 
+final travers trie 
+travers trie travers link list one line time 
+follow detail step 
+1 creat empti trie 2 one one take word input sequenc 
+follow word copi word buffer 
+b sort buffer c insert sort buffer index word trie 
+leaf node trie head index list 
+index list store index word origin sequenc 
+sort buff alreadi present insert index word index list 
+3 travers trie 
+travers reach leaf node travers index list 
+print word use index obtain index list 
+effici program print anagram togeth includ stdio h includ stdlib h includ string h includ ctype h defin no_of_char 26 structur repres list node index word given sequenc 
+list node use connect anagram leaf node trie struct indexnod int index struct indexnod next structur repres trie node struct trienod bool isend indic end word struct trienod child no_of_char 26 slot z struct indexnod head head index list util function creat new trie node struct trienod newtrienod struct trienod temp new trienod temp isend 0 temp head null int 0 no_of_char temp child null return temp follow function need librari function qsort 
+refer http www cplusplu com refer clibrari cstdlib qsort int compar const void const void b return char char b util function creat new link list node struct indexnod newindexnod int index struct indexnod temp new indexnod temp index index temp next null return temp util function insert word trie void insert struct trienod root char word int index base case root null root newtrienod word 0 insert root child tolow word word 1 index els end word reach insert index word end index link list root isend indexnod pcrawl root head pcrawl next pcrawl pcrawl next pcrawl next newindexnod index els index list empti root isend 1 root head newindexnod index function travers built trie 
+leaf node reach word connect leaf node anagram 
+travers list leaf node use store index print origin word void printanagramsutil struct trienod root char wordarr root null return lead node reach print anagram use index store index link list root isend travers list indexnod pcrawl root head pcrawl null printf n wordarr pcrawl index pcrawl pcrawl next int 0 no_of_char printanagramsutil root child wordarr main function print anagram togeth 
+wordarr input sequenc word 
+void printanagramstogeth char wordarr int size creat empti trie struct trienod root null iter input word int 0 size creat buffer word copi word buffer int len strlen wordarr char buffer new char len 1 strcpi buffer wordarr sort buffer qsort void buffer strlen buffer sizeof char compar insert sort buffer origin index trie insert root buffer travers built trie print anagrm togeth printanagramsutil root wordarr driver program test function int main char wordarr cat dog tac god act gdo int size sizeof wordarr sizeof wordarr 0 printanagramstogeth wordarr size return 0 output cat tac act dog god gdo pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

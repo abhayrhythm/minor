@@ -53,6 +53,8 @@ input[type=submit]:hover {
                          <div id="main-menu">
                           <ul>
                              <li id="l0"><a href="#main">HOME</a></li>
+                              <li id="l0"><a href="/process/">PROCESS</a></li>
+
                           </ul>
                          <img src="{% static 'signup/images/logor.png' %}" style=" margin-top: -10px;    width: 220px;
     height: 121px;
@@ -167,7 +169,12 @@ input[type=submit]:hover {
 				{% if error_message %}
     <p><strong>error_message</strong></p>
 {% endif %}
-<form action="{% url 'signup:index'%}" method="post">
+
+    {% if form.is_multipart %}
+    <form enctype="multipart/form-data" action="{% url 'signup:index'%}" method="post">
+{% else %}
+    <form method="post"  action="{% url 'signup:index'%}">
+{% endif %}
     {% csrf_token %}
     {{ formsignup }}
     <br>

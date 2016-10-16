@@ -1,0 +1,16 @@
+given input string pattern check charact input string follow order determin charact present pattern 
+assum duplic charact pattern 
+anoth solut problem post 
+exampl input string engin rock pattern er output true e input string r 
+input string engin rock pattern egr output fals two e g input string 
+input string engin rock pattern gsr output fals one r input string 
+idea reduc given string pattern given 
+charact given pattern keep correspond charact string 
+new string delet continu repeat charact 
+modifi string equal pattern given 
+lastli compar modifi string pattern given return true fals accordingli 
+illustr str bfbaeadeacc pat bac 1 remov extra charact str charact present pat str bbaaacc f e remov 3 remov consecut repeat occurr charact str bac 4 sinc str pat return true java implement step 
+java program check charact string follow pattern defin given pattern 
+import java util 
+public class orderofcharactersforpattern public static boolean followspattern string str string pattern insert charact pattern hash set set charact patternset nehashset int 0 pattern length patternset add pattern charat build modifi string string charact pattern taken stringbuild modifiedstr new stringbuild str int str length 1 0 patternset contain modifiedstr charat modifiedstr deletecharat remov one consecut occurr pattern charact modifi string 
+int modifiedstr length 1 0 modifiedstr charat modifiedstr charat 1 modifiedstr deletecharat modif length modifi string must pattern length pattern length modifiedstr length return fals pattern charact must also modifi string charact int 0 pattern length pattern charat modifiedstr charat return fals return true driver program int main string str engin rock string pattern er system println expect true actual followspattern str pattern str engin rock pattern egr system println expect fals actual followspattern str pattern str engin rock pattern gsr system println expect fals actual followspattern str pattern str engin rock pattern eger system println expect true actual followspattern str pattern return 0 output expect true actual true expect fals actual fals expect fals actual fals expect true actual true time complex 

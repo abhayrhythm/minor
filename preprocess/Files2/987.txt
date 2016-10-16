@@ -1,0 +1,11 @@
+given float point number write function count set bit binari represent 
+exampl float point represent 0 15625 6 set bit see 
+typic c compil use singl precis float point format 
+use idea discuss 
+idea take address given float point number pointer variabl typecast pointer char type process individu byte one one 
+easili count set bit char use techniqu discuss 
+follow c implement idea 
+includ stdio h util function count set bit char 
+refer http goo gl ehf6y8 detail function 
+unsign int countsetbitschar char n unsign int count 0 n n n 1 count return count return set bit binari represent x unsign int countsetbitsfloat float x count number char byte binari represent float unsign int n sizeof float sizeof char typcast address x char pointer char ptr char x int count 0 store result int 0 n count countsetbitschar ptr ptr return count driver program test function int main float x 0 15625 printf binari represent f u set bit x countsetbitsfloat x return 0 output binari represent 0 156250 6 set bit articl contrbut vineet gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,6 @@
+
+Enumeration (or enum) is a user defined data type in C.   It is mainly used to assign names to integral constants, the names make a program easy to read and maintain.
+The keyword ‘enum’ is used to declare new enumeration types in C and C++.   Following is an example of enum declaration.
+
+enum State {Working = 1, Failed = 0}; 
+Following are some interesting facts about initialization of enum.

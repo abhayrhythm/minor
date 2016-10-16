@@ -1,0 +1,24 @@
+question write effici program print k largest element array 
+element array order 
+exampl given array 1 23 12 9 30 2 50 ask largest 3 element e k 3 program print 50 30 23 method 1 use bubbl k time thank shailendra suggest approach 
+1 modifi bubbl sort run outer loop k time 
+2 print last k element array obtain step 1 time complex nk like bubbl sort sort algorithm like select sort also modifi get k largest element 
+method 2 use temporari array k largest element arr 0 n 1 1 store first k element temporari array temp 0 k 1 
+2 find smallest element temp let smallest element min 
+3 element x arr k arr n 1 x greater min remov min temp insert x 
+4 print final k element temp time complex n k k 
+want output sort n k k klogk thank nesamani1822 suggest method 
+method 3 use sort 1 sort element descend order nlogn 2 print first k number sort array k 
+time complex nlogn method 4 use max heap 1 build max heap tree n 2 use extract max k time get k maximum element max heap klogn time complex n klogn method 5 use oder statist 1 use order statist algorithm find kth largest element 
+pleas see topic select worst case linear time n 2 use quicksort partit algorithm partit around kth largest number n 
+3 sort k 1 element element greater kth largest element klogk 
+step need sort output requir 
+time complex n need sort output otherwis n klogk thank shilpi suggest first two approach 
+method 6 use min heap method mainli optim method 1 instead use temp array use min heap 
+thank geek4u suggest method 
+1 build min heap mh first k element arr 0 arr k 1 given array 
+k 2 element kth element arr k arr n 1 compar root mh 
+element greater root make root call heapifi mh b els ignor 
+step 2 n k logk 3 final mh k largest element root mh kth largest element 
+time complex k n k logk without sort output 
+sort output need k n k logk klogk method also use find kth largest smallest element 

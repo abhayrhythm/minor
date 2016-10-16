@@ -1,0 +1,28 @@
+combinatori game two person game perfect inform chanc move random like coin toss involv effect game 
+game win lose outcom determin set posit includ initi posit player whose turn move 
+play move one posit anoth player usual altern move termin posit reach 
+termin posit one move possibl 
+one player declar winner loser 
+hand game theori gener includ game chanc game imperfect knowledg game player move simultan 
+specialti combinatori game theori cgt code part rel small easi 
+key game theori problem hidden observ sometim hard find 
+chess game nim tic tac toe come categori combinatori game theori 
+divid game two categori shown differ imparti game possibl move posit game player wherea partisan game move player 
+consid game like given number pile pile contain number stone coin 
+turn player choos one pile remov number stone least one pile 
+player cannot move consid lose game ie one take last stone winner 
+clearli seen rule game move player 
+restrict one player 
+game consid imparti 
+mention game famou name game nim discuss next section 
+contrast game let us take exampl chess 
+game one player move black piec one move white one 
+thu restrict player 
+set move differ henc game classifi categori partisan game 
+partisan game much harder analyz imparti game game spragu grundi theorem fail 
+next section see mostli imparti game like game nim variat spragu grundi theorem mani 
+exercis reader may tri solv simpl combinatori game theori problem 
+cycl race game chocol sourc http www cs cmu edu af cs academ class 15859 f01 www note comb pdf http en wikipedia org wiki combinatorial_game_theori http en wikipedia org wiki impartial_gam http en wikipedia org wiki partisan_gam articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

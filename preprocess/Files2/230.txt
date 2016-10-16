@@ -1,0 +1,22 @@
+given integ array length n arbitrarili larg number 
+count number set bit array 
+simpl approach would creat effici method count set bit word promin size usual equal bit length processor add bit individu element array 
+variou method count set bit integ exist see exampl 
+method run best logn n number bit 
+note processor n fix count done 1 time 32 bit machin irrespect total set bit 
+overal bit array comput n time n array size 
+howev tabl look effici method array size larg 
+store tabl look handl 232 integ impract 
+follow code illustr simpl program count set bit randomli gener 64 k integ array 
+idea gener look first 256 number one byte break everi element array byte boundari 
+meta program use c c preprocessor gener look tabl count set bit byte 
+mathemat deriv behind meta program evid follow tabl add column row indic get number look tabl get set bit number 
+exampl get set bit 10 extract row name 8 column name 2 0 1 2 3 0 0 1 1 2 group_a 0 4 1 2 2 3 group_a 1 8 1 2 2 3 group_a 1 12 2 3 3 4 group_a 2 16 1 2 2 3 group_a 1 20 2 3 3 4 group_a 2 24 2 3 3 4 group_a 2 28 3 4 4 5 group_a 3 tabl patten emerg multipl 4 tabl well group paramet 
+sequenc gener shown code 
+complex oper take 1 except iter array 
+time complex n n size array 
+space complex depend meta program gener look 
+code includ stdio h includ stdlib h includ time h size array 64 k defin size 1 16 meta program gener set bit count array first 256 integ group_a combin meta_look_up gener count 4x4 element defin group_a x x x 1 x 1 x 2 group_b combin meta_look_up gener count 4x4x4 element defin group_b x group_a x group_a x 1 group_a x 1 group_a x 2 group_c combin meta_look_up gener count 4x4x4x4 element defin group_c x group_b x group_b x 1 group_b x 1 group_b x 2 provid appropri letter gener tabl defin meta_look_up paramet group_ paramet 0 group_ paramet 1 group_ paramet 1 group_ paramet 2 int countsetbit int array size_t array_s int count 0 meta_look_up c gener tabl 256 integ whose sequenc number bit th posit 0 256 static tabl much faster access static unsign char const look_up meta_look_up c shift funda better readabl unsign char pdata null size_t index 0 index array_s index fine bypass type system pdata unsign char array index count set bit individu byte count look_up pdata 0 count look_up pdata 1 count look_up pdata 2 count look_up pdata 3 return count driver program gener tabl random 64 k number int main int index int random size seed random number gener srand unsign time 0 gener random number 
+index 0 index size index random index rand printf total number bit n countsetbit random size return 0 contribut venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

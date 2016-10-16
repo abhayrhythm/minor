@@ -1,0 +1,7 @@
+discuss effici implement k stack array 
+post queue discuss 
+follow detail problem statement 
+creat data structur kqueue repres k queue 
+implement kqueue use one array e k queue use array store element 
+follow function must support kqueue 
+enqueu int x int qn add x queue number qn qn 0 k 1 dequeu int qn delet element queue number qn qn 0 k 1 

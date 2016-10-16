@@ -1,0 +1,15 @@
+given string find longest substr palindrom 
+alreadi discuss naïv n3 quadrat n2 linear n approach set 1 set 2 manach algorithm 
+articl discuss anoth linear time approach base suffix tree 
+given string approach follow revers string say revers string r get longest common substr r given lc r must posit see say lc r must posit 
+let look follow exampl xababayz r zyababax lc lp ababa abacdfgdcaba r abacdgfdcaba lc abacd lp aba differ pqrqpabcdfgdcba r abcdgfdcbapqrqp lc lp pqrqp pqqpabcdfghfdcba r abcdfhgfdcbapqqp lc abcdf lp pqqp differ see lc lp alway 
+differ 
+revers copi non palindrom substr longer length lp lc lp differ 
+2nd exampl abacdfgdcaba substr abacd exist revers copi dcaba longer length lp aba lp lc differ 
+scenario 4th exampl 
+handl scenario say lp lc r given lc r must posit look 2nd exampl substr aba r come exactli posit substr aba zero 0th index lp 
+posit constraint click see clearli refer string index forward index si string r index revers index ri 
+base figur charact index forward index string length n index n 1 revers index revers string r take substr length l string start index end index j j l 1 revers string r revers substr start index n 1 j end index n 1 
+common substr length l indic si forward index ri revers index r come posit ri n 1 si l 1 n string length 
+find lp string find longest common string r substr satisfi constraint e 
+substr index si substr r index n 1 si l 1 

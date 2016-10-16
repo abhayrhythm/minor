@@ -1,0 +1,32 @@
+given binari tree node element contain number 
+find maximum possibl sum one leaf node anoth 
+maximum sum path may may go root 
+exampl follow binari tree maximum sum 27 3 6 9 0 1 10 
+expect time complex n 
+one side root empti function return minu infinit int_min case c c simpl solut travers tree follow everi travers node x 
+1 find maximum sum leaf root left subtre x use post next step 2 find maximum sum leaf root right subtre x 
+3 add two calcul valu x data compar sum maximum valu obtain far updat maximum valu 
+4 return maximum valu 
+time complex solut n2 find maximum sum use singl travers binari tree 
+idea maintain two valu recurs call 1 maximum root leaf path sum subtre root current node 
+2 maximum path sum leav desir output 
+everi visit node x find maximum root leaf sum left right subtre x add two valu x data compar sum maximum path sum found far 
+follow implement n solut 
+c c program find maximum path sum two leav binari tree includ bit stdc h use namespac std binari tree node struct node int data struct node left right util function alloc memori new node struct node newnod int data struct node node new struct node node data data node left node right null return node util function find maximum two integ int max int int b return b 
+b util function find maximum sum two leav function calcul two valu 1 maximum path sum two leav store re 
+2 maximum root leaf path sum return 
+one side root empti return int_min int maxpathsumutil struct node root int re base case root null return 0 root left root right return root data find maximum sum left right subtre 
+also find maximum root leaf sum left right subtre store ls rs int ls maxpathsumutil root left re int rs maxpathsumutil root right re left right children exist root left root right updat result need re max re ls rs root data return maxium possibl valu root one side return max ls rs root data two children empti return root sum root one side return root left 
+rs root data ls root data main function return sum maximum sum path two leav 
+function mainli use maxpathsumutil int maxpathsum struct node root int re int_min maxpathsumutil root re return re driver program test function int main struct node root newnod 15 root left newnod 5 root right newnod 6 root left left newnod 8 root left right newnod 1 root left left left newnod 2 root left left right newnod 6 root right left newnod 3 root right right newnod 9 root right right right newnod 0 root right right right left newnod 4 root right right right right newnod 1 root right right right right left newnod 10 cout max pathsum given binari tree maxpathsum root return 0 java java program find maximum path sum two leav binari tree class node int data node left right node int item data item left right null object re pass around valu use multipl recurs call 
+class re int val class binarytre static node root util function find maximum sum two leav function calcul two valu 1 maximum path sum two leav store re 
+2 maximum root leaf path sum return 
+one side root empti return int_min int maxpathsumutil node node re re base case node null return 0 node left null node right null return node data find maximum sum left right subtre 
+also find maximum root leaf sum left right subtre store ls rs int ls maxpathsumutil node left re int rs maxpathsumutil node right re left right children exist node left null node right null updat result need re val math max re val ls rs node data return maxium possibl valu root one side return math max ls rs node data two children empti return root sum root one side return node left null 
+rs node data ls node data main function return sum maximum sum path two leav 
+function mainli use maxpathsumutil int maxpathsum node node re re new re re val integ min_valu maxpathsumutil root re return re val driver program test function public static void main string arg binarytre tree new binarytre tree root new node 15 tree root left new node 5 tree root right new node 6 tree root left left new node 8 tree root left right new node 1 tree root left left left new node 2 tree root left left right new node 6 tree root right left new node 3 tree root right right new node 9 tree root right right right new node 0 tree root right right right left new node 4 tree root right right right right new node 1 tree root right right right right left new node 10 system println max pathsum given binari tree tree maxpathsum root code contribut mayank jaiswal python python program find maximumpath sum two leav binari tree int_min 2 32 binari tree node class node constructor creat new node def __init__ self data self data data self left none self right none util function find maximum sum two leav 
+function calcul two valu 1 maximum path sum two leav store re 2 maximum root leaf path sum return one side root empti return int_min def maxpathsumutil root re base case root none return 0 root left none root right none return root data find maximumsum left righ subtre 
+also find maximum root leaf sum left righ subtre an store ls rs ls maxpathsumutil root left re rs maxpathsumutil root right re left right children exist root left none root right none updat result need re 0 max re 0 ls rs root data return maximum possibl valu root one side return max ls rs root data two children empti return root sum root one side root left none return rs root data els return ls root data main function return sum maximum sum path betwe ntwo leav 
+function mainli use maxpathsumutil def maxpathsum root re int_min maxpathsumutil root re return re 0 driver program test function root node 15 root left node 5 root right node 6 root left left node 8 root left right node 1 root left left left node 2 root left left right node 6 root right left node 3 root right right node 9 root right right right node 0 root right right right left node 4 root right right right right node 1 root right right right right left node 10 print max pathsum given binari tree maxpathsum root code contribut nikhil kumar singh nickzuck_007 output max pathsum given binari tree 27 thank saurabh vat suggest correct origin approach 
+articl contribut kripal gaurav 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

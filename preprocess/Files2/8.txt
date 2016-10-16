@@ -1,0 +1,13 @@
+pseudo polynomi 
+algorithm whose worst case time complex depend numer valu input number input call pseudo polynomi algorithm 
+exampl consid problem count frequenc element array posit number 
+pseudo polynomi time solut first find maximum valu iter 1 maximum valu valu find frequenc array 
+solut requir time accord maximum valu input array therefor pseudo polynomi 
+hand algorithm whose time complex base number element array valu consid polynomi time algorithm 
+pseudo polynomi np complet np complet problem pseudo polynomi time solut 
+exampl dynam program solut 0 1 knapsack subset sum partit problem pseudo polynomi 
+np complet problem solv use pseudo polynomi time algorithm call weakli np complet 
+refer http en wikipedia org wiki pseudo polynomial_tim articl contribut dheeraj gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

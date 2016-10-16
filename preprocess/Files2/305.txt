@@ -1,0 +1,17 @@
+introduc travel salesman problem discuss naiv dynam program solut problem previou post 
+solut infeas 
+fact polynomi time solut avail problem problem known np hard problem 
+approxim algorithm solv problem though 
+approxim algorithm work problem instanc satisfi triangl inequ 
+triangl inequ least distant path reach vertex j alway reach j directli rather vertex k vertic e di j alway less equal di k dist k j 
+triangl inequ hold mani practic situat 
+cost function satisfi triangl inequ design approxim algorithm tsp return tour whose cost never twice cost optim tour 
+idea use minimum span tree mst 
+follow mst base algorithm 
+algorithm 1 let 1 start end point salesman 
+2 construct mst 1 root use prim algorithm 
+3 list vertic visit preorder walk construct mst add 1 end 
+let us consid follow exampl 
+first diagram given graph 
+second diagram show mst construct 1 root 
+preorder travers mst 1 2 4 3 ad 1 end give 1 2 4 3 1 output algorithm 

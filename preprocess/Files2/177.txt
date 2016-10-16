@@ -1,0 +1,15 @@
+magic squar order n arrang n 2 number usual distinct integ squar n number row column diagon sum constant 
+magic squar contain integ 1 n 2 
+constant sum everi row column diagon call magic constant magic sum magic constant normal magic squar depend n follow valu n n 2 1 2 normal magic squar order n 3 4 5 magic constant 15 34 65 111 175 260 post discuss programmat gener magic squar size n go consid exampl magic squar size 3 2 7 6 9 5 1 4 3 8 sum row column 3 3 2 1 2 15 magic squar size 5 9 3 22 16 15 2 21 20 14 8 25 19 13 7 1 18 12 6 5 24 11 10 4 23 17 sum row column 5 5 2 1 2 65 magic squar size 7 20 12 4 45 37 29 28 11 3 44 36 35 27 19 2 43 42 34 26 18 10 49 41 33 25 17 9 1 40 32 24 16 8 7 48 31 23 15 14 6 47 39 22 21 13 5 46 38 30 sum row column 7 7 2 1 2 175 find pattern number store 
+magic squar first number e 
+1 store posit n 2 n 1 
+let posit j 
+next number store posit 1 j 1 consid row column circular array e 
+wrap around 
+three condit hold 1 posit next number calcul decrement row number previou number 1 increment column number previou number 1 time calcul row posit becom 1 wrap around n 1 
+similarli calcul column posit becom n wrap around 0 
+2 magic squar alreadi contain number calcul posit calcul column posit decrement 2 calcul row posit increment 1 
+3 calcul row posit 1 calcul column posit n new posit would 0 n 2 
+exampl magic squar size 3 2 7 6 9 5 1 4 3 8 step 1 posit number 1 3 2 3 1 1 2 2 posit number 2 1 1 2 1 0 0 3 posit number 3 0 1 0 1 3 1 1 2 1 4 posit number 4 2 1 1 1 1 2 sinc posit 1 
+appli condit 2 new posit 1 1 2 2 2 0 5 posit number 5 2 1 0 1 1 1 6 posit number 6 1 1 1 1 0 2 7 posit number 7 0 1 2 1 1 3 tricki see condit 3 new posit 0 3 2 0 1 8 posit number 8 0 1 1 1 1 2 2 2 wrap around 9 posit number 9 2 1 2 1 1 3 1 0 wrap around base approach follow work code includ stdio h includ string h function gener odd size magic squar void generatesquar int n int magicsquar n n set slot 0 memset magicsquar 0 sizeof magicsquar initi posit 1 int n 2 int j n 1 one one put valu magic squar int num 1 num n n 1 j n 3rd condit j n 2 0 els 1st condit helper next number goe squar right side j n j 0 1st condit helper next number goe squar upper side 0 n 1 magicsquar j 2nd condit j 2 continu els magicsquar j num set number j 1st condit print magic squar printf magic squar n nsum row column n n n n n n 1 2 0 n j 0 j n j printf 3d magicsquar j printf n driver program test function int main int n 7 work n odd generatesquar n return 0 output magic squar n 7 sum row column 175 20 12 4 45 37 29 28 11 3 44 36 35 27 19 2 43 42 34 26 18 10 49 41 33 25 17 9 1 40 32 24 16 8 7 48 31 23 15 14 6 47 39 22 21 13 5 46 38 30 note approach work odd valu n refer http en wikipedia org wiki magic_squar articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

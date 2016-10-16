@@ -1,0 +1,29 @@
+given valu n want make chang n cent infinit suppli s1 s2 sm valu coin mani way make chang 
+order coin matter 
+exampl n 4 1 2 3 four solut 1 1 1 1 1 1 2 2 2 1 3 
+output 4 n 10 2 5 3 6 five solut 2 2 2 2 2 2 2 3 3 2 2 6 2 3 5 5 5 
+output 5 
+1 optim substructur count total number solut divid set solut two set 
+1 solut contain mth coin sm 
+2 solut contain least one sm 
+let count n function count number solut written sum count 1 n count n sm 
+therefor problem optim substructur properti problem solv use solut subproblem 
+2 overlap subproblem follow simpl recurs implement coin chang problem 
+implement simpli follow recurs structur mention 
+includ stdio h return count way sum 0 1 coin get sum n int count int int int n n 0 1 solut includ coin n 0 return 1 n less 0 solut exist n 0 return 0 coin n greater 0 solut exist 0 n 1 return 0 count sum solut includ 1 ii exclud 1 return count 1 n count n 1 driver program test function int main int j int arr 1 2 3 int sizeof arr sizeof arr 0 printf count arr 4 getchar return 0 note function comput subproblem 
+see follow recurs tree 1 2 3 n 5 function c 1 3 call two time 
+draw complet tree see mani subproblem call 
+c count c 1 2 3 5 c 1 2 3 2 c 1 2 5 c 1 2 3 1 c 1 2 2 c 1 2 3 c 1 5 c 1 2 0 c 1 2 c 1 2 1 c 1 3 c 1 4 c 5 
+
+
+
+
+
+c 1 3 c 4 
+
+sinc suproblem call problem overlap subprolem properti 
+coin chang problem properti see dynam program problem 
+like typic dynam program dp problem recomput subproblem avoid construct temporari array tabl bottom manner 
+dynam program solut c includ stdio h int count int int int n int j x need n 1 row tabl consturct bottom manner use base case 0 valu case n 0 int tabl n 1 fill enteri 0 valu case n 0 0 tabl 0 1 fill rest tabl enteri bottom manner 1 n 1 j 0 j j count solut includ j x j 0 
+tabl j j 0 count solut exclud j j 1 
+tabl j 1 0 total count tabl j x return tabl n 1 driver program test function int main int arr 1 2 3 int sizeof arr sizeof arr 0 int n 4 printf count arr n return 0 

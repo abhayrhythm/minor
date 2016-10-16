@@ -1,0 +1,95 @@
+
+One method of adding ratios is discussed in this article below 
+Program to add two fractions
+The above method involves a tedious and lengthy task. But C++ has a header file  , which allows us to manipulate ratios using various inbuilt templete alias. This header file in introduced C++11 onwards.
+1. ratio_add :- This templete alias is used to add two ratios and return the result in simplest form. It returns two member constants, num and den denoting numerator and denominator.
+2. ratio_subtract :- This templete alias is used to subtract two ratios and return the result in simplest form. It returns two member constants, num and den denoting numerator and denominator. It subtracts ratio2 from ratio1.
+
+// C++ code to demonstrate the working of
+// ratio_add and ratio_subtract
+#include<iostream>
+#include<ratio> // for ratio manipulation
+using namespace std;
+int main()
+{
+    // Declaring ratios 
+    typedef ratio<5, 4> ratio1;
+    typedef ratio<3, 4> ratio2;
+    
+    // Summing two ratios
+    typedef ratio_add< ratio1, ratio2 > sum; 
+    
+    // Subtracting two ratios
+     typedef ratio_subtract< ratio1, ratio2 > diff; 
+     
+    // printing sum of ratios
+    cout << "The sum of ratios is : ";
+    cout << sum::num << "/" << sum::den;
+    cout << endl;
+    
+    // printing difference of ratios
+    cout << "The difference of ratios is : ";
+    cout << diff::num << "/" << diff::den;
+    cout << endl;
+    
+    return 0;
+    
+}
+
+Output:
+
+The sum of ratios is : 2/1
+The difference of ratios is : 1/2
+
+
+3. ratio_multiply :- This templete alias is used to multiply two ratios and return the result in simplest form. It returns two member constants, num and den denoting numerator and denominator.
+4. ratio_divide :- This templete alias is used to divide two ratios and return the result in simplest form. It returns two member constants, num and den denoting numerator and denominator. It divides ratio1 by ratio2.
+
+// C++ code to demonstrate the working of
+// ratio_multiply and ratio_divide
+#include<iostream>
+#include<ratio> // for ratio manipulation
+using namespace std;
+int main()
+{
+    // Declaring ratios 
+    typedef ratio<5, 4> ratio1;
+    typedef ratio<3, 4> ratio2;
+    
+    // Multiplying two ratios
+    typedef ratio_multiply< ratio1, ratio2 > prod; 
+    
+    // Dividing two ratios
+     typedef ratio_divide< ratio1, ratio2 > div; 
+     
+    // printing product of ratios
+    cout << "The product of ratios is : ";
+    cout << prod::num << "/" << prod::den;
+    cout << endl;
+    
+    // printing division of ratios
+    cout << "The division of ratios is : ";
+    cout << div::num << "/" << div::den;
+    cout << endl;
+    
+    return 0;
+    
+}
+
+Output:
+
+The product of ratios is : 15/16
+The division of ratios is : 5/3
+
+
+This article is contributed by Manjeet Singh . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

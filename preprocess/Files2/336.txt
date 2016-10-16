@@ -1,0 +1,38 @@
+let n worker n job 
+worker assign perform job incur cost may vari depend work job assign 
+requir perform job assign exactli one worker job exactli one job agent way total cost assign minim 
+let us explor approach problem 
+solut 1 brute forc gener n 
+possibl job assign assign comput total cost return less expens assign 
+sinc solut permut n job complex n 
+solut 2 hungarian algorithm optim assign found use hungarian algorithm 
+hungarian algorithm worst case run time complex n 3 
+solut 3 df bf state space tree state space tree n ari tree properti path root leaf node hold one mani solut given problem 
+perform depth first search state space tree success move take us away goal rather bring closer 
+search state space tree follow leftmost path root regardless initi state 
+answer node may never found approach 
+also perform breadth first search state space tree 
+matter initi state algorithm attempt sequenc move like df 
+solut 4 find optim solut use branch bound select rule next node bf df blind 
+e 
+select rule give prefer node good chanc get search answer node quickli 
+search optim solut often speed use intellig rank function also call approxim cost function avoid search sub tree contain optim solut 
+similar bf like search one major optim 
+instead follow fifo order choos live node least cost 
+may get optim solut follow node least promis cost provid good chanc get search answer node quickli 
+two approach calcul cost function worker choos job minimum cost list unassign job take minimum entri row 
+job choos worker lowest cost job list unassign worker take minimum entri column 
+articl first approach follow 
+let take exampl tri calcul promis cost job 2 assign worker sinc job 2 assign worker mark green cost becom 2 job 2 worker becom unavail mark red 
+assign job 3 worker b minimum cost list unassign job 
+cost becom 2 3 5 job 3 worker b also becom unavail 
+final job 1 get assign worker c minimum cost among unassign job job 4 get assign worker c job left 
+total cost becom 2 3 5 4 14 diagram show complet search space diagram show optim solut path green 
+complet algorithm findmincost use least add maintain list live node least find live node least cost delet list return add x calcul cost x add list live node implement list live node min heap search space tree node node int job_numb int worker_numb node parent int cost input cost matrix job assign problem output optim cost assign job algorithm findmincost costmatrix mat initi list live node min heap root search tree e 
+dummi node true find live node least estim cost e least found node delet list live node e leaf node printsolut return child x e add x add x list live node x parent e pointer path root c implement 
+program solv job assign problem use branch bound includ bit stdc h use namespac std defin n 4 state space tree node struct node store parent node current node help trace path answer found node parent contain cost ancestor node includ current node int pathcost contain least promis cost int cost contain worker number int workerid contain job id int jobid boolean array assign contain info avail job bool assign n function alloc new search tree node person x assign job node newnod int x int bool assign node parent node node new node int j 0 j n j node assign j assign j node assign true node parent parent node workerid x node jobid return node function calcul least promis cost node worker x assign job int calculatecost int costmatrix n n int x int bool assign int cost 0 store unavail job bool avail n true start next worker int x 1 n int min int_max minindex 1 job int j 0 j n j job unassign assign j avail j costmatrix j min store job number minindex j store cost min costmatrix j add cost next worker cost min job becom unavail avail minindex fals return cost comparison object use order heap struct comp bool oper const node lh const node rh const return lh cost rh cost print assign void printassign node min min parent null return printassign min parent cout assign worker char min workerid job min jobid endl find minimum cost use branch bound 
+int findmincost int costmatrix n n creat prioriti queue store live node search tree priority_queu node std vector node comp pq initail heap dummi node cost 0 bool assign n fals node root newnod 1 1 assign null root pathcost root cost 0 root workerid 1 add dummi node list live node pq push root find live node least cost add children list live node final delet list 
+pq empti find live node least estim cost node min pq top found node delet list live node pq pop store next worker int min workerid 1 worker assign job n printassign min return min cost job int j 0 j n j unassign min assign j creat new tree node node child newnod j min assign min cost ancestor node includ current node child pathcost min pathcost costmatrix j calcul lower bound child cost child pathcost calculatecost costmatrix j child assign add child list live node pq push child driver code int main x cordin repres worker cordin repres job int costmatrix n n 9 2 7 8 6 4 3 7 5 8 1 8 7 6 9 4 int costmatrix n n 82 83 69 92 77 37 49 92 11 69 5 86 8 9 98 23 int costmatrix n n 2500 4000 3500 4000 6000 3500 2000 4000 2500 int costmatrix n n 90 75 75 80 30 85 55 65 125 95 90 105 45 110 95 115 cout noptim cost findmincost costmatrix return 0 output assign worker job 1 assign worker b job 0 assign worker c job 2 assign worker job 3 optim cost 13 refer www cs umsl edu sanjiv class cs5130 lectur bb pdf articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

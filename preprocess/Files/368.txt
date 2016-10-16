@@ -1,0 +1,83 @@
+
+Given a number n find the number of valid parentheses expressions of that length. 
+
+Input: 2
+Output: 1 
+There is only possible valid expression of length 2, "()"
+
+Input: 4
+Output: 2 
+Possible valid expression of length 4 are "(())" and "()()" 
+
+Input: 6
+Output: 5
+Possible valid expressions are ((())), ()(()), ()()(), (())() and (()())
+This is mainly an application of Catalan Numbers.  Total possible valid expressions for input n is n/2’th Catalan Number if n is even and 0 if n is odd.
+Following is C++ implementation of the above idea.
+
+// C++ program to find valid paranthesisations of length n
+// The majority of code is taken from method 3 of 
+// http://www.geeksforgeeks.org/program-nth-catalan-number/
+#include<iostream>
+using namespace std;
+
+// Returns value of Binomial Coefficient C(n, k)
+unsigned long int binomialCoeff(unsigned int n, unsigned int k)
+{
+    unsigned long int res = 1;
+
+    // Since C(n, k) = C(n, n-k)
+    if (k > n - k)
+        k = n - k;
+
+    // Calculate value of [n*(n-1)*---*(n-k+1)] / [k*(k-1)*---*1]
+    for (int i = 0; i < k; ++i)
+    {
+        res *= (n - i);
+        res /= (i + 1);
+    }
+
+    return res;
+}
+
+// A Binomial coefficient based function to find nth catalan
+// number in O(n) time
+unsigned long int catalan(unsigned int n)
+{
+    // Calculate value of 2nCn
+    unsigned long int c = binomialCoeff(2*n, n);
+
+    // return 2nCn/(n+1)
+    return c/(n+1);
+}
+
+// Function to find possible ways to put balanced parenthesis
+// in an expression of length n
+unsigned long int findWays(unsigned n)
+{
+    // If n is odd, not possible to create any valid parentheses
+    if (n & 1) return 0;
+
+   // Otherwise return n/2'th Catalan Numer
+   return catalan(n/2);
+}
+
+// Driver program to test above functions
+int main()
+{
+    int n = 6;
+    cout << "Total possible expressions of length "
+         << n << " is " << findWays(6);
+    return 0;
+}
+
+Output:
+Total possible expressions of length 6 is 5
+Time Complexity: O(n)
+This article is contributed by Sachin. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

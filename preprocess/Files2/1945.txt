@@ -1,0 +1,16 @@
+write program compil run c c produc differ result compil c c compil 
+mani program follow 
+1 charact liter treat differ c c 
+c charact liter like b etc treat integ charact c 
+see detail exampl follow program produc sizeof int output c sizeof char c 
+includ stdio h int main printf sizeof return 0 2 c need use struct tag whenev declar struct variabl 
+c struct tag necessari 
+exampl let structur student 
+c must use struct student student variabl 
+c omit struct use student 
+follow program base fact produc differ output c c 
+print sizeof int c sizeof struct c 
+includ stdio h int int main struct doubl x c hide global variabl c printf sizeof return 0 3 type boolean result differ c c 
+thank gaurav jain suggest point 
+output 4 c size int printf sizeof 1 1 output 1 c size boolean datatyp cout sizeof 1 1 articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

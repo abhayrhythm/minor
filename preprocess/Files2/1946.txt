@@ -1,0 +1,4 @@
+although c design backward compat c mani c program would produc compil error compil c compil 
+follow 
+1 c compil error call function declar 
+c may compil see http www geeksforgeek org g fact 95 includ stdio h int main foo foo call declar definit int foo printf hello return 0 

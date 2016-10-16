@@ -1,0 +1,20 @@
+permut also call arrang number order rearrang element order list one one correspond 
+string length n n 
+permut 
+sourc mathword permut string abc 
+abc acb bac bca cba cab discuss c implement print permut given string use backtrack 
+post c implement use stl discuss 
+method 1 use rotat std rotat function rotat element vector string pass middl element becom first 
+exampl call rotat abcd middl second element string becom bcda call rotat middl second element string becom cdab 
+refer sampl program 
+c implement 
+c program print permut duplic allow use rotat stl includ bit stdc h use namespac std function print permut string str use store permut one one void permut string str string size str becom 0 permut length n str size 0 cout endl return one one move charact begin result int 0 str size remov first charact str add permut str substr 1 str 0 rotat string way second charact move begin 
+rotat str begin str begin 1 str end driver code int main string str abc permut str return 0 output abc acb bca bac cab cba method 2 use next_permut use next_permut modifi string store lexicograph next permut 
+current string lexicograph largest e cba next_permut return fals 
+first sort string convert lexicograph smallest permut 
+one one call next_permut return fals 
+c program print permut duplic allow use next_permut includ bit stdc h use namespac std function print permut string str use next_permut void permut string str sort string lexicograph ascennd order sort str begin str end keep print next permut next permut cout str endl next_permut str begin str end driver code int main string str cba permut str return 0 output abc acb bca bac cab cba note second method alway print permut lexicograph sort order irrespect input string 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

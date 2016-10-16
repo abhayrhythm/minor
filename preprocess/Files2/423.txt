@@ -1,0 +1,5 @@
+question design data structur specialstack support stack oper like push pop isempti isful addit oper getmin return minimum element specialstack 
+oper specialstack must 1 
+implement specialstack use standard stack data structur data structur like array list etc 
+exampl consid follow specialstack 16 top 15 29 19 18 getmin call return 15 minimum element current stack 
+pop two time stack stack becom 29 top 19 18 getmin call return 18 minimum current stack 

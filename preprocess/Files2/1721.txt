@@ -1,0 +1,40 @@
+mother vertex 
+mother vertex graph g v e vertex v vertic g reach path v exampl input graph output 5 one mother vertic graph 
+need output anyon 
+exampl graph vertic 0 1 2 mother vertic 
+strongli recommend minim browser tri first 
+find mother vertex 
+case 1 undirect connect graph case vertic mother vertic reach node graph 
+case 2 undirect direct disconnect graph case mother vertic cannot reach node graph 
+case 3 direct connect graph case find vertex v graph reach node graph direct path 
+naiv approach trivial approach perform df bf vertic find whether reach vertic vertex 
+approach take v e v time ineffici larg graph 
+better 
+find mother vertex v e time 
+idea base kosaraju strongli connect compon algorithm 
+graph strongli connect compon mother veric alway vertic sourc compon compon graph 
+idea base fact 
+exist mother vertex vertic one mother vertic last finish vertex df 
+mother vertex maximum finish time df travers 
+vertex said finish df recurs call df e descend vertex visit 
+idea work 
+let last finish vertex v basic need prove cannot edg anoth vertex u v u anoth mother vertex cannot exist non mother vertex u u v edg 
+two possibl 
+recurs df call made u v edg u v exist v must finish u v reachabl u vertex finish descend 
+recurs df call made v u case also edg u v exist either v must finish u contradict assumpt v finish end u reachabl v mean u anoth mother vertex 
+algorithm df travers given graph 
+travers keep track last finish vertex v 
+step take v e time 
+exist mother vertex vetic v must one one 
+check v mother vertex df bf v step also take v e time 
+c implement algorithm 
+c program find mother vertex v e time includ bit stdc h use namespac std class graph int v 
+vertic list int adj adjac list recurs function print df start v void dfsutil int v vector bool visit public graph int v void addedg int v int w int findmoth graph graph int v v v adj new list int v recurs function print df start v void graph dfsutil int v vector bool visit mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit void graph addedg int v int w adj v push_back w add w v list 
+return mother vertex exist 
+otherwis return 1 int graph findmoth visit use df 
+initi initi visit vector bool visit v fals store last finish vertex mother vertex int v 0 df travers find last finish vertex int 0 v visit fals dfsutil visit v exist mother vertex vetic given graph v must one one check v actual mother vertex graph mother vertex 
+basic check everi vertex reachabl v 
+reset valu visit fals df begin v check vertic reachabl 
+fill visit begin visit end fals dfsutil v visit int 0 v visit fals return 1 return v driver program test function int main creat graph given diagram graph g 7 g addedg 0 1 g addedg 0 2 g addedg 1 3 g addedg 4 1 g addedg 6 4 g addedg 5 6 g addedg 5 2 g addedg 6 0 cout mother vertex g findmoth return 0 output mother vertex 5 time complex v e articl contribut rachit belwariar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

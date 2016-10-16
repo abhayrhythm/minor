@@ -1,0 +1,7 @@
+given integ write function calcul 7n 8 ceil 7n 8 without use divis multipl oper 
+strongli recommend minim browser tri first 
+method 1 idea first calcul floor n 8 e n 8 use right shift bitwis oper 
+express n 3 produc 
+subtract n 8 n get 7n 8 c program base idea 
+c program evalu ceil 7n 8 without use includ stdio h int multiplybysevenbyeight unsign int n note inner bracket 
+need preced oper higher return n n 3 driver program test function int main unsign int n 9 printf multiplybysevenbyeight n return 0 output 8 

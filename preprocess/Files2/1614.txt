@@ -1,0 +1,29 @@
+given binari tree complet path defin path root leaf 
+sum node path defin sum path 
+given number k remov prune tree node lie path sum k 
+note node part multipl path 
+delet case path sum less k consid follow binari tree 1 2 3 4 5 6 7 8 9 12 10 13 14 11 15 input k 20 tree chang follow node valu 6 8 delet 1 2 3 4 5 7 9 12 10 13 14 11 15 input k 45 tree chang follow 
+1 2 4 9 14 15 strongli recommend minim browser tri first 
+idea travers tree delet node bottom manner 
+travers tree recurs calcul sum node root leaf node path 
+visit node check total calcul sum given sum k 
+sum less k free delet node leaf node return sum back previou node 
+sinc path root leaf node delet bottom manner node delet descend delet 
+therefor node delet must leaf current binari tree 
+follow c implement approach 
+includ stdio h includ stdlib h util function get maximum two integ int max int l int r return l r 
+l r binari tree node struct node int data struct node left right util function creat new binari tree node given data struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node print tree lvr inord travers way 
+void print struct node root root null print root left printf root data print root right main function truncat binari tree 
+struct node pruneutil struct node root int k int sum base case root null return null initi left right sum sum root node includ node int lsum sum root data int rsum lsum recurs prune left right subtre root left pruneutil root left k lsum root right pruneutil root right k rsum get maximum left right sum sum max lsum rsum maximum smaller k node must delet sum k free root root null return root wrapper pruneutil struct node prune struct node root int k int sum 0 return pruneutil root k sum driver program test function int main int k 45 struct node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root left left left newnod 8 root left left right newnod 9 root left right left newnod 12 root right right left newnod 10 root right right left right newnod 11 root left left right left newnod 13 root left left right right newnod 14 root left left right right left newnod 15 printf tree truncat n print root root prune root k k 45 printf n ntree truncat n print root return 0 output tree truncat 8 4 13 9 15 14 2 12 5 1 6 3 10 11 7 tree truncat 4 9 15 14 2 1 time complex n solut singl travers given binari tree 
+simpler solut code simplifi use fact node delet bottom manner 
+idea keep reduc sum travers 
+reach leaf sum greater leaf data delet leaf 
+note delet node may convert non leaf node leaf node data convert leaf node less current sum convert leaf also delet 
+thank vicki suggest solut comment 
+includ stdio h includ stdlib h binari tree node struct node int data struct node left right util function creat new binari tree node given data struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node print tree lvr inord travers way 
+void print struct node root root null print root left printf root data print root right main function truncat binari tree 
+struct node prune struct node root int sum base case root null return null recur left right subtre root left prune root left sum root data root right prune root right sum root data reach leaf whose data smaller sum delet leaf 
+import thing note non leaf node becom leaf chilren delet 
+root left null root right null root data sum free root return null return root driver program test function int main int k 45 struct node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root left left left newnod 8 root left left right newnod 9 root left right left newnod 12 root right right left newnod 10 root right right left right newnod 11 root left left right left newnod 13 root left left right right newnod 14 root left left right right left newnod 15 printf tree truncat n print root root prune root k k 45 printf n ntree truncat n print root return 0 output tree truncat 8 4 13 9 15 14 2 12 5 1 6 3 10 11 7 tree truncat 4 9 15 14 2 1 articl contribut chandra prakash 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

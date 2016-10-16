@@ -1,0 +1,35 @@
+
+In C, it might not be possible to have function names on left side of an expression, but it’s possible in C++.  
+
+#include<iostream>
+
+using namespace std;
+
+/* such a function will not be safe if x is non static variable of it */
+int &fun()
+{
+   static int x; 
+   return x;
+}    
+
+int main()
+{
+   fun() = 10;
+
+   /* this line prints 10 on screen */
+   printf(" %d ", fun());
+
+   getchar();
+   return 0;
+}
+
+Please write comments if you find anything incorrect or want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

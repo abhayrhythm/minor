@@ -1,0 +1,12 @@
+idea encapsul bundl data method work data togeth restrict access privat data member outsid class 
+c friend function friend class also access privat data member 
+possibl access privat member outsid class without friend 
+ye possibl use pointer 
+see follow program exampl 
+includ iostream use namespac std class test privat int data public test data 0 int getdata return data int main test int ptr int ptr 10 cout getdata return 0 output 10 note way access privat data member recommend way access member never use 
+also mean encapsul work c 
+idea make privat member avoid accident chang 
+chang data accident 
+intent written code fool compil 
+articl contribut ashish kumar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

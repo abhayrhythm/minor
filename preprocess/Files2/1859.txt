@@ -1,0 +1,2 @@
+two common method convert string number use stringstream class sscanf stringstream easi way convert string digit int float doubl 
+follow sampl program use stringstream convert string int 

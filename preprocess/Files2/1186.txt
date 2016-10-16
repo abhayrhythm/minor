@@ -1,0 +1,16 @@
+given input string pattern check charact input string follow order determin charact present pattern 
+assum duplic charact pattern 
+exampl input string engin rock pattern er output true explan e input string r 
+input string engin rock pattern egr output fals explan two e g input string 
+input string engin rock pattern gsr output fals explan one r input string 
+idea simpl 
+everi pair x consecut charact pattern string find last occurr x first occurr input string 
+last occurr charact x first occurr charact pair return fals 
+check everi pair consecut charact pattern string suffic 
+exampl consid three consecut charact pattern say x z x z return true impli x z also true 
+c implement idea c program check charact input string follow order determin charact present given pattern includ iostream use namespac std function check charact input string follow order determin charact present given pattern bool checkpattern string str string pattern len store length given pattern int len pattern length length pattern length input string return fals str length len return fals int 0 len 1 x two adjac charact pattern char x pattern char pattern 1 find index last occurr charact x input string size_t last str find_last_of x find index first occurr charact input string size_t first str find_first_of return fals x present input string last occurr x first occurr input string last string npo first string npo last first return fals return true string match pattern return true driver code int main string str engin rock string pattern gsr cout boolalpha checkpattern str pattern return 0 output fals discuss two approach solv problem 
+check string follow order charact defin pattern set 2 check string follow order charact defin pattern set 3 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

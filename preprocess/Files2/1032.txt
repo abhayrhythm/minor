@@ -1,0 +1,7 @@
+predict output c program 
+question 1 includ stdio h int main int char x x char 512 x 0 1 x 1 2 printf n getchar return 0 answer output depend endian machin 
+output 513 littl endian machin 258 big endian machin 
+let integ store use 16 bit 
+littl endian machin x 0 1 x 1 2 number chang 00000001 00000010 represent 513 littl endian machin 
+output would 32 bit number also 
+big endian machin x 0 1 x 1 2 number chang 00000001 00000010 represent 258 big endian machin 

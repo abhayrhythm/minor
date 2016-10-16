@@ -1,0 +1,34 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks. In this post, our Geek is coding champ – Ayush Jaggi whose status of coding changed from “Don’t know anything” to “National Level Coder” in just two years.
+Ayush Jaggi is pursuing his Bachelor’s degree at Jaypee Institute of Information and  Technology, Noida. He is the a big inspiration for students who keep thinking how and when to begin programming. GeeksforGeeks team feels proud to interact with him and inspire other students to follow their goals of programming, job preparations and beyond.
+How did it all start? How did you land up in the world of programming?
+I started Competitive Programming in my second year, third semester to be precise. I have been really interested in mathematics and logically challenging problems since school and knew C since I had it in 6th/7th/8th (School Curriculum) and thus grasped things quickly when I joined college. However, I did not know of competitive programming until college. I did not do much (P.S- Almost nothing) in my first year as I was too confused with ECE and how to bear with it. It was in second year, I guess August, that I finally realised that I can’t understand ECE as good as I do in computer science subjects and started looking at some questions on Codechef. Most of the things still seemed tough but I decided to give it a try and started reading solutions of questions (without attempting them), just to see how people code. It gave me like a start and then I started attempting problems, initially by Googling or asking some seniors.
+It gave me some confidence and I made a team with two of my friends and decided to give ICPC a try. We did not do any team practice, since we thought that we wouldn’t qualify for it. However we did, at both of the sites we gave the online round and that gave a huge push to never look back again.
+What are the skill-sets required to be just too good in programming?
+Rather than saying skill-set, I would say that having a never-give-up attitude towards problem solving is most essential. I always believed that rather than brainstorming on a problem alone, it’s really great to discuss the problems with someone who has same interests as you, for example your ICPC teammates (Obviously not in a Live Contest.)
+There are tons of resources available online these days, GeeksforGeeks being one of the biggest of it.
+What should one keep in mind when beginning to pursue the Competitive Programming and job preparation? How did you land up in your dream job?
+Always remember that Job preparation and CP are not inter-dependent. Though you might have an upper hand in DS and Algorithms in the interviews, but there’s much more to interviews than DS Algorithms. That’s what in realized when I couldn’t even clear the HackerRank test for Amazon onsite due to my obsession with going for the most optimal solutions every time.
+For those who are preparing for interviews right now, focus on MCQs too as much as you do on DS and algorithms. Also have a good grasp over basic concepts of Networks, OS, and DBMS really helps you.
+What do you like to do in free time ?
+I like playing FIFA when I’m free and recently started with Table Tennis too. I am also a huge Coldplay fan, so listening to their music is a part of my day, among some other good music.
+Your advice to students who are aiming for similar targets as yours.
+If you are stuck in a problem, read the editorial. Try coding it then. After you get AC, always see the solutions of best coders- International GMs and GMs. (GM- Grandmaster). I learned almost 80% of the STL referring to codes. Ask questions. From a silly one to a complex one, don’t be afraid to ask one.
+Be regular in participating in contests. Also, try challenging yourself psychologically. One way to do that is doing a contest a day before your exams, even when you haven’t studied ANYTHING. It would really help you tackle pressure situations. Get frustrated by TLEs and WAs. “Higher the frustration, better the code.”
+Ayush’s Achievements
+
+National rank among top 10 in Google Code Jam 2016.
+National rank among top 25 in Facebook Hacker Cup 2016, 2015
+Codeforces rating: Maximum: 1998, best rank being Global Rank 2 in a Div-2 contest.
+HackerRank username: jaggi_ayush9. Got decent ranks in a few of the contests.
+
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org. Let the top geeks inspire other students.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

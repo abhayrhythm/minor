@@ -1,0 +1,11 @@
+given link list everi node repres link list contain two pointer type pointer next node main list call right pointer code ii pointer link list node head call pointer code 
+link list sort 
+see follow exampl 5 10 19 28 v v v v 7 20 22 35 v v v 8 50 40 v v 30 45 write function flatten flatten list singl link list 
+flatten link list also sort 
+exampl input list output list 5 7 8 10 19 20 22 28 30 35 40 45 50 
+idea use merg process merg sort link list 
+use merg merg list one one 
+recurs merg current list alreadi flatten list 
+pointer use link node flatten list 
+follow c java implement 
+c c c program flatten link list includ stdio h includ stdlib h link list node typedef struct node int data struct node right struct node node util function insert new node begin link list void push node head_ref int new_data alloc node node new_nod node malloc sizeof node new_nod right null put data new_nod data new_data link old list new node new_nod head_ref move head point new node head_ref new_nod function print node flatten link list void printlist node node node null printf node data node node util function merg two sort link list node merg node node b first list empti second list result null return b second list empti second list result b null return compar data member head node list put smaller one result node result data b data result result merg b els result b result merg b return result main function flatten given link list node flatten node root base case root null root right null return root merg list list right side return merg root flatten root right driver program test function int main node root null let us creat follow link list 5 10 19 28 v v v v 7 20 22 35 v v v 8 50 40 v v 30 45 push root 30 push root 8 push root 7 push root 5 push root right 20 push root right 10 push root right right 50 push root right right 22 push root right right 19 push root right right right 45 push root right right right 40 push root right right right 35 push root right right right 20 let us flatten list root flatten root let us print flaten link list printlist root return 0 

@@ -1,0 +1,10 @@
+c string refer either use charact pointer charact array 
+string charact array char str 4 gfg one extra string termin char str 4 g f g 0 0 string termin string declar charact array store like type array c exampl str auto variabl string store stack segment global static variabl store data segment etc 
+string use charact pointer use charact pointer string store two way 1 read string share segment 
+string valu directli assign pointer compil store read block gener data segment share among function 
+char str gfg line gfg store share read locat pointer str store read write memori 
+chang str point someth els cannot chang valu present str 
+kind string use want modifi string later stage program 
+2 dynam alloc heap segment 
+string store like dynam alloc thing c share among function 
+char str int size 4 one extra 0 str char malloc sizeof char size str 0 g str 1 f str 2 g str 3 0 

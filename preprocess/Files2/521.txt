@@ -1,0 +1,4 @@
+suffix array sort array suffix given string 
+definit similar suffix tree compress trie suffix given text 
+let given string banana 
+0 banana 5 1 anana sort suffix 3 ana 2 nana 1 anana 3 ana alphabet 0 banana 4 na 4 na 5 2 nana suffix array banana 5 3 1 0 4 2 discuss naiv algorithm construct suffix array 

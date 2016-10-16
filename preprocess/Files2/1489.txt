@@ -1,0 +1,29 @@
+given array integ find length longest sub sequenc element subsequ consecut integ consecut number order 
+exampl input arr 1 9 3 10 4 20 2 output 4 subsequ 1 3 4 2 longest subsequ consecut element input arr 36 41 56 35 44 33 34 92 43 32 42 output 5 subsequ 36 35 33 34 32 longest subsequ consecut element 
+strongli recommend minim browser tri first 
+one solut first sort array find longest subarray consecut element 
+time complex solut nlogn 
+thank hao w suggest solut 
+solv problem n time use effici solut 
+idea use hash 
+first insert element hash 
+check possibl start consecut subsequ 
+complet algorithm 
+1 creat empti hash 
+2 insert array element hash 
+3 follow everi element arr check element start point subsequ 
+check simpli look arr 1 hash found first element subsequ 
+element first element count number element consecut start element 
+count current re updat re 
+c implement algorithm 
+c c c program find longest contigu subsequ includ bit stdc h use namespac std return length longest contigu subsequ int findlongestconseqsubseq int arr int n unordered_set int int an 0 hash array element int 0 n insert arr check possibl sequenc start updat optim length int 0 n current element start element sequenc find arr 1 end check next element sequenc int j arr find j end j updat optim length length an max an j arr return an driver program int main int arr 1 9 3 10 4 20 2 int n sizeof arr sizeof arr 0 cout length longest contigu subsequ findlongestconseqsubseq arr n return 0 java java program find longest consecut subsequ import java io 
+import java util 
+class arrayel return length longest consecut subsequ static int findlongestconseqsubseq int arr int n hashset integ new hashset integ int an 0 hash array element int 0 n add arr check possibl sequenc start updat optim length int 0 n current element start element sequenc contain arr 1 check next element sequenc int j arr contain j j updat optim length length an j arr an j arr return an test program public static void main string arg int arr 1 9 3 10 4 20 2 int n arr length system println length longest consecut subsequ findlongestconseqsubseq arr n code contribut aakash hasija output length longest contigu subsequ 4 time complex first look time complex look n 
+take closer look notic n assumpt hash insert search take 1 time 
+function find insid loop call twice everi element 
+exampl consid case array element consecut 
+case outer find call everi element go insid condit smallest element 
+insid condit call find one time everi element 
+thank gaurav ahirwar solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

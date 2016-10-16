@@ -1,0 +1,28 @@
+
+How to swap two variables?
+The question may look silly, neither geeky. See the following piece of code to swap two integers (XOR swapping),
+void myswap(int *x, int *y)
+{
+   if (x != y)
+   {
+      *x^=*y^=*x^=*y;
+   }
+}
+At first glance, we may think nothing wrong with the code. However, when prompted for reason behind opting for XOR swap logic, the person was clue less. Perhaps any commutative operation can fulfill the need with some corner cases.
+Avoid using fancy code snippets in production software. They create runtime surprises. We can observe the following notes on above code
+
+The code behavior is undefined. The statement *x^=*y^=*x^=*y; modifying a variable more than once in without any sequence point.
+It creates pipeline stalls when executed on a processor with pipeline architecture.
+The compiler can’t take advantage in optimizing the swapping operation. Some processors will provide single instruction to swap two variables. When we opted for standard library functions, there are more chances that the library would have been optimized. Even the compiler can recognize such standard function and generates optimum code.
+Code readability is poor. It is very much important to write maintainable code.
+
+Thanks to Venki for writing the above article. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

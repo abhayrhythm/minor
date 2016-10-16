@@ -1,0 +1,176 @@
+
+We have discussed Circular Linked List Introduction and Applications,  in the previous post on Circular Linked List. In this post, traversal operation is discussed. 
+
+In a conventional linked list, we traverse the list from the head node and stop the traversal when we reach NULL.  In a circular linked list, we stop traversal when we reach the first node again.   Following is C code for linked list traversal.
+
+/* Function to traverse a given Circular linked list and print nodes */
+void printList(struct node *first)
+{
+    struct node *temp = first; 
+
+    // If linked list is not empty
+    if (first != NULL) 
+    {
+        // Keep printing nodes till we reach the first node again
+        do
+        {
+            printf("%d ", temp->data);
+            temp = temp->next;
+        }
+        while (temp != first);
+    }
+}
+
+Complete C program to demonstrate traversal. Following is complete C program to demonstrate traversal of circular linked list.
+
+C/C++
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+/* structure for a node */
+struct node
+{
+    int data;
+    struct node *next;
+};
+
+/* Function to insert a node at the begining of a Circular
+   linked list */
+void push(struct node **head_ref, int data)
+{
+    struct node *ptr1 = (struct node *)malloc(sizeof(struct node));
+    struct node *temp = *head_ref;
+    ptr1->data = data;
+    ptr1->next = *head_ref;
+
+    /* If linked list is not NULL then set the next of last node */
+    if (*head_ref != NULL)
+    {
+        while (temp->next != *head_ref)
+            temp = temp->next;
+        temp->next = ptr1;
+    }
+    else
+        ptr1->next = ptr1; /*For the first node */
+
+    *head_ref = ptr1;
+}
+
+/* Function to print nodes in a given Circular linked list */
+void printList(struct node *head)
+{
+    struct node *temp = head;
+    if (head != NULL)
+    {
+        do
+        {
+            printf("%d ", temp->data);
+            temp = temp->next;
+        }
+        while (temp != head);
+    }
+}
+
+/* Driver program to test above functions */
+int main()
+{
+    /* Initialize lists as empty */
+    struct node *head = NULL;
+
+    /* Created linked list will be 11->2->56->12 */
+    push(&head, 12);
+    push(&head, 56);
+    push(&head, 2);
+    push(&head, 11);
+
+    printf("Contents of Circular Linked List\n ");
+    printList(head);
+
+    return 0;
+}
+
+Python
+
+
+
+# Python program to demonstrate circular linked list traversal 
+
+# Structure for a Node
+class Node:
+    
+    # Constructor to create  a new node
+    def __init__(self, data):
+        self.data = data 
+        self.next = None
+
+class CircularLinkedList:
+    
+    # Constructor to create a empty circular linked list
+    def __init__(self):
+        self.head = None
+
+    # Function to insert a node at the beginning of a
+    # circular linked list
+    def push(self, data):
+        ptr1 = Node(data)
+        temp = self.head
+        
+        ptr1.next = self.head
+
+        # If linked list is not None then set the next of
+        # last node
+        if self.head is not None:
+            while(temp.next != self.head):
+                temp = temp.next 
+            temp.next = ptr1
+
+        else:
+            ptr1.next = ptr1 # For the first node
+
+        self.head = ptr1 
+
+    # Function to print nodes in a given circular linked list
+    def printList(self):
+        temp = self.head
+        if self.head is not None:
+            while(True):
+                print "%d" %(temp.data),
+                temp = temp.next
+                if (temp == self.head):
+                    break 
+
+
+# Driver program to test above function
+
+# Initialize list as empty
+cllist = CircularLinkedList()
+
+# Created linked list will be 11->2->56->12
+cllist.push(12)
+cllist.push(56)
+cllist.push(2)
+cllist.push(11)
+
+print "Contents of circular Linked List"
+cllist.printList()
+          
+# This code is contributed by Nikhil Kumar Singh(nickzuck_007)
+
+
+
+Output:
+Contents of Circular Linked List
+ 11 2 56 12
+You may like to see following posts on Circular Linked List
+Split a Circular Linked List into two halves
+Sorted insert for circular linked list
+We will soon be discussing implementation of insert delete operations for circular linked lists.
+Please write comments if you find any bug in above code/algorithm, or find other ways to solve the same problem
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

@@ -1,0 +1,48 @@
+given program fork system call 
+includ stdio h includ unistd h int main fork fork fork fork fork printf fork n return 0 mani process spawn execut program 
+fork system call spawn process leav grow binari tree 
+call fork twice spawn 22 4 process 
+4 process form leaf children binari tree 
+gener level l fork call uncondit 2l process level l 1 
+equival number maximum child node binari tree level l 1 
+anoth exampl assum invok fork call 3 time uncondit 
+repres spawn process use full binari tree 3 level 
+level 3 23 8 child node correspond number process run 
+note c c logic oper logic oper preced left right associ 
+execut left operand final result estim execut right operand depend outcom left operand well type oper 
+case evalu left operand right operand evalu left operand evalu non zero 
+case evalu left operand right operand evalu left operand evalu zero 
+return valu fork man page fork cite follow excerpt return valu success pid child process return parent 0 return child 
+failur 1 return parent child process creat errno set appropri pid like handl process repres unsign int 
+conclud fork return non zero parent zero child 
+let us analys program 
+easi notat label fork shown includ stdio h int main fork fork b fork c b c group accord preced fork fork e printf fork n return 0 follow diagram provid pictori represent fork ing new process 
+newli creat process propag right side tree parent propag left side tree consecut level 
+first two fork call call uncondit 
+level 0 main process 
+main diagram creat child c1 continu execut 
+children number increas order creation 
+level 1 c1 run readi execut fork b 
+note b c name operand oper 
+initi express b execut everi children parent process run level 
+level 2 due fork b execut c1 c1 parent c2 c3 children 
+return valu fork b non zero parent zero child 
+sinc first oper zero return valu children c2 c3 execut next express fork c 
+parent process c1 continu fork c children c2 c3 directli execut fork evalu valu logic oper 
+level 3 c1 c2 c3 run process c4 c5 children 
+express simplifi b c point valu b c obviou 
+parent non zero children zero 
+henc parent awar outcom overal b c skip execut fork sinc children b c evalu zero execut fork note children c2 c3 creat level 2 also run fork mention 
+level 4 c1 c2 c3 c4 c5 run process c6 c7 c8 c9 child process 
+process uncondit execut fork e spawn one child 
+level 5 20 process run 
+program ubuntu maverick gcc 4 4 5 print fork 20 time 
+root parent main rest children 
+overal 19 process spawn 
+note order evalu evalu order express binari oper unspecifi 
+detail read post evalu order operand 
+howev logic oper except 
+guarante evalu left right 
+contribut venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

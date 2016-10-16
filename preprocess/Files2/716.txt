@@ -1,0 +1,31 @@
+microsoft came campu 
+branch elig cs 
+total 4 round 
+round 1 mcq round round total 15 mcq time allot 30 min question mainli c c java output find pointer refer basic puzzl 
+abl solv 12 mcq 
+manag qualifi round 
+round 2 onlin code round round 2 code question given us need solv 1hr time 
+1st question given matrix dimens n cell matrix valu 0 1 2 follow mean 0 empti cell 1 cell fresh orang 2 cell rotten orang determin minimum time requir orang rotten rotten orang index j rot fresh orang index 1 j j 1 1 j j 1 
+imposs rot everi orang simpli return 1 2nd question provid binari tree given two integ n k determin sum data node distanc k node data n manag solv question 
+2 complet use bf way 1 use bf directli travers array obtain solut n 2 
+2 form graph tree found node sourc point bf sum find requir answer 
+round 3 face face interview round 150 min 1 brief discuss project 
+2048 game java project 
+2 tell someth elabor hobbi 
+3 list station distanc given find pair shortest distanc 
+floyd warshal algorithm v 3 
+4 given 1 billion number remov duplic n rang number till 10 5 
+use ab method chang sign remov impress interview lot 
+5 implement dictionari ask basic layout told lot word alreadi enter definit synonym antonym 
+start vector vector string hashmap set string pair rb tree approach 
+6 ask write pseudo code data structur complex search insert updat 
+gave answer round 
+round 4 technic round 90 min 1 ask throw light trend technolog 
+explain cloud big data etc 
+took 30 min look impress 
+2 next ask place idc one prefer interact session final opt msit mention reason gave final feedback 
+gave answer round 
+hope experi help everyon 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

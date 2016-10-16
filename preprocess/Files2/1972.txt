@@ -1,0 +1,12 @@
+predict output follow c program includ iostream use namespac std class public cout constructor call endl class b static public b cout b constructor call endl int main b b return 0 output b constructor call program call b constructor call constructor 
+reason simpl static member declar class declar defin 
+must explicitli defin outsid class use scope resolut oper 
+tri access static member without explicit definit get compil error 
+exampl follow program fail compil 
+includ iostream use namespac std class int x public cout constructor call endl class b static public b cout b constructor call endl static geta return int main b b b geta return 0 output compil error undefin refer b add definit program work fine call constructor 
+see follow program 
+includ iostream use namespac std class int x public cout constructor call endl class b static public b cout b constructor call endl static geta return b definit int main b b1 b2 b3 b1 geta return 0 output constructor call b constructor call b constructor call b constructor call note program call b constructor 3 time 3 object b1 b2 b3 call constructor 
+reason static member share among object 
+also known class member class field 
+also static member access without object see program static member access without object 
+includ iostream use namespac std class int x public cout constructor call endl class b static public b cout b constructor call endl static geta return b definit int main static member access without object b b geta return 0 output constructor call pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

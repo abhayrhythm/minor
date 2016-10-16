@@ -1,0 +1,35 @@
+c definit way repres sequenc charact object class 
+class call std string 
+string class store charact sequenc byte function allow access singl byte charact 
+std string vs charact array charact array simpli array charact termin null charact 
+string class defin object repres stream charact 
+size charact array alloc static memori cannot alloc run time requir 
+unus alloc memori wast case charact array 
+case string memori alloc dynam 
+memori alloc run time demand 
+memori prealloc memori wast 
+threat array decay case charact array 
+string repres object array decay occur 
+implement charact array faster std string 
+string slower compar implement charact array 
+charact array offer much inbuilt function manipul string 
+string class defin number function allow manifold oper string 
+oper string input function 1 getlin function use store stream charact enter user object memori 
+2 push_back function use input charact end string 
+3 pop_back introduc c 11 string function use delet last charact string 
+c code demonstr work getlin push_back pop_back includ iostream includ string string class use namespac std int main declar string string str take string input use getlin geeksforgeek givin output getlin cin str display string cout initi string cout str endl use push_back insert charact end push case str push_back display string cout string push_back oper cout str endl use pop_back delet charact end pop case str pop_back display string cout string pop_back oper cout str endl return 0 input geeksforgeek output initi string geeksforgeek string push_back oper geeksforgeek string pop_back oper geeksforgeek capac function 3 capac function return capac alloc string equal size string 
+addit space alloc new charact ad string oper done effici 
+4 resiz function chang size string size increas decreas 
+5 shrink_to_fit function decreas capac string make equal size 
+oper use save addit memori sure addit charact made 
+c code demonstr work capac resiz shrink_to_fit includ iostream includ string string class use namespac std int main initi string string str geeksforgeek geek display string cout initi string cout str endl resiz string use resiz str resiz 13 display string cout string resiz oper cout str endl display capac string cout capac string cout str capac endl decreas capac string use shrink_to_fit str shrink_to_fit display string cout new capac shrink cout str capac endl return 0 output initi string geeksforgeek geek string resiz oper geeksforgeek capac string 26 new capac shrink 13 iter function 7 begin function return iter begin string 
+8 end function return iter end string 
+9 rbegin function return revers iter point end string 
+10 rend function return revers iter point begin string 
+c code demonstr work begin end rbegin rend includ iostream includ string string class use namespac std int main initi string string str geeksforgeek declar iter std string iter declar revers iter std string reverse_iter it1 display string cout string use forward iter str begin str end cout cout endl display revers string cout revers string use revers iter it1 str rbegin it1 str rend it1 cout it1 cout endl return 0 output string use forward iter geeksforgeek revers string use revers iter skeegrofskeeg manipul function 11 copi char array len po function copi substr target charact array mention argument 
+take 3 argument target char array length copi start posit string start copi 
+12 swap function swap one string 
+c code demonstr work copi swap includ iostream includ string string class use namespac std int main initi 1st string string str1 geeksforgeek geek declar 2nd string string str2 geeksforgeek rock declar charact array char ch 80 use copi copi element char array copi geeksforgeek str1 copi ch 13 0 diplay char array cout new copi charact array cout ch endl endl display string swap cout 1st string swap cout str1 endl cout 2nd string swap cout str2 endl use swap swap string content str1 swap str2 display string swap cout 1st string swap cout str1 endl cout 2nd string swap cout str2 endl return 0 output new copi charact array geeksforgeek 1st string swap geeksforgeek geek 2nd string swap geeksforgeek rock 1st string swap geeksforgeek rock 2nd string swap geeksforgeek geek function c string class applic c string class applic set 2 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,13 @@
+given binari search tree bst modifi greater valu given bst ad everi node 
+exampl consid follow bst 
+50 30 70 20 40 60 80 tree modifi follow 260 330 150 350 300 210 80 simpl method solv find sum greater valu everi node 
+method would take n 2 time 
+use singl travers 
+idea use follow bst properti 
+revers inord travers bst get node decreas order 
+revers inord travers keep track sum node visit far add sum everi node 
+c program add greater valu everi node bst includ stdio h includ stdlib h struct node int data struct node left right util function creat new bst node struct node newnod int item struct node temp struct node malloc sizeof struct node temp data item temp left temp right null return temp recurs function add greater valu everi node void modifybstutil struct node root int sum base case root null return recur right subtre modifybstutil root right sum sum sum node right subtre add root data sum updat root data sum sum root data root data sum recur left subtre modifybstutil root left sum wrapper modifybstutil void modifybst struct node root int sum 0 modifybstutil root sum util function inord travers bst void inord struct node root root null inord root left printf root data inord root right util function insert new node given data bst struct node insert struct node node int data tree empti return new node node null return newnod data otherwis recur tree data node data node left insert node left data els node right insert node right data return unchang node pointer return node driver program test function int main let us creat follow bst 50 30 70 20 40 60 80 struct node root null root insert root 50 insert root 30 insert root 20 insert root 40 insert root 70 insert root 60 insert root 80 modifybst root print inod tarvers modifi bst inord root return 0 output 350 330 300 260 210 150 80 time complex n n number node given bst 
+side note also use revers inord travers find kth largest element bst 
+articl contribut chandra prakash 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

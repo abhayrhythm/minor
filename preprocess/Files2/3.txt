@@ -1,0 +1,32 @@
+discuss asymptot analysi worst averag best case algorithm 
+main idea asymptot analysi measur effici algorithm depend machin specif constant requir algorithm implement time taken program compar 
+asymptot notat mathemat tool repres time complex algorithm asymptot analysi 
+follow 3 asymptot notat mostli use repres time complex algorithm 
+1 θ notat theta notat bound function defin exact asymptot behavior 
+simpl way get theta notat express drop low order term ignor lead constant 
+exampl consid follow express 
+3n3 6n2 6000 θ n3 drop lower order term alway fine alway n0 θ n3 beat θn2 irrespect constant involv 
+given function g n denot θ g n follow set function 
+θ g n f n exist posit constant c1 c2 n0 0 c1 g n f n c2 g n n n0 definit mean f n theta g n valu f n alway c1 g n c2 g n larg valu n n n0 
+definit theta also requir f n must non neg valu n greater n0 
+2 big notat big notat defin upper bound algorithm bound function 
+exampl consid case insert sort 
+take linear time best case quadrat time worst case 
+safe say time complex insert sort n 2 
+note n 2 also cover linear time 
+use θ notat repres time complex insert sort use two statement best worst case 1 worst case time complex insert sort θ n 2 
+2 best case time complex insert sort θ n 
+big notat use upper bound time complex algorithm 
+mani time easili find upper bound simpli look algorithm 
+g n f n exist posit constant c n0 0 f n cg n n n0 3 ω notat big notat provid asymptot upper bound function ω notat provid asymptot lower bound 
+ω notat use lower bound time complex algorithm 
+discuss previou post best case perform algorithm gener use omega notat least use notat among three 
+given function g n denot ω g n set function 
+ω g n f n exist posit constant c n0 0 cg n f n n n0 
+let us consid insert sort exampl 
+time complex insert sort written ω n use inform insert sort gener interest worst case sometim averag case 
+exercis follow statement valid 
+1 time complex quicksort θ n 2 2 time complex quicksort n 2 3 two function f n g n f n θ g n f n g n f n ω g n 
+4 time complex comput algorithm written ω 1 next analysi algorithm set 4 analysi loop refer lec 1 mit introduct algorithm introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

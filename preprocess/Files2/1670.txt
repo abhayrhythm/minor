@@ -1,0 +1,10 @@
+given binari search tree bst rang count number node lie given rang 
+exampl input 10 5 50 1 40 100 rang 5 45 output 3 three node rang 5 10 40 sourc googl question strongli recommend click practic move solut 
+idea travers given binari search tree start root 
+everi node visit check node lie rang ye add 1 result recur children 
+current node smaller low valu rang recur right child els recur left child 
+c implement idea 
+c program count bst node with given rang includ bit stdc h use namespac std bst node struct node int data struct node left right util function creat new node node newnod int data node temp new node temp data data temp left temp right null return temp return count node bst rang low high int getcount node root int low int high base case root return 0 special option case improv effici root data high root data low return 1 current node rang includ count recur left right children root data high root data low return 1 getcount root left low high getcount root right low high current node smaller low recur right child els root data low return getcount root right low high els recur left child els return getcount root left low high driver program int main let us construct bst shown figur node root newnod 10 root left newnod 5 root right newnod 50 root left left newnod 1 root right left newnod 40 root right right newnod 100 let us construct bst shown exampl 10 5 50 1 40 100 int l 5 int h 45 cout count node l h getcount root l h return 0 output count node 5 45 3 time complex program h k h height bst k number node given rang 
+articl contribut gaurav ahirwar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,29 @@
+discuss asymptot analysi worst averag best case asymptot notat previou post 
+post analysi iter program simpl exampl discuss 
+1 1 time complex function set statement consid 1 contain loop recurs call non constant time function 
+set non recurs non loop statement exampl swap function 1 time complex 
+loop recurs run constant number time also consid 1 
+exampl follow loop 1 
+c constant int 1 c 1 express 2 n time complex loop consid n loop variabl increment decrement constant amount 
+exampl follow function n time complex 
+c posit integ constant int 1 n c 1 express int n 0 c 1 express 3 nc time complex nest loop equal number time innermost statement execut 
+exampl follow sampl loop n2 time complex int 1 n c int j 1 j n j c 1 express int n 0 c int j 1 j n j c 1 express exampl select sort insert sort n2 time complex 
+4 logn time complex loop consid logn loop variabl divid multipli constant amount 
+int 1 n c 1 express int n 0 c 1 express exampl binari search refer iter implement logn time complex 
+5 loglogn time complex loop consid loglogn loop variabl reduc increas exponenti constant amount 
+c constant greater 1 int 2 n pow c 1 express fun sqrt cuberoot constant root int n 0 fun 1 express see explan 
+combin time complex consecut loop 
+consecut loop calcul time complex sum time complex individu loop 
+int 1 c 1 express int 1 n c 1 express time complex code n n n time complex becom 2n n 
+calcul time complex mani els statement insid loop 
+discuss worst case time complex use among best averag worst 
+therefor need consid worst case 
+evalu situat valu els condit caus maximum number statement execut 
+exampl consid linear search function consid case element present end present 
+code complex consid els case get upper bound ignor els complex control statement 
+calcul time complex recurs function 
+time complex recurs function written mathemat recurr relat 
+calcul time complex must know solv recurr 
+soon discuss recurr solv techniqu separ post 
+quiz analysi algorithm next analysi algorithm set 4 solv recurr pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

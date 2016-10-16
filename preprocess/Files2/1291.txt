@@ -1,0 +1,15 @@
+given mxn matrix element either 0 1 need find shortest path given sourc cell destin cell 
+path creat cell valu 1 expect time complex mn 
+exampl input mat row col 1 0 1 1 1 1 0 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 1 1 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 1 1 1 0 0 0 0 1 0 0 1 sourc 0 0 destin 3 4 output shortest path 11 strongli recommend minim browser tri first 
+idea inspir lee algorithm use bf 
+start sourc cell call bf procedur 
+maintain queue store coordin matrix initi sourc cell 
+also maintain boolean array visit size input matrix initi element fals 
+loop till queue empti dequeu front cell queue return destin coordin reach 
+four adjac cell valu 1 visit yet enqueu queue also mark visit 
+c implement idea c program find shortest path given sourc cell destin cell 
+includ bit stdc h use namespac std defin row 9 defin col 10 store matrix cell cordin struct point int x int data structur queue use bf struct queuenod point pt cordin cell int dist cell distanc sourc check whether given cell row col valid cell 
+bool isvalid int row int col return true row number column number rang return row 0 row row col 0 col col array use get row column number 4 neighbour given cell int rownum 1 0 0 1 int colnum 0 1 1 0 function find shortest path given sourc cell destin cell 
+int bf int mat col point src point dest check sourc destin cell matrix valu 1 mat src x src mat dest x dest return int_max bool visit row col memset visit fals sizeof visit mark sourc cell visit visit src x src true creat queue bf queue queuenod q distanc sourc cell 0 queuenod src 0 q push enqueu sourc cell bf start sourc cell q empti queuenod curr q front point pt curr pt reach destin cell done pt x dest x pt dest return curr dist otherwis dequeu front cell queue enqueu adjac cell q pop int 0 4 int row pt x rownum int col pt colnum adjac cell valid path visit yet enqueu 
+isvalid row col mat row col visit row col mark cell visit enqueu visit row col true queuenod adjcel row col curr dist 1 q push adjcel return 1 destin cannot reach return int_max driver program test function int main int mat row col 1 0 1 1 1 1 0 1 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 0 0 0 0 1 0 0 0 0 1 1 1 1 0 1 1 1 0 1 0 1 0 1 1 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 1 1 1 0 0 0 0 1 0 0 1 point sourc 0 0 point dest 3 4 int dist bf mat sourc dest dist int_max cout shortest path dist els cout shortest path exist return 0 output shortest path 11 articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

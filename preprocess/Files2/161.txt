@@ -1,0 +1,51 @@
+given set point plane 
+convex hull set smallest convex polygon contain point 
+strongli recommend see follow post first 
+check two given line segment intersect 
+discuss jarvi algorithm convex hull 
+worst case time complex jarvi algorithm n 2 
+use graham scan algorithm find convex hull nlogn time 
+follow graham algorithm let point 0 n 1 input array 
+1 find bottom point compar coordin point 
+two point valu point smaller x coordin valu consid 
+let bottom point p0 
+put p0 first posit output hull 
+2 consid remain n 1 point sort polor angl counterclockwis order around point 0 
+polor angl two point put nearest point first 
+3 sort check two point angl 
+two point angl remov angl point except point farthest p0 
+let size new array 4 less 3 return convex hull possibl 5 creat empti stack push point 0 point 1 point 2 6 process remain 3 point one one 
+follow everi point point 4 1 keep remov point stack orient follow 3 point counterclockwis make left turn 
+point next top stack b point top stack c point 4 2 push point 5 print content algorithm divid two phase 
+phase 1 sort point first find bottom point 
+idea pre process point sort respect bottom point 
+point sort form simpl close path see follow diagram 
+sort criteria 
+comput actual angl would ineffici sinc trigonometr function simpl evalu 
+idea use orient compar angl without actual comput see compar function phase 2 accept reject point close path next step travers path remov concav point path 
+decid point remov keep 
+orient help 
+first two point sort array alway part convex hull 
+remain point keep track recent three point find angl form 
+let three point prev p curr c next n 
+orient point consid order counterclockwis discard c otherwis keep 
+follow diagram show step step process phase sourc diagram ref 2 
+follow c implement algorithm 
+c program find convex hull set point 
+refer http www geeksforgeek org orient 3 order point explan orient includ iostream includ stack includ stdlib h use namespac std struct point int x globl point need sort point refer first point use compar function qsort point p0 util function find next top stack point nexttotop stack point point p top pop point re top push p return re util function swap two point int swap point p1 point p2 point temp p1 p1 p2 p2 temp util function return squar distanc p1 p2 int distsq point p1 point p2 return p1 x p2 x p1 x p2 x p1 p2 p1 p2 find orient order triplet p q r 
+function return follow valu 0 p q r colinear 1 clockwis 2 counterclockwis int orient point p point q point r int val q p r x q x q x p x r q val 0 return 0 colinear return val 0 
+1 2 clock counterclock wise function use librari function qsort sort array point respect first point int compar const void vp1 const void vp2 point p1 point vp1 point p2 point vp2 find orient int orient p0 p1 p2 0 return distsq p0 p2 distsq p0 p1 
+1 1 return 2 
+1 1 print convex hull set n point 
+void convexhul point point int n find bottommost point int ymin point 0 min 0 int 1 n int point pick bottom chose left point case tie ymin ymin point x point min x ymin point min place bottom point first posit swap point 0 point min sort n 1 point respect first point 
+point p1 come p2 sort ouput p2 larger polar angl counterclockwis direct p1 p0 point 0 qsort point 1 n 1 sizeof point compar two point make angl p0 remov one farthest p0 rememb sort criteria keep farthest point end one point angl 
+int 1 initi size modifi array int 1 n keep remov angl 1 respect p0 n 1 orient p0 point point 1 0 point point updat size modifi array modifi array point less 3 point convex hull possibl 3 return creat empti stack push first three point 
+stack point push point 0 push point 1 push point 2 process remain n 3 point int 3 keep remov top angl form point next top top point make non left turn orient nexttotop top point 2 pop push point stack output point print content stack empti point p top cout p x p endl pop driver program test function int main point point 0 3 1 1 2 2 4 4 0 0 1 2 3 1 3 3 int n sizeof point sizeof point 0 convexhul point n return 0 output 0 3 4 4 3 1 0 0 time complex let n number input point 
+algorithm take nlogn time use nlogn sort algorithm 
+first step find bottom point take n time 
+second step sort point take nlogn time 
+third step take n time 
+third step everi element push pop one time 
+sixth step process point one one take n time assum stack oper take 1 time 
+overal complex n nlogn n n nlogn refer introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest http www dc gla ac uk pat 52233 slide hull1x1 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

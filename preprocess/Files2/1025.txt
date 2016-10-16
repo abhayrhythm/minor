@@ -1,0 +1,8 @@
+predict output c program 
+question 1 includ stdio h int main int x 5 p 10 printf x p getchar return 0 output 10 explan pleas see standard printf function definit int printf const char format format string contain text written stdout 
+option contain embed format tag substitut valu specifi subsequ argument format request 
+number argument follow format paramet least much number format tag 
+format tag follow prototyp flag width precis length specifi see detail part http www cplusplu com refer clibrari cstdio printf 
+main thing note line precis star precis specifi format string addit integ valu argument preced argument format 
+exampl 5 precis 10 actual valu print 
+thank ajay mishra provid solut 

@@ -1,0 +1,18 @@
+given x n matrix find common element present row mn time one travers matrix 
+exampl input mat 4 5 1 2 1 4 8 3 7 8 5 1 8 7 7 3 1 8 1 2 7 9 output 1 8 8 1 8 1 present row 
+strongli recommend minim browser tri first 
+better solut sort row matrix use similar approach discuss 
+sort take mnlogn time find common element take mn time 
+overal time complex solut mnlogn better 
+idea use map 
+initi insert element first row map 
+everi element remain row check present map 
+present map duplic current row increment count element map 1 els ignor element 
+current travers row last row print element appear 1 time 
+c implement idea 
+program print common element row matrix includ iostream includ unordered_map use namespac std specifi number row column defin 4 defin n 5 print common element row matrix void printcommonel int mat n unordered_map int int mp init 1st row element valu 1 int j 0 j n j mp mat 0 j 1 travers matrix int 1 int j 0 j n j element present map duplic current row 
+mp mat j increment count element map 1 mp mat j 1 last row 1 cout mat j driver program test function int main int mat n 1 2 1 4 8 3 7 8 5 1 8 7 7 3 1 8 1 2 7 9 printcommonel mat return 0 output 8 1 time complex solut n one travers matrix 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

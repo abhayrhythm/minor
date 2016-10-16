@@ -1,0 +1,85 @@
+
+There are posts on representation of floating point format. The objective of this article is to provide a brief introduction to floating point format.
+The following description explains terminology and primary details of IEEE 754 binary floating point representation. The discussion confines to single and double precision formats.
+Usually, a real number in binary will be represented in the following format,
+ImIm-1…I2I1I0.F1F2…FnFn-1
+Where Im and Fn will be either 0 or 1 of integer and fraction parts respectively.
+A finite number can also represented by four integers components, a sign (s), a base (b), a significand (m), and an exponent (e). Then the numerical value of the number is evaluated as
+(-1)s x m x be ________ Where m < |b|
+Depending on base and the number of bits used to encode various components, the IEEE 754 standard defines five basic formats. Among the five formats, the binary32 and the binary64 formats are single precision and double precision formats respectively in which the base is 2.
+Table – 1 Precision Representation
+
+
+
+Precision
+Base
+Sign
+Exponent
+Significand
+
+
+Single precision
+2
+1
+8
+23+1
+
+
+Double precision
+2
+1
+11
+52+1
+
+
+
+Single Precision Format:
+As mentioned in Table 1 the single precision format has 23 bits for significand (1 represents implied bit, details below), 8 bits for exponent and 1 bit for sign.
+For example, the rational number 9÷2 can be converted to single precision float format as following,
+9(10) ÷ 2(10) = 4.5(10) = 100.1(2)
+The result said to be normalized, if it is represented with leading 1 bit, i.e. 1.001(2) x 22. (Similarly when the number 0.000000001101(2) x 23 is normalized, it appears as 1.101(2) x 2-6). Omitting this implied 1 on left extreme gives us the mantissa of float number. A normalized number provides more accuracy than corresponding de-normalized number. The implied most significant bit can be used to represent even more accurate significand (23 + 1 = 24 bits) which is called subnormal representation. The floating point numbers are to be represented in normalized form.
+The subnormal numbers fall into the category of de-normalized numbers. The subnormal representation slightly reduces the exponent range and can’t be normalized since that would result in an exponent which doesn’t fit in the field. Subnormal numbers are less accurate, i.e. they have less room for nonzero bits in the fraction field, than normalized numbers. Indeed, the accuracy drops as the size of the subnormal number decreases. However, the subnormal representation is useful in filing gaps of floating point scale near zero.
+In other words, the above result can be written as (-1)0 x 1.001(2) x 22 which yields the integer components as s = 0, b = 2, significand (m) = 1.001, mantissa = 001 and e = 2. The corresponding single precision floating number can be represented in binary as shown below,
+
+Where the exponent field is supposed to be 2, yet encoded as 129 (127+2) called biased exponent. The exponent field is in plain binary format which also represents negative exponents with an encoding (like sign magnitude, 1’s compliment, 2’s complement, etc.). The biased exponent is used for representation of negative exponents. The biased exponent has advantages over other negative representations in performing bitwise comparing of two floating point numbers for equality.
+A bias of (2n-1 – 1), where n is # of bits used in exponent, is added to the exponent (e) to get biased exponent (E). So, the biased exponent (E) of single precision number can be obtained as
+E = e + 127
+The range of exponent in single precision format is -126 to +127. Other values are used for special symbols.
+Note: When we unpack a floating point number the exponent obtained is biased exponent. Subtracting 127 from the biased exponent we can extract unbiased exponent.
+Float Scale:
+The following figure represents floating point scale.
+
+Double Precision Format:
+As mentioned in Table – 1 the double precision format has 52 bits for significand (1 represents implied bit), 10 bits for exponent and 1 bit for sign. All other definitions are same for double precision format, except for the size of various components.
+Precision:
+The smallest change that can be represented in floating point representation is called as precision. The fractional part of a single precision normalized number has exactly 23 bits of resolution, (24 bits with the implied bit). This corresponds to log(10) (223) = 6.924 = 7 (the characteristic of logarithm) decimal digits of accuracy. Similarly, in case of double precision numbers the precision is log(10) (252) = 15.654 = 16 decimal digits.
+Accuracy:
+Accuracy in floating point representation is governed by number of significand bits, whereas range is limited by exponent. Not all real numbers can exactly be represented in floating point format. For any numberwhich is not floating point number, there are two options for floating point approximation, say, the closest floating point number less than x as x_ and the closest floating point number greater than x as x+. A rounding operation is performed on number of significant bits in the mantissa field based on the selected mode. The round down mode causes x set to x_, the round up mode causes x set to x+, the round towards zero mode causes x is either x_ or x+ whichever is between zero and. The round to nearest mode sets x to x_ or x+ whichever is nearest to x. Usually round to nearest is most used mode. The closeness of floating point representation to the actual value is called as accuracy.
+Special Bit Patterns:
+The standard defines few special floating point bit patterns. Zero can’t have most significant 1 bit, hence can’t be normalized. The hidden bit representation requires a special technique for storing zero. We will have two different bit patterns +0 and -0 for the same numerical value zero. For single precision floating point representation, these patterns are given below,
+0 00000000 00000000000000000000000 = +0
+1 00000000 00000000000000000000000 = -0
+Similarly, the standard represents two different bit patters for +INF and -INF. The same are given below,
+0 11111111 00000000000000000000000 = +INF
+1 11111111 00000000000000000000000 = -INF
+All of these special numbers, as well as other special numbers (below) are subnormal numbers, represented through the use of a special bit pattern in the exponent field. This slightly reduces the exponent range, but this is quite acceptable since the range is so large.
+An attempt to compute expressions like 0 x INF, 0 ÷ INF, etc. make no mathematical sense. The standard calls the result of such expressions as Not a Number (NaN). Any subsequent expression with NaN yields NaN. The representation of NaN has non-zero significand and all 1s in the exponent field. These are shown below for single precision format (x is don’t care bits),
+x 11111111 1m0000000000000000000000
+Where m can be 0 or 1. This gives us two different representations of NaN.
+0 11111111 110000000000000000000000 _____________ Signaling NaN (SNaN)
+0 11111111 100000000000000000000000 _____________Quiet NaN (QNaN)
+Usually QNaN and SNaN are used for error handling. QNaN do not raise any exceptions as they propagate through most operations. Whereas SNaN are which when consumed by most operations will raise an invalid exception.
+Overflow and Underflow:
+Overflow is said to occur when the true result of an arithmetic operation is finite but larger in magnitude than the largest floating point number which can be stored using the given precision. Underflow is said to occur when the true result of an arithmetic operation is smaller in magnitude (infinitesimal) than the smallest normalized floating point number which can be stored. Overflow can’t be ignored in calculations whereas underflow can effectively be replaced by zero.
+Endianness:
+The IEEE 754 standard defines a binary floating point format. The architecture details are left to the hardware manufacturers. The storage order of individual bytes in binary floating point number varies from architecture to architecture.
+Thanks to Venki for writing the above article. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

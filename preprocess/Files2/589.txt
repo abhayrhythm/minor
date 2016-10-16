@@ -1,0 +1,1 @@
+given boolean matrix mat n size x n modifi matrix cell mat j 1 true make cell ith row jth column 1 exampl 1 matrix 1 0 0 0 chang follow 1 1 1 0 exampl 2 matrix 0 0 0 0 0 1 chang follow 0 0 1 1 1 1 exampl 3 matrix 1 0 0 1 0 0 1 0 0 0 0 0 chang follow 1 1 1 1 1 1 1 1 1 0 1 1 strongli recommend click practic move solut 

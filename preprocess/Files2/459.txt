@@ -1,0 +1,36 @@
+write function connect adjac node level binari tree 
+structur given binari tree node like follow 
+struct node int data struct node left struct node right struct node nextright initi nextright pointer point garbag valu 
+function set pointer point next right node 
+exampl input tree b c e f output tree null b c null e f null method 1 extend level order travers bf consid method 2 level order travers 
+method 2 easili extend connect node level 
+augment queue entri contain level node also 0 root 1 root children 
+queue node contain pointer tree node integ level 
+enqueu node make sure correct level valu node set queue 
+set nextright everi node n dequeu next node queue level number next node set nextright n address dequeu node otherwis set nextright n null 
+time complex n method 2 extend pre order travers approach work complet binari tree 
+method set nextright pre order fashion make sure nextright parent set children 
+node p set nextright left right children 
+sinc tree complet tree nextright p left child p left nextright alway p right child nextright p right child p right nextright alway left child p nextright p rightmost node level 
+p rightmost node nextright p right child null 
+c includ stdio h includ stdlib h struct node int data struct node left struct node right struct node nextright void connectrecur struct node p set nextright root call connectrecur node void connect struct node p set nextright root p nextright null set next right rest node root connectrecur p set next right descend p assumpt p compet binari tree void connectrecur struct node p base case p return set nextright pointer p left child p left p left nextright p right set nextright pointer p right child p nextright null p right child level p right p right nextright p nextright 
+p nextright left null set nextright node pre order fashion connectrecur p left connectrecur p right util function helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null node nextright null return node driver program test function int main construct binari tree 10 8 2 3 struct node root newnod 10 root left newnod 8 root right newnod 2 root left left newnod 3 popul nextright pointer node connect root let us check valu nextright pointer printf follow popul nextright pointer tree 1 print nextright n printf nextright n root data root nextright 
+root nextright data 1 printf nextright n root left data root left nextright 
+root left nextright data 1 printf nextright n root right data root right nextright 
+root right nextright data 1 printf nextright n root left left data root left left nextright 
+root left left nextright data 1 getchar return 0 java java program connect node level use extend pre order travers binari tree node class node int data node left right nextright node int item data item left right nextright null class binarytre node root set nextright root call connectrecur node void connect node p set nextright root p nextright null set next right rest node root connectrecur p set next right descend p assumpt p compet binari tree void connectrecur node p base case p null return set nextright pointer p left child p left null p left nextright p right set nextright pointer p right child p nextright null p right child level p right null p right nextright p nextright null 
+p nextright left null set nextright node pre order fashion connectrecur p left connectrecur p right driver program test function public static void main string arg binarytre tree new binarytre construct binari tree 10 8 2 3 tree root new node 10 tree root left new node 8 tree root right new node 2 tree root left left new node 3 popul nextright pointer node tree connect tree root let us check valu nextright pointer system println follow popul nextright pointer tree 1 print nextright int tree root nextright null 
+tree root nextright data 1 system println nextright tree root data int b tree root left nextright null 
+tree root left nextright data 1 system println nextright tree root left data b int c tree root right nextright null 
+tree root right nextright data 1 system println nextright tree root right data c int tree root left left nextright null 
+tree root left left nextright data 1 system println nextright tree root left left data code contribut mayank jaiswal thank dhanya suggest approach 
+time complex n method 2 work tree complet binari tree 
+let us consid follow tree exampl 
+method 2 set nextright pointer pre order fashion 
+node 4 set nextright children 8 9 nextright 4 alreadi set node 5 
+nextright 8 simpli set 9 nextright 9 set null incorrect 
+set correct nextright set nextright 9 nextright node 4 ancestor node 4 nextright node right subtre root 
+1 2 3 4 5 6 7 8 9 10 11 see next post solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,47 @@
+
+Round 1
+
+Pivoted array search,  modified that array can have duplicate values need to return first occurance of element.
+Is pair of given values present in BST or not?
+
+Round 2
+
+In FB when we enter person name to search then their are multiple name FB gives us as a suggestion. Design a DS for showing these name.(gives him trie DS solution)
+Behavioral Questions
+
+Things u learn in 3 years of experience which makes u different from fresher guy?
+Project description
+
+
+
+Round 3
+
+LCA in binary tree. Both elements parent must not be equal to given elements.
+Check if pair is present in array or not. modified to return all unique pair in it.
+Integer stream is coming find largest K element.(K is fixed)
+Design a DS where below operation is performed in O(1) time.
+
+Insert
+Delete
+Search
+GetRandom
+
+
+
+Round 4
+
+Lot of discussion on projects. HLD and LLD of project.
+There is file of million number you have to find out largest k element.
+Give all pair present in array. Duplicate can be present in it.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,20 @@
+previou post discuss finit automata base pattern search algorithm 
+fa finit automata construct method discuss previou post take 3 no_of_char time 
+fa construct no_of_char time 
+post discuss no_of_char algorithm fa construct 
+idea similar lp longest prefix suffix array construct discuss kmp algorithm 
+use previous fill row fill new row 
+abvo diagram repres graphic tabular represent pattern acacaga 
+algorithm 1 fill first row 
+entri first row alway 0 except entri pat 0 charact 
+pat 0 charact alway need go state 1 
+2 initi lp 0 lp first index alway 0 
+3 follow row index 1 length pattern copi entri row index equal lp 
+b updat entri pat charact 1 
+c updat lp lp tf lp pat tf 2d array construct 
+implement follow c implement algorithm 
+includ stdio h includ string h defin no_of_char 256 function build tf tabl repres finit automata given pattern void computetransfun char pat int int tf no_of_char int lp 0 x fill entri first row x 0 x no_of_char x tf 0 x 0 tf 0 pat 0 1 fill entri row 1 copi valu row index lp x 0 x no_of_char x tf x tf lp x updat entri correspond charact tf pat 1 updat lp next row fill lp tf lp pat print occurr pat txt void search char pat char txt int strlen pat int n strlen txt int tf 1 no_of_char computetransfun pat tf process text fa 
+int j 0 0 n j tf j txt j printf n pattern found index 1 driver program test function int main char txt geek geek char pat geek search pat txt getchar return 0 output pattern found index 0 pattern found index 10 time complex fa construct no_of_char 
+code search previou post time complex n 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

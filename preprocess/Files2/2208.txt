@@ -1,0 +1,20 @@
+ask sg given array number except two repeat 
+e 
+2n 2 number n number occur twice remain two occur 
+find two number effici way 
+method 1 use sort first sort element 
+sort array compar adjac element easili get non repeat element 
+time complex method nlogn method 2 use xor let x non repeat element look arr input array 
+first calcul xor array element 
+xor arr 0 arr 1 arr 2 arr n 1 bit set xor set one non repeat element x 
+take set bit xor divid element array two set one set element bit set set bit set 
+get x one set anoth set 
+xor element first set get first non repeat element set get second non repeat element 
+let us see exampl 
+arr 2 4 7 9 2 4 1 get xor element 
+xor 2 4 7 9 2 4 14 1110 2 get number one set bit xor 
+sinc easili get rightmost set bit let us use 
+set_bit_no xor xor 1 1110 1101 0010 set_bit_no set rightmost set bit xor 
+3 divid element two set xor element set get non repeat element 7 9 pleas see implement step 
+implement includ stdio h includ stdlib h finction set valu x nonr epeat element array arr size n void get2nonrepeatingno int arr int n int x int int xor arr 0 hold xor element int set_bit_no singl set bit xor int x 0 0 get xor element 1 n xor arr get rightmost set bit set_bit_no set_bit_no xor xor 1 divid element two set compar rightmost set bit xor bit posit element 
+0 n arr set_bit_no x x arr xor first set els arr xor second set driver program test function int main int arr 2 3 7 9 11 2 3 11 int x int malloc sizeof int int int malloc sizeof int get2nonrepeatingno arr 8 x printf non repeat element x getchar time complex n auxiliari space 1 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

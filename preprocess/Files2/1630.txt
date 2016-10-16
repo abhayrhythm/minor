@@ -1,0 +1,24 @@
+use morri travers travers tree without use stack recurs 
+algorithm preorder almost similar morri travers inord 
+1 left child null print current node data 
+move right child 
+els make right child inord predecessor point current node 
+two case aris right child inord predecessor alreadi point current node 
+set right child null 
+move right child current node 
+b right child null 
+set current node 
+print current node data move left child current node 
+2 iter current node null 
+follow implement algorithm 
+c c program morri preorder travers includ stdio h includ stdlib h struct node int data struct node left right helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node temp struct node malloc sizeof struct node temp data data temp left temp right null return temp preorder travers without recurs without stack void morristraversalpreord struct node root root left child null print current node data 
+move right child 
+root left null printf root data root root right els find inord predecessor struct node current root left current right current right root current current right right child inord predecessor alreadi point node current right root current right null root root right right child point node print node make right child point node els printf root data current right root root root left function sstandard preorder travers void preorder struct node root root printf root data preorder root left preorder root right driver program test function int main struct node root null root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root left left left newnod 8 root left left right newnod 9 root left right left newnod 10 root left right right newnod 11 morristraversalpreord root printf n preorder root return 0 java java program implement morri preorder travers binari tree node class node int data node left right node int item data item left right null class binarytre node root void morristraversalpreord morristraversalpreord root preorder travers without recurs without stack void morristraversalpreord node node node null left child null print current node data 
+move right child 
+node left null system print node data node node right els find inord predecessor node current node left current right null current right node current current right right child inord predecessor alreadi point node current right node current right null node node right right child point node print node make right child point node els system print node data current right node node node left void preorder preorder root function standard preorder travers void preorder node node node null system print node data preorder node left preorder node right driver program test function public static void main string arg binarytre tree new binarytre tree root new node 1 tree root left new node 2 tree root right new node 3 tree root left left new node 4 tree root left right new node 5 tree root right left new node 6 tree root right right new node 7 tree root left left left new node 8 tree root left left right new node 9 tree root left right left new node 10 tree root left right right new node 11 tree morristraversalpreord system println tree preorder code contribut mayank jaiswal output 1 2 4 8 9 5 10 11 3 6 7 1 2 4 8 9 5 10 11 3 6 7 limit morri travers modifi tree process 
+establish right link move tree reset right link move tree 
+algorithm cannot appli write oper allow 
+articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

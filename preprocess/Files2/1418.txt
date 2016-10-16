@@ -1,0 +1,29 @@
+given singli link list charact write function return true given list palindrom els fals 
+method 1 use stack simpl solut use stack list node 
+mainli involv three step 
+1 travers given list head tail push everi visit node stack 
+2 travers list 
+everi visit node pop node stack compar data pop node current visit node 
+3 node match return true els fals 
+time complex method n requir n extra space 
+follow method solv constant extra space 
+method 2 revers list method take n time 1 extra space 
+1 get middl link list 
+2 revers second half link list 
+3 check first half second half ident 
+4 construct origin link list revers second half attach back first half divid list two halv method 2 post use 
+number node even first second half contain exactli half node 
+challeng thing method handl case number node odd 
+want middl node part list go compar equal 
+odd case use separ variabl midnod 
+c program check link list palindrom includ stdio h includ stdlib h includ stdbool h link list node struct node char data struct node next void revers struct node bool comparelist struct node struct node function check given link list palindrom bool ispalindrom struct node head struct node slow_ptr head fast_ptr head struct node second_half prev_of_slow_ptr head struct node midnod null handl odd size list bool re true initi result head null head next null get middl list 
+move slow_ptr 1 fast_ptrr 2 slow_ptr middl node fast_ptr null fast_ptr next null fast_ptr fast_ptr next next need previou slow_ptr link list odd element prev_of_slow_ptr slow_ptr slow_ptr slow_ptr next fast_ptr would becom null even element list 
+null odd element 
+need skip middl node odd case store somewher restor origin list fast_ptr null midnod slow_ptr slow_ptr slow_ptr next revers second half compar first half second_half slow_ptr prev_of_slow_ptr next null null termin first half revers second_half revers second half re comparelist head second_half compar construct origin list back revers second_half revers second half mid node odd size case part either first half second half 
+midnod null prev_of_slow_ptr next midnod midnod next second_half els prev_of_slow_ptr next second_half return re function revers link list note function may chang head void revers struct node head_ref struct node prev null struct node current head_ref struct node next current null next current next current next prev prev current current next head_ref prev function check two input list data bool comparelist struct node head1 struct node head2 struct node temp1 head1 struct node temp2 head2 temp1 temp2 temp1 data temp2 data temp1 temp1 next temp2 temp2 next els return 0 empti reurn 1 temp1 null temp2 null return 1 reach one null return 0 push node link list 
+note function chang head void push struct node head_ref char new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head pochar new node head_ref new_nod util function print given link list void printlist struct node ptr ptr null printf c ptr data ptr ptr next printf null n drier program test function int main start empti list struct node head null char str abacaba int 0 str 0 push head str printlist head ispalindrom head 
+printf palindrom n n printf palindrom n n return 0 java java program check link list palindrom class linkedlist node head head list node slow_ptr fast_ptr second_half link list node class node char data node next node char data next null function check given link list palindrom boolean ispalindrom node head slow_ptr head fast_ptr head node prev_of_slow_ptr head node midnod null handl odd size list boolean re true initi result head null head next null get middl list 
+move slow_ptr 1 fast_ptrr 2 slow_ptr middl node fast_ptr null fast_ptr next null fast_ptr fast_ptr next next need previou slow_ptr link list odd element prev_of_slow_ptr slow_ptr slow_ptr slow_ptr next fast_ptr would becom null even element list null odd element 
+need skip middl node odd case store somewher restor origin list fast_ptr null midnod slow_ptr slow_ptr slow_ptr next revers second half compar first half second_half slow_ptr prev_of_slow_ptr next null null termin first half revers revers second half re comparelist head second_half compar construct origin list back revers revers second half midnod null mid node odd size case part either first half second half 
+prev_of_slow_ptr next midnod midnod next second_half els prev_of_slow_ptr next second_half return re function revers link list note function may chang head void revers node prev null node current second_half node next current null next current next current next prev prev current current next second_half prev function check two input list data boolean comparelist node head1 node head2 node temp1 head1 node temp2 head2 temp1 null temp2 null temp1 data temp2 data temp1 temp1 next temp2 temp2 next els return fals empti reurn 1 temp1 null temp2 null return true reach one null return fals push node link list 
+note function chang head public void push char new_data alloc node put data node new_nod new node new_data link old list new one new_nod next head move head point new node head new_nod util function print given link list void printlist node ptr ptr null system print ptr data ptr ptr next system println null driver program test function public static void main string arg start empti list linkedlist llist new linkedlist char str b c b string string new string str int 0 7 llist push str llist printlist llist head llist ispalindrom llist head fals system println palindrom system println els system println palindrom system println output null palindrom b null palindrom b null palindrom c b null palindrom c b null palindrom b c b null palindrom b c b null palindrom time complex n auxiliari space 1 

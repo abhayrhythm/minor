@@ -1,0 +1,30 @@
+tree unlik array link list stack queue linear data structur tree hierarch data structur 
+tree vocabulari topmost node call root tree 
+element directli element call children 
+element directli someth call parent 
+exampl child f f parent final element children call leav 
+tree j root f k h z leav tree 
+1 one reason use tree might want store inform natur form hierarchi 
+exampl file system comput file system root home ugrad cours cs101 cs112 cs113 2 tree order e g bst provid moder access search quicker link list slower array 
+3 tree provid moder insert delet quicker array slower unord link list 
+4 like link list unlik array tree upper limit number node node link use pointer 
+main applic tree includ 1 manipul hierarch data 
+2 make inform easi search see tree travers 
+3 manipul sort list data 
+4 workflow composit digit imag visual effect 
+5 router algorithm 6 form multi stage decis make see busi chess 
+binari tree tree whose element 2 children call binari tree 
+sinc element binari tree 2 children typic name left right child 
+binari tree represent c tree repres pointer topmost node tree 
+tree empti valu root null 
+tree node contain follow part 
+1 data 2 pointer left child 3 pointer right child c repres tree node use structur 
+exampl tree node integ data 
+c struct node int data struct node left struct node right python python class repres individu node binari tree class node def __init__ self key self left none self right none self val key java class contain left right child current node key valu class node int key node left right public node int item key item left right null first simpl tree c let us creat simpl tree 4 node c creat tree would follow 
+tree 1 root 2 3 4 c struct node int data struct node left struct node right newnod alloc new node given data null left right pointer 
+struct node newnod int data alloc memori new node struct node node struct node malloc sizeof struct node assign data node node data data initi left right children null node left null node right null return node int main creat root struct node root newnod 1 follow tree statement 1 null null root left newnod 2 root right newnod 3 2 3 becom left right children 1 1 2 3 null null null null root left left newnod 4 4 becom left child 2 1 2 3 4 null null null null null getchar return 0 python python program introduc binari tree class repres individu node binari tree class node def __init__ self key self left none self right none self val key creat root root node 1 follow tree statement 1 none none root left node 2 root right node 3 2 3 becom left right children 1 1 2 3 none none none none root left left node 4 4 becom left child 2 1 2 3 4 none none none none none java class contain left right child current node key valu class node int key node left right public node int item key item left right null java program introduc binari tree class binarytre root binari tree node root constructor binarytre int key root new node key binarytre root null public static void main string arg binarytre tree new binarytre creat root tree root new node 1 follow tree statement 1 null null tree root left new node 2 tree root right new node 3 2 3 becom left right children 1 1 2 3 null null null null tree root left left new node 4 4 becom left child 2 1 2 3 4 null null null null null summari tree hierarch data structur 
+main use tree includ maintain hierarch data provid moder access insert delet oper 
+binari tree special case tree everi node two children 
+set 2 set 3 post 
+properti binari tree type binari tree pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

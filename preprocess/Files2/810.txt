@@ -1,0 +1,38 @@
+artifici intellig artifici intellig ai studi comput scienc focus develop softwar machin exhibit human intellig 
+lot peopl think ai sci fi concept use movi like star war termin luci lot 
+ai broad topic rang simpl calcul self drive technolog someth might chang futur 
+primari goal applic ai primari goal ai includ deduct reason knowledg represent plan natur languag process nlp learn percept abil manipul move object 
+long term goal ai research includ achiev creativ social intellig gener human level intellig 
+ai heavili influenc differ sector may recogn 
+ray kurzweil say mani thousand ai applic deepli embed infrastructur everi industri 
+john mccarthi one founder ai said soon work one call ai anymor categori ai variou differ form ai broad concept divid follow three categori base ai capabl weak ai also refer narrow ai weak ai focus one narrow task 
+self awar genuin intellig case weak ai 
+siri good exampl weak ai combin sever weak ai techniqu function 
+lot thing user fail ask question outsid limit applic 
+strong ai also refer gener ai human level ai comput smart human brain 
+sort ai abl perform task human could 
+lot research go field still conquer 
+artifici superintellig nick bostrom lead ai thinker defin intellect much smarter best human brain practic everi field includ scientif creativ gener wisdom social skill artifici superintellig reason mani promin scientist technologist includ stephen hawk elon musk rais concern regard possibl human extinct 
+get start 
+first thing need learn program languag 
+though lot languag start python prefer choic mani start librari better suit machin learn 
+introduct bot bot basic exampl weak ai autom task behalf 
+chat bot one first autom program call bot 
+web crawler use search engin like googl perfect exampl sophist advanc bot 
+advis learn follow start program bot order make live easier xpath help inspect target html build bot see 
+regex regex help process data feed bot clean target part matter logic 
+rest realli import eventu work api 
+use request simplic 
+build first bot 
+start learn creat bot python two tutori simplest way 
+also start use api tool offer abil build end user applic 
+help actual build someth without worri much theori first 
+api use cloud diffbot mallet etc next 
+thorough understand prefer program languag enough practic basic start learn machin learn 
+python start learn scikit learn nltk scipi pybrain numpi librari use code machin learn algorithm 
+also import familiar advanc math stat help lot write ml algorithm 
+resourc learn practic ml http www r2d3 us visual intro machin learn part 1 http www coursera org learn machin learn andrew ng http www cs cmu edu tom 10701_sp11 lectur shtml http www edx org cours artifici intellig uc berkeleyx cs188 1x http www udac com cours intro statist st101 http www udac com cours intro artifici intellig cs271 includ logic robot http ocw mit edu cours electr engin comput scienc 6 034 artifici intellig fall 2010 also recommend particip variou ai bot program contest differ place internet 
+author mumbai base ritesh giri activ blogger keen interest write technic blog besid passion write also keen interest learn new power algorithm 
+current studi mumbai univers also mentor googl summer code 2016 activ blog contributor geeksforgeek 
+also wish showcas blog pleas see gblog guest blog writingon geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

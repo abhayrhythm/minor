@@ -1,0 +1,13 @@
+method1 simpl loop bit integ 
+bit ith posit set p 
+set bit no_of_bit 1 p 
+no_of_bit number bit present given number 
+function revers bit num unsign int reversebit unsign int num unsign int no_of_bit sizeof num 8 unsign int reverse_num 0 temp 0 no_of_bit temp num 1 temp reverse_num 1 no_of_bit 1 return reverse_num driver function test function int main unsign int x 2 printf u reversebit x getchar program optim remov use variabl temp 
+see modifi code 
+unsign int reversebit unsign int num unsign int no_of_bit sizeof num 8 unsign int reverse_num 0 int 0 no_of_bit num 1 reverse_num 1 no_of_bit 1 return reverse_num time complex log n space complex 1 method 2 standard idea keep put set bit num reverse_num num becom zero 
+num becom zero shift remain bit reverse_num 
+let num store use 8 bit num 00000110 loop get reverse_num 00000011 need left shift reverse_num 5 time get exact revers 01100000 unsign int reversebit unsign int num unsign int count sizeof num 8 1 unsign int reverse_num num num 1 num reverse_num 1 reverse_num num 1 num 1 count reverse_num count return reverse_num int main unsign int x 1 printf u reversebit x getchar time complex log n space complex 1 method 3 lookup tabl revers bit number 1 know size number 
+implement use look tabl 
+go link detail 
+find interest bit relat stuff 
+http graphic stanford edu seander bithack html adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

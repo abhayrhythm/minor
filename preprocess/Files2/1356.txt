@@ -1,0 +1,12 @@
+rearrang link list way odd posit node togeth even posit node togeth exampl input 1 2 3 4 output 1 3 2 4 input 10 22 30 43 56 70 output 10 30 56 22 43 70 strongli recommend click practic move solut 
+import thing question make sure case handl 1 empti link list 2 link list one node 3 link list two node 4 link list odd number node 5 link list even number node program maintain two pointer odd even current node odd even posit respect 
+also store first node even link list attach even list end odd list odd even node connect togeth two differ list 
+c program rearrang link list way odd posit node store even posit node includ bit stdc h use namespac std link list node struct node int data struct node next util function creat new node node newnod int key node temp new node temp data key temp next null return temp rearrang given link list even posit node odd posit 
+return new head link list 
+node rearrangeevenodd node head corner case head null return null initi first node even odd list node odd head node even head next rememb first node even list connect even list end odd list 
+node evenfirst even 1 node connect first node even list last node odd list odd even 
+even next odd next evenfirst break connect odd node odd next even next odd even next even node current odd 
+odd next null even next null odd next evenfirst break connect even node even next odd next even odd next return head util function print link list void printlist node node node null cout node data node node next cout null endl driver code int main void node head newnod 1 head next newnod 2 head next next newnod 3 head next next next newnod 4 head next next next next newnod 5 cout given link list n printlist head head rearrangeevenodd head cout nmodifi link list n printlist head return 0 output given link list 1 2 3 4 5 null modifi link list 1 3 5 2 4 null articl contribut harsh parikh 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

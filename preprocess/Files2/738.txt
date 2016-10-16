@@ -1,0 +1,41 @@
+1st round written test 30 object question along 3 code question 
+time allot 90 min 
+consist 3 section 1 first section logic mathemat aptitud question 
+total 10 question 
+2 languag depend section 
+allow choos c c java languag 30 question section 
+level difficulti moder 
+3 third section consist 3 code question follow q 1 check whether given string anagram 
+space neglect 
+q 2 three vertic triangl given along one point check whether given point lie insid triangl 
+q 3 given three string b c write function check whether c interleav b c said interleav b contain charact b order charact individu string preserv 
+question difficult attempt 90 minut 
+shortlist 8 61 student second round 
+2nd round technic question code question hr round togeth introduc 
+share nice experi colleg 
+technic question 1 given array base address 4000 size array arr 20 20 
+determin address index arr 3 4 
+2 function prototyp printf 
+3 malloc use use 
+also tell return type malloc need type cast return type malloc explain exampl 
+4 take void p int q write q p 
+output c c 
+5 condit copi constructor call 
+mention possibl condit 
+6 differ earli bind late bind 
+7 ask question concept object slice 
+8 ask question concept late bind 
+9 vptr v tabl 
+v tabl actual present whether differ class share among class 
+vptr resid 
+10 size class increas use virtual pointer 
+ye explain reason behind 
+11 pure virtual function implement help exampl 
+switch code question q 1 link list data next pointer random pointer data may contain repeat valu 
+store whole inform new data structur except link list return structur user make link list help data new data structur use 
+let suppos link list 2 3 3 4 5 3 random pointer 2 point first 3 random pointer 3 point second 3 q 2 segreg r g b flag n use one variabl 
+eg r r g b r r b g g r output r r r r r g g g b b q 3 help data structur implement park system differ categori wheeler 2 wheeler 4 wheeler 6 wheeler 
+last want join morgan stanley 
+total durat interview round 1 half hour like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

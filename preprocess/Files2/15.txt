@@ -1,0 +1,6 @@
+consid two c languag function comput sum element 2d array 
+ignor compil optim two better implement sum 
+function 1 int fun1 int arr r c int sum 0 int 0 r int j 0 j c j sum arr j function 2 int fun2 int arr r c int sum 0 int j 0 j c j int 0 r sum arr j c c element store row major order 
+first implement better spatial local nearbi memori locat referenc success iter 
+therefor first implement alway prefer iter multidimension array 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

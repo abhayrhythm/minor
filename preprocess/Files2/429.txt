@@ -1,0 +1,12 @@
+previou post introduc queue discuss array implement 
+post link list implement discuss 
+follow two main oper must implement effici 
+queue data structur maintain two pointer front rear 
+front point first item queue rear point last item 
+enqueu oper add new node rear move rear next node 
+dequeu oper remov front node move front next node 
+c program demonstr link list base implement queue includ stdlib h includ stdio h link list node store queue entri struct qnode int key struct qnode next queue front store front node rear store th last node struct queue struct qnode front rear util function creat new link list node 
+struct qnode newnod int k struct qnode temp struct qnode malloc sizeof struct qnode temp key k temp next null return temp util function creat empti queue struct queue createqueu struct queue q struct queue malloc sizeof struct queue q front q rear null return q function add key k q void enqueu struct queue q int k creat new node struct qnode temp newnod k queue empti new node front rear q rear null q front q rear temp return add new node end queue chang rear q rear next temp q rear temp function remov key given queue q struct qnode dequeu struct queue q queue empti return null 
+q front null return null store previou front move front one node ahead struct qnode temp q front q front q front next front becom null chang rear also null q front null q rear null return temp driver program test anov function int main struct queue q createqueu enqueu q 10 enqueu q 20 dequeu q dequeu q enqueu q 30 enqueu q 40 enqueu q 50 struct qnode n dequeu q n null printf dequeu item n key return 0 output dequeu item 30 time complex time complex oper enqueu dequeu 1 chang pointer oper 
+loop oper 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

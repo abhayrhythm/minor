@@ -1,0 +1,73 @@
+
+Given a number, print words for individual digits.  It is not allowed to use if or switch.
+Examples:
+
+Input:  n = 123
+Output: One Two Three
+
+Input:  n = 350
+Output: Three Five Zero
+
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use an array of strings to store digit to word mappings. Below are steps.
+Let input number be n.
+
+ Create an array of strings to store digit to word mapping.
+ Create another array digits[] to store individual digits of n.
+ Traverse digits of n and store them in digits[]. Note that standard way of traversal by repeated storing n%10 and doing  n = n/10, traverses digits in reverse order.
+Traverse the digits array from end to beginning and print words using the mapping created in step 1.
+
+Below is C++ implementation of above idea. 
+
+// C++ program to print individual words without if and
+// without switch
+#include <bits/stdc++.h>
+using namespace std;
+
+// To store digit to word mapping
+char word[][10] = {"zero", "one", "two", "three","four",
+                   "five", "six", "seven", "eight", "nine"};
+
+void printWordsWithoutIfSwitch(int n)
+{
+    // Store individual digits
+    int digits[10]; // a 32 bit int has at-most 10 digits
+
+    int dc = 0; // Initialize digit count for given number 'n'
+
+    // The below loop stores individual digits of n in
+    // reverse order. do-while is used to handle "0" input
+    do
+    {
+        digits[dc] = n%10;
+        n = n/10;
+        dc++;
+    } while (n != 0);
+
+    // Traverse individual digits and print words using
+    // word[][]
+    for (int i=dc-1; i>=0; i--)
+       cout << word[digits[i]] << " ";
+}
+
+// Driver program
+int main()
+{
+    int n = 350;
+    printWordsWithoutIfSwitch(n);
+    return 0;
+}
+
+Output:
+Three Five Zero
+Thanks to Utkarsh Trivedi for suggesting above solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

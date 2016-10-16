@@ -1,0 +1,17 @@
+difficulti level rooki array link list use store linear data similar type advantag disadvantag 
+follow point favour link list 
+1 size array fix must know upper limit number element advanc 
+also gener alloc memori equal upper limit irrespect usag practic use upper limit rare reach 
+2 insert new element array element expens room creat new element creat room exist element shift 
+exampl suppos maintain sort list id array id 
+id 1000 1010 1050 2000 2040 
+want insert new id 1005 maintain sort order move element 1000 exclud 1000 
+delet also expens array unless special techniqu use 
+exampl delet 1010 id everyth 1010 move 
+link list provid follow two advantag array 1 dynam size 2 eas insert delet link list follow drawback 1 random access allow 
+access element sequenti start first node 
+cannot binari search link list 
+2 extra memori space pointer requir element list 
+3 array better cach local make pretti big differ perform 
+refer http cslibrari stanford edu 103 linkedlistbas pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

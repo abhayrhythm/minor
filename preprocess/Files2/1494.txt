@@ -1,0 +1,15 @@
+hash tabl support follow oper θ 1 time 
+1 search 2 insert 3 delet time complex oper self balanc binari search tree bst like red black tree avl tree splay tree etc logn 
+hash tabl seem beat bst common oper 
+prefer bst hash tabl advantag 
+follow import point favor bst 
+get key sort order inord travers bst 
+natur oper hash tabl requir extra effort 
+order statist find closest lower greater element rang queri easi bst 
+like sort oper natur oper hash tabl 
+bst easi implement compar hash easili implement custom bst 
+implement hash gener reli librari provid program languag 
+bst oper guarante work logn time 
+hash θ 1 averag time particular oper may costli especi tabl resiz happen 
+articl contribut himanshu gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

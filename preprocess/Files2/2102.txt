@@ -1,0 +1,15 @@
+regist faster memori access variabl frequent use c program put regist use regist keyword 
+keyword regist hint compil given variabl put regist 
+compil choic put regist 
+gener compil optim put variabl regist 
+1 use oper regist variabl compil may give error warn depend upon compil use say variabl regist may store regist instead memori access address regist invalid 
+tri program 
+int main regist int 10 int printf getchar return 0 2 regist keyword use pointer variabl 
+obvious regist address memori locat 
+would problem program 
+int main int 10 regist int printf getchar return 0 3 regist storag class c allow multipl storag class specifi variabl 
+regist use static 
+tri program 
+int main int 10 regist static int printf getchar return 0 4 limit number regist variabl c program point compil may put variabl regist 
+pleas write comment find anyth incorrect articl want share inform regist keyword 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

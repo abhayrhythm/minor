@@ -1,0 +1,51 @@
+pictur bay lot privat boat dock 
+locat call seaport liter port sea 
+everyon want dock request land servic use port 
+seaport work berth number assign individu boat 
+port name berth number combin boat identif 
+concept ip address port similar 
+sea_port_nam similar ip address latter match network_port_no 
+port number consist program 
+commonli use best known port number 0 1023 dedic internet use extend far higher special purpos 
+port set rang assign special job function gener 
+usual ident system servic function use port number receiv server remain consist ever may situat 
+crimin target hous burglari typic first thing check open window door access home gain 
+secur technician often use devic softwar known port scanner enabl scan port audit comput vulner 
+time open port one person comput potenti loss data occurr viru time even complet system compromis 
+develop port scanner difficult may seem 
+end result scanner follow input ipv4 address port rang function enter ip address port rang program attempt find open port given comput connect 
+success connect port mark port open 
+output statu port open close three step process creat port scanner step 1 creat main creat main function take requir argument server_ip start_port end_port 
+server ip must ipv4 though extend accept ipv6 well 
+tri 
+int main int argc char argv argc 4 printf pleas enter server ip address rang port scan n printf usag ipv4 first_port last_port n argv 0 exit 1 char tip 16 0 strcpi tip argv 1 copi ipv4 address char first_port 6 0 strcpi first_port argv 2 copi start_port char last_port 6 0 strcpi last_port argv 3 copi end_port start port scanner port_scann tip first_port last_port return 0 step 2 creat port_scann creat new function port_scann 
+travers port rang provid check one 
+creat struct addrinfo hint initi proper valu 
+struct addrinfo hint memset hint 0 sizeof hint hint ai_famili af_inet hint ai_socktyp sock_stream hint option pointer struct addrinfo defin 
+structur use provid hint concern type socket caller support wish use 
+freebsd man page 
+initi pointer server_address obtain server 
+call getaddrinfo tip tport hint serv_addr proper paramet 
+getaddrinfo function alloc initi link list addrinfo structur one network address match node servic subject restrict impos hint return pointer start list 4th parament case serv_addr 
+item link list link ai_next field 
+addit info sever reason link list may one addrinfo structur includ network host multihom access multipl protocol e g af_inet af_inet6 servic avail multipl socket type one sock_stream address anoth sock_dgram address exampl 
+normal applic tri use address order return 
+step 3 connect socket travers addrinfo receiv link list creat socket 
+valu socket present addrinfo struct obtain 
+node linked_list travers use pointer temp 
+sockfd socket temp ai_famili temp ai_socktyp temp ai_protocol sockfd 0 printf port open n port continu socket creation fail tri use valu node 
+socket creation succe tri connect use connect 
+connect success congratul socket open els tri addrinfo node 
+none work linked_list socket close 
+code statu connect sockfd temp ai_addr temp ai_addrlen statu 0 printf port open n port close sockfd continu printf port open n port close sockfd freeaddrinfo function free memori alloc dynam alloc link list serv_addr 
+good practic use instead free 
+full sourc code tutori download 
+note code program long address deriv use getaddrinfo import 
+almost network applic c similar first 2 step 
+3rd step depend purpos applic 
+info regard struct return freeaddrinfo read document detail argument socket go document 
+author pinkesh badjatiya hail iiit hyderabad 
+geek heart ampl project worth look 
+project work seen 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

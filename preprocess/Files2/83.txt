@@ -1,0 +1,11 @@
+given array arr 0 n 1 contain n posit integ subsequ arr call biton first increas decreas 
+write function take array argument return length longest biton subsequ 
+sequenc sort increas order consid biton decreas part empti 
+similarli decreas order sequenc consid biton increas part empti 
+exampl input arr 1 11 2 10 4 5 2 1 output 6 longest biton subsequ length 6 1 2 10 4 2 1 input arr 12 11 40 5 3 1 output 5 longest biton subsequ length 5 12 11 5 3 1 input arr 80 60 30 40 20 10 output 5 longest biton subsequ length 5 80 60 30 20 10 sourc microsoft interview question solut problem variat standard longest increas subsequ li problem 
+let input array arr length n need construct two array li ld use dynam program solut li problem 
+li store length longest increas subsequ end arr 
+ld store length longest decreas subsequ start arr 
+final need return max valu li ld 1 0 n 1 
+follow c implement dynam program solut 
+c dynam program implement longest biton subsequ problem includ stdio h includ stdlib h lb return length longest biton subsequ arr size n function mainli creat two temporari array li ld return maximum li ld 1 li longest increas subsequ end arr ld longest decreas subsequ start arr int lb int arr int n int j alloc memori li initi li valu 1 index int li new int n 0 n li 1 comput li valu left right 1 n j 0 j j arr arr j li li j 1 li li j 1 alloc memori ld initi ld valu index int ld new int n 0 n ld 1 comput ld valu right left n 2 0 j n 1 j j arr arr j ld ld j 1 ld ld j 1 return maximum valu li ld 1 int max li 0 ld 0 1 1 n li ld 1 max max li ld 1 return max driver program test function int main int arr 0 8 4 12 2 10 6 14 1 9 5 13 3 11 7 15 int n sizeof arr sizeof arr 0 printf length lb n lb arr n return 0 

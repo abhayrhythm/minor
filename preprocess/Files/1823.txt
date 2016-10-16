@@ -1,0 +1,125 @@
+
+Manipulating ratio arithmetic has been discussed in Set 1 below 
+Ratio Manipulations in C++ | Set 1(Arithmetic)
+In this article comparison of rations is discussed.
+1. ratio_equal :- This templete alias checks if the ratios in its arguments are equal. Returns true if equal, else returns false. It returns a boolean member constant “value”. 
+1. ratio_not_equal :- This templete alias checks if the ratios in its arguments are not equal. Returns true if not equal, else if equal returns false.  It returns a boolean member constant “value”. 
+
+// C++ code to demonstrate the working of
+// ratio_equal and ratio_not_equal
+#include<iostream>
+#include<ratio> // for ratio manipulation
+using namespace std;
+int main()
+{
+    // Declaring ratios 
+    typedef ratio<10, 100> ratio1;
+    typedef ratio<1, 10> ratio2;
+    
+    // Checking if ratios are equal using ratio_equal
+    ratio_equal<ratio1, ratio2>::value ? 
+              cout << "Ratios are equal" :
+              cout << "Ratios are not equal";
+    cout << endl;
+     
+     // Checking if ratios are not equal using ratio_not_equal
+    ratio_not_equal<ratio1, ratio2>::value ? 
+               cout << "Ratios are not equal" :
+               cout << "Ratios are equal";
+    
+    return 0;
+    
+}
+
+Output:
+
+Ratios are equal
+Ratios are equal
+
+
+3. ratio_greater :- This temporary alias check if ratio1 is greater than ratio2. It returns a boolean member constant “value” which returns true if ratio1 is greater than ratio2 else returns false.
+4. ratio_less :- This temporary alias check if ratio1 is less than ratio2. It returns a boolean member constant “value” which returns true if ratio1 is less than ratio2 else returns false.
+
+// C++ code to demonstrate the working of
+// ratio_greater and ratio_less
+#include<iostream>
+#include<ratio> // for ratio manipulation
+using namespace std;
+int main()
+{
+    // Declaring ratios 
+    typedef ratio<10, 100> ratio1;
+    typedef ratio<11, 100> ratio2;
+    
+    // Checking if ratio1 is greater than ratio2 
+    // using ratio_greater
+    ratio_greater<ratio1, ratio2>::value ? 
+             cout << "ratio1 is greater than ratio2" :
+             cout << "ratio1 is not greater than ratio2";
+    cout << endl;
+     
+    // Checking if ratio1 is less than ratio2 
+    // using ratio_less
+    ratio_less<ratio1, ratio2>::value ? 
+             cout << "ratio1 is less than ratio2" :
+             cout << "ratio1 is not less than ratio2";
+    cout << endl;
+    
+    return 0;
+    
+}
+
+Output:
+
+ratio1 is not greater than ratio2
+ratio1 is less than ratio2
+
+
+5. ratio_greater_equal :- This temporary alias check if ratio1 is greater or equal than ratio2. It returns a boolean member constant “value” which returns true if ratio1 is greater or equal than ratio2 else returns false.
+6. ratio_less_equal :- This temporary alias check if ratio1 is less or equal than ratio2. It returns a boolean member constant “value” which returns true if ratio1 is less or equal than ratio2 else returns false.
+
+// C++ code to demonstrate the working of
+// ratio_greater_equal and ratio_less_equal
+#include<iostream>
+#include<ratio> // for ratio manipulation
+using namespace std;
+int main()
+{
+    // Declaring ratios 
+    typedef ratio<10, 100> ratio1;
+    typedef ratio<1, 10> ratio2;
+    
+    // Checking if ratio1 is greater or equal than ratio2 
+    // using ratio_greater_equal
+    ratio_greater_equal<ratio1, ratio2>::value ? 
+           cout << "ratio1 is greater or equal than ratio2" :
+           cout << "ratio1 is not greater or equal than ratio2";
+    cout << endl;
+     
+    // Checking if ratio1 is less or equal than ratio2 
+    // using ratio_less_equal 
+    ratio_less_equal<ratio1, ratio2>::value ? 
+           cout << "ratio1 is less or equal than ratio2" :
+           cout << "ratio1 is not less or equal than ratio2";
+    cout << endl;
+    
+    return 0;
+    
+}
+
+Output:
+
+ratio1 is greater or equal than ratio2
+ratio1 is less or equal than ratio2
+
+This article is contributed by Manjeet Singh   .If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

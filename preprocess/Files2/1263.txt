@@ -1,0 +1,15 @@
+given two string str1 str2 write function print interleav given two string 
+may assum charact string differ exampl input str1 ab str2 cd output abcd acbd acdb cabd cadb cdab input str1 ab str2 c output abc acb cab interleav string given two string preserv order charact individu string 
+exampl interleav first exampl come b c come 
+let length str1 length str2 n let us assum charact str1 str2 differ 
+let count n count interleav string string 
+valu count n written follow 
+count n count 1 n count n 1 count 1 0 1 count 0 1 1 print interleav first fix first charact str1 0 1 output string recurs call str1 1 1 str2 0 n 1 
+fix first charact str2 0 n 1 recurs call str1 0 1 str2 1 n 1 
+thank akash01 provid follow c implement 
+c c c c program print interleav given two string includ stdio h includ stdlib h includ string h main function recurs print interleav 
+variabl istr use store interleav output string one one 
+use pass next avail place istr void printilsrecur char str1 char str2 char istr int int n int base case charact str1 str2 includ output string print output string 0 n 0 printf n istr charact str1 left includ includ first charact remain charact recur rest 0 istr str1 0 printilsrecur str1 1 str2 istr 1 n 1 charact str2 left includ includ first charact remain charact recur rest n 0 istr str2 0 printilsrecur str1 str2 1 istr n 1 1 alloc memori output string use printilsrecur print interleav void printil char str1 char str2 int int n alloc memori output string char istr char malloc n 1 sizeof char set termin output string istr n 0 print interleav use printilsrecur printilsrecur str1 str2 istr n 0 free memori avoid memori leak free istr driver program test function int main char str1 ab char str2 cd printil str1 str2 strlen str1 strlen str2 return 0 python python program print interleav given two string util function def tostr list return join list main function recurs print interleav 
+variabl istr use store interleav output string one one 
+use pass next avail place istr def printilsrecur str1 str2 istr n base case charact str1 str2 includ output string print output string 0 n 0 print tostr istr charact str1 left includ includ first charact remain charact recur rest 0 istr str1 0 printilsrecur str1 1 str2 istr 1 n 1 charact str2 left includ includ first charact remain charact recur rest n 0 istr str2 0 printilsrecur str1 str2 1 istr n 1 1 alloc memori output string use printilsrecur print interleav def printil str1 str2 n istr n print interleav use printilsrecur printilsrecur str1 str2 istr n 0 driver program test function str1 ab str2 cd printil str1 str2 len str1 len str2 code contribut bhavya jain output abcd acbd acdb cabd cadb cdab pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

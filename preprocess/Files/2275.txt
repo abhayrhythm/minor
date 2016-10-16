@@ -1,0 +1,21 @@
+
+Critical Section:
+In simple terms a critical section is group of instructions/statements or region of code that need to be executed atomically (read this post for atomicity), such as accessing a resource (file, input or output port, global data, etc.).
+In concurrent programming, if one thread tries to change the value of shared data at the same time as another thread tries to read the value (i.e. data race across threads), the result is unpredictable.
+The access to such shared variable (shared memory, shared files, shared port, etc…) to be synchronized. Few programming languages have built in support for synchronization.
+It is critical to understand the importance of race condition while writing kernel mode programming (a device driver, kernel thread, etc.). since the programmer can directly access and modifying kernel data structures.
+A simple solution to critical section can be thought as shown below,
+acquireLock();
+Process Critical Section
+releaseLock();
+A thread must acquire a lock prior to executing critical section. The lock can be acquired by only one thread. There are various ways to implement locks in the above pseudo code. Let us discuss them in future articles.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

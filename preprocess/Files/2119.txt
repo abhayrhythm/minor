@@ -1,0 +1,84 @@
+
+In the below code, change/add only one character and print ‘*’ exactly 20 times.
+
+
+int main()
+{
+    int i, n = 20;
+    for (i = 0; i < n; i--)
+        printf("*");             
+    getchar();
+    return 0;
+}
+
+Solutions:
+1. Replace i by n in for loop's third expression
+
+#include <stdio.h>
+int main()
+{
+    int i, n = 20;
+    for (i = 0; i < n; n--)
+        printf("*");
+    getchar();    
+    return 0;
+}
+
+2. Put '-' before i in for loop's second expression
+
+#include <stdio.h>
+int main()
+{
+    int i, n = 20;
+    for (i = 0; -i < n; i--)
+        printf("*");           
+    getchar();    
+    return 0;
+}
+
+3. Replace < by + in for loop's second expression
+
+#include <stdio.h>
+int main()
+{
+    int i, n = 20;
+    for (i = 0; i + n; i--)
+       printf("*");
+    getchar();
+    return 0;
+}
+
+Let's extend the problem little.
+Change/add only one character and print '*' exactly 21 times.
+Solution: Put negation operator before i in for loop's second expression.
+Explanation: Negation operator converts the number into its one's complement. 
+
+       No.              One's complement
+ 0 (00000..00)            -1 (1111..11)                         
+-1 (11..1111)             0 (00..0000)                        
+-2 (11..1110)             1 (00..0001)                            
+-3 (11..1101)             2 (00..0010)
+...............................................
+-20 (11..01100)           19 (00..10011)
+
+
+#include <stdio.h>
+int main()
+{
+    int i, n = 20;
+    for (i = 0; ~i < n; i--) 
+        printf("*");
+    getchar();
+    return 0;
+}
+
+Please comment if you find more solutions of above problems.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

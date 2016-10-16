@@ -1,0 +1,41 @@
+given undirect unweight graph find smallest cut smallest number edg disconnect graph two compon 
+input graph may parallel edg 
+exampl consid follow exampl smallest cut 2 edg 
+simpl solut use max flow base cut algorithm find minimum cut 
+consid everi pair vertic sourc sink call minimum cut algorithm find cut 
+return minimum cut 
+best possibl time complex algorithm v5 graph 
+
+total possibl v2 pair cut algorithm one pair take v e time e v2 
+simpl karger algorithm purpos 
+karger algorithm implement e v2 time 
+1 initi contract graph cg copi origin graph 2 2 vertic 
+pick random edg u v contract graph 
+b merg contract u v singl vertex updat contract graph 
+c remov self loop 3 return cut repres two vertic 
+let us understand algorithm exampl given 
+let first randomli pick vertex connect vertic 0 1 remov edg contract graph combin vertic 0 1 
+get follow graph 
+let next randomli pick edg 
+remov edg combin vertic 0 1 3 need remov self loop graph 
+remov edg c graph two vertic stop 
+number edg result graph cut produc karger algorithm 
+karger algorithm mont carlo algorithm cut produc may minimum 
+exampl follow diagram show differ order pick random edg produc min cut size 3 c implement algorithm 
+input graph repres collect edg union find data structur use keep track compon 
+karger algorithm find minimum cut undirect unweight connect graph 
+includ stdio h includ stdlib h includ time h structur repres unweight edg graph struct edg int src dest structur repres connect undirect unweight graph collect edg 
+struct graph v number vertic e number edg int v e graph repres array edg 
+sinc graph undirect edg src dest also edg dest src 
+count 1 edg 
+edg edg structur repres subset union find struct subset int parent int rank function prototyp union find function defin kargermincut int find struct subset subset int void union struct subset subset int x int basic implement karger random algorithm find minimum cut 
+pleas note karger algorithm mont carlo random algo cut return algorithm may minimum alway int kargermincut struct graph graph get data given graph int v graph v e graph e edg edg graph edg alloc memori creat v subset 
+struct subset subset new subset v creat v subset singl element int v 0 v v v subset v parent v subset v rank 0 initi v vertic contract graph int vertic v keep contract vertic 2 vertic 
+vertic 2 pick random edg int rand e find vertic set two corner current edg int subset1 find subset edg src int subset2 find subset edg dest two corner belong subset point consid edg subset1 subset2 continu els contract edg combin corner edg one vertex els printf contract edg n edg src edg dest vertic union subset subset1 subset2 two vertic subset left contract graph count edg two compon return count 
+int cutedg 0 int 0 e int subset1 find subset edg src int subset2 find subset edg dest subset1 subset2 cutedg return cutedg util function find set element use path compress techniqu int find struct subset subset int find root make root parent path compress subset parent subset parent find subset subset parent return subset parent function union two set x use union rank void union struct subset subset int x int int xroot find subset x int yroot find subset attach smaller rank tree root high rank tree union rank subset xroot rank subset yroot rank subset xroot parent yroot els subset xroot rank subset yroot rank subset yroot parent xroot rank make one root increment rank one els subset yroot parent xroot subset xroot rank creat graph v vertic e edg struct graph creategraph int v int e graph graph new graph graph v v graph e e graph edg new edg e return graph driver program test function int main let us creat follow unweight graph 0 1 2 3 int v 4 number vertic graph int e 5 number edg graph struct graph graph creategraph v e add edg 0 1 graph edg 0 src 0 graph edg 0 dest 1 add edg 0 2 graph edg 1 src 0 graph edg 1 dest 2 add edg 0 3 graph edg 2 src 0 graph edg 2 dest 3 add edg 1 3 graph edg 3 src 1 graph edg 3 dest 3 add edg 2 3 graph edg 4 src 2 graph edg 4 dest 3 use differ seed valu everi run 
+srand time null printf ncut found karger random algo n kargermincut graph return 0 output contract edg 0 2 contract edg 0 3 cut found karger random algo 2 note program base outcom random function may produc differ output 
+post discuss simpl karger algorithm seen algorithm alway produc min cut 
+algorithm produc min cut probabl greater equal 1 n2 
+see next post analysi applic karger algortihm applic proof probabl improv discuss 
+refer http en wikipedia org wiki karger 27s_algorithm http www youtub com watch v p0l8jmdqteq http www cs princeton edu cours archiv fall13 cos521 lecnot lec2fin pdf http web stanford edu class archiv cs cs161 cs161 1138 lectur 11 small11 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

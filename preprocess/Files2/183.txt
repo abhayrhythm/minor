@@ -1,0 +1,21 @@
+given function foo repres bias coin 
+foo call return 0 60 probabl 1 40 probabl 
+write new function return 0 1 50 probabl 
+function use foo librari method 
+solut know foo return 0 60 probabl 
+ensur 0 1 return 50 probabl 
+solut similar post 
+somehow get two case equal probabl done 
+call foo two time 
+call return 0 60 probabl 
+two pair 0 1 1 0 gener equal probabl two call foo 
+let us see 
+0 1 probabl get 0 follow 1 two call foo 0 6 0 4 0 24 1 0 probabl get 1 follow 0 two call foo 0 4 0 6 0 24 two case appear equal probabl 
+idea return consid two case return 0 one case return 1 case 
+case 0 0 1 1 recur end two case 
+program depict use foo return 0 1 equal probabl 
+includ stdio h int foo given method return 0 60 probabl 1 40 code return 0 1 50 probabl int my_fun int val1 foo int val2 foo val1 0 val2 1 return 0 reach 0 24 probabl val1 1 val2 0 return 1 reach 0 24 probabl return my_fun reach 1 0 24 0 24 probabl int main printf my_fun return 0 refer http en wikipedia org wiki fair_coin fair_results_from_a_biased_coin articl compil shashank sinha review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,44 @@
+make class constructor virtual c creat polymorph object 
+
+c static type purpos rtti differ languag meaningless c compil creat object polymorph 
+compil must awar class type creat object 
+word type object creat compil time decis c compil perspect 
+make constructor virtual compil flag error 
+fact except inlin keyword allow declar constructor 
+practic scenario would need creat deriv class object class hierarchi base input 
+put word object creation object type tightli coupl forc modif extend 
+object virtual constructor decoupl object creation type 
+creat requir type object runtim 
+exampl see follow sampl program 
+includ iostream use namespac std librari start class base public base virtual ensur invok actual object destructor base interfac virtual void displayact 0 class derived1 public base public derived1 cout derived1 creat endl derived1 cout derived1 destroy endl void displayact cout action derived1 endl class derived2 public base public derived2 cout derived2 creat endl derived2 cout derived2 destroy endl void displayact cout action derived2 endl librari end class user public creat drived1 user pbase 0 derived2 requir 
+add els ladder see next sampl pbase new derived1 user pbase delet pbase pbase 0 deleg actual object void action pbase displayact privat base pbase int main user user new user need derived1 function user action delet user sampl assum hierarchi base derived1 derived2 part librari code 
+class user util class tri make use hierarchi 
+main function consum base hierarchi function via user class 
+user class constructor creat derived1 object alway 
+user consum main case need derived2 function user need creat new derived2 forc recompil 
+recompil bad way design opt follow approach 
+go detail let us answer dictat creat either derived1 derived2 object 
+clearli consum user class 
+user class make use els ladder creat either derived1 derived2 shown follow sampl includ iostream use namespac std librari start class base public base virtual ensur invok actual object destructor base interfac virtual void displayact 0 class derived1 public base public derived1 cout derived1 creat endl derived1 cout derived1 destroy endl void displayact cout action derived1 endl class derived2 public base public derived2 cout derived2 creat endl derived2 cout derived2 destroy endl void displayact cout action derived2 endl librari end class user public creat derived1 derived2 base input user pbase 0 int input id distinguish derived1 derived2 cout enter id 1 2 cin input input 1 input 2 cout enter id 1 2 cin input input 1 pbase new derived1 els pbase new derived2 derived3 ad class hierarchi 
+user pbase delet pbase pbase 0 deleg actual object void action pbase displayact privat base pbase int main user user new user need either derived1 derived2 function user action delet user code open extens inflex design 
+simpl word librari updat base class hierarchi new class derived3 
+user class creat derived3 object 
+one way updat els ladder creat derived3 object base new input id 3 shown includ iostream use namespac std class user public user pbase 0 creat drived1 derived2 base need int input id distinguish derived1 derived2 cout enter id 1 2 cin input input 1 input 2 cout enter id 1 2 cin input input 1 pbase new derived1 els input 2 pbase new derived2 els pbase new derived3 user pbase delet pbase pbase 0 deleg actual object void action pbase displayact privat base pbase modif forc user user class recompil bad inflex design 
+close user class modif due base extens 
+problem creation object 
+addit new class hierarchi forc depend user class recompil 
+deleg action creat object class hierarchi function behav virtual 
+deleg object creation class hierarchi static function avoid tight coupl user base hierarchi 
+enough theori see follow code includ iostream use namespac std librari start class base public virtual constructor static base creat int id base virtual ensur invok actual object destructor base interfac virtual void displayact 0 class derived1 public base public derived1 cout derived1 creat endl derived1 cout derived1 destroy endl void displayact cout action derived1 endl class derived2 public base public derived2 cout derived2 creat endl derived2 cout derived2 destroy endl void displayact cout action derived2 endl class derived3 public base public derived3 cout derived3 creat endl derived3 cout derived3 destroy endl void displayact cout action derived3 endl also declar creat outsid base relev limit scope base base base creat int id expand els ladder new deriv class creat user code need recompil creat newli ad class object id 1 return new derived1 els id 2 return new derived2 els return new derived3 librari end util start class user public user pbase 0 receiv object base heirarchi runtim int input cout enter id 1 2 3 cin input input 1 input 2 input 3 cout enter id 1 2 3 cin input get object virtual constructor pbase base creat input user pbase delet pbase pbase 0 deleg actual object void action pbase displayact privat base pbase util end consum user util class int main user user new user action requir deriv object user action delet user user class independ object creation 
+deleg respons base provid input form id 
+librari add new class derived4 librari modifi extend els ladder insid creat return proper object 
+consum user need recompil code due extens base 
+note function creat use return differ type base class object runtim 
+act like virtual constructor also refer factori method pattern terminolog 
+pattern world demonstr differ way implement concept 
+also potenti design issu code 
+object provid insight virtual construct creat object dynam base input 
+excel book devot subject interest reader refer inform 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

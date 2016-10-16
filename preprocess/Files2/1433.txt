@@ -1,0 +1,24 @@
+depth first travers search graph similar depth first travers df tree 
+catch unlik tree graph may contain cycl may come node 
+avoid process node use boolean visit array 
+exampl df graph 0 3 4 2 1 possibl df 0 2 1 3 4 
+discuss recurs implement df previou previou post 
+post iter df discuss 
+recurs implement use function call stack 
+iter implement explicit stack use hold visit vertic 
+c implement iter df 
+implement similar bf differ queue replac stack 
+iter c program df travers given sourc vertex 
+df int travers vertic reachabl includ bit stdc h use namespac std class repres direct graph use adjac list represent class graph int v 
+vertic list int adj adjac list public graph int v constructor void addedg int v int w add edg graph void df int print df given sourc graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+function print vertic reachabl use iter df 
+void graph df int mark vertic visit bool visit new bool v int 0 v visit fals creat stack df stack int stack mark current node visit push visit true stack push use get adjac vertic vertex list int iter stack empti pop vertex stack print stack top cout stack pop get adjac vertic pop vertex adjac visit mark visit push stack adj begin adj end visit visit true stack push driver program test method graph class int main creat graph given diagram graph g 5 total 5 vertic graph g addedg 1 0 g addedg 0 2 g addedg 2 1 g addedg 0 3 g addedg 3 4 g addedg 4 0 cout follow depth first travers start vertex 0 n g df 0 return 0 output follow depth first travers start vertex 0 0 3 4 2 1 note implement print vertic reachabl given vertex 
+exampl remov edg 0 3 0 2 program would print 0 print vertic graph need call df everi vertex 
+c implement 
+iter c program df travers given sourc vertex 
+df int travers vertic reachabl includ bit stdc h use namespac std class repres direct graph use adjac list represent class graph int v 
+vertic list int adj adjac list public graph int v constructor void addedg int v int w add edg graph void df print vertic df manner print yet visit vertic reachabl void dfsutil int bool visit graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+print yet visit vertic reachabl void graph dfsutil int bool visit creat stack df stack int stack mark current node visit push visit true stack push use get adjac vertic vertex list int iter stack empti pop vertex stack print stack top cout stack pop get adjac vertic pop vertex adjac visit mark visit push stack adj begin adj end visit visit true stack push print vertic df manner void graph df mark vertic visit bool visit new bool v int 0 v visit fals int 0 v visit dfsutil visit driver program test method graph class int main let us creat disconnect graph without edg 0 2 0 3 graph graph g 5 total 5 vertic graph g addedg 1 0 g addedg 2 1 g addedg 3 4 g addedg 4 0 cout follow depth first travers n g df return 0 output follow depth first travers 0 1 2 3 4 like recurs travers time complex iter implement v e 
+articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

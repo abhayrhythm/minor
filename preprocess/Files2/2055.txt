@@ -1,0 +1,14 @@
+everi liter constant c c type inform associ 
+c c numer liter e g 
+10 int type 
+mean sizeof 10 sizeof int return valu 
+howev charact liter e g 
+v differ type sizeof v return differ valu c c 
+c charact liter treat int type c charact liter treat char type sizeof v sizeof char c c 
+int main printf sizeof v sizeof char sizeof v sizeof char return 0 result program c result sizeof v 4 sizeof char 1 c result sizeof v 1 sizeof char 1 behaviour requir c support function overload 
+exampl make clear 
+predict output follow c program 
+void foo char c printf foo char void foo int printf foo int int main foo v return 0 compil must call void foo char sinc v type char 
+articl contribut venki geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

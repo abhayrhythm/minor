@@ -1,0 +1,18 @@
+question 2 sort array b size n 
+write algorithm find median array obtain merg 2 array e 
+array length 2n 
+complex log n strongli recommend click practic move solut 
+median probabl theori statist median describ number separ higher half sampl popul probabl distribut lower half 
+median finit list number found arrang number lowest valu highest valu pick middl one 
+get median input array 12 11 15 10 20 first sort array 
+get 10 11 12 15 20 sort 
+median middl element sort array 12 differ convent take median array even number element one take mean two middl valu first middl valu second middl valu 
+let us see differ method get median two sort array size n 
+sinc size set look median even 2n take averag middl two number solut 
+method 1 simpli count merg use merg procedur merg sort 
+keep track count compar element two array 
+count becom n 2n element reach median 
+take averag element index n 1 n merg array 
+see implement 
+implement simpl merg base n solut find median two sort array includ stdio h function return median ar1 ar2 
+assumpt function ar1 ar2 sort array n element int getmedian int ar1 int ar2 int n int 0 current index p array ar1 int j 0 current index p array ar2 int count int m1 1 m2 1 sinc 2n element median averag element index n 1 n array obtain merg ar1 ar2 count 0 count n count handl case element ar1 smaller smallest first element ar2 n m1 m2 m2 ar2 0 break handl case element ar2 smaller smallest first element ar1 els j n m1 m2 m2 ar1 0 break ar1 ar2 j m1 m2 store prev median m2 ar1 els m1 m2 store prev median m2 ar2 j j return m1 m2 2 driver program test function int main int ar1 1 12 15 26 38 int ar2 2 13 17 30 45 int n1 sizeof ar1 sizeof ar1 0 int n2 sizeof ar2 sizeof ar2 0 n1 n2 printf median getmedian ar1 ar2 n1 els printf work array unequ size getchar return 0 output median 16 time complex n 

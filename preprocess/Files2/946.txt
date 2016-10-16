@@ -1,0 +1,12 @@
+c function call declar compil assum return type function int 
+exampl follow program fail compil 
+includ stdio h int main void note fun declar printf n fun return 0 char fun return g follow program compil run fine return type fun chang int 
+includ stdio h int main void printf n fun return 0 int fun return 10 paramet 
+compil assum noth paramet 
+therefor compil abl perform compil time check argument type ariti function appli argument 
+caus problem 
+exampl follow program compil fine gcc produc garbag valu output 
+includ stdio h int main void printf sum 10 5 return 0 int sum int b int c int return b c misconcept compil assum input paramet also int 
+compil assum input paramet int program would fail compil 
+alway recommend declar function use see surpris program run see detail 
+sourc http en wikipedia org wiki function_prototyp use pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

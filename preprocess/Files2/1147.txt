@@ -1,0 +1,31 @@
+given unsort array posit integ 
+find number triangl form three differ array element three side triangl 
+triangl possibl 3 valu sum two valu side must greater third valu third side 
+exampl input array 4 6 3 7 output 3 three triangl possibl 3 4 6 4 6 7 3 6 7 
+note 3 4 7 possibl triangl 
+anoth exampl consid array 10 21 22 100 101 200 300 
+6 possibl triangl 10 21 22 21 100 101 22 100 101 10 100 101 100 101 200 101 200 300 strongli recommend click practic move solut 
+method 1 brute forc brute forc method run three loop keep track number triangl possibl far 
+three loop select three differ valu array innermost loop check triangl properti sum two side must greater valu third side 
+time complex n 3 n size input array 
+method 2 tricki effici let b c three side 
+condit must hold triangl sum two side greater third side b c ii b c iii c b follow step count triangl 
+1 sort array non decreas order 
+2 initi two pointer j first second element respect initi count triangl 0 
+3 fix j find rightmost index k largest arr k arr arr j arr k 
+number triangl form arr arr j two side k j 
+add k j count triangl 
+let us consid arr arr j b element arr j 1 arr k c 
+mention condit ii iii satisfi arr arr j arr k 
+check condit pick k 4 increment j fix second element 
+note step 3 use previou valu k 
+reason simpl know valu arr arr j 1 greater arr k say arr arr j also greater arr k array sort increas order 
+5 j reach end increment 
+initi j 1 k 2 repeat step 3 4 follow implement approach 
+c c c c program count number triangl form given array includ stdio h includ stdlib h follow function need librari function qsort 
+refer http www cplusplu com refer clibrari cstdlib qsort int comp const void const void b return int int b function count possibl triangl arr element int findnumberoftriangl int arr int n sort array element non decreas order qsort arr n sizeof arr 0 comp initi count triangl int count 0 fix first element 
+need run till n 3 two element select arr 1 n 1 int 0 n 2 initi index rightmost third element int k 2 fix second element int j 1 j n j find rightmost element smaller sum two fix element import thing note use previou valu k valu arr arr j 1 greater arr k arr arr j must greater k array sort 
+k n arr arr j arr k k total number possibl triangl form two fix element k j 1 two fix element arr arr j 
+element arr j 1 arr k 1 form triangl arr arr j 
+one subtract k k increment one extra loop 
+k alway greater j j becom equal k loop increment k arr k arr alway greater arr k count k j 1 return count driver program test functionarr j 1 int main int arr 10 21 22 100 101 200 300 int size sizeof arr sizeof arr 0 printf total number triangl possibl findnumberoftriangl arr size return 0 

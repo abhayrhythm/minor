@@ -1,0 +1,123 @@
+
+fork()  system call is used to create a new process. Newly created process becomes child of the caller process. It take no parameters and return integer value. Below are different values returned by fork().
+
+Negative Value: creation of a child process was unsuccessful.
+Zero: Returned to the newly created child process.
+Positive value: Returned to parent or caller. The value contains process ID of newly created child process.
+
+Examples:
+1) Output of below program.
+
+#include  <stdio.h>
+#include  <sys/types.h>
+int  main()
+{
+    pid_t pid = fork();
+    if (pid == 0)
+        printf("Child process created\n");
+    else
+        printf("Parent process created\n");
+    return 0;
+}
+Output:
+Parent process created
+Child process created
+
+In the above code, a child process is created, fork() returns 0 in the child process and positive integer to the parent process.
+ 
+2) Calculate number of times hello is printed.
+
+#include  <stdio.h>
+#include  <sys/types.h>
+int main()
+{
+    fork();
+    fork();
+    fork();
+    printf("hello\n");
+    return 0;
+}
+
+Output:
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+
+Number of times hello printed is equal to number of process created. Total Number of Processes = 2n where n is number of fork system calls. So here n=3, 2^3 = 8
+Let us put some label names for the three lines:
+
+  fork ();    // Line 1
+  fork ();   // Line 2
+  fork ();   // Line 3
+
+       L1       // There will be 1 child process created by line 1
+    /     \
+  L2      L2    // There will be 2 child processes created by line 2
+ /  \    /  \
+L3  L3  L3  L3  // There will be 4 child processes created by line 3
+So there are total eight processes (new child processes and one original process).
+Please note that the above programs don’t compile in Windows environment.
+ 
+fork() vs exec()
+The fork system call creates a new process.  The new process created by fork() is copy of the current process except the returned value. The exex system call replaces the current process with a new program.
+ 
+Exercise:
+1) A process executes the following code
+
+  for (i = 0; i < n; i++) 
+      fork();
+
+The total number of child processes created is: (GATE CS 2008)
+(A) n
+(B) 2^n – 1
+(C) 2^n
+(D) 2^(n+1) – 1;
+See this for solution.
+ 
+2) Consider the following code fragment:
+
+if (fork() == 0)
+{ 
+   a = a + 5; 
+   printf("%d,%d\n", a, &a); 
+}
+else 
+{ 
+    a = a –5; 
+    printf("%d, %d\n", a, &a); 
+}
+Let u, v be the values printed by the parent process, and x, y be the values printed by the child process. Which one of the following is TRUE?  (GATE-CS-2005)
+(A) u = x + 10 and v = y
+(B) u = x + 10 and v != y
+(C) u + 10 = x and v = y
+(D) u + 10 = x and v != y
+See this for solution.
+ 
+3) Predict output of below program.
+
+#include <stdio.h>
+#include <unistd.h>
+int main()
+{
+   fork();
+   fork() && fork() || fork();
+   fork();
+ 
+   printf("forked\n");
+   return 0;
+}
+See this for solution
+References:
+http://www.csl.mtu.edu/cs4411.ck/www/NOTES/process/fork/create.html
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

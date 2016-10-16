@@ -1,0 +1,109 @@
+
+At the very high level, we can think of NULL as null pointer which is used in C for various purposes. Some of the most common use cases for NULL are
+a) To initialize a pointer variable when that pointer variable isn’t assigned any valid memory address yet.
+b) To check for null pointer before accessing any pointer variable. By doing so, we can perform error handling in pointer related code e.g. dereference pointer variable only if it’s not NULL.
+c) To pass a null pointer to a function argument when we don’t want to pass any valid memory address.
+The example of a) is
+
+int * pInt = NULL;
+
+The example of b) is
+
+if(pInt != NULL) /*We could use if(pInt) as well*/
+{ /*Some code*/}
+else
+{ /*Some code*/}
+
+The example of c) is
+
+int fun(int *ptr)
+{
+ /*Fun specific stuff is done with ptr here*/
+ return 10;
+}
+fun(NULL);
+
+It should be noted that NULL pointer is different from uninitialized and dangling pointer. In a specific program context, all uninitialized or dangling or NULL pointers are invalid but NULL is a specific invalid pointer which is mentioned in C standard and has specific purposes. What we mean is that uninitialized and dangling pointers are invalid but they can point to some memory address that may be accessible though the memory access is unintended.
+
+#include <stdio.h>
+int main()
+{
+ int *i, *j;
+ int *ii = NULL, *jj = NULL;
+ if(i == j)
+ {
+  printf("This might get printed if both i and j are same by chance.");
+ }
+ if(ii == jj)
+ {
+  printf("This is always printed coz ii and jj are same.");
+ }
+ return 0;
+}
+
+By specifically mentioning NULL pointer, C standard gives mechanism using which a C programmer can use and check whether a given pointer is legitimate or not. But what exactly is NULL and how it’s defined? Strictly speaking, NULL expands to an implementation-defined null pointer constant which is defined in many header files such as “stdio.h”, “stddef.h”, “stdlib.h” etc. Let us see what C standards say about null pointer. From C11 standard clause 6.3.2.3,
+“An integer constant expression with the value 0, or such an expression cast to type void *, is called a null pointer constant. If a null pointer constant is converted to a pointer type, the resulting pointer, called a null pointer, is guaranteed to compare unequal to a pointer to any object or function.”
+Before we proceed further on this NULL discussion :), let’s mention few lines about C standard just in case you wants to refer it for further study. Please note that ISO/IEC 9899:2011 is the C language’s latest standard which was published in Dec 2011. This is also called C11 standard. For completeness, let us mention that previous standards for C were C99, C90 (also known as ISO C) and C89 (also known as ANSI C). Though the actual C11 standard can be purchased from ISO, there’s a draft document which is available in public domain for free.
+Coming to our discussion, NULL macro is defined as ((void *)0) in header files of most of the C compiler implementations. But C standard is saying that 0 is also a null pointer constant. It means that the following is also perfectly legal as per standard.
+
+int * ptr = 0;
+
+Please note that 0 in the above C statement is used in pointer-context and it’s different from 0 as integer. This is one of the reason why usage of NULL is preferred because it makes it explicit in code that programmer is using null pointer not integer 0. Another important concept about NULL is that “NULL expands to an implementation-defined null pointer constant”. This statement is also from C11 clause 7.19. It means that internal representation of the null pointer could be non-zero bit pattern to convey NULL pointer. That’s why NULL always needn’t be internally represented as all zeros bit pattern. A compiler implementation can choose to represent “null pointer constant” as a bit pattern for all 1s or anything else. But again, as a C programmer, we needn’t to worry much on the internal value of the null pointer unless we are involved in Compiler coding or even below level of coding. Having said so, typically NULL is represented as all bits set to 0 only. To know this on a specific platform, one can use the following
+
+#include<stdio.h>
+int main()
+{
+ printf("%d",NULL);
+ return 0;
+}
+
+Most likely, it’s printing 0 which is the typical internal null pointer value but again it can vary depending on the C compiler/platform. You can try few other things in above program such as printf(“‘%c“,NULL) or printf(“%s”,NULL) and even printf(“%f”,NULL). The outputs of these are going to be different depending on the platform used but it’d be interesting especially usage of %f with NULL!
+Can we use sizeof() operator on NULL in C? Well, usage of sizeof(NULL) is allowed but the exact size would depend on platform.
+
+#include<stdio.h>
+int main()
+{
+ printf("%d",sizeof(NULL));
+ return 0;
+}
+
+Since NULL is defined as ((void*)0), we can think of NULL as a special pointer and its size would be equal to any pointer. If pointer size of a platform is 4 bytes, the output of above program would be 4. But if pointer size on a platform is 8 bytes, the output of above program would be 8.
+What about dereferencing of NULL? What’s going to happen if we use the following C code
+
+#include<stdio.h>
+int main()
+{
+ int * ptr = NULL;
+ printf("%d",*ptr);
+ return 0;
+}
+
+On some machines, the above would compile successfully but crashes when the program is run though it needn’t to show the same behavior across all the machines. Again it depends on lot of factors. But the idea of mentioning the above snippet is that we should always check for NULL before accessing it.
+Since NULL is typically defined as ((void*)0), let us discuss a little bit about void type as well. As per C11 standard clause 6.2.5, “The void type comprises an empty set of values; it is an incomplete object type that cannot be completed”. Even C11 clause 6.5.3.4 mentions that “The sizeof operator shall not be applied to an expression that has function type or an incomplete type, to the parenthesized name of such a type, or to an expression that designates a bit-field member.” Basically, it means that void is an incomplete type whose size doesn’t make any sense in C programs but implementations (such as gcc) can choose sizeof(void) as 1 so that the flat memory pointed by void pointer can be viewed as untyped memory i.e. a sequence of bytes. But the output of the following needn’t to same on all platforms.
+
+#include<stdio.h>
+int main()
+{
+ printf("%d",sizeof(void));
+ return 0;
+}
+
+On gcc, the above would output 1. What about sizeof(void *)? Here C11 has mentioned guidelines. From clause 6.2.5, “A pointer to void shall have the same representation and alignment requirements as a pointer to a character type”. That’s why the output of the following would be same as any pointer size on a machine.
+
+#include<stdio.h>
+int main()
+{
+ printf("%d",sizeof(void *));
+ return 0;
+}
+
+Inspite of mentioning machine dependent stuff as above, we as C programmers should always strive to make our code as portable as possible. So we can conclude on NULL as follows:
+1. Always initialize pointer variables as NULL.
+2. Always perform NULL check before accessing any pointer.
+Please do Like/Tweet/G+1 if you find the above useful. Also, please do leave us comment for further clarification or info. We would love to help and learn 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

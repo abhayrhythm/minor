@@ -1,0 +1,10 @@
+c c getc return eof end file reach 
+getc also return eof fail 
+compar valu return getc eof suffici check actual end file 
+solv problem c provid feof return non zero valu end file reach otherwis return 0 exampl consid follow c program print content file test txt screen 
+program return valu getc compar eof first anoth check use feof 
+put check make sure program print end file reach end file reach 
+getc return eof due reason program print someth went wrong includ stdio h int main file fp fopen test txt r int ch getc fp ch eof display content file screen putchar ch ch getc fp feof fp printf n end file reach 
+els printf n someth went wrong 
+fclose fp getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

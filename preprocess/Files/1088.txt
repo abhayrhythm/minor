@@ -1,0 +1,109 @@
+
+Given an sorted array of positive integers, count number of occurrences for each element in the array. Assume all elements in the array are less than some constant M.
+Do this without traversing the complete array. i.e. expected time complexity is less than O(n).
+Examples:
+
+Input: arr[] = [1, 1, 1, 2, 3, 3, 5,
+               5, 8, 8, 8, 9, 9, 10] 
+Output:
+Element 1 occurs 3 times
+Element 2 occurs 1 times
+Element 3 occurs 2 times
+Element 5 occurs 2 times
+Element 8 occurs 3 times
+Element 9 occurs 2 times
+Element 10 occurs 1 times
+
+
+
+Method 1 (Linear Search)
+The idea is traverse the input array and for each distinct element of array, store its frequency in a map and finally print the map. This approach takes O(n) time.
+Method 2 (Use Binary Search)
+This problem can be solved in less than O(n) using a modified binary search. The idea is to recursively divide the array into two equal subarrays if its end elements are different. If both its end elements are same, that means that all elements in the subarray is also same as the array is already sorted. We then simply increment the count of the element by size of the subarray.
+The time complexity of above approach is O(m log n), where m is number of distinct elements in the array of size n. Since m <= M (a constant), the time complexity of this solution is O(log n).
+Below is C++ implementation of above idea –
+
+// C++ program to count number of occurrences of
+// each element in the array in less than O(n) time
+#include <iostream>
+#include <vector>
+using namespace std;
+ 
+// A recursive function to count number of occurrences 
+// for each element in the array without traversing 
+// the whole array
+void findFrequencyUtil(int arr[], int low, int high, 
+                        vector<int>& freq)
+{
+    // If element at index low is equal to element 
+    // at index high in the array
+    if (arr[low] == arr[high]) 
+    {
+        // increment the frequency of the element
+        // by count of elements between high and low
+        freq[arr[low]] += high - low + 1;
+    } 
+    else
+    {
+        // Find mid and recurse for left and right 
+        // subarray
+        int mid = (low + high) / 2;
+        findFrequencyUtil(arr, low, mid, freq);
+        findFrequencyUtil(arr, mid + 1, high, freq);
+    }
+}
+ 
+// A wrapper over recursive function 
+// findFrequencyUtil(). It print number of 
+// occurrences of each element in the array.
+void findFrequency(int arr[], int n)
+{
+    // create a empty vector to store frequencies
+    // and initialize it by 0. Size of vector is 
+    // maximum value (which is last value in sorted
+    // array) plus 1.
+    vector<int> freq(arr[n - 1] + 1, 0);
+     
+    // Fill the vector with frequency
+    findFrequencyUtil(arr, 0, n - 1, freq);
+ 
+    // Print the frequencies
+    for (int i = 0; i <= arr[n - 1]; i++)
+        if (freq[i] != 0)
+            cout << "Element " << i << " occurs "
+                 << freq[i] << " times" << endl;
+}
+ 
+// Driver function
+int main()
+{
+    int arr[] = { 1, 1, 1, 2, 3, 3, 5, 5,
+                  8, 8, 8, 9, 9, 10 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+ 
+    findFrequency(arr, n);
+ 
+    return 0;
+}
+
+Output:
+
+Element 1 occurs 3 times
+Element 2 occurs 1 times
+Element 3 occurs 2 times
+Element 5 occurs 2 times
+Element 8 occurs 3 times
+Element 9 occurs 2 times
+Element 10 occurs 1 times
+
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

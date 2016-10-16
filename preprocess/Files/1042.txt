@@ -1,0 +1,74 @@
+
+Predict the output of following C Program. 
+
+#include <stdio.h>
+#define R 4
+#define C 4
+
+void modifyMatrix(int mat[][C])
+{
+   mat++;
+   mat[1][1] = 100;
+   mat++;
+   mat[1][1] = 200;
+}
+
+void printMatrix(int mat[][C])
+{
+    int i, j;
+    for (i = 0; i < R; i++)
+    {
+        for (j = 0; j < C; j++)
+            printf("%3d ", mat[i][j]);
+        printf("\n");
+    }
+}
+
+int main()
+{
+    int mat[R][C] = { {1, 2, 3, 4},
+        {5, 6, 7, 8},
+        {9, 10, 11, 12},
+        {13, 14, 15, 16}
+    };
+    printf("Original Matrix \n");
+    printMatrix(mat);
+
+    modifyMatrix(mat);
+
+    printf("Matrix after modification \n");
+    printMatrix(mat);
+
+    return 0;
+}
+
+Output: The program compiles fine and produces following output:
+
+Original Matrix
+  1   2   3   4
+  5   6   7   8
+  9  10  11  12
+ 13  14  15  16
+Matrix after modification
+  1   2   3   4
+  5   6   7   8
+  9 100  11  12
+ 13 200  15  16
+
+At first look, the line “mat++;” in modifyMatrix() seems invalid. But this is a valid C line as array parameters are always pointers (see this and this for details).  In modifyMatrix(), mat is just a pointer that points to block of size C*sizeof(int). So following function prototype is same as “void modifyMatrix(int mat[][C])”
+
+void modifyMatrix(int (*mat)[C]);
+
+When we do mat++, mat starts pointing to next row, and mat[1][1] starts referring to value 10.  mat[1][1] (value 10) is changed to 100 by the statement “mat[1][1] = 100;”.  mat  is again incremented and mat[1][1] (now value 14) is changed to 200 by next couple of statements in modifyMatrix(). 
+The line “mat[1][1] = 100;” is valid as pointer arithmetic and array indexing are equivalent in C. 
+On a side note, we can’t do mat++ in main() as mat is 2 D array in main(), not a pointer. 
+Please write comments if you find above answer/explanation incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,37 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks.
+This article introduces another extremely talented Geek from our neighborhood country – Nafis Sadique.
+Nafis is a codeforces grandmaster  and ACM-ICPC world finalist from Jahangirnagar University, Bangladesh and a true geek to get inspired from.
+
+ 
+How did it all start? What made you land into the world of competitive programming?
+Technology always interested me from childhood. I started programming few months before enrolling into university. I learned about competitive programming from a few of my friends and teachers. After that I found various websites where I can learn and practice programming.
+Which do you think are most important subjects in engineering curriculum that helped you?
+Programming courses, Algorithms, Data-structures, Software engg. , Discrete Math, Digital logic.
+How did your college support you to achieve your wonderful recognitions?
+Our teachers encouraged us a lot. We had regular training classes in the university labs. We could participate in various online contests or practice contests from there. The university also provided the registration fee for various national contests.
+How did your life change as you progressed to be a hard core programmer?
+It changed significantly. Now programming has become a part of my day to day life. Each day is not perfect unless i code something.
+What kind of the skill set you think is needed to excel in the art of programming and perform well in programming contests?
+One needs patience, determination and lots of hard work to be successful in programming contests.
+How well is programming culture developing in your country and what you think students must do to promote it?
+Programming culture is growing rapidly in Bangladesh. So many people are now a days participating in programming contests. They need to promote the culture of programming among their friends and juniors. The seniors should take the responsibility to introduce the junior students to the world of programming. Also we need to promote this even to the high schoolers, as the early you get used to programming the better.
+What are your hobbies?
+Though i participate in sports like table tennis or badminton occasionally, my hobbies include reading books, watching movies or tv-series
+How can freshers/pass-outs prepare for tech giants especially off campus?
+There are many websites where one can learn in details about the preparations. I suggest them to take a look at those sites.
+What’s your advice to students who aim for becoming a super cool programmer as you?
+Always keep practicing, no matter how hard the goal seems, if you practice hard enough, success will be yours.
+ 
+Nafis is currently working at Grab, Singapore. He can be reached at Linkedin 
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

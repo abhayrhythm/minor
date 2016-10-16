@@ -1,0 +1,30 @@
+given binari tree bt convert doubli link list dll 
+left right pointer node use previou next pointer respect convert dll 
+order node dll must inord given binari tree 
+first node inord travers left node bt must head node dll 
+came across interview one interview 
+similar problem discuss post 
+problem simpler need creat circular dll simpl dll 
+idea behind solut quit simpl straight 
+1 left subtre exist process left subtre 1 recurs convert left subtre dll 
+1 b find inord predecessor root left subtre inord predecessor rightmost node left subtre 
+1 c make inord predecessor previou root root next inord predecessor 
+2 right subtre exist process right subtre 3 step similar left subtre 
+2 recurs convert right subtre dll 
+2 b find inord successor root right subtre inord successor leftmost node right subtre 
+2 c make inord successor next root root previou inord successor 
+3 find leftmost node return leftmost node alway head convert dll 
+sourc code algorithm 
+c c program place convers binari tree dll includ stdio h binari tree node data left right pointer struct node int data node left node right core function convert tree list 
+function follow step 1 2 algorithm node bintree2listutil node root base case root null return root convert left subtre link root root left null convert left subtre node left bintree2listutil root left find inord predecessor 
+loop left point inord predecessor left right null left left right make root next predecessor left right root make predecssor previou root root left left convert right subtre link root root right null convert right subtre node right bintree2listutil root right find inord successor 
+loop right point inord successor right left null right right left make root previou successor right left root make successor next root root right right return root main function first call bintree2listutil follow step 3 algorithm node bintree2list node root base case root null return root convert dll use bintree2listutil root bintree2listutil root bintree2listutil return root node convert dll 
+need pointer leftmost node head construct dll move leftmost node root left null root root left return root helper function alloc new node given data null left right pointer 
+node newnod int data node new_nod new node new_nod data data new_nod left new_nod right null return new_nod function print node given doubli link list void printlist node node node null printf node data node node right driver program test function int main let us creat tree shown diagram node root newnod 10 root left newnod 12 root right newnod 15 root left left newnod 25 root left right newnod 30 root right left newnod 36 convert dll node head bintree2list root print convert list printlist head return 0 java java program convert binari tree doubl link list binari tree node data left right pointer class node int data node left right node int item data item left right null class binarytre node root core function convert tree list 
+function follow step 1 2 algorithm node bintree2listutil node node base case node null return node convert left subtre link root node left null convert left subtre node left bintree2listutil node left find inord predecessor 
+loop left point inord predecessor left right null left left right make root next predecessor left right node make predecssor previou root node left left convert right subtre link root node right null convert right subtre node right bintree2listutil node right find inord successor 
+loop right point inord successor right left null right right left make root previou successor right left node make successor next root node right right return node main function first call bintree2listutil follow step 3 algorithm node bintree2list node node base case node null return node convert dll use bintree2listutil node bintree2listutil node bintree2listutil return root node convert dll 
+need pointer leftmost node head construct dll move leftmost node node left null node node left return node function print node given doubli link list void printlist node node node null system print node data node node right driver program test function public static void main string arg binarytre tree new binarytre let us creat tree shown diagram tree root new node 10 tree root left new node 12 tree root right new node 15 tree root left left new node 25 tree root left right new node 30 tree root right left new node 36 convert dll node head tree bintree2list tree root print convert list tree printlist head output 25 12 30 10 36 15 articl compil ashish mangla review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+may also like see convert given binari tree doubli link list set 2 anoth simpl effici solut 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,18 @@
+let us look follow code snippet c c 
+unsign char exampl includ stdio h void fun1 unsign char 0 256 printf int main fun1 return 0 output infinit loop explan know size charact variabl 8 bit 1 byte 
+henc base 2 represent decim number maximum number 8 bit 11111111 rang unsign number 8 bit rang 0 28 1 11111111 2 255 10 drive loop upto 255 start 0 execut statement loop 256 time 0 255 inclus 
+loop reach 255 10 execut variabl increment 1 e 
+go 2s complement arithmet 11111111 2 00000001 2 00000000 10 note end carri discard case henc final increment number 0 result execut loop henc loop run infinit time 
+therefor condit avoid put limit unsign char lesser 255 rather 256 consid program sign char exampl includ stdio h void fun2 sign char 0 128 printf int main fun2 return 0 output gcc undefin behavior standard infinit loop sign char rang belong 27 27 1 henc also goe infinit execut limit 128 
+note 2s complement 127 10 01111111 2 ad 1 give us 10000000 2 128 10 calcul 2s complement form 
+loop 0 max 255 128 max limit 
+one way 
+one way loop till maximum unsign c c includ stdio h void fun1 unsign char 0 printf 0 int main fun1 return 0 output number 0 255 one way loop till maximum sign c c except first statement includ stdio h void fun2 sign char 0 printf 0 int main fun2 return 0 output gcc number 0 127 note c sign overflow undefin behavior henc solut may work machin sign number 
+also output shown sign may machin 
+behavior well defin unsign number 
+follow mention c99 
+unsign comput involv unsign operand never overflow result cannot repres result unsign integ type reduc modulo number one greater largest valu repres result type sign exampl undefin behavior behavior integ overflow 
+articl contribut pranjal mathur 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

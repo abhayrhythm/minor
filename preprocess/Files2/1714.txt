@@ -1,0 +1,36 @@
+two common way travers graph bf df 
+consid tree graph huge height width bf df effici due follow reason 
+df first travers node go one adjac root next adjac 
+problem approach node close root first subtre explor df df reach node late 
+also df may find shortest path node term number edg 
+bf goe level level requir space 
+space requir df depth tree space requir bf n n number node tree 
+note last level tree around n 2 node second last level n 4 node bf need everi level one one queue 
+iddf combin depth first search space effici breadth first search fast search node closer root 
+iddf work 
+iddf call df differ depth start initi valu 
+everi call df restrict go beyond given depth 
+basic df bf fashion 
+algorithm return true target reachabl src within max_depth bool iddf src target max_depth limit 0 max_depth dl src target limit true return true return fals bool dl src target limit src target return true reach maximum depth stop recurs 
+limit 0 return fals foreach adjac src dl target limit 1 return true return fals import thing note visit top level node multipl time 
+last max depth level visit second last level visit twice 
+may seem expens turn costli sinc tree node bottom level 
+matter much upper level visit multipl time 
+c implement algorithm c program search target node reachabl sourc given max depth 
+includ bit stdc h use namespac std graph class repres direct graph use adjac list represent 
+class graph int v 
+vertic pointer array contain adjac list list int adj function use iddf bool dl int v int target int limit public graph int v constructor void addedg int v int w iddf travers vertic reachabl v bool iddf int v int target int max_depth graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+function perform depth limit search given sourc src bool graph dl int src int target int limit src target return true reach maximum depth stop recurs 
+limit 0 return fals recur vertic adjac sourc vertex auto adj src begin adj src end dl target limit 1 true return true return fals iddf search target reachabl v use recurs dfsutil 
+bool graph iddf int src int target int max_depth repeatedli depth limit search till maximum depth 
+int 0 max_depth dl src target true return true return fals driver code int main let us creat direct graph 7 node graph g 7 g addedg 0 1 g addedg 0 2 g addedg 1 3 g addedg 1 4 g addedg 2 5 g addedg 2 6 int target 6 maxdepth 3 src 0 g iddf src target maxdepth true cout target reachabl sourc within max depth els cout target reachabl sourc within max depth return 0 output target reachabl sourc within max depth illustr two case graph cycl case simpl 
+df multipl time differ height limit 
+b graph cycl 
+interest visit flag iddf 
+time complex suppos tree branch factor b number children node depth e bd node 
+iter deepen search node bottom level expand next bottom level expand twice root search tree expand 1 time 
+total number expans iter deepen search b 1 b2 3bd 2 2bd 1 bd summat 1 bi 0 bd evalu express find asymptot iddf take time df bf inde slower higher constant factor time complex express 
+iddf best suit complet infinit tree refer http en wikipedia org wiki iterative_deepening_depth first_search articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

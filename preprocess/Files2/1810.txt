@@ -1,0 +1,10 @@
+log file produc system either binari 0 1 hex 0x format 
+sometim might need map data readabl format 
+convers hex inform system defin data type int string float compar easi 
+hand user defin data type struct process complic 
+follow basic program help mention oper 
+implement real world need error handl 
+c program convert struct hex string vice versa includ iostream includ iomanip includ sstream includ string use namespac std struct student_data int student_id char name 16 void convert_to_hex_str ostringstream op const unsign char data int size format flag ostream fmtflag old_flag op flag fill charact char old_fil op fill op hex setfil 0 int 0 size give space two hex valu 0 op forc output use hex version ascii code op 0x setw 2 static_cast int data op flag old_flag op fill old_fil void convert_to_struct istream ip unsign char data int size get line want process string line getlin ip line istringstream ip_convert line ip_convert hex read unsign int wrote hex version ascii code unsign int u 0 int 0 ip_convert u size 0x00 u 0xff u data static_cast unsign char u driver code int main student_data student1 1 rohit ostringstream op function call convert struct hex string convert_to_hex_str op reinterpret_cast const unsign char student1 sizeof student_data string output op str cout convers struct hex string n output endl get te hex string istringstream ip output student_data student2 0 function call convert hex string struct convert_to_struct ip reinterpret_cast unsign char student2 sizeof student_data cout nafter convers form hex struct n cout id student2 student_id endl cout name student2 name endl return 0 output convers struct hex string 0x01 0x00 0x00 0x00 0x52 0x6f 0x68 0x69 0x74 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 convers form hex struct id 1 name rohit articl contribut rohit kasl 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

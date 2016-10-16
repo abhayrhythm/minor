@@ -1,0 +1,16 @@
+array collect item store continu memori locat 
+idea declar multipl item type togeth 
+array declar c declar array specifi size initi 
+array declar specifi size int arr 10 array declar initi element int arr 10 20 30 40 compil creat array size 4 
+int arr 4 10 20 30 40 array declar specifi size initi element int arr 6 10 20 30 40 compil creat array size 6 initi first 4 element specifi user rest two element 0 
+int arr 10 20 30 40 0 0 access array element array element access use integ index 
+array index start 0 goe till size array minu 1 follow exampl 
+int main int arr 5 arr 0 5 arr 2 10 arr 3 2 2 arr 1 2 arr 3 arr 0 printf arr 0 arr 1 arr 2 arr 3 return 0 output 5 2 10 5 index bound check index bound check c exampl follow program compil fine may produc unexpect output run 
+c program compil fine index bound check c int main int arr 2 printf arr 3 printf arr 2 return 0 also c compil error initi array element specifi size 
+exampl program compil fine 
+int main array declar initi element specifi size 
+int arr 2 10 20 30 40 50 return 0 program compil c 
+save program cpp program gener compil error error mani initi int 2 exampl show array element store contigu locat c program demonstr array element store contigu locat int main array 10 integ 
+arr 0 store address x arr 1 store x sizeof int arr 2 store x sizeof int sizeof int 
+int arr 5 printf size integ compil u n sizeof int 0 5 use variabl name yield address variabl 
+printf address arr u n arr return 0 output size integ compil 4 address arr 0 2686728 address arr 1 2686732 address arr 2 2686736 address arr 3 2686740 address arr 4 2686744 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

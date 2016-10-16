@@ -1,0 +1,12 @@
+void pointer pointer associ data type 
+void pointer hold address type typcast type 
+int 10 char b x void p void pointer hold address int p b void pointer hold address char b advantag void pointer 1 malloc calloc return void type allow function use alloc memori data type void int main void note malloc return void typecast type like int char int x malloc sizeof int n note program compil c compil c 
+c must explicitli typecast return valu malloc int 
+2 void pointer c use implement gener function c exampl compar function use qsort 
+interest fact 1 void pointer cannot dereferenc 
+exampl follow program compil 
+includ stdio h int main int 10 void ptr printf ptr return 0 output compil error void pointer object type follow program compil run fine 
+includ stdio h int main int 10 void ptr printf int ptr return 0 output 10 2 c standard allow pointer arithmet void pointer 
+howev gnu c allow consid size void 1 exampl follow program compil run fine gcc 
+includ stdio h int main int 2 1 2 void ptr ptr ptr sizeof int printf int ptr return 0 output 2 note program may work compil 
+refer http stackoverflow com question 20967868 compil warn pointer arithmet void pointer http stackoverflow com question 692564 concept void pointer c program pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

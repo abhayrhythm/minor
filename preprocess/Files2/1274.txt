@@ -1,0 +1,8 @@
+write effici c function take two string argument remov charact first string present second string mask string 
+strongli recommend click practic move solut 
+algorithm let first input string test string string charact remov first string mask 1 initi res_ind 0 index keep track process charact p string ip_ind 0 index keep track process charact result string 2 construct count array mask_str 
+count array would use boolean array instead int count array need count need know charact present mask string count 1 count k 1 count 1 count 1 3 process charact input string count charact 0 add charact result string 
+str tet tringng remov present mask_str got two extra charact ng ip_ind 11 res_ind 9 4 put 0 end string 
+implement c includ stdio h includ stdlib h defin no_of_char 256 return array size 256 conta count charact pass char array int getcharcountarray char str int count int calloc sizeof int no_of_char int 0 str count str return count removedirtychar take two string argument first string str one function remov dirti charact 
+second string string contain dirti charact need remov first string char removedirtychar char str char mask_str int count getcharcountarray mask_str int ip_ind 0 res_ind 0 str ip_ind char temp str ip_ind count temp 0 str res_ind str ip_ind res_ind ip_ind step string ngring 
+remov extra iittg string str res_ind 0 return str driver program test getcharcountarray int main char str geeksforgeek char mask_str mask printf removedirtychar str mask_str return 0 

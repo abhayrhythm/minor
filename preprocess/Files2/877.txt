@@ -1,0 +1,6 @@
+c printf n special format specifi instead print someth caus printf load variabl point correspond argument valu equal number charact print printf occurr n 
+includ stdio h int main int c printf geek ngeek c printf c getchar return 0 program print geek geek 10 
+first printf print geek geek 
+second printf print 10 10 charact print 10 charact geek n first printf c set 10 first printf 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

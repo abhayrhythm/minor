@@ -1,0 +1,20 @@
+
+Predict the output of below C programs.
+Question 1
+
+#include <stdio.h>
+
+char* fun()
+{
+  return "awake";
+}
+int main()
+{
+  printf("%s",fun()+ printf("I see you"));
+  getchar();
+  return 0;
+}
+
+Output: Some string starting with “I see you”
+Explanation: (Thanks to Venki for suggesting this solution)
+The function fun() returns pointer to char. Apart from printing string “I see you”, printf() function returns number of characters it printed(i.e. 9). The expression [fun()+ printf(“I see you”)] can be boiled down to [“awake” + 9] which is nothing but base address of string literal “awake” displaced by 9 characters. Hence, the expression [“awake” + 9] returns junk data when printed via %s specifier till it finds ‘\0′.

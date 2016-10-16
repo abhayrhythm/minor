@@ -1,0 +1,6 @@
+
+C is a high level language and it needs a compiler to convert it into an executable code so that the program can be run on our machine.
+How do we compile and run a C program?
+Below are the steps we use on an Ubuntu machine with gcc compiler.
+
+We first create a C program using an editor and save the file as filename.c

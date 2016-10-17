@@ -1,0 +1,25 @@
+size follow structur 
+struct employe int emp_id int name_len char name 0 4 4 0 8 byte 
+size name 0 
+gcc creat array zero length consid array incomplet type gcc report size 0 byte 
+techniqu known stuct hack 
+creat array zero length insid structur must last member structur 
+shortli see use 
+struct hack techniqu use creat variabl length member structur 
+structur string length name fix use name variabl length array 
+let us see memori alloc 
+struct employe e malloc sizeof e sizeof char 128 equival struct employe int emp_id int name_len char name 128 charact array size 128 memori alloc struct employe e malloc sizeof e sizeof char 1024 equival struct employe int emp_id int name_len char name 1024 charact array size 1024 note sinc name charact array malloc instead sizeof char 128 use 128 directli 
+sizeof use avoid confus 
+use name pointer 
+e g 
+e emp_id 100 e name_len strlen geek geek strncpi e name geek geek e name_len alloc memori given compil alloc memori store emp_id name_len plu contigu memori store name 
+use techniqu gcc guaranti name get contigu memori 
+obvious way solv problem one use charact pointer 
+guarante charact pointer get contigu memori take advantag contigu memori 
+exampl use techniqu alloc dealloc memori use singl malloc free call memori contagi 
+advantag suppos want write data write whole data use singl write call 
+e g 
+write fd e sizeof e name_len write emp_id name_len name use charact pointer need 2 write call write data 
+e g 
+write fd e sizeof e write emp_id name_len write fd e name e name_len write name note c99 featur call flexibl array member work struct hack articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

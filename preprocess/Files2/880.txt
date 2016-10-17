@@ -1,0 +1,6 @@
+printf printf function use print charact stream data stdout consol 
+syntax int printf const char str exampl simpl print stdout includ stdio h int main printf hello geeksquiz return 0 output hello geeksquiz sprintf syntax int sprintf char str const char string string print function stead print consol store char buffer specifi sprintf exampl exampl program demonstr sprintf includ stdio h int main char buffer 50 int 10 b 20 c c b sprintf buffer sum b c string sum 10 20 30 store buffer instead print stdout printf buffer return 0 output sum 10 20 30 fprintf fprintf use print sting content file stdout consol 
+int fprintf file fptr const char str exampl includ stdio h int main int n 2 char str 50 open file sampl txt write mode file fptr fopen sampl txt w fptr null printf could open file return 0 0 n put enter name get str fprintf fptr n str fclose fptr return 0 input geeksforgeek geeksquiz output sampl txt file output 0 geeksforgeek 1 geeksquiz thank read soon updat scanf fscanf sscanf keep tune 
+articl contribut vankayala karunakar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

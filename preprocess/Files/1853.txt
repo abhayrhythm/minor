@@ -1,0 +1,115 @@
+
+Regular competitive programmers face common challenge when input is large and the task of reading such an input from stdin might prove to be a bottleneck. Such problem is accompanied with “Warning: large I/O data”.
+Let us create a dummy input file containing a line with 16 bytes followed by a newline and having 1000000 such lines, making a file of 17MB should be good enough.
+
+// Creating a dummy file of size 17 MB to compare 
+// performance of scanf() and cin()
+$ yes 1111111111111111 | head -1000000 > tmp/dummy
+Let us compare the time taken to read the file from stdin (get the file from disk to stdin using redirection) by using scanf() versus cin. 
+
+// Filename : cin_test.cc to test the 
+// We redirect above created temp file 
+// of 17 MB to stdin when this program 
+// is run.
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    char buffer[256];
+    while (cin >> buffer)
+    {
+    }
+    return 0;
+}
+
+Output of above program when dummy file is redirected to stdin.
+
+$ g++ cin_test.cc –o cin_test
+$ time ./cin_test < /tmp/dummy
+real	 0m2.162s
+user	 0m1.696s
+sys	 0m0.332s
+
+// Filename : scanf_test.c to see
+// performance of scanf()
+// We redirect above created temp file
+// of 17 MB to stdin when this program
+// is run.
+#include<cstdlib>
+#include<cstdio>
+int main()
+{
+    char buffer[256];
+    while (scanf("%s", buffer) != EOF)
+    {
+    }
+    return 0;
+}
+
+Output of above program when dummy file is redirected to stdin.
+
+$ g++ scanf_test.cc –o scanf_test
+$ time ./scanf_test < /tmp/dummy
+real	 0m0.426s
+user	 0m0.248s
+sys	 0m0.084s
+Well, the above results are consistent with our observations. 
+Why is scanf faster than cin?
+ On a high level both of them are wrappers over theread() system call, just syntactic sugar. The only visible difference is that scanf() has to explicitly declare the input type, whereas cin has the redirection operation overloaded using templates. This does not seem like a good enough reason for a performance hit of 5x.
+It turns out that iostream makes use of stdio‘s buffering system. So, cin wastes time synchronizing itself with the underlying C-library’s stdio buffer, so that calls to bothscanf()and cin can be interleaved.
+The good thing is that libstdc++ provides an option to turn off synchronization of all the iostream standard streams with their corresponding standard C streams using
+std::ios::sync_with_stdio(false);
+ and cin becomes faster than scanf() as it should have been.
+A detailed article on Fast Input Output in Competitive Programming
+
+// Filename : cin_test_2.cc to see
+// performance of cin() with stdio syc
+// disabled using sync_with_stdio(false).
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    char buffer[256];
+    ios_base::sync_with_stdio(false);
+
+    while (cin >> buffer)
+    {
+
+    }
+    return 0;
+}
+
+Running the program :
+
+$ g++ cin_test_2.cc –o cin_test_2
+$ time./cin_test_2 </tmp/dummy
+real    0m0.380s
+user   0m0.240s
+sys    0m0.028s 
+
+Like with all things, there is a caveat here. With synchronization turned off, using cin and scanf()  together will result in an undefined mess.
+With synchronization turned off, the above results indicate that cin is 8-10% faster than scanf(). This is probably because scanf() interprets the format arguments at runtime and makes use of variable number of arguments, whereas cin does this at compile time.
+
+Now wondering, how fast can it be done?
+
+// Redirecting contents of dummy file to null
+// device (a special device that discards the
+// information written to it) using command line.
+$time cat /tmp/dummy > /dev/null
+real   0m0.185s
+user   0m0.000s
+sys    0m0.092s
+Wow! This is fast!!!
+This article is contributed by Ayush Govil. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,15 @@
+given encod string repetit substr repres substr follow count substr 
+exampl encrypt string ab2cd2 k 4 output b decrypt string ababcdcd 4th charact b 
+note frequenc encrypt substr one digit 
+exampl ab12c3 ab repeat 12 time 
+lead 0 present frequenc substr 
+exampl input a2b2c3 k 5 output c decrypt string aabbccc input ab4c2ed3 k 9 output c decrypt string ababababcceded input ab4c12ed3 k 21 output e decrypt string ababababcccccccccccceded idea simpl 
+initi take empti decrypt string decompress string read substr frequenc one one append current substr decrypt string frequenc 
+repeat process till end string print k th charact decrypt string 
+c program find k th charact decrypt string includ bit stdc h use namespac std function find k th charact encod string char encodedchar string str int k expand string variabl use store final string decompress string str string expand string temp current substr int freq 0 count current substr int 0 str 0 temp current substr freq 0 count frequenc current substr read charact until find number end string str str z push charact temp temp push_back str read number mani time string temp repeat decompress string str 1 str 9 gener frequenc temp freq freq 10 str 0 append string temp expand equal frequenc int j 1 j freq j expand append temp condit handl case string str end alphab numer valu freq 0 expand append temp return expand k 1 driver program test string int main string str ab4c12ed3 int k 21 cout encodedchar str k endl return 0 output e exercis solut build decod string find k th charact 
+extend solut work 1 extra space 
+articl contribut shashank mishra gullu review team geeksforgeek 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

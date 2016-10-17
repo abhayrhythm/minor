@@ -1,0 +1,15 @@
+given matrix charact pattern find orient pattern matrix 
+word find pattern appear matrix horizont vertic direct 
+achiev minimum time possibl 
+input mat n n b c e f g h j k l n p q r u v w x pattern pqr output horizont strongli recommend minim browser tri first 
+simpl solut row column use naiv pattern search algorithm find orient pattern matrix 
+time complex naiv pattern search algorithm everi row nm n size matrix length pattern 
+time complex solut n nm n row n column take nm time 
+better 
+idea use kmp pattern match algorithm row column 
+kmp match algorithm improv worst case n 
+total cost kmp search linear number charact string pattern 
+n x n matrix pattern length complex solut n n n row n column take n time 
+c program find orient pattern use kmp pattern search algorithm includ stdio h includ string h includ stdlib h defin n 5 use kmp search preprocess pattern void computelpsarray char pat int int lp length previou longest prefix suffix int len 0 int 1 lp 0 0 lp 0 alway 0 loop calcul lp 1 1 pat pat len len lp len els pat pat len len 0 tricki 
+consid exampl aaacaaaa 7 len lp len 1 also note increment els len 0 lp 0 int kmpsearch char pat char txt int strlen pat creat lp hold longest prefix suffix valu pattern int lp int malloc sizeof int int j 0 index pat preprocess pattern calcul lp array computelpsarray pat lp int 0 index txt n pat j txt j j return 1 pattern found return 1 mismatch j match els n pat j txt match lp 0 lp j 1 charact match anyway j 0 j lp j 1 els 1 free lp avoid memori leak return 0 pattern found return 0 function find orient pattern matrix use kmp pattern search algorithm void findorient char mat n char pat alloc memori string contan col char col char malloc n int 0 n search row kmpsearch pat mat printf horizont n return construct array store th column int j 0 j n j col j mat j search column kmpsearch pat col printf vertic n avoid memori leak free col driver program test function int main char mat n n b c e f g h j k l n p q r u v w x char pat pqr findorient mat pat return 0 output horizont articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

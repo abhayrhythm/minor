@@ -1,0 +1,26 @@
+onlin round code question q1 
+given float number 7 64 convert string without use inbuilt function librari 
+eg input float 
+7 64 output string 7 64 q2 
+given inord preorder travers binari tree output postord travers 
+eg input inord 7 8 4 1 6 2 5 preorder 1 4 7 8 2 6 4 output postord 8 7 4 6 5 2 1 round 1 written q1 
+given string find length longest substr none charact repeat 
+eg p string abcabcbb length longest substr repeat charcter 3 abc q2 
+given link list right pointer element list link contain anoth link list pointer 5 7 9 18 10 6 14 20 11 8 19 22 12 13 24 15 right list sort 
+write function flatten flatten link list singl link list element sort order 5 6 7 8 9 10 11 12 13 14 15 18 19 20 22 24 pi round 1 interview start discuss question internship project project mention resum 
+discuss project interview ask question string question q1 
+string length n integ given give algo 
+rotat string counter clockwis ask give check condit input interview ask write code strict guidelin mistak code 
+q2 
+ask heap min max heap insert delet heap 
+ask prove time complex insert n element heap 
+least ask use heap data structur data structur implement use heap 
+pi round 2 q1 differ b w abstract interfac class 
+q2 write program creat singl thread print hello world state argument createthread function 
+q3 deadlock condit necessari deadlock occur 
+q4 cach memori implement 
+q5 explain lru fifo page replac algorithm 
+q6 write code implement lru cach implement full cach memori 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

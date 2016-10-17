@@ -1,0 +1,59 @@
+
+In C, if a function is called before its declaration, the compiler assumes return type of the function as int.
+For example, the following program fails in compilation.
+
+#include <stdio.h>
+int main(void)
+{
+    // Note that fun() is not declared 
+    printf("%d\n", fun());
+    return 0;
+}
+
+char fun()
+{
+   return 'G';
+}
+
+The following program compiles and run fine because return type of fun() is changed to int.
+
+#include <stdio.h>
+int main(void)
+{
+    printf("%d\n", fun());
+    return 0;
+}
+
+int fun()
+{
+   return 10;
+}
+
+What about parameters? compiler assumes nothing about parameters. Therefore, the compiler will not be able to perform compile-time checking of argument types and arity when the function is applied to some arguments. This can cause problems. For example, the following program compiled fine in GCC and produced garbage value as output.  
+
+#include <stdio.h>
+
+int main (void)
+{
+    printf("%d", sum(10, 5));
+    return 0;
+}
+int sum (int b, int c, int a)
+{
+    return (a+b+c);
+}
+
+There is this misconception that the compiler assumes input parameters also int. Had compiler assumed input parameters int, the above program would have failed in compilation.
+It is always recommended to declare a function before its use so that we don’t see any surprises when the program is run (See this for more details).
+Source: 
+http://en.wikipedia.org/wiki/Function_prototype#Uses
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

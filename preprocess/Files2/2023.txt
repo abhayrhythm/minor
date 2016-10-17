@@ -1,0 +1,11 @@
+compil time compil export global symbol assembl either strong weak assembl encod inform implicitli symbol tabl relocat object file 
+function initi global variabl get strong symbol 
+uniniti global variabl get weak symbol 
+follow exampl program buf bufp0 main swap strong symbol bufp1 weak symbol 
+main c void swap int buf 2 1 2 int main swap return 0 swap c extern int buf int bufp0 buf 0 int bufp1 void swap int temp bufp1 buf 1 temp bufp0 bufp0 bufp1 bufp1 temp given notion strong weak symbol unix linker use follow rule deal multipli defin symbol rule 1 multipl strong symbol allow 
+rule 2 given strong symbol multipl weak symbol choos strong symbol 
+rule 3 given multipl weak symbol choos weak symbol 
+exampl suppos attempt compil link follow two c modul foo1 c int main return 0 bar1 c int main return 0 case linker gener error messag strong symbol main defin multipl time rule 1 unix gcc foo1 c bar1 c tmp cca015022 function main tmp cca015022 text 0x0 multipl definit main tmp cca015021 text 0x0 first defin similarli linker gener error messag follow modul strong symbol x defin twice rule 1 foo2 c int x 15213 int main return 0 bar2 c int x 15213 void f howev x uniniti one modul linker quietli choos strong symbol defin rule 2 case follow program foo3 c includ stdio h void f void int x 15213 int main f printf x n x return 0 bar3 c int x void f x 15212 run time function f chang valu x 15213 15212 might come unwelcom surpris author function main 
+notic linker normal give indic detect multipl definit x unix gcc foobar3 foo3 c bar3 c unix foobar3 x 15212 thing happen two weak definit x rule 3 
+see sourc link detail explan exampl 
+sourc http csapp cs cmu edu public ch7 preview pdf adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

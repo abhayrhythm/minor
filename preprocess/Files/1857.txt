@@ -1,0 +1,94 @@
+
+What is an opaque pointer?
+Opaque as the name suggests is something we can’t see through. e.g. wood is opaque. Opaque pointer is a pointer which points to a DS whose contents are not exposed at the time of its definition.
+Following pointer is opaque. One can’t know the data contained in STest structure by looking at the definition.
+
+struct STest* pSTest;
+It is safe to assign NULL to an opaque pointer.
+
+pSTest = NULL; 
+Why Opaque pointer?
+There are places where we just want to hint the compiler that “Hey! This is some DS which will be used by our clients. Don’t worry, clients will provide its implementation while preparing compilation unit”. Such type of design is robust when we deal with shared code. Please see below example:
+Let’s say we are working on an app to deal with images. Since we are living in a world where everything is moving to cloud and devices are very affordable to buy, we want to develop apps for windows, android and apple platforms. So, it would be nice to have a good design which is robust, scalable and flexible as per our requirements. We can have shared code which would be used by all platforms and then different end-point can have platform specific code.
+To deal with images, we have a CImage class exposing APIs to deal with various image operations (scale, rotate, move, save etc).
+Since all the platforms will be providing same operations, we would define this class in a header file. But the way an image is handled might differ across platforms. Like Apple can have different mechanism to access pixels of an image than Windows does. This means that APIs might demand different set of info to perform operations. So to work on shared code, this is what we would like to do:
+Image.h : A header file to store class declaration.
+
+// This class provides API to deal with various
+// image operations. Different platforms can 
+// implement these operations in different ways.
+class CImage
+{
+public:
+    CImage();
+    ~CImage();
+    struct SImageInfo* pImageInfo;
+    void Rotate(double angle);
+    void Scale(double scaleFactorX, 
+               double scaleFactorY);
+    void Move(int toX, int toY);	
+private:
+    void InitImageInfo();
+};
+
+Image.cpp : Code that will be shared across different end-points
+
+// Constructor and destructor for CImage
+CImage::CImage()
+{
+    InitImageInfo();
+}
+
+CImage::~CImage()
+{
+    // Destroy stuffs here
+}
+
+Image_windows.cpp :  Code specific to Windows will reside here
+
+struct SImageInfo
+{
+   // Windows specific DataSet
+};
+
+void CImage::InitImageInfo()
+{
+    pImageInfo = new SImageInfo;
+    // Initialize windows specific info here
+}
+
+void CImage::Rotate()
+{
+    // Make use of windows specific SImageInfo
+}
+
+Image_apple.cpp :  Code specific to Apple will reside here
+
+struct SImageInfo
+{
+    // Apple specific DataSet
+};
+void CImage::InitImageInfo()
+{
+    pImageInfo = new SImageInfo;
+    
+    // Initialize apple specific info here
+}
+void CImage::Rotate()
+{
+    // Make use of apple specific SImageInfo
+}
+As it can be seen from the above example, while defining blueprint of the CImage class we are only mentioning that there is a SImageInfo DS.
+The content of SImageInfo is unknown. Now it is the responsibility of clients(windows, apple, android) to define that DS and use it as per their requirement. If in future we want to develop app for a new end-point ‘X’, the design is already there. We only need to define SImageInfo for end-point ‘X’ and use it accordingly.
+Please note that the above explained example is one way of doing this. Design is all about discussion and requirement. A good design is decided taking many factors into account. We can also have platform specific classes like CImageWindows, CImageApple and put all platform specific code there. 
+Questions? Keep them coming. We would love to answer.
+This article is contributed by Aashish Barnwal. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,30 @@
+recommend read follow post prerequisit 
+greedi algorithm set 3 huffman code time complex algorithm discuss post nlogn 
+know given array sort non decreas order frequenc gener huffman code n time 
+follow n algorithm sort input 
+1 creat two empti queue 
+2 creat leaf node uniqu charact enqueu first queue non decreas order frequenc 
+initi second queue empti 
+3 dequeu two node minimum frequenc examin front queue 
+repeat follow step two time second queue empti dequeu first queue 
+b first queue empti dequeu second queue 
+c els compar front two queue dequeu minimum 
+4 creat new intern node frequenc equal sum two node frequenc 
+make first dequeu node left child second dequeu node right child 
+enqueu node second queue 
+5 repeat step 3 4 one node queue 
+remain node root node tree complet 
+c program effici huffman code sort input includ stdio h includ stdlib h constant avoid explicitli calcul height huffman tree defin max_tree_ht 100 node huffman tree struct queuenod char data unsign freq struct queuenod left right structur queue collect huffman tree node queuenod struct queue int front rear int capac struct queuenod array util function creat new queuenod struct queuenod newnod char data unsign freq struct queuenod temp struct queuenod malloc sizeof struct queuenod temp left temp right null temp data data temp freq freq return temp util function creat queue given capac struct queue createqueu int capac struct queue queue struct queue malloc sizeof struct queue queue front queue rear 1 queue capac capac queue array struct queuenod malloc queue capac sizeof struct queuenod return queue util function check size given queue 1 int issizeon struct queue queue return queue front queue rear queue front 1 util function check given queue empti int isempti struct queue queue return queue front 1 util function check given queue full int isful struct queue queue return queue rear queue capac 1 util function add item queue void enqueu struct queue queue struct queuenod item isful queue return queue array queue rear item queue front 1 queue front util function remov item queue struct queuenod dequeu struct queue queue isempti queue return null struct queuenod temp queue array queue front queue front queue rear one item queue queue front queue rear 1 els queue front return temp util function get queue struct queuenod getfront struct queue queue isempti queue return null return queue array queue front function get minimum item two queue struct queuenod findmin struct queue firstqueu struct queue secondqueu step 3 second queue empti dequeu first queue isempti firstqueu return dequeu secondqueu step 3 b first queue empti dequeu second queue isempti secondqueu return dequeu firstqueu step 3 c els compar front two queue dequeu minimum getfront firstqueu freq getfront secondqueu freq return dequeu firstqueu return dequeu secondqueu util function check node leaf int isleaf struct queuenod root return 
+root left 
+root right util function print array size n void printarr int arr int n int 0 n printf arr printf n main function build huffman tree struct queuenod buildhuffmantre char data int freq int size struct queuenod left right top step 1 creat two empti queue struct queue firstqueu createqueu size struct queue secondqueu createqueu size step 2 creat leaf node uniqu charact enqueu first queue non decreas order frequenc 
+initi second queue empti int 0 size enqueu firstqueu newnod data freq run queue contain one node 
+final first queue empti second queue contain one node 
+isempti firstqueu issizeon secondqueu step 3 dequeu two node minimum frequenc examin front queue left findmin firstqueu secondqueu right findmin firstqueu secondqueu step 4 creat new intern node frequenc equal sum two node frequenc 
+enqueu node second queue 
+top newnod left freq right freq top left left top right right enqueu secondqueu top return dequeu secondqueu print huffman code root huffman tree 
+use arr store code void printcod struct queuenod root int arr int top assign 0 left edg recur root left arr top 0 printcod root left arr top 1 assign 1 right edg recur root right arr top 1 printcod root right arr top 1 leaf node contain one input charact print charact code arr isleaf root printf c root data printarr arr top main function build huffman tree print code travers built huffman tree void huffmancod char data int freq int size construct huffman tree struct queuenod root buildhuffmantre data freq size print huffman code use huffman tree built int arr max_tree_ht top 0 printcod root arr top driver program test function int main char arr b c e f int freq 5 9 12 13 16 45 int size sizeof arr sizeof arr 0 huffmancod arr freq size return 0 output f 0 c 100 101 1100 b 1101 e 111 time complex n input sort need sort first process algorithm 
+sort done use heap sort merg sort run theta nlogn 
+overal time complex becom nlogn unsort input 
+refer http en wikipedia org wiki huffman_cod articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,36 @@
+c like normal data pointer int char etc pointer function 
+follow simpl exampl show declar function call use function pointer 
+includ stdio h normal function int paramet void return type void fun int printf valu n int main fun_ptr pointer function fun void fun_ptr int fun line equival follow two void fun_ptr int fun_ptr fun invok fun use fun_ptr fun_ptr 10 return 0 output valu 10 need extra bracket around function pointer like fun_ptr exampl 
+remov bracket express void fun_ptr int becom void fun_ptr int declar function return void pointer 
+see follow post detail 
+declar pointer function 
+follow interest fact function pointer 
+1 unlik normal pointer function pointer point code data 
+typic function pointer store start execut code 
+2 unlik normal pointer alloc de alloc memori use function pointer 
+3 function name also use get function address 
+exampl program remov address oper assign 
+also chang function call remov program still work 
+includ stdio h normal function int paramet void return type void fun int printf valu n int main void fun_ptr int fun remov fun_ptr 10 remov return 0 output valu 10 4 like normal pointer array function pointer 
+exampl point 5 show syntax array pointer 
+5 function pointer use place switch case 
+exampl program user ask choic 0 2 differ task 
+includ stdio h void add int int b printf addit n b void subtract int int b printf subtract n b void multipli int int b printf multipl n b int main fun_ptr_arr array function pointer void fun_ptr_arr int int add subtract multipli unsign int ch 15 b 10 printf enter choic 0 add 1 subtract 2 multipli n scanf ch ch 2 return 0 fun_ptr_arr ch b return 0 enter choic 0 add 1 subtract 2 multipli 2 multipl 150 6 like normal data pointer function pointer pass argument also return function 
+exampl consid follow c program wrapper receiv void fun paramet call pass function 
+simpl c program show function pointer paramet includ stdio h two simpl function void fun1 printf fun1 n void fun2 printf fun2 n function receiv simpl function paramet call function void wrapper void fun fun int main wrapper fun1 wrapper fun2 return 0 point particular use c c use function pointer avoid code redund 
+exampl simpl qsort function use sort array ascend order descend order case array structur 
+function pointer void pointer possibl use qsort data type 
+exampl qsort compar includ stdio h includ stdlib h sampl compar function use sort integ array ascend order 
+sort array data type criteria need write compar function 
+use qsort int compar const void const void b return int int b int main int arr 10 5 15 12 90 80 int n sizeof arr sizeof arr 0 qsort arr n sizeof int compar 0 n printf arr return 0 output 5 10 12 15 80 90 similar qsort write function use data type differ task without code redund 
+exampl search function use data type 
+fact use search function find close element threshold write custom compar function 
+includ stdio h includ stdbool h compar function use search integ array bool compar const void const void b return int int b gener purpos search function use search element x array arr arr_siz 
+note void pointer use function call pass pointer type 
+ele_s size array element int search void arr int arr_siz int ele_s void x bool compar const void const void sinc char take one byte use char pointer type get pointer arithmet correct need multipli index size array element ele_s char ptr char arr int 0 arr_siz compar ptr ele_s x return element found return 1 int main int arr 2 5 7 90 70 int n sizeof arr sizeof arr 0 int x 7 printf return index search arr n sizeof int x compar return 0 output return index 2 search function use data type write separ custom compar 
+7 mani object orient featur c implement use function pointer c exampl virtual function 
+class method anoth exampl implement use function pointer 
+refer book detail 
+refer http www cs cmu edu ab 15 123s11 annotatednot lecture14 pdf http ocw mit edu cours electr engin comput scienc 6 087 practic program c januari iap 2010 lectur note mit6_087iap10_lec08 pdf http www cs cmu edu guna 15 123s11 lectur lecture14 pdf articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

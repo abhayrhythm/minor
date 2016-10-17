@@ -1,0 +1,16 @@
+use stack obviou way travers tree without recurs 
+algorithm travers binari tree use stack 
+see step wise step execut algorithm 
+1 creat empti stack 2 initi current node root 3 push current node set current current left current null 4 current null stack empti pop top item stack 
+b print pop item set current popped_item right c go step 3 
+5 current null stack empti done 
+let us consid tree exampl 1 2 3 4 5 step 1 creat empti stack null step 2 set current address root current 1 step 3 push current node set current current left current null current 1 push 1 stack 1 current 2 push 2 stack 2 1 current 4 push 4 stack 4 2 1 current null step 4 pop pop 4 stack 2 1 b print 4 c current null right 4 go step 3 sinc current null step 3 anyth 
+step 4 pop 
+pop 2 stack 1 b print 2 c current 5 right 2 go step 3 step 3 push 5 stack make current null stack 5 1 current null step 4 pop pop 5 stack 1 b print 5 c current null right 5 go step 3 sinc current null step 3 anyth step 4 pop 
+pop 1 stack null b print 1 c current 3 right 5 step 3 push 3 stack make current null stack 3 current null step 4 pop pop 3 stack null b print 3 c current null right 3 travers done stack empti current null 
+implement c includ stdio h includ stdlib h defin bool int binari tree tnode data pointer left child pointer right child struct tnode int data struct tnode left struct tnode right structur stack node 
+link list implement use stack 
+stack node contain pointer tree node pointer next stack node struct snode struct tnode struct snode next stack relat function void push struct snode top_ref struct tnode struct tnode pop struct snode top_ref bool isempti struct snode top iter function inord tree travers void inord struct tnode root set current root binari tree struct tnode current root struct snode null initi stack bool done 0 done reach left tnode current tnode current null place pointer tree node stack travers node left subtre push current current current left backtrack empti subtre visit tnode top stack howev stack empti done els isempti current pop printf current data visit node left subtre 
+right subtre turn current current right els done 1 end util function function push item snode void push struct snode top_ref struct tnode alloc tnode struct snode new_tnod struct snode malloc sizeof struct snode new_tnod null printf stack overflow n getchar exit 0 put data new_tnod link old list new tnode new_tnod next top_ref move head point new tnode top_ref new_tnod function return true stack empti otherwis fals bool isempti struct snode top return top null 
+1 0 function pop item stack struct tnode pop struct snode top_ref struct tnode re struct snode top snode empti error isempti top_ref printf stack underflow n getchar exit 0 els top top_ref re top top_ref top next free top return re helper function alloc new tnode given data null left right pointer 
+struct tnode newtnod int data struct tnode tnode struct tnode malloc sizeof struct tnode tnode data data tnode left null tnode right null return tnode driver program test function int main construct binari tree 1 2 3 4 5 struct tnode root newtnod 1 root left newtnod 2 root right newtnod 3 root left left newtnod 4 root left right newtnod 5 inord root getchar return 0 

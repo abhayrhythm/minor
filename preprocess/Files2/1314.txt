@@ -1,0 +1,14 @@
+given 2d matrix set cell index e g array j indic row j column 
+everi given cell index j find sum matrix element except element present th row j th column 
+exampl mat 1 1 2 3 4 6 5 3 2 array cell index 0 0 1 1 0 1 output 15 10 16 strongli recommend minim browser tri first 
+sourc http qa geeksforgeek org 622 select column matrix find remain element matric show 625 a625 naiv solut one consid given cell index 
+everi cell index j find sum matrix element present either th row j th column 
+c implement naiv approach 
+includ bit stdc h defin r 3 defin c 3 use namespac std structur repres cell index struct cell int r r row vari 0 r 1 int c c column vari 0 c 1 simpl solut find sum given array cell index void printsum int mat c struct cell arr int n iter cell index int 0 n int sum 0 r arr r c arr c comput sum current cell index int j 0 j r j int k 0 k c k j r k c sum mat j k cout sum endl driver program test int main int mat c 1 1 2 3 4 6 5 3 2 struct cell arr 0 0 1 1 0 1 int n sizeof arr sizeof arr 0 printsum mat arr n return 0 output 15 10 16 time complex solut n r c n number given cell index r x c matrix size 
+effici solut comput sum r x c n time 
+idea precomput total sum row column sum process given array index 
+detail 1 calcul sum matrix call sum 
+2 calcul sum individu row column 
+row col 3 cell index j desir sum sum row col j arr j c implement idea 
+effici c program comput sum given array cell index includ bit stdc h defin r 3 defin c 3 use namespac std structur repres cell index struct cell int r r row vari 0 r 1 int c c column vari 0 c 1 void printsum int mat c struct cell arr int n int sum 0 int row r int col c comput sum element sum everi row sum everi column int 0 r int j 0 j c j sum mat j col j mat j row mat j comput desir sum given cell index int 0 n int ro arr r co arr c cout sum row ro col co mat ro co endl driver program test function int main int mat c 1 1 2 3 4 6 5 3 2 struct cell arr 0 0 1 1 0 1 int n sizeof arr sizeof arr 0 printsum mat arr n return 0 output 15 10 16 time complex r x c n auxiliari space r c thank gaurav ahirwar suggest effici solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

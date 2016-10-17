@@ -1,0 +1,7 @@
+stock span problem financi problem seri n daili price quot stock need calcul span stock price n day 
+span si stock price given day defin maximum number consecut day given day price stock current day less equal price given day 
+exampl array 7 day price given 100 80 60 70 60 75 85 span valu correspond 7 day 1 1 1 2 1 4 6 strongli recommend click practic move solut 
+simpl ineffici method travers input price array 
+everi element visit travers element left increment span valu element left side smaller 
+follow implement method 
+c c program brute forc method calcul stock span valu includ stdio h fill array span valu void calculatespan int price int n int span valu first day alway 1 0 1 calcul span valu remain day linearli check previou day int 1 n 1 initi span valu travers left next element left smaller price int j 1 j 0 price price j j util function print element array void printarray int arr int n int 0 n printf arr driver program test function int main int price 10 4 5 90 120 80 int n sizeof price sizeof price 0 int n fill span valu array calculatespan price n print calcul span valu printarray n return 0 

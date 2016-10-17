@@ -1,0 +1,10 @@
+vector declar valu initi zero 
+follow exampl code demonstr 
+c program display default initi vector vect includ bit stdc h use namespac std int main creat vector size 8 vector int vect 8 print default valu int 0 vect size cout vect output 0 0 0 0 0 0 0 0 wish initi vector specif valu say 1 
+pass valu along size vector 
+c program display specifi initi vector vect includ bit stdc h use namespac std int main creat vector size 8 initi valu 1 vector int vect 8 1 int 0 vect size cout vect output 1 1 1 1 1 1 1 1 wish initi first 4 valu say 100 rest 6 valu 200 
+one way manual provid valu posit vector 
+method provid stl standard templat librari fill fill_n 
+fill fill function assign valu val element rang begin end begin initi posit end last posit 
+note notic care begin includ rang end includ 
+exampl demonstr fill c program demonstr work fill includ bit stdc h use namespac std int main vector int vect 8 call fill initi valu rang 4 fill vect begin 2 vect end 1 4 int 0 vect size cout vect return 0 output 0 0 4 4 4 4 4 0 

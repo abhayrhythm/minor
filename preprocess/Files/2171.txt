@@ -1,0 +1,88 @@
+
+Given two integers, find XOR of them without using XOR operator, i.e., without using ^ in C/C++.
+Examples:
+
+Input:  x = 1, y = 2
+Output: 3
+
+Input:  x = 3, y = 5
+Output: 6
+
+We strongly recommend you to minimize your browser and try this yourself first.
+A Simple Solution is to traverse all bits one by one.  For every pair of bits, check if both are same, set the corresponding bit as 0 in output, otherwise set as 1.
+
+// C++ program to find XOR without using ^
+#include <iostream>
+using namespace std;
+
+// Returns XOR of x and y
+int myXOR(int x, int y)
+{
+    int res = 0; // Initialize result
+    
+    // Assuming 32-bit Integer 
+    for (int i = 31; i >= 0; i--)                     
+    {
+       // Find current bits in x and y
+       bool b1 = x & (1 << i);
+       bool b2 = y & (1 << i);
+       
+        // If both are 1 then 0 else xor is same as OR
+        bool xoredBit = (b1 & b2) ? 0 : (b1 | b2);          
+
+        // Update result
+        res <<= 1;
+        res |= xoredBit;
+    }
+    return res;
+}
+
+// Driver program to test above function
+int main()
+{
+   int x = 3, y = 5;
+   cout << "XOR is " << myXOR(x, y);
+   return 0; 
+}
+
+Output:
+XOR is 6
+Thanks to Utkarsh Trivedi for suggesting this solution.
+ 
+A Better Solution can find XOR without using loop.  
+1) Find bitwise OR of x and y (Result has set bits where either x has set or y has set bit).  OR of x = 3 (011) and y = 5 (101) is 7 (111)
+2) To remove extra set bits find places where both x and y have set bits.  The value of expression “~x | ~y”  has 0 bits wherever x and y both have set bits.
+3) bitwise AND of “(x | y)” and “~x | ~y”   produces the required result.
+Below is C++ implementation.
+
+// C++ program to find XOR without using ^
+#include <iostream>
+using namespace std;
+
+// Returns XOR of x and y
+int myXOR(int x, int y)
+{
+   return (x | y) & (~x | ~y);
+}
+
+// Driver program to test above function
+int main()
+{
+   int x = 3, y = 5;
+   cout << "XOR is " << myXOR(x, y);
+   return 0; 
+}
+
+Output:
+XOR is 6
+Thanks to jitu_the_best for suggesting this solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

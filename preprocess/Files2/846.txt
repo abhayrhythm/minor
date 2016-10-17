@@ -1,0 +1,35 @@
+c procedur program languag 
+initi develop denni ritchi 1969 1973 mainli develop system program languag write oper system 
+main featur c languag includ low level access memori simpl set keyword clean style featur make c languag suitabl system program like oper system compil develop 
+mani later languag borrow syntax featur directli indirectli c languag 
+like syntax java php javascript mani languag mainli base c languag 
+c nearli superset c languag program may compil c c 
+begin c program 1 find compil start c program need compil compil run program 
+certain onlin compil like http code geeksfogeek org http ideon com http codepad org use start c without instal compil 
+window mani compil avail freeli compil c program like code block dev cpp 
+strongli recommend code block 
+linux linux gcc come bundl linux code block also use linux 
+2 write first program follow first program c includ stdio h int main void printf geeksquiz return 0 output geeksquiz let us analyz program line line 
+line 1 includ stdio h c program line start process preporcessor program invok compil 
+basic term preprocessor take c program produc anoth c program 
+produc program line start line process preprocessor 
+exampl preprocessor copi preprocess code stdio h file 
+h file call header file c header file gener contain declar function 
+need stdio h function printf use program 
+line 2 int main void must start point execut compil c program begin 
+c execut typic begin first line main 
+void written bracket indic main take paramet see detail 
+main written take paramet also 
+cover futur post 
+int written main indic return type main 
+valu return main indic statu program termin 
+see post detail return type 
+line 3 6 c languag pair curli bracket defin scope mainli use function control statement like els loop 
+function must start end curli bracket 
+line 4 printf geeksquiz printf standard librari function print someth standard output 
+semiolon end printf indic line termin 
+c semicolon alway use indic end statement 
+line 5 return 0 return statement return valu main 
+return valu may use oper system know termin statu program 
+valu 0 typic mean success termin 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

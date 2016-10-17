@@ -1,0 +1,9 @@
+calcul time taken process use clock function avail time h 
+call clock function begin end code measur time subtract valu divid clocks_per_sec number clock tick per second get processor time like follow 
+includ time h clock_t start end doubl cpu_time_us start clock work 
+end clock cpu_time_us doubl end start clocks_per_sec follow sampl c program measur time taken fun 
+function fun wait enter key press termin 
+program demonstr time taken function fun includ stdio h includ time h function termin enter key press void fun printf fun start n printf press enter stop fun n 1 getchar break printf fun end n main program call fun measur time taken fun int main calcul time taken fun clock_t clock fun clock doubl time_taken doubl clocks_per_sec second printf fun took f second execut n time_taken return 0 output follow output obtain wait around 4 second hit enter key 
+fun start press enter stop fun fun end fun took 4 017000 second execut find time taken command program linux shell 
+refer http www gnu org softwar libc manual html_node cpu time html http www cplusplu com refer ctime clock kw clock pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

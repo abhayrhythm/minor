@@ -1,0 +1,23 @@
+given sequenc find length longest palindrom subsequ 
+exampl given sequenc bbabcbcab output 7 babcbab longest palindrom subseuqnc 
+bbbbb bbcbb also palindrom subsequ given sequenc longest one 
+naiv solut problem gener subsequ given sequenc find longest palindrom subsequ 
+solut exponenti term time complex 
+let us see problem possess import properti dynam program dp problem effici solv use dynam program 
+1 optim substructur let x 0 n 1 input sequenc length n l 0 n 1 length longest palindrom subsequ x 0 n 1 
+last first charact x l 0 n 1 l 1 n 2 2 els l 0 n 1 max l 1 n 1 l 0 n 2 
+follow gener recurs solut case handl 
+everay singl charact palindrom length 1 l 1 index given sequenc first last charact x x j l j max l 1 j l j 1 2 charact els j 1 l j 2 two charact first last charact els l j l 1 j 1 2 2 overlap subproblem follow simpl recurs implement lp problem 
+implement simpli follow recurs structur mention 
+includ stdio h includ string h util function get max two integ int max int x int return x 
+x return length longest palindrom subsequ seq int lp char seq int int j base case 1 1 charact j return 1 base case 2 2 charact seq seq j 1 j return 2 first last charact match seq seq j return lp seq 1 j 1 2 first last charact match return max lp seq j 1 lp seq 1 j driver program test function int main char seq geeksforgeek int n strlen seq printf length lp lp seq 0 n 1 getchar return 0 output length lp 5 consid implement follow partial recurs tree sequenc length 6 differ charact 
+l 0 5 l 1 5 l 0 4 l 2 5 l 1 4 l 1 4 l 0 3 partial recurs tree l 1 4 solv twice 
+draw complet recurs tree see mani subproblem solv 
+sinc suproblem call problem overlap subprolem properti 
+lp problem properti see dynam program problem 
+like typic dynam program dp problem recomput subproblem avoid construct temporari array l bottom manner 
+dynam program solut c dynam program base python program lp problem return length longest palindrom subsequ seq includ stdio h includ string h util function get max two integ int max int x int return x 
+x return length longest palindrom subsequ seq int lp char str int n strlen str int j cl int l n n creat tabl store result subproblem string length 1 palindrom lentgh 1 0 n l 1 build tabl 
+note lower diagon valu tabl useless fill process 
+valu fill manner similar matrix chain multipl dp solut see http www geeksforgeek org archiv 15553 
+cl length substr cl 2 cl n cl 0 n cl 1 j cl 1 str str j cl 2 l j 2 els str str j l j l 1 j 1 2 els l j max l j 1 l 1 j return l 0 n 1 driver program test function int main char seq geek geek int n strlen seq printf lnegth lp lp seq getchar return 0 

@@ -1,0 +1,49 @@
+pipe cistern somewhat similar concept work wage 
+problem pipe cistern usual two kind pipe inlet pipe outlet pipe leak 
+inlet pipe pipe fill tank reservoir cistern outlet pipe leak one empti 
+pipe fill tank n hour 1 hour fill 1 n part 
+exampl pipe take 6 hour fill tank complet say 12 liter 1 hour fill 1 6 th tank e 2 liter 
+pipe empti tank n hour 1 hour empti 1 n part 
+exampl pipe take 6 hour empti tank complet say 18 liter 1 hour empti 1 6 th tank e 3 liter 
+number pipe fill tank empti open togeth one hour part tank fill empti 1 mi 1 nj mi time taken inlet pipe fill tank complet open nj time taken outlet pipe j empti tank complet open 
+sign equat posit tank would fill sign neg tank would empti 
+topic realli simpl abl solv problem work wage 
+sampl problem question 1 two pipe b fill tank separ 12 16 hour respect 
+open togeth tank initi empti much time take complet fill tank 
+solut part tank fill pipe one hour work alon 1 12 part tank fill pipe b one hour work alon 1 16 part tank fill pipe pipe b one hour work togeth 1 12 1 16 7 48 therefor time taken complet fill tank b work togeth 48 7 hour anoth method let capac tank lcm 12 16 48 unit effici pipe 48 12 4 unit hour effici pipe b 48 16 3 unit hour combin effici pipe b 7 unit hour therefor time taken complet fill tank 48 7 hour question 2 three pipe b c connect tank 
+three b inlet pipe c outlet pipe 
+open separ fill tank 10 hour b fill tank 12 hour c empti tank 30 hour 
+three open simultan much time take fill empti tank 
+solut part tank fill pipe one hour work alon 1 10 part tank fill pipe b one hour work alon 1 12 part tank empti pipe b one hour work alon 1 30 part tank fill pipe b c one hour work togeth 1 10 1 12 1 30 3 20 therefor time taken complet fill tank b work togeth 20 3 hour 6 hour 40 minut anoth method let capac tank lcm 10 12 30 60 unit effici pipe 60 10 6 unit hour effici pipe b 60 12 5 unit hour effici pipe c 60 30 2 unit hour repres outlet pipe combin effici pipe b c 6 5 2 9 unit hour therefor time taken complet fill tank 60 9 6 hour 40 minut question 3 three pipe b c connect tank 
+three inlet pipe b c outlet pipe 
+open separ fill tank 10 hour b empti tank 12 hour c empti tank 30 hour 
+three open simultan much time take fill empti tank 
+solut part tank fill pipe one hour work alon 1 10 part tank empti pipe b one hour work alon 1 12 part tank empti pipe b one hour work alon 1 30 part tank fill pipe b c one hour work togeth 1 10 1 12 1 30 1 60 therefor time taken complet empti tank pipe open simultan 1 60 hour 60 hour anoth method let capac tank lcm 10 12 30 60 unit effici pipe 60 10 6 unit hour effici pipe b 60 12 5 unit hour repres outlet pipe effici pipe c 60 30 2 unit hour repres outlet pipe combin effici pipe b c 6 5 2 1 unit hour repres outlet pipe therefor time taken complet empti tank 60 1 60 hour question 4 cistern two pipe 
+work togeth fill cistern 12 minut 
+first pipe 10 minut faster second pipe 
+much time would take fill cistern second pipe use 
+solut let time taken first pipe work alon minut 
+time taken second pipe work alon 10 minut 
+part tank fill pipe one hour work alon 1 part tank fill pipe b one hour work alon 1 10 part tank fill pipe b one hour work togeth 1 1 10 2t 10 x 10 given take 12 minut complet fill cistern pipe work togeth 
+2t 10 x 10 1 12 x 10 2t 10 12 t2 10t 24t 120 t2 14t 120 0 20 6 0 20 minut time cannot neg therefor time taken second pipe work alon 20 10 30 minut anoth method let time taken first pipe work alon minut 
+time taken second pipe work alon 10 minut 
+let capac cistern x 10 unit 
+effici first pipe x 10 10 unit minut effici second pipe x 10 10 unit minut combin effici pipe 2t 10 unit minut time taken fill cistern complet x 10 2t 10 given take 12 minut complet fill cistern pipe work togeth 
+x 10 2t 10 12 t2 10t 24t 120 t2 14t 120 0 20 6 0 20 minut time cannot neg therefor time taken second pipe work alon 20 10 30 minut question 5 three pipe b c connect tank 
+three b inlet pipe c outlet pipe 
+open separ fill tank 10 hour b fill tank 30 hour 
+three open simultan take 30 minut extra b open 
+much time take empti tank c open 
+solut let capac tank lcm 10 30 30 unit effici pipe 30 10 3 unit hour effici pipe b 30 30 1 unit hour combin effici pipe b 4 unit hour therefor time taken complet fill tank b open 30 4 7 hour 30 minut time taken complet fill tank pipe open 7 hour 30 minut 30 minut 8 hour combin effici pipe 30 8 3 75 unit hour effici pipe c combin effici three pipe combin effici pipe b therefor effici pipe c 4 3 75 0 25 unit hour thu time taken empti tank c open 30 0 25 120 hour question 6 time requir two pipe b work separ fill tank 36 second 45 second respect 
+anoth pipe c empti tank 30 second 
+initi b open 7 second c also open 
+much time tank would complet fill 
+solut let capac tank lcm 36 45 30 180 unit effici pipe 180 36 5 unit second effici pipe b 180 45 4 unit second effici pipe c 180 30 6 unit second first 7 second b open 
+combin effici b 5 4 9 unit second part tank fill 7 second 7 x 9 63 unit part tank empti 180 63 117 unit pipe open 
+combin effici pipe 5 4 6 3 unit second therefor time requir 117 3 39 second question 7 two pipe b fill tank 20 hour 30 hour respect 
+pipe open simultan find much time pipe b close tank full 18 hour 
+solut let capac tank lcm 20 30 60 unit effici pipe 60 20 3 unit hour effici pipe b 60 30 2 unit hour combin effici pipe b 5 unit hour let b open n hour b close open remain 18 n hour 
+5n 3 x 18 n 60 2n 54 60 2n 6 n 3 therefor b close 3 hour 
+quiz pipe cistern articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

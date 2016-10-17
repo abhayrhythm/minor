@@ -1,0 +1,56 @@
+follow oper effici larg number queri 
+insert delet search clear remov element 
+one solut use self balanc binari search tree like red black tree avl tree etc 
+time complex solut insert delet search log n 
+also use hash 
+hash time complex first three oper 1 
+time complex fourth oper n 
+also use bit vector direct access tabl bit vector also requir n time clear 
+spars set outperform bst hash bit vector 
+assum given rang data maximum valu element maximum number element store set 
+idea maintain two array spars dens 
+dens store actual element spars like bit vector use element index 
+valu binari index dens array 
+maxval maximum valu set store 
+size spars equal maxval 1 capac capac set 
+size spars equal capac 
+n current number element set 
+insert x let x element insert 
+x greater maxval n current number element greater equal capac return 
+none condit true insert x dens index n positiion last element 0 base index array increment n one current number element store n index x dens spars x 
+search x search element x use x index spars 
+valu spars x use index dens 
+valu dens spars x equal x return dens x 
+els return 1 delet x delet element x replac last element dens updat index last element spars 
+final decrement n 1 clear set n 0 print print element simpli travers dens 
+illustr let set two element 3 5 maximum valu 10 capac 4 set would repres 
+initi maxval 10 size spars capac 4 size dens n 2 current number element set dens store actual element dens 3 5 _ _ use actual element index store index dens spars _ _ _ 0 _ 1 _ _ _ _ _ mean valu use spars set insert 7 n 3 dens 3 5 7 _ spars _ _ _ 0 _ 1 _ 2 _ _ insert 4 n 4 dens 3 5 7 4 spars _ _ _ 0 3 1 _ 2 _ _ delet 3 n 3 dens 4 5 7 _ spars _ _ _ _ 0 1 _ 2 _ _ clear remov n 0 dens _ _ _ _ spars _ _ _ _ _ _ _ _ _ _ c implement function 
+c program implement spars set oper includ bit stdc h use namespac std structur hold three paramet requir repres spars set 
+class sset int spars store index actual element int dens store actual set element int n current number element int capac capac set size dens int maxvalu maximum valu set size spars public constructor sset int maxv int cap spars new int maxv 1 dens new int cap capac cap maxvalu maxv n 0 element initi destructor sset delet spars delet dens element present return index element dens 
+els return 1 int search int x insert new element set void insert int x delet element void delet int x print content set void print remov element set void clear n 0 find intersect set return pointer result 
+sset intersect sset function find union two set time complex n1 n2 sset setunion sset x present set return index dens els return 1 int sset search int x search element must rang x maxvalu return 1 first condit verifi x within n set second condit tell us present data structur 
+spars x n dens spars x x return spars x found return 1 insert new element set void sset insert int x corner case x must rang dens full x alreadi present x maxvalu return n capac return search x 1 return insert array dens index n 
+dens n x map spars array 
+spars x n increment count element set n function delet x present data structur els noth return 
+delet x unset x set 
+void sset delet int x x present search x 1 return int temp dens n 1 take element end dens spars x temp overwrit 
+spars temp spars x overwrit 
+sinc one element delet decrement n 1 n print content set also content dens void sset print int 0 n printf dens printf n function find intersect two set sset sset intersect sset capac max valu result set int icap min n n int imaxv max maxvalu maxvalu creat result set sset result new sset imaxv icap find smaller two set set smaller n n search everi element set 
+found add result int 0 n search dens 1 result insert dens els search everi element set 
+found add result int 0 n search dens 1 result insert dens return result function find union two set time complex n1 n2 sset sset setunion sset find capac maximum valu result set 
+int ucap n n int umaxv max maxvalu maxvalu creat result set sset result new sset umaxv ucap travers first set insert element result 
+int 0 n result insert dens travers second set insert element result note spars set insert entri alreadi present int 0 n result insert dens return result driver program int main creat set set1 capac 5 max valu 100 sset s1 100 5 insert element set set1 s1 insert 5 s1 insert 3 s1 insert 9 s1 insert 10 print element data structur 
+printf element set1 n s1 print int index s1 search 3 index variabl store index number search 
+index 1 3 exist printf n3 found index set1 n index els 3 exist printf n3 exist set1 n delet 9 print set1 s1 delet 9 s1 print creat set capac 6 max valu 1000 sset s2 1000 6 insert element set s2 insert 4 s2 insert 3 s2 insert 7 s2 insert 200 print set 2 printf nthe element set2 n s2 print print intersect two set sset intersect s2 intersect s1 printf nintersect set1 set2 n intersect print print union two set sset unionset s1 setunion s2 printf nunion set1 set2 n unionset print return 0 output element set1 5 3 9 10 3 found index 1 set1 5 3 10 element set2 4 3 7 200 intersect set1 set2 3 union set1 set2 5 3 10 4 7 200 addit oper follow oper also effici implement use spars set 
+outperform solut discuss bit vector base solut assumpt rang maximum number element known 
+union 1 creat empti spars set say result 
+2 travers first set insert element result 
+3 travers second set insert element result note spars set insert entri alreadi present 4 return result 
+intersect 1 creat empti spars set say result 
+2 let smaller two given set first set larger second 
+3 consid smaller set search everi element second 
+element found add result 
+4 return result 
+common use data structur regist alloc algorithm compil fix univers number regist machin updat clear frequent like q queri singl process run 
+refer http research swtch com spars http codingplayground blogspot 2009 03 spars set o1 insert delet html articl contribut rachit belwariar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,29 @@
+famou interview question ask googl paytm mani compani interview 
+problem statement 
+imagin special keyboard follow key key 1 print screen key 2 ctrl select screen key 3 ctrl c copi select buffer key 4 ctrl v print buffer screen append alreadi print 
+press keyboard n time four key write program produc maximum number 
+say input paramet n 
+key press output 
+produc 
+exampl input n 3 output 3 get 3 screen press follow key sequenc 
+input n 7 output 9 get 9 screen press follow key sequenc 
+ctrl ctrl c ctrl v ctrl v input n 11 output 27 get 27 screen press follow key sequenc 
+ctrl ctrl c ctrl v ctrl v ctrl ctrl c ctrl v ctrl v strongli recommend click practic move solut 
+import point note 
+n 7 output n 
+b ctrl v use multipl time print current buffer see last two exampl 
+idea comput optim string length n keystrok use simpl insight 
+sequenc n keystrok produc optim string length end suffix ctrl ctrl c follow ctrl v n 6 
+task find break point get suffix keystrok 
+definit breakpoint instanc need press ctrl ctrl c ctrl v afterward gener optim length 
+loop n 3 1 choos valu break point comput optim string would produc 
+loop end maximum optim length variou breakpoint therebi give us optim length n keystrok 
+c implement base idea 
+recurs c program print maximum number use follow four key includ stdio h recurs function return optim length string n keystrok int findoptim int n optim string length n n smaller 7 n 6 return n initi result int max 0 tri possibl break point keystrok n need loop n 3 keystrok back 1 keystrok find breakpoint b ctrl ctrl c ctrl v way 
+int b b n 3 b 1 b breakpoint b th keystrok optim string would length n b 1 screen b 1 int curr n b 1 findoptim b curr max max curr return max driver program int main int n rest array reli previou entri comput new one n 1 n 20 n printf maximum number keystrok n n findoptim n output maximum number 1 keystrok 1 maximum number 2 keystrok 2 maximum number 3 keystrok 3 maximum number 4 keystrok 4 maximum number 5 keystrok 5 maximum number 6 keystrok 6 maximum number 7 keystrok 9 maximum number 8 keystrok 12 maximum number 9 keystrok 16 maximum number 10 keystrok 20 maximum number 11 keystrok 27 maximum number 12 keystrok 36 maximum number 13 keystrok 48 maximum number 14 keystrok 64 maximum number 15 keystrok 81 maximum number 16 keystrok 108 maximum number 17 keystrok 144 maximum number 18 keystrok 192 maximum number 19 keystrok 256 maximum number 20 keystrok 324 function comput subproblem 
+recomput subproblem avoid store solut subproblem solv problem bottom manner 
+dynam program base c implement auxiliari array screen n use store result subproblem 
+dynam program base c program find maximum number print use four key includ stdio h function return optim length string n keystrok int findoptim int n optim string length n n smaller 7 n 6 return n array store result subproblem int screen n int b pick breakpoint initi optim length array uptil 6 input stroke 
+int n n 1 n 6 n screen n 1 n solv subproblem bottom manner n 7 n n n initi length optim string n keystrok screen n 1 0 keystrok n need loop n 3 keystrok back 1 keystrok find breakpoint b ctrl ctrl c ctrl v way 
+b n 3 b 1 b breakpoint b th keystrok optim string would length n b 1 screen b 1 int curr n b 1 screen b 1 curr screen n 1 screen n 1 curr return screen n 1 driver program int main int n rest array reli previou entri comput new one n 1 n 20 n printf maximum number keystrok n n findoptim n output maximum number 1 keystrok 1 maximum number 2 keystrok 2 maximum number 3 keystrok 3 maximum number 4 keystrok 4 maximum number 5 keystrok 5 maximum number 6 keystrok 6 maximum number 7 keystrok 9 maximum number 8 keystrok 12 maximum number 9 keystrok 16 maximum number 10 keystrok 20 maximum number 11 keystrok 27 maximum number 12 keystrok 36 maximum number 13 keystrok 48 maximum number 14 keystrok 64 maximum number 15 keystrok 81 maximum number 16 keystrok 108 maximum number 17 keystrok 144 maximum number 18 keystrok 192 maximum number 19 keystrok 256 maximum number 20 keystrok 324 thank gaurav saxena provid approach solv problem 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

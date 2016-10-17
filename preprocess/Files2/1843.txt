@@ -1,0 +1,5 @@
+discuss case sort 2d vector set 1 sort 2d vector c set 1 row column case discuss articl case 3 sort particular row 2d vector descend order type sort arrang select row 2d vector descend order 
+achiev use sort pass iter 1d vector argument 
+c code demonstr sort row 2d vector descend order includ iostream includ vector 2d vector includ algorithm sort use namespac std int main initi 2d vector vect valu vector vector int vect 3 5 1 4 8 6 7 2 9 number row int vect size number column assum row size 
+differ size though like java 
+int n vect 0 size display 2d vector sort cout matrix sort 1st row n int 0 int j 0 j n j cout vect j cout endl use sort sort first row sort vect 0 rbegin vect 0 rend display 2d vector sort cout matrix sort 1st row n int 0 int j 0 j n j cout vect j cout endl return 0 output matrix sort 1st row 3 5 1 4 8 6 7 2 9 matrix sort 1st row 5 3 1 4 8 6 7 2 9 

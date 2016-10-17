@@ -1,0 +1,27 @@
+pleas note titl functor function 
+consid function take one argument 
+howev call function lot inform would like pass function cannot accept one paramet 
+done 
+one obviou answer might global variabl 
+howev good code practic advoc use global variabl say must use altern 
+functor object treat though function function pointer 
+functor commonli use along stl scenario like follow program use transform stl add 1 element arr 
+c program use transform stl add 1 element arr includ bit stdc h use namespac std int increment int x return x 1 int main int arr 1 2 3 4 5 int n sizeof arr sizeof arr 0 appli increment element arr store modifi element back arr transform arr arr n arr increment int 0 n cout arr return 0 output 2 3 4 5 6 code snippet add one valu content arr 
+suppos want add 5 content arr 
+see happen 
+transform requir unari function function take one argument array cannot pass number increment 
+would effect make us write sever differ function add number 
+mess 
+functor come use 
+functor function object c class act like function 
+functor call use old function call syntax 
+creat functor creat object overload oper 
+line myfunctor 10 myfunctor oper 10 let delv deeper understand actual use conjunct stl 
+c program demonstr work functor 
+includ bit stdc h use namespac std functor class increment privat int num public increment int n num n oper overload enabl call oper function object increment int oper int arr_num const return num arr_num driver code int main int arr 1 2 3 4 5 int n sizeof arr sizeof arr 0 int to_add 5 transform arr arr n arr increment to_add int 0 n cout arr output 6 7 8 9 10 thu increment functor c class act function 
+line transform arr arr n arr increment to_add write two line creat object increment increment obj to_add call object transform arr arr n arr obj thu object creat overload oper 
+henc functor use effect conjunct c stl 
+articl contribut supriya srivatsa 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

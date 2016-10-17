@@ -1,0 +1,19 @@
+
+In C++, a Copy Constructor may be called in following cases: 
+1. When an object of the class is returned by value.
+2. When an object of the class is passed (to a function) by value as an argument.
+3. When an object is constructed based on another object of the same class.
+4. When compiler generates a temporary object.
+It is however, not guaranteed that a copy constructor will be called in all these cases, because the C++ Standard allows the compiler to optimize the copy away in certain cases, one example being the return value optimization (sometimes referred to as RVO).
+References:
+http://www.fredosaurus.com/notes-cpp/oop-condestructors/copyconstructors.html
+http://en.wikipedia.org/wiki/Copy_constructor
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

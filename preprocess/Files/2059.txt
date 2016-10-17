@@ -1,0 +1,35 @@
+
+In C and C++, comma is the last operator in precedence table. So comma should be carefully used on right side of an assignment expression.  For example, one might expect the output as b = 10 in below program. But program prints b = 20 as assignment has higher precedence over comma and the statement “b = 20, a” becomes equivalent to “(b = 20), a”. 
+
+#include<stdio.h>
+int main()
+{
+  int a = 10, b;
+  b = 20, a;   // b = 20
+  printf(" b = %d ", b);
+  getchar();
+  return 0;
+}
+
+Putting a bracket with comma makes b = a (or 10).
+
+#include<stdio.h>
+int main()
+{
+  int a = 10, b;
+  b = (20, a); // b = a
+  printf(" b = %d ", b);
+  getchar();
+  return 0;
+}
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

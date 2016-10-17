@@ -1,0 +1,5 @@
+differ method remov duplic string 
+method 1 use sort algorithm 1 sort element 
+2 loop remov duplic compar current charact previou charact 
+3 remov extra charact end result string 
+exampl input string geeksforgeek 1 sort charact eeeefggkkorss 2 remov duplic efgkosgkkorss 3 remov extra charact efgko strongli recommend click practic move solut 

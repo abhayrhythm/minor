@@ -1,0 +1,16 @@
+python return multipl valu function 
+follow differ way 1 use object similar c c java creat class c struct hold multipl valu return object class 
+python program return multipl valu method use class class test def __init__ self self str geeksforgeek self x 20 function return object test def fun return test driver code test method fun print str print x output geeksforgeek 20 interest method somebodi shift c java world 
+2 use tupl tupl comma separ sequenc item 
+creat without 
+tupl immut 
+see detail tupl list 
+python program return multipl valu method use tupl function return tupl def fun str geeksforgeek x 20 return str x return tupl could also write str x driver code test method str x fun assign return tupl print str print x output geeksforgeek 20 3 use list list like array item creat use squar bracket 
+differ array contain item differ type 
+list differ tupl mutabl 
+python program return multipl valu method use list function return list def fun str geeksforgeek x 20 return str x driver code test method list fun print list output geeksforgeek 20 4 use dictionari dictionari similar hash map languag 
+see detail dictionari 
+python program return multipl valu method use dictionari function return dictionari def fun dict str geeksforgeek x 20 return driver code test method fun print output x 20 str geeksforgeek refer http stackoverflow com question 354883 return multipl valu python articl contribut shubham agraw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

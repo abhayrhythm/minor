@@ -1,0 +1,102 @@
+
+What is NaN ? 
+NaN, acronym for “Not a Number” is an exception which usually occurs in the cases when an expression results in a number that can’t be represented.  For example square root of negative numbers.
+
+// C++ code to demonstrate NaN exception
+#include<iostream>
+#include<cmath> // for sqrt()
+using namespace std;
+int main()
+{
+    float a = 2, b = -2;
+
+    // Prints the number (1.41421)
+    cout << sqrt(a) << endl;
+
+    // Prints "nan" exception
+    // sqrt(-2) is complex number
+    cout << sqrt(b) << endl;
+
+    return 0;
+}
+
+Output:
+
+1.41421
+-nan
+
+How to check for NaN ?
+Method 1 : Using compare (“==”) operator.
+In this method we check if a number is complex by comparing it with itself. If the result is true, then the number is not complex i.e., real. But if result is false, then “nan” is returned, i.e the number is complex.
+
+// C++ code to check for NaN exception
+// using "==" operator
+#include<iostream>
+#include<cmath> // for sqrt()
+using namespace std;
+int main()
+{
+    float a = sqrt(2);
+    float b = sqrt(-2);
+
+    // Returns true, a is real number
+    // prints "Its a real number"
+    a==a? cout << "Its a real number" << endl:
+          cout << "Its NaN" << endl;
+
+    // Returns false, b is complex number
+    // prints "Its nan"
+    b==b? cout << "Its a real number" << endl:
+          cout << "Its NaN" << endl;
+
+    return 0;
+
+}
+
+Output:
+
+Its a real number
+Its NaN
+
+
+Method 2 : Using inbuilt function “isnan()”.
+Another way to check for NaN is by using “isnan()” function, this function returns true if a number is complex else it returns false.
+
+// C++ code to check for NaN exception
+// using "isnan()" 
+#include<iostream>
+#include<cmath> // for sqrt() and isnan()
+using namespace std;
+int main()
+{
+    float a = sqrt(2);
+    float b = sqrt(-2);
+    
+    // Returns false as a 
+    // is real number
+    isnan(a)? cout << "Its NaN" << endl:
+              cout << "Its a real number" << endl;
+    
+    // Returns true as b is  NaN
+    isnan(b)? cout << "Its NaN" << endl:
+              cout << "Its a real number" << endl;
+    
+    return 0;    
+}
+
+Output:
+
+Its a real number
+Its NaN
+
+This article is contributed by Manjeet Singh   .If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

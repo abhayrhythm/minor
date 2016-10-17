@@ -1,0 +1,117 @@
+
+Given an array that contains both positive and negative integers, find the product of the maximum product subarray. Expected Time complexity is O(n) and only O(1) extra space can be used.
+Examples:
+
+Input: arr[] = {6, -3, -10, 0, 2}
+Output:   180  // The subarray is {6, -3, -10}
+
+Input: arr[] = {-1, -3, -10, 0, 60}
+Output:   60  // The subarray is {60}
+
+Input: arr[] = {-1, -2, -3, 4}
+Output:   24  // The subarray is {-2, -3, 4}
+
+Input: arr[] = {-10}
+Output:   0  // An empty array is also subarray
+             // and product of empty subarray is
+             // considered as 0.
+
+
+
+We have discussed a solution of this problem here.
+In this post an interesting solution is discussed.   The idea is based on the fact that overall maximum product is maximum of following two:
+
+Maximum product in left to right traversal.
+Maximum product in right to left traversal
+
+For example, consider the above third sample input {-1, -2, -3, 4}. If we traverse the array only in forward direction (considering -1 as part of output), maximum product will be 2. If we traverse the array in backward direction (considering 4 as part of output), maximum product will be 24 i.e; { -2, -3, 4}. 
+One important thing is to handle 0’s.  We need to compute fresh forward (or backward) sum whenever we see 0.
+Below is C++ implementation of above idea.
+
+// C++ program to find maximum product subarray
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function for maximum product
+int max_product(int arr[], int n)
+{
+    // Initialize maximum products in forward and
+    // backward directions
+    int max_fwd = INT_MIN, max_bkd = INT_MIN;
+
+    // Initialize current product
+    int max_till_now = 1;
+
+    // max_fwd for maximum contiguous product in
+    // forward direction
+    // max_bkd for maximum contiguous product in
+    // backward direction
+    // iterating within forward direction in array
+    for (int i=0; i<n; i++)
+    {
+        // if arr[i]==0, it is breaking condition
+        // for contiguos subarray
+        max_till_now = max_till_now*arr[i];
+        if (max_till_now == 0)
+        {
+             max_till_now = 1;
+            continue;
+        }
+        if (max_fwd < max_till_now) // update max_fwd
+            max_fwd = max_till_now;
+    }
+
+     max_till_now = 1;
+
+    // iterating within backward direction in array
+    for (int i=n-1; i>=0; i--)
+    {
+        max_till_now = max_till_now * arr[i];
+        if (max_till_now == 0)
+        {
+            max_till_now = 1;
+            continue;
+        }
+
+        // update max_bkd
+        if (max_bkd < max_till_now)
+            max_bkd = max_till_now;
+    }
+
+    // return max of max_fwd and max_bkd
+    int res =  max(max_fwd, max_bkd);
+
+    // Product should not be nagative.
+    // (Product of an empty subarray is
+    // considered as 0)
+    return max(res, 0);
+}
+
+// Driver Program to test above function
+int main()
+{
+    int arr[] = {-1, -2, -3, 4};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    cout << max_product(arr, n) << endl;
+    return 0;
+}
+
+Output:
+
+ 24
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+Asked in: Amazon, Microsoft, Morgan Stanley
+Note that the above solution requires two traversals of array while the previous solution requires only one traversal.
+This article is contributed by Shashank Mishra (Gullu). If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

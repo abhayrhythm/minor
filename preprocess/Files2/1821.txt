@@ -1,0 +1,19 @@
+c class stl algorithm librari allow us easi partit algorithm use certain inbuilt function 
+partit refer act divid element contain depend upon given condit 
+partit oper 1 partit beg end condit function use partit element basi condit mentiond argument 
+2 is_partit beg end condit function return boolean true contain partit els return fals 
+c code demonstr work partit is_partit includ iostream includ algorithm partit algorithm includ vector vector use namespac std int main initi vector vector int vect 2 1 5 6 8 7 check vector partit use is_partit is_partit vect begin vect end int x return x 2 0 
+cout vector partit cout vector partit cout endl partit vector use partit partit vect begin vect end int x return x 2 0 check vector partit use is_partit is_partit vect begin vect end int x return x 2 0 
+cout vector partit partit oper cout vector still partit partit oper cout endl display partit vector cout partit vector int x vect cout x return 0 output vector partit vector partit partit oper partit vector 2 8 6 5 1 7 code partit function partit vector depend whether element even odd even element partit odd element particular order 
+3 stable_partit beg end condit function use partit element basi condit mentiond argument sort order 
+4 partition_point beg end condit function return iter point partit point contain e 
+posit last element return true condit 
+contain alreadi partit function work 
+c code demonstr work stable_partit partition_point includ iostream includ algorithm partit algorithm includ vector vector use namespac std int main initi vector vector int vect 2 1 5 6 8 7 partit vector use stable_partit sort order stable_partit vect begin vect end int x return x 2 0 display partit vector cout partit vector int x vect cout x cout endl declar iter vector int iter it1 use partition_point get end posit partit auto partition_point vect begin vect end int x return x 2 0 display partit vector cout vector element return true condit it1 vect begin it1 it1 cout it1 cout endl return 0 output partit vector 2 6 8 1 5 7 vector element return true condit 2 6 8 code even odd element partit increas order sort 5 partition_copi beg end beg1 beg2 condit function copi partit element differenet contain mention argument 
+take 5 argument 
+begin end posit contain begin posit new contain element copi element return true condit begin posit new contain element copi element return fals condit condit 
+resiz new contain necessari function 
+c code demonstr work partition_copi includ iostream includ algorithm partit algorithm includ vector vector use namespac std int main initi vector vector int vect 2 1 5 6 8 7 declar vector1 vector int vect1 declar vector1 vector int vect2 resiz vector suitabl size use count_if resiz int n count_if vect begin vect end int x return x 2 0 vect1 resiz n vect2 resiz vect size n use partition_copi copi partit partition_copi vect begin vect end vect1 begin vect2 begin int x return x 2 0 display partit vector cout element return true condit int x vect1 cout x cout endl display partit vector cout element return fals condit int x vect2 cout x cout endl return 0 output element return true condit 2 6 8 element return fals condit 1 5 7 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

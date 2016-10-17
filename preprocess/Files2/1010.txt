@@ -1,0 +1,4 @@
+follow question ask gate cs exam 
+1 consid follow c program segment char p 20 char string int length strlen int 0 length p length printf p output program gate cs 2004 gnirt b gnirt c string output print answer let us consid line insid loop p length 0 p 6 0 6 0 p 0 becom 0 
+matter come p 1 p 2 p 0 chang 0 
+noth print print string first charact 0 

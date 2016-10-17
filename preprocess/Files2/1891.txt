@@ -1,0 +1,13 @@
+consid c program c program show local paramet hide class member includ iostream use namespac std class test int public test 1 local paramet hide class member void func int cout int main test obj int k 3 obj func k return 0 output 3 output program 3 sinc pass argument func shadow class e 1 output class 
+pointer come handi 
+statement like cout instead cout simpli output valu 1 pointer point object func call 
+c program show use access member local variabl name 
+includ iostream use namespac std class test int public test 1 local paramet hide object member access use 
+void func int cout int main test obj int k 3 obj func k return 0 output 1 scope resolut oper 
+cannot use scope resolut oper exampl print object member scope resolut oper use static data member class member 
+use scope resolut oper program get compil error use pointer program also get compil error 
+c program show use access static member local variabl name includ iostream use namespac std class test static int static public local paramet hide class member access use void func int cout test c static member must explicitli defin like int test 1 int main test obj int k 3 obj func k return 0 output 1 conclus scope resolut oper access static class member pointer access object member local variabl name 
+articl contribut aakash sachdeva 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

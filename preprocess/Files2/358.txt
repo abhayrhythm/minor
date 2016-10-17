@@ -1,0 +1,17 @@
+given array 0s 1s find posit 0 replac 1 get longest continu sequenc 1s 
+expect time complex n auxiliari space 1 
+exampl input arr 1 1 0 0 1 0 1 1 1 0 1 1 1 output index 9 assum array index start 0 replac 0 1 index 9 caus maximum continu sequenc 1s 
+input arr 1 1 1 1 0 output index 4 strongli recommend minim browser tri first 
+simpl solut travers array everi 0 count number 1s side 
+keep track maximum count 0 final return index 0 maximum number 1s around 
+time complex solut n2 
+use effici solut problem solv n time 
+idea keep track three index current index curr previou zero index prev_zero previou previou zero index prev_prev_zero 
+travers array current element 0 calcul differ curr prev_prev_zero differ minu one number 1s around prev_zero 
+differ curr prev_prev_zero maximum far updat maximum 
+final return index prev_zero maximum differ 
+follow c java implement algorithm 
+c c program find index 0 replac 1 get longest continu sequenc 1s binari array includ iostream use namespac std return index 0 replac 1 get longest continu sequenc 1s 
+0 array return 1 int maxonesindex bool arr int n int max_count 0 maximum number 1 around zero int max_index store result int prev_zero 1 index previou zero int prev_prev_zero 1 index previou previou zero travers input array int curr 0 curr n curr current element 0 calcul differ curr prev_prev_zero arr curr 0 updat result count 1s around prev_zero curr prev_prev_zero max_count max_count curr prev_prev_zero max_index prev_zero updat next iter prev_prev_zero prev_zero prev_zero curr check last encount zero n prev_prev_zero max_count max_index prev_zero return max_index driver program int main bool arr 1 1 0 0 1 0 1 1 1 0 1 1 1 int n sizeof arr sizeof arr 0 cout index 0 replac maxonesindex arr n return 0 java java program find index 0 replac 1 get longest continu sequenc 1s binari array import java io 
+class binari return index 0 replac 1 get longest continu sequenc 1s 
+0 array return 1 static int maxonesindex int arr int n int max_count 0 maximum number 1 around zero int max_index 0 store result int prev_zero 1 index previou zero int prev_prev_zero 1 index previou previou zero travers input array int curr 0 curr n curr current element 0 calcul differ curr prev_prev_zero arr curr 0 updat result count 1s around prev_zero curr prev_prev_zero max_count max_count curr prev_prev_zero max_index prev_zero updat next iter prev_prev_zero prev_zero prev_zero curr check last encount zero n prev_prev_zero max_count max_index prev_zero return max_index driver program test function public static void main string arg int arr 1 1 0 0 1 0 1 1 1 0 1 1 1 int n arr length system println index 0 replac maxonesindex arr n code contribut devesh agraw output 

@@ -1,0 +1,23 @@
+discuss knight tour rat maze problem set 1 set 2 respect 
+let us discuss n queen anoth exampl problem solv use backtrack 
+n queen problem place n chess queen n n chessboard two queen attack 
+exampl follow solut 4 queen problem 
+expect output binari matrix 1s block queen place 
+exampl follow output matrix 4 queen solut 
+0 1 0 0 0 0 0 1 1 0 0 0 0 0 1 0 naiv algorithm gener possibl configur queen board print configur satisfi given constraint 
+untri conflagr gener next configur queen attack configur print configur backtrack algorithm idea place queen one one differ column start leftmost column 
+place queen column check clash alreadi place queen 
+current column find row clash mark row column part solut 
+find row due clash backtrack return fals 
+1 start leftmost column 2 queen place return true 3 tri row current column 
+follow everi tri row 
+queen place safe row mark row column part solut recurs check place queen lead solut 
+b place queen row column lead solut return true 
+c place queen lead solut umark row column backtrack go step tri row 
+3 row tri noth work return fals trigger backtrack 
+implement backtrack solut c c c c program solv n queen problem use backtrack defin n 4 includ stdio h util function print solut void printsolut int board n n int 0 n int j 0 j n j printf board j printf n util function check queen place board row col 
+note function call col queen alreadi place column 0 col 1 need check left side attack queen bool issaf int board n n int row int col int j check row left side 0 col board row return fals check upper diagon left side row j col 0 j 0 j board j return fals check lower diagon left side row j col j 0 n j board j return fals return true recurs util function solv n queen problem bool solvenqutil int board n n int col base case queen place return true col n return true consid column tri place queen row one one int 0 n check queen place board col issaf board col place queen board col board col 1 recur place rest queen solvenqutil board col 1 return true place queen board col lead solut remov queen board col board col 0 backtrack queen place row colum col return fals return fals function solv n queen problem use backtrack 
+mainli use solvenqutil solv problem 
+return fals queen cannot place otherwis return true print placement queen form 1s 
+pleas note may one solut function print one feasibl solut 
+bool solvenq int board n n 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 solvenqutil board 0 fals printf solut exist return fals printsolut board return true driver program test function int main solvenq return 0 

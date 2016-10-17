@@ -1,0 +1,42 @@
+
+We strongly recommend to refer below post as a prerequisite of this.
+Randomized Algorithms | Set 1 (Introduction and Analysis)
+Classification
+Randomized algorithms are classified in two categories.
+Las Vegas: These algorithms always produce correct or optimum result.   Time complexity of these algorithms is based on a random value and time complexity is evaluated as expected value.  For example, Randomized QuickSort always sorts an input array and expected worst case time complexity of QuickSort is O(nLogn). 
+Monte Carlo: Produce correct or optimum result with some probability.  These algorithms have deterministic running time and it is generally easier to find out worst case time complexity. For example this implementation of Karger’s Algorithm produces minimum cut with probability greater than or equal to 1/n2 (n is number of vertices) and has worst case time complexity as O(E).  Another example is Fermet Method for Primality Testing.
+Example to Understand Classification:
+
+Consider a binary array where exactly half elements are 0
+and half are 1. The task is to find index of any 1.  
+A Las Vegas algorithm for this task is to keep picking a random element until we find a 1.  A Monte Carlo algorithm for the same is to keep picking a random element until we either find 1 or we have tried maximum allowed times say k.
+The Las Vegas algorithm always finds an index of 1, but time complexity is determined as expect value. The expected number of trials before success is 2, therefore expected time complexity is O(1).
+The Monte Carlo Algorithm finds a 1 with probability [1 – (1/2)k].  Time complexity of Monte Carlo is O(k) which is deterministic
+Applications and Scope:
+
+ Consider a tool that basically does sorting.  Let the tool be used by many users and there are few users who always use tool for already sorted array.  If the tool uses simple (not randomized) QuickSort, then those few users are always going to face worst case situation. On the other hand if the tool uses Randomized  QuickSort, then there is no user that always gets worst case.  Everybody gets expected O(n Log n) time.
+ Randomized algorithms have huge applications in Cryptography.  
+ Load Balancing.  
+ Number-Theoretic Applications: Primality Testing 
+ Data Structures: Hashing, Sorting, Searching, Order Statistics and Computational Geometry. 
+ Algebraic identities: Polynomial and matrix identity verification. Interactive proof systems.
+ Mathematical programming: Faster algorithms for linear programming, Rounding linear program solutions to integer program solutions
+ Graph algorithms: Minimum spanning trees, shortest paths, minimum cuts.
+ Counting and enumeration: Matrix permanent Counting combinatorial structures.
+ Parallel and distributed computing: Deadlock avoidance distributed consensus.
+ Probabilistic existence proofs: Show that a combinatorial object arises with non-zero probability among  objects drawn from a suitable probability space.
+ Derandomization: First devise a randomized algorithm then argue that it can be derandomized to yield a deterministic algorithm.
+
+Sources:
+http://theory.stanford.edu/people/pragh/amstalk.pdf
+https://en.wikipedia.org/wiki/Randomized_algorithm
+This article is contributed by Ashish Sharma. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

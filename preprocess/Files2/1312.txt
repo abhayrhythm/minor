@@ -1,0 +1,23 @@
+given matrix everi cell repres point 
+collect maximum point use two travers follow condit 
+let dimens given grid r x c 1 first travers start top left corner e 0 0 reach left bottom corner e r 1 0 
+second travers start top right corner e 0 c 1 reach bottom right corner e r 1 c 1 2 point j move 1 j 1 1 j 1 1 j 3 travers get point particular cell pass 
+one travers alreadi collect point cell travers get point goe cell 
+input int arr r c 3 6 8 2 5 2 4 3 1 1 20 10 1 1 20 10 1 1 20 10 output 73 explan first travers collect total point valu 3 2 20 1 1 27 second travers collect total point valu 2 4 10 20 10 46 total point collect 27 46 73 sourc http qa geeksforgeek org 1485 run grid get maximum nutrit valu strongli recommend minim browser tri first 
+idea travers concurr 
+start first 0 0 second travers 0 c 1 simultan 
+import thing note particular step travers row possibl three move row number increas 
+let x1 y1 x2 y2 denot current posit first second travers respect 
+thu time x1 equal x2 move forward variat possibl along sinc variat could occur 3 way chang go left 1 go right 1 
+total 9 combin among y1 y2 possibl 
+9 case mention base case 
+travers alway move forward along x base case destin reach x r 1 y1 0 y2 c 1 maxpoint arr x y1 y2 arr x y1 arr x y2 two locat invalid go grid input valid maxpoint arr x y1 y2 inf minu infinit travers cell count valu cell 
+y1 y2 result arr x y1 els result arr x y1 arr x y2 result max max 9 case maxpoint arr x 1 y1 1 y2 maxpoint arr x 1 y1 1 y2 1 maxpoint arr x 1 y1 1 y2 1 maxpoint arr x 1 y1 1 y2 maxpoint arr x 1 y1 1 y2 1 maxpoint arr x 1 y1 1 y2 1 maxpoint arr x 1 y1 y2 maxpoint arr x 1 y1 y2 1 maxpoint arr x 1 y1 y2 1 recurs solut mani subproblem solv 
+therefor use dynam program solv problem effici 
+memoiz memoiz altern tabl base iter solut dynam program base implement 
+implement use memoiz tabl mem keep track alreadi solv problem 
+memoiz base program find maximum collect use two travers grid includ bit stdc h use namespac std defin r 5 defin c 4 check whether given input valid bool isvalid int x int y1 int y2 return x 0 x r y1 0 y1 c y2 0 y2 c driver function collect max valu int getmaxutil int arr r c int mem r c c int x int y1 int y2 base case p1 p2 invalid cell isvalid x y1 y2 return int_min travers reach destin x r 1 y1 0 y2 c 1 return arr x y1 arr x y2 travers last row destin x r 1 return int_min subproblem alreadi solv mem x y1 y2 1 return mem x y1 y2 initi answer subproblem int an int_min variabl use store gain current cell int temp y1 y2 
+arr x y1 arr x y1 arr x y2 recur possibl case store return one max valu an max an temp getmaxutil arr mem x 1 y1 y2 1 an max an temp getmaxutil arr mem x 1 y1 y2 1 an max an temp getmaxutil arr mem x 1 y1 y2 an max an temp getmaxutil arr mem x 1 y1 1 y2 an max an temp getmaxutil arr mem x 1 y1 1 y2 1 an max an temp getmaxutil arr mem x 1 y1 1 y2 1 an max an temp getmaxutil arr mem x 1 y1 1 y2 an max an temp getmaxutil arr mem x 1 y1 1 y2 1 an max an temp getmaxutil arr mem x 1 y1 1 y2 1 return mem x y1 y2 an mainli wrapper recurs function getmaxutil 
+function creat tabl memoiz call getmaxutil int gemaxcollect int arr r c creat memoiz tabl initi entri 1 int mem r c c memset mem 1 sizeof mem calcul maximum valu use memoiz base function getmaxutil return getmaxutil arr mem 0 0 c 1 driver program test function int main int arr r c 3 6 8 2 5 2 4 3 1 1 20 10 1 1 20 10 1 1 20 10 cout maximum collect gemaxcollect arr return 0 output maximum collect 73 thank gaurav ahirwar suggest problem solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

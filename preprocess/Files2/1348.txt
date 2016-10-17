@@ -1,0 +1,21 @@
+given two sort singli link list n element merg use constant space 
+first n smallest element list becom part first list rest element part second list 
+sort order maintain 
+allow chang pointer first link list 
+exampl input first list 2 4 7 8 10 second list 1 3 12 output first list 1 2 3 4 7 second list 8 10 12 strongli recommend minim browser tri first 
+problem becom simpl allow chang pointer first link list 
+allow chang link simpli someth like merg merg sort algorithm 
+assign first n smallest element first link list n number element first link list rest second link list 
+achiev n time 1 space solut violat requir chang link first list 
+problem becom littl tricki allow chang pointer first link list 
+idea someth similar post given singli link list proceed backward last element ll2 
+idea element ll1 compar first element ll2 
+ll1 greater element first element ll2 swap two element involv 
+keep ll2 sort need place first element ll2 correct posit 
+find mismatch travers ll2 correct pointer 
+c implement idea 
+program merg two sort link list without use extra space without chang link first list includ bit stdc h use namespac std structur link list node struct node int data struct node next given refer pointer pointer head list int push new node front list 
+void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function merg two sort link list ll1 ll2 without use extra space 
+void mergelist struct node struct node b run till either one b run b element ll1 compar first element ll2 
+data b data swap two element involv ll1 greater element swap data b data struct node temp b keep ll2 sort place first element ll2 correct place b next b data b next data b b next struct node ptr b prev null find mismatch travers second link list ptr ptr data temp data prev ptr ptr ptr next correct pointer prev next temp temp next ptr move ll1 pointer next element next code print link link void printlist struct node head head cout head data head head next cout null endl driver code int main struct node null push 10 push 8 push 7 push 4 push 2 struct node b null push b 12 push b 3 push b 1 mergelist b cout first list printlist cout second list printlist b return 0 output first list 1 2 3 4 7 null second list 8 10 12 null time complex mn articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

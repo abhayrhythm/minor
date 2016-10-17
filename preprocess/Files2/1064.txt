@@ -1,0 +1,55 @@
+differ declar definit variabl function an declar variabl function simpli declar variabl function exist somewher program memori alloc 
+declar variabl function serv import role 
+type variabl function 
+therefor variabl declar program know data type variabl 
+case function declar program know argument function data type order argument return type function 
+declar 
+come definit defin variabl function apart role declar also alloc memori variabl function 
+therefor think definit super set declar 
+declar subset definit 
+explan obviou variabl function declar number time defin 
+rememb basic principl two locat variabl function 
+declar 
+alloc memori statement extern int declar definit memori x alloc statement 
+int x differ storag class specifi c 
+an auto regist static extern scope variabl 
+variabl scope c 
+an scope variabl part program variabl may directli access 
+c identifi lexic static scope 
+see detail 
+print hello world without semicolon 
+an int main void printf hello world see print geek geek without use semicolon answer 
+use pointer c program 
+1 get address variabl 2 achiev pass refer c pointer allow differ function share modifi local variabl 
+3 pass larg structur complet copi structur avoid 
+c 4 implement link data structur like link list binari tree 
+null pointer 
+an null use indic pointer point valid locat 
+ideal initi pointer null know valu time declar 
+also make pointer null memori point dealloc middl program 
+dangl pointer 
+an dangl pointer pointer point valid memori locat 
+dangl pointer aris object delet dealloc without modifi valu pointer pointer still point memori locat dealloc memori 
+follow exampl 
+exampl 1 int ptr int malloc sizeof int free ptr ptr dangl pointer oper like follow invalid ptr 10 printf ptr exampl 2 int ptr null int x 10 ptr x x goe scope memori alloc x free 
+ptr dangl pointer 
+memori leak 
+avoid an memori leak occur programm creat memori heap forget delet 
+memori leak particularli seriou issu program like daemon server definit never termin 
+function memori leak includ stdlib h void f int ptr int malloc sizeof int work return return without free ptr local static variabl 
+use 
+an local static variabl variabl whose lifetim end function call declar 
+extend lifetim complet program 
+call function share copi local static variabl 
+static variabl use count number time function call 
+also static variabl get default valu 0 exampl follow program print 0 1 includ stdio h void fun static variabl get default valu 0 static int x printf x x x 1 int main fun fun return 0 output 0 1 static function 
+use 
+an c function global default 
+static keyword function name make static 
+unlik global function c access static function restrict file declar 
+therefor want restrict access function make static 
+anoth reason make function static reus function name file 
+see exampl detail 
+commonli ask c program interview question set 2 practic quizz c c articl may also like commonli ask c program interview question set 2 commonli ask java program interview question set 1 amazon ask interview question microsoft ask interview question accentur ask interview question commonli ask oop interview question commonli ask c interview question commonli ask dbm interview question set 1 commonli ask dbm interview question set 2 commonli ask oper system interview question set 1 commonli ask data structur interview question 
+commonli ask algorithm interview question commonli ask comput network interview question top 10 algorithm interview question pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

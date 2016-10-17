@@ -1,0 +1,22 @@
+predict output follow program 
+includ iostream use namespac std int main cout int endl return 0 constructor without argument default valu everi argument treat default constructor 
+call compil need precis code gener default constructor base need 
+c allow even built type primit type default constructor 
+function style cast int analog cast 0 requir type 
+program print 0 consol 
+initi content articl trigger mani discuss given consolid 
+worth cogniz refer vs valu semant c concept plain old data type 
+wiki primit type pod type user defin copi assign oper user defin destructor non static data member pod 
+moreov pod class must aggreg mean user declar constructor privat protect non static data base class virtual function 
+excerpt mail note creator c think mix actual constructor call conceptu constructor 
+built type consid constructor 
+code snippet mention int consid conceptu constructor 
+howev code gener make explicit constructor call 
+observ assembl output code gener initi identifi use valu semant 
+detail refer section 8 5 document 
+thank prasoon saurav initi discuss provid variou refer correct lacuna understand 
+contribut venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+refer c program languag 3e 
+latest c standard work draft section 8 5 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

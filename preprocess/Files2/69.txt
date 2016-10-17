@@ -1,0 +1,18 @@
+dynam program algorithm paradigm solv given complex problem break subproblem store result subproblem avoid comput result 
+follow two main properti problem suggest given problem solv use dynam program 
+1 overlap subproblem 2 optim substructur 1 overlap subproblem like divid conquer dynam program combin solut sub problem 
+dynam program mainli use solut subproblem need 
+dynam program comput solut subproblem store tabl recomput 
+dynam program use common overlap subproblem point store solut need 
+exampl binari search common subproblem 
+take exampl follow recurs program fibonacci number mani subproblem solv 
+simpl recurs program fibonacci number int fib int n n 1 return n return fib n 1 fib n 2 recurs tree execut fib 5 fib 5 fib 4 fib 3 fib 3 fib 2 fib 2 fib 1 fib 2 fib 1 fib 1 fib 0 fib 1 fib 0 fib 1 fib 0 see function f 3 call 2 time 
+would store valu f 3 instead comput would reus old store valu 
+follow two differ way store valu valu reus 
+memoiz top b tabul bottom memoiz top memoiz program problem similar recurs version small modif look lookup tabl comput solut 
+initi lookup array initi valu nil 
+whenev need solut subproblem first look lookup tabl 
+precomput valu return valu otherwis calcul valu put result lookup tabl reus later 
+follow memoiz version nth fibonacci number 
+c c c c program memoiz version nth fibonacci number includ stdio h defin nil 1 defin max 100 int lookup max function initi nil valu lookup tabl void _initi int 0 max lookup nil function nth fibonacci number int fib int n lookup n nil n 1 lookup n n els lookup n fib n 1 fib n 2 return lookup n int main int n 40 _initi printf fibonacci number fib n return 0 python python program memoiz version nth fibonacci number function calcualt nth fibonacci number def fib n lookup base case n 0 n 1 lookup n n valu calcul previous calcul lookup n none lookup n fib n 1 lookup fib n 2 lookup return valu correspond valu n return lookup n end function driver program test function n 34 declar lookup tabl handl till n 100 lookup none 101 print fibonacci number fib n lookup code contribut nikhil kumar singh nickzuck_007 b tabul bottom tabul program given problem build tabl bottom fashion return last entri tabl 
+c c c program tabul version includ stdio h int fib int n int f n 1 int f 0 0 f 1 1 2 n f f 1 f 2 return f n int main int n 9 printf fibonacci number fib n return 0 

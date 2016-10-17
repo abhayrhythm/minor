@@ -1,0 +1,10 @@
+predict output code snippet 
+includ iostream use namespac std int class public 10 int foo 3 ob return int main cout foo endl return 0 output program 3 
+output 3 10 
+return function destructor last method execut 
+destructor object ob call valu copi return valu function 
+destructor could chang valu 10 current valu get copi henc output 3 make program output 10 
+follow two way return updat valu 1 return refer sinc refer give l valu variabl use return refer program output 10 
+includ iostream use namespac std int class public 10 int foo 3 ob return int main cout foo endl return 0 function foo return l valu variabl address copi return valu 
+sinc refer automat dereferen 
+output 10 

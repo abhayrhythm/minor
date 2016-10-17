@@ -1,0 +1,21 @@
+strongli recommend refer post prerequisit 
+k dimension tree set 1 search insert post find minimum discuss 
+oper find minimum given dimens 
+especi need delet oper 
+exampl consid kd tree given dimens x output 5 given dimens output 12 imag taken sourc 
+kd tree point divid dimens dimens 
+exampl root divid key dimens 0 level next root divid dimens 1 next level dimens 2 k 2 els dimens 0 
+find minimum travers node start root 
+dimens current level given dimens requir minimum lie left side left child 
+binari search tree minimum 
+simpl current level dimens differ 
+dimens current level differ minimum may either left subtre right subtre current node may also minimum 
+take minimum three return 
+differ binari search tree 
+c implement find minimum oper 
+c program demonstr find minimum kd tree includ bit stdc h use namespac std const int k 2 structur repres node kd tree struct node int point k store k dimension point node left right method creat node k tree struct node newnod int arr struct node temp new node int 0 k temp point arr temp left temp right null return temp insert new node return root modifi tree paramet depth use decid axi comparison node insertrec node root int point unsign depth tree empti 
+root null return newnod point calcul current dimens cd comparison unsign cd depth k compar new point root current dimens cd decid left right subtre point cd root point cd root left insertrec root left point depth 1 els root right insertrec root right point depth 1 return root function insert new point given point kd tree return new root 
+mainli use recurs function insertrec node insert node root int point return insertrec root point 0 util function find minimum three integ int min int x int int z return min x min z recurs find minimum th dimens kd tree paramet depth use determin current axi 
+int findminrec node root int unsign depth base case root null return int_max current dimens comput use current depth total dimens k unsign cd depth k compar point root respect cd current dimens cd root left null return root point return findminrec root left depth 1 current dimens differ minimum anywher subtre return min root point findminrec root left depth 1 findminrec root right depth 1 wrapper findminrec 
+return minimum th dimens int findmin node root int pass current level depth 0 return findminrec root 0 driver program test function int main struct node root null int point k 30 40 5 25 70 70 10 12 50 30 35 45 int n sizeof point sizeof point 0 int 0 n root insert root point cout minimum 0 th dimens findmin root 0 endl cout minimum 1 th dimens findmin root 1 endl return 0 output minimum 0 th dimens 5 minimum 1 th dimens 12 sourc http www cs umd edu class spring2008 cmsc420 l19 kd tree pdf articl contribut ashish gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

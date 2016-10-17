@@ -1,0 +1,27 @@
+complet binari tree binari tree level l except last 2 l node node last level left align 
+complet binari tree mainli use heap base data structur 
+node complet binari tree insert left right one level time 
+level full node insert new level 
+complet binari tree 
+1 2 3 1 2 3 4 5 6 binari tree complet 1 2 3 4 5 1 2 3 4 5 6 7 complet binari tree gener repres use array 
+array represent better contain empti slot 
+given parent index left child given 2 1 right child given 2 2 extra space wast space store left right pointer save 
+howev may interest program question creat complet binari tree use link represent 
+link mean non array represent left right pointer refer use refer left right children respect 
+write insert function alway add new node last level leftmost avail posit 
+creat link complet binari tree need keep track node level order fashion next node insert lie leftmost posit 
+queue data structur use keep track insert node 
+follow step insert new node complet binari tree 
+1 tree empti initi root new node 
+2 els get front node queue 
+left child front node exist set left child new node 
+els right child front node exist set right child new node 
+3 front node left child right child dequeu 
+4 enqueu new node 
+implement program link implement complet binari tree includ stdio h includ stdlib h queue size defin size 50 tree node struct node int data struct node right left queue node struct queue int front rear int size struct node array util function creat new tree node struct node newnod int data struct node temp struct node malloc sizeof struct node temp data data temp left temp right null return temp util function creat new queue struct queue createqueu int size struct queue queue struct queue malloc sizeof struct queue queue front queue rear 1 queue size size queue array struct node malloc queue size sizeof struct node int 0 size queue array null return queue standard queue function int isempti struct queue queue return queue front 1 int isful struct queue queue return queue rear queue size 1 int hasonlyoneitem struct queue queue return queue front queue rear void enqueu struct node root struct queue queue isful queue return queue array queue rear root isempti queue queue front struct node dequeu struct queue queue isempti queue return null struct node temp queue array queue front hasonlyoneitem queue queue front queue rear 1 els queue front return temp struct node getfront struct queue queue return queue array queue front util function check tree node left right children int hasbothchild struct node temp return temp temp left temp right function insert new node complet binari tree void insert struct node root int data struct queue queue creat new node given data struct node temp newnod data tree empti initi root new node 
+
+root root temp els get front node queue 
+struct node front getfront queue left child front node exist set left child new node front left front left temp right child front node exist set right child new node els front right front right temp front node left child right child dequeu 
+hasbothchild front dequeu queue enqueu new node later insert enqueu temp queue standard level order travers test function void levelord struct node root struct queue queue createqueu size enqueu root queue isempti queue struct node temp dequeu queue printf temp data temp left enqueu temp left queue temp right enqueu temp right queue driver program test function int main struct node root null struct queue queue createqueu size int 1 12 insert root queue levelord root return 0 output 1 2 3 4 5 6 7 8 9 10 11 12 articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

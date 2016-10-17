@@ -1,0 +1,27 @@
+given set n string arr find smallest string contain string given set substr 
+may assum string arr substr anoth string 
+exampl input arr geek quiz output geeksquizfor input arr catg ctaagt gcta ttca atgcatc output gctaagttcatgcatc shortest superstr greedi approxim algorithm shortest superstr problem np hard problem 
+solut alway find shortest superstr take exponenti time 
+approxim greedi algorithm 
+let arr given set string 
+1 creat auxiliari array string temp 
+copi content arr temp 2 temp contain one string find overlap string pair temp 
+let pair b 
+b replac b string obtain combin 
+3 string left temp result return 
+two string overlap prefix one string suffix string vice vers 
+maximum overlap mean length match prefix suffix maximum 
+work algorithm arr catgc ctaagt gcta ttca atgcatc initi temp catgc ctaagt gcta ttca atgcatc overlap string catgc atgcatc suffix length 4 catgc prefix atgcatc replac two string catgcatc get temp catgcatc ctaagt gcta ttca overlap string ctaagt gcta prefix length 3 ctaagt suffix gcta replac two string gctaagt get temp catgcatc gctaagt ttca overlap string catgcatc ttca prefix length 2 catgcatc suffix ttca replac two string ttcatgcatc get temp ttcatgcatc gctaagt two string temp comb two optim way get tem gctaagttcatgcatc sinc temp one string return 
+c implement algorithm 
+c program find shortest superstr use greedi approxim algorithm includ bit stdc h use namespac std util function calcul minimum two number int min int int b return b 
+b function calcul maximum overlap two given string int findoverlappingpair string str1 string str2 string str max store maximum overlap e maximum length match prefix suffix int max int_min int len1 str1 length int len2 str2 length check suffix str1 match prefix str2 int 1 min len1 len2 compar last charact str1 first charact str2 str1 compar len1 str2 0 0 max updat max str max str str1 str2 substr check prefix str1 match suffix str2 int 1 min len1 len2 compar first charact str1 last charact str2 str1 compar 0 str2 len2 0 max updat max str max str str2 str1 substr return max function calcul smallest string contain string given set substr 
+string findshortestsuperstr string arr int len run len 1 time consid everi pair len 1 int max int_min store maximum overlap int l r store array index string involv maximum overlap string resstr store result string maximum overlap int 0 len int j 1 j len j string str re store maximum length match prefix suffix str pass refer store result string maximum overlap arr arr j 
+int re findoverlappingpair arr arr j str check maximum overlap max re max re resstr assign str l r j len ignor last element next cycl overlap append arr len arr 0 max int_min arr 0 arr len els arr l resstr copi result string index l arr r arr len copi string last index index r return arr 0 driver program int main string arr catgc ctaagt gcta ttca atgcatc int len sizeof arr sizeof arr 0 cout shortest superstr findshortestsuperstr arr len return 0 code contribut aditya goel perform algorithm greedi algorithm prove 4 approxim e length superstr gener algorithm never beyond 4 time shortest possibl superstr 
+algorithm conjectur 2 approxim nobodi found case gener twice worst 
+conjectur worst case exampl abk bkc bk 1 
+exampl abb bbc bbb algorithm may gener abbcbbb abb bbc pick first pair actual shortest superstr abbbc 
+ratio 7 5 larg k ration approach 2 exist better approxim algorithm problem 
+pleas refer link 
+shortest superstr problem set 2 use set cover applic use genom project sinc allow research determin entir code region collect fragment section 
+refer http fileadmin cs lth se cs person andrzej_linga superstr pdf http math mit edu goeman 18434s06 superstr lele pdf articl contribut piyush 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

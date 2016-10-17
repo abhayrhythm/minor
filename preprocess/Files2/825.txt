@@ -1,0 +1,44 @@
+abstract prerequisit object base imag analysi gener adequ segment 
+howev paramet imag segment algorithm often manual defin 
+therefor gener ideal segment level usual costli user depend 
+strategi semi automat optim object base classif multi tempor data introduc use super pixel algorithm sp 
+super pixel contour algorithm use gener set differ level segment use variou combin paramet 
+final best paramet combin select base cross valid like bag oob error provid sp 
+move select combin hidden object found 
+propos strategi use oob error select ideal segment level provid similar classif accuraci compar result achiev manual base imag segment 
+system oper easi handl thu econom find miss object dens forest 
+implement classif multipl segment base decis tree 
+decis tree individu learner combin 
+one popular learn method commonli use data explor 
+one type decis tree call cart classif regress tree 
+cart greedi top binari recurs partit divid featur space set disjoint rectangular region 
+region pure respect respons variabl 
+simpl model fit region major vote classif constant valu regress 
+research super pixel base imag segment 
+tool java provid rich librari network imag process 
+java netbean download link http www oracl com technetwork java javas download index html conclus project static imag obtain user super pixel algorithm use detect pixel object use segment techniqu 
+super pixel algorithm use found accur compar algorithm 
+segment frame process obtain exact locat target imag found 
+help find object lost dens forest 
+see difficulti find object dens forest motiv inspir creat project would lighten burden 
+project help locat exact posit object forest environ easili 
+man power energi cost reduc 
+hope make work smarter 
+futur enhanc human detect project extend 3d imag find human frame 
+output process distinguish human non human field view 
+implement use object recognit algorithm 
+templat match perform 
+use templat match human detect frame match sever imag store databas 
+henc ident frame match match exist 
+thu ad featur precis finer detail introduc 
+ii motion track propos system made wearabl integr embed hardwar softwar along camera 
+enhanc portabl improv access 
+extens project would includ motion track object interest 
+use locat lost object easili 
+use robot vision surveil system 
+refer shin k g 
+mckay n 1984 super pixel imag segment proc amer contr conf san diego ca pp 
+1231 1236 articl contribut kishar ahm 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

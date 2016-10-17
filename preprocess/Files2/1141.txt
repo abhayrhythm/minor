@@ -1,0 +1,26 @@
+array contain posit neg number random order 
+rearrang array element posit neg number place altern 
+number posit neg number need equal 
+posit number appear end array 
+neg number appear end array 
+exampl input array 1 2 3 4 5 6 7 8 9 output 9 7 8 3 5 1 2 4 6 solut first separ posit neg number use partit process quicksort 
+partit process consid 0 valu pivot element neg number place posit number 
+neg posit number separ start first neg number first posit number swap everi altern neg number next posit number 
+c c program put posit number even index 0 2 4 neg number odd index 1 3 5 includ stdio h prototyp swap void swap int int b main function rearrang element given array 
+put posit element even index 0 2 neg number odd index 1 3 
+void rearrang int arr int n follow line similar partit process quicksort 
+idea consid 0 pivot divid array around 
+int 1 int j 0 j n j arr j 0 swap arr arr j posit number end neg number begin array 
+initi index start point posit neg number swap int po 1 neg 0 increment neg index 2 posit index 1 e swap everi altern neg number next posit number po n neg po arr neg 0 swap arr neg arr po po neg 2 util function swap two element void swap int int b int temp b b temp util function print array void printarray int arr int n int 0 n printf 4d arr driver program test function int main int arr 1 2 3 4 5 6 7 8 9 int n sizeof arr sizeof arr 0 rearrang arr n printarray arr n return 0 java java program put posit number even index 0 2 4 neg number odd index 1 3 5 import java io 
+class altern main function rearrang element given array 
+put posit element even index 0 2 neg number odd index 1 3 
+static void rearrang int arr int n follow line similar partit process quicksort 
+idea consid 0 pivot divid array around 
+int 1 temp 0 int j 0 j n j arr j 0 temp arr arr arr j arr j temp posit number end neg number begin array 
+initi index start point posit neg number swap int po 1 neg 0 increment neg index 2 posit index 1 e swap everi altern neg number next posit number po n neg po arr neg 0 temp arr neg arr neg arr po arr po temp po neg 2 util function print array static void printarray int arr int n int 0 n system print arr driver function check function public static void main string arg int arr 1 2 3 4 5 6 7 8 9 int n arr length rearrang arr n system println array rearrang printarray arr n code contribut devesh agraw output 4 3 5 1 6 7 2 8 9 time complex n n number element given array 
+auxiliari space 1 note partit process chang rel order element 
+articl compil abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

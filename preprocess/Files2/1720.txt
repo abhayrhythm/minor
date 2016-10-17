@@ -1,0 +1,65 @@
+given graph repres flow network everi edg capac 
+also given two vertic sourc sink graph find maximum possibl flow follow constraint flow edg exceed given capac edg 
+b incom flow equal outgo flow everi vertex except exampl consid follow graph clr book 
+maximum possibl flow graph 23 discuss ford fulkerson algorithm use augment path comput maximum flow 
+push relabel algorithm push relabel approach effici ford fulkerson algorithm 
+post goldberg gener maximum flow algorithm discuss run v2e time 
+time complex better e2v time complex edmond karp algorithm bf base implement ford fulkerson 
+exist push relabel approach base algorithm work v3 even better one discuss 
+similar ford fulkerson like ford fulkerson push relabel also work residu graph residu graph flow network graph indic addit possibl flow 
+path sourc sink residu graph possibl add flow 
+differ ford fulkerson push relabel algorithm work local 
+rather examin entir residu network find augment path push relabel algorithm work one vertex time sourc clr book 
+ford fulkerson net differ total outflow total inflow everi vertex except sourc sink maintain 0 push relabel algorithm allow inflow exceed outflow reach final flow 
+final flow net differ 0 except sourc sink 
+time complex wise effici 
+intuit behind push relabel algorithm consid fluid flow problem consid edg water pipe node joint 
+sourc consid highest level send water adjac node 
+node excess water push water smaller height node 
+water get local trap vertex vertex relabel mean height increas 
+follow use fact consid proceed algorithm 
+vertex associ height variabl excess flow 
+height use determin whether vertex push flow adjac vertex push flow smaller height vertex 
+excess flow differ total flow come vertex minu total flow go vertex 
+excess flow u total inflow u total outflow u like ford fulkerson 
+edg associ flow indic current flow capac follow abstract step complet algorithm 
+push relabel algorithm 1 initi preflow initi flow height 2 possibl perform push relablel vertex vertex excess flow push relabel point vertic excess flow 0 except sourc sink 3 return flow 
+three main oper push relabel algorithm initi preflow initi height flow vertic 
+preflow 1 initi height flow everi vertex 0 
+2 initi height sourc vertex equal total number vertic graph 
+3 initi flow everi edg 0 
+4 vertic adjac sourc flow excess flow equal capac initi 
+push use make flow node excess flow 
+vertex excess flow adjac smaller height residu graph push flow vertex adjac lower height 
+amount push flow pipe edg equal minimum excess flow capac edg 
+relabel oper use vertex excess flow none adjac lower height 
+basic increas height vertex perform push 
+increas height pick minimum height adjac residu graph e adjac add flow add 1 
+note oper perform residu graph like ford fulkerson 
+illustr proceed exampl need make sure understand residu graph see detail residu graph 
+residu graph differ graph shown 
+whenev push add flow vertex u v follow updat residu graph 1 subtract flow capac edg u v capac edg becom 0 edg longer exist residu graph 
+2 add flow capac edg v u exampl consid two vertic u v origin graph 3 10 u v 3 current flow u v 10 capac edg u v residu graph two edg correspond one edg shown 
+7 u v 3 u v initi given flow graph 
+
+preflow oper 
+residu graph edg capac 3 edg 
+highlight vertex relabel height becom 1 excess flow adjac smaller height 
+new height equal minimum height adjac plu 1 residu graph two adjac vertex one b height 4 height b 0 minimum two height 0 take minimum add 1 
+
+highlight vertex excess flow adjac lower height push happen 
+excess flow vertex 2 capac edg b 1 therefor amount push flow 1 minimum two valu 
+
+highlight vertex relabel height becom 1 excess flow adjac smaller height 
+
+highlight vertex excess flow adjac lower height flow push b 
+highlight vertex relabel height becom 5 excess flow adjac smaller height 
+
+highlight vertex excess flow adjac lower height push happen 
+
+highlight vertex relabel height increas 1 excess flow adjac smaller height 
+exampl taken 
+push relabel algorithm set 2 implement articl contribut siddharth lalwani 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

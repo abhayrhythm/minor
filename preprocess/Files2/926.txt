@@ -1,0 +1,16 @@
+post extens dynam alloc 2d array c 
+one dimension array easili pass pointer syntax pass 2d array function difficult rememb 
+one import thing pass multidimension array first array dimens specifi 
+second subsequ dimens must given 1 second dimens avail global either macro global constant 
+includ stdio h const int n 3 void print int arr n int int j 0 j 0 j n j printf arr j int main int arr 3 1 2 3 4 5 6 7 8 9 print arr 3 return 0 output 1 2 3 4 5 6 7 8 9 method fine second dimens fix user specifi 
+follow method handl case second dimens also chang 
+1 compil c99 compat c99 c languag support variabl size array pass simpli specifi variabl dimens see exampl run follow program work compil c99 compat 
+includ stdio h n must pass 2d array void print int int n int arr n int j 0 j 0 j n j printf arr j int main int arr 3 1 2 3 4 5 6 7 8 9 int 3 n 3 print n arr return 0 output c99 compat compil 1 2 3 4 5 6 7 8 9 compil c99 compat use one follow method pass variabl size 2d array 
+2 use singl pointer method must typecast 2d array pass function 
+includ stdio h void print int arr int int n int j 0 j 0 j n j printf arr n j int main int arr 3 1 2 3 4 5 6 7 8 9 int 3 n 3 print int arr n return 0 output 1 2 3 4 5 6 7 8 9 3 use array pointer doubl pointer method also must typecast 2d array pass function 
+includ stdio h void print int arr int int n void print int arr int int n int j 0 j 0 j n j printf arr n j int main int arr 3 1 2 3 4 5 6 7 8 9 int 3 int n 3 print int arr n return 0 output 1 2 3 4 5 6 7 8 9 rememb c array paramet treat pointer array pointer doubl pointer paramet 
+dynam alloc 2 differ method array pointer doubl pointer 
+dynam alloc post 2 differ method array pointer doubl pointer 
+method 2 3 also use c99 compat compil situat 2d array dynam alloc use malloc 
+refer http www eskimo com sc cclass int sx9a html articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

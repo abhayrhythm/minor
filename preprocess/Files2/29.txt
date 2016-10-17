@@ -1,0 +1,4 @@
+interpol search work better binari search sort uniformli distribut array 
+averag interpol search make log log n comparison element uniformli distribut n number element search 
+worst case instanc numer valu key increas exponenti make n comparison 
+sourc http en wikipedia org wiki interpolation_search adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

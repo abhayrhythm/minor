@@ -1,0 +1,45 @@
+e shaw recent carri intern procedur colleg 
+whole process three round 
+round 1 cv shortlist 
+total 41 candid 12 select 
+round 2 telephon interview 
+call last 40 minut 
+interview ask academ project first 
+next ask prefer program languag c c java 
+prefer c 
+start oop concept 
+name highlight oop ask data encapsul 
+demand exampl 
+question follow c implement exampl given 
+switch virtual function 
+next came inherit upcast downcast virtual keyword use 
+ask call constructor base class use deriv class 
+next ask ds question 
+three question total 
+1 given string 
+check obtain palindrom rearrang charact string 
+2 given singli link list 
+detect loop present list 
+brute forc well floyd cycl algorithm explain detail 
+3 given doubli link list next pointer point next node pointer point random node 
+clone list 
+round 3 last round telephon interview 
+time call last 40 minut 
+two interview time 
+ask explain one project begin 
+ask explain project 
+next ask stl gener class templat c 
+ask give exampl class implement use templat 
+came data structur part 
+time ask two question 
+relat real life scenario 
+1 given detail person first name last name telephon number 
+sort accord last name 
+said use qsort explain whole process design compar function 
+demand answer without use librari function 
+2 next ask given number directori search person detail directori 
+answer must effici enough could use map like mumbai 
+3 next question implement spell check use microsoft offic word data structur could use implement 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

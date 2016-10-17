@@ -1,0 +1,35 @@
+given grid cell consist posit neg point e zero point 
+move across cell posit point 0 
+whenev pass cell point cell ad overal point 
+need find minimum initi point reach cell 1 n 1 0 0 
+constraint cell j move 1 j j 1 
+cannot move j overal point j 0 reach n 1 1 minimum posit point e 0 exampl input point n 2 3 3 5 10 1 10 30 5 output 7 explan 7 minimum valu reach destin posit throughout path 
+path 
+0 0 0 1 0 2 1 2 2 2 start 0 0 7 reach 0 1 5 0 2 2 1 2 5 2 2 final 1 point need greater 0 point end 
+strongli recommend click practic move solut 
+first look problem look similar max min cost path maximum overal point gain guarante minimum initi point 
+also compulsori current problem point never drop zero 
+instanc suppos follow two path exist sourc destin cell 
+solv problem bottom tabl fill dynam program techniqu 
+begin maintain 2d array dp size grid dp j repres minimum point guarante continu journey destin enter cell j 
+obviou dp 0 0 final solut 
+henc problem need fill tabl bottom right corner left top 
+let us decid minimum point need leav cell j rememb move bottom 
+two path choos 1 j j 1 
+cours choos cell player finish rest journey smaller initi point 
+therefor min_points_on_exit min dp 1 j dp j 1 know comput min_points_on_exit need fill tabl dp get solut dp 0 0 
+comput dp j 
+valu dp j written 
+dp j max min_points_on_exit point j 1 let us see express cover case 
+point j 0 noth gain cell player leav cell point enter room e 
+dp j min_points_on_exit 
+dp j 0 player must point greater min_points_on_exit enter j order compens point lost cell 
+minimum amount compens point j dp j min_points_on_exit point j 
+dp j 0 player could enter j point littl min_points_on_exit point j 
+sinc could gain point j point cell 
+howev valu min_points_on_exit point j might drop 0 situat 
+happen must clip valu 1 order make sure dp j stay posit dp j max min_points_on_exit point j 1 
+final return dp 0 0 answer 
+implement algorithm 
+c c program find minimum initi point reach destin includ bit stdc h defin r 3 defin c 3 use namespac std int mininitialpoint int point c dp j repres minimum initi point player start cell j success reach destin cell 1 n 1 int dp r c int r n c base case dp 1 n 1 point 1 n 1 0 
+1 ab point 1 n 1 1 fill last row last column base fill entir tabl int 2 0 dp n 1 max dp 1 n 1 point n 1 1 int j n 2 j 0 j dp 1 j max dp 1 j 1 point 1 j 1 fill tabl bottom fashion int 2 0 int j n 2 j 0 j int min_points_on_exit min dp 1 j dp j 1 dp j max min_points_on_exit point j 1 return dp 0 0 driver program int main int point r c 2 3 3 5 10 1 10 30 5 cout minimum initi point requir mininitialpoint point return 0 

@@ -1,0 +1,14 @@
+given binari tree find minimum depth 
+minimum depth number node along shortest path root node nearest leaf node 
+exampl minimum height binari tree 2 note path must end leaf node 
+exampl minimum height binari tree also 2 
+10 5 strongli recommend minim browser tri first 
+idea travers given binari tree 
+everi node check leaf node 
+ye return 1 leaf node left subtre null recur right subtre 
+right subtre null recur left subtre 
+left right subtre null take minimum two height 
+implement idea 
+c c program find minimum depth given binari tree includ bit stdc h use namespac std bt node struct node int data struct node left right int mindepth node root corner case 
+never hit unless code call root null root null return 0 base case leaf node 
+account height 1 root left null root right null return 1 left subtre null recur right subtre root left return mindepth root right 1 right subtre null recur right subtre root right return mindepth root left 1 return min mindepth root left mindepth root right 1 util function creat new node node newnod int data node temp new node temp data data temp left temp right null return temp driver program int main let us construct tree shown figur node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 cout mindepth root return 0 

@@ -1,0 +1,4 @@
+suggest dheeraj question given two number b write program count number bit need flip convert b solut 1 calcul xor b a_xor_b b 2 count set bit calcul xor result 
+countsetbit a_xor_b xor two number set bit place differ b exampl 1001001 b 0010101 a_xor_b 1011100 bit need flip set bit count a_xor_b e 
+4 strongli recommend click practic move solut 
+get set bit count pleas see anoth post portal http geeksforgeek org p 1176 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

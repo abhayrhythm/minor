@@ -1,0 +1,41 @@
+discuss follow topic red black tree previou post 
+strongli recommend refer follow post prerequisit post 
+red black tree introduct red black tree insert insert vs delet like insert recolor rotat use maintain red black properti 
+insert oper check color uncl decid appropri case 
+delet oper check color sibl decid appropri case 
+main properti violat insert two consecut red 
+delet main violat properti chang black height subtre delet black node may caus reduc black height one root leaf path 
+delet fairli complex process 
+understand delet notion doubl black use 
+black node delet replac black child child mark doubl black 
+main task becom convert doubl black singl black 
+delet step follow detail step delet 
+1 perform standard bst delet 
+perform standard delet oper bst alway end delet node either leaf one child intern node copi successor recurs call delet successor successor alway leaf node node one child 
+need handl case node leaf one child 
+let v node delet u child replac v note u null v leaf color null consid black 
+2 simpl case either u v red mark replac child black chang black height 
+note u v cannot red v parent u two consecut red allow red black tree 
+3 u v black 
+3 1 color u doubl black 
+task reduc convert doubl black singl black 
+note v leaf u null color null consid black 
+delet black leaf also caus doubl black 
+3 2 follow current node u doubl black root 
+let sibl node 
+
+sibl black least one sibl children red perform rotat 
+let red child r case divid four subcas depend upon posit r left left case left child parent r left child children red 
+mirror right right case shown diagram 
+ii left right case left child parent r right child 
+mirror right left case shown diagram 
+iii right right case right child parent r right child children red iv right left case right child parent r left child b sibl black children black perform recolor recur parent parent black 
+case parent red need recur prent simpli make black red doubl black singl black c sibl red perform rotat move old sibl recolor old sibl parent 
+new sibl alway black see diagram 
+mainli convert tree black sibl case rotat lead case b 
+case divid two subcas 
+left case left child parent 
+mirror right right case shown diagram 
+right rotat parent p iii right case right child parent 
+left rotat parent p 3 3 u root make singl black return black height complet tree reduc 1 
+refer http www cs purdu edu home ayg cs251 slide chap13c pdf introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

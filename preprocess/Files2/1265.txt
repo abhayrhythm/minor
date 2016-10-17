@@ -1,0 +1,25 @@
+given two string string1 string2 find smallest substr string1 contain charact string2 effici 
+exampl input string1 test string input string2 tist output string stri strongli recommend click practic move solut 
+method 1 brute forc solut gener substr string1 test string b substr check whether substr contain charact string2 tist c final print smallest substr contain charact string2 
+method 2 effici solut 1 build count array count string 2 count array store count charact 
+count 1 count 2 count 1 2 scan string1 left right find charact string2 
+check charact use count built step 1 substr contain charact string2 
+note first last charact substr must present string2 
+store length substr min_len 
+3 move forward string1 keep ad charact substr 
+whenev charact ad check ad charact match left charact substr 
+match add new charact right side substr remov leftmost charact extra charact left charact 
+remov extra charact get length substr compar min_len updat min_len accordingli 
+basic add e substr add 
+match left charact remov h left side substr 
+current substr becom test 
+compar length min_len updat min_len 
+add charact current substr test 
+string becom test str 
+add remov leftmost extra charact current substr becom stri 
+compar length min_len updat min_len 
+final add n g 
+ad charact decreas min_len smallest window remain stri 
+4 return min_len 
+pleas write comment find algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

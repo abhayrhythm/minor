@@ -1,0 +1,13 @@
+given string lowercas alphabet count possibl substr necessarili distinct exactli k distinct charact 
+exampl input abc k 2 output 2 possibl substr ab bc input aba k 2 output 3 possibl substr ab ba aba input aa k 1 output 3 possibl substr aa method 1 brute forc length string n n n 1 2 possibl substr 
+simpl way gener substr check one whether exactli k uniqu charact 
+appli brute forc would take n n gener substr n check one 
+thu overal would go n n n 
+method 2 problem solv n n 
+idea maintain hash tabl gener substr check number uniqu charact use hash tabl 
+implement assum input string contain charact z 
+implement c c program count number substr exactli k distinct charact given string includ bit stdc h use namespac std function count number substr exactli k uniqu charact int countkdist string str int k int n str length initi result int re 0 store count charact z int cnt 26 consid substr begin str int 0 n int dist_count 0 initi array 0 memset cnt 0 sizeof cnt consid substr str j int j j n j new charact substr increment dist_count 
+cnt str j 0 dist_count increment count current charact cnt str j distinct charact count becom k increment result 
+dist_count k re return re driver program int main string str abcbaa int k 3 cout total substr exactli k distinct charact countkdist str k endl return 0 java java program countksubstr number substr exactli distinct charact given string import java util array public class countksubstr function count number substr exactli k uniqu charact int countkdist string str int k initi result int re 0 int n str length store count charact z int cnt new int 26 consid substr begin str int 0 n int dist_count 0 initi count array 0 array fill cnt 0 consid substr str j int j j n j new charact substr increment dist_count 
+cnt str charat j 0 dist_count increment count current charact cnt str charat j distinct charact count becom k increment result 
+dist_count k re return re driver program public static void main string arg countksubstr ob new countksubstr string ch abcbaa int k 3 system println total substr exactli k distinct charact ob countkdist ch k output 

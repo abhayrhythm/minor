@@ -1,0 +1,90 @@
+
+Round 0: (Written): 20 MCQs + 2 Coding Questions:
+MCQs – Topics:
+
+OS – Page fault, Waiting time (RR Scheduling), Paging, Semaphores, etc.
+DS – Hashing (simple chaining based numerical)
+Aptitude – 1 Probability question, Puzzle – 1 question, C– 2 questions, etc.
+
+Coding Questions:
+
+Given a list of n strings group all anagrams together
+Example:
+i/p: cat act pat mad dog god
+o/p:
+cat act
+pat
+mad
+dog god
+Given a binary square matrix of size n, find the size of largest region i.e. find a region of connected ones (horizontally, diagonally, vertically).Example:
+i/p:
+0 1 0 0
+1 1 1 0
+0 0 1 0
+1 0 0 0 
+o/p: 5
+
+DAY 2: (Interview Rounds)
+Round 1 (Technical Interview – 1 hr. approx.)
+The Interview started with the interviewer telling me that we don’t have much time so he will ask few questions on data structures and algorithms and I will need to tell him the approach.
+
+Reverse a linked list.
+
+I gave two approaches, one using stack and one using pointers (in-place).
+
+
+Print top view of a binary tree.
+
+ Well simple question but don’t know why I started using DFS approach (Pre-Order Traversal)
+ Tried using pre-order but he gave me test cases where it failed.
+ Tried different approaches within pre-order found issues with one or the other test cases and I was also using HashMap to keep track of nodes to print.
+So he asked me to do it without auxiliary storage.
+I tried level order approach (w/o auxiliary HashMap)and it worked fine for all test cases.
+He was satisfied with the approach, so asked me to write production level code.
+
+
+
+Round 2 (Technical Interview – 45mins. approx.)
+The interviewer introduced himself briefly and asked me to introduce myself. No follow up questions from the introduction (although I was hoping something on projects or company :P).
+
+Find Kth Max occurring element in the Array.
+
+Used HashMap and Heap to solve the question.
+Time O(n*logn)
+
+
+DP question: http://www.geeksforgeeks.org/how-to-print-maximum-number-of-a-using-given-four-keys/
+
+Round 3 (Technical Interview –  45 mins. approx.)
+The interviewer introduced himself briefly and asked me to introduce myself. No follow up questions from the introduction again.
+He gave me a string based question and asked me if I knew it already (which I didn’t), so he asked me to come up with an approach.
+
+Given a string find a repeating substring of maximum length.
+Example:
+i/p 1: banana
+o/p 1: ana
+i/p 2: indiaindianttindiaindia
+o/p 2:india india
+I thought of using KMP but complexity was high with this approach. I tried using Longest Common Substring to see if there is any pattern or way to solve it using LCS, I found an approach told it to the interviewer he was very happy with the approach.
+
+Round 4 (Technical Interview – 25mins. approx.)
+Short round as it was my last round.
+Only one question:
+
+Given an infinite integer number line, find minimum steps required to reach a particular point. 0 is the starting point and at ith step we can move +i or -i steps from current position.
+Tried using tree and realised it is DP problem told him the approach and complexity and why DP and why BFS (to get minimum steps).He was satisfied with the approach.
+
+ALL THE BEST :):)
+Thanks GeeksforGeeks for all the material, it helped me a lot during preparations.  Keep it up !!
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

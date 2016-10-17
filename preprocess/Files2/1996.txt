@@ -1,0 +1,35 @@
+volatil keyword intend prevent compil appli optim object chang way cannot determin compil 
+object declar volatil omit optim valu chang code outsid scope current code time 
+system alway read current valu volatil object memori locat rather keep valu temporari regist point request even previou instruct ask valu object 
+simpl question valu variabl chang way compil cannot predict 
+consid follow case answer question 
+1 global variabl modifi interrupt servic routin outsid scope exampl global variabl repres data port usual global pointer refer memori map io updat dynam 
+code read data port must declar volatil order fetch latest data avail port 
+fail declar variabl volatil compil optim code way read port keep use valu temporari regist speed program speed optim 
+gener isr use updat data port interrupt due avail new data 2 global variabl within multi thread applic multipl way thread commun viz messag pass share memori mail box etc 
+global variabl weak form share memori 
+two thread share inform via global variabl need qualifi volatil 
+sinc thread run asynchron updat global variabl due one thread fetch freshli anoth consum thread 
+compil read global variabl place temporari variabl current thread context 
+nullifi effect compil optim global variabl qualifi volatil use volatil qualifi follow problem may aris 1 code may work expect optim turn 
+2 code may work expect interrupt enabl use 
+let us see exampl understand compil interpret volatil keyword 
+consid code chang valu const object use pointer compil code without optim option 
+henc compil optim chang valu const object 
+compil code without optim option includ stdio h int main void const int local 10 int ptr int local printf initi valu local n local ptr 100 printf modifi valu local n local return 0 compil code save temp option gcc gener 3 output file 1 preprocess code extent 2 assembl code extent 3 object code option 
+compil code without optim size assembl code larger highlight red color 
+output narendra ubuntu gcc volatil c volatil save temp narendra ubuntu volatil initi valu local 10 modifi valu local 100 narendra ubuntu ls l volatil rw r r 1 narendra narendra 731 2016 11 19 16 19 volatil narendra ubuntu let us compil code optim option e 
+option 
+thr code local declar const non volatil gcc compil optim ignor instruct tri chang valu const object 
+henc valu const object remain 
+compil code optim option includ stdio h int main void const int local 10 int ptr int local printf initi valu local n local ptr 100 printf modifi valu local n local return 0 code compil optim size assembl code reduc 
+output narendra ubuntu gcc o3 volatil c volatil save temp narendra ubuntu volatil initi valu local 10 modifi valu local 10 narendra ubuntu ls l volatil rw r r 1 narendra narendra 626 2016 11 19 16 21 volatil let us declar const object volatil compil code optim option 
+although compil code optim option valu const object chang variabl declar volatil mean optim 
+compil code optim option includ stdio h int main void const volatil int local 10 int ptr int local printf initi valu local n local ptr 100 printf modifi valu local n local return 0 output narendra ubuntu gcc o3 volatil c volatil save temp narendra ubuntu volatil initi valu local 10 modifi valu local 100 narendra ubuntu ls l volatil rw r r 1 narendra narendra 711 2016 11 19 16 22 volatil narendra ubuntu exampl may good practic exampl purpos explain compil interpret volatil keyword 
+practic exampl think touch sensor mobil phone 
+driver abstract touch sensor read locat touch send higher level applic 
+driver modifi const ness read locat make sure read touch input everi time fresh volatil ness 
+driver must read touch sensor input const volatil manner 
+refer follow link detail volatil keyword volatil programm best friend use volatil synchron primit articl compil narendra kangralkar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

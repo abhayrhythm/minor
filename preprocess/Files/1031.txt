@@ -1,0 +1,23 @@
+
+Asked by Kapil
+Predict the output of below program. 
+
+#include <stdio.h>
+#define TOTAL_ELEMENTS (sizeof(array) / sizeof(array[0]))
+int array[] = {1, 2, 3, 4, 5, 6, 7};
+
+int main()
+{
+ int i;
+
+ for(i = -1; i <= (TOTAL_ELEMENTS-2); i++)
+   printf("%d\n", array[i+1]);
+
+ getchar();
+ return 0;
+}
+
+Output: Nothing is printed as loop condition is not true for the first time itself.
+The result of sizeof for an array operand is number of elements in the array multiplied by size of an element in bytes. So value of the expression TOTAL_ELEMENTS in the above program is 7.
+The data type of the sizeof result is unsigned int or unsigned long depending upon the compiler implementation. Therefore, in the loop condition i <= (TOTAL_ELEMENTS-2), an int is compared to an unsigned value. int is implicitly converted to unsigned (true for both unsigned int and unsigned long). So -1 ( unsigned equivalent 4294967295 if integers are stored using 32 bit) is compared to TOTAL_ELEMENTS - 2 and the condition is not true for the first time itself.
+

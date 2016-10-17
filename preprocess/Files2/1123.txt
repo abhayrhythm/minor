@@ -1,0 +1,43 @@
+given two unsort array repres two set element everi array distinct find union intersect two array 
+exampl input array arr1 7 1 5 2 3 6 arr2 3 8 6 20 7 program print union 1 2 3 5 6 7 8 20 intersect 3 6 
+note element union intersect print order 
+method 1 naiv union 1 initi union u empti 
+2 copi element first array u 
+3 follow everi element x second array x present first array copi x u 
+4 return u intersect 1 initi intersect empti 
+2 follow everi element x first array x present second array copi x 
+4 return time complex method mn oper 
+n number element arr1 arr2 respect 
+method 2 use sort 1 sort arr1 arr2 
+step take mlogm nlogn time 
+2 use n algorithm find union intersect two sort array 
+overal time complex method mlogm nlogn 
+method 3 use sort search union 1 initi union u empti 
+2 find smaller n sort smaller array 
+3 copi smaller array u 
+4 everi element x larger array follow b binari search x smaller array 
+x present copi u 
+5 return u intersect 1 initi intersect empti 
+2 find smaller n sort smaller array 
+3 everi element x larger array follow b binari search x smaller array 
+x present copi 
+4 return time complex method min mlogm nlogm mlogn nlogn also written n logm n logn 
+approach work much better previou approach differ size two array signific 
+thank use_the_forc suggest method comment 
+implement method 
+c c program print union intersect two unsort array includ iostream includ algorithm use namespac std int binarysearch int arr int l int r int x print union arr1 0 1 arr2 0 n 1 void printunion int arr1 int arr2 int int n find union make sure arr1 0 1 smaller n int tempp arr1 arr1 arr2 arr2 tempp int temp n n temp arr1 smaller sort first array print element two step swap order output import sort arr1 arr1 int 0 cout arr1 search everi element bigger array smaller array print element found int 0 n binarysearch arr1 0 1 arr2 1 cout arr2 print intersect arr1 0 1 arr2 0 n 1 void printintersect int arr1 int arr2 int int n find intersect make sure arr1 0 1 smaller n int tempp arr1 arr1 arr2 arr2 tempp int temp n n temp arr1 smaller sort smaller array arr1 0 1 sort arr1 arr1 search everi element bigger array smaller array print element found int 0 n binarysearch arr1 0 1 arr2 1 cout arr2 recurs binari search function 
+return locat x given array arr l r present otherwis 1 int binarysearch int arr int l int r int x r l int mid l r l 2 element present middl arr mid x return mid element smaller mid present left subarray arr mid x return binarysearch arr l mid 1 x els element present right subarray return binarysearch arr mid 1 r x reach element present array return 1 driver program test function int main int arr1 7 1 5 2 3 6 int arr2 3 8 6 20 7 int sizeof arr1 sizeof arr1 0 int n sizeof arr2 sizeof arr2 0 cout union two array n printunion arr1 arr2 n cout nintersect two array n printintersect arr1 arr2 n return 0 java import java util array class unionandintersect print union arr1 0 1 arr2 0 n 1 void printunion int arr1 int arr2 int int n find union make sure arr1 0 1 smaller n int tempp arr1 arr1 arr2 arr2 tempp int temp n n temp arr1 smaller sort first array print element two step swap order output import array sort arr1 int 0 system print arr1 search everi element bigger array smaller array print element found int 0 n binarysearch arr1 0 1 arr2 1 system print arr2 print intersect arr1 0 1 arr2 0 n 1 void printintersect int arr1 int arr2 int int n find intersect make sure arr1 0 1 smaller n int tempp arr1 arr1 arr2 arr2 tempp int temp n n temp arr1 smaller sort smaller array arr1 0 1 array sort arr1 search everi element bigger array smaller array print element found int 0 n binarysearch arr1 0 1 arr2 1 system print arr2 recurs binari search function 
+return locat x given array arr l r present otherwis 1 int binarysearch int arr int l int r int x r l int mid l r l 2 element present middl arr mid x return mid element smaller mid present left subarray arr mid x return binarysearch arr l mid 1 x els element present right subarray return binarysearch arr mid 1 r x reach element present array return 1 driver program test function public static void main string arg unionandintersect u_i new unionandintersect int arr1 7 1 5 2 3 6 int arr2 3 8 6 20 7 int arr1 length int n arr2 length system println union two array u_i printunion arr1 arr2 n system println system println intersect two array u_i printintersect arr1 arr2 n output union two array 3 6 7 8 20 1 5 2 intersect two array 7 3 6 method 4 use hash union 1 initi union u empti 
+1 initi empti hash tabl 
+2 iter first array put everi element first array hash tabl u 
+4 everi element x second array follow search x hash tabl 
+x present copi u 
+5 return u intersect 1 initi intersect empti 
+2 initi empti hash tabl 
+3 iter first array put everi element first array hash tabl 
+4 everi element x second array follow search x hash tabl 
+x present copi 
+5 return time complex method θ n assumpt hash tabl search insert oper take θ 1 time 
+see follow post sort array 
+find union intersect two sort array pleas write comment find bug code algorithm find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

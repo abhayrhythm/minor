@@ -1,0 +1,3 @@
+solut use sprintf function 
+includ stdio h int main char result 50 float num 23 34 sprintf result f num printf n string num result getchar also write function use ascii valu number 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

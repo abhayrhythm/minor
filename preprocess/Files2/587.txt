@@ -1,0 +1,9 @@
+given n x n matrix everi row column sort increas order 
+given number x decid whether x matrix 
+design algorithm linear time complex 
+thank devendraiiit suggest approach 
+1 start top right element 2 loop compar element e x equal return posit ii e x move bound matrix break return fals iii e x move left bound matrix break return fals 3 repeat ii iii till find element return fals implement includ stdio h search element x mat 
+element found print posit return true otherwis print found return fals int search int mat 4 4 int n int x int 0 j n 1 set index top right element n j 0 mat j x printf n found j return 1 mat j x j els mat j x printf n element found return 0 n j 1 driver program test function int main int mat 4 4 10 20 30 40 15 25 35 45 27 29 37 48 32 33 39 50 search mat 4 29 getchar return 0 time complex n approach also work x n matrix n x n 
+complex would n 
+pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

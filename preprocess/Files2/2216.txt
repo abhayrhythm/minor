@@ -1,0 +1,26 @@
+strongli recommend click practic move solut 
+1 simpl method simpli take log number base 2 get integ number power 2 
+2 anoth solut keep divid number two e n n 2 iter 
+iter n 2 becom non zero n 1 n power 2 n becom 1 power 2 
+includ stdio h defin bool int function check x power 2 bool ispoweroftwo int n n 0 return 0 n 1 n 2 0 return 0 n n 2 return 1 driver program test function int main ispoweroftwo 31 
+printf ye n printf n ispoweroftwo 17 
+printf ye n printf n ispoweroftwo 16 
+printf ye n printf n ispoweroftwo 2 
+printf ye n printf n ispoweroftwo 18 
+printf ye n printf n ispoweroftwo 1 
+printf ye n printf n return 0 output ye ye ye 3 power two number one bit set 
+count 
+set bit get 1 number power 2 pleas see http geeksforgeek org p 1176 count set bit 
+4 subtract power 2 number 1 unset bit set bit becom set set bit becom unset 
+exampl 4 100 16 10000 get follow subtract 1 3 011 15 01111 number n power 2 bitwis n n 1 zero 
+say n power 2 base valu n n 1 
+express n n 1 work n 0 handl case also express becom n n n 1 thank mohammad ad case 
+implement method 
+includ stdio h defin bool int function check x power 2 bool ispoweroftwo int x first x express case x 0 return x 
+x x 1 driver program test function int main ispoweroftwo 31 
+printf ye n printf n ispoweroftwo 17 
+printf ye n printf n ispoweroftwo 16 
+printf ye n printf n ispoweroftwo 2 
+printf ye n printf n ispoweroftwo 18 
+printf ye n printf n ispoweroftwo 1 
+printf ye n printf n return 0 output ye ye ye pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

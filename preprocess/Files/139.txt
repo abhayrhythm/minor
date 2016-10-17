@@ -1,0 +1,63 @@
+
+Given a string ‘str’ of digits, find  length of the longest substring of ‘str’, such that the length of the substring is 2k digits and sum of left k digits is equal to the sum of right k digits. 
+Examples:
+
+Input: str = "123123"
+Output: 6
+The complete string is of even length and sum of first and second
+half digits is same
+
+Input: str = "1538023"
+Output: 4
+The longest substring with same first and second half sum is "5380"
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+Simple Solution [ O(n3) ]
+A Simple Solution is to check every substring of even length.  The following is C based implementation of simple approach.
+
+// A simple C based program to find length of longest  even length
+// substring with same sum of digits in left and right 
+#include<stdio.h>
+#include<string.h>
+
+int findLength(char *str)
+{
+    int n = strlen(str);
+    int maxlen =0;  // Initialize result
+
+    // Choose starting point of every substring
+    for (int i=0; i<n; i++)
+    {
+        // Choose ending point of even length substring
+        for (int j =i+1; j<n; j += 2)
+        {
+            int length = j-i+1;//Find length of current substr
+
+            // Calculate left & right sums for current substr
+            int leftsum = 0, rightsum =0;
+            for (int k =0; k<length/2; k++)
+            {
+                leftsum  += (str[i+k]-'0');
+                rightsum += (str[i+k+length/2]-'0');
+            }
+
+            // Update result if needed
+            if (leftsum == rightsum && maxlen < length)
+                    maxlen = length;
+        }
+    }
+    return maxlen;
+}
+
+// Driver program to test above function
+int main(void)
+{
+    char str[] = "1538023";
+    printf("Length of the substring is %d", findLength(str));
+    return 0;
+}
+
+Output:
+Length of the substring is 4

@@ -1,0 +1,38 @@
+
+In syllogisms, we are given a set of conditions and we have to check whether the conclusions given after the conditions are true or not. For these type of questions, the best way is to consider all cases and draw venn diagrams. Even if we can find one venn diagram such that a conclusion gets false, that conclusion is the wrong choice.
+Sample Problems
+Question 1 : All rockets are poles
+Some poles are trams
+Some trams are ropes
+All ropes are tents
+Conclusion 1 : Some tents are trams
+Conclusion 2 : Some ropes are rockets
+Conclusion 3 : Some trams are rockets
+Conclusion 4 : Some poles are rockets
+Solution : 
+
+Only Conclusion 1 and Conclusion 4 are true.
+ 
+Question 2 : All dials are mirrors
+All mirrors are spoons
+Some spoons are decks
+Some decks are chairs
+Conclusion 1 : Some decks are mirrors
+Conclusion 2 : Some spoons are dials
+Conclusion 3 : Some decks are dials
+Conclusion 4 : Some chairs are spoons
+Solution : 
+
+Only Conclusion 2 is true.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

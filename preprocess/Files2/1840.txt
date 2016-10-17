@@ -1,0 +1,16 @@
+regex short form regular express often use way program languag mani differ librari 
+support c 11 onward compil 
+function templat use regex regex_match function return true regular express match given string otherwis return fals 
+c program demonstr work regex_match includ iostream includ regex use namespac std int main string geeksforgeek b object regex regular express regex b geek 
+geek follow charact regex_match function match string regex b regex_match b cout string match regular express b n regex_match function match rang string regex b regex_match begin end b cout string match regular express b rang 0 string end n return 0 output string match regular express b string match regular express b rang 0 string end regex_search function use search pattern match regular express c program demonstr work regex_search includ iostream includ regex includ string h use namespac std int main target sequenc string look geeksforgeek articl object regex pattern search regex r geek za z flag type determin match behavior match string object smatch regex_search search regex pattern r string 
+flag determin match behavior 
+regex_search r loop auto x cout x return 0 output geeksforgeek regex_replac function use replac pattern match regular express string 
+c program demonstr work regex_replac includ iostream includ string includ regex includ iter use namespac std int main string look geeksforgeek n match word begin geek regex r geek za z regex_replac replac match geek cout std regex_replac r geek string result regex_replac replac match geek regex_replac back_insert result begin end r geek cout result return 0 output look geek look geek regex oper make use follow paramet target sequenc subject string match 
+regular express pattern regular express target sequenc 
+match array inform match store special match_result array 
+replac string string use allow replac match 
+articl contribut abhinav tiwari 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

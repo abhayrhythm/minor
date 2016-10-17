@@ -1,0 +1,15 @@
+given array arr size n everi element rang 0 n 1 
+rearrang given array arr becom arr arr 
+done 1 extra space 
+exampl input arr 3 2 0 1 output arr 1 0 3 2 input arr 4 0 2 1 3 output arr 3 4 2 0 1 input arr 0 1 2 3 output arr 0 1 2 3 extra space condit remov question becom easi 
+main part question without extra space 
+strongli recommend click practic move solut 
+credit follow solut goe ganesh ram sundaram 
+follow step 
+1 increas everi array element arr arr arr n n 2 divid everi element n let us understand step exampl array 3 2 0 1 first step everi valu increment arr arr n n first step array becom 7 2 12 9 
+import thing increment oper first step everi element hold old valu new valu 
+old valu obtain arr n new valu obtain arr n 
+second step element updat new output valu arr arr n 
+second step array becom 1 0 3 2 follow implement approach 
+c includ iostream use namespac std function rearrang array place arr becom arr arr 
+void rearrang int arr int n first step increas valu arr arr n n int 0 n arr arr arr n n second step divid valu n int 0 n arr n util function print array size n void printarr int arr int n int 0 n cout arr cout endl driver program test function int main int arr 3 2 0 1 int n sizeof arr sizeof arr 0 cout given array n printarr arr n rearrang arr n cout modifi array n printarr arr n return 0 

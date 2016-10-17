@@ -1,0 +1,7 @@
+given unsort array arr two number x find minimum distanc x arr 
+array might also contain duplic 
+may assum x differ present arr 
+exampl input arr 1 2 x 1 2 output minimum distanc 1 2 1 input arr 3 4 5 x 3 5 output minimum distanc 3 5 2 input arr 3 5 4 2 6 5 6 6 5 4 8 3 x 3 6 output minimum distanc 3 6 4 input arr 2 5 3 5 4 4 2 3 x 3 2 output minimum distanc 3 2 1 method 1 simpl use two loop outer loop pick element arr one one 
+inner loop pick element element pick outer loop 
+element pick outer inner loop valu x need updat minimum distanc calcul far 
+c includ stdio h includ stdlib h ab includ limit h int_max int mindist int arr int n int x int int j int min_dist int_max 0 n j 1 j n j x arr arr j arr x arr j min_dist ab j min_dist ab j return min_dist driver program test fnction int main int arr 3 5 4 2 6 5 6 6 5 4 8 3 int n sizeof arr sizeof arr 0 int x 3 int 6 printf minimum distanc n x mindist arr n x return 0 

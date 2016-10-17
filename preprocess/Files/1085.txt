@@ -1,0 +1,177 @@
+
+Given an array of primes such that the range of primes is small. Remove duplicates from the array.
+Examples:
+
+Input :  arr[] = {3, 5, 7, 2, 2, 5, 7, 7};
+Output : arr[] = {2, 3, 5, 7}
+The output can be printed in any order.
+
+
+Input :  arr[] = {3, 5, 7, 3, 3, 13, 5, 13, 29, 13};
+Output : arr[] = {3, 5, 7, 13, 29}
+The output can be printed in any order.
+
+Source : Amazon Interview Question
+
+Method 1 (Naive : O(n2))
+A simple solution is to run two loops. Pick all elements one by one. For every picked element, check if it already seen or not.  If already seen, then ignore it.  Else add it to the array.
+
+// A C++ program to implement Naive approach to 
+// remove duplicates.
+#include <bits/stdc++.h>
+using namespace std;
+
+int removeDups(vector<int> &vect)
+{
+   int res_ind = 1;
+  
+   // Loop invariant : Elements from vect[0]
+   // to vect[res_ind-1] are unique.
+   for (int i=1; i<vect.size(); i++)
+   {
+       int j;
+       for (j=0; j<i; j++)
+           if (vect[i] == vect[j])
+                break;
+       if (j == i)
+          vect[res_ind++]  = vect[i];
+   }
+
+   // Removes elements from vect[res_ind] to 
+   // vect[end]
+   vect.erase(vect.begin()+res_ind, vect.end());
+}
+
+// Driver code
+int main()
+{
+    vector<int> vect{3, 5, 7, 2, 2, 5, 7, 7};
+    removeDups(vect);
+    for (int i=0; i<vect.size(); i++)
+      cout << vect[i] << " ";
+    return 0;
+}
+
+Output :
+3 5 7 2 
+Time Complexity : O(n2)
+ 
+Method 2 (Sorting : O(n Log n))
+A better solutions is to first sort the array and then remove adjacent elements from sorted array.
+
+// C++ program to remove duplicates using Sorting
+#include <bits/stdc++.h>
+using namespace std;
+
+int removeDups(vector<int> &vect)
+{
+    // Sort the vector
+    sort(vect.begin(), vect.end());
+
+    // unique() removes adjacent duplicates.
+    // unique function puts all unique elements at 
+    // the beginning and returns iterator pointing 
+    // to the first element after unique element. 
+    // Erase function removes elements between two
+    // given iterators
+    vect.erase(unique(vect.begin(), vect.end()),
+              vect.end());
+}
+
+// Driver code
+int main()
+{
+    vector<int> vect{3, 5, 7, 2, 2, 5, 7, 7};
+    removeDups(vect);
+    for (int i=0; i<vect.size(); i++)
+      cout << vect[i] << " ";
+    return 0;
+}
+
+Output :
+2 3 5 7 
+Time Complexity : O(n Log n)
+Auxiliary Space : O(1)
+ 
+Method 3 (Hashing : O(n))
+The idea is keep track of visited elements in a hash table.
+
+// C++ program to remove duplicates using Hashing
+#include <bits/stdc++.h>
+using namespace std;
+
+int removeDups(vector<int> &vect)
+{
+    // Create a set from vector elements
+    unordered_set<int> s(vect.begin(), vect.end());
+
+    // Take elements from set and put back in
+    // vect[]
+    vect.assign(s.begin(), s.end());
+}
+
+// Driver code
+int main()
+{
+    vector<int> vect{3, 5, 7, 2, 2, 5, 7, 7};
+    removeDups(vect);
+    for (int i=0; i<vect.size(); i++)
+      cout << vect[i] << " ";
+    return 0;
+}
+
+Output :
+2 7 5 3
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+ 
+Method 4 (Works only for small range : O(n))
+This solutions uses the fact that numbers are primes.  But it works only when product of all distinct primes in array is less than maximum value in long long int.
+
+// Removes duplicates using multiplication of 
+// distinct primes in array
+#include <bits/stdc++.h>
+using namespace std;
+
+int removeDups(vector<int> &vect)
+{
+   long long int prod = vect[0];
+   int res_ind = 1;
+   for (int i=1; i<vect.size(); i++)
+   {
+       if (prod % vect[i] != 0)
+       {
+          vect[res_ind++]  = vect[i];
+          prod *= vect[i];
+       }
+   }
+   vect.erase(vect.begin()+res_ind, vect.end());
+}
+
+// Driver code
+int main()
+{
+    vector<int> vect{3, 5, 7, 2, 2, 5, 7, 7};
+    removeDups(vect);
+    for (int i=0; i<vect.size(); i++)
+      cout << vect[i] << " ";
+    return 0;
+}
+
+Output :
+3 5 7 2
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+Note that this solution would not work if there are composites in array.
+
+This article is contributed by Shivam Mittal. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

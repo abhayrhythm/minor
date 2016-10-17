@@ -1,0 +1,101 @@
+
+Given a binary array of size n where n > 3. A true (or 1) value in the array means active and false (or 0) means inactive. Given a number k, the task is to find count of active and inactive cells after k days. After every day, status of i’th cell becomes inactive if its left and right cells have same value, i.e., either both are 0 or both are 1.
+Since there are no cells before leftmost and after rightmost cells, the value cells before leftmost  and after rightmost cells is always considered as 0 (or inactive).
+
+Examples:
+
+Input: cells[] = {1, 0, 1, 1}, k = 2
+Output : Active Cells = 1, Inactive Cells = 3
+Explanation: After 1 day, cells[] = {1, 0, 1, 0}
+             After 2 days, cells[] = {1, 0, 0, 0}
+
+Input : cells[] = {0, 1, 0, 1, 0, 1, 0, 1},  k = 3
+Output: Active Cells = 2 , Inactive Cells = 6
+Explanation : 
+After 1 day, cells[] = {1, 0, 0, 0, 0, 0, 0, 0}
+After 2 days, cells[] = {0, 1, 0, 0, 0, 0, 0, 0}
+After 3 days, cells[] =  {1, 0, 1, 0, 0, 0, 0, 0}
+
+Input : cells[] = {0, 1, 1, 1, 0, 1, 1, 0},  k = 4
+Output: Active Cells = 3 , Inactive Cells = 5
+
+
+The only important thing is to make sure that we maintain a copy of given array because we need previous values to update for next day. Below are detailed steps.
+
+First we copy the cells[] array into temp[] array and make changes in temp[] array according to given condition.
+ In the condition, it is given that if immediate left and right cell of i’th cell either inactive or active the next day i becomes inactive i.e; (cells[i-1] == 0 and cells[i+1] == 0) or (cells[i-1] == 1 and cells[i+1] == 1) then cells[i] = 0, these conditions can be applied using XOR of cells[i-1] and cells[i+1].
+ For 0’th index cell temp[0] = 0^cells[1] and for (n-1)’th index cell temp[n-1] = 0^cells[n-2].
+ Now for index 1 to n-2, do the following operation temp[i] = cells[i-1] ^ cells[i+1]
+ Repeat the process till k days are completed.
+
+Following is C++ implementation of above steps.
+
+// C++ program to count active and inactive cells after k
+// days
+#include<bits/stdc++.h>
+using namespace std;
+
+// cells[] - store current status of cells
+// n - Number of cells
+// temp[] - to perform intermediate operations
+// k - number of days
+// active - count of active cells after k days
+// inactive - count of active cells after k days
+void activeAndInactive(bool cells[], int n, int k)
+{
+    // copy cells[] array into temp [] array
+    bool temp[n];
+    for (int i=0; i<n ; i++)
+        temp[i] = cells[i];
+
+    // Iterate for k days
+    while (k--)
+    {
+        // Finding next values for corner cells
+        temp[0]   = 0^cells[1];
+        temp[n-1] = 0^cells[n-2];
+
+        // Compute values of intermediate cells
+        // If both cells active or inactive, then temp[i]=0
+        // else temp[i] = 1.
+        for (int i=1; i<=n-2; i++)
+            temp[i] = cells[i-1] ^ cells[i+1];
+
+        // Copy temp[] to cells[] for next iteration
+        for (int i=0; i<n; i++)
+            cells[i] = temp[i];
+    }
+
+    // count active and inactive cells
+    int active = 0, inactive = 0;
+    for (int i=0; i<n; i++)
+        (cells[i] == 1)? active++ : inactive++;
+
+    printf("Active Cells = %d, Inactive Cells = %d",
+           active, inactive);
+}
+
+// Driver program to check the test case
+int main()
+{
+    bool cells[] = {0, 1, 0, 1, 0, 1, 0, 1};
+    int k = 3;
+    int n =  sizeof(cells)/sizeof(cells[0]);
+    activeAndInactive(cells, n, k);
+    return 0;
+}
+
+Output:
+Active Cells = 2 , Inactive Cells = 6
+
+This article is contributed by Shashank Mishra (Gullu). This article is reviewed by team geeksforgeeks. If you have better approach for this problem please share.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

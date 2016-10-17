@@ -1,0 +1,4 @@
+implement 
+defin my_sizeof type char type 1 char type int main doubl x printf my_sizeof x getchar return 0 also implement use function instead macro function implement cannot done c c support function overload sizeof suppos receiv paramet data type 
+note implement assum size charact one byte 
+time complex 1 space complex 1 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

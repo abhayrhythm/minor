@@ -1,0 +1,19 @@
+euclid algorithm use find gcd two number 
+mainli two version algorithm 
+version 1 use subtract recurs function return gcd b int gcd int int b b return return b 
+gcd b b gcd b version 2 use modulo oper function return gcd b int gcd int int b 0 return b return gcd b two effici 
+version 1 take linear time find gcd consid situat one given number much bigger 
+version 2 obvious effici less recurs call take logarithm time 
+consid situat modulo oper allow optim version 1 work faster 
+import observ 
+idea use bitwis oper 
+find x 2 use x 1 
+check whether x odd even use x 1 
+gcd b 2 gcd 2 b 2 b even 
+gcd b gcd 2 b even b odd 
+gcd b gcd b 2 odd b even 
+c implement 
+effici c program allow int gcd int int b base case b 0 b return 0 return b b even divid b 2 multipli result 2 1 0 b 1 0 return gcd 1 b 1 1 even b odd divid 2 1 0 b 1 0 return gcd 1 b odd b even divid b 2 1 0 b 1 0 return gcd b 1 odd appli normal subtract algorithm 
+note odd odd case alway convert odd even case one recurs return b 
+gcd b b gcd b articl compil shivam agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

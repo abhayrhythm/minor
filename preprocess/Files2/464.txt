@@ -1,0 +1,8 @@
+binari search tree bst node base binari tree data structur follow properti 
+left subtre node contain node key less node key 
+right subtre node contain node key greater node key 
+left right subtre must also binari search tree 
+properti natur follow node item tree distinct key 
+method 1 simpl wrong follow simpl program 
+node check left node smaller node right node greater node 
+int isbst struct node node node null return 1 fals left node node left null node left data node data return 0 fals right node node right null node right data node data return 0 fals recurs left right bst isbst node left isbst node right return 0 pass bst return 1 approach wrong return true binari tree tree bst 4 left subtre 3 

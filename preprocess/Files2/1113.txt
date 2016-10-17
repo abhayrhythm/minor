@@ -1,0 +1,19 @@
+given array distinct integ sum valu 
+find count triplet sum smaller given sum valu 
+expect time complex n2 
+exampl input arr 2 0 1 3 sum 2 output 2 explan triplet sum less 2 2 0 1 2 0 3 input arr 5 1 3 4 7 sum 12 output 4 explan triplet sum less 4 1 3 4 1 3 5 1 3 7 1 4 5 strongli recommend minim browser tri first 
+simpl solut run three loop consid triplet one one 
+everi triplet compar sum increment count triplet sum smaller given sum 
+simpl c program count triplet sum smaller given valu includ bit stdc h use namespac std int counttriplet int arr int n int sum initi result int an 0 fix first element int 0 n 2 fix second element j int j 1 j n 1 j look third number int k j 1 k n k arr arr j arr k sum an return an driver program int main int arr 5 1 3 4 7 int n sizeof arr sizeof arr 0 int sum 12 cout counttriplet arr n sum endl return 0 output 4 time complex solut n3 
+effici solut count triplet n2 sort array first use method 1 post loop 
+1 sort input array increas order 
+2 initi result 0 
+3 run loop 0 n 2 
+iter loop find triplet arr first element 
+initi two element corner element subarray arr 1 n 1 e j 1 k n 1 b move j k toward meet e j k arr arr j arr k sum k els current j k j possibl third element satisfi constraint 
+ii els an k j follow j c implement idea 
+c program count triplet sum smaller given valu includ bit stdc h use namespac std int counttriplet int arr int n int sum sort input array sort arr arr n initi result int an 0 everi iter loop count triplet first element arr 
+int 0 n 2 initi two element corner element subarray arr j 1 k int j 1 k n 1 use meet middl concept j k sum current triplet equal move right corner look smaller valu arr arr j arr k sum k els move left corner els import 
+current j total k j third element 
+an k j j return an driver program int main int arr 5 1 3 4 7 int n sizeof arr sizeof arr 0 int sum 12 cout counttriplet arr n sum endl return 0 output 4 thank gaurav ahirwar suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

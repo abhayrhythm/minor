@@ -1,0 +1,17 @@
+given two variabl x swap two variabl without use third variabl 
+method 1 use arithmet oper idea get sum one two given number 
+number swap use sum subtract sum 
+includ stdio h int main int x 10 5 code swap x x x x becom 15 x becom 10 x x x becom 5 printf swap x x return 0 output swap x 5 10 multipl divis also use swap 
+includ stdio h int main int x 10 5 code swap x x x x becom 50 x becom 10 x x x becom 5 printf swap x x return 0 output swap x 5 10 method 2 use bitwis xor bitwis xor oper use swap two variabl 
+xor two number x return number bit 1 wherev bit x differ 
+exampl xor 10 binari 1010 5 binari 0101 1111 xor 7 0111 5 0101 0010 
+includ stdio h int main int x 10 5 code swap x 1010 0101 x x x becom 15 1111 x becom 10 1010 x x x becom 5 0101 printf swap x x return 0 output swap x 5 10 problem method 1 multipl divis base approach work one number 0 product becom 0 irrespect number 
+2 arithmet solut may caus arithmet overflow 
+x larg addit multipl may go integ rang 
+3 use pointer variabl make function swap method fail pointer point variabl 
+let take look happen case point variabl 
+bitwis xor base method x x x x becom 0 x x x x remain 0 x x x x remain 0 arithmet base method x x x x becom 2x x x x x becom 0 x x x x remain 0 let us see follow program 
+includ stdio h void swap int xp int yp xp xp yp yp xp yp xp xp yp int main int x 10 swap x x printf swap x x x x return 0 output swap x x x 0 swap variabl may need mani standard algorithm 
+exampl see implement quicksort may swap variabl 
+problem avoid put condit swap 
+includ stdio h void swap int xp int yp xp yp check two address return xp xp yp yp xp yp xp xp yp int main int x 10 swap x x printf swap x x x x return 0 output swap x x x 10 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

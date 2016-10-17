@@ -1,0 +1,30 @@
+
+Given a string, find the longest substring which is palindrome.
+We have already discussed Naïve [O(n3)], quadratic [O(n2)] and linear [O(n)] approaches in Set 1, Set 2 and Manacher’s Algorithm.
+In this article, we will discuss another linear time approach based on suffix tree.
+If given string is S, then approach is following:
+
+Reverse the string S (say reversed string is R)
+Get Longest Common Substring of S and R given that LCS in S and R must be from same position in S
+
+Can you see why we say that LCS in R and S must be from same position in S ?
+Let’s look at following examples:
+
+For S = xababayz and R = zyababax, LCS and LPS both are ababa (SAME)
+For S = abacdfgdcaba and R = abacdgfdcaba, LCS is abacd and LPS is aba (DIFFERENT)
+For S = pqrqpabcdfgdcba and R = abcdgfdcbapqrqp, LCS and LPS both are pqrqp (SAME)
+For S = pqqpabcdfghfdcba and R = abcdfhgfdcbapqqp, LCS is abcdf and LPS is pqqp (DIFFERENT)
+
+We can see that LCS and LPS are not same always. When they are different ?
+When S has a reversed copy of a non-palindromic substring in it which is of same or longer length than LPS in S, then LCS and LPS will be different.
+In 2nd example above (S = abacdfgdcaba), for substring abacd, there exists a reverse copy dcaba in S, which is of longer length than LPS aba and so LPS and LCS are different here. Same is the scenario in 4th example.
+To handle this scenario we say that LPS in S is same as LCS in S and R given that LCS in R and S must be from same position in S.
+If we look at 2nd example again, substring aba in R comes from exactly same position in S as substring aba in S which is ZERO (0th index) and so this is LPS.
+The Position Constraint:
+                          (Click to see it clearly)
+                     
+We will refer string S index as forward index (Si) and string R index as reverse index (Ri).
+Based on above figure, a character with index i (forward index) in a string S of length N, will be at index N-1-i (reverse index) in it’s reversed string R.
+If we take a substring of length L in string S with starting index i and ending index j (j = i+L-1), then in it’s reversed string R, the reversed substring of the same will start at index N-1-j and will end at index N-1-i.
+If there is a common substring of length L at indices Si (forward index) and Ri (reverse index) in S and R, then these will come from same position in S if Ri = (N – 1) – (Si + L – 1) where N is string length.
+So to find LPS of string S, we find longest common string of S and R where both substrings satisfy above constraint, i.e. if substring in S is at index Si, then same substring should be in R at index (N – 1) – (Si + L – 1)

@@ -1,0 +1,36 @@
+
+At the first look, it seems that writing a C macro which prints its argument is child’s play.  Following program should work i.e. it should print x
+
+#define PRINT(x) (x)
+int main()
+{ 
+  printf("%s",PRINT(x));
+  return 0;
+}
+
+But it would issue compile error because the data type of x, which is taken as variable by the compiler, is unknown. Now it doesn’t look so obvious. Isn’t it? Guess what, the followings also won’t work 
+
+#define PRINT(x) ('x')
+#define PRINT(x) ("x")
+
+But if we know one of lesser known traits of C language, writing such a macro is really a child’s play.  In C, there’s a # directive, also called ‘Stringizing Operator’, which does this magic. Basically # directive converts its argument in a string. Voila! it is so simple to do the rest. So the above program can be modified as below.
+
+#define PRINT(x) (#x)
+int main()
+{ 
+  printf("%s",PRINT(x));
+  return 0;
+}
+
+Now if the input is PRINT(x), it would print x. In fact, if the input is PRINT(geeks), it would print geeks.
+You may find the details of this directive from Microsoft portal here.
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

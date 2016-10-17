@@ -1,0 +1,27 @@
+given direct graph check whether graph contain cycl 
+function return true given graph contain least one cycl els return fals 
+exampl follow graph contain three cycl 0 2 0 0 1 2 0 3 3 function must return true 
+solut depth first travers use detect cycl graph 
+df connect graph produc tree 
+cycl graph back edg present graph 
+back edg edg node selfloop one ancestor tree produc df 
+follow graph 3 back edg mark cross sign 
+observ 3 back edg indic 3 cycl present graph 
+disconnect graph get df forest output 
+detect cycl check cycl individu tree check back edg 
+imag sourc http www cs yale edu home aspn pinewiki depthfirstsearch html previou post discuss solut store visit vertic separ array store vertic current recurs call stack 
+post differ solut discuss 
+solut clr book 
+idea df given graph travers assign one three color everi vertex 
+white vertex process yet 
+initi vertic white 
+gray vertex process df vertex start finish mean descend ind df tree vertex process yet vertex function call stack black vertex descend process 
+df encount edg current vertex gray vertex edg back edg henc cycl 
+c implement base idea 
+df base approach find cycl direct graph 
+approach strictli follow algorithm given clr book 
+includ bit stdc h use namespac std enum color white gray black graph class repres direct graph use adjac list represent class graph int v 
+vertic list int adj adjac list df travers vertic reachabl v bool dfsutil int v int color public graph int v constructor function add edg graph void addedg int v int w bool iscycl constructor graph graph int v v v adj new list int v util function add edg void graph addedg int v int w adj v push_back w add w v list 
+recurs function find back edg df subtre tree root u bool graph dfsutil int u int color gray vertex process df vertex start end vertex function call stack color u gray iter adjac vertic list int iter adj u begin adj u end int v adjac u color v gray return true v process back edg subtre root v color v white dfsutil v color return true mark vertex process color u black return fals return true cycl graph bool graph iscycl initi color vertic white int color new int v int 0 v color white df travers begin vertic int 0 v color white dfsutil color true return true return fals driver code test int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 g iscycl cout graph contain cycl els cout graph contain cycl return 0 output graph contain cycl time complex solut v e v number vertic e number edg graph 
+articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

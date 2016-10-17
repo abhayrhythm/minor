@@ -1,0 +1,35 @@
+given singli link list rotat link list counter clockwis k node 
+k given posit integ 
+exampl given link list 10 20 30 40 50 60 k 4 list modifi 50 60 10 20 30 40 
+assum k smaller count node link list 
+strongli recommend click practic move solut 
+rotat link list need chang next kth node null next last node previou head node final chang head k 1 th node 
+need get hold three node kth node k 1 th node last node 
+travers list begin stop kth node 
+store pointer kth node 
+get k 1 th node use kthnode next 
+keep travers till end store pointer last node also 
+final chang pointer state 
+c c c c program rotat link list counter clock wise includ stdio h includ stdlib h link list node struct node int data struct node next function rotat link list counter clockwis updat head 
+function assum k smaller size link list 
+modifi list k greater equal size void rotat struct node head_ref int k k 0 return let us understand code exampl k 4 list 10 20 30 40 50 60 
+struct node current head_ref current either point kth null loop 
+current point node 40 exampl int count 1 count k current null current current next count current null k greater equal count node link list 
+chang list case current null return current point kth node 
+store variabl 
+kthnode point node 40 exampl struct node kthnode current current point last node loop current point node 60 exampl current next null current current next chang next last node previou head next 60 chang node 10 current next head_ref chang head k 1 th node head chang node 50 head_ref kthnode next chang next kth node null next 40 null kthnode next null util function function push node void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function print link list void printlist struct node node node null printf node data node node next drier program test function int main void start empti list struct node head null creat list 10 20 30 40 50 60 int 60 0 10 push head printf given link list n printlist head rotat head 4 printf nrotat link list n printlist head return 0 java java program rotat link list class linkedlist node head head list link list node class node int data node next node int data next null function rotat link list counter clockwis updat head 
+function assum k smaller size link list 
+modifi list k greater equal size void rotat int k k 0 return let us understand code exampl k 4 list 10 20 30 40 50 60 
+node current head current either point kth null loop 
+current point node 40 exampl int count 1 count k current null current current next count current null k greater equal count node link list 
+chang list case current null return current point kth node 
+store variabl 
+kthnode point node 40 exampl node kthnode current current point last node loop current point node 60 exampl current next null current current next chang next last node previou head next 60 chang node 10 current next head chang head k 1 th node head chang node 50 head kthnode next chang next kth node null kthnode next null given refer pointer pointer head list int push new node front list 
+void push int new_data 1 2 alloc node put data node new_nod new node new_data 3 make next new node head new_nod next head 4 move head point new node head new_nod void printlist node temp head temp null system print temp data temp temp next system println drier program test function public static void main string arg linkedlist llist new linkedlist creat list 10 20 30 40 50 60 int 60 10 10 llist push system println given list llist printlist llist rotat 4 system println rotat link list llist printlist code contribut rajat mishra python python program rotat link list node class class node constructor initi node object def __init__ self data self data data self next none class linkedlist function initi head def __init__ self self head none function insert new node begin def push self new_data alloc node put data new_nod node new_data make next new node head new_nod next self head move head point new node self head new_nod util function prit link linkedlist def printlist self temp self head temp print temp data temp temp next function rotat link list counter clockwis updat head 
+function assum k smaller size link list 
+modifi list k greater equal size def rotat self k k 0 return let us understand code exampl k 4 list 10 20 30 40 50 60 current self head current either point kth null loop current point node 40 exampl count 1 count k current none current current next count 1 current none k greater equal count node link list 
+chang list case current none return current point kth node 
+store variabl kth node point node 40 exampl kthnode current current point lsat node loop current point node 60 exampl current next none current current next chang next last node previou head next 60 chang node 10 current next self head chang head k 1 th node head chang node 50 self head kthnode next chang next kth node null next 40 null kthnode next none driver program test function llist linkedlist creat list 10 20 30 40 50 60 rang 60 0 10 llist push print given link list llist printlist llist rotat 4 print nrotat link list llist printlist code contribut nikhil kumar singh nickzuck_007 output given link list 10 20 30 40 50 60 rotat link list 50 60 10 20 30 40 time complex n n number node link list 
+code travers link list 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

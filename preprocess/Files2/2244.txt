@@ -1,0 +1,58 @@
+discuss overview array link list queue stack 
+articl follow data structur discuss 
+5 binari tree 6 binari search tree 7 binari heap 9 hash binari tree unlik array link list stack queue linear data structur tree hierarch data structur 
+binari tree tree data structur node two children refer left child right child 
+implement mainli use link 
+binari tree represent tree repres pointer topmost node tree 
+tree empti valu root null 
+binari tree node contain follow part 
+1 data 2 pointer left child 3 pointer right child binari tree travers two way depth first travers inord left root right preorder root left right postod left right root breadth first travers level order travers binari tree properti maximum number node level l 2l 1 
+maximum number node 2h 1 h height tree 
+height consid maximum number node root leaf path minimum possibl height ceil log2 n 1 binari tree number leaf node alway one node two children 
+time complex tree travers n exampl one reason use binari tree tree gener thing form hierarchi 
+use file structur file locat particular directori specif hierarchi associ file directori 
+anoth exampl tree use store heirarch object like javascript document object model consid html page tree nest tag parent child relat 
+binari search tree binari search tree binari tree follow addit properti 1 left subtre node contain node key less node key 
+2 right subtre node contain node key greater node key 
+3 left right subtre must also binari search tree 
+time complex search h insert h delet h extra space n pointer h height bst n number node bst binari search tree height balanc h log n self balanc bst avl tree red black tree splay tree make sure height bst remain log n bst provid moder access search quicker link list slower array 
+bst provid moder insert delet quicker array slower link list 
+exampl main use search applic data constantli enter leav data need print sort order 
+exampl implement e commerc websit new product ad product goe stock product lise sort order 
+binari heap binari heap binari tree follow properti 
+1 complet tree level complet fill except possibl last level last level key left possibl 
+properti binari heap make suitabl store array 
+2 binari heap either min heap max heap 
+min binari heap key root must minimum among key present binari heap 
+properti must recurs true node binari tree 
+max binari heap similar min heap 
+mainli implement use array 
+get minimum min heap 1 get max max heap extract minimum min heap log n extract max max heap decreas key min heap log n extract max max heap insert log n delet log n exampl use implement effici prioriti queue turn use schedul process oper system 
+prioriti queue also use dijstra prim graph algorithm 
+order statist heap data structur use effici find k th smallest largest element array 
+heap special data structur cannot use search particular element 
+hashinghash function function convert given big input key small practic integ valu 
+map integ valu use index hash tabl 
+good hash function follow properti 1 effici comput 
+2 uniformli distribut key tabl posit equal like key hash tabl array store pointer record correspond given phone number 
+entri hash tabl nil exist phone number hash function valu equal index entri 
+collis handl sinc hash function get us small number key big integ string possibl two key result valu 
+situat newli insert key map alreadi occupi slot hash tabl call collis must handl use collis handl techniqu 
+follow way handl collis chain idea make cell hash tabl point link list record hash function valu 
+chain simpl requir addit memori outsid tabl 
+open address open address element store hash tabl 
+tabl entri contain either record nil 
+search element one one examin tabl slot desir element found clear element tabl 
+space n search 1 averag n worst case insert 1 averag n worst case delet 1 averag n worst case hash seem better bst oper 
+hash element unord bst element store order manner 
+also bst easi implement hash function sometim complex gener 
+bst also effici find floor ceil valu 
+exampl hash use remov duplic set element 
+also use find frequenc item 
+exampl web browser check visit url use hash 
+firewal use hash detect spam 
+need hash ip address 
+hash use situat want search insert delet 1 time 
+articl contribut abhiraj smit 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

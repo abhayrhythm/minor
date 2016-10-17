@@ -1,0 +1,21 @@
+given balanc express find contain duplic parenthesi 
+set parenthesi duplic subexpress surround multipl parenthesi 
+exampl express duplic parenthesi b c subexpress c surround two pair bracket 
+b c subexpress b surround two pair bracket 
+b c whole express surround two pair bracket 
+express duplic parenthesi b c subsexpress surround duplic bracket 
+b c subsexpress surround duplic bracket 
+may assum given express valid white space present 
+idea use stack 
+iter given express charact express charact open parenthesi oper operand push stack 
+charact close parenthesi pop charact stack till match open parenthesi found 
+howev immedi pop hit open parenthesi found duplic parenthesi 
+exampl b c duplic bracket around b 
+reach second b stack 
+sinc top stack open bracket conclud duplic bracket c implement idea c program find duplic parenthesi balanc express includ iostream includ stack use namespac std function find duplic parenthesi balanc express bool findduplicateparenthesi string str creat stack charact stack char stack iter given express char ch str current charact close parenthesi ch pop charact stack char top stack top stack pop immedi pop open parenthesi found duplic top return true els continu pop charact stack till open parenthesi encount els top top stack top stack pop push open parenthesi oper operand stack els stack push ch duplic found return fals driver code int main input balanc express string str b c findduplicateparenthesi str cout duplic found els cout duplic found return 0 output duplic found time complex solut n 
+auxiliari space use program n 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

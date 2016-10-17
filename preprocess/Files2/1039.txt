@@ -1,0 +1,3 @@
+predict output follow c program 
+question 1 int main int x 10 static int x x printf equal els x printf greater els printf less getchar return 0 output compil error c static variabl initi use constant liter 
+see gfact detail 

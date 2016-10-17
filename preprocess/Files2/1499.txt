@@ -1,0 +1,15 @@
+given binari tree everi node follow structur 
+struct node int key struct node left right random random pointer point random node binari tree even point null clone given binari tree 
+method 1 use hash idea store map given tree node clone tre node hashtabl 
+follow detail step 
+1 recurs travers given binari copi key valu left pointer right pointer clone tree 
+copi store map given tree node clone tree node hashtabl 
+follow pseudo code clonenod current visit node clone tree treenod current visit node given tree 
+clonenod key treenod key clonenod left treenod left clonenod right treenod right map treenod clonenod 2 recurs travers tree set random pointer use entri hash tabl 
+clonenod random map treenod random follow c implement idea 
+follow implement use map c stl 
+note map implement hash tabl actual base self balanc binari search tree 
+hashmap base c program clone binari tree random pointer includ iostream includ map use namespac std binari tree node data pointer left child pointer right child pointer random node struct node int key struct node left right random helper function alloc new node given data null left right random pointer 
+node newnod int key node temp new node temp key key temp random temp right temp left null return temp given binari tree print node inord void printinord node node node null return first recur left sutre printinord node left print data node random cout node key node random null cout null els cout node random key recur right subtre printinord node right function creat clone copi key left right pointer function also store map given tree node clone 
+node copyleftrightnod node treenod map node node mymap treenod null return null node clonenod newnod treenod key mymap treenod clonenod clonenod left copyleftrightnod treenod left mymap clonenod right copyleftrightnod treenod right mymap return clonenod function copi random node use hashmap built copyleftrightnod void copyrandom node treenod node clonenod map node node mymap clonenod null return clonenod random mymap treenod random copyrandom treenod left clonenod left mymap copyrandom treenod right clonenod right mymap function make clone given tree 
+mainli use copyleftrightnod copyrandom node clonetre node tree tree null return null map node node mymap new map node node node newtre copyleftrightnod tree mymap copyrandom tree newtre mymap return newtre driver program test function int main test 1 node tree newnod 1 tree left newnod 2 tree right newnod 3 tree left left newnod 4 tree left right newnod 5 tree random tree left right tree left left random tree tree left right random tree right test 2 tree null test 3 tree newnod 1 test 4 tree newnod 1 tree left newnod 2 tree right newnod 3 tree random tree right tree left random tree cout inord travers origin binari tree n printinord tree node clone clonetre tree cout n ninord travers clone binari tree n printinord clone return 0 output inord travers origin binari tree 4 1 2 null 5 3 1 5 3 null inord travers clone binari tree 4 1 2 null 5 3 1 5 3 null 

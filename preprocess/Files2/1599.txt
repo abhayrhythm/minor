@@ -1,0 +1,23 @@
+given binari tree print vertic 
+follow exampl illustr vertic order travers 
+1 2 3 4 5 6 7 8 9 output print tree vertic 4 2 1 5 6 3 8 7 9 strongli recommend minim browser tri first 
+discuss n2 solut previou post 
+post effici solut base hash map discuss 
+need check horizont distanc root node 
+two node horizont distanc hd vertic line 
+idea hd simpl 
+hd root 0 right edg edg connect right subtre consid 1 horizont distanc left edg consid 1 horizont distanc 
+exampl tree hd node 4 2 hd node 2 1 hd 5 6 0 hd node 7 2 
+inord travers given binari tree 
+travers tree recurs calcul hd 
+initi pass horizont distanc 0 root 
+left subtre pass horizont distanc horizont distanc root minu 1 right subtre pass horizont distanc horizont distanc root plu 1 everi hd valu maintain list node hasp map 
+whenev see node travers go hash map entri add node hash map use hd key map 
+follow c implement method 
+thank chirag provid c implement 
+c c program print vertic order given binari tree includ iostream includ vector includ map use namespac std structur binari tree node struct node int key node left right util function creat new node struct node newnod int key struct node node new node node key key node left node right null return node util function store vertic order map hd horigont distanc current node root 
+hd init pass 0 void getverticalord node root int hd map int vector int base case root null return store current node map hd push_back root key store node left subtre getverticalord root left hd 1 store node right subtre getverticalord root right hd 1 main function print vertic oder binari tree given root void printverticalord node root creat map store vertic oder map use function getverticalord map int vector int int hd 0 getverticalord root hd travers map print node everi horigont distanc hd map int vector int iter begin end int 0 second size cout second cout endl driver program test function int main node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root right left right newnod 8 root right right right newnod 9 cout vertic order travers n printverticalord root return 0 python python program print vertic order given binari tree binari tree node class node constructor creat new node def __init__ self key self key key self left none self right none util function store vertic order map hd horizont distanc current node root hd initi pass 0 def getverticalord root hd base case root none return store current node map tri hd append root key except hd root key store node left subtre getverticalord root left hd 1 store node right subtre getverticalord root right hd 1 main function print vertic order binari tree ith given root def printverticalord root creat map store vertic order map use function getverticalord dict hd 0 getverticalord root hd travers map print node everi horizont distanc hd index valu enumer sort valu print print driver program test function root node 1 root left node 2 root right node 3 root left left node 4 root left right node 5 root right left node 6 root right right node 7 root right left right node 8 root right right right node 9 print vertic order travers printverticalord root code contribut nikhil kumar singh nickzuck_007 output vertic order travers 4 2 1 5 6 3 8 7 9 time complex hash base solut consid n assumpt good hash function allow insert retriev oper 1 time 
+c implement map stl use 
+map stl typic implement use self balanc binari search tree oper take logn time 
+therefor time complex implement nlogn 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

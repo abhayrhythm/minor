@@ -1,0 +1,34 @@
+
+Question: Is there any example for which the following two loops will not work same way? 
+
+/*Program 1 --> For loop*/
+for (<init-stmnt>; <boolean-expr>; <incr-stmnt>) 
+{
+   <body-statements>
+}
+
+/*Program 2 --> While loop*/
+<init-stmnt>;
+while (<boolean-expr>) 
+{
+   <body-statements>
+   <incr-stmnt>
+}
+
+Solution:
+If the body-statements contains continue, then the two programs will work in different ways
+See the below examples: Program 1 will print “loop” 3 times but Program 2 will go in an infinite loop.
+Example for program 1
+
+int main()
+{
+  int i = 0;
+  for(i = 0; i < 3; i++)
+  {
+    printf("loop ");
+    continue;
+  } 
+  getchar();
+  return 0;
+}
+

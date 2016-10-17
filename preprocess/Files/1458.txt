@@ -1,0 +1,6 @@
+
+We have discussed efficient implementation of k stack in an array.  In this post, same for queue is discussed.  Following is the detailed problem statement.
+
+Create a data structure kQueues that represents k queues. Implementation of kQueues should use only one array, i.e., k queues should use the same array for storing elements. Following functions must be supported by kQueues.
+enqueue(int x, int qn) –> adds x to queue number ‘qn’ where qn is from 0 to k-1
+dequeue(int qn) –> deletes an element from queue number ‘qn’ where qn is from 0 to k-1

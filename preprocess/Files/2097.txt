@@ -1,0 +1,24 @@
+
+Consider the below program. 
+
+int main( )
+{
+  int arr[2] = {0,1};
+  printf("First Element = %d\n",arr[0]);
+  getchar();
+  return 0;
+}
+
+Pretty Simple program.. huh… Output will be 0.
+Now if you replace arr[0] with 0[arr], the output would be same. Because compiler converts the array operation in pointers before accessing the array elements.
+e.g. arr[0] would be *(arr + 0) and therefore 0[arr] would be *(0 + arr) and you know that both *(arr + 0) and *(0 + arr) are same.
+Please write comments if you find anything incorrect in the above article.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

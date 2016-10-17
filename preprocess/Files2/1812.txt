@@ -1,0 +1,3 @@
+bitset contain c standard templat librari deal data bit level 
+bitset store bit element two possibl valu 0 1 
+howev get part string provid posit bitset constructor posit respect string posit left right 

@@ -1,0 +1,44 @@
+given graph sourc vertex src graph find shortest path src vertic given graph 
+graph may contain neg weight edg 
+discuss dijkstra algorithm problem 
+dijksra algorithm greedi algorithm time complex vlogv use fibonacci heap 
+dijkstra work graph neg weight edg bellman ford work graph 
+bellman ford also simpler dijkstra suit well distribut system 
+time complex bellman ford dijkstra 
+algorithm follow detail step 
+input graph sourc vertex src output shortest distanc vertic src 
+neg weight cycl shortest distanc calcul neg weight cycl report 
+1 step initi distanc sourc vertic infinit distanc sourc 0 creat array dist size v valu infinit except dist src src sourc vertex 
+2 step calcul shortest distanc 
+follow v 1 time v number vertic given graph 
+follow edg u v dist v dist u weight edg uv updat dist v dist v dist u weight edg uv 3 step report neg weight cycl graph 
+follow edg u v dist v dist u weight edg uv graph contain neg weight cycl idea step 3 step 2 guarante shortest distanc graph contain neg weight cycl 
+iter edg one time get shorter path vertex neg weight cycl work 
+like dynam program problem algorithm calcul shortest path bottom manner 
+first calcul shortest distanc shortest path one edg path 
+calcul shortest path nost 2 edg 
+ith iter outer loop shortest path edg calcul 
+maximum v 1 edg simpl path outer loop run v 1 time 
+idea assum neg weight cycl calcul shortest path edg iter edg guarante give shortest path 1 edg proof simpl refer mit video lectur exampl let us understand algorithm follow exampl graph 
+imag taken sourc 
+let given sourc vertex 0 initi distanc infinit except distanc sourc 
+total number vertic graph 5 edg must process 4 time 
+let edg process follow order b e b b b c c b c e 
+get follow distanc edg process first time 
+first row show initi distanc 
+second row show distanc edg b e b b b process 
+third row show distanc c process 
+fourth row show c b c e process 
+first iter guarante give shortest path 1 edg long 
+get follow distanc edg process second time last row show final valu 
+second iter guarante give shortest path 2 edg long 
+algorithm process edg 2 time 
+distanc minim second iter third fourth iter updat distanc 
+implement c c c program bellman ford singl sourc shortest path algorithm 
+includ stdio h includ stdlib h includ string h includ limit h structur repres weight edg graph struct edg int src dest weight structur repres connect direct weight graph struct graph v number vertic e number edg int v e graph repres array edg 
+struct edg edg creat graph v vertic e edg struct graph creategraph int v int e struct graph graph struct graph malloc sizeof struct graph graph v v graph e e graph edg struct edg malloc graph e sizeof struct edg return graph util function use print solut void printarr int dist int n printf vertex distanc sourc n int 0 n printf n dist main function find shortest distanc src vertic use bellman ford algorithm 
+function also detect neg weight cycl void bellmanford struct graph graph int src int v graph v int e graph e int dist v step 1 initi distanc src vertic infinit int 0 v dist int_max dist src 0 step 2 relax edg v 1 time 
+simpl shortest path src vertex v 1 edg int 1 v 1 int j 0 j e j int u graph edg j src int v graph edg j dest int weight graph edg j weight dist u int_max dist u weight dist v dist v dist u weight step 3 check neg weight cycl 
+step guarante shortest distanc graph contain neg weight cycl 
+get shorter path cycl 
+int 0 e int u graph edg src int v graph edg dest int weight graph edg weight dist u int_max dist u weight dist v printf graph contain neg weight cycl printarr dist v return driver program test function int main let us creat graph given exampl int v 5 number vertic graph int e 8 number edg graph struct graph graph creategraph v e add edg 0 1 b figur graph edg 0 src 0 graph edg 0 dest 1 graph edg 0 weight 1 add edg 0 2 c figur graph edg 1 src 0 graph edg 1 dest 2 graph edg 1 weight 4 add edg 1 2 b c figur graph edg 2 src 1 graph edg 2 dest 2 graph edg 2 weight 3 add edg 1 3 b figur graph edg 3 src 1 graph edg 3 dest 3 graph edg 3 weight 2 add edg 1 4 e figur graph edg 4 src 1 graph edg 4 dest 4 graph edg 4 weight 2 add edg 3 2 c figur graph edg 5 src 3 graph edg 5 dest 2 graph edg 5 weight 5 add edg 3 1 b figur graph edg 6 src 3 graph edg 6 dest 1 graph edg 6 weight 1 add edg 4 3 e figur graph edg 7 src 4 graph edg 7 dest 3 graph edg 7 weight 3 bellmanford graph 0 return 0 

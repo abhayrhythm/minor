@@ -1,0 +1,45 @@
+given array n point plane problem find closest pair point array 
+problem aris number applic 
+exampl air traffic control may want monitor plane come close togeth sinc may indic possibl collis 
+recal follow formula distanc two point p q brute forc solut n 2 comput distanc pair return smallest 
+calcul smallest distanc nlogn time use divid conquer strategi 
+post n x logn 2 approach discuss 
+discuss nlogn approach separ post 
+algorithm follow detail step n logn 2 algortihm 
+input array n point p output smallest distanc two point given array 
+pre process step input array sort accord x coordin 
+1 find middl point sort array take p n 2 middl point 
+2 divid given array two halv 
+first subarray contain point p 0 p n 2 
+second subarray contain point p n 2 1 p n 1 
+3 recurs find smallest distanc subarray 
+let distanc dl dr find minimum dl dr let minimum 4 3 step upper bound minimum distanc 
+need consid pair one point pair left half right half 
+consid vertic line pass pass p n 2 find point whose x coordin closer middl vertic line 
+build array strip point 
+5 sort array strip accord coordin 
+step nlogn 
+optim n recurs sort merg 
+6 find smallest distanc strip 
+tricki 
+first look seem n 2 step actual n 
+prove geometr everi point strip need check 7 point note strip sort accord coordin 
+see analysi 
+7 final return minimum distanc calcul step step 6 implement follow c c implement algorithm 
+divid conquer program c c find smallest distanc given set point 
+includ stdio h includ float h includ stdlib h includ math h structur repres point 2d plane struct point int x follow two function need librari function qsort 
+refer http www cplusplu com refer clibrari cstdlib qsort need sort array point accord x coordin int comparex const void const void b point p1 point p2 point b return p1 x p2 x need sort array point accord coordin int comparey const void const void b point p1 point p2 point b return p1 p2 util function find distanc two point float dist point p1 point p2 return sqrt p1 x p2 x p1 x p2 x p1 p2 p1 p2 brute forc method return smallest distanc two point p size n float bruteforc point p int n float min flt_max int 0 n int j 1 j n j dist p p j min min dist p p j return min util function find minimum two float valu float min float x float return x 
+x util function find distanc beween closest point strip given size 
+point strip sort accordint coordin 
+upper bound minimum distanc note method seem n 2 method n method inner loop run 6 time float stripclosest point strip int size float float min initi minimum distanc qsort strip size sizeof point comparey pick point one one tri next point till differ coordin smaller proven fact loop run 6 time int 0 size int j 1 j size strip j strip min j dist strip strip j min min dist strip strip j return min recurs function find smallest distanc 
+array p contain point sort accord x coordin float closestutil point p int n 2 3 point use brute forc n 3 return bruteforc p n find middl point int mid n 2 point midpoint p mid consid vertic line pass middl point calcul smallest distanc dl left middl point dr right side float dl closestutil p mid float dr closestutil p mid n mid find smaller two distanc float min dl dr build array strip contain point close closer line pass middl point point strip n int j 0 int 0 n ab p x midpoint x strip j p j find closest point strip 
+return minimum closest distanc strip return min stripclosest strip j main functin find smallest distanc method mainli use closestutil float closest point p int n qsort p n sizeof point comparex use recurs function closestutil find smallest distanc return closestutil p n driver program test function int main point p 2 3 12 30 40 50 5 1 12 10 3 4 int n sizeof p sizeof p 0 printf smallest distanc f closest p n return 0 output smallest distanc 1 414214 time complex let time complex algorithm n 
+let us assum use nlogn sort algorithm 
+algorithm divid point two set recurs call two set 
+divid find strip n time sort strip nlogn time final find closest point strip n time 
+n express follow n 2t n 2 n nlogn n n 2t n 2 nlogn n n x logn x logn note 1 time complex improv nlogn optim step 5 algorithm 
+soon discuss optim solut separ post 
+2 code find smallest distanc 
+easili modifi find point smallest distanc 
+3 code use quick sort n 2 worst case 
+upper bound n logn 2 nlogn sort algorithm like merg sort heap sort use refer http www cs umd edu class fall2013 cmsc451 lect lect10 pdf http www youtub com watch v vs4zn1a9kuc http www youtub com watch v t3t7t8ym20m http en wikipedia org wiki closest_pair_of_points_problem adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

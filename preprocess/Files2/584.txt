@@ -1,0 +1,9 @@
+write program print leader array 
+element leader greater element right side 
+rightmost element alway leader 
+exampl int array 16 17 4 3 5 2 leader 17 5 2 let input array arr size array size 
+method 1 simpl use two loop 
+outer loop run 0 size 1 one one pick element left right 
+inner loop compar pick element element right side 
+pick element greater element right side pick element leader 
+c includ iostream use namespac std c function print leader array void printlead int arr int size int 0 size int j j 1 j size j arr arr j break j size loop break cout arr driver program test function int main int arr 16 17 4 3 5 2 int n sizeof arr sizeof arr 0 printlead arr n return 0 

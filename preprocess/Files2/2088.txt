@@ -1,0 +1,3 @@
+c variabl alway static lexic scope e bind variabl determin program text independ run time function call stack 
+exampl output program 0 e valu return f depend call 
+f alway return valu global variabl x int x 0 int f return x int g int x 1 return f int main printf g printf n getchar refer http en wikipedia org wiki scope_ 28program 29 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

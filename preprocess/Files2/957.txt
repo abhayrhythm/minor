@@ -1,0 +1,4 @@
+enumer enum user defin data type c mainli use assign name integr constant name make program easi read maintain 
+keyword enum use declar new enumer type c c 
+follow exampl enum declar 
+enum state work 1 fail 0 follow interest fact initi enum 

@@ -1,0 +1,18 @@
+given sort array arr valu x find k closest element x arr 
+exampl input k 4 x 35 arr 12 16 22 30 35 39 42 45 48 50 53 55 56 output 30 39 42 45 note element present array output closest element requir 
+follow solut assum element array distinct 
+simpl solut linear search k closest element 
+1 start first element search crossov point point element smaller equal x element greater 
+step take n time 
+2 find crossov point compar element side crossov point print k closest element 
+step take k time 
+time complex solut n 
+optim solut find k element logn k time 
+idea use binari search find crossov point 
+find index crossov point print k closest element k time 
+c c includ stdio h function find cross point point element smaller equal x greater x int findcrossov int arr int low int high int x base case arr high x x greater return high arr low x x smaller return low find middl point int mid low high 2 low high low 2 x middl element return mid arr mid x arr mid 1 x return mid x greater arr mid either arr mid 1 ceil x ceil lie arr mid 1 high arr mid x return findcrossov arr mid 1 high x return findcrossov arr low mid 1 x function print k closest element x arr 
+n number element arr void printkclosest int arr int x int k int n find crossov point int l findcrossov arr 0 n 1 x int r l 1 right index search int count 0 keep track count element alreadi print x present arr reduc left index assumpt element arr distinct arr l x l compar element left right crossov point find k closest element l 0 r n count k x arr l arr r x printf arr l els printf arr r count element right side print left element count k l 0 printf arr l count element left side print right element count k r n printf arr r count driver program check function int main int arr 12 16 22 30 35 39 42 45 48 50 53 55 56 int n sizeof arr sizeof arr 0 int x 35 k 4 printkclosest arr x 4 n return 0 java java program find k closest element given valu class kclosest function find cross point point element smaller equal x greater x int findcrossov int arr int low int high int x base case arr high x x greater return high arr low x x smaller return low find middl point int mid low high 2 low high low 2 x middl element return mid arr mid x arr mid 1 x return mid x greater arr mid either arr mid 1 ceil x ceil lie arr mid 1 high arr mid x return findcrossov arr mid 1 high x return findcrossov arr low mid 1 x function print k closest element x arr 
+n number element arr void printkclosest int arr int x int k int n find crossov point int l findcrossov arr 0 n 1 x int r l 1 right index search int count 0 keep track count element alreadi print x present arr reduc left index assumpt element arr distinct arr l x l compar element left right crossov point find k closest element l 0 r n count k x arr l arr r x system print arr l els system print arr r count element right side print left element count k l 0 system print arr l count element left side print right element count k r n system print arr r count driver program check function public static void main string arg kclosest ob new kclosest int arr 12 16 22 30 35 39 42 45 48 50 53 55 56 int n arr length int x 35 k 4 ob printkclosest arr x 4 n code contribut rajat mishra output 39 30 42 45 time complex method logn k 
+exercis extend optim solut work duplic also e work array element distinct 
+articl contribut rahul jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

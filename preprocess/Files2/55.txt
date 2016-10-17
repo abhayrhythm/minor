@@ -1,0 +1,30 @@
+quick sort prefer array 
+recurs iter implement quick sort merg sort array 
+recurs quick sort array 
+iter quick sort array 
+recurs merg sort array iter merg sort array quick sort gener form place sort e 
+requir extra storag wherea merg sort requir n extra storag n denot array size may quit expens 
+alloc de alloc extra space use merg sort increas run time algorithm 
+compar averag complex find type sort nlogn averag complex constant differ 
+array merg sort lose due use extra n storag space 
+practic implement quick sort use random version 
+random version expect time complex nlogn 
+worst case possibl random version also worst case occur particular pattern like sort array random quick sort work well practic 
+quick sort also cach friendli sort algorithm good local refer use array 
+quick sort also tail recurs therefor tail call optim done 
+merg sort prefer link list 
+implement quicksort mergesort singli doubli link list 
+quick sort doubli link list quick sort singli link list merg sort singli link list merg sort doubli link list case link list case differ mainli due differ memori alloc array link list 
+unlik array link list node may adjac memori 
+unlik array link list insert item middl 1 extra space 1 time 
+therefor merg oper merg sort implement without extra space link list 
+array random access element continu memori 
+let us say integ 4 byte array let address 0 x access directli access memori x 4 
+unlik array random access link list 
+quick sort requir lot kind access 
+link list access th index travel everi node head th node continu block memori 
+therefor overhead increas quick sort 
+merg sort access data sequenti need random access low 
+thank sayan mukhopadhyay provid initi draft articl 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,71 @@
+
+Given a number line from -infinity to +infinity. You start at 0 and can go either to the left or to the right. The condition is that in i’th move, you take i steps.
+a) Find if you can reach a given number x
+b) Find the most optimal way to reach a given number x, if we can indeed reach it.  For example, 3 can be reached om 2 steps, (0, 1) (1, 3) and 4 can be reached in 3 steps (0, -1), (-1, 1) (1, 4).
+Source: Flipkart Interview Question
+We strongly recommend you to minimize your browser and try this yourself first.
+The important think to note is we can reach any destination as it is always possible to make a move of length 1. At any step i, we can move forward i, then backward i+1.
+Below is a recursive solution suggested by Arpit Thapar here. 
+1) Since distance of +5 and -5 from 0 is same, hence we find answer for absolute value of destination.
+2) We use a recursive function which takes as arguments:
+    i) Source Vertex
+    ii) Value of last step taken
+    iii) Destination
+3) If at any point source vertex = destination; return number of steps.
+4) Otherwise we can go in both of the possible directions. Take the minimum of steps in both cases.
+From any vertex we can go to :
+(current source + last step +1) and
+(current source – last step -1)
+5) If at any point, absolute value of our position exceeds the absolute value of our destination then it is intuitive that the shortest path is not possible from here. Hence we make the value of steps INT_MAX, so that when i take the minimum of both possibilities, this one gets eliminated.
+If we don’t use this last step, the program enters into an INFINITE recursion and gives RUN TIME ERROR.
+Below is C++ implementation of above idea.  Note that the solution only counts steps.
+
+// C++ program to count number of steps to reach a point
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function to count number of steps required to reach a
+// destination.
+// source -> source vertex
+// step -> value of last step taken
+// dest -> destination vertex
+int steps(int source, int step, int dest)
+{
+    // base cases
+    if (abs(source) > (dest))  return INT_MAX;
+    if (source == dest)     return step;
+
+    // at each point we can go either way
+
+    // if we go on positive side
+    int pos = steps(source+step+1, step+1, dest);
+
+    // if we go on negative side
+    int neg = steps(source-step-1, step+1, dest);
+
+    // minimum of both cases
+    return min(pos, neg);
+}
+
+// Driver Program
+int main()
+{
+    int dest = 11;
+    cout << "No. of steps required to reach "
+         << dest << " is " << steps(0, 0, dest);
+    return 0;
+}
+
+Output:
+No. of steps required to reach 11 is 5
+Thanks to Arpit Thapar for providing above algorithm and implementation. 
+This article is contributed by Abhay. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,17 @@
+red black tree maximum height node twice minimum height four red black tree properti make sure alway follow 
+given binari search tree need check follow properti 
+everi node length longest leaf node path twice node shortest path node leaf 
+12 40 14 10 100 16 60 150 cannot red black tree red black tree color assign max height 12 1 min height 12 3 10 5 100 50 150 40 also red black tree expect time complex n 
+tree travers solut 
+strongli recommend minim browser tri first 
+everi node need get maximum minimum height compar 
+idea travers tree everi node check balanc 
+need write recurs function return three thing boolean valu indic tree balanc minimum height maximum height 
+return multipl valu either use structur pass variabl refer 
+pass maxh minh refer valu use parent call 
+program check given binari tree balanc like red black tree includ iostream use namespac std struct node int key node left right util alloc new node given key node newnod int key node node new node node key key node left node right null return node return return tree binari tree balanc like red black tree 
+function also set valu maxh minh pass refer 
+maxh minh set maximum minimum height root 
+bool isbalancedutil node root int maxh int minh base case root null maxh minh 0 return true int lmxh lmnh store max min height left subtre int rmxh rmnh store max min height right subtre check left subtre balanc also set lmxh lmnh isbalancedutil root left lmxh lmnh fals return fals check right subtre balanc also set rmxh rmnh isbalancedutil root right rmxh rmnh fals return fals set max min height node parent call maxh max lmxh rmxh 1 minh min lmnh rmnh 1 see node balanc maxh 2 minh return true return fals wrapper isbalancedutil bool isbalanc node root int maxh minh return isbalancedutil root maxh minh driver program test function int main node root newnod 10 root left newnod 5 root right newnod 100 root right left newnod 50 root right right newnod 150 root right left left newnod 40 isbalanc root 
+cout balanc cout balanc return 0 output balanc time complex time complex code n code simpl tree travers 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,29 @@
+given cost matrix cost posit n cost write function return cost minimum cost path reach n 0 0 
+cell matrix repres cost travers cell 
+total cost path reach n sum cost path includ sourc destin 
+travers right diagon lower cell given cell e given cell j cell 1 j j 1 1 j 1 travers 
+may assum cost posit integ 
+exampl follow figur minimum cost path 2 2 
+path minimum cost highlight follow figur 
+path 0 0 0 1 1 2 2 2 
+cost path 8 1 2 2 3 
+1 optim substructur path reach n must one 3 cell 1 n 1 1 n n 1 
+minimum cost reach n written minimum 3 cell plu cost n 
+mincost n min mincost 1 n 1 mincost 1 n mincost n 1 cost n 2 overlap subproblem follow simpl recurs implement mcp minimum cost path problem 
+implement simpli follow recurs structur mention 
+naiv recurs implement mcp minimum cost path problem includ stdio h includ limit h defin r 3 defin c 3 int min int x int int z return cost minimum cost path 0 0 n mat r c int mincost int cost r c int int n n 0 0 return int_max els 0 n 0 return cost n els return cost n min mincost cost 1 n 1 mincost cost 1 n mincost cost n 1 util function return minimum 3 integ int min int x int int z x return x z 
+x z els return z 
+z driver program test function int main int cost r c 1 2 3 4 8 2 1 5 3 printf mincost cost 2 2 return 0 note function comput subproblem 
+see follow recurs tree mani node apear 
+time complex naiv recurs solut exponenti terribl slow 
+mc refer mincost mc 2 2 mc 1 1 mc 1 2 mc 2 1 mc 0 0 mc 0 1 mc 1 0 mc 0 1 mc 0 2 mc 1 1 mc 1 0 mc 1 1 mc 2 0 mcp problem properti see dynam program problem 
+like typic dynam program dp problem recomput subproblem avoid construct temporari array tc bottom manner 
+c dynam program implement mcp problem includ stdio h includ limit h defin r 3 defin c 3 int min int x int int z int mincost int cost r c int int n int j instead follow line use int tc 1 n 1 dynam alloc memoeri save space 
+follow line use keep te program simpl make work compil 
+int tc r c tc 0 0 cost 0 0 initi first column total cost tc array 1 tc 0 tc 1 0 cost 0 initi first row tc array j 1 j n j tc 0 j tc 0 j 1 cost 0 j construct rest tc array 1 j 1 j n j tc j min tc 1 j 1 tc 1 j tc j 1 cost j return tc n util function return minimum 3 integ int min int x int int z x return x z 
+x z els return z 
+z driver program test function int main int cost r c 1 2 3 4 8 2 1 5 3 printf mincost cost 2 2 return 0 python dynam program python implement min cost path problem r 3 c 3 def mincost cost n instead follow line use int tc 1 n 1 dynam alloc memoeri save space 
+follow line use keep te program simpl make work compil 
+tc 0 x rang c x rang r tc 0 0 cost 0 0 initi first column total cost tc array rang 1 1 tc 0 tc 1 0 cost 0 initi first row tc array j rang 1 n 1 tc 0 j tc 0 j 1 cost 0 j construct rest tc array rang 1 1 j rang 1 n 1 tc j min tc 1 j 1 tc 1 j tc j 1 cost j return tc n driver program test function cost 1 2 3 4 8 2 1 5 3 print mincost cost 2 2 code contribut bhavya jain output 8 time complex dp implement mn much better naiv recurs implement 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

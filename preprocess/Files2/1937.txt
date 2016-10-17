@@ -1,0 +1,8 @@
+predict output follow c program 
+includ iostream use namespac std int main int cout n return 0 int main char cout endl return 0 int main int int b cout b return 0 int main main 3 main c main 9 6 return 0 program fail compil produc warn error see produc warn error 
+may get differ error differ compil 
+overload main function c necessari use class declar main member function 
+note main reserv word program languag like c c java c 
+exampl declar variabl whose name main tri exampl includ iostream int main int main 10 std cout main return 0 ouput 10 follow program show overload main function class 
+includ iostream use namespac std class test public int main int cout n return 0 int main char cout endl return 0 int main int int cout return 0 int main test obj obj main 3 obj main love c obj main 9 6 return 0 outcom program 3 love c 9 6 articl contribut pravasi meet 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

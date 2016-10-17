@@ -1,0 +1,13 @@
+discuss case sort 2d vector set 1 set 2 sort 2d vector c set 1 row column sort 2d vector c set 2 descend order row column case discuss articl mention one articl publis set 2d vector also row differ number column 
+properti unlik 2d array row number column 
+c code demonstr 2d vector differ 
+column includ iostream includ vector 2d vector use namespac std int main initi 2d vector vect valu vector vector int vect 1 2 3 4 5 6 display 2d vector int 0 vect size loop till size particular row int j 0 j vect size j cout vect j cout endl return 0 output 1 2 3 4 5 6 case 5 sort 2d vector basi 
+column row ascend order 
+type sort 2d vector sort basi 
+column ascend order 
+achiev pass third argument sort call user defin explicit function 
+c code demonstr sort 2d vector basi 
+column ascend order includ iostream includ vector 2d vector includ algorithm sort use namespac std driver function sort 2d vector basi 
+column ascend order bool sizecom const vector int v1 const vector int v2 return v1 size v2 size int main initi 2d vector vect valu vector vector int vect 1 2 3 4 5 6 display 2d vector sort cout matrix sort n int 0 vect size loop till size particular row int j 0 j vect size j cout vect j cout endl use sort sort basi 
+column ascend order 
+sort vect begin vect end sizecom display 2d vector sort cout matrix sort n int 0 vect size loop till size particular row int j 0 j vect size j cout vect j cout endl return 0 output matrix sort 1 2 3 4 5 6 matrix sort 6 1 2 3 4 5 

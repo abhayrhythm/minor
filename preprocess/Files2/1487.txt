@@ -1,0 +1,23 @@
+two pair b c said symmetr c equal b equal exampl 10 20 20 10 symmetr 
+given array pair find symmetr pair 
+may assum first element pair distinct 
+exampl input arr 11 20 30 40 5 10 40 30 10 5 output follow pair symmetr pair 30 40 5 10 strongli recommend minim browser tri first 
+simpl solut go everi pair check everi pair symmetr 
+solut requir n2 time 
+better solut use sort 
+sort pair first element 
+everi pair binari search second element given array e check second element pair exist first element array 
+found compar first element pair second element 
+time complex solut nlogn 
+effici solut use hash 
+first element pair use key second element use valu 
+idea travers pair one one 
+everi pair check second element hash tabl 
+ye compar first element valu match entri hash tabl 
+valu first element match found symmetr pair 
+els insert first element key second element valu 
+follow java implement idea 
+java program find symmetr pair given array pair import java util hashmap class symmetricpair print pair symmetr counterpart static void findsympair int arr creat empti hashmap hm hashmap integ integ hm new hashmap integ integ travers given array int 0 arr length first second element current pair int first arr 0 int sec arr 1 look second element pair hash integ val hm get sec found valu hash match first element pair found symmetri val null val first system println sec first els els put sec element pair hash hm put first sec drive method public static void main string arg int arr new int 5 2 arr 0 0 11 arr 0 1 20 arr 1 0 30 arr 1 1 40 arr 2 0 5 arr 2 1 10 arr 3 0 40 arr 3 1 30 arr 4 0 10 arr 4 1 5 findsympair arr output follow pair symmetr pair 30 40 5 10 time complex solut n assumpt hash search insert method work 1 time 
+articl contribut shivam agraw 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

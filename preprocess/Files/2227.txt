@@ -1,0 +1,66 @@
+
+Prerequisite – Set 1
+Tech giants look for the candidates who generally are excellent in algorithm designing and coding. You can surely not skip data structures and algorithms if you are looking to prepare for companies like Google, Facebook, Microsoft, Amazon, etc.
+
+Revise the working and use  of popular Data Structures: Apart from set 1, more data structures to be focused are:
+
+Heap
+Hashing 
+Advanced Data Structures
+Trees and Graphs
+
+
+ 
+Time Complexities : It is recommended to pay special attention to analysis of extra space and time complexity of algorithms.
+
+Analysis of Algorithms
+
+
+ 
+Interesting Algorithms : Mathematics is the base to algorithms and all those good at maths definitely play better with algorithms.
+
+Mathematical Algos
+Randomized Algos
+Bit Algos
+Pattern Searching
+Backtracking
+String Algorithms
+Branch and Bound
+
+
+ 
+System Design Questions: These questions are more likely to be asked to experienced candidates, but basic design questions like OOP concepts, Singlton Pattern, etc have been asked to freshers also.
+ 
+MCQs : Although not directly asked in all companies, these multiple choice questions help you make your concepts stronger and retain the concepts subconsciously.
+ 
+Interview Corner : Try to solve as much interview questions as you can for the company you are preparing. If finished, you can always practice other company questions too. If the company is coming for internship, then prepare exclusively for internship interviews.
+ 
+GeeksforGeeks recommended list:  This is the most important bunch of problems that you MUST solve yourself. Try each and every problem on practice platform, discuss among each other for more efficient solutions. If you are not arriving on an efficient solution,  force yourself to solve till the end irrespective of how lame your answer is before looking at complete solution at GeeksforGeeks.
+P.S : In onsite interviews you will code on a white board, so make sure you practice doing that. It is very different from using an IDE.
+ 
+Projects you have done:  Thoroughly revise all the work you have done till now in your projects. The grilling about projects can sometimes  be very deep. Also, choose your words before you speak. Mention only those topics where you think you are fine to be grilled upon.
+ 
+Important FAQs :
+
+When to use which data structure & algorithm  and why?
+Why one approach is better than the other for a given problem?
+Optimal solution for a given problem.
+Which coding language is best for any given problem and why?
+Real life implementation of a given concept.
+Questions like Why Amazon (Or any other company).
+
+
+ 
+Practice topic wise: You can pick topics one by one and practice them according to your weak areas.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

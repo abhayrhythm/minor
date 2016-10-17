@@ -1,0 +1,2 @@
+given singli link list everi node addit arbitrari pointer current point null 
+need make arbitrari pointer greatest valu node link list right side 

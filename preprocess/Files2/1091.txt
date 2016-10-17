@@ -1,0 +1,12 @@
+given array find number subarray whose sum even 
+exampl input arr 1 2 2 3 4 1 output 9 possibl subarray even sum 
+subarray 1 1 2 2 3 sum 8 2 1 2 2 3 4 sum 12 3 2 sum 2 index 1 4 2 2 sum 4 5 2 2 3 4 1 sum 12 6 2 sum 2 index 2 7 2 3 4 1 sum 10 8 3 4 1 sum 8 9 4 sum 4 n2 time 1 space method brute forc simpli gener possibl sub array find whether sum element even 
+even count sub array otherwis neglect 
+c program count number sub array whose sum even use brute forc time complex n 2 space complex 1 includ iostream use namespac std int countevensum int arr int n int result 0 find sum subarray increment result sum even int 0 n 1 int sum 0 int j j n 1 j sum sum arr j sum 2 0 result return result driver code int main int arr 1 2 2 3 4 1 int n sizeof arr sizeof arr 0 cout number subarray even sum countevensum arr n return 0 output number subarray even sum 9 n time 1 space method effici comput cumul sum array temp input array see sub array start end j even sum temp temp j temp 2 0 instead build cumul sum array build cumul sum modulo 2 array find mani time 0 1 appear temp array use handshak formula 
+n n 1 2 c program count number sub array even sum use effici algorithm time complex n space complex 1 includ iostream use namespac std int countevensum int arr int n temporari array size 2 temp 0 go store count even subarray temp 1 count odd 
+temp 0 initi 1 singl even element also count subarray int temp 2 1 0 initi count 
+sum sum element modulo 2 end arr 
+int result 0 sum 0 th iter comput sum arr 0 modulo 2 increment even odd count accord sum valu int 0 n 1 2 ad handl neg number sum sum arr 2 2 2 increment even odd count temp sum use handshak lemma count even subarray note even cam form two even two odd result result temp 0 temp 0 1 2 result result temp 1 temp 1 1 2 return result driver code int main int arr 1 2 2 3 4 1 int n sizeof arr sizeof arr 0 cout number subarray even sum countevensum arr n return 0 output number subarray even sum 9 articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

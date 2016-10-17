@@ -1,0 +1,52 @@
+recurs program term recurs function defin routin call directli indirectli 
+use recurs algorithm certain problem solv quit easili 
+tower hanoi toh one program exercis 
+tri write iter algorithm toh 
+moreov everi recurs program written use iter method refer data structur lipschutz 
+mathemat recurs help solv puzzl easili 
+exampl routin interview question parti n peopl person shake hand person 
+total mani hand shake would happen 
+solut solv differ way graph recurs etc 
+let us see recurs solv 
+n person 
+person shake hand 
+consid n th person shake hand n 1 person 
+problem reduc small instanc n 1 person 
+assum tn total shake hand formul recurs 
+tn n 1 tn 1 t1 0 e 
+last person alreadi shook hand everi one solv recurs yield arithmet seri evalu n n 1 2 
+exercis parti n coupl one gender either male femal shake hand everi one 
+mani shake hand would happen 
+usual recurs program result poor time complex 
+exampl fibonacci seri 
+time complex calcul n th fibonacci number use recurs approxim 1 6n 
+mean comput take almost 60 time next fibonacci number 
+recurs fibonacci algorithm overlap subproblem 
+techniqu like dynam program improv overlap algorithm 
+howev algorithm e g 
+merg sort quick sort etc result optim time complex use recurs 
+base case one critic requir recurs function termin point base case 
+everi recurs program must base case make sure function termin 
+miss base case result unexpect behaviour 
+differ way write recurs function c c function call direct way us awar atleast two differ way write recurs program 
+given tower hanoi code 
+exampl direct call 
+assum n th disk bottom disk count void tower int n char sourcepol char destinationpol char auxiliarypol base case termin condit 0 n return move first n 1 disk sourc pole auxiliari pole use destin temporari pole tower n 1 sourcepol auxiliarypol destinationpol move remain disk sourc pole destin pole printf move disk c c n n sourcepol destinationpol move n 1 disk auxiliari sourc pole destin pole use sourc pole temporari auxiliari pole tower n 1 auxiliarypol destinationpol sourcepol void main tower 3 time complex toh calcul formul number move 
+need move first n 1 disk sourc auxiliari auxiliari destin e 
+first n 1 disk requir two move 
+one move last disk sourc destin 
+mathemat defin recurs 
+mn 2mn 1 1 easili solv recurs relat 2n 1 exponenti 
+recurs use mutual function call indirect way indirect call 
+though least pratic function funa call anoth function funb inturn call funa former function 
+case function base case 
+defens program combin defens code techniqu recurs grace function applic 
+usual recurs program allow safeti critic applic flight control health monitor etc 
+howev one use static count techniqu avoid uncontrol call safeti critic system may use soft real time system 
+void recurs int data static calldepth calldepth max_depth return increas call depth calldepth process recurs data process decreas call depth calldepth calldepth depth depend function stack frame size maximum stack size 
+recurs use function pointer indirect way recurs also implement function pointer 
+exampl signal handler posix complaint system 
+handler caus trigger event due handler call function reenter 
+relat articl iter solut toh puzzl tail recurs quiz recurs thank venki write post 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

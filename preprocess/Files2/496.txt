@@ -1,0 +1,17 @@
+depth first travers search graph similar depth first travers tree 
+catch unlik tree graph may contain cycl may come node 
+avoid process node use boolean visit array 
+exampl follow graph start travers vertex 2 come vertex 0 look adjac vertic 
+2 also adjac vertex 0 mark visit vertic 2 process becom non termin process 
+depth first travers follow graph 2 0 1 3 see post applic depth first travers 
+follow implement simpl depth first travers 
+c implement use adjac list represent graph 
+stl list contain use store list adjac node 
+c c program print df travers given vertex given graph includ iostream includ list use namespac std graph class repres direct graph use adjac list represent class graph int v 
+vertic list int adj pointer array contain adjac list void dfsutil int v bool visit function use df public graph int v constructor void addedg int v int w function add edg graph void df int v df travers vertic reachabl v graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+void graph dfsutil int v bool visit mark current node visit print visit v true cout v recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit df travers vertic reachabl v use recurs dfsutil void graph df int v mark vertic visit bool visit new bool v int 0 v visit fals call recurs helper function print df travers dfsutil v visit int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 cout follow depth first travers start vertex 2 n g df 2 return 0 java java program print df travers given given graph import java io 
+import java util 
+class repres direct graph use adjac list represent class graph privat int v 
+vertic array list adjac list represent privat linkedlist integ adj constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w add w v list 
+function use df void dfsutil int v boolean visit mark current node visit print visit v true system print v recur vertic adjac vertex iter integ adj v listiter hasnext int n next visit n dfsutil n visit function df travers 
+use recurs dfsutil void df int v mark vertic visit set fals default java boolean visit new boolean v call recurs helper function print df travers dfsutil v visit public static void main string arg graph g new graph 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 system println follow depth first travers start vertex 2 g df 2 code contribut aakash hasija output 

@@ -1,0 +1,135 @@
+let us solv classic fake coin puzzl use decis tree 
+two differ variant puzzl given 
+provid descript puzzl tri solv assum n 8 easi given two pan fair balanc n ident look coin one coin lighter heavier 
+figur odd coin mani minimum number weigh requir worst case 
+difficult given two pan fair balanc n ident look coin one coin may defect 
+trace coin odd one also determin whether lighter heavier minimum number trial worst case 
+let us start rel simpl exampl 
+read everi problem tri solv 
+problem 1 easi given 5 coin one coin lighter 
+worst case mani minimum number weigh requir figur odd coin 
+name coin 1 2 3 4 5 know one coin lighter 
+consid best come balanc group coin two differ way 1 2 3 4 5 12 34 5 
+easili rule group like 123 45 get obviou answer 
+combin fall one two group like 2 45 13 etc 
+consid first group pair 1 2 3 4 
+check 1 2 equal go ahead 3 4 
+need two weigh worst case 
+analog appli coin heavier 
+second group weigh 12 34 
+balanc 5 defect one otherwis pick lighter pair need one weigh find odd one 
+combin need two weigh case 5 coin prior inform one coin lighter 
+analysi gener know coin heavi light trace coin log3 n trial round next integ 
+repres outcom balanc ternari tree everi leaf repres outcom 
+sinc coin among n coin defect need get 3 ari tree minimum n leav 
+3 ari tree k th level 3k leav henc need 3k n word k trial examin upto 3k coin know whether defect coin heavier lighter 
+given coin heavier verifi 3 trial suffici find odd coin among 12 coin 32 12 33 problem 2 difficult given 4 coin one coin may defect 
+know whether coin genuin defect one present 
+mani number weigh requir worst case figur odd coin present 
+also need tell whether heavier lighter 
+analysi may think k 2 trial suffici sinc two level 3 ari tree yield 9 leav greater n 4 read problem 
+note imposs solv 4 coin problem two weigh 
+decis tree confirm fact tri draw 
+group coin two differ way 12 34 1 2 3 4 
+let us consid combin 12 34 correspond decis tree given 
+blue leav valid outcom red leav imposs case 
+arriv imposs case due assumpt made earlier path 
+outcom 12 34 e 
+go left subtre 12 34 e 
+go right subtre 
+left subtre possibl two way either 1 2 lighter b either 3 4 heavier 
+left subtre second trial weigh 1 2 3 4 
+let us consid 3 4 analog 1 2 similar 
+outcom second trail three way 3 4 yield 4 defect heavier coin b 3 4 yield 3 defect heavier coin c 3 4 yield ambigu 
+need one weigh check genuin coin 1 2 figur took 3 2 3 confirm genuin 
+get 3 2 2 lighter 3 2 1 lighter 
+note imposs get 3 2 contradict assumpt lean left side 
+similarli analyz right subtre 
+need two weigh right subtre well 
+overal need 3 weigh trace odd coin 
+note unabl util two outcom 3 ari tree 
+also tree full tree middl branch termin first weigh 
+infact get 27 leav 3 level full 3 ari tree got 11 leav includ imposs case 
+analysi given n coin may genuin one coin defect 
+need decis tree atleast 2n 1 leav correspond output 
+n leav lighter n leav heavier one genuin case total 2n 1 leav 
+explain earlier ternari tree level k utmost 3k leav need tree leav 3k 2n 1 
+word need atleast k log3 2n 1 weigh find defect one 
+observ figur branch gener leav e 
+miss valid output branch lead number trial 
+possibl group coin way everi branch go yield valid output simpl term gener full 3 ari tree 
+problem 4 describ approach 12 coin 
+problem 3 special case two pan balanc given 5 coin group 4 coin one coin defect know whether heavier lighter one coin genuin 
+mani weigh requir worst case figur odd coin whether heavier lighter 
+label coin 1 2 3 4 g genuin 
+inform coin puriti 
+need make use group 
+best group g1 23 4 
+group gener full 3 ari tree tri 
+follow diagram explain procedur 
+middl case g1 23 self explanatori e 
+1 2 3 genuin 4th coin figur lighter heavier one trial 
+left side tree correspond case g1 23 
+possibl two way either 1 lighter either 2 3 heavier 
+former instanc obviou next weigh 2 3 balanc yield 1 lighter 
+later instanc could 2 3 yield 3 heavier 2 3 yield 2 heavier 
+leaf node left branch name reflect outcom 
+right side tree correspond case g1 23 
+possibl two way either 1 heavier either 2 3 lighter 
+former instanc obviou next weigh 2 3 balanc yield 1 heavier 
+later case could 2 3 yield 2 lighter coin 2 3 yield 3 lighter 
+problem possibl need two weigh 
+abl use outcom two level full 3 ari tree 
+start n 1 5 coin n 4 end 2n 1 9 leav 
+infact 11 outcom sinc stare 5 coin 2 outcom 
+two outcom declar root tree prior first weigh figur two come 
+observ figur first weigh problem reduc know three coin either one lighter heavier one among two heavier lighter 
+solv one weigh read problem 1 
+analysi given n 1 coin one genuin rest n genuin one coin defect 
+requir decis tree result minimum 2n 1 leav 
+sinc total possibl outcom 2 n 1 1 number weigh trial given height ternari tree k log3 2 n 1 1 
+note equal sign 
+rearrang k n weigh maximum n 3k 3 2 coin k trial 
+problem 4 classic 12 coin puzzl given two pan fair balanc 
+12 ident look coin one coin may lighter heavier 
+find odd coin minimum trial also determin whether defect coin lighter heavier worst case 
+want group 
+bi set tri set 
+clearli discard option divid two equal group 
+lead best tree 
+two exampl ensur decis tree use optim way reveal atleaset one genuin coin 
+rememb group coin first weigh reveal atleast one genuin coin 
+let us name coin 1 2 8 b c combin coin 3 group name 1234 5678 abcd 
+weigh 1234 5678 
+encourag draw decis tree read procedur 
+outcom three way 1234 5678 group equal 
+defect coin may abcd group 
+1234 5678 e 
+first group less weight second group 
+1234 5678 e 
+first group weight second group 
+output 1 solv two weigh special case two pan balanc given problem 3 know group 1234 5678 genuin defect coin may abcd 
+pick one genuin coin weigh group proceed abcd explain problem 3 outcom 2 3 special 
+case know abcd genuin 
+also know set coin lighter set coin heavier 
+need shuffl weigh two group way end smaller height decis tree 
+consid second outcom 1234 5678 
+possibl coin among 1 2 3 4 lighter coin among 5 6 7 8 heavier 
+reveal lighter heavier possibl first weigh 
+proceed problem 1 gener best decis tree 
+let us shuffl coin 1235 4bcd new group differ shuffl possibl also lead minimum weigh tri 
+weigh two group outcom three way 1235 4bcd yield one among 1 2 3 lighter similar problem 1 explain need one weigh ii 1235 4bcd yield one among 6 7 8 heavier similar problem 1 explain need one weigh iii 1235 4bcd yield either 5 heavier coin 4 lighter coin expens one weigh 
+similar way also solv right subtre third outcom 1234 5678 two weigh 
+abl solv 12 coin puzzl 3 weigh worst case 
+interest puzzl solv problem 4 n 8 n 13 mani minimum trial requir case 
+given function int weigh b b array need equal size 
+function return 1 0 1 return 0 sum element b equal 1 b 1 b given array 12 element element equal except one 
+odd element other smaller greater other 
+write program find odd element use weigh minimum number time 
+might seen 3 pan balanc scienc lab school day 
+given 3 pan balanc 4 outcom n coin mani minimum trial need figur odd coin 
+refer similar problem provid one exercis book introduct algorithm levitin 
+specif read section 5 5 section 11 2 includ exercis 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

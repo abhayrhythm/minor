@@ -1,0 +1,25 @@
+element sort array found log n time via binari search 
+suppos rotat ascend order sort array pivot unknown beforehand 
+instanc 1 2 3 4 5 might becom 3 4 5 1 2 devis way find element rotat array log n time 
+strongli recommend click practic move solut 
+solut provid assum element array distinct 
+idea find pivot point divid array two sub array call binari search 
+main idea find pivot sort increas order pivot array pivot element element next element smaller 
+use criteria binari search methodolog get pivot element logn time input arr 3 4 5 1 2 element search 1 1 find pivot point divid array two sub array 
+pivot 2 index 5 2 call binari search one two sub array 
+element greater 0th element search left array b els search right array 1 go els 1 0th element 3 3 element found select sub array return index els return 1 implement program search element sort pivot array includ stdio h int findpivot int int int int binarysearch int int int int search element key pivot sort array arrp size n int pivotedbinarysearch int arr int n int key int pivot findpivot arr 0 n 1 find pivot array rotat pivot 1 return binarysearch arr 0 n 1 key found pivot first compar pivot search two subarray around pivot arr pivot key return pivot arr 0 key return binarysearch arr 0 pivot 1 key return binarysearch arr pivot 1 n 1 key function get pivot 
+array 3 4 5 6 1 2 return 3 index 6 int findpivot int arr int low int high base case high low return 1 high low return low int mid low high 2 low high low 2 mid high arr mid arr mid 1 return mid mid low arr mid arr mid 1 return mid 1 arr low arr mid return findpivot arr low mid 1 return findpivot arr mid 1 high standard binari search function int binarysearch int arr int low int high int key high low return 1 int mid low high 2 low high low 2 key arr mid return mid key arr mid return binarysearch arr mid 1 high key return binarysearch arr low mid 1 key driver program check function int main let us search 3 array int arr1 5 6 7 8 9 10 1 2 3 int n sizeof arr1 sizeof arr1 0 int key 3 printf index n pivotedbinarysearch arr1 n key return 0 output index element 8 time complex logn 
+thank ajay mishra initi solut 
+improv solut search element one pass binari search 
+idea search 1 find middl point mid l h 2 2 key present middl point return mid 
+3 els arr l mid sort key search lie rang arr l arr mid recur arr l mid 
+b els recur arr mid 1 r 4 els arr mid 1 r must sort key search lie rang arr mid 1 arr r recur arr mid 1 r 
+b els recur arr l mid c implement idea 
+search element sort rotat array use singl pass binari search includ bit stdc h use namespac std return index key arr l h key present otherwis return 1 int search int arr int l int h int key l h return 1 int mid l h 2 arr mid key return mid arr l mid sort arr l arr mid subarray sort quickli check key lie half half key arr l key arr mid return search arr l mid 1 key return search arr mid 1 h key arr l mid sort arr mid r must sort key arr mid key arr h return search arr mid 1 h key return search arr l mid 1 key driver program int main int arr 4 5 6 7 8 9 1 2 3 int n sizeof arr sizeof arr 0 int key 6 int search arr 0 n 1 key 1 cout index endl els cout key found n output index 2 thank gaurav ahirwar suggest solut 
+handl duplic 
+look possibl search logn time case duplic allow 
+exampl consid search 0 2 2 2 2 2 2 2 2 0 2 2 0 2 2 2 2 2 2 2 2 2 2 
+look possibl decid whether recur left half right half constant number comparison middl 
+similar articl find minimum element sort rotat array given sort rotat array find pair given sum 
+pleas write comment find bug code algorithm find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

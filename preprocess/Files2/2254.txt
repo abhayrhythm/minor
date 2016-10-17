@@ -1,0 +1,40 @@
+let us first put prioriti invers context big pictur e 
+come 
+oper system one import concept task schedul 
+sever schedul method first come first serv round robin prioriti base schedul etc 
+schedul method pro con 
+might guess prioriti invers come prioriti base schedul 
+basic problem aris sometim prioriti base schedul use os 
+prioriti base schedul differ task given differ prioriti higher prioriti task interven lower prioriti task possibl 
+prioriti base schedul lower prioriti task l run higher prioriti task h also need run lower prioriti task l would preempt higher prioriti task h 
+suppos lower higher prioriti task need share common resourc say access file devic achiev respect work 
+case sinc resourc share task synchron need sever method techniqu use handl scenario 
+sake topic prioriti invers let us mention synchron method say mutex 
+recap mutex task acquir mutex enter critic section cs releas mutex exit critic section cs 
+run cs task access common resourc 
+detail refer 
+say l h share common critic section cs e 
+mutex need cs 
+come discuss prioriti invers let us examin scenario 
+1 l run cs h need run h preempt l h start run h relinquish releas control l resum start run 2 l run cs h need run cs h preempt l h start run h relinquish control l resum start run 
+3 l run cs h also need run cs h wait l come cs l come cs h enter cs start run pleas note scenario show problem prioriti invers even scenario 3 
+basic long lower prioriti task run share cs higher prioriti task preempt 
+l run share cs h also need run cs h wait l come cs 
+idea cs small enough result h wait long time l cs 
+write cs code requir care consider 
+scenario prioriti invers e 
+revers prioriti occur task run per design 
+let us add anoth task middl prioriti say task prioriti order l h exampl share critic section cs 
+case follow sequenc task run would result prioriti invers problem 
+4 l run cs h also need run cs h wait l come cs interrupt l start run run till complet relinquish control l resum start run till end cs h enter cs start run 
+note neither l h share cs see run delay run l h precis speak h higher prioriti share cs h wait prioriti base schedul work expect prioriti h got invert spite share cs 
+problem call prioriti invers 
+heck prioriti invers 
+system prioriti base schedul higher prioriti task face problem result unexpect behavior result 
+gener purpos os result slower perform 
+rto result sever outcom 
+famou prioriti invers problem happen mar pathfind 
+problem solut 
+prioriti invers well differ solut prioriti inherit etc 
+go next articl pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

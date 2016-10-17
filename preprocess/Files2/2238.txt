@@ -1,0 +1,51 @@
+strongli recommend refer articl prerequisit 
+combinatori game theori set 1 introduct post game nim discuss 
+game nim describ follow rule given number pile pile contain number stone coin 
+turn player choos one pile remov number stone least one pile 
+player cannot move consid lose game e one take last stone winner 
+exampl consid two player b initi three pile coin initi 3 4 5 coin shown 
+assum first move made see figur clear understand whole game play 
+match note made first move strong expertis game 
+edg b start first 
+let us play configur pile time b start first instead b match note b made first move figur must clear game depend one import factor start game first 
+player start first win everytim 
+let us play game start time differ initi configur pile 
+pile 1 4 5 coin initi 
+win start first 
+let us see 
+made first move lost game 
+result clear 
+lost 
+
+know game depend heavili player start first 
+thu must anoth factor domin result simpl yet interest game 
+factor initi configur heap pile 
+time initi configur differ previou one 
+conclud game depend two factor player start first 
+initi configur pile heap 
+fact predict winner game even play game 
+nim sum cumul xor valu number coin stone pile heap point game call nim sum point 
+b play optim e make mistak player start first guarante win nim sum begin game non zero 
+otherwis nim sum evalu zero player lose definit proof theorem see http en wikipedia org wiki nim proof_of_the_winning_formula let us appli theorem game play 
+first game start first nim sum begin game 3 xor 4 xor 5 2 non zero valu henc 
+wherea second game play initi configur pile 1 4 5 start first destin lose nim sum begin game wasv1 xor 4 xor 5 0 
+implement program play nim game comput human user program use two function knowwinnerbeforeplay tell result play 
+playgam play full game final declar winner 
+function playgam take input human user instead use rand function randomli pick pile randomli remov number stone pick pile 
+program modifi take input user remov rand function insert cin scanf function 
+c program implement game nim 
+program assum player play optim includ stdio h includ stdlib h includ stdbool h defin comput 1 defin human 2 structur hold two paramet move move two paramet 1 pile_index index pile stone go remov 2 stones_remov number stone remov pile index pile_index struct move int pile_index int stones_remov pile array initi count stone coin pile game start 
+n number pile pile 0 base index c function output current game state 
+void showpil int pile int n int printf current game statu 0 n printf pile printf n return c function return true game end fals game yet bool gameov int pile int n int 0 n pile 0 return fals return true c function declar winner game void declarewinn int whoseturn whoseturn comput printf nhuman n n els printf ncomput n n return c function calcul nim sum point game 
+int calculatenimsum int pile int n int nimsum pile 0 1 n nimsum nimsum pile return nimsum c function make move nim game void makemov int pile int n struct move move int nim_sum calculatenimsum pile n player current turn win posit 
+play optim tri make nim sum 0 nim_sum 0 0 n illeg move make move 
+pile nim_sum pile move pile_index move stones_remov pile pile nim_sum pile pile nim_sum break player current turn lose posit wait oppon make mistak happen program player play optim 
+randomli choos non empti pile randomli remov stone 
+oppon make mistak matter pile player choos destin lose game 
+want input remov rand function modifi code take input 
+rememb still abl chang fate predict 
+els creat array hold indic non empti pile int non_zero_indic n count 0 count 0 n pile 0 non_zero_indic count move pile_index rand count move stones_remov 1 rand pile move pile_index pile move pile_index pile move pile_index move stones_remov pile move pile_index 0 pile move pile_index 0 return c function play game nim void playgam int pile int n int whoseturn printf ngame start n n struct move move gameov pile n fals showpil pile n makemov pile n move whoseturn comput printf comput remov stone pile index n move stones_remov move pile_index whoseturn human els printf human remov stone pile index n move stones_remov move pile_index whoseturn comput showpil pile n declarewinn whoseturn return void knowwinnerbeforeplay int pile int n int whoseturn printf predict play game calculatenimsum pile n 0 whoseturn comput printf comput win n els printf human win n els whoseturn comput printf human win n els printf comput win n return driver program test function int main test case 1 int pile 3 4 5 int n sizeof pile sizeof pile 0 predict result play comput start first knowwinnerbeforeplay pile n comput let us play game comput start first check whether predict right playgam pile n comput test case 2 int pile 3 4 7 int n sizeof pile sizeof pile 0 predict result play human start first knowwinnerbeforeplay pile n comput let us play game comput start first check whether predict right playgam pile n human return 0 output may differ differ run random number use decid next move loos player 
+predict play game comput win game start current game statu 3 4 5 comput remov 2 stone pile index 0 current game statu 1 4 5 human remov 3 stone pile index 1 current game statu 1 1 5 comput remov 5 stone pile index 2 current game statu 1 1 0 human remov 1 stone pile index 1 current game statu 1 0 0 comput remov 1 stone pile index 0 current game statu 0 0 0 comput refer http en wikipedia org wiki nim articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,21 @@
+problem opposit post 
+queue implement use two stack 
+let queue implement q stack use implement q stack1 stack2 
+q implement two way method 1 make enqueu oper costli method make sure oldest enter element alway top stack 1 dequeu oper pop stack1 
+put element top stack1 stack2 use 
+enqueu q x 1 stack1 empti push everyth satck1 stack2 
+2 push x stack1 assum size stack unlimit 
+3 push everyth back stack1 
+dnqueue q 1 stack1 empti error 2 pop item stack1 return method 2 make dequeu oper costli method en queue oper new element enter top stack1 
+de queue oper stack2 empti element move stack2 final top stack2 return 
+enqueu q x 1 push x stack1 assum size stack unlimit 
+dequeu q 1 stack empti error 
+2 stack2 empti stack1 empti push everyth stack1 stack2 
+3 pop element stack2 return 
+method 2 definit better method 1 method 1 move element twice enqueu oper method 2 dequeu oper move element move element stack2 empti 
+implement method 2 program implement queue use two stack includ stdio h includ stdlib h structur stack node struct snode int data struct snode next function push item stack void push struct snode top_ref int new_data function pop item stack int pop struct snode top_ref structur queue two stack struct queue struct snode stack1 struct snode stack2 function enqueu item queue void enqueu struct queue q int x push q stack1 x function dequeu item queue int dequeu struct queue q int x stack empti error q stack1 null q stack2 null printf q empti getchar exit 0 move element satck1 stack 2 stack2 empti q stack2 null q stack1 null x pop q stack1 push q stack2 x x pop q stack2 return x function push item stack void push struct snode top_ref int new_data alloc node struct snode new_nod struct snode malloc sizeof struct snode new_nod null printf stack overflow n getchar exit 0 put data new_nod data new_data link old list new node new_nod next top_ref move head point new node top_ref new_nod function pop item stack int pop struct snode top_ref int re struct snode top stack empti error top_ref null printf stack overflow n getchar exit 0 els top top_ref re top data top_ref top next free top return re driver function test anov function int main creat queue item 1 2 3 struct queue q struct queue malloc sizeof struct queue q stack1 null q stack2 null enqueu q 1 enqueu q 2 enqueu q 3 dequeu item printf dequeu q printf dequeu q printf dequeu q getchar output 1 2 3 queue also implement use one user stack one function call stack 
+modifi method 2 recurs function call stack use implement queue use one user defin stack 
+enqueu x 1 push x stack1 
+dequeu 1 stack1 empti error 
+2 stack1 one element return 
+3 recurs pop everyth stack1 store pop item variabl re push re back stack1 return re step 3 make sure last pop item alway return sinc recurs stop one item stack1 step 2 get last element stack1 dequeu item push back step 3 implement method 2 use function call stack program implement queue use one user defin stack one function call stack includ stdio h includ stdlib h structur stack node struct snode int data struct snode next structur queue two stack struct queue struct snode stack1 function push item stack void push struct snode top_ref int new_data function pop item stack int pop struct snode top_ref function enqueu item queue void enqueu struct queue q int x push q stack1 x function dequeu item queue int dequeu struct queue q int x re stack empti error q stack1 null printf q empti getchar exit 0 els q stack1 next null return pop q stack1 els pop item stack1 x pop q stack1 store last dequeu item re dequeu q push everyth back stack1 push q stack1 x return re function push item stack void push struct snode top_ref int new_data alloc node struct snode new_nod struct snode malloc sizeof struct snode new_nod null printf stack overflow n getchar exit 0 put data new_nod data new_data link old list new node new_nod next top_ref move head point new node top_ref new_nod function pop item stack int pop struct snode top_ref int re struct snode top stack empti error top_ref null printf stack overflow n getchar exit 0 els top top_ref re top data top_ref top next free top return re driver function test function int main creat queue item 1 2 3 struct queue q struct queue malloc sizeof struct queue q stack1 null enqueu q 1 enqueu q 2 enqueu q 3 dequeu item printf dequeu q printf dequeu q printf dequeu q getchar output 1 2 3 

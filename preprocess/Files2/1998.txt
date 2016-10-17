@@ -1,0 +1,30 @@
+virtual constructor idiom seen way construct object whose type determin runtim 
+possibl creat object without know exact class type 
+virtual copi constructor address question 
+sometim may need construct object anoth exist object 
+precis copi constructor 
+initi state new object base anoth exist object state 
+compil place call copi constructor object instanti anoth object 
+howev compil need concret type inform invok appropri copi constructor 
+includ iostream use namespac std class base public class deriv public base public deriv cout deriv creat endl deriv const deriv rh cout deriv creat deep copi endl deriv cout deriv destroy endl int main deriv s1 deriv s2 s1 compil invok copi constructor type s1 s2 concret compil creat derived1 derived2 object pointer refer base class point deriv object 
+return 0 decid type object copi construct made 
+exampl virtual constructor creat object class hierarchi runtim base input 
+want copi construct object anoth object creat virtual constructor use usual copi constructor 
+need special clone function duplic object runtim 
+exampl consid draw applic 
+select object alreadi drawn canva past one instanc object 
+programm perspect decid object copi past runtim decis 
+need virtual copi constructor help 
+similarli consid clip board applic 
+clip board hold differ type object copi object exist object past applic canva 
+type object copi runtim decis 
+virtual copi constructor fill gap 
+see exampl includ iostream use namespac std librari srart class base public base virtual ensur invok actual object destructor base virtual void changeattribut 0 virtual constructor static base creat int id virtual copi constructor virtual base clone 0 class derived1 public base public derived1 cout derived1 creat endl derived1 const derived1 rh cout derived1 creat deep copi endl derived1 cout derived1 destroy endl void changeattribut cout derived1 attribut chang endl base clone return new derived1 class derived2 public base public derived2 cout derived2 creat endl derived2 const derived2 rh cout derived2 creat deep copi endl derived2 cout derived2 destroy endl void changeattribut cout derived2 attribut chang endl base clone return new derived2 class derived3 public base public derived3 cout derived3 creat endl derived3 const derived3 rh cout derived3 creat deep copi endl derived3 cout derived3 destroy endl void changeattribut cout derived3 attribut chang endl base clone return new derived3 also declar creat outsid base 
+relev limit scope base base base creat int id expand els ladder new deriv class creat user need recompil creat newli ad class object id 1 return new derived1 els id 2 return new derived2 els return new derived3 librari end util srart class user public user pbase 0 creat object base heirarchey runtim int input cout enter id 1 2 3 cin input input 1 input 2 input 3 cout enter id 1 2 3 cin input creat object via virtual constructor pbase base creat input user pbase delet pbase pbase 0 void action duplic current object base pnewbas pbase clone chang attribut pnewbas changeattribut dispos creat object delet pnewbas privat base pbase util end consum user util class int main user user new user user action delet user user class creat object help virtual constructor 
+object creat base user input 
+action make duplic object creat modifi attribut 
+duplic object creat help clone virtual function also consid virtual copi constructor 
+concept behind clone method build block prototyp pattern 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

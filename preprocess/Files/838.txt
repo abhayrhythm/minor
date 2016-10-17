@@ -1,0 +1,50 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks.
+Vicky’s story is an unusual one and so definitely an inspiring one too. He has proved that of you have willpower nothing can come in your way, no matter what.
+
+How did it all started? The change in stream and then change in country?
+I’m glad that you asked this question!
+Back in 2012, I was preparing for Medical entrance exam and I wanted to be a doctor. I had scored 145/200 in Maharashtra CET exam and couldn’t get admission into MBBS or BDS. It was a very tough time for me, my parents didn’t want me to go to any other city or state. After sitting at home for almost a month I decided to do BSc in Microbiology and started searching online. As I wasn’t aware of the deadlines, online application had already completed. It was the last day of offline Application process and I went to more than 10 colleges and requested them to give me admission. They all refused me to give admission. I came back, after a lot of discussion with my family they convinced me to give CET exam again but this time for Engineering. I spent one year at home and prepared for engineering entrance exam. I was Biology major so it was hard for me to study math but still I managed to score 154/200 (82/100 in Maths) and got into SPIT,Mumbai.
+My brothers introduced me to SPOJ and in my first year, I used to spend most on time on SPOJ. Later I switched to open source and started working on my own projects. After completing my 4th semester, I started my internship at Directi | CodeChef. Being exposed to real world very early was extremely helpful. Apart from technical skills, I learnt how a big company works, how they maintain codebase, tasks, about agile development etc. I was at CodeChef for six months and then I started working on my startup BooksBarter – Online Portal for buying and selling old books. I couldn’t do it but again it wasn’t a waste of time. Later, again at CodeChef after my 6th semester.
+So I think, My previous two internships, startup and Open source work helped me in many ways and Finally I made it to Slack this summer. 
+What are the skill-sets required to excel in programming?
+You only need basic/intermediate knowledge of one programming langauage. Once you start participating in programming competitions you will eventually learn everything while solving problems. Don’t forget to read editorials and upsolve problems after each contests. Trust me, I didn’t do this and I regret it. I would have been a better competitive programmer but I didn’t find it very exciting and later moved to open source – real world project development.
+If you want to excel in programming – Practice -> Practice -> Participate -> Code -> Read Editorial -> learn & Solve problems again -> Practice!
+What are the resources referred by you? What are the toughest problems you have solved till now?
+I used to spend most of time on GeeksforGeeks during my first two year of engineering. For Data structure and Algorithms, GeeksforGeeks and CLRS Book and ‘Data Structure and Algorithm Analysis by Mark Allen Weiss’. During my interview preparation – Geeksforgeeks, Elements of Programming Interviews and Coding Interview Questions by Narasimha Karumanchi. For open source development, Documentations! :p.
+What should one keep in mind when beginning to pursue the Competitive Programming and job preparation?
+In my opinion, Competitive programming and Job preparation are totally different things. Yes, Competitive Programming really helps in Job preparation but job preparation should not include Competitive Programming.
+For Competitive Programming this is the only mantra – Practice -> Practice -> Participate -> Code -> Read Editorial -> learn & Solve problems again -> Practice!
+But, for job preparation only DS and Algo skills are not enough. There should be few projects on your resume, knowledge of few frameworks and soft skills are also very important. Job preparation takes time. Networking, Database, Operating systems these subjects are also very important.
+What do you like to do in free time except programming?
+I spend most of my free time in chatting, reading on Reddit and watching Pranks and Music videos on YouTube.
+How your college has supported you for your achievement?
+My seniors in my college really helped me a lot. Everyone is self motivated there and trying their hardest to do something.
+How do you plan to get your dream job? Which company would you like to work for( if any)OR planning to become an Entrepreneur?
+I have already got offer from Slack. I want focus on more Infrastructure and Dev Operations. I don’t really care about the Company as long as I’m learning. I can work even work in a small startup and do my best for its growth as long as I’m learning and getting paid enough to save some money for traveling :p.
+Planning to become an Entrepreneur, yes! Someday yes, I have many ideas in mind but this is not the right time. I want to work somewhere for at least next 5-6 years then I will think of Entrepreneurship and invest all my money in that.
+Can you give us a brief account of what you felt was the toughest interview.
+I interviewed with 5-6 companies including Mozilla, LinkedIn, Amazon, BrowserStack. I found Browser’s interview bit challenging and couldn’t solve any problem. Problems were so good and challenging, I just want to apply there and interview with them again. I wasn’t prepared enough that time. If I remember correctly, I had to create XML and log parsers in both coding problems. Rest of the companies interview were pretty much like easy/medium level problems on CodeChef.
+Your advice to students who are aiming for similar targets as yours?
+“Don’t worry. Follow what your heart says and do it well.” ~ Anup Sir | Lead, CodeChef.
+So just do what you love but also maintain your GPA in college. Ask yourself just one question – “Did you give your 100%?” in everything you really want to do. If it’s 100% not then you need to improve and If you did give your 100% then you will see the results it may take time but it would be awesome I’m sure!
+Vicky can be reached at  Facebook , Linkedin  , Quora blog , Personal blog , Github
+Vicky’s Achievements:
+
+Directi (4th sem) -> Directi (6th sem ) -> Slack Internship and then full time offer.
+Contributed to more than 10+ open source projects including Google and Apple’s projects.
+AlgoWiki – All resources at one place, my open source project is used by more than thousands students and it has 50,000 monthly page views.
+AlgoWiki was used in MIT Conference for a workshop
+The L and Charmander Bot for Slack is used by 10+ small and big Organizations.
+
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

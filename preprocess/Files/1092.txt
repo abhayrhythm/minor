@@ -1,0 +1,30 @@
+
+Given an array of integers, find two non-overlapping contiguous sub-arrays such that the absolute difference between the sum of two sub-arrays is maximum.
+For example,
+
+Input: [-2, -3, 4, -1, -2, 1, 5, -3]
+Output: 12
+Two subarrays are [-2, -3] and [4, -1, -2, 1, 5]
+
+Input: [2, -1, -2, 1, -4, 2, 8]
+Output: 16
+Two subarrays are [-1, -2, 1, -4] and [2, 8] 
+Expected time complexity is O(n).
+The idea is for each index i in given array arr[0…n-1], compute maximum and minimum sum subarrays that lie in subarrays arr[0…i] and arr[i+1 …n-1]. We maintain four arrays that store the maximum and minimum sums in the subarrays arr[0…i] and arr[i+1 … n-1] for every index i in the array.
+
+leftMax[] : An element leftMax[i] of this 
+            array stores the maximum value 
+            in subarray arr[0..i]
+
+leftMin[] : An element leftMin[i] of this 
+            array stores the minimum value
+            in subarray arr[0..i]
+
+rightMax[] : An element rightMax[i] of this 
+             array stores the maximum value 
+             in subarray arr[i+1..n-1]
+
+rightMin[] : An element rightMin[i] of this
+             array stores the minimum value
+             in subarray arr[i+1..n-1] 
+We can build above four arrays in O(n) time by using Kadane Algorithm.

@@ -1,0 +1,17 @@
+given binari tree convert doubli link list node repres spiral 
+left pointer binari tree node act previou node creat dll right pointer act next node 
+solut alloc extra memori dll node 
+use binari tree node creat dll e 
+chang pointer allow exampl tree left side doubli link list 1 2 3 7 6 5 4 8 9 10 11 13 14 1 3 2 4 5 6 7 14 13 11 10 9 8 strongli recommend minim browser tri first 
+spiral order travers n time n extra space 
+idea use dequ doubl end queue expand contract end either front back 
+someth similar level order travers maintain spiral order everi odd level dequeu node front insert left right children back dequ data structur 
+even level dequeu node back insert right left children front dequ 
+also maintain stack store binari tree node 
+whenev pop node dequ push node stack 
+later pop node stack push node begin list 
+avoid use stack maintain tail pointer alway point last node dll insert node 1 time end 
+c implement idea c c program convert binari tree doubli link list node repres spiral 
+includ bit stdc h use namespac std binari tree node struct node int data struct node left right given refer head list node insert node front list 
+void push node head_ref node node make right given node head left null node right head_ref node left null chang left head node given node head_ref null head_ref left node move head point given node head_ref node function print content dll void printlist node node node null cout node data node node right function print corner node level void spirallevelord node root base case root null return creat empti dequ spiral level order travers enqueu root dequ node q q push_front root creat stack store binari tree node insert dll later stack node stk int level 0 q empti nodecount indic number node current level 
+int nodecount q size dequeu node current level enqueu node next level level 1 odd level nodecount 0 dequeu node front push stack node node q front q pop_front stk push node insert left right children back dequ node left null q push_back node left node right null q push_back node right nodecount els even level nodecount 0 dequeu node back push stack node node q back q pop_back stk push node insert right left children front dequ node right null q push_front node right node left null q push_front node left nodecount level head pointer dll node head null pop node stack push begin list stk empti push head stk top stk pop cout creat dll n printlist head util function creat new tree node node newnod int data node temp new node temp data data temp left temp right null return temp driver program test function int main let us creat binari tree shown diagram node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root left left left newnod 8 root left left right newnod 9 root left right left newnod 10 root left right right newnod 11 root right left left newnod 12 root right left right newnod 13 root right right left newnod 14 root right right right newnod 15 spirallevelord root return 0 

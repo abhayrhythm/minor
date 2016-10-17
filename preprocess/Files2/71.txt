@@ -1,0 +1,16 @@
+discuss overlap subproblem optim substructur properti set 1 set 2 respect 
+let us discuss longest increas subsequ li problem exampl problem solv use dynam program 
+longest increas subsequ li problem find length longest subsequ given sequenc element subsequ sort increas order 
+exampl length li 10 22 9 33 21 50 41 60 80 6 li 10 22 33 50 60 80 
+strongli recommend click practic move solut 
+optim substructur let arr 0 n 1 input array l length li till index arr part li arr last element li l recurs written 
+l 1 max l j j arr j arr j l 1 get li given array need return max l 0 n li problem optim substructur properti main problem solv use solut subproblem 
+overlap subproblem follow simpl recurs implement li problem 
+implement simpli follow recurs structur mention 
+valu li end everi element return use max_ending_her 
+overal li return use pointer variabl max 
+c c naiv c c recurs implement li problem includ stdio h includ stdlib h make use recurs call function must return two thing 1 length li end element arr n 1 
+use max_ending_her purpos 2 overal maximum li may end element arr n 1 max_ref use purpos 
+valu li full array size n store max_ref final result int _li int arr int n int max_ref base case n 1 return 1 max_ending_her length li end arr n 1 int re max_ending_her 1 recurs get li end arr 0 arr 1 arr n 2 
+arr 1 smaller arr n 1 max end arr n 1 need updat updat int 1 n re _li arr max_ref arr 1 arr n 1 re 1 max_ending_her max_ending_her re 1 compar max_ending_her overal max 
+updat overal max need max_ref max_ending_her max_ref max_ending_her return length li end arr n 1 return max_ending_her wrapper function _li int li int arr int n max variabl hold result int max 1 function _li store result max _li arr n max return max return max driver program test function int main int arr 10 22 9 33 21 50 41 60 int n sizeof arr sizeof arr 0 printf length li n li arr n return 0 

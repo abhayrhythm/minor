@@ -1,0 +1,13 @@
+given sort array sort non decreas order posit number find smallest posit integ valu cannot repres sum element subset given set 
+expect time complex n 
+exampl input arr 1 3 6 10 11 15 output 2 input arr 1 1 1 1 output 5 input arr 1 1 3 4 output 10 input arr 1 2 5 10 20 40 output 4 input arr 1 2 3 4 5 6 output 22 strongli recommend minim browser tri first 
+simpl solut start valu 1 check valu one one sum valu given array 
+solut ineffici reduc subset sum problem well known np complet problem 
+solv problem n time use simpl loop 
+let input array arr 0 n 1 
+initi result 1 smallest possibl outcom travers given array 
+let smallest element cannot repres element index 0 1 re follow two possibl consid element index 1 decid re final result arr greater re found gap re element arr also go greater re 
+2 valu re increment consid arr valu re increment arr 
+element 0 1 repres 1 re 1 element 0 repres 1 re arr 1 ad arr subset repres 1 re follow implement idea 
+c c program find smallest posit valu cannot repres sum subset given sort array includ iostream use namespac std return smallest number cannot repres sum subset element set repres sort array arr 0 n 1 int findsmallest int arr int n int re 1 initi result travers array increment re arr smaller equal re 
+int 0 n arr re re re arr return re driver program test function int main int arr1 1 3 4 5 int n1 sizeof arr1 sizeof arr1 0 cout findsmallest arr1 n1 endl int arr2 1 2 6 10 11 15 int n2 sizeof arr2 sizeof arr2 0 cout findsmallest arr2 n2 endl int arr3 1 1 1 1 int n3 sizeof arr3 sizeof arr3 0 cout findsmallest arr3 n3 endl int arr4 1 1 3 4 int n4 sizeof arr4 sizeof arr4 0 cout findsmallest arr4 n4 endl return 0 

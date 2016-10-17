@@ -1,0 +1,4 @@
+print store variabl name string variabl 
+strongli recommend minim browser tri first c direct also call stringiz oper magic 
+basic direct convert argument string 
+includ stdio h defin getnam var var int main int myvar printf getnam myvar return 0 output myvar 

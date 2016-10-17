@@ -1,0 +1,67 @@
+main forum prepar 
+thank lot geeksforgeek 
+give back got call bing team idc 
+2 year job experi post btech cse 
+5 interview describ 
+1 first one fli fli round 
+first discuss around previou work experi interview ask technic design question 
+ask write code find smallest subarray sort would sort entir array 
+answer avail http www geeksforgeek org minimum length unsort subarray sort make complet array sort 
+write optim code 
+second er diagram furnitur scenario 
+import part materi furnitur separ class rather properti furnitur item like bed chair tabl 
+materi associ properti like isflamm iswaterresist etc 
+2 got one question interview ask solv board 
+question add digit number repres link list node digit number 
+constraint link list modifi except digit modifi answer number could infinit long 
+avoid problem memori overflow 
+recurs stack copi link list chang origin link list suggest solut geeksforgeek 
+keep track carri ad previou digit iter basic keep track digit last consecut 9 prece last digit 
+exampl 9719938996 would 4the digit right 8 singl pass figur posit 9 also last digit 
+requir digit chang easili 
+3 round interview open consol app pc ask code 
+believ actual take note time took write code whether compil first time 
+paid attent accuraci code time took 
+question ask check number ni power anoth number x spoke case x 2 case discuss could done check bit 
+check two binari tree ident 
+also initialis run test case 
+discuss line wise optim complet code 
+rotat matrix given distanc 
+similar answer distanc rotat 1 found http www geeksforgeek org rotat matrix element design discuss design librari onlin portal 
+gave basic architectur ask would implement search featur 
+suggest book name author isbn etc 
+ask base book content 
+told store tag book could use search 
+like idea prod proper text search 
+told use hash tabl blob 
+perhap look tri sinc much familiar avoid 
+seem satisfi end interview 
+4 ask introduc talk project greatest technic challeng face 
+ask write code paper linkedin featur shown connect depth two peopl 
+solut version shortest path algorithm graph 
+ask optimis answer 1 extra space besid space graph structur 
+next scanario includ seri question 
+give inform schema custom item order onlin retail like amazon 
+apart foreign key relationship interest store order purchas order multipl item purchas 
+answer relat tabl like itemizedord store map order item id 
+ask write queri get custom bought certain item given date 
+said item like book compani get book mani book seller differ schema way store book inform 
+ask design system allow handl variat 
+gave portal web servic end point differ vendor could upload data 
+web servic would rule engin would map differ schema assign default valu wherev possibl miss valu like subtitl ignor miss valu unimport field like noofpag els return error messag item insuffici mandatori data like price 
+rule engin would store process input db schema 
+5 senior guy formal 
+interview told select first 10 minut tri analyz work prefer suitabl team set expect 
+answer question ask end interview half hour 
+gener ask 2 common question everi time describ previou work experi want join bing 
+get approach question instantli spoke thought aloud 
+guid got stuck prompt toward optim possibl 
+twice also given exampl scenario code cover 
+sinc knew interview bing ask interview relev question round 
+interview schedul 1 hour though third one got stretch 1 5 hour last one quit short 
+except first interview outcom other collect 
+even well one manag other decent hire 
+best 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

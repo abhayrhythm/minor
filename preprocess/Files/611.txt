@@ -1,0 +1,44 @@
+
+Hi, Recently I got a chance to attend the off campus interview with Amazon (SDE-1).Every code they asked to write on paper and full production level code was expected.
+Here is my experience:
+Round 1:
+Three questions. Were asked to write the code on paper:
+1. Next Greater Element in array
+2. convert sorted array to binary search tree
+3. Find the row with maximum no of 1s in 2-D sorted array
+Round 2:
+1. Next Greater element in BST
+2. Given a linked list. Each node contains a string. Find whether the string (after concatenating entire nodes string) is palindrome or not. Expectation : Time Complexity O(n) and Space Complexity O(1)
+3. One more question. Don’t remember
+Round 3:
+1. Given a pole of different heights and width. Water is continuously flowing from top. Calculate the total amount of water stored.
+2. Code for Josephus circle
+Round 4:
+1. Discussion of current role & projects
+2. Given a linked list 1->2->3->4->5->6. Make the following change:
+1->6->2->5->3->4
+3. OS concepts : mutex, deadlock, semaphore, Multithreading
+4. Implement Producer Consumer Problem. Extended the problem by adding mutliple producer and mutliple consumer. (Focus mainly on thread deadlocks, resource handling, efficiency)
+Round 5:
+1. Discussion on current role & project
+2. Discussion on IPC.
+3. Stream of integers is coming. How will you find the median? Discussion on complexity and choice of data structure.
+4. Variation on mirror of tree. Dont remember the exact question
+5. Reverse a list
+Round 6:
+1. Discussion on current role & project
+2. Finding subset of array with maximum sum
+3. Contact suggestion comes in phone on typing few letters. How will you implement it? Code to insert, search and delete contact.
+After 1 week, I got a call with offer. Thanks to GeeksforGeeks for helping me a lot for my preparations 
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

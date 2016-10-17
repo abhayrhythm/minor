@@ -1,0 +1,39 @@
+hello friend amazon recent visit campu hire sde 
+usual first second compani visit campu give littl time prepar 
+better prepar summer vacat read g4g 
+great fun prepar amazon realli enjoy interview process 
+process span across two day 
+interview realli nice realli felt realli comfort throughout interview process 
+let share experi 
+first round 1 hour 30 min apti code onlin round conduct hackerank 
+20 question ask c c java output os ds algorithm etc 
+2 code question ask 
+q1 given link list check whether palindrom 
+http www geeksforgeek org function check singli link list palindrom q2 given matrix nxm consist alphanumer charact print matrix spiral 
+http www geeksforgeek org print given matrix spiral form round around 30 student select 250 student 
+f2f 1 1 hour 30 min technic round start basic question like tell question project 
+code question ask q1 given matrix nxm 
+consid submatrix top left coordin x1 y1 bottom right coordin x2 y2 
+mani queri perform x1 y1 x2 y2 enter 
+find sum element sub matrix 1 time complex queri 
+eg 1 2 3 4 5 6 7 8 9 1 0 2 3 4 1 5 0 0 1 2 24 1 1 2 2 14 q2 given alien languag dont know arrang letter 
+given word alien languag dictionari order 
+use word need find order letter alien languag 
+http www geeksforgeek org given sort dictionari find preced charact q3 given preoder travers bst need creat bst use given travers 
+use inord travers e 
+sort element use array 
+also need creat bst singl travers preorder list 
+q4 need revers link list use singl pointer 
+word recurrs ask write code revers 
+round student select second round interview process 
+luckili among 
+f2f 2 1 hour technic round also consist code question q1 given tree print tree zig zag manner 
+http www geeksforgeek org level order travers spiral form q2 given sort array need find element whose valu equal index valu 
+ask log n time complex 
+q3 given tree given tree special tree node 1 pointer point parent 
+tree given 2 node need find lowest common ancestor lca 
+hint question similar intersect 2 link list 
+end ask question ask 
+thank geeksforgeek like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

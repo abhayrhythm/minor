@@ -1,0 +1,63 @@
+
+There are n bikes and each can cover 100 km when fully fueled. What is the maximum amount of distance you can go using n bikes?  You may assume that all bikes are similar and a bike takes 1 litre to cover 1 km.
+You have n bikes and using one bike you can only cover 100 km. so if n bikes start from same point and run simultaneously you can go only 100 km. Let’s think bit differently, trick is when you want to cover maximum distance, you should always try to waste minimum fuel. Minimum wastage of fuel means to run minimum number of bikes. Instead of parallel running of n bikes, you can think of serially running them. That means if you transfer some amount of fuel from last bike to another bikes and throw the last bike i.e., don’t run the last bike after certain point. But the question is, after what distance the fuel transfer has to be done so that the maximum distance is covered and fuel tank of remaining bikes do not overflow. Let us take following base cases and then generalize the solution.
+Base Case 1: There is one bike This is simple, we can cover 100 kms only.
+Base Case 2: There are two bikes: What is the maximum distance we can cover when there are 2 bikes? To maximize the distance, we must drop second bike at some point and transfer its fuel to first bike.  Let we do the transfer after x kms.
+
+Total distance covered = Distance covered by 100 ltr in first bike +                               
+                         Distance covered by fuel transferred from first bike. 
+Remaining fuel in second bike is 100 – x. If we transfer this much fuel to first bike, then the total distance would become 100 + 100 – x which is 200 – x.  So our task is to maximize 200-x. The constraint is, 100 – x must be less than or equal to the space created in first bike after x kms, i.e., 100 – x <= x. The value of 200-x becomes maximum when x is minimum.  The minimum possible value of x is 50.  So we are able to travel 150 kms.
+
+Base Case 3: There are three bikes:
+Let the first transfer is done after x kms. After x distance all bikes contain 100-x amount of fuel. If we take 100-x amount of fuel from 3rd bike and distribute it among 1st and 2nd bike so that fuel tanks of 1st and 2nd bikes get full. So 100-x <= 2*x; or, x=33.333 so we should transfer the remaining fuel of third bike and distribute that amount of fuel among 1st and 2nd bike after exactly 33.33 km. 
+
+Let us generalize it.  If we take a closer look at above cases, we can observe that if there are n bikes, then the first transfer is done (or a bike is dropped) after 100/n kms. To generalize it more, when we have x litre remaining fuel in every bike and n remaining bikes, we drop a bike after x/n kms.
+
+Following is C implementation of a general function.
+
+
+
+#include <stdio.h>
+
+// Returns maximum distance that can be traveled by n bikes and given fuel
+// in every bike
+double maxDistance(int n, int fuel)
+{
+    // dist_covered is the result of this function
+    double dist_covered = 0;
+
+    while (n > 0)
+    {
+        // after ever fuel/n km we are discarding one bike and filling 
+        // all the other bikes with fuel/n liters of fuel i.e. to their
+        // maximum limit (100 litre)
+
+        dist_covered += (double)fuel / n;
+
+        n -= 1;  // reduce number of bikes
+    }
+    return dist_covered;
+}
+
+// Driver program to test above function
+int main()
+{
+    int n = 3; // number of bikes
+    int fuel = 100;
+    printf("Maximum distance possible with %d bikes is %f",
+            n, maxDistance(n, fuel));
+    return 0;
+}
+
+Output:
+Maximum distance possible with 3 bikes is 183.333333
+This article is contributed by Shamik Mitra. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

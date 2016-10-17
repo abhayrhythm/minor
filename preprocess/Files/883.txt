@@ -1,0 +1,62 @@
+
+We have discussed introduction to operators in C and Arithmetic Operators.  In this article, Relational and Logical Operators are discussed.
+Relational Operators:
+Relational operators are used for comparison of two values. Let’s see them one by one:
+
+‘==’ operator checks whether the two given operands are equal or not. If so, it returns true. Otherwise it returns false. For example, 5==5 will return true.
+‘!=’ operator checks whether the two given operands are equal or not. If not, it returns true. Otherwise it returns false. It is the exact boolean complement of the ‘==’ operator. For example, 5!=5 will return false.
+‘>’ operator checks whether the first operand is greater than the second operand. If so, it returns true. Otherwise it returns false. For example, 6>5 will return true.
+‘<‘ operator checks whether the first operand is lesser than the second operand. If so, it returns true. Otherwise it returns false. For example, 6<5 will return false.
+‘>=’ operator checks whether the first operand is greater than or equal to the second operand. If so, it returns true. Otherwise it returns false. For example, 5>=5 will return true.
+‘<=’ operator checks whether the first operand is lesser than or equal to the second operand. If so, it returns true. Otherwise it returns false. For example, 5<=5 will also return true.
+
+
+// C program to demonstrate working of relational operators
+#include <stdio.h>
+
+int main()
+{
+    int a=10, b=4;
+
+    // relational operators
+    // greater than example
+    if (a > b)
+        printf("a is greater than b\n");
+    else printf("a is less than or equal to b\n");
+
+    // greater than equal to
+    if (a >= b)
+        printf("a is greater than or equal to b\n");
+    else printf("a is lesser than b\n");
+
+    // less than example
+    if (a < b)
+        printf("a is less than b\n");
+    else printf("a is greater than or equal to b\n");
+
+    // lesser than equal to
+    if (a <= b)
+        printf("a is lesser than or equal to b\n");
+    else printf("a is greater than b\n");
+
+    // equal to
+    if (a == b)
+        printf("a is equal to b\n");
+    else printf("a and b are not equal\n");
+
+    // not equal to
+    if (a != b)
+        printf("a is not equal to b\n");
+    else printf("a is equal b\n");
+
+    return 0;
+}
+
+Output:
+
+a is greater than b
+a is greater than or equal to b
+a is greater than or equal to b
+a is greater than b
+a and b are not equal
+a is not equal to b

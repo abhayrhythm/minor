@@ -1,0 +1,32 @@
+
+The idea behind developing the framework is to provide a user friendly environment to provide knowledge and give everyone a chance to learn.The intent of this web application is to provide information for students about their syllabus, previous year’s question papers. The system also provides a user-friendly login, software access.
+Features:
+
+Sees the Syllabus Panel
+Sees the Question Papers Panel.
+
+Implementation:
+Front end was developed in HTML/CSS with BootStrap framework, and Back end in PHP- MySQL.
+Tools:
+XAMPP is a free and open source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MySQL database, and interpreters for scripts written in the PHP and Perl programming languages.
+https://www.apachefriends.org/index.html
+Source Code:
+The Source Code for this project is available in GitHub. To view the code click the following link:
+https://github.com/NvThejaswini/CSEWebnode
+References:
+There are many tutorials for PHP. For example, to learn PHP, MySQL following link would be preferable.
+http://www.w3schools.com/php/
+The following link is download the XAMPP software and also the documentation for the beginners.
+https://www.apachefriends.org/index.html
+ 
+This article is contributed by N.VenkataThejaswini.If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

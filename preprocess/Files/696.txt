@@ -1,0 +1,33 @@
+
+I appeared for lybrate.com summer internship recruitment process.There were a total of 3 interviews:
+Round 1: (Telephonic)
+Q1:First the interviewer talked to me about a certain android app project done by me.Then asked me a question regarding algorithm used in ranking different users that were using the services.
+Q2:  http://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/
+Q3: http://www.geeksforgeeks.org/write-a-c-function-to-detect-loop-in-a-linked-list/
+I suggested the FCFA method.He asked me if the speed of the fast pointer is increased to 3 units,then what effect will it have on the time complexity.
+Q4: https://www.brainbashers.com/showanswer.asp?ref=ZVGA
+Then he asked me to find the entire set of possible time intervals that can be measured by the two ropes.
+Then,he further asked me to generalise the result for n ropes.
+Q5: Different types of SQL Joins.
+Round 2: (Skype)
+Q1: Question on session management in backend webD,regarding one of my previous projects.
+Q2: HashMap and its implementation in Java,with a sample coding scenario.
+Q3: Given a set of integers and an integer x, how many  “combinations” for the set are possible?
+A combination is the sum of elements of the array so that the sum equals x.But,there is one more condition.A number when added to itself can also be part of the combination(s), i. e., repetition is possible in full sense.
+For example: x=10 array={2,3,4,5}
+The possible combinations can be: 2+2+2+2+2,2+3+5,2+2+2+4,3+3+4,4+4+2……………etc
+Round 3: (Telephonic)
+Q: Elaborate Software Testing,focusing on unit testing.
+Questions regarding the work that I had done previously,my interests and the projects that I would be interested to work in. Also, they told me about the work being done at lybrate, and where I would be able to contribute + some basic HR questions
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

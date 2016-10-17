@@ -1,0 +1,25 @@
+given graph sourc vertex graph find shortest path sourc vertic given graph 
+input sourc 0 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 discuss dijkstra shortest path implement 
+dijkstra algorithm adjac matrix represent c c time complex v2 dijkstra algorithm adjac list represent c time complex elogv second implement time complex wise better realli complex implement prioriti queue 
+stl provid priority_queu provid prioriti queue support decreas key delet oper 
+dijkstra algorithm need prioriti queue oper prioriti queue extractmin vertic whose shortest distanc yet found need get vertex minimum distanc 
+decreasekey extract vertex need updat distanc adjac vertic new distanc smaller updat data structur 
+oper easili implement set data structur c stl set keep key sort order minimum distant vertex alway begin extract extractmin oper updat adjac vertex accordingli vetex distanc becom smaller delet previou entri insert new updat entri decreasekey oper 
+algorithm base set data structur 
+1 initi distanc vertic infinit 
+2 creat empti set 
+everi item set pair weight vertex 
+weight distanc use use first item pair first item default use compar two pair 
+3 insert sourc vertex set make distanc 0 
+4 set becom empti follow extract minimum distanc vertex set 
+let extract vertex u b loop adjac u follow everi vertex v shorter path v u dist v dist u weight u v updat distanc v e dist v dist u weight u v v set updat distanc set remov first insert new distanc ii v set insert set new distanc 5 print distanc array dist print shortest path 
+c implement idea 
+program find dijkstra shortest path use stl set includ bit stdc h use namespac std defin inf 0x3f3f3f3f class repres direct graph use adjac list represent class graph int v 
+vertic weight graph need store vertex weight pair everi edg list pair int int adj public graph int v constructor function add edg graph void addedg int u int v int w print shortest path void shortestpath int alloc memori adjac list graph graph int v v v adj new list pair int int v void graph addedg int u int v int w adj u push_back make_pair v w adj v push_back make_pair u w print shortest path src vertic void graph shortestpath int src creat set store vertic prerocess set pair int int setd creat vector distanc initi distanc infinit inf vector int dist v inf insert sourc set initi distanc 0 setd insert make_pair 0 src dist src 0 loop till shortest distanc final setd becom empti setd empti first vertex set minimum distanc vertex extract set 
+pair int int tmp setd begin setd eras setd begin vertex label store second pair done way keep vertic sort distanc distanc must first item pair int u tmp second use get adjac vertic vertex list pair int int iter adj u begin adj u end get vertex label weight current adjac u int v first int weight second shorter path v u dist v dist u weight distanc v inf must set remov insert updat less distanc 
+note extract vertic set distanc final 
+would never reach 
+dist v inf setd eras setd find make_pair dist v v updat distanc v dist v dist u weight setd insert make_pair dist v v print shortest distanc store dist printf vertex distanc sourc n int 0 v printf n dist driver program test method graph class int main creat graph given fugur int v 9 graph g v make shown graph g addedg 0 1 4 g addedg 0 7 8 g addedg 1 2 8 g addedg 1 7 11 g addedg 2 3 7 g addedg 2 8 2 g addedg 2 5 4 g addedg 3 4 9 g addedg 3 5 14 g addedg 4 5 10 g addedg 5 6 2 g addedg 6 7 1 g addedg 6 8 6 g addedg 7 8 7 g shortestpath 0 return 0 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 time complex set c typic implement use self balanc binari search tree 
+therefor time complex set oper like insert delet logarithm time complex solut elogv 
+dijkstra shortest path algorithm use priority_queu stl articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

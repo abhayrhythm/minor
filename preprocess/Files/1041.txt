@@ -1,0 +1,45 @@
+
+Predict the output of following C programs.
+Question 1
+
+#include<stdio.h>
+
+int main()
+{
+    enum channel {star, sony, zee};
+    enum symbol {hash, star};
+
+    int i = 0;
+    for(i = star; i <= zee; i++)
+    {
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+
+Output: 
+
+compiler error: redeclaration of enumerator 'star'
+
+In the above program, enumartion constant ‘star’ appears two times in main() which causes the error.  An enumaration constant must be unique within the scope in which it is defined.  The following program works fine and prints 0 1 2 as the enumaration constants automatically get the values starting from 0. 
+
+#include<stdio.h>
+
+int main()
+{
+    enum channel {star, sony, zee};
+
+    int i = 0;
+    for(i = star; i <= zee; i++)
+    {
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+
+Output:
+
+0 1 2
+

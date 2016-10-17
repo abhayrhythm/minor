@@ -1,0 +1,42 @@
+given set posit integ 
+find maximum xor subset valu given set 
+expect time complex n 
+exampl input set 2 4 5 output 7 subset 2 5 maximum xor valu input set 9 8 5 output 13 subset 8 5 maximum xor valu input set 8 1 2 12 7 6 output 15 subset 1 2 12 maximum xor valu input set 4 6 output 6 subset 6 maximum xor valu note problem differ maximum subarray xor 
+need find subset instead subarray 
+strongli recommend minim browser tri first 
+simpl solut gener possibl subset given set find xor everi subset return subset maximum xor 
+effici algorithm work n time 
+idea base fact number bit repres element fix 32 bit integ compil 
+maximum element signific bit msb posit result least 2i 1 initi index chosen element 0 let index index 2 travers bit start signific bit 
+let current bit 
+find maximum element th bit set 
+element th bit set continu smaller bit 
+b let element th bit set maxel index element maxind 
+place maxel index swap set index set maxind c xor maxel number th bit set 
+increment index 3 return xor element set 
+note set modifi step 2 c 
+c implement algorithm 
+c program find maximum xor subset includ bit stdc h use namespac std number bit repres int defin int_bit 32 function return maximum xor subset set int maxsubarrayxor int set int n initi index chosen element int index 0 travers bit integ start signific bit msb int int_bit 1 0 initi index maximum element maximum element int maxind index maxel int_min int j index j n j th bit set j set set j greater max far 
+set j 1 0 set j maxel maxel set j maxind j element th bit set move smaller maxel int_min continu put maximum element th bit set index index swap set index set maxind updat maxind increment index maxind index xor set maxindex number th bit set 
+int j 0 j n j xor set maxind number th bit set j maxind set j 1 0 set j set j set maxind increment index chosen element index final result xor element int re 0 int 0 n re set return re driver program test function int main int set 9 8 5 int n sizeof set sizeof set 0 cout max subset xor maxsubarrayxor set n return 0 output max subset xor 13 illustr let input set 9 8 5 start 31st bit assum integ 32 bit long 
+loop continu without anyth till 4 th bit 
+4th bit set set 0 e 
+9 maximum element 4th bit set 
+choos element check number bit set 
+ye xor number 9 element set 1 e 8 also 4 th bit set 
+set becom 9 1 5 
+add 9 list chosen element increment index move find maximum number 3rd bit set set 2 e 
+5 number array 3rd bit set 
+5 also ad list chosen element 
+iter bit 2 number 1 1 number 9 5 1st bit set 
+thu xor 9 5 1 set becom 8 1 4 final xor current element set get result 8 1 4 13 work 
+let us first understand simpl case element signific bit msb differ posit 
+task particular case simpl need xor element 
+input contain multipl number msb obviou choos includ xor 
+reduc input list equival form contain one number length 
+take maximum element know msb go output 
+let msb posit element th set msb xor maximum number th bit becom 0 problem reduc 1 bit 
+refer http math stackexchang com question 48682 maxim xor oper note method similar gaussian elimin 
+consid matrix size 32 x n 32 number bit n number element array 
+articl contribut ekta goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

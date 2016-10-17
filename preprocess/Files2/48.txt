@@ -1,0 +1,42 @@
+recommend read follow post prerequisit post 
+k th smallest largest element unsort array set 1 k th smallest largest element unsort array set 2 expect linear time given array number k k smaller size array need find k th smallest element given array 
+given array element distinct 
+exampl input arr 7 10 4 3 20 15 k 3 output 7 input arr 7 10 4 3 20 15 k 4 output 10 previou post discuss expect linear time algorithm 
+post worst case linear time method discuss 
+idea new method similar quickselect get worst case linear time select pivot divid array balanc way element one side mani side 
+array divid balanc way appli step use quickselect decid whether go left right pivot 
+follow complet algorithm 
+kthsmallest arr 0 n 1 k 1 divid arr n 5rceil group size group 5 except possibl last group may less 5 element 
+2 sort creat n 5 group find median group 
+creat auxiliari array median store median n 5 group median array 
+recurs call method find median median 0 n 5 1 3 medofm kthsmallest median 0 n 5 1 n 10 4 partit arr around medofm obtain posit 
+po partit arr n medofm 5 po k return medofm 6 po k return kthsmallest arr l po 1 k 7 poa k return kthsmallest arr po 1 r k po l 1 algorithm last 3 step algorithm previou post 
+first four step use obtain good point partit array make sure mani element either side pivot 
+follow c implement algorithm 
+c implement worst case linear time algorithm find k th smallest element includ iostream includ algorithm includ climit use namespac std int partit int arr int l int r int k simpl function find median arr 
+call array size 5 program 
+int findmedian int arr int n sort arr arr n sort array return arr n 2 return middl element return k th smallest element arr l r worst case linear time 
+assumpt element arr distinct int kthsmallest int arr int l int r int k k smaller number element array k 0 k r l 1 int n r l 1 number element arr l r divid arr group size 5 calcul median everi group store median array 
+int median n 4 5 floor n 4 5 group 0 n 5 median findmedian arr l 5 5 5 n last group less 5 element median findmedian arr l 5 n 5 find median median use recurs call 
+median one element need recurs call int medofm 1 
+median 1 kthsmallest median 0 1 2 partit array around random element get posit pivot element sort array int po partit arr l r medofm posit k po l k 1 return arr po po l k 1 posit recur left return kthsmallest arr l po 1 k els recur right subarray return kthsmallest arr po 1 r k po l 1 k number element array return int_max void swap int int b int temp b b temp search x arr l r partit array around x int partit int arr int l int r int x search x arr l r move end int l r arr x break swap arr arr r standard partit algorithm l int j l j r 1 j arr j x swap arr arr j swap arr arr r return driver program test method int main int arr 12 3 5 7 4 19 26 int n sizeof arr sizeof arr 0 k 3 cout k th smallest element kthsmallest arr 0 n 1 k return 0 output k th smallest element 5 time complex worst case time complex algorithm n 
+let us analyz step 
+step 1 2 take n time find median array size 5 take 1 time n 5 array size 5 step 3 take n 5 time 
+step 4 standard partit take n time 
+interest step 6 7 
+one execut 
+recurs step 
+worst case size recurs call 
+answer maximum number element greater medofm obtain step 3 maximum number element smaller medofm 
+mani element greater medofm mani smaller 
+least half median found step 2 greater equal medofm 
+thu least half n 5 group contribut 3 element greater medofm except one group fewer 5 element 
+therefor number element greater medofm least 
+similarli number element less medofm least 3n 10 6 worst case function recur n 3n 10 6 7n 10 6 element 
+note 7n 10 6 n n 20 input 80 fewer element requir 1 time 
+therefor obtain recurr show run time linear substitut 
+assum n cn constant c n 80 substitut induct hypothesi right hand side recurr yield n cn 5 c 7n 10 6 n cn 5 c 7cn 10 6c n 9cn 10 7c n cn sinc pick c larg enough c n 10 7 larger function describ n term n 80 worst case run time therefor linear sourc http staff ustc edu cn csli graduat algorithm book6 chap10 htm 
+note algorithm linear worst case constant high algorithm 
+therefor algorithm work well practic situat random quickselect work much better prefer 
+sourc mit video lectur order statist median introduct algorithm clifford stein thoma h cormen charl e leiserson ronald l http staff ustc edu cn csli graduat algorithm book6 chap10 htm articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

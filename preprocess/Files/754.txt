@@ -1,0 +1,103 @@
+
+Time, Speed and Distance (popularly known as TSD) is an important topic for written round of placements for any company. 
+
+Distance = Speed x Time
+To convert from km / hour to m / sec, we multiply by 5 / 18. So, 1 km / hour = 5 / 18 m / sec
+To convert from m / sec to km / hour, we multiply by 18 / 5. So, 1 m / sec = 18 / 5 km / hour = 3.6 km / hour
+For a certain distance, if the ratio of speeds is x : y, then the ratio of times taken to cover the distance would be y : x and vice versa.
+If a person covers a certain same distance multiple times with different speeds, then
+Average speed = n / ∑ (1/si), where n is the number of times the distance is covered and si are the respective speeds of covering the distance.
+For example, if a person travels a distance of 10 km three times at the speeds of 4 km/h, 5 km/h and 6 km/h, then the average speed would be 3 / [ (1 / 4) + (1 / 5) + (1 / 6) ] = 3 / (37 / 60) = 180 / 37 &approx; 4.86 km/h
+Relative Speed
+
+If two people / objects are moving in same direction with speeds x km / h and y km / h (x > y), then their relative speed would be (x – y) km / h
+If two people / objects are moving in opposite direction with speeds x km / h and y km / h, then their relative speed would be (x + y) km / h
+Relative speed is the rate at which two moving bodies are separating from / coming closer to each other. For example, if two persons are moving at 10 km/h and 20 km/h in opposite directions, then their relative speed would be 10 + 20 = 30 km / h, i.e., the distance between them after one hour would be 30 km. Similarly, if they were moving in the same direction, their relative speed would be 20 – 10 = 10 km / h, i.e., the distance between them after one hour would be 10 km.
+
+
+
+Sample Problems
+Question 1 : A runner can complete a 750 m race in two and a half minutes. Will he be able to beat another runner who runs at 17.95 km / hr ?
+Solution : We are given that the first runner can complete a 750 m race in 2 minutes and 30 seconds or 150 seconds.
+=> Speed of the first runner = 750 / 150 = 5 m / sec
+We convert this speed to km / hr by multiplying it by 18/5.
+=>  Speed of the first runner = 18 km / hr
+Also, we are given that the speed of the second runner is 17.95 km / hr.
+Therefore, the first runner can beat the second runner.
+ 
+Question 2 : A man decided to cover a distance of 6 km in 84 minutes. He decided to cover two thirds of the distance at 4 km / hr and the remaining at some different speed. Find the speed after the two third distance has been covered.
+Solution : We are given that two thirds of the 6 km was covered at 4 km / hr.
+=> 4 km distance was covered at 4 km / hr.
+=> Time taken to cover 4 km = 4 km / 4 km / hr = 1 hr = 60 minutes
+=> Time left = 84 – 60 = 24 minutes
+Now, the man has to cover remaining 2 km in 24 minutes or 24 / 60 = 0.4 hours
+=> Speed required for remaining 2 km = 2 km / 0.4 hr = 5 km / hr
+ 
+Question 3 : A postman traveled from his post office to a village in order to distribute mails. He started on his bicycle from the post office at the speed of 25 km / hr. But, when he was about to return, a thief stole his bicycle. As a result, he had to walk back to the post office on foot at the speed of 4 km / hr. If the traveling part of his day lasted for 2 hours and 54 minutes, find the distance between the post office and the village.
+Solution : Let time taken by postman to travel from post office to village=t minutes.
+According to the given situation, distance from post office to village, say d1=25/60*t km {25 km/hr = 25/60 km/minutes}
+And
+distance from village to post office, say d2=4/60*(174-t) km  {2 hours 54 minutes = 174 minutes}
+Since distance between village and post office will always remain same i.e. d1 = d2
+=> 25/60*t = 4/60*(174-t) => t = 24 minutes.
+=> Distance between post office and village = speed*time =>25/60*24 = 10km
+ 
+Question 4 : Walking at the speed of 5 km / hr from his home, a geek misses his train by 7 minutes. Had he walked 1 km / hr faster, he would have reached the station 5 minutes before the actual departure time of the train. Find the distance between his home and the station.
+Solution : Let the distance between his home and the station be ‘d’ km.
+=> Time required to reach the station at 5 km / hr = d/5 hours
+=> Time required to reach the station at 6 km / hr = d/6 hours
+Now, the difference between these times is 12 minutes = 0.2 hours. (7 minutes late – 5 minutes early = (7) – (-5) = 12 minutes)
+Therefore, (d / 5) – (d / 6) = 0.2
+=> d / 30 = 0.2
+=> d = 6
+Thus, the distance between his home and the station is 6 km.
+ 
+Question 5 : Two stations B and M are 465 km distant. A train starts from B towards M at 10 AM with the speed 65 km / hr. Another train leaves from M towards B at 11 AM with the speed 35 km / hr. Find the time when both the trains meet.
+Solution : The train leaving from B leaves an hour early than the train that leaves from M.
+=> Distance covered by train leaving from B = 65 km / hr x 1 hr = 65 km
+Distance left = 465 – 65 = 400 km
+Now, the train from M also gets moving and both are moving towards each other.
+Applying the formula for relative speed,
+Relative speed = 65 + 35 = 100 km / hr
+=> Time required by the trains to meet = 400 km / 100 km / hr = 4 hours
+Thus, the trains meet at 4 hours after 11 AM, i.e., 3 PM.
+ 
+Question 6 : A policeman sighted a robber from a distance of 300 m. The robber also noticed the policeman and started running at 8 km / hr. The policeman also started running after him at the speed of 10 km / hr. Find the distance that the robber would run before being caught.
+Solution : Since both are running in the same direction, relative speed = 10 – 8 = 2 km / hr
+Now, to catch the robber if he were stagnant, the policeman would have to run 300 m. But since both are moving, the policeman needs to finish off this separation of 300 m.
+=> 300 m (or 0.3 km)is to be covered at the relative speed of 2 km / hr.
+=> Time taken = 0.3 / 2 = 0.15 hours
+Therefore, distance run by robber before being caught = Distance run in 0.15 hours
+=> Distance run by the robber = 8 x 0.15 = 1.2 km
+ 
+Another Solution : 
+Time of running for both the policeman and the robber is same.
+We know that Distance = Speed x Time
+=> Time = Distance / Speed
+Let the distance run by the robber be ‘x’ km at the speed of 8 km / hr.
+=> Distance run by policeman at the speed of 10 km / hr = x + 0.3
+Therefore, x / 8 = (x + 0.3) / 10
+=> 10 x = 8 (x + 0.3)
+=> 10 x = 8 x + 2.4
+=> 2 x = 2.4
+=> x = 1.2
+Therefore, Distance run by the robber before getting caught = 1.2 km
+ 
+Question 7 : To cover a certain distance, a geek had two options, either to ride a horse or to walk. If he walked one side and rode back the other side, it would have taken 4 hours. If he had walked both ways, it would have taken 6 hours. How much time will he take if he rode the horse both ways ?
+Solution : Time taken to walk one side + Time taken to ride one side = 4 hours
+Time taken to ride both sides = 2 x Time taken to walk one side = 6 hours
+=> Time taken to walk one side = 3 hours
+Therefore, time taken to ride one side = 4 – 3 = 1 hour
+Thus, time taken to ride both sides = 2 x 1 = 2 hours
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

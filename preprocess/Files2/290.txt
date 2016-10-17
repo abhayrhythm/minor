@@ -1,0 +1,5 @@
+vertex undirect connect graph articul point cut vertex iff remov edg disconnect graph 
+articul point repres vulner connect network singl point whose failur would split network 2 disconnect compon 
+use design reliabl network 
+disconnect undirect graph articul point vertex remov increas number connect compon 
+follow exampl graph articul point encircl red color 

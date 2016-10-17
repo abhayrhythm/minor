@@ -1,0 +1,8 @@
+c static variabl initi use constant liter 
+exampl follow program fail compil 
+includ stdio h int initi void return 50 int main static int initi printf valu getchar return 0 chang program follow work without error 
+includ stdio h int main static int 50 printf valu getchar return 0 reason simpl object static storag durat must initi set initi valu execut main start 
+valu known translat time cannot use initi static variabl 
+thank venki prateek contribut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

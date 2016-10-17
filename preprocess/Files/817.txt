@@ -1,0 +1,36 @@
+
+Introduction
+Hand gesture recognition system is used for interfacing between computer and human using hand gesture. We wish to make a windows-based application for live motion gesture recognition using webcam input in C++. This project is a combination of live motion detection and gesture identification. This application uses the webcam to detect gesture made by the user and perform basic operations accordingly. The user has to perform a particular gesture. The webcam captures this and identifies the gesture, recognizes it (against a set of known gestures) and performs the action corresponding to it. This application can be made to run in the background while the user runs other programs and applications. This is very useful for a hands-free approach. While it may not be of great use for browsing the web or writing a text document, it is useful in media player and while reading documents or files. A simple gesture could pause or play the movie or increase the volume even while sitting afar from the computer screen. One could easily scroll through an eBook or a presentation even while having lunch.
+Various features of the code of the project are:
+
+Can detect any kind of gesture which is provided in the database.
+Eliminates the background so can be operated in a place where there is no much movement in the background
+The movements of the head while performing the gesture are eliminated.
+
+Objective
+Objective of this project is to make an application that controls some specific functionalities of computer using hand gestures via integrated webcam.
+Our project has been divided into four modules:
+Module 1– Taking input from the webcam and converting it into a form that can be processed easily.
+Module 2– Intercepting the gesture from the input of the webcam.
+Module 3– Recognizing the gesture from a database of gestures.
+Module 4– According to the intercepted gesture, give corresponding commands for the operations.
+Software and Hardware Used
+Library : OpenCV
+Programming Language: C++
+IDE: Visual Studio
+Operating System: Windows 8 and above
+Input Device:Webcam
+Implementation
+We are going to implement a system that recognizes Gesture input using webcam & performs the Specified Operation. This application can be made to run in the background while the user runs other programs and applications. This is very useful for a hands-free approach.
+This project has a vast arena of development, notably the Sixth Sense project which completely revolutionizes the digital world. The code can be extended to incorporate mouse movements as well as still gestures in 3-D. Further tweaks can be incorporated in the code to increase the efficiency of the gesture recognition process. The code can be improved for better interpretation and recognition of the gestures and newer gestures may be incorporated for more functionalities. The user interface for adding and checking gestures as well as running the program can be improved greatly, e.g. providing an interactive GUI rather than using terminal commands.
+This idea is contributed by Prakritidev Verma.If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

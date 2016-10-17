@@ -1,0 +1,17 @@
+given direct graph find vertex v reachabl anoth vertex u vertex pair u v given graph 
+reachabl mean path vertex u v reach abil matrix call transit closur graph 
+exampl consid graph transit closur graph 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 discuss v3 solut 
+solut base floyd warshal algorithm 
+post v2 algorithm discuss 
+abstract step algorithm 
+creat matrix tc v v would final transit closur given graph 
+initi entri tc 0 call df everi node graph mark reachabl vertic tc 
+recurs call df call df adjac vertex alreadi mark reachabl tc 
+c implement idea 
+code use adjac list represent input graph build matrix tc v v tc u v would true v reachabl u 
+c program print transit closur graph includ bit stdc h use namespac std class graph int v 
+vertic bool tc store transit closur list int adj array adjac list void dfsutil int u int v public graph int v constructor function add edg graph void addedg int v int w adj v push_back w print transit closur matrix void transitiveclosur graph graph int v v v adj new list int v tc new bool v int 0 v tc new bool v memset tc fals v sizeof bool recurs df travers function find reachabl vertic void graph dfsutil int int v mark reachabl true 
+tc v true find vertic reachabl v list int iter adj v begin adj v end tc fals dfsutil function find transit closur 
+use recurs dfsutil void graph transitiveclosur call recurs helper function print df travers start vertic one one int 0 v dfsutil everi vertex reachabl self 
+int 0 v int j 0 j v j cout tc j cout endl driver code int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 cout transit closur matrix n g transitiveclosur return 0 output transit closur matrix 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 refer http www cs princeton edu cours archiv spr03 cs226 lectur digraph 4up pdf articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

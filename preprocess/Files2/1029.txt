@@ -1,0 +1,12 @@
+predict output program 
+question 1 int fun char str1 char str2 str1 str1 return str1 str2 int main char str geeksforgeek printf fun str getchar return 0 output 13 insid fun pointer str2 initi str1 str1 move till 0 reach note loop 
+str1 increment 13 assum char take 1 byte 
+question 2 void fun int p static int q 10 p q int main int r 20 int p r fun p printf p getchar return 0 output 20 insid fun q copi pointer p chang q point someth els p remain unaffect 
+question 3 void fun int p static int q 10 p q int main int r 20 int p r fun p printf p getchar return 0 output 10 note pass address p fun 
+p fun actual pointer p main chang valu p fun 
+p main chang point q fun 
+understand better let us renam p fun p_ref ptr_to_p void fun int ptr_to_p static int q 10 ptr_to_p q p main point q also note program caus problem q static variabl 
+static variabl exist memori even function return 
+auto variabl might seen weird output auto variabl may exist memori function return 
+pleas write comment find answer explan incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

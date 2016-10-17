@@ -1,0 +1,49 @@
+
+Ideally delete  operator should not be used for this  pointer.  However, if used, then following points must be considered.
+1) delete operator works only for objects allocated using operator new (See http://geeksforgeeks.org/?p=8539).  If the object is created using new, then we can do delete this, otherwise behavior is undefined.
+
+class A
+{
+  public:
+    void fun()
+    {
+        delete this;
+    }
+};
+
+int main()
+{
+  /* Following is Valid */
+  A *ptr = new A;
+  ptr->fun();
+  ptr = NULL // make ptr NULL to make sure that things are not accessed using ptr. 
+
+
+  /* And following is Invalid: Undefined Behavior */
+  A a;
+  a.fun();
+
+  getchar();
+  return 0;
+}
+
+2) Once delete this  is done, any member of the deleted object should not be accessed after deletion.
+
+#include<iostream>
+using namespace std;
+
+class A
+{
+  int x;
+  public:
+    A() { x = 0;}
+    void fun() {
+      delete this;
+
+      /* Invalid: Undefined Behavior */
+      cout<<x;
+    }
+};
+
+
+The best thing is to not do delete this  at all.

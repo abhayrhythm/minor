@@ -1,0 +1,14 @@
+given r x c 1 r c 1000000000 grid initi posit top left corner direct east 
+start run forward direct cross squar block matrix 
+whenev find dead end reach cell alreadi visit take right cross visit squar block 
+tell direct last squar block 
+exampl consid case r 3 c 3 path follow 0 0 0 1 0 2 1 2 2 2 2 1 2 0 1 0 1 1 
+point squar visit face right 
+exampl input r 1 c 1 output right input r 2 c 2 output left input r 3 c 1 output input r 3 c 3 output right simpl solut one simpl solut problem make r x c matrix initi zero travers spiral form take variabl dir tell current direct 
+whenev end row column take right chang valu dir accord current direct 
+follow given condit travers top row current direct right 
+right coloumn current direct 
+travers bottom row current direct left 
+travers left coloumn current direct 
+reach last squar print current direct e valu dir variabl 
+time space complex problem r x c work small valu r c r c larg creat r x c matrix possibl larg valu r c effici approach 

@@ -1,0 +1,16 @@
+discuss singli doubli link list follow post 
+introduct link list insert doubli link list introduct insert circular link list link list node connect form circl 
+null end 
+circular link list singli circular link list doubli circular link list 
+advantag circular link list 1 node start point 
+travers whole list start point 
+need stop first visit node visit 
+2 use implement queue 
+unlik implement need maintain two pointer front rear use circular link list 
+maintain pointer last insert node front alway obtain next last 
+3 circular list use applic repeatedli go around list 
+exampl multipl applic run pc common oper system put run applic list cycl give slice time execut make wait cpu given anoth applic 
+conveni oper system use circular list reach end list cycl around front list 
+sourc http web eec utk edu bvz cs140 note dllist 4 circular doubli link list use implement advanc data structur like fibonacci heap 
+soon discuss implement insert delet oper circular link list 
+pleas write comment find bug code algorithm find way solv problem adsbygoogl window adsbygoogl push 

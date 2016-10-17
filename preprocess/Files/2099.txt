@@ -1,0 +1,27 @@
+
+malloc() allocates memory block of given size (in bytes) and returns a pointer to the beginning of the block.
+
+   void * malloc( size_t size );
+
+malloc() doesn’t initialize the allocated memory. 
+calloc() allocates the memory and also initializes the allocates memory to zero.
+
+  void * calloc( size_t num, size_t size );
+
+Unlike malloc(), calloc() takes two arguments: 1) number of blocks to be allocated 2) size of each block.
+We can achieve same functionality as calloc() by using malloc() followed by memset(),
+
+  ptr = malloc(size);
+  memset(ptr, 0, size);
+
+If we do not want to initialize memory then malloc() is the obvious choice. 
+Please write comments if you find anything incorrect in the above article or you want to share more information about malloc() and calloc() functions.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

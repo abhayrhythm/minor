@@ -1,0 +1,8 @@
+function templat static variabl instanti function templat copi local static variabl 
+exampl follow program two instanc void fun int void fun doubl 
+two copi static variabl exist 
+includ iostream use namespac std templat typenam void fun const x static int 10 cout return int main fun int 1 print 11 cout endl fun int 2 print 12 cout endl fun doubl 1 1 print 11 cout endl getchar return 0 output program 11 12 11 class templat static variabl rule class templat function templat instanti class templat copi member static variabl 
+exampl follow program two instanc test test 
+two copi static variabl count exist 
+includ iostream use namespac std templat class class test privat val public static int count test count stuff class templat class int test count 0 int main test int valu count test int 1 test int b valu count test int 2 test doubl c valu count test doubl 1 cout test int count endl print 2 cout test doubl count endl print 1 getchar return 0 output program 2 1 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

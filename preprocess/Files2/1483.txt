@@ -1,0 +1,5 @@
+given array integ number sum find number pair integ array whose sum equal sum 
+exampl input arr 1 5 7 1 sum 6 output 2 pair sum 6 1 5 7 1 input arr 1 5 7 1 5 sum 6 output 3 pair sum 6 1 5 7 1 1 5 input arr 1 1 1 1 sum 2 output 6 3 
+pair sum 2 input arr 10 12 10 15 1 7 6 5 4 2 1 1 1 sum 11 output 9 expect time complex n simpl solut travers element check anoth number array ad give sum 
+c c implement simpl method find count pair given sum 
+includ bit stdc h use namespac std return number pair arr 0 n 1 sum equal sum int getpairscount int arr int n int sum int count 0 initi result consid possibl pair check sum int 0 n int j 1 j n j arr arr j sum count return count driver function test function int main int arr 1 5 7 1 5 int n sizeof arr sizeof arr 0 int sum 6 cout count pair getpairscount arr n sum return 0 

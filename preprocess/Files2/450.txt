@@ -1,0 +1,16 @@
+inord travers binari tree either done use recurs use auxiliari stack 
+idea thread binari tree make inord travers faster without stack without recurs 
+binari tree made thread make right child pointer would normal null point inord successor node exist 
+two type thread binari tree 
+singl thread null right pointer made point inord successor successor exist doubl thread left right null pointer made point inord predecessor inord successor respect 
+predecessor thread use revers inord travers postord travers 
+thread also use fast access ancestor node 
+follow diagram show exampl singl thread binari tree 
+dot line repres thread 
+c represent thread node follow c represent singl thread node 
+struct node int data node left right bool rightthread sinc right pointer use two purpos boolean variabl rightthread use indic whether right pointer point right child inord successor 
+similarli add leftthread doubl thread binari tree 
+inord tavers use thread follow c code inord travers thread binari tree 
+util function find leftmost node atre root n struct node leftmost struct node n n null return null n left null n n left return n c code inord travers thread binari tree void inord struct node root struct node cur leftmost root cur null printf cur data node thread node go inord successor cur rightthread cur cur right els els go leftmost child right subtre cur leftmost cur right follow diagram demonstr inord order travers use thread 
+soon discuss insert delet thread binari tree 
+sourc http en wikipedia org wiki threaded_binary_tre www cs berkeley edu kamil teach su02 080802 ppt pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

@@ -1,0 +1,18 @@
+eulerian path path graph visit everi edg exactli 
+eulerian circuit eulerian path start end vertex 
+graph said eulerian eulerian cycl 
+discuss eulerian circuit undirect graph 
+post discuss direct graph 
+exampl follow graph eulerian cycl 1 0 3 4 0 2 1 check direct graph eulerian 
+direct graph eulerian cycl follow condit true sourc wiki 1 vertic nonzero degre belong singl strongli connect compon 
+2 degre degre everi vertex 
+detect singli connect compon use kosaraju df base simpl algorithm 
+compar degre degre need store degre degre everi vertex 
+degre obtain size adjac list 
+degre store creat array size equal number vertic 
+follow c java implement approach 
+c c program check given direct graph eulerian includ iostream includ list defin char 26 use namespac std class repres undirect graph class graph int v 
+vertic list int adj dynam array adjac list int public constructor destructor graph int v graph delet adj delet function add edg graph void addedg int v int w adj v push_back w w method check graph eulerian bool iseuleriancycl method check non zero degre vertic connect bool issc function df start v use isconnect void dfsutil int v bool visit graph gettranspos graph graph int v v v adj new list int v new int v int 0 v 0 function return true direct graph eulerian cycl otherwis return fals bool graph iseuleriancycl check non zero degre vertic connect issc fals return fals check degre degre everi vertex int 0 v adj size return fals return true recurs function df start v void graph dfsutil int v bool visit mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit function return revers transpos graph function need issc graph graph gettranspos graph g v int v 0 v v v recur vertic adjac vertex list int iter adj v begin adj v end g adj push_back v g v return g function return true non zero degre vertic graph strongli connect pleas refer http www geeksforgeek org connect direct graph bool graph issc mark vertic visit first df bool visit v int 0 v visit fals find first vertex non zero degre int n n 0 n v n adj n size 0 break df travers start first non zero degre vertex 
+dfsutil n visit df travers visit vertic return fals 
+int 0 v adj size 0 visit fals return fals creat revers graph graph gr gettranspos mark vertic visit second df int 0 v visit fals df revers graph start first vertex 
+stare vertex must start point first df gr dfsutil n visit vertic visit second df return fals int 0 v adj size 0 visit fals return fals return true driver program test function int main creat graph given diagram graph g 5 g addedg 1 0 g addedg 0 2 g addedg 2 1 g addedg 0 3 g addedg 3 4 g addedg 4 0 g iseuleriancycl cout given direct graph eulerian n els cout given direct graph eulerian n return 0 

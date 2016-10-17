@@ -1,0 +1,19 @@
+given set string find longest common prefix 
+input geeksforgeek geek geek geezer output gee input appl ape april output ap start exampl 
+suppos two string geeksforgeek geek 
+longest common prefix 
+geek 
+let us introduc anoth word geek 
+longest common prefix three word 
+geek see longest common prefix hold associ properti e lcp string1 string2 string3 lcp lcp string1 string2 string3 like lcp geeksforgeek geek geek lcp lcp geeksforgeek geek geek lcp geek geek geek make use associ properti find lcp given string 
+one one calcul lcp given string lcp far 
+final result longest common prefix string 
+note possibl given string common prefix 
+happen first charact string 
+show algorithm input string geeksforgeek geek geek geezer figur 
+c program find longest common prefix includ bit stdc h use namespac std util function find common prefix string str1 str2 string commonprefixutil string str1 string str2 string result int n1 str1 length n2 str2 length compar str1 str2 int 0 j 0 n1 1 j n2 1 j str1 str2 j break result push_back str1 return result function return longest common prefix array string string commonprefix string arr int n string prefix arr 0 int 1 n 1 prefix commonprefixutil prefix arr return prefix driver program test function int main string arr geeksforgeek geek geek geezer int n sizeof arr sizeof arr 0 string an commonprefix arr n an length printf longest common prefix an c_str els printf common prefix return 0 output gee time complex sinc iter string string iter though charact say time complex n n number string length largest string string auxiliari space store longest prefix string alloc space 
+improv 
+pleas see longest common prefix set 2 charact charact match articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

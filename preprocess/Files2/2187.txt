@@ -1,0 +1,18 @@
+given two bit sequenc string write function return addit two sequenc 
+bit string differ length also 
+exampl string 1 1100011 second string 2 10 function return 1100101 
+strongli recommend click practic move solut 
+sinc size two string may differ first make size smaller string equal bigger string ad lead 0s 
+make size one one add bit rightmost bit leftmost bit 
+everi iter need sum 3 bit 2 bit 2 given string carri 
+sum bit 1 either 3 bit set one set 
+xor bit find sum bit 
+find carri carri 1 two bit set 
+find carri take pair 
+follow step step algorithm 
+1 make equal size ad 0s begin smaller string 
+2 perform bit addit boolean express ad 3 bit b c sum xor b xor c carri b b c c follow c implement algorithm 
+includ iostream use namespac std add two bit string return result string addbitstr string first string second helper method given two unequ size bit string convert length aad lead 0s smaller string 
+return new length int makeequallength string str1 string str2 int len1 str1 size int len2 str2 size len1 len2 int 0 len2 len1 str1 0 str1 return len2 els len1 len2 int 0 len1 len2 str2 0 str2 return len1 len1 len2 main function add two bit sequenc return addit string addbitstr string first string second string result store sum bit make length ad int length makeequallength first second int carri 0 initi carri add bit one one int length 1 0 int firstbit first 0 int secondbit second 0 boolean express sum 3 bit int sum firstbit secondbit carri 0 result char sum result boolean express 3 bit addit carri firstbit secondbit secondbit carri firstbit carri overflow add lead 1 carri result 1 result return result driver program test function int main string str1 1100011 string str2 10 cout sum addbitstr str1 str2 return 0 output sum 1100101 articl compil ravi chandra enaganti 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

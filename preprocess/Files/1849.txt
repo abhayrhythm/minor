@@ -1,0 +1,84 @@
+
+We can find size of an array using sizeof operator as shown below.
+
+// Finds size of arr[] and stores in 'size'
+int size = sizeof(arr)/sizeof(arr[0]);
+
+Can we do the same without using sizeof operator?
+Method 1 (Writing our own sizeof)
+Given an array (you dont know the type of elements in the array), find the total number of elements in the array without using sizeof operator?
+One solution is to write our own sizeof operator (See this for details)
+
+// C++ program to find size of an array by writing our
+// sizeof
+#include <bits/stdc++.h>
+using namespace std;
+
+// User defined sizeof macro
+# define my_sizeof(type) ((char *)(&type+1)-(char*)(&type))
+
+int main()
+{
+    int  arr[] = {1, 2, 3, 4, 5, 6};
+    int size = my_sizeof(arr)/my_sizeof(arr[0]);
+
+    cout << "Number of elements in arr[] is " 
+         << size;
+
+    return 0;
+}
+
+Output :
+Number of elements in arr[] is 6
+Method 2(Using a pointer hack)
+The following solution is very short when compared to the above solution. Number of elements in an array A can be found out using the expression
+
+int size = *(&arr + 1) - arr;
+
+
+// C++ program to find size of an array by using a 
+// pointer hack.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int  arr[] = {1, 2, 3, 4, 5, 6};
+    int size = *(&arr + 1) - arr;
+    cout << "Number of elements in arr[] is "
+         << size;
+    return 0;
+}
+
+Output :
+Number of elements in arr[] is 6
+How does this work?
+Here the pointer arithmetic does its part.  We don’t need to explicitly convert each of the locations to character pointers.
+
+&arr ==> Pointer to an array of 6 elements.
+         [See this for difference between &arr
+          and arr]   
+
+(&arr + 1) ==> Address of 6 integers ahead as
+               pointer type is pointer to array
+               of 6 integers.
+
+*(&arr + 1) ==> Same address as (&arr + 1), but 
+                type of pointer is "int *".
+
+*(&arr + 1) - arr ==> Since *(&arr + 1) points 
+                   to the address 6 integers
+                   ahead of arr, the difference
+                   between two is 6.          
+
+This article is contributed by Nikhil Chakravartula from JNTUH College Of Engineering, Hyderabad. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

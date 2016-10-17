@@ -1,0 +1,14 @@
+
+C++ supports function overloading, i.e., there can be more than one functions with same name and differences in parameters.  How does C++ compiler distinguishes between different functions when it generates object code – it changes names by adding information about arguments. This technique of adding additional information to function names is called Name Mangling. C++ standard doesn’t specify any particular technique for name mangling, so different compilers may append different information to function names. 
+Consider following declarations of function f()
+
+int  f (void) { return 1; }
+int  f (int)  { return 0; }
+void g (void) { int i = f(), j = f(0); }
+
+A C++ compiler may mangle above names to following (Source: Wiki)
+
+int  __f_v (void) { return 1; }
+int  __f_i (int)  { return 0; }
+void __g_v (void) { int i = __f_v(), j = __f_i(0); }
+

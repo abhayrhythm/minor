@@ -1,0 +1,26 @@
+merg oper class provid c stl header file algorithm facilit sever merg oper easi manner 
+mention 
+1 merg beg1 end1 beg2 end2 beg3 function merg two sort contain store new contain sort order merg sort 
+take 5 argument first last iter 1st contain first last iter 2nd contain 1st iter result contain 
+2 includ beg1 end1 beg2 end2 function use check whether one sort contain element includ sort contain element 
+return true 1st contain includ 2nd contain els return fals 
+c code demonstr work merg includ includ iostream includ algorithm merg oper includ vector vector use namespac std int main initi 1st vector vector int v1 1 3 4 5 20 30 initi 2nd vector vector int v2 1 5 6 7 25 30 declar result vector merg vector int v3 12 use merg merg vector v1 v2 store result v3 merg v1 begin v1 end v2 begin v2 end v3 begin display result contain cout new contain merg n int x v3 cout x cout endl initi new vector vector int v4 1 3 4 5 6 20 25 30 use includ check v4 contain v1 includ v4 begin v4 end v1 begin v1 end 
+cout v4 includ v1 cout v4 nt includ v1 return 0 output new contain merg 1 1 3 4 5 5 6 7 20 25 30 30 v4 includ v1 3 inplace_merg beg1 beg2 end function use sort two consecut place sort rang singl contain 
+take 3 argument iter begin 1st sort rang iter begin 2nd sort rang iter last posit 
+c code demonstr work inplace_merg includ iostream includ algorithm merg oper includ vector vector use namespac std int main initi 1st vector vector int v1 1 3 4 5 20 30 initi 2nd vector vector int v2 1 5 6 7 25 30 declar result vector inplace_merg vector int v3 12 use copi copi vector one contain auto copi v1 begin v1 end v3 begin copi v2 begin v2 end use inplace_merg sort contain inplace_merg v3 begin v3 end display result contain cout new contain inplace_merg n int x v3 cout x cout endl return 0 output new contain inplace_merg 1 1 3 4 5 5 6 7 20 25 30 30 one way implement set union set intersect sort rang found 4 set_union beg1 end1 beg2 end2 beg3 function comput set union two contain store new contain return iter last element result contain 
+take 5 argument first last iter 1st contain first last iter 2nd contain 1st iter result contain 
+contain sort necessari new contain resiz suitabl size 
+5 set_intersect beg1 end1 beg2 end2 beg3 function comput set intersect two contain store new contain return iter last element result contain 
+take 5 argument first last iter 1st contain first last iter 2nd contain 1st iter result contain 
+contain sort necessari new contain resiz suitabl size 
+c code demonstr work set_union set_intersect includ iostream includ algorithm merg oper includ vector vector use namespac std int main initi 1st vector vector int v1 1 3 4 5 20 30 initi 2nd vector vector int v2 1 5 6 7 25 30 declar result vector union vector int v3 10 declar result vector intersect vector int v4 10 use set_union comput union 2 contain v1 v2 store result v3 auto set_union v1 begin v1 end v2 begin v2 end v3 begin use set_intersect comput intersect 2 contain v1 v2 store result v4 auto it1 set_intersect v1 begin v1 end v2 begin v2 end v4 begin resiz new contain v3 resiz v3 begin resiz new contain v4 resiz it1 v4 begin display set union cout union two contain int x v3 cout x cout endl display set intersect cout intersect two contain int x v4 cout x cout endl return 0 output union two contain 1 3 4 5 6 7 20 25 30 intersect two contain 1 5 30 6 set_differ beg1 end1 beg2 end2 beg3 function comput set differ two contain store new contain return iter last element result contain 
+take 5 argument first last iter 1st contain first last iter 2nd contain 1st iter result contain 
+contain sort necessari new contain resiz suitabl size 
+7 set_symmetric_differ beg1 end1 beg2 end2 beg3 function comput set symmetr differ two contain store new contain return iter last element result contain 
+take 5 argument first last iter 1st contain first last iter 2nd contain 1st iter result contain 
+contain sort necessari new contain resiz suitabl size 
+c code demonstr work set_differ set_symmetric_differ includ iostream includ algorithm merg oper includ vector vector use namespac std int main initi 1st vector vector int v1 1 3 4 5 20 30 initi 2nd vector vector int v2 1 5 6 7 25 30 declar result vector differ vector int v3 10 declar result vector symmetric_differ vector int v4 10 use set_differ comput differ 2 contain v1 v2 
+auto set_differ v1 begin v1 end v2 begin v2 end v3 begin use set_symmetric_differ comput symmetric_differ 2 contain auto it1 set_symmetric_differ v1 begin v1 end v2 begin v2 end v4 begin resiz new contain v3 resiz v3 begin resiz new contain v4 resiz it1 v4 begin display set differ cout differ two contain int x v3 cout x cout endl display set symmetric_differ cout symmetric_differ two contain int x v4 cout x cout endl return 0 output differ two contain 3 4 20 symmetr differ two contain 3 4 6 7 20 25 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

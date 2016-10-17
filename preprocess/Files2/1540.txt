@@ -1,0 +1,12 @@
+given binari tree print two dimens 
+exampl input pointer root tree 1 2 3 4 5 6 7 output 7 3 6 1 5 2 4 strongli recommend minim browser tri first 
+take closer look pattern notic follow 
+1 rightmost node print first line leftmost node print last line 
+2 space count increas fix amount everi level 
+revers inord travers right root left print tree node 
+increas space fix amount everi level 
+c implement 
+program print binari tree 2d includ stdio h defin count 10 binari tree node struct node int data node left right helper function alloc new node node newnod int data node node new node node data data node left node right null return node function print binari tree 2d revers inord travers void print2dutil node root int space base case root null return increas distanc level space count process right child first print2dutil root right space print current node space count printf n int count space printf printf n root data process left child print2dutil root left space wrapper print2dutil void print2d node root pass initi space count 0 print2dutil root 0 driver program test function int main node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root left left left newnod 8 root left left right newnod 9 root left right left newnod 10 root left right right newnod 11 root right left left newnod 12 root right left right newnod 13 root right right left newnod 14 root right right right newnod 15 print2d root return 0 output 15 7 14 3 13 6 12 1 11 5 10 2 9 4 8 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

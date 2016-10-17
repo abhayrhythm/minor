@@ -1,0 +1,26 @@
+given array number return true given array repres preorder travers binari search tree els return fals 
+expect time complex n 
+exampl input pre 2 4 3 output true given array repres preorder travers tree 2 4 3 input pre 2 4 1 output fals given array cannot repres preorder travers binari search tree 
+input pre 40 30 35 80 100 output true given array repres preorder travers tree 40 30 80 35 100 input pre 40 30 35 20 80 100 output fals given array cannot repres preorder travers binari search tree 
+strongli recommend click practic move solut 
+simpl solut follow everi node pre start first one 
+1 find first greater valu right side current node 
+let index node j return true follow condit hold 
+els return fals valu found greater valu greater current node 
+ii recurs call subarray pre 1 j 1 pre j 1 n 1 also return true 
+time complex solut n2 effici solut solv problem n time 
+idea use stack 
+problem similar next closest greater element problem 
+find next greater element find next greater find smaller element return fals 
+1 creat empti stack 
+2 initi root int_min 
+3 follow everi element pre pre smaller current root return fals 
+b keep remov element stack pre greater stack top 
+make last remov item new root compar next 
+point pre greater remov root see smaller element step return fals c push pre stack element stack decreas order implement idea 
+c c program effici solut check given array repres preorder travers binari search tree includ bit stdc h use namespac std bool canrepresentbst int pre int n creat empti stack stack int initi current root minimum possibl valu int root int_min travers given array int 0 n find node right side smaller root return fals pre root return fals pre right subtre stack top keep remov item smaller pre make last remov item new root 
+empti top pre root top pop point either stack empti pre smaller root push pre push pre return true driver program int main int pre1 40 30 35 80 100 int n sizeof pre1 sizeof pre1 0 canrepresentbst pre1 n 
+cout true n cout fals n int pre2 40 30 35 20 80 100 n sizeof pre2 sizeof pre2 0 canrepresentbst pre2 n 
+cout true n cout fals n return 0 java java program effici solut check given array repres preorder travers binari search tree import java util stack class binarysearchtre boolean canrepresentbst int pre int n creat empti stack stack integ new stack integ initi current root minimum possibl valu int root integ min_valu travers given array int 0 n find node right side smaller root return fals pre root return fals pre right subtre stack top keep remov item smaller pre make last remov item new root 
+empti peek pre root peek pop point either stack empti pre smaller root push pre push pre return true public static void main string arg binarysearchtre bst new binarysearchtre int pre1 new int 40 30 35 80 100 int n pre1 length bst canrepresentbst pre1 n true system println true els system println fals int pre2 new int 40 30 35 20 80 100 int n1 pre2 length bst canrepresentbst pre2 n true system println true els system println fals code contribut mayank jaiswal python python program effici solut check given array repres preorder travers binari search tree int_min 2 32 def canrepresentbst pre creat empti stack initi current root minimum possibl valu root int_min travers given array valu pre note valu equal pre accord given algo find node right side smaller root return fals valu root return fals valu pre right subtre stack top keep remov item smaller valu make last remov item new root len 0 1 valu root pop point either stack empti valu smaller root push valu append valu return true driver program pre1 40 30 35 80 100 print true canrepresentbst pre1 true els fals pre2 40 30 35 20 80 100 print true canrepresentbst pre2 true els fals code contribut nikhil kumar singh nickzuck_007 output true fals articl contribut romil punetha 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

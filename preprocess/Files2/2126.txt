@@ -1,0 +1,7 @@
+malloc alloc memori block given size byte return pointer begin block 
+void malloc size_t size malloc initi alloc memori 
+calloc alloc memori also initi alloc memori zero 
+void calloc size_t num size_t size unlik malloc calloc take two argument 1 number block alloc 2 size block 
+achiev function calloc use malloc follow memset ptr malloc size memset ptr 0 size want initi memori malloc obviou choic 
+pleas write comment find anyth incorrect articl want share inform malloc calloc function 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

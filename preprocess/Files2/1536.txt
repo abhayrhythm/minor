@@ -1,0 +1,20 @@
+given binari tree find largest subtre ident left right subtre 
+expect complex n 
+exampl input 50 10 60 5 20 70 70 65 80 65 80 output largest subtre root node 60 simpl solut consid everi node recurs check left right subtre ident use approach discuss 
+keep track maximum size node 
+save recurs call 
+idea postord travers given binari tree node store structur left right subtre 
+order store structur left right subtre use string 
+separ left right subtre node current node string use delimit 
+everi encount node updat largest subtre found far left right subtre structur similar 
+c implement idea c program find largest subtre ident left right subtre includ bit stdc h use namespac std binari tree node data pointer left child pointer right child struct node int data node left right helper function alloc new node given data null left right pointer 
+node newnod int data node node new node node data data node left node right null return node set maxsiz size largest subtre ident left right 
+maxsiz set size maximum size subtre 
+return size subtre root current node 
+size use keep track maximum size 
+int largestsubtreeutil node root string str int maxsiz node maxnod root null return 0 string store structur left right subtre string left right travers left subtre find size int ls largestsubtreeutil root left left maxsiz maxnod travers right subtre find size int rs largestsubtreeutil root right right maxsiz maxnod left right subtre similar updat maximum subtre need note left subtre may bigger valu right vice versa int size ls rs 1 left compar right 0 size maxsiz maxsiz size maxnod root append left subtre data str append append left append append current node data str append append to_str root data append append right subtre data str append append right append return size function find largest subtre ident left right subtre int largestsubtre node node node maxnod int maxsiz 0 string str largestsubtreeutil node str maxsiz maxnod return maxsiz driver program test function int main let us construct follow tree 50 10 60 5 20 70 70 65 80 65 80 node root newnod 50 root left newnod 10 root right newnod 60 root left left newnod 5 root left right newnod 20 root right left newnod 70 root right left left newnod 65 root right left right newnod 80 root right right newnod 70 root right right left newnod 65 root right right right newnod 80 node maxnod null int maxsiz largestsubtre root maxnod cout largest subtre root node maxnod data nand size maxsiz return 0 output largest subtre root node 60 size 7 worst case time complex still remain n2 need n time compar two string 
+optim optim space use program use succinct encod binari tree 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

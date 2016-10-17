@@ -1,0 +1,13 @@
+consid program c pleas make sure compil program use c compil c compil save file cpp 
+use onlin compil select c includ stdio h int main compound liter array creat without name address first element assign p equival int arr 2 4 6 int p arr int p int 2 4 6 printf p 0 p 1 p 2 return 0 output 2 4 6 exampl exampl compound liter 
+compound liter introduc c99 standard c compound liter featur allow us creat unnam object given list initi valu 
+exampl array creat without name 
+address first element array assign pointer p use 
+compound liter mainli use structur particularli use pass structur variabl function 
+pass structur object without defin exampl consid code 
+pleas make sure compil program use c compil c compil save file cpp 
+use onlin compil select c includ stdio h structur repres 2d point struct point int x util function print point void printpoint struct point p printf p x p int main call printpoint without creat temporari point variabl main printpoint struct point 2 3 without compound liter statement would written struct point temp 2 3 printpoint temp return 0 output 2 3 articl contribut shivam gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

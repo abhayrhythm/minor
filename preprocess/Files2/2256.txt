@@ -1,0 +1,15 @@
+find n th term look say count say sequenc 
+look say sequenc sequenc integ 1 11 21 1211 111221 312211 13112221 1113213211 sequenc gener 
+n th term gener read n 1 th term 
+first term 1 second term 11 gener read first term one 1 one 1 previou term third term 21 gener read second term two 1 fourth term 1211 gener read third term one 2 one 1 find n th term 
+input n 3 output 21 input n 5 output 111221 strongli recommend minim browser tri first 
+idea simpl gener term 1 n first two term initi 1 11 term gener use previou term 
+gener term use previou term scan previou term 
+scan term simpli keep track count consecut charact 
+sequenc charact append count follow charact gener next term 
+c implement idea 
+c program find n th term look say sequenc includ bit stdc h use namespac std return n th term look say sequenc string countnndsay int n base case n 1 return 1 n 2 return 11 find n th term gener term 3 n 1 
+everi term gener use previou term string str 11 initi previou term int 3 n loop previou charact process current iter 
+dummi charact ad make sure loop run one extra iter 
+str int len str length int cnt 1 initi count match char string tmp initi th term seri process previou term find next term int j 1 j len j current charact match str j str j 1 append count str j 1 temp tmp cnt 0 append str j 1 tmp str j 1 reset count cnt 1 match increment count match charact els cnt updat str str tmp return str driver program int main int n 3 cout countnndsay n endl return 0 output 21 thank utkarsh suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

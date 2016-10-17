@@ -1,0 +1,387 @@
+
+Prerequisites : LCE(Set 1), LCE(Set 2), Suffix Array (n Log Log n), Kasai’s algorithm and Segment Tree
+The Longest Common Extension (LCE) problem considers a string s and computes, for each pair (L , R), the longest sub string of s that starts at both L and R. In LCE, in each of the query we have to answer the length of the longest common prefix starting at indexes L and R.
+Example:
+String : “abbababba”
+Queries: LCE(1, 2), LCE(1, 6) and LCE(0, 5) 
+Find the length of the Longest Common Prefix starting at index given as, (1, 2), (1, 6) and (0, 5).
+The string highlighted  “green” are the longest common prefix starting at index- L and R of the respective queries. We have to find the length of the longest common prefix starting at index- (1, 2), (1, 6) and (0, 5).
+
+In this set we will discuss about the Segment Tree approach to solve the LCE problem.
+In Set 2, we saw that an LCE problem can be converted into a RMQ problem.
+To process the RMQ efficiently, we build a segment tree on the lcp array and then efficiently answer the LCE queries.
+To find low and high, we must have to compute the suffix array first and then from the suffix array we compute the inverse suffix array.
+We also need lcp array, hence we use Kasai’s Algorithm to find lcp array from the suffix array. 
+Once the above things are done, we simply find the minimum value in lcp array from index low to high (as proved above) for each query.
+Without proving we will use the direct result (deduced after mathematical proofs)-
+LCE (L, R) = RMQlcp(invSuff[R], invSuff[L]-1) 
+The subscript lcp means that we have to perform RMQ on the lcp array and hence we will build a segment tree on the lcp array.
+
+// A C++ Program to find the length of longest common
+// extension using Segment Tree
+#include<bits/stdc++.h>
+using namespace std;
+
+// Structure to represent a query of form (L,R)
+struct Query
+{
+    int L, R;
+};
+
+// Structure to store information of a suffix
+struct suffix
+{
+    int index;  // To store original index
+    int rank[2]; // To store ranks and next rank pair
+};
+
+// A utility function to get minimum of two numbers
+int minVal(int x, int y)
+{
+    return (x < y)? x: y;
+}
+
+// A utility function to get the middle index from
+// corner indexes.
+int getMid(int s, int e)
+{
+    return s + (e -s)/2;
+}
+
+/*  A recursive function to get the minimum value
+    in a given range of array indexes. The following
+    are parameters for this function.
+
+    st    --> Pointer to segment tree
+    index --> Index of current node in the segment
+              tree. Initially 0 is passed as root
+              is always at index 0
+    ss & se  --> Starting and ending indexes of the
+                  segment represented by current
+                  node, i.e., st[index]
+    qs & qe  --> Starting and ending indexes of query
+                 range */
+int RMQUtil(int *st, int ss, int se, int qs, int qe,
+                                           int index)
+{
+    // If segment of this node is a part of given range,
+    // then return the min of the segment
+    if (qs <= ss && qe >= se)
+        return st[index];
+
+    // If segment of this node is outside the given range
+    if (se < qs || ss > qe)
+        return INT_MAX;
+
+    // If a part of this segment overlaps with the given
+    // range
+    int mid = getMid(ss, se);
+    return minVal(RMQUtil(st, ss, mid, qs, qe, 2*index+1),
+                  RMQUtil(st, mid+1, se, qs, qe, 2*index+2));
+}
+
+// Return minimum of elements in range from index qs
+// (quey start) to qe (query end).  It mainly uses RMQUtil()
+int RMQ(int *st, int n, int qs, int qe)
+{
+    // Check for erroneous input values
+    if (qs < 0 || qe > n-1 || qs > qe)
+    {
+        printf("Invalid Input");
+        return -1;
+    }
+
+    return RMQUtil(st, 0, n-1, qs, qe, 0);
+}
+
+// A recursive function that constructs Segment Tree
+// for array[ss..se]. si is index of current node in
+// segment tree st
+int constructSTUtil(int arr[], int ss, int se, int *st,
+                                               int si)
+{
+    // If there is one element in array, store it in
+    // current node of segment tree and return
+    if (ss == se)
+    {
+        st[si] = arr[ss];
+        return arr[ss];
+    }
+
+    // If there are more than one elements, then recur
+    // for left and right subtrees and store the minimum
+    // of two values in this node
+    int mid = getMid(ss, se);
+    st[si] =  minVal(constructSTUtil(arr, ss, mid, st, si*2+1),
+                  constructSTUtil(arr, mid+1, se, st, si*2+2));
+    return st[si];
+}
+
+/* Function to construct segment tree from given array.
+   This function allocates memory for segment tree and
+   calls constructSTUtil() to fill the allocated memory */
+int *constructST(int arr[], int n)
+{
+    // Allocate memory for segment tree
+
+    //Height of segment tree
+    int x = (int)(ceil(log2(n)));
+
+    // Maximum size of segment tree
+    int max_size = 2*(int)pow(2, x) - 1;
+
+    int *st = new int[max_size];
+
+    // Fill the allocated memory st
+    constructSTUtil(arr, 0, n-1, st, 0);
+
+    // Return the constructed segment tree
+    return st;
+}
+
+// A comparison function used by sort() to compare
+// two suffixes Compares two pairs, returns 1 if
+// first pair is smaller
+int cmp(struct suffix a, struct suffix b)
+{
+    return (a.rank[0] == b.rank[0])?
+           (a.rank[1] < b.rank[1] ?1: 0):
+           (a.rank[0] < b.rank[0] ?1: 0);
+}
+
+// This is the main function that takes a string
+// 'txt' of size n as an argument, builds and return
+// the suffix array for the given string
+vector<int> buildSuffixArray(string txt, int n)
+{
+    // A structure to store suffixes and their indexes
+    struct suffix suffixes[n];
+
+    // Store suffixes and their indexes in an array
+    // of structures. The structure is needed to sort
+    // the suffixes alphabatically and maintain their
+    // old indexes while sorting
+    for (int i = 0; i < n; i++)
+    {
+        suffixes[i].index = i;
+        suffixes[i].rank[0] = txt[i] - 'a';
+        suffixes[i].rank[1] = ((i+1) < n)?
+                            (txt[i + 1] - 'a'): -1;
+    }
+
+    // Sort the suffixes using the comparison function
+    // defined above.
+    sort(suffixes, suffixes+n, cmp);
+
+    // At his point, all suffixes are sorted according to first
+    // 2 characters.  Let us sort suffixes according to first 4
+    // characters, then first 8 and so on
+    int ind[n];  // This array is needed to get the index
+                 // in suffixes[]
+    // from original index.  This mapping is needed to get
+    // next suffix.
+    for (int k = 4; k < 2*n; k = k*2)
+    {
+        // Assigning rank and index values to first suffix
+        int rank = 0;
+        int prev_rank = suffixes[0].rank[0];
+        suffixes[0].rank[0] = rank;
+        ind[suffixes[0].index] = 0;
+
+        // Assigning rank to suffixes
+        for (int i = 1; i < n; i++)
+        {
+            // If first rank and next ranks are same as
+            // that of previous suffix in array, assign
+            // the same new rank to this suffix
+            if (suffixes[i].rank[0] == prev_rank &&
+              suffixes[i].rank[1] == suffixes[i-1].rank[1])
+            {
+                prev_rank = suffixes[i].rank[0];
+                suffixes[i].rank[0] = rank;
+            }
+            else // Otherwise increment rank and assign
+            {
+                prev_rank = suffixes[i].rank[0];
+                suffixes[i].rank[0] = ++rank;
+            }
+            ind[suffixes[i].index] = i;
+        }
+
+        // Assign next rank to every suffix
+        for (int i = 0; i < n; i++)
+        {
+            int nextindex = suffixes[i].index + k/2;
+            suffixes[i].rank[1] = (nextindex < n)?
+                  suffixes[ind[nextindex]].rank[0]: -1;
+        }
+
+        // Sort the suffixes according to first k characters
+        sort(suffixes, suffixes+n, cmp);
+    }
+
+    // Store indexes of all sorted suffixes in the suffix array
+    vector<int>suffixArr;
+    for (int i = 0; i < n; i++)
+        suffixArr.push_back(suffixes[i].index);
+
+    // Return the suffix array
+    return  suffixArr;
+}
+
+/* To construct and return LCP */
+vector<int> kasai(string txt, vector<int> suffixArr,
+                              vector<int> &invSuff)
+{
+    int n = suffixArr.size();
+
+    // To store LCP array
+    vector<int> lcp(n, 0);
+
+    // Fill values in invSuff[]
+    for (int i=0; i < n; i++)
+        invSuff[suffixArr[i]] = i;
+
+    // Initialize length of previous LCP
+    int k = 0;
+
+    // Process all suffixes one by one starting from
+    // first suffix in txt[]
+    for (int i=0; i<n; i++)
+    {
+        /* If the current suffix is at n-1, then we don?t
+           have next substring to consider. So lcp is not
+           defined for this substring, we put zero. */
+        if (invSuff[i] == n-1)
+        {
+            k = 0;
+            continue;
+        }
+
+        /* j contains index of the next substring to
+           be considered  to compare with the present
+           substring, i.e., next string in suffix array */
+        int j = suffixArr[invSuff[i]+1];
+
+        // Directly start matching from k'th index as
+        // at-least k-1 characters will match
+        while (i+k<n && j+k<n && txt[i+k]==txt[j+k])
+            k++;
+
+        lcp[invSuff[i]] = k; // lcp for the present suffix.
+
+        // Deleting the starting character from the string.
+        if (k>0)
+            k--;
+    }
+
+    // return the constructed lcp array
+    return lcp;
+}
+
+// A utility function to find longest common extension
+// from index - L and index - R
+int LCE(int *st, vector<int>lcp, vector<int>invSuff,
+        int n, int L, int R)
+{
+    // Handle the corner case
+    if (L == R)
+        return (n-L);
+
+    // Use the formula  -
+    // LCE (L, R) = RMQ lcp (invSuff[R], invSuff[L]-1)
+    return (RMQ(st, n, invSuff[R], invSuff[L]-1));
+}
+
+// A function to answer queries of longest common extension
+void LCEQueries(string str, int n, Query q[],
+                int m)
+{
+    // Build a suffix array
+    vector<int>suffixArr = buildSuffixArray(str, str.length());
+
+    // An auxiliary array to store inverse of suffix array
+    // elements. For example if suffixArr[0] is 5, the
+    // invSuff[5] would store 0.  This is used to get next
+    // suffix string from suffix array.
+    vector<int> invSuff(n, 0);
+
+    // Build a lcp vector
+    vector<int>lcp = kasai(str, suffixArr, invSuff);
+
+    int lcpArr[n];
+    // Convert to lcp array
+    for (int i=0; i<n; i++)
+        lcpArr[i] = lcp[i];
+
+    // Build segment tree from lcp array
+    int *st = constructST(lcpArr, n);
+
+    for (int i=0; i<m; i++)
+    {
+        int L = q[i].L;
+        int R = q[i].R;
+
+        printf("LCE (%d, %d) = %d\n", L, R,
+             LCE(st, lcp, invSuff, n, L, R));
+    }
+
+    return;
+}
+
+// Driver Program to test above functions
+int main()
+{
+    string str = "abbababba";
+    int n = str.length();
+
+    // LCA Queries to answer
+    Query q[] = {{1, 2}, {1, 6}, {0, 5}};
+    int m = sizeof(q)/sizeof(q[0]);
+
+    LCEQueries(str, n, q, m);
+
+    return (0);
+}
+
+Output:
+
+LCE (1, 2) = 1
+LCE (1, 6) = 3
+LCE (0, 5) = 4
+
+Time Complexity :  To construct the lcp and the suffix array it takes O(N.logN) time. To answer each query it takes O(log N). Hence the overall time complexity is O(N.logN + Q.logN)). Although we can construct the lcp array and the suffix array in O(N) time using other algorithms.
+where,
+Q = Number of LCE Queries.
+N = Length of the input string.
+Auxiliary Space :
+We use O(N) auxiliary space to store lcp, suffix and inverse suffix arrays and segment tree.
+Comparison of Performances: We have seen three algorithm to compute the length of the LCE.
+Set 1 : Naive Method [O(N.Q)]
+Set 2 : RMQ-Direct Minimum Method [O(N.logN + Q. (|invSuff[R] – invSuff[L]|))]
+Set 3 : Segment Tree Method [O(N.logN + Q.logN))]
+invSuff[] = Inverse suffix array of the input string.
+From the asymptotic time complexity it seems that the Segment Tree method is most efficient and  the other two are very inefficient.
+But when it comes to practical world this is not the case. If we plot a graph between time vs log((|invSuff[R] – invSuff[L]|)  for typical files having random strings for various runs, then the result is as shown below.
+
+The above graph is taken from this reference. The tests were run on 25 files having random strings ranging from 0.7 MB to 2 GB. The exact sizes of string is not known but obviously a 2 GB file has a lot of characters in it. This is because 1 character = 1 byte. So, about 1000 characters equal 1 kilobyte. If a page has 2000 characters on it (a reasonable average for a double-spaced page), then it will take up 2K (2 kilobytes). That means it will take about 500 pages of text to equal one megabyte. Hence 2 gigabyte = 2000 megabyte = 2000*500 = 10,00,000 pages of text !
+From the above graph it is clear that the Naive Method (discussed in Set 1) performs the best (better than Segment Tree Method).
+This is surprising as the asymptotic time complexity of Segment Tree Method is much lesser than that of the Naive Method.
+In fact, the naive method is generally 5-6 times faster than the Segment Tree Method on typical files having random strings. Also not to forget that the Naive Method is an in-place algorithm, thus making it the most desirable algorithm to compute LCE .
+The bottom-line is that the naive method is the most optimal choice for answering the LCE queries when it comes to average-case performance.
+Such kind of thinks rarely happens in Computer Science when a faster-looking algorithm gets beaten by a less efficient one in practical tests.
+What we learn is that the although asymptotic analysis is one of the most effective way to compare two algorithms on paper, but in practical uses sometimes things may happen the other way round.
+
+References:
+http://www.sciencedirect.com/science/article/pii/S1570866710000377
+This article is contributed by Rachit Belwariar. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

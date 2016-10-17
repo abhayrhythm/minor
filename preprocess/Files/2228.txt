@@ -1,0 +1,167 @@
+
+Campus placements season is beginning at almost all the colleges and each one of us wants to prepare to do the best. A lot of students have been asking on different forums “How to use GeeksforGeeks for placement preparation”? In this article, a step by step guide for placement preparation is discussed.
+ Steps
+
+
+Aptitude Test
+
+Course material
+Practice Tests
+Puzzles
+
+
+
+
+ 
+
+
+Programming Language It is recommended to know at least one language thoroughly) C, C++, Java, Python
+
+
+ 
+
+
+Subject basics : Most important subjects that you must know for any company interview are undoubtedly data structures and algorithms.
+
+Data Structures
+Algorithms
+
+
+
+
+ 
+
+
+Other important CS subjects: Please go through the basics of following three subjects :
+
+DBMS
+Operating System
+Computer Networks
+
+
+
+
+ 
+
+
+Top topics for Interview Preparation for Software Developer : An assorted list of questions which should not be skipped.
+
+
+ 
+
+
+Tracking your progress : It is recommended that you create a profile on GeeksforGeeks for this. Logged in users can keep track of what all is done and what is in To Do.
+
+
+ 
+
+
+Practice is undoubtedly the key to success : Click here and choose the company to practice the coding questions that have been asked earlier. Students generally are seen skipping practice part and landing into trouble when asked to write the code in a live interview. Therefore, PRACTICE is strongly recommended.
+
+
+ 
+
+
+Top 25 – This is the list of top 25 questions which have been asked in multiple companies.
+
+
+ 
+
+
+MCQs of various subjects: These are asked in first round of many companies and also help you build basics and foundations of any subject or topic.
+
+
+ 
+
+
+Interview Corner: Interview Experiences give you a fair idea about what you might go through in your interviews. You should carefully observe the comments wherein students have answered certain queries regarding placement process too.
+Choose your company and start preparing today!
+
+
+Set 2 – To guide you going beyond the basics and getting placed in your dream companies 
+ 
+ TopicsC
+
+Course Material
+Practice MCQ Tests
+Commonly asked Interview Questions
+
+C++
+
+Course Material
+Practice MCQ Tests
+Output based questions
+Commonly asked Interview Questions
+
+Java
+
+Course Material
+Practice MCQ Tests
+Output based questions
+Commonly asked Interview Questions
+
+Python
+
+Course Material
+Practice MCQ Tests
+
+DS
+
+Course Material
+Practice  MCQ Tests
+Coding Practice 
+Commonly asked Interview Questions
+Most Important Topics
+
+Array , Stack , Queues
+Linked List
+Binary Search Trees
+
+
+
+Algorithms
+
+Course Material
+Practice MCQ Tests
+Coding practice
+Commonly asked Interview Questions
+Most Important ones
+
+Searching and Sorting
+Divide and Conquer
+Greedy Algorithms
+Dynamic Programming
+
+
+
+DBMS
+
+Course Material
+Practice MCQ Tests
+Commonly asked Interview Questions
+
+Computer Networks
+
+Course Material
+Practice MCQ Tests
+Commonly asked Interview Questions
+
+Operating System
+
+Course Material
+Practice MCQ Tests
+Commonly asked Interview Questions
+
+ 
+A Step by Step Guide for Placement Preparation | Set 2
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

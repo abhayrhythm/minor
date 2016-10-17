@@ -1,0 +1,19 @@
+minimum span tree mst problem given connect graph g posit edg weight find min weight set edg connect vertic 
+mst fundament problem divers applic 
+network design 
+telephon electr hydraul tv cabl comput road standard applic problem like phone network design 
+busi sever offic want leas phone line connect phone compani charg differ amount money connect differ pair citi 
+want set line connect offic minimum total cost 
+span tree sinc network tree alway remov edg save money 
+approxim algorithm np hard problem 
+travel salesperson problem steiner tree less obviou applic minimum span tree use approxim solv travel salesman problem 
+conveni formal way defin problem find shortest path visit point least 
+note path visit point exactli special kind tree 
+instanc exampl twelv sixteen span tree actual path 
+path visit vertic alway drop edg get tree 
+gener mst weight less tsp weight minim strictli larger set 
+hand draw path trace around minimum span tree trace edg twice visit point tsp weight less twice mst weight 
+therefor tour within factor two optim 
+indirect applic 
+max bottleneck path ldpc code error correct imag registr renyi entropi learn salient featur real time face verif reduc data storag sequenc amino acid protein model local particl interact turbul fluid flow autoconfig protocol ethernet bridg avoid cycl network cluster analysi k cluster problem view find mst delet k 1 expens edg 
+sourc http www cs princeton edu cours archiv spr07 cos226 lectur mst pdf http www ic uci edu eppstein 161 960206 html adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

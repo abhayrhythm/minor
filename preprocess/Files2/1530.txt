@@ -1,0 +1,13 @@
+given special binari tree whose leaf node connect form circular doubli link list find height 
+exampl 1 2 3 4 5 6 binari tree 6 5 3 leaf node form circular doubli link list 
+left pointer leaf node act previou pointer circular doubli link list right pointer act next pointer circular doubli link list 
+idea follow similar approach find height normal binari tree 
+recurs calcul height left right subtre node assign height node max height two children plu 1 left right child leaf node null normal binari tree 
+leaf node circular doubli link list node 
+node leaf node check node left right point node right left also point node 
+c implement idea c program calcul height special tree whose leaf node form circular doubli link list includ iostream use namespac std binari tree node struct node int data node left right function check given node leaf node node bool isleaf node node given node left right point given node right left point node leaf return node left node left right node node right node right left node comput height tree number node along longest path root node farthest leaf node 
+int maxdepth node node node null return 0 node null return 0 node leaf node return 1 isleaf node return 1 comput depth subtre take maximum return 1 max maxdepth node left maxdepth node right helper function alloc new tree node node newnod int data node node new node node data data node left null node right null return node driver code int main node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root left left left newnod 6 given tree contain 3 leaf node node l1 root left left left node l2 root left right node l3 root right creat circular doubli link list leaf node tree set next pointer link list l1 right l2 l2 right l3 l3 right l1 set prev pointer link list l3 left l2 l2 left l1 l1 left l3 calcul height tree cout height tree maxdepth root return 0 output height tree 4 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

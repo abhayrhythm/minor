@@ -1,0 +1,25 @@
+graph data structur consist follow two compon 1 finit set vertic also call node 
+2 finit set order pair form u v call edg 
+pair order u v v u case direct graph di graph 
+pair form u v indic edg vertex u vertex v edg may contain weight valu cost 
+graph use repres mani real life applic graph use repres network 
+network may includ path citi telephon network circuit network 
+graph also use social network like linkedin facebook 
+exampl facebook person repres vertex node 
+node structur contain inform like person id name gender local 
+easili view http graph facebook com barnwal aashish barnwal aashish profil name 
+see applic graph 
+follow exampl undirect graph 5 vertic 
+follow two commonli use represent graph 
+1 adjac matrix 2 adjac list represent also like incid matrix incid list 
+choic graph represent situat specif 
+total depend type oper perform eas use 
+adjac matrix adjac matrix 2d array size v x v v number vertic graph 
+let 2d array adj slot adj j 1 indic edg vertex vertex j adjac matrix undirect graph alway symmetr 
+adjac matrix also use repres weight graph 
+adj j w edg vertex vertex j weight w adjac matrix exampl graph adjac matrix represent graph pro represent easier implement follow 
+remov edg take 1 time 
+queri like whether edg vertex u vertex v effici done 1 
+con consum space v 2 
+even graph spars contain less number edg consum space 
+ad vertex v 2 time 

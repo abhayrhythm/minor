@@ -1,0 +1,9 @@
+c function global default 
+static keyword function name make static 
+exampl function fun static 
+static int fun void printf static function unlik global function c access static function restrict file declar 
+therefor want restrict access function make static 
+anoth reason make function static reus function name file 
+exampl store follow program one file file1 c insid file1 c static void fun1 void put fun1 call store follow program anoth file file2 c iinsid file2 c int main void fun1 getchar return 0 compil code command gcc file2 c file1 c get error undefin refer fun1 
+fun1 declar static file1 c cannot use file2 c 
+pleas write comment find anyth incorrect articl want share inform static function c adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

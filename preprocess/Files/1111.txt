@@ -1,0 +1,122 @@
+
+Given an array arr[] of size n. Three elements arr[i], arr[j] and arr[k] form an inversion of size 3 if a[i] > a[j] >a[k] and i < j < k.  Find total number of inversions of size 3.
+Example:
+
+Input:  {8, 4, 2, 1}
+Output: 4
+The four inversions are (8,4,2), (8,4,1), (4,2,1) and (8,2,1).
+
+Input:  {9, 6, 4, 5, 8}
+Output:  2
+The two inversions are {9, 6, 4} and {9, 6, 5}
+
+We have already discussed inversion count of size two by merge sort, Self Balancing BST and BIT.
+Simple approach :- Loop for all possible value of i, j and k and check for the condition a[i] > a[j] > a[k] and i < j < k.
+
+C++
+
+
+// A Simple C++ O(n^3)  program to count inversions of size 3
+#include<bits/stdc++.h>
+using namespace std;
+
+// Returns counts of inversions of size three
+int getInvCount(int arr[],int n)
+{
+    int invcount = 0;  // Initialize result
+
+    for (int i=0; i<n-2; i++)
+    {
+        for (int j=i+1; j<n-1; j++)
+        {
+            if (arr[i]>arr[j])
+            {
+                for (int k=j+1; k<n; k++)
+                {
+                    if (arr[j]>arr[k])
+                        invcount++;
+                }
+            }
+        }
+    }
+    return invcount;
+}
+
+// Driver program to test above function
+int main()
+{
+    int arr[] = {8, 4, 2, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    cout << "Inversion Count : " << getInvCount(arr, n);
+    return 0;
+}
+
+Java
+
+
+// A simple Java implementation  to count inversion of size 3
+class Inversion{
+    
+    // returns count of inversion of size 3
+    int getInvCount(int arr[], int n)
+    {
+        int invcount = 0; // initialize result
+        
+        for(int i=0 ; i< n-2; i++)
+        {
+            for(int j=i+1; j<n-1; j++)
+            {
+                if(arr[i] > arr[j])
+                {
+                    for(int k=j+1; k<n; k++)
+                    {
+                        if(arr[j] > arr[k])
+                            invcount++;
+                    }
+                }
+            }
+        }
+        return invcount;
+    }
+
+    // driver program to test above function
+    public static void main(String args[])
+    {
+        Inversion inversion = new Inversion();
+        int arr[] = new int[] {8, 4, 2, 1};
+        int n = arr.length;
+        System.out.print("Inversion count : " + 
+                    inversion.getInvCount(arr, n));
+    }
+}
+// This code is contributed by Mayank Jaiswal
+
+Python
+
+
+
+# A simple python O(n^3) program to count inversions of size 3
+
+# Returns counts of inversions of size threee
+def getInvCount(arr):
+    n = len(arr)
+    invcount = 0  #Initialize result    
+    for i in range(0,n-1):
+        for j in range(i+1 , n):
+                if arr[i] > arr[j]:
+                    for k in range(j+1 , n):
+                        if arr[j] > arr[k]:
+                            invcount += 1
+    return invcount
+
+# Driver program to test above function
+arr = [8 , 4, 2 , 1]
+print "Inversion Count : %d" %(getInvCount(arr))
+
+# This code is contributed by Nikhil Kumar Singh(nickzuck_007)
+
+
+
+Output:
+Inversion Count : 4 
+Time complexity of this approach is : O(n^3)

@@ -1,0 +1,21 @@
+strongli recommend refer post prerequisit 
+k dimension tree set 1 search insert k dimension tree set 2 find minimum post delet discuss 
+oper delet given point k tree 
+like binari search tree delet recurs travers search point delet 
+step follow everi node visit 
+1 current node contain point delet node delet leaf node simpli delet bst delet node delet right child null differ bst find minimum current node dimens right subtre 
+replac node found minimum recurs delet minimum right subtre 
+els node delet left child null differ bst find minimum current node dimens left subtre 
+replac node found minimum recurs delet minimum left subtre 
+make new left subtre right child current node 
+2 current contain point delet node delet smaller current node current dimens recur left subtre 
+els recur right subtre 
+1 b 1 c differ bst 
+bst delet node left child empti right empti replac node right child 
+k tree would violat kd tree properti dimens right child node differ node dimens 
+exampl node divid point x axi valu 
+children divid axi simpli replac node right child 
+true case right child empti left child empti 
+1 c find max left subtre recur max like 1 b 
+violat properti equal valu right subtre 
+exampl delet 0 10 subtre replac wrong way equal key left subtre delet 5 6 4 10 delet 5 6 4 10 4 20 4 20 right way equal key right subtre delet 5 6 4 10 delet 5 6 4 10 4 20 4 20 

@@ -1,0 +1,37 @@
+previou post discuss analysi loop 
+mani algorithm recurs natur 
+analyz get recurr relat time complex 
+get run time input size n function n run time input smaller size 
+exampl merg sort sort given array divid two halv recurs repeat process two halv 
+final merg result 
+time complex merg sort written n 2t n 2 cn 
+mani algorithm like binari search tower hanoi etc 
+mainli three way solv recurr 
+1 substitut method make guess solut use mathemat induct prove guess correct incorrect 
+exampl consid recurr n 2t n 2 n guess solut n nlogn 
+use induct prove guess 
+need prove n cnlogn 
+assum true valu smaller n n 2t n 2 n cn 2log n 2 n cnlogn cnlog2 n cnlogn cn n cnlogn 2 recurr tree method method draw recurr tree calcul time taken everi level tree 
+final sum work done level 
+draw recurr tree start given recurr keep draw till find pattern among level 
+pattern typic arithmet geometr seri 
+exampl consid recurr relat n n 4 n 2 cn2 cn2 n 4 n 2 break express n 4 n 2 get follow recurs tree 
+cn2 c n2 16 c n2 4 n 16 n 8 n 8 n 4 break give us follow cn2 c n2 16 c n2 4 c n2 256 c n2 64 c n2 64 c n2 16 know valu n need calcul sum tree node level level 
+sum tree level level get follow seri n c n 2 5 n 2 16 25 n 2 256 seri geometr progress ratio 5 16 
+get upper bound sum infinit seri 
+get sum n2 1 5 16 n2 3 master method master method direct way get solut 
+master method work follow type recurr recurr transform follow type 
+n n b f n 1 b 1 follow three case 1 f n θ nc c logba n θ nlogba 2 f n θ nc c logba n θ nclog n 3 f n θ nc c logba n θ f n work 
+master method mainli deriv recurr tree method 
+draw recurr tree n n b f n see work done root f n work done leav θ nc c logba 
+height recurr tree logbn recurr tree method calcul total work done 
+work done leav polynomi leav domin part result becom work done leav case 1 
+work done leav root asymptot result becom height multipli work done level case 2 
+work done root asymptot result becom work done root case 3 
+exampl standard algorithm whose time complex evalu use master method merg sort n 2t n 2 θ n 
+fall case 2 c 1 logba also 1 solut θ n logn binari search n n 2 θ 1 
+also fall case 2 c 0 logba also 0 solut θ logn note 1 necessari recurr form n n b f n solv use master theorem 
+given three case gap 
+exampl recurr n 2t n 2 n logn cannot solv use master method 
+2 case 2 extend f n θ nclogkn f n θ nclogkn constant k 0 c logba n θ nclogk 1n practic problem solut master theorem 
+next analysi algorithm set 5 amort analysi introduct refer http en wikipedia org wiki master_theorem mit video lectur asymptot notat recurr substitut master method introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,30 @@
+given two binari string repres valu two integ find product two string 
+exampl first bit string 1100 second bit string 1010 output 120 simplic let length two string n naiv approach follow process studi school 
+one one take bit second number multipli bit first number 
+final add multipl 
+algorithm take n 2 time 
+use divid conquer multipli two integ less time complex 
+divid given number two halv 
+let given number x simplic let us assum n even x xl 2n 2 xr xl xr contain leftmost rightmost n 2 bit x yl 2n 2 yr yl yr contain leftmost rightmost n 2 bit product xy written follow 
+xy xl 2n 2 xr yl 2n 2 yr 2n xlyl 2n 2 xlyr xryl xryr take look formula four multipl size n 2 basic divid problem size n sub problem size n 2 
+help solut recurr n 4t n 2 n n 2 
+tricki part algorithm chang middl two term form one extra multipl would suffici 
+follow tricki express middl two term 
+xlyr xryl xl xr yl yr xlyl xryr final valu xy becom xy 2n xlyl 2n 2 xl xr yl yr xlyl xryr xryr trick recurr becom n 3t n 2 n solut recurr n1 59 
+length input string differ even 
+handl differ length case append 0 begin 
+handl odd length put floor n 2 bit left half ceil n 2 bit right half 
+express xy chang follow 
+xy 22ceil n 2 xlyl 2ceil n 2 xl xr yl yr xlyl xryr xryr algorithm call karatsuba algorithm use base 
+follow c implement algorithm 
+c implement karatsuba algorithm bit string multipl 
+includ iostream includ stdio h use namespac std follow two function copi http goo gl q0ohz helper method given two unequ size bit string convert length ad lead 0s smaller string 
+return new length int makeequallength string str1 string str2 int len1 str1 size int len2 str2 size len1 len2 int 0 len2 len1 str1 0 str1 return len2 els len1 len2 int 0 len1 len2 str2 0 str2 return len1 len1 len2 main function add two bit sequenc return addit string addbitstr string first string second string result store sum bit make length ad int length makeequallength first second int carri 0 initi carri add bit one one int length 1 0 int firstbit first 0 int secondbit second 0 boolean express sum 3 bit int sum firstbit secondbit carri 0 result char sum result boolean express 3 bit addit carri firstbit secondbit secondbit carri firstbit carri overflow add lead 1 carri result 1 result return result util function multipli singl bit string b int multiplyisinglebit string string b return 0 0 b 0 0 main function multipli two bit string x return result long integ long int multipli string x string find maximum length x make length smaller string larger string int n makeequallength x base case n 0 return 0 n 1 return multiplyisinglebit x int fh n 2 first half string floor n 2 int sh n fh second half string ceil n 2 find first half second half first string 
+refer http goo gl llmgn substr method string xl x substr 0 fh string xr x substr fh sh find first half second half second string string yl substr 0 fh string yr substr fh sh recurs calcul three product input size n 2 long int p1 multipli xl yl long int p2 multipli xr yr long int p3 multipli addbitstr xl xr addbitstr yl yr combin three product get final result 
+return p1 1 2 sh p3 p1 p2 1 sh p2 driver program test aboev function int main printf ld n multipli 1100 1010 printf ld n multipli 110 1010 printf ld n multipli 11 1010 printf ld n multipli 1 1010 printf ld n multipli 0 1010 printf ld n multipli 111 111 printf ld n multipli 11 11 output 120 60 30 10 0 49 9 time complex time complex solut n1 59 
+time complex multipl improv use anoth divid conquer algorithm fast fourier transform 
+soon discuss fast fourier transform separ post 
+exercis program return long int valu work big string 
+extend program return string instead long int valu 
+refer wikipedia page karatsuba algorithm algorithm 1st edit sanjoy dasgupta christo papadimitri umesh vazirani http cours csail mit edu 6 006 spring11 exam notes3 karatsuba http www cc gatech edu ninamf algos11 lectur lect0131 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

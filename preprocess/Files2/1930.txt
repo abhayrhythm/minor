@@ -1,0 +1,15 @@
+c program languag allow auto stack alloc dynam alloc object 
+java c object must dynam alloc use new 
+c support stack alloc object reason runtim effici 
+stack base object implicitli manag c compil 
+destroy go scope dynam alloc object must manual releas use delet oper otherwis memori leak occur 
+c support automat garbag collect approach use languag java c 
+achiev follow behavior class test c 
+test new test produc compil time error test ok idea keep new oper function privat new cannot call 
+see follow program 
+object test class cannot creat use new new oper function privat test 
+uncom 2nd line main program would produc compil time error 
+includ iostream use namespac std object test dynam alloc class test notic new oper function privat void oper new size_t size int x public test x 9 cout constructor call n void display cout x x n test cout destructor execut n int main uncom follow line would caus compil time error 
+test obj new test test ok object alloc compil time display return 0 object goe scope destructor call output constructor call x 9 destructor execut refer design evolut c bjarn stroustrup articl contribut pravasi meet 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

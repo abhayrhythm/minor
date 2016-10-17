@@ -1,0 +1,22 @@
+longest common extens lce problem consid string comput pair l r longest sub string start l r lce queri answer length longest common prefix start index l r exampl string abbababba queri lce 1 2 lce 1 6 lce 0 5 find length longest common prefix start index given 1 2 1 6 0 5 
+string highlight green longest common prefix start index l r respect queri 
+find length longest common prefix start index 1 2 1 6 0 5 
+algorithm naiv method lce queri form lce l r follow initialis lce length 0 start compar prefix start index l r charact charact 
+charact match charact longest common extens 
+increment length length 
+els charact mismatch return length 
+return length requir lce l r 
+implement c implement naiv algorithm 
+c program find length longest common extens use naiv method includ bit stdc h use namespac std structur repres queri form l r struct queri int l r util function find longest common extens index l index r int lce string str int n int l int r int length 0 str l length str r length r length n length return length function answer queri longest common extens void lcequeri string str int n queri q int int 0 int l q l int r q r printf lce n l r lce str n l r return driver program test function int main string str abbababba int n str length lca queri answer queri q 1 2 1 6 0 5 int sizeof q sizeof q 0 lcequeri str n q return 0 output lce 1 2 1 lce 1 6 3 lce 0 5 4 analysi naiv method time complex time complex q n q number lce queri n length input string one may surpris although greater asymptot time complex naiv method outperform effici method asymptot practic use 
+discuss come set topic 
+auxiliari space 1 place algorithm 
+applic k mismatch problem landau vishkin use lce subroutin solv k mismatch problem approxim string search 
+palindrom match wildcard 
+k differ global align 
+next set discuss lce longest common extens problem reduc rmq rang minimum queri 
+also discuss effici method find longest common extens 
+refer http www sciencedirect com scienc articl pii s1570866710000377 articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,20 @@
+given number n print follow pattern without use loop 
+input n 16 output 16 11 6 1 4 1 6 11 16 input n 10 output 10 5 0 5 10 basic first reduc 5 one one reach neg 0 reach 0 neg one one add 5 reach n sourc microsoft interview question 
+strongli recommend click practic move solut 
+idea use recurs 
+interest question tri 
+c code 
+code use flag variabl indic whether move toward 0 move toward back n c program print pattern first reduc 5 one one add 5 without loop includ iostream use namespac std recurs function print pattern 
+n indic input valu indic current valu print flag indic whether need add 5 subtract 5 initi flag true 
+void printpattern int n int bool flag print cout move back toward n reach done flag fals n return move toward 0 neg 
+flag greater 5 recur true flag 5 0 printpattern n 5 true els recur fals flag printpattern n 5 fals els flag fals 
+printpattern n 5 fals driver program int main int n 16 printpattern n n true return 0 output 16 11 6 1 4 1 6 11 16 print pattern without extra variabl loop 
+program work fine print desir use extra variabl 
+use two print statement 
+first one recurs call print decreas sequenc 
+second one recurs call print increas sequenc 
+c implement idea 
+c program print pattern first reduc 5 one one add 5 without loop extra variabl 
+includ iostream use namespac std recurs function print pattern without extra variabl void printpattern int n base case n becom 0 neg n 0 n 0 cout n return first print decreas order cout n printpattern n 5 print increas order cout n driver program int main int n 16 printpattern n return 0 output 16 11 6 1 4 1 6 11 16 thank akshay rathor suggest solut 
+articl contribut gautham 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

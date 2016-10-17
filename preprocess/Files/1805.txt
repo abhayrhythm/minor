@@ -1,0 +1,33 @@
+
+Consider below C++ program and predict its output.
+
+printf("%d %d %d", i, ++i, i++);
+
+The above invokes undefined behaviour by referencing both ‘i’ and ‘i++’ in the argument list. It is not defined which order the arguments are evaluated. Different compilers may choose different orders. A single compiler can also choose different orders at different times.
+For example below three printf statements also cause undefined behavior.
+
+// All three pritf() statements in this cause undefined behavior
+#include<stdio.h>
+
+int main()
+{
+    int a = 10;
+    printf("\n %d %d", a, a++); 
+    a = 10;
+    printf("\n %d %d", a++, a);
+    a = 10;
+    printf("\n %d %d %d ", a, a++, ++a);
+    return 0;
+}
+Therefore, it is not recommended to do two or more than two pre or post increment operators in the same statement. 
+This article is contributed by Spoorthi Aman. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

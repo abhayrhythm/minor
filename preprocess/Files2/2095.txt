@@ -1,0 +1,2 @@
+c allow void pointer assign pointer type without cast wherea c idiom appear often c code use malloc memori alloc 
+exampl follow valid c c void ptr int ptr implicit convers void int similarli int j malloc sizeof int 5 implicit convers void int order make code compil c c one must use explicit cast void ptr int int ptr int j int malloc sizeof int 5 sourc http en wikipedia org wiki compatibility_of_c_and_c 2b 2b adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

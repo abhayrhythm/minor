@@ -1,0 +1,40 @@
+
+In C, data type of result of comparison operations is int.  For example, see the following program.
+
+#include<stdio.h>
+int main()
+{
+    int x = 10, y = 10;
+    printf("%d \n", sizeof(x == y));
+    printf("%d \n", sizeof(x < y));
+    return 0;
+}
+Output:
+4
+4
+Whereas in C++, type of results of comparison operations is bool. For example, see the following program.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int x = 10, y = 10;
+    cout << sizeof(x == y) << endl;
+    cout << sizeof(x < y);
+    return 0;
+}
+
+Output:
+1
+1
+This article is contributed by Rajat. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

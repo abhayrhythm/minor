@@ -1,0 +1,24 @@
+
+We have been trying to organize content of geeksforgeeks. We added below pages for this purpose.
+
+C
+C++
+Java
+Python
+Algorithms
+Interview Corner
+GATE Corner 
+Data Structures
+
+The above pages contain all related article at one place, but do not provide proper navigation through articles. GeeksforGeeks and GeeksQuiz are quite limited in functionalities which motivated the team to design GeeksforGeeks Courses.  The idea of courses.geeksforgeeks.org, our new platform, is to allow users to see/navigate content in an organized manner, to enroll into different courses and track their progress. We will be adding more features over time. 
+
+We will be filling all gaps in content. For example, the C page doesn’t contain some basic articles like functions, pointers and control statements. All these sections have been added in the C course. We are also planning to cover more areas/topics which are not currently covered on GeeksforGeeks. Stay tuned!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

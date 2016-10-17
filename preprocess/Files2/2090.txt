@@ -1,0 +1,4 @@
+c follow oper overload 
+member access dot oper 
+ternari condit oper scope resolut oper 
+pointer member oper sizeof object size oper typeid object type oper refer http en wikibook org wiki c _program oper operator_overload adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

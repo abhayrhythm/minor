@@ -1,0 +1,15 @@
+given array posit neg number arrang altern fashion everi posit number follow neg vice versa maintain order appear 
+number posit neg number need equal 
+posit number appear end array 
+neg number appear end array 
+exampl input arr 1 2 3 4 1 4 output arr 4 1 1 2 3 4 input arr 5 2 5 2 4 7 1 8 0 8 output arr 5 5 2 2 8 4 7 1 8 0 question ask mani place see problem easili solv n extra space allow 
+becom interest due limit 1 extra space order appear 
+idea process array left right 
+process find first place element remain unprocess array 
+element place neg odd index posit even index 
+find place element find first element opposit sign 
+right rotat subarray two element includ two 
+follow c implement idea 
+c c program rearrang posit neg integ altern fashion keep order posit neg number 
+includ iostream includ assert h use namespac std util function right rotat element outofplac cur void rightrot int arr int n int outofplac int cur char tmp arr cur int cur outofplac arr arr 1 arr outofplac tmp void rearrang int arr int n int outofplac 1 int index 0 index n index outofplac 0 find item must move place entri place entri posit current entri neg place entri neg current entri neg right rotat 3 4 5 6 6 3 4 5 outofplac outofplac arr index 0 arr outofplac 0 arr index 0 arr outofplac 0 rightrot arr n outofplac index new place entri 2 step ahead index outofplac 2 outofplac outofplac 2 els outofplac 1 entri flag place outofplac 1 check current entri place arr index 0 
+index 0x01 arr index 0 index 0x01 outofplac index util function print array arr size n void printarray int arr int n int 0 n cout arr cout endl driver program test abiv function int main int arr n 5 3 4 5 6 2 8 9 1 4 int arr 5 3 4 5 6 2 8 9 1 4 int arr 5 3 4 2 1 2 8 9 1 4 int arr 5 3 4 7 1 2 8 9 1 4 int arr 5 2 5 2 4 7 1 8 0 8 int n sizeof arr sizeof arr 0 cout given array n printarray arr n rearrang arr n cout rearrang array n printarray arr n return 0 

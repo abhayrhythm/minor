@@ -1,0 +1,10 @@
+given posit integ n print first k digit point valu 1 n 
+program avoid overflow float point arithmet 
+exampl input n 3 k 3 output 333 input n 50 k 4 output 0200 strongli recommend minim browser tri first 
+let us consid exampl n 7 k 3 first digit 1 7 1 obtain integ valu 10 7 
+remaind 10 7 3 next digit 4 obtain take integ valu 30 7 
+remaind 30 7 2 next digit 2 obtain take integ valu 20 7 includ iostream use namespac std function print first k digit dot valu 1 n 
+n assum posit integ 
+void print int n int k int rem 1 initi remaind run loop k time print k digit int 0 k next digit alway obtain 10 rem 10 cout 10 rem n updat remaind rem 10 rem n driver program test function int main int n 7 k 3 print n k cout endl n 21 k 4 print n k return 0 output 142 0476 refer algorithm program problem solut alexand shen articl contribut sachin 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

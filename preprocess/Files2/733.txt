@@ -1,0 +1,31 @@
+recent amazon visit colleg detail follow 
+onlin round two question 
+1 n string given convert string correspond decim valu type alphanumer keypad e g 
+bdg 234 
+print string decreas order decim valu 
+decim valu print lexicograph smaller first 
+input 5 amazon sun run output 262966 amazon 786 run 786 sun 2 write code print possibl combin order matter charact string lexicograph order 
+input abc output ab abc ac acb b ba bac bc bca c ca cab cb cba interview round 1 45 minut start brief discuss project 
+quickli move code question 
+made write error free code count pair sum k bst 
+also ad duplic may present left side 
+first discuss approach constrain space complex 1 
+check code rigor 
+3 4 code question 
+discuss approach 
+updat node bst sum element greater equal 
+stock problem given array arr find maximum differ two element max arr arr j j 
+awesom question given perfect binari tree 
+print node specif manner 
+e g 15 13 14 9 10 11 12 1 2 3 4 5 6 7 8 print 1 8 2 7 3 6 4 5 9 12 10 11 13 14 15 told approach space complex 
+restrict space complex got effici solut recogn pattern 
+round 2 25 minut two question 
+1 given string space dictionari problem find string split multipl string split string dictionari 
+provid function search string str tell particular string str dictionari 
+quickli gave recurs approach 
+2 second question well known vertic order travers binari tree 
+discuss implement variou approach c 
+discuss type project assign intern blah blah 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

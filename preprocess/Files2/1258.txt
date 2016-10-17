@@ -1,0 +1,20 @@
+given string move even posit element end string 
+move element keep rel order even posit odd posit element 
+exampl given string a1b2c3d4e5f6g7h8i9j1k2l3m4 convert abcdefghijklm1234567891234 place n time complex 
+step 1 cut largest prefix sub string size form 3 k 1 step find largest non neg integ k 3 k 1 smaller equal n length string 2 appli cycl leader iter algorithm discuss start index 1 3 9 sub string 
+cycl leader iter algorithm move item sub string correct posit e 
+alphabet shift left half sub string digit shift right half sub string 
+3 process remain sub string recurs use step 1 2 
+4 need join process sub string togeth 
+start end say left pick two sub string appli step 4 1 revers second half first sub string 
+4 2 revers first half second sub string 
+4 3 revers second half first sub string first half second sub string togeth 
+5 repeat step 4 sub string join 
+similar k way merg first sub string join second 
+result merg third 
+let us understand exampl pleas note use valu like 10 11 12 exampl 
+consid valu singl charact 
+valu use better readabl 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 1 b 2 c 3 4 e 5 f 6 g 7 h 8 9 j 10 k 11 l 12 13 break size form 3 k 1 two sub string form size 10 
+third sub string form size 4 fourth sub string form size 2 
+0 1 2 3 4 5 6 7 8 9 1 b 2 c 3 4 e 5 10 11 12 13 14 15 16 17 18 19 f 6 g 7 h 8 9 j 10 20 21 22 23 k 11 l 12 24 25 13 appli cycl leader iter algorithm first sub string 0 1 2 3 4 5 6 7 8 9 b c e 1 2 3 4 5 10 11 12 13 14 15 16 17 18 19 f 6 g 7 h 8 9 j 10 20 21 22 23 k 11 l 12 24 25 13 appli cycl leader iter algorithm second sub string 0 1 2 3 4 5 6 7 8 9 b c e 1 2 3 4 5 10 11 12 13 14 15 16 17 18 19 f g h j 6 7 8 9 10 20 21 22 23 k 11 l 12 24 25 13 appli cycl leader iter algorithm third sub string 0 1 2 3 4 5 6 7 8 9 b c e 1 2 3 4 5 10 11 12 13 14 15 16 17 18 19 f g h j 6 7 8 9 10 20 21 22 23 k l 11 12 24 25 13 appli cycl leader iter algorithm fourth sub string 0 1 2 3 4 5 6 7 8 9 b c e 1 2 3 4 5 10 11 12 13 14 15 16 17 18 19 f g h j 6 7 8 9 10 20 21 22 23 k l 11 12 24 25 13 

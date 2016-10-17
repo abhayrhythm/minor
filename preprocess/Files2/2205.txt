@@ -1,0 +1,8 @@
+comput n modulo without divis modulo oper power 2 number 
+let ith bit right set get n modulu need return 0 1 right bit n bit 0 exampl n 6 00 110 4 00 100 
+last set bit posit 3 right side 
+need return last two bit n bit 0 e 00 010 easi guess 
+ye guess right 
+see program 
+includ stdio h function return n must one 1 2 4 8 16 32 unsign int getmodulo unsign int n unsign int return n 1 driver program test function int main unsign int n 6 unsign int 4 must power 2 printf u moduo u u n getmodulo n getchar return 0 refer http graphic stanford edu seander bithack html modulusdivisioneasi pleas write comment find bug program algorithm way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,27 @@
+given number n find smallest number set digit n greater n x greatest possibl number set digit print possibl 
+exampl simplic implement consid input number string 
+input n 218765 output 251678 input n 1234 output 1243 input n 4321 output possibl input n 534976 output 536479 follow observ next greater number 
+1 digit sort descend order output alway possibl 
+exampl 4321 
+2 digit sort ascend order need swap last two digit 
+exampl 1234 
+3 case need process number rightmost side 
+need find smallest greater number tri develop algorithm 
+follow algorithm find next greater number 
+travers given number rightmost digit keep travers till find digit smaller previous travers digit 
+exampl input number 534976 stop 4 4 smaller next digit 9 find digit output possibl 
+ii search right side found digit smallest digit greater 
+534976 right side 4 contain 976 
+smallest digit greater 4 6 iii swap found two digit get 536974 exampl 
+iv sort digit posit next end number 
+number get sort output 
+exampl sort digit bold 536974 get 536479 next greater number input 534976 follow c implement approach 
+c program find smallest number greater given number set digit given number includ iostream includ cstring includ algorithm use namespac std util function swap two digit void swap char char b char temp b b temp given number char array number function find next greater number 
+modifi array store result void findnext char number int n int j start right digit find first digit smaller digit next 
+n 1 0 number number 1 break digit found digit descend order mean cannot greater number set digit 0 cout next number possibl return ii find smallest digit right side 1 th digit greater number 1 int x number 1 smallest j 1 j n j number j x number j number smallest smallest j iii swap found smallest digit number 1 swap number smallest number 1 iv sort digit 1 ascend order sort number number n cout next number set digit number return driver program test function int main char digit 534976 int n strlen digit findnext digit n return 0 output next number set digit 536479 implement optim follow way 
+1 use binari search step ii instead linear search 
+2 step iv instead simpl sort appli clever techniqu linear time 
+hint know digit linearli sort revers order except one digit swap 
+optim say time complex method n 
+articl contribut rahul jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

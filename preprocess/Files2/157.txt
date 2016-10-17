@@ -1,0 +1,37 @@
+given array n point plane problem find closest pair point array 
+problem aris number applic 
+exampl air traffic control may want monitor plane come close togeth sinc may indic possibl collis 
+recal follow formula distanc two point p q discuss divid conquer solut problem 
+time complex implement provid previou post n logn 2 
+post discuss implement time complex nlogn 
+follow recap algorithm discuss previou post 
+1 sort point accord x coordin 
+2 divid point two halv 
+3 recurs find smallest distanc subarray 
+4 take minimum two smallest distanc 
+let minimum 5 creat array strip store point distanc away middl line divid two set 
+6 find smallest distanc strip 
+7 return minimum smallest distanc calcul step 6 great thing approach array strip sort accord coordin find smallest distanc strip n time 
+implement discuss previou post strip explicitli sort everi recurs call made time complex n logn 2 assum sort step take nlogn time 
+post discuss implement time complex nlogn 
+idea presort point accord coordin 
+let sort array py 
+make recurs call need divid point py also accord vertic line 
+simpli process everi point compar x coordin x coordin middl line 
+follow c implement nlogn approach 
+divid conquer program c find smallest distanc given set point 
+includ iostream includ float h includ stdlib h includ math h use namespac std structur repres point 2d plane struct point int x follow two function need librari function qsort 
+refer http www cplusplu com refer clibrari cstdlib qsort need sort array point accord x coordin int comparex const void const void b point p1 point p2 point b return p1 x p2 x need sort array point accord coordin int comparey const void const void b point p1 point p2 point b return p1 p2 util function find distanc two point float dist point p1 point p2 return sqrt p1 x p2 x p1 x p2 x p1 p2 p1 p2 brute forc method return smallest distanc two point p size n float bruteforc point p int n float min flt_max int 0 n int j 1 j n j dist p p j min min dist p p j return min util function find minimum two float valu float min float x float return x 
+x util function find distanc beween closest point strip given size 
+point strip sort accordint coordin 
+upper bound minimum distanc note method seem n 2 method n method inner loop run 6 time float stripclosest point strip int size float float min initi minimum distanc pick point one one tri next point till differ coordin smaller proven fact loop run 6 time int 0 size int j 1 j size strip j strip min j dist strip strip j min min dist strip strip j return min recurs function find smallest distanc 
+array px contain point sort accord x coordin py contain point sort accord coordin float closestutil point px point py int n 2 3 point use brute forc n 3 return bruteforc px n find middl point int mid n 2 point midpoint px mid divid point sort array around vertic line 
+assumpt x coordin distinct 
+point pyl mid 1 sort point left vertic line point pyr n mid 1 sort point right vertic line int li 0 ri 0 index left right subarray int 0 n py x midpoint x pyl li py els pyr ri py consid vertic line pass middl point calcul smallest distanc dl left middl point dr right side float dl closestutil px pyl mid float dr closestutil px mid pyr n mid find smaller two distanc float min dl dr build array strip contain point close closer line pass middl point point strip n int j 0 int 0 n ab py x midpoint x strip j py j find closest point strip 
+return minimum closest distanc strip return min stripclosest strip j main functin find smallest distanc method mainli use closestutil float closest point p int n point px n point py n int 0 n px p py p qsort px n sizeof point comparex qsort py n sizeof point comparey use recurs function closestutil find smallest distanc return closestutil px py n driver program test function int main point p 2 3 12 30 40 50 5 1 12 10 3 4 int n sizeof p sizeof p 0 cout smallest distanc closest p n return 0 output smallest distanc 1 41421 time complex let time complex algorithm n 
+let us assum use nlogn sort algorithm 
+algorithm divid point two set recurs call two set 
+divid find strip n time 
+also take n time divid py array around mid vertic line 
+final find closest point strip n time 
+n express follow n 2t n 2 n n n n 2t n 2 n n nlogn refer http www cs umd edu class fall2013 cmsc451 lect lect10 pdf http www youtub com watch v vs4zn1a9kuc http www youtub com watch v t3t7t8ym20m http en wikipedia org wiki closest_pair_of_points_problem pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

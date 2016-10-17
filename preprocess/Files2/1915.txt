@@ -1,0 +1,28 @@
+memcpi function use copi block data sourc address destin address 
+prototyp 
+void memcpi void destin const void sourc size_t num idea simpli typecast given address char char take 1 byte 
+one one copi data sourc destin 
+implement idea 
+c implement memcpi includ stdio h includ string h void mymemcpi void dest void src size_t n typecast src dest address char char csrc char src char cdest char dest copi content src dest int 0 n cdest csrc driver program int main char csrc geeksforgeek char cdest 100 mymemcpi cdest csrc strlen csrc 1 printf copi string cdest int isrc 10 20 30 40 50 int n sizeof isrc sizeof isrc 0 int idest n mymemcpi idest isrc sizeof isrc printf ncopi array 0 n printf idest return 0 output copi string geeksforgeek copi array 10 20 30 40 50 memmov 
+memmov similar memcpi also copi data sourc destin 
+memcpi lead problem sourc destin address overlap memcpi simpli copi data one one one locat anoth 
+exampl consid program 
+sampl program show memcpi loos data 
+includ stdio h includ string h int main char csrc 100 geeksfor memcpi csrc 5 csrc strlen csrc 1 printf csrc return 0 output geeksgeeksgeek sinc input address overlap program overwrit origin string caus data loss 
+sampl program show memmov better memcpi address overlap 
+includ stdio h includ string h int main char csrc 100 geeksfor memmov csrc 5 csrc strlen csrc 1 printf csrc return 0 output geeksgeeksfor implement memmov 
+trick use temp array instead directli copi src dest 
+use temp array import handl case sourc destin address overlap 
+c program demonstr implement memmov includ stdio h includ string h function copi block n byte sourc address src destin address dest 
+void mymemmov void dest void src size_t n typecast src dest address char char csrc char src char cdest char dest creat temporari array hold data src char temp new char n copi data csrc temp int 0 n temp csrc copi data temp cdest int 0 n cdest temp delet temp driver program int main char csrc 100 geeksfor mymemmov csrc 5 csrc strlen csrc 1 printf csrc return 0 output geeksgeeksfor optim algorithm ineffici honestli doubl time use temporari array 
+doubl copi avoid unless realli imposs 
+case though easili possibl avoid doubl copi pick direct copi 
+fact memmov librari function 
+compar src dst address abl find overlap 
+overlap copi direct overlap find end dest overlap sourc choos direct copi accordingli 
+begin dest overlap copi end begin end dest overlap copi begin end anoth optim would copi word size 
+care handl boundari condit 
+optim would use vector instruct copi sinc contigu 
+articl contribut saurabh jain 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

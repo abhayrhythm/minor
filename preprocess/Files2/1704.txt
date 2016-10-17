@@ -1,0 +1,25 @@
+given undirect graph set vertic find reachabl node everi vertex present given set 
+consid undirect graph 2 disconnect compon 
+arr 1 2 5 reachabl node 1 1 2 3 4 reachabl node 2 1 2 3 4 reachabl node 5 5 6 7 method 1 simpl one straight forward solut bf travers everi node present set find reachabl node 
+assum need find reachabl node n node time complex solut would n v e v number node graph e number edg graph 
+pleas note need call bf separ call everi node without use visit array previou travers vertex may need print multipl time 
+seem effect solut consid case e θ v2 n v time complex becom v3 
+method 2 effici sinc given graph undirect vertic belong compon set reachabl node 
+keep track vertex compon map 
+everi compon graph assign number everi vertex compon assign number 
+use visit array purpos array use keep track visit vertic bf 
+node u visit u 0 u visit els zero visit u repres compon number 
+two node u v belong compon visit u equal visit v store reachabl node use map key compon number valu vector store reachabl node 
+find reachabl node node u return visit u look pseudo code order understand assign compon number 
+componentnum 0 1 n visit 0 componentnum bf return list vector given vertex list bf componentnum visit list graph shown exampl visit array would 
+node 1 2 3 4 compon number 1 node 5 6 7 compon number 2 c implement idea c program find reachabl node everi node present arr 0 n 1 
+includ bit stdc h use namespac std class repres direct graph use adjac list represent class graph public int v 
+vertic pointer array contain adjac list list int adj graph int constructor void addedg int int vector int bf int int int graph graph int v v v adj new list int v 1 void graph addedg int u int v adj u push_back v add w v list 
+adj v push_back u add v w list 
+vector int graph bf int componentnum int src int visit mark vertic visit creat queue bf queue int queue queue push src assign compon number visit src componentnum vector store reachabl node src vector int reachablenod queue empti dequeu vertex queue int u queue front queue pop reachablenod push_back u get adjac vertic dequeu vertex u adjac visit mark visit nd enqueu auto itr adj u begin itr adj u end itr visit itr assign compon number reachabl node visit itr componentnum queue push itr return reachablenod display reachabl node node n void displayreachablenod int n unordered_map int vector int vector int temp n int 0 temp size cout temp cout endl find reachabl node everi element arr void findreachablenod graph g int arr int n get number node graph int v g v take integ visit array initi element 0 int visit v 1 memset visit 0 sizeof visit map store list reachabl node given node 
+unordered_map int vector int initi compon number 0 int componentnum 0 node arr find reachabl node int 0 n int u arr visit node compon visit u componentnum store reachabl node correspond node visit u g bf componentnum u visit point reachabl node u print look map cout reachabl node u n displayreachablenod visit u driver program test function int main creat graph given diagram int v 7 graph g v g addedg 1 2 g addedg 2 3 g addedg 3 4 g addedg 3 1 g addedg 5 6 g addedg 5 7 everi ith element arr find reachabl node queri int arr 2 4 5 find number element set int n sizeof arr sizeof int findreachablenod g arr n return 0 output reachabl node 2 2 1 3 4 reachabl node 4 2 1 3 4 reachabl node 5 5 6 7 time complex analysi n size given set e number edg v number node v e bf worst case v node display node present given e one compon graph take n v time 
+worst case time complex v e n v articl contribut chirag agarw 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

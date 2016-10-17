@@ -1,0 +1,54 @@
+predict output program question 1 int main 1 printf printf break els continu return 0 output predict explan condit loop 1 first shot look infinit loop 
+break continu bodi loop may infinit loop 
+break statement execut condit met otherwis continu execut 
+sinc statement continu loop continu serv purpos 
+fact extran 
+let us see condit 
+look care notic condit met alway break execut first iter come loop 
+reason condit met printf function 
+function printf alway return 
+byte output 
+exampl return valu printf geek 5 printf output 5 charact 
+case inner printf execut first printf argument format specifi e 
+
+mean printf print arbitrari valu 
+notic even arbirari valu 
+byte output inner printf would non zero 
+
+byte work argument outer printf 
+outer printf print mani 
+byte return non zero valu alway 
+condit also true alway 
+therefor loop execut 
+side note even without outer printf also condit alway true 
+question 2 int main unsign int 10 0 printf u return 0 output 9 8 7 6 5 4 3 2 1 0 4294967295 4294967294 machin int 4 byte long 9 8 7 6 5 4 3 2 1 0 65535 65534 
+machin int 2 byte long explan let us examin condit loop 
+obviou far condit loop met printf execut 
+two oper condit loop post decrement oper comparison oper 
+oper preced know unari oper post decrement higher prioriti comparison oper 
+due post decrement properti valu decrement use comparison 
+first iter condit true 10 0 decrement 
+therefor 9 print 
+similarli loop continu valu keep decrement 
+let us see happen condit loop becom 0 0 time condit met decrement 
+sinc unsign integ roll happen take valu highest valu unsign int take 
+never neg 
+therefor becom infinit loop 
+side note sign int loop would termin print highest neg valu 
+question 3 int main int x 2 z x 2 z 2 2 printf z x return 0 output garbag valu z 0 explan question stuff oper preced 
+condit met z initi 2 otherwis z contain garbag valu 
+condit two oper assign oper modulu oper 
+preced modulu higher assign 
+2 zero assign x valu x becom zero also effect condit 
+therefor condit fals 
+question 4 int main int 10 printf 1 3 return 0 output 4 explan oper preced de refer oper higher prioriti addit subtract oper 
+de refer appli first 
+array initi 
+use point first element array 
+therefor first element array 
+suppos first element array x argument insid printf becom follow 
+effect valu 4 x 1 x 3 4 question 5 defin prod b b int main int x 3 4 printf prod x 2 1 return 0 output 10 explan program deal macro side effect oper preced 
+prod macro multipli two argument b let us take closer look 
+prod b b prod x 2 1 x 2 1 3 2 4 1 3 8 1 10 programm realli want multipli x 2 1 put parenthesi around b follow 
+prod b b type mistak macro definit call macro side effect 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

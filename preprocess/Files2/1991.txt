@@ -1,0 +1,9 @@
+predict output follow c program 
+includ iostream use namespac std int main tri throw x catch int x cout caught int x catch cout defaul catch block defaul catch block program charact x thrown catch block catch int 
+one might think int catch block could match consid ascii valu x 
+convers perform catch block 
+consid follow program anoth exampl convers constructor call thrown object 
+includ iostream use namespac std class myexcept1 class myexcept2 public convers constructor myexcept2 const myexcept1 e cout convers constructor call int main tri myexcept1 myexp1 throw myexp1 catch myexcept2 e2 cout caught myexcept2 endl catch cout defaul catch block endl return 0 defaul catch block side note deriv type object convert base typr deriv object thrown catch block catch base type 
+see gfact detail 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

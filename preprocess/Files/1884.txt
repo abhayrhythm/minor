@@ -1,0 +1,120 @@
+
+How to compute size of an array parameter in a function?
+Consider below C++ program:
+
+// A C++ program to show that it is wrong to 
+// compute size of an array parameter in a function
+#include <iostream>
+using namespace std;
+
+void findSize(int arr[])
+{
+    cout << sizeof(arr) << endl;
+}
+
+int main()
+{
+    int a[10];
+    cout << sizeof(a) << " ";
+    findSize(a);
+    return 0;
+}
+Output:
+40 8
+The above output is for a machine where size of integer is 4 bytes and size of a pointer is 8 bytes.
+The cout statement inside main prints 40, and cout in findSize prints 8.  The reason is, arrays are always passed pointers in functions, i.e., findSize(int arr[]) and findSize(int *arr) mean exactly same thing.  Therefore the cout statement inside findSize() prints size of a pointer. See this and this for details.
+How to find size of array in function?
+We can pass a ‘reference to the array’. 
+
+// A C++ program to show that we can use reference to
+// find size of array
+#include <iostream>
+using namespace std;
+
+void findSize(int (&arr)[10])
+{
+    cout << sizeof(arr) << endl;
+}
+
+int main()
+{
+    int a[10];
+    cout << sizeof(a) << " ";
+    findSize(a);
+    return 0;
+}
+
+Output:
+40 40
+The above program doesn’t look good as we have hardcoded size of array parameter. We can do it better using templates in C++.
+
+// A C++ program to show that we use template and
+// reference to find size of integer array parameter
+#include <iostream>
+using namespace std;
+
+template <size_t n>
+void findSize(int (&arr)[n])
+{
+    cout << sizeof(int) * n << endl;
+}
+
+int main()
+{
+    int a[10];
+    cout << sizeof(a) << " ";
+    findSize(a);
+    return 0;
+}
+
+Output:
+40 40
+We can make a generic function as well:
+
+// A C++ program to show that we use template and
+// reference to find size of any type array parameter
+#include <iostream>
+using namespace std;
+
+template <typename T, size_t n>
+void findSize(T (&arr)[n])
+{
+    cout << sizeof(T) * n << endl;
+}
+
+int main()
+{
+    int a[10];
+    cout << sizeof(a) << " ";
+    findSize(a);
+
+    float f[20];
+    cout << sizeof(f) << " ";
+    findSize(f);
+    return 0;
+}
+
+Output:
+40 40
+80 80
+Now the next step is to print the size of a dynamically allocated array. It’s your task man ! I’m giving you a hint.
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+    int *arr = (int*)malloc(sizeof(float) * 20);
+    return 0;
+}
+This article is contributed Swarupananda Dhua Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

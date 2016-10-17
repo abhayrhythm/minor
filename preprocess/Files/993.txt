@@ -1,0 +1,48 @@
+
+Write a C function print(n) that takes a long int number n as argument, and prints it on console.  The only allowed library function is putchar(), no other function like itoa() or printf() is allowed.  Use of loops is also not allowed.
+We strongly recommend to minimize the browser and try this yourself first.
+This is a simple trick question. Since putchar() prints a character, we need to call putchar() for all digits. Recursion can always be used to replace iteration, so using recursion we can print all digits one by one.  Now the question is putchar() prints a character, how to print digits using putchar().  We need to convert every digit to its corresponding ASCII value, this can be done by using ASCII value of ‘0’.   Following is complete C program.
+
+/* C program to print a long int number using putchar() only*/
+#include <stdio.h>
+void print(long n)
+{
+    // If number is smaller than 0, put a - sign and
+    // change number to positive
+    if (n < 0) {
+        putchar('-');
+        n = -n;
+    }
+
+    // If number is 0
+    if (n == 0)
+        putchar('0');
+
+    // Remove the last digit and recur
+    if (n/10)
+        print(n/10);
+
+    // Print the last digit
+    putchar(n%10 + '0');
+}
+
+// Driver program to test abvoe function
+int main()
+{
+    long int n = 12045;
+    print(n);
+    return 0;
+}
+Output:
+12045
+One important thing to note is the sequence of putchar() and recursive call print(n/10).  Since the digits should be printed left to right, the recursive call must appear before putchar() (The rightmost digit should be printed at the end, all other digits must be printed before it).
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

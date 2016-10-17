@@ -1,0 +1,12 @@
+given sort array distinct posit integ print triplet form geometr progress integr common ratio 
+geometr progress sequenc number term first found multipli previou one fix non zero number call common ratio 
+exampl sequenc 2 6 18 54 geometr progress common ratio 3 exampl input arr 1 2 6 10 18 54 output 2 6 18 6 18 54 input arr 2 8 10 15 16 30 32 64 output 2 8 32 8 16 32 16 32 64 input arr 1 2 6 18 36 54 output 2 6 18 1 6 36 6 18 54 idea start second element fix everi element middl element search two element triplet one smaller one greater 
+element arr j middl geometr progress must exist element arr arr k arr j arr r arr k arr j r r posit integ 0 j j k n 1 c implement idea c program find exist three element geometr progress includ iostream use namespac std function print three element gp exist assumpt arr 0 n 1 sort 
+void findgeometrictriplet int arr int n one fix everi element middl element int j 1 j n 1 j initi k current j int j 1 k j 1 find k j k form triplet gp 0 k n 1 arr j arr r arr k arr j r r integ j k form geometr progress arr j arr 0 arr k arr j 0 arr j arr arr k arr j print triplet cout arr arr j arr k endl sinc array sort element distinct 
+k arr j multipl arr arr k multipl arr j arr j arr arr k arr j 
+compar valu move next k previou arr j arr 0 arr k arr j 0 arr j arr arr k arr j els k els arr j multipl arr tri next k els tri previou els arr j arr 0 k els driver code int main int arr 1 2 6 10 18 54 int arr 2 8 10 15 16 30 32 64 int arr 1 2 6 18 36 54 int arr 1 2 4 16 int arr 1 2 3 6 18 22 int n sizeof arr sizeof arr 0 findgeometrictriplet arr n return 0 output 1 2 4 1 4 16 time complex solut n2 everi j find k linear time 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

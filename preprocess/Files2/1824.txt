@@ -1,0 +1,18 @@
+one method ad ratio discuss articl program add two fraction method involv tediou lengthi task 
+c header file allow us manipul ratio use variou inbuilt templet alia 
+header file introduc c 11 onward 
+1 ratio_add templet alia use add two ratio return result simplest form 
+return two member constant num den denot numer denomin 
+2 ratio_subtract templet alia use subtract two ratio return result simplest form 
+return two member constant num den denot numer denomin 
+subtract ratio2 ratio1 
+c code demonstr work ratio_add ratio_subtract includ iostream includ ratio ratio manipul use namespac std int main declar ratio typedef ratio 5 4 ratio1 typedef ratio 3 4 ratio2 sum two ratio typedef ratio_add ratio1 ratio2 sum subtract two ratio typedef ratio_subtract ratio1 ratio2 diff print sum ratio cout sum ratio cout sum num sum den cout endl print differ ratio cout differ ratio cout diff num diff den cout endl return 0 output sum ratio 2 1 differ ratio 1 2 3 ratio_multipli templet alia use multipli two ratio return result simplest form 
+return two member constant num den denot numer denomin 
+4 ratio_divid templet alia use divid two ratio return result simplest form 
+return two member constant num den denot numer denomin 
+divid ratio1 ratio2 
+c code demonstr work ratio_multipli ratio_divid includ iostream includ ratio ratio manipul use namespac std int main declar ratio typedef ratio 5 4 ratio1 typedef ratio 3 4 ratio2 multipli two ratio typedef ratio_multipli ratio1 ratio2 prod divid two ratio typedef ratio_divid ratio1 ratio2 div print product ratio cout product ratio cout prod num prod den cout endl print divis ratio cout divis ratio cout div num div den cout endl return 0 output product ratio 15 16 divis ratio 5 3 articl contribut manjeet singh 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

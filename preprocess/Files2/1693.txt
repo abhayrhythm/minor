@@ -1,0 +1,11 @@
+given two valu k1 k2 k1 k2 root pointer binari search tree 
+print key tree rang k1 k2 
+e 
+print x k1 x k2 x key given bst 
+print key increas order 
+exampl k1 10 k2 22 function print 12 20 22 thank bhasker suggest follow solut 
+algorithm 1 valu root key greater k1 recurs call left subtre 
+2 valu root key rang print root key 
+3 valu root key smaller k2 recurs call right subtre 
+implement c includ stdio h tree node structur struct node int data struct node left struct node right function print key given rang k1 k2 
+function assum k1 k2 void print struct node root int k1 int k2 base case null root return sinc desir p sort recurs left subtre first root data greater k1 get p key left subtre k1 root data print root left k1 k2 root data lie rang print root data k1 root data k2 root data printf root data root data smaller k2 get p key right subtre k2 root data print root right k1 k2 util function creat new binari tree node struct node newnod int data struct node temp new struct node temp data data temp left null temp right null return temp driver function test function int main struct node root new struct node int k1 10 k2 25 construct tree given figur root newnod 20 root left newnod 8 root right newnod 22 root left left newnod 4 root left right newnod 12 print root k1 k2 getchar return 0 

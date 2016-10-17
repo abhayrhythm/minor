@@ -1,0 +1,6 @@
+c static member function class cannot virtual 
+exampl program give compil error 
+includ iostream use namespac std class test public error virtual member function cannot static virtual static void fun also static member function cannot const volatil 
+follow code also fail compil 
+includ iostream use namespac std class test public error static member function cannot const static void fun const pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

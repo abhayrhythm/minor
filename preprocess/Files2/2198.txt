@@ -1,0 +1,35 @@
+given number x find next number number 1 bit binari represent 
+exampl consid x 12 whose binari represent 1100 exclud lead zero 32 bit machin 
+contain two logic 1 bit 
+next higher number two logic 1 bit 17 100012 
+algorithm observ binari sequenc 0 2n 1 n bit right bit least signific vari rapidli left bit 
+idea find right string 1 x shift pattern right extrem except left bit pattern 
+shift left bit pattern omit bit left part x one posit 
+exampl make clear x 156 10 x 10011100 2 10011100 00011100 right string 1 x 00000011 right shift pattern except left bit 00010000 isol left bit right 1 pattern 00100000 shiftleft ed isol bit one posit b 10000000 left part x exclud right 1 pattern c 10100000 add b c oper 10100011 add requir number 163 10 practic exampl easi understand 
+use given program gener set 
+program design need note fact binari number 
+express x x isol right set bit x ensur x use 2 complement form neg number 
+add result x right string 1 x reset immedi 0 left pattern 1 set part b explan 
+exampl x 156 x x result 00000100 ad result x yield 10100000 see part 
+left right shift part pattern 1 part explan 
+differ way achiev part right shift essenti divis oper 
+divisor 
+clearli multipl 2 avoid 0 5 error right shift shift right 1 pattern right extrem 
+express x x serv purpos divisor 
+ex oper number x express use reset right bit isol rightmost 1 pattern 
+correct factor note ad right set bit bit pattern 
+addit oper caus shift bit posit 
+weight binari system 2 one shift caus increas factor 2 sinc increas number rightonespattern code use twice error propag twice 
+error need correct 
+right shift 2 posit correct result 
+popular name program number one bit 
+includ iostream use namespac std typedef unsign int uint_t function return next higher number number set bit x uint_t snoob uint_t x uint_t righton uint_t nexthigheronebit uint_t rightonespattern uint_t next 0 x right set bit righton x sign x reset pattern set next higher bit left part x nexthigheronebit x righton nexthigheronebit part explan 
+isol pattern rightonespattern x nexthigheronebit right adjust pattern rightonespattern rightonespattern righton correct factor rightonespattern 2 rightonespattern part explan 
+integr new pattern add next nexthigheronebit rightonespattern return next int main int x 156 cout next higher number number set bit snoob x getchar return 0 usag find gener subset 
+variat write program find number immedi smaller given number logic 1 bit 
+pretti simpl count gener subset avail given set 
+refer nice present 
+hacker delight warren excel short book variou bit magic algorithm must enthusiast c refer manual harbison steel good book standard c access code part post 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

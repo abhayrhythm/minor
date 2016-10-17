@@ -1,0 +1,5 @@
+assum structur link list node follow 
+struct node int data struct node next explain function follow c function 
+1 follow function given link list 
+void fun1 struct node head head null return fun1 head next printf head data fun1 print given link list revers manner 
+link list 1 2 3 4 5 fun1 print 5 4 3 2 1 

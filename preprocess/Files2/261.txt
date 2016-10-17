@@ -1,0 +1,21 @@
+given integ x write c function return true binari represent x palindrom els return fals 
+exampl number binari represent 10 01 palindrom number binari represent 10 00 palindrom 
+idea similar check string palindrom 
+start leftmost rightmost bit compar bit one one 
+find mismatch return fals 
+strongli recommend click practic move solut 
+algorithm ispalindrom x 1 find number bit x use sizeof oper 
+2 initi left right posit 1 n respect 
+3 follow left l smaller right r 
+bit posit l bit posit r return fals 
+b increment l decrement r e l r 
+4 reach mean find mismatch bit 
+find bit given posit use idea similar post 
+express x 1 k 1 give us non zero valu bit k th posit right set give zero valu k th bit set 
+follow c implement algorithm 
+includ iostream use namespac std function return true k th bit x set 1 
+exampl x 0010 2 k 2 return true bool iskthbitset unsign int x unsign int k return x 1 k 1 
+true fals function return true binari represent x palindrom 
+exampl 1000 001 paldindrom bool ispalindrom unsign int x int l 1 initi left posit int r sizeof unsign int 8 initi right posit one one compar bit l r iskthbitset x l iskthbitset x r return fals l r return true driver program test function int main unsign int x 1 15 1 16 cout ispalindrom x endl x 1 31 1 cout ispalindrom x endl return 0 output 1 1 articl contribut saurabh gupta 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

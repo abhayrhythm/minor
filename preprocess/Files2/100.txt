@@ -1,0 +1,9 @@
+given set non neg integ valu sum determin subset given set sum equal given sum 
+exampl set 3 34 4 12 5 2 sum 9 output true subset 4 5 sum 9 strongli recommend click practic move solut 
+let issubsetsum int set int n int sum function find whether subset set sum equal sum 
+n number element set 
+issubsetsum problem divid two subproblem includ last element recur n n 1 sum sum set n 1 b exclud last element recur n n 1 
+subproblem return true return true 
+follow recurs formula issubsetsum problem 
+issubsetsum set n sum issubsetsum set n 1 sum issubsetsum set n 1 sum set n 1 base case issubsetsum set n sum fals sum 0 n 0 issubsetsum set n sum true sum 0 follow naiv recurs implement simpli follow recurs structur mention 
+c recurs solut subset sum problem includ stdio h return true subset set sun equal given sum bool issubsetsum int set int n int sum base case sum 0 return true n 0 sum 0 return fals last element greater sum ignor set n 1 sum return issubsetsum set n 1 sum els check sum obtain follow includ last element b exclud last element return issubsetsum set n 1 sum issubsetsum set n 1 sum set n 1 driver program test function int main int set 3 34 4 12 5 2 int sum 9 int n sizeof set sizeof set 0 issubsetsum set n sum true printf found subset given sum els printf subset given sum return 0 

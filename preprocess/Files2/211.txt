@@ -1,0 +1,10 @@
+given posit integ n count possibl distinct binari string length n consecut 1 
+exampl input n 2 output 3 3 string 00 01 10 input n 3 output 5 5 string 000 001 010 100 101 problem solv use dynam program 
+let number binari string length contain two consecut 1 end 0 similarli let b number string end 1 append either 0 1 string end 0 append 0 string end 1 yield recurr relat 1 b 1 b 1 base case recurr 1 b 1 1 total number string length b 
+follow implement solut 
+follow implement index start 0 repres number binari string input length 1 
+similarli b repres binari string input length 1 
+c c program count distinct binari string without two consecut 1 includ iostream use namespac std int countstr int n int n b n 0 b 0 1 int 1 n 1 b 1 b 1 return n 1 b n 1 driver program test function int main cout countstr 3 endl return 0 java class subset_sum static int countstr int n int new int n int b new int n 0 b 0 1 int 1 n 1 b 1 b 1 return n 1 b n 1 driver program test function public static void main string arg system println countstr 3 code contribut rajat mishra output 5 sourc cours csail mit edu 6 006 oldquizz solut q2 f2009 sol pdf take closer look pattern observ count actual n 2 th fibonacci number n 1 fibonacci number 0 1 1 2 3 5 8 13 21 34 55 89 141 
+n 1 count 2 fib 3 n 2 count 3 fib 4 n 3 count 5 fib 5 n 4 count 8 fib 6 n 5 count 13 fib 7 therefor count string log n time also use method 5 
+articl contribut rahul jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

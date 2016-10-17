@@ -1,0 +1,16 @@
+write c program find sum posit integ without use oper 
+use printf allow 
+librari function use 
+solut trick question 
+use printf find sum two number printf return number charact print 
+width field printf use find sum two number 
+use indic minimum width output 
+exampl statement printf width num specifi width substitut place num print within minimum width specifi 
+number digit num smaller specifi wodth output pad blank space 
+number digit output print truncat 
+follow program add return sum x print 2 space within width specifi use x total charact print equal sum x add return x 
+int add int x int return printf c c x int main printf sum add 3 4 return 0 output sum 7 output seven space follow sum 7 
+avoid lead space use carriag return 
+thank krazycod sandeep suggest 
+follow program print output without lead space 
+int add int x int return printf c c x r r int main printf sum add 3 4 return 0 output sum 7 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

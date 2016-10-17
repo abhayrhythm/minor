@@ -1,0 +1,11 @@
+definit void main never c even c see iso c standard 3 6 1 2 iso c standard 5 1 2 2 1 conform implement accept int main int main int argc char argv conform implement may provid version main must return type int 
+int return main way program return valu system invok 
+system provid facil return valu ignor make void main legal c legal c even compil accept void main avoid risk consid ignor c c programm 
+c main need contain explicit return statement 
+case valu return 0 mean success execut 
+exampl includ iostream int main std cout program return integ valu 0 n note also neither iso c c99 allow leav type declar 
+contrast c89 arm c int assum type miss declar 
+consequ includ iostream main error return type main miss 
+sourc http www stroustrup com bs_faq2 html void main summar never good idea use void main main confirm standard 
+may allow compil though 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

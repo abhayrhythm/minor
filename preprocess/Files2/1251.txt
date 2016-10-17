@@ -1,0 +1,17 @@
+given string elimin b ac string replac place allow iter string 
+sourc googl interview question exampl acbac aaac aa ababac aa bbbbd strongli recommend click practic move solut 
+two condit 1 filter b ac singl pass 2 extra space allow 
+approach use two index variabl j move forward string use add charact use index j except b ac 
+trick track c 
+interest approach use two state machin 
+state maintain two previou charact otherwis state one 
+1 state one copi current charact output one follow condit true current charact b need remov b b current charact next charact may c 2 state two current charact c first need make sure copi previou charact 
+check current charact current charact b copi output 
+c c program remov b ac input string includ iostream use namespac std defin one 1 defin two 2 main function remov occur bc input string void stringfilt char str state initi one previou charact int state one j index variabl use read next charact input string j use index output string modifi input string int j 0 process charact input string one one int 0 str 0 state one copi current charact output one follow condit true current charact b need remov b b current charact next charact may c state one str str b str j str j state two current charact c wise ignor previou current charact state two str c first copi previou str j j copi current charact b str str b str j str j chang state accord current charact state str 
+two one last charact copi output state two str j j set string termin str j 0 driver program check function int main char str1 ad stringfilt str1 cout str1 endl char str2 acbac stringfilt str2 cout str2 endl char str3 aaac stringfilt str3 cout str3 endl char str4 react stringfilt str4 cout str4 endl char str5 aa stringfilt str5 cout str5 endl char str6 ababaac stringfilt str6 cout str6 endl return 0 python python program remov b ac input string one 1 two 2 util function convert string list def tolist string l x string l append x return l util function convert list string def tostr l return join l main function remov occur bc input string def stringfilt string state initi one previou charact state one j index variabl use read next charact input string j use index output string modifi input string j 0 process charact input string one one xrang len string state one copi current charact output one follow condit true current charact b need remov b b current charact next charact may c state one string string b string j string j 1 state two current charact c wise ignor previou current charact state two string c first copi previou string j j 1 copi current charact b string string b string j string j 1 chang state accord current charact state two string els one last charact copi output state two string j j 1 return tostr string j driver program string1 stringfilt tolist ad print string1 string2 stringfilt tolist acbac print string2 string3 stringfilt tolist aaac print string3 string4 stringfilt tolist react print string4 string5 stringfilt tolist aa print string5 string6 stringfilt tolist ababaac print string6 code contribut bhavya jain output ad aa ret aa aaa extens problem want ac output code look fine seem handl case input string aacacc code produc output ac look correct remov consecut occurr c 
+requir ac output string 
+modifi program produc output empti string input aacacc produc output input abcaaccd 
+turn also done given restrict 
+idea simpl 
+need add follow line insid loop program 
+j 1 str j 2 str j 1 c j j 2 see differ test case modifi program 

@@ -1,0 +1,28 @@
+discuss overlap subproblem optim substructur properti set 1 set 2 respect 
+also discuss one exampl problem set 3 let us discuss longest common subsequ lc problem one exampl problem solv use dynam program 
+lc problem statement given two sequenc find length longest subsequ present 
+subsequ sequenc appear rel order necessarili contigu 
+exampl abc abg bdf aeg acefg etc subsequ abcdefg 
+string length n 2 n differ possibl subsequ 
+classic comput scienc problem basi diff file comparison program output differ two file applic bioinformat 
+exampl lc input sequenc abcdgh aedfhr adh length 3 lc input sequenc aggtab gxtxayb gtab length 4 strongli recommend click practic move solut 
+naiv solut problem gener subsequ given sequenc find longest match subsequ 
+solut exponenti term time complex 
+let us see problem possess import properti dynam program dp problem 
+1 optim substructur let input sequenc x 0 1 0 n 1 length n respect 
+let l x 0 1 0 n 1 length lc two sequenc x follow recurs definit l x 0 1 0 n 1 
+last charact sequenc match x 1 n 1 l x 0 1 0 n 1 1 l x 0 2 0 n 2 last charact sequenc match x 1 n 1 l x 0 1 0 n 1 max l x 0 2 0 n 1 l x 0 1 0 n 2 exampl 1 consid input string aggtab gxtxayb 
+last charact match string 
+length lc written l aggtab gxtxayb 1 l aggta gxtxay 2 consid input string abcdgh aedfhr 
+last charact match string 
+length lc written l abcdgh aedfhr max l abcdg aedfhr l abcdgh aedfh lc problem optim substructur properti main problem solv use solut subproblem 
+2 overlap subproblem follow simpl recurs implement lc problem 
+implement simpli follow recurs structur mention 
+c c naiv recurs implement lc problem includ bit stdc h int max int int b return length lc x 0 1 0 n 1 int lc char x char int int n 0 n 0 return 0 x 1 n 1 return 1 lc x 1 n 1 els return max lc x n 1 lc x 1 n util function get max 2 integ int max int int b return b 
+b driver program test function int main char x aggtab char gxtxayb int strlen x int n strlen printf length lc n lc x n return 0 python naiv recurs python implement lc problem def lc x n 0 n 0 return 0 elif x 1 n 1 return 1 lc x 1 n 1 els return max lc x n 1 lc x 1 n driver program test function x aggtab gxtxayb print length lc lc x len x len output length lc 4 time complex naiv recurs approach 2 n worst case worst case happen charact x mismatch e length lc 0 consid implement follow partial recurs tree input string axyt ayzx lc axyt ayzx lc axi ayzx lc axyt ayz lc ax ayzx lc axi ayz lc axi ayz lc axyt ay partial recurs tree lc axi ayz solv twice 
+draw complet recurs tree see mani subproblem solv 
+problem overlap substructur properti recomput subproblem avoid either use memoiz tabul 
+follow tabul implement lc problem 
+c c dynam program c c implement lc problem includ bit stdc h int max int int b return length lc x 0 1 0 n 1 int lc char x char int int n int l 1 n 1 int j follow step build l 1 n 1 bottom fashion 
+note l j contain length lc x 0 1 0 j 1 0 j 0 j n j 0 j 0 l j 0 els x 1 j 1 l j l 1 j 1 1 els l j max l 1 j l j 1 l n contain length lc x 0 n 1 0 1 return l n util function get max 2 integ int max int int b return b 
+b driver program test function int main char x aggtab char gxtxayb int strlen x int n strlen printf length lc n lc x n return 0 python dynam program implement lc problem def lc x find length string len x n len declar array store dp valu l none n 1 xrang 1 follow step build l 1 n 1 bottom fashion note l j contain length lc x 0 1 0 j 1 rang 1 j rang n 1 0 j 0 l j 0 elif x 1 j 1 l j l 1 j 1 1 els l j max l 1 j l j 1 l n contain length lc x 0 n 1 0 1 return l n end function lc driver program test function x aggtab gxtxayb print length lc lc x code contribut nikhil kumar singh nickzuck_007 time complex implement mn much better worst case time complex naiv recurs implement 

@@ -1,0 +1,16 @@
+given array integ replac everi element next greatest element greatest element right side array 
+sinc element next last element replac 1 exampl array 16 17 4 3 5 2 modifi 17 5 5 5 2 1 
+strongli recommend click practic move solut 
+question similar post solut also similar 
+naiv method run two loop 
+outer loop one one pick array element left right 
+inner loop find greatest element present pick element 
+final outer loop replac pick element greatest element found inner loop 
+time complex method n n 
+tricki method replac element use one travers array 
+idea start rightmost element move left side one one keep track maximum element 
+replac everi element maximum element 
+c c c program replac everi element greatest element right side includ stdio h function replac everi element next greatest element void nextgreatest int arr int size initi next greatest element int max_from_right arr size 1 next greatest element rightmost element alway 1 arr size 1 1 replac element next greatest int size 2 0 store current element need later updat next greatest element int temp arr replac current element next greatest arr max_from_right updat greatest element need max_from_right temp max_from_right temp util function print array void printarray int arr int size int 0 size printf arr printf n driver program test function int main int arr 16 17 4 3 5 2 int size sizeof arr sizeof arr 0 nextgreatest arr size printf modifi array n printarray arr size return 0 java java program replac everi element greatest element right side import java io 
+class nextgreatest function replac everi element next greatest element static void nextgreatest int arr int size arr length initi next greatest element int max_from_right arr size 1 next greatest element rightmost element alway 1 arr size 1 1 replac element next greatest int size 2 0 store current element need later updat next greatest element int temp arr replac current element next greatest arr max_from_right updat greatest element need max_from_right temp max_from_right temp util function print array static void printarray int arr int 0 arr length system print arr public static void main string arg int arr 16 17 4 3 5 2 nextgreatest arr system println modifi array printarray arr code contribut devesh agraw python python program replac everi element greatest element right side function replac everi element next greatest element def nextgreatest arr size len arr initi next greatest element max_from_right arr size 1 next greatest element rightmost element alway 1 arr size 1 1 replac element next greatest rang size 2 1 1 store current element need later updat next greatest element temp arr replac current element next greatest arr max_from_right updat greatest element need max_from_right temp max_from_right temp util function print array def printarray arr rang 0 len arr print arr driver function test function arr 16 17 4 3 5 2 nextgreatest arr print modifi array printarray arr code contribut devesh agraw output modifi array 17 5 5 5 2 1 time complex n n number element array 
+pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

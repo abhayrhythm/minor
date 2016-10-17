@@ -1,0 +1,13 @@
+follow c program print 1 100 without loop without recurs 
+includ iostream use namespac std templat int n class printoneton public static void print printoneton n 1 print note recurs cout n endl templat class printoneton 1 public static void print cout 1 endl int main const int n 100 printoneton n print return 0 output 1 2 3 98 99 100 program print number 1 n without use loop recurs 
+concept use program templat metaprogram 
+let us see work 
+templat c allow non datatyp also paramet 
+non datatyp mean valu datatyp 
+exampl program n pass valu datatyp 
+new instanc gener class creat everi paramet class creat compil time 
+program compil see statement printoneton print n 100 creat instanc printoneton 100 
+function printoneton 100 print anoth function printoneton 99 print call therefor instanc printoneton 99 creat 
+similarli instanc printoneton 100 printoneton 2 creat 
+printoneton 1 print alreadi print 1 function printoneton 2 print 2 
+therefor get number 1 n print screen 

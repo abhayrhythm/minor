@@ -1,0 +1,39 @@
+round 0 written 20 mcq 2 code question mcq topic os page fault wait time rr schedul page semaphor etc 
+ds hash simpl chain base numer aptitud 1 probabl question puzzl 1 question c 2 question etc 
+code question given list n string group anagram togeth exampl p cat act pat mad dog god p cat act pat mad dog god given binari squar matrix size n find size largest region e 
+find region connect one horizont diagon vertic exampl p 0 1 0 0 1 1 1 0 0 0 1 0 1 0 0 0 p 5 day 2 interview round round 1 technic interview 1 hr 
+approx 
+interview start interview tell much time ask question data structur algorithm need tell approach 
+revers link list 
+gave two approach one use stack one use pointer place 
+print top view binari tree 
+well simpl question know start use df approach pre order travers tri use pre order gave test case fail 
+tri differ approach within pre order found issu one test case also use hashmap keep track node print 
+ask without auxiliari storag 
+tri level order approach w auxiliari hashmap work fine test case 
+satisfi approach ask write product level code 
+round 2 technic interview 45min 
+approx 
+interview introduc briefli ask introduc 
+follow question introduct although hope someth project compani p 
+find kth max occur element array 
+use hashmap heap solv question 
+time n logn dp question http www geeksforgeek org print maximum number use given four key round 3 technic interview 45 min 
+approx 
+interview introduc briefli ask introduc 
+follow question introduct 
+gave string base question ask knew alreadi ask come approach 
+given string find repeat substr maximum length 
+exampl p 1 banana p 1 ana p 2 indiaindianttindiaindia p 2 india india thought use kmp complex high approach 
+tri use longest common substr see pattern way solv use lc found approach told interview happi approach 
+round 4 technic interview 25min 
+approx 
+short round last round 
+one question given infinit integ number line find minimum step requir reach particular point 
+0 start point ith step move step current posit 
+tri use tree realis dp problem told approach complex dp bf get minimum step satisfi approach 
+best thank geeksforgeek materi help lot prepar 
+keep 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

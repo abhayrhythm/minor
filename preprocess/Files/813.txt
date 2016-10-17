@@ -1,0 +1,161 @@
+
+What is SRS?
+A software requirements specification (SRS) is a description of a software system to be developed. It lays out functional and non-functional requirements, and may include a set of use cases that describe user interactions that the software must provide.
+Why SRS?
+In order to fully understand one’s project, it is very important that they come up with a SRS listing out their requirements, how are they going to meet it and how will they complete the project. It helps the team to save upon their time as they are able to comprehend how are going to go about the project. Doing this also enables the team to find out about the limitations and risks early on.
+The following is a sample SRS that I wrote for one of my project.
+Project Plan:  MeetUrMate
+1. Introduction
+This document lays out a project plan for the development of “MeetUrMate” open source repository system by Anurag Mishra.
+The intended readers of this document are current and future developers working on “MeetUrMate” and the sponsors of the project. The plan will include, but is not restricted to, a summary of the system functionality, the scope of the project from the perspective of the “MeetUrMate” team (me and my mentors), scheduling and delivery estimates, project risks and how those risks will be mitigated, the process by which I will develop the project, and metrics and measurements that will be recorded throughout the project.
+2. Overview
+In today’s world, owning to the heavy workload on the employees, they are having huge amount of stress in their lives. Even with the presence of so many gadgets in and around them, they are not able to relieve their stress. I aim to develop an application that would enable them to share the thing of their liking and meet the person who have the same passion as theirs. For eg. If someone wants to share their art, they can share it through the platform, if someone wants to sing any song, they can record it and share the same. They can also share videos (with some funny commentary in the background), share mysteries which other people can solve, post any question. Through my platform, I’ll enable them to meet people who share the common interests and passion, chat with them and have some fun.
+2.1 Customers
+Everyone. Anyone can use this application ranging from a child to an old-age person.
+2.2 Functionality
+
+Users should be able to register through their already existing accounts.
+They should be able to share snaps/videos/snaps.
+People should be able to like and comment on any post. One person can follow another person who share common interests and likings which would enable them to find mates apart from their usual friend circle.
+Each user can have his/her profile picture, status
+People can post mysteries and other people can solve the mysteries.
+Users will get points for the popularity of their posts/the number of mysteries they solve.
+Add own funny commentary on any video
+Post any questions regarding their interests and people can answer.
+
+P.S.  Italic points features can be inculcated later.
+2.3 Platform
+It will be launched both as a Web-based application and Mobile app for Android.
+2.4 Development Responsibility
+I, Anurag Mishra, would be developing the software and I am responsible for the creation of the Database and all the other related stuffs.
+3. Goals and Scopes
+
+Users should be able to register through their already existing accounts.
+They should be able to share snaps/videos/snaps.
+People should be able to like and comment on any post.
+One person can follow another person who share common interests and likings which would enable them to find mates apart from their usual friend circle.
+Each user can have his/her profile picture, status.
+People can post mysteries and other people can solve the mysteries.
+Users will get points for the popularity of their posts/the number of mysteries they solve.
+
+4. Deliverables
+I’ll deliver the following during the course of development:
+
+Feature specification
+Product design
+Test plan
+Development document
+Source code
+
+5. Risk Management
+5.1 Risk Identification
+Following will be the risk involved in my project:
+1) People are already using Facebook to find friends. So, what would be the real cause that would motivate them to join my application.
+5.2 Risk Mitigation
+Even though most of the users would already be using Facebook, our platform would still offer them many things that is not there on Facebook. For eg.
+
+They don’t meet people who share common interests and passions as much. Our application would enable them to meet people (apart from usual friends) who share common interests and passions on a more frequent basis.
+Users of fb cannot share songs on-the-go which they have sung whereas on our app they can do that on-the-go.
+People can post mysteries/cases and other people can solve it. Moreover, people will get points in case they solve the mysteries or on the basis of popularity of their posts.
+More importantly, people need not register for my application, but instead, they can login using their already existing accounts of Google/Facebook.
+
+Thus, I think that there is a considerable amount of difference between Facebook/Instagram/Twitter and my application and it would attract many people.
+6. Scheduling and Estimates
+
+
+
+Milestone
+Description
+Release Date
+Release
+
+
+ 
+
+
+Iteration
+
+
+M1
+Application view and Design
+October 5, 2015
+R1
+
+
+
+(Front-end development)
+
+
+
+
+M2
+Database for my application
+October 17, 2015
+R1
+
+
+
+(Back-end)
+
+
+
+
+M3
+Integrating views and designs
+November 12, 2015
+R1
+
+
+
+(Integrating front-end and
+
+
+
+
+
+back-end)
+
+
+
+
+M4
+Testing for initial release
+November 20, 20015
+R2
+
+
+M5
+Issue tracker, user reviews,
+December 1, 2015
+R2
+
+
+
+web design integration
+
+
+
+
+M6
+Final release
+December 23, 2015
+R2
+
+
+
+7. Technical Process
+Following would be the languages I would use to develop my application within the stipulated time period:
+Front-end development: Jquery, HTML, CSS, PHP.
+Back-end development: PHP, MySQL.
+For Android app: Java on Android SDK.
+The blog is contributed by Anurag Mishra.
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,176 @@
+implement vector space document retriev system mark greenwood dept
+comput scienc univers sheffield regent court 211 portobello st sheffield
+s1 4dp
+uk greenwood dc shef ac uk electron copi resourc avail http www dc shef ac uk mark follow phd link abstract paper describ implement vector space document retriev system evalu system use cacm document collect
+system evalu use tradit techniqu e
+precis recal curv modern techniqu found way peopl use internet search engin
+evalu method clearli show retriev system make use stem stop word remov superior
+also algorithm rank document success simpli use term frequenc
+flaw origin implement system lead queri word count multipl time also evalu promis result
+show vector space model tradit form necessarili best document retriev techniqu current avail
+tfidf 1
+introduct rapid growth avail electron document vast amount work gone develop document retriev system
+origin system develop work within librari document collect e
+book journal articl etc rel small
+time howev inform need chang point frequent want retriev relev document world wide web clearli two situat consider differ
+problem retriev relev document larg document collect approach use mani differ algorithm
+three classic model use inform retriev algorithm loos group call boolean vector probabilist 1
+similar fashion varieti way evalu effect document retriev system histor recal precis although measur effect seem quit relev today world internet 3
+paper describ specif implement inform retriev system base upon vector space model
+final system highli configur allow us observ chang model affect relev retriev document
+due error origin implement interest configur system avail although configur mean retriev algorithm longer vector space model tradit sens
+retriev system implement perl use made built regular express make pars document especi cacm collect simpl
+inform perl see 6
+inform inform retriev model algorithm see 1 2
+2 document collect mani differ document collect avail use kind research
+unfortun far best way evalu inform retriev system use document collect contain document also queri relev judgement
+prepar set queri relev judgement time consum task therefor collect often rel small much harder find
+two collect exist cacm collect cystic fibrosi collect 5
+howev small consist thousand document compar modern text collect use trec trec 9 confer document collect question answer track consist 979 000 document 4
+decid sinc cacm collect use evalu ir system long time studi would continu tradit henc result gener studi would compar previou work carri use collect
+collect consist 3204 document suppli 64 natur languag queri judgement e
+document relev queri œ interestingli 12 queri relev document collect
+3 index document collect 3 1 index document cacm collect clearli split numer section includ titl author abstract keyword citat
+decid studi index titl author abstract avail keyword index seem instanc add new word index would clearli increas time requir process document collect
+3 2 data structur state introduct ir system implement perl extens use hash data type made store manipul index
+show data structur creat index process document collect
+figur 3 1figur 3 1 data structur construct index wordsdocu referenceidword countidword countidword count1214531071531todaycomputerdeveop data structur easi construct index also made clear later benefici implement queri softwar
+type data structur known word level invert index 2
+index built use code implement follow pseudo algorithm readinalineatatimefromthefilecontainingthedocumentcollect untilanentiredocumenthasbeenreadin splitthedocumentintotoken removeanystopwordspres iftheuserhasrequest andstemtheresultingtoken iftheuserhasrequest foreachtokeninthedocumentgetareferencetothehashofdocu wordcountsforthiswordifthehashexiststhenthiswordhasbeenseenbeforesogetthewordcountforthecurrentdocu forthiswordifthisexistsaddonetoitandputitbackinthehashelsesetthecountto1andstoreitagainstthisdocumentinthedocumentœwordcounthashelsestoreareferencetoananonymoushashcontainingthisdocumentandacountof1againstthiswordintheindexstorethelengthofthedocumentintermsaswewillneedthisaswellrepeatuntiltherearenomoredocumentspseudo code 3 1 index algorithm see algorithm clearli build data structur describ
+store refer hash document word count within hash index word
+3 3 configur index index configur use two differ command line switch
+standard oper index store everi word index found document
+clearli word document irrelev retriev inform word etc
+word known stop word remov document index reduc size index also time requir queri
+cacm collect come suppli stop word list
+implement make use list œw command line switch suppli index
+option configur index involv stem word index
+perl implement porter stemmer use
+clearli stemmer never go work 100 reliabl issu long word collect queri stem use stemmer
+use stem produc index program given œs command line argument
+clearli remov stop word stem combin produc index mean four differ combin index gener standard stop word remov word stem stop word remov word stem four gener use studi
+detail command line switch run index found readm txt file suppli system
+4 queri document collect 4 1 vector space model vector space model document retriev base upon build n dimension vector queri document collect
+full non optimis model caus n equal number word languag wherea realiti n usual equal number differ word document collect word queri import appear document use retriev
+follow exampl vector document taken page 182 2 languag contain 10 word e
+ten uniqu word collect d1 1 0 0 1 0 0 0 2 2 0 element vector frequenc occurr word within document exampl word 1 appear document wherea word 9 appear twice
+queri vector slightli differ presenc word indic 1 0 respect count word record
+find relev document use model involv gener vector queri document collect rank document similar queri
+usual express differ direct queri vector document vector shown figur
+qd1d2 figur 4 1 differ direct two document vector queri vector usual state cosin rule see 2 fuller explan equat
+equat 4 1equat 4 1 cosin rule vector space model 1 1loglogddedttqddqtncosineqdfwwf 1e equat contain mani variabl may initi clear describ
+rare implement full reason effici
+section 4 3 detail studi implement vector space model
+tabl 4 1tabl 4 1 explan variabl equat 4 1equat 4 1variabl descript q vector repres queri dd vector repres document wd weight document wq weight queri q current term fd frequenc term within document ft number document contain term n number document within collect 4 2 data structur queri engin start read index file use creat data structur outlin section 3 2 queri read analys produc data structur shown
+figur 4 2figur 4 2 data structur gener queri doc idword countreferencewordnumword countwordnumword countwordnumword count12121210715311515 structur document base rather word base easi construct queri word index
+pseudo code gener structur queri given
+pseudo code 4 1it seen data structur use queri algorithm build structur index store way easili allow algorithm build data structur
+also combin index queri structur contain data requir rank document use tf rank algorithm
+tfidf readinalineatatimefromthefilecontainingthequeri untilanentirequeryhasbeenreadin splitthequeryintotoken removeanystopwordspres iftheuserhasrequest andstemtheresultingtoken iftheuserhasrequest foreachtokeninthequerygetthedocumentswhichcontainthistokenfromtheindexstorethenumberofdocumentsreturnedforuseincalculatingidflaterforeachdocumentwhichcontainsthistokenifwehaveseenthisdocumentbeforeforthisquerythenupdatethehashtableofword countsforthisdocumentandaddingthisword andthecountforthisdocumentelsecreateanewhashtableandstoreinitthetokenandthecountforthisdocu thenstoreagainstthedocumentinahashtablepseudo code 4 1 code gener data structur given fi gure 4 24 3 implement vector space model implement vector space model requir use two equat calcul term frequenc tf invers document frequenc idf
+term frequenc relat often specif term appear within document calcul independ length document
+equat use studi calcul tf given
+log1tflogeetl equat 4 2 equat use calcul tf equat frequenc term within document l length document term
+term frequenc increas 1 valu 0 produc equat
+exampl two document ten term length includ word algorithm although second document contain twice first tf1 0 30 tf2 0 48 clearli show document contain term frequent regard document length occur higher rank
+idf measur frequent current term across entir document collect
+equat use calcul idf studi given
+idflogenn equat 4 3 equat use calcul idf equat n number document collect n number document contain current term
+exampl two word algorithm evalu document collect 10 document algorithm appear one document evalu five idfalgorithm 2 30 idfevalu 0 69 clearli show term occur document rate higher commonli occur word
+two rank algorithm use studi tf
+use tf lead crude rank algorithm make real attempt implement
+use although may appear first glanc implement cosin equat given section 4 1 tfidf tfidf equat 4 1for singl term tf defin simplifi
+idf equat 4 4equat 4 4 reformul tfidf log1loglog1tfidflogloglogeeeenttnnlnl still generalis token queri document combin get
+equat 4 1equat 4 4equat 4 5equat 4 5 multipl token version tfidf log1log1tfidf log1logloglogeeeewqdwqdntnnqdtl n clear see proport cosin q dd log l document weight wd w term queri document wq omit constant given queri
+equat given use implement system calcul
+tfidf 1tfidf log1loglogeewqdnqdtln equat 4 6 equat use implement tfidf 4 4
+configur queri engin queri engin configur work multipl way
+firstli command line switch avail queri engin index e
+stop word remov stem work way index see section 3 3 detail option
+option avail configur queri engin follow
+one obviou configur mani relev document system return
+specifi number document simpli specifi œd switch follow requir number document
+specifi mani document return default return top ten document much like modern internet search engin
+mention section 4 3 two rank algorithm use tf tf
+default use best perform algorithm howev use tf simpli suppli œt command line switch
+idf tfidf final way configur queri engin specifi œm command line switch
+option mean vector space model longer implement properli vector use repres queri contain multipl instanc word e
+length vector longer number word languag
+exampl word algorithm appear twice queri frequenc word document use twice rank document
+option origin implement mistak code actual observ produc good result illustr section 5 retain configur option
+5 evalu result 5 1 brief descript evalu system system use combin configur option produc system evalu suppli queri abl rank order retriev perform
+system name use four lower case letter
+code scheme use name system shown
+tabl 5 1tabl 5 1 descript system name scheme symbol descript tf rank algorithm use idf tf rank algorithm multipl instanc word allow queri stem use prior process w stop word remov prior process exampl consid two system allow multipl word use stem stop word remov henc differ rank algorithm would name imsw tmsw tf respect
+code scheme use extens throughout follow section
+tfidf 5 2
+tradit evalu method common way describ retriev perform calcul mani relev document retriev earli rank listed1
+lead follow definit precis pr rank method cut point r fraction top rank document relev queri number retriev relevanttot number retrievedrp equat 5 1 equat use calcul precis contrast recal rr method valu r proport total number relev document retriev top r number relev retrievedtot number relevantrr equat 5 2 equat use calcul recal exampl document collect consist 100 document 10 relev queri retriev top 15 rank document contain 5 relev document 15number retriev relevant51tot number retrieved153p 15number relev retrieved51tot number relevant102r sinc recal non decreas function rank precis regard function recal rather rank
+relationship formal diagram known recal precis curv plot precis function recal valu precis recal graph interpol valu taken differ valu r
+plot precis recal curv differ algorithm graph allow easili rank algorithm one curv complet anoth better algorithm
+unfortun rare happen curv usual intersect mani time
+combin evalu studi plot precis recal curve2 clear combin use stem stop word remov superior without
+graph show combin clutter display fi show precis recal curv four combin use stem stop word remov calcul retriev top 100 relev document
+gure 5 1a easili see precis recal curv system use tf rank algorithm clearli outperform system use tf algorithm
+interestingli howev system allow multipl instanc word queri weight word import queri manag outperform tradit vector space model word use although perform differ small
+idf 1 definit precis recal precis recal curv section taken great descript found 2
+2 precis recal valu calcul use perl evalu script provid r gaizauska part materi prepar 3
+00 10 20 30 40 50 60 70 80 900 10 20 30 40 50 60 70 80 91recallprecisiontmswiswimswtsw figur 5 1 precis recal curv system use stem stop word remov 00 10 20 30 40 50 60 70 80 900 10 20 30 40 50 60 70 80 91recallprecisionimswt figur 5 2 precis recal curv show best worst perform system precis recal graph show best worst perform system figur use run top 100 document retriev
+clearli seen graph vast differ perform system
+5 3 internet style evalu method although evalu measur use previou section tradit well found method evalu document retriev system would say date 3
+reason precis recal may longer adequ measur effect due way inform need societi chang recent year especi rapid growth internet
+work first start document retriev system design work librari set user would want know everi book relev area interest
+precis recal good measur good system find relev document within collect book librari need chang situat document retriev system use
+current peopl instantli think internet search engin hear phrase document retriev would cours right
+internet search engin work across vast document collect rank return relev document much way older librari system
+fundament chang way user use result search engin
+user want scroll page page look top 100 relev document would rather find one document relev answer queri
+therefor relev document must appear top ten search engin usual display ten document per page user instantli see document appear relev
+googl com search engin taken one step feel lucki method searching3
+method instead display tradit set result simpli take user highest rank document
+clearli impli user quit happi singl relev document real use even top x relev document
+need newer evalu measur allow system rank accord well work search engin like fashion
+follow introduc two search engin evalu method posit answer
+posit simpli posit first relev document rank
+clearli lower posit valu better system
+answer hand percentag queri relev document relev document return top ten e
+document return answer queri
+measur automat associ perform good internet search engin
+figur 5 3figur 5 3 averag posit first relev document show averag posit valu differ system evalu result calcul posit within top 100 document
+024681012iisiwiswimimsimwimswttstwtswtmtmstmwtmswsystem typeaverag posit clearli seen system use tfrank algorithm produc much better result best system averag return relev document posit 2 rank list
+compar system use tf algorithm best system return document high posit 6 wors lowest perform tf system
+worst result clearli system averag return document posit 11 would first page result return search engin
+idf idf f show result answer measur system evalu
+clear see system use rank algorithm outperform reli tf algorithm
+fact system get 90 two system reach 98 correspond provid relev document top ten 51 52 queri
+examin queri answer systemsigur 5 4 tfidf tfidf 4 show document consist short titl abstract queri quit 3 go http www googl com click feel lucki button instead googl search button tri featur
+4 queri number 22 cacm collect first relev document return imsw system posit number 26 long henc lot irrelev word queri match would influenc retriev relev document
+0 10 20 30 40 50 60 70 80 90 100 iisiwiswimimsimwimswttstwtswtmtmstmwtmswsystem typepercentag answer figur 5 4 percentag queri contain relev document first ten return new measur best perform system isw imsw perform equal well show use word weight queri provid œm command line switch may use boost retriev perform initi suggest tradit evalu method
+6 futur work main thrust futur work area probabl concern work weight individu word within queri
+studi alreadi shown wait term appear often queri higher word produc better precis recal figur treat word queri equal vector space model choos
+weight queri word could base frequenc could involv mayb use part speech inform weight word weight word determin lower noun verb
+anoth area work could look exactli token gener plain text document
+system implement studi simpli break text white space remov punctuat begin end token
+exampl ﬁpart speechﬂ treat three separ token system wherea ﬁpart speechﬂ treat one token system never treat anyway like retriev purpos even though would assum mean
+import area futur work would generalis index document collect could index
+would allow bigger document collect use combin collect queri etc
+research carri see perform document retriev system depend upon size collect oper
+7 conclus best perform document retriev system imsw system interest implement pure vector space model rather weight term within queri base frequenc occurr within queri
+although small perform advantag achiev evalu tradit evalu approach precis recal curv enough increas warrant futur work area
+evalu new internet search engin style evalu method imsw isw perform equal well show weight queri word may import modern retriev would tradit retriev system
+worst system evalu understand use poor rank algorithm term frequenc none improv use system stem stop word remov
+8 refer 1 r baeza yate b ribeiro neto
+modern inform retriev
+addison wesley 1999
+2 witten moffat bell
+manag gigabyt 2nd edit
+morgan kaufmann publish 1999
+3 r gaizauska l guthri
+text process lectur note
+present univ siti sheffield 2001 4 e voorhe
+overview trec 9 question answer track
+avail http trec nist gov pub trec9 paper qa_overview pdf 5 shaw j wood r wood h tibbo
+cystic fibrosi databas content research opportun
+lisr 13 pp
+347 366 1991 collect availa ble http www dcc ufmg br irbook cfc html 6 l wall christiansen j orwant
+program perl 3rd edit
+reilli associ inc 2000

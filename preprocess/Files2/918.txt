@@ -1,0 +1,6 @@
+c c initi multidimension array left dimens option 
+except left dimens dimens must specifi 
+exampl follow program fail compil two dimens specifi 
+includ stdio h int main int 2 1 2 3 4 5 6 7 8 error printf sizeof getchar return 0 follow 2 program work without error 
+program 1 includ stdio h int main int 2 1 2 3 4 work printf sizeof print 4 sizeof int getchar return 0 program 2 includ stdio h int main int 2 2 1 2 3 4 5 6 7 8 work printf sizeof print 8 sizeof int getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

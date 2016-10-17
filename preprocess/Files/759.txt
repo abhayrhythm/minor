@@ -1,0 +1,84 @@
+
+Algebra questions basically involve modeling word problems into equations and then solving them. Some of the very basic formulae that come handy while solving algebra questions are : 
+
+(a + b) 2 = a 2 + b 2 + 2 a b
+(a – b) 2 = a 2 + b 2 – 2 a b
+(a + b) 2 – (a – b) 2 = 4 a b
+(a + b) 2 + (a – b) 2 = 2 (a 2 + b 2 )
+(a2 – b2 ) = (a + b) (a – b)
+(a + b + c) 2 = a 2 + b 2 + c 2 + 2 (a b + b c + c a)
+(a 3 + b 3 ) = (a + b) (a 2 – a b + b 2 )
+(a 3 – b 3 ) = (a – b) (a 2 + a b + b 2 )
+(a3 + b3 + c3 – 3 a b c) = (a + b + c) (a2 + b2 + c2 – a b – b c – c a)
+If a + b + c = 0, then a3 + b3 + c3 = 3 a b c
+For a quadratic equation ax2 + bx + c = 0, 
+
+Sample Problems
+Question 1 : A number is as much greater than 46 as is less than 78. Find the number.
+Solution : In these type of questions, we simply add the two given numbers and divide it by 2 so as to obtain the required number.
+So, required number = (46 + 78) / 2 = 124 / 2 = 62
+ 
+Long Method :
+Let the required number be ‘n’.
+=> n – 46 = 78 – n
+=> 2 n = 46 + 78
+=> 2 n = 124
+=> n = 62
+Thus, the required number is 62.
+ 
+Question 2 : Find a number such that when 55 is subtracted from 4 times the number, the result is 5 more than twice the number.
+Solution : Let the required number be ‘n’.
+=> 4 n – 55 = 2 n + 5
+=> 2 n = 60
+=> n = 30
+Thus, 30 is the required number.
+ 
+Question 3 : The sum of a number and its reciprocal is 41 / 20. Find the number.
+Solution : Let the number be ‘n’.
+=> n + (1/n) = 41 / 20
+=> 20 (n2 + 1) = 41 n
+=> 20 n2 – 41 n + 20 = 0
+=> 20 n2 – 16 n – 25 n + 20 = 0
+=> (5 n – 4) (4 n – 5) = 0
+=> n = 4/5 or 5/4
+Thus, the required number is 4/5 or 5/4
+ 
+Question 4 : The sum of two numbers is 132. If one-third of the smaller exceeds one-sixth of the larger by 8, find the numbers.
+Solution : Let the two numbers be ‘x’ an ‘y’ such that x > y.
+=> x + y = 132 and (y/3) = (x/6) + 8
+=> x + y = 132 and 2 y – x = 48
+=> x = 72 and y = 60
+ 
+Question 5 : The sum of two numbers is 24 and their product is 128. Find the absolute difference of numbers.
+Solution : Let the numbers be ‘x’ and ‘y’.
+=> x + y = 24 and x y = 128
+Here, we need to apply the formula (x + y) 2 – (x – y) 2 = 4xy
+=> (24)2 – (x – y) 2 = 4 x (128)
+=> (x – y) 2 = (24)2 – 4 x (128)
+=> (x – y) 2 = 576 – 512
+=> (x – y) 2 = 64
+=> |x – y| = 8
+Therefore, absolute difference of the two numbers = 8
+ 
+Question 6 : The sum of a two digit number ‘n’ and the number obtained by interchanging digits of n is 88. The difference of the digits of ‘n’ is 4, with the tens place being larger than the units place. Find the number ‘n’.
+Solution : Let the number be ‘xy’, where x and y are single digits.
+=> The number is 10x + y
+=> Reciprocal of the number = yx = 10y + x
+=> Sum  = 11 x + 11 y = 11 (x + y) = 88 (given)
+=> x + y = 8
+Also, we are given that the difference of the digits is 4 and x > y.
+=> x – y = 4
+Therefore, x = 6 and y = 2
+Thus, the number is 62.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

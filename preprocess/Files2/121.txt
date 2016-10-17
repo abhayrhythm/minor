@@ -1,0 +1,29 @@
+vertex cover undirect graph subset vertic everi edg u v graph either u v vertex cover 
+although name vertex cover set cover edg given graph 
+problem find minimum size vertex cover graph np complet 
+solv polynomi time tree 
+post solut binari tree discuss 
+solut extend n ari tree 
+exampl consid follow binari tree 
+smallest vertex cover 20 50 30 size vertex cover 3 idea consid follow two possibl root recurs node root 
+1 root part vertex cover case root cover children edg 
+recurs calcul size vertex cover left right subtre add 1 result root 
+2 root part vertex cover case children root must includ vertex cover cover root children edg 
+recurs calcul size vertex cover grandchildren number children result two children root 
+c implement idea 
+naiv recurs c implement vertex cover problem tree includ stdio h includ stdlib h util function find min two integ int min int x int return x 
+x binari tree node data pointer left child pointer right child struct node int data struct node left right function return size minimum vertex cover int vcover struct node root size minimum vertex cover zero tree empti one node root null return 0 root left null root right null return 0 calcul size vertex cover root part int size_incl 1 vcover root left vcover root right calcul size vertex cover root part int size_excl 0 root left size_excl 1 vcover root left left vcover root left right root right size_excl 1 vcover root right left vcover root right right return minimum two size return min size_incl size_excl util function creat node struct node newnod int data struct node temp struct node malloc sizeof struct node temp data data temp left temp right null return temp driver program test function int main let us construct tree given diagram struct node root newnod 20 root left newnod 8 root left left newnod 4 root left right newnod 12 root left right left newnod 10 root left right right newnod 14 root right newnod 22 root right right newnod 25 printf size smallest vertex cover vcover root return 0 output size smallest vertex cover 3 time complex naiv recurs approach exponenti 
+note function comput subproblem 
+exampl vcover node valu 50 evalu twice 50 grandchild 10 child 20 sinc suproblem call problem overlap subprolem properti 
+vertex cover problem properti see dynam program problem 
+like typic dynam program dp problem comput subproblem avoid store solut subproblem solv problem bottom manner 
+follow c implement dynam program base solut 
+follow solut addit field vc ad tree node 
+initi valu vc set 0 node 
+recurs function vcover calcul vc node alreadi set 
+dynam program base program vertex cover problem binari tree includ stdio h includ stdlib h util function find min two integ int min int x int return x 
+x binari tree node data pointer left child pointer right child struct node int data int vc struct node left right memoiz base function return size minimum vertex cover 
+int vcover struct node root size minimum vertex cover zero tree empti one node root null return 0 root left null root right null return 0 vertex cover node alreadi evalu return save recomput subproblem 
+root vc 0 return root vc calcul size vertex cover root part int size_incl 1 vcover root left vcover root right calcul size vertex cover root part int size_excl 0 root left size_excl 1 vcover root left left vcover root left right root right size_excl 1 vcover root right left vcover root right right minimum two valu vertex cover store return root vc min size_incl size_excl return root vc util function creat node struct node newnod int data struct node temp struct node malloc sizeof struct node temp data data temp left temp right null temp vc 0 set vertex cover 0 return temp driver program test function int main let us construct tree given diagram struct node root newnod 20 root left newnod 8 root left left newnod 4 root left right newnod 12 root left right left newnod 10 root left right right newnod 14 root right newnod 22 root right right newnod 25 printf size smallest vertex cover vcover root return 0 output size smallest vertex cover 3 refer http cours csail mit edu 6 006 spring11 lectur lec21 pdf exercis extend solut n ari tree 
+articl contribut udit gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

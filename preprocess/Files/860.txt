@@ -1,0 +1,28 @@
+
+The C99 standard for C language supports bool variables.  Unlike C++, where no header file is needed to use bool, a header file “stdbool.h” must be included to use bool in C. If we save the below program as .c, it will not compile, but if we save it as .cpp, it will work fine.
+
+int main()
+{
+  bool arr[2] = {true, false};
+  return 0;
+}
+
+If we include the header file “stdbool.h” in the above program, it will work fine as a C  program.       
+
+#include <stdbool.h>
+int main()
+{
+  bool arr[2] = {true, false};
+  return 0;
+}
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

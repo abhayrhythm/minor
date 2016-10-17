@@ -1,0 +1,7 @@
+consid program 
+int main int arr 2 0 1 printf first element n arr 0 getchar return 0 pretti simpl program huh output 0 replac arr 0 0 arr output would 
+compil convert array oper pointer access array element 
+e g 
+arr 0 would arr 0 therefor 0 arr would 0 arr know arr 0 0 arr 
+pleas write comment find anyth incorrect articl 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

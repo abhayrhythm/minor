@@ -1,0 +1,5 @@
+
+There are two common methods to convert strings to numbers:
+
+Using stringstream class or sscanf()
+stringstream() : This is an easy way to convert strings of digits into ints, floats or doubles. Following is a sample program using a stringstream to convert string to int.

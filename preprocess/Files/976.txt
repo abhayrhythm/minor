@@ -1,0 +1,36 @@
+
+What should be the  “condition” so that the following code  snippet  prints both HelloWorld !
+
+
+      if  "condition"
+          printf ("Hello");
+      else
+          printf("World"); 
+
+Solution:  
+
+#include<stdio.h>
+int main()
+{
+    if(!printf("Hello"))
+        printf("Hello");
+    else
+        printf("World");
+    getchar();
+}        
+
+Explanation: Printf returns the number of character it has printed successfully.  So, following solutions will also work
+if (printf(“Hello”) < 0) or
+if (printf(“Hello”) < 1) etc
+
+Please comment if you find more solutions of this.
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

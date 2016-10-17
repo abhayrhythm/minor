@@ -1,0 +1,5 @@
+given array integ find two non overlap contigu sub array absolut differ sum two sub array maximum 
+exampl input 2 3 4 1 2 1 5 3 output 12 two subarray 2 3 4 1 2 1 5 input 2 1 2 1 4 2 8 output 16 two subarray 1 2 1 4 2 8 expect time complex n 
+idea index given array arr 0 n 1 comput maximum minimum sum subarray lie subarray arr 0 arr 1 n 1 
+maintain four array store maximum minimum sum subarray arr 0 arr 1 n 1 everi index array 
+leftmax element leftmax array store maximum valu subarray arr 0 leftmin element leftmin array store minimum valu subarray arr 0 rightmax element rightmax array store maximum valu subarray arr 1 n 1 rightmin element rightmin array store minimum valu subarray arr 1 n 1 build four array n time use kadan algorithm 

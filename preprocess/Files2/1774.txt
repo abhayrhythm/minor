@@ -1,0 +1,17 @@
+match bipartit graph set edg chosen way two edg share endpoint 
+maximum match match maximum size maximum number edg 
+maximum match edg ad longer match 
+one maximum match given bipartit graph 
+care 
+mani real world problem form bipartit match 
+exampl consid follow problem job applic n job 
+applic subset job interest 
+job open accept one applic job applic appoint one job 
+find assign job applic mani applic possibl get job 
+strongli recommend read follow post first 
+ford fulkerson algorithm maximum flow problem maximum bipartit match max flow problem maximum bipartit match mbp problem solv convert flow network see video know arriv conclus 
+follow step 
+1 build flow network must sourc sink flow network 
+add sourc add edg sourc applic 
+similarli add edg job sink 
+capac everi edg mark 1 unit 

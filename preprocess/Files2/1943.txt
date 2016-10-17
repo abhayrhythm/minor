@@ -1,0 +1,22 @@
+templat great featur c 
+write code use data type includ user defin data type 
+exampl sort written use sort data type item 
+class stack creat use stack data type 
+want differ code particular data type 
+consid big project need function sort array mani differ data type 
+let quick sort use datatyp except char 
+case char total possibl valu 256 count sort may better option 
+possibl use differ code sort call char data type 
+possibl c get special behavior particular data type 
+call templat special 
+gener sort function templat class void sort arr int size code implement quick sort templat special function special char data type templat void sort char char arr int size code implement count sort anoth exampl could class set repres set element support oper like union intersect etc 
+type element char may want use simpl boolean array size 256 make set 
+data type use complex techniqu 
+exampl program function templat special exampl consid follow simpl code gener templat fun data type except int 
+int special version fun 
+includ iostream use namespac std templat class void fun cout main templat fun endl templat void fun int cout special templat int type endl int main fun char fun int 10 fun float 10 14 output main templat fun special templat int type 10 main templat fun 10 14 exampl program class templat special follow program special version class test written int data type 
+includ iostream use namespac std templat class class test data memnber test public test initializst data memnber cout gener templat object n method test templat class test int public test initializst data memnber cout special templat object n int main test int test char b test float c return 0 output special templat object gener templat object gener templat object templat special work 
+write templat base function class compil creat copi function class whenev compil see use new data type new set data type case multipl templat argument 
+special version present compil first check special version main templat 
+compil first check special version match pass paramet data type specifi special version 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,21 @@
+introduct main object project provid databas gui orient format retriev inform remot databas tabl proper manipul 
+gui program done java ide 
+featur univers persist viewer util databas brows 
+provid interfac view databas 
+brows remot databas also chang content even client side softwar avail databas 
+one main import aspect project sql interpret use execut queri tabl modifi 
+queri also execut util 
+record ad delet modifi tabl 
+record view specifi condit 
+final result provid tabl format 
+project also includ properti databas provid function keyword support function maximum function whichev need 
+softwar requir java basedid 
+databas manag softwar prefer mysql 
+advanc featur import export tabl across databas 
+within databas version depend prevent 
+convert oracl version 10 11 version 
+across databas transpar 
+data type differ manag easili 
+project idea contribut anurag gupta like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

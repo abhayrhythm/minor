@@ -1,0 +1,13 @@
+c c assign struct class c variabl anoth variabl type 
+assign struct variabl anoth member variabl copi struct variabl 
+happen structur contain pointer dynam alloc memori contain array 
+follow c program struct variabl st1 contain pointer dynam alloc memori 
+assign st1 st2 str pointer st2 also start point memori locat 
+kind copi call shallow copi 
+includ iostream includ string h use namespac std struct test char str int main struct test st1 st2 st1 str new char 20 strcpi st1 str geeksforgeek st2 st1 st1 str 0 x st1 str 1 sinc copi shallow string cout st1 str st1 str endl cout st2 str st2 str endl return 0 output st1 str xyeksforgeek st2 str xyeksforgeek array 
+point note array member shallow copi compil automat perform deep copi array member follow program struct test contain array member str 
+assign st1 st2 st2 new copi array 
+st2 chang chang str st1 
+includ iostream includ string h use namespac std struct test char str 20 int main struct test st1 st2 strcpi st1 str geeksforgeek st2 st1 st1 str 0 x st1 str 1 sinc copi deep array differ cout st1 str st1 str endl cout st2 str st2 str endl return 0 output st1 str xyeksforgeek st2 str geeksforgeek therefor c class need write copi constructor assign oper array member default behavior deep copi array 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

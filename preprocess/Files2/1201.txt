@@ -1,0 +1,17 @@
+given string find subsequ length 2 repeat two subsequ charact posit e 0 th 1st charact two subsequ index origin string 
+exampl 
+input abcabd output repeat subsequ exist b repeat input abbb output repeat subsequ exist b b repeat input aab output repeat subsequ exist note b cannot consid repeat b posit two subsequ 
+input aabbc output repeat subsequ exist b repeat input abcdacb output repeat subsequ exist b repeat input abcd output repeat subsequ exist problem classic variat longest common subsequ problem 
+discuss dynam program solut 
+dynam program solut take n2 time space 
+post n time space approach discuss 
+idea remov non repeat charact string check result string palindrom 
+remain string palindrom repeat els repetit 
+one special case need handl input like aaa palindrom repeat subsequ exist 
+repeat subsequ exist palindrom string odd length middl letter left right charact 
+c implement idea 
+c program check repeat subsequ exist string includ bit stdc h defin max_char 256 use namespac std function check string str palindrom bool ispalindrom char str int l int h l h leftmost rightmost corner str keep compar charact h l str l str h return fals return true main function check repeat subsequ exist string int check char str find length input string int n strlen str creat array store charact frequenc str int freq max_char 0 travers input string store frequenc charact freq array 
+int 0 n freq str charact count 3 found repetit freq str 3 return true place remov non repeat charact string int k 0 int 0 n freq str 1 str k str str k 0 check result string palindrom ispalindrom str 0 k 1 special case length odd return true middl charac previou one k 1 return str k 2 str k 2 1 return fals string palindrom return fals return true string palindrom return true driver code int main char str abcabd check str cout repeat subsequ exist els cout repeat subsequ exist return 0 output repeat subsequ exist articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

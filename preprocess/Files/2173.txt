@@ -1,0 +1,63 @@
+
+A number is said to be a sparse number if in binary representation of the number no two or more consecutive bits are set.  Write a function to check if a given number is Sparse or not.
+Example:
+
+Input:  x  = 72
+Output: true
+Explanation:  Binary representation of 72 is 01001000. 
+There are no two consecutive 1's in binary representation
+
+Input:  x  = 12
+Output: false
+Explanation:  Binary representation of 12 is 1100. 
+Third and fourth bits (from end) are set.
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+If we observer carefully, then we can notice that if we can use bitwise AND of binary representation of the “given number its “right shifted number”(i.e., half the given number) to figure out whether the number is sparse or not.  Result of AND operator would be 0 if number is  sparse and non-zero if not sparse.
+
+Below is C++ implementation of above idea.
+
+// C++ program to check if n is sparse or not
+#include<iostream>
+using namespace std;
+
+// Return true if n is sparse, else false
+bool checkSparse(int n)
+{
+    // n is not sparse if there is set
+    // in AND of n and n/2
+    if (n & (n>>1))
+        return false;
+
+    return true;
+}
+
+// Driver program
+int main()
+{
+    cout << checkSparse(72) << endl;
+    cout << checkSparse(12) << endl;
+    cout << checkSparse(2) << endl;
+    cout << checkSparse(3) << endl;
+    return 0;
+}
+
+Output:
+
+1
+0
+1
+0
+Note:  Instead of right shift, we could have used left shift also,  but left shift might lead to overflow in some cases.
+This article is contributed by Vimal Vestron. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,26 @@
+data structur use effici build word dictionari spell checker 
+answer depend upon functionalist requir spell checker avail memori 
+exampl follow possibl 
+hash one simpl option 
+put word hash tabl 
+refer paper compar hash self balanc binari search tree skip list show hash perform better 
+hash support oper like prefix search 
+prefix search someth user type prefix dictionari show word start prefix 
+hash also support effici print word dictionari alphabet order nearest neighbor search 
+want oper look prefix search trie suit 
+trie support oper like insert search delet n time n length word process 
+anoth advantag trie print word alphabet order possibl hash 
+disadvantag trie requir lot space 
+space concern ternari search tree prefer 
+ternari search tree time complex search oper h h height tree 
+ternari search tree also support oper support trie like prefix search alphabet order print nearest neighbor search 
+want support suggest like googl show mean need find closest word dictionari 
+closest word defin word obtain minimum number charact transform add delet replac 
+naiv way take given word gener word 1 distanc 1 edit 1 delet 1 replac away one one look dictionari 
+noth found look word 2 distant 
+mani complex algorithm 
+per wiki page success algorithm date andrew gold dan roth window base spell correct algorithm 
+see simpl spell checker implement 
+articl compil piyush 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,19 @@
+given two sort array 
+need merg two array initi number complet sort first array remain number second array 
+extra space allow 1 
+exampl input ar1 1 5 9 10 15 20 ar2 2 3 8 13 output ar1 1 2 3 5 8 9 ar2 10 13 15 20 strongli recommend minim browser tri first 
+task simpl n allow use extra space 
+becom realli complic extra space allow look possibl less n worst case time 
+idea begin last element ar2 search ar1 
+greater element ar1 move last element ar1 ar2 
+keep ar1 ar2 sort need place last element ar2 correct place ar1 
+use insert sort type insert 
+algorithm 1 iter everi element ar2 start last element 
+follow everi element ar2 store last element ar1 last ar1 b loop last element ar1 element ar1 j smaller ar2 
+ar1 j 1 ar1 j move element one posit ahead j c element ar1 move j 1 ar1 j 1 ar2 ar2 last loop element ar1 ar2 alway kept sort 
+c implement algorithm 
+c program implement siev atkin includ bit stdc h use namespac std merg ar1 ar2 1 extra space void merg int ar1 int ar2 int int n iter element ar2 start last element int n 1 0 find smallest element greater ar2 
+move element one posit ahead till smallest greater element found int j last ar1 1 j 1 j 0 ar1 j ar2 j ar1 j 1 ar1 j greater element j 1 ar1 j 1 ar2 ar2 last driver program int main void int ar1 1 5 9 10 15 20 int ar2 2 3 8 13 int sizeof ar1 sizeof ar1 0 int n sizeof ar2 sizeof ar2 0 merg ar1 ar2 n cout merg nfirst array int 0 cout ar1 cout nsecond array int 0 n cout ar2 return 0 output merg first array 1 2 3 5 8 9 second array 10 13 15 20 illustr initi array ar1 1 5 9 10 15 20 ar2 2 3 8 13 first iter ar1 1 5 9 10 13 15 ar2 2 3 8 20 20 move ar1 ar2 13 ar2 insert ar1 second iter ar1 1 5 8 9 10 13 ar2 2 3 15 20 15 move ar1 ar2 8 ar2 insert ar1 third iter ar1 1 3 5 8 9 10 ar2 2 13 15 20 13 move ar1 ar2 3 ar2 insert ar1 fourth iter ar1 1 2 3 5 8 9 ar2 10 13 15 20 10 move ar1 ar2 2 ar2 insert ar1 worst case time complex code algorithm n 
+worst case occur element ar1 greater element ar2 
+thank shubham chauhan suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

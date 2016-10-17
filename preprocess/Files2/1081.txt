@@ -1,0 +1,14 @@
+given two integ array add element third array satisfi follow constraint 1 addit done start 0th index array 
+2 split sum singl digit number store digit adjac locat output array 
+3 output array accommod remain digit larger input array 
+exampl input 9 2 3 7 9 6 b 3 1 4 7 8 7 6 9 output 1 2 3 7 1 4 1 7 1 3 6 9 input 9343 2 3 7 9 6 b 34 11 4 7 8 7 6 99 output 9 3 7 7 1 3 7 1 4 1 7 1 3 6 9 9 input b 11 2 3 output 1 1 2 3 input 9 8 7 6 5 4 3 2 1 b 1 2 3 4 5 6 7 8 9 output 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 difficulti level rooki idea simpl 
+maintain output array run loop 0th index array 
+iter loop consid next element array add 
+sum greater 9 push individu digit sum output array els push sum 
+final push remain element larger input array output array 
+c implement idea c program add two array follow given constraint includ bit stdc h use namespac std function push individu digit number output vector left right void split int num vector int vector int arr num arr push_back num 10 num num 10 revers vector arr append output vector insert end arr rbegin arr rend function add two array keep given constraint void addarray int arr1 int arr2 int int n creat vector store output vector int maintain variabl store current index array int 0 loop till arr1 arr2 run n read next element array add int sum arr1 arr2 sum singl digit number sum 10 push_back sum els sum singl digit number push individu digit output vector split sum increment next index push remain element first input array output vector split arr1 push remain element second input array output vector n split arr2 print output vector int x cout x driver code int main int arr1 9343 2 3 7 9 6 int arr2 34 11 4 7 8 7 6 99 int sizeof arr1 sizeof arr1 0 int n sizeof arr2 sizeof arr2 0 addarray arr1 arr2 n return 0 output 9 3 7 7 1 3 7 1 4 1 7 1 3 6 9 9 time complex solut n travers array exactli 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,17 @@
+tree leaf much farther away root leaf 
+differ balanc scheme allow differ definit much farther differ amount work keep balanc 
+consid height balanc scheme follow condit check determin binari tree balanc 
+empti tree height balanc 
+non empti binari tree balanc 1 left subtre balanc 2 right subtre balanc 3 differ height left subtre right subtre 1 height balanc scheme use avl tree 
+diagram show two tree one height balanc 
+second tree height balanc height left subtre 2 height right subtre 
+check tree height balanc get height left right subtre 
+return true differ height 1 left right subtre balanc otherwis return fals 
+c c program check tree height balanc includ stdio h includ stdlib h defin bool int binari tree node data pointer left child pointer right child struct node int data struct node left struct node right return height binari tree int height struct node node return true binari tree root root height balanc bool isbalanc struct node root int lh height left subtre int rh height right subtre tree empti return true root null return 1 get height left right sub tree lh height root left rh height root right ab lh rh 1 isbalanc root left isbalanc root right return 1 reach tree height balanc return 0 util function test isbalanc function return maximum two integ int max int int b return b 
+b function comput height tree 
+height number node along longest path root node farthest leaf node 
+int height struct node node base case tree empti node null return 0 tree empti height 1 max left height right height return 1 max height node left height node right helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null return node int main struct node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root left left left newnod 8 isbalanc root printf tree balanc els printf tree balanc getchar return 0 java java program determin binari tree height balanc binari tree node data pointer left child pointer right child class node int data node left right node int data left right null class binarytre node root return true binari tree root root height balanc boolean isbalanc node node int lh height left subtre int rh height right subtre tree empti return true node null return true get height left right sub tree lh height node left rh height node right math ab lh rh 1 isbalanc node left isbalanc node right return true reach tree height balanc return fals util function test isbalanc function return maximum two integ int max int int b return b 
+b function comput height tree 
+height number node along longest path root node farthest leaf node 
+int height node node base case tree empti node null return 0 tree empti height 1 max left height right height return 1 max height node left height node right public static void main string arg binarytre tree new binarytre tree root new node 1 tree root left new node 2 tree root right new node 3 tree root left left new node 4 tree root left right new node 5 tree root left left left new node 8 tree isbalanc tree root system println tree balanc els system println tree balanc code contribut mayank jaiswal mayank_24 output 

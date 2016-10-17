@@ -1,0 +1,55 @@
+introduc segment tree simpl exampl previou post 
+post rang minimum queri problem discuss anoth exampl segment tree use 
+follow problem statement 
+array arr 0 
+
+
+n 1 
+abl effici find minimum valu index qs queri start qe queri end 0 qs qe n 1 
+simpl solut run loop qs qe find minimum element given rang 
+solut take n time worst case 
+anoth solut creat 2d array entri j store minimum valu rang arr j 
+minimum given rang calcul 1 time preprocess take n 2 time 
+also approach need n 2 extra space may becom huge larg input array 
+segment tree use preprocess queri moder time 
+segment tree preprocess time n time rang minimum queri logn 
+extra space requir n store segment tree 
+represent segment tree 1 leaf node element input array 
+2 intern node repres minimum leav 
+array represent tree use repres segment tree 
+node index left child index 2 1 right child 2 2 parent 
+construct segment tree given array start segment arr 0 
+
+
+n 1 
+everi time divid current segment two halv yet becom segment length 1 call procedur halv segment store minimum valu segment tree node 
+level construct segment tree complet fill except last level 
+also tree full binari tree alway divid segment two halv everi level 
+sinc construct tree alway full binari tree n leav n 1 intern node 
+total number node 2 n 1 height segment tree 
+sinc tree repres use array relat parent child index must maintain size memori alloc segment tree 
+queri minimum valu given rang tree construct rang minimum queri use construct segment tree 
+follow algorithm get minimum 
+qs queri start index qe queri end index int rmq node qs qe rang node within qs qe return valu node els rang node complet outsid qs qe return infinit els return min rmq node left child qs qe rmq node right child qs qe implement c c program rang minimum queri use segment tree includ stdio h includ math h includ limit h util function get minimum two number int minval int x int return x 
+x util function get middl index corner index 
+int getmid int int e return e 2 recurs function get minimum valu given rang array index 
+follow paramet function 
+st pointer segment tree index index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e st index qs qe start end index queri rang int rmqutil int st int ss int se int qs int qe int index segment node part given rang return min segment qs ss qe se return st index segment node outsid given rang se qs ss qe return int_max part segment overlap given rang int mid getmid ss se return minval rmqutil st ss mid qs qe 2 index 1 rmqutil st mid 1 se qs qe 2 index 2 return minimum element rang index qs quey start qe queri end 
+mainli use rmqutil int rmq int st int n int qs int qe check erron input valu qs 0 qe n 1 qs qe printf invalid input return 1 return rmqutil st 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st int constructstutil int arr int ss int se int st int si one element array store current node segment tree return ss se st si arr ss return arr ss one element recur left right subtre store minimum two valu node int mid getmid ss se st si minval constructstutil arr ss mid st si 2 1 constructstutil arr mid 1 se st si 2 2 return st si function construct segment tree given array 
+function alloc memori segment tree call constructstutil fill alloc memori int constructst int arr int n alloc memori segment tree height segment tree int x int ceil log2 n maximum size segment tree int max_siz 2 int pow 2 x 1 int st new int max_siz fill alloc memori st constructstutil arr 0 n 1 st 0 return construct segment tree return st driver program test function int main int arr 1 3 2 7 9 11 int n sizeof arr sizeof arr 0 build segment tree given array int st constructst arr n int qs 1 start index queri rang int qe 5 end index queri rang print minimum valu arr qs qe printf minimum valu rang n qs qe rmq st n qs qe return 0 java program rang minimum queri use segment tree class segmenttreermq int st array store segment tree util function get minimum two number int minval int x int return x 
+x util function get middl index corner index 
+int getmid int int e return e 2 recurs function get minimum valu given rang array index 
+follow paramet function 
+st pointer segment tree index index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e st index qs qe start end index queri rang int rmqutil int ss int se int qs int qe int index segment node part given rang return min segment qs ss qe se return st index segment node outsid given rang se qs ss qe return integ max_valu part segment overlap given rang int mid getmid ss se return minval rmqutil ss mid qs qe 2 index 1 rmqutil mid 1 se qs qe 2 index 2 return minimum element rang index qs quey start qe queri end 
+mainli use rmqutil int rmq int n int qs int qe check erron input valu qs 0 qe n 1 qs qe system println invalid input return 1 return rmqutil 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st int constructstutil int arr int ss int se int si one element array store current node segment tree return ss se st si arr ss return arr ss one element recur left right subtre store minimum two valu node int mid getmid ss se st si minval constructstutil arr ss mid si 2 1 constructstutil arr mid 1 se si 2 2 return st si function construct segment tree given array 
+function alloc memori segment tree call constructstutil fill alloc memori void constructst int arr int n alloc memori segment tree height segment tree int x int math ceil math log n math log 2 maximum size segment tree int max_siz 2 int math pow 2 x 1 st new int max_siz alloc memori fill alloc memori st constructstutil arr 0 n 1 0 driver program test function public static void main string arg int arr 1 3 2 7 9 11 int n arr length segmenttreermq tree new segmenttreermq build segment tree given array tree constructst arr n int qs 1 start index queri rang int qe 5 end index queri rang print minimum valu arr qs qe system println minimum valu rang qs qe tree rmq n qs qe code contribut ankur narain verma output minimum valu rang 1 5 2 time complex time complex tree construct n 
+total 2n 1 node valu everi node calcul tree construct 
+time complex queri logn 
+queri rang minimum process two node everi level number level logn 
+pleas refer follow link solut rang minimum queri problem 
+http www geeksforgeek org rang minimum queri static array http commun topcod com tc modul static d1 tutori d2 lowestcommonancestor range_minimum_query_ rmq http wcipeg com wiki range_minimum_queri pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

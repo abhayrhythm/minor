@@ -1,0 +1,23 @@
+prioriti queue extens queue follow properti 
+1 everi item prioriti associ 
+2 element high prioriti dequeu element low prioriti 
+3 two element prioriti serv accord order queue 
+typic prioriti queue support follow oper 
+insert item prioriti insert item given prioriti 
+gethighestprior return highest prioriti item 
+deletehighestprior remov highest prioriti item 
+implement prioriti queue 
+use array simpl implement use array follow structur 
+struct item int item int prioriti insert oper implement ad item end array 1 time 
+gethighestprior oper implement linearli search highest prioriti item array 
+oper take n time 
+deletehighestprior oper implement first linearli search item remov item move subsequ item one posit back 
+also use link list time complex oper link list remain array 
+advantag link list deletehighestprior effici move item 
+use heap heap gener prefer prioriti queue implement heap provid better perform compar array link list 
+binari heap gethighestprior implement 1 time insert implement logn time deletehighestprior also implement logn time 
+fibonacci heap insert gethighestprior implement 1 amort time deletehighestprior implement logn amort time 
+applic prioriti queue 1 cpu schedul 2 graph algorithm like dijkstra shortest path algorithm prim minimum span tree etc 3 queue applic prioriti involv 
+soon discuss array heap implement prioriti queue 
+refer http en wikipedia org wiki priority_queu pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

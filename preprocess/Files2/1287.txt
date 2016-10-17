@@ -1,0 +1,13 @@
+given rectangular matrix move current cell 4 direct equal probabl 
+4 direct right left top bottom 
+calcul probabl n move given posit j matrix cross boundari matrix point 
+strongli recommend minim browser tri first 
+idea perform someth similar df 
+recurs travers 4 allow direct cell encount calcul requir probabl one less move 
+direct equal probabl direct contribut 1 4 total probabl cell e 
+0 25 return 0 step outsid matrix return 1 n step complet without cross matrix boundari 
+c implement idea 
+c program find probabl cross boundari matrix n move 
+includ iostream use namespac std check x valid matrix coordin bool issaf int x int int int n return x 0 x 0 n function calcul probabl n move given posit x x n matrix boundari matrix cross 
+doubl findprob int int n int x int int n boundari cross issaf x n return 0 0 n step taken n 0 return 1 0 initi result doubl prob 0 0 move prob findprob n x 1 n 1 0 25 move right prob findprob n x 1 n 1 0 25 move prob findprob n x 1 n 1 0 25 move left prob findprob n x 1 n 1 0 25 return prob driver function int main matrix size int 5 n 5 coordin start point int 1 j 1 number step int n 2 cout probabl findprob n j n return 0 output probabl 0 875 articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

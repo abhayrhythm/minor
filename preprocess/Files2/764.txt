@@ -1,0 +1,31 @@
+mensur 2d mainli deal problem perimet area 
+shape two dimension triangl squar rectangl circl parallelogram etc 
+topic mani variat question base certain fix formula 
+perimet length boundari 2d figur call perimet 
+area region enclos 2d figur call area 
+pythagora theorem right angl triangl hypotenus 2 base 2 height 2 triangl let three side triangl b c perimet b c area 2s b c area area 0 5 x base x perpendicular height rectangl perimet 2 x length breadth area length x breadth squar perimet 4 x side length area side length 2 0 5 x diagon length 2 parallelogram perimet 2 x sum adjac side area base x perpendicular height rhombu perimet 4 x side length area 0 5 x product diagon trapezium perimet sum side area 0 5 x sum parallel side x perpedicular height circl perimet 2 π radiu area π radiu 2 length arc subtend angl θ centr circl π x radiu x θ 180 area sector subtend angl θ center circl π x radius2 x θ 360 sampl problem question 1 find perimet area isoscel triangl whose equal side 5 cm height 4 cm 
+solut appli pythagora theorem hypotenus 2 base 2 height 2 5 2 0 5 x base isoscel triangl 2 4 2 0 5 x base isoscel triangl 3 base isoscel triangl 6 cm therefor perimet sum side 5 5 6 16 cm area triangl 0 5 x base x height 0 5 x 6 x 4 12 cm2 question 2 rectangular piec dimens 22 cm x 7 cm use make circl largest possibl radiu 
+find area circl form 
+solut question like diamet circl lesser length breadth 
+breadth length diamet circl 7 cm radiu circl 3 5 cm therefor area circl π radiu 2 π 3 5 2 38 50 cm2 question 3 pizza divid 8 ident piec 
+would angl subtend piec centr circl 
+solut ident piec mean area piec 
+area piec π x radius2 x θ 360 1 8 x area circular pizza π x radius2 x θ 360 1 8 x π x radius2 θ 360 1 8 θ 360 8 45 therefor angl subtend piec centr circl 45 degre question 4 four cow tie corner squar field side 7 cm 
+cow tie rope cow graze maximum possibl field cow graze equal area 
+find area ungraz field 
+solut maximum equal graze length rope 3 5 cm 
+area graze 1 cow π x radius2 x θ 360 area graze 1 cow π x 3 52 x 90 360 π x 3 52 4 area graze 4 cow 4 x π x 3 52 4 π x 3 52 area graze 4 cow 38 5 cm2 area squar field side2 72 49 cm2 area ungraz area field area graze 4 cow area ungraz 49 38 5 10 5 cm2 question 5 find area largest squar inscrib circl radiu r 
+solut largest squar inscrib circl diamet circl diagon squar 
+diagon squar 2 r side squar 2 r 21 2 side squar 21 2 r therefor area squar side2 21 2 r 2 2 r2 question 6 contractor undertak job fenc rectangular field length 100 breadth 50 cost fenc rs 
+2 per metr labour charg 
+1 per metr paid directli contractor 
+find total cost fenc 10 amount paid contractor paid tax land author 
+solut total cost fenc per metr rs 
+2 1 rs 
+3 length fenc requir perimet rectangular field 2 length breadth length fenc requir 2 x 100 50 300 metr amount paid contractor rs 
+3 x 300 900 amount paid land author 10 rs 
+900 rs 
+90 therefor total cost fenc rs 
+900 90 rs 
+990 articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

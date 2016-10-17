@@ -1,0 +1,29 @@
+given set n type rectangular 3 box th box height h width w depth real number 
+want creat stack box tall possibl stack box top anoth box dimens 2 base lower box strictli larger 2 base higher box 
+cours rotat box side function base 
+also allow use multipl instanc type box 
+sourc http peopl csail mit edu bdean 6 046 dp 
+link also video explan solut 
+box stack problem variat li problem 
+need build maximum height stack 
+follow key point note problem statement 1 box place top anoth box width depth upper place box smaller width depth lower box respect 
+2 rotat box 
+exampl box dimens 1x2x3 1 height 2 3 base three possibl 1x2x3 2x1x3 3x1x2 
+3 use multipl instanc box 
+mean two differ rotat box part maximum height stack 
+follow solut base dp solut li problem 
+1 gener 3 rotat box 
+size rotat array becom 3 time size origin array 
+simplic consid depth alway smaller equal width 
+2 sort gener 3n box decreas order base area 
+3 sort box problem li follow optim substructur properti 
+msh maximum possibl stack height box top stack msh max msh j height j width j width depth j depth 
+j msh height 4 get overal maximum height return max msh 0 n follow c implement solut 
+dynam program implement box stack problem includ stdio h includ stdlib h represent box struct box h height w width depth int h w simplic solut alway keep w util function get minimum two intger int min int x int return x 
+x util function get maximum two intger int max int x int return x 
+x follow function need librari function qsort 
+use qsort sort box decreas order base area 
+refer follow link help qsort compar http www cplusplu com refer clibrari cstdlib qsort int compar const void const void b return box b box b w box box w return height tallest stack form give type box int maxstackheight box arr int n creat array rotat given box exampl box 1 2 3 consid three instanc 1 2 3 2 1 3 3 1 2 box rot 3 n int index 0 int 0 n copi origin box rot index arr index first rotat box rot index h arr w rot index max arr h arr rot index w min arr h arr index second rotat box rot index h arr rot index max arr h arr w rot index w min arr h arr w index number box 3n n 3 n sort array rot decreas order use librari function quick sort qsort rot n sizeof rot 0 compar uncom follow two line print rotat int 0 n printf x x n rot h rot w rot initi msh valu index msh maximum possibl stack height box top int msh n int 0 n msh rot h comput optim msh valu bottom manner int 1 n int j 0 j j rot w rot j w rot rot j msh msh j rot h msh msh j rot h pick maximum msh valu int max 1 int 0 n max msh max msh return max driver program test function int main box arr 4 6 7 1 2 3 4 5 6 10 12 32 int n sizeof arr sizeof arr 0 printf maximum possibl height stack n maxstackheight arr n return 0 output maximum possibl height stack 60 program given input box 4 6 7 1 2 3 4 5 6 10 12 32 
+follow rotat box decreas order base area 
+10 x 12 x 32 12 x 10 x 32 32 x 10 x 12 4 x 6 x 7 4 x 5 x 6 6 x 4 x 7 5 x 4 x 6 7 x 4 x 6 6 x 4 x 5 1 x 2 x 3 2 x 1 x 3 3 x 1 x 2 height 60 obtain box 3 1 2 1 2 3 6 4 5 4 5 6 4 6 7 32 10 12 10 12 32 time complex n 2 auxiliari space n pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

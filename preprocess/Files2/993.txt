@@ -1,0 +1,14 @@
+write c function print n take long int number n argument print consol 
+allow librari function putchar function like itoa printf allow 
+use loop also allow 
+strongli recommend minim browser tri first 
+simpl trick question 
+sinc putchar print charact need call putchar digit 
+recurs alway use replac iter use recurs print digit one one 
+question putchar print charact print digit use putchar 
+need convert everi digit correspond ascii valu done use ascii valu 0 
+follow complet c program 
+c program print long int number use putchar includ stdio h void print long n number smaller 0 put sign chang number posit n 0 putchar n n number 0 n 0 putchar 0 remov last digit recur n 10 print n 10 print last digit putchar n 10 0 driver program test abvo function int main long int n 12045 print n return 0 output 12045 one import thing note sequenc putchar recurs call print n 10 
+sinc digit print left right recurs call must appear putchar rightmost digit print end digit must print 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

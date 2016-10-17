@@ -1,0 +1,30 @@
+tic tac toe board given move play 
+find given board valid e possibl reach board posit move 
+note everi arbitrari fill grid 9 space valid e g 
+grid fill 3 x 6 valid situat player need take altern turn 
+input given 1d array size 9 input board x x x x x output valid input board x x x x x output invalid x cannot win input board x output valid valid board two move play strongli recommend click practic move solut 
+basic find valid input grid think condit input grid invalid 
+let 
+x countx 
+counto 
+sinc know game start x given grid tic tac toe game would definit invalid follow two condit meet countx counto b countx counto 1 sinc x alway first move second condit also requir 
+mean remain board posit valid one 
+answer 
+think case input grid x make straight line 
+also valid posit game end one player win 
+need check follow condit well c input grid show player win situat invalid posit 
+input grid show player put straight line e 
+win condit countx counto invalid posit 
+reason play move x play move 
+sinc x start game would win x play equal 
+move 
+e input grid show x win condit xcount must one greater ocount 
+arm condit e 
+b c easili formul algorithm program check valid given tic tac toe board posit 
+1 countx counto countx counto 1 2 win condit check x also win valid b xbox obox valid 3 x win condit check xcount one ocount anoth way find valid given board use invers method e 
+rule possibl given board invalid 
+c program check whether given tic tac toe board valid includ iostream use namespac std matrix use find index check possibl wine triplet board 0 8 int win 8 3 0 1 2 check first row 
+3 4 5 check second row 6 7 8 check third row 0 3 6 check first column 1 4 7 check second column 2 5 8 check third column 0 4 8 check first diagon 2 4 6 check second diagon return true charact c win 
+c either x bool iscwin char board char c check possibl win combin int 0 8 board win 0 c board win 1 c board win 2 c return true return fals return true given board valid els return fals bool isvalid char board 9 count number x given board int xcount 0 ocount 0 int 0 9 board x xcount board ocount board valid either xcount ocount xount one ocount xcount ocount xcount ocount 1 check winner iscwin board check x also winner return fals iscwin board x return fals els return true xcount ycount return xcount ocount x win count x must greater iscwin board x xcount ocount 1 return fals winner return true return true return fals driver program int main char board x x x x x isvalid board 
+cout given board valid cout given board valid return 0 output given board valid thank utkarsh suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

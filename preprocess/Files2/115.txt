@@ -1,0 +1,20 @@
+given two string str1 str2 find shortest string str1 str2 subsequ 
+exampl input str1 geek str2 eke output geek input str1 aggtab str2 gxtxayb output agxgtxayb strongli recommend minim browser tri first 
+problem close relat longest common subsequ problem 
+step 
+1 find longest common subsequ lc two given string 
+exampl lc geek eke ek 
+2 insert non lc charact origin order string lc found return result 
+ek becom geek shortest common supersequ 
+let us consid anoth exampl str1 aggtab str2 gxtxayb 
+lc str1 str2 gtab 
+find lc insert charact string order get agxgtxayb work 
+need find string string subsequ shortest string 
+string charact differ result sum length two given string 
+common charact want multipl time task minim length 
+therefor fist find longest common subsequ take one occurr subsequ add extra charact 
+length shortest supersequ sum length given two string length lc two given string c implement idea 
+implement find length shortest supersequ 
+c program find length shortest supersequ includ stdio h includ string h util function get max 2 integ int max int int b return b 
+b return length lc x 0 1 0 n 1 int lc char x char int int n function find length shortest supersequ x int shortestsupersequ char x char int strlen x n strlen int l lc x n find lc result sum input string length length lc return n l return length lc x 0 1 0 n 1 int lc char x char int int n int l 1 n 1 int j follow step build l 1 n 1 bottom fashion 
+note l j contain length lc x 0 1 0 j 1 0 j 0 j n j 0 j 0 l j 0 els x 1 j 1 l j l 1 j 1 1 els l j max l 1 j l j 1 l n contain length lc x 0 n 1 0 1 return l n driver program test function int main char x aggtab char gxtxayb printf length shortest supersequ n shortestsupersequ x return 0 output length shortest supersequ 9 

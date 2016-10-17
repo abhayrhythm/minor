@@ -1,0 +1,25 @@
+given matrix everi element either x find largest subsquar surround x 
+articl assum given matrix also squar matrix 
+code given easili extend rectangular matric 
+exampl input mat n n x x x x x x x x x x x x x x x x x x x x output 3 squar submatrix start 1 1 largest submatrix surround x input mat n x x x x x x x x x x x x x x x x x x x x x x x output 4 squar submatrix start 0 2 largest submatrix surround x strongli recommend click practic move solut 
+simpl solut consid everi squar submatrix check whether corner edg fill x 
+time complex solut n4 
+solv problem n3 time use extra space 
+idea creat two auxiliari array hor n n ver n n 
+valu store hor j number horizont continu x charact till mat j mat 
+similarli valu store ver j number vertic continu x charact till mat j mat 
+follow exampl 
+mat 6 6 x x x x x x x x x x x x x x x x x x x x x x x hor 6 6 1 0 1 2 3 4 1 0 1 2 0 1 1 2 3 0 0 1 0 1 2 3 4 5 1 2 3 0 1 0 0 0 1 0 0 0 ver 6 6 1 0 1 1 1 1 2 0 2 2 0 2 3 1 3 0 0 3 0 2 4 1 1 4 1 3 5 0 2 0 0 0 6 0 0 0 fill valu hor ver start bottommost rightmost corner matrix move toward leftmost topmost row row manner 
+everi visit entri mat j compar valu hor j ver j pick smaller two need squar 
+let smaller two small 
+pick smaller two check ver hor left edg respect 
+entri found subsquar 
+otherwis tri small 1 
+c implement idea 
+c program find largest subsquar surround x given matrix x includ iostream use namespac std size given matrix n x n defin n 6 util function find minimum two number int getmin int x int return x 
+x return size maximum size subsquar matrix surround x int findsubsquar int mat n int max 1 initi result initi left top valu hor ver int hor n n ver n n hor 0 0 ver 0 0 mat 0 0 x fill valu hor ver int 0 n int j 0 j n j mat j ver j hor j 0 els hor j j 0 
+1 hor j 1 1 ver j 0 
+1 ver 1 j 1 start rightmost bottommost corner element find largest ssubsquar help hor ver int n 1 1 int j n 1 j 1 j find smaller valu hor ver squar made take smaller valu int small getmin hor j ver j point sure right vertic line bottom horizont line length least small 
+found bigger squar follow condit met 1 side squar greater max 
+2 left vertic line length small 3 top horizont line length small small max ver j small 1 small hor small 1 j small max small small return max driver program test function int main int mat n x x x x x x x x x x x x x x x x x x x x x x x cout findsubsquar mat return 0 output 4 articl contribut anuj 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

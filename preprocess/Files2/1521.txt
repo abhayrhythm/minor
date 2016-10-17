@@ -1,0 +1,43 @@
+given integ read data stream 
+find median element read effici way 
+simplic assum duplic 
+exampl let us consid stream 5 15 1 3 read 1st element stream 5 median 5 read 2nd element stream 5 15 median 10 read 3rd element stream 5 15 1 median 5 read 4th element stream 5 15 1 3 median 4 make clear input size odd take middl element sort data 
+input size even pick averag middl two element sort stream 
+note output effect median integ read stream far 
+algorithm call onlin algorithm 
+algorithm guarante output element process th element said onlin algorithm 
+let us discuss three solut problem 
+method 1 insert sort sort data appear easili locat median element 
+insert sort one onlin algorithm sort data appear far 
+instanc sort say sort th element first element array sort 
+insert sort depend futur data sort data input till point 
+word insert sort consid data sort far insert next element 
+key part insert sort make onlin algorithm 
+howev insert sort take n2 time sort n element 
+perhap use binari search insert sort find locat next element log n time 
+yet data movement log n time 
+matter effici implement take polynomi time case insert sort 
+interest reader tri implement method 1 method 2 augment self balanc binari search tree avl rb etc everi node bst maintain number element subtre root node 
+use node root simpl binari tree whose left child self balanc bst element less root right child self balanc bst element greater root 
+root element alway hold effect median 
+left right subtre contain number element root node hold averag left right subtre root data 
+otherwis root contain data root subtre element 
+process incom element left right subtre bst differ utmost 1 self balanc bst costli manag balanc factor bst 
+howev provid sort data need 
+need median 
+next method make use heap trace median 
+method 3 heap similar balanc bst method 2 use max heap left side repres element less effect median min heap right side repres element greater effect median 
+process incom element number element heap differ utmost 1 element 
+heap contain number element pick averag heap root data effect median 
+heap balanc select effect median root heap contain element 
+given implement method 
+algorithm build heap pleas read highlight code 
+includ iostream use namespac std heap capac defin max_heap_s 128 defin array_s sizeof sizeof 0 util function exchang b inlin void exch int int b int aux b b aux greater smaller use compar bool greater int int b return b bool smaller int int b return b int averag int int b return b 2 signum function 0 b heap balanc 1 b left contain less element right 1 b left contain element right int signum int int b b return 0 return b 
+1 1 heap implement function embed heap abstract class avoid code duplic class heap public initi heap array compar requir heapif heap int b bool c int int b comp c heapsiz 1 free dynam memori virtual heap delet need four interfac heap adt virtual bool insert int e 0 virtual int gettop 0 virtual int extracttop 0 virtual int getcount 0 protect also use locat 0 array int left int return 2 1 int right int return 2 1 int parent int 0 return 1 return 1 2 heap array int compar bool comp int int heap size int heapsiz return top element heap data structur int top void int max 1 heapsiz 0 max 0 return max return number element heap int count return heapsiz 1 heapif note current median trace problem need heapifi toward root alway void heapifi int int p parent comp differenti maxheap minheap percol p 0 comp p exch p heapifi p delet root heap int deletetop int del 1 heapsiz 1 del 0 exch 0 heapsiz heapsiz heapifi parent heapsiz 1 return del helper insert key heap bool inserthelp int key bool ret fals heapsiz max_heap_s ret true heapsiz heapsiz key heapifi heapsiz return ret specil heap defin maxheap class maxheap public heap privat public maxheap heap new int max_heap_s greater maxheap wrapper return root max heap int gettop return top wrapper delet return root max heap int extracttop return deletetop wrapper return element max heap int getcount return count wrapper insert max heap bool insert int key return inserthelp key specil heap defin minheap class minheap public heap privat public minheap heap new int max_heap_s smaller minheap wrapper return root min heap int gettop return top wrapper delet return root min heap int extracttop return deletetop wrapper return element min heap int getcount return count wrapper insert min heap bool insert int key return inserthelp key function implement algorithm find median far 
+int getmedian int e int heap l heap r heap balanc 
+ye sig 0 int sig signum l getcount r getcount switch sig case 1 element left max heap e current element fit left max heap remor top element left heap insert right heap r insert l extracttop current element fit left max heap l insert e els current element fit right min heap r insert e heap balanc averag l gettop r gettop break case 0 left right heap contain number element e current element fit left max heap l insert e l gettop els current element fit right min heap r insert e r gettop break case 1 element right min heap e current element fit left max heap l insert e els remov top element right heap insert left heap l insert r extracttop current element fit right min heap r insert e heap balanc averag l gettop r gettop break need return alreadi updat return void printmedian int int size int 0 effect median heap left new maxheap heap right new minheap int 0 size getmedian left right cout endl c flexibl ensur leak delet left delet right driver code int main int 5 15 1 3 2 8 7 9 10 6 11 4 int size array_s lieu also use data read stream printmedian size return 0 time complex omit way stream read complex median find n log n need read stream due heap insert delet 
+first glanc code may look complex 
+read code care simpl algorithm 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

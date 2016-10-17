@@ -1,0 +1,13 @@
+given binari tree print corner node level 
+node leftmost node rightmost 
+exampl output follow 15 10 20 8 25 strongli recommend minim browser tri first 
+simpl solut two travers use approach discuss print left view right view 
+print corner node use one travers 
+idea use level order travers 
+find first node use variabl isfirst 
+separ level enqueu null everi level 
+level order travers see null know next node would first node level therefor set isfirst 
+special case consid tree like 
+1 2 3 output tree 1 2 3 need make sure level one node handl node print 
+purpos maintain separ variabl ison 
+c c c program print corner node level binari tree includ bit stdc h use namespac std binari tree node key pointer left child pointer right child struct node int key struct node left right creat newnod tree return pointer struct node newnod int key node temp new node temp key key temp left temp right null return temp function print corner node level void printcorn node root star node keep track level queue node q push root node star node q push root q push null isfirst true left node level print bool isfirst fals ison true level one node bool ison fals last store right node level int last level order travers binari tree q empti dequeu front node queue node temp q front q pop isfirst true temp leftmost node isfirst cout temp key temp left q push temp left temp right q push temp right make isfirst fals one 1 isfirst fals ison true els temp separ two level els temp null insert new separ item queue q size 1 q push null make isfirst true next node leftmost node level isfirst true print last node level contain singl node otherwis singl node print twice ison cout last els store current key last last temp key make ison fals signifi level one node ison fals temp left q push temp left temp right q push temp right driver program test function int main node root newnod 15 root left newnod 10 root right newnod 20 root left left newnod 8 root left right newnod 12 root right left newnod 16 root right right newnod 25 printcorn root return 0 

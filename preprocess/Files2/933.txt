@@ -1,0 +1,11 @@
+switch control statement allow valu chang control execut 
+follow simpl program demonstr syntax switch 
+includ stdio h int main int x 2 switch x case 1 printf choic 1 break case 2 printf choic 2 break case 3 printf choic 3 break default printf choic 1 2 3 break return 0 output choic 2 follow interest fact switch statement 
+1 express use switch must integr type int char enum 
+type express allow 
+float allow switch includ stdio h int main float x 1 1 switch x case 1 1 printf choic 1 break default printf choic 1 2 3 break return 0 output compil error switch quantiti integ java string also allow switch see 2 statement follow match case execut break statement reach 
+break case includ stdio h int main int x 2 switch x case 1 printf choic 1 n case 2 printf choic 2 n case 3 printf choic 3 n default printf choic 1 2 3 n return 0 output choic 2 choic 3 choic 1 2 3 break case includ stdio h int main int x 2 switch x case 1 printf choic 1 n case 2 printf choic 2 n case 3 printf choic 3 n case 4 printf choic 4 n break default printf choic 1 2 3 4 n break printf switch return 0 output choic 2 choic 3 choic 4 switch 3 default block place anywher 
+posit default matter still execut match found 
+default block place case 
+includ stdio h int main int x 4 switch x default printf choic 1 2 break case 1 printf choic 1 break case 2 printf choic 2 break return 0 output choic 1 2 4 integr express use label must constant express program variabl express label includ stdio h int main int x 2 int arr 1 2 3 switch x case arr 0 printf choic 1 n case arr 1 printf choic 2 n case arr 2 printf choic 3 n return 0 output compil error case label reduc integ constant 5 statement written case never execut switch statement control transfer match case statement execut case execut 
+statement case never execut includ stdio h int main int x 1 switch x x x 1 statement execut case 1 printf choic 1 break case 2 printf choic 2 break default printf choic 1 2 break return 0 output choic 1 6 two case label cannot valu program two case label valu includ stdio h int main int x 1 switch x case 2 printf choic 1 break case 1 1 printf choic 2 break return 0 output compil error duplic case valu pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

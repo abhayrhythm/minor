@@ -1,0 +1,24 @@
+predict output follow program 
+includ iostream use namespac std class test privat test int main program compil run fine 
+compil error creat privat destructor 
+say program 
+includ iostream use namespac std class test privat test int main test program fail compil 
+compil notic local variabl cannot destruct destructor privat 
+program 
+includ iostream use namespac std class test privat test int main test program work fine 
+object construct program creat pointer type test noth destruct 
+program 
+includ iostream use namespac std class test privat test int main test new test program also work fine 
+someth creat use dynam memori alloc programm respons delet 
+compil bother 
+program fail compil 
+call delet desturctor call 
+includ iostream use namespac std class test privat test int main test new test delet notic program class privat destructur dynam object class creat 
+follow way creat class privat destructor function friend class 
+function delet object 
+includ iostream class privat destuctor class test privat test friend void destructtest test function destruct object test void destructtest test ptr delet ptr int main creat object test ptr new test destruct object destructtest ptr return 0 use privat destructor 
+whenev want control destruct object class make destructor privat 
+dynam creat object may happen pass pointer object function function delet object 
+object refer function call refer becom dangl 
+see detail 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,2 @@
+write one line c function return posit first 1 right left binari represent integ 
+p 18 binari represent 010010 p 2 p 19 binari represent 010011 p 1 let p 12 1100 algorithm exampl 18 010010 1 take two complement given bit revert except first 1 right left 10111 2 bit wise origin return requir one 00010 3 take log2 get posit 1 1 4 add 1 2 program includ stdio h includ math h unsign int getfirstsetbitpo int n return log2 n n 1 int main int n 12 printf u getfirstsetbitpo n getchar return 0 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

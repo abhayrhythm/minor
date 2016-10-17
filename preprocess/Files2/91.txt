@@ -1,0 +1,5 @@
+fibonacci number number follow integ sequenc 
+0 1 1 2 3 5 8 13 21 34 55 89 144 mathemat term sequenc fn fibonacci number defin recurr relat fn fn 1 fn 2 seed valu f0 0 f1 1 write function int fib int n return fn 
+exampl n 0 fib return 0 n 1 return 1 n 1 return fn 1 fn 2 output 34 follow differ method get nth fibonacci number 
+method 1 use recurs simpl method direct recurs implement mathemat recurr relat given 
+c fibonacci seri use recurs includ stdio h int fib int n n 1 return n return fib n 1 fib n 2 int main int n 9 printf fib n getchar return 0 

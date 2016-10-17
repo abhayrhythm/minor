@@ -1,0 +1,19 @@
+given matrix charact 
+find length longest path given charact charact path consecut e everi charact path next previou alphabet order 
+allow move 8 direct cell 
+exampl input mat c h b e g f start point e output 5 start point e longest path consecut charact e f g h 
+input mat r c b e f h c start point b output 1 c present adjac cell b strongli recommend minim browser tri first 
+idea first search given start charact given matrix 
+depth first search df occurr find consecut path 
+df may encount mani subproblem 
+use dynam program store result subproblem 
+implement idea 
+c c program find longest consecut path includ bit stdc h defin r 3 defin c 3 use namespac std tool matric recur adjac cell 
+int x 0 1 1 1 1 0 1 1 int 1 0 1 1 1 1 0 1 dp j store length longest consecut path start arr j 
+int dp r c check whether mat j valid cell 
+bool isvalid int int j 0 j 0 r j c return fals return true check whether current charact adjac previou charact charact process parent call 
+bool isadjac char prev char curr return curr prev 1 j indic current cell prev charact process parent call also mat j current charact 
+int getlenutil char mat r c int int j char prev cell valid current charact adjac previou one e g 
+adjac b cell alreadi includ path return 0 isvalid j isadjac prev mat j return 0 subproblem alreadi solv return answer dp j 1 return dp j int an 0 initi answer recur path differnt adjac cell store length longest path 
+int k 0 k 8 k an max an 1 getlenutil mat x k j k mat j save answer return return dp j an return length longest path charact consecut 
+function first initi dp array use store result subproblem call recurs df base function getlenutil find max length path int getlen char mat r c char memset dp 1 sizeof dp int an 0 int 0 r int j 0 j c j check possibl start point mat j recur eight adjac cell int k 0 k 8 k an max an 1 getlenutil mat x k j k return an driver program int main char mat r c c h b g f cout getlen mat endl cout getlen mat e endl cout getlen mat b endl cout getlen mat f endl return 0 

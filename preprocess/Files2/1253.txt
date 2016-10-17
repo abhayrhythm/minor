@@ -1,0 +1,27 @@
+given two string first string may contain wild card charact second string normal string 
+write function return true two string match 
+follow allow wild card charact first string 
+match 0 instanc charact set charact 
+
+match one charact 
+exampl g ks match geek match 
+string ge ks match geeksforgeek note end first string 
+g k match gee charact k present second string 
+c c program match wild card charact includ stdio h includ stdbool h main function check two given string match 
+first string may contain wildcard charact bool match char first char second reach end string done first 0 second 0 return true make sure charact present second string 
+function assum first string contain two consecut first first 1 0 second 0 return fals first string contain 
+current charact string match first 
+first second return match first 1 second 1 two possibl consid current charact second string b ignor current charact second string 
+first return match first 1 second match first second 1 return fals function run test case void test char first char second match first second 
+put ye put driver program test function int main test g ks geek ye test ge ks geeksforgeek ye test g k gee k second test pqr pqrst first test abc bcd abcdhghgbcd ye test abc c abcd second must 2 instanc c test c abcd ye test c abcd ye return 0 python python program match wild card charact main function check two given string match 
+first string may contain wildcard charact def match first second reach end string done len first 0 len second 0 return true make sure charact present second string 
+function assum first string contain two consecut len first 1 first 0 len second 0 return fals first string contain 
+current charact string match len first 1 first 0 
+len first 0 len second 0 first 0 second 0 return match first 1 second 1 two possibl consid current charact second string b ignor current charact second string 
+len first 0 first 0 return match first 1 second match first second 1 return fals function run test case def test first second match first second print ye els print driver program test g ks geek ye test ge ks geeksforgeek ye test g k gee k second test pqr pqrst first test abc bcd abcdhghgbcd ye test abc c abcd second must 2 instanc c test c abcd ye test c abcd ye code contribut bhavya jain rohit sikka output ye ye ye ye ye exercis 1 solut non wild charact first string must second string charact second string must match either normal charact wildcard charact first string 
+extend solut work like pattern search solut first string pattern second string text print occurr first string second 
+2 write pattern search function mean mean 0 occurr charact 
+exampl first string b match aaab match abb 
+articl compil vishal chaudhari review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

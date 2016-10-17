@@ -1,0 +1,22 @@
+
+Predict the outputs of following program.
+Difficulty Level: Rookie 
+Question 1
+
+#include <stdio.h>
+int main()
+{
+  int a = 10, b = 20, c = 30;
+  if (c > b > a)
+  {
+    printf("TRUE");
+  }
+  else
+  {
+    printf("FALSE");
+  }
+  getchar();
+  return 0;
+}
+Output: FALSE
+Let us consider the condition inside the if statement. Since there are two greater than (>) operators in expression “c > b > a”, associativity of > is considered. Associativity of > is left to right. So, expression c > b > a is evaluated as ( (c > b) > a ) which is false.

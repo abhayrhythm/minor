@@ -1,0 +1,10 @@
+system use invok oper system command c c program 
+int system const char command note stdlib h cstdlib need includ call system 
+use system execut command run termin oper system allow 
+exampl call system dir window system ls list content directori 
+write c c program compil run program 
+invok gcc program use system 
+see code written linux 
+easili chang code run window 
+c program compil run anoth c program includ bit stdc h use namespac std int main char filenam 100 cout enter file name compil cin getlin filenam 100 build command execut 
+exampl input file name cpp str hold gcc cpp use specifi execut file name string str gcc str str filenam convert string const char system requir paramet type const char const char command str c_str cout compil file use command endl system command cout nrun file system return 0 

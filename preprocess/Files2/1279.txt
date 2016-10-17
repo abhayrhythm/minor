@@ -1,0 +1,14 @@
+given matrix fill g w repres open space g repres guard w repres wall bank 
+replac matrix shortest distanc guard without abl go wall 
+also replac guard 0 wall 1 output matrix 
+expect time complex mn x n matrix 
+exampl open space g guard w wall input g w w w g w w w g output 3 3 2 1 0 2 1 1 2 1 1 2 3 1 2 0 1 1 1 1 1 2 2 1 0 idea bf 
+first enqueu cell contain guard loop till queue empti 
+iter loop dequeu front cell queue four adjac cell cell open area distanc guard calcul yet updat distanc enqueu 
+final bf procedur print distanc matrix 
+c implement idea c program replac matrix shortest distanc guard includ bit stdc h use namespac std store dimens matrix defin 5 defin n 5 data structur queue use bf struct queuenod j distanc store x coordin matrix cell distanc guard respect int j distanc array use get row column number 4 neighbor given cell int row 1 0 1 0 int col 0 1 0 1 return true row number column number rang bool isvalid int int j 0 1 j 0 j n 1 return fals return true return true current cell open area distanc guard calcul yet bool issaf int int j char matrix n int output n matrix j output j 1 return fals return true function replac matrix shortest distanc guard void finddist char matrix n int output n queue queuenod q find guard locat ad queue int 0 int j 0 j n j initi cell 1 output j 1 matrix j g queuenod po j 0 q push po guard 0 distanc output j 0 till queue empti q empti get front cell queue updat adjac cell queuenod curr q front int x curr curr j dist curr distanc adjac cell int 0 4 adjac cell valid path visit yet en queue 
+issaf x row col matrix output isvalid x row col output x row col dist 1 queuenod po x row col dist 1 q push po dequeu front cell distanc found q pop print output matrix int 0 int j 0 j n j cout std setw 3 output j cout endl driver code int main char matrix n g w w w g w w w g finddist matrix return 0 output 3 3 2 1 0 2 1 1 2 1 1 2 3 1 2 0 1 1 1 1 1 2 2 1 0 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

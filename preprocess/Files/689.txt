@@ -1,0 +1,37 @@
+
+
+Started with 2 simple data structure programs and 30 aptitude questions; luckily cleared this round and qualified for the in-person interview.
+I was asked only data structure questions in both technical one and two.
+Longest sum contiguous sub array. I saw the solution to this question few days before the interview, but during the interview i had no clue whatsoever; and gave some stupid solution to this question; the correct solution will be to use Kadane’s Algorithm.
+Finding duplicates in a String.
+Finding duplicates in an array.
+Given a binary array(having only 0s and 1s), sort it in ascending order(all 0s to left and all 1s to right). I first gave him a O(n*n) solution. He asked me to optimize and give a O(n) solution. He gave me a clue that i’ll have to use two pointers (one from start and one from end to achieve this in a single iteration).
+I answered all questions except the first one correctly and also showed my interest towards this company by asking questions about the company, and so was pushed to the next round.
+
+Next round
+It was about what was asked in first round? How was the day? etc. Later he asked me few data structure questions.
+
+Given an array with numbers from 1-100 arranged in random order; if one number is missing, find that missing number.
+I told him we could sum all elements in array, for which we’ll get a sum, which can be subtracted from sum of first 100 elements ((100*101)/2=5050) to get the missing number. He was happy with this answer and so moved to next question.
+Given an array with numbers from 1-100 arranged in random order; if one number is missing, and instead of that one number, some other number is duplicated so find that missing number.
+I told him we could solve this efficiently using Hash table, but he told me try without using the same.
+So later, gave him solution using the positive difference of first 100 elements and the sum of elements in array; I think i didn’t give the correct answer for this. But i tried to somehow arrive at most appropriate solution to atleast satisfy the interviewer and he was somewhat ok with it.
+Split an array into 2 halves such that their sum is equal.
+Split an array into 2 halves such that their average is equal.
+I tried some basic solution and failed to pass more than 2 test cases with it. LOL; basically my solution to this question was very POOR. This question must be solved using DP, and i’m not so good at it and so failed to do it. But i didn’t tell him , gave him some solution which solved one or two of the test cases he had given me.
+Then later when given a chance, asked him lots of questions; and made sure i appeared to be interested in this company; luckily was pushed to the HR Round.
+
+HR Round
+This was just fun; with lots of HR Questions. 
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

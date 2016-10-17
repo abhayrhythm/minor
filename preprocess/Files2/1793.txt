@@ -1,0 +1,28 @@
+previou post introduc union find algorithm use detect cycl graph 
+use follow union find oper subset 
+naiv implement find int find int parent int parent 1 return return find parent parent naiv implement union void union int parent int x int int xset find parent x int yset find parent parent xset yset union find naiv worst case time complex linear 
+tree creat repres subset skew becom like link list 
+follow exampl worst case scenario 
+let 4 element 0 1 2 3 initi element singl element subset 
+0 1 2 3 union 0 1 1 2 3 0 union 1 2 2 3 1 0 union 2 3 3 2 1 0 oper optim log n worst case 
+idea alway attach smaller depth tree root deeper tree 
+techniqu call union rank 
+term rank prefer instead height path compress techniqu discuss use rank alway equal height 
+also size place height tree also use rank 
+use size rank also yield worst case time complex logn see prrof let us see exampl union rank initi element singl element subset 
+0 1 2 3 union 0 1 1 2 3 0 union 1 2 1 3 0 2 union 2 3 1 0 2 3 second optim naiv method path compress 
+idea flatten tree find call 
+find call element x root tree return 
+find oper travers x find root 
+idea path compress make found root parent x travers intermedi node 
+x root subtre path root node x also compress 
+let subset 0 1 9 repres find call element 3 
+9 4 5 6 0 3 7 8 1 2 find call 3 travers find 9 repres subset 
+path compress also make 3 child 9 find call next time 1 2 3 path root reduc 
+9 4 5 6 3 0 7 8 1 2 two techniqu complement 
+time complex oper becom even smaller logn 
+fact amort time complex effect becom small constant 
+follow union rank path compress base implement find cycl graph 
+union rank path compress base program detect cycl graph includ stdio h includ stdlib h structur repres edg graph struct edg int src dest structur repres graph struct graph v number vertic e number edg int v e graph repres array edg struct edg edg struct subset int parent int rank creat graph v vertic e edg struct graph creategraph int v int e struct graph graph struct graph malloc sizeof struct graph graph v v graph e e graph edg struct edg malloc graph e sizeof struct edg return graph util function find set element use path compress techniqu int find struct subset subset int find root make root parent path compress subset parent subset parent find subset subset parent return subset parent function union two set x use union rank void union struct subset subset int x int int xroot find subset x int yroot find subset attach smaller rank tree root high rank tree union rank subset xroot rank subset yroot rank subset xroot parent yroot els subset xroot rank subset yroot rank subset yroot parent xroot rank make one root increment rank one els subset yroot parent xroot subset xroot rank main function check whether given graph contain cycl int iscycl struct graph graph int v graph v int e graph e alloc memori creat v set struct subset subset struct subset malloc v sizeof struct subset int v 0 v v v subset v parent v subset v rank 0 iter edg graph find set vertic everi edg set cycl graph 
+int e 0 e e e int x find subset graph edg e src int find subset graph edg e dest x return 1 union subset x return 0 driver program test function int main let us creat follow graph 0 1 2 int v 3 e 3 struct graph graph creategraph v e add edg 0 1 graph edg 0 src 0 graph edg 0 dest 1 add edg 1 2 graph edg 1 src 1 graph edg 1 dest 2 add edg 0 2 graph edg 2 src 0 graph edg 2 dest 2 iscycl graph printf graph contain cycl els printf graph contain cycl return 0 output graph contain cycl relat articl union find algorithm set 1 detect cycl undirect graph disjoint set data structur java implement greedi algorithm set 2 kruskal minimum span tree algorithm job sequenc problem set 2 use disjoint set refer http en wikipedia org wiki disjoint set_data_structur iitd video lectur pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,15 @@
+number n call bleak cannot repres sum posit number x set bit count x e x countsetbit x equal n non neg number x exampl input n 3 output fals 3 bleak repres 2 countsetbit 2 
+input n 4 output true 4 bleak cannot repres sum number x countsetbit x number x method 1 simpl bool isbleak n 1 consid number smaller n x countsetbit x n return fals 2 return true c implement simpl approach 
+simpl c program check bleak number includ bit stdc h use namespac std function get set bit binari represent pass binari 
+int countsetbit int x unsign int count 0 x x x 1 count return count return true n bleak bool isbleak int n check number x smaller n x countsetbit x becom n n bleak int x 1 x n x x countsetbit x n return fals return true driver code int main isbleak 3 
+cout ye n cout n isbleak 4 
+cout ye n cout n return 0 output ye time complex solut n log n 
+method 2 effici idea base fact largest count set bit number smaller n cannot exceed ceil log2n 
+need check number rang n ceilinglog2 n n bool isbleak n 1 consid number n ceil log2n n 1 x countsetbit x n return fals 2 return true c implement idea 
+effici c program check bleak number includ bit stdc h use namespac std function get set bit binari represent pass binari 
+int countsetbit int x unsign int count 0 x x x 1 count return count function return ceil log x base 2 exampl return 3 8 4 9 int ceillog2 int x int count 0 x x 0 x x 1 count return count return true n bleak bool isbleak int n check number x smaller n x countsetbit x becom n n bleak int x n ceillog2 n x n x x countsetbit x n return fals return true driver code int main isbleak 3 
+cout ye n cout n isbleak 4 
+cout ye n cout n return 0 output ye time complex log n log n note gcc directli count set bit use __builtin_popcount 
+avoid separ function count set bit 
+c program demonstr __builtin_popcount includ iostream use namespac std int main cout __builtin_popcount 4 endl cout __builtin_popcount 15 return 0 output 1 4 articl contribut rahuain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,14 @@
+given number n count number n length string consecut 1 
+exampl input n 2 output 1 4 string length 2 string 00 01 10 11 string 11 consecut 1 
+input n 3 output 3 8 string length 3 string 000 001 010 011 100 101 110 111 string consecut 1 011 110 111 input n 5 output 19 strongli recommend minim browser tri first 
+revers problem count string without consecut 1 solv use dynam program see solut 
+use solut find requir count use step 
+1 comput number binari string without consecut 1 use approach discuss 
+let count c 2 count possibl binari string consecut 1 2 n n input length 
+3 total binari string consecut 1 2 n c c implement step 
+c program count distinct binari string two consecut 1 includ iostream use namespac std return count n length binari string consecut 1 int countstr int n count binari string without consecut 1 
+see approach discuss http goo gl p8a3sw int n b n 0 b 0 1 int 1 n 1 b 1 b 1 subtract n 1 b n 1 2 n return 1 n n 1 b n 1 driver program test function int main cout countstr 5 endl return 0 output 19 optim time complex solut n 
+optim solut work logn 
+take closer look pattern count string without consecut 1 observ count actual n 2 th fibonacci number n 1 fibonacci number 0 1 1 2 3 5 8 13 21 34 55 89 141 
+n 1 count 0 21 fib 3 n 2 count 1 22 fib 4 n 3 count 3 23 fib 5 n 4 count 8 24 fib 6 n 5 count 19 24 fib 7 find n th fibonacci number log n time see method 4 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

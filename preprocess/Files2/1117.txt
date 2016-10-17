@@ -1,0 +1,23 @@
+given array posit neg number find maximum averag subarray given length 
+exampl input arr 1 12 5 6 50 3 k 4 output maximum averag subarray length 4 begin index 1 maximum averag 12 5 6 50 4 51 4 strongli recommend minim browser tri first 
+simpl solut run two loop 
+outer loop pick start point inner loop goe till length k start point comput averag element 
+time complex solut n k 
+better solut creat auxiliari array size n store cumul sum element array 
+let array csum 
+csum store sum element arr 0 arr 
+csum array us comput sum two index 1 time 
+c implement idea 
+one observ subarray given length maximum averag maximum sum 
+avoid float point arithmet compar sum 
+c program find maximum averag subarray given length 
+includ bit stdc h use namespac std return begin index maximum averag subarray length k int findmaxaverag int arr int n int k check k valid k n return 1 creat fill array store cumul sum 
+csum store sum arr 0 arr int csum new int n csum 0 arr 0 int 1 n csum csum 1 arr initi max_sm sum first subarray int max_sum csum k 1 max_end k 1 find sum subarray updat max_sum requir 
+int k n int curr_sum csum csum k curr_sum max_sum max_sum curr_sum max_end delet csum avoid memori leak return start index return max_end k 1 driver program int main int arr 1 12 5 6 50 3 int k 4 int n sizeof arr sizeof arr 0 cout maximum averag subarray length k begin index findmaxaverag arr n k return 0 output maximum averag subarray length 4 begin index 1 time complex solut n requir n auxiliari space 
+avoid need extra space use effici method 
+1 comput sum first k element e element arr 0 k 1 
+let sum sum 
+initi max_sum sum 2 follow everi element arr vari k n 1 remov arr k sum add arr e sum arr arr k b new sum becom max_sum far updat max_sum 
+3 return max_sum c program find maximum averag subarray given length 
+includ bit stdc h use namespac std return begin index maximum averag subarray length k int findmaxaverag int arr int n int k check k valid k n return 1 comput sum first k element int sum arr 0 int 1 k sum arr int max_sum sum max_end k 1 comput sum remain subarray int k n int sum sum arr arr k sum max_sum max_sum sum max_end return start index return max_end k 1 driver program int main int arr 1 12 5 6 50 3 int k 4 int n sizeof arr sizeof arr 0 cout maximum averag subarray length k begin index findmaxaverag arr n k return 0 output maximum averag subarray length 4 begin index 1 time complex method also n requir constant extra space 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

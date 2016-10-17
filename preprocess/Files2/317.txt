@@ -1,0 +1,25 @@
+introduc discuss karger algorithm set 1 
+1 initi contract graph cg copi origin graph 2 2 vertic 
+pick random edg u v contract graph 
+b merg contract u v singl vertex updat contract graph 
+c remov self loop 3 return cut repres two vertic 
+discuss previou post karger algorithm alway find min cut 
+post probabl find min cut discuss 
+probabl cut produc karger algorithm min cut greater equal 1 n2 proof let uniqu min cut given graph let c edg min cut edg e1 e2 e3 ec 
+karger algorithm would produc min cut none edg set e1 e2 e3 ec remov iter main loop algorithm 
+c number edg min cut total number edg n total number vertic s1 event one edg e1 e2 e3 ec chosen 1st iter 
+s2 event one edg e1 e2 e3 ec chosen 2nd iter 
+s3 event one edg e1 e2 e3 ec chosen 3rd iter 
+cut produc karger algorithm would min cut none event happen 
+requir probabl p s1 s2 s3 probabl min cut edg chosen first iter let us calcul p s1 p s1 c p s1 1 c valu term edg let us convert term n vertic use 2 fact 1 sinc size min cut c degre vertic must greater equal c 2 per handshak lemma sum degre vertic 2m two fact conclud 
+n c 2m nc 2 p s1 c cn 2 2 n p s1 c cn 2 2 n p s1 1 2 n 1 probabl min cut edg chosen second iter p s1 s2 p s2 s1 p s1 express know valu p s1 1 2 n p s2 s1 condit probabl min cut chosen second iter given chosen first iter sinc total n 1 edg left number cut edg still c replac n n 1 inequ 1 
+get 
+p s2 s1 1 2 n 1 p s1 s2 1 2 n x 1 2 n 1 probabl min cut edg chosen iter p s1 s2 s3 sn 2 1 2 n 1 2 n 1 1 2 n 2 1 2 n 3 1 2 n n 4 1 2 n n 3 n 2 n n 3 n 1 n 4 n 2 2 4 2 3 2 n n 1 1 n2 increas probabl success 
+probabl success basic algorithm less 
+exampl graph 10 node probabl find min cut greater equal 1 100 
+probabl increas repeat run basic algorithm return minimum cut found 
+applic 1 war situat parti would interest find minimum number link break commun network enemi 
+2 min cut problem use studi reliabl network smallest number edg fail 
+3 studi network optim find maximum flow 
+4 cluster problem edg like associ rule match problem nc algorithm min cut direct graph would result nc algorithm maximum match bipartit graph 5 match problem nc algorithm min cut direct graph would result nc algorithm maximum match bipartit graph sourc http www youtub com watch v uuivvyhpa http disi unal edu co gjhernandezp psc lectur 02 mincut pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

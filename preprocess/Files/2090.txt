@@ -1,0 +1,19 @@
+
+In C++, following operators can not be overloaded:
+.     (Member Access or Dot operator)
+?:   (Ternary or Conditional Operator )
+::   (Scope Resolution Operator)
+.*   (Pointer-to-member Operator )
+sizeof (Object size Operator)
+typeid (Object type Operator)
+References:
+http://en.wikibooks.org/wiki/C++_Programming/Operators/Operator_Overloading
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

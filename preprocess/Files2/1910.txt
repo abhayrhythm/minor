@@ -1,0 +1,7 @@
+give 12 b 36 write c function macro return 3612 without use arithmet string predefin function 
+strongli recommend minim browser tri first 
+one solut use string token past oper c macro 
+exampl express b print concaten b 
+work c code 
+includ stdio h defin merg b b int main void printf merg 12 36 return 0 output 3612 thank anonym user suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

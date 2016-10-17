@@ -1,0 +1,26 @@
+given weight direct acycl graph dag sourc vertex find longest distanc sourc vertex vertic given graph 
+exampl consid direct acycl graph longest distanc vertic sourc vertex 1 graph int_min 0 2 9 8 10 alreadi discuss find longest path direct acycl graph dag set 1 post discuss anoth interest solut find longest path dag use algorithm find shortest path dag 
+idea negat weight path find shortest path graph 
+longest path two given vertic weight graph g thing shortest path graph g deriv g chang everi weight negat 
+therefor shortest path found g longest path also found g step step process find longest path chang weight everi edg given graph negat initi distanc vertic infinit distanc sourc 0 find topolog sort graph repres linear order graph 
+consid vertex u topolog order guarante consid everi incom edg 
+e 
+alreadi found shortest path vertex use info updat shorter path adjac vertic 
+topolog order one one process vertic topolog order 
+everi vertex process updat distanc adjac vertex use shortest distanc current vertex sourc vertex edg weight 
+e 
+everi adjac vertex v everi vertex u topolog order dist v dist u weight u v dist v dist u weight u v found shortest path sourc vertex longest path negat shortest path 
+c implement c program find singl sourc longest distanc dag includ bit stdc h use namespac std graph repres use adjac list 
+everi node adjac list contain vertex number vertex edg connect 
+also contain weight edg class adjlistnod int v int weight public adjlistnod int _v int _w v _v weight _w int getv return v int getweight return weight graph class repres direct graph use adjac list represent class graph int v 
+vertic pointer array contain adjac list list adjlistnod adj function use df void longestpathutil int vector bool stack int public graph int constructor graph destructor function add edg graph void addedg int int int void longestpath int graph graph int v constructor v v adj new list adjlistnod v graph graph destructor delet adj void graph addedg int u int v int weight adjlistnod node v weight adj u push_back node add v u list recurs function use longestpath 
+see link detail 
+http www geeksforgeek org topolog sort void graph longestpathutil int v vector bool visit stack int stack mark current node visit visit v true recur vertic adjac vertex adjlistnod node adj v visit node getv longestpathutil node getv visit stack push current vertex stack store topolog sort stack push v function topolog sort find longest distanc given sourc vertex void graph longestpath int initi distanc vertic infinit distanc sourc 0 int dist v int 0 v dist int_max dist 0 stack int stack mark vertic visit vector bool visit v fals int 0 v visit fals longestpathutil visit stack process vertic topolog order stack empti get next vertex topolog order int u stack top stack pop dist u int_max updat distanc adjac vertic edg u v exist adjlistnod v adj u consid neg weight edg find shortest path dist v getv dist u v getweight 1 dist v getv dist u v getweight 1 print calcul longest distanc int 0 v dist int_max cout int_min els cout dist 1 driver code int main graph g 6 g addedg 0 1 5 g addedg 0 2 3 g addedg 1 3 6 g addedg 1 2 2 g addedg 2 4 4 g addedg 2 5 2 g addedg 2 3 7 g addedg 3 5 1 g addedg 3 4 1 g addedg 4 5 2 int 1 cout follow longest distanc sourc vertex n g longestpath return 0 output follow longest distanc sourc vertex 1 int_min 0 2 9 8 10 time complex time complex topolog sort v e 
+find topolog order algorithm process vertic everi vertex run loop adjac vertic 
+total adjac vertic graph e inner loop run v e time 
+therefor overal time complex algorithm v e 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

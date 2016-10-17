@@ -1,0 +1,7 @@
+array size n given 
+array contain digit 0 9 gener largest number use digit array number divis 2 3 5 exampl array 1 8 7 6 0 output must 8760 array 7 7 7 6 output must number form 
+sourc amazon interview set 7 problem variat find largest multipl 3 
+sinc number divis 2 5 last digit 0 given array contain zero solut exist 
+0 avail extract 0 given array 
+thing left number divis 3 largest 
+discuss 

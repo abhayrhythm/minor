@@ -1,0 +1,7 @@
+atoi function take string repres integ argument return valu 
+follow simpl implement 
+initi result 0 start first charact updat result everi charact 
+c c simpl c program implement atoi includ stdio h simpl atoi function int myatoi char str int re 0 initi result iter charact input string updat result int 0 str 0 re re 10 str 0 return result 
+return re driver program test function int main char str 89789 int val myatoi str printf val return 0 python python program implement atoi simpl atoi function def myatoi string re 0 iter charact input string updat result xrang len string re re 10 ord string ord 0 return re driver program string 89789 print myatoi string code contribut bhavya jain output 89789 function handl neg number 
+follow simpl extens handl neg number 
+c c program implement atoi includ stdio h simpl atoi function int myatoi char str int re 0 initi result int sign 1 initi sign posit int 0 initi index first digit number neg updat sign str 0 sign 1 also updat index first digit iter digit updat result str 0 re re 10 str 0 return result sign return sign re driver program test function int main char str 123 int val myatoi str printf val return 0 

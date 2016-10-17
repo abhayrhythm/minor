@@ -1,0 +1,36 @@
+
+Assumptions and Conclusions : In these type of questions, we are given a conclusion and we have to find the most appropriate assumption from the given options.
+Courses of action : In these type of questions, we are given a scenario and a set of statements. We have to select a course of action that would be appropriate.
+Sample Problems
+Question 1 : Read the following statement and select the most appropriate assumption:
+Statement – The constable has been recommended for suitable reward by his superior in recognition of his sincere duty and busting of several gangs of criminal activity involved in the loot and incidents of pick pocketing.
+Assumption 1 : The superior is certain that the recommendation would be denied
+Assumption 2 : The number of criminals apprehended by this constable was exceptionally high
+Assumption 3 : The constable desires to be monetarily compensated for his efforts
+Assumption 4 : The superior wants to set an example for his other juniors by recommending the reward
+Assumption 5 : Rewards recognizing the sincerity and accomplishments of policemen are given
+Solution : Assumption 1 is incorrect as if he was certain that the recommendation would be denied, he would have never made it in the first place.
+Assumption 2 is incorrect because the number of criminals apprehended in not mentioned anywhere.
+Assumption 3 is incorrect because no such data about monetary reward is mentioned in the statement.
+Assumption 4 is incorrect because no thought of setting the example is mentioned in the statement. The constable is being rewarded for his efforts and not for the want of the senior policeman.
+Assumption 5 is the most appropriate option because it states that rewards are given. That is the reason why the senior policeman has recommended a suitable required for the constable.
+Thus, option 5 is the correct choice.
+ 
+Question 2 : For the given statement, which of the following courses of action are justified :
+Statement – Private airlines have increased their fare by almost 50 % .
+Course of Action 1 : People should be advised to travel only by buses and trains which have less fare
+Course of Action 2 : Airfares should be regulated by the controlling authority
+Solution : Course of action 1 is not feasible because there may be people who have to reach urgently to some place. Travelling by bus/train takes more time than travelling by air.
+Course of action 2 is justified as the airfares should not be increased over a certain limit and restrict the airline companies from exploiting the passengers.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

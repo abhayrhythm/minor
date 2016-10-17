@@ -1,0 +1,14 @@
+given two integ write function multipli without use multipl oper 
+mani way multipli two number exampl see 
+one interest method russian peasant algorithm 
+idea doubl first number halv second number repeatedli till second number becom 1 process whenev second number becom odd add first number result result initi 0 follow simpl algorithm 
+let two given number b 1 initi result re 0 
+2 follow b greater 0 b odd add re b doubl halv b 3 return re 
+includ iostream use namespac std method multipli two number use russian peasant method unsign int russianpeas unsign int unsign int b int re 0 initi result second number becom 1 b 0 second number becom odd add first number result b 1 re re doubl first number halv second number 1 b b 1 return re driver program test function int main cout russianpeas 18 1 endl cout russianpeas 20 12 endl return 0 output 18 240 work 
+valu b 2 b 2 b even otherwis valu 2 b 2 
+loop keep multipli 2 keep divid b 2 b becom odd loop add re 
+valu b becom 1 valu re give us result 
+note b power 2 re would remain 0 would multipl 
+see refer inform 
+refer http mathforum org dr math faq faq peasant html articl compil shalki agarw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

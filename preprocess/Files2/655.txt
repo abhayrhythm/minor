@@ -1,0 +1,68 @@
+hi recent interview sde1 posit amazon got select 
+1 5 year experi java 
+geeksforgeek help lot 
+thank geeksforgeek team 
+follow interview question two telephon round follow 5 f2f interview 
+round 1 telephon 1 dictionari alreadi implement 
+write method take input string without space print subset input string present dictionari 
+exampl dictionari input aaabaa output aa aa aaa aa 2 dictionari alreadi implement 
+write method take input string without space replac charact string present dictionari exampl dictionari input aaabaa output aaa_aa interview cool 
+code properli lot bug code gave good approach first question 
+second question solut sent mail 
+round 2 telephon 1 write program remov duplic array prime number 
+2 write program return nearest element binari search tree input element 
+round good 
+interview happi approach question 
+code big bug 
+round 1 f2f problem solv code 1 tell 
+2 write program find top 10 element array integ 
+rememb much 
+question easi 
+round good 
+interview happi solut 
+3 write program calcul b store float point represent 
+round 2 f2f comput fundament 1 tell experi past job 
+2 oop concept polymorph inherit encapsul abstract 
+3 aggreg composit 
+4 design pattern implement 
+5 write code implement singleton design pattern 
+6 design system implement option pack card 
+7 differ window unix 
+8 thread synchron deadlock 
+9 subject studi academ 
+10 challeng work ever face 
+11 discuss current project role 
+round fair enough 
+abl discuss question subject studi academ 
+round 3 f2f data structur algorithm 1 tell 
+2 2d array 
+write code find path maximum sum 
+travers 1 j 1 row number j column number 
+solv use dynam program 3 binari tree find least common ancestor two node 
+write code 4 similar 3rd question 
+write program find least common ancestor binari search tree 
+round good 
+finish 40 min 
+round 4 f2f manageri round 1 tell 
+2 copi link list orbit pointer 
+3 write code find top hundr element data set cannot load ram 
+4 typic parenthesi check problem 
+5 challeng work ever face 
+6 get task ambigu 
+7 extend frustrat alway get ambigu problem 
+8 mani member team current organ 
+role 
+question current project 
+interview cool friendli 
+round 5 f2f bar raiser round 1 tell 
+2 discuss current project 
+3 write program find number invers array 
+exampl array 2 5 3 1 10 invers 2 1 5 1 3 1 5 3 answer 4 gave solut complex nlogn 
+interview gave hint 
+hint divid conquer approach 
+ask write code bug 
+articl compil neha gupta 
+mani mani congratul neha 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

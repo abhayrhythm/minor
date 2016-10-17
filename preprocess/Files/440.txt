@@ -1,0 +1,32 @@
+
+We have discussed Introduction to Binary Tree in set 1 and Properties of Binary Tree in Set 2.  In this post, common types of binary is discussed.
+Following are common types of Binary Trees.
+Full Binary Tree A Binary Tree is full if every node has 0 or 2 children.  Following are examples of full binary tree.
+
+               18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+
+
+             18
+           /    \   
+         15     20    
+        /  \       
+      40    50   
+    /   \
+   30   50
+
+
+
+               18
+            /     \  
+          40       30  
+                   /  \
+                 100   40
+
+In a Full Binary, number of leaf nodes is number of internal nodes plus 1
+       L = I + 1
+Where L = Number of leaf nodes,   I = Number of internal nodes
+See Handshaking Lemma and Tree for proof.

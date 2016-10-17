@@ -1,0 +1,34 @@
+rank matrix 
+rank matrix size x n defin maximum number linearli independ column vector matrix b maximum number linearli independ row vector matrix 
+strongli recommend click practic move solut 
+exampl input mat 10 20 10 20 40 20 30 50 0 output rank 2 explan ist iind row linearli depend 
+ist 3rd iind iiird independ 
+input mat 10 20 10 20 30 10 30 50 0 output rank 2 explan ist iind row linearli independ 
+rank must atleast 2 three row linearli depend first equal sum second third rank must less 3 word rank largest order non zero minor order minor side length squar sub matrix determin 
+n maximum rank els n gener rank matrix greater min n 
+rank matrix would zero matrix non zero element 
+matrix even one non zero element minimum rank would one 
+find rank 
+idea base convers row echelon form 
+1 let input matrix mat 
+initi rank equal number column visit row row travers previou row make sure mat row 0 mat row row 1 0 
+2 follow row 0 rank 1 
+mat row row zero make element current column 0 except element mat row row find appropri multipli ad multipl row row b els mat row row zero 
+two case aris row non zero entri column swap current row row 
+ii element current column mat r row 0 remov column swap last column reduc number rank 1 reduc row 1 row process 
+3 number remain column rank matrix 
+exampl input mat 10 20 10 20 30 10 30 50 0 row 0 sinc mat 0 0 0 case 2 algorithm 
+set entri 0 th column 0 except entri mat 0 0 
+subtract r1 2 r2 e r2 r2 r1 2 mat 10 20 10 0 10 30 30 50 0 subtract r1 3 r3 e r3 r3 r1 3 mat 10 20 10 0 10 30 0 10 30 row 1 sinc mat 1 1 0 case 2 algorithm 
+set entri 1st column 0 except entri mat 1 1 
+subtract r2 2 r1 e r1 r1 r2 2 mat 10 0 50 0 10 30 0 10 30 subtract r2 1 r3 e r3 r3 r2 1 mat 10 0 50 0 10 30 0 0 0 row 2 sinc sinc mat 2 2 0 case 2 b algorithm 
+sinc row swap 
+reduc rank 1 keep row 2 loop iter next time loop termin condit row rank 1 return fals 
+c implement idea 
+c program find rank matrix includ bit stdc h use namespac std defin r 3 defin c 3 function exchang two row matrix void swap int mat r c int row1 int row2 int col int 0 col int temp mat row1 mat row1 mat row2 mat row2 temp function display matrix void display int mat r c int row int col function find rank matrix int rankofmatrix int mat r c int rank c int row 0 row rank row visit current row row make sure mat row 0 mat row row 1 0 
+diagon element zero mat row row int col 0 col r col col row make entri current column 0 except entri mat row row doubl mult doubl mat col row mat row row int 0 rank mat col mult mat row diagon element alreadi zero 
+two case aris 1 row non zero entri swap row row process row 2 element current column mat r row 0 remvo column swap last column reduc number column 1 els bool reduc true find non zero element current column int row 1 r swap row non zero element row 
+mat row swap mat row rank reduc fals break find row non zero element current columnm valu column 0 reduc reduc number column rank copi last column int 0 r mat row mat rank process row row uncom line see intermedi result display mat r c printf n return rank function display matrix void display int mat r c int row int col int 0 row int j 0 j col j printf mat j printf n driver program test function int main int mat 3 10 20 10 20 30 10 30 50 0 printf rank matrix rankofmatrix mat return 0 output rank matrix 2 sinc rank calcul method involv float point arithmet may produc incorrect result divis goe beyond precis 
+method handl refer http en wikipedia org wiki rank_ 28linear_algebra 29 articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

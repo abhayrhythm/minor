@@ -1,0 +1,20 @@
+given n ari tree everi node n children 
+serial deserialz 
+serial store tree file later restor 
+structur tree must maintain 
+deseri read tree back file 
+post mainli extens post 
+serial deseri binari tree n ari tree design left right children 
+n ari tree repres store array list child pointer everi node 
+idea store end children marker everi node 
+follow diagram show serial use end children marker 
+diagram taken 
+follow c implement idea 
+c program serial deseri n ari tree includ cstdio defin marker defin n 5 use namespac std node n ari tree struct node char key node child n array pointer n children util function creat new n ari tree node node newnod char key node temp new node temp key key int 0 n temp child null return temp function store given n ari tree file point fp void serial node root file fp base case root null return els store current node recur children fprintf fp c root key int 0 n root child serial root child fp store marker end children fprintf fp c marker function construct n ari tree file point fp 
+functionr return 0 indic next item valid tree key 
+els return 0 int deseri node root file fp read next item file 
+theer item next item marker return 1 indic char val fscanf fp c val val marker return 1 els creat node item recur children root newnod val int 0 n deseri root child fp break final return 0 success finish return 0 util function creat dummi tree shown diagram node createdummytre node root newnod root child 0 newnod b root child 1 newnod c root child 2 newnod root child 0 child 0 newnod e root child 0 child 1 newnod f root child 2 child 0 newnod g root child 2 child 1 newnod h root child 2 child 2 newnod root child 2 child 3 newnod j root child 0 child 1 child 0 newnod k return root utliti function travers construct n ari tree void travers node root root printf c root key int 0 n travers root child driver program test function int main let us creat n ari tree shown diagram node root createdummytre let us open file serial tree file file fp fopen tree txt w fp null put could open file return 0 serial root fp fclose fp let us deseri store tree root1 node root1 null fp fopen tree txt r deseri root1 fp printf construct n ari tree file n travers root1 return 0 output construct n ari tree file b e f k c g h j implement optim mani way exampl use vector place array pointer 
+kept way keep simpl read understand 
+articl contribut varun 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

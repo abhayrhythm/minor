@@ -1,0 +1,13 @@
+function call pure function alway return result argument valu side effect like modifi argument global variabl output someth 
+result call pure function return valu 
+exampl pure function strlen pow sqrt etc 
+exampl impur function printf rand time etc 
+function known pure compil loop optim subexpress elimin appli 
+gcc mark function pure use pure attribut 
+__attribute__ pure return type fun name arguments1 function bodi follow exampl pure function return squar pass integ 
+__attribute__ _ pure int my_squar int val return val val consid exampl len 0 len strlen str len printf c toupper str len strlen function mark pure function compil invok strlen function iter loop function mark pure function compil know valu strlen function call compil optim loop gener code like follow 
+int len strlen str 0 len printf c toupper str let us write pure function calcul string length 
+__attribute__ pure size_t my_strlen const char str const char ptr str ptr ptr return ptr str mark function pure say hypothet function my_strlen safe call fewer time program say 
+articl compil narendra kangralkar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

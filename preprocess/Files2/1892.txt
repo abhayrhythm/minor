@@ -1,0 +1,12 @@
+c need read sentenc stream gener prefer way use getlin function 
+read till encount newlin see delimit provid user 
+sampl program c read four sentenc display newlin end simpl c program show work getlin includ iostream includ cstring use namespac std int main string str int 4 read line standard input str getlin cin str cout str newlin endl return 0 sampl input geek expect output newlin newlin geek newlin newlin input output look good may problem input blank line 
+sampl input geek output newlin newlin newlin newlin print last 2 line 
+reason getlin read till enter encount even charact read 
+even noth third line getlin consid singl line 
+observ problem second line 
+code modifi exclud blank line 
+modifi code simpl c program use getlin read input blank line includ iostream includ cstring use namespac std int main string str int 4 getlin cin str keep read new line blank line str length 0 getlin cin str cout str newlin endl return 0 input geek output newlin newlin geek newlin newlin articl contribut sarin nanda 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

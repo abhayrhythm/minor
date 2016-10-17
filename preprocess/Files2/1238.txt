@@ -1,0 +1,65 @@
+manach algorithm part 1 gone basic lp length array 
+see calcul lp length array effici 
+calcul lp array effici need understand lp length posit may relat lp length valu previou alreadi calcul posit 
+string abaaba see follow look around posit 3 lp length valu posit 2 posit 4 lp length valu posit 1 posit 5 calcul lp length valu left right start posit 0 see alreadi know lp length valu posit 1 2 3 alreadi may need calcul lp length posit 4 5 equal lp length valu correspond posit left side posit 3 look around posit 6 lp length valu posit 5 posit 7 lp length valu posit 4 posit 8 
+
+alreadi know lp length valu posit 1 2 3 4 5 6 alreadi may need calcul lp length posit 7 8 9 10 11 equal lp length valu correspond posit left side posit 6 string abababa see follow alreadi know lp length valu posit 1 2 3 4 5 6 7 alreadi may need calcul lp length posit 8 9 10 11 12 13 equal lp length valu correspond posit left side posit 7 see lp length valu symmetr around posit 3 6 9 string abaaba 
+palindrom substr around posit 
+case string abababa around posit 7 alway true lp length valu around palindrom center posit alway symmetr 
+answer 
+look posit 3 11 string abababa 
+posit lp length 3 immedi left right posit symmetr valu 0 next one 
+posit 1 5 around posit 3 symmetr 
+similarli posit 9 13 around posit 11 symmetr 
+point see palindrom string center posit lp length valu around center posit may may symmetr depend situat 
+identifi situat left right posit symmetr around center posit need calcul lp length right posit exactli lp valu correspond posit left side alreadi known 
+fact avoid lp length comput posit make manach algorithm linear 
+situat left right posit symmetr around center posit compar charact left right side find palindrom also algorithm tri avoid certain comparison 
+see scenario soon 
+let introduc term proceed click see clearli centerposit posit lp length calcul let say lp length centerposit e 
+l centerposit centerrightposit posit right centerposit posit away centerposit e 
+centerrightposit centerposit centerleftposit posit left centerposit posit away centerposit e 
+centerleftposit centerposit currentrightposit posit right centerposit lp length yet known calcul currentleftposit posit left side centerposit correspond currentrightposit centerposit currentleftposit currentrightposit centerposit currentleftposit 2 centerposit currentrightposit left palindrom palindrom posit left centerposit e 
+currentleftposit right palindrom palindrom posit right centerposit e 
+currentrightposit center palindrom palindrom centerposit centerposit lp length known also know lp length posit smaller centerposit 
+let say lp length centerposit e 
+l centerposit mean substr posit centerposit centerposit palindrom 
+proceed calcul lp length posit greater centerposit 
+let say currentrightposit centerposit need find lp length 
+look lp length currentleftposit alreadi calcul 
+lp length currentleftposit less centerrightposit currentrightposit lp length currentrightposit equal lp length currentleftposit 
+l currentrightposit l currentleftposit l currentleftposit centerrightposit currentrightposit 
+case 1 let consid scenario string abababa click see clearli calcul lp length posit 7 l 7 7 consid posit 7 centerposit centerleftposit 0 centerrightposit 14 need calcul lp length posit right centerposit 
+currentrightposit 8 currentleftposit 6 l currentleftposit 0 also centerrightposit currentrightposit 14 8 6 case 1 appli l currentrightposit l 8 0 case 1 appli posit 10 12 l 10 l 4 0 l 12 l 2 0 look posit 9 currentrightposit 9 currentleftposit 2 centerposit currentrightposit 2 7 9 5 centerrightposit currentrightposit 14 9 5 l currentleftposit centerrightposit currentrightposit case 1 appli 
+also note centerrightposit extrem end posit string 
+mean center palindrom suffix input string 
+case l currentrightposit l currentleftposit 
+case 2 case 2 appli posit 9 11 13 14 l 9 l 5 5 l 11 l 3 3 l 13 l 1 1 l 14 l 0 0 realli happen case 1 case 2 
+util palindrom symmetr properti without charact match find lp length new posit 
+bigger length palindrom contain smaller length palindrom center left side center base symmetr properti anoth smaller palindrom center right bigger palindrom center 
+left side smaller palindrom prefix bigger palindrom case 1 appli prefix bigger palindrom suffix input string case 2 appli 
+longest palindrom place right current center right palindrom long longest palindrom place left current center left palindrom left palindrom complet contain longest palindrom around current center center palindrom left palindrom prefix center palindrom case 1 e 
+left palindrom prefix center palindrom center palindrom suffix entir string case 2 
+case 1 case 2 right palindrom expand correspond left palindrom visual expand 
+lp length right palindrom exactli lp length left palindrom 
+left right palindrom complet contain center palindrom e 
+l currentleftposit centerrightposit currentrightposit left palindrom prefix center palindrom l currentleftposit centerrightposit currentrightposit mean left palindrom abl expand posit centerleftposit 
+look follow centerposit 11 click see clearli centerleftposit would 11 9 2 centerrightposit would 11 9 20 take currentrightposit 15 currentleftposit 7 case 1 appli l 15 3 left palindrom posit 7 bab complet contain center palindrom posit 11 dbabcbabd 
+see right palindrom posit 15 expand left palindrom posit 7 
+possibl expans left palindrom could expand alreadi 
+possibl left palindrom prefix center palindrom 
+due symmetri properti right palindrom exactli left palindrom expand 
+make l currentrightposit l currentleftposit case 1 consid centerposit 19 centerleftposit 12 centerrightposit 26 take currentrightposit 23 currentleftposit 15 case 2 appli l 23 3 left palindrom posit 15 bab complet contain center palindrom posit 19 babdbab 
+case 2 left palindrom prefix center palindrom right palindrom expand length left palindrom center palindrom suffix input string charact left compar expand 
+make l currentrightposit l currentleftposit case 2 case 1 l currentrightposit l currentleftposit appli left palindrom complet contain center palindrom left palindrom prefix center palindrom condit satisfi l currentleftposit centerrightposit currentrightposit case 2 l currentrightposit l currentleftposit appli left palindrom prefix center palindrom mean complet contain also center palindrom suffix input string condit satisfi l currentleftposit centerrightposit currentrightposit 1st condit centerrightposit 2 n n input string length n 2nd condit 
+case 3 l currentrightposit l currentleftposit appli left palindrom prefix center palindrom left palindrom complet contain center palindrom center palindrom suffix input string condit satisfi l currentleftposit centerrightposit currentrightposit 1st condit centerrightposit 2 n n input string length n 2nd condit 
+case possibl right palindrom expans length right palindrom least long length left palindrom 
+case 4 l currentrightposit centerrightposit currentrightposit appli left palindrom complet contain center palindrom condit satisfi l currentleftposit centerrightposit currentrightposit case length right palindrom least long centerrightposit currentrightposit possibl right palindrom expans 
+follow figur click see clearli take center posit 7 case 3 appli currentrightposit 11 left palindrom currentleftposit 3 prefix center palindrom right palindrom suffix input string l 11 9 greater left palindrom length l 3 3 case guarante l 11 least 3 implement 1st set l 11 3 tri expand compar charact left right side start distanc 4 distanc 3 alreadi known charact match 
+take center posit 11 case 4 appli currentrightposit 15 l currentleftposit l 7 7 centerrightposit currentrightposit 20 15 5 case guarante l 15 least 5 implement 1st set l 15 5 tri expand compar charact left right side start distanc 5 distanc 5 alreadi known charact match 
+one point left discuss work one center posit comput lp length differ rightposit know would next center posit 
+chang centerposit currentrightposit palindrom center currentrightposit expand beyond centerrightposit 
+seen four differ case lp length posit depend previou posit lp length 
+part 3 discuss code implement also look four case differ way implement 
+articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

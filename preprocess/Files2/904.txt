@@ -1,0 +1,25 @@
+articl discuss write multi line macro 
+write multi line macro like function statement end 
+let us see exampl 
+simpl macro accept input number user print whether enter number even odd 
+includ stdio h defin macro num str printf num printf printf number str printf n int main void int num printf enter number scanf num num 1 macro num odd els macro num even return 0 first look code look ok tri compil code give compil error 
+narendra media partit gfg make macro cc macro c macro macro c function main macro c 19 2 error els without previou make macro error 1 narendra media partit gfg let us see mistak write macro 
+enclos macro curli brace 
+accord c languag rule c statement end semicolon 
+end macro semicolon 
+mistak 
+let us see compil expand macro 
+num 1 macro expans semicolon end macro error els macro expans end macro semicolon 
+compil expand macro put semicolon statement 
+semicolon els statement compil give compil error 
+program work fine ignor els part 
+overcom limit enclos macro 0 statement 
+modifi macro look like 
+includ stdio h defin macro num str printf num printf printf number str printf n 0 int main void int num printf enter number scanf num num 1 macro num odd els macro num even return 0 compil run code code work fine 
+narendra media partit gfg make macro cc macro c macro narendra media partit gfg macro enter number 9 9 odd number narendra media partit gfg macro enter number 10 10 even number narendra media partit gfg enclos macro 0 loop end put condit 0 loop execut one time 
+similarli instead 0 loop enclos multi line macro parenthesi 
+achiev result use trick 
+let us see exampl 
+includ stdio h defin macro num str printf num printf printf number str printf n int main void int num printf enter number scanf num num 1 macro num odd els macro num even return 0 narendra media partit gfg make macro cc macro c macro narendra media partit gfg macro enter number 10 10 even number narendra media partit gfg macro enter number 15 15 odd number narendra media partit gfg articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

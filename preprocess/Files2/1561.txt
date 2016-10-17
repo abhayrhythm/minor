@@ -1,0 +1,28 @@
+discuss thread base morri travers 
+inord travers without thread parent pointer avail us 
+input root tree everi node tree parent pointer also 10 5 100 80 120 output 5 10 80 100 120 code extra space recurs stack strongli recommend minim browser tri first 
+inord travers follow left root right 
+move children use left right pointer 
+node visit need move parent also 
+exampl tree need move 10 print 5 purpos use parent pointer 
+algorithm 
+1 initi current node root 2 initi flag leftdon fals 3 follow root null leftdon fals set current node leftmost child node 
+b mark leftdon true print current node 
+c right child current node exist set current right child set leftdon fals 
+els parent exist current node left child parent set current node parent 
+current node right child keep move ancestor use parent pointer current node right child parent 
+e els break reach back root illustr let us consid tree illustr 
+10 5 100 80 120 initi current node 10 leftdon fals sinc leftdon fals move 5 3 print set leftdon true 
+move parent 5 3 
+node 10 print leftdon true 
+move right 10 set leftdon fals 3 c current node 100 sinc leftdon fals move 80 3 set leftdon true 
+print current node 80 move back parent 100 3 
+sinc leftdon true print current node 100 right 100 exist move 120 3 c 
+print current node 120 sinc 120 right child parent keep move parent parent right child parent 
+reach root 
+break loop stop c implement algorithm 
+note implement use binari search tree instead binari tree 
+use function inord binari tree also 
+reason use binari search tree code easi construct binari search tree parent pointer easi test outcom bst inord travers alway sort 
+c c program print inord travers binari search tree bst without recurs stack includ bit stdc h use namespac std bst node struct node node left right parent int key util function creat new bst node node newnod int item node temp new node temp key item temp parent temp left temp right null return temp util function insert new node given key bst node insert node node int key tree empti return new node node null return newnod key otherwis recur tree key node key node left insert node left key node left parent node els key node key node right insert node right key node right parent node return unchang node pointer return node function print inord travers use parent pointer void inord node root bool leftdon fals start travers root root left child travers find leftmost child leftdon root left root root left print root data printf root key mark left done leftdon true right child exist root right leftdon fals root root right right child exist move parent els root parent node right child parent visit parent parent first root parent root root parent right root root parent root parent break root root parent els break int main void node root null root insert root 24 root insert root 27 root insert root 29 root insert root 34 root insert root 14 root insert root 4 root insert root 10 root insert root 22 root insert root 13 root insert root 3 root insert root 2 root insert root 6 printf inord travers n inord root return 0 java java program print inord travers binari search tree without recurs stack bst node class node int key node left right parent public node int key key key left right parent null class binarytre node root util function insert new node given key bst node insert node node int key tree empti return new node node null return new node key otherwis recur tree key node key node left insert node left key node left parent node els key node key node right insert node right key node right parent node return unchang node pointer return node function print inord travers use parent pointer void inord node root boolean leftdon fals start travers root root null left child travers find leftmost child leftdon root left null root root left print root data system print root key mark left done leftdon true right child exist root right null leftdon fals root root right right child exist move parent els root parent null node right child parent visit parent parent first root parent null root root parent right root root parent root parent null break root root parent els break public static void main string arg binarytre tree new binarytre tree root tree insert tree root 24 tree root tree insert tree root 27 tree root tree insert tree root 29 tree root tree insert tree root 34 tree root tree insert tree root 14 tree root tree insert tree root 4 tree root tree insert tree root 10 tree root tree insert tree root 22 tree root tree insert tree root 13 tree root tree insert tree root 3 tree root tree insert tree root 2 tree root tree insert tree root 6 system println inord travers tree inord tree root code contribut mayank jaiswal mayank_24 output inord travers 2 3 4 6 10 13 14 22 24 27 29 34 articl contribut rishi chhibber 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,9 @@
+exampl let input string like program much 
+function chang string much program like strongli recommend click practic move solut 
+algorithm 1 revers individu word get string 
+ekil siht margorp yrev hcum 2 revers whole string start end get desir output 
+much program like includ stdio h function prototyp util function revers string begin end void revers char begin char end function revers word void reverseword char char word_begin char temp temp word boundri step 1 algorithm temp temp temp 0 revers word_begin temp 1 els temp revers word_begin temp 1 word_begin temp 1 end step 2 algorithm revers temp 1 util function function revers sequenc start pointer begin end pointer end void revers char begin char end char temp begin end temp begin begin end end temp driver function test function int main char like program much char temp reverseword printf getchar return 0 output much program like code handl case string start space 
+follow version handl specif case make unnecessari call revers function case multipl space 
+thank rka143 provid version 
+void reverseword char char word_begin null char temp temp word boundri step 1 algorithm temp condit make sure string start valid charact space word_begin null temp word_begin temp word_begin temp 1 temp 1 0 revers word_begin temp word_begin null temp end step 2 algorithm revers temp 1 time complex n pleas write comment find bug code algorithm find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

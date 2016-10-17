@@ -1,0 +1,11 @@
+given sort array n integ integ rang 0 1 n find smallest number miss array 
+exampl input 0 1 2 6 9 n 5 10 output 3 input 4 5 10 11 n 4 12 output 0 input 0 1 2 3 n 4 5 output 4 input 0 1 2 3 4 5 6 7 10 n 9 11 output 8 thank ravichandra suggest follow two method 
+method 1 use binari search 0 1 binari search array 
+present array return time complex log n method 2 linear search arr 0 0 return 0 otherwis travers input array start index 0 pair element 1 find differ 
+differ greater 1 1 miss number 
+time complex n method 3 use modifi binari search thank yasein jam suggest method 
+standard binari search process element search compar middl element basi comparison result decid whether search go left half right half 
+method modifi standard binari search algorithm compar middl element index make decis basi comparison 
+1 first element index return first index 2 els get middl index say mid arr mid greater mid requir element lie left half 
+b els requir element lie right half 
+c includ stdio h int findfirstmiss int array int start int end start end return end 1 start array start return start int mid start end 2 array mid mid return findfirstmiss array start mid els return findfirstmiss array mid 1 end driver program test function int main int arr 0 1 2 3 4 5 6 7 10 int n sizeof arr sizeof arr 0 printf first miss element findfirstmiss arr 0 n 1 getchar return 0 

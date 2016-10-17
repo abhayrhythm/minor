@@ -1,0 +1,18 @@
+given string need print possibl string made place space zero one 
+input str abc output abc ab c bc b c sourc amazon interview experi set 158 round 1 q 1 idea use recurs creat buffer one one contain output string space 
+keep updat buffer everi recurs call 
+length given string n updat string maximum length n n 1 e 
+2n 1 
+creat buffer size 2n one extra charact string termin 
+leav 1st charact start 2nd charact either fill space charact 
+thu one write recurs function like 
+c c c program print permut given string space 
+includ iostream includ cstring use namespac std function recurs print string space pattern 
+j indic str buff respect void printpatternutil char str char buff int int j int n n buff j 0 cout buff endl return either put charact buff j str printpatternutil str buff 1 j 1 n put space follow next charact buff j buff j 1 str printpatternutil str buff 1 j 2 n function creat buf store individu output string use printpatternutil print permut 
+void printpattern char str int n strlen str buffer hold string contain space char buf 2 n 2n 1 charact 1 string termin copi first charact sinc alway first posit buf 0 str 0 printpatternutil str buf 1 1 n driver program test function int main char str abcd printpattern str return 0 python python program print permut given string space 
+util function def tostr list x list x 0 break x return function recurs print string space pattern 
+j indic str buff respect def printpatternutil string buff j n n buff j 0 print tostr buff return either put charact buff j string printpatternutil string buff 1 j 1 n put space follow next charact buff j buff j 1 string printpatternutil string buff 1 j 2 n function creat buf store individu output string use printpatternutil print permut 
+def printpattern string n len string buffer hold string contain space buff 0 2 n 2n 1 charact 1 string termin copi first charact sinc alway first posit buff 0 string 0 printpatternutil string buff 1 1 n driver program string abcd printpattern string code contribut bhavya jain output abcd abc ab cd ab c bcd bc b cd b c time complex sinc number gap n 1 total 2 n 1 patter length rang n 2n 1 
+thu overal complex would n 2 n 
+articl contribut gaurav sharma 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

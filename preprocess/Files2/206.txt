@@ -1,0 +1,12 @@
+given function rand b gener equiprob random number b inclus 
+gener 3 number x z probabl p x p p z p x p p z 1 use given rand b function 
+idea util equiprob featur rand b provid 
+let given probabl percentag form exampl p x 40 p 25 p z 35 follow detail step 
+1 gener random number 1 100 sinc equiprob probabl number appear 1 100 
+2 follow import point note gener random number r 
+r smaller equal p x probabl p x 100 
+b r greater p x smaller equal p x p p 100 
+c r greater p x p smaller equal 100 p x p p z probabl p z 100 
+function gener x probabl px 100 probabl py 100 z probabl pz 100 assumpt px py pz 100 px py pz lie 0 100 int random int x int int z int px int py int pz gener number 1 100 int r rand 1 100 r smaller px probabl px 100 r px return x r greater px smaller equal px py probabl py 100 r px py return r greater px py smaller equal 100 probabl pz 100 els return z function solv purpos gener 3 number given three probabl 
+articl contribut harsh agarw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,31 @@
+
+Re-arrangement questions are of two types : Sentence re-arrangement and passage re-arrangement.
+In sentence re-arrangement, we are given a sentence whose words/group of words are jumbled and we have to make a meaningful sentence out of it.
+In passage re-arrangement, we are given multiple sentences and we have to arrange them such that they make a meaningful paragraph.
+Sample Problems
+Question 1 : Re-arrange the parts of the sentence so as to make a meaningful sentence.
+The prime minister / with the guards / along / has arrived
+Solution : The prime minister along with the guards has arrived
+ 
+Question 2 : Re-arrange the parts of the paragraph so as to make a meaningful passage.
+a) Infact, his belief was that customers are the origin, the source of money any company has.
+b) The owner of Walmart, Sam Walton, built his empire on one principle – Customer is the God.
+c) So it is not the company which pays, the customer does.
+d) The customer thus has the right to fire anybody in the company, from a salesman to the chairman.
+Solution : 
+b) The owner of Walmart, Sam Walton, built his empire on one principle – Customer is the God.
+a) Infact, his belief was that customers are the origin, the source of money any company has.
+c) So it is not the company which pays, the customer does.
+d) The customer thus has the right to fire anybody in the company, from a salesman to the chairman.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

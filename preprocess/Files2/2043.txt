@@ -1,0 +1,6 @@
+c namespac nest resolut namespac variabl hierarch 
+exampl follow code namespac inner creat insid namespac outer insid global namespac 
+line int z x x refer outer x x would outer x would refer x global namespac 
+includ iostream int x 20 namespac outer int x 10 namespac inner int z x x refer outer x int main std cout outer inner z print 10 getchar return 0 output program 10 side node unlik c namespac java packag hierarch 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

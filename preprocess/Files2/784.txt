@@ -1,0 +1,34 @@
+topic c vs c refer variabl function overload default argument inlin function new delet class object static member pointer constructor destructor inherit friend virtual function oper overload except handl templat namespac standard templat librari stl misc c vs java puzzl output question quizz c c vs c write c program compil c name mangl extern c c void differ c c 
+write program produc differ result c c type differ charact liter c c refer variabl refer c refer refer invalid locat c 
+pass argument refer pointer 
+function overload function overload c function overload c function overload const keyword function overload return type overload work inherit 
+main overload c 
+default argument default argument c inlin function inlin function c new delet malloc vs new delet free c class object introduct object orient program use c structur vs class c c class object self type 
+size empti class zero c 
+static member interest fact static member function c static data member c pointer pointer c type pointer c delet c constructor destructor constructor c copi constructor c destructor c compil creat default constructor write 
+write copi constructor 
+copi constructor call 
+initi data member use initi list c 
+default constructor privat destructor play destructor c copi elis c c default constructor built type compil creat default constructor copi constructor c 
+copi constructor argument const c 
+advanc c virtual constructor advanc c virtual copi constructor c intern default constructor set 1 static object destroy 
+possibl call constructor destructor explicitli 
+inherit inherit parent class c 
+virtual function runtim polymorph c multipl inherit c happen restrict access given deriv class method c 
+object slice c hide overload method base class friend friend class function c inherit friendship virtual function virtual function runtim polymorph c set 1 introduct default argument virtual function virtual function deriv class static function virtual c 
+virtual destructor virtual constructor virtual copi constructor rtti run time type inform c virtual function privat c 
+inlin virtual function pure virtual function abstract class pure virtual destructor oper overload oper overload c copi constructor vs assign oper c write assign oper c 
+oper cannot overload c 
+use explicit keyword c convers oper assign oper inherit 
+default assign oper refer pre increment pre decrement c smart pointer c overload stream insert extract oper overload array index oper except handl except handl c stack unwind c catch base deriv class except catch block type convers c except handl object destruct templat templat c templat static variabl c templat default argument templat metaprogram c templat special c namespac namespac c namespac nest c 
+standard templat librari stl algorithm introduct stl sort search contain pair vector list dequeu queue prioriti queue stack set multiset map multimap misc local class c nest class c cast oper c set 1 const_cast simul final class c const member function c c vs java comparison inherit c java comparison static keyword c java default virtual behavior differ c java 
+comparison except handl c java puzzl call undeclar function c 
+access global variabl local variabl name 
+use function left side express c c 
+access privat data member class without use member friend function 
+make c class whose object dynam alloc 
+print geeksforgeek empti main c 
+print 1 100 c without loop recurs restrict dynam alloc object c 
+output question output c program set 1 output c program set 2 output c program set 3 output c program set 4 output c program set 5 output c program set 6 output c program set 7 output c program set 8 output c program set 9 output c program set 10 output c program set 11 output c program set 12 output c program set 13 output c program set 14 output c program set 15 output c program set 16 output c program set 17 output c program set 18 commonli ask c interview question set 1 commonli ask oop interview question set 1 c c program quizz c refer class object constructor destructor oper overload pointer new delet function overload default argument static keyword friend keyword inherit const keyword virtual function templat except handl misc c creat new c topic discuss geek use geeksforgeek q page 
+see alreadi discuss c c question q 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

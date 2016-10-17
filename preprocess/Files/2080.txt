@@ -1,0 +1,28 @@
+
+In C, we cannot access a global variable if we have a local variable with same name, but it is possible in C++ using scope resolution operator (::). 
+
+#include<iostream>
+
+using namespace std;
+
+int x;  // Global x
+
+int main()
+{
+  int x = 10; // Local x
+  cout<<"Value of global x is "<<::x<<endl;
+  cout<<"Value of local x is "<<x;  
+  getchar();
+  return 0;
+}
+
+Please write comments if you find anything incorrect in the above GFact or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

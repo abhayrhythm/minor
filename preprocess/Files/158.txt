@@ -1,0 +1,17 @@
+
+Given two line segments (p1, q1) and (p2, q2), find if the given line segments intersect with each other.
+Before we discuss solution, let us define notion of orientation. Orientation of an ordered triplet of points in the plane can be
+–counterclockwise
+–clockwise
+–colinear
+The following diagram shows different possible orientations of (a, b, c)
+
+
+How is Orientation useful here?
+Two segments (p1,q1) and (p2,q2) intersect if and only if one of the following two conditions is verified
+1. General Case:
+– (p1, q1, p2) and (p1, q1, q2) have different orientations and
+– (p2, q2, p1) and (p2, q2, q1) have different orientations.
+Examples:
+
+

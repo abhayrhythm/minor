@@ -1,0 +1,134 @@
+
+Given two integer arrays, add their elements into third array by satisfying following constraints – 
+1. Addition should be done starting from 0th index of both arrays.
+2. Split the sum if it is a not a single digit number and store the digits in adjacent locations in output array.
+3. Output array should accommodate any remaining digits of larger input array.
+Examples:
+
+Input: 
+a = [9, 2, 3, 7, 9, 6]
+b = [3, 1, 4, 7, 8, 7, 6, 9]
+Output: 
+[1, 2, 3, 7, 1, 4, 1, 7, 1, 3, 6, 9]
+
+Input:     
+a = [9343, 2, 3, 7, 9, 6]
+b = [34, 11, 4, 7, 8, 7, 6, 99]
+Output: 
+[9, 3, 7, 7, 1, 3, 7, 1, 4, 1, 7, 1, 3, 6, 9, 9]
+
+Input:     
+a = []
+b = [11, 2, 3 ]
+Output: 
+[1, 1, 2, 3 ]
+
+Input: 
+a = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Output: 
+[1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+
+Difficulty Level: Rookie
+
+
+The idea is very simple. We maintain an output array and run a loop from the 0th index of both arrays. For each iteration of loop, we consider next elements in both arrays and add them. If the sum is greater than 9, we push the individual digits of the sum to output array else we push the sum itself. Finally we push the remaining elements of larger input array to output array.
+Below is C++ implementation of above idea –
+
+// C++ program to add two arrays following given
+// constraints
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function to push individual digits of a number
+// to output vector from left to right
+void split(int num, vector<int> &out)
+{
+    vector<int> arr;
+    while (num)
+    {
+        arr.push_back(num%10);
+        num = num/10;
+    }
+    // reverse the vector arr and append it to output vector
+    out.insert(out.end(), arr.rbegin(), arr.rend());
+}
+
+// Function to add two arrays keeping given
+// constraints
+void addArrays(int arr1[], int arr2[], int m, int n)
+{
+    // create a vector to store output
+    vector<int> out;
+
+    // maintain a variable to store current index in
+    // both arrays
+    int i = 0;
+
+    // loop till arr1 or arr2 runs out
+    while (i < m && i < n)
+    {
+        // read next elements from both arrays and
+        // add them
+        int sum = arr1[i] + arr2[i];
+
+        // if sum is single digit number
+        if (sum < 10)
+            out.push_back(sum);
+
+        else
+        {
+            // if sum is not a single digit number, push
+            // individual digits to output vector
+            split(sum, out);
+        }
+
+        // increment to next index
+        i++;
+    }
+
+    // push remaining elements of first input array
+    // (if any) to output vector
+    while (i < m)
+        split(arr1[i++], out);
+
+    // push remaining elements of second input array
+    // (if any) to output vector
+    while (i < n)
+        split(arr2[i++], out);
+
+    // print the output vector
+    for (int x : out)
+        cout << x << " ";
+}
+
+// Driver code
+int main()
+{
+    int arr1[] = {9343, 2, 3, 7, 9, 6};
+    int arr2[] = {34, 11, 4, 7, 8, 7, 6, 99};
+
+    int m = sizeof(arr1) / sizeof(arr1[0]);
+    int n = sizeof(arr2) / sizeof(arr2[0]);
+
+    addArrays(arr1, arr2, m, n);
+
+    return 0;
+}
+
+Output:
+
+9 3 7 7 1 3 7 1 4 1 7 1 3 6 9 9
+
+Time complexity of above solution is O(m + n) as we traverses both arrays exactly once.
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

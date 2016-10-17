@@ -1,0 +1,20 @@
+given direct graph two vertic sourc destin find maximum number edg disjoint path two path said edg disjoint share edg 
+maximum two edg disjoint path sourc 0 destin 7 graph 
+two edg disjoint path highlight red blue color 0 2 6 7 0 3 6 5 7 note path may differ maximum number 
+exampl diagram anoth possibl set path 0 1 2 6 7 0 3 6 5 7 respect 
+problem solv reduc maximum flow problem 
+follow step 
+1 consid given sourc destin sourc sink flow network 
+assign unit capac edg 
+2 run ford fulkerson algorithm find maximum flow sourc sink 
+3 maximum flow equal maximum number edg disjoint path 
+run ford fulkerson reduc capac unit 
+therefor edg use 
+maximum flow equal maximum number edg disjoint path 
+follow c implement algorithm 
+code taken 
+c program find maximum number edg disjoint path includ iostream includ limit h includ string h includ queue use namespac std number vertic given graph defin v 8 return true path sourc sink residu graph 
+also fill parent store path bool bf int rgraph v v int int int parent creat visit array mark vertic visit bool visit v memset visit 0 sizeof visit creat queue enqueu sourc vertex mark sourc vertex visit queue int q q push visit true parent 1 standard bf loop q empti int u q front q pop int v 0 v v v visit v fals rgraph u v 0 q push v parent v u visit v true reach sink bf start sourc return true els fals return visit true return tne maximum number edg disjoint path function copi forfulkerson discuss http goo gl wtq4k int finddisjointpath int graph v v int int int u v creat residu graph fill residu graph given capac origin graph residu capac residu graph int rgraph v v residu graph rgraph j indic residu capac edg j edg 
+rgraph j 0 u 0 u v u v 0 v v v rgraph u v graph u v int parent v array fill bf store path int max_flow 0 flow initi augment flow tere path sourc sink bf rgraph parent find minimum residu capac edg along path fill bf 
+say find maximum flow path found 
+int path_flow int_max v v v parent v u parent v path_flow min path_flow rgraph u v updat residu capac edg revers edg along path v v v parent v u parent v rgraph u v path_flow rgraph v u path_flow add path flow overal flow max_flow path_flow return overal flow max_flow equal maximum number edg disjoint path return max_flow driver program test function int main let us creat graph shown exampl int graph v v 0 1 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 int 0 int 7 cout maximum finddisjointpath graph edg disjoint path return 0 output maximum 2 edg disjoint path 0 7 time complex time complex edmond karp implement ford fulkerson see time complex discuss refer http www win tue nl nikhil cours 2012 2wo08 max flow applic 4up pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,7 @@
+ideal delet oper use pointer 
+howev use follow point must consid 
+1 delet oper work object alloc use oper new see http geeksforgeek org p 8539 
+object creat use new delet otherwis behavior undefin 
+class public void fun delet int main follow valid ptr new ptr fun ptr null make ptr null make sure thing access use ptr 
+follow invalid undefin behavior fun getchar return 0 2 delet done member delet object access delet 
+includ iostream use namespac std class int x public x 0 void fun delet invalid undefin behavior cout x best thing delet 

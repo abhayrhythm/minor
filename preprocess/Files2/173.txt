@@ -1,0 +1,8 @@
+method 1 use nest loop calcul power use repeat addit 
+exampl calcul 5 6 
+1 first 5 time add 5 get 25 
+5 2 2 5 time add 25 get 125 
+5 3 3 5 time add 125 get 625 5 4 4 5 time add 625 get 3125 5 5 5 5 time add 3125 get 15625 5 6 work 0 b 0 int pow int int b b 0 return 1 int answer int increment int j 1 b j 1 j j answer increment increment answer return answer driver program test function int main printf n pow 5 3 getchar return 0 method 2 use recurs recurs add get multipl two number 
+recurs multipli get rais power b 
+includ stdio h recurs function get b work 0 b 0 int pow int int b b return multipli pow b 1 els return 1 recurs function get x int multipli int x int return x multipli x 1 els return 0 driver program test function int main printf n pow 5 3 getchar return 0 pleas write comment find bug code algorithm find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

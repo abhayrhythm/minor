@@ -1,0 +1,90 @@
+
+
+The amount which is lent / deposited is called Principal
+The money that the principal generates is called Interest. This is the money generated as a result of borrowing/lending.
+Compound Interest is the interest calculated on the cumulative amount, rather than being calculated on the principal amount only.
+Amount, A = P [1 + (R / 100)]n, where P is the principal, R is the rate of interest per unit time period and n is the time period.
+Compound Interest, CI = Amount – Principal
+If compounding period is not annual, rate of interest is divided in accordance with the compounding period. For example, if interest is compounded half yearly, then rate of interest would be R / 2, where ‘R’ is the annual rate of interest.
+
+If interest is compounded daily, rate of interest = R / 365 and A = P [ 1 + ( {R / 365} / 100 ) ]T, where ‘T’ is the time period. For example, if we have to calculate the interest for 1 year, then T = 365. For 2 years, T = 730.
+If interest is compounded monthly, rate of interest = R / 12 and A = P [ 1 + ( {R / 12} / 100 ) ]T, where ‘T’ is the time period. For example, if we have to calculate the interest for 1 year, then T = 12. For 2 years, T = 24.
+If interest is compounded half yearly, rate of interest = R / 2 and A = P [ 1 + ( {R / 2} / 100 ) ]T, where ‘T’ is the time period. For example, if we have to calculate the interest for 1 year, then T = 2. For 2 years, T = 4.
+
+
+For finding the time period in which a sum of money will double itself at R % rate of compound interest compounded annually, we generally use either of the following two formulas :
+
+Time, T = 72 / R Years
+Time, T = 0.35 + (69 / R) Years
+
+
+When rate of interest is different for different years, say R1, R2, R3 and so on, the amount is calculated as A = P [1 + (R1 / 100)] [1 + (R2 / 100)] [1 + (R3 / 100)] …
+
+Sample Problems
+Question 1 : Find the compound interest on Rs. 10,000 at 10% per annum for a time period of three and a half years.
+Solution : Time period of 3 years and 6 months means for 3 years, the interest is compounded yearly and for the remaining 6 months, the interest is compounded compounded half yearly. This means that we have 3 cycles of interest compounded yearly and 1 cycle of interest compounded half yearly.
+So, Amount = P [1 + (R / 100)]3 [1 + ( {R/2} / 100 )]
+=> Amount = 10000 [1 + 0.1]3 [1 + 0.05]
+=> Amount = 10000 (1.1)3 (1.05)
+=> Amount = Rs. 13975.50
+=> Compound Interest, CI = Amount – Principal = 13975.50 – 10000
+Therefore, CI = Rs. 3975.50
+Question 2 : If Rs. 5000 amounts to Rs. 5832 in two years compounded annually, find the rate of interest per annum.
+Solution : Here, P = 5000, A = 5832, n = 2
+A = P [1 + (R / 100)]n
+=> 5832 = 5000 [1 + (R / 100)]2
+=> [1 + (R / 100)]2 = 5832 / 5000
+=> [1 + (R / 100)]2 = 11664 / 10000
+=> [1 + (R / 100)] = 108 / 100
+=> R / 100 = 8 / 100
+=> R = 8 %
+Thus, the required rate of interest per annum in 8 %
+Question 3 : The difference between the SI and CI on a certain sum of money at 10 % rate of annual interest for 2 years is Rs. 549. Find the sum.
+Solution : Let the sum be P.
+R = 10 %
+n = 2 years
+SI = P x R x n / 100 = P x 10 x 2 / 100 = 0.20 P
+CI = A – P = P [1 + (R / 100)]n – P = 0.21 P
+Now, it is given that CI – SI = 549
+=> 0.21 P – 0.20 P = 549
+=> 0.01 P = 549
+=> P = 54900
+Therefore, the required sum of money is Rs. 54,900
+Question 4 : A sum of Rs. 1000 is to be divided among two brothers such that if the interest being compounded annually is 5 % per annum, then the money with the first brother after 4 years is equal to the money with the second brother after 6 years.
+Solution : Let the first brother be given Rs. P
+=> Money with second brother = Rs. 1000 – P
+Now, according to the question,
+P [1 + (5 / 100)]4 = (1000 – P) [1 + (5 / 100)]6
+=> P (1.05)4 = (1000 – P) (1.05)6
+=> 0.9070 P = 1000 – P
+=> 1.9070 P = 1000
+=> P = 524.38
+Therefore, share of first brother = Rs. 524.38
+Share of second brother = Rs. 475.62
+Question 5 : A sum of money amounts to Rs. 669 after 3 years and to Rs. 1003.50 after 6 years on compound interest. Find the sum.
+Solution : Let the sum of money be Rs. P
+=> P [1 + (R/100)]3= 669 and P [1 + (R/100)]6= 1003.50
+Dividing both equations, we get
+[1 + (R/100)]3 = 1003.50 / 669 = 1.50
+Now, we put this value in the equation P [1 + (R/100)]3= 669
+=> P x 1.50 = 669
+=> P = 446
+Thus, the required sum of money is Rs. 446
+Question 6 : An investment doubles itself in 15 years if the interest is compounded annually. How many years will it take to become 8 times?
+Solution : it is given that the investment doubles itself in 15 years.
+Let the initial investment be Rs. P
+=> At the end of 15 years, A = 2 P
+Now, this 2 P will be invested.
+=> Amount after 15 more years = 2 x 2 P = 4 P
+Now, this 4 P will be invested.
+=> Amount after 15 more years = 2 x 4 P = 8 P
+Thus, the investment (P) will become 8 times (8 P) in 15 + 15 + 15 = 45 years
+This article has been contributed by Nishant Arora
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

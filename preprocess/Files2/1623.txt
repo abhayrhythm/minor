@@ -1,0 +1,23 @@
+write function detect two tree isomorph 
+two tree call isomorph one obtain seri flip e 
+swap left right children number node 
+number node level children swap 
+two empti tree isomorph 
+exampl follow two tree isomorph follow sub tree flip 2 3 null 6 7 8 simultan travers tree 
+let current intern node two tree travers n1 n2 respect 
+follow two condit subtre root n1 n2 isomorph 
+1 data n1 n2 
+2 one follow two true children n1 n2 left child n1 isomorph left child n2 right child n1 isomorph right child n2 
+b left child n1 isomorph right child n2 right child n1 isomorph left child n2 
+c c program check two given tree isomorph includ iostream use namespac std binari tree node data pointer left right children struct node int data struct node left struct node right given binari tree print node revers level order bool isisomorph node n1 node n2 root null tree isomorph definit n1 null n2 null return true exactli one n1 n2 null tree isomorph n1 null n2 null return fals n1 data n2 data return fals two possibl case n1 n2 isomorph case 1 subtre root node flip 
+subtre isomorph henc case 2 subtre root node flip return isisomorph n1 left n2 left isisomorph n1 right n2 right isisomorph n1 left n2 right isisomorph n1 right n2 left helper function alloc new node given data null left right pointer 
+node newnod int data node temp new node temp data data temp left null temp right null return temp driver program test function int main let us creat tree shown diagram struct node n1 newnod 1 n1 left newnod 2 n1 right newnod 3 n1 left left newnod 4 n1 left right newnod 5 n1 right left newnod 6 n1 left right left newnod 7 n1 left right right newnod 8 struct node n2 newnod 1 n2 left newnod 3 n2 right newnod 2 n2 right left newnod 4 n2 right right newnod 5 n2 left right newnod 6 n2 right right left newnod 8 n2 right right right newnod 7 isisomorph n1 n2 true cout ye els cout return 0 java iter java program solv tree isomorph problem binari tree node data pointer left right children class node int data node left right node int item data item left right class binarytre node root1 root2 given binari tree print node revers level order boolean isisomorph node n1 node n2 root null tree isomorph definit n1 null n2 null return true exactli one n1 n2 null tree isomorph n1 null n2 null return fals n1 data n2 data return fals two possibl case n1 n2 isomorph case 1 subtre root node flip 
+subtre isomorph 
+case 2 subtre root node flip return isisomorph n1 left n2 left isisomorph n1 right n2 right isisomorph n1 left n2 right isisomorph n1 right n2 left driver program test function public static void main string arg binarytre tree new binarytre let us creat tree shown diagram tree root1 new node 1 tree root1 left new node 2 tree root1 right new node 3 tree root1 left left new node 4 tree root1 left right new node 5 tree root1 right left new node 6 tree root1 left right left new node 7 tree root1 left right right new node 8 tree root2 new node 1 tree root2 left new node 3 tree root2 right new node 2 tree root2 right left new node 4 tree root2 right right new node 5 tree root2 left right new node 6 tree root2 right right left new node 8 tree root2 right right right new node 7 tree isisomorph tree root1 tree root2 true system println ye els system println code contribut mayank jaiswal python python program check two given tree isomorph binari tree node class node constructor creat node binari tree def __init__ self data self data data self left none self right none check binari tree isomorph def isisomorph n1 n2 root none tree isomorph definit n1 none n2 none return true exactli one n1 n2 none tree isomorph n1 none n2 none return fals n1 data n2 data return fals two possibl case n1 n2 isomorph case 1 subtre root node flip 
+subtre isomorph henc case 2 subtre root node flip return isisomorph n1 left n2 left isisomorph n1 right n2 right isisomorph n1 left n2 right isisomorph n1 right n2 left driver program test function n1 node 1 n1 left node 2 n1 right node 3 n1 left left node 4 n1 left right node 5 n1 right left node 6 n1 left right left node 7 n1 left right right node 8 n2 node 1 n2 left node 3 n2 right node 2 n2 right left node 4 n2 right right node 5 n2 left right node 6 n2 right right left node 8 n2 right right right node 7 print ye isisomorph n1 n2 true els code contribut nikhil kumar singh nickzuck_007 output ye time complex solut travers tree 
+time complex n n number node given tree 
+articl contribut ciph 
+pleas write comment find anyth incorrect want share inform topic discuss 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

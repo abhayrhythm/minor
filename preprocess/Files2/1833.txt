@@ -1,0 +1,17 @@
+gener specif competit program mani instanc need convert number string string number 
+lack knowledg certain essenti tool bind us 
+method achiev task mention articl 
+convert string number method 1 use stringstream class sscanf method 2 string convers use stoi atoi method discuss detail articl 
+method 3 use boost lexic cast boost librari offer inbuild function lexical_cast string directli convert number string 
+return except bad_lexical_cast case invalid input 
+c code demonstr work lexical_cast includ iostream includ boost lexical_cast hpp lexical_cast includ string string use namespac std int main string str 5 string str1 6 5 initi f_valu cast float f_valu 6 5 float f_valu boost lexical_cast float str1 initi i_valu cast int i_valu 5 int i_valu boost lexical_cast int str display cast valu cout float valu cast cout f_valu endl cout int valu cast cout i_valu endl return 0 output float valu cast 6 5 int valu cast 5 convert number string method 1 use string stream method string stream declar stream object first insert number stream object use str follow intern convers number string 
+c code demonstr string stream method convert number string 
+includ iostream includ sstream string stream includ string string use namespac std int main int num 2016 declar output string stream ostringstream str1 send number stream output string str1 num str covert number string string geek str1 str display string cout newli form string number cout geek endl return 0 output newli form string number 2016 method 2 use to_str function accept number data type return number desir string 
+implement c code demonstr to_str method convert number string 
+includ iostream includ string string to_str use namespac std int main declar integ int i_val 20 declar float float f_val 30 50 convers int string use to_str string stri to_str i_val convers float string use to_str string strf to_str f_val display convert string cout integ string cout stri endl cout float string cout strf endl return 0 output integ string 20 float string 30 500000 method 3 use boost lexic cast similar string convers lexical_cast function remain time argument list modifi lexical_cast numeric_var 
+c code demonstr lexical_cast method convert number string 
+includ boost lexical_cast hpp lexical_cast includ string string use namespac std int main declar float float f_val 10 5 declar int int i_val 17 lexical_cast convert float string string strf boost lexical_cast string f_val lexical_cast convert int string string stri boost lexical_cast string i_val display string convert number cout float valu string cout strf endl cout int valu string cout stri endl return 0 output float valu string 10 5 int valu string 17 articl contribut manjeet singh 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

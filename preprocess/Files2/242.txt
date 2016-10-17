@@ -1,0 +1,16 @@
+given array posit integ 
+number occur even number time except one number occur odd number time 
+find number n time constant space 
+exampl p 1 2 3 2 3 1 3 p 3 simpl solut run two nest loop 
+outer loop pick element one one inner loop count number occurr element pick outer loop 
+time complex solut n2 
+better solut use hash 
+use array element key count valu 
+creat empti hash tabl 
+one one travers given array element store count 
+time complex solut n 
+requir extra space hash 
+best solut bitwis xor element 
+xor element give us odd occur element 
+pleas note xor two element 0 element xor number x 0 x implement best approach 
+program c c c program find element occur odd number time includ stdio h int getoddoccurr int ar int ar_siz int int re 0 0 ar_siz re re ar return re diver function test function int main int ar 2 3 5 4 5 2 4 3 5 2 4 4 2 int n sizeof ar sizeof ar 0 printf getoddoccurr ar n return 0 

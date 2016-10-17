@@ -1,0 +1,10 @@
+given integ input replac 0 5 integ 
+exampl 102 152 1020 1525 use array store digit allow 
+sourc amazon interview experi set 136 sde strongli recommend minim browser tri first 
+idea simpl get last digit use mod oper 
+digit 0 replac 5 otherwis keep 
+recur remain digit 
+follow c implement idea 
+c program replac 0 5 input integ includ stdio h recurs function replac 0s 5s input number work input number 0 int convert0to5rec int num base case recurs termin num 0 return 0 extraxt last digit chang need int digit num 10 digit 0 digit 5 convert remain digit append last digit return convert0to5rec num 10 10 digit handl 0 call convert0to5rec number int convert0to5 int num num 0 return 5 els return convert0to5rec num driver program test function int main int num 10120 printf convert0to5 num return 0 output 15125 articl contribut sai kiran 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

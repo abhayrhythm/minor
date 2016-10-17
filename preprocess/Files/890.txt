@@ -1,0 +1,53 @@
+
+Consider the following C programs.
+
+// PROGRAM 1
+#include<stdio.h>
+
+int main(void)
+{
+    int a = 1, 2, 3;
+    printf("%d", a);
+    return 0;
+}
+
+The above program fails in compilation, but the following program compiles fine and prints 1.
+
+// PROGRAM 2
+#include<stdio.h>
+
+int main(void)
+{
+    int a;
+    a = 1, 2, 3;
+    printf("%d", a);
+    return 0;
+}
+
+And the following program prints 3, why?
+
+// PROGRAM 3
+#include<stdio.h>
+
+int main(void)
+{
+    int a;
+    a = (1, 2, 3);
+    printf("%d", a);
+    return 0;
+}
+
+In a C/C++ program, comma is used in two contexts:  (1) A separator (2) An Operator. (See this for more details). 
+Comma works just as a separator in PROGRAM 1 and we get compilation error in this program.  
+Comma works as an operator in PROGRAM 2. Precedence of comma operator is least in operator precedence table. So the assignment operator takes precedence over comma and the expression “a = 1, 2, 3″ becomes equivalent to “(a = 1), 2, 3″.  That is why we get output as 1 in the second program. 
+In PROGRAM 3, brackets are used so comma operator is executed first and we get the output as 3 (See the Wiki page for more details). 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

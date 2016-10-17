@@ -1,0 +1,6 @@
+setjump longjump defin setjmp h header file c standard librari 
+setjump jmp_buf buf use buf rememb current posit return 0 longjump jmp_buf buf go back place buf point return 
+simpl c program demonstr work setjmp longjmp includ stdio h includ setjmp h jmp_buf buf void func printf welcom geeksforgeek n jump point setup setjmp longjmp buf 1 printf geek2 n int main setup jump posit use buf return 0 setjmp buf printf geek3 n els printf geek4 n func return 0 output geek4 welcom geeksforgeek geek3 main featur function provid way deviat standard call return sequenc 
+mainli use implement except handl c setjmp use like tri languag like c java 
+call longjmp use like throw note longjmp transfer control point set setjmp 
+articl contribut aditya chatterje pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

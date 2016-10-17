@@ -1,0 +1,22 @@
+given array n distinct element convert given array form element rang 0 n 1 
+order element e 0 place place smallest element 1 place second smallest element n 1 place largest element 
+input arr 10 40 20 output arr 0 2 1 input arr 5 10 40 30 20 output arr 0 1 4 3 2 expect time complex n log n 
+strongli recommend click practic move solut 
+method 1 simpl simpl solut first find minimum element replac 0 consid remain array find minimum remain array replac 1 
+time complex solut n2 method 2 effici idea use hash sort 
+step 
+1 creat temp array copi content given array temp 
+take n time 
+2 sort temp ascend order 
+take n log n time 
+3 creat empti hash tabl 
+take 1 time 
+4 travers temp form left right store map number valu convert array hash tabl 
+take n time averag 
+5 travers given array chang element posit use hash tabl 
+take n time averag 
+overal time complex solut n log n 
+c implement idea 
+c program convert array reduc form includ bit stdc h use namespac std void convert int arr int n creat temp array copi content arr temp int temp n memcpi temp arr n sizeof int sort temp array sort temp temp n creat hash tabl 
+refer http tinyurl com zp5wgef unordered_map int int umap one one insert element sort temp assign valu 0 n 1 int val 0 int 0 n umap temp val convert array take posit umap int 0 n arr umap arr void printarr int arr int n int 0 n cout arr driver program test method int main int arr 10 20 15 12 11 50 int n sizeof arr sizeof arr 0 cout given array n printarr arr n convert arr n cout n nconvert array n printarr arr n return 0 output given array 10 20 15 12 11 50 convert array 0 4 3 2 1 5 articl contribut dheeraj gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

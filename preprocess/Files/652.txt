@@ -1,0 +1,42 @@
+
+Telephonic:
+1. http://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/
+2. http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/
+
+
+Round 1
+1. http://www.geeksforgeeks.org/print-left-view-binary-tree/
+
+2. http://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+
+
+Round 2
+
+1. http://www.geeksforgeeks.org/find-number-of-islands/ (all 8 corners)
+2. Dont remember
+
+
+Round 3
+1.word frequency of a stream of words (no code required, explain trie method)
+2.code to count no of words in a stream of characters
+
+
+Round 4
+1. http://www.geeksforgeeks.org/next-greater-element/ (use stacks)
+2. http://www.geeksforgeeks.org/array-rotation/
+
+
+Time and space complexity must for all questions
+Start from brute force and go to optimized solution.
+All edge cases are to be covered in code?
+Think out loud all the time (so that even when questions are easy they will catch your thinking with greater importance)
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

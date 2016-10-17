@@ -1,0 +1,8 @@
+c class variabl initi order appear class declar 
+consid code 
+includ iostream use namespac std class test privat int int x public test x 10 x 10 void print void test print cout x x int main test print getchar return 0 program print correct valu x garbag valu initi x appear class declar 
+one follow two version use avoid problem code 
+first chang order declar 
+class test privat int x int public test x 10 x 10 void print second chang order initi 
+class test privat int int x public test x 10 20 void print pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

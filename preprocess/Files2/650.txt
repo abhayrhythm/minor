@@ -1,0 +1,20 @@
+1st round 2 hr 1 implement lru cach 2 implement block queue 
+3 question collect atomicinteg work b hierarchi collect c intern function hashmap 
+fail fast fail safe iter 
+e write differ way travers map 
+4 print odd even number use thread 5 question concurr api executor class executor servic threadfactori 
+6 question serialis deserialis 7 question design patter composit observ decor etc dont rememb question interview grill complet java 
+2nd round 1 5 2 hr 1 search rotat sort array 
+2 implement heap sort 
+3 given alien languag sort word find order alphabet 
+4 find median stream number 
+5 implement produc consum model theadpool without executor framework 
+6 garbag collector design discuss 3rd round 1 hr 1 find median two sort array 
+2 os question question relat memori manag alloc 
+fragment 
+3 design question bu seat book system 
+later inform select realli impress natur interview friendli cooper happi realis hard need work 
+thank geeksforgeek could solv 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

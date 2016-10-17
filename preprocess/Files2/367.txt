@@ -1,0 +1,26 @@
+given n rope differ length need connect rope one rope 
+cost connect two rope equal sum length 
+need connect rope minimum cost 
+exampl given 4 rope length 4 3 2 6 connect rope follow way 
+1 first connect rope length 2 3 three rope length 4 6 5 
+2 connect rope length 4 5 two rope length 6 9 
+3 final connect two rope rope connect 
+total cost connect rope 5 9 15 29 optim cost connect rope 
+way connect rope would alway cost 
+exampl connect 4 6 first get three string 3 2 10 connect 10 3 get two string 13 2 
+final connect 13 2 total cost way 10 13 15 38 strongli recommend click practic move solut 
+observ problem close notic length rope pick first includ total cost 
+therefor idea connect smallest two rope first recur remain rope 
+approach similar huffman code 
+put smallest rope tree repeat multipl time rather longer rope 
+follow complet algorithm find minimum cost connect n rope 
+let n rope length store array len 0 n 1 1 creat min heap insert length min heap 
+2 follow number element min heap one 
+extract minimum second minimum min heap b add two extract valu insert ad valu min heap 
+3 return valu left item min heap 
+follow c implement algorithm 
+c program connect n rope minimum cost includ iostream use namespac std min heap collect min heap node struct minheap unsign size current size min heap unsign capac capac min heap int harr attay minheap node util function creat min heap given capac struct minheap createminheap unsign capac struct minheap minheap new minheap minheap size 0 current size 0 minheap capac capac minheap harr new int capac return minheap util function swap two min heap node void swapminheapnod int int b int temp b b temp standard minheapifi function 
+void minheapifi struct minheap minheap int idx int smallest idx int left 2 idx 1 int right 2 idx 2 left minheap size minheap harr left minheap harr smallest smallest left right minheap size minheap harr right minheap harr smallest smallest right smallest idx swapminheapnod minheap harr smallest minheap harr idx minheapifi minheap smallest util function check size heap 1 int issizeon struct minheap minheap return minheap size 1 standard function extract minimum valu node heap int extractmin struct minheap minheap int temp minheap harr 0 minheap harr 0 minheap harr minheap size 1 minheap size minheapifi minheap 0 return temp util function insert new node min heap void insertminheap struct minheap minheap int val minheap size int minheap size 1 val minheap harr 1 2 minheap harr minheap harr 1 2 1 2 minheap harr val standard funvtion build min heap void buildminheap struct minheap minheap int n minheap size 1 int n 1 2 0 minheapifi minheap creat min heap capac equal size insert valu len 
+initi size min heap equal capac struct minheap createandbuildminheap int len int size struct minheap minheap createminheap size int 0 size minheap harr len minheap size size buildminheap minheap return minheap main function return minimum cost connect n rope length store len 0 n 1 int mincost int len int n int cost 0 initi result creat min heap capac equal n put rope struct minheap minheap createandbuildminheap len n iter size heap becom 1 issizeon minheap extract two minimum length rope min heap int min extractmin minheap int sec_min extractmin minheap cost min sec_min updat total cost insert new rope min heap length equal sum two extract minimum length insertminheap minheap min sec_min final return total minimum cost connect rope return cost driver program test function int main int len 4 3 2 6 int size sizeof len sizeof len 0 cout total cost connect rope mincost len size return 0 output total cost connect rope 29 time complex time complex algorithm nlogn assum use nlogn sort algorithm 
+note heap oper like insert extract take logn time 
+algorithm paradigm greedi algorithm 

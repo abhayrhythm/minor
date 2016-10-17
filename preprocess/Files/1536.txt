@@ -1,0 +1,152 @@
+
+Given a binary tree, find the largest subtree having identical left and right subtree. Expected complexity is O(n).
+For example,
+
+Input: 
+            50
+         /      \
+        10       60
+       /  \     /   \
+      5   20   70    70
+               / \   / \
+             65  80 65  80
+Output: 
+ Largest subtree is rooted at node 60 
+
+A simple solution is to consider every node, recursively check if left and right subtrees are identical using the approach discussed here.  Keep track of maximum size such node.
+We can save recursive calls. The idea is to do a postorder traversal of given binary tree and for each node, we store structure of its left and right subtrees. In order to store the structure of left and right subtree, we use a string. We separate left and right subtree nodes from current node in the string by using a delimiter. For every encountered node, we update largest subtree found so far if its left and right subtree structure are similar.
+Below is C++ implementation of above idea –
+
+// C++ program to find the largest subtree
+// having identical left and right subtree
+#include <bits/stdc++.h>
+using namespace std;
+
+/* A binary tree node has data, pointer to left
+  child and a pointer to right child */
+struct Node
+{
+    int data;
+    Node* left, * right;
+};
+
+/* Helper function that allocates a new node with
+  the given data and NULL left and right pointers. */
+Node* newNode(int data)
+{
+    Node* node = new Node;
+    node->data = data;
+    node->left = node->right = NULL;
+    return (node);
+}
+
+// Sets maxSize to size of largest subtree with
+// identical left and right.  maxSize is set with
+// size of the maximum sized subtree. It returns
+// size of subtree rooted with current node. This
+// size is used to keep track of maximum size.
+int largestSubtreeUtil(Node* root, string& str,
+                    int& maxSize, Node*& maxNode)
+{
+    if (root == NULL)
+        return 0;
+
+    // string to store structure of left and
+    // right subtrees
+    string left = "", right = "";
+
+    // traverse left subtree and finds its size
+    int ls = largestSubtreeUtil(root->left, left,
+                               maxSize, maxNode);
+
+    // traverse right subtree and finds its size
+    int rs = largestSubtreeUtil(root->right, right,
+                               maxSize, maxNode);
+
+    // if left and right subtrees are similar
+    // update maximum subtree if needed (Note that
+    // left subtree may have a bigger value than
+    // right and vice versa)
+    int size = ls + rs + 1;
+    if (left.compare(right) == 0)
+    {
+       if (size > maxSize)
+       {
+            maxSize  = size;
+            maxNode = root;
+       }
+    }
+
+    // append left subtree data
+    str.append("|").append(left).append("|");
+
+    // append current node data
+    str.append("|").append(to_string(root->data)).append("|");
+
+    // append right subtree data
+    str.append("|").append(right).append("|");
+
+    return size;
+}
+
+// function to find the largest subtree
+// having identical left and right subtree
+int largestSubtree(Node* node, Node*& maxNode)
+{
+    int maxSize = 0;
+    string str = "";
+    largestSubtreeUtil(node, str, maxSize, maxNode);
+
+    return maxSize;
+}
+
+/* Driver program to test above functions*/
+int main()
+{
+    /* Let us construct the following Tree
+                50
+              /     \
+             10      60
+            / \     /  \
+            5 20   70   70
+                   / \  / \
+                  65 80 65 80   */
+    Node* root = newNode(50);
+    root->left = newNode(10);
+    root->right = newNode(60);
+    root->left->left = newNode(5);
+    root->left->right = newNode(20);
+    root->right->left = newNode(70);
+    root->right->left->left = newNode(65);
+    root->right->left->right = newNode(80);
+    root->right->right = newNode(70);
+    root->right->right->left = newNode(65);
+    root->right->right->right = newNode(80);
+
+    Node *maxNode = NULL;
+    int maxSize = largestSubtree(root, maxNode);
+
+    cout << "Largest Subtree is rooted at node "
+         << maxNode->data << "\nand its size is "
+         << maxSize;
+
+    return 0;
+}
+
+Output :
+Largest Subtree is rooted at node 60 
+and its size is 7
+The worst case time complexity still remains O(n2) as we need O(n) time to compare two strings.
+Further Optimization:
+We can optimized the space used in above program by using Succinct Encoding of Binary Tree.
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

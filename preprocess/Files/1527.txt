@@ -1,0 +1,235 @@
+
+Given an array arr[0..n-1]. The following operations need to be performed.
+
+update(l, r, val) : Add ‘val’ to all the elements in the array from [l, r].
+getElement(i) : Find element in the array indexed at ‘i’.
+Initially all the elements in the array are 0.  Queries can be in any oder, i.e., there can be many updates before point query.
+Example:
+
+
+Input : arr = {0, 0, 0, 0, 0}
+Queries: update : l = 0, r = 4, val = 2
+         getElement : i = 3
+         update : l = 3, r = 4, val = 3 
+         getElement : i = 3
+
+Output: Element at 3 is 2
+        Element at 3 is 5
+ 
+Explanation : Array after first update becomes
+              {2, 2, 2, 2, 2}
+              Array after second update becomes
+              {2, 2, 2, 5, 5}
+
+ 
+Method 1 [update : O(n), getElement() : O(1)]
+
+update(l, r, val) : Iterate over the subarray from l to r and increase all the elements by val. 
+getElement(i) : To get the element at i’th index, simply return arr[i]. 
+
+The time complexity in worst case is O(q*n) where q is number of queries and n is number of elements. 
+ 
+Method 2 [update : O(1), getElement() : O(n)]
+We can avoid updating all elements and can update only 2 indexes of the array!
+
+update(l, r, val) : Add ‘val’ to the lth element and subtract ‘val’ from the (r+1)th element, do this for all the update queries.
+
+  arr[l]   = arr[l] + val
+  arr[r+1] = arr[r+1] - val
+getElement(i) : To get ith element in the array find the sum of all integers in the array from 0 to i.(Prefix Sum). 
+
+Let’s analyze the update query.
+
+Why to add val to lth index?
+Adding val to lth index means that all the elements after l are increased by val, since we will be computing the prefix sum for every element.
+
+Why to subtract val from (r+1)th index?
+A range update was required from [l,r] but what we have updated is [l, n-1] so we need to remove val from all the elements after r i.e., subtract val from (r+1)th index.
+Thus the val is added to range [l,r].
+
+Below is C++ implementation of above approach.
+
+// C++ program to demonstrate Range Update
+// and Point Queries Without using BIT
+#include <iostream>
+using namespace std;
+
+// Updates such that getElement() gets an increased
+// value when queried from l to r.
+void update(int arr[], int l, int r, int val)
+{
+    arr[l] += val;
+    arr[r+1] -= val;
+}
+
+// Get the element indexed at i
+int getElement(int arr[], int i)
+{
+    // To get ith element sum of all the elements
+    // from 0 to i need to be computed
+    int res = 0;
+    for (int j = 0 ; j <= i; j++)
+        res += arr[j];
+
+    return res;
+}
+
+// Driver program to test above function
+int main()
+{
+    int arr[] = {0, 0, 0, 0, 0};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    int l = 2, r = 4, val = 2;
+    update(arr, l, r, val);
+
+    //Find the element at Index 4
+    int index = 4;
+    cout << "Element at index " << index << " is " <<
+         getElement(arr, index) << endl;
+
+    l = 0, r = 3, val = 4;
+    update(arr,l,r,val);
+
+    //Find the element at Index 3
+    index = 3;
+    cout << "Element at index " << index << " is " <<
+         getElement(arr, index) << endl;
+
+    return 0;
+}
+
+Output:
+Element at index 4 is 2
+Element at index 3 is 6
+
+Time complexity : O(q*n) where q is number of queries.
+ 
+Method 3 (Using Binary Indexed Tree)
+In method 2, we have seen that the problem can reduced to update and prefix sum queries.  We have seen that BIT can be used to do update and prefix sum queries in O(Logn) time.
+Below is C++ implementation.
+
+// C++ code to demonstrate Range Update and
+// Point Queries on a Binary Index Tree
+#include <iostream>
+using namespace std;
+
+// Updates a node in Binary Index Tree (BITree) at given index
+// in BITree. The given value 'val' is added to BITree[i] and
+// all of its ancestors in tree.
+void updateBIT(int BITree[], int n, int index, int val)
+{
+    // index in BITree[] is 1 more than the index in arr[]
+    index = index + 1;
+
+    // Traverse all ancestors and add 'val'
+    while (index <= n)
+    {
+        // Add 'val' to current node of BI Tree
+        BITree[index] += val;
+
+        // Update index to that of parent in update View
+        index += index & (-index);
+    }
+}
+
+// Constructs and returns a Binary Indexed Tree for given
+// array of size n.
+int *constructBITree(int arr[], int n)
+{
+    // Create and initialize BITree[] as 0
+    int *BITree = new int[n+1];
+    for (int i=1; i<=n; i++)
+        BITree[i] = 0;
+
+    // Store the actual values in BITree[] using update()
+    for (int i=0; i<n; i++)
+        updateBIT(BITree, n, i, arr[i]);
+
+    // Uncomment below lines to see contents of BITree[]
+    //for (int i=1; i<=n; i++)
+    //      cout << BITree[i] << " ";
+
+    return BITree;
+}
+
+// SERVES THE PURPOSE OF getElement()
+// Returns sum of arr[0..index]. This function assumes
+// that the array is preprocessed and partial sums of
+// array elements are stored in BITree[]
+int getSum(int BITree[], int index)
+{
+    int sum = 0; // Iniialize result
+
+    // index in BITree[] is 1 more than the index in arr[]
+    index = index + 1;
+
+    // Traverse ancestors of BITree[index]
+    while (index>0)
+    {
+        // Add current element of BITree to sum
+        sum += BITree[index];
+
+        // Move index to parent node in getSum View
+        index -= index & (-index);
+    }
+    return sum;
+}
+
+// Updates such that getElement() gets an increased
+// value when queried from l to r.
+void update(int BITree[], int l, int r, int n, int val)
+{
+    // Increase value at 'l' by 'val'
+    updateBIT(BITree, n, l, val);
+
+    // Decrease value at 'r+1' by 'val'
+    updateBIT(BITree, n, r+1, -val);
+}
+
+// Driver program to test above function
+int main()
+{
+    int arr[] = {0, 0, 0, 0, 0};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    int *BITree = constructBITree(arr, n);
+
+    // Add 2 to all the element from [2,4]
+    int l = 2, r = 4, val = 2;
+    update(BITree, l, r, n, val);
+
+    // Find the element at Index 4
+    int index = 4;
+    cout << "Element at index " << index << " is " <<
+         getSum(BITree,index) << "\n";
+
+    // Add 2 to all the element from [0,3]
+    l = 0, r = 3, val = 4;
+    update(BITree, l, r, n, val);
+
+    // Find the element at Index 3
+    index = 3;
+    cout << "Element at index " << index << " is " <<
+         getSum(BITree,index) << "\n" ;
+
+    return 0;
+}
+
+Output:
+
+Element at index 4 is 2
+Element at index 3 is 6
+
+Time Complexity : O(q * log n) + O(n * log n) where q is number of queries.
+Method 1 is efficient when most of the queries are getElement(), method 2 is efficient when most of the queries are updates() and method 3 is preferred when there is mix of both queries.
+This article is contributed by Chirag Agarwal. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

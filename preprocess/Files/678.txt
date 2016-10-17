@@ -1,0 +1,42 @@
+
+Amazon came to our campus for hiring interns.At first there was a coding round then 2 personal interviews
+Coding round: There was 20 mcq questions based on DS , OS , IQ and output questions
+And there were 2 coding questions
+
+ Given a string print the lexographically smallest possible rotation of the string.
+(N square sol. Passed)
+ Balanced parenthesis
+I did bith coding questions and attempted 17 mcq and got selected for next round
+Out of 500 ,47 were shortlisted
+
+2nd round:(Personal interview)
+First he asked me about myself then he gave me a question
+
+suppose there is a matrix filled with zeros and ones then find if there is a path between (0,0) to (n-1,m-1 )
+I explained my approach(trivial dfs) Then he asked me to write a code for printing all possible pathsI implemented it using backtracking
+Game of nim
+Number of all possible bst for keys 1 to n
+number of all possible labeled binary trees for given n nodes
+http://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/
+http://www.geeksforgeeks.org/check-whether-a-given-string-is-an-interleaving-of-two-other-given-strings-set-2/
+
+24 students were shortlisted
+3rd round:
+
+Design a data structure for a server which can store atmost 100 records, 2 functions are used to access server get(k) ,put(k,v,x).
+Where k is key and v is corresponding value and x is the expiry time before which this record cant be removed
+Implement a data structure to implement these function optimally. I implemented using self balancing bst and an unordered hash map
+Then he asked me to construct an avl tree for keys from 1 to n.
+
+Cheers i got selected!!
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

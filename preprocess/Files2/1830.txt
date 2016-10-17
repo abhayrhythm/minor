@@ -1,0 +1,19 @@
+sometim need manipul oper function accord need e chang argument default etc 
+predefin function default argument restrict versatil function forc us use default argument similar valu time 
+c 11 onward introduct bind function made task easier 
+bind work 
+bind function help placehold help manipul posit number valu use function modifi function accord desir output 
+placehold 
+placehold namespac direct posit valu function 
+repres _1 _2 _3 c code demonstr bind placehold includ iostream includ function bind use namespac std placehold use namespac std placehold driver function demonstr bind void func int int b int c cout b c endl int main placehold use namespac std placehold use bind bind function _1 first paramet assign declar 
+2 assign b 3 assign c auto fn1 bind func _1 2 3 2 assign 
+_1 first paramet assign b declar 
+3 assign c auto fn2 bind func 2 _1 3 call modifi function fn1 10 fn2 10 return 0 output 5 11 code bind modifi call function take 1 argument return desir output 
+properti placehold 1 posit placehold determin valu posit function call statement c code demonstr placehold properti 1 includ iostream includ function bind use namespac std placehold use namespac std placehold driver function demonstr bind void func int int b int c cout b c endl int main placehold use namespac std placehold second paramet fn1 assign fun 
+2 assign b fun first paramet fn1 assign c fun 
+auto fn1 bind func _2 2 _1 call function cout valu function fn1 1 13 first paramet fn2 assign fun 
+2 assign b fun second paramet fn2 assign c fun 
+auto fn2 bind func _1 2 _2 call function cout valu function chang placehold posit fn2 1 13 return 0 output valu function 10 valu function chang placehold posit 14 code even though posit 1 13 function call chang posit placehold chang way function call 
+2 number placehold determin number argument requir pass function use 
+placehold function call statement obvious less maximum number argument 
+rest valu replac user defin default valu 

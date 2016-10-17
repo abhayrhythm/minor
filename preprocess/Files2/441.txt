@@ -1,0 +1,24 @@
+handshak lemma 
+handshak lemma undirect graph 
+everi finit undirect graph number vertic odd degre alway even 
+handshak lemma consequ degre sum formula also sometim call handshak lemma handshak lemma use tree data structur 
+follow interest fact prove use handshak lemma 
+1 k ari tree everi node either 0 k children follow properti alway true 
+l k 1 1 l number leaf node number intern node proof proof divid two case 
+case 1 root leaf one node tree 
+formula true singl node l 1 0 case 2 root intern node tree 1 node root alway intern node 
+formula prove use handshak lemma case 
+tree undirect acycl graph 
+total number edg tree number node minu 1 e e l 1 intern node except root given type tree degre k 1 root degre k leav degre 1 appli handshak lemma tree get follow relat 
+sum degre 2 sum edg sum degre leav sum degre intern node except root root degre 2 
+node 1 put valu term l 1 k 1 k 2 l 1 l k k 1 k 2 l 2i 2 l k 1 2 l 2 2 k 1 l k 1 1 l properti prove use handshak lemma let us discuss one interest properti 
+2 binari tree number leaf node alway one node two children 
+l 1 l number leaf node number intern node two children proof let number node 2 children proof divid three case 
+case 1 one node relationship hold 0 l 1 case 2 root two children e degre root 2 sum degre node two children except root sum degre node one child sum degre leav root degre 2 
+node 1 put valu term 1 3 2 l 2 l 1 2 cancel 2s side 
+1 3 l 2 l 1 2 1 l 2 l 1 case 3 root one child e degre root 1 sum degre node two children sum degre node one child except root sum degre leav root degre 2 
+node 1 put valu term 3 1 2 l 1 l 1 2 cancel 2s side 
+3 l 1 2 2 l 2 1 l 2 l 1 therefor three case get l 1 
+discuss proof two import properti tree use handshak lemma 
+mani gate question ask properti follow link 
+gate cs 2015 set 3 question 35 gate cs 2015 set 2 question 20 gate cs 2005 question 36 gate cs 2002 question 34 gate cs 2007 question 43 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

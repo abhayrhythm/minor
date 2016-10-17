@@ -1,0 +1,38 @@
+accolit visit campu recruit full time employe well intern 
+process start pre placement talk undergo 5 round process 
+round 1 onlin 30 min first round conduct onlin consist mcq cover c c os dbm 
+answer 20 question ye neg mark 0 25 wrong answer 
+around 650 peopl took onlin test 75 peopl select next round 
+round 2 paper code 1 hr ask code follow question paper 1 http www geeksforgeek org print shortest path print string screen 2 http www geeksforgeek org find zero flip number consecut 1s maxim 3 http www geeksforgeek org serial deseri binari tree 75 peopl took test 20 shortlist 
+3 technic interview next day 
+round 3 f2f interview 2 hr first person shortlist interview senior technic director compani 
+ask favorit data structur repli tree 
+ask zig zag level order travers binari tree 
+http www geeksforgeek org level order travers spiral form gave string encod form ask find k th charact string without decod 
+exampl input encod string a9b21c5 k 27 output b gave real time problem face last week ask provid solut code 
+scenario api receiv data socket fetch use buffer 
+guarante much data read socket e 
+first time 5 charact may read second time 20 charact may read 
+data read consist http header messag display 
+header separ header mean delimit 000 
+write code discard http header display messag alon consid fact way find mani charact read socket 
+conclud ask project 
+round 4 f2f interview 1 30 hr interview ask code follow question http www geeksforgeek org trap rain water given link list integ k rotat link list 
+note revers link list differ input 1 2 3 4 5 6 7 8 9 10 k 4 output 4 1 2 3 8 5 6 7 9 10 gave string repres binari tree leaf node charact random function might swap number intern node binari tree like mirror 
+find string repres tree return random function call valid permut origin string 
+eg input golden glone glone string return call random function 
+output true input golden gnlode output fals round 5 f2f interview 1 30 hr interview gave two scenario ask write algorithm 
+scenario 1 reach pari chennai flight 
+want find best possibl way reach pari 
+told would use djikstra algorithm base distanc one solut base time one solut base distanc time use weight averag 
+ask minim number point consid intermedi vertex 
+told use latitud longitud find direct destin consid point accordingli 
+ask draw line sourc destin ask consid point insid inclin 30 degre line drawn 
+gave solut satisfi 
+scenario 2 ask assum 100 airport citi ask suggest algorithm choos airport given destin time flight airport 
+ask incorpor signific traffic travel current locat airport ask design accordingli 
+ask question pose lot question regard compani structur client pre requisit learnt could join compani 
+result anounc later even got select 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

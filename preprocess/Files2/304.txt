@@ -1,0 +1,33 @@
+travel salesman problem tsp given set citi distanc everi pair citi problem find shortest possibl rout visit everi citi exactli return start point 
+note differ hamiltonian cycl tsp 
+hamiltoninan cycl problem find exist tour visit everi citi exactli 
+know hamiltonian tour exist graph complet fact mani tour exist problem find minimum weight hamiltonian cycl 
+exampl consid graph shown figur right side 
+tsp tour graph 1 2 4 3 1 cost tour 10 25 30 15 80 problem famou np hard problem 
+polynomi time know solut problem 
+follow differ solut travel salesman problem 
+naiv solut 1 consid citi 1 start end point 
+2 gener n 1 
+permut citi 
+3 calcul cost everi permut keep track minimum cost permut 
+4 return permut minimum cost 
+time complex n 
+dynam program let given set vertic 1 2 3 4 n 
+let us consid 1 start end point output 
+everi vertex 1 find minimum cost path 1 start point end point vertic appear exactli 
+let cost path cost cost correspond cycl would cost dist 1 dist 1 distanc 1 final return minimum cost dist 1 valu 
+look simpl far 
+question get cost 
+calcul cost use dynam program need recurs relat term sub problem 
+let us defin term c cost minimum cost path visit vertex set exactli start 1 end start subset size 2 calcul c subset subset calcul c subset size 3 
+note 1 must present everi subset 
+size 2 must 1 c dist 1 els size greater 2 c min c j di j j belong j j 1 set size n consid n 2 subset size n 1 subset nth 
+use recurr relat write dynam program base solut 
+n 2n subproblem one take linear time solv 
+total run time therefor n2 2n 
+time complex much less n 
+still exponenti 
+space requir also exponenti 
+approach also infeas even slightli higher number vertic 
+soon discuss approxim algorithm travel salesman problem 
+next articl travel salesman problem set 2 refer http www lsi upc edu mjserna docencia algofib p07 dynprog pdf http www cs berkeley edu vazirani algorithm chap6 pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

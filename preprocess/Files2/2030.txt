@@ -1,0 +1,7 @@
+c structur class except follow differ 1 member class privat default member struct public default 
+exampl program 1 fail compil program 2 work fine 
+program 1 includ stdio h class test int x x privat int main test x 20 compil error x privat getchar return 0 program 2 includ stdio h struct test int x x public int main test x 20 work fine x public getchar return 0 2 deriv struct class struct default access specifi base class struct public 
+deriv class default access specifi privat 
+exampl program 3 fail compil program 4 work fine 
+program 3 includ stdio h class base public int x class deriv base equilal class deriv privat base int main deriv x 20 compil error becuas inherit privat getchar return 0 program 4 includ stdio h class base public int x struct deriv base equilal struct deriv public base int main deriv x 20 work fine becuas inherit public getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

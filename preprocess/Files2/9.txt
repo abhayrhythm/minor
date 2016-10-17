@@ -1,0 +1,52 @@
+write effici algorithm solv complex problem like shortest path euler graph minimum span tree etc 
+success stori algorithm design 
+post failur stori comput scienc discuss 
+comput problem solv comput 
+comput problem solv algorithm even unlimit time 
+exampl ture halt problem given program input whether program eventu halt run input run forev 
+alan ture prove gener algorithm solv halt problem possibl program input pair cannot exist 
+key part proof ture machin use mathemat definit comput program sourc halt problem 
+statu np complet problem anoth failur stori np complet problem problem whose statu unknown 
+polynomi time algorithm yet discov np complet problem anybodi yet abl prove polynomi time algorithm exist 
+interest part one np complet problem solv polynomi time solv 
+np p np complet np hard problem 
+p set problem solv determinist ture machin polynomi time 
+np set decis problem solv non determinist ture machin polynomi time 
+p subset np problem solv determinist machin polynomi time also solv non determinist machin polynomi time 
+inform np set decis problem solv polynomi time via lucki algorithm magic algorithm alway make right guess among given set choic sourc ref 1 
+np complet problem hardest problem np set 
+decis problem l np complet 1 l np given solut np complet problem verifi quickli effici known solut 
+2 everi problem np reduc l polynomi time reduct defin 
+problem np hard follow properti 2 mention need follow properti 1 therefor np complet set also subset np hard set 
+decis vs optim problem np complet appli realm decis problem 
+set way easier compar difficulti decis problem optim problem 
+realiti though abl solv decis problem polynomi time often permit us solv correspond optim problem polynomi time use polynomi number call decis problem 
+discuss difficulti decis problem often realli equival discuss difficulti optim problem 
+sourc ref 2 
+exampl consid vertex cover problem given graph find minimum size vertex set cover edg 
+optim problem 
+correspond decis problem given undirect graph g k vertex cover size k 
+reduct 
+let l1 l2 two decis problem 
+suppos algorithm a2 solv l2 
+input l 2 algorithm a2 answer ye depend upon whether belong l 2 
+idea find transform l1 l2 algorithm 2 part algorithm a1 solv l1 
+learn reduct gener import 
+exampl librari function solv certain problem reduc new problem one solv problem save lot time 
+consid exampl problem find minimum product path given direct graph product path multipl weight edg along path 
+code dijkstra algorithm find shortest path take log weight use dijkstra algorithm find minimum product path rather write fresh code new problem 
+prove given problem np complet 
+definit np complet appear imposs prove problem l np complet 
+definit requir us show everi problem np polynomi time reduc l fortun altern way prove 
+idea take known np complet problem reduc l polynomi time reduct possibl prove l np complet transit reduct np complet problem reduc l polynomi time problem reduc l polynomi time 
+first problem prove np complet 
+must first np complet problem prove definit np complet problem 
+sat boolean satisfi problem first np complet problem prove cook see clr book proof 
+alway use know np complet even engin 
+suppos ask write effici algorithm solv extrem import problem compani 
+lot think come exponenti time approach impract 
+know np complet say could come effici algorithm 
+know np complet prove problem np complet proudli say polynomi time solut unlik exist 
+polynomi time solut possibl solut solv big problem comput scienc mani scientist tri year 
+soon discuss np complet problem proof np complet 
+refer mit video lectur comput complex introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest http www ic uci edu eppstein 161 960312 html pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

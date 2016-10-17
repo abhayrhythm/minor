@@ -1,0 +1,14 @@
+given direct graph two vertic check whether path first given vertex second 
+exampl follow graph path vertex 1 3 anoth exampl path 3 0 either use breadth first search bf depth first search df find path two vertic 
+take first vertex sourc bf df follow standard bf df 
+see second vertex travers return true 
+els return fals 
+follow c java code use bf find reachabl second vertex first vertex 
+c c program check exist path two vertic graph 
+includ iostream includ list use namespac std class repres direct graph use adjac list represent class graph int v 
+vertic list int adj pointer array contain adjac list public graph int v constructor void addedg int v int w function add edg graph bool isreach int int graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+bf base function check whether reachabl bool graph isreach int int base case return true mark vertic visit bool visit new bool v int 0 v visit fals creat queue bf list int queue mark current node visit enqueu visit true queue push_back use get adjac vertic vertex list int iter queue empti dequeu vertex queue print queue front queue pop_front get adjac vertic dequeu vertex adjac visit mark visit enqueu adj begin adj end adjac node destin node return true return true els continu bf visit visit true queue push_back bf complet without visit return fals driver program test method graph class int main creat graph given diagram graph g 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 int u 1 v 3 g isreach u v cout n path u v els cout n path u v u 3 v 1 g isreach u v cout n path u v els cout n path u v return 0 java java program check exist path two vertic graph 
+import java io 
+import java util 
+import java util linkedlist class repres direct graph use adjac list represent class graph privat int v 
+vertic privat linkedlist integ adj adjac list constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w print bf travers given sourc boolean isreach int int linkedlist integ temp mark vertic visit default set fals boolean visit new boolean v creat queue bf linkedlist integ queue new linkedlist integ mark current node visit enqueu visit true queue add use get adjac vertic vertex iter integ queue size 0 dequeu vertex queue print queue poll int n adj listiter get adjac vertic dequeu vertex adjac visit mark visit enqueu hasnext n next adjac node destin node return true n return true els continu bf visit n visit n true queue add n bf complet without visit return fals driver method public static void main string arg creat graph given diagram graph g new graph 4 g addedg 0 1 g addedg 0 2 g addedg 1 2 g addedg 2 0 g addedg 2 3 g addedg 3 3 int u 1 int v 3 g isreach u v system println path u v els system println path u v u 3 v 1 g isreach u v system println path u v els system println path u v code contribut aakash hasija output 

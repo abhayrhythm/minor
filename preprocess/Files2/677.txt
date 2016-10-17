@@ -1,0 +1,16 @@
+microsoft visit campu internship select idc profil 
+three round select process idc profil first round code round 3 question ask differ set 
+peopl solv 2 shortlist 
+peopl solv 3 shortlist person interview one solv 2 shortlist group fli round 
+question given build certain height lie adjac 
+sun start fall left side 
+build certain height build right lesser height cannot see sun 
+need find total number build receiv sunlight 
+find increas subsequ strictli 1st build start build 
+given two array equal size need maxim first array second array element swap first array element second array element 
+swap cannot use element anymor ex 3 4 6 8 9 5 7 3 6 8 b 6 7 8 8 9 b 3 4 6 9 10 op 9 8 8 8 9 op 10 9 6 6 8 sort second array start swap b 
+els wait next element less b swap naiv merg procedur given two tree t1 t2 
+need check t2 subtre t1 
+subtre need return size t2 number node 
+either t1 t2 null return 1 
+t2 subtre t1 also return 1 

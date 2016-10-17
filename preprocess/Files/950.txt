@@ -1,0 +1,32 @@
+
+Well, we assume that you know what does it mean by pointer in C. So how do we create a pointer to an integer in C?
+Huh..it is pretty simple..
+
+int * ptrInteger; /*We have put a * operator between int 
+                    and ptrInteger to create a pointer.*/
+
+Here ptrInteger is a pointer to integer. If you understand this, then logically we should not have any problem in declaring a  pointer to a function 
+So let us first see ..how do we declare a function? For example,
+
+int foo(int);
+
+Here foo is a function that returns int and takes one argument of int type. So as a logical guy will think, by putting a * operator between int and foo(int) should create a pointer to a function i.e.
+
+int * foo(int);
+
+But Oops..C operator precedence also plays role here ..so in this case, operator () will take priority over operator *. And the above declaration will mean – a function foo with one argument of int type and return value of int * i.e. integer pointer. So it did something that we didn’t want to do. 
+So as a next logical step, we have to bind operator * with foo somehow. And for this, we would change the default precedence of C operators using () operator.
+
+int (*foo)(int);
+
+That’s it. Here * operator is with foo which is a function name. And it did the same that we wanted to do.
+So that wasn’t as difficult as we thought earlier! 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

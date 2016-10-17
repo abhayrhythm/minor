@@ -1,0 +1,33 @@
+given number friend give take amount money one anoth 
+design algorithm total cash flow among friend minim 
+exampl follow diagram show input debt settl 
+debt settl follow optim way strongli recommend minim browser tri first 
+idea use greedi algorithm everi step settl amount one person recur remain n 1 person 
+pick first person 
+pick first person calcul net amount everi person net amount obtain subtract debt amount pay credit amount paid 
+net amount everi person evalu find two person maximum minimum net amount 
+two person creditor debtor 
+person minimum two first person settl remov list 
+let minimum two amount x pay x amount maximum debtor maximum creditor settl one person 
+x equal maximum debit maximum debtor settl els maximum creditor settl 
+follow detail algorithm 
+follow everi person pi 0 n 1 
+1 comput net amount everi person 
+net amount person comput subtract sum debt sum credit 
+2 find two person maximum creditor maximum debtor 
+let maximum amount credit maximum creditor maxcredit maximum amount debit maximum debtor maxdebit 
+let maximum debtor pd maximum creditor pc 
+3 find minimum maxdebit maxcredit 
+let minimum two x debit x pd credit amount pc 4 x equal maxcredit remov pc set person recur remain n 1 person 
+5 x equal maxdebit remov pd set person recur remain n 1 person 
+thank balaji suggest method comment 
+follow c implement algorithm 
+c program fin maximum cash flow among set person includ iostream use namespac std number person vertic graph defin n 3 util function return index minimum valu arr int getmin int arr int minind 0 int 1 n arr arr minind minind return minind util function return index maximum valu arr int getmax int arr int maxind 0 int 1 n arr arr maxind maxind return maxind util function return minimum 2 valu int minof2 int x int return x 
+x amount p indic net amount credit debit person p amount p posit th person amount amount p neg th person give amount void mincashflowrec int amount find index minimum maximum valu amount amount mxcredit indic maximum amount given credit person 
+amount mxdebit indic maximum amount taken debit person 
+posit valu amount must neg valu int mxcredit getmax amount mxdebit getmin amount amount 0 amount settl amount mxcredit 0 amount mxdebit 0 return find minimum two amount int min minof2 amount mxdebit amount mxcredit amount mxcredit min amount mxdebit min minimum maximum amount cout person mxdebit pay min person mxcredit endl recur amount array 
+note guarante recurs would termin either amount mxcredit amount mxdebit becom 0 mincashflowrec amount given set person graph graph j indic amount person need pay person j function find print minimum cash flow settl debt 
+void mincashflow int graph n creat array amount initi valu 0 int amount n 0 calcul net amount paid person p store amount p 
+valu amount p calcul subtract debt p credit p int p 0 p n p int 0 n amount p graph p graph p mincashflowrec amount driver program test function int main graph j indic amount person need pay person j int graph n n 0 1000 2000 0 0 5000 0 0 0 print solut mincashflow graph return 0 output person 1 pay 4000 person 2 person 0 pay 3000 person 2 algorithm paradigm greedi time complex n2 n number person 
+articl contribut gaurav 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

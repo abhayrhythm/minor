@@ -1,0 +1,5 @@
+default paramet templat c like function default argument templat also default argument 
+exampl follow program second paramet u default valu char 
+includ iostream use namespac std templat class class u char class public x u int main char int int b cout sizeof endl cout sizeof b endl return 0 output char take 1 byte int take 4 byte 2 8 also similar default function argument one templat paramet default argument templat paramet follow must also default argument 
+exampl compil allow follow program includ iostream use namespac std templat class char class u class v int class error member int main pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

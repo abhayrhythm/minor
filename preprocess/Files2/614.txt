@@ -1,0 +1,59 @@
+recent got chanc interview amazon bangalor campu referr 
+8 month experinc product base compani 5 month internship 
+1st round telephon two guy start formal introduct 
+question 1 given array number say num1 
+find two number whose sum equal given number num1 
+http www geeksforgeek org write c program given set n number anoth number x determin whether exist two element whose sum exactli x told first brute forc solut ask time complex told n 2 
+ask optim solut gave nlogn solut use sort 
+last told n solut use hash 
+question 2 given array stock price 
+determin maximum profit one get byu sell stock similar stack span problem 
+http www geeksforgeek org stock span problem told brute forc solut n 2 ask could give optim solut 
+told n solut use stack code got stuck test case ask modifi code run time 
+provid link colabedit kind googl share document code product readi code requir 
+2 day got call amazon say feedback posit ask come face face interview amazon offic 
+f2f round 1 start brief introduct 
+q1 given n matrix 
+start index 0 0 reach index 1 n 1 maximum sum given constraint move right e index j move index j 1 index 1 j gave recurs solut lot discuss variou test case 
+ask optim code 
+gave dynam program approach 
+ask done said ask code 
+idea code done 
+strugll write correct code 2 3 time last wrote correct code 
+said done interview question ask two question 
+product readi code requir 
+f2f round2 start brief introduct project discuss 
+q1 question similar lca least common ancesstor tree gave answer immedi understood question ask clarif 
+q2 given resourc form link list cancel resourc whose sum 0 zero return remain list 
+gave solut immedi handl corner test case ask modifi code accordingli 
+ask write test case 
+eg given resourc like case 1 6 6 8 4 12 9 8 8 return 9 other get cancel 
+exampl list get cancel 6 6 8 4 12 8 8 p 9 case 2 4 6 8 9 10 9 p 4 6 case 3 4 6 10 8 9 10 19 10 18 20 25 p 20 25 f2f round3 start formal introduct btw guy took telephon interview 
+q1 ask subset sum problem e given array find maximum sum contigu subarray 
+gave n solut find maximum sum immedi ask question knew solut 
+ask trace code test case pass ask find stare end index subarray modifi code initi got wrong modif got code right 
+q2 sum number repres two link list 
+gave answer immedi finish question 
+gave soln ad two link list number start begin told add number normal addit 
+gave solut revers link list ad number final revers result list 
+2 3 day got call amazon clear round ask come hir manag round 
+one interview gave feedback mug answer gave answer immedi interview ask question came know later major set back 
+one advic would eventhough know answer pretend know 
+ask clearif question also observ problem solv skill code 
+hire manag round f2f start basic question ask want leav current comani ask code fibbonacci seri 
+explain fibbonacci seri ask code 
+wrote code trace input 
+meet reach late ask improv code said bug code 
+ask write recurs code 
+ask time complex code said exponenti 
+ask prove 
+said sir could use master theorem use mathemat induct 
+right rememb none 
+told without master theorem mi 
+mind strike recurs tree method time idea recurs tree methoda well 
+tellhim 
+round posit knew right interview 
+got elimin round 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

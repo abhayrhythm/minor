@@ -1,0 +1,33 @@
+given array everi element occur three time except one element occur 
+find element occur 
+expect time complex n 1 extra space 
+exampl input arr 12 1 12 3 12 1 1 2 3 3 output 2 strongli recommend click practic move solut 
+use sort nlogn time 
+also use hash worst case time complex hash requir extra space 
+idea use bitwis oper solut n time use 1 extra space 
+solut easi like xor base solut element appear odd number time 
+idea taken 
+run loop element array 
+end everi iter maintain follow two valu 
+one bit appear 1st time 4th time 7th time etc 
+two bit appear 2nd time 5th time 8th time etc 
+final return valu one maintain valu one two 
+one two initi 0 everi new element array find common set bit new element previou valu one 
+common set bit actual bit ad two 
+bitwis common set bit two 
+two also get extra bit appear third time 
+extra bit remov later 
+updat one xor new element previou valu one 
+may bit appear 3rd time 
+extra bit also remov later 
+one two contain extra bit appear 3rd time 
+remov extra bit find common set bit one two 
+includ stdio h int getsingl int arr int n int one 0 two 0 int common_bit_mask let us take exampl 3 3 2 3 understand int 0 n express one arr give bit one new element arr 
+add bit two use bitwis valu two set 0 3 3 1 1st 2nd 3rd 4th iter respect two two one arr xor new bit previou one get bit appear odd number time valu one set 3 0 2 3 1st 2nd 3rd 4th iter respect one one arr common bit bit appear third time bit one two 
+common_bit_mask contain bit 0 bit remov one two valu common_bit_mask set 00 00 01 10 1st 2nd 3rd 4th iter respect common_bit_mask one two remov common bit bit appear third time one valu one set 3 0 0 2 1st 2nd 3rd 4th iter respect one common_bit_mask remov common bit bit appear third time two valu two set 0 3 1 0 1st 2nd 3rd 4th itear respect two common_bit_mask uncom code see intermedi valu printf n one two return one int main int arr 3 3 2 3 int n sizeof arr sizeof arr 0 printf element singl occurr getsingl arr n return 0 output 2 time complex n auxiliari space 1 follow anoth n time complex 1 extra space method suggest aj 
+sum bit posit number take modulo 3 bit sum multipl 3 bit number singl occurr 
+let us consid exampl array 5 5 5 8 
+101 101 101 1000 sum first bit 3 1 1 1 0 3 0 sum second bit 3 0 0 0 0 0 0 sum third bit 3 1 1 1 0 3 0 sum fourth bit 3 1 3 1 henc number appear 1000 includ stdio h defin int_siz 32 int getsingl int arr int n initi result int result 0 int x sum iter everi bit int 0 int_siz find sum set bit ith posit array element sum 0 x 1 int j 0 j n j arr j x sum bit sum multipl 3 bit element singl occurr 
+sum 3 result x return result driver program test function int main int arr 12 1 12 3 12 1 1 2 3 2 2 3 7 int n sizeof arr sizeof arr 0 printf element singl occurr getsingl arr n return 0 7 articl compil sumit jain review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

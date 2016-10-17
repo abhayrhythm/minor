@@ -1,0 +1,16 @@
+given two string x two valu costx costi 
+need find minimum cost requir make given two string ident 
+delet charact string 
+cost delet charact string x costx costi 
+cost remov charact string 
+exampl input x abcd acdb costx 10 costi 20 output 30 make string ident delet charact b string henc cost 10 20 30 input x ef gh costx 10 costi 20 output 60 make string ident delet 2 2 charact string henc cost 10 10 20 20 60 problem variat longest common subsequ lc 
+idea simpl first find length longest common subsequ string x subtract len_lc length individu string give us number charact remov make ident 
+cost make two string ident sum follow two 1 cost remov extra charact lc x 2 cost remov extra charact lc minimum cost make string ident costx len_lc costi n len_lc 
+length string x length string len_lc length lc x costx cost remov charact x costi cost remov charact note cost remov charact string 
+c implement idea 
+c code find minimum cost make two string ident includ bit stdc h use namespac std return length lc x 0 1 0 n 1 int lc char x char int int n int l 1 n 1 follow step build l 1 n 1 bottom fashion 
+note l j contain length lc x 0 1 0 j 1 int 0 int j 0 j n j 0 j 0 l j 0 els x 1 j 1 l j l 1 j 1 1 els l j max l 1 j l j 1 l n contain length lc x 0 n 1 0 1 return l n return cost make x ident 
+costx cost remov charact x costi cost remov charact int findmincost char x char int costx int costi find lc x int strlen x n strlen int len_lc lc x n cost make two string ident sum follow two 1 cost remov extra charact first string 2 cost remov extra charact second string return costx len_lc costi n len_lc driver program test function int main char x ef char gh cout minimum cost make two string ident findmincost x 10 20 return 0 output minimum cost make two string ident 60 articl contribut shashank mishra gullu 
+articl reviw team geeksforgeek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

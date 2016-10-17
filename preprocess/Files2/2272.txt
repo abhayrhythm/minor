@@ -1,0 +1,13 @@
+object orient program paradigm deal central data associ behaviour singl entiti 
+entiti commun messag pass 
+high level languag like c java c etc provid rich featur design applic 
+one learn languag construct easili 
+howev design principl guid programm better util languag featur 
+follow principl help programm arriv flexibl class design 
+singl respons principl open close principl liskov substitut principl interfac segreg principl depend invers principl five principl collect call solid principl 
+detail explan principl 
+note principl use ood 
+expand post respect principl publish sorri present post move target 
+contribut venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

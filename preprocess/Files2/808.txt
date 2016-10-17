@@ -1,0 +1,28 @@
+introduct tutori explain carri ajax request django web framework 
+creat simpl post like app part exampl 
+glossari project initi creat model creat view write url carri request jqueri ajax 
+regist model admin add post 
+implement 1 initi django project assum done django instal 
+creat django project execut creat project need creat django app 
+creat app say post execut follow go django_exampl set py add post app file someth like 2 creat model creat model go post directori open model py 
+model py first creat post tabl 
+creat post tabl need write class post model model post_head model charfield max_length 200 post_text model textfield def __unicode__ self python2 use __str__ python3 return unicod self user model py creat like tabl 
+creat like tabl need write class like model model post model foreignkey post make migrat migrat step complet step databas tabl readi use 
+3 creat view creat view need go post directori open view py first import previous creat model httprespons model import post like django http import httprespons creat index view render post 
+code sampl def index request post post object get post databas return render request post index html post post creat likepost view like post 
+view call hit like button 
+code sampl def likepost request request method get post_id request get post_id likedpost post obejct get pk post_id get like post like post likedpost creat like object save save store databas return httprespons success 
+send success respons els return httprespons request method get view get creat move write templat jqueri perform ajax request 
+4 creat url creat url open django_exampl url py 
+django_exampl url py look someth like django conf url import includ url django contrib import admin urlpattern url r admin includ admin site url url r includ post url make post app avail creat url creat file post url py 
+post url py look someth like django conf url import url 
+import view urlpattern url r view index name index index view url r likepost view likepost name likepost likepost view likepost 5 make templat carri ajax request creat file post templat post index html 
+code sampl doctyp html html head titl like post app titl head bodi p id messag p post post h3 forloop counter post post_head h3 p post post_text p class likebutton id like post id href data catid post id like endfor script src http ajax googleapi com ajax lib jqueri 1 12 0 jqueri min js script script type text javascript likebutton click function var catid catid attr data catid ajax type get url likepost data post_id catid success function data like catid remov messag text data script bodi html basic make ajax get request likepost post_id id_of_liked_post 6 regist model admin add post open post admin py 
+import model admin py 
+model import post like regist model admin site regist post admin site regist like add post use django default admin portal 
+visit http localhost 8000 view like post 
+also ad sampl app github may use refer 
+refer http doc djangoproject com en 1 9 intro tutorial01 happi django 
+blog written anshul singhal 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

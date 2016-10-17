@@ -1,0 +1,5 @@
+given link list print revers use recurs function 
+exampl given link list 1 2 3 4 output 4 3 2 1 
+note question print revers 
+revers list see difficulti level rooki algorithm printrevers head 1 call print revers hed next 2 print head data implement c c program print revers link list includ stdio h includ stdlib h link list node struct node int data struct node next function revers link list void printrevers struct node head base case head null return print list head node printrevers head next everyth els print print head printf head data util function push node link list 
+note function chang head void push struct node head_ref char new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head pochar new node head_ref new_nod drier program test function int main let us creat link list 1 2 3 4 struct node head null push head 4 push head 3 push head 2 push head 1 printrevers head return 0 

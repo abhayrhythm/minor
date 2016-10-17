@@ -1,0 +1,29 @@
+introduct hand gestur recognit system use interfac comput human use hand gestur 
+wish make window base applic live motion gestur recognit use webcam input c 
+project combin live motion detect gestur identif 
+applic use webcam detect gestur made user perform basic oper accordingli 
+user perform particular gestur 
+webcam captur identifi gestur recogn set known gestur perform action correspond 
+applic made run background user run program applic 
+use hand free approach 
+may great use brows web write text document use media player read document file 
+simpl gestur could paus play movi increas volum even sit afar comput screen 
+one could easili scroll ebook present even lunch 
+variou featur code project detect kind gestur provid databas 
+elimin background oper place much movement background movement head perform gestur elimin 
+object object project make applic control specif function comput use hand gestur via integr webcam 
+project divid four modul modul 1 take input webcam convert form process easili 
+modul 2 intercept gestur input webcam 
+modul 3 recogn gestur databas gestur 
+modul 4 accord intercept gestur give correspond command oper 
+softwar hardwar use librari opencv program languag c ide visual studio oper system window 8 input devic webcam implement go implement system recogn gestur input use webcam perform specifi oper 
+applic made run background user run program applic 
+use hand free approach 
+project vast arena develop notabl sixth sens project complet revolution digit world 
+code extend incorpor mous movement well still gestur 3 tweak incorpor code increas effici gestur recognit process 
+code improv better interpret recognit gestur newer gestur may incorpor function 
+user interfac ad check gestur well run program improv greatli e g 
+provid interact gui rather use termin command 
+idea contribut prakritidev verma like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

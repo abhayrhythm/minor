@@ -1,0 +1,68 @@
+
+In C++, assignment operator should be overloaded with self assignment check. 
+For example, consider the following class Array and overloaded assignment operator function without self assignment check.
+
+// A sample class
+class Array {
+ private:
+   int *ptr;
+   int size;
+ public:
+   Array& operator = (const Array &rhs);
+   // constructors and other functions of class........
+};
+
+// Overloaded assignment operator for class Array (without self 
+// assignment check)
+Array& Array::operator = (const Array &rhs)
+{
+  // Deallocate old memory
+  delete [] ptr;
+
+  // allocate new space
+  ptr = new int [rhs.size];
+
+  // copy values
+  size = rhs.size;
+  for(int i = 0; i < size; i++)
+    ptr[i] = rhs.ptr[i];
+
+  return *this; 
+}
+
+If we have an object say a1 of type Array and if we have a line like a1 = a1 somewhere, the program results in unpredictable behavior because there is no self assignment check in the above code. To avoid the above issue, self assignment check must be there while overloading  assignment operator. For example, following  code does self assignment check. 
+
+// Overloaded assignment operator for class Array (with self 
+// assignment check)
+Array& Array::operator = (const Array &rhs)
+{
+  /* SELF ASSIGNMENT CHECK */
+  if(this != &rhs)
+  {
+    // Deallocate old memory
+    delete [] ptr;
+
+    // allocate new space
+    ptr = new int [rhs.size];
+
+    // copy values
+    size = rhs.size;
+    for(int i = 0; i < size; i++)
+      ptr[i] = rhs.ptr[i];    
+  }  
+
+  return *this; 
+}
+
+References:
+http://www.cs.caltech.edu/courses/cs11/material/cpp/donnie/cpp-ops.html
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

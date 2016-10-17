@@ -1,0 +1,46 @@
+round 1 onlin round 60 min 
+8 9 question ask 
+6 aptitud question 1 point 2 code question 2 point pseudo code 1 given id start time end time racer output 
+racer whose start time greater end time less racer 
+2 given bst output rank element tree less n time 
+rank element index element element tree sort order 
+eg 4 5 6 7 8 rank 5 1 rank 4 0 1 write question 3 point imagin self drive technolog achiev 
+describ ecosystem surround world technolog break think would evolv time 
+around 15 student shortlist base cumul score first round c g p round 2 telephon interview 30 min 
+first ask introduc 
+ask configur laptop 
+interview recurs function termin condit 
+happen run 
+stack overflow 
+interview given simpl recurs function call eg void f f long run laptop 
+ask certain assumpt 
+1st stack space shall assum 
+interview half ram 
+4 gb 2nd assum 4 byte requir address 
+time 4 gb 4 byte frequenc frequenc processor speed 2 0 ghz accur solut accuraci involv lot paramet 
+check approach solv problem 
+ask favorit subject 
+said data structur 
+ask even singl question relat data structur 
+interview cours done done os 
+ye 
+ask differenti b w process thread 
+ask given array 1000 element element multipli loop 1 thousand 
+time execut x millisecond 
+reduc x 
+thought min make anyth gave hint time program run cpu perform 50 
+said use thread fork multipli first half one thread half anoth thread 
+multipli result thread 
+ask one better fork thread 
+answer thread 
+interview box box real number rang 1 10 probabl get 2 box 
+an firstli answer 1 10 repeat question answer 0 interview mean ever get 2 take number box 
+said get probabl tend zero low probabl 
+interview got 1 last minut 
+explain internet 1 minut 
+explain bit ask central author run internet 
+sain 
+end interview 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

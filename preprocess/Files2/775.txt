@@ -1,0 +1,9 @@
+data suffici question given question set statement 
+find given statement requir reach conclus 
+sampl problem question 1 question tallest among brother b c 
+statement 1 c shorter b statement 2 taller statement 1 alon suffici ii statement 2 alon suffici iii statement 1 statement 2 togeth suffici iv statement 1 statement 2 even togeth suffici solut consid statement 1 safe conclud b tallest 
+consid statement 2 safe conclud shortest 
+therefor statement 1 alon suffici answer question 
+question 2 valu x statement 1 x2 x 6 0 statement 2 x 0 statement 1 alon suffici ii statement 2 alon suffici iii statement 1 statement 2 togeth suffici iv statement 1 statement 2 even togeth suffici solut consid statement 1 alon x2 x 6 0 x2 6 x x 6 0 x 6 x 1 0 x 6 1 consid statement 2 alon x 0 combin two statement safe say x 1 therefor statement 1 statement 2 togeth suffici neither alon suffici 
+articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

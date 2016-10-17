@@ -1,0 +1,24 @@
+
+Let us first put ‘priority inversion’ in the context of the Big Picture i.e. where does this come from. 
+In Operating System, one of the important concepts is Task Scheduling. There are several Scheduling methods such as First Come First Serve, Round Robin, Priority based scheduling etc. Each scheduling method has its pros and cons. As you might have guessed, Priority Inversion comes under Priority based Scheduling. Basically, it’s a problem which arises sometimes when Priority based scheduling is used by OS. In Priority based scheduling, different tasks are given different priority so that higher priority tasks can intervene lower priority tasks if possible. So, in a priority based scheduling, if lower priority task (L) is running and if a higher priority task (H) also needs to run, the lower priority task (L) would be preempted by higher priority task (H). Now, suppose both lower and higher priority tasks need to share a common resource (say access to the same file or device) to achieve their respective work. In this case, since there’s resource sharing and task synchronization is needed, several methods/techniques can be used for handling such scenarios. For for sake of our topic on Priority Inversion, let us mention a synchronization method say mutex. Just to recap on mutex, a task acquires mutex before entering critical section (CS) and releases mutex after exiting critical section (CS). While running in CS, a task access this common resource. More details on this can be referred here. Now, say both L and H shares a common Critical Section (CS) i.e. same mutex is needed for this CS.
+Coming to our discussion of priority inversion, let us examine some scenarios.
+1) L is running but not in CS ; H needs to run; H preempts L ; H starts running ; H relinquishes or releases control ; L resumes and starts running
+2) L is running in CS ; H needs to run but not in CS; H preempts L ; H starts running ; H relinquishes control ; L resumes and starts running.
+3) L is running in CS ; H also needs to run in CS ; H waits for L to come out of CS ; L comes out of CS ; H enters CS and starts running
+Please note that the above scenarios don’t show the problem of any Priority Inversion (not even scenario 3). Basically, so long as lower priority task isn’t running in shared CS, higher priority task can preempt it. But if L is running in shared CS and H also needs to run in CS, H waits until L comes out of CS. The idea is that CS should be small enough so that it doesn’t result in H waiting for long time while L was in CS. That’s why writing CS code requires careful consideration. In any of the above scenarios, priority inversion (i.e. reversal of priority) didn’t occur because the tasks are running as per the design.
+Now let us add another task of middle priority say M. Now the task priorities are in the order of L < M < H. In our example, M doesn’t share the same Critical Section (CS). In this case, the following sequence of task running would result in ‘Priority Inversion’ problem.
+4) L is running in CS ; H also needs to run in CS ; H waits for L to come out of CS ; M interrupts L and starts running ; M runs till completion and relinquishes control ; L resumes and starts running till the end of CS ; H enters CS and starts running.
+Note that neither L nor H share CS with M.
+Here, we can see that running of M has delayed the running of both L and H. Precisely speaking, H is of higher priority and doesn’t share CS with M; but H had to wait for M. This is where Priority based scheduling didn’t work as expected because priorities of M and H got inverted in spite of not sharing any CS. This problem is called Priority Inversion. This is what the heck was Priority Inversion ! In a system with priority based scheduling, higher priority tasks can face this problem and it can result in unexpected behavior/result. In general purpose OS, it can result in slower performance. In RTOS, it can result in more severe outcomes. The most famous ‘Priority Inversion’ problem was what happened at Mars Pathfinder.
+If we have a problem, there has to be solution for this. For Priority Inversion as well, there’re different solutions such as Priority Inheritance etc. This is going to be our next article 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

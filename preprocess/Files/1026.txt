@@ -1,0 +1,15 @@
+
+Predict the output of the below programs. 
+Question 1
+
+int main()
+{
+ int c=5;
+ printf("%d\n%d\n%d", c, c <<= 2, c >>= 2);
+ getchar();
+}
+
+Output: Compiler dependent
+Evaluation order of parameters is not defined by C standard and is dependent on compiler implementation. It is never safe to depend on the order of parameter evaluation. For example, a function call like above may very well behave differently from one compiler to another.
+References:
+http://gcc.gnu.org/onlinedocs/gcc/Non_002dbugs.html

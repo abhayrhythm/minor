@@ -1,0 +1,26 @@
+given squar boolean matrix mat n n find k element k th row 0 element k th column 1 valu mat k k anyth either 0 1 
+k exist return 1 exampl input bool mat n n 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 0 output 0 element 0 th row 0 element 0 th column 1 mat 0 0 1 valu input bool mat n n 0 1 1 0 1 0 0 0 0 0 1 1 1 0 0 1 1 1 1 0 1 1 1 1 1 output 1 element 1 st row 0 element 1 st column 1 mat 1 1 0 valu input bool mat n n 0 1 1 0 1 0 0 0 0 0 1 1 1 0 0 1 0 1 1 0 1 1 1 1 1 output 1 k k th row element 0 k th column element 1 expect time complex n strongli recommend minim browser tri first 
+simpl solut check row one one 
+find row element row 0 except mat may either 0 1 check valu column 
+valu 1 column return time complex solut n2 
+effici solut solv problem n time 
+solut base fact 
+1 one k qualifi answer 
+note k th row 0 probabl except mat k k column 1 2 travers given matrix corner prefer top right bottom left quickli discard complet row complet column base rule 
+mat j 0 j column j cannot solut 
+b mat j 1 j row cannot solut 
+complet algorithm base observ 
+1 start top right corner e 0 j n 1 
+initi result 1 
+2 follow find result reach outsid matrix 
+mat j 0 check element left j current row 
+element left j also 0 set result note may result result must 
+reach mat j discard row column right left side element th row 0 row cannot solut increment 
+b mat j 1 check element current column 
+element 1 set result j note j may result result must j element j th column 1 column cannot solut decrement j 
+3 result 1 return 
+4 els check valid result check row column element result c implement base idea 
+c c program find entri th row 0 entri column 1 includ iostream use namespac std defin n 5 int find bool arr n n start top rightmost corner could start corner also int 0 j n 1 initi result int re 1 find index loop run 2n time either increment row number decrement column number n j 0 current element 0 row may solut arr j 0 check element row j 0 arr j 0 j j valu 0 store row result j 1 re break reach found 1 current row row cannot solut increment row number els els current element 1 check element column n arr j 1 j element 1 n re j break reach found 0 current column column cannot solut increment column number els j could find result loop result exist re 1 return re check comput re valid int 0 n re arr re 1 return 1 int j 0 j n j re j arr re j 0 return 1 return re driver program test function int main bool mat n n 0 0 1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 cout find mat return 0 python python program find k element k th row 0 k th column 1 def find arr store length array n len arr start top right corner 0 j n 1 initialis result re 1 find index loop run 2n time either increment row number decrement column number n j 0 current element 0 row may solut arr j 0 check element row j 0 arr j 0 j j 1 valu 0 updat result row number j 1 re break found 1 current row row solut increment row number els 1 current element 1 els check element column n arr j 1 j 1 element 1 updat result col number n re j break found 0 current column column solut decrement column number els j 1 find result loop result exist re 1 return re check comput re valu valid rang 0 n re arr re 1 return 1 j rang 0 j re j arr re j 0 return 1 return re test find arr function arr 0 0 1 1 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 print find arr output 3 time complex solut n 
+note travers 2n element main loop 
+articl contribut ashish gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

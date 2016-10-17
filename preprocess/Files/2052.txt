@@ -1,0 +1,46 @@
+
+In C/C++, when a character array is initialized with a double quoted string and array size is not specified, compiler automatically allocates one extra space for string terminator ‘\0′.  For example, following program prints 6 as output. 
+
+#include<stdio.h>
+int main()
+{
+  char arr[] = "geeks"; // size of arr[] is 6 as it is '\0' terminated
+  printf("%d", sizeof(arr));
+  getchar();
+  return 0;
+}
+
+If array size is specified as 5 in the above program then the program works without any warning/error and prints 5 in C, but causes compilation error in C++.
+
+// Works in C, but compilation error in C++
+#include<stdio.h>
+int main()
+{
+  char arr[5] = "geeks";  // arr[] is not terminated with '\0'
+                                   // and its size is 5
+  printf("%d", sizeof(arr));
+  getchar();
+  return 0;
+}
+
+When character array is initialized with comma separated list of characters and array size is not specified, compiler doesn’t create extra space for string terminator ‘\0′. For example, following program prints 5.
+
+#include<stdio.h>
+int main()
+{
+  char arr[]= {'g', 'e', 'e', 'k', 's'}; // arr[] is not terminated with '\0' and its size is 5
+  printf("%d", sizeof(arr));
+  getchar();
+  return 0;
+}
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

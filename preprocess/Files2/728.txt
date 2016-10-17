@@ -1,0 +1,42 @@
+recent microsoft idc visit campu intenship 
+6 round total 
+object round object round taken cocub com 15 question 1 question repeat set 
+question rectangular collis array idea 
+code round two code question 1 find element sort array rotat circularli one locat logn time 
+refer http www geeksforgeek org search element sort pivot array 2 find inord successor node binari search tree 
+parent pointer present bst 
+refer method 1 http www geeksforgeek org inord successor binari search tree group interview round first 10 minut ask expect next big thing technolog 
+gave two question 1 given string check valid number 
+number sign float point integ 
+number return true els return fals 
+constraint decis statement allow els switch case 
+ii ternari condit oper allow 
+allow 
+iii loop statement allow 
+solut recurs implement return bool one return statement use relat oper two global variabl one check first occur check sign occur 1st locat 
+2 bing want improv experi user give reward point user 
+devis algorithm assign reward point differ user 
+person interview round 1 given string contain check string well form e 
+check paranthesi well match 
+either count use stack push pop encount 
+2 bot class follow prototyp class bot privat data member public bool moveleft bot move one block left return true 
+bool moveright bot move one block right return true 
+bool movebottom bot move one block return true 
+bool movetop bot move one block return true 
+bool hasgold return true current posit bot gold 
+given bot dimens maze wall block gold check bot reach block contain gold 
+use df graph travers use recurs implement return true current posit gold return fals cannot move 
+person interview round ii 1 given root two binari tree check tree isomorph 
+initi frame question tree binari tree gave two random node instead root 
+refer http www geeksforgeek org tree isomorph problem 2 given array n x dimens 
+start 0 0 th locat 
+move j 1 j j 1 1 j 1 th locat 
+find total number path start 0 0 th j th posit 
+j dp 0 dp 0 j 1 dp j dp 1 j 1 dp j 1 dp 1 j 
+person interview round iii 1 given dictionari group anagram togeth 
+sort string dictionari anagram represent sort use hash map store group anagram 
+2 ask question relat project 
+thank geeksforgeek org 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

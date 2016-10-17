@@ -1,0 +1,92 @@
+
+Profit and Loss is a topic that is definitely asked in every placement exam. While the questions are not too tricky, some require deeper understanding of concepts, but most of them are based on certain well known formulas.
+
+Cost Price (CP) : The price at which an article is purchased. This is the cost of the article incurred to the seller in buying the article for re-selling.
+Selling Price (SP) : The price at which the article is sold to the customer/buyer.
+Marked Price or List Price (MP) : The price mentioned on the article
+Profit or Gain (P) : The extra money that the seller gets on selling an article.
+P = SP – CP
+Profit percent = (P / CP) x 100
+Loss (L) : The less money a seller gets on selling an article.
+L = CP – SP
+Loss percent = (L / CP) x 100
+Discount (D) : The reduction in price offered by the seller is called discount.
+D = MP – SP
+Discount percent = (D / MP) x 100
+Profit or Loss is always calculated on the cost price. Discount is calculated on marked price or list price.
+If two articles are sold at the same selling price, one at a gain of A% and one at the loss of A%, then the seller always incurs a loss of (A / 10)2.
+If a seller claims to sell at cost price but uses false weights, then
+Profit percent = [ (True Value – Given Value) / Given Value ] x 100 %
+
+Sample Problems
+Question 1 : A person buys a pen from a wholesaler at Rs. 10 for 20 pens. He sells those pens at Rs. 10 for 15 pens. Find his profit or loss percent.
+Solution : CP for each pen = 10 / 20 = Rs. 0.50
+SP for each pen = 10 / 15 = Rs. 2 / 3
+Profit = SP – CP = Rs. (2 / 3) – 0.50 = Rs. 1 / 6
+Therefore, profit percent = [ (1/6) / (0.50) ] x 100 = 33.334%
+Question 2 : A dealer incurs a loss of 5 % if he sells an article for Rs. 1805. What price must he sell the article so as to gain 5 % on that article ?
+Solution : Let the cost price of the article be Rs. C
+=> SP = CP – Loss
+=> 1805 = C – 0.05 C
+=> 0.95 C = 1805
+=> C = 1900
+Therefore, to gain 5 %, SP = 1900 + (0.05 x 1900) = 1900 + 95 = Rs. 1995
+Question 3 : If the cost price of an article is 67 % of the selling price, what is the profit percent ?
+Solution : Let the selling price of the article be Rs. S
+=> Cost price of the article = 67 % of S = 0.67 S
+=> Profit = SP – CP = 0.33 S
+Therefore, profit percent = (0.33 S / 0.67 S) x 100 = 49.25 %
+Question 4 : A shopkeeper purchased two varieties of rice, 80 KG at Rs. 13.50 per KG and 120 KG at Rs. 16 per KG. The shopkeeper being greedy, mixed the two varieties of rice and sold the mixture at a gain of 16 %. Find the per KG selling price of the mixture.
+Solution : We are given that the shopkeeper bought 80 Kg at Rs. 13.50 per KG and 120 KG at Rs. 16 per KG.
+=> Total cost price = (80 x 13.50) + (120 x 16) = 1080 + 1920 = Rs. 3000 and total rice = 80 + 120 = 200 KG
+Now, total selling price = Total cost price + 16 % of total cost price
+=> Total selling price = 3000 + (0.16 x 3000) = Rs. 3480
+Thus, selling price per KG = 3480 / 200 = Rs. 17.40
+Another method : 
+We can do this question by alligation also.
+
+=> (m – 13.50) / (16 – m) = 120 / 80
+=> m = 15, where ‘m’ is the per KG cost price of the mixture
+Therefore, per KG selling price of the mixture = Rs. 15 + 16% of 15 = Rs. 17.40
+Question 5 : A seller claims to sell at cost price but gives 750 gm for each KG. Find his gain percent.
+Solution : Profit percent = [ (True Value – Given Value) / Given Value ] x 100 %
+Here, True Value = 1 KG = 1000 gm
+Given Value = 750 gm
+Therefore, profit percent = [ (1000 – 750) / 750 ] x 100 = (250 / 750) x 100 = 33.334 %
+Question 6 : A man sold two watches at the same price, one at 10 % profit and other at 10 % loss. Find his overall gain or loss percent.
+Solution : We know that if two articles are sold at the same selling price, one at a gain of A% and one at the loss of A%, then the seller always incurs a loss of (A / 10)2.
+=> Loss percent = (10 / 10)2 = 1 %
+Long Method : 
+Let the selling price of each watch be Rs. 99 S
+=> Total SP = Rs. 198 S
+CP of first watch = SP – Profit = Rs. 99 S- 10 % of CP = Rs. 90 S
+CP of second watch = SP + Loss = Rs. 99 S + 10 % of CP = Rs. 110 S
+=> Total CP = Rs. 90 S + 110 S = Rs. 200 S
+=> Loss = Total CP – Total SP = 200 – 198 = Rs. 2 S
+Therefore, loss percent = (Loss / CP) x 100 = (2 S / 200 S) x 100 % = 1 %
+Question 7 : A shopkeeper gives two successive discounts of 20 % and 10 % on surplus stock. Further, he also gives 5 % extra discount on cash payment. If a person buys a shirt from the surplus stock and pays in cash, what overall discount percent will he get on the shirt ?
+Solution : Let the marked price of the shirt be Rs. 1000
+=> Price after first discount = Rs. 1000 – 20 % of Rs. 1000 = Rs. 1000 – 200 = Rs. 800
+=> Price after second discount = Rs. 800 – 10 % of Rs. 800 = Rs. 800 – 80 = Rs. 720
+=> Price after cash discount = Rs. 720 – 5 % of Rs. 720 = Rs. 720 – 36 = Rs. 684
+Therefore, total discount = Rs. 1000 – 684 = Rs. 316
+=> Overall discount percent = (316 / 1000) x 100 = 31.60 %
+Question 8 : A dealer wants to mark the price of an article such that on offering a 5 % discount, he is able to get 33 % profit. Find the percent of CP above which the article should be marked.
+Solution : Let the cost price of the article be Rs. 100
+=> Selling price of the article = Rs. 100 + 33% of CP = Rs. 133
+Let the marked price be Rs. M
+=> Selling price = Marked Price – Discount
+=> 133 = M – 0.05 M
+=> 133 = 0.95 M
+=> M = 140
+=> M – CP = 140 – 100 = 40
+Therefore, percent of CP above which the article should be marked = (40 / 100) x 100 = 40 %
+This article has been contributed by Nishant Arora
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

@@ -1,0 +1,39 @@
+given weight direct acycl graph sourc vertex graph find shortest path given sourc vertic 
+gener weight graph calcul singl sourc shortest distanc time use bellman ford algorithm 
+graph neg weight better calcul singl sourc shortest distanc e vlogv time use dijkstra algorithm 
+even better direct acycl graph dag 
+calcul singl sourc shortest distanc v e time dag 
+idea use topolog sort 
+initi distanc vertic infinit distanc sourc 0 find topolog sort graph 
+topolog sort graph repres linear order graph see figur b linear represent figur 
+topolog order linear represent one one process vertic topolog order 
+everi vertex process updat distanc adjac use distanc current vertex 
+follow figur taken sourc 
+show step step process find shortest path 
+follow complet algorithm find shortest distanc 
+1 initi dist inf inf 
+dist 0 sourc vertex 
+2 creat toplog order vertic 
+3 follow everi vertex u topolog order 
+follow everi adjac vertex v u dist v dist u weight u v dist v dist u weight u v c c program find singl sourc shortest path direct acycl graph includ iostream includ list includ stack includ limit h defin inf int_max use namespac std graph repres use adjac list 
+everi node adjac list contain vertex number vertex edg connect 
+also contain weight edg class adjlistnod int v int weight public adjlistnod int _v int _w v _v weight _w int getv return v int getweight return weight class repres graph use adjac list represent class graph int v 
+vertic pointer array contain adjac list list adjlistnod adj function use shortestpath void topologicalsortutil int v bool visit stack int stack public graph int v constructor function add edg graph void addedg int u int v int weight find shortest path given sourc vertex void shortestpath int graph graph int v v v adj new list adjlistnod v void graph addedg int u int v int weight adjlistnod node v weight adj u push_back node add v u list recurs function use shortestpath 
+see link detail http www geeksforgeek org topolog sort void graph topologicalsortutil int v bool visit stack int stack mark current node visit visit v true recur vertic adjac vertex list adjlistnod iter adj v begin adj v end adjlistnod node visit node getv topologicalsortutil node getv visit stack push current vertex stack store topolog sort stack push v function find shortest path given vertex 
+use recurs topologicalsortutil get topolog sort given graph 
+void graph shortestpath int stack int stack int dist v mark vertic visit bool visit new bool v int 0 v visit fals call recurs helper function store topolog sort start vertic one one int 0 v visit fals topologicalsortutil visit stack initi distanc vertic infinit distanc sourc 0 int 0 v dist inf dist 0 process vertic topolog order stack empti fals get next vertex topolog order int u stack top stack pop updat distanc adjac vertic list adjlistnod iter dist u inf adj u begin adj u end dist getv dist u getweight dist getv dist u getweight print calcul shortest distanc int 0 v dist inf 
+cout inf cout dist driver program test function int main creat graph given diagram 
+vertex number 0 1 2 3 4 5 follow map 0 r 1 2 3 x 4 5 z graph g 6 g addedg 0 1 5 g addedg 0 2 3 g addedg 1 3 6 g addedg 1 2 2 g addedg 2 4 4 g addedg 2 5 2 g addedg 2 3 7 g addedg 3 4 1 g addedg 4 5 2 int 1 cout follow shortest distanc sourc n g shortestpath return 0 java java program find singl sourc shortest path direct acycl graph import java io 
+import java util 
+class shortestpath static final int inf integ max_valu class adjlistnod privat int v privat int weight adjlistnod int _v int _w v _v weight _w int getv return v int getweight return weight class repres graph adjcenc list node type adjlistnod class graph privat int v privat linkedlist adjlistnod adj graph int v v v adj new linkedlist v int 0 v adj new linkedlist adjlistnod void addedg int u int v int weight adjlistnod node new adjlistnod v weight adj u add node add v u list recurs function use shortestpath 
+see link detail void topologicalsortutil int v boolean visit stack stack mark current node visit 
+visit v true integ recur vertic adjac vertex iter adjlistnod adj v iter hasnext adjlistnod node next visit node getv topologicalsortutil node getv visit stack push current vertex stack store result stack push new integ v function find shortest path given vertex 
+use recurs topologicalsortutil get topolog sort given graph 
+void shortestpath int stack stack new stack int dist new int v mark vertic visit boolean visit new boolean v int 0 v visit fals call recurs helper function store topolog sort start vertic one one int 0 v visit fals topologicalsortutil visit stack initi distanc vertic infinit distanc sourc 0 int 0 v dist inf dist 0 process vertic topolog order stack empti fals get next vertex topolog order int u int stack pop updat distanc adjac vertic iter adjlistnod dist u inf adj u iter hasnext adjlistnod next dist getv dist u getweight dist getv dist u getweight print calcul shortest distanc int 0 v dist inf system print inf els system print dist method creat new graph instanc object shortestpath class 
+graph newgraph int number return new graph number public static void main string arg creat graph given diagram 
+vertex number 0 1 2 3 4 5 follow map 0 r 1 2 3 x 4 5 z shortestpath new shortestpath graph g newgraph 6 g addedg 0 1 5 g addedg 0 2 3 g addedg 1 3 6 g addedg 1 2 2 g addedg 2 4 4 g addedg 2 5 2 g addedg 2 3 7 g addedg 3 4 1 g addedg 4 5 2 int 1 system println follow shortest distanc sourc g shortestpath code contribut aakash hasija output follow shortest distanc sourc 1 inf 0 2 6 5 3 time complex time complex topolog sort v e 
+find topolog order algorithm process vertic everi vertex run loop adjac vertic 
+total adjac vertic graph e 
+inner loop run v e time 
+therefor overal time complex algorithm v e 
+refer http www utdalla edu sizheng cs4349 l note l17 pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

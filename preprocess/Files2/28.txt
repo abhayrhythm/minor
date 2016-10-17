@@ -1,0 +1,20 @@
+pigeonhol sort sort algorithm suitabl sort list element number element number possibl key valu approxim 
+requir n rang time n number element input array rang number possibl valu array 
+work algorithm find minimum maximum valu array 
+let minimum maximum valu min max respect 
+also find rang max min 1 
+set array initi empti pigeonhol size rang 
+visit element array put element pigeonhol 
+element arr put hole index arr min 
+start loop pigeonhol array order put element non empti hole back origin array 
+comparison count sort similar count sort differ move item twice bucket array final destin 
+c implement pegionhol sort 
+c program implement pegionhol sort includ bit stdc h use namespac std sort array use pigeonhol algorithm void pigeonholesort int arr int n find minimum maximum valu arr int min arr 0 max arr 0 int 1 n arr min min arr arr max max arr int rang max min 1 find rang creat array vector 
+size array rang 
+vector repres hole go contain match element 
+vector int hole rang travers input array put everi element respect hole int 0 n hole arr min push_back arr travers hole one one 
+everi hole take element put array 
+int index 0 index sort array int 0 rang vector int iter hole begin hole end arr index driver program test function int main int arr 8 3 2 7 4 6 8 int n sizeof arr sizeof arr 0 pigeonholesort arr n printf sort order int 0 n printf arr return 0 output sort order 2 3 4 6 7 8 8 pigeonhol sort limit use requir rare met 
+array rang much larger n bucket sort gener effici space time 
+refer http en wikipedia org wiki pigeonhole_sort articl contribut ayush govil 
+pleas write comment find anyth incorrect want share inform topic discuss sort algorithm geeksforgeek geeksquiz select sort bubbl sort insert sort merg sort heap sort quicksort radix sort count sort bucket sort shellsort comb sort adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

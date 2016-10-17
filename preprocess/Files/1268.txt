@@ -1,0 +1,142 @@
+
+There is a list of items. Given a specific word, e.g., “sun”, print out all the items in list which contain all the characters of “sun”.
+
+For example if the given word is “sun” and the items are “sunday”, “geeksforgeeks”, “utensils”, “”just” and “sss”, then the program should print “sunday” and “utensils”.
+Algorithm: Thanks to geek4u  for suggesting this algorithm.
+
+1) Initialize a binary map:
+        map[256] = {0, 0, ..}
+2) Set values in map[] for the given word "sun"
+        map['s'] = 1,  map['u'] = 1,  map['n'] = 1
+3) Store length of the word "sun":
+        len = 3 for "sun"
+4) Pick words (or items)one by one from the list
+    a) set count = 0;
+    b) For each character ch of the picked word
+         if(map['ch'] is set)
+            increment count and unset map['ch'] 
+    c) If count becomes equal to len (3 for "sun"),
+           print the currently picked word.
+    d) Set values in map[] for next list item
+          map['s'] = 1,  map['u'] = 1,  map['n'] = 1
+
+
+C
+
+
+// C program to print all strings that contain all
+// characters of a word
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# define NO_OF_CHARS 256
+
+/* prints list items having all caharacters of word */
+void print(char *list[], char *word, int list_size)
+{
+    /*Since calloc is used, map[] is initialized as 0 */
+    int *map = (int *)calloc(sizeof(int), NO_OF_CHARS);
+    int i, j, count, word_size;
+
+    /*Set the values in map */
+    for (i = 0; *(word+i); i++)
+        map[*(word + i)] = 1;
+
+    /* Get the length of given word */
+    word_size = strlen(word);
+
+    /* Check each item of list if has all characters
+     of word*/
+    for (i = 0; i < list_size; i++)
+    {
+        for (j = 0, count = 0; *(list[i] + j); j++)
+        {
+            if (map[*(list[i] + j)])
+            {
+                count++;
+
+                /* unset the bit so that strings like
+                   sss not printed*/
+                map[*(list[i] + j)] = 0;
+            }
+        }
+        if (count == word_size)
+            printf("\n %s", list[i]);
+
+        /*Set the values in map for next item*/
+        for (j = 0; *(word+j); j++)
+            map[*(word + j)] = 1;
+    }
+}
+
+/* Driver program to test to pront printDups*/
+int main()
+{
+    char str[] = "sun";
+    char *list[] = {"geeksforgeeks", "unsorted", "sunday",
+                    "just", "sss" };
+    print(list, str, 5);
+    getchar();
+    return 0;
+}
+
+Python
+
+
+# Python program to print the list items containing all
+# characters of a given word
+NO_OF_CHARS = 256
+
+# Prints list items having all characters of word
+def printList(list, word, list_size):
+    map = [0] * NO_OF_CHARS
+
+    # Set the values in map
+    for i in word:
+        map[ord(i)] = 1
+
+    # Get the length of given word
+    word_size = len(word)
+
+    # Check each item of list if has all characters
+    # of words
+    for i in list:
+        count = 0
+        for j in i:
+            if map[ord(j)]:
+                count+=1
+
+                # unset the bit so that strings like sss
+                # not printed
+                map[ord(j)] = 0
+        if count==word_size:
+            print i
+
+        # Set the values in map for next item
+        for j in xrange(len(word)):
+            map[ord(word[j])] = 1
+
+# Driver program to test the above function
+string = "sun"
+list = ["geeksforgeeks", "unsorted", "sunday", "just", "sss"]
+printList(list, string, 5)
+
+# This code is contributed by Bhavya Jain
+
+
+Output:
+ 
+ unsorted
+ sunday
+
+Time Complexity: O(n + m) where n is total number of characters in the list of items. And m = (number of items in list) * (number of characters in the given word)
+Please write comments if you find any bug in above code/algorithm, or find other ways to solve the same problem
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

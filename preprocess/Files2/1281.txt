@@ -1,0 +1,18 @@
+given 2d matrix order n x print k th element spiral form matrix 
+see follow exampl 
+exampl input mat 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 k 6 output 12 input mat 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 k 17 output 10 simpl solut one simpl solut start travers matrix spiral form print spiral matrix start counter e count 0 whenev count get equal k print element 
+time complex approach n 2 
+effici solut consid edg matrix time recurs sub matrix made remov edg main matrix 
+k element first row 
+els k n 1 element last column 
+els k n 1 1 element last row 
+els k n 1 1 n 2 element first column 
+els element lie somewher middl matrix 
+c program kth element spiral form matrix includ bit stdc h defin max 100 use namespac std function kth element int findk int max max int n int int k n 1 1 return 1 element outermost ring element first row k return 0 k 1 element last column k n 1 return k 1 element last row k n 1 1 return n 1 1 k n 1 element first column k n 1 1 n 2 return n 1 k n 1 1 0 element outermost ring recurs sub matrix 
+1 1 address next insid sub matrix 
+return findk int max 1 1 n 2 2 k 2 n 2 4 driver program test function int main int max max 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 int k 17 cout findk 3 6 k endl return 0 output 10 time complex c c number outer circular ring respect k th element 
+space complex 1 articl contribut shashank mishra gullu 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

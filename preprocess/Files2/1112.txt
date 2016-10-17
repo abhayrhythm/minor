@@ -1,0 +1,10 @@
+given array arr size n integ k k n input arr 3 7 90 20 10 50 40 k 3 output subarray index 3 5 subarray 20 10 50 least averag among subarray size 3 input arr 3 7 5 20 10 0 12 k 2 output subarray 4 5 minimum averag strongli recommend click practic move solut 
+simpl solut consid everi element begin subarray size k comput sum subarray start element 
+time complex solut nk 
+effici solut solv problem n time 1 extra space 
+idea use slide window size k keep track sum current k element 
+comput sum current window remov first element previou window add current element last element current window 
+1 initi res_index 0 begin result index 2 find sum first k element 
+let sum curr_sum 3 initi min_sum sum 4 iter k 1 th n th element follow everi element arr curr_sum curr_sum arr arr k b curr_sum min_sum res_index k 1 5 print res_index res_index k 1 begin end index result subarray 
+c implement algorithm 
+simpl c program find minimum averag subarray includ bit stdc h use namespac std print begin end index subarray size k minimum averag void findminavgsubarray int arr int n int k k must smaller equal n n k return initi begin index result int res_index 0 comput sum first subarray size k int curr_sum 0 int 0 k curr_sum arr initi minimum sum current sum int min_sum curr_sum travers k 1 th element n th element int k n add current item remov first item previou subarray curr_sum arr arr k updat result need curr_sum min_sum min_sum curr_sum res_index k 1 cout subarray res_index res_index k 1 minimum averag driver program int main int arr 3 7 90 20 10 50 40 int k 3 subarray size int n sizeof arr sizeof arr 0 findminavgsubarray arr n k return 0 output subarray 3 5 minimum averag time complex n auxiliari space 1 sourc http qa geeksforgeek org 2221 given array integ find subarray least averag pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

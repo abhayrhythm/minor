@@ -1,0 +1,90 @@
+differ mutex vs semaphor 
+use mutex use semaphor 
+concret understand oper system concept requir design develop smart applic 
+object educ reader concept learn expert geek 
+per oper system terminolog mutex semaphor kernel resourc provid synchron servic also call synchron primit 
+need synchron primit 
+one suffici 
+answer question need understand keyword 
+pleas read post atom critic section 
+illustr exampl understand concept well rather follow usual os textual descript 
+produc consum problem note content gener explan 
+practic detail vari implement 
+consid standard produc consum problem 
+assum buffer 4096 byte length 
+produc thread collect data write buffer 
+consum thread process collect data buffer 
+object thread run time 
+use mutex mutex provid mutual exclus either produc consum key mutex proceed work 
+long buffer fill produc consum need wait vice versa 
+point time one thread work entir buffer 
+concept gener use semaphor 
+use semaphor semaphor gener mutex 
+lieu singl buffer split 4 kb buffer four 1 kb buffer ident resourc 
+semaphor associ four buffer 
+consum produc work differ buffer time 
+misconcept ambigu binari semaphor mutex 
+might come across mutex binari semaphor 
+
+purpos mutex semaphor differ 
+may due similar implement mutex would refer binari semaphor 
+strictli speak mutex lock mechan use synchron access resourc 
+one task thread process base os abstract acquir mutex 
+mean ownership associ mutex owner releas lock mutex 
+semaphor signal mechan done carri kind signal 
+exampl listen song assum one task mobil time friend call interrupt trigger upon interrupt servic routin isr signal call process task wakeup 
+gener question 1 thread acquir one lock mutex 
+ye possibl thread need one resourc henc lock 
+lock avail thread wait block lock 
+2 mutex lock 
+mutex lock 
+one state lock unlock associ 
+howev recurs mutex lock posix complaint system count associ yet retain one state lock unlock 
+programm must unlock mutex mani number time lock 
+3 happen non recurs mutex lock 
+deadlock 
+thread alreadi lock mutex tri lock mutex enter wait list mutex result deadlock 
+thread unlock mutex 
+oper system implement exercis care identifi owner mutex return alreadi lock thread prevent deadlock 
+4 binari semaphor mutex 
+
+suggest treat separ explain signal vs lock mechan 
+binari semaphor may experi critic issu e g 
+prioriti invers associ mutex 
+cover later articl 
+programm prefer mutex rather creat semaphor count 1 
+5 mutex critic section 
+oper system use word critic section api 
+usual mutex costli oper due protect protocol associ 
+last object mutex atom access 
+way achiev atom access like disabl interrupt much faster ruin respons 
+altern api make use disabl interrupt 
+6 event 
+semant mutex semaphor event critic section etc 
+synchron primit 
+base cost use differ 
+consult os document exact detail 
+7 acquir mutex semaphor interrupt servic routin 
+isr run asynchron context current run thread 
+recommend queri block call avail synchron primit isr 
+isr meant short call mutex semaphor may block current run thread 
+howev isr signal semaphor unlock mutex 
+8 mean thread block mutex semaphor avail 
+everi synchron primit wait list associ 
+resourc avail request thread move run list processor wait list synchron primit 
+resourc avail higher prioriti thread wait list get resourc precis depend schedul polici 
+9 necessari thread must block alway resourc avail 
+necessari 
+design sure done resourc avail thread take work differ code branch 
+support applic requir os provid non block api 
+exampl posix pthread_mutex_trylock api 
+mutex avail function return immedi wherea api pthread_mutex_lock block thread till resourc avail 
+refer http www netrino com node 202 http doc trolltech com 4 7 qsemaphor html also compar mutex semaphor peterson algorithm dekker algorithm 
+good refer art concurr book 
+also explor reader lock writer lock qt document 
+exercis implement program print messag instanc run execut session 
+exampl observ word applic adob reader window see one instanc task manag 
+implement 
+articl compil venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

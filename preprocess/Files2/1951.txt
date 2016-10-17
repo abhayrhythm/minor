@@ -1,0 +1,14 @@
+creat copi constructor pass object refer gener pass const refer 
+one reason pass const refer use const c wherev possibl object accident modifi 
+one good reason pass refer const 
+exampl predict output follow c program 
+assum copi elis done compil 
+includ iostream use namespac std class test class data member public test test copi data member test initi data member test fun cout fun call n test return int main test t1 test t2 fun return 0 output compil error line test t2 fun program look fine first look compil error 
+add const copi constructor program work fine e chang copi constructor follow 
+test const test cout copi constructor call n chang line test t2 fun follow two line also program work fine 
+test t2 t2 fun function fun return valu 
+compil creat temporari object copi t2 use copi constructor origin program temporari object pass argument copi constructor 
+reason compil error compil creat temporari object cannot bound non const refer origin program tri 
+make sens modifi compil creat temporari object die moment 
+articl compil abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

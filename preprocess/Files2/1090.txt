@@ -1,0 +1,18 @@
+given array posit integ find maximum possibl valu k array least k element greater equal k array unsort may contain duplic valu 
+exampl input 2 3 4 5 6 7 output 4 explan 4 element 4 5 6 7 greater equal 4 input 1 2 3 4 output 2 explan 3 element 2 3 4 greater equal 2 input 4 7 2 3 8 output 3 explan 4 element 4 7 3 8 greater equal 3 input 6 7 9 8 10 output 5 explan 5 element greater equal 5 expect time complex n method 1 simpl n2 time let size input array n let us consid follow import observ 
+maximum possibl valu result n get maximum possibl valu element greater equal n exampl input array 10 20 30 n 3 valu result greater 3 minimum possibl valu would 1 exampl case get output element 1 run loop n 1 count greater element everi valu 
+c program find maximum possibl valu k array least k element greater equal k includ iostream use namespac std function return maximum possibl valu k array atleast k element greater equal k int findmaximumnum unsign int arr int n output contain number n 0 n length array start loop n need find maximum possibl valu int n 1 count contain total number element input array equal int count 0 travers input array find count int j 0 j n j arr j count count return return 1 driver code int main unsign int arr 1 2 3 8 10 int n sizeof arr sizeof arr 0 cout findmaximumnum arr n return 0 output 3 method 2 effici n time n extra space 1 idea construct axillari array size n 1 use array find count greater element input array 
+let auxiliari array freq 
+initi element array 0 
+2 process input element 
+element arr less n increment frequenc e freq arr 
+b els increment freq n 
+3 step 2 two thing 
+frequenc element element smaller n store freq 0 n 1 
+b count element greater n store freq n 
+final process freq array backward find output keep sum valu process far 
+c implement idea 
+c program find maximum possibl valu k array atleast k element greater equal k includ bit stdc h use namespac std function return maximum possibl valu k array least k element greater equal k int findmaximumnum unsign int arr int n construct axillari array size n 1 initi array 0 vector int freq n 1 0 store frequenc element input array axillari array int 0 n element smaller n updat frequenc arr n freq arr els increment count element greater n els freq n sum store number element input array greater equal current index int sum 0 scan auxillari array backward int n 0 sum freq sum greater current index current index answer sum return driver code int main unsign int arr 1 2 3 8 10 int n sizeof arr sizeof arr 0 cout findmaximumnum arr n return 0 output 3 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

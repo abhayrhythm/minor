@@ -1,0 +1,58 @@
+given team n player 
+mani minimum game requir find second best player 
+use adversari argument base tournament tree binari heap 
+tournament tree form min max heap complet binari tree 
+everi extern node repres player intern node repres winner 
+tournament tree everi intern node contain winner everi leaf node contain one player 
+n 1 intern node binari tree n leaf extern node 
+detail see post put n 2 equat given post 
+obviou select best player among n player n 1 player elimin e 
+need minimum n 1 game comparison 
+mathemat prove 
+binari tree e 1 number intern node e number extern node 
+mean find maximum minimum element array need n 1 intern node comparison 
+second best player inform explor best player select use minim number comparison trace next best player 
+exampl pick second best player n log2n 2 comparison 
+detail read comment 
+follow diagram display tournament tree winner tree max heap 
+note concept loser tree differ 
+tree contain 4 leaf node repres player 3 level 0 1 2 initi 2 game conduct level 2 one 5 3 anoth one 7 8 next move one game conduct 5 8 conclud final winner 
+overal need 3 comparison 
+second best player need trace candid particip final winner lead 7 second best 
+median sort array tournament tree effect use find median sort array 
+assum given sort array equal size l simplic 
+attach sort array tournament tree one array per leaf 
+need tree height ceil log2m atleast extern node 
+consid exampl 
+given 3 3 sort integ array maximum size 5 element 
+2 5 7 11 15 array1 1 3 4 array2 6 8 12 13 14 array3 height tournament tree 
+need construct tournament tree height log23 1 585 2 round next integ 
+binari tree height 2 4 leav attach array shown figur 
+first tournament tree appear observ winner array2 
+henc next element array2 dive game play along winner path previou tournament 
+note infin use sentinel element 
+base data hold node select sentinel charact 
+exampl usual store pointer node rather key null serv sentinel 
+array exhaust fill correspond leaf upcom intern node sentinel 
+second tournament tree appear next winner array1 next element array1 array 5 dive next round next tournament play along path 2 tournament continu till get median element 5 3 5 2 7th element 
+note even better algorithm find median union sort array detail see relat link given 
+gener sort list size l1 l2 lm requir time complex l1 l2 lm logm merg array logm time find median median posit 
+select smallest one million element one billion unsort element simpl solut sort billion number select first one million 
+limit memori system sort billion element pick first one million seem impract 
+use tournament tree approach 
+time element tree memori 
+split larg array perhap store disk smaller size array size one million even smaller sort machin 
+sort 1000 small size array store disk individu file 
+construct tournament tree atleast 1000 leaf node tree height 10 sinc 29 1000 210 individu file size even smaller need leaf node 
+everi leaf node engin pick next element sort file store disk 
+play tournament tree game extract first one million element 
+total cost sort 1000 list one million tree construct tournament implement need build tree heap bottom manner 
+leaf node fill first 
+start left extrem tree fill along breadth e 
+2k 1 2k 1 k depth tree play game 
+practic exampl easi write code 
+code upcom articl 
+relat post link 1 link 2 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

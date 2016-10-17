@@ -1,0 +1,5 @@
+c oper appli struct variabl assign 
+oper e g 
+equal check allow struct variabl 
+exampl program 1 work without error program 2 fail compil 
+program 1 includ stdio h struct point int x int int main struct point p1 10 20 struct point p2 p1 work content p1 copi p1 printf p2 x p2 p2 x p2 getchar return 0 

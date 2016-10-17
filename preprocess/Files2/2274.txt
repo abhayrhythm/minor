@@ -1,0 +1,13 @@
+work binari file measur endian 
+exampl programm make configur file binari format e g 
+small system may possibl use xml like text file configur text file requir anoth wrapper layer binari file binari file would need read differ architectur 
+case endian issu address 
+consid binari file creat littl endian machin read big endian machin without alter byte order 
+consid binari file sequenc increas address start low order high order address store one byte 
+write data binari file littl endian machin need alter 
+binari file creat big endian machin data alter 
+note file format defin endian order 
+exampl jpeg big endian bmp littl endian 
+relat post littl big endian mysteri output c program set 14 articl compil venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

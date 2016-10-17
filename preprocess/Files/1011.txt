@@ -1,0 +1,10 @@
+
+Following questions have been asked in GATE CS exam. 
+1.Assume the following C variable declaration 
+ int *A [10], B[10][10];  
+Of the following expressions
+I	A[2]
+II	A[2][3]
+III	B[1]
+IV	B[2][3]
+which will not give compile-time errors if used as left hand sides of assignment statements in a C program (GATE CS 2003)?

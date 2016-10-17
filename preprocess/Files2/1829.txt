@@ -1,0 +1,24 @@
+forward list stl implement singli link list 
+introduc c 11 forward list use contain insert remov move oper like sort allow time constant insert remov element 
+differ list fact forward list keep track locat next element list keep track next previou element thu increas storag space requir store element 
+drawback forward list cannot iter backward individu element cannot access directli 
+forward list prefer list forward travers requir singli link list prefer doubli link list save space 
+exampl case chain hash adjac list represent graph etc 
+oper forward list 1 assign function use assign valu forward list anoth variant use assign repeat element 
+c code demonstr forward list assign includ iostream includ forward_list use namespac std int main declar forward list forward_list int flist1 declar anoth forward list forward_list int flist2 assign valu use assign flist1 assign 1 2 3 assign repeat valu use assign 5 element valu 10 flist2 assign 5 10 display forward list cout element first forward list int flist1 cout cout endl cout element second forward list int b flist2 cout b cout endl return 0 output element first forward list 1 2 3 element second forward list 10 10 10 10 10 2 push_front function use insert element first posit forward list 
+valu function copi space first element contain 
+size forward list increas 1 
+3 emplace_front function similar previou function copi oper occur element creat directli memori first element forward list 
+4 pop_front function use delet first element list 
+c code demonstr work push_front emplace_front pop_front includ iostream includ forward_list use namespac std int main initi forward list forward_list int flist 10 20 30 40 50 insert valu use push_front insert 60 front flist push_front 60 display forward list cout forward list push_front oper int c flist cout c cout endl insert valu use emplace_front insert 70 front flist emplace_front 70 display forward list cout forward list emplace_front oper int c flist cout c cout endl delet first valu use pop_front pop 70 flist pop_front display forward list cout forward list pop_front oper int c flist cout c cout endl return 0 output forward list push_front oper 60 10 20 30 40 50 forward list emplace_front oper 70 60 10 20 30 40 50 forward list pop_front oper 60 10 20 30 40 50 4 insert_aft function give us choic insert element posit forward list 
+argument function copi desir posit 
+5 emplace_aft function also oper function element directli made without copi oper 
+6 erase_aft function use eras element particular posit forward list 
+c code demonstr work insert_aft emplace_aft erase_aft includ iostream includ forward_list use namespac std int main initi forward list forward_list int flist 10 20 30 declar forward list iter forward_list int iter ptr insert valu use insert_aft start insert second posit ptr flist insert_aft flist begin 1 2 3 display forward list cout forward list insert_aft oper int c flist cout c cout endl insert valu use emplace_aft insert 2 ptr ptr flist emplace_aft ptr 2 display forward list cout forward list emplace_aft oper int c flist cout c cout endl delet valu use eras delet 2 ptr ptr flist erase_aft ptr display forward list cout forward list erase_aft oper int c flist cout c cout endl return 0 output forward list insert_aft oper 10 1 2 3 20 30 forward list emplace_aft oper 10 1 2 3 2 20 30 forward list erase_aft oper 10 1 2 3 2 30 7 remov function remov particular element forward list mention argument 
+8 remove_if function remov accord condit argument 
+c code demonstr work remov remove_if includ iostream includ forward_list use namespac std int main initi forward list forward_list int flist 10 20 30 25 40 40 remov element use remov remov occurr 40 flist remov 40 display forward list cout forward list remov oper int c flist cout c cout endl remov accord condit 
+remov element greater 20 remov 25 30 flist remove_if int x return x 20 display forward list cout forward list remove_if oper int c flist cout c cout endl return 0 output forward list remov oper 10 20 30 25 forward list remove_if oper 10 20 9 splice_aft function transfer element one forward list 
+c code demonstr work splice_aft includ iostream includ forward_list splice_aft use namespac std int main initi forward list forward_list int flist1 10 20 30 initi second list forward_list int flist2 40 50 60 shift element first second forward list 1st posit flist2 splice_aft flist2 begin flist1 display forward list cout forward list splice_aft oper int c flist2 cout c cout endl return 0 output forward list splice_aft oper 40 10 20 30 50 60 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

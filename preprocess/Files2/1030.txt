@@ -1,0 +1,13 @@
+difficulti level rooki question 1 predict output program 
+int main char arr geeksforgeek printf sizeof arr getchar return 0 output 14 string geeksforgeek 13 charact size 14 compil includ singl 0 string termin char array size explicitli mention 
+question 2 program would put place print geek 
+obvious someth geek 
+int main char arr geeksforgeek printf 
+getchar return 0 answer arr 8 printf statement print everyth start arr 8 find 0 question 3 predict output program 
+int main int x 5 z 5 x z printf x getchar return 0 crux question lie statement x z 
+oper execut preced comparison oper higher assign oper 
+result comparison oper either 0 1 base comparison result 
+sinc equal z valu express z becom 1 valu assign x via assign oper 
+question 4 predict output program 
+int main printf geek geek getchar return 0 output geek geek backslash work escap charact doubl quot 
+explan pleas see 

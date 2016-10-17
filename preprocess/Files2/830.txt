@@ -1,0 +1,24 @@
+introduct work brain comput interfac technolog cybersecur univers north texa two month summer internship 
+close work ph student monitor mentor research 
+research base project wherein given task discov new function two pre invent bci devic neuroski mindwav emotiv epoc 
+applic prior start applic user ask think particular number 0 9 around 30 second 
+could develop applic flash random number 0 9 screen per second adjust durat 20 30 second 
+look flash number user ask identifi look number think 
+one bci devic could use captur eeg valu user undergo test applic 
+eeg valu brain user record microsoft access datasheet along valu brain voltag correspond eeg valu 
+got approxim 512 eeg valu per second e flash number 512 differ valu brain 
+use program python filter record data use butterworth filter order remov unwant nois data 
+applic interfac front end creat use c 
+base filter eeg valu use java code could identifi two essenti valu p300 n400 
+p300 highest posit amplitud valu eeg incur around 300th second 
+p300 eeg valu would gener user brain could find number flash screen 
+whole data number highest degre p300 supposedli number user think prior test look test 
+henc number human thought could identifi appreci accuraci without ask user manual enter number 
+thing would need user think number uninterrupt 30 second less tri identifi number test 
+usag featur could specif use field cyber secur password protect 
+applic may develop would ask user think pin number process data author user may given access account base correct pin without actual enter pin physic anywher 
+applic may bring case eavesdrop hack 
+articl contribut gunjan soni 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

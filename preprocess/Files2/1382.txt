@@ -1,0 +1,20 @@
+previou post discuss doubli link creat use one space address field everi node 
+post discuss implement memori effici doubli link list 
+mainli discuss follow two simpl function 
+1 function insert new node begin 
+2 function travers list forward direct 
+follow code insert function insert new node begin 
+need chang head pointer link list doubl pointer use see 
+let use first discuss thing discuss previou post 
+store xor next previou node everi node call npx address member everi node 
+insert new node begin npx new node alway xor null current head 
+npx current head must chang xor new node node next current head 
+printlist travers list forward direct 
+print data valu everi node 
+travers list need get pointer next node everi point 
+get address next node keep track current node previou node 
+xor curr npx prev get address next node 
+c c implement memori effici doubli link list includ stdio h includ stdlib h node structur memori effici doubli link list struct node int data struct node npx xor next previou node return xore valu node address struct node xor struct node struct node b return struct node unsign int unsign int b insert node begin xore link list make newli insert node head void insert struct node head_ref int data alloc memori new node struct node new_nod struct node malloc sizeof struct node new_nod data data sinc new node insert begin npx new node alway xor current head null new_nod npx xor head_ref null link list empti npx current head node xor new node node next current head head_ref null head_ref npx xor null next 
+xor null get next struct node next xor head_ref npx null head_ref npx xor new_nod next chang head head_ref new_nod print content doubli link list forward direct void printlist struct node head struct node curr head struct node prev null struct node next printf follow node link list n curr null print current node printf curr data get address next node curr npx next prev curr npx prev next prev prev next next xor prev curr npx updat prev curr next iter prev curr curr next driver program test function int main creat follow doubli link list head 40 30 20 10 struct node head null insert head 10 insert head 20 insert head 30 insert head 40 print creat list printlist head return 0 output follow node link list 40 30 20 10 note xor pointer defin c c standard 
+implement may work platform 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

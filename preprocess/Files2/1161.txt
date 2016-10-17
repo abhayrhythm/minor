@@ -1,0 +1,20 @@
+given array 0 n 1 contain n posit integ subarray j biton k k j 1 k k 1 j 1 j 
+write function take array argument return length maximum length biton subarray 
+expect time complex solut n simpl exampl 1 12 4 78 90 45 23 maximum length biton subarray 4 78 90 45 23 length 5 
+2 20 4 1 2 3 4 2 10 maximum length biton subarray 1 2 3 4 2 length 5 extrem exampl 1 10 singl element bitnoic output 1 
+2 10 20 30 40 complet array biton output 4 
+3 40 30 20 10 complet array biton output 4 solut let us consid array 12 4 78 90 45 23 understand soultion 
+1 construct auxiliari array inc left right inc contain length nondecrea subarray end arr 
+12 4 78 90 45 23 inc 1 1 2 3 1 1 2 construct anoth array dec right left dec contain length nonincreas subarray start arr 
+12 4 78 90 45 23 dec 2 1 1 3 2 1 
+3 inc dec array need find maximum valu inc dec 1 
+12 4 78 90 45 23 max valu inc dec 1 5 3 c c c program find length longest biton subarray includ stdio h includ stdlib h int biton int arr int n int inc n length increas subarray end index int dec n length decreas subarray start index int max length increas sequenc end first index 1 inc 0 1 length increas sequenc start first index 1 dec n 1 1 step 1 construct increas sequenc array 1 n inc arr arr 1 
+inc 1 1 1 step 2 construct decreas sequenc array n 2 0 dec arr arr 1 
+dec 1 1 1 step 3 find length maximum length biton sequenc max inc 0 dec 0 1 1 n inc dec 1 max max inc dec 1 return max driver program test function int main int arr 12 4 78 90 45 23 int n sizeof arr sizeof arr 0 printf nlength max length bitnoic subarray biton arr n return 0 java java program find length longest biton subarray import java io 
+import java util 
+class biton static int biton int arr int n int inc new int n length increas subarray end index int dec new int n length decreas subarray start index int max length increas sequenc end first index 1 inc 0 1 length increas sequenc start first index 1 dec n 1 1 step 1 construct increas sequenc array int 1 n inc arr arr 1 
+inc 1 1 1 step 2 construct decreas sequenc array int n 2 0 dec arr arr 1 
+dec 1 1 1 step 3 find length maximum length biton sequenc max inc 0 dec 0 1 int 1 n inc dec 1 max max inc dec 1 return max driver function check function public static void main string arg int arr 12 4 78 90 45 23 int n arr length system println length max length bitnoic subarray biton arr n code contribut devesh agraw output length max length bitnoic subarray 5 time complex n auxiliari space n exercis extend implement print longest biton subarray also 
+implement return length subarray 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,9 @@
+ask tanuj standard prototyp printf function c int printf const char format format string compos zero direct ordinari charact copi unchang output stream convers specif argument error insuffici mani argument given 
+charact follow one follow charact 
+flag charact field width precis length modifi convers specifi see http swoolley org man cgi 3 printf detail charact 
+main thing note standard line convers specifi 
+written 
+argument convert 
+complet convers specif 
+print use program print includ stdio h program print int main printf getchar return 0 also print use 
+printf c printf adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,23 @@
+given ternari tree creat doubli link list 
+ternari tree like binari tree instead two node three node e 
+left middl right 
+doubli link list hold follow properti left pointer ternari tree act prev pointer doubli link list 
+middl pointer ternari tree point anyth 
+right pointer ternari tree act next pointer doubli link list 
+node ternari tree insert doubli link list subtre node left child insert first follow mid right child 
+exampl link list form tree null 30 5 1 4 8 11 6 7 15 63 31 55 65 null strongli recommend minim browser tri first 
+idea travers tree preoder fashion similar binari tree preorder travers 
+visit node insert doubli link list end use tail pointer 
+use maintain requir insert order 
+recurs call left child middl child right child order 
+c implement idea 
+c program creat doubli link list given ternari tree 
+includ bit stdc h use namespac std ternari tree struct node int data struct node left middl right helper function alloc new node given data assign null left middl right pointer 
+node newnod int data node node new node node data data node left node middl node right null return node util function construct doubli link list insert current node end doubli link list use tail pointer void push node tail_ref node node initil tail pointer tail_ref null tail_ref node set left middl right child point null node left node middl node right null return insert node end use tail pointer tail_ref right node set prev node node left tail_ref set middl right child point null node right node middl null tail pointer point insert node tail_ref node creat doubli link list given ternari tree 
+travers tree preoder fashion 
+node ternarytreetolist node root node head_ref base case root null return null creat static tail pointer static node tail null store left middl right node futur call 
+node left root left node middl root middl node right root right set head doubli link list head root ternari tree head_ref null head_ref root push current node end dll push tail root recurs left middl right child ternarytreetolist left head_ref ternarytreetolist middl head_ref ternarytreetolist right head_ref util function print doubl link list 
+void printlist node head printf creat doubl link list n head printf head data head head right driver program test function int main construt ternari tree shown figur node root newnod 30 root left newnod 5 root middl newnod 11 root right newnod 63 root left left newnod 1 root left middl newnod 4 root left right newnod 8 root middl left newnod 6 root middl middl newnod 7 root middl right newnod 15 root right left newnod 31 root right middl newnod 55 root right right newnod 65 node head null ternarytreetolist root head printlist head return 0 output creat doubl link list 30 5 1 4 8 11 6 7 15 63 31 55 65 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

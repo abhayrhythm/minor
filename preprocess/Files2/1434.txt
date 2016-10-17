@@ -1,0 +1,23 @@
+given stack sort use recurs 
+use loop construct like etc allow 
+use follow adt function stack is_empti test whether stack empti 
+push add new element stack 
+pop remov top element stack 
+top return valu top element 
+note function remov element stack 
+exampl input 3 top 14 18 5 30 output 30 top 18 14 3 5 strongli recommend minim browser tri first 
+problem mainli variant revers stack use recurs 
+idea solut hold valu function call stack stack becom empti 
+stack becom empti insert held item one one sort order 
+sort order import 
+algorithm use algorithm sort stack element sortstack stack stack empti temp pop sortstack sortedinsert temp algorithm insert element sort order sortedinsert stack element stack empti element top element push elem els temp pop sortedinsert element push temp illustr let given stack 3 top stack 14 18 5 30 let us illustr sort stack use exampl first pop element stack store pope element variabl temp 
+pope element function stack frame look like temp 3 stack frame 1 temp 14 stack frame 2 temp 18 stack frame 3 temp 5 stack frame 4 temp 30 stack frame 5 stack empti insert_in_sorted_ord function call insert 30 stack frame 5 bottom stack 
+stack look like 30 top stack next element e 
+5 stack frame 4 pick 
+sinc 5 30 5 insert bottom stack 
+stack becom 30 top stack 5 next 18 stack frame 3 pick 
+sinc 18 30 18 insert 30 stack becom 30 top stack 18 5 next 14 stack frame 2 pick 
+sinc 14 30 14 18 insert 18 stack becom 30 top stack 18 14 5 3 stack frame 1 pick 3 30 3 18 3 14 insert 14 stack becom 30 top stack 18 14 3 5 implement c implement algorithm 
+c program sort stack use recurs includ stdio h includ stdlib h stack repres use link list struct stack int data struct stack next util function initi stack void initstack struct stack null util function chcek stack empti int isempti struct stack null return 1 return 0 util function push item stack void push struct stack int x struct stack p struct stack malloc sizeof p p null fprintf stderr memori alloc fail n return p data x p next p util function remov item stack int pop struct stack int x struct stack temp x data temp next free temp return x function find top item int top struct stack return data recurs function insert item x sort way void sortedinsert struct stack int x base case either stack empti newli insert item greater top exist isempti x top push x return top greater remov top item recur int temp pop sortedinsert x put back top item remov earlier push temp function sort stack void sortstack struct stack stack empti isempti remov top item int x pop sort remain stack sortstack push top item back sort stack sortedinsert x util function print content stack void printstack struct stack printf data next printf n driver program int main void struct stack top initstack top push top 30 push top 5 push top 18 push top 14 push top 3 printf stack element sort n printstack top sortstack top printf n n printf stack element sort n printstack top return 0 output stack element sort 3 14 18 5 30 stack element sort 30 18 14 3 5 exercis modifi code revers stack descend order 
+articl contribut narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

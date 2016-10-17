@@ -1,0 +1,107 @@
+
+Predict the output of below programs
+
+Question 1
+
+int main()
+{
+    unsigned int i=65000;
+    while ( i++ != 0 );
+    printf("%d",i);
+    return 0;
+}
+
+Output:
+1
+Explanation:
+It should be noticed that there’s a semi-colon in the body of while loop. So even though, nothing is done as part of while body, the control will come out of while only if while condition isn’t met. In other words, as soon as i inside the condition becomes 0, the condition will become false and while loop would be over. But also notice the post-increment operator in the condition of while. So first i will be compared with 0 and i will be incremented no matter whether condition is met or not. Since i is initialized to 65000, it will keep on incrementing till it reaches highest positive value. After that roll over happens, and the value of i becomes zero. The condition is not met, but i would be incremented i.e. to 1. Then printf will print 1.
+Question 2
+
+int main()
+{
+    int i=0;
+    while ( +(+i--) != 0)
+        i-=i++;
+    printf("%d",i);
+    return 0;
+}
+
+Output:
+-1
+Explanation:
+Let us first take the condition of while loop. There are several operator there. Unary + operator doesn’t do anything. So the simplified condition becomes (i–) != 0. So i will be compared with 0 and then decremented no matter whether condition is true or false. Since i is initialized to 0, the condition of while will be false at the first iteration itself but i will be decremented to -1. The body of while loop will not be executed. And printf will print -1.
+So it wasn’t that scary as it seemed to be!
+Question 3
+
+int main()
+{
+    float f=5,g=10;
+    enum{i=10,j=20,k=50};
+    printf("%d\n",++k);
+    printf("%f\n",f<<2);
+    printf("%lf\n",f%g);
+    printf("%lf\n",fmod(f,g));
+    return 0;
+}
+
+Output:
+Program will not compile and give 3 errors
+Explanation:
+Here, i, j and k are inside the enum and therefore, they are like constants. In other words, if want to us 10 anywhere in the program , we can use i instead. In the first printf, the value of i is being modified which is not allowed because it’s enum constant.  In the second printf, left-shift operator is being applied on a float which is also not allowed. Similarly, in the third printf, modulus operator is being applied on float f and g which is also not allowed.
+Question 4
+ 
+int main()
+{
+    int i=10;
+    void pascal f(int,int,int);
+    f(i++, i++, i++);
+    printf(" %d",i);
+    return 0;
+}
+void pascal f(integer :i,integer:j,integer :k)
+{
+  write(i,j,k);
+}
+
+Output:
+Program will give compile-time error
+Explanation:
+Compiler specific question. Not all compilers support this.
+Otherwise, pascal enforces left to right processing of arguments. So even though, the argument processing order can be changed by the use of pascal, we can’t use Pascal language routines such as write inside C program.
+Question 5
+
+void pascal f(int i,int j,int k)
+{
+  printf("%d %d %d",i, j, k);
+}
+
+void cdecl f(int i,int j,int k)
+{
+  printf("%d %d %d",i, j, k);
+}
+
+main()
+{
+    int i=10;
+    f(i++,i++,i++);
+    printf(" %d\n",i);
+    i=10;
+    f(i++,i++,i++);
+    printf(" %d",i);
+}
+
+Output:
+Compiler specific question. Not all the compilers allow this. 
+Explanation:
+This question deals with the argument passing mechanism. If we call a function, the order in which the arguments of the function are processed is not governed by C Standard. So one compiler can process the arguments from left to right while the other compiler can process them right to left. Usually, the programs are not affected with this because the arguments of the programs are different. For example if we call funtion fun as fun(i,j), then no matter in which order the arguments are processed, the value of i and j will be consistent.
+But in this case, we are passing the arguments to function f using the same variable. So the order in which arguments are processed by the function will determine the value of those arguments. cdecl enforces right to left processing of arguments while pascal enforces left to right processing of arguments.
+So the value of i, j and k inside the first function f will be 10, 11 and 12 respectively while the value of i, j and k inside the second function f will be 12, 11 and 10 respectively.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

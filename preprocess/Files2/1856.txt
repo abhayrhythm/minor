@@ -1,0 +1,19 @@
+prerequisit fork c zombi process process finish execut still entri process tabl report parent process known zombi process 
+child process alway first becom zombi remov process tabl 
+parent process read exit statu child process reap child process entri process tabl 
+follow code child finish execut use exit system call parent sleep 50 second henc call wait child process entri still exist process tabl 
+c program demonstr zombi process 
+child becom zombi parent sleep child process exit 
+includ stdlib h includ sy type h includ unistd h int main fork return process id parent process pid_t child_pid fork parent process child_pid 0 sleep 50 child process els exit 0 return 0 note code may work onlin compil fork disabl 
+orphan process process whose parent process exist e 
+either finish termin without wait child process termin call orphan process 
+follow code parent finish execut exit child process still execut call orphan process 
+howev orphan process soon adopt init process parent process die 
+c program demonstr orphan process 
+parent process finish execut child process run 
+child process becom orphan 
+includ stdio h includ sy type h includ unistd h int main creat child process int pid fork pid 0 printf parent process note pid 0 child process neg fork fail els pid 0 sleep 30 printf child process return 0 note code may work onlin compil fork disabl 
+relat idea zombi oper system 
+articl contribut pranjal mathur like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

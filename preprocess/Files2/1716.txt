@@ -1,0 +1,38 @@
+given graph sourc vertex graph number k find simpl path without cycl start given sourc end vertex 
+input sourc 0 k 58 output true exist simpl path 0 7 1 2 8 6 5 3 4 total distanc 60 km 58 input sourc 0 k 62 output fals graph longest simpl path distanc 61 0 7 1 2 3 4 5 6 8 output fals input greater 61 strongli recommend minim browser tri first 
+one import thing note simpli bf df pick longest edg everi step would work 
+reason shorter edg produc longer path due higher weight edg connect 
+idea use backtrack 
+start given sourc explor path current vertex 
+keep track current distanc sourc 
+distanc becom k return true 
+path produc k distanc backtrack 
+make sure path simpl loop cycl 
+idea keep track current path vertic array 
+whenev add vertex path check alreadi exist current path 
+exist ignor edg 
+c implement idea 
+program find simpl path weight k includ bit stdc h use namespac std ipair integ pair typedef pair int int ipair class repres dipatht graph use adjac list represent class graph int v 
+vertic weight graph need store vertex weight pair everi edg list pair int int adj bool pathmorethankutil int src int k vector bool path public graph int v constructor function add edg graph void addedg int u int v int w bool pathmorethank int src int k return true graph path k length bool graph pathmorethank int src int k creat path array noth includ path vector bool path v fals add sourc vertex path path src 1 return pathmorethankutil src k path print shortest path src vertic bool graph pathmorethankutil int src int k vector bool path k 0 neg return true k 0 return true get adjac vertic sourc vertex src recurs explor path src 
+list ipair iter adj src begin adj src end get adjac vertex weight edg int v first int w second vertex v alreadi path cycl ignor edg path v true continu weight k return true w k return true els add vertex path path v true adjac provid path longer k return true 
+pathmorethankutil v k w path return true backtrack path v fals adjac could produc longer path return fals return fals alloc memori adjac list graph graph int v v v adj new list ipair v util function edg u v weight w void graph addedg int u int v int w adj u push_back make_pair v w adj v push_back make_pair u w driver program test method graph class int main creat graph given fugur int v 9 graph g v make shown graph g addedg 0 1 4 g addedg 0 7 8 g addedg 1 2 8 g addedg 1 7 11 g addedg 2 3 7 g addedg 2 8 2 g addedg 2 5 4 g addedg 3 4 9 g addedg 3 5 14 g addedg 4 5 10 g addedg 5 6 2 g addedg 6 7 1 g addedg 6 8 6 g addedg 7 8 7 int src 0 int k 62 g pathmorethank src k 
+cout ye n cout n k 60 g pathmorethank src k 
+cout ye n cout n return 0 output ye exercis modifi solut find weight longest path given sourc 
+time complex n 
+explan sourc node one one visit path check total weight greater k path 
+worst case number possibl path maximum 
+case everi node connect everi node 
+begin sourc node n 1 adjac node 
+time need path connect two node 2 one join sourc next adjac vertex 
+one break connect sourc old adjac vertex 
+select node n 1 adjac node left n 2 adjac node sourc node alreadi includ path everi step select node problem reduc 1 node 
+write form recurr relat f n n 2 f n 1 expand 2n 2n n 1 2n n 1 n 2 
+2n n 1 n 2 n 3 1 n time 2n n 1 n 2 n 3 1 greater given express safe say time complex n 2 n 
+question first node defin time complex becom f n 1 2 n 1 n 1 
+2 n n 1 
+2 1 n 1 
+2 n 2 n 1 
+n 
+articl contribut shivam gupta 
+explan time complex contribut pranav nambiar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

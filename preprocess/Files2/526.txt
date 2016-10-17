@@ -1,0 +1,11 @@
+articl continu follow two articl ukkonen suffix tree construct part 1 ukkonen suffix tree construct part 2 pleas go part 1 part 2 look current articl seen basic suffix tree high level ukkonen algorithm suffix link three implement trick 
+take string abcabxabcd exampl go thing step step creat tree 
+add discuss part 1 string would abcabxabcd 
+build suffix tree string length phase 1 one phase charact current exampl 11 11 phase 
+first phase add first charact tree second phase add second charact b tree third phase add third charact c tree mth phase add mth charact tree make ukkonen algorithm onlin algorithm phase go extens 1 
+current charact ad tree seen far extens complet extens rule 3 appli phase 
+current charact ad tree seen phase complet earli soon extens rule 3 appli without go extens three extens rule 1 2 3 extens j 1 phase adher one three rule 
+rule 1 add new charact exist leaf edg rule 2 creat new leaf edg may also creat new intern node path label end edg rule 3 end current phase current charact found current edg travers phase 1 read first charact string go 1 extens 
+figur show charact edg label explan write code use start end indic edg label compress discuss part 2 extens 1 add suffix tree 
+start root travers path label 
+path root go label creat leaf edg rule 2 

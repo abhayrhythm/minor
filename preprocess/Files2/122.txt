@@ -1,0 +1,8 @@
+consid game player score 3 5 10 point move 
+given total score n find number way reach given score 
+exampl input n 20 output 4 follow 4 way reach 20 10 10 5 5 10 5 5 5 5 3 3 3 3 3 5 input n 13 output 2 follow 2 way reach 13 3 5 5 3 10 problem variat coin chang problem solv n time n auxiliari space 
+idea creat tabl size n 1 store count score 0 n everi possibl move 3 5 10 increment valu tabl 
+c program count number possibl way given score reach game move earn 3 5 10 includ stdio h return number way reach score n int count int n tabl store count solut valu int tabl n 1 initi tabl valu 0 memset tabl 0 sizeof tabl base case given valu 0 tabl 0 1 one one consid given 3 move updat tabl valu index greater equal valu pick move 3 n tabl tabl 3 5 n tabl tabl 5 10 n tabl tabl 10 return tabl n driver program int main void int n 20 printf count n n count n n 13 printf count n count n return 0 output count 20 4 count 13 2 exercis count score 10 5 5 5 5 10 5 10 5 consid differ sequenc move 
+similarli 5 3 3 3 5 3 3 3 5 consid differ 
+articl contribut rajeev arora 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

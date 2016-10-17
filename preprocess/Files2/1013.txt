@@ -1,0 +1,3 @@
+follow question ask gate cs 2008 exam 
+1 print follow c program 
+int f int x int py int ppz int z ppz 1 z ppz py 2 py x 3 return x z void main int c b c 4 b c b printf f c b getchar 18 b 19 c 21 22 answer b explan answer line chang valu c 5 note x remain unaffect chang x copi c address x differ c ppz 1 z chang 5 z ppz chang c 7 x chang py 2 chang 7 py x increment 3 x 3 return 7 7 5 return x z 

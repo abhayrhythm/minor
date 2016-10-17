@@ -1,0 +1,27 @@
+prerequisit stack set 1 introduct infix express express form op b oper everi pair operand 
+postfix express express form b op 
+oper follow everi pair operand 
+postfix represent express 
+compil scan express either left right right left 
+consid express op1 b op2 c op3 op1 op2 op3 compil first scan express evalu express b c scan express add 
+result ad anoth scan 
+repeat scan make effici 
+better convert express postfix prefix form evalu 
+correspond express postfix form abc 
+postfix express evalu easili use stack 
+cover postfix express evalu separ post 
+algorithm 1 scan infix express left right 
+2 scan charact operand output 
+3 els 3 1 preced scan oper greater preced oper stack stack empti push 
+3 2 els pop oper stack preced scan oper less equal preced oper resid top stack 
+push scan oper stack 
+4 scan charact push stack 
+5 scan charact pop output stack encount 
+6 repeat step 2 6 infix express scan 
+7 pop output stack empti 
+follow c implement algorithm includ stdio h includ string h includ stdlib h stack type struct stack int top unsign capac int array stack oper struct stack createstack unsign capac struct stack stack struct stack malloc sizeof struct stack stack return null stack top 1 stack capac capac stack array int malloc stack capac sizeof int stack array return null return stack int isempti struct stack stack return stack top 1 char peek struct stack stack return stack array stack top char pop struct stack stack isempti stack return stack array stack top return void push struct stack stack char op stack array stack top op util function check given charact operand int isoperand char ch return ch ch z ch ch z util function return preced given oper higher return valu mean higher preced int prec char ch switch ch case case return 1 case case return 2 case return 3 return 1 main function convert given infix express postfix express 
+int infixtopostfix char exp int k creat stack capac equal express size struct stack stack createstack strlen exp stack see stack creat success return 1 0 k 1 exp scan charact operand add output 
+isoperand exp exp k exp scan charact push stack 
+els exp push stack exp scan charact pop output stack encount 
+els exp isempti stack peek stack exp k pop stack isempti stack peek stack return 1 invalid express els pop stack els oper encount isempti stack prec exp prec peek stack exp k pop stack push stack exp pop oper stack isempti stack exp k pop stack exp k 0 printf n exp driver program test function int main char exp b c e f g h infixtopostfix exp return 0 output abcd e fgh quiz stack question pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

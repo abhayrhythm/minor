@@ -1,0 +1,5 @@
+strongli recommend click practic move solut 
+solut get sum digit 
+1 iter function three line instead one line calcul sum line 
+made one line function pass pointer sum 
+includ stdio h int main int n 687 printf getsum n getchar return 0 function get sum digit int getsum int n int sum singl line calcul sum sum 0 n 0 sum n 10 n 10 return sum 

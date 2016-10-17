@@ -1,0 +1,26 @@
+given array integ number k write function return true given array divid pair sum everi pair divis k exampl input arr 9 7 5 3 k 6 output true divid array 9 3 7 5 
+sum pair multipl 6 input arr 92 75 65 48 45 35 k 10 output true divid array 92 48 75 65 45 35 
+sum pair multipl 10 input arr 91 74 66 48 k 10 output fals strongli recommend minim browser tri first 
+simpl solut iter everi element arr 
+find anoth yet visit element remaind k arr k 
+element return fals 
+pair found mark element visit 
+time complex solut n2 requir n extra space 
+effici solut use hash 
+1 length given array odd return fals 
+odd length array cannot divid pair 
+2 travers input array array count occurr remaind 
+freq arr k 3 travers input array 
+find remaind current element 
+b remaind divid k two halv must even occurr form pair 
+c remaind 0 must even occurr 
+c els number occurr current remaind must equal number occurr k current remaind 
+time complex algorithm n 
+implement use map c stl 
+map typic implement use red black tree take log n time access 
+therefor time complex implement n log n algorithm easili implement n time use hash tabl 
+c program check arr 0 n 1 divid pair everi pair divis k includ bit stdc h use namespac std return true arr 0 n 1 divid pair sum divis k bool canpair int arr int n int k odd length array cannot divid pair n 1 return fals creat frequenc array count occurr remaind divid k map int int freq count occurr remaind int 0 n freq arr k travers input array use freq decid given array divid pair int 0 n remaind current element int rem arr k remaind current element divid k two halv 
+2 rem k must even occurr remaind freq rem 2 0 return fals remaind 0 must two element 0 remaind els rem 0 freq rem 1 return fals els number occurr remaind must equal number occurr k remaind els freq rem freq k rem return fals return true driver program test function int main int arr 92 75 65 48 45 35 int k 10 int n sizeof arr sizeof arr 0 canpair arr n k 
+cout true cout fals return 0 output true articl contribut priyanka 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

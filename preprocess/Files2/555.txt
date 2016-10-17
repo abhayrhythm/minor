@@ -1,0 +1,32 @@
+ternari search tree special trie data structur child node standard trie order binari search tree 
+represent ternari search tree unlik trie standard data structur node contain 26 pointer children node ternari search tree contain 3 pointer 1 left pointer point node whose valu less valu current node 
+2 equal pointer point node whose valu equal valu current node 
+3 right pointer point node whose valu greater valu current node 
+apart three pointer node field indic data charact case dictionari anoth field mark end string 
+less similar bst store data base order 
+howev data ternari search tree distribut node 
+e g 
+need 4 node store word geek 
+figur show exactli word ternari search tree store 
+one advantag use ternari search tree tri ternari search tree space effici involv three pointer per node compar 26 standard tri 
+ternari search tree use time hashtabl would use store string 
+tri suitabl proper distribut word alphabet space util effici 
+otherwis ternari search tree better 
+ternari search tree effici use term space string store share common prefix 
+applic ternari search tree 1 ternari search tree effici queri like given word find next word dictionari near neighbor lookup find telephon number start 9342 type start charact web browser display websit name prefix auto complet featur 
+2 use spell check ternari search tree use dictionari store word 
+word type editor word paral search ternari search tree check correct spell 
+implement follow c implement ternari search tree 
+oper implement search insert travers 
+c program demonstr ternari search tree tst insert traves search oper includ stdio h includ stdlib h defin max 50 node ternari search tree struct node char data true charact last charact one word unsign isendofstr 1 struct node left eq right util function creat new ternari search tree node struct node newnod char data struct node temp struct node malloc sizeof struct node temp data data temp isendofstr 0 temp left temp eq temp right null return temp function insert new word ternari search tree void insert struct node root char word base case tree empti 
+root root newnod word current charact word smaller root charact insert word left subtre root word root data insert root left word current charact word great root charact insert word right subtre root els word root data insert root right word current charact word root charact els word 1 insert root eq word 1 last charact word els root isendofstr 1 recurs function travers ternari search tree void traversetstutil struct node root char buffer int depth root first travers left subtre traversetstutil root left buffer depth store charact node buffer depth root data root isendofstr buffer depth 1 0 printf n buffer travers subtre use equal pointer middl subtre traversetstutil root eq buffer depth 1 final travers right subtre traversetstutil root right buffer depth main function travers ternari search tree 
+mainli use traversetstutil void traversetst struct node root char buffer max traversetstutil root buffer 0 function search given word tst int searchtst struct node root char word root return 0 word root data return searchtst root left word els word root data return searchtst root right word els word 1 0 return root isendofstr return searchtst root eq word 1 driver program test function int main struct node root null insert root cat insert root cat insert root insert root bug printf follow travers ternari search tree n traversetst root printf nfollow search result cat bu cat respect n searchtst root cat 
+printf found n printf found n searchtst root bu 
+printf found n printf found n searchtst root cat 
+printf found n printf found n return 0 output follow travers ternari search tree bug cat cat follow search result cat bu cat respect found found found time complex time complex ternari search tree oper similar binari search tree 
+e 
+insert delet search oper take time proport height ternari search tree 
+space proport length string store 
+refer http en wikipedia org wiki ternary_search_tre articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,35 @@
+recent amazon came colleg fte intern 
+share interview experi 
+1 onlin round 4 f2f interview 
+onlin round 2 code question 20 mcq base os sort complex recurs dbm geometri etc 
+f2f 1 introduc ask project done samsung research institut year 
+ask question 1 suppos one platform n number train 
+point time 1 train stay platform 
+n time interv given repres time durat n train find minimum number train postpon collis take place 
+full code requir cover corner case 2 suppos string abca given 
+print permut 2 combin print twice 
+consid string duplic charact 
+full work code requir 3 ask ds use evalu given express 
+ask write code infix postfix convers 
+4 array n number rang 1 n 1 number miss return index number 
+f2f 2 ask mani question regard project first 10 minut ask follow question 1 matrix given contain 1 0 whenev access 0 make entir row column 0 use n2 space first said use n space 
+2 given binari tree find minimum root leaf height 
+told level order solut en queu level also node 
+said push level node kept delimit push one entir level travers return soon got leaf node 
+f2f 3 interview taken senior person among interview panelist 
+nervou enter room result mess interview 
+directli start ask question without introduct made nervou 1 wrote one nest recurs program around 12 15 line page ask draw recurs stack program show order one function call store stack order return back calle function 
+prove space complex recurs stack 
+nervou loos confid could solv properli 
+2 find second largest second smallest given array singl travers 
+3 find power x without use pow function 
+divid conquer approach requir round get call last round 
+friend ask question basic bf applic topolog sort lru cach implement box stack problem last round 
+tip 1 question ask easi time 
+confid 
+whatev question ask tri solv long share approach interview certainli help 
+2 clear idea project ask sever question regard 
+3 work hard 
+best like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

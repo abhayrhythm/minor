@@ -1,0 +1,15 @@
+write effici program count number 1s binari represent integ 
+exampl input n 6 output 2 binari represent 6 110 2 set bit input n 13 output 3 binari represent 11 1101 3 set bit 1 simpl method loop bit integ check bit set increment set bit count 
+see program 
+function get set bit binari represent pass binari 
+unsign int countsetbit unsign int n unsign int count 0 n count n 1 n 1 return count program test function countsetbit int main int 9 printf countsetbit getchar return 0 time complex logn theta logn 2 brian kernighan algorithm subtract 1 number toggl bit right left till rightmost set bit includ righmost set bit 
+subtract number 1 bitwis n n 1 unset righmost set bit 
+n n 1 loop count time loop execut get set bit count 
+beauti solut number time loop equal number set bit given integ 
+1 initi count 0 2 integ n zero bitwis n 1 assign valu back n n n n 1 b increment count 1 c go step 2 3 els return count implement brian kernighan algorithm includ stdio h function get set bit binari represent pass binari 
+unsign int countsetbit int n unsign int count 0 n n n 1 count return count program test function countsetbit int main int 9 printf countsetbit getchar return 0 exampl brian kernighan algorithm n 9 1001 count 0 sinc 9 0 subtract 1 bitwis 9 1 n 9 8 1001 1000 n 8 count 1 sinc 8 0 subtract 1 bitwis 8 1 n 8 7 1000 0111 n 0 count 2 sinc n 0 return count 2 
+time complex logn 3 use lookup tabl count bit 1 time use lookup tabl 
+pleas see http graphic stanford edu seander bithack html countbitssett detail 
+find one use count set bit http geeksforgeek org p 1465 note gcc directli count set bit use __builtin_popcount 
+avoid separ function count set bit 
+c program demonstr __builtin_popcount includ iostream use namespac std int main cout __builtin_popcount 4 endl cout __builtin_popcount 15 return 0 output 1 4 refer http graphic stanford edu seander bithack html countbitssetna adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

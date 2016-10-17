@@ -1,0 +1,21 @@
+recommend refer follow post prerequisit post 
+splay tree set 1 search discuss previou post splay tree self balanc data structur last access key alway root 
+insert oper similar binari search tree insert addit step make sure newli insert key becom new root 
+follow differ case insert key k splay tree 
+1 root null simpli alloc new node return root 
+2 splay given key k k alreadi present becom new root 
+present last access leaf node becom new root 
+3 new root key k anyth k alreadi present 
+4 els alloc memori new node compar root key k 4 k smaller root key make root right child new node copi left child root left child new node make left child root null 
+4 b k greater root key make root left child new node copi right child root right child new node make right child root null 
+5 return new node new root tree 
+exampl 100 20 25 50 200 50 20 50 insert 25 insert 25 40 30 100 30 100 1 splay 25 2 insert 25 30 40 200 40 200 20 code adopt http algs4 cs princeton edu 33balanc splaybst java html includ stdio h includ stdlib h avl tree node struct node int key struct node left right helper function alloc new node given key null left right pointer 
+struct node newnod int key struct node node struct node malloc sizeof struct node node key key node left node right null return node util function right rotat subtre root see diagram given 
+struct node rightrot struct node x struct node x left x left right right x return util function left rotat subtre root x see diagram given 
+struct node leftrot struct node x struct node x right x right left left x return function bring key root key present tree 
+key present bring last access item root 
+function modifi tree return new root struct node splay struct node root int key base case root null key present root root null root key key return root key lie left subtre root key key key tree done root left null return root zig zig left left root left key key first recurs bring key root left left root left left splay root left left key first rotat root second rotat done els root rightrot root els root left key key zig zag left right first recurs bring key root left right root left right splay root left right key first rotat root left root left right null root left leftrot root left second rotat root return root left null 
+root rightrot root els key lie right subtre key tree done root right null return root zig zag right left root right key key bring key root right left root right left splay root right left key first rotat root right root right left null root right rightrot root right els root right key key zag zag right right bring key root right right first rotat root right right splay root right right key root leftrot root second rotat root return root right null 
+root leftrot root function insert new key k splay tree given root struct node insert struct node root int k simpl case tree empti root null return newnod k bring closest leaf node root root splay root k key alreadi present return root key k return root otherwis alloc memori new node struct node newnod newnod k root key greater make root right child newnod copi left child root newnod root key k newnod right root newnod left root left root left null root key smaller make root left child newnod copi right child root newnod els newnod left root newnod right root right root right null return newnod newnod becom new root util function print preorder travers tree 
+function also print height everi node void preorder struct node root root null printf root key preorder root left preorder root right drier program test function int main struct node root newnod 100 root left newnod 50 root right newnod 200 root left left newnod 40 root left left left newnod 30 root left left left left newnod 20 root insert root 25 printf preorder travers modifi splay tree n preorder root return 0 output preorder travers modifi splay tree 25 20 50 30 40 100 200 articl compil abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

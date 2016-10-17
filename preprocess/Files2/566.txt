@@ -1,0 +1,40 @@
+cartesian tree tree data structur creat set data obey follow structur invari tree obey min max heap properti node less greater children 
+inord travers node yield valu order appear initi sequenc 
+suppos input array 5 10 40 30 28 
+max heap cartesian tree would 
+min heap cartesian tree input array note cartesian tree height balanc tree 
+cartesian tree sequenc distinct number alway uniqu 
+cartesian tree sequenc distinct number alway uniqu 
+prove use induct 
+base case empti tree alway uniqu 
+induct case assum tree contain n n element uniqu cartesian tree sequenc n node 
+take sequenc n element 
+cartesian tree min heap smallest element sequenc must root cartesian tree 
+inord travers element must yield input sequenc know node left min element must left subtre similarli node right 
+sinc left right subtre cartesian tree n 1 element sinc min element root induct hypothesi uniqu cartesian tree could left right subtre 
+sinc decis forc end uniqu tree complet induct 
+construct cartesian tree 
+n2 solut construct cartesian tree discuss note program construct special binari tree noth cartesian tree n algorithm possibl build cartesian tree sequenc data linear time 
+begin empti tree scan given sequenc left right ad new node follow posit node right child rightmost node 
+scan upward node parent root tree node found whose valu greater current valu 
+node found set right child new node set new node left child previou right child 
+node found set new child root set new node left child previou tree 
+n c program construct cartesian tree given array includ bit stdc h binari tree node data pointer left child pointer right child struct node int data node left right funtcion test buildtre void printinord node node node null return printinord node left cout node data printinord node right recurs construct subtre given root use leftchil rightchild node buildcartesiantreeutil int root int arr int parent int leftchild int rightchild root 1 return null creat new node root data node temp new node temp data arr root recurs construct left right subtre temp left buildcartesiantreeutil leftchild root arr parent leftchild rightchild temp right buildcartesiantreeutil rightchild root arr parent leftchild rightchild return temp function creat cartesian tree n time node buildcartesiantre int arr int n array hold index parent left child right child number input array int parent n leftchild n rightchild n initi array valu 1 memset parent 1 sizeof parent memset leftchild 1 sizeof leftchild memset rightchild 1 sizeof rightchild root last store index root last process cartesian tree 
+initi take root cartesian tree first element input array 
+chang accord algorithm int root 0 last start second element input array last scan across element ad one time 
+int 1 n 1 last 1 rightchild 1 scan upward node parent root tree node found whose valu greater current one step 2 mention algorithm arr last arr last root last parent last arr largest element yet make new root arr last arr parent root leftchild root root insert els rightchild last 1 rightchild last parent last leftchild 1 reconfigur link els parent rightchild last leftchild rightchild last rightchild last parent last sinc root cartesian tree parent assign 1 parent root 1 return buildcartesiantreeutil root arr parent leftchild rightchild driver program test function int main assum inord travers follow tree given 40 10 30 5 28 int arr 5 10 40 30 28 int n sizeof arr sizeof arr 0 node root buildcartesiantre arr n let us test built tree print inord travers printf inord travers construct tree n printinord root return 0 output inord travers construct tree 5 10 40 30 28 time complex first look code seem take n2 time two loop buildcartesiantre 
+actual take linear time 
+inner loop repres process scan tree upward search find suitabl place insert new element 
+keen observ show total whole loop e valu 1 n take n time everi time 
+henc overal time complex n 
+auxiliari space declar structur everi node well three extra array leftchild rightchild parent hold indic left child right child parent valu input array 
+henc overal 4 n n extra space 
+applic cartesian tree cartesian tree sort rang minimum queri sequenc equival lowest common ancestor queri sequenc cartesian tree 
+henc rmq may reduc lca use sequenc cartesian tree 
+treap balanc binari search tree structur cartesian tree key prioriti pair heap order accord prioriti valu inord travers give key sort order 
+suffix tree string may construct suffix array longest common prefix array 
+first step comput cartesian tree longest common prefix array 
+refer http wcipeg com wiki cartesian_tre articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

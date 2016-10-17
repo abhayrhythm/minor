@@ -1,0 +1,7 @@
+write function gener possibl n pair balanc parenthes 
+exampl n 1 n 2 algorithm keep track count open close bracket 
+initi count 0 recurs call _printparenthesi function open bracket count less given n open bracket count becom close bracket count put close bracket recurs call remain bracket 
+open bracket count less n put open bracket call _printparenthesi remain bracket 
+thank shekhu provid code 
+includ stdio h defin max_siz 100 void _printparenthesi int po int n int open int close wrapper _printparenthesi void printparenthesi int n n 0 _printparenthesi 0 n 0 0 return void _printparenthesi int po int n int open int close static char str max_siz close n printf n str return els open close str po _printparenthesi po 1 n open close 1 open n str po _printparenthesi po 1 n open 1 close driver program test function int main int n 4 printparenthesi n getchar return 0 pleas write comment find code algorithm incorrect find better way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

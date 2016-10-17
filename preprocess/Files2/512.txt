@@ -1,0 +1,22 @@
+search sort link list better n time 
+worst case search time sort link list n linearli travers list cannot skip node search 
+balanc binari search tree skip almost half node one comparison root 
+sort array random access appli binari search array 
+augment sort link list make search faster 
+answer skip list 
+idea simpl creat multipl layer skip node 
+see follow exampl list 16 node two layer 
+upper layer work express lane connect main outer station lower layer work normal lane connect everi station 
+suppos want search 50 start first node express lane keep move express lane till find node whose next greater 50 find node 30 node follow exampl express lane move normal lane use pointer node linearli search 50 normal lane 
+follow exampl start 30 normal lane linear search find 50 time complex two layer 
+worst case time complex number node express lane plu number node segment segment number normal lane node two express lane node normal lane 
+n node normal lane n squar root n node express lane equal divid normal lane n node everi segment normal lane 
+n actual optim divis two layer 
+arrang number node travers search n 
+therefor n extra space abl reduc time complex n 
+better 
+time complex skip list reduc ad layer 
+fact time complex search insert delet becom logn averag case 
+soon publish post skip list 
+refer mit video lectur skip list http en wikipedia org wiki skip_list pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

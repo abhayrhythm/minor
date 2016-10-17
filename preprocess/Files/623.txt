@@ -1,0 +1,27 @@
+
+Round 1:
+Discussion about projects and work
+Search in a rotated sorted arrayhttp://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/
+Implement stack with find minimum in O(1)
+http://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+Round 2:
+Spiral printing of a matrixhttp://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+LCA of Binary Treehttp://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+Boggle
+http://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
+DFS implementation
+Round 3:
+It was a machine coding round.
+I was asked to hit an API and get some information on the basis of results needed to do some manipulation in result to show result on some specified format like sorting on basis of some parameters
+Round 4:
+It was a discussion round with Manager. discussion about why want to leave current company and other project related discussion.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

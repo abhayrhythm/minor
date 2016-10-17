@@ -1,0 +1,29 @@
+given text txt 0 n 1 pattern pat 0 1 write function search char pat char txt print occurr pat txt 
+may assum n exampl 1 input txt test text pat test output pattern found index 10 2 input txt aabaacaadaabaaabaa pat aaba output pattern found index 0 pattern found index 9 pattern found index 13 pattern search import problem comput scienc 
+search string notepad word file browser databas pattern search algorithm use show search result 
+discuss follow algorithm previou post naiv algorithm kmp algorithm rabin karp algorithm post discuss finit automata fa base pattern search algorithm 
+fa base algorithm preprocess pattern build 2d array repres finit automata 
+construct fa main tricki part algorithm 
+fa built search simpl 
+search simpli need start first state automata first charact text 
+everi step consid next charact text look next state built fa move new state 
+reach final state pattern found text 
+time complex search prcess n 
+discuss fa construct let us take look follow fa pattern acacaga 
+diagram repres graphic tabular represent pattern acacaga 
+number state fa 1 length pattern 
+main thing construct fa get next state current state everi possibl charact 
+given charact x state k get next state consid string pat 0 k 1 x basic concaten pattern charact pat 0 pat 1 pat k 1 charact x idea get length longest prefix given pattern prefix also suffix pat 0 k 1 x 
+valu length give us next state 
+exampl let us see get next state current state 5 charact c diagram 
+need consid string pat 0 5 c acacac 
+lenght longest prefix pattern prefix suffix acacac 4 acac 
+next state state 5 4 charact c 
+follow code computetf construct fa 
+time complex computetf 3 no_of_char length pattern no_of_char size alphabet total number possibl charact pattern text 
+implement tri possibl prefix start longest possibl suffix pat 0 k 1 x 
+better implement construct fa no_of_char hint use someth like lp array construct kmp algorithm 
+cover better implement next post pattern search 
+includ stdio h includ string h defin no_of_char 256 int getnextst char pat int int state int x charact c next charact pattern simpli increment state state x pat state return state 1 int ns ns store result next state ns final contain longest prefix also suffix pat 0 state 1 c start largest possibl valu stop find prefix also suffix ns state ns 0 ns pat ns 1 x 0 ns 1 pat pat state ns 1 break ns 1 return ns return 0 function build tf tabl repres finit automata given pattern void computetf char pat int int tf no_of_char int state x state 0 state state x 0 x no_of_char x tf state x getnextst pat state x print occurr pat txt void search char pat char txt int strlen pat int n strlen txt int tf 1 no_of_char computetf pat tf process txt fa 
+int state 0 0 n state tf state txt state printf n pattern found index 1 driver program test function int main char txt aabaacaadaabaaabaa char pat aaba search pat txt return 0 output pattern found index 0 pattern found index 9 pattern found index 13 refer introduct algorithm thoma h cormen charl e leiserson ronald l rivest clifford stein pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

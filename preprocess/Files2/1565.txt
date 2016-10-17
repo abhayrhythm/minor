@@ -1,0 +1,25 @@
+given array repres inord travers find possibl binari tree given inord travers print preorder travers 
+exampl input 3 2 output preorder travers differ possibl binari tree 3 2 2 3 differ possibl binari tree 3 2 2 3 input 4 5 7 output preorder travers differ possibl binari tree 4 5 7 4 7 5 5 4 7 7 4 5 7 5 4 differ possibl binari tree 4 4 5 7 7 5 7 4 7 4 5 7 5 5 4 strongli recommend minim browser tri first 
+let given inord travers 
+given travers node left subtre must appear right subtre must appear 
+consid root element 0 1 left subtre 1 n 1 right subtre 
+0 1 form x differ tree 1 n 1 differ tree x total tree root 
+simpli iter 0 n 1 root 
+everi node recurs find differ left right subtre 
+take closer look notic count basic n th catalan number 
+discuss differ approach find n th catalan number 
+idea maintain list root binari tree 
+recurs construct possibl left right subtre 
+creat tree everi pair left right subtre add tree list 
+detail algorithm 
+1 initi list binari tree empti 
+2 everi element vari 0 n 1 follow creat new node key arr let node node b recurs construct list left subtre 
+c recurs construct list right subtre 
+3 iter left subtre current leftsubtre iter right subtre add current left right subtre node add node list 
+c c program find binari tree given inord travers includ bit stdc h use namespac std node structur struct node int key struct node left right util function creat new tree node struct node newnod int item struct node temp new node temp key item temp left temp right null return temp util function preorder travers bst void preorder node root root null printf root key preorder root left preorder root right function construct possibl tree given inord travers store array arr start arr end 
+function return vector tree 
+vector node gettre int arr int start int end list store possibl tree vector node tree start end subtre empti return null list start end tree push_back null return tree iter valu start end construct left right subtre recurs int start end construct left subtre vector node ltree gettre arr start 1 construct right subtre vector node rtree gettre arr 1 end loop left right subtre connect ith root int j 0 j ltree size j int k 0 k rtree size k make arr root node node newnod arr connect left subtre node left ltree j connect right subtre node right rtree k ad tree list tree push_back node return tree driver program test function int main int 4 5 7 int n sizeof sizeof 0 vector node tree gettre 0 n 1 cout preorder travers differ possibl binari tree n int 0 tree size preorder tree printf n return 0 java java program find binari tree given inord travers import java util vector class contain left right child current node key valu class node int data node left right public node int item data item left null right null class print level order travers class binarytre node root util function preorder travers bst void preorder node node node null system print node data preorder node left preorder node right function construct possibl tree given inord travers store array arr start arr end 
+function return vector tree 
+vector node gettre int arr int start int end list store possibl tree vector node tree new vector node start end subtre empti return null list start end tree add null return tree iter valu start end construct left right subtre recurs int start end construct left subtre vector node ltree gettre arr start 1 construct right subtre vector node rtree gettre arr 1 end loop left right subtre connect ith root int j 0 j ltree size j int k 0 k rtree size k make arr root node node new node arr connect left subtre node left ltree get j connect right subtre node right rtree get k ad tree list tree add node return tree public static void main string arg int 4 5 7 int n length binarytre tree new binarytre vector node tree tree gettre 0 n 1 system println preorder travers differ binari tree int 0 tree size tree preorder tree get system println python python program find binari tree given inord travers node structur class node util creat new node def __init__ self item self key item self left none self right none util function preorder travers bst def preorder root root none print root key preorder root left preorder root right function construct possibl tree given inord travers store array arr start arr end 
+function return vector tree 
+def gettre arr start end list store possibl tree tree start end subtre empti return null list start end tree append none return tree iter valu start end construct left right subtre recurs rang start end 1 construct left subtre ltree gettre arr start 1 construct right subtre rtree gettre arr 1 end loop left right subtre connect ith root j ltree k rtree make arr root node node arr connect left subtre node left j connect right subtre node right k ad tree list tree append node return tree driver program test function inp 4 5 7 n len inp tree gettre inp 0 n 1 print preorder travers differ possibl binari tree tree preorder print program contribut nikhil kumar singh nickzuck_007 output 

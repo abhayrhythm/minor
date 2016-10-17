@@ -1,0 +1,39 @@
+hi recent interview amazon 
+1st round telephon 1 given integ array constant number x print pair number array whose product equal x follow up n 
+handl duplic pair 
+code requir collabedit 
+http stackoverflow com question 3757393 given number p find two element array whose product p 2 ask know level order travers binari tree 
+ask code chang question ask spiral order travers binari tree ask code 
+http www geeksforgeek org level order travers spiral form 2nd round telephon 1 bst two node swap 
+given pointer root node find two node rectifi tree 
+ask approach ask code collabedit 
+http www geeksforgeek org fix two swap node bst 2 given integ array find print three element array whose product maximum 
+code requir 
+http www technicalypto com 2010 05 find three number array form html 3rd round face2fac onsit 1 given sort array n integ count display number triplet j k 0 n time 
+code requir 
+2 given string charact replac question mark replac question mark charact 
+given string find total number palindrom creat 
+string contain z charact question mark also replac z 
+exampl input string string str 
+output 26 3 given binari tree leaf node form doubli link list 
+find height tree 
+4th round hire manag round detail discuss previou compani work 
+want leav previou employ 
+amazon 
+like work 
+challeng face work resolv 
+weak strength 
+router static rout 
+given rout tabl would decreas time taken router decid router packet must forward 
+detail algorithm could implement discuss time space complex 
+5th round face2fac onsit 1 given n sort linklist differ length merg singl sort link list 
+pseudo code requir 
+2 given number size array n print combin element array first element array next element array 1 1 previou element array 
+code requir 
+e g 
+input 4 n 3 output 4 3 2 4 3 4 4 5 4 4 5 6 3 lru implement lru 
+write pseudo code 
+would like thank geeksforgeek provid us learn platform 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,11 @@
+given string revers use stack 
+exampl geeksquiz convert ziuqskeeg 
+follow simpl algorithm revers string use stack 
+1 creat empti stack 
+2 one one push charact string stack 
+3 one one pop charact stack put back string 
+follow c python program implement algorithm 
+c c program revers string use stack includ stdio h includ string h includ stdlib h includ limit h structur repres stack struct stack int top unsign capac char array function creat stack given capac 
+initi size stack 0 struct stack createstack unsign capac struct stack stack struct stack malloc sizeof struct stack stack capac capac stack top 1 stack array char malloc stack capac sizeof char return stack stack full top equal last index int isful struct stack stack return stack top stack capac 1 stack empti top equal 1 int isempti struct stack stack return stack top 1 function add item stack 
+increas top 1 void push struct stack stack char item isful stack return stack array stack top item function remov item stack 
+decreas top 1 char pop struct stack stack isempti stack return int_min return stack array stack top stack base function reveres string void revers char str creat stack capac equal length string int n strlen str struct stack stack createstack n push charact string stack int 0 n push stack str pop charact string put back str 0 n str pop stack driver program test function int main char str geeksquiz revers str printf revers string str return 0 

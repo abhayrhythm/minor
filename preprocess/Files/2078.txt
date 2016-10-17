@@ -1,0 +1,24 @@
+
+In C++, compiler by default creates default constructor for every class.  But, if we define our own constructor, compiler doesn’t create the default constructor.
+For example, program 1 compiles without any error, but compilation of program 2 fails with error “no matching function for call to `myInteger::myInteger()’ ” 
+Program 1
+
+#include<iostream>
+
+using namespace std;
+
+class myInteger
+{
+   private:
+     int value;
+     
+     //...other things in class  
+};
+
+int main()
+{
+  myInteger I1;
+  getchar();
+  return 0;
+}
+

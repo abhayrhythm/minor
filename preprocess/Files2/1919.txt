@@ -1,0 +1,9 @@
+virtual function use achiev runtim polymorph say late bind dynam bind 
+inlin function use effici 
+whole idea behind inlin function whenev inlin function call code inlin function get insert substitut point inlin function call compil time 
+inlin function use small function frequent use call program mani time 
+default function defin insid class implicitli automat consid inlin except virtual function note inlin request compil compil choic inlin 
+whenev virtual function call use base class refer pointer cannot inlin call resolv runtim whenev call use object without refer pointer class inlin compil know exact class object compil time 
+includ iostream use namespac std class base public virtual void cout base n class deriv public base public void cout deriv n int main note virtual function call object class resolv compil time inlin 
+base b b virtual function call pointer cannot inlin base ptr new deriv ptr return 0 refer http www parashift com c faq inlin virtual html effect c scott meyer articl contribut meet pravasi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

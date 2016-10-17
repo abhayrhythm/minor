@@ -1,0 +1,19 @@
+given unsort array integ find subarray add given number 
+one subarray sum given number print 
+exampl input arr 1 4 20 3 10 5 sum 33 ouptut sum found index 2 4 input arr 10 2 2 20 10 sum 10 ouptut sum found index 0 3 input arr 10 0 2 2 20 10 sum 20 ouptut subarray given sum exist discuss solut handl neg integ 
+post neg integ also handl 
+simpl solut consid subarray one one check sum everi subarray equal given sum 
+complex solut would n 2 
+effici way use map 
+idea maintain sum element encount far variabl say curr_sum 
+let given number sum 
+element check curr_sum sum exist map 
+found map mean subarray present given sum els insert curr_sum map proceed next element 
+element array process find subarray given sum subarray exist 
+c implement idea c program print subarray sum given sum includ bit stdc h use namespac std function print subarray sum given sum void subarraysum int arr int n int sum creat empti map unordered_map int int map maintain sum element far int curr_sum 0 int 0 n add current element curr_sum curr_sum curr_sum arr curr_sum equal target sum found subarray start index 0 end index curr_sum sum cout sum found index 0 endl return curr_sum sum alreadi exist map found subarray target sum map find curr_sum sum map end cout sum found index map curr_sum sum 1 endl return map curr_sum reach subarray exist cout subarray given sum exist driver program test function int main int arr 10 2 2 20 10 int n sizeof arr sizeof arr 0 int sum 10 subarraysum arr n sum return 0 output sum found index 0 3 time complex solut n one travers array 
+auxiliari space use program n 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

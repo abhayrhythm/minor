@@ -1,0 +1,38 @@
+prerequisit cartesian tree cartesian sort adapt sort sort data faster data partial sort 
+fact sort algorithm make use fact 
+exampl consid array 5 10 40 30 28 
+input data partial sort one swap 40 28 result complet sort order 
+see cartesian tree sort take advantag fact 
+step use sort 
+step 1 build min heap cartesian tree given input sequenc 
+step 2 start root built cartesian tree push node prioriti queue 
+pop node top prioriti queue push children pop node prioriti queue pre order manner 
+pop node top prioriti queue add list 
+push left child pop node first present 
+push right child pop node next present 
+build min heap cartesian tree 
+build min heap similar build max heap cartesian tree discuss previou post except fact scan upward node parent root tree node found whose valu smaller larger case max heap cartesian tree current one accordingli reconfigur link build min heap cartesian tree 
+use prioriti queue 
+one might wonder use prioriti queue would anyway result sort data simpli insert number input array one one prioriti queue e without construct cartesian tree 
+time taken differ lot 
+suppos take input array 5 10 40 30 28 simpli insert input array number one one without use cartesian tree may wast lot oper adjust queue order everytim insert number like typic heap perform oper new number insert prioriti queue noth heap 
+wherea see use cartesian tree took 5 oper see two figur continu push pop node cartesian tree linear 5 number input array also 
+see best case cartesian tree sort n thing heap sort take much number oper make advantag fact input data partial sort 
+pre order travers 
+answer sinc cartesian tree basic heap data structur henc follow properti heap 
+thu root node alway smaller children 
+henc use pre order fashion pop push root node alway push earlier children insid prioriti queue sinc root node alway less child extra oper insid prioriti queue 
+refer figur better understand c program implement cartesian tree sort note program build min heap cartesian tree max heap 
+includ bit stdc h use namespac std binari tree node data pointer left child pointer right child struct node int data node left right creat shortcut int node pair type typedef pair int node inpair function sort push pop cartesian tree node pre order like fashion void pqbasedtravers node root use prioriti queue sort partial sort data effici 
+unlik heap cartesian tree make use fact data partial sort priority_queu inpair vector inpair greater inpair pqueue pqueue push make_pair root data root resembl pre order travers first data print left right child 
+
+pqueue empti inpair popped_pair pqueue top printf popped_pair first pqueue pop popped_pair second left null pqueue push make_pair popped_pair second left data popped_pair second left popped_pair second right null pqueue push make_pair popped_pair second right data popped_pair second right return node buildcartesiantreeutil int root int arr int parent int leftchild int rightchild root 1 return null node temp new node temp data arr root temp left buildcartesiantreeutil leftchild root arr parent leftchild rightchild temp right buildcartesiantreeutil rightchild root arr parent leftchild rightchild return temp function creat cartesian tree n time node buildcartesiantre int arr int n array hold index parent left child right child number input array int parent n leftchild n rightchild n initi array valu 1 memset parent 1 sizeof parent memset leftchild 1 sizeof leftchild memset rightchild 1 sizeof rightchild root last store index root last process cartesian tree 
+initi take root cartesian tree first element input array 
+chang accord algorithm int root 0 last start second element input array last scan across element ad one time 
+int 1 n 1 last 1 rightchild 1 scan upward node parent root tree node found whose valu smaller current one step 2 mention algorithm arr last arr last root last parent last arr smallest element yet make new root arr last arr parent root leftchild root root insert els rightchild last 1 rightchild last parent last leftchild 1 reconfigur link els parent rightchild last leftchild rightchild last rightchild last parent last sinc root cartesian tree parent assign 1 parent root 1 return buildcartesiantreeutil root arr parent leftchild rightchild sort input array int printsortedarr int arr int n build cartesian tree node root buildcartesiantre arr n printf sort array n pr order travers insert prioriti queue pqbasedtravers root driver program test function int main given input array 5 10 40 30 28 correspond uniqu cartesian tree 5 10 28 30 40 int arr 5 10 40 30 28 int n sizeof arr sizeof arr 0 printsortedarr arr n return 0 output sort array 5 10 28 30 40 time complex n best case behaviour input data partial sort n log n worst case behavior input data partial sort auxiliari space use prioriti queue cartesian tree data structur 
+moment time size prioriti queue exce size input array constantli push pop node 
+henc use n auxiliari space 
+refer http en wikipedia org wiki adaptive_sort http 11011110 livejourn com 283412 htmlhttp gradbot blogspot 2010 06 cartesian tree sort htmlhttp www keithschwarz com interest code dir cartesian tree sorthttp en wikipedia org wiki cartesian_tre application_in_sort articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

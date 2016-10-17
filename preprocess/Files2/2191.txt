@@ -1,0 +1,22 @@
+given two sign integ write function return true sign given integ differ otherwis fals 
+exampl function return true 1 100 return fals 100 200 function use arithmet oper 
+let given integ x sign bit 1 neg number 0 posit number 
+xor x sign bit 1 iff opposit sign 
+word xor x neg number number iff x opposit sign 
+follow code use logic 
+includ stdbool h includ stdio h bool oppositesign int x int return x 0 int main int x 100 100 oppositesign x true printf sign opposit els printf sign opposit return 0 output sign opposit sourc detect two integ opposit sign also solv use two comparison oper 
+see follow code 
+bool oppositesign int x int return x 0 
+0 0 first method effici 
+first method use bitwis xor comparison oper 
+second method use two comparison oper bitwis xor oper effici compar comparison oper 
+also use follow method 
+use comparison oper 
+method suggest hongliang improv gaurav 
+bool oppositesign int x int return x 31 function written compil size integ 32 bit 
+express basic check sign x use bitwis oper 
+mention sign bit neg number alway 1 sign bit leftmost bit binari represent 
+need check whether 32th bit leftmost bit x 1 
+right shift valu x 31 sign bit becom least signific bit 
+sign bit 1 valu x 31 1 otherwis 0 pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

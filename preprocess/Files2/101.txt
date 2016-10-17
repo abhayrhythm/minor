@@ -1,0 +1,17 @@
+given 2d array find maximum sum subarray 
+exampl follow 2d array maximum sum subarray highlight blue rectangl sum subarray 29 problem mainli extens largest sum contigu subarray 1d array 
+naiv solut problem check everi possibl rectangl given 2d array 
+solut requir 4 nest loop time complex solut would n 4 
+kadan algorithm 1d array use reduc time complex n 3 
+idea fix left right column one one find maximum sum contigu row everi left right column pair 
+basic find top bottom row number maximum sum everi fix left right column pair 
+find top bottom row number calcul sun element everi row left right store sum array say temp 
+temp indic sum element left right row appli kadan 1d algorithm temp get maximum sum subarray temp maximum sum would maximum possibl sum left right boundari column 
+get overal maximum sum compar sum maximum sum far 
+c program find maximum sum subarray given 2d array includ stdio h includ string h includ limit h defin row 4 defin col 5 implement kadan algorithm 1d array 
+function return maximum sum store start end index maximum sum subarray address point start finish pointer respect 
+int kadan int arr int start int finish int n initi sum maxsum int sum 0 maxsum int_min initi valu check neg valu case finish 1 local variabl int local_start 0 0 n sum arr sum 0 sum 0 local_start 1 els sum maxsum maxsum sum start local_start finish least one non neg number finish 1 return maxsum special case number arr neg maxsum arr 0 start finish 0 find maximum element array 1 n arr maxsum maxsum arr start finish return maxsum main function find maximum sum rectangl void findmaxsum int col variabl store final output int maxsum int_min finalleft finalright finaltop finalbottom int left right int temp row sum start finish set left column left 0 left col left initi element temp 0 memset temp 0 sizeof temp set right column left column set outer loop right left right col right calcul sum current left right everi row 0 row temp right find maximum sum subarray temp 
+kadan function also set valu start finish 
+sum sum rectangl start left finish right maximum sum boundari column strictli left right 
+sum kadan temp start finish row compar sum maximum sum far 
+sum updat maxsum output valu sum maxsum maxsum sum finalleft left finalright right finaltop start finalbottom finish print final valu printf top left n finaltop finalleft printf bottom right n finalbottom finalright printf max sum n maxsum driver program test function int main int row col 1 2 1 4 20 8 3 4 2 1 3 8 10 1 3 4 1 1 7 6 findmaxsum return 0 

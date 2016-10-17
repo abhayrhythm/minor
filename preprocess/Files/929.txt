@@ -1,0 +1,28 @@
+
+Variable length arrays is a feature where we can allocate an auto array (on stack) of variable size. C supports variable sized arrays from C99 standard.  For example, the below program compiles and runs fine in C.
+
+void fun(int n)
+{
+  int arr[n];
+  // ......
+} 
+int main()
+{
+   fun(6);
+}
+
+But C++ standard (till C++11) doesn’t support variable sized arrays.  The C++11 standard mentions array size as a constant-expression See (See 8.3.4 on page 179 of N3337). So the above program may not be a valid C++ program.  The program may work in GCC compiler, because GCC compiler provides an extension to support them.
+As a side note, the latest C++14 (See 8.3.4 on page 184 of N3690) mentions array size as a simple expression (not constant-expression).
+References:
+http://stackoverflow.com/questions/1887097/variable-length-arrays-in-c
+https://gcc.gnu.org/onlinedocs/gcc/Variable-Length.html
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

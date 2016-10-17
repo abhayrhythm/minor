@@ -1,0 +1,21 @@
+basic header file includ everi standard librari 
+program contest use file good idea want reduc time wast chore especi rank time sensit 
+program contest peopl focu find algorithm solv problem softwar engin 
+softwar engin perspect good idea minim includ 
+use actual includ lot file program may need thu increas compil time program size unnecessarili 
+disadvantag bit stdc bit stdc h standard header file gnu c librari 
+tri compil code compil gcc might fail e g 
+msvc header 
+use would includ lot unnecessari stuff increas compil time 
+header file part c standard therefor non portabl avoid 
+moreov even catch header standard would want avoid lieu specif header sinc compil actual read pars everi includ header includ recurs includ header everi singl time translat unit compil 
+advantag bit stdc contest use file good idea want reduc time wast chore especi rank time sensit 
+also reduc chore write necessari header file 
+rememb stl gnu c everi function use 
+user either use save time write everi includ save compil time use write necessari header file 
+relat discuss exampl program 
+articl contribut ayush govil 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

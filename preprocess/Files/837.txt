@@ -1,0 +1,48 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks.
+Aditya’s story is motivating as he has risen from nowhere to scoring some decent rankings in various programming contests with his will and hard work. This Manipal University’s undergraduate is continuously working to follow his dreams and not planning to look back any more.
+
+ 
+How did it all start? What made you land into the world of programming?
+It all started in the first semester of my college itself,a day before my Engineering Graphics(E.G.) Exam, it was also the Annual Day of MIT Manipal and I went to attend the event. I was dissatisfied with myself, my academics wasn’t going well, my extra curricular were almost zero and I wasn’t doing anything productive with my time. I was lost in my thoughts when I observed a senior sit next to me holding a trophy , I told him about the difference in my imagined and my current college life and how I wasn’t doing anything productive with my time. It was the first time I was introduced to online learning and competitive coding by him. I went to hostel and right away googled “competitive coding”. I found the concept of competitive coding really interesting, it provided a platform to compete people from all around the globe,coding in different languages at the comfort of your very own room. Since then I spent most of my time doing competitive coding only.
+What subjects you think are most important in the curriculum?
+My branch is Computer and Communication which is a very rare branch in Indian colleges and provides the opportunity to study both computer as well as communication subjects, I find both the fields pretty interesting and the subjects which I find most important for the curriculum are :
+PSUC (Problem solving using computers), Data Structures, Digital Communication, Open Elective: Yes you heard it right open elective,it provides you with a choice of taking a break form your regular branch subjects and explore something new.
+How did you college support for all these achievements?
+The club culture here at Manipal Institute of Technology,Manipal is really nice.I spent most of my time of my first year taking part in various workshops and was part of various clubs like IE-CSE(computer club), ISTE(multi domain technical club), Lnd(Literary and debate club), ACM Manipal(ACM Student chapter at Manipal) and even Blitzkieg(Dance club) to explore my interests and hobbies to realize that my true interest lies in coding and especially in competitive coding. Also few liberation that we get like re-attendance of lab if its missed due to taking part in a hackathon or some other competition is really nice.
+Do you think not being from IITs and NITs, you have to face hindrances to achieve what you want? 
+No I don’t think that not being from IIT or NIT has ever caused me any hindrance to achieve me what I want instead it has just motivated me to do just better and better so that when I pass out from my college I am one of the best coder of India and I am slowly and gradually moving towards my goal and in few competitions I have achieved rank better than some of the IITians/NITians.
+Commendable Ranking in so many coding contests . How did you do this?Please guide other students how they should prepare for the same?
+The very simple answer to this is participating. The most common mistake that most people do is that they don’t even participate in the contests assuming that its way beyond their preparation level and first they will prepare to a descent level and then participate,which is totally wrong , participating alone increases your preparation level,with each contest we learn something new irrespective of win or lose.
+Second thing is mastering one coding language rather than being bachelors of multiple,if its C++ we should be well aware of special features of C++ like pointers,STL,etc. and same applies for other languages as well.
+Third and most important thing is persistence and consistency, if you keep practicing regularly in the end you will learn stuff,no matter how bad you are it at first,even I had no computer background before coming to Manipal and also sticking to one or two competitive coding sites is important,most people sign up to multiple competitive coding sites and end up doing all the easy problems of all the sites rather than advancing their level. In my case I have stuck to GeeksforGeeks and Hackerrank.
+What was your inspiration behind chasing your goal of evolving as a coding champ ?
+I have been bachelors of lot of things like dancing,creative writing, swimming, academics etc. since my childhood so when I came to my college I had a dream of mastering at least one thing to a level where in which I am one of the best at least in my country , I explored lot of things to realize that I enjoy coding most and especially competitive coding, so here I am walking towards my dream of being the best coder of India and also my parents supported me to best of their extent,they made sure I have a really good internet connection when I am at home during vacations.
+What should one keep in mind when beginning to pursue the Competitive Programming and job preparation?
+For competitive coding one should keep in mind that it requires a bit of patience and mastering it isn’t a day’s or month’s job,moreover it doesn’t has a predefined theory and syllabus and it can only be learnt through consistent practice and implementation,the more you practice the more you learn,start with the brute force approach if you aren’t getting any idea for a problem,implement it and then think over it,try to optimize it,maybe try and observe a pattern,make lot of test cases to check it and never forget the boundary conditions also one you get your problem accepted read the editorial for it to improve your logic. Having good knowledge of STL always helps and saves times and also if your good at Maths then that will be cherry to your pie.
+For job preparation make sure you have well achieved your time and efficiency for solving a problem in a given time constraint, set timer while your practicing for job interviews because problem asked there are generally easier compared to competitive coding contests, all they require is that you solve the problem correctly in the given time constraint ,I find GeeksforGeeks best for that ,I was able to solve more than 150 problems in just a month from GeeksforGeeks as I used to practice in a time constraint at my home during vacations.
+Students are becoming serious day by day and lacking sports, sense of humor and physical activities. What’s your take on that? What are your hobbies?
+Yeah being a coder doesn’t mean you need to eliminate the fun from your life or become lazy, in fact its more about liveliness,its something which makes me feel good about yourself and more motivated in life. I like to set short targets for myself , I work hard during the week and go out to dinner,movie or may be to a place with natural beauty nearby during the weekends.I also love dancing,writing ,listening to music and chatting long hours with my friends whenever I feel bored or monotonic.
+What would you say was the turning point of your life because of which you are here?
+In my second semester I attempted an online coding competition of Citrix which was intended for job allocations to 4th year and I somehow cleared that and qualified for onsite round,obviously I wasn’t eligible to attend that but that event gave me a great boost to my confidence and I got more motivated towards my goal.
+What’s your advice to students who aim to become excellent programmer like yours?
+My advice is just that keep practicing more and more, master one coding language,never give up and if you find yourself stuck at a topic ,don’t hesitate to ask for help,at once I was struggling with data structures when one of my friend helped me with it. Lot of people misunderstand competitive coding to be more of a code play whereas it’s more of logic play, in fact most problems can be solved by using simple tools such as for-loop and if-else statements itself,what matters more is deciphering the logic. Moreover competitive coding shouldn’t be confined just to students with computer oriented branches only, it’s more of a sport in it’s true sense and improves our logic and thinking abilities. Improve your STL libraries and data structures and have fun with this beautiful sport.
+Aditya’s achievements :
+
+Qualified first round of Google Code Jam
+Rank at Codechef Snackdown’16 : 204
+Rank at GeeksforGeeks: 101
+Won 3 national level college contests at hackerrank.
+
+Aditya can be reached at Facebook , Linkedin
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

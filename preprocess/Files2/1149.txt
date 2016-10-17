@@ -1,0 +1,29 @@
+given array integ find combin four element array whose sum equal given valu x exampl given array 10 2 3 4 5 9 7 8 x 23 function print 3 5 7 8 3 5 7 8 23 
+sourc find specif sum amazon interview question discuss n 3 algorithm previou post topic 
+problem solv n 2logn time help auxiliari space 
+thank itsnimish suggest method 
+follow detail process 
+let input array 
+1 creat auxiliari array aux store sum possibl pair aux 
+size aux n n 1 2 n size 
+2 sort auxiliari array aux 
+3 problem reduc find two element aux sum equal x use method 1 post find two element effici 
+follow import point note though 
+element aux repres pair 
+pick two element aux must check whether two element element common 
+exampl first element sum 1 2 second element sum 2 4 two element aux repres four distinct element input array 
+follow c implement method 
+includ stdio h includ stdlib h follow structur need store pair sum aux struct pairsum int first index int first element pair int sec index second element pair int sum sum pair follow function need librari function qsort int compar const void const void b return pairsum sum pairsum b sum function check two given pair common element bool nocommon struct pairsum struct pairsum b first b first first b sec sec b first sec b sec return fals return true function find four element given sum x void findfourel int arr int n int x int j creat auxiliari array store pair sum int size n n 1 2 struct pairsum aux size gener possibl pair store sum possibl pair aux int k 0 0 n 1 j 1 j n j aux k sum arr arr j aux k first aux k sec j k sort aux array use librari function sort qsort aux size sizeof aux 0 compar start two index variabl two corner array move toward 
+0 j size 1 size j 0 aux sum aux j sum x nocommon aux aux j printf n arr aux first arr aux sec arr aux j first arr aux j sec return els aux sum aux j sum x els j driver program test function int main int arr 10 20 30 40 1 2 int n sizeof arr sizeof arr 0 int x 91 findfourel arr n x return 0 output 20 1 30 40 pleas note code print one quadrupl 
+remov return statement add statement j print quadrupl five time 
+code modifi print quadrupl 
+kept way keep simpl 
+time complex step 1 take n 2 time 
+second step sort array size n 2 
+sort done n 2logn time use merg sort heap sort nlogn algorithm 
+third step take n 2 time 
+overal complex n 2logn 
+auxiliari space n 2 
+big size auxiliari array concern method 
+pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

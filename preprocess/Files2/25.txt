@@ -1,0 +1,21 @@
+bucket sort mainli use input uniformli distribut rang 
+exampl consid follow problem 
+sort larg set float point number rang 0 0 1 0 uniformli distribut across rang 
+sort number effici 
+simpl way appli comparison base sort algorithm 
+lower bound comparison base sort algorithm merg sort heap sort quick sort etc ω n log n e cannot better nlogn 
+sort array linear time 
+count sort appli use key index count sort 
+key float point number 
+idea use bucket sort 
+follow bucket algorithm 
+bucketsort arr n 1 creat n empti bucket list 
+2 follow everi array element arr 
+insert arr bucket n array 3 sort individu bucket use insert sort 
+4 concaten sort bucket 
+follow diagram taken clr book demonstr work bucket sort 
+time complex assum insert bucket take 1 time step 1 2 algorithm clearli take n time 
+1 easili possibl use link list repres bucket follow code c vector use simplic 
+step 4 also take n time n item bucket 
+main step analyz step 3 step also take n time averag number uniformli distribut pleas refer clr book detail follow c implement algorithm 
+c program sort array use bucket sort includ iostream includ algorithm includ vector use namespac std function sort arr size n use bucket sort void bucketsort float arr int n 1 creat n empti bucket vector float b n 2 put array element differ bucket int 0 n int bi n arr index bucket b bi push_back arr 3 sort individu bucket int 0 n sort b begin b end 4 concaten bucket arr int index 0 int 0 n int j 0 j b size j arr index b j driver program test funtion int main float arr 0 897 0 565 0 656 0 1234 0 665 0 3434 int n sizeof arr sizeof arr 0 bucketsort arr n cout sort array n int 0 n cout arr return 0 output sort array 0 1234 0 3434 0 565 0 656 0 665 0 897 refer introduct algorithm 3rd edit clifford stein thoma h cormen charl e leiserson ronald l rivest http en wikipedia org wiki bucket_sort quiz bucket sort sort algorithm geeksforgeek geeksquiz select sort bubbl sort insert sort merg sort heap sort quicksort radix sort count sort shellsort pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,40 @@
+given sort array key 0 n 1 search key array freq 0 n 1 frequenc count freq number search key 
+construct binari search tree key total cost search small possibl 
+let us first defin cost bst 
+cost bst node level node multipli frequenc 
+level root 1 exampl 1 input key 10 12 freq 34 50 follow two possibl bst 10 12 12 10 ii frequenc search 10 12 34 50 respect 
+cost tree 34 1 50 2 134 cost tree ii 50 1 34 2 118 exampl 2 input key 10 12 20 freq 34 8 50 follow possibl bst 10 12 20 10 20 12 10 20 12 20 10 20 10 12 12 ii iii iv v among possibl bst cost fifth bst minimum 
+cost fifth bst 1 50 2 34 3 8 142 1 optim substructur optim cost freq j recurs calcul use follow formula 
+need calcul optcost 0 n 1 find result 
+idea formula simpl one one tri node root r vari j second term 
+make rth node root recurs calcul optim cost r 1 r 1 j add sum frequenc j see first term formula ad everi search go root one comparison done everi search 
+2 overlap subproblem follow recurs implement simpli follow recurs structur mention 
+naiv recurs implement optim binari search tree problem includ stdio h includ limit h util function get sum array element freq freq j int sum int freq int int j recurs function calcul cost optim binari search tree int optcost int freq int int j base case j element subarray return 0 j one element subarray return freq get sum freq freq 1 freq j int fsum sum freq j initi minimum valu int min int_max one one consid element root recurs find cost bst compar cost min updat min need int r r j r int cost optcost freq r 1 optcost freq r 1 j cost min min cost return minimum valu return min fsum main function calcul minimum cost binari search tree 
+mainli use optcost find optim cost 
+int optimalsearchtre int key int freq int n array key assum sort increas order 
+key sort add code sort key rearrang freq accordingli 
+return optcost freq 0 n 1 util function get sum array element freq freq j int sum int freq int int j int 0 int k k j k freq k return driver program test function int main int key 10 12 20 int freq 34 8 50 int n sizeof key sizeof key 0 printf cost optim bst optimalsearchtre key freq n return 0 output cost optim bst 142 time complex naiv recurs approach exponenti 
+note function comput subproblem 
+see mani subproblem repeat follow recurs tree freq 1 4 
+sinc suproblem call problem overlap subprolem properti 
+optim bst problem properti see dynam program problem 
+like typic dynam program dp problem recomput subproblem avoid construct temporari array cost bottom manner 
+dynam program solut follow c c implement optim bst problem use dynam program 
+use auxiliari array cost n n store solut subproblem 
+cost 0 n 1 hold final result 
+challeng implement diagon valu must fill first valu lie line diagon 
+word must first fill cost valu cost 1 valu cost 2 valu 
+fill 2d array manner idea use implement matrix chain multipl problem use variabl l chain length increment l one one 
+calcul column number j use valu l 
+dynam program code optim binari search tree problem includ stdio h includ limit h util function get sum array element freq freq j int sum int freq int int j dynam program base function calcul minimum cost binari search tree 
+int optimalsearchtre int key int freq int n creat auxiliari 2d matrix store result subproblem int cost n n cost j optim cost binari search tree form key key j 
+cost 0 n 1 store result cost singl key cost equal frequenc key int 0 n cost freq need consid chain length 2 3 
+l chain length 
+int l 2 l n l row number cost int 0 n l 1 get column number j row number chain length l int j l 1 cost j int_max tri make key interv key j root int r r j r c cost key r becom root subtre int c r 
+cost r 1 0 r j 
+cost r 1 j 0 sum freq j c cost j cost j c return cost 0 n 1 util function get sum array element freq freq j int sum int freq int int j int 0 int k k j k freq k return driver program test function int main int key 10 12 20 int freq 34 8 50 int n sizeof key sizeof key 0 printf cost optim bst optimalsearchtre key freq n return 0 output cost optim bst 142 note 1 time complex solut n 4 
+time complex easili reduc n 3 pre calcul sum frequenc instead call sum 
+2 solut comput optim cost 
+solut easili modifi store structur bst also 
+creat anoth auxiliari array size n store structur tree 
+need store chosen r innermost loop 

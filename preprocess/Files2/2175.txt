@@ -1,0 +1,9 @@
+magic number defin number express power 5 sum uniqu power 5 first magic number 5 25 30 5 25 125 130 125 5 
+write function find n th magic number 
+exampl input n 2 output 25 input n 5 output 130 sourc amazon written round question strongli recommend click practic move solut 
+notic care magic number repres 001 010 011 100 101 110 etc 001 0 pow 5 3 0 pow 5 2 1 pow 5 1 
+basic need add power 5 bit set given integ n c implement base idea 
+c program find n magic numebr includ bit stdc h use namespac std function find n th magic numebr int nthmagicno int n int pow 1 answer 0 go everi bit n n pow pow 5 last bit n set n 1 answer pow proceed next bit n 1 n n 2 return answer driver program test function int main int n 5 cout n th magic number nthmagicno n endl return 0 output n th magic number 130 thank manrajsingh suggest solut 
+articl contribut abhay 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

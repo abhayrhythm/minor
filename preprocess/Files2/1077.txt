@@ -1,0 +1,16 @@
+given array contain posit neg integ find product maximum product subarray 
+expect time complex n 1 extra space use 
+exampl input arr 6 3 10 0 2 output 180 subarray 6 3 10 input arr 1 3 10 0 60 output 60 subarray 60 input arr 1 2 3 4 output 24 subarray 2 3 4 input arr 10 output 0 empti array also subarray product empti subarray consid 0 discuss solut problem 
+post interest solut discuss 
+idea base fact overal maximum product maximum follow two maximum product left right travers 
+maximum product right left travers exampl consid third sampl input 1 2 3 4 
+travers array forward direct consid 1 part output maximum product 2 travers array backward direct consid 4 part output maximum product 24 e 2 3 4 
+one import thing handl 0 
+need comput fresh forward backward sum whenev see 0 c implement idea 
+c program find maximum product subarray includ bit stdc h use namespac std function maximum product int max_product int arr int n initi maximum product forward backward direct int max_fwd int_min max_bkd int_min initi current product int max_till_now 1 max_fwd maximum contigu product forward direct max_bkd maximum contigu product backward direct iter within forward direct array int 0 n arr 0 break condit contiguo subarray max_till_now max_till_now arr max_till_now 0 max_till_now 1 continu max_fwd max_till_now updat max_fwd max_fwd max_till_now max_till_now 1 iter within backward direct array int n 1 0 max_till_now max_till_now arr max_till_now 0 max_till_now 1 continu updat max_bkd max_bkd max_till_now max_bkd max_till_now return max max_fwd max_bkd int re max max_fwd max_bkd product nag 
+product empti subarray consid 0 return max re 0 driver program test function int main int arr 1 2 3 4 int n sizeof arr sizeof arr 0 cout max_product arr n endl return 0 output 24 time complex n auxiliari space 1 ask amazon microsoft morgan stanley note solut requir two travers array previou solut requir one travers 
+articl contribut shashank mishra gullu 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

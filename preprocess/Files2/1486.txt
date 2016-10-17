@@ -1,0 +1,22 @@
+given array distinct integ find two pair b c b c b c distinct element 
+multipl answer print 
+exampl input 3 4 7 1 2 9 8 output 3 8 4 7 explan 3 8 4 7 input 3 4 7 1 12 9 output 4 12 7 9 explan 4 12 7 9 input 65 30 7 90 1 9 8 output pair found expect time complex n2 strongli recommend minim browser tri first 
+simpl solut run four loop gener possibl quadrupl array element 
+everi quadrupl b c check b c 
+time complex solut n4 
+effici solut solv problem n2 time 
+idea use hash 
+use sum key pair valu hash tabl 
+loop 0 n 1 loop j 1 n 1 calcul sum hash tabl index alreadi exist print j previou pair hash tabl els updat hash tabl endloop endloop implement idea 
+implement map use instead hash 
+time complex map insert search actual log n instead 1 
+implement n2 log n 
+c c find four differ element b c array b c includ bit stdc h use namespac std bool findpair int arr int n creat empti hash store map sum pair index map int pair int int hash travers possibl pair arr int 0 n int j 1 j n j sum current pair hash store continu next pair int sum arr arr j hash find sum hash end hash sum make_pair j els els sum alreadi present hash find previou pair pair int int pp hash sum pp previou pair sinc array element distinct need check element common among pair cout arr pp first arr pp second arr arr j n return true cout pair found return fals driver program int main int arr 3 4 7 1 2 9 8 int n sizeof arr sizeof arr 0 findpair arr n return 0 java java program find four differ element b c array b c import java io 
+import java util 
+class arrayel class repres pair class pair int first second pair int f int first f second boolean findpair int arr creat empti hash store map sum pair index hashmap integ pair map new hashmap integ pair int n arr length travers possibl pair arr int 0 n int j 1 j n j sum current pair hash store continu next pair int sum arr arr j map containskey sum map put sum new pair j els els sum alreadi present hash find previou pair pair p map get sum sinc array element distinct need check element common among pair system println arr p first arr p second arr arr j return true return fals test program public static void main string arg int arr 3 4 7 1 2 9 8 arrayel new arrayel findpair arr code contribut aakash hasija output 3 8 4 7 thank gaurav ahirwar suggest solut 
+exercis 1 extend solut duplic allow array 
+2 extend solut print quadrupl output instead one 
+quadrupl print print lexicograph order smaller valu greater one 
+assum two solut s1 s2 
+s1 a1 b1 c1 d1 valu indic int array s2 a2 b2 c2 d2 s1 lexicograph smaller s2 iff a1 a2 a1 a2 b1 b2 a1 a2 b1 b2 c1 c2 a1 a2 b1 b2 c1 c2 d1 d2 see solut exercis 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,9 @@
+consid statement python 2 7 python 2 7 program demonstr use integ print 5 2 print 5 2 output 2 3 first output fine second one may surpris come java c world 
+python 2 7 oper work floor divis integ argument 
+howev oper return float valu one argument float similar c python 2 7 program demonstr use float point number print 5 0 2 print 5 0 2 output 2 5 2 5 real floor divis oper 
+return floor valu integ float point argument 
+python 2 7 program demonstr use integ float point print 5 2 print 5 2 print 5 0 2 print 5 0 2 output 2 3 2 0 3 0 python 3 
+anoth surpris python 3 oper float point divis int float argument 
+python 3 program demonstr use integ float point print 5 2 print 5 2 print 5 0 2 print 5 0 2 output 2 5 2 5 2 5 2 5 behavior python 2 7 python 3 see exampl 
+articl contribut arpit agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

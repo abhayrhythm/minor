@@ -1,0 +1,16 @@
+given binari tree node print cousin given node 
+note sibl print 
+exampl input root tree 1 2 3 4 5 6 7 pointer node say 5 output 6 7 strongli recommend minim browser tri first 
+idea first find level given node use approach discuss 
+found level print node given level use approach discuss 
+thing take care sibl print 
+handl chang print function first check sibl print node sibl 
+c implement idea 
+c program print cousin node includ stdio h includ stdlib h binari tree node struct node int data node left right util function creat new binari tree node node newnod int item node temp new node temp data item temp left temp right null return temp return level node present tree otherwis return 0 
+int getlevel node root node node int level base case root null return 0 root node return level node present left subtre int downlevel getlevel root left node level 1 downlevel 0 return downlevel node present left subtre return getlevel root right node level 1 print node given level sibl node print exist void printgivenlevel node root node node int level base case root null level 2 return current node parent node given level level 2 root left node root right node return root left printf root left data root right printf root right data recur left right subtre els level 2 printgivenlevel root left node level 1 printgivenlevel root right node level 1 function print cousin given node void printcousin node root node node get level given node int level getlevel root node 1 print node given level 
+printgivenlevel root node level driver program test function int main node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root left right right newnod 15 root right left newnod 6 root right right newnod 7 root right left right newnod 8 printcousin root root left right return 0 output 6 7 time complex n solv problem use singl travers 
+pleas write approach comment 
+articl contribut shivam gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

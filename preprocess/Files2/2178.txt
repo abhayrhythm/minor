@@ -1,0 +1,12 @@
+given integ n calcul squar number without use pow 
+exampl input n 5 output 25 input 7 output 49 input n 12 output 144 simpl solut repeatedli add n result 
+c implement idea 
+simpl solut calcul squar without use pow includ iostream use namespac std int squar int n handl neg input n 0 n n initi result int re n add n re n 1 time int 1 n re n return re drive program int main int n 1 n 5 n cout n n n 2 squar n endl return 0 output n 1 n 2 1 n 2 n 2 4 n 3 n 2 9 n 4 n 2 16 n 5 n 2 25 time complex solut n 
+logn time use bitwis oper 
+idea base follow fact 
+squar n 0 n 0 n even squar n 4 squar n 2 n odd squar n 4 squar floor n 2 4 floor n 2 1 exampl squar 6 4 squar 3 squar 3 4 squar 1 4 1 1 9 squar 7 4 squar 3 4 3 1 4 9 4 3 1 49 work 
+n even written n 2 x n2 2 x 2 4 x2 n odd written n 2 x 1 n2 2 x 1 2 4 x2 4 x 1 floor n 2 calcul use bitwis right shift oper 
+2 x 4 x calcul c implement base idea 
+squar number use bitwis oper includ iostream use namespac std int squar int n base case n 0 return 0 handl neg number n 0 n n get floor n 2 use right shift int x n 1 n odd n 1 return squar x 2 x 2 1 els n even return squar x 2 drive program int main int n 1 n 5 n cout n n n 2 squar n endl return 0 output n 1 n 2 1 n 2 n 2 4 n 3 n 2 9 n 4 n 2 16 n 5 n 2 25 time complex solut logn 
+articl contribut ujjwal jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

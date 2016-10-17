@@ -1,0 +1,7 @@
+given small piec code open sourc project ifndef __cplusplu typedef enum boolentag fals true bool endif defin crash void 0 fals int main crash return 0 interpret code 
+simpl step step approach given statement fals meant test purpos 
+consid follow oper void 0 achiev follow 0 liter zero 0 0 0 cast type 0 0 cast pointer type 0 0 cast pointer function void void 0 interpret 0 address function take noth return noth void void 0 invok function given code invok function whose code store locat zero word tri execut instruct store locat zero 
+system memori protect mmu os throw except segment fault system without protect small embed system execut error propag 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

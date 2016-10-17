@@ -1,0 +1,42 @@
+given number n n number sort number use concurr merg sort 
+hint tri use shmget shmat system call 
+part1 algorithm 
+recurs make two child process one left half one right half 
+number element array process less 5 perform insert sort 
+parent two children merg result return back parent 
+make concurr 
+part2 logic 
+import part solut problem algorithm explain concept oper system kernel 
+achiev concurr sort need way make two process work array time 
+make thing easier linux provid lot system call via simpl api endpoint 
+two shmget share memori alloc shmat share memori oper 
+creat share memori space child process fork 
+segment split left right child sort interest part work concurr 
+shmget request kernel alloc share page process 
+tradit fork work 
+answer lie fork actual 
+document fork creat new process duplic call process 
+child process parent process run separ memori space 
+time fork memori space content 
+memori write file descriptor fd chang etc perform one process affect 
+henc need share memori segment 
+c program implement concurr merg sort includ sy type h includ sy ipc h includ sy shm h includ stdio h includ stdlib h includ unistd h void insertionsort int arr int n void merg int int l1 int h1 int h2 void mergesort int int l int h int len h l 1 use insert sort small size array len 5 insertionsort l len return pid_t lpid rpid lpid fork lpid 0 lchild proc creat perror left child proc 
+creat n _exit 1 els lpid 0 mergesort l l len 2 1 _exit 0 els rpid fork rpid 0 rchild proc creat perror right child proc 
+creat n _exit 1 els rpid 0 mergesort l len 2 h _exit 0 int statu wait child process finish waitpid lpid statu 0 waitpid rpid statu 0 merg sort subarray merg l l len 2 1 h function sort array use insert sort void insertionsort int arr int n int key j 1 n key arr j 1 move element arr 0 1 greater key one posit ahead current posit j 0 arr j key arr j 1 arr j j j 1 arr j 1 key method merg sort subarray void merg int int l1 int h1 int h2 directli copi sort element final array need temporari sort array 
+int count h2 l1 1 int sort count int l1 k h1 1 0 h1 k h2 k sort els k sort k els k sort sort k h1 sort k h2 sort k int arr_count l1 0 count l1 l1 sort check array actual sort void issort int arr int len len 1 printf sort done success n return int 1 len arr arr 1 printf sort done n return printf sort done success n return fill random valu array test purpis void filldata int int len creat random array int 0 len rand return driver code int main int shmid key_t key ipc_priv int shm_array use fix size array 
+uncom line take size user int length 128 printf enter element array scanf length calcul segment length size_t shm_size sizeof int length creat segment 
+shmid shmget key shm_size ipc_creat 0666 0 perror shmget _exit 1 attach segment data space 
+shm_array shmat shmid null 0 int 1 perror shmat _exit 1 creat random array given length srand time null filldata shm_array length sort creat array mergesort shm_array 0 length 1 check array sort issort shm_array length detach share memori done use 
+shmdt shm_array 1 perror shmdt _exit 1 delet share memori segment 
+shmctl shmid ipc_rmid null 1 perror shmctl _exit 1 return 0 output sort done success perform improv 
+tri time code compar perform tradit sequenti code 
+would surpris know sequenti sort perform better 
+say left child access left array array load cach processor 
+right array access concurr access cach miss sinc cach fill left segment right segment copi cach memori 
+fro process continu degrad perform level perform poorer sequenti code 
+way reduc cach miss control workflow code 
+cannot avoid complet 
+articl contribut pinkesh badjatiya like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

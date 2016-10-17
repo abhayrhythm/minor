@@ -1,0 +1,24 @@
+
+What will be the output of following program? 
+
+#include <stdio.h>
+int main()
+{
+   int i = 0xAA;
+   ~i, printf("%X\n", i);
+
+   return 0;
+}
+
+Output: 0xAA
+No change in i value, the emphasis is on l-value and r-value expressions. The expression ~i is an r-value, it has to be assigned to an l-value to retain the change.
+Puzzle phrased by Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

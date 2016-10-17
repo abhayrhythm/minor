@@ -1,0 +1,18 @@
+ask anshya 
+differ way add base 14 number 
+method 1 thank raj suggest method 
+1 convert p base 14 number base 10 
+2 add number 
+3 convert result back base 14 method 2 add number base 14 way add base 10 add numer number one one right left 
+carri ad two numer consid carri ad next numer 
+let us consid present base 14 number hexadecim number 10 b 11 c 12 13 exampl num1 1 2 num2 c 3 1 add 3 get 13 
+sinc 13 smaller 14 carri becom 0 result numer becom 2 add 2 carri 0 
+get 15 sinc 15 greater 13 carri becom 1 result numer 15 14 1 3 add 1 c carri 1 
+get 14 sinc 14 greater 13 carri becom 1 result numer 14 14 0 final carri 1 ad leftmost numer result becom 101d implement method 2 includ stdio h includ stdlib h defin bool int int getnumeralvalu char char getnumer int function add two number base 14 char sumbase14 char num1 char num2 int l1 strlen num1 int l2 strlen num2 char re int int nml1 nml2 res_nml bool carri 0 l1 l2 printf function support number differ length 
+want add number prefix smaller number requir 
+zero getchar assert 0 note size alloc memori one p lenght case carri last like ad d1 a1 re char malloc sizeof char l1 1 add numer right left l1 1 0 get decim valu numer p number nml1 getnumeralvalu num1 nml2 getnumeralvalu num2 add decim valu numer carri res_nml carri nml1 nml2 check carri next addit numer res_nml 14 carri 1 res_nml 14 els carri 0 re 1 getnumer res_nml carri last iter result includ 0th charact result string carri 0 return re 1 carri last iter result includ 0th charact re 0 1 return re function get valu numer exampl return 10 input 1 1 etc int getnumeralvalu char num num 0 num 9 return num 0 num num return num 10 reach line caller give invalid charact assert fail assert 0 function get numer valu 
+exampl return input 10 1 1 etc char getnumer int val val 0 val 9 return val 0 val 10 val 14 return val 10 reach line caller give invalid 
+assert fail assert 0 driver program test function int main char num1 dc2 char num2 0a3 printf result sumbase14 num1 num2 getchar return 0 note approach use add number base 
+string oper base smaller 10 tri extend program number differ length 
+pleas comment find bug program better approach 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

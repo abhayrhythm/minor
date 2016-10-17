@@ -1,0 +1,15 @@
+shellsort mainli variat insert sort 
+insert sort move element one posit ahead 
+element move far ahead mani movement involv 
+idea shellsort allow exchang far item 
+shellsort make array h sort larg valu h keep reduc valu h becom 1 array said h sort sublist everi h th element sort 
+follow c implement shellsort 
+c c implement shell sort includ iostream use namespac std function sort arr use shellsort int shellsort int arr int n start big gap reduc gap int gap n 2 gap 0 gap 2 gap insert sort gap size 
+first gap element 0 gap 1 alreadi gap order keep ad one element entir array gap sort int gap n 1 add element gap sort save temp make hole posit int temp arr shift earlier gap sort element correct locat found int j j j gap arr j gap temp j gap arr j arr j gap put temp origin correct locat arr j temp return 0 void printarray int arr int n int 0 n cout arr int main int arr 12 34 54 2 3 int n sizeof arr sizeof arr 0 cout array sort n printarray arr n shellsort arr n cout narray sort n printarray arr n return 0 java java implement shellsort class shellsort util function print array size n static void printarray int arr int n arr length int 0 n system print arr system println function sort arr use shellsort int sort int arr int n arr length start big gap reduc gap int gap n 2 gap 0 gap 2 gap insert sort gap size 
+first gap element 0 gap 1 alreadi gap order keep ad one element entir array gap sort int gap n 1 add element gap sort save temp make hole posit int temp arr shift earlier gap sort element correct locat found int j j j gap arr j gap temp j gap arr j arr j gap put temp origin correct locat arr j temp return 0 driver method public static void main string arg int arr 12 34 54 2 3 system println array sort printarray arr shellsort ob new shellsort ob sort arr system println array sort printarray arr code contribut rajat mishra python python program implement shell sort def shellsort arr start big gap reduc gap n len arr gap n 2 gap insert sort gap size 
+first gap element 0 gap 1 alreadi gap order keep ad one element entir array gap sort gap 0 rang gap n add element gap sort save temp make hole posit temp arr shift earlier gap sort element correct locat found j j gap arr j gap temp arr j arr j gap j gap put temp origin correct locat arr j temp gap 2 driver code test arr 12 34 54 2 3 n len arr print array sort rang n print arr shellsort arr print narray sort rang n print arr code contribut mohit kumra output array sort 12 34 54 2 3 array sort 2 3 12 34 54 time complex time complex implement shellsort n2 
+implement gap reduc half everi iter 
+mani way reduc gap lead better time complex 
+see detail 
+refer http www youtub com watch v pghazjsfw28 http en wikipedia org wiki shellsort quiz shell sort sort algorithm geeksforgeek geeksquiz select sort bubbl sort insert sort merg sort heap sort quicksort radix sort count sort bucket sort code practic sort 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

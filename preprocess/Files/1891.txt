@@ -1,0 +1,100 @@
+
+Consider below C++ program:
+
+// C++ program to show that local parameters hide
+// class members
+#include<iostream>
+using namespace std;
+class Test
+{
+    int a;
+public:
+    Test() { a = 1; }
+
+    // Local parameter 'a' hides class member 'a'
+    void func(int a)  { cout << a; }
+};
+
+int main()
+{
+    Test obj;
+    int k = 3 ;
+    obj.func(k);
+    return 0;
+}
+
+Output:
+3
+The output for the above program is 3 since the “a” passed as argument to the “func” shadows the “a” of the class .i.e 1
+Then how to output the class’s ‘a’. This is where this pointer comes in handy. A statement like “cout << this->a” instead of “cout << a" can simply output the value 1 as this pointer points to the object from whom func is called.
+
+
+
+// C++ program to show use of this to access member when
+// there is a local variable with same name.
+#include<iostream>
+using namespace std;
+class Test
+{
+    int a;
+public:
+    Test() { a = 1; }
+
+    // Local parameter ‘a’ hides object’s member
+    // ‘a’, but we can access it using this.
+    void func(int a)  { cout << this->a; }
+};
+
+int main()
+{
+    Test obj;
+    int k = 3 ;
+    obj.func(k);
+    return 0;
+}
+Output:
+1
+How about Scope Resolution Operator? We cannot use Scope resolution operator in above example to print object’s member ‘a’ because scope resolution operator can only be used for a static data member (or class members). If we use scope resolution operator in above program we get compiler error and if we use this pointer in below program, then also we get compiler error.
+
+// C++ program to show that :: can be used to access static
+// members when there is a local variable with same name
+#include<iostream>
+using namespace std;
+
+class Test
+{
+    static int a;  // a IS STATIC NOW
+public:
+
+    // Local parameter 'a' hides class member
+    // 'a', but we can access it using ::
+    void func(int a)  { cout << Test::a; }
+};
+
+// In C++, static members must be explicitly defined 
+// like this
+int Test::a = 1;
+
+int main()
+{
+    Test obj;
+    int k = 3 ;
+    obj.func(k);
+    return 0;
+}
+
+Output:
+1
+
+Conclusion is scope resolution operator is for accessing static or class members and this pointer is for accessing object members when there is a local variable with same name.
+This article is contributed by Aakash Sachdeva. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,18 @@
+2d vector 
+2d vector vector vector 
+matrix implement help vector 
+c code demonstr 2d vector includ iostream includ vector 2d vector use namespac std int main initi 2d vector vect valu vector vector int vect 1 2 3 4 5 6 7 8 9 display 2d vector int 0 vect size int j 0 j vect size j cout vect j cout endl return 0 output 1 2 3 4 5 6 7 8 9 case 1 sort particular row 2d vector 
+type sort arrang select row 2d vector ascend order 
+achiev use sort pass iter 1d vector argument 
+c code demonstr sort row 2d vector includ iostream includ vector 2d vector includ algorithm sort use namespac std int main initi 2d vector vect valu vector vector int vect 3 5 1 4 8 6 7 2 9 number row int vect size number column assum row size 
+differ size though like java 
+int n vect 0 size display 2d vector sort cout matrix sort 1st row n int 0 int j 0 j n j cout vect j cout endl use sort sort first row sort vect 0 begin vect 0 end display 2d vector sort cout matrix sort 1st row n int 0 int j 0 j n j cout vect j cout endl return 0 output matrix sort 1st row 3 5 1 4 8 6 7 2 9 matrix sort 1st row 1 3 5 4 8 6 7 2 9 case 2 sort entir 2d vector basi particular column 
+type sort 2d vector entir sort basi chosen column 
+exampl chosen column second row smallest valu second column becom first row second smallest valu second column becom second row 
+3 5 1 4 8 6 7 2 9 sort matrix second column get 7 2 9 row smallest valu second column 3 5 1 row smallest valu second column 4 8 6 achiev pass third argument sort call user defin explicit function 
+c code demonstr sort 2d vector basi column includ iostream includ vector 2d vector includ algorithm sort use namespac std driver function sort 2d vector basi particular column bool sortcol const vector int v1 const vector int v2 return v1 1 v2 1 int main initi 2d vector vect valu vector vector int vect 3 5 1 4 8 6 7 2 9 number row int vect size number column assum row size 
+differ size though like java 
+int n vect 0 size display 2d vector sort cout matrix sort n int 0 int j 0 j n j cout vect j cout endl use sort sort basi 2nd column sort vect begin vect end sortcol display 2d vector sort cout matrix sort n int 0 int j 0 j n j cout vect j cout endl return 0 output matrix sort 3 5 1 4 8 6 7 2 9 matrix sort 7 2 9 3 5 1 4 8 6 sort 2d vector c set 2 descend order row column articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

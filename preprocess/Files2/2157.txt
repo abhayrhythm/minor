@@ -1,0 +1,36 @@
+consid special famili engin doctor follow rule everybodi two children 
+first child engin engin second child doctor 
+first child doctor doctor second child engin 
+gener doctor engin start engin 
+repres situat use diagram e e e e e e e e given level posit person ancestor tree find profess person 
+exampl input level 4 po 2 output doctor input level 3 po 4 output engin sourc oracl interview method 1 recurs idea base fact profess person depend follow two 
+profess parent 
+posit node posit node odd profess parent 
+els profess differ parent 
+recurs find profess parent use point 2 find profess current node 
+c implement idea 
+c program find profess person given level posit 
+includ bit stdc h use namespac std return e profess node given level posit engin 
+els doctor 
+function assum given posit level valid valu 
+char findproffes int level int po base case level 1 return e recurs find parent profess 
+parent doctar node doctal odd posit engin even posit findproffes level 1 po 1 2 return po 2 
+e parent engin current node enginn add posit doctor even posit 
+return po 2 
+e driver code int main void int level 4 po 2 findproffes level po e 
+cout engine cout doctor return 0 output doctor method 2 use bitwis oper level 1 e level 2 ed level 3 edd level 4 eddede level 5 eddedeeddeededd level input necessari ignor max posit limit first element 
+result base count 1 binari represent posit minu one 
+count 1 even result engin els doctor 
+cours posit limit 2 level 1 c program find profess person given level posit 
+includ bit stdc h use namespac std function get set bit binari represent pass binari 
+int countsetbit int n int count 0 n n n 1 count return count return e profess node given level posit engin 
+els doctor 
+function assum given posit level valid valu 
+char findproffes int level int po count set bit po 1 int c countsetbit po 1 set bit count odd doctor els engin return c 2 
+e driver code int main void int level 3 po 4 findproffes level po e 
+cout engine cout doctor return 0 output doctor thank furkan uslu suggest method 
+articl contribut harsh parikh 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

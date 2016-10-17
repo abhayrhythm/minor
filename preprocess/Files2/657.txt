@@ -1,0 +1,37 @@
+recent amazon came colleg fte intern 
+share interview experi 
+1 onlin round 3 f2f interview 1 bar raiser round 
+onlin round 2 code question 20 mcq base sort complex recurs quantit aptitud geometri etc 
+f2f 1 introduc ask project 
+ask question 1 find maximum subarray size k http www geeksforgeek org maximum subarray size k 
+gave n n approach n log n approach use segment tree n log k use max heap n approach use dequ 
+ask write full product level code 
+2 find first non zero digit start right n 
+simpli keep last digit everi multipl gave n approach 
+seem satisfi 
+f2f 2 ask follow question 1 ask make dictionari search string present insert dictionari 
+gave n log n approach use map 
+ask optim gave trie approach 
+ask write full code 
+2 ask lru cach implement 
+ask write full product level code 
+f2f 3 interview design round well theoret round 
+1 firstli ask favorit subject 
+told oper system 
+ask process schedul algorithm ask alloc memori newli form file 
+told first fit best fit worst fit 
+ask advantag disadvantag 
+2 ask design question 
+let say 13 floor build 6 lift design algorithm user click lift button avail lift reach minim time 
+3 ask give design top k trend twitter facebook 
+told keep trie store count number user associ particular trend keep count max heap extract top k trend 
+solut design vari candid candid 
+design solut rather search solut googl 
+f2f 4 bar raiser round telephon 
+ask project discuss detail 
+40 minut ask write full product level code implement lru use circular link list 
+easi done second round also wrote whole code satisfi 
+verdict select thank geeksforgeek 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

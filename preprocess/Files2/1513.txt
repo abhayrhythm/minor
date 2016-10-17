@@ -1,0 +1,3 @@
+given array number k k smaller size array need find k th smallest element given array 
+given array element distinct 
+exampl input arr 7 10 4 3 20 15 k 3 output 7 input arr 7 10 4 3 20 15 k 4 output 10 discuss similar problem print k largest element 

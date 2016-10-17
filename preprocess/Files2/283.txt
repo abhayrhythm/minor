@@ -1,0 +1,19 @@
+floyd warshal algorithm solv pair shortest path problem 
+problem find shortest distanc everi pair vertic given edg weight direct graph 
+exampl input graph 0 5 inf 10 inf 0 3 inf inf inf 0 1 inf inf inf 0 repres follow graph 10 0 3 5 1 1 2 3 note valu graph j 0 equal j graph j inf infinit edg vertex j output shortest distanc matrix 0 5 8 9 inf 0 3 4 inf inf 0 1 inf inf inf 0 floyd warshal algorithm initi solut matrix input graph matrix first step 
+updat solut matrix consid vertic intermedi vertex 
+idea one one pick vertic updat shortest path includ pick vertex intermedi vertex shortest path 
+pick vertex number k intermedi vertex alreadi consid vertic 0 1 2 k 1 intermedi vertic 
+everi pair j sourc destin vertic respect two possibl case 
+1 k intermedi vertex shortest path j keep valu dist j 
+2 k intermedi vertex shortest path j updat valu dist j dist k dist k j 
+follow figur taken cormen book 
+show optim substructur properti pair shortest path problem 
+follow implement floyd warshal algorithm 
+c c c program floyd warshal algorithm includ stdio h number vertic graph defin v 4 defin infinit larg enough valu 
+valu use vertic connect defin inf 99999 function print solut matrix void printsolut int dist v solv pair shortest path problem use floyd warshal algorithm void floydwarshal int graph v dist output matrix final shortest distanc everi pair vertic int dist v v j k initi solut matrix input graph matrix 
+say initi valu shortest distanc base shortest path consid intermedi vertex 
+0 v j 0 j v j dist j graph j add vertic one one set intermedi vertic 
+start iter shortest distanc pair vertic shortest distanc consid vertic set 0 1 2 k 1 intermedi vertic 
+end iter vertex 
+k ad set intermedi vertic set becom 0 1 2 k k 0 k v k pick vertic sourc one one 0 v pick vertic destin pick sourc j 0 j v j vertex k shortest path j updat valu dist j dist k dist k j dist j dist j dist k dist k j print shortest distanc matrix printsolut dist util function print solut void printsolut int dist v printf follow matrix show shortest distanc everi pair vertic n int 0 v int j 0 j v j dist j inf printf 7s inf els printf 7d dist j printf n driver program test function int main let us creat follow weight graph 10 0 3 5 1 1 2 3 int graph v v 0 5 inf 10 inf 0 3 inf inf inf 0 1 inf inf inf 0 print solut floydwarshal graph return 0 

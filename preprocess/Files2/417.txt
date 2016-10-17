@@ -1,0 +1,16 @@
+creat data structur twostack repres two stack 
+implement twostack use one array e stack use array store element 
+follow function must support twostack 
+push1 int x push x first stack push2 int x push x second stack pop1 pop element first stack return pop element pop2 pop element second stack return pop element implement twostack space effici 
+method 1 divid space two halv simpl way implement two stack divid array two halv assign half half space two stack e use arr 0 arr n 2 stack1 arr n 2 1 arr n 1 stack2 arr array use implement two stack size array n problem method ineffici use array space 
+stack push oper may result stack overflow even space avail arr 
+exampl say array size 6 push 3 element stack1 push anyth second stack2 
+push 4th element stack1 overflow even space 3 element array 
+method 2 space effici implement method effici util avail space 
+caus overflow space avail arr 
+idea start two stack two extrem corner arr 
+stack1 start leftmost element first element stack1 push index 0 stack2 start rightmost corner first element stack2 push index n 1 
+stack grow shrink opposit direct 
+check overflow need check space top element stack 
+check highlight code 
+c includ iostream includ stdlib h use namespac std class twostack int arr int size int top1 top2 public twostack int n constructor size n arr new int n top1 1 top2 size method push element x stack1 void push1 int x least one empti space new element top1 top2 1 top1 arr top1 x els cout stack overflow exit 1 method push element x stack2 void push2 int x least one empti space new element top1 top2 1 top2 arr top2 x els cout stack overflow exit 1 method pop element first stack int pop1 top1 0 int x arr top1 top1 return x els cout stack underflow exit 1 method pop element second stack int pop2 top2 size int x arr top2 top2 return x els cout stack underflow exit 1 driver program test twstack class int main twostack ts 5 ts push1 5 ts push2 10 ts push2 15 ts push1 11 ts push2 7 cout pop element stack1 ts pop1 ts push2 40 cout npop element stack2 ts pop2 return 0 

@@ -1,0 +1,21 @@
+
+While working with binary files, how do you measure their endianness?
+For example, if a programmer is making configuration file in binary format (e.g. on small systems it may not be possible to use XML like text files for configuration, text files require another wrapper/layer over binary files), the same binary file would need to be read on different architectures. In such case endianness issue to be addressed.
+Or consider, a binary file is created on little endian machine, can it be read on big endian machine without altering byte order?
+We can consider binary file as sequence of increasing addresses starting from low order to high order, each address can store one byte. If we are writing some data to binary file on little endian machine it need not to be altered. Where as if the binary file to be created on big endian machines, the data to be altered.
+Note that some file formats define endian ordering. Example are JPEG (big endian) and BMP (little endian).
+Related Posts:
+
+Little and Big Endian Mystery
+Output of C Programs | Set 14
+
+Article compiled by Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

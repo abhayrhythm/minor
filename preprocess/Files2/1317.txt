@@ -1,0 +1,21 @@
+given matrix everi element either x replac x surround x 
+set consid surround x x locat left right 
+exampl input mat n x x x x x x x x x x x x x x x x x x x x x x x output mat n x x x x x x x x x x x x x x x x x x x x x x x x x x input mat n x x x x x x x x x x x x x x input mat n x x x x x x x x x x x x x x x x x x strongli recommend minim browser tri first 
+mainli applic flood fill algorithm 
+main differ replac x lie region end boundari 
+follow simpl step special flood fill 
+1 travers given matrix replac special charact 
+2 travers four edg given matrix call floodfil everi edg 
+remain charact indic origin matrix replac x 
+3 travers matrix replac x 
+let us see step algorithm exampl 
+let follow input matrix 
+mat n x x x x x x x x x x x x x x x x x x x x x x x step 1 replac 
+mat n x x x x x x x x x x x x x x x x x x x x x x x step 2 call floodfil edg element valu equal mat n x x x x x x x x x x x x x x x x x x x x x x x step 3 replac x 
+mat n x x x x x x x x x x x x x x x x x x x x x x x x x x follow c implement algorithm 
+c program replac x surround x includ iostream use namespac std size given matrix x n defin 6 defin n 6 recurs function replac previou valu prevv x surround valu x new valu newv 
+void floodfillutil char mat n int x int char prevv char newv base case x 0 x 0 n return mat x prevv return replac color x mat x newv recur north east south west floodfillutil mat x 1 prevv newv floodfillutil mat x 1 prevv newv floodfillutil mat x 1 prevv newv floodfillutil mat x 1 prevv newv return size maximum size subsquar matrix surround x int replacesurround char mat n step 1 replac int 0 int j 0 j n j mat j mat j call floodfil lie edg int 0 left side mat 0 floodfillutil mat 0 int 0 right side mat n 1 floodfillutil mat n 1 int 0 n top side mat 0 floodfillutil mat 0 int 0 n bottom side mat 1 floodfillutil mat 1 step 3 replac x int 0 int j 0 j n j mat j mat j x driver program test function int main char mat n x x x x x x x x x x x x x x x x x x x x x x x replacesurround mat int 0 int j 0 j n j cout mat j cout endl return 0 output x x x x x x x x x x x x x x x x x x x x x x x x x time complex solut mn 
+note everi element matrix process three time 
+articl contribut anmol 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

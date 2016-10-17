@@ -1,0 +1,46 @@
+given array word print anagram togeth 
+exampl given array cat dog tac god act output may cat tac act dog god 
+simpl method creat hash tabl 
+calcul hash valu word way anagram hash valu 
+popul hash tabl hash valu 
+final print word togeth hash valu 
+simpl hash mechan modulo sum charact 
+modulo sum two non anagram word may hash valu 
+handl match individu charact 
+follow anoth method print anagram togeth 
+take two auxiliari array index array word array 
+popul word array given sequenc word 
+sort individu word word array 
+final sort word array keep track correspond indic 
+sort anagram cluster togeth 
+use index array print string origin array string 
+let us understand step follow input sequenc word cat dog tac god act 1 creat two auxiliari array index word 
+copi given word word store origin index index index 0 1 2 3 4 word cat dog tac god act 2 sort individu word word 
+index array chang 
+index 0 1 2 3 4 word act dgo act dgo act 3 sort word array 
+compar individu word use strcmp sort index 0 2 4 1 3 word act act act dgo dgo 4 anagram come togeth 
+word chang word array 
+print origin word take index index array use origin array 
+get cat tac act dog god follow c c python implement algorithm 
+follow program array structur word use store index word array 
+duparray anoth structur store array structur word 
+c c c program print anagarm togeth includ stdio h includ stdlib h includ string h structur word duplic array struct word char str store word int index index word origin array structur repres duplic array 
+struct duparray struct word array array word int size size array creat duparray object contain array word struct duparray createduparray char str int size alloc memori duparray member struct duparray duparray struct duparray malloc sizeof struct duparray duparray size size duparray array struct word malloc duparray size sizeof struct word one one copi word given wordarray duparray int 0 size duparray array index duparray array str char malloc strlen str 1 strcpi duparray array str str return duparray compar two charact 
+use qsort sort array charact word int compchar const void const void b return char char b compar two word 
+use qsort sort array word int compstr const void const void b struct word a1 struct word struct word b1 struct word b return strcmp a1 str b1 str given list word wordarr void printanagramstogeth char wordarr int size step 1 creat copi word present given wordarr 
+copi also orign index word struct duparray duparray createduparray wordarr size step 2 iter word duparray sort individu word 
+int 0 size qsort duparray array str strlen duparray array str sizeof char compchar step 3 sort array word duparray qsort duparray array size sizeof duparray array 0 compstr step 4 word duparray togeth word chang 
+use index member word struct get correspond origin word 0 size printf wordarr duparray array index driver program test function int main char wordarr cat dog tac god act int size sizeof wordarr sizeof wordarr 0 printanagramstogeth wordarr size return 0 python python program print anagarm togeth structur word duplic array class word object def __init__ self string index self string string self index index creat duparray object contain array word def createduparray string size duparray one one copi word given wordarray duparray xrang size duparray append word string return duparray given list word wordarr def printanagramstogeth wordarr size step 1 creat copi word present given wordarr 
+copi also orign index word duparray createduparray wordarr size step 2 iter word duparray sort individu word 
+xrang size duparray string join sort duparray string step 3 sort array word duparray duparray sort duparray key lambda k k string step 4 word duparray togeth word chang 
+use index member word struct get correspond origin word word duparray print wordarr word index driver program wordarr cat dog tac god act size len wordarr printanagramstogeth wordarr size code contribut bhavya jain output act tac cat god dog time complex let n word word maximum charact 
+upper bound nmlogm mnlogn 
+step 2 take nmlogm time 
+sort word take maximum mlogm time 
+sort n word take nmlogm time 
+step 3 take mnlogn sort array word take nlogn comparison 
+comparison may take maximum time 
+time sort array word mnlogn 
+soon publish effici method solv problem 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,33 @@
+algorithm find occurr pattern text linear time 
+let length text n pattern total time taken n linear space complex 
+see time space complex kmp algorithm algorithm simpler understand 
+algorithm construct z array 
+z array 
+string str 0 n 1 z array length string 
+element z z array store length longest substr start str also prefix str 0 n 1 
+first entri z array mean less complet string alway prefix 
+exampl index 0 1 2 3 4 5 6 7 8 9 10 11 text b c b x z z valu x 1 0 0 3 1 0 0 2 2 1 0 exampl str aaaaaa z x 5 4 3 2 1 str aabaacd z x 1 0 2 1 0 0 str abababab z x 0 6 0 4 0 2 0 z array help search pattern linear time 
+idea concaten pattern text creat string p p pattern special charact present pattern text text 
+build z array concaten string 
+z array z valu point equal pattern length pattern present point 
+exampl pattern p aab text baabaa concaten string aab baabaa z array concaten string x 1 0 0 0 3 1 0 2 1 
+sinc length pattern 3 valu 3 z array indic presenc pattern 
+construct z array 
+simpl solut two run two nest loop outer loop goe everi index inner loop find length longest prefix match substr start current index 
+time complex solut n2 
+construct z array linear time 
+idea maintain interv l r interv max r l r prefix substr substr also prefix 
+step maintain interv follow 1 r prefix substr start end reset l r comput new l r compar str 0 str get z r l 1 
+2 r let k l z min z k r 1 str match str k atleast r 1 charact l r interv know prefix substr 
+two sub case aris z k r 1 prefix substr start str otherwis z k would larger z z k interv l r remain 
+b z k r 1 possibl extend l r interv thu set l start match str r onward get new r updat interv l r calcul z r l 1 
+better understand step step procedur pleas check anim http www utdalla edu besp demo john2010 z algorithm htm algorithm run linear time never compar charact less r match increas r one comparison 
+mismatch case mismatch happen r stop anoth comparison make overal linear complex 
+c implement z algorithm pattern search 
+c program implement z algorithm pattern search includ iostream use namespac std void getzarr string str int z print occurr pattern text use z algo void search string text string pattern creat concaten string p string concat pattern text int l concat length construct z array int z l getzarr concat z loop z array match condit int 0 l z match region equal pattern length got pattern z pattern length cout pattern found index pattern length 1 endl fill z array given string str void getzarr string str int z int n str length int l r k l r make window match prefix l r 0 int 1 n r noth match calcul 
+z use naiv way 
+r l r r l 0 start start check 0 th index 
+exampl ababab 1 valu r remain 0 z becom 0 string aaaaaa 1 z r becom 5 r n str r l str r r z r l r els k l k correspond number match l r interv 
+k l z k less remain interv z equal z k 
+exampl str ababab 3 r 5 l 2 z k r 1 z z k exampl str aaaaaa 2 r 5 l 0 els els start r check manual l r n str r l str r r z r l r driver program int main string text geek geek string pattern geek search text pattern return 0 output pattern found index 0 pattern found index 10 articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,9 @@
+given text line one string line separ n charact 
+print last ten line 
+number line less 10 print line 
+sourc microsoft interview set 10 follow step 1 find last occurr delim n 2 initi target posit last occurr n count 0 follow count 10 2 find next instanc n updat target posit 2 b skip n increment count n updat target posit 3 print sub string target posit 
+program print last 10 line 
+number line less 10 print line 
+includ stdio h includ string h defin delim n function print last n line given string void print_last_lin char str int n base case n 0 return size_t cnt 0 store count n delim char target_po null store output posit str step 1 find last occurr delim n target_po strrchr str delim error n present target_po null fprintf stderr error string contain n charact n return step 2 find target posit need print string cnt n step 2 find next instanc n str target_po target_po delim target_po step 2 b skip n increment count n target_po delim target_po cnt str target_po mean str less 10 n charact break loop els break loop target_po decrement 2 time target_po 2 str target_po target_po 2 step 3 print string target_po printf n target_po driver program test function int main void char str1 str1 nstr2 nstr3 nstr4 nstr5 nstr6 nstr7 nstr8 nstr9 nstr10 nstr11 nstr12 nstr13 nstr14 nstr15 nstr16 nstr17 nstr18 nstr19 nstr20 nstr21 nstr22 nstr23 nstr24 nstr25 char str2 str1 nstr2 nstr3 nstr4 nstr5 nstr6 nstr7 char str3 n char str4 print_last_lin str1 10 printf n print_last_lin str2 10 printf n print_last_lin str3 10 printf n print_last_lin str4 10 printf n return 0 output str16 str17 str18 str19 str20 str21 str22 str23 str24 str25 str1 str2 str3 str4 str5 str6 str7 error string contain n charact articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

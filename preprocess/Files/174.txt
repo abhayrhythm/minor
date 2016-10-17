@@ -1,0 +1,35 @@
+
+The Fibonacci numbers are the numbers in the following integer sequence.
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ……..
+In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation
+    Fn = Fn-1 + Fn-2
+with seed values
+   F0 = 0 and F1 = 1.
+
+Write a function int fib(int n) that returns Fn. For example, if n = 0, then fib() should return 0. If n = 1, then it should return 1. For n > 1, it should return Fn-1 + Fn-2
+ Output:34
+Following are different methods to get the nth Fibonacci number.
+Method 1 ( Use recursion ) 
+A simple method that is a direct recursive implementation mathematical recurrence relation given above.
+
+C
+
+
+
+//Fibonacci Series using Recursion
+#include<stdio.h>
+int fib(int n)
+{
+   if (n <= 1)
+      return n;
+   return fib(n-1) + fib(n-2);
+}
+
+int main ()
+{
+  int n = 9;
+  printf("%d", fib(n));
+  getchar();
+  return 0;
+}
+

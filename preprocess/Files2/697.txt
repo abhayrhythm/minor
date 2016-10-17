@@ -1,0 +1,68 @@
+first shortlist base cgpa 7 5 cse student allow sit interview 
+e shaw 2 phase select procedur 
+first phase phase 2 interview one technic interview hr interview 
+technic interview first ask introduc ask interest 
+told mention interest area data structur algorithm start discuss dsa 
+q 1 
+implement stack use two queue 
+hint http www geeksforgeek org implement stack use queue q 2 implement queue use two stack 
+hint http www geeksforgeek org queue use stack question quit easi know throughli implement action take particular queri work code 
+ask write code problem analyz time complex oper 
+advic read book data structur algorithm made easi narasimha karumanchi understand throughli basic data structur ask project os base ask follow question 1 
+done project present 
+2 
+affect real world applic 
+3 
+difficulti face project 
+4 
+implement real time os 
+lot stuff 
+ask lot question os 
+advic mention project contribut less know fulli project 
+expect lot project intern want know much effort put project well know project readi stuff 
+ask good question algorithm base step step increas difficulti level 
+said array size integ 
+return sum lth index rth index array element inclus 
+write function run within given rang return sum 
+time complex queri r l ask optim solut happi solut 
+came solut use one array say cumm_array store sum element 1st ith index element cumm_array 
+queri return cumm_array r cumm_array l 1 
+stop write code love code 
+code array 1 base index int cumm_array size 1 void cumm_sum int arr int size int cumm_array 0 0 int 1 size cumm_array arr cumm_array 1 int queri int l int r return cumm_array r cumm_array l 1 time complex queri 1 time complex n 1 said perform two queri 
+queri 1 
+updat ith element given valu say x queri 2 
+calcul sum given rang question becom difficult 
+hint done use binari index tree segment tree worri know code segment tree implement binari index tree implement http github com rameshchandrasiraura code blob master sum_of_given_range_using_bit cpp time complex queri 1 logn time complex queri 2 logn ask write psuedo code done saw face look impress expect thing solv first 2 question took 10 15 minut 
+hr interview phase ask ourself regular hr question 
+ask puzzl lot stuff gener awar 
+advic cool attent 
+second phase technic interview first said 2nd phase 
+ask 1st phase interview experi 
+ask first question base real problem requir data structur concept 
+q 1 
+suppos store buyer_id buying_tim dept beyer_contact_info 
+design data structur store inform 
+ad stuff question make hard 
+said find buyer spent maximum money shop half hour interv dept 
+ask find buyer spent maximum money previous select buyer list 
+later ask announc winner provid constraint 
+question heavi whole interview process 
+ask write code psuedo code problem quickli analyz time complex space complex 
+q 2 
+design dfa binari input 0 1 string whose decim valu multipl 5 solut look follow link http stackoverflow com question 21897554 design dfa accept binari string divis number n q 3 
+two number say b 
+given rang say l r set bit b given rang bit ae set rang 
+got sometim mention thing seem ambigu want tackl kind problem ever face kind situat pleas ask clarif got question 
+laugh lol also feel sad 
+last happen 
+clarifi like set bit binari represent b set given lth posit rth posit binari represent demonstr exampl also get see exampl 10 1010 b 13 1101 l r 2 3 bit posit 1 2 3 4 1 0 1 0 b 1 1 0 1 see rang 2 3 2nd posit bit unset set 2nd posit b 3rd posit bit uneffect 
+set 2nd bit final an 14 1110 note unset bit alreadi set perform oper rang 
+solut first solut gave convert b binari requir oper mention question get back decim valu an 
+ask optim say comput store everi inform binari 
+think question done simpl xor ing alreadi solv problem bit 
+came solut constant time complex 
+design bit mask 1 given rang b final choos bit mask programmat tough left reader 
+best luck like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

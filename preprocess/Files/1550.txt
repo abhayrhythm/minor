@@ -1,0 +1,336 @@
+
+Perfect Binary Tree using Specific Level Order Traversal in Set 1. The earlier traversal was from Top to Bottom. In this post, Bottom to Top traversal (asked in Amazon Interview | Set 120 – Round 1) is discussed.
+
+16 31 17 30 18 29 19 28 20 27 21 26 22 25 23 24 8 15 9 14 10 13 11 12 4 7 5 6 2 3 1
+The task is to print nodes in level order but nodes should be from left and right side alternatively and from bottom – up manner
+5th level: 16(left), 31(right), 17(left), 30(right), … are printed.
+
+4th level: 8(left), 15(right), 9(left), 14(right), … are printed.
+
+3rd level: 4(left), 7(right), 5(left), 6(right) are printed.
+
+1st and 2nd levels are trivial. 
+
+We strongly recommend you to minimize your browser and try this yourself first.
+The standard level order traversal idea slightly changes here.
+
+ Instead of processing ONE node at a time, we will process TWO nodes at a time.
+ For dequeued nodes, we push node’s left and right child into stack in following manner – 2nd node’s left child, 1st node’s right child, 2nd node’s right child and 1st node’s left child.
+And while pushing children into queue, the enqueue order will be: 1st node’s right child, 2nd node’s left child, 1st node’s left child and 2nd node’s right child. Also, when we process two queue nodes.
+Finally pop all Nodes from stack and prints them.
+
+
+C++
+
+
+/* C++ program for special order traversal */
+#include <bits/stdc++.h>
+using namespace std;
+
+/* A binary tree node has data, pointer to left child
+and a pointer to right child */
+struct Node
+{
+    int data;
+    Node *left, *right;
+};
+
+/* Helper function that allocates a new node with the
+given data and NULL left and right pointers. */
+Node* newNode(int data)
+{
+    Node* node = new Node;
+    node->data = data;
+    node->right = node->left = NULL;
+    return node;
+}
+
+void printSpecificLevelOrderUtil(Node* root, stack<Node*> &s)
+{
+    if (root == NULL)
+        return;
+
+    // Create a queue and enqueue left and right
+    // children of root
+    queue<Node*> q;
+
+    q.push(root->left);
+    q.push(root->right);
+
+    // We process two nodes at a time, so we
+    // need two variables to store two front
+    // items of queue
+    Node *first = NULL, *second = NULL;
+
+    // traversal loop
+    while (!q.empty())
+    {
+        // Pop two items from queue
+        first = q.front();
+        q.pop();
+        second = q.front();
+        q.pop();
+
+        // Push first and second node's chilren
+        // in reverse order
+        s.push(second->left);
+        s.push(first->right);
+        s.push(second->right);
+        s.push(first->left);
+
+        // If first and second have grandchildren,
+        // enqueue them in specific order
+        if (first->left->left != NULL)
+        {
+            q.push(first->right);
+            q.push(second->left);
+            q.push(first->left);
+            q.push(second->right);
+        }
+    }
+}
+
+/* Given a perfect binary tree, print its nodes in
+specific level order */
+void printSpecificLevelOrder(Node* root)
+{
+    //create a stack and push root
+    stack<Node*> s;
+
+    //Push level 1 and level 2 nodes in stack
+    s.push(root);
+
+    // Since it is perfect Binary Tree, right is
+    // not checked
+    if (root->left != NULL)
+    {
+        s.push(root->right);
+        s.push(root->left);
+    }
+
+    // Do anything more if there are nodes at next
+    // level in given perfect Binary Tree
+    if (root->left->left != NULL)
+        printSpecificLevelOrderUtil(root, s);
+
+    // Finally pop all Nodes from stack and prints
+    // them.
+    while (!s.empty())
+    {
+        cout << s.top()->data << " ";
+        s.pop();
+    }
+}
+
+/* Driver program to test above functions*/
+int main()
+{
+    // Perfect Binary Tree of Height 4
+    Node* root = newNode(1);
+
+    root->left = newNode(2);
+    root->right = newNode(3);
+
+    /* root->left->left  = newNode(4);
+    root->left->right = newNode(5);
+    root->right->left  = newNode(6);
+    root->right->right = newNode(7);
+
+    root->left->left->left  = newNode(8);
+    root->left->left->right  = newNode(9);
+    root->left->right->left  = newNode(10);
+    root->left->right->right  = newNode(11);
+    root->right->left->left  = newNode(12);
+    root->right->left->right  = newNode(13);
+    root->right->right->left  = newNode(14);
+    root->right->right->right  = newNode(15);
+
+    root->left->left->left->left  = newNode(16);
+    root->left->left->left->right  = newNode(17);
+    root->left->left->right->left  = newNode(18);
+    root->left->left->right->right  = newNode(19);
+    root->left->right->left->left  = newNode(20);
+    root->left->right->left->right  = newNode(21);
+    root->left->right->right->left  = newNode(22);
+    root->left->right->right->right  = newNode(23);
+    root->right->left->left->left  = newNode(24);
+    root->right->left->left->right  = newNode(25);
+    root->right->left->right->left  = newNode(26);
+    root->right->left->right->right  = newNode(27);
+    root->right->right->left->left  = newNode(28);
+    root->right->right->left->right  = newNode(29);
+    root->right->right->right->left  = newNode(30);
+    root->right->right->right->right  = newNode(31);
+    */
+    cout << "Specific Level Order traversal of binary "
+         "tree is \n";
+    printSpecificLevelOrder(root);
+
+    return 0;
+}
+
+Java
+
+
+// Java program for special order traversal
+
+import java.util.*;
+
+/* A binary tree node has data, pointer to left child
+   and a pointer to right child */
+class Node 
+{
+    int data;
+    Node left, right;
+
+    public Node(int data) 
+    {
+        this.data = data;
+        left = right = null;
+    }
+}
+
+class BinaryTree 
+{
+    Node root;
+
+    void printSpecificLevelOrderUtil(Node root, Stack<Node> s) 
+    {
+        if (root == null)
+            return;
+
+        // Create a queue and enqueue left and right
+        // children of root
+        Queue<Node> q = new LinkedList<Node>();
+
+        q.add(root.left);
+        q.add(root.right);
+
+        // We process two nodes at a time, so we
+        // need two variables to store two front
+        // items of queue
+        Node first = null, second = null;
+
+        // traversal loop
+        while (!q.isEmpty()) 
+        {
+            // Pop two items from queue
+            first = q.peek();
+            q.poll();
+            second = q.peek();
+            q.poll();
+
+            // Push first and second node's chilren
+            // in reverse order
+            s.push(second.left);
+            s.push(first.right);
+            s.push(second.right);
+            s.push(first.left);
+
+            // If first and second have grandchildren,
+            // enqueue them in specific order
+            if (first.left.left != null) 
+            {
+                q.add(first.right);
+                q.add(second.left);
+                q.add(first.left);
+                q.add(second.right);
+            }
+        }
+    }
+
+    /* Given a perfect binary tree, print its nodes in
+       specific level order */
+    void printSpecificLevelOrder(Node root) 
+    {
+        //create a stack and push root
+        Stack<Node> s = new Stack<Node>();
+
+        //Push level 1 and level 2 nodes in stack
+        s.push(root);
+
+        // Since it is perfect Binary Tree, right is
+        // not checked
+        if (root.left != null) 
+        {
+            s.push(root.right);
+            s.push(root.left);
+        }
+
+        // Do anything more if there are nodes at next
+        // level in given perfect Binary Tree
+        if (root.left.left != null)
+            printSpecificLevelOrderUtil(root, s);
+
+        // Finally pop all Nodes from stack and prints
+        // them.
+        while (!s.empty()) 
+        {
+            System.out.print(s.peek().data + " ");
+            s.pop();
+        }
+    }
+
+    // Driver program to test the above functions
+    public static void main(String[] args) 
+    {
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(1);
+        tree.root.left = new Node(2);
+        tree.root.right = new Node(3);
+
+        /*  tree.root.left.left  = new Node(4);
+        tree.root.left.right = new Node(5);
+        tree.root.right.left  = new Node(6);
+        tree.root.right.right = new Node(7);
+ 
+        tree.root.left.left.left  = new Node(8);
+        tree.root.left.left.right  = new Node(9);
+        tree.root.left.right.left  = new Node(10);
+        tree.root.left.right.right  = new Node(11);
+        tree.root.right.left.left  = new Node(12);
+        tree.root.right.left.right  = new Node(13);
+        tree.root.right.right.left  = new Node(14);
+        tree.root.right.right.right  = new Node(15);
+ 
+        tree.root.left.left.left.left  = new Node(16);
+        tree.root.left.left.left.right  = new Node(17);
+        tree.root.left.left.right.left  = new Node(18);
+        tree.root.left.left.right.right  = new Node(19);
+        tree.root.left.right.left.left  = new Node(20);
+        tree.root.left.right.left.right  = new Node(21);
+        tree.root.left.right.right.left  = new Node(22);
+        tree.root.left.right.right.right  = new Node(23);
+        tree.root.right.left.left.left  = new Node(24);
+        tree.root.right.left.left.right  = new Node(25);
+        tree.root.right.left.right.left  = new Node(26);
+        tree.root.right.left.right.right  = new Node(27);
+        tree.root.right.right.left.left  = new Node(28);
+        tree.root.right.right.left.right  = new Node(29);
+        tree.root.right.right.right.left  = new Node(30);
+        tree.root.right.right.right.right  = new Node(31);
+         */
+        System.out.println("Specific Level Order Traversal "
+                + "of Binary Tree is ");
+        tree.printSpecificLevelOrder(tree.root);
+    }
+}
+
+// This code has been contributed by Mayank Jaiswal(mayank_24)
+
+
+
+Output :
+
+Specific Level Order traversal of binary tree is 
+2 3 1 
+This article is contributed by Aditya Goel. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

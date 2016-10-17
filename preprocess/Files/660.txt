@@ -1,0 +1,27 @@
+
+Kronos came to our campus to hire intern.I am describing the process.
+Location : Noida
+C.G.P.A criteria- 7.0+
+Round 1: Online Round of 2 hours
+Around 140 students appeared for the the online exam.The question was divided into 2 set,
+
+One set was aptitude and the other was c++ basic question.
+Aptitude section was easy and for the c++ section the basic knowledge of language,object oriented programming,output based question. The questions were easy with speed and confidence as the key to crack the round.
+
+Round 2: H.R Round
+The H.R Round was chill and it aimed at just checking the communication skill of the person and whether the person could adapt to the working environment of the company or not.
+Puzzles were asked in the interview along with some common H.R question.
+Round 3: Technical Round
+The Technical Round aimed at checking the proficiency of the students in their area.
+Question from class, implementation, sorting, programming,pseudocode,algorithms were asked in this.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

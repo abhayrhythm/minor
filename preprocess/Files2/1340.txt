@@ -1,0 +1,25 @@
+given binari tree convert circular doubli link list place 
+left right pointer node use previou next pointer respect convert circular link list 
+order node list must inord given binari tree 
+first node inord travers must head node circular list 
+exampl idea describ use step 
+1 write gener purpos function concaten two given circular doubli list function explain 
+2 travers given tree recurs convert left subtre circular dll 
+let convert list leftlist 
+recurs convert right subtre circular dll 
+let convert list rightlist 
+c make circular link list root tree make left right root point 
+concaten leftlist list singl root node 
+e concaten list produc step rightlist 
+note code travers tree postord fashion 
+travers inord fashion also 
+first concaten left subtre root recur right subtre concaten result left root concaten 
+concaten two circular dll 
+get last node left list 
+retriev last node 1 oper sinc prev pointer head point last node list 
+connect first node right list get last node second list connect head list 
+implement idea 
+c c program convert binari tree circular doubli link list includ iostream use namespac std repres node binari tree struct node struct node left right int data function append rightlist end leftlist 
+node concaten node leftlist node rightlist either list empti return list leftlist null return rightlist rightlist null return leftlist store last node left list node leftlast leftlist left store last node right list node rightlast rightlist left connect last node left list first node right list leftlast right rightlist rightlist left leftlast left first node point last node list leftlist left rightlast right last node refer first node list rightlast right leftlist return leftlist function convert tree circular link list return head link list node btreetoclist node root root null return null recurs convert left right subtre node left btreetoclist root left node right btreetoclist root right make circular link list singl node root 
+make right left pointer node point root left root right root step 1 concaten left list list singl node e current node step 2 concaten return list right list return concaten concaten left root right display circular link list void displayclist node head cout circular link list n node itr head cout itr data itr itr right head itr cout n creat new node return address node newnod int data node temp new node temp data data temp left temp right null return temp driver program test function int main node root newnod 10 root left newnod 12 root right newnod 15 root left left newnod 25 root left right newnod 30 root right left newnod 36 node head btreetoclist root displayclist head return 0 java java program convert binari tree circular doubli link list node class repres node tree class node int val node left right public node int val val val left right null class repres tree class tree node root public tree root null concaten list return head list public node concaten node leftlist node rightlist either list empti return list leftlist null return rightlist rightlist null return leftlist store last node left list node leftlast leftlist left store last node right list node rightlast rightlist left connect last node left list first node right list leftlast right rightlist rightlist left leftlast left first node refer last node list leftlist left rightlast right last node refer first node list rightlast right leftlist return head list return leftlist method convert tree circular link list return head link list public node btreetoclist node root root null return null recurs convert left right subtre node left btreetoclist root left node right btreetoclist root right make circular link list singl node root 
+make right left pointer node point root left root right root step 1 concaten left list list singl node e current node step 2 concaten return list right list return concaten concaten left root right display circular link list public void display node head system println circular link list node itr head system print itr val itr itr right itr head system println driver code class main public static void main string arg build tree tree tree new tree tree root new node 10 tree root left new node 12 tree root right new node 15 tree root left left new node 25 tree root left right new node 30 tree root right left new node 36 head refer head link list node head tree btreetoclist tree root display circular linkedlist tree display head output 

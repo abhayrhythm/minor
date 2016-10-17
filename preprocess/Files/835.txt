@@ -1,0 +1,18 @@
+
+The project is about providing fast transfer of medical images to/from rural areas where bandwidth is low.   The idea is to keep model medical images at all locations (rural and urban). To transfer a patient’s image from one location to another,  find the difference image from patients image to model image.  The difference image would have less data to transfer.  To further minimize size of difference image, use Image Registration. So the sending side  sends a difference image, the receiving side adds this image to model image to get the patient’s image.
+Research:
+There can be specialized methods to compress difference images.  One method is discussed in below reference paper.
+Tools:
+If we want to do research oriented project for compression, Matlab can be used.  To build complete application with networking,  Java can be used.  
+Reference:
+Inderscience  Journal paper on Model-based image compression framework for CT and MRI images 
+If you also wish to showcase your project idea here, please send an email to contribute@geeksforgeeks.org. 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,33 @@
+recent got call qualcomm hyderabad engin posit 
+cs background 1 year experi 
+3 tech round 1 hr round 
+round 1 1 discuss last compani role 
+2 interview start resum ask project 
+one project relat c ask code small modul 
+3 memori layout c program heap stack alloc 
+malloc calloc differ 
+storag class c 4 fibonnaci recurs time complex deriv 
+5 oper system synchron mechan mutex vs semaphor monitor 
+round 2 1 bit manipul question littl big endian convers 
+2 question compil design want tell step happen step inshort like preprocessor compil assembl linker loader etc 
+stage error thrown throw error 
+3 design system accept number divis 5 hint finit automata state daigram mod 5 4 mani question static variabl static function differ static vs global vs extern 
+5 read paragraph file print palindrom 
+round 3 1 discuss last compani role want chang 
+2 discuss project 
+toughest modul among project done tough differ approach tri 
+3 write program find number sort array 
+constraint know size array tri without find array size 
+hint use except 
+done use array bound except later optim use binari search 
+4 oop concept static dynam polymorph vtabl vptr 
+5 question inherit upcast downcast 
+6 cach mechan comput architectur l1 l2 
+round 4 hr 1 want chang compani 
+2 want join qualcomm 
+3 explain work cultur qualcomm 
+4 strength weak 
+hr round realli cool round coffe cafeteria 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

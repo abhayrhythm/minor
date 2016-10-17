@@ -1,0 +1,55 @@
+
+Accolite visited our campus for recruiting Full time employees as well as interns. The process started with pre-placement talks and then we had to undergo a 5-round process.
+Round 1: Online (30 min)
+The first round was conducted online,which consisted of MCQ’s covering C, C++, OS, DBMS. We had to answer 20 questions, and yes there was a negative marking (-0.25) for each wrong answer.
+Around 650 people took the online test and 75 people were selected for the next round.
+Round 2: Paper Coding (1 hr)
+We were asked to code the following questions on paper:
+1. http://www.geeksforgeeks.org/print-shortest-path-print-string-screen/
+2. http://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/
+3. http://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+Out of the 75 people who took this test 20 were shortlisted.
+We then had 3 technical interviews on the next day.
+Round 3: F2F interview (2 hrs)
+I was the first person to be shortlisted and so I was interviewed by the Senior Technical Director of the company. She asked me about my favorite data structure to which I replied Trees. So she asked me to do a zig-zag level order traversal of a binary tree.
+
+ http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+She then gave a string in the encoded form and asked me to find the k’th character in the string without decoding it.
+For example:
+Input: Encoded string is “a9b21c5″ and k=27
+Output: ‘b’
+She then gave me a real-time problem which she faced last week and asked me to provide a solution and code it.
+Scenario: There is an API which receives data from a socket which is fetched using a buffer. There was no guarantee of how much data is read through the socket (i.e. the first time 5 characters may be read, the second time 20 characters may be read). The data to be read consisted of an HTTP header and a message to be displayed. The header was separated from the header by means of a delimiter(here it was “000|” ). I had to write a code which discards the HTTP header and displays the message alone considering the fact that there was no way of finding out how many characters were read by the socket.
+She concluded by asking about my projects.
+
+Round 4: F2F interview(1.30 hrs)
+The interview asked me to code the following questions:
+
+ http://www.geeksforgeeks.org/trapping-rain-water/
+ Given a linked list and an integer ‘k’, I had to rotate the linked list.(Note: Reversing a linked list is different)
+Input : 1->2->3->4->5->6->7->8->9->10 and k=4
+Output: 4->1->2->3-> 8->5->6->7->9->10
+ He gave me a string represented by a binary tree(each leaf node is a character) and a random function that might swap any number of internal nodes of the binary tree(just like mirror). I had to find out if the string (represented by the tree)returned after the randomized function call is a valid permutation of the original string.
+Eg: Input: “golden” and “gloned” where gloned is the string returned after calling randomized function.
+Output: True
+Input: “golden” and “gnlode”
+Output: False
+
+Round 5: F2F interview(1.30 hrs)
+The interviewer gave me two scenarios and asked me to write an algorithm for both.
+Scenario 1:
+I had to reach Paris from Chennai by flight. He wanted me to find the best possible way to reach Paris. I told him that I would use Djikstra’s algorithm based on distance, one solution based on time and one solution based on both distance and time(using weighted averages). He then asked me to minimize the number of points to be considered at each intermediate vertex. I told him to use the latitude and longitude to find the direction of the destination and consider points accordingly. He then asked me to draw a line between the source and destination and asked me to consider only points which were inside an inclination of 30 degrees of the line drawn. I gave him a solution and he was satisfied.
+Scenario 2:
+He asked me to assume there were 100 airports in my city and he asked me to suggest an algorithm for choosing the airport given the destination and the timings of each flight at each airport. He then asked me to incorporate the significance of “traffic” while I travel from my current location to the airport and asked me to design accordingly. He asked me if I had any questions for him, to which I posed a lot of questions regarding the company’s structure, clients and any pre-requisites to be learnt before I could join the company.
+The results were anounced later in the evening and I got selected!!!
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

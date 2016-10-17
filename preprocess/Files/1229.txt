@@ -1,0 +1,169 @@
+
+Given a sequence of moves for a robot, check if the sequence is circular or not. A sequence of moves is circular if first and last positions of robot are same. A move can be on of the following.
+
+  G - Go one unit
+  L - Turn left
+  R - Turn right 
+
+Examples:
+
+Input: path[] = "GLGLGLG"
+Output: Given sequence of moves is circular 
+
+Input: path[] = "GLLG"
+Output: Given sequence of moves is circular 
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+The idea is to consider the starting position as (0, 0) and direction as East (We can pick any values for these).  If after the given sequence of moves, we come back to (0, 0), then given sequence is circular, otherwise not.
+
+           N
+           |
+           |
+   W -------------- E
+           |
+           |
+           S 
+The move ‘G’ changes either x or y according to following rules.
+a) If current direction is North, then ‘G’ increments y and doesn’t change x.
+b) If current direction is East, then ‘G’ increments x and doesn’t change y.
+c) If current direction is South, then ‘G’ decrements y and doesn’t change x.
+d) If current direction is West, then ‘G’ decrements x and doesn’t change y.
+The moves ‘L’ and ‘R’, do not change x and y coordinates, they only change direction according to following rule.
+a) If current direction is North, then ‘L’ changes direction to West and ‘R’ changes to East
+b) If current direction is East, then ‘L’ changes direction to North and ‘R’ changes to South
+c) If current direction is South, then ‘L’ changes direction to East and ‘R’ changes to West
+d) If current direction is West, then ‘L’ changes direction to South and ‘R’ changes to North.
+The following are C++ and Python implementation of above idea.
+
+C/C++
+
+
+// A c++ program to check if the given path for a robot is circular or not
+#include<iostream>
+using namespace std;
+
+// Macros for East, North, South and West
+#define N 0
+#define E 1
+#define S 2
+#define W 3
+
+// This function returns true if the given path is circular, else false
+bool isCircular(char path[])
+{
+  // Initialize starting point for robot as (0, 0) and starting
+  // direction as N North
+  int x = 0, y = 0;
+  int dir = N;
+
+  // Travers the path given for robot
+  for (int i=0; path[i]; i++)
+  {
+      // Find current move
+      char move = path[i];
+
+      // If move is left or right, then change direction
+      if (move == 'R')
+        dir = (dir + 1)%4;
+      else if (move == 'L')
+        dir = (4 + dir - 1)%4;
+
+      // If move is Go, then change  x or y according to
+      // current direction
+      else // if (move == 'G')
+      {
+         if (dir == N)
+            y++;
+         else if (dir == E)
+            x++;
+         else if (dir == S)
+            y--;
+         else // dir == W
+            x--;
+      }
+  }
+
+   // If robot comes back to (0, 0), then path is cyclic
+  return (x == 0 && y == 0);
+}
+
+// Driver program
+int main()
+{
+    char path[] = "GLGLGLG";
+    if (isCircular(path))
+      cout << "Given sequence of moves is circular";
+    else
+      cout << "Given sequence of moves is NOT circular";
+}
+
+Python
+
+
+# Python program to check if the given path for a robot is circular
+# or not
+N = 0
+E = 1
+S = 2
+W = 3
+
+# This function returns true if the given path is circular,
+# else false
+def isCircular(path):
+
+    # Initialize starting point for robot as (0, 0) and starting
+    # direction as N North
+    x = 0
+    y = 0
+    dir = N
+
+    # Traverse the path given for robot
+    for i in xrange(len(path)):
+
+        # Find current move
+        move = path[i]
+
+        # If move is left or right, then change direction
+        if move == 'R':
+            dir = (dir + 1)%4
+        elif move == 'L':
+            dir = (4 + dir - 1)%4
+
+        # If move is Go, then change x or y according to
+        # current direction
+        else:    # if move == 'G'
+            if dir == N:
+                y += 1
+            elif dir == E:
+                x += 1
+            elif dir == S:
+                y -= 1
+            else:
+                x -= 1
+
+    return (x == 0 and y == 0)
+
+# Driver program
+path = "GLGLGLG"
+if isCircular(path):
+    print "Given sequence of moves is circular"
+else:
+    print "Given sequence of moves is NOT circular"
+
+# This code is contributed by BHAVYA JAIN
+
+
+Output:
+Given sequence of moves is circular
+Time Complexity: O(n) where n is number of moves in given sequence.
+This article is contributed Kaustubh Deshmukh. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,151 @@
+
+In case of arrays, there is no much choice to copy an array into other, other than iterative method i.e running a loop to copy each element at respective index. But Vector classes has more than one methods to copy entire vector into other in easier ways.There are basically two types of copying :-
+Method 1 : Iterative method.
+This method is a general method to copy, in this method a loop is used to push_back() the old vector elements into new vector.They are deeply copied
+
+// C++ code to demonstrate copy of vector
+// by iterative method.
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main()
+{
+    // Initializing vector with values
+    vector<int> vect1{1, 2, 3, 4};
+
+    // Declaring new vector
+    vector<int> vect2;
+
+    // A loop to copy elements of
+    // old vector into new vector
+    // by Iterative method
+    for (int i=0; i<vect1.size(); i++)
+        vect2.push_back(vect1[i]);
+
+    cout << "Old vector elements are : ";
+    for (int i=0; i<vect1.size(); i++)
+        cout << vect1[i] << " ";
+    cout << endl;
+
+    cout << "New vector elements are : ";
+    for (int i=0; i<vect2.size(); i++)
+        cout << vect2[i] << " ";
+    cout<< endl;
+
+    // Changing value of vector to show that a new
+    // copy is created.
+    vect1[0] = 2;
+
+    cout << "The first element of old vector is :";
+    cout << vect1[0] << endl;
+    cout << "The first element of new vector is :";
+    cout << vect2[0] <<endl;
+
+    return 0;
+}
+
+Output:
+Old vector elements are : 1 2 3 4 
+New vector elements are : 1 2 3 4 
+The first element of old vector is : 2
+The first element of new vector is : 1
+
+In the above code, on changing the value at one vector did not alter value at other vector, hence they are not allocated at same address, hence deep copy.
+Method 2 : By assignment “=” operator.
+Simply assigning the new vector to old one copies the vector. This way of assignment is not possible in case of arrays.
+
+// C++ code to demonstrate copy of vector
+// by iterative method.
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main()
+{
+    // Initializing vector with values
+    vector<int> vect1{1, 2, 3, 4};
+
+    // Declaring new vector
+    vector<int> vect2;
+
+    // Using assignment operator to copy one
+    // vector to other
+    vect2 = vect1;
+
+    cout << "Old vector elements are : ";
+    for (int i=0; i<vect1.size(); i++)
+        cout << vect1[i] << " ";
+    cout << endl;
+
+    cout << "New vector elements are : ";
+    for (int i=0; i<vect2.size(); i++)
+        cout << vect2[i] << " ";
+    cout<< endl;
+
+    // Changing value of vector to show that a new
+    // copy is created.
+    vect1[0] = 2;
+
+    cout << "The first element of old vector is :";
+    cout << vect1[0] << endl;
+    cout << "The first element of new vector is :";
+    cout << vect2[0] <<endl;
+
+    return 0;
+}
+
+Output:
+Old vector elements are : 1 2 3 4 
+New vector elements are : 1 2 3 4 
+The first element of old vector is : 2
+The first element of new vector is : 1
+
+Method 3 : By passing vector as constructor. At the time of declaration of vector, passing an old initialized vector, copies the elements of passed vector into the newly declared vector. They are deeply copied.
+
+// C++ code to demonstrate copy of vector
+// by constructor method.
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // Initializing vector with values
+    vector<int> vect1{1, 2, 3, 4};
+
+    // Declaring new vector and copying
+    // element of old vector
+    // constructor method, Deep copy
+    vector<int> vect2(vect1);
+
+    cout << "Old vector elements are : ";
+    for (int i=0; i<vect1.size(); i++)
+        cout << vect1[i] << " ";
+    cout << endl;
+
+    cout << "New vector elements are : ";
+    for (int i=0; i<vect2.size(); i++)
+        cout << vect2[i] << " ";
+    cout<< endl;
+
+    // Changing value of vector to show that a new
+    // copy is created.
+    vect1[0] = 2;
+
+    cout << "The first element of old vector is :";
+    cout << vect1[0] << endl;
+    cout << "The first element of new vector is :";
+    cout << vect2[0] <<endl;
+
+    return 0;
+}
+
+Output:
+Old vector elements are : 1 2 3 4 
+New vector elements are : 1 2 3 4 
+The first element of old vector is :2
+The first element of new vector is :1
+Method 4 : By using inbuilt functions 
+
+copy(first_iterator_o, last_iterator_o, back_inserter()) :- This is another way to copy old vector into new one. This function takes 3 arguments, first, the first iterator of old vector, second, the last iterator of old vector and third is back_inserter function to insert values from back. This also
+generated a deep copy.

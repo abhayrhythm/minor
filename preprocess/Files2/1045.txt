@@ -1,0 +1,2 @@
+predict output follow c program 
+question 1 includ stdio h int main int arr printf sizeof arr return 0 output 0 c c allow array size 0 array declar empti initi list size array becom 0 

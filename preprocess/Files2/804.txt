@@ -1,0 +1,23 @@
+follow explan c code creat singl color blank imag c use tool opencv 
+thing know 1 code compil linux environ 
+2 run window pleas use file blank run cmd 
+howev run problem system architectur compil window make suitabl obviou chang code like use iostream h place iostream 
+3 compil command g w blank cpp blank pkg config lib opencv 4 run command articl run code pleas make sure opencv instal system 
+code snippet titl creat colour imag c use opencv 
+highgui easi use interfac video captur imag video codec well simpl ui capabl 
+includ opencv2 highgui highgui hpp namespac c opencv function resid 
+use namespac cv basic input output oper 
+els use macro std everywher 
+use namespac std int main creat imag cv_8uc3 depict 3 channel 8 bit imag depth height 500 pixel width 1000 pixel 0 0 100 assign blue green red plane respect 
+imag appear red red compon set 100 mat img 500 1000 cv_8uc3 scalar 0 0 100 check whether imag load img empti cout n imag creat 
+done someth wrong 
+n return 1 unsuccess 
+first argument name window second argument flag type window_norm set user resiz window 
+window_autos set window size automat adjust fit display imag cannot chang window size manual 
+window_opengl set window creat opengl support 
+namedwindow a_good_nam cv_window_autos first argument name window second argument imag shown mat object imshow a_good_nam img waitkey 0 wait infinit time keypress destroy window name mywindow destroywindow a_good_nam return 0 end program previou post http www geeksforgeek org opencv c program blur imag author aditya prakash undergradu student indian institut inform technolog vadodara 
+primarili code c 
+motto far good 
+play cricket watch superhero movi footbal big fan answer question 
+also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

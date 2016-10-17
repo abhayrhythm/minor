@@ -1,0 +1,35 @@
+c style string 
+string array charact termin null charact 
+c style string declar follow way declar initi demonstr c style string includ iostream use namespac std int main null charact ad explicitli char str1 8 h e l l 1 0 compil implicitli add null charact char str2 hello 2 compil implicitli add null charact 
+note string liter typic store read const char str3 hello 3 cout str1 endl str2 endl str3 return 0 output hello 1 hello 2 hello 3 c style string oper use function like strcpi strlen strpbrk strcat strstr mani 
+function member function cstring header 
+std string 
+c standard librari contain function class 
+string one class 
+deal object string class 
+std string take care manag memori 
+declar initi demonstr std string includ iostream includ string use namespac std int main becom object class string 
+string initi valu 
+hello print valu cout return 0 output hello convert c string std string 
+need transform 
+c string std string 
+std string manag space 
+programm need worri memori unlik c string sinc array charact easi oper 
+oper concaten assign compar use regular oper 
+string find mani function implement std string c string becom handi 
+iter use std string c string 
+mani 
+code demonstr c style string std string includ bit stdc h use namespac std int main initi c string const char test cout c string endl std string assign though c string string std string c string cout std string endl return 0 output c string test std string test convers also work charact array 
+charact array std string convers char test string convert std string c style string need transform 
+std string c string 
+sever power function header make work much easier 
+atoi itoa mani function work c string 
+think reason 
+code convers demonstr std string c style string includ iostream includ string header contain string class use namespac std int main std string initi string test cout std string endl address first charact std string store char pointer char 0 address start charact string printf n return 0 output std string test c string test std string also function c_str use get null termin charact array 
+demonstr std string c style string use c_str includ bit stdc h use namespac std int main std string initi string test cout std string endl c_str return null termin array charact const char c_str address start charact string printf n return 0 output std string test c string test c string std string advantag 
+one know convers solv problem easili effect 
+relat articl c string class applic set 1 c string class applic set 2 articl contribut nishant 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

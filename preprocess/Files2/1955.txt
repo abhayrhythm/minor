@@ -1,0 +1,14 @@
+c fopen use open file differ mode 
+open file write mode w specifi 
+mode w specifi creat empti file output oper 
+file alreadi exist 
+file name alreadi exist content discard file treat new empti file 
+exampl follow program test txt alreadi exist content remov geeksforgeek written 
+includ stdio h includ stdlib h int main file fp fopen test txt w fp null put open file exit 0 els fput geeksforgeek fp put done fclose fp return 0 behavior may lead unexpect result 
+programm intent creat new file file name alreadi exist exist file content overwritten 
+latest c standard c11 provid new mode x exclus creat open mode 
+mode x use w specifi like wx wbx 
+x use w fopen return null file alreadi exist could open 
+follow modifi c11 program overwrit exist file 
+includ stdio h includ stdlib h int main file fp fopen test txt wx fp null put open file file alreadi exist exit 0 els fput geeksforgeek fp put done fclose fp return 0 refer make assumpt fopen file creation http en wikipedia org wiki c11_ c_standard_revis http www cplusplu com refer cstdio freopen articl compil abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

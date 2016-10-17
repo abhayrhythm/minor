@@ -1,0 +1,17 @@
+given x n matrix hurdl arbitrarili place calcul length longest possibl rout possibl sourc destin within matrix 
+allow move adjac cell hurdl 
+rout cannot contain diagon move locat visit particular path cannot visit 
+exampl longest path hurdl sourc destin highlight matrix 
+length path 24 idea use backtrack 
+start sourc cell matrix move forward four allow direct recurs check lead solut 
+destin found updat valu longest path els none solut work return fals function 
+c implement idea c program find longest possibl rout matrix hurdl includ bit stdc h use namespac std defin r 3 defin c 10 pair store statu cell 
+found set true destin reachabl valu store distanc longest path struct pair true destin found bool found store cost longest path current cell destin cell int valu function find longest possibl rout matrix hurdl 
+destin reachabl function return fals cost int_max 
+j sourc cell x destin cell 
+pair findlongestpathutil int mat r c int int j int x int bool visit r c j destin return true x j pair p true 0 return p valid cell return fals 0 r j 0 j c mat j 0 visit j pair p fals int_max return p includ j current path e 
+set visit j true visit j true re store longest path current cell j destin cell x int re int_min go left current cell pair sol findlongestpathutil mat j 1 x visit destin reach go left current cell updat re sol found re max re sol valu go right current cell sol findlongestpathutil mat j 1 x visit destin reach go right current cell updat re sol found re max re sol valu go current cell sol findlongestpathutil mat 1 j x visit destin reach go current cell updat re sol found re max re sol valu go current cell sol findlongestpathutil mat 1 j x visit destin reach go current cell updat re sol found re max re sol valu backtrack visit j fals destin reach current cell return true re int_min pair p true 1 re return p destin reach current cell return fals els pair p fals int_max return p wrapper function findlongestpathutil void findlongestpath int mat r c int int j int x int creat boolean matrix store info cell alreadi visit current rout bool visit r c initail visit fals memset visit fals sizeof visit find longest rout j x print maximum cost pair p findlongestpathutil mat j x visit p found cout length longest possibl rout p valu destin reachabl els cout destin reachabl given sourc driver code int main input matrix hurdl shown number 0 int mat r c 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 find longest path sourc 0 0 destin 1 7 findlongestpath mat 0 0 1 7 return 0 output length longest possibl rout 24 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

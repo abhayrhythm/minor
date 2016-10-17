@@ -1,0 +1,22 @@
+given array write program gener random permut array element 
+question also ask shuffl deck card random given array 
+let given array arr 
+simpl solut creat auxiliari array temp initi copi arr 
+randomli select element temp copi randomli select element arr 0 remov select element temp 
+repeat process n time keep copi element arr 1 arr 2 
+time complex solut n 2 
+fisher yate shuffl algorithm work n time complex 
+assumpt given function rand gener random number 1 time 
+idea start last element swap randomli select element whole array includ last 
+consid array 0 n 2 size reduc 1 repeat process till hit first element 
+follow detail algorithm shuffl array n element indic 0 n 1 n 1 downto 1 j random integ 0 j exchang j follow c implement algorithm 
+c program shuffl given array includ stdio h includ stdlib h includ time h util function swap integ void swap int int b int temp b b temp util function print array void printarray int arr int n int 0 n printf arr printf n function gener random permut arr void random int arr int n use differ seed valu get result time run program srand time null start last element swap one one 
+need run first element 0 int n 1 0 pick random index 0 int j rand 1 swap arr element random index swap arr arr j driver program test function 
+int main int arr 1 2 3 4 5 6 7 8 int n sizeof arr sizeof arr 0 random arr n printarray arr n return 0 output 7 8 4 6 3 1 2 5 function assum rand gener random number 
+time complex n assum function rand take 1 time 
+work 
+probabl ith element includ last one goe last posit 1 n randomli pick element first iter 
+probabl ith element goe second last posit prove 1 n divid two case 
+case 1 n 1 index last element probabl last element go second last posit probabl last element stay origin posit x probabl index pick previou step pick last element swap probabl n 1 n x 1 n 1 1 n case 2 0 n 1 index non last probabl ith element go second posit probabl ith element pick previou iter x probabl ith element pick iter probabl n 1 n x 1 n 1 1 n easili gener proof posit 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

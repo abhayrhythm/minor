@@ -1,0 +1,17 @@
+given unsort array arr 0 n 1 size n find minimum length subarray arr e sort subarray make whole array sort 
+exampl 1 input array 10 12 20 30 25 40 32 31 35 50 60 program abl find subarray lie index 3 8 
+2 input array 0 1 15 25 6 7 30 40 50 program abl find subarray lie index 2 5 strongli recommend click practic move solut 
+solut 1 find candid unsort subarray scan left right find first element greater next element 
+let index element 
+exampl 1 3 index 30 
+b scan right left find first element first right left order smaller next element next right left order 
+let e index element 
+exampl 1 e 7 index 31 
+2 check whether sort candid unsort subarray make complet array sort 
+includ element subarray 
+find minimum maximum valu arr e 
+let minimum maximum valu min max 
+min max 30 25 40 32 31 25 40 respect 
+b find first element arr 0 1 greater min chang index element 
+element exampl 1 c find last element arr e 1 n 1 smaller max chang e index element 
+exampl 1 e chang 8 index 35 3 print e 

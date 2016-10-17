@@ -1,0 +1,27 @@
+given set point plane 
+convex hull set smallest convex polygon contain point 
+strongli recommend see follow post first 
+check two given line segment intersect 
+idea jarvi algorithm simpl start leftmost point point minimum x coordin valu keep wrap point counterclockwis direct 
+big question given point p current point find next point output 
+idea use orient 
+next point select point beat point counterclockwis orient e next point q point r orient p r q counterclockwis 
+follow detail algorithm 
+1 initi p leftmost point 
+2 follow come back first leftmost point 
+next point q point triplet p q r counterclockwis point r b next p q store q next p output convex hull 
+c p q set p q next iter 
+c implement algorithm 
+c program find convex hull set point 
+refer http www geeksforgeek org orient 3 order point explan orient includ bit stdc h use namespac std struct point int x find orient order triplet p q r 
+function return follow valu 0 p q r colinear 1 clockwis 2 counterclockwis int orient point p point q point r int val q p r x q x q x p x r q val 0 return 0 colinear return val 0 
+1 2 clock counterclock wise print convex hull set n point 
+void convexhul point point int n must least 3 point n 3 return initi result vector point hull find leftmost point int l 0 int 1 n point x point l x l start leftmost point keep move counterclockwis reach start point 
+loop run h time h number point result output 
+int p l q add current point result hull push_back point p search point q orient p x q counterclockwis point x 
+idea keep track last visit counterclock wise point q point counterclock wise q updat q q p 1 n int 0 n counterclockwis current q updat q orient point p point point q 2 q q counterclockwis respect p set p q next iter q ad result hull p q p l come first point print result int 0 hull size cout hull x hull n driver program test function int main point point 0 3 2 2 1 1 2 1 3 0 0 0 3 3 int n sizeof point sizeof point 0 convexhul point n return 0 output output point convex hull 
+0 3 0 0 3 0 3 3 time complex everi point hull examin point determin next point 
+time complex 
+n n number input point number output hull point n 
+worst case time complex n 2 
+worst case occur point hull n set 2 convex hull graham scan sourc http www cs uiuc edu jeff teach 373 note x05 convexhul pdf http www dc gla ac uk pat 52233 slide hull1x1 pdf pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

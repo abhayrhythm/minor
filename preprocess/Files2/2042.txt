@@ -1,0 +1,6 @@
+languag use tri catch throw keyword except handl mean tri catch free block also languag 
+follow differ java c except handl 
+1 c type includ primit pointer thrown except 
+java throwabl object throwabl object instanc subclass throwabl class thrown except 
+exampl follow type code work c similar code work java 
+includ iostream use namespac std int main int x 1 stuff tri stuff x 0 throw x catch int x cout except occur thrown valu x endl getchar return 0 output except occur thrown valu 1 

@@ -1,0 +1,42 @@
+strongli recommend refer follow post prerequisit post 
+link list introduct insert node singli link list doubli link list dll contain extra pointer typic call previou pointer togeth next pointer data singli link list 
+follow represent dll node c languag 
+node doubli link list struct node int data struct node next pointer next node dll struct node prev pointer previou node dll follow advantag disadvantag doubli link list singli link list 
+advantag singli link list 1 dll travers forward backward direct 
+2 delet oper dll effici pointer node delet given 
+singli link list delet node pointer previou node need 
+get previou node sometim list travers 
+dll get previou node use previou pointer 
+disadvantag singli link list 1 everi node dll requir extra space previou pointer 
+possibl implement dll singl pointer though see 
+2 oper requir extra pointer previou maintain 
+exampl insert need modifi previou pointer togeth next pointer 
+exampl follow function insert differ posit need 1 2 extra step set previou pointer 
+insert node ad four way 1 front dll 2 given node 
+3 end dll 4 given node 
+1 add node front 5 step process new node alway ad head given link list 
+newli ad node becom new head dll 
+exampl given link list 10 15 20 25 add item 5 front link list becom 5 10 15 20 25 
+let us call function add front list push 
+push must receiv pointer head pointer push must chang head pointer point new node see follow 5 step add node front 
+given refer pointer pointer head list int insert new node front list 
+void push struct node head_ref int new_data 1 alloc node struct node new_nod struct node malloc sizeof struct node 2 put data new_nod data new_data 3 make next new node head previou null new_nod next head_ref new_nod prev null 4 chang prev head node new node head_ref null head_ref prev new_nod 5 move head point new node head_ref new_nod four step five step 4 step use insert front singli link list 
+extra step chang previou head 
+2 add node given node 
+7 step process given pointer node prev_nod new node insert given node 
+given node prev_nod insert new node given node void insertaft struct node prev_nod int new_data 1 check given prev_nod null prev_nod null printf given previou node cannot null return 2 alloc new node struct node new_nod struct node malloc sizeof struct node 3 put data new_nod data new_data 4 make next new node next prev_nod new_nod next prev_nod next 5 make next prev_nod new_nod prev_nod next new_nod 6 make prev_nod previou new_nod new_nod prev prev_nod 7 chang previou new_nod next node new_nod next null new_nod next prev new_nod five step step process 5 step use insert given node singli link list 
+two extra step need chang previou pointer new node previou pointer new node next node 
+3 add node end 7 step process new node alway ad last node given link list 
+exampl given dll 5 10 15 20 25 add item 30 end dll becom 5 10 15 20 25 30 
+sinc link list typic repres head travers list till end chang next last node new node 
+follow 7 step add node end 
+given refer pointer pointer head dll int append new node end void append struct node head_ref int new_data 1 alloc node struct node new_nod struct node malloc sizeof struct node struct node last head_ref use step 5 2 put data new_nod data new_data 3 new node go last node make next null new_nod next null 4 link list empti make new node head head_ref null new_nod prev null head_ref new_nod return 5 els travers till last node last next null last last next 6 chang next last node last next new_nod 7 make last node previou new node new_nod prev last return six 7 step 6 step use insert given node singli link list 
+one extra step need chang previou pointer new node 
+4 add node given node left exercis reader 
+complet work program test function 
+follow complet c program test function 
+c complet work c program demonstr insert method includ stdio h includ stdlib h link list node struct node int data struct node next struct node prev given refer pointer pointer head list int insert new node front list 
+void push struct node head_ref int new_data 1 alloc node struct node new_nod struct node malloc sizeof struct node 2 put data new_nod data new_data 3 make next new node head previou null new_nod next head_ref new_nod prev null 4 chang prev head node new node head_ref null head_ref prev new_nod 5 move head point new node head_ref new_nod given node prev_nod insert new node given node void insertaft struct node prev_nod int new_data 1 check given prev_nod null prev_nod null printf given previou node cannot null return 2 alloc new node struct node new_nod struct node malloc sizeof struct node 3 put data new_nod data new_data 4 make next new node next prev_nod new_nod next prev_nod next 5 make next prev_nod new_nod prev_nod next new_nod 6 make prev_nod previou new_nod new_nod prev prev_nod 7 chang previou new_nod next node new_nod next null new_nod next prev new_nod given refer pointer pointer head dll int append new node end void append struct node head_ref int new_data 1 alloc node struct node new_nod struct node malloc sizeof struct node struct node last head_ref use step 5 2 put data new_nod data new_data 3 new node go last node make next null new_nod next null 4 link list empti make new node head head_ref null new_nod prev null head_ref new_nod return 5 els travers till last node last next null last last next 6 chang next last node last next new_nod 7 make last node previou new node new_nod prev last return function print content link list start given node void printlist struct node node struct node last printf ntravers forward direct n node null printf node data last node node node next printf ntravers revers direct n last null printf last data last last prev drier program test function int main start empti list struct node head null insert 6 link list becom 6 null append head 6 insert 7 begin 
+link list becom 7 6 null push head 7 insert 1 begin 
+link list becom 1 7 6 null push head 1 insert 4 end 
+link list becom 1 7 6 4 null append head 4 insert 8 7 link list becom 1 7 8 6 4 null insertaft head next 8 printf creat dll printlist head getchar return 0 

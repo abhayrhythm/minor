@@ -1,0 +1,45 @@
+
+Following questions have been asked in GATE CS exam. 
+1.  In the C language (GATE CS 2002)
+a)	At most one activation record exists between the current activation record and the activation record for the main
+b)	The number of activation records between the current activation record and the activation record for the main depends on the actual function calling sequence.
+c)	The visibility of global variables depends on the actual function calling sequence.
+d)	Recursion requires the activation record for the recursive function to be saved on a different stack before the recursive function can be called. 
+Answer(b)
+a) –> There is no such restriction in C language
+b) –> True
+c) –> False. In C, variables are statically scoped, not dynamically.
+c) –> False. The activation records are stored on the same stack.
+2. Consider the C program shown below. 
+
+# include <stdio.h> 
+# define print(x)  printf ("%d", x) 
+int x; 
+void Q(int z) 
+{ 
+  z += x;
+  print(z); 
+} 
+void P(int *y) 
+{ 
+  int x = *y+2; 
+  Q(x); 
+  *y = x-1; 
+  print(x);
+} 
+
+main(void) 
+{ 
+  x=5; 
+  P(&x); 
+  print(x); 
+  getchar();
+} 
+
+The output of this program is (GATE CS 2003)
+a)	1276
+b)	22 12 11
+c)	14 6 6
+d)	766 
+Answer (a)
+Note that main() and Q() are accessing the global variable x. Inside P(), pointer variable y also holds address of global variable x, but x in P() is its P’s own local variable.

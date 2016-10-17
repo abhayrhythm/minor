@@ -1,0 +1,2 @@
+c printf return number charact success written output scanf return number item success read 
+exampl program print geeksforgeek 13 int main printf printf geeksforgeek getchar irrespect string user enter program print 1 int main char 50 printf scanf getchar adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

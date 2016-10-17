@@ -1,0 +1,17 @@
+
+Predict the output of the below programs. 
+Difficulty Level: Rookie
+Question 1
+
+#include<stdio.h>
+int main() 
+{
+   typedef int i;
+   i a = 0;    
+   printf("%d", a);
+   getchar();
+   return 0;
+}    
+
+Output: 0
+There is no problem with the program. It simply creates a user defined type i and creates a variable a of type i.

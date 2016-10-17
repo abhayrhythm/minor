@@ -1,0 +1,17 @@
+given binari number string print 1 2 complement 
+1 complement binari number anoth binari number obtain toggl bit e transform 0 bit 1 1 bit 0 exampl 1 complement 0111 1000 1 complement 1100 0011 2 complement binari number 1 ad 1 complement binari number 
+exampl 2 complement 0111 1001 2 complement 1100 0100 strongli recommend click practic move solut 
+one complement simpli need flip bit 
+2 complement first find one complement 
+travers one complement start lsb least signific bit look 0 flip 1 chang 0 find 0 final flip found 0 exampl 2 complement 01000 11000 note first find one complement 01000 10111 
+1 one complement add extra 1 string 
+exampl 2 complement 000 1000 1 complement 000 111 
+c implement 
+c program print 1 2 complement binari number includ bit stdc h use namespac std return 0 1 1 0 char flip char c return c 0 
+1 0 print 1 2 complement binari number repres bin void printoneandtwoscompl string bin int n bin length int string one two one two one complement flip everi bit 0 n one flip bin two complement go right left one complement get 1 make make 0 keep go left get first 0 make 1 go loop two one n 1 0 one 1 two 0 els two 1 break break 1 111 11111 case add extra 1 begin 1 two 1 two cout 1 complement one endl cout 2 complement two endl driver program int main string bin 1100 printoneandtwoscompl bin return 0 output 1 complement 0011 2 complement 0100 thank utkarsh trivedi solut 
+side note sign number gener use 2 complement represent 
+posit valu store neg valu store 2 complement form 
+one extra bit requir indic whether number posit neg 
+exampl char 8 bit c 2 complement represent use char 127 store e 01111111 first 0 indic posit 
+127 store 10000001 pleas write comment find anyth incorrect want share inform topic discuss 
+refer http qa geeksforgeek org 6439 write program calcul one two complement number http geeksquiz com what differ 1s complement 2s complement adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

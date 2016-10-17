@@ -1,0 +1,22 @@
+given input string pattern check charact input string follow order determin charact present pattern 
+assum duplic charact pattern 
+exampl input string engin rock pattern er output true e input string r 
+input string engin rock pattern egr output fals two e g input string 
+input string engin rock pattern gsr output fals one r input string 
+discuss two approach solv problem 
+check string follow order charact defin pattern set 1 check string follow order charact defin pattern set 2 approach first assign label order charact pattern 
+label assign increas order 
+exampl pattern gsr label follow g 1 2 r 3 mean g come first r assign label pattern charact iter string charact 
+travers keep track label order last visit charact 
+label current charact less previou charact return fals 
+otherwis updat last label 
+charact follow order return true 
+c implement c program find string follow order defin given pattern 
+includ bit stdc h use namespac std const int char_siz 256 return true charact str follow order defin given ptr 
+bool checkpattern string str string pat initi order 1 vector int label char_siz 1 assign order pattern charact accord appear pattern int order 1 int 0 pat length give pattern charact order label pat order increment order order one check string charact follow order int last_ord 1 int 0 str length label str 1 order charact less order previou return fals 
+label str last_ord return fals updat last_ord next iter last_ord label str return str follow pat return true driver code int main string str engin rock string pattern gsr cout boolalpha checkpattern str pattern return 0 output fals time complex program n constant extra space array label constant size 256 
+articl contribut moham iftekharul islam rupam 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

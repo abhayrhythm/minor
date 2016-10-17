@@ -1,0 +1,30 @@
+
+Calling an undeclared function is poor style in C (See this) and illegal in C++. So is passing arguments to a function using a declaration that doesn’t list argument types: 
+If we save the below program in a .c file and compile it, it works without any error. But, if we save the same in a .cpp file, it doesn’t compile.
+
+#include<stdio.h>
+
+void f(); /* Argument list is not mentioned */
+
+int main()
+{
+   f(2); /* Poor style in C, invalid in C++*/
+   getchar();
+   return 0;
+}
+
+void f(int x)
+{ 
+   printf("%d", x);
+}
+
+Source: http://www2.research.att.com/~bs/bs_faq.html#C-is-subset
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

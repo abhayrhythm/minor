@@ -1,0 +1,12 @@
+c programm abstract real world object use class concret type 
+sometim requir convert one concret type anoth concret type primit type implicitli 
+convers oper play smart role situat 
+exampl consid follow class includ iostream includ cmath use namespac std class complex privat doubl real doubl imag public default constructor complex doubl r 0 0 doubl 0 0 real r imag magnitud usual function style doubl mag return getmag magnitud convers oper oper doubl return getmag privat class helper get magnitud doubl getmag return sqrt real real imag imag int main complex object complex com 3 0 4 0 print magnitud cout com mag endl done like cout com endl print magnitud complex object two differ way 
+note usag smart smart 
+techniqu discourag 
+compil control call appropri function base type rather programm expect 
+good practic use techniqu like class object specif member function make use c variant class perform convers 
+place exampl make compat call exist c librari unavoid 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

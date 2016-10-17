@@ -1,0 +1,24 @@
+answer copi constructor 
+class contain pointer need write assign oper copi constructor 
+compil creat default copi constructor assign oper everi class 
+compil creat copi constructor assign oper may suffici pointer run time alloc resourc like file handl network connect etc 
+exampl consid follow program 
+includ iostream use namespac std class without user defin assign oper class test int ptr public test int 0 ptr new int void setvalu int ptr void print cout ptr endl int main test t1 5 test t2 t2 t1 t1 setvalu 10 t2 print return 0 output program 10 
+take look main modifi t1 use setvalu function chang also reflect object t2 
+type unexpect chang caus problem 
+sinc user defin assign oper program compil creat default assign oper copi ptr right hand side left hand side 
+ptr start point locat 
+handl problem two way 
+1 allow assign one object object 
+creat dummi assign oper make privat 
+2 write assign oper deep copi 
+true copi constructor 
+follow exampl overload assign oper class 
+includ iostream use namespac std class test int ptr public test int 0 ptr new int void setvalu int ptr void print cout ptr endl test oper const test test test oper const test check self assign ptr ptr return int main test t1 5 test t2 t2 t1 t1 setvalu 10 t2 print return 0 output 5 also add copi constructor class statement like test t3 t4 also caus problem 
+note condit assign oper 
+overload assign oper must check self assign 
+otherwis assign object may lead unexpect result see 
+self assign check necessari test class ptr alway point one integ may reus memori 
+gener recommend practic self assign check 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

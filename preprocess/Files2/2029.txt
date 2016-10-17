@@ -1,0 +1,4 @@
+c like function assign oper function inherit deriv class 
+exampl follow program base class assign oper function access use deriv class object 
+includ iostream use namespac std class public oper cout base class assign oper call return class b public int main b b oper b call base class assign oper function use deriv class getchar return 0 output base class assign oper call pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

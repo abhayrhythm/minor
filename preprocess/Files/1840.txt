@@ -1,0 +1,128 @@
+
+Regex is the short form for “Regular expression”, which is often used in this way in programming languages and many different libraries. It is supported in C++11 onward compilers.
+ Function Templates used in regex
+regex_match() -This function return true if the regular expression is a match against the given string otherwise it returns false.
+
+// C++ program to demonstrate working of regex_match()
+#include <iostream>
+#include <regex>
+
+using namespace std;
+int main()
+{
+    string a = "GeeksForGeeks";
+
+    // Here b is an object of regex (regular expression)
+    regex b("(Geek)(.*)"); // Geeks followed by any character
+
+    // regex_match function matches string a against regex b
+    if ( regex_match(a, b) )
+        cout << "String 'a' matches regular expression 'b' \n";
+
+    // regex_match function for matching a range in string 
+    // against regex b
+    if ( regex_match(a.begin(), a.end(), b) )
+        cout << "String 'a' matches with regular expression "
+                "'b' in the range from 0 to string end\n";
+
+    return 0;
+}
+
+Output:
+
+String 'a' matches regular expression 'b' 
+String 'a' matches with regular expression 'b' in the range from 0 to string end
+
+ 
+regex_search() – This function is used to search for a pattern matching the regular expression
+
+// C++ program to demonstrate working of regex_search()
+#include <iostream>
+#include <regex>
+#include<string.h>
+using namespace std;
+
+int main()
+{
+    // Target sequence
+    string s = "I am looking for GeeksForGeeks "
+               "articles";
+
+    // An object of regex for pattern to be searched
+    regex r("Geek[a-zA-Z]+");
+
+    // flag type for determining the matching behavior
+    // here it is for matches on 'string' objects
+    smatch m;
+
+    // regex_search() for searching the regex pattern
+    // 'r' in the string 's'. 'm' is flag for determining
+    // matching behavior.
+    regex_search(s, m, r);
+
+    // for each loop
+    for (auto x : m)
+        cout << x << " ";
+
+    return 0;
+}
+
+Output:
+
+GeeksForGeeks
+
+ 
+regex_replace()  This function is used to replace the pattern matching to the regular expression with a string.
+
+// C++ program to demonstrate working of regex_replace()
+#include <iostream>
+#include <string>
+#include <regex>
+#include <iterator>
+using namespace std;
+
+int main()
+{ 
+    string s = "I am looking for GeeksForGeek \n";
+    
+    // matches words beginning by "Geek"
+    regex r("Geek[a-zA-z]+");
+    
+    // regex_replace() for replacing the match with 'geek' 
+    cout << std::regex_replace(s, r, "geek");
+    
+    string result;
+    
+    // regex_replace( ) for replacing the match with 'geek'
+    regex_replace(back_inserter(result), s.begin(), s.end(),
+                  r,  "geek");
+
+    cout << result;
+
+    return 0;
+}
+
+Output:
+
+I am looking for geek 
+I am looking for geek
+
+So Regex operations make use of following parameters :-
+
+ Target sequence (subject) – The string to be matched. 
+ Regular Expression (Pattern) – The regular expression for the target sequence.
+ Matched Array – The information about matches is stored in a special match_result array.
+ Replacement String – These string are used for allowing replacement of the matches.
+
+ 
+This article is contributed by  Abhinav Tiwari . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

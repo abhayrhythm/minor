@@ -1,0 +1,33 @@
+given boolean 2d array row sort 
+find row maximum number 1s 
+exampl input matrix 0 1 1 1 0 0 1 1 1 1 1 1 row maximum 1s 0 0 0 0 output 2 simpl method row wise travers matrix count number 1s row compar count max 
+final return index row maximum 1s 
+time complex method n number row n number column matrix 
+better 
+sinc row sort use binari search count 1s row 
+find index first instanc 1 row 
+count 1s equal total number column minu index first 1 see follow code implement approach 
+includ stdio h defin r 4 defin c 4 function find index first index 1 boolean array arr int first bool arr int low int high high low get middl index int mid low high low 2 check element middl index first 1 mid 0 arr mid 1 0 arr mid 1 return mid element 0 recur right side els arr mid 0 return first arr mid 1 high els element first 1 recur left side return first arr low mid 1 return 1 main function return index row maximum number 1s 
+int rowwithmax1 bool mat r c int max_row_index 0 max 1 initi max valu travers row count number 1s find index first 1 int index 0 r index first mat 0 c 1 index 1 c index max max c index max_row_index return max_row_index driver program test function int main bool mat r c 0 0 0 1 0 1 1 1 1 1 1 1 0 0 0 0 printf index row maximum 1s n rowwithmax1 mat return 0 output index row maximum 1s 2 time complex mlogn number row n number column matrix 
+solut optim 
+instead binari search everi row first check whether row 1s max far 
+row 1s count 1s row 
+also count 1s row binari search complet row search index last max 
+follow optim version solut 
+main function return index row maximum number 1s 
+int rowwithmax1 bool mat r c int index initi max use valu first row 
+int max_row_index 0 int max first mat 0 0 c 1 travers row count number 1s find index first 1 1 r count 1s row row 1s max far count 1s row row 1s max far max 1 mat c max 1 1 note optim also index first mat 0 c max index 1 c index max max c index max_row_index els max first mat 0 c 1 return max_row_index worst case time complex optim version also mlogn solut work better averag 
+thank naveen kumar singh suggest solut 
+sourc worst case solut occur matrix like follow 
+0 0 0 0 1 0 0 0 0 1 1 0 0 1 1 1 0 1 1 1 1 follow method work n time complex worst case 
+step1 get index first leftmost 1 first row 
+step2 follow everi row first row element left previou leftmost 1 0 ignor row 
+els move left 0 found 
+updat leftmost index index max_row_index current row 
+time complex n possibl go far left came ahead first step 
+follow c implement method 
+main function return index row maximum number 1s 
+int rowwithmax1 bool mat r c initi first row row max 1s int max_row_index 0 function first return index first 1 row 0 
+use index initi index leftmost 1 seen far int j first mat 0 0 c 1 j 1 1 present first row j c 1 int 1 r move left 0 found j 0 mat j 1 j j 1 updat index leftmost 1 seen far max_row_index updat max_row_index return max_row_index thank tylor ankan palash input 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

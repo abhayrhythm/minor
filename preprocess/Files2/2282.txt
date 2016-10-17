@@ -1,0 +1,71 @@
+us studi comput network abstract manner 
+word mani us know abstract concept layer packet translat real life network internet 
+therefor let us experi see whether layer packet etc 
+exist real network also 
+get set readi delv wonder world practic experiment network 
+outlin experi follow 
+captur live packet understand insid packet analyz packet dissect 
+sound surgic 
+yup 
+j start need pc run window xp connect internet 
+read articl onlin chanc high everyth readi experi 
+let recal theori stuff read network book 
+first thing almost everi book tell us network architectur layer rememb 7 layer osi protocol stack 
+protocol layer 
+experi use 5 layer internet protocol stack solv mysteri layer 
+start experi instal wireshark earlier known ether 
+wireshark network protocol analyz captur analyz packet transmit receiv via network interfac card nic 
+need bear acronym network full acronymsj instal wireshark http www wireshark org download html time write latest wireshark version 1 0 3 
+instal wireshark leav default set option 
+experiment setup readi 
+run wireshark click first icon list avail captur interfac 
+see pop window show captur interfac 
+see snapshot follow 
+number type interfac shown captur interfac window differ depend pc configur 
+show two interfac internet connect broadcom gigabit interfac 
+choos interfac internet connect avail 
+let click option button interfac 
+see new window name captur option 
+window type port 80 text field name captur filter 
+see follow snapshot clarif 
+readi captur packet pass nic 
+set filter port 80 instruct wireshark captur packet http traffic rememb alway told default http port 80 
+click start button captur option window 
+may see packet wireshark program pc access http traffic background let focu 
+open browser tri access http googl com see lot mani packet get captur wireshark 
+see snapshot follow 
+let start analyz captur packet 
+first find first instanc http packet get http 1 1 info field 
+snapshot shown blue 
+take closer look see packet header 5 layer internet protocol stack 
+layer 1 physic layer 
+frame shown physic layer 
+layer 2 data link layer 
+packet see ethernet ii use data link layer protocol 
+find mac address sourc destin header 
+layer 3 network layer 
+packet see ip use network layer protocol 
+see sourc destin ip header 
+layer 4 transport layer 
+packet tcp use transport layer protocol 
+find sourc destin port header 
+layer 5 applic layer 
+packet http use applic layer protocol 
+let explor one layer 
+layer explor similar fashion 
+expand layer 5 e 
+http header look follow 
+see host mention googl com tri access browser 
+user agent field http header show browser detail 
+case mozilla firefox evidenc header 
+destin ip 64 233 187 99 one ip address assign googl server web server host 
+verifi use handi util command nslookup 
+detail field explor header http tcp ip ethernet ii protocol 
+interest field differenti servic field also known qo field ip header window size tcp header etc 
+seen rhetor concept layer etc 
+exist real network also 
+sound interest dissect packet pass interfac card 
+get know goe come pc 
+idea experi provid conduc platform explor excit world network 
+welcom aboard 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

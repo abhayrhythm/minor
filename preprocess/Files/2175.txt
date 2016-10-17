@@ -1,0 +1,62 @@
+
+A magic number is defined as a number which can be expressed as a power of 5 or sum of unique powers of 5. First few magic numbers are 5, 25, 30(5 + 25), 125, 130(125 + 5), ….
+Write a function to find the n’th Magic number.
+Example:
+
+Input: n = 2
+Output: 25
+
+Input: n = 5
+Output: 130 
+Source: Amazon written round question
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+If we notice carefully the magic numbers can be represented as 001, 010, 011, 100, 101, 110 etc, where 001 is 0*pow(5,3) + 0*pow(5,2) + 1*pow(5,1).  So basically we need to add powers of 5 for each bit set in given integer n. 
+Below is C++ implementation based on this idea.
+
+// C++ program to find n't magic numebr
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to find n'th magic numebr
+int nthMagicNo(int n)
+{
+    int pow = 1, answer = 0;
+
+    // Go through every bit of n
+    while (n)
+    {
+       pow = pow*5;
+
+       // If last bit of n is set
+       if (n & 1)
+         answer += pow;
+
+       // proceed to next bit
+       n >>= 1;  // or n = n/2
+    }
+    return answer;
+}
+
+// Driver program to test above function
+int main()
+{
+    int n = 5;
+    cout << "n'th magic number is " << nthMagicNo(n) << endl;
+    return 0;
+}
+
+Output:
+ n'th magic number is 130 
+Thanks to manrajsingh for suggesting above solution.
+This article is contributed by Abhay. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,62 @@
+discuss kruskal algorithm minimum span tree 
+like kruskal algorithm prim algorithm also greedi algorithm 
+start empti span tree 
+idea maintain two set vertic 
+first set contain vertic alreadi includ mst set contain vertic yet includ 
+everi step consid edg connect two set pick minimum weight edg edg 
+pick edg move endpoint edg set contain mst 
+group edg connect two set vertic graph call cut graph theori 
+everi step prim algorithm find cut two set one contain vertic alreadi includ mst contain rest veric pick minimum weight edg cut includ vertex mst set set contain alreadi includ vertic 
+prim algorithm work 
+idea behind prim algorithm simpl span tree mean vertic must connect 
+two disjoint subset discuss vertic must connect make span tree 
+must connect minimum weight edg make minimum span tree 
+algorithm 1 creat set mstset keep track vertic alreadi includ mst 
+2 assign key valu vertic input graph 
+initi key valu infinit 
+assign key valu 0 first vertex pick first 
+3 mstset includ vertic pick vertex u mstset minimum key valu 
+b includ u mstset 
+c updat key valu adjac vertic u updat key valu iter adjac vertic 
+everi adjac vertex v weight edg u v less previou key valu v updat key valu weight u v idea use key valu pick minimum weight edg cut 
+key valu use vertic yet includ mst key valu vertic indic minimum weight edg connect set vertic includ mst 
+let us understand follow exampl set mstset initi empti key assign vertic 0 inf inf inf inf inf inf inf inf indic infinit 
+pick vertex minimum key valu 
+vertex 0 pick includ mstset 
+mstset becom 0 
+includ mstset updat key valu adjac vertic 
+adjac vertic 0 1 7 key valu 1 7 updat 4 8 follow subgraph show vertic key valu vertic finit key valu shown 
+vertic includ mst shown green color 
+pick vertex minimum key valu alreadi includ mst mstset 
+vertex 1 pick ad mstset 
+mstset becom 0 1 
+updat key valu adjac vertic 1 key valu vertex 2 becom 8 pick vertex minimum key valu alreadi includ mst mstset 
+either pick vertex 7 vertex 2 let vertex 7 pick 
+mstset becom 0 1 7 
+updat key valu adjac vertic 7 key valu vertex 6 8 becom finit 7 1 respect 
+pick vertex minimum key valu alreadi includ mst mstset 
+vertex 6 pick 
+mstset becom 0 1 7 6 
+updat key valu adjac vertic 6 key valu vertex 5 8 updat 
+repeat step mstset includ vertic given graph 
+final get follow graph 
+implement algorithm 
+use boolean array mstset repres set vertic includ mst 
+valu mstset v true vertex v includ mst otherwis 
+array key use store key valu vertic 
+anoth array parent store index parent node mst 
+parent array output array use show construct mst 
+c c c c program prim minimum span tree mst algorithm 
+program adjac matrix represent graph includ stdio h includ limit h number vertic graph defin v 5 util function find vertex minimum key valu set vertic yet includ mst int minkey int key bool mstset initi min valu int min int_max min_index int v 0 v v v mstset v fals key v min min key v min_index v return min_index util function print construct mst store parent int printmst int parent int n int graph v v printf edg weight n int 1 v printf n parent graph parent function construct print mst graph repres use adjac matrix represent void primmst int graph v v int parent v array store construct mst int key v key valu use pick minimum weight edg cut bool mstset v repres set vertic yet includ mst initi key infinit int 0 v key int_max mstset fals alway includ first 1st vertex mst 
+key 0 0 make key 0 vertex pick first vertex parent 0 1 first node alway root mst mst v vertic int count 0 count v 1 count pick minimum key vertex set vertic yet includ mst int u minkey key mstset add pick vertex mst set mstset u true updat key valu parent index adjac vertic pick vertex 
+consid vertic yet includ mst int v 0 v v v graph u v non zero adjac vertic mstset v fals vertic yet includ mst updat key graph u v smaller key v graph u v mstset v fals graph u v key v parent v u key v graph u v print construct mst printmst parent v graph driver program test function int main let us creat follow graph 2 3 0 1 2 6 8 5 7 3 4 9 int graph v v 0 2 0 6 0 2 0 3 8 5 0 3 0 0 7 6 8 0 0 9 0 5 7 9 0 print solut primmst graph return 0 java java program prim minimum span tree mst algorithm 
+program adjac matrix represent graph import java util 
+import java lang 
+import java io 
+class mst number vertic graph privat static final int v 5 util function find vertex minimum key valu set vertic yet includ mst int minkey int key boolean mstset initi min valu int min integ max_valu min_index 1 int v 0 v v v mstset v fals key v min min key v min_index v return min_index util function print construct mst store parent void printmst int parent int n int graph system println edg weight int 1 v system println parent graph parent function construct print mst graph repres use adjac matrix represent void primmst int graph array store construct mst int parent new int v key valu use pick minimum weight edg cut int key new int v repres set vertic yet includ mst boolean mstset new boolean v initi key infinit int 0 v key integ max_valu mstset fals alway includ first 1st vertex mst 
+key 0 0 make key 0 vertex pick first vertex parent 0 1 first node alway root mst mst v vertic int count 0 count v 1 count pick thd minimum key vertex set vertic yet includ mst int u minkey key mstset add pick vertex mst set mstset u true updat key valu parent index adjac vertic pick vertex 
+consid vertic yet includ mst int v 0 v v v graph u v non zero adjac vertic mstset v fals vertic yet includ mst updat key graph u v smaller key v graph u v 0 mstset v fals graph u v key v parent v u key v graph u v print construct mst printmst parent v graph public static void main string arg let us creat follow graph 2 3 0 1 2 6 8 5 7 3 4 9 mst new mst int graph new int 0 2 0 6 0 2 0 3 8 5 0 3 0 0 7 6 8 0 0 9 0 5 7 9 0 print solut primmst graph code contribut aakash hasija output edg weight 0 1 2 1 2 3 0 3 6 1 4 5 time complex program v 2 
+input graph repres use adjac list time complex prim algorithm reduc e log v help binari heap 
+pleas see prim mst adjac list represent detail 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,7 @@
+write function count number smaller element right element array 
+given unsort array arr distinct integ construct anoth array countsmal countsmal contain count smaller element right side element arr array 
+exampl input arr 12 1 2 3 0 11 4 output countsmal 6 1 1 1 0 1 0 corner case input arr 5 4 3 2 1 output countsmal 4 3 2 1 0 input arr 1 2 3 4 5 output countsmal 0 0 0 0 0 strongli recommend click practic move solut 
+method 1 simpl use two loop 
+outer loop pick element left right 
+inner loop iter element right side pick element updat countsmal 
+c void constructlowerarray int arr int countsmal int n int j initi count countsmal array 0 0 n countsmal 0 0 n j 1 j n j arr j arr countsmal util function print array line void printarray int arr int size int 0 size printf arr printf n driver program test function int main int arr 12 10 5 4 2 20 6 1 0 2 int n sizeof arr sizeof arr 0 int low int malloc sizeof int n constructlowerarray arr low n printarray low n return 0 

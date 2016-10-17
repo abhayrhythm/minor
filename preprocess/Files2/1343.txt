@@ -1,0 +1,16 @@
+discuss flatten multi level link list node two pointer next 
+previou post flatten link list level wise 
+flatten link list alway need process pointer next everi node 
+input 1 2 3 4 7 8 10 12 9 16 11 14 17 18 19 20 15 23 21 24 output link list flatten 1 2 7 9 14 15 23 24 8 16 17 18 19 20 21 10 11 12 3 4 note 9 appear 8 node process pointer right pointer sourc oracl interview take closer look notic problem similar tree link list convers 
+recurs flatten link list follow step 
+1 node null return null 
+2 store next node current node use step 4 
+3 recurs flatten list 
+flatten keep track last visit node next list link 
+4 recurs flatten next list get next list pointer store step 2 attach last visit node 
+c implement idea 
+c program flatten multilevel link list includ bit stdc h use namespac std link list node struct node int data struct node next struct node flatten multi level link list depth wise node flattenlist node node base case node null return null keep track last visit node note static static node last last node store next pointer node next node next list exist process first add list next current node node node next flattenlist node next exist add next last ad node next last next flattenlist next return node util method print link list void printflattennod node head head printf head data head head next util function creat new node node newnod int new_data node new_nod new node new_nod data new_data new_nod next new_nod null return new_nod driver code int main creat exampl list node head newnod 1 head next newnod 2 head next next newnod 3 head next next next newnod 4 head next newnod 7 head next newnod 9 head next newnod 14 head next newnod 15 head next next newnod 23 head next next newnod 24 head next next newnod 8 head next next newnod 16 head next next newnod 17 head next next next newnod 18 head next next next next newnod 19 head next next next next next newnod 20 head next next next next next newnod 21 head next next next newnod 10 head next next next newnod 11 head next next next next newnod 12 flatten list print modifi list head flattenlist head printflattennod head return 0 output 1 2 7 9 14 15 23 24 8 16 17 18 19 20 21 10 11 12 3 4 articl contribut mu ven 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,8 @@
+number alway repres sum squar number 
+note 1 squar alway break number 1 1 1 1 1 1 
+given number n find minimum number squar sum x exampl input n 100 output 1 100 written 102 note 100 also written 52 52 52 52 represent requir 4 squar 
+input n 6 output 3 strongli recommend minim browser tri first 
+idea simpl start 1 go till number whose squar smaller equal n everi number x recur n x 
+recurs formula 
+n 3 return n els minsquar n min 1 minsquar n x x x 1 x x n simpl recurs solut base recurs formula 
+c naiv recurs c program find minimum number squar whose sum equal given number includ bit stdc h use namespac std return count minimum squar sum n int getminsquar unsign int n base case n 3 return n getminsquar rest tabl use recurs formula int re n maximum squar requir n 1 1 1 1 go smaller number recurs find minimum int x 1 x n x int temp x x temp n break els re min re 1 getminsquar n temp return re driver program int main cout getminsquar 6 return 0 

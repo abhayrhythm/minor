@@ -1,0 +1,24 @@
+given number line infin infin 
+start 0 go either left right 
+condit th move take step 
+find reach given number x b find optim way reach given number x inde reach 
+exampl 3 reach om 2 step 0 1 1 3 4 reach 3 step 0 1 1 1 1 4 
+sourc flipkart interview question strongli recommend minim browser tri first 
+import think note reach destin alway possibl make move length 1 step move forward backward 1 
+recurs solut suggest arpit thapar 
+1 sinc distanc 5 5 0 henc find answer absolut valu destin 
+2 use recurs function take argument sourc vertex ii valu last step taken iii destin 3 point sourc vertex destin return number step 
+4 otherwis go possibl direct 
+take minimum step case 
+vertex go current sourc last step 1 current sourc last step 1 5 point absolut valu posit exce absolut valu destin intuit shortest path possibl 
+henc make valu step int_max take minimum possibl one get elimin 
+use last step program enter infinit recurs give run time error 
+c implement idea 
+note solut count step 
+c program count number step reach point includ bit stdc h use namespac std function count number step requir reach destin 
+sourc sourc vertex step valu last step taken dest destin vertex int step int sourc int step int dest base case ab sourc dest return int_max sourc dest return step point go either way go posit side int po step sourc step 1 step 1 dest go neg side int neg step sourc step 1 step 1 dest minimum case return min po neg driver program int main int dest 11 cout 
+step requir reach dest step 0 0 dest return 0 output 
+step requir reach 11 5 thank arpit thapar provid algorithm implement 
+articl contribut abhay 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

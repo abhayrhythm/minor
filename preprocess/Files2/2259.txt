@@ -1,0 +1,30 @@
+n bike cover 100 km fulli fuel 
+maximum amount distanc go use n bike 
+may assum bike similar bike take 1 litr cover 1 km 
+n bike use one bike cover 100 km 
+n bike start point run simultan go 100 km 
+let think bit differ trick want cover maximum distanc alway tri wast minimum fuel 
+minimum wastag fuel mean run minimum number bike 
+instead parallel run n bike think serial run 
+mean transfer amount fuel last bike anoth bike throw last bike e run last bike certain point 
+question distanc fuel transfer done maximum distanc cover fuel tank remain bike overflow 
+let us take follow base case gener solut 
+base case 1 one bike simpl cover 100 km 
+base case 2 two bike maximum distanc cover 2 bike 
+maxim distanc must drop second bike point transfer fuel first bike 
+let transfer x km 
+total distanc cover distanc cover 100 ltr first bike distanc cover fuel transfer first bike 
+remain fuel second bike 100 x transfer much fuel first bike total distanc would becom 100 100 x 200 x task maxim 200 x 
+constraint 100 x must less equal space creat first bike x km e 100 x x valu 200 x becom maximum x minimum 
+minimum possibl valu x 50 abl travel 150 km 
+base case 3 three bike let first transfer done x km 
+x distanc bike contain 100 x amount fuel 
+take 100 x amount fuel 3rd bike distribut among 1st 2nd bike fuel tank 1st 2nd bike get full 
+100 x 2 x x 33 333 transfer remain fuel third bike distribut amount fuel among 1st 2nd bike exactli 33 33 km 
+let us gener 
+take closer look case observ n bike first transfer done bike drop 100 n km 
+gener x litr remain fuel everi bike n remain bike drop bike x n km 
+follow c implement gener function 
+includ stdio h return maximum distanc travel n bike given fuel everi bike doubl maxdist int n int fuel dist_cov result function doubl dist_cov 0 n 0 ever fuel n km discard one bike fill bike fuel n liter fuel e 
+maximum limit 100 litr dist_cov doubl fuel n n 1 reduc number bike return dist_cov driver program test function int main int n 3 number bike int fuel 100 printf maximum distanc possibl bike f n maxdist n fuel return 0 output maximum distanc possibl 3 bike 183 333333 articl contribut shamik mitra 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

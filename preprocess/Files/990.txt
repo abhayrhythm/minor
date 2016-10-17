@@ -1,0 +1,105 @@
+
+itoa function converts integer into null-terminated string. It can convert negative numbers too. The standard definition of itoa function is give below:-
+
+	char* itoa(int num, char* buffer, int base) 
+
+The third parameter base specify the conversion base. For example:- if base is 2, then it will convert the integer into its binary compatible string or if base is 16, then it will create hexadecimal converted string form of integer number. 
+If base is 10 and value is negative, the resulting string is preceded with a minus sign (-). With any other base, value is always considered unsigned.
+Reference:  http://www.cplusplus.com/reference/cstdlib/itoa/?kw=itoa
+Examples:
+
+  itoa(1567, str, 10) should return string "1567"
+  itoa(-1567, str, 10) should return string "-1567"
+  itoa(1567, str, 2) should return string "11000011111"
+  itoa(1567, str, 16) should return string "61f"
+
+Individual digits of the given number must be processed and their corresponding characters must be put in the given string.  Using repeated division by the given base, we get individual digits from least significant to most significant digit. But in the output, these digits are needed in reverse order. Therefore, we reverse the string obtained after repeated division and return it.
+
+/* A C++ program to implement itoa() */
+#include <iostream>
+using namespace std;
+
+/* A utility function to reverse a string  */
+void reverse(char str[], int length)
+{
+    int start = 0;
+    int end = length -1;
+    while (start < end)
+    {
+        swap(*(str+start), *(str+end));
+        start++;
+        end--;
+    }
+}
+
+// Implementation of itoa()
+char* itoa(int num, char* str, int base)
+{
+    int i = 0;
+    bool isNegative = false;
+
+    /* Handle 0 explicitely, otherwise empty string is printed for 0 */
+    if (num == 0)
+    {
+        str[i++] = '0';
+        str[i] = '\0';
+        return str;
+    }
+
+    // In standard itoa(), negative numbers are handled only with 
+    // base 10. Otherwise numbers are considered unsigned.
+    if (num < 0 && base == 10)
+    {
+        isNegative = true;
+        num = -num;
+    }
+
+    // Process individual digits
+    while (num != 0)
+    {
+        int rem = num % base;
+        str[i++] = (rem > 9)? (rem-10) + 'a' : rem + '0';
+        num = num/base;
+    }
+
+    // If number is negative, append '-'
+    if (isNegative)
+        str[i++] = '-';
+
+    str[i] = '\0'; // Append string terminator
+
+    // Reverse the string
+    reverse(str, i);
+
+    return str;
+}
+
+// Driver program to test implementation of itoa()
+int main()
+{
+    char str[100];
+    cout << "Base:10 " << itoa(1567, str, 10) << endl;
+    cout << "Base:10 " << itoa(-1567, str, 10) << endl;
+    cout << "Base:2 " << itoa(1567, str, 2) << endl;
+    cout << "Base:8 " << itoa(1567, str, 8) << endl;
+    cout << "Base:16 " << itoa(1567, str, 16) << endl;
+    return 0;
+}
+
+Output:
+
+Base:10 1567
+Base:10 -1567
+Base:2 11000011111
+Base:8 3037
+Base:16 61f
+This article is contributed by Neha Mahajan. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

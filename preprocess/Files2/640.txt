@@ -1,0 +1,5 @@
+recent interview amazon com bangalor 
+interview experiencecod round 1 hour 1 find minimum number coin make given valu given valu v want make chang v cent infinit suppli c c1 c2 cm valu coin minimum number coin make chang 
+2 suppos given two string s1 s2 
+find s1 substr s2 
+s1 present s2 return start index s1 s2 present return 1 

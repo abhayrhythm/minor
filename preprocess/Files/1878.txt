@@ -1,0 +1,71 @@
+
+A vector, once declared, has all its values initialized to zero. Following is an example code to demonstrate the same.
+
+// C++ program for displaying the default initialization
+// of the vector vect[]
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    // Creating a vector of size 8
+    vector<int> vect(8);  
+
+    // Printing default values
+    for (int i=0; i<vect.size(); i++)
+       cout << ' ' << vect[i];
+}
+
+Output :
+0 0 0 0 0 0 0 0
+ 
+What if we wish to initialize the vector to a specific value, say 1 ? For this, we can pass the value along with the size of the vector.  
+
+// C++ program for displaying specified initialization
+// of the vector vect[]
+#include<bits/stdc++.h>
+using namespace std;
+
+int main () 
+{
+    // Creates a vector of size 8 with all initial
+    // values as 1.
+    vector<int> vect(8, 1);  
+
+    for (int i=0; i<vect.size(); i++)
+       cout << ' ' << vect[i];
+}
+
+Output :
+1 1 1 1 1 1 1 1
+ 
+What if we wish to initialize the first 4 values to say 100 and rest 6 values as 200 ?
+One way to do this is to manually provide a value to each position in the vector. The other methods as provided in STL, the Standard Template Library, are fill and fill_n.
+ 
+
+fill()
+The ‘fill’ function assigns the value ‘val’ to all the elements in the range [begin, end), where ‘begin’ is the initial position and ‘end’ is the last position.
+NOTE : Notice carefully that ‘begin’ is included in the range but ‘end’ is NOT included. Below is an example to demonstrate ‘fill’ : 
+
+// C++ program to demonstrate working of fill()
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  vector<int> vect(8);
+
+  // calling fill to initialize values in the
+  // range to 4
+  fill(vect.begin() + 2, vect.end() - 1, 4);
+
+  for (int i=0; i<vect.size(); i++)
+    cout << vect[i] << " ";
+
+  return 0;
+}
+
+Output : 
+
+0 0 4 4 4 4 4 0
+

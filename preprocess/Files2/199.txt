@@ -1,0 +1,9 @@
+given number n check n fibonacci number 
+strongli recommend click practic move solut 
+simpl way gener fibonacci number gener number greater equal n 
+follow interest properti fibonacci number also use check given number fibonacci 
+number fibonacci one 5 n2 4 5 n2 4 perfect squar sourc wiki 
+follow simpl program base concept 
+c program check x perfect squar includ iostream includ math h use namespac std util function return true x perfect squar bool isperfectsquar int x int sqrt x return x return true n fibinacci number els fals bool isfibonacci int n n fibinacci one 5 n n 4 5 n n 4 perferct squar return isperfectsquar 5 n n 4 isperfectsquar 5 n n 4 util function test function int main int 1 10 isfibonacci 
+cout fibonacci number n cout fibonacci number n return 0 output 1 fibonacci number 2 fibonacci number 3 fibonacci number 4 fibonacci number 5 fibonacci number 6 fibonacci number 7 fibonacci number 8 fibonacci number 9 fibonacci number 10 fibonacci number articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,22 @@
+hello geek last month appear internship interview amazon 
+person experi say never tri jump right solut straight away instead take time think progress possibl solut given problem 
+check boundari test case care also remain complet blank convers interview keep tell tent solut come mind 
+entir process consist 3 round 1 onlin round 
+2 
+1st telephon interview 3 
+2nd telephon interview round 1 onlin round consist 20 multipl choic question c languag oper system data structur algorithm softwar develop concept 2 code question 1 given 2 link list construct anoth link list contain sum 2 link list 
+e g given 1 2 3 4 5 6 an 5 7 9 2 find vertic sum given binari tree 
+round 2 telephon durat telephon convers 60 minut interview ask 2 code question 1 given array well number find whether possibl convert 0 ad subtract oper element 
+e g arr 1 2 3 ye 1 2 3 arr 3 6 2 3 6 2 0 3 6 2 0 3 6 2 0 3 6 2 0 3 6 2 0 3 6 2 0 3 6 2 0 3 6 2 0 henc an 2 given binari tree structur node contain extra next pointer initi null modifi binari tree node level get connect util given extra pointer 
+interview also ask write code 
+round 2 telephon durat telephon convers 90 minut interview ask 2 code question 1 write code find diamet given binari tree firstli gave solut complex n 2 ask optim final n 
+2 given number design algorithm find next greater number contain exactli digit 
+e g 
+n 123 next greater digit 132 number larg better consid sequenc charact 
+also ask write code 
+great time prepar interview got learn lot new concept 
+realli thank geeksforgeek primari sourc prepar believ guy websit awesom 
+ya forgot mention final got confirm offer internship amazon mani mani congratul author 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,160 @@
+
+
+Introduction
+This tutorial explains how to carry out a ajax request in Django web framework. We will create a simple post-liking app as a part of example.
+Glossary
+
+Project Initialization
+Create models
+Create views
+Write urls
+Carry out request with Jquery AJax.
+Register models to admin and add some posts.
+
+ Implementation:
+1. Initiate the Django Project – Here I am assuming that you are done with Django Installation.
+
+To Create a Django Project execute:
+
+
+
+After creating a project we need to create a django app. To create an app say “post” execute the following:
+Go to django_example/settings.py add the post app
+Now you will have files something like this:
+
+
+2. Create models: To create models, go to post directory and open models.py .
+
+In models.py, first create post table. To create post table you’ll need to write:
+
+    class Post(models.Model):
+        post_heading = models.CharField(max_length=200)
+        post_text = models.TextField()
+            def __unicode__(self):      # If python2 use __str__ if python3
+                 return unicode(self.user)
+
+
+Then In models.py, create like table. To create like table you’ll need to write:
+
+    class Like(models.Model):
+        post = models.ForeignKey(Post)
+
+
+Make Migration and migrate step:
+
+After completing this steps, we have our database tables ready to use.
+3. Create Views:
+To create views, we need to go to post directory and open views.py
+
+First, import Previously created Models and HTTPresponse
+
+      from .models import Post, Like
+      from django.http import HttpResponse
+
+
+Create index view to render all the posts. Code sample:
+
+    def index(request):
+        posts = Post.objects.all()  # Getting all the posts from database
+        return render(request, 'post/index.html', { 'posts': posts })
+
+
+Create likePost view to like a post. This view will be called when we will hit a “like button”. Code sample:
+
+    def likePost(request):
+        if request.method == 'GET':
+               post_id = request.GET['post_id']
+               likedpost = Post.obejcts.get(pk=post_id) #getting the liked posts
+               m = Like(post=likedpost) # Creating Like Object
+               m.save()  # saving it to store in database
+               return HttpResponse("Success!") # Sending an success response
+        else:
+               return HttpResponse("Request method is not a GET")
+
+Once our view get created we will move to write template and jQuery to perform ajax request.
+4. Create URLs:
+To create urls, open django_example/urls.py. Your django_example/urls.py should look something like this:
+from django.conf.urls import include, url
+from django.contrib import admin
+urlpatterns = [
+     url(r'^admin/', include(admin.site.urls)),
+     url(r'^', include('post.urls')),   # To make post app available at /
+   ]
+
+To create urls, create file post/urls.py. Your post/urls.py should look something like this:
+from django.conf.urls import url
+from . import views
+urlpatterns = [
+        url(r'^/$', views.index, name='index'),  # index view at /
+        url(r'^likepost/$', views.likePost, name='likepost'),   # likepost view at /likepost
+   ]
+
+5. Making templates and carrying out ajax request:
+
+Create a file post/templates/post/index.html. Code sample:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Like Post App</title>
+</head>
+<body>
+    <p id="message"></p>
+    {% for post in posts %}
+    <h3>{{ forloop.counter }}) {{ post.post_heading }}</h3>
+    <p>{{ post.post_text }} </p>
+    <a class="likebutton" id="like{{post.id}}" href="#" data-catid="{{ post.id }}">Like</a>
+    {% endfor %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $('.likebutton').click(function(){
+    var catid;
+    catid = $(this).attr("data-catid");
+    $.ajax(
+    {
+        type:"GET",
+        url: "/likepost",
+        data:{
+                 post_id: catid
+        },
+        success: function( data ) 
+        {
+            $( '#like'+ catid ).remove();
+            $( '#message' ).text(data);
+        }
+     })
+});
+</script>
+</body>
+</html>
+Basically, what we are doing here is - we are making an ajax get request -> /likepost?post_id=<id_of_liked_post>
+
+6. To Register models to admin and add some posts:
+
+Open post/admin.py.
+Import Models to admin.py.
+
+from .models import Post, Like
+
+Register your models:
+
+admin.site.register(Post)
+admin.site.register(Like)
+
+Now add some posts using django default admin portal. Visit http://localhost:8000/ to view and like posts. I also have added this sample app to my github which you may use for reference.
+References:
+
+https://docs.djangoproject.com/en/1.9/intro/tutorial01/
+
+Happy  Djangoing !!!
+This blog is written by Anshul Singhal. If you also wish to showcase your blog here, please see GBlog for guest blog writing on GeeksforGeeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

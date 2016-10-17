@@ -1,0 +1,22 @@
+
+Predict the output of below C programs. 
+Question 1
+
+#include<stdio.h>
+int main()
+{
+   int a;
+   char *x;
+   x = (char *) &a;
+   a = 512;
+   x[0] = 1;
+   x[1] = 2;
+   printf("%d\n",a);
+
+   getchar();
+   return 0;
+} 
+
+Answer: The output is dependent on endianness of a machine. Output is 513 in a little endian machine and 258 in a big endian machine.
+Let integers are stored using 16 bits. In a little endian machine, when we do x[0] = 1 and x[1] = 2, the number a is changed to 00000001 00000010 which is representation of 513 in a little endian machine. The output would be same for 32 bit numbers also.
+In a big endian machine, when we do x[0] = 1 and x[1] = 2, the number is changed to 00000001 00000010 which is representation of 258 in a big endian machine.

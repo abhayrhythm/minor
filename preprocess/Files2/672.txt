@@ -1,0 +1,39 @@
+1 written round 20 mcq simpl data structur network dbm math 
+2 code question 
+interv merg problem 
+http www geeksforgeek org merg interv b find diamet print path binari tree one end 
+one diamet print one lexicograph small 
+2 technic interview 1 discuss second problem written round 
+ask code 
+b implement circular queue use 1 array 
+handl case like condit full empti 
+write push pop isempti function 
+c given three array 
+find pair two array sum element third array 
+3 technic interview 2 given preorder inord travers binari tree 
+construct tree 
+b said tree binari search tree solv 
+ask optim much possibl 4 technic interview 3 ask project 
+ask problem 
+ask solv problem 
+b file secondari storag consist name address phone mani detail 
+sort file basi phone 
+constraint low memori 
+bring content file main memori 
+use index solv problem 
+gave k way merg approach 
+ask differ way 
+gave hint bst 
+told write code 
+5 technic interview 4 infinit number come 
+devic algorithm get minimum time 
+solv use two stack 
+ask write proper code handl corner case 
+b given mark class bst 
+subtract 5 mark even rank student 
+ask code 
+c question os thread 
+mani question rememb 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

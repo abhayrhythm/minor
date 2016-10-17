@@ -1,0 +1,27 @@
+reservoir sampl famili random algorithm randomli choos k sampl list n item n either larg unknown number 
+typic n larg enough list fit main memori 
+exampl list search queri googl facebook 
+given big array stream number simplifi need write effici function randomli select k number 1 k n let input array stream 
+simpl solut creat array reservoir maximum size k one one randomli select item stream 0 n 1 
+select item previous select put reservoir 
+check item previous select need search item reservoir 
+time complex algorithm k 2 
+costli k big 
+also effici input form stream 
+solv n time 
+solut also suit well input form stream 
+idea similar post 
+follow step 
+1 creat array reservoir 0 k 1 copi first k item stream 
+2 one one consid item k 1 th item nth item 
+gener random number 0 index current item stream 
+let gener random number j 
+b j rang 0 k 1 replac reservoir j arr follow c implement algorithm 
+effici program randomli select k item stream item includ stdio h includ stdlib h includ time h util function print array void printarray int stream int n int 0 n printf stream printf n function randomli select k item stream 0 n 1 
+void selectkitem int stream int n int k int index element stream reservoir output array 
+initi first k element stream int reservoir k 0 k reservoir stream use differ seed valu get result time run program srand time null iter k 1 th element nth element n pick random index 0 int j rand 1 randomli pick index smaller k replac element present index new element stream j k reservoir j stream printf follow k randomli select item n printarray reservoir k driver program test function 
+int main int stream 1 2 3 4 5 6 7 8 9 10 11 12 int n sizeof stream sizeof stream 0 int k 5 selectkitem stream n k return 0 output follow k randomli select item 6 2 11 8 12 time complex n work 
+prove solut work perfectli must prove probabl item stream 0 n final reservoir k n 
+let us divid proof two case first k item treat differ 
+case 1 last n k stream item e stream k n everi stream item stream pick random index 0 pick index one first k index replac element pick index stream simplifi proof let us first consid last item 
+probabl last item final reservoir probabl one first k 

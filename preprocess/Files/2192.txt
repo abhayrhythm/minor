@@ -1,0 +1,59 @@
+
+Given a positive integer n, count the total number of set bits in binary representation of all numbers from 1 to n.  
+Examples:
+
+Input: n = 3
+Output:  4
+
+Input: n = 6
+Output: 9
+
+Input: n = 7
+Output: 12
+
+Input: n = 8
+Output: 13
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+Source: Amazon Interview Question 
+Method 1 (Simple)
+A simple solution is to run a loop from 1 to n and sum the count of set bits in all numbers from 1 to n.
+
+// A simple program to count set bits in all numbers from 1 to n.
+#include <stdio.h>
+
+// A utility function to count set bits in a number x
+unsigned int countSetBitsUtil(unsigned int x);
+
+// Returns count of set bits present in all numbers from 1 to n
+unsigned int countSetBits(unsigned int n)
+{
+    int bitCount = 0; // initialize the result
+
+    for(int i = 1; i <= n; i++)
+       bitCount += countSetBitsUtil(i);
+
+    return bitCount;
+}
+
+// A utility function to count set bits in a number x
+unsigned int countSetBitsUtil(unsigned int x)
+{
+    if (x <= 0)
+        return 0;
+    return (x %2 == 0? 0: 1) + countSetBitsUtil (x/2);
+}
+
+// Driver program to test above functions
+int main()
+{
+   int n = 4;
+   printf ("Total set bit count is %d", countSetBits(n));
+   return 0;
+}
+
+Output:
+Total set bit count is 5
+Time Complexity: O(nLogn) 

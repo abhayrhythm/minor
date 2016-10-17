@@ -1,0 +1,149 @@
+
+Given an array of distinct elements, find third largest element in it.
+Example :
+
+Input  : arr[] = {1, 14, 2, 16, 10, 20}
+Output : The third Largest element is 14 
+
+Input  : arr[] = {19, -10, 20, 14, 2, 16, 10}
+Output : The third Largest element is 16
+
+
+Method 1 (Simple) Simplest way to solve this question is to first iterate through the array and find first maximum. Store this first maximum as well as its index. Now traverse the whole array finding the second max with the changed condition. Finally traverse the array third time and find the third largest element.
+
+// C program to find third Largest element in an array
+// of distinct elements
+#include <bits/stdc++.h>
+
+void thirdLargest(int arr[], int arr_size)
+{
+    /* There should be atleast three elements */
+    if (arr_size < 3)
+    {
+        printf(" Invalid Input ");
+        return;
+    }
+
+    // Find first largest element
+    int first = arr[0];
+    for (int i = 1; i < arr_size ; i++)
+        if (arr[i] > first)
+            first = arr[i];
+
+    // Find second largest element
+    int second = INT_MIN;
+    for (int i = 0; i < arr_size ; i++)
+        if (arr[i] > second && arr[i] < first)
+            second = arr[i];
+
+    // Find third largest element
+    int third = INT_MIN;
+    for (int i = 0; i < arr_size ; i++)
+        if (arr[i] > third && arr[i] < second)
+            third = arr[i];
+
+    printf("The third Largest element is %d\n", third);
+}
+
+/* Driver program to test above function */
+int main()
+{
+    int arr[] = {12, 13, 1, 10, 34, 16};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    thirdLargest(arr, n);
+    return 0;
+}
+
+Output :
+The third Largest element is 13
+Method 2 In this method, we  need not to iterate array three times. We can find third largest in one traversal only.
+
+Initialize first = a[0] and second = -INF, third = -INF
+Iterate the array and compare each element with first.
+
+If a[i] is greater than first then update all first, second and third:
+third = second
+second = first
+first = arr[i]
+Else compare arr[i] with second, if its greater than second, then update:
+third = second
+second = arr[i]
+Else compare arr[i] with third, if its greater than third, then update:
+third = arr[i]
+
+
+Return third
+
+
+// C program to find third Largest element in an array
+#include <bits/stdc++.h>
+
+void thirdLargest(int arr[], int arr_size)
+{
+    /* There should be atleast three elements */
+    if (arr_size < 3)
+    {
+        printf(" Invalid Input ");
+        return;
+    }
+
+    // Initialize first, second and third Largest element
+    int first = arr[0], second = INT_MIN, third = INT_MIN;
+
+    // Traverse array elements to find the third Largest
+    for (int i = 1; i < arr_size ; i ++)
+    {
+        /* If current element is greater than first,
+           then update first, second and third */
+        if (arr[i] > first)
+        {
+            third  = second;
+            second = first;
+            first  = arr[i];
+        }
+
+        /* If arr[i] is in between first and second */
+        else if (arr[i] > second)
+        {
+            third = second;
+            second = arr[i];
+        }
+
+        /* If arr[i] is in between second and third */
+        else if (arr[i] > third)
+            third = arr[i];
+    }
+
+    printf("The third Largest element is %d\n", third);
+}
+
+/* Driver program to test above function */
+int main()
+{
+    int arr[] = {12, 13, 1, 10, 34, 16};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    thirdLargest(arr, n);
+    return 0;
+}
+
+Output :
+The third Largest element is 13
+Exercise : 
+Extend the above solution to find third largest when array may have duplicates. For example, if the input array is {10, 5, 15, 5, 15, 10, 1, 1}, then output should be 5. The extended solution should also work in one traversal.
+Related Articles:
+
+Find the smallest and second smallest element in an array
+k largest(or smallest) elements in an array
+K’th Smallest/Largest Element in Unsorted Array | Set 3 (Worst Case Linear Time)
+
+This article is contributed by Vidhi Jindal. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

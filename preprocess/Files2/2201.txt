@@ -1,0 +1,5 @@
+given integ x write function multipli x 3 5 return integ result 
+allow use 
+exampl input 2 output 7 input 5 output 17 ignor digit decim point solut 1 get x 3 5 ad 2 x x x 2 
+calcul 2 x left shift x 1 calcul x 2 right shift x 2 
+includ stdio h int multiplywith3point5 int x return x 1 x x 1 driver program test function int main int x 4 printf multiplywith3point5 x getchar return 0 

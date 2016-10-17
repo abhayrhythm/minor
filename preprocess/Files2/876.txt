@@ -1,0 +1,8 @@
+c given string variabl str follow two prefer print stdout 
+1 put str 2 printf str put prefer print string gener less expens implement put gener simpler printf string format charact like printf would give unexpect result 
+also str user input string use printf might caus secur issu see detail 
+also note put move cursor next line 
+want cursor move next line use follow variat put 
+fput str stdout tri follow program test discuss differ put printf 
+program 1 includ stdio h int main put geeksfor put geek getchar return 0 program 2 includ stdio h int main fput geeksfor stdout fput geek stdout getchar return 0 program 3 includ stdio h int main intent put show side effect use printf str printf geek sforgeek getchar return 0 program 4 includ stdio h int main put geek sforgeek getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

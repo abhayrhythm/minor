@@ -1,0 +1,8 @@
+problem creat class non dynam alloc object caus compil error 
+exampl creat class test follow rule 
+test t1 gener compil error test t3 new test work fine idea creat privat destructor class 
+make privat destructor compil would gener compil error non dynam alloc object compil need remov stack segment use 
+sinc compil respons dealloc dynam alloc object programm explicitli dealloc compil problem 
+avoid memori leak creat friend function destructtest call user class destroy object 
+includ iostream use namespac std class whose object dynam creat class test privat test cout destroy object n public test cout object creat n friend void destructtest test function destruct object test void destructtest test ptr delet ptr cout object destroy n int main uncom follow follow line would caus compil error test t1 creat object test ptr new test destruct object avoid memori leak destructtest ptr return 0 output object creat destroy object object destroy want creat friend function also overload delet delet oper test way call specif function delet dynam alloc object 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

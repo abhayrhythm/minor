@@ -1,0 +1,28 @@
+vertex cover undirect graph subset vertic everi edg u v graph either u v vertex cover 
+although name vertex cover set cover edg given graph 
+given undirect graph vertex cover problem find minimum size vertex cover 
+follow exampl 
+vertex cover problem known np complet problem e polynomi time solut unless p np 
+approxim polynomi time algorithm solv problem though 
+follow simpl approxim algorithm adapt clr book 
+approxim algorithm vertex cover 1 initi result 2 consid set edg given graph 
+let set e 3 follow e empti pick arbitrari edg u v set e add u v result b remov edg e either incid u v 4 return result follow diagram taken clr book show execut approxim algorithm 
+well algorithm perform 
+prove approxim algorithm never find vertex cover whose size twice size minimum possibl vertex cover refer proof implement follow c java implement approxim algorithm 
+c program print vertex cover given undirect graph includ iostream includ list use namespac std class repres undirect graph use adjac list class graph int v 
+vertic list int adj pointer array contain adjac list public graph int v constructor void addedg int v int w function add edg graph void printvertexcov print vertex cover graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+adj w push_back v sinc graph undirect function print vertex cover void graph printvertexcov initi vertic visit 
+bool visit v int 0 v visit fals list int iter consid edg one one int u 0 u v u edg pick visit u visit v fals visit u fals go adjac u pick first yet visit vertex basic pick edg u v remain edg 
+adj u begin adj u end int v visit v fals add vertic u v result set 
+make vertex u v visit edg would ignor visit v true visit u true break print vertex cover int 0 v visit cout driver program test method graph class int main creat graph given diagram graph g 7 g addedg 0 1 g addedg 0 2 g addedg 1 3 g addedg 3 4 g addedg 4 5 g addedg 5 6 g printvertexcov return 0 java java program print vertex cover given undirect graph import java io 
+import java util 
+import java util linkedlist class repres undirect graph use adjac list class graph privat int v 
+vertic array list adjac list represent privat linkedlist integ adj constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w add w v list 
+adj w add v graph undirect function print vertex cover void printvertexcov initi vertic visit 
+boolean visit new boolean v int 0 v visit fals iter integ consid edg one one int u 0 u v u edg pick visit u visit v fals visit u fals go adjac u pick first yet visit vertex basic pick edg u v remain edg 
+adj u iter hasnext int v next visit v fals add vertic u v result set 
+make vertex u v visit edg would ignor visit v true visit u true break print vertex cover int j 0 j v j visit j system print j driver method public static void main string arg creat graph given diagram graph g new graph 7 g addedg 0 1 g addedg 0 2 g addedg 1 3 g addedg 3 4 g addedg 4 5 g addedg 5 6 g printvertexcov code contribut aakash hasija output 0 1 3 4 5 6 time complex algorithm v e 
+exact algorithm although problem np complet solv polynomi time follow type graph 
+1 bipartit graph 2 tree graph problem check whether vertex cover size smaller equal given number k also solv polynomi time k bound logv refer soon discuss exact algorithm vertex cover 
+articl contribut shubham 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

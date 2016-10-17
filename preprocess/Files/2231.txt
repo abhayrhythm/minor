@@ -1,0 +1,104 @@
+
+Change gender of string i.e toggle all the gender-specific words in the input string.
+Examples:
+
+Input:  “she is my sister” 
+Output:  “he is my brother”.
+There are two gender-specific words in this
+sentence:“she” and “sister”. After toggling
+gender specific words to their respective 
+counterparts - “he” and “brother” :
+Gender specific words of the string are now 
+changed.
+
+Algorithm:
+
+Maintain a hash-map which maps all the “female” words to the “male” words and all the “male” words to “female” ones. 
+Then for each word in the string, we check whether this is a gender-specific word or not. If it is then we swap this word with its counterpart word. Else we don’t swap this word.
+ All the words gets concatenated in a new string, which at the end is printed and is our required string.
+
+
+// A C++ Program to change the gender of a string
+#include<bits/stdc++.h>
+using namespace std;
+
+// A Funtion that returns the new string with gender
+// changed
+string changeGender(string str)
+{
+    // A Dictionary to store the mapping of genders
+    // The user can add his words too.
+    unordered_multimap <string, string> dictionary =
+    {
+      {"batman", "batwoman"}, {"batwoman", "batman"},
+      {"boy", "girl"}, {"girl", "boy"},
+      {"boyfriend", "girlfriend"}, {"girlfriend", "boyfriend"},
+      {"father", "mother"}, {"mother", "father"},
+      {"husband", "wife"}, {"wife", "husband"},
+      {"he", "she"}, {"she", "he"},
+      {"his", "her"}, {"her", "his"},
+      {"male", "female"}, {"female", "male"},
+      {"man", "woman"}, {"woman", "man"},
+      {"Mr", "Ms"}, {"Mr", "Ms"},
+      {"sir", "madam"}, {"madam", "sir"},
+      {"son", "daughter"}, {"daughter", "son"},
+      {"uncle", "aunt"}, {"aunt", "uncle"},
+    };
+
+    str = str + ' '; // Append a space at the end
+
+    int n = str.length();
+
+    // 'temp' string will hold the intermediate words
+    // and 'ans' string will be our result
+    string temp = "", ans = "";
+
+    for (int i=0; i<=n-1; i++)
+    {
+        if (str[i] != ' ')
+            temp.push_back(str[i]);
+        else
+        {
+            // If this is a 'male' or a 'female' word then
+            // swap this with its counterpart
+            if (dictionary.find(temp) != dictionary.end())
+                temp = dictionary.find(temp)->second;
+
+            ans = ans + temp + ' ';
+            temp.clear();
+        }
+    }
+
+    return(ans);
+}
+
+// Driver Program to test above functions
+int main()
+{
+    string str = "she is going to watch movie with"
+                " her boyfriend";
+
+    cout << changeGender(str);
+
+    return (0);
+}
+
+Time Complexity: O(N^2), where N is the length of the string, as the ‘+’/ ‘append’ operator of the string can take upto O(N) time and assuming that lookup in the dictionary takes O(1) worse case time.
+Auxiliary Space: Apart from the dictionary that maps all the words to its counterpart, we declare O(N) space for the new string, where N is the length of input string.
+Scope for Improvement: 
+
+We can add more words and their counterparts in the dictionary to increase the accuracy of the program. For example, we can add – “actor , actress” , “god , goddess” to our dictionary.
+ A text file of words of all female and male words can also be imported. 
+The program can be modified to become case insensitive. 
+
+This article is contributed by Rachit Belwariar . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

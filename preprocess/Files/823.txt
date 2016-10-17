@@ -1,0 +1,20 @@
+
+Aim : As internet activities have incremented a lot now a days. The possibility of illegal access of private data is also increased. The aim of this project is to filter the network activities and to decide which are illegal of them. The process is similar to spam filtering from emails.
+Tool : This project is based on Machine learning algorithms where we will make a classifier which will take some test network inputs and learn from them, the learning procedure will extract the features of specific inputs and stores them for detection of upcoming Inputs. We can use Matlab or Octave tool for this project because the algorithms used are difficult to implement in languages like c++ or Java, but we can use R language for some modules.
+Implementation : We can use perceptron algorithms for making the classifier. They come under the category of supervised learning. For implementing the detector we will feed all types of malicious activities to the classifier one by one then all those characteristics which signifies the illegal activity will be stored in our classifier then this detail can be compared with the neutral activities for differentiation between general and malicious access.
+Research area and further work : Research area includes Natural language processing , Artificial Intelligence and Machine learning. A lot of research is going on in building such classifier to reduce the cyber crime. After implementation of such classifier they can be used to analyse the network activities as well as object detection and recognition (using different data inputs).  Currently similar efforts are being done in recognizing psychological disorders. 
+You can refer these papers and links for more information about concrete implementation of classifier and ongoing research –
+https://en.wikipedia.org/wiki/Perceptron
+http://nms.lcs.mit.edu/papers/thesis-final.pdf
+http://infoscience.epfl.ch/record/141022/files/pdm.pdf
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.375.4564&rep=rep1&type=pdf
+This article is contributed by Utkarsh Trivedi. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

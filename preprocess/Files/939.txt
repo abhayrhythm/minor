@@ -1,0 +1,19 @@
+
+It is compiler dependent in C. It is never safe to depend on the order of evaluation of side effects. For example, a function call like below may very well behave differently from one compiler to another:
+
+   void func (int, int);
+     
+   int i = 2;
+   func (i++, i++);
+
+There is no guarantee (in either the C or the C++ standard language definitions) that the increments will be evaluated in any particular order. Either increment might happen first. func might get the arguments `2, 3′, or it might get `3, 2′, or even `2, 2′. 
+Source: http://gcc.gnu.org/onlinedocs/gcc/Non_002dbugs.html
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

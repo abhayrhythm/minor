@@ -1,0 +1,18 @@
+given array integ replac everi element least greater element right side array 
+greater element right side replac 1 exampl input 8 58 71 18 31 32 63 92 43 3 91 93 25 80 28 output 18 63 80 25 32 43 80 93 80 25 93 1 28 1 1 naiv method run two loop 
+outer loop one one pick array element left right 
+inner loop find smallest element greater pick element right side 
+final outer loop replac pick element element found inner loop 
+time complex method n2 
+tricki solut would use binari search tree 
+start scan array right left insert element bst 
+insert element replac array inord successor bst 
+element insert maximum far e 
+inord successor exist replac 1 c implement idea c program replac everi element least greater element right includ iostream use namespac std binari tree node struct node int data node left right util function creat new bst node node newnod int item node temp new node temp data item temp left temp right null return temp util function insert new node given data bst find successor void insert node node int data node succ tree empti return new node node null node newnod data key smaller root key go left subtre set successor current node data node data succ node insert node left data succ go right subtre els data node data insert node right data succ function replac everi element least greater element right void replac int arr int n node root null start right left int n 1 0 node succ null insert current element bst find inord successor insert root arr succ replac element inord successor bst succ arr succ data els inord successor arr 1 driver program test function int main int arr 8 58 71 18 31 32 63 92 43 3 91 93 25 80 28 int n sizeof arr sizeof arr 0 replac arr n int 0 n cout arr return 0 output 18 63 80 25 32 43 80 93 80 25 93 1 28 1 1 worst case time complex solut also n2 use bst 
+worst case happen array sort ascend descend order 
+complex easili reduc nlogn use balanc tree like red black tree 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

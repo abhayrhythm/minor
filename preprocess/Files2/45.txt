@@ -1,0 +1,17 @@
+follow simpl recurs binari search function c taken 
+recurs binari search function 
+return locat x given array arr l r present otherwis 1 int binarysearch int arr int l int r int x r l int mid l r l 2 element present middl arr mid x return mid element smaller mid present left subarray arr mid x return binarysearch arr l mid 1 x els element present right subarray return binarysearch arr mid 1 r x reach element present array return 1 follow simpl recurs ternari search function c 
+recurs ternari search function 
+return locat x given array arr l r present otherwis 1 int ternarysearch int arr int l int r int x r l int mid1 l r l 3 int mid2 mid1 r l 3 x present mid1 arr mid1 x return mid1 x present mid2 arr mid2 x return mid2 x present left one third arr mid1 x return ternarysearch arr l mid1 1 x x present right one third arr mid2 x return ternarysearch arr mid2 1 r x x present middl one third return ternarysearch arr mid1 1 mid2 1 x reach element present array return 1 two less comparison worst case 
+first look seem ternari search less number comparison make log3n recurs call binari search make log2n recurs call 
+let us take closer look 
+follow recurs formula count comparison worst case binari search 
+n n 2 2 1 1 follow recurs formula count comparison worst case ternari search 
+n n 3 4 1 1 binari search 2log2n 1 comparison worst case 
+ternari search 4log3n 1 comparison worst case 
+therefor comparison ternari binari search boil comparison express 2log3n log2n 
+valu 2log3n written 2 log23 log2n 
+sinc valu 2 log23 one ternari search comparison binari search worst case 
+exercis merg sort divid input array two halv three part 
+articl contribut anmol 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

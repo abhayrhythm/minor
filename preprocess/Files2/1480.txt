@@ -1,0 +1,19 @@
+given array arr 0 n 1 distinct element rang low high find number rang array 
+miss element print sort order 
+exampl input arr 10 12 11 15 low 10 hight 15 output 13 14 input arr 1 14 11 51 15 low 50 hight 55 output 50 52 53 54 strongli recommend minim browser tri first 
+follow two approach solv problem 
+use sort sort array binari search low 
+locat low find start travers array locat keep print miss number 
+sort base c program find miss element array includ bit stdc h use namespac std print element rang low high present arr 0 n 1 void printmiss int arr int n int low int high sort array sort arr arr n binari search low sort array find index first element either equal greater low 
+int ptr lower_bound arr arr n low int index ptr arr start found index linearli search everi rang element x index arr int index x low n x high x math current element print arr x cout x x match move next element arr els move next element rang low high x print rang element thar greater last element sort array 
+x high cout x driver program int main int arr 1 3 5 4 int n sizeof arr sizeof arr 0 int low 1 high 10 printmiss arr n low high return 0 output 2 6 7 8 9 10 use hash creat hash tabl insert array item hash tabl 
+item hash tabl travers rang print miss element 
+hash base c program find miss element array includ bit stdc h use namespac std print element rang low high present arr 0 n 1 void printmiss int arr int n int low int high insert element arr set unordered_set int int 0 n insert arr travers throught rang print miss element int x low x high x find x end cout x driver program int main int arr 1 3 5 2 int n sizeof arr sizeof arr 0 int low 1 high 10 printmiss arr n low high return 0 output 2 6 7 8 9 10 approach better 
+time complex first approach nlogn k k number miss element note k may nlogn array small rang big time complex second solut n high low 1 
+given array almost element rang e n close valu high low 1 second approach definit better log n factor 
+n much smaller rang first approach better requir extra space hash 
+also modifi first approach print adjac miss element rang save time 
+exampl 50 51 52 53 54 59 miss print 50 54 59 first method 
+print way allow first approach take n log n time 
+articl contribut piyush gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

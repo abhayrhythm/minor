@@ -1,0 +1,14 @@
+two import header file use c program 
+stdio h header file standard input output stdlib h header file standard librari 
+one easi way differenti two header file stdio h contain declar printf scanf stdlib h contain declar malloc free 
+sens main differ two header file consid stdio h contain header inform file relat input output function stdlib h contain header inform memori alloc free function 
+wait minut said stdio h file relat io printf scanf deal file 
+basic principl c due associ unix histori keyboard display also treat file 
+fact keyboard input default stdin file stream display output default stdout file stream 
+also pleas note though stdlib h contain declar type function well relat memori atoi exit rand etc 
+yet purpos simplic rememb malloc free stdlib h 
+note header file contain function declar definit constant variabl well 
+even macro definit new data type also ad header file 
+pleas like tweet g 1 find use 
+also pleas leav us comment clarif info 
+would love help learn adsbygoogl window adsbygoogl push 

@@ -1,0 +1,38 @@
+given string sever queri substr given input string check whether substr palindrom 
+exampl suppos input string abaaabaaaba queri 0 10 5 8 2 5 5 9 tell substr start end indic palindrom 
+0 10 substr abaaabaaaba palindrom 
+5 8 substr baaa palindrom 
+2 5 substr aaab palindrom 
+5 9 substr baaab palindrom 
+let us assum q queri answer n length input string 
+follow two way answer queri method 1 naiv one one go substr queri check whether substr consider palindrom 
+sinc q queri queri take n wors case time answer method take q n time worst case 
+although place space effici algorithm still effici method 
+method 2 cumul hash idea similar rabin karp string match 
+use string hash 
+calcul cumul hash valu string origin string well revers string two array prefix suffix 
+calcul cumul hash valu 
+suppos string str cumul hash function fill prefix array use prefix 0 0 prefix str 0 str 1 101 str 2 1012 str 1 101i 1 exampl take string abaaabxyaba prefix 0 0 prefix 1 97 ascii valu 97 prefix 2 97 98 101 prefix 3 97 98 101 97 1012 prefix 11 97 98 101 97 1012 97 10110 reason store way easili find hash valu substr 1 time use hash l r prefix r 1 prefix l exampl hash 1 5 hash baaab prefix 6 prefix 1 98 101 97 1012 97 1013 97 1014 98 1015 1040184646587 use weird valu later explain happen 
+similar fill suffix array suffix 0 0 suffix str n 1 str n 2 101 str n 3 1012 str n 101i 1 exampl take string abaaabxyaba suffix 0 0 suffix 1 97 ascii valu 97 suffix 2 97 98 101 suffix 3 97 98 101 97 1012 suffix 11 97 98 101 97 1012 97 10110 reason store way easili find revers hash valu substr 1 time use reverse_hash l r hash r l suffix n l suffix n r 1 n length string 
+abaaabxyaba n 11 reverse_hash 1 5 reverse_hash baaab hash baaab revers baaab give baaab hash baaab suffix 11 1 suffix 11 5 1 suffix 10 suffix 5 98 1015 97 1016 97 1017 97 1018 98 1019 108242031437886501387 seem relat two weird integ 1040184646587 108242031437886501387 think 
+relat two massiv integ 
+ye observ core program articl 
+1040184646587 1014 108242031437886501387 tri think find substr start index l end index r inclus palindrom prefix r 1 prefix l 101l suffix n l suffix n r 1 101n r 1 rest part implement 
+function computerpow program comput power 101 use dynam program 
+overflow issu see hash valu revers hash valu becom huge even small string length 8 sinc c c provid support larg number caus overflow 
+avoid take modulo prime prime number chosen specif mathemat reason 
+choos biggest possibl prime fit integ valu 
+best valu 1000000007 henc oper done modulo 1000000007 howev java python issu implement without modulo oper 
+fundament modulo oper use extens program list 
+1 addit b b b c b c b c b c 
+
+2 multipl b b b c b c b c b c 
+
+properti use modpow function comput power number modulo 3 mixtur addit multipl x b c x b c 4 subtract b b correct b b wrong 5 divis b mmi b mmi function calcul modulo multipl invers 
+program implement function findmmi 
+c program answer queri check whether substr palindrom effici includ bit stdc h use namespac std defin p 101 defin mod 1000000007 structur repres queri 
+queri consist l r answer whether substr index l r palindrom struct queri int l r function check string str palindrom ranf l r bool ispalindrom string str int l int r keep compar charact r l str l str r return fals return true function find pow base expon mod log expon time unsign long long int modpow unsign long long int base unsign long long int expon expon 0 return 1 expon 1 return base unsign long long int temp modpow base expon 2 expon 2 0 return temp mod temp mod mod els return temp mod temp mod mod base mod mod function calcul modulo multipl invers n unsign long long int findmmi unsign long long int n return modpow n mod 2 function calcul prefix hash void computeprefixhash string str int n unsign long long int prefix unsign long long int power prefix 0 0 prefix 1 str 0 int 2 n prefix prefix 1 mod str 1 mod power 1 mod mod mod return function calcul suffix hash suffix hash noth prefix hash revers string void computesuffixhash string str int n unsign long long int suffix unsign long long int power suffix 0 0 suffix 1 str n 1 int n 2 j 2 0 j n j suffix j suffix j 1 mod str mod power j 1 mod mod mod return function answer queri void queryresult string str queri q int int n unsign long long int prefix unsign long long int suffix unsign long long int power int 0 1 int l q l int r q r hash valu substr l r unsign long long hash_lr prefix r 1 prefix l mod mod findmmi power l mod mod revers hash valu substr l r unsign long long reverse_hash_lr suffix n l suffix n r 1 mod mod findmmi power n r 1 mod mod equal substr palindrom hash_lr reverse_hash_lr ispalindrom str l r true printf substr palindrom n l r els printf substr palindrom n l r els printf substr palindrom n l r return dynam program base approach comput power 101 void computepow unsign long long int power int n 101 0 1 power 0 1 int 1 n power power 1 mod p mod mod return driver program test function int main string str abaaabaaaba int n str length tabl store power 101 unsign long long int power n 1 computepow power n array hold prefix suffix hash valu unsign long long int prefix n 1 suffix n 1 comput prefix hash suffix hash array computeprefixhash str n prefix power computesuffixhash str n suffix power queri q 0 10 5 8 2 5 5 9 int sizeof q sizeof q 0 queryresult str q n prefix suffix power return 0 output substr 0 10 palindrom substr 5 8 palindrom substr 2 5 palindrom substr 5 9 palindrom articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

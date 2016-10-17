@@ -1,0 +1,61 @@
+recent interview amazon com bangalor 
+interview experi written round 1 insert number correct posit sort circular link list 
+eg insert 25 10 20 30 40 50 10 p 10 20 25 30 40 50 10 b insert 60 10 20 30 40 50 10 p 10 20 25 30 40 50 60 10 2 convert binari search tree binari tree valu node tree equal sum node greater 
+3 clone binari tree random pointer 
+face face round 1 technic 1 hour 1 given array indic stock price day n day 
+given day could buy one stock 
+b sell number stock bought 
+c noth 
+find maximum possibl profit could achiev transact given price array n day 
+2 given n matrix led cell repres state led either 1 0 
+given cell posit state adjac 8 direct cell share state given cell toggl effect cascad 
+repres final state matrix 
+3 given deck n card iter top card remov push end second card remov deck 
+eg 1st iter 1st card ad end 2nd card remov 3rd card ad end 4th card remov 
+find last card remain 
+face face round 2 technic 1 30 hour 1 given boolean matrix everi row sort find row maximum number 1s 
+2 given paragraph two word b find minimum distanc occurr b 
+3 given two valid three letter dictionari word find minimum number step requir transform first word second word 
+follow transform rule singl step chang singl letter word 
+b transit result valid word 
+assum provid helper function boolean isvalid string word tell word valid 
+c must done minimum transit 
+exampl transform cat toy 
+one sever possibl transform cat car tar tor toy 4 sort link list altern ascend descend order 
+eg 10 60 30 40 50 20 10 20 30 40 50 60 5 find next greater element element unsort array 
+comput scienc fundament 1 explain happen background enter ls command unix shell 
+2 differ process thread 
+3 semaphor mutex 
+reader writer problem 
+explain solut code 
+4 differ tcp udp 
+question rememb 
+face face round 3 fa hire manag 1 hour 1 tell 
+2 want chang current compani 
+amazon 
+3 tell current project 
+role 
+tell architectur project 
+4 scan resum ask everyth mention 
+5 design question design autocomplet librari keyboard mobil devic follow task autosuggest word type inbuilt dictionari 
+b suggest word base previou input eg frequent type thank type thank librari suggest first result 
+ask tell data structur would use write class ethod librari 
+face face round 4 bar raiser 1 30 hour round taken two guy differ team bar raiser respect team 
+ask use whiteboard round 
+1 gave brief descript 
+2 tell 
+3 want chang current compani 
+amazon 
+4 tell current project 
+role 
+draw architectur project 
+5 one interview gave c code snippet ask piec code 
+problem see code 
+6 connect sibl node binari tree 
+follow question connect non sibl node well basic connect node level 
+cousin b write recurs solut 
+took long time come recurs solut question eventu solv 
+question ask write product level code 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

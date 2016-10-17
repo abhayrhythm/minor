@@ -1,0 +1,30 @@
+discuss iter inord iter preorder travers 
+post iter postord travers discuss complex two travers due natur non tail recurs extra statement final recurs call 
+postord travers easili done use two stack though 
+idea push revers postord travers stack 
+revers postord travers stack pop item one one stack print order print postord lifo properti stack 
+question get revers post order element stack stack use purpos 
+exampl follow tree need get 1 3 7 6 2 5 4 stack 
+take closer look sequenc observ sequenc similar preorder travers 
+differ right child visit left child therefor sequenc root right left instead root left right 
+someth like iter preorder travers follow differ 
+instead print item push stack 
+b push left subtre right subtre 
+follow complet algorithm 
+step 2 get revers postord travers second stack 
+use first stack get order 
+1 push root first stack 
+2 loop first stack empti 2 1 pop node first stack push second stack 2 2 push left right children pop node first stack 3 print content second stack let us consid follow tree follow step print postord travers tree use two stack 
+1 push 1 first stack 
+first stack 1 second stack empti 2 pop 1 first stack push second stack 
+push left right children 1 first stack first stack 2 3 second stack 1 3 pop 3 first stack push second stack 
+push left right children 3 first stack first stack 2 6 7 second stack 1 3 4 pop 7 first stack push second stack 
+first stack 2 6 second stack 1 3 7 5 pop 6 first stack push second stack 
+first stack 2 second stack 1 3 7 6 6 pop 2 first stack push second stack 
+push left right children 2 first stack first stack 4 5 second stack 1 3 7 6 2 7 pop 5 first stack push second stack 
+first stack 4 second stack 1 3 7 6 2 5 8 pop 4 first stack push second stack 
+first stack empti second stack 1 3 7 6 2 5 4 algorithm stop sinc item first stack 
+observ content second stack postord fashion 
+print 
+follow c implement iter postord travers use two stack 
+c includ stdio h includ stdlib h maximum stack size defin max_siz 100 tree node struct node int data struct node left right stack type struct stack int size int top struct node array util function creat new tree node struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node util function creat stack given size struct stack createstack int size struct stack stack struct stack malloc sizeof struct stack stack size size stack top 1 stack array struct node malloc stack size sizeof struct node return stack basic oper stack int isful struct stack stack return stack top 1 stack size int isempti struct stack stack return stack top 1 void push struct stack stack struct node node isful stack return stack array stack top node struct node pop struct stack stack isempti stack return null return stack array stack top iter function post order travers given binari tree void postorderit struct node root root null return creat two stack struct stack s1 createstack max_siz struct stack s2 createstack max_siz push root first stack push s1 root struct node node run first stack empti isempti s1 pop item s1 push s2 node pop s1 push s2 node push left right children remov item s1 node left push s1 node left node right push s1 node right print element second stack isempti s2 node pop s2 printf node data driver program test function int main let us construct tree shown figur struct node root null root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 postorderit root return 0 

@@ -1,0 +1,49 @@
+
+The project is based upon the web based UML designing. The main reason for selecting this topic was that now a day there is boom of internet users who wants to complete their work in less time and more efficient manner. The main objective of this tool is to provide a good quality online tool with the help of which one can draw  UML designs in optimal time. The drag and drop facility gives the great power to users.
+Core Functionality
+
+User module
+
+Registration: To use the features of the tool users has to register
+ Login: With the help of correct username and password users will login
+View old design: With the help of this functionality user can see his previous diagrams and save it in his system.
+
+
+Drawing module: This module will provide the facility to the user to draw the related diagrams with the help of different tools provided with it. The tools will contain different shapes and lines which will use in designing of the diagrams. User can simply drag and drop the symbols to the drawing area. Tool for different diagrams is categorized as below:
+
+Tool for class diagram
+Tool for Use case diagram
+Tool for sequence diagram
+Tool for ERD
+Tool for flow chart
+
+
+Customization module: This tool will provide following functionality to the users:
+
+Change the font: User can change the font face and it’s size as for their requirement.
+Resize: Through this facility users will change the size of different shapes used in the diagram.
+Style: User will have facility to make the symbols 3D.
+Change color: User will change the color of the different symbol.
+
+
+ Archive: Through this facility user will save their diagram directly to his system.
+Save as facility: This will help the user to save their diagram to the server in the form of pdf or image.
+
+Enhanced functionality
+Generation of class diagram: Here user will fill the form with full specification of his class like name of the classes, its attributes and methods. He has to mention what are the parent class and other details of the class. After clicking the generate button all his information will pass through the server. The tool will draw class diagram as the output. User will have facility to save it.
+Special Functionality
+Template edition: Developer will provide some predefined class diagrams template for different topic like hotel management system. Users have facility to edit the template as for their need and save it.
+Video recording: User will record their design process for future purpose.
+Language used:
+PHP as server side,Actionscript as client side, MySQL as DBMS
+This project idea is contributed by Mohit Kumar. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+ 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

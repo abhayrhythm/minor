@@ -1,0 +1,9 @@
+predict output follow c program 
+includ stdio h fun int x return x x int main void printf fun 10 return 0 output 100 import thing note return type fun program still compil run fine c compil 
+c specifi return type compil assum implicit return type int 
+howev c99 standard allow return type omit even return type int 
+allow older c standard c89 
+c program valid except old c compil like turbo c 
+everi function specifi return type c 
+articl contribut pravasi meet 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

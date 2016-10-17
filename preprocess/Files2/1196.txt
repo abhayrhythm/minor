@@ -1,0 +1,14 @@
+given screen contain alphabet z go one charact anoth charact use remot 
+remot contain left right top bottom key 
+remot find shortest possibl path type charact given string use remot 
+initi posit top left charact input string print order 
+screen b c e f g h j k l n p q r u v w x z exampl input geek output move move right press ok move move right move right move right press ok press ok move left move left move left move left move move press ok strongli recommend minim browser tri first 
+idea consid screen 2d matrix charact 
+consid charact given string one one print shortest path current charact next charact matrix 
+order find shortest path consid coordin current charact next charact matrix 
+base differ x valu current next charact coordin move left right top bottom 
+e 
+row differ neg move row differ posit move column differ neg go left column differ posit go right c implement idea c program print shortest possibl path type charact given string use remot includ iostream use namespac std function print shortest possibl path type charact given string use remot void printpath string str int 0 start charcat present posit 0 0 int curx 0 curi 0 str length find cordin next charact int nextx str 5 int nexti str b 1 5 move destin curx nextx cout move endl curx move left destin left curi nexti cout move left endl curi move destin curx nextx cout move endl curx move right destin right curi nexti cout move right endl curi point destin reach cout press ok endl driver code int main string str cozi printpath str return 0 output move right move right press ok move move move right move right press ok move left move left move left move left move move move press ok move move right move right move right move right press ok articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

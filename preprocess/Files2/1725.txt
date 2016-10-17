@@ -1,0 +1,26 @@
+given graph sourc vertex graph find shortest path sourc vertic given graph 
+input sourc 0 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 discuss dijkstra shortest path implement 
+dijkstra algorithm adjac matrix represent c c time complex v2 dijkstra algorithm adjac list represent c time complex elogv dijkstra shortest path algorithm use set stl c time complex elogv second implement time complex wise better realli complex implement prioriti queue 
+third implement simpler use stl 
+issu third implement use set turn use self balanc binari search tree 
+dijkstra algorithm alway recommend use heap prioriti queue requir oper extract minimum decreas key match special heap prioriti queue 
+howev problem priority_queu support decreas key 
+resolv problem updat key insert one copi 
+allow multipl instanc vertex prioriti queue 
+approach requir decreas key oper import properti 
+whenev distanc vertex reduc add one instanc vertex priority_queu 
+even multipl instanc consid instanc minimum distanc ignor instanc 
+time complex remain elogv e vertic prioriti queue log e log v algorithm base idea 
+1 initi distanc vertic infinit 
+2 creat empti priority_queu pq 
+everi item pq pair weight vertex 
+weight distanc use use first item pair first item default use compar two pair 3 insert sourc vertex pq make distanc 0 
+4 either pq becom empti extract minimum distanc vertex pq 
+let extract vertex u b loop adjac u follow everi vertex v shorter path v u dist v dist u weight u v updat distanc v e dist v dist u weight u v ii insert v pq even v alreadi 5 print distanc array dist print shortest path 
+c implement idea 
+program find dijkstra shortest path use priority_queu stl includ bit stdc h use namespac std defin inf 0x3f3f3f3f ipair integ pair typedef pair int int ipair class repres direct graph use adjac list represent class graph int v 
+vertic weight graph need store vertex weight pair everi edg list pair int int adj public graph int v constructor function add edg graph void addedg int u int v int w print shortest path void shortestpath int alloc memori adjac list graph graph int v v v adj new list ipair v void graph addedg int u int v int w adj u push_back make_pair v w adj v push_back make_pair u w print shortest path src vertic void graph shortestpath int src creat prioriti queue store vertic preprocess 
+weird syntax c 
+refer link detail syntax http geeksquiz com implement min heap use stl priority_queu ipair vector ipair greater ipair pq creat vector distanc initi distanc infinit inf vector int dist v inf insert sourc prioriti queue initi distanc 0 pq push make_pair 0 src dist src 0 loop till prioriti queue becom empti distanc final pq empti first vertex pair minimum distanc vertex extract prioriti queue 
+vertex label store second pair done way keep vertic sort distanc distanc must first item pair int u pq top second pq pop use get adjac vertic vertex list pair int int iter adj u begin adj u end get vertex label weight current adjac u int v first int weight second short path v u dist v dist u weight updat distanc v dist v dist u weight pq push make_pair dist v v print shortest distanc store dist printf vertex distanc sourc n int 0 v printf n dist driver program test method graph class int main creat graph given fugur int v 9 graph g v make shown graph g addedg 0 1 4 g addedg 0 7 8 g addedg 1 2 8 g addedg 1 7 11 g addedg 2 3 7 g addedg 2 8 2 g addedg 2 5 4 g addedg 3 4 9 g addedg 3 5 14 g addedg 4 5 10 g addedg 5 6 2 g addedg 6 7 1 g addedg 6 8 6 g addedg 7 8 7 g shortestpath 0 return 0 output vertex distanc sourc 0 0 1 4 2 12 3 19 4 21 5 11 6 9 7 8 8 14 articl contribut shubham agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,27 @@
+post mathemat concept cover one requir topic understand random algorithm 
+let us consid follow simpl problem 
+given fair dice 6 face dice thrown n time find expect valu sum result 
+exampl n 2 total 36 possibl outcom 
+1 1 1 2 1 6 2 1 2 2 2 6 6 1 6 2 6 6 expect valu discret random variabl r defin follow 
+suppos r take valu r1 probabl p1 valu r2 probabl p2 valu rk probabl pk 
+expect random variabl r defin e r r1 p1 r2 p2 rk pk let us calcul expect valu exampl 
+expect valu sum 2 1 36 3 1 6 7 1 36 two dice throw 3 1 36 4 1 6 8 1 36 7 1 36 8 1 6 12 1 36 7 way solv problem becom difficult dice throw 
+know linear expect quickli solv problem number throw 
+linear expect let r1 r2 two discret random variabl probabl space e r1 r2 e r1 e r2 use formula quickli solv dice problem 
+expect valu sum 2 dice throw 2 expect valu one dice throw 2 1 6 2 6 6 6 2 7 2 7 expect valu sum n dice throw n 7 2 3 5 n interest fact linearli expect 1 linear expect hold depend independ event 
+hand rule e r1r2 e r1 e r2 true independ event 
+2 linear expect hold number random variabl probabl space 
+let r1 r2 r3 rk k random variabl e r1 r2 r3 rk e r1 e r2 e r3 e rk anoth exampl easili solv linear expect hat check problem let group n men everi man one hat 
+hat redistribut everi man get random hat back 
+expect number men get origin hat back 
+solut let ri random variabl valu random variabl 1 th man get hat back otherwis 0 expect number men get right hat back e r1 e r2 e rn p r1 1 p r2 1 p rn 1 p ri 1 indic probabl ri 1 1 n 1 n 1 n 1 averag 1 person get right hat back 
+exercis 1 given fair coin expect number head coin toss n time 
+2 ball bin suppos ball label 1 n bin label j 1 n ball thrown one bin independ uniformli random 
+expect number ball everi bin b expect number empti bin 
+3 coupon collector suppos n type coupon lotteri lot contain one coupon probabl 1 n 
+mani lot bought expect least one coupon type 
+see follow solut coupon collector 
+expect number trial success linear expect use algorithm 
+exampl expect time complex random algorithm like random quick sort evalu use linear expect see refer 
+refer http www cse iitd ac mohanti col106 resourc linearity_expect pdf http ocw mit edu cours electr engin comput scienc 6 042j mathemat comput scienc fall 2010 video lectur lectur 22 expect articl contribut shubham gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

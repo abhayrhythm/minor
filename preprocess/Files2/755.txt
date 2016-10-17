@@ -1,0 +1,49 @@
+recommend read time speed distanc proceed topic 
+train two train move direct speed km hr b km hr rel speed would b km hr 
+two train move differ direct e come toward go away speed km hr b km hr rel speed would b km hr 
+time taken train meter long pass stationari object length l meter would time taken train travel l meter 
+exampl cover platform 800 train length 200 move speed 10 would time taken train cover 800 200 1000 speed 10 e 1000 10 100 pass pole man post stationari object neglig length compar length train like train 500 long pole 1 length time taken train would time take travel length train 
+exampl train length 100 move speed 10 would take 100 10 10 pass pole man post 
+two train length l1 l2 move direct speed s1 s2 time requir faster train overtak slower train would time taken cover equival distanc l1 l2 rel speed s1 s2 e time l1 l2 s1 s2 
+two train length l1 l2 move opposit direct speed s1 s2 time requir train cross complet would time taken cover equival distanc l1 l2 rel speed s1 s2 e time l1 l2 s1 s2 
+two train start move toward time speed s1 s2 respect meet take t1 t2 second respect s1 s2 t21 2 t11 2 boat stream boat move direct stream said go downstream 
+boat move opposit direct stream said go upstream 
+speed boat still water b km hr speed stream km hr speed upstream b km hr speed downstream b km hr speed upstream u km hr speed downstream km hr speed boat still water 0 5 x u km hr speed stream 0 5 x u km hr sampl problem question 1 100 long train move speed 60 km hr pass man stand pavement near railway track 
+find time taken train pass man 
+solut length train 100 0 1 km speed train 60 km hr time taken train pass man time taken cover 0 1 km speed 60 km hr therefor time taken train pass man 0 1 60 hour 0 1 60 x 3600 sec 6 sec question 2 long train 1000 long move speed 90 km hr would take pass 500 long bridg 
+solut time taken train pass bridg complet would time take cover 1000 500 1500 speed 90 km hr 90 x 5 18 25 sec 
+therefor time requir 1500 25 60 sec 1 minut question 3 man stand near railway track observ train pass 80 second pass 180 long bridg train take 200 second 
+find speed train 
+solut let length train l meter 
+train cover l meter 80 second l 180 meter 200 second speed 
+know speed distanc time 
+speed l 80 l 180 200 l 80 l 180 200 2 5 l l 180 1 5 l 180 l 120 thu speed train 120 80 1 5 sec question 4 two train 140 160 long move toward parallel track speed 40 km hr 50 km hr respect 
+much time would take pass complet 
+solut total distanc cover 140 160 300 rel speed 40 50 90 km hr 90 x 5 18 sec 25 sec therefor time taken pass 300 25 12 sec question 5 two train 140 160 long move direct parallel track speed 40 km hr 50 km hr respect 
+much time would faster train requir overtak slower train 
+solut total distanc cover 140 160 300 rel speed 50 40 10 km hr 10 x 5 18 sec 50 18 sec therefor time taken faster train overtak slower train 300 50 18 108 sec question 6 500 long train take 36 second cross man walk opposit direct speed 10 km hr 
+find speed train 
+solut let speed train km hr 
+rel speed 10 km hr length train 500 0 5 km know distanc speed x time 0 5 10 x 36 3600 50 10 40 km hr therefor speed train 40 km hr 
+question 7 non stop train start delhi toward mumbai time anoth non stop train start mumbai toward delhi 
+meet bhopal took 9 16 hour respect reach destin find speed train start delhi given speed train start mumbai move speed 90 km hr 
+solut know two train start time s1 s2 t21 2 t11 2 s2 90 km hr t1 9 hr t2 16 hr s1 90 4 3 s1 120 km hr therefor speed train start delhi 120 km hr question 8 boatman row boat upstream 14 km hr downstream 20 km hr 
+find speed boat still water speed stream 
+solut given speed downstream 20 km hr speed upstream u 14 km hr therefor speed boat still water 0 5 x u km hr 0 5 x 14 20 17 km hr also speed stream 0 5 x u km hr 0 5 x 20 14 3 km hr anoth method speed stream 0 5 x u 0 5 x 6 3 km hr speed boat still water speed stream speed upstream 3 14 17 km hr question 9 boatman row boat speed 5 km upstream 15 km downstream 
+cover upstream need 2 5 hour cover downstream need 1 5 hour 
+find speed stream speed boat still water 
+solut given boatman cover 5 km upstream 2 5 hour 15 km downstream 10 hour 
+speed upstream u 5 2 5 2 km hr speed downstream 15 1 5 10 km hr therefor speed boat still water 0 5 x u km hr 0 5 x 10 2 6 km hr also speed stream 0 5 x u km hr 0 5 x 10 2 4 km hr question 10 man go port island return 
+row boat speed 7 km hr still water 
+speed stream 2 km hr 
+take 56 minut complet round trip find distanc port island 
+solut speed upstream 7 2 5 km hr speed downstream 7 2 9 km hr let distanc port island km 
+also know time distanc speed 5 9 56 60 14 45 56 60 3 km therefor distanc port island 3 km question 11 boat race person row boat 6 km upstream return start point 4 hour 
+speed stream 2 km hr find speed boat still water 
+solut let speed boat still water b km hr 
+speed upstream b 2 km hr speed downstream b 2 km hr know time distanc speed 6 b 2 6 b 2 4 6 b 12 6 b 12 4 b 2 b 2 12 b 4 b 2 b 2 3 b b2 4 b2 3 b 4 0 b 1 b 4 0 b 4 km hr speed cannot neg question 12 racer row boat 30 km upstream 44 km downstream 10 hour 
+also row 40 km upstream 55 km downstream 13 hour 
+find speed boat still water speed stream 
+solut let speed upstream u km hr speed downstream km hr 
+know distanc speed time 30 u 44 10 40 u 55 13 solv pair linear equat get 11 km hr u 5 km hr therefor speed boat still water 0 5 x u km hr 0 5 x 11 5 8 km hr also speed stream 0 5 x u km hr 0 5 x 11 5 3 km hr articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

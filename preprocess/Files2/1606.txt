@@ -1,0 +1,16 @@
+find distanc two key binari tree parent pointer given 
+distanc two node minimum number edg travers reach one node 
+strongli recommend minim browser tri first 
+distanc two node obtain term lowest common ancestor 
+follow formula 
+dist n1 n2 dist root n1 dist root n2 2 dist root lca n1 n2 two given key root root given binari tree 
+lca lowest common ancestor n1 n2 dist n1 n2 distanc n1 n2 
+follow implement approach 
+implement adopt last code provid lowest common ancestor post 
+c program find distanc n1 n2 use one travers includ iostream use namespac std binari tree node struct node struct node left right int key util function creat new tree node node newnod int key node temp new node temp key key temp left temp right null return temp return level key k present tree otherwis return 1 int findlevel node root int k int level base case root null return 1 key present root left subtre right subtre return true root key k return level int l findlevel root left k level 1 return l 1 
+l findlevel root right k level 1 function return pointer lca two given valu n1 n2 
+also set d1 d2 dist one key ancestor d1 store distanc n1 root d2 store distanc n2 root lvl level distanc root current node dist store distanc n1 n2 node finddistutil node root int n1 int n2 int d1 int d2 int dist int lvl base case root null return null either n1 n2 match root key report presenc return root note key ancestor ancestor key becom lca root key n1 d1 lvl return root root key n2 d2 lvl return root look n1 n2 left right subtre node left_lca finddistutil root left n1 n2 d1 d2 dist lvl 1 node right_lca finddistutil root right n1 n2 d1 d2 dist lvl 1 call return non null one key present subtre present node lca left_lca right_lca dist d1 d2 2 lvl return root otherwis check left subtre right subtre lca return left_lca null 
+left_lca right_lca main function return distanc n1 n2 function return 1 either n1 n2 present binari tree 
+int finddist node root int n1 int n2 initi d1 distanc n1 root d2 distanc n2 root dist distanc n1 n2 int d1 1 d2 1 dist node lca finddistutil root n1 n2 d1 d2 dist 1 n1 n2 present binari tree return dist d1 1 d2 1 return dist n1 ancestor n2 consid n1 root find level n2 subtre root n1 d1 1 dist findlevel lca n2 0 return dist n2 ancestor n1 consid n2 root find level n1 subtre root n2 d2 1 dist findlevel lca n1 0 return dist return 1 driver program test function int main let us creat binari tree given exampl node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root right left right newnod 8 cout dist 4 5 finddist root 4 5 cout ndist 4 6 finddist root 4 6 cout ndist 3 4 finddist root 3 4 cout ndist 2 4 finddist root 2 4 cout ndist 8 5 finddist root 8 5 return 0 output dist 4 5 2 dist 4 6 4 dist 3 4 3 dist 2 4 1 dist 8 5 5 time complex time complex solut n method singl tree travers 
+thank atul singh provid initi solut post 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

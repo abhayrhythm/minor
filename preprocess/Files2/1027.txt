@@ -1,0 +1,3 @@
+predict output program 
+difficulti level rooki question 1 includ stdio h int main typedef int 0 printf getchar return 0 output 0 problem program 
+simpli creat user defin type creat variabl type 

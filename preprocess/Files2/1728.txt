@@ -1,0 +1,28 @@
+given direct graph everi edg weight either 1 2 find shortest path given sourc vertex given destin vertex 
+expect time complex v e 
+simpl solut use dijkstra shortest path algorithm get shortest path e vlogv time 
+v e time 
+idea use bf 
+one import observ bf path use bf alway least number edg two vertic 
+edg weight use bf find shortest path 
+problem modifi graph split edg weight 2 two edg weight 1 
+modifi graph use bf find shortest path 
+mani new intermedi vertic need 
+need add new intermedi vertex everi sourc vertex 
+reason simpl add intermedi vertex x u v add vertex z new path u z v ad graph might note origin graph 
+therefor graph v vertic need v extra vertic 
+c implement idea 
+implement 2 v vertic creat graph everi edg u v split two edg u u v u v w 
+way make sure differ intermedi vertex ad everi sourc vertex 
+program shortest path given sourc vertex given destin vertex 
+expect time complex v e 
+includ bit stdc h use namespac std class repres direct graph use adjac list represent class graph int v 
+vertic list int adj adjac list public graph int v constructor void addedg int v int w int weight add edg find shortest path sourc vertex destin vertex 
+int findshortestpath int int print shortest path sourc vertex destin vertex 
+int printshortestpath int parent int int graph graph int v v v adj new list int 2 v void graph addedg int v int w int weight split edg weight 2 two edg weight 1 
+intermedi vertex number maximum vertex number 1 v weight 2 adj v push_back v v adj v v push_back w els weight 1 adj v push_back w add w v list 
+print shortest path store parent int graph printshortestpath int parent int int static int level 0 reach root shortest path tree parent 1 cout shortest path return level printshortestpath parent parent level v cout return level function mainli bf print shortest path src dest 
+assum weight everi edg 1 int graph findshortestpath int src int dest mark vertic visit bool visit new bool 2 v int parent new int 2 v initi parent visit int 0 2 v visit fals parent 1 creat queue bf list int queue mark current node visit enqueu visit src true queue push_back src use get adjac vertic vertex list int iter queue empti dequeu vertex queue print int queue front dest return printshortestpath parent dest queue pop_front get adjac vertic dequeu vertex adjac visit mark visit enqueu adj begin adj end visit visit true queue push_back parent driver program test method graph class int main creat graph given diagram int v 4 graph g v g addedg 0 1 2 g addedg 0 2 2 g addedg 1 2 1 g addedg 1 3 1 g addedg 2 0 1 g addedg 2 3 2 g addedg 3 3 2 int src 0 dest 3 cout nshortest distanc src dest g findshortestpath src dest return 0 output shortest path 0 3 0 1 3 shortest distanc 0 3 3 approach v e 
+worst case edg weight 2 need e oper split edg 2v vertic time complex becom e v e v e 
+articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

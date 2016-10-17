@@ -1,0 +1,15 @@
+
+We strongly recommend to refer below articles as a prerequisite of this.
+Randomized Algorithms | Set 1 (Introduction and Analysis)
+Randomized Algorithms | Set 2 (Classification and Applications)
+In this post, a Monte Carlo algorithm is discussed.
+Problem Statement :  Given an unsorted array A[] of n numbers and ε > 0, compute an element whose rank (position in sorted A[]) is in the range [(1 – ε)n/2, (1 +  ε)n/2].
+For ½ Approximate Median Algorithm &epsilom; is 1/2 => rank should be in the range [n/4, 3n/4]
+We can find k’th smallest element in O(n) expected time and O(n) worst case time.
+What if we want in less than O(n) time with low probable error allowed?
+Following steps represent an algorithm that is O((Log n) x (Log Log n)) time and produces incorrect result with probability less than or equal to 2/n2.
+
+ Randomly choose k elements from the array where k=c log n (c is some constant) 
+ Insert then into a set.  
+ Sort elements of the set. 
+ Return median of the set i.e. (k/2)th element from the set 

@@ -1,0 +1,19 @@
+introduc graph color applic previou post 
+discuss previou post graph color wide use 
+unfortun effici algorithm avail color graph minimum number color problem known np complet problem 
+approxim algorithm solv problem though 
+follow basic greedi algorithm assign color 
+guarante use minimum color guarante upper bound number color 
+basic algorithm never use 1 color maximum degre vertex given graph 
+basic greedi color algorithm 1 color first vertex first color 
+2 follow remain v 1 vertic 
+consid current pick vertex color lowest number color use previous color vertic adjac 
+previous use color appear vertic adjac v assign new color 
+follow c java implement greedi algorithm 
+c c program implement greedi algorithm graph color includ iostream includ list use namespac std class repres undirect graph class graph int v 
+vertic list int adj dynam array adjac list public constructor destructor graph int v v v adj new list int v graph delet adj function add edg graph void addedg int v int w print greedi color vertic void greedycolor void graph addedg int v int w adj v push_back w adj w push_back v note graph undirect assign color start 0 vertic print assign color void graph greedycolor int result v assign first color first vertex result 0 0 initi remain v 1 vertic unassign int u 1 u v u result u 1 color assign u temporari array store avail color 
+true valu avail cr would mean color cr assign one adjac vertic bool avail v int cr 0 cr v cr avail cr fals assign color remain v 1 vertic int u 1 u v u process adjac vertic flag color unavail list int iter adj u begin adj u end result 1 avail result true find first avail color int cr cr 0 cr v cr avail cr fals break result u cr assign found color reset valu back fals next iter adj u begin adj u end result 1 avail result fals print result int u 0 u v u cout vertex u color result u endl driver program test function int main graph g1 5 g1 addedg 0 1 g1 addedg 0 2 g1 addedg 1 2 g1 addedg 1 3 g1 addedg 2 3 g1 addedg 3 4 cout color graph 1 n g1 greedycolor graph g2 5 g2 addedg 0 1 g2 addedg 0 2 g2 addedg 1 2 g2 addedg 1 4 g2 addedg 2 4 g2 addedg 4 3 cout ncolor graph 2 n g2 greedycolor return 0 java java program implement greedi algorithm graph color import java io 
+import java util 
+import java util linkedlist class repres undirect graph use adjac list class graph privat int v 
+vertic privat linkedlist integ adj adjac list constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w adj w add v graph undirect assign color start 0 vertic print assign color void greedycolor int result new int v assign first color first vertex result 0 0 initi remain v 1 vertic unassign int u 1 u v u result u 1 color assign u temporari array store avail color 
+true valu avail cr would mean color cr assign one adjac vertic boolean avail new boolean v int cr 0 cr v cr avail cr fals assign color remain v 1 vertic int u 1 u v u process adjac vertic flag color unavail iter integ adj u iter hasnext int next result 1 avail result true find first avail color int cr cr 0 cr v cr avail cr fals break result u cr assign found color reset valu back fals next iter adj u iter hasnext int next result 1 avail result fals print result int u 0 u v u system println vertex u color result u driver method public static void main string arg graph g1 new graph 5 g1 addedg 0 1 g1 addedg 0 2 g1 addedg 1 2 g1 addedg 1 3 g1 addedg 2 3 g1 addedg 3 4 system println color graph 1 g1 greedycolor system println graph g2 new graph 5 g2 addedg 0 1 g2 addedg 0 2 g2 addedg 1 2 g2 addedg 1 4 g2 addedg 2 4 g2 addedg 4 3 system println color graph 2 g2 greedycolor code contribut aakash hasija output 

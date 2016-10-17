@@ -1,0 +1,16 @@
+like structur union user defin data type 
+union member share memori locat 
+exampl follow c program x share locat 
+chang x see chang reflect 
+includ stdio h declar union structur union test int x int main union variabl union test x 2 also get valu 2 printf make x 2 n x n n x 10 x also updat 10 printf make n x n n x return 0 output make x 2 x 2 2 make x 10 10 size union decid compil 
+size union taken accord size largest member union 
+includ stdio h union test1 int x int union test2 int x char union test3 int arr 10 char int main printf sizeof test1 sizeof test2 sizeof test3 sizeof test1 sizeof test2 sizeof test3 return 0 output sizeof test1 4 sizeof test2 4 sizeof test3 40 pointer union 
+like structur pointer union access member use arrow oper 
+follow exampl demonstr 
+union test int x char int main union test p1 p1 x 65 p2 pointer union p1 union test p2 p1 access union member use pointer printf c p2 x p2 return 0 65 applic union 
+union use mani situat want use memori two ore member 
+exampl suppos want implement binari tree data structur leaf node doubl data valu intern node pointer two children data 
+declar struct node struct node left struct node right doubl data everi node requir 16 byte half byte wast type node 
+hand declar node follow save space 
+struct node bool is_leaf union struct struct node left struct node right intern doubl data info exampl taken comput system programm perspect english 2nd edit book 
+refer http en wikipedia org wiki union_typ comput system programm perspect english 2nd edit pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

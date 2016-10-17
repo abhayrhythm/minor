@@ -1,0 +1,52 @@
+eulerian path path graph visit everi edg exactli 
+eulerian circuit eulerian path start end vertex 
+strongli recommend first read follow post euler path circuit 
+http www geeksforgeek org eulerian path circuit mention post discuss problem find whether given graph eulerian 
+post algorithm print eulerian trail circuit discuss 
+follow fleuri algorithm print eulerian trail cycl sourc ref1 
+1 make sure graph either 0 2 odd vertic 
+2 0 odd vertic start anywher 
+2 odd vertic start one 
+3 follow edg one time 
+choic bridg non bridg alway choos non bridg 
+4 stop run edg 
+idea burn bridg come back vertex travers remain edg 
+exampl let us consid follow graph 
+two vertic odd degre 2 3 start path 
+let us start tour vertex 2 
+three edg go vertex 2 one pick 
+pick edg 2 3 bridg abl come back 3 
+pick remain two edg 
+let us say pick 2 0 
+remov edg move vertex 0 
+one edg vertex 0 pick remov move vertex 1 
+euler tour becom 2 0 0 1 
+one edg vertex 1 pick remov move vertex 2 
+euler tour becom 2 0 0 1 1 2 one edg vertex 2 pick remov move vertex 3 euler tour becom 2 0 0 1 1 2 2 3 edg left stop 
+final tour 2 0 0 1 1 2 2 3 
+see fore exampl 
+follow c implement algorithm 
+follow code assum given graph eulerian trail circuit 
+main focu print eulerian trail circuit 
+use iseulerian first check whether eulerian trail circuit given graph 
+first find start point must odd vertex odd vertic store variabl u 
+zero odd vertic start vertex 0 
+call printeulerutil print euler tour start u travers adjac vertic u one adjac vertex immedi consid 
+one adjac vertic consid adjac v edg u v bridg 
+find given edg bridg 
+count number vertic reachabl u remov edg u v count number reachabl vertic u number reachabl vertic reduc edg u v bridg 
+count reachabl vertic either use bf df use df code 
+function dfscount u return number vertic reachabl u edg process includ euler tour remov graph 
+remov edg replac vertex entri 1 adjac list 
+note simpli delet node may work code recurs parent call may middl adjac list 
+c program print eulerian trail given eulerian semi eulerian graph includ iostream includ string h includ algorithm includ list use namespac std class repres undirect graph class graph int v 
+vertic list int adj dynam array adjac list public constructor destructor graph int v v v adj new list int v graph delet adj function add remov edg void addedg int u int v adj u push_back v adj v push_back u void rmvedg int u int v method print eulerian tour void printeulertour void printeulerutil int function return count vertic reachabl v df int dfscount int v bool visit util function check edg u v valid next edg eulerian trail circuit bool isvalidnextedg int u int v main function print eulerian trail 
+first find odd degre vertex call printeulerutil print path void graph printeulertour find vertex odd degre int u 0 int 0 v adj size 1 u break print tour start oddv printeulerutil u cout endl print euler tour start vertex u void graph printeulerutil int u recur vertic adjac vertex list int iter adj u begin adj u end int v edg u v remov valid next edg v 1 isvalidnextedg u v cout u v rmvedg u v printeulerutil v function check edg u v consid next edg euler tout bool graph isvalidnextedg int u int v edg u v valid one follow two case 1 v adjac vertex u int count 0 store count adjac vertic list int iter adj u begin adj u end 1 count count 1 return true 2 multipl adjac u v bridg follow step check u v bridg 2 count vertic reachabl u bool visit v memset visit fals v int count1 dfscount u visit 2 b remov edg u v remov edg count vertic reachabl u rmvedg u v memset visit fals v int count2 dfscount u visit 2 c add edg back graph addedg u v 2 count1 greater edg u v bridg return count1 count2 
+fals true function remov edg u v graph 
+remov edg replac adjcent vertex valu 1 void graph rmvedg int u int v find v adjac list u replac 1 list int iter iv find adj u begin adj u end v iv 1 find u adjac list v replac 1 list int iter iu find adj v begin adj v end u iu 1 df base function count reachabl vertic v int graph dfscount int v bool visit mark current node visit visit v true int count 1 recur vertic adjac vertex list int iter adj v begin adj v end 1 visit count dfscount visit return count driver program test function int main let us first creat test graph shown figur graph g1 4 g1 addedg 0 1 g1 addedg 0 2 g1 addedg 1 2 g1 addedg 2 3 g1 printeulertour graph g2 3 g2 addedg 0 1 g2 addedg 1 2 g2 addedg 2 0 g2 printeulertour graph g3 5 g3 addedg 1 0 g3 addedg 0 2 g3 addedg 2 1 g3 addedg 0 3 g3 addedg 3 4 g3 addedg 3 2 g3 addedg 3 1 g3 addedg 2 4 g3 printeulertour return 0 output 2 0 0 1 1 2 2 3 0 1 1 2 2 0 0 1 1 2 2 0 0 3 3 4 4 2 2 3 3 1 note code modifi given graph creat copi graph want given graph modifi 
+time complex time complex implement v e 2 
+function printeulerutil like df call isvalidnextedg also df two time 
+time complex df adjac list represent v e 
+therefor overal time complex v e v e written e2 connect graph 
+better algorithm print euler tour soon cover separ post 
+refer http www math ku edu jmartin cours math105 f11 lectur chapter5 part2 pdf http en wikipedia org wiki eulerian_path fleuri 27s_algorithm pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

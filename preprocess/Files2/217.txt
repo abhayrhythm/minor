@@ -1,0 +1,16 @@
+given posit number n count distinct non neg integ pair x satisfi inequ x x n exampl input n 5 output 6 pair 0 0 0 1 1 0 1 1 2 0 0 2 input n 6 output 8 pair 0 0 0 1 1 0 1 1 2 0 0 2 1 2 2 1 simpl solut run two loop 
+outer loop goe possibl valu x 0 n 
+inner loop pick possibl valu current valu x pick outer loop 
+follow c implement simpl solut 
+includ iostream use namespac std function count number pair x satisfi inequ x x n int countsolut int n int re 0 int x 0 x x n x int 0 x x n re return re driver program test function int main cout total number distinct non neg pair countsolut 6 endl return 0 output total number distinct non neg pair 8 upper bound time complex solut n 
+outer loop run n time 
+inner loop run n time 
+use effici solut find count n time 
+idea first find count valu correspond 0 valu x let count distinct valu ycount 
+find ycount run loop compar ycount ycount n initi ycount one one increas valu x find next valu ycount reduc ycount 
+effici c program find differ x pair satisfi x x n includ iostream use namespac std function count number pair x satisfi inequ x x n int countsolut int n int x 0 ycount re 0 find count differ valu x 0 ycount 0 ycount ycount n ycount one one increas valu x find ycount current x ycount becom 0 reach maximum possibl valu x ycount 0 add ycount count differ possibl valu current x result re ycount increment x x updat ycount current x keep reduc ycount inequ satisfi 
+ycount 0 x x ycount 1 ycount 1 n ycount return re driver program test function int main cout total number distinct non neg pair countsolut 6 endl return 0 output total number distinct non neg pair 8 time complex solut seem take closer look see n 
+everi step insid inner loop valu ycount decrement 1 valu ycount decrement n time ycount count valu x 0 outer loop valu x increment 
+valu x also increment n time last x ycount equal 1 articl contribut sachin gupta 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

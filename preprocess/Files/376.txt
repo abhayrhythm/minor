@@ -1,0 +1,113 @@
+
+Singly Linked List:
+
+Introduction to Linked List
+Linked List vs Array
+Linked List Insertion
+Linked List Deletion (Deleting a given key)
+Linked List Deletion (Deleting a key at given position)
+A Programmer’s approach of looking at Array vs. Linked List
+Find Length of a Linked List (Iterative and Recursive)
+Search an element in a Linked List (Iterative and Recursive)
+How to write C functions that modify head pointer of a Linked List?
+Swap nodes in a linked list without swapping data
+Write a function to get Nth node in a Linked List
+Print the middle of a given linked list
+Nth node from the end of a Linked List
+Write a function to delete a Linked List
+Write a function that counts the number of times a given int occurs in a Linked List
+Reverse a linked list
+Detect loop in a linked list
+Merge two sorted linked lists
+Generic Linked List in C
+Given a linked list which is sorted, how will you insert in sorted way
+Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?
+Function to check if a singly linked list is palindrome
+Intersection point of two Linked Lists.
+Recursive function to print reverse of a Linked List
+Remove duplicates from a sorted linked list
+Remove duplicates from an unsorted linked list
+Pairwise swap elements of a given linked list
+Practice questions for Linked List and Recursion
+Move last element to front of a given Linked List
+Intersection of two Sorted Linked Lists
+Delete alternate nodes of a Linked List
+Alternating split of a given Singly Linked List
+Identical Linked Lists
+Merge Sort for Linked Lists
+Reverse a Linked List in groups of given size
+Reverse alternate K nodes in a Singly Linked List
+Delete nodes which have a greater value on right side
+Segregate even and odd nodes in a Linked List
+Detect and Remove Loop in a Linked List
+Add two numbers represented by linked lists | Set 1
+Delete a given node in Linked List under given constraints
+Union and Intersection of two Linked Lists
+Find a triplet from three linked lists with sum equal to a given number
+Rotate a Linked List
+Flattening a Linked List
+Add two numbers represented by linked lists | Set 2
+Sort a linked list of 0s, 1s and 2s
+Flatten a multilevel linked list
+Delete N nodes after M nodes of a linked list
+QuickSort on Singly Linked List
+Merge a linked list into another linked list at alternate positions
+Pairwise swap elements of a given linked list by changing links
+Given a linked list of line segments, remove middle points
+Construct a Maximum Sum Linked List out of two Sorted Linked Lists having some Common nodes
+Can we reverse a linked list in less than O(n)?
+Clone a linked list with next and random pointer | Set 1
+Clone a linked list with next and random pointer | Set 2
+Insertion Sort for Singly Linked List
+Point to next higher value node in a linked list with an arbitrary pointer
+Rearrange a given linked list in-place.
+Sort a linked list that is sorted alternating ascending and descending orders?
+Select a Random Node from a Singly Linked List
+Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?
+Merge two sorted linked lists such that merged list is in reverse order
+Compare two strings represented as linked lists
+Rearrange a linked list such that all even and odd positioned nodes are together
+Rearrange a Linked List in Zig-Zag fashion
+Add 1 to a number represented as linked list
+Point arbit pointer to greatest value right side node in a linked list
+Merge two sorted linked lists such that merged list is in reverse order
+Convert a given Binary Tree to Doubly Linked List | Set 
+Check if a linked list of strings forms a palindrome
+Sort linked list which is already sorted on absolute values
+Delete last occurrence of an item from linked list
+Delete a Linked List node at a given position
+Linked List in java
+
+Circular Linked List: 
+
+Circular Linked List Introduction and Applications,
+Circular Linked List Traversal
+Split a Circular Linked List into two halves
+Sorted insert for circular linked list
+
+Doubly Linked List: 
+
+Doubly Linked List Introduction and Insertion
+Delete a node in a Doubly Linked List
+Reverse a Doubly Linked List
+The Great Tree-List Recursion Problem.
+Copy a linked list with next and arbit pointer
+QuickSort on Doubly Linked List
+Swap Kth node from beginning with Kth node from end in a Linked List
+Merge Sort for Doubly Linked List
+
+Quiz on Linked List
+Practice Programming Questions on Linked List
+Data Structures
+Recent articles on Linked List
+Ask a Question
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

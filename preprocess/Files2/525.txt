@@ -1,0 +1,84 @@
+ukkonen suffix tree construct part 1 seen high level ukkonen algorithm 
+2nd part continu part 1 pleas go part 1 look current articl 
+suffix tree construct string length phase phase j 1 j add jth charact tree built far done j extens 
+extens follow one three extens rule discuss part 1 
+jth extens phase 1 ad charact 1 first need find end path root label j current tree 
+one way start root travers edg match j string 
+take m3 time build suffix tree 
+use observ implement trick done see 
+suffix link intern node v path label xa x denot singl charact denot possibl empti substr anoth node v path label pointer v v call suffix link 
+empti string suffix link intern node go root node 
+suffix link root node consid intern node 
+extens j phase new intern node v path label xa ad extens j 1 phase either path label alreadi end intern node root node empti new intern node end string creat extens j 1 phase creat suffix link intern node creat jth extens node path label given phase newli creat intern node path label xa suffix link point anoth node path label end next extens 
+implicit suffix tree ti phase intern node v path label xa node v ti path label node v point node v use suffix link 
+time intern node chang tree suffix link anoth intern node root except recent ad intern node receiv suffix link end next extens 
+suffix link use speed implement 
+extens j phase 1 need find end path root label j current tree 
+one way start root travers edg match j string 
+suffix link provid short cut find end path 
+see find end path j need travers root 
+start end path j 1 walk one edg node v e 
+go parent node follow suffix link v walk path abcd figur 17 
+show use suffix link improv process 
+note next part 3 introduc activepoint help avoid walk 
+directli go node v node v suffix link node v node v path label string node v leaf must path label string node v leaf 
+figur 17 path label abcd node v leaf path label abcd node v leaf 
+fact use improv walk v leaf along path call skip count trick 
+skip count trick walk node v leaf instead match path charact charact travel directli skip next node number charact edg less number charact need travel 
+number charact edg number charact need travel directli skip last charact edg 
+implement way number charact edg charact given posit string obtain constant time skip count trick walk proport number node rather number charact 
+use suffix link along skip count trick suffix tree built m2 phase phase take 
+edg label compress far path label repres charact string 
+suffix tree take m2 space store path label 
+avoid use two pair indic start end edg path label instead substr 
+indic start end tell path label start end posit string suffix tree need space 
+two observ way extens rule interact success extens phase 
+two observ lead two implement trick first trick skip count seen alreadi walk 
+observ 1 rule 3 show stopper phase extens 1 done 
+rule 3 appli extens j phase 1 e 
+path label j continu charact 1 also appli extens phase e 
+extens j 1 1 phase 1 
+path label j continu charact 1 path label j 1 j 2 j 3 also continu charact 1 
+consid figur 11 figure12 figur 13 part 1 rule 3 appli 
+figur 11 xab ad tree figur 12 phase 4 add next charact x 
+3 extens done add 3 suffix 
+last suffix x alreadi present tree 
+figur 13 add charact tree phase 5 
+first 3 suffix ad tree last two suffix xa alreadi present tree 
+show suffix j present tree remain suffix j 1 j 2 j 3 also tree work need add remain suffix 
+work need done phase soon rule 3 appli extens phase 
+new intern node v get creat extens j rule 3 appli next extens j 1 need add suffix link node v current node intern node root node 
+activenod discuss part 3 help set suffix link 
+trick 2 stop process phase soon rule 3 appli 
+extens alreadi present tree implicitli 
+observ 2 leaf alway leaf leaf creat label j suffix start posit j string leaf alway leaf success phase extens 
+leaf label j extens rule 1 alway appli extens j success phase 
+consid figur 9 figur 14 part 1 figur 10 phase 2 rule 1 appli leaf label 1 success phase rule 1 alway appli leaf 
+figur 11 phase 3 rule 1 appli leaf label 2 success phase rule 1 alway appli leaf 
+figur 12 phase 4 rule 1 appli leaf label 3 success phase rule 1 alway appli leaf 
+phase initi sequenc consecut extens rule 1 rule 2 appli soon rule 3 appli phase end 
+also rule 2 creat new leaf alway intern node sometim 
+ji repres last extens phase rule 1 2 appli e ith phase ji leav label 1 2 3 ji ji ji 1 ji equal ji 1 new leaf creat phase 1 e rule 3 appli ji 1 extens figur 11 phase 3 rule 1 appli 1st two extens rule 2 appli 3rd extens j3 3 figur 12 phase 4 new leaf creat rule 1 appli 1st 3 extens rule 3 appli 4th extens end phase 
+j4 3 j3 figur 13 phase 5 new leaf creat rule 1 appli 1st 3 extens rule 3 appli 4th extens end phase 
+j5 3 j4 ji less ji 1 new leav creat phase 1 
+figur 14 phase 6 new leaf creat rule 1 appli 1st 3 extens rule 2 appli last 3 extens end phase 
+j6 6 j5 see phase 1 rule 1 appli extens 1 ji realli need much work done constant time trick 3 extens ji 1 onward rule 2 may appli zero extens final rule 3 end phase 
+edg label repres use two indic start end leaf edg end alway equal phase number e 
+phase end leaf edg phase 1 end 1 leaf edg 
+trick 3 phase leaf edg may look like p q r 
+p q r start posit differ edg end posit 
+phase 1 leaf edg look like p 1 q 1 r 1 
+way phase end posit increment leaf edg 
+need travers leaf edg increment end posit 
+thing constant time maintain global index e e equal phase number 
+leaf edg look like p e q e r e phase increment e extens leaf edg done 
+figur 19 show 
+use suffix link trick 1 2 3 suffix tree built linear time 
+tree tm could implicit tree suffix prefix anoth 
+add termin symbol first run algorithm get true suffix tree true suffix tree contain suffix explicitli 
+label leaf correspond suffix start posit leav label global index e linear time travers done tree 
+point gone thing need know creat suffix tree use ukkonen algorithm 
+next part 3 take string abcabxabcd exampl go thing step step creat tree 
+build tree discuss implement issu address activepoint 
+continu discuss algorithm part 4 part 5 code implement discuss part 6 refer http web stanford edu mjkay gusfield pdf articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,11 @@
+exit void exit int statu exit termin process normal 
+statu statu valu return parent process 
+gener statu valu 0 exit_success indic success valu constant exit_failur use indic error 
+exit perform follow oper 
+flush unwritten buffer data 
+close open file 
+remov temporari file 
+return integ exit statu oper system 
+c standard atexit function use custom exit perform addit action program termin 
+exampl use exit 
+exit exampl includ stdio h includ stdlib h int main file pfile pfile fopen myfil txt r pfile null printf error open file exit 1 els file oper return 0 

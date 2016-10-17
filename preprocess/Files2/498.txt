@@ -1,0 +1,27 @@
+earlier discuss breadth first travers algorithm graph 
+also discuss applic depth first travers 
+articl applic breadth first search discuss 
+1 shortest path minimum span tree unweight graph unweight graph shortest path path least number edg 
+breadth first alway reach vertex given sourc use minimum number edg 
+also case unweight graph span tree minimum span tree use either depth breadth first travers find span tree 
+2 peer peer network 
+peer peer network like bittorr breadth first search use find neighbor node 
+3 crawler search engin crawler build index use breadth first 
+idea start sourc page follow link sourc keep 
+depth first travers also use crawler advantag breadth first travers depth level built tree limit 
+4 social network websit social network find peopl within given distanc k person use breadth first search till k level 
+5 gp navig system breadth first search use find neighbor locat 
+6 broadcast network network broadcast packet follow breadth first search reach node 
+7 garbag collect breadth first search use copi garbag collect use cheney algorithm 
+refer detail 
+breadth first search prefer depth first search better local refer 8 cycl detect undirect graph undirect graph either breadth first search depth first search use detect cycl 
+direct graph depth first search use 
+9 ford fulkerson algorithm ford fulkerson algorithm either use breadth first depth first travers find maximum flow 
+breadth first travers prefer reduc worst case time complex ve2 
+10 test graph bipartit either use breadth first depth first travers 
+11 path find either use breadth first depth first travers find path two vertic 
+12 find node within one connect compon either use breadth first depth first travers find node reachabl given node 
+mani algorithm like prim minimum span tree dijkstra singl sourc shortest path use structur similar breadth first search 
+mani applic breadth first search one core algorithm graph 
+articl contribut neeraj jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

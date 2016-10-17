@@ -1,0 +1,14 @@
+predict output follow c program 
+includ stdio h int main float x 0 1 x 0 1 printf els x 0 1f printf els els printf els output program els mean express x 0 1 return fals express x 0 1f return true 
+let consid follow program understand reason behind output 
+includ stdio h int main float x 0 1 printf sizeof x sizeof 0 1 sizeof 0 1f return 0 output program 4 8 4 typic c compil 
+actual print size float size doubl size float 
+valu use express consid doubl doubl precis float point format unless f specifi end 
+express x 0 1 doubl right side float store singl precis float point format left side 
+situat float promot doubl see 
+doubl precis format use use bit precis singl precis format 
+note promot float doubl caus mismatch valu like 0 1 use precis bit bit singl precis 
+exampl follow c program print 
+includ stdio h int main float x 0 5 x 0 5 printf els x 0 5f printf els els printf els output refer float point represent basic represent float point number 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

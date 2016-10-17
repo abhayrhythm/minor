@@ -1,0 +1,21 @@
+heap data structur implement rang use stl allow faster input heap retriev number alway result largest number e 
+largest number remain number pop time 
+number heap arrang depend upon implement 
+oper heap 1 make_heap function use convert rang contain heap 
+2 front function display first element heap maximum number 
+c code demonstr work make_heap front includ iostream includ algorithm heap oper use namespac std int main initi vector vector int v1 20 30 40 25 15 convert vector heap use make_heap make_heap v1 begin v1 end display maximum element heap use front cout maximum element heap cout v1 front endl return 0 output maximum element heap 40 3 push_heap function use insert element heap 
+size heap increas 1 new element place appropri heap 
+4 pop_heap function use delet maximum element heap 
+size heap decreas 1 heap element reorganis accordingli oper 
+c code demonstr work push_heap pop_heap includ iostream includ algorithm heap oper use namespac std int main initi vector vector int v1 20 30 40 25 15 convert vector heap use make_heap make_heap v1 begin v1 end display maximum element heap use front cout maximum element heap cout v1 front endl use push_back enter element vector v1 push_back 50 use push_heap reorder element push_heap v1 begin v1 end display maximum element heap use front cout maximum element heap push cout v1 front endl use pop_heap delet maximum element pop_heap v1 begin v1 end display maximum element heap use front cout maximum element heap pop cout v1 front endl return 0 output maximum element heap 40 maximum element heap push 50 maximum element heap pop 40 5 sort_heap function use sort heap 
+oper contain longer heap 
+c code demonstr work sort_heap includ iostream includ algorithm heap oper use namespac std int main initi vector vector int v1 20 30 40 25 15 convert vector heap use make_heap make_heap v1 begin v1 end display heap element cout heap element int x v1 cout x cout endl sort heap use sort_heap sort_heap v1 begin v1 end display heap element cout heap element sort int x v1 cout x return 0 output heap element 40 30 20 25 15 heap element sort 15 20 25 30 40 6 is_heap function use check whether contain heap 
+gener implement revers sort contain consid heap 
+return true contain heap els return fals 
+6 is_heap_until function return iter posit till contain heap 
+gener implement revers sort contain consid heap 
+c code demonstr work is_heap is_heap_until includ iostream includ algorithm heap oper use namespac std int main initi vector vector int v1 40 30 25 35 15 declar heap iter vector int iter it1 check contain heap use is_heap is_heap v1 begin v1 end 
+cout contain heap cout contain heap cout endl use is_heap_until check posit till contain heap auto is_heap_until v1 begin v1 end display heap rang element cout heap element contain it1 v1 begin it1 it1 cout it1 return 0 output contain heap heap element contain 40 30 25 articl contribut manjeet singh like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,24 @@
+implement stack support follow oper 1 time complex 
+1 push add element top stack 
+2 pop remov element top stack 
+3 findmiddl return middl element stack 
+4 deletemiddl delet middl element 
+push pop standard stack oper 
+import question whether use link list array implement stack 
+pleas note need find delet middl element 
+delet element middl 1 array 
+also may need move middl pointer push element move pop 
+singli link list move middl pointer direct possibl 
+idea use doubli link list dll 
+delet middl element 1 time maintain mid pointer 
+move mid pointer direct use previou next pointer 
+follow c implement push pop findmiddl oper 
+implement deletemiddl left exercis 
+even element stack findmiddl return first middl element 
+exampl stack contain 1 2 3 4 findmiddl would return 2 
+program implement stack support findmiddl deletemiddl 1 time includ stdio h includ stdlib h doubli link list node struct dllnode struct dllnode prev int data struct dllnode next represent stack data structur support findmiddl 1 time 
+stack implement use doubli link list 
+maintain pointer head node pointer middl node count node struct mystack struct dllnode head struct dllnode mid int count function creat stack data structur struct mystack createmystack struct mystack ms struct mystack malloc sizeof struct mystack ms count 0 return ms function push element stack void push struct mystack ms int new_data alloc dllnode put data struct dllnode new_dllnod struct dllnode malloc sizeof struct dllnode new_dllnod data new_data sinc ad begin prev alway null new_dllnod prev null link old list new dllnode new_dllnod next ms head increment count item stack ms count 1 chang mid pointer two case 1 link list empti 2 number node link list odd ms count 1 ms mid new_dllnod els ms head prev new_dllnod ms count 1 updat mid ms count odd ms mid ms mid prev move head point new dllnode ms head new_dllnod function pop element stack int pop struct mystack ms stack underflow ms count 0 printf stack empti n return 1 struct dllnode head ms head int item head data ms head head next link list becom empti updat prev new head null ms head null ms head prev null ms count 1 updat mid pointer even number element stack e move mid pointer 
+
+ms count 1 ms mid ms mid next free head return item function find middl stack int findmiddl struct mystack ms ms count 0 printf stack empti n return 1 return ms mid data driver program test function mystack int main let us creat stack use push oper struct mystack ms createmystack push ms 11 push ms 22 push ms 33 push ms 44 push ms 55 push ms 66 push ms 77 printf item pop n pop ms printf item pop n pop ms printf middl element n findmiddl ms return 0 output item pop 77 item pop 66 middl element 33 articl contribut chandra prakash 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

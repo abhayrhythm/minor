@@ -1,0 +1,238 @@
+
+About four months of gap (missing GFG), a new post. Given an M x N matrix, transpose the matrix without auxiliary memory.It is easy to transpose matrix using an auxiliary array. If the matrix is symmetric in size, we can transpose the matrix inplace by mirroring the 2D array across it’s diagonal (try yourself). How to transpose an arbitrary size matrix inplace? See the following matrix,
+a b c       a d g j
+d e f  ==>  b e h k
+g h i       c f i l
+j k l
+As per 2D numbering in C/C++, corresponding location mapping looks like,
+Org element New
+ 0     a     0
+ 1     b     4
+ 2     c     8
+ 3     d     1
+ 4     e     5
+ 5     f     9
+ 6     g     2
+ 7     h     6
+ 8     i    10
+ 9     j     3
+ 10    k     7
+ 11    l    11
+Note that the first and last elements stay in their original location. We can easily see the transformation forms few permutation cycles.
+
+1->4->5->9->3->1  – Total 5 elements form the cycle
+2->8->10->7->6->2 – Another 5 elements form the cycle
+0  – Self cycle
+11 – Self cycle
+
+From the above example, we can easily devise an algorithm to move the elements along these cycles. How can we generate permutation cycles? Number of elements in both the matrices are constant, given by N = R * C, where R is row count and C is column count. An element at location ol (old location in R x C matrix), moved to nl (new location in C x R matrix). We need to establish relation between ol, nl, R and C. Assume ol = A[or][oc]. In C/C++ we can calculate the element address as,
+ol = or x C + oc (ignore base reference for simplicity)
+It is to be moved to new location nl in the transposed matrix, say nl = A[nr][nc], or in C/C++ terms
+nl = nr x R + nc (R - column count, C is row count as the matrix is transposed)
+Observe, nr = oc and nc = or, so replacing these for nl,
+nl = oc x R + or -----> [eq 1]
+after solving for relation between ol and nl, we get
+ol     = or x C     + oc
+ol x R = or x C x R + oc x R
+       = or x N     + oc x R    (from the fact R * C = N)
+       = or x N     + (nl - or) --- from [eq 1]
+       = or x (N-1) + nl
+OR,
+nl = ol x R - or x (N-1)
+Note that the values of nl and ol never go beyond N-1, so considering modulo division on both the sides by (N-1), we get the following based on properties of congruence,
+nl mod (N-1) = (ol x R - or x (N-1)) mod (N-1)
+             = (ol x R) mod (N-1) - or x (N-1) mod(N-1)
+             = ol x R mod (N-1), since second term evaluates to zero
+nl = (ol x R) mod (N-1), since nl is always less than N-1
+A curious reader might have observed the significance of above relation. Every location is scaled by a factor of R (row size). It is obvious from the matrix that every location is displaced by scaled factor of R. The actual multiplier depends on congruence class of (N-1), i.e. the multiplier can be both -ve and +ve value of the congruent class.Hence every location transformation is simple modulo division. These modulo divisions form cyclic permutations. We need some book keeping information to keep track of already moved elements. Here is code for inplace matrix transformation,
+
+// Program for in-place matrix transpose
+#include <stdio.h>
+#include <iostream>
+#include <bitset>
+#define HASH_SIZE 128
+
+using namespace std;
+
+// A utility function to print a 2D array of size nr x nc and base address A
+void Print2DArray(int *A, int nr, int nc)
+{
+    for(int r = 0; r < nr; r++)
+    {
+        for(int c = 0; c < nc; c++)
+            printf("%4d", *(A + r*nc + c));
+
+        printf("\n");
+    }
+
+    printf("\n\n");
+}
+
+// Non-square matrix transpose of matrix of size r x c and base address A
+void MatrixInplaceTranspose(int *A, int r, int c)
+{
+    int size = r*c - 1;
+    int t; // holds element to be replaced, eventually becomes next element to move
+    int next; // location of 't' to be moved
+    int cycleBegin; // holds start of cycle
+    int i; // iterator
+    bitset<HASH_SIZE> b; // hash to mark moved elements
+
+    b.reset();
+    b[0] = b[size] = 1;
+    i = 1; // Note that A[0] and A[size-1] won't move
+    while (i < size)
+    {
+        cycleBegin = i;
+        t = A[i];
+        do
+        {
+            // Input matrix [r x c]
+            // Output matrix 1
+            // i_new = (i*r)%(N-1)
+            next = (i*r)%size;
+            swap(A[next], t);
+            b[i] = 1;
+            i = next;
+        }
+        while (i != cycleBegin);
+
+        // Get Next Move (what about querying random location?)
+        for (i = 1; i < size && b[i]; i++)
+            ;
+        cout << endl;
+    }
+}
+
+// Driver program to test above function
+int main(void)
+{
+    int r = 5, c = 6;
+    int size = r*c;
+    int *A = new int[size];
+
+    for(int i = 0; i < size; i++)
+        A[i] = i+1;
+
+    Print2DArray(A, r, c);
+    MatrixInplaceTranspose(A, r, c);
+    Print2DArray(A, c, r);
+
+    delete[] A;
+
+    return 0;
+}
+
+Output:
+   1   2   3   4   5   6
+   7   8   9  10  11  12
+  13  14  15  16  17  18
+  19  20  21  22  23  24
+  25  26  27  28  29  30
+
+   1   7  13  19  25
+   2   8  14  20  26
+   3   9  15  21  27
+   4  10  16  22  28
+   5  11  17  23  29
+   6  12  18  24  30
+Extension: 17 – March – 2013 Some readers identified similarity between the matrix transpose and string transformation. Without much theory I am presenting the problem and solution. In given array of elements like [a1b2c3d4e5f6g7h8i9j1k2l3m4]. Convert it to [abcdefghijklm1234567891234]. The program should run inplace. What we need is an inplace transpose. Given below is code.
+
+#include <stdio.h>
+#include <iostream>
+#include <bitset>
+#define HASH_SIZE 128
+
+using namespace std;
+
+typedef char data_t;
+
+void Print2DArray(char A[], int nr, int nc) {
+   int size = nr*nc;
+   for(int i = 0; i < size; i++)
+      printf("%4c", *(A + i));
+
+   printf("\n");
+}
+
+void MatrixTransposeInplaceArrangement(data_t A[], int r, int c) {
+   int size = r*c - 1;
+   data_t t; // holds element to be replaced, eventually becomes next element to move
+   int next; // location of 't' to be moved
+   int cycleBegin; // holds start of cycle
+   int i; // iterator
+   bitset<HASH_SIZE> b; // hash to mark moved elements
+
+   b.reset();
+   b[0] = b[size] = 1;
+   i = 1; // Note that A[0] and A[size-1] won't move
+   while( i < size ) {
+      cycleBegin = i;
+      t = A[i];
+      do {
+         // Input matrix [r x c]
+         // Output matrix 1
+         // i_new = (i*r)%size
+         next = (i*r)%size;
+         swap(A[next], t);
+         b[i] = 1;
+         i = next;
+      } while( i != cycleBegin );
+
+      // Get Next Move (what about querying random location?)
+      for(i = 1; i < size && b[i]; i++)
+         ;
+      cout << endl;
+   }
+}
+
+void Fill(data_t buf[], int size) {
+   // Fill abcd ...
+   for(int i = 0; i < size; i++)
+   buf[i] = 'a'+i;
+
+   // Fill 0123 ...
+   buf += size;
+   for(int i = 0; i < size; i++)
+      buf[i] = '0'+i;
+}
+
+void TestCase_01(void) {
+   int r = 2, c = 10;
+   int size = r*c;
+   data_t *A = new data_t[size];
+
+   Fill(A, c);
+
+   Print2DArray(A, r, c), cout << endl;
+   MatrixTransposeInplaceArrangement(A, r, c);
+   Print2DArray(A, c, r), cout << endl;
+
+   delete[] A;
+}
+
+int main() {
+   TestCase_01();
+
+   return 0;
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Update 09-July-2016: Notes on space complexity and storage order.
+After long time, it happened to review this post. Some readers pointed valid questions on how can it be in-place (?) when we are using bitset as marker (hash in code). Apologies for incorrect perception by looking at the article heading or content. While preparing the initial content, I was thinking of naive implementation using auxiliary space of atleast O(MN) needed to transpose rectangualr matrix. The program presented above is using constant space as bitset size is fixed at compile time. However, to support arbitrary size of matrices we need bitset size atleast O(MN) size. One can use a HashMap (amortized O(1) complexity) for marking finished locations, yet HashMap’s worst case complexity can be O(N) or O(log N) based on implementation. HashMap space cost also increases based on items inserted. Please note that in-place was used w.r.t. matrix space.
+Also, it was assumed that the matrix will be stored in row major ordering (contigueous locations in memory). The reader can derive the formulae, if the matrix is represented in column major order by the programming language (e.g. Fortran/Julia).
+Thanks to the readers who pointed these two gaps.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The post is incomplete without mentioning two links.
+1. Aashish covered good theory behind cycle leader algorithm. See his post on string transformation.
+2. As usual, Sambasiva demonstrated his exceptional skills in recursion to the problem. Ensure to understand his solution.
+— Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

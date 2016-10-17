@@ -1,0 +1,32 @@
+amazon visit campu hire softwar develop intern summer 2016 cs student elig 
+round 1 code aptitud first round compris problem os ds basic aptitud algorithm time complex etc 
+follow 2 code question hackerrank platform 1 find nth magic number magic number either power 5 sum uniqu power 5 eg 
+5 25 30 25 5 125 130 125 5 2 given dictionari find possibl divis input string correspond string present dictionari 
+eg 
+like present dictionari need find given input string say ilik divid compon member dictionari 
+18 student shortlist round 
+round 2 f2f problem 1 given matrix contain 1 0 sort order 1 continu follow 0 need find row maximum number 1 
+eg 
+consid matrix 1111000 1000000 1110000 1100000 program return row 1 1 base index expect complex r c r number row c number column 
+start r c optim rlogc final r c 
+problem 2 given three point space find triangl exist 
+problem 3 given four point space find squar exist 
+problem 4 given point space determin whether point given clockwis order 
+problem requir full work code optim approach 
+10 student shortlist next round 
+round 3 f2f initi discuss project includ futur cours would like steer project 
+problem 1 given binari tree find binari search tree constant space complex 
+problem 2 suppos n petrol station circl 
+differ distanc two station p1 p2 l1 forth 
+given fact everi unit petrol consum walk 1 unit distanc move posit differ reserv petrol distanc travers 
+
+find vertex start come back point travers circl 
+expect complex n start n 2 gradual optim n hint build reserv array r p l full work code requir case well 
+round 6 student select internship 
+tip stay calm remain super confid throughout 
+key 
+faith implement skill must real good 
+thank geeksforgeek help prepar excel repositori past interview set 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

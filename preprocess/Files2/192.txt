@@ -1,0 +1,25 @@
+given stream number gener random number stream 
+allow use 1 space input form stream store previous seen number 
+gener random number whole stream probabl pick number 1 n 
+1 extra space 
+problem variat reservoir sampl 
+valu k 1 
+1 initi count 0 count use store count number seen far stream 
+2 number x stream follow increment count 1 
+b count 1 set result x return result 
+c gener random number 0 count 1 
+let gener random number 
+equal count 1 updat result x 
+effici program randomli select number stream number 
+includ stdio h includ stdlib h includ time h function randomli select item stream 0 stream 1 stream 1 int selectrandom int x static int re result random number static int count 0 count number visit far stream count increment count number seen far first element stream return count 1 re x els gener random number 0 count 1 int rand count replac prev random number new number 1 count probabl count 1 re x return re driver program test function 
+int main int stream 1 2 3 4 int n sizeof stream sizeof stream 0 use differ seed valu everi run 
+srand time null int 0 n printf random number first number n 1 selectrandom stream return 0 output random number first 1 number 1 random number first 2 number 1 random number first 3 number 3 random number first 4 number 4 auxiliari space 1 work need prove everi element pick 1 n probabl n number item seen far 
+everi new stream item x pick random number 0 count 1 pick number count 1 replac previou result x simplifi proof let us first consid last element last element replac previous store result 1 n probabl 
+probabl get last element result 1 n 
+let us talk second last element 
+second last element process first time probabl replac previou result 1 n 1 
+probabl previou result stay nth item consid n 1 n 
+probabl second last element pick last iter 1 n 1 n 1 n 1 n 
+similarli prove third last element other 
+refer reservoir sampl pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

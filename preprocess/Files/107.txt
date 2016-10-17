@@ -1,0 +1,90 @@
+
+Given two integers ‘n’ and ‘sum’, find count of all n digit numbers with sum of digits as ‘sum’. Leading 0’s are not counted as digits.
+1 <= n <= 100 and
+1 <= sum <= 50000
+Example:
+
+Input:  n = 2, sum = 2
+Output: 2
+Explanation: Numbers are 11 and 20
+
+Input:  n = 2, sum = 5
+Output: 5
+Explanation: Numbers are 14, 23, 32, 41 and 50
+
+Input:  n = 3, sum = 6
+Output: 21
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+The idea is simple, we subtract all values from 0 to 9 from given sum and recur for sum minus that digit.  Below is recursive formula. 
+
+     countRec(n, sum) = ∑finalCount(n-1, sum-x)
+                           where 1 =< x <= 9 and
+                                 sum-x >= 0
+    One important observation is, leading 0's must be
+    handled explicitly as they are not counted as digits.
+    So our final count can be written as below.
+     
+    finalCount(n, sum) = ∑finalCount(n-1, sum-x)
+                            where 0 =< x <= 9 and
+                                 sum-x >= 0
+Below is a simple recursive solution based on above recursive formula.
+
+C++
+
+
+
+// A recursive program to count numbers with sum
+// of digits as given 'sum'
+#include<bits/stdc++.h>
+using namespace std;
+
+// Recursive function to count 'n' digit numbers
+// with sum of digits as 'sum'. This function
+// considers leading 0's also as digits, that is
+// why not directly called
+unsigned long long int countRec(int n, int sum)
+{
+    // Base case
+    if (n == 0)
+       return sum == 0;
+
+    // Initialize answer
+    unsigned long long int ans = 0;
+
+    // Traverse through every digit and count
+    // numbers beginning with it using recursion
+    for (int i=0; i<=9; i++)
+       if (sum-i >= 0)
+          ans += countRec(n-1, sum-i);
+
+    return ans;
+}
+
+// This is mainly a wrapper over countRec. It
+// explicitly handles leading digit and calls
+// countRec() for remaining digits.
+unsigned long long int finalCount(int n, int sum)
+{
+    // Initialize final answer
+    unsigned long long int ans = 0;
+
+    // Traverse through every digit from 1 to
+    // 9 and count numbers beginning with it
+    for (int i = 1; i <= 9; i++)
+      if (sum-i >= 0)
+         ans += countRec(n-1, sum-i);
+
+    return ans;
+}
+
+// Driver program
+int main()
+{
+    int n = 2, sum = 5;
+    cout << finalCount(n, sum);
+    return 0;
+}
+

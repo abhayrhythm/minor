@@ -1,0 +1,4 @@
+given sort array arr n element write function search given element x arr 
+simpl approach linear search e start leftmost element arr one one compar x element arr x match element return index 
+x match element return 1 c c linearli search x arr 
+x present return locat otherwis return 1 int search int arr int n int x int 0 n arr x return return 1 python search element list array python simpli done use oper exampl x arr print arr index x want implement linear search python linearli search x arr x present return locat els return 1 def search arr x rang len arr arr x return return 1 java class linearsearch function return index element x arr static int search int arr int n int x int 0 n return index element element found arr x return return 1 element found return 1 time complex algorithm n 

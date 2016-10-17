@@ -1,0 +1,9 @@
+follow differ way creat 2d array heap dynam alloc 2d array 
+follow exampl consid r number row c number column creat 2d array r 3 c 4 follow valu 1 2 3 4 5 6 7 8 9 10 11 12 1 use singl pointer simpl way alloc memori block size r c access element use simpl pointer arithmet 
+includ stdio h includ stdlib h int main int r 3 c 4 int arr int malloc r c sizeof int int j count 0 0 r j 0 j c j arr c j count 0 r j 0 j c j printf arr c j code process free dynam alloc memori return 0 output 1 2 3 4 5 6 7 8 9 10 11 12 2 use array pointer creat array pointer size r note c99 c languag allow variabl size array 
+creat array pointer dynam alloc memori everi row 
+includ stdio h includ stdlib h int main int r 3 c 4 j count int arr r 0 r arr int malloc c sizeof int note arr j arr j count 0 0 r j 0 j c j arr j count arr j count 0 r j 0 j c j printf arr j code process free dynam alloc memori return 0 output 1 2 3 4 5 6 7 8 9 10 11 12 3 use pointer pointer creat array pointer also dynam use doubl pointer 
+array pointer alloc dynam dynam alloc memori everi row like method 2 
+includ stdio h includ stdlib h int main int r 3 c 4 j count int arr int malloc r sizeof int 0 r arr int malloc c sizeof int note arr j arr j count 0 0 r j 0 j c j arr j count arr j count 0 r j 0 j c j printf arr j code process free dynam alloc memori return 0 output 1 2 3 4 5 6 7 8 9 10 11 12 4 use doubl pointer one malloc call row includ stdio h includ stdlib h int main int r 3 c 4 int arr int count 0 j arr int malloc sizeof int r arr 0 int malloc sizeof int c r 0 r arr arr c 0 r j 0 j c j arr j count arr j count 0 r j 0 j c j printf arr j return 0 output 1 2 3 4 5 6 7 8 9 10 11 12 thank trishansh bhardwaj suggest 4th method 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

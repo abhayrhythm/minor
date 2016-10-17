@@ -1,0 +1,15 @@
+
+A regular expression (sometimes called a rational expression) is a sequence of characters that define a search pattern, mainly for use in pattern matching with strings, or string matching, i.e. “find and replace”-like operations.(Wikipedia). 
+Regular expressions are a generalized way to match patterns with sequences of characters. It is used in every programming language like C++, Java and Python. 
+What is a regular expression and what makes it so important?
+Regex are used in Google analytics in URL matching in supporting search and replace in most popular editors like Sublime, Notepad++, Brackets, Google Docs and Microsoft word.
+Example :  Regular expression for an email address :
+^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$ 
+
+The above regular expression can be used for checking if a given set of characters is an email address or not. 
+How to write regular expression?
+
+ Repeaters : * , + and { } : 
+These symbols act as repeaters and tell the computer that the preceding character is to be used for more than just one time.
+ The asterisk symbol ( * ):
+It tells the computer to match the preceding character (or set of characters) for 0 or more times (upto infinite).

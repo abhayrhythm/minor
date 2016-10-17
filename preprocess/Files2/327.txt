@@ -1,0 +1,10 @@
+strongli recommend refer articl prerequisit 
+random algorithm set 1 introduct analysi random algorithm set 2 classif applic post mont carlo algorithm discuss 
+problem statement given unsort array n number ε 0 comput element whose rank posit sort rang 1 ε n 2 1 ε n 2 
+½ approxim median algorithm epsilom 1 2 rank rang n 4 3n 4 find k th smallest element n expect time n worst case time 
+want less n time low probabl error allow 
+follow step repres algorithm log n x log log n time produc incorrect result probabl less equal 2 n2 
+randomli choos k element array k c log n c constant insert set 
+sort element set 
+return median set e 
+k 2 th element set 

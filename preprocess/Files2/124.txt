@@ -1,0 +1,5 @@
+given string str digit find length longest substr str length substr 2k digit sum left k digit equal sum right k digit 
+exampl input str 123123 output 6 complet string even length sum first second half digit input str 1538023 output 4 longest substr first second half sum 5380 strongli recommend click practic move solut 
+simpl solut n3 simpl solut check everi substr even length 
+follow c base implement simpl approach 
+simpl c base program find length longest even length substr sum digit left right includ stdio h includ string h int findlength char str int n strlen str int maxlen 0 initi result choos start point everi substr int 0 n choos end point even length substr int j 1 j n j 2 int length j 1 find length current substr calcul left right sum current substr int leftsum 0 rightsum 0 int k 0 k length 2 k leftsum str k 0 rightsum str k length 2 0 updat result need leftsum rightsum maxlen length maxlen length return maxlen driver program test function int main void char str 1538023 printf length substr findlength str return 0 output length substr 4 

@@ -1,0 +1,21 @@
+given imag turn 90 degre 
+vagu question 
+minim browser tri solut go 
+imag treat 2d matrix store buffer 
+provid matrix dimens base address 
+turn 
+exampl see pictur rotat right appear observ arrow direct idea simpl 
+transform row sourc matrix requir column final imag 
+use auxiliari buffer transform imag 
+pictur observ first row sourc last column destin second row sourc last one column destin last row sourc first column destin pictori form repres transform x n matrix n x matrix transform attempt atleast tri pseudo code 
+easi write pseudo code 
+c c usual travers matrix row major order 
+row transform differ column final imag 
+need construct column final imag 
+see follow algorithm transform r 0 r r c 0 c n c hint map sourc element indic indic destin matrix element 
+dest_buff c r 1 source_buff r c note variou way implement algorithm base travers matrix row major column major order 
+two matric two way row column major travers matrix 
+henc atleast 4 differ way transform sourc matrix final matrix 
+code includ stdio h includ stdlib h void displaymatrix unsign int const p unsign int row unsign int col void rotat unsign int ps unsign int pd unsign int row unsign int col int main declar unsign int imag 4 1 2 3 4 5 6 7 8 9 10 11 12 unsign int psourc unsign int pdestin unsign int n set initi valu memori alloc 3 n 4 psourc unsign int imag pdestin unsign int malloc sizeof int n process buffer displaymatrix psourc n rotat psourc pdestin n displaymatrix pdestin n free pdestin getchar return 0 void displaymatrix unsign int const p unsign int r unsign int c unsign int row col printf n n row 0 row r row col 0 col c col printf p row c col printf n printf n n void rotat unsign int ps unsign int pd unsign int row unsign int col unsign int r c r 0 r row r c 0 c col c pd c row row r 1 ps r col c inplac rotat squar matrix 90 degre compil venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

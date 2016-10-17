@@ -1,0 +1,16 @@
+given set string find longest common prefix 
+input geeksforgeek geek geek geezer output gee input appl ape april output ap discuss word word match algorithm previou post 
+algorithm instead go string one one go charact one one 
+consid string geeksforgeek geek geek geezer 
+c implement approach 
+c program find longest common prefix includ bit stdc h use namespac std function find string minimum length return length int findminlength string arr int n int min arr 0 length int 1 n arr length min min arr length return min function return longest common prefix array string string commonprefix string arr int n int minlen findminlength arr n string result result string char current current charact int 0 minlen current charact must string part result current arr 0 int j 1 j n j arr j current return result append result result push_back current return result driver program test function int main string arr geeksforgeek geek geek geezer int n sizeof arr sizeof arr 0 string an commonprefix arr n an length cout longest common prefix an els cout common prefix return 0 output gee algorithm better word word match algorithm set 1 discuss word word match algorithm 
+suppos input string geeksforgeek geek geek geezer x 
+common prefix string string 
+word word match algorithm discuss set 1 come conclus common prefix string travers string 
+use algorithm first iter come know common prefix string go look second charact string 
+algorithm huge advantag mani string 
+time complex sinc iter charact string say time complex n n number string length largest string string auxiliari space store longest prefix string alloc space 
+articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

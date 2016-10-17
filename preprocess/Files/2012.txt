@@ -1,0 +1,61 @@
+
+In C/C++, arrays and pointers have similar semantics, except on type information.
+As an example, given a 3D array
+int buffer[5][7][6];
+An element at location [2][1][2] can be accessed as “buffer[2][1][2]” or *( *( *(buffer + 2) + 1) + 2).
+Observe the following declaration
+T *p; // p is a pointer to an object of type T
+When a pointer p is pointing to an object of type T, the expression *p is of type T. For example buffer is of type array of 5 two dimensional arrays. The type of the expression *buffer is “array of arrays (i.e. two dimensional array)”.
+Based on the above concept translating the expression *( *( *(buffer + 2) + 1) + 2) step-by-step makes it more clear.
+
+buffer – An array of 5 two dimensional arrays, i.e. its type is “array of 5 two dimensional arrays”.
+buffer + 2 – displacement for 3rd element in the array of 5 two dimensional arrays.
+*(buffer + 2) – dereferencing, i.e. its type is now two dimensional array.
+*(buffer + 2) + 1 – displacement to access 2nd element in the array of 7 one dimensional arrays.
+*( *(buffer + 2) + 1) – dereferencing (accessing), now the type of expression “*( *(buffer + 2) + 1)” is an array of integers.
+*( *(buffer + 2) + 1) + 2 – displacement to get element at 3rd position in the single dimension array of integers.
+*( *( *(buffer + 2) + 1) + 2) – accessing the element at 3rd position (the overall expression type is int now).
+
+The compiler calculates an “offset” to access array element. The “offset” is calculated based on dimensions of the array. In the above case, offset = 2 * (7 * 6) + 1 * (6) + 2. Those in blue colour are dimensions, note that the higher dimension is not used in offset calculation. During compile time the compiler is aware of dimensions of array. Using offset we can access the element as shown below,
+element_data = *( (int *)buffer + offset );
+It is not always possible to declare dimensions of array at compile time. Sometimes we need to interpret a buffer as multidimensional array object. For instance, when we are processing 3D image whose dimensions are determined at run-time, usual array subscript rules can’t be used. It is due to lack of fixed dimensions during compile time. Consider the following example,
+int *base;
+Where base is pointing large image buffer that represents 3D image of dimension l x b x h where l, b and h are variables. If we want to access an element at location (2, 3, 4) we need to calculate offset of the element as
+offset = 2 * (b x h) + 3 * (h) + 4 and the element located at base + offset.
+Generalizing further, given start address (say base) of an array of size [l x b x h] dimensions, we can access the element at an arbitrary location (a, b, c) in the following way,
+data = *(base + a * (b x h) + b * (h) + c); // Note that we haven’t used the higher dimension l.
+The same concept can be applied to any number of dimensions. We don’t need the higher dimension to calculate offset of any element in the multidimensional array. It is the reason behind omitting the higher dimension when we pass multidimensional arrays to functions. The higher dimension is needed only when the programmer iterating over limited number of elements of higher dimension.
+A C/C++ puzzle, predict the output of following program
+
+int main()
+{
+    char arr[5][7][6];
+    char (*p)[5][7][6] = &arr;
+
+    /* Hint: &arr - is of type const pointer to an array of
+       5 two dimensional arrays of size [7][6] */
+
+    printf("%d\n", (&arr + 1) - &arr);
+    printf("%d\n", (char *)(&arr + 1) - (char *)&arr);
+    printf("%d\n", (unsigned)(arr + 1) - (unsigned)arr);
+    printf("%d\n", (unsigned)(p + 1) - (unsigned)p);
+
+    return 0;
+}
+
+Output:
+1
+210
+42
+210
+Thanks to student for pointing an error.
+— Venki. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

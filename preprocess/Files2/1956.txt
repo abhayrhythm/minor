@@ -1,0 +1,27 @@
+standard c librari provid qsort use sort array 
+name suggest function use quicksort algorithm sort given array 
+follow prototyp qsort void qsort void base size_t num size_t size int compar const void const void key point qsort compar function compar 
+compar function take two argument contain logic decid rel order sort output 
+idea provid flexibl qsort use type includ user defin type use obtain desir order increas decreas 
+compar function take two pointer argument type cast const void defin order element return stabl transit manner int compar const void p1 const void p2 return valu mean 0 element point p1 goe element point p2 0 element point p1 equival element point p2 0 element point p1 goe element point p2 sourc http www cplusplu com refer cstdlib qsort exampl let array student follow type student 
+struct student int age mark char name 20 let say need sort student base mark ascend order 
+compar function look like int compar const void p const void q int l struct student p mark int r struct student q mark return l r see follow post sampl use qsort 
+given sequenc word print anagram togeth box stack problem closest pair point follow interest problem easili solv help qsort compar function 
+given array integ sort way odd number appear first even number appear later 
+odd number sort descend order even number sort ascend order 
+simpl approach first modifi input array even odd number segreg follow appli sort algorithm part odd even separ 
+howev exist interest approach littl modif compar function quick sort 
+idea write compar function take two address p q argument 
+let l r number point p q function use follow logic 1 l r odd put greater two first 
+2 l r even put smaller two first 
+3 one even odd put odd number first 
+follow c implement approach 
+includ stdio h includ stdlib h function use qsort decid rel order element address p q int compar const void p const void q get valu given address int l const int p int r const int q odd put greater two first 
+l 1 r 1 return r l even put smaller two first 
+l 1 
+r 1 return l r l even put r first 
+l 1 return 1 l odd put l first return 1 util function print array void printarr int arr int n int 0 n printf arr driver program test function int main int arr 1 6 5 2 3 9 4 7 8 int size sizeof arr sizeof arr 0 qsort void arr size sizeof arr 0 compar printf output array n printarr arr size return 0 output output array 9 7 5 3 1 2 4 6 8 exercis given array integ sort altern fashion 
+altern fashion mean element even indic sort separ element odd indic sort separ 
+articl compil aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

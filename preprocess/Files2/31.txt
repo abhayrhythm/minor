@@ -1,0 +1,7 @@
+answer depend strategi choos pivot 
+earli version quick sort leftmost rightmost element chosen pivot worst occur follow case 
+1 array alreadi sort order 
+2 array alreadi sort revers order 
+3 element special case case 1 2 sinc case common use case problem easili solv choos either random index pivot choos middl index partit especi longer partit choos median first middl last element partit pivot 
+modif worst case quick sort less chanc occur worst case still occur input array maximum minimum element alway chosen pivot 
+refer http en wikipedia org wiki quicksort adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

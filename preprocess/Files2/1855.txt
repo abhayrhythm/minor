@@ -1,0 +1,19 @@
+given n triangl along length three side b c 
+need count number uniqu triangl n given triangl 
+two triangl differ one anoth least one side differ 
+exampl input arr 1 2 2 4 5 6 4 5 6 output 2 input arr 4 5 6 6 5 4 1 2 2 8 9 12 output 3 strongli recommend minim browser tri first 
+sinc ask find number uniqu triangl use either set unordered_set 
+post set base approach discuss 
+store three side element contain 
+use stl pair store three side togeth pair int pair int int one one insert triangl set 
+problem approach triangl side 4 5 6 differ triangl side 5 4 6 although refer triangl 
+order handl case store side sort order basi length side sort issu sinc 3 side sort constant time 
+exampl 5 4 6 insert set 4 5 6 note make pair either make_pair b simpli use b 
+c implement idea c program find number uniqu triangl includ bit stdc h use namespac std creat shortcut integ pair 
+typedef pair int int ipair structur repres triangl three side b c struct triangl int b c function sort three number b c function make smallest b middl c largest note b c pass refer int sort3 int int b int c b swap b b c swap b c b swap b function return number uniqu triangl int countuniquetriangl struct triangl arr int n set consist uniqu triangl set pair int ipair insert triangl one one int 0 n find three side sort int arr b arr b c arr c sort3 b c insert triangl set insert b c return set size return size driver program test function int main array structur store side 6 triangl struct triangl arr 3 2 2 3 4 5 1 2 2 2 2 3 5 4 3 6 4 5 int n sizeof arr sizeof triangl cout number uniqu triangl countuniquetriangl arr n return 0 output number uniqu triangl 4 time complex solut n log n set requir log n time insert 
+improv time complex n use unordered_set 
+use unordered_set requir write hash function hash function defin librari pair 
+relat articl number possibl triangl articl contribut chirag agraw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

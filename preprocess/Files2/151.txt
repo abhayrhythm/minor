@@ -1,0 +1,33 @@
+like greedi dynam program divid conquer algorithm paradigm 
+typic divid conquer algorithm solv problem use follow three step 
+1 divid break given problem subproblem type 
+2 conquer recurs solv subproblem 3 combin appropri combin answer follow standard algorithm divid conquer algorithm 
+1 binari search search algorithm 
+step algorithm compar input element x valu middl element array 
+valu match return index middl 
+otherwis x less middl element algorithm recur left side middl element els recur right side middl element 
+2 quicksort sort algorithm 
+algorithm pick pivot element rearrang array element way element smaller pick pivot element move left side pivot greater element move right side 
+final algorithm recurs sort subarray left right pivot element 
+3 merg sort also sort algorithm 
+algorithm divid array two halv recurs sort final merg two sort halv 
+4 closest pair point problem find closest pair point set point x plane 
+problem solv n 2 time calcul distanc everi pair point compar distanc find minimum 
+divid conquer algorithm solv problem nlogn time 
+5 strassen algorithm effici algorithm multipli two matric 
+simpl method multipli two matric need 3 nest loop n 3 
+strassen algorithm multipli two matric n 2 8974 time 
+6 cooley tukey fast fourier transform fft algorithm common algorithm fft 
+divid conquer algorithm work nlogn time 
+7 karatsuba algorithm fast multipl multipl two n digit number singl digit multipl gener exactli n power 2 
+therefor faster classic algorithm requir n2 singl digit product 
+n 210 1024 particular exact count 310 59 049 210 2 1 048 576 respect 
+publish algorithm separ post 
+divid conquer c vs dynam program dp paradigm c dp divid given problem subproblem solv subproblem 
+choos one given problem 
+divid conquer use subproblem evalu mani time 
+otherwis dynam program memoiz use 
+exampl binari search divid conquer algorithm never evalu subproblem 
+hand calcul nth fibonacci number dynam program prefer see detail 
+refer algorithm sanjoy dasgupta christo papadimitri umesh vazirani introduct algorithm clifford stein thoma h cormen charl e leiserson ronald l http en wikipedia org wiki karatsuba_algorithm pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

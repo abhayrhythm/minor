@@ -1,0 +1,10 @@
+number said spars number binari represent number two consecut bit set 
+write function check given number spars 
+exampl input x 72 output true explan binari represent 72 01001000 two consecut 1 binari represent input x 12 output fals explan binari represent 12 1100 third fourth bit end set 
+strongli recommend click practic move solut 
+observ care notic use bitwis binari represent given number right shift number e half given number figur whether number spars 
+result oper would 0 number spars non zero spars 
+c implement idea 
+c program check n spars includ iostream use namespac std return true n spars els fals bool checkspars int n n spars set n n 2 n n 1 return fals return true driver program int main cout checkspars 72 endl cout checkspars 12 endl cout checkspars 2 endl cout checkspars 3 endl return 0 output 1 0 1 0 note instead right shift could use left shift also left shift might lead overflow case 
+articl contribut vimal vestron 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,29 @@
+initi list use initi data member class 
+list member initi indic constructor comma separ list follow colon 
+follow exampl use initi list initi x point class 
+includ iostream use namespac std class point privat int x int public point int 0 int j 0 x j use initi list option constructor also written point int 0 int j 0 x j int getx const return x int geti const return int main point t1 10 15 cout x t1 getx cout t1 geti return 0 output x 10 15 code exampl syntax initi list 
+code x also easili initi insid constructor 
+situat initi data member insid constructor work initi list must use 
+follow case 1 initi non static const data member const data member must initi use initi list 
+follow exampl const data member test class initi use initi list 
+includ iostream use namespac std class test const int public test int initi list must use int gett return int main test t1 10 cout t1 gett return 0 output 10 2 initi refer member refer member must initi use initi list 
+follow exampl refer member test class initi use initi list 
+initi refer data member includ iostream use namespac std class test int public test int initi list must use int gett return int main int x 20 test t1 x cout t1 gett endl x 30 cout t1 gett endl return 0 output 20 30 3 initi member object default constructor follow exampl object class data member class b default constructor 
+initi list must use initi 
+includ iostream use namespac std class int public int int arg arg cout constructor call valu endl class b contain object class b public b int b b int x x initi list must use cout b constructor call int main b obj 10 return 0 output constructor call valu 10 b constructor call class default parameter constructor initi list must want initi use default constructor must initi use parameter constructor 
+4 initi base class member like point 3 parameter constructor base class call use initi list 
+includ iostream use namespac std class int public int int arg arg cout constructor call valu endl class b deriv class b public b int b b int x x initi list must use cout b constructor call int main b obj 10 return 0 5 constructor paramet name data member constructor paramet name data member name data member must initi either use pointer initi list 
+follow exampl member name paramet name 
+includ iostream use namespac std class int public int int geti const return int either initi list pointer must use constructor also written int int main 10 cout geti return 0 output 10 6 perform reason better initi class variabl initi list instead assign valu insid bodi 
+consid follow exampl without initi list class myclass type variabl public myclass type assum type alreadi declar class appropri constructor oper variabl compil follow follow step creat object type myclass 1 type constructor call first 
+2 assign oper type call insid bodi myclass constructor assign variabl 3 final destructor type call sinc goe scope 
+consid code myclass constructor initi list initi list class myclass type variabl public myclass type variabl assum type alreadi declar class appropri constructor oper initi list follow step follow compil 1 copi constructor type class call initi variabl 
+argument initi list use copi construct variabl directli 
+2 destructor type call sinc goe scope 
+see exampl use assign insid constructor bodi three function call constructor destructor one addit assign oper call 
+use initi list two function call copi constructor destructor call 
+see post run exampl point 
+assign penalti much real applic mani variabl 
+thank ptr ad point 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

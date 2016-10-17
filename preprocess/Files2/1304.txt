@@ -1,0 +1,12 @@
+given matrix everi cell number coin 
+count number way reach bottom right top left exactli k coin 
+move 1 j j 1 cell j 
+exampl input k 12 mat 1 2 3 4 6 5 3 2 1 output 2 two path 12 coin 1 2 6 2 1 1 2 3 5 1 strongli recommend click practic move solut 
+problem recurs defin pathcount n k number path reach mat n mat 0 0 exactli k coin 0 n 0 return 1 mat 0 0 k els return 0 els pathcount n k pathcount 1 n k mat n pathcount n 1 k mat n c implement recurs algorithm 
+naiv recurs c program count path exactli k coin includ bit stdc h defin r 3 defin c 3 use namespac std recurs function count path sum k 0 0 n int pathcountrec int mat c int int n int k base case 0 n 0 return 0 0 n 0 return k mat n n reach either 1 n n 1 return pathcountrec mat 1 n k mat n pathcountrec mat n 1 k mat n wrapper pathcountrec int pathcount int mat c int k return pathcountrec mat r 1 c 1 k driver program int main int k 12 int mat r c 1 2 3 4 6 5 3 2 1 cout pathcount mat k return 0 output 2 time complex solut recurs exponenti 
+solv problem pseudo polynomi time time complex depend numer valu input use dynam program 
+idea use 3 dimension tabl dp n k row number n column number k number coin 
+dynam program base c implement 
+dynam program base c program count path exactli k coin includ bit stdc h defin r 3 defin c 3 defin max_k 1000 use namespac std int dp r c max_k int pathcountdprecdp int mat c int int n int k base case 0 n 0 return 0 0 n 0 return k mat n subproblem alreadi solv dp n k 1 return dp n k n reach either 1 n n 1 dp n k pathcountdprecdp mat 1 n k mat n pathcountdprecdp mat n 1 k mat n return dp n k function mainli initi dp call pathcountdprecdp int pathcountdp int mat c int k memset dp 1 sizeof dp return pathcountdprecdp mat r 1 c 1 k driver program test function int main int k 12 int mat r c 1 2 3 4 6 5 3 2 1 cout pathcountdp mat k return 0 output 2 time complex solut n k 
+thank gaurav ahirwar suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

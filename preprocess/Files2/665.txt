@@ -1,0 +1,45 @@
+vmware visit extens centr campu hire app develop 
+round 1 first round written one conduct hirepro platform 
+2 section aptitud technic 
+time allot 75 min 
+aptitud section quit tough 
+technic section mix bag question rang hash os dbm data structur etc 
+network linux etc 
+16 student short list round 
+round 2 also code round 
+one question solv one hour 
+built test case submiss portal 
+code round held 3 diff batch 
+question 1 find prime number less given prime number 
+2 check whether number armstrong number 
+3 convert infix express postfix 
+total 35 student select next round 
+round 3 next round consist softwar architectur question 
+design class object e r diagram web app built music store 
+app need handl onlin order store purchas inventori well 
+deviat bit class object e r diagram gave micro servic base web app architectur sql base scheme design 
+drew tabl structur tabl includ variou function depend relat 
+also made variou middlewar servic app function 
+later reveal compani gave lot weight age round least case 
+10 student elimin round 
+round 4 two techinc interview 
+surpris realli short 
+first ask explain project brief 
+ask code question 
+given array number element rang 0 9 maximum number make given number swap swap adjac number 
+gave simpl solut find max number given window maximum swap bring first place reduc max swap 
+repeat recurs second element till swap left 
+interview quit satisfi solut even ask write code 
+first interview 
+round 5 second interview first ask explain internship 
+ask question technic section 
+1 explain 2nf function depend 2 distribut request load balanc differ server 
+basic ask cpu schedul algo 
+3 use function c lang 
+still boggl question 4 question nosql sql databas 
+follow two hr interview 
+standard hr question ask vmware etc etc 
+end 5 student select vmware full time role well six month internship 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

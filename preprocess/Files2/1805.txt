@@ -1,0 +1,12 @@
+consid c program predict output 
+printf invok undefin behaviour referenc argument list 
+defin order argument evalu 
+differ compil may choos differ order 
+singl compil also choos differ order differ time 
+exampl three printf statement also caus undefin behavior 
+three pritf statement caus undefin behavior includ stdio h int main int 10 printf n 10 printf n 10 printf n return 0 therefor recommend two two pre post increment oper statement 
+articl contribut spoorthi aman 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,18 @@
+previou post trie describ insert search node trie 
+algorithm delet node trie 
+delet oper delet key bottom manner use recurs 
+follow possibl condit delet key trie key may trie 
+delet oper modifi trie 
+key present uniqu key part key contain anoth key prefix key prefix anoth key trie 
+delet node 
+key prefix key anoth long key trie 
+unmark leaf node 
+key present trie atleast one key prefix key 
+delet node end key first leaf node longest prefix key 
+highlight code present algorithm implement condit 
+one may dilemma pointer pass delet helper reflect chang deletehelp deletekey 
+note hold trie adt trie_t node pass refer pointer 
+includ stdio h includ stdlib h includ string h defin array_s sizeof sizeof 0 alphabet size symbol defin alphabet_s 26 defin index c int c int defin free p free p p null forward declrat typedef struct trie_nod trie_node_t trie node struct trie_nod int valu non zero leaf trie_node_t children alphabet_s trie adt typedef struct trie trie_t struct trie trie_node_t root int count trie_node_t getnod void trie_node_t pnode null pnode trie_node_t malloc sizeof trie_node_t pnode int pnode valu 0 0 alphabet_s pnode children null return pnode void initi trie_t ptrie ptrie root getnod ptrie count 0 void insert trie_t ptrie char key int level int length strlen key int index trie_node_t pcrawl ptrie count pcrawl ptrie root level 0 level length level index index key level pcrawl children index skip current node pcrawl pcrawl children index els add new node pcrawl children index getnod pcrawl pcrawl children index mark last node leaf non zero pcrawl valu ptrie count int search trie_t ptrie char key int level int length strlen key int index trie_node_t pcrawl pcrawl ptrie root level 0 level length level index index key level pcrawl children index return 0 pcrawl pcrawl children index return 0 pcrawl pcrawl valu int leafnod trie_node_t pnode return pnode valu 0 int isitfreenod trie_node_t pnode int 0 alphabet_s pnode children return 0 return 1 bool deletehelp trie_node_t pnode char key int level int len pnode base case level len pnode valu unmark leaf node pnode valu 0 empti node delet isitfreenod pnode return true return fals els recurs case int index index key level deletehelp pnode children index key level 1 len last node mark delet free pnode children index recurs climb delet elig node return leafnod pnode isitfreenod pnode return fals void deletekey trie_t ptrie char key int len strlen key len 0 deletehelp ptrie root key 0 len int main char key 8 sell sea shore sheer trie_t trie initi trie int 0 array_s key insert trie key deletekey trie key 0 printf n search trie 
+present trie present trie return 0 venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

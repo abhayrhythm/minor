@@ -1,0 +1,17 @@
+given binari tree convert binari search tree 
+convers must done way keep origin structur binari tree 
+exampl 
+exampl 1 input 10 2 7 8 4 output 8 4 10 2 7 exampl 2 input 10 30 15 20 5 output 15 10 20 5 30 solut follow 3 step solut convert binari tree binari search tree 
+1 creat temp array arr store inord travers tree 
+step take n time 
+2 sort temp array arr 
+time complex step depend upon sort algorithm 
+follow implement quick sort use take n 2 time 
+done nlogn time use heap sort merg sort 
+3 inord travers tree copi array element tree node one one 
+step take n time 
+follow c implement approach 
+main function convert highlight follow code 
+program convert binari tree binari search tree includ stdio h includ stdlib h binari tree node structur struct node int data struct node left struct node right helper function store inord travers tree root node void storeinord struct node node int inord int index_ptr base case node null return first store left subtre storeinord node left inord index_ptr copi root data inord index_ptr node data index_ptr increas index next entri final store right subtre storeinord node right inord index_ptr helper function count node binari tree int countnod struct node root root null return 0 return countnod root left countnod root right 1 follow function need librari function qsort int compar const void const void b return int int b helper function copi content arr binari tree 
+functon basic inord travers binari tree one one copi arr element binari tree node void arraytobst int arr struct node root int index_ptr base case root null return first updat left subtre arraytobst arr root left index_ptr updat root data increment index root data arr index_ptr index_ptr final updat right subtre arraytobst arr root right index_ptr function convert given binari tree bst void binarytreetobst struct node root base case tree empti root null return count number node binari tree know size temporari array creat int n countnod root creat temp array arr store inord travers tree arr int arr new int n int 0 storeinord root arr sort array use librari function quick sort qsort arr n sizeof arr 0 compar copi array element back binari tree 0 arraytobst arr root delet dynam alloc memori avoid meori leak delet arr util function creat new binari tree node struct node newnod int data struct node temp new struct node temp data data temp left null temp right null return temp util function print inord travers binari tree void printinord struct node node node null return first recur left child printinord node left print data node printf node data recur right child printinord node right driver function test function int main struct node root null construct tree given figur 10 30 15 20 5 root newnod 10 root left newnod 30 root right newnod 15 root left left newnod 20 root right right newnod 5 convert binari tree bst binarytreetobst root printf follow inord travers convert bst n printinord root return 0 output follow inord travers convert bst 5 10 15 20 30 cover anoth method problem convert tree use height tree extra space 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

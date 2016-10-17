@@ -1,0 +1,32 @@
+
+Given two arrays such that first array has enough extra space to accommodate elements of second array.  How to concatenate second array to first in C without using any loop in program?
+Example:
+
+Input: arr1[5] = {1, 2, 3}
+       arr2[]  = {4, 5}
+Output: arr1[] = {1, 2, 3, 4, 5}
+
+We strongly recommend you to minimize your browser and try this yourself first.
+ 
+Hint: We may use library functions in C.
+The idea is to use memcpy() or memmove() in C.
+
+// arr1[] is of size m+n and arr2[] is of size n. This function
+// appends contents of arr2[] at the end of arr1[]
+void concatenate(int arr1[], int arr2[], int m, int n)
+{
+   memcpy(arr1 + m, arr2, sizeof(arr2)); 
+}
+
+See this for complete running code.
+Thanks to Utkarsh Trivedi for suggesting above solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

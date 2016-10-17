@@ -1,0 +1,29 @@
+regular competit programm face common challeng input larg task read input stdin might prove bottleneck 
+problem accompani warn larg data 
+let us creat dummi input file contain line 16 byte follow newlin 1000000 line make file 17mb good enough 
+creat dummi file size 17 mb compar perform scanf cin ye 1111111111111111 head 1000000 tmp dummi let us compar time taken read file stdin get file disk stdin use redirect use scanf versu cin 
+filenam cin_test cc test redirect creat temp file 17 mb stdin program run 
+includ iostream use namespac std int main char buffer 256 cin buffer return 0 output program dummi file redirect stdin 
+g cin_test cc cin_test time cin_test tmp dummi real 0m2 162 user 0m1 696 sy 0m0 332 filenam scanf_test c see perform scanf redirect creat temp file 17 mb stdin program run 
+includ cstdlib includ cstdio int main char buffer 256 scanf buffer eof return 0 output program dummi file redirect stdin 
+g scanf_test cc scanf_test time scanf_test tmp dummi real 0m0 426 user 0m0 248 sy 0m0 084 well result consist observ 
+scanf faster cin 
+high level wrapper theread system call syntact sugar 
+visibl differ scanf explicitli declar input type wherea cin redirect oper overload use templat 
+seem like good enough reason perform hit 5x 
+turn iostream make use stdio buffer system 
+cin wast time synchron underli c librari stdio buffer call bothscanf cin interleav 
+good thing libstdc provid option turn synchron iostream standard stream correspond standard c stream use std io sync_with_stdio fals cin becom faster scanf 
+detail articl fast input output competit program filenam cin_test_2 cc see perform cin stdio syc disabl use sync_with_stdio fals 
+includ iostream use namespac std int main char buffer 256 ios_bas sync_with_stdio fals cin buffer return 0 run program g cin_test_2 cc cin_test_2 time cin_test_2 tmp dummi real 0m0 380 user 0m0 240 sy 0m0 028 like thing caveat 
+synchron turn use cin scanf togeth result undefin mess 
+synchron turn result indic cin 8 10 faster scanf 
+probabl scanf interpret format argument runtim make use variabl number argument wherea cin compil time 
+wonder fast done 
+redirect content dummi file null devic special devic discard inform written use command line 
+time cat tmp dummi dev null real 0m0 185 user 0m0 000 sy 0m0 092 wow 
+fast 
+articl contribut ayush govil 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,27 @@
+
+Using result of comma operator as l-value is not valid in C. But in C++, result of comma operator can be used as l-value if the right operand of the comma operator is l-value.
+For example, if we compile the following program as a C++ program, then it works and prints b = 30. And if we compile the same program as C program, then it gives warning/error in compilation (Warning in Dev C++ and error in Code Blocks).
+
+#include<stdio.h>
+
+int main()
+{
+  int a = 10, b = 20;
+  (a, b) = 30; // Since b is l-value, this statement is valid in C++, but not in C.
+  printf("b = %d", b);
+  getchar();
+  return 0;
+}
+
+C++ Output:
+b = 30 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

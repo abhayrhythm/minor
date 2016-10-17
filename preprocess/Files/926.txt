@@ -1,0 +1,110 @@
+
+This post is an extension of How to dynamically allocate a 2D array in C? 
+A one dimensional array can be easily passed as a pointer, but syntax for passing a 2D array to a function can be difficult to remember.    One important thing for passing multidimensional arrays is, first array dimension does not have to be  specified. The second (and any subsequent) dimensions must be given
+1) When second dimension is available globally (either as a macro or as a global constant).
+
+#include <stdio.h>
+const int n = 3;
+
+void print(int arr[][n], int m)
+{
+    int i, j;
+    for (i = 0; i < m; i++)
+      for (j = 0; j < n; j++)
+        printf("%d ", arr[i][j]);
+}
+
+int main()
+{
+    int arr[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    print(arr, 3);
+    return 0;
+}
+
+Output:
+1 2 3 4 5 6 7 8 9
+The above method is fine if second dimension is fixed and is not user specified.  The following methods handle cases when second dimension can also change.
+1) If compiler is C99 compatible
+From C99, C language supports variable sized arrays to be passed simply by specifying the variable dimensions (See this for an example run)
+
+// The following program works only if your compiler is C99 compatible.
+#include <stdio.h>
+
+// n must be passed before the 2D array
+void print(int m, int n, int arr[][n])
+{
+    int i, j;
+    for (i = 0; i < m; i++)
+      for (j = 0; j < n; j++)
+        printf("%d ", arr[i][j]);
+}
+
+int main()
+{
+    int arr[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int m = 3, n = 3;
+    print(m, n, arr);
+    return 0;
+}
+Output on a C99 compatible compiler:
+1 2 3 4 5 6 7 8 9
+If compiler is not C99 compatible, then we can use one of the following methods to pass a variable sized 2D array.
+2) Using a single pointer
+In this method, we must typecast the 2D array when passing to function.
+
+#include <stdio.h>
+void print(int *arr, int m, int n)
+{
+    int i, j;
+    for (i = 0; i < m; i++)
+      for (j = 0; j < n; j++)
+        printf("%d ", *((arr+i*n) + j));
+}
+
+int main()
+{
+    int arr[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int m = 3, n = 3;
+    print((int *)arr, m, n);
+    return 0;
+}
+
+Output:
+1 2 3 4 5 6 7 8 9
+3) Using an array of pointers or double pointer
+In this method also, we must typecast the 2D array when passing to function. 
+
+#include <stdio.h>
+// Same as "void print(int **arr, int m, int n)"
+void print(int *arr[], int m, int n)
+{
+    int i, j;
+    for (i = 0; i < m; i++)
+      for (j = 0; j < n; j++)
+        printf("%d ", *((arr+i*n) + j));
+}
+
+int main()
+{
+    int arr[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int m = 3;
+    int n = 3;
+    print((int **)arr, m, n);
+    return 0;
+}
+Output:
+1 2 3 4 5 6 7 8 9
+Remember that in C, array parameters are treated as pointers, so an array of pointers or a double pointer are same when they are parameters. For dynamic allocation, we had 2 different methods for array of pointers and double pointer. In dynamic allocation post, we had 2 different methods for array of pointers and double pointer.
+Methods 2 and 3 can also be useful on a C99 compatible compiler, in a situation when 2D array is dynamically allocated using malloc.
+References:
+http://www.eskimo.com/~scs/cclass/int/sx9a.html
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

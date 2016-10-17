@@ -1,0 +1,42 @@
+problem given 2 process j need write program guarante mutual exclus two without addit hardwar support 
+strongli recommend refer basic solut discuss previou articl 
+peterson algorithm mutual exclus set 1 would resolv 2 issu previou algorithm 
+wastag cpu clock cycl layman term thread wait turn end long loop test condit million time per second thu unnecessari comput 
+better way wait known yield 
+understand need dig deep process schedul work linux 
+idea mention simplifi version schedul actual implement lot complic 
+consid follow exampl three process p1 p2 p3 
+process p3 loop similar one code use comput exist loop p2 finish execut 
+schedul put round robin queue 
+say clock speed processor 1000000 sec alloc 100 clock process iter 
+first p1 run 100 clock 0 0001 second p2 0 0001 second follow p3 0 0001 second sinc process cycl repeat until p2 end follow p3 execut eventu termin 
+complet wast 100 cpu clock cycl 
+avoid mutual give cpu time slice e 
+yield essenti end time slice schedul pick next process run 
+test condit give cpu 
+consid test take 25 clock cycl save 75 comput time slice 
+put graphic consid processor clock speed 1mhz lot save 
+differ distribut provid differ function achiev function 
+linux provid sched_yield 
+void lock int self flag self 1 turn 1 self flag 1 self 1 turn 1 self chang addit sched_yield call sched_yield memori fenc 
+code earlier tutori might work system 100 correct 
+logic perfect modern cpu employ perform optim result order execut 
+reorder memori oper load store normal goe unnot within singl thread execut caus unpredict behaviour concurr program 
+consid exampl f 0 memori fenc requir print x exampl compil consid 2 statement independ thu tri increas code effici order lead problem concurr program 
+avoid place memori fenc give hint compil possibl relationship statement across barrier 
+order statement flag self 1 turn 1 self turn condit check yield exactli order lock work otherwis end deadlock condit 
+ensur compil provid instruct prevent order statement across barrier 
+case gcc __sync_synchron 
+modifi code becom full implement c filenam peterson_yieldlock_memoryf c use command compil gcc pthread peterson_yieldlock_memoryf c peterson_yieldlock_memoryf includ stdio h includ pthread h includ mythread h int flag 2 int turn const int max 1e9 int an 0 void lock_init initi lock reset desir thread acquir lock 
+give turn one 
+flag 0 flag 1 0 turn 0 execut enter critic section void lock int self set flag self 1 say want acquir lock flag self 1 first give thread chanc acquir lock turn 1 self memori fenc prevent reorder instruct beyond barrier 
+__sync_synchron wait until thread loos desir acquir lock turn get lock 
+flag 1 self 1 turn 1 self yield avoid wastag resourc 
+sched_yield execut leav critic section void unlock int self desir acquir lock futur 
+allow thread acquir lock 
+flag self 0 sampl function run two thread creat main void func void int 0 int self int printf thread enter n self lock self critic section one thread enter time 0 max an unlock self driver code int main pthread_t p1 p2 initi lock lock_init creat two thread run func pthread_creat p1 null func void 0 pthread_creat p2 null func void 1 wait thread end 
+pthread_join p1 null pthread_join p2 null printf actual count expect count n an max 2 return 0 mythread h wrapper header file assert statement ifndef __mythreads_h__ defin __mythreads_h__ includ pthread h includ assert h includ sched h void pthread_mutex_lock pthread_mutex_t int rc pthread_mutex_lock assert rc 0 void pthread_mutex_unlock pthread_mutex_t int rc pthread_mutex_unlock assert rc 0 void pthread_creat pthread_t thread const pthread_attr_t attr void start_routin void void arg int rc pthread_creat thread attr start_routin arg assert rc 0 void pthread_join pthread_t thread void value_ptr int rc pthread_join thread value_ptr assert rc 0 endif __mythreads_h__ output thread enter 1 thread enter 0 actual count 2000000000 expect count 2000000000 articl contribut pinkesh badjatiya 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

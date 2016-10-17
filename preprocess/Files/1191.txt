@@ -1,0 +1,33 @@
+
+Prerequisites : 
+
+ Suffix Array | Set 2 
+kasai’s algorithm 
+
+The Longest Common Extension (LCE) problem considers a string s and computes, for each pair (L , R), the longest sub string of s that starts at both L and R. In LCE, in each of the query we have to answer the length of the longest common prefix starting at indexes L and R.
+Example:
+String : “abbababba”
+Queries: LCE(1, 2), LCE(1, 6) and LCE(0, 5) 
+Find the length of the Longest Common Prefix starting at index given as, (1, 2), (1, 6) and (0, 5).
+The string highlighted  “green” are the longest common prefix starting at index- L and R of the respective queries. We have to find the length of the longest common prefix starting at index- (1, 2), (1, 6) and (0, 5).
+
+In Set 1, we explained about the naive method to find the length of the LCE of a string on many queries. In this set we will show how a LCE problem can be reduced to a RMQ problem, hence decreasing the asymptotic time complexity of the naive method.
+ Reduction of LCE to RMQ 
+Let the input string be S and queries be of the formLCE(L, R). Let the suffix array for s be Suff[] and the lcp array be lcp[].
+The longest common extension between two suffixes SL and SR of S can be obtained from the lcp array in the following way.
+
+Let low be the rank of SL among the suffixes of S (that is, Suff[low] = L). 
+Let high be the rank of SR among the suffixes of S. Without loss of generality, we assume that low < high. 
+Then the longest common extension of SL and SR is lcp(low, high) = min (low<=k< high)lcp [k].
+
+ 
+Proof: Let SL = SL…SL+C…sn and SR = SR…SR+c…sn, and let c be the longest common extension of SL and SR(i.e. SL…SL+C-1 = sn…SR+c-1). We assume that the string S has a sentinel character so that no suffix of S is a prefix of any other suffix of S but itself.
+
+If low = high – 1 then i = low and lcp[low] = c is the longest common extension of SL and SR and we are done.
+If low < high -1 then select i such lcp[i] is the minimum value in the interval [low, high] of the lcp array. We then have two possible cases:
+
+
+If c < lcp[i] we have a contradiction because SL . . . SL+lcp[i]-1 = SR. . . SR+lcp[i]-1 by the definition of the LCP table, and the fact that the entries of lcp correspond to sorted suffixes of S.
+ if c > lcp[i], let high = Suff[i], so that Shigh is the suffix associated with position i. Si is such that shigh . . . shigh+lcp[i]-1 = SL . . . SL+lcp[i]-1 and shigh . . . shigh+lcp[i]-1 = SR . . . SR+lcp[i]-1, but since SL . . . SL+c-1 = SR. . . SR+c-1 we have that the lcp array should be wrongly sorted which is a contradiction.
+
+Therefore we have c = lcp[i]

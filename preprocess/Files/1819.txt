@@ -1,0 +1,76 @@
+
+
+Solution to removing spaces from a string is already posted here. In this article another solution using stringstream is discussed.
+Algorithm
+
+1. Enter the whole string into stringstream.
+2. Empty the string.
+3. Extract word by word and concatenate to the string.
+
+Read about stringstream here
+
+// C++ program to remove spaces using stringstream
+#include<bits/stdc++.h>
+using namespace std;
+
+/* Function to remove spaces */
+string removeSpaces(string str)
+{
+    stringstream ss;
+    string temp;
+
+    /* Storing the whole string into string stream */
+    ss << str;
+
+    /* Making the string empty */
+    str = "";
+
+    /* Running loop till end of stream */
+    while (!ss.eof())
+    {
+        /* extracting word by word from stream */
+        ss >> temp;
+
+        /* concatenating in the string to be
+          returned*/
+        str = str + temp;
+    }
+    return str;
+}
+
+/*Driver function */
+int main()
+{
+    string s = "This is a test";
+    cout << removeSpaces(s) << endl;
+
+    s = "geeks for geeks";
+    cout << removeSpaces(s) << endl;
+
+    s = "geeks quiz is awsome!";
+    cout << removeSpaces(s) << endl;
+
+    s = "I   love     to     code";
+    cout << removeSpaces(s) << endl;
+
+    return 0;
+}
+
+Output:
+
+Thisisatest
+geeksforgeeks
+geeksquizisawsome!
+Ilovetocode
+
+This article is contributed by Nishant. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

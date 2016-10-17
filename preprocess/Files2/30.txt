@@ -1,0 +1,7 @@
+sort algorithm said stabl two object equal key appear order sort output appear input unsort array 
+sort algorithm stabl natur like insert sort merg sort bubbl sort etc 
+sort algorithm like heap sort quick sort etc 
+howev given sort algo stabl modifi stabl 
+sort algo specif way make stabl gener comparison base sort algorithm stabl natur modifi stabl chang key comparison oper comparison two key consid posit factor object equal key 
+refer http www math uic edu leon cs mcs401 s08 handout stabil pdf http en wikipedia org wiki sorting_algorithm stabil pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

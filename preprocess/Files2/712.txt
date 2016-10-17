@@ -1,0 +1,36 @@
+onlin round 1 30 hr 20 mcq base os c c 3 question aptitud 1 question dbm 
+q1 
+write program separ even node odd node odd node must come even node place 
+input 17 15 8 9 2 4 6 output 8 2 4 6 17 15 9 q2 
+find robot move circular fashion 
+http www geeksforgeek org check given sequenc move robot circular round 20 student shortlist 
+2 pi round round 1 q1 
+print matrix spiral 
+q2 
+deseri serial binari tree 
+round 8 student select 
+round 2 q1 
+given sort stream 0 1 find first occurr 1 write full work code 
+firstli n 
+ask reduc complex reduc complex log n appli binari search 
+ask project mention cv 
+went 20 minut 
+ask anoth question 
+q2 
+happen click web address web page retriv 
+q3 
+ask memori manag c c new alloc memori object ask overload new oper 
+q4 
+given function whenev call function timestamp store along function name 
+eg f1 1 20 f2 2 30 f1 3 10 suggest appropri data structur write code make follow queri within two given time stamp t1 t2 queri 1 return number function call t1 t2 
+queri 2 return number time particular function call t1 t2 
+ask variou os network question 
+q5 
+given array integ find subarray least averag 
+q6 
+suggest data structur maintain relationship variou hierarchi organ 
+thank geeksforgeek help 
+read geeksquiz mcq g4g interview question 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

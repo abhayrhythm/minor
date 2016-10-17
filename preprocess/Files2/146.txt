@@ -1,0 +1,19 @@
+given undirect graph number determin graph color color two adjac vertic graph color color 
+color graph mean assign color vertic 
+input 1 2d array graph v v v number vertic graph graph v v adjac matrix represent graph 
+valu graph j 1 direct edg j otherwis graph j 0 
+2 integ maximum number color use 
+output array color v number 1 color repres color assign ith vertex 
+code also return fals graph cannot color color 
+follow exampl graph wiki page color 3 color 
+strongli recommend click practic move solut 
+naiv algorithm gener possibl configur color print configur satisfi given constraint 
+untri conflagr gener next configur adjac vertic color color print configur v configur color 
+backtrack algorithm idea assign color one one differ vertic start vertex 0 assign color check safeti consid alreadi assign color adjac vertic 
+find color assign safe mark color assign part solut 
+find color due clash backtrack return fals 
+implement backtrack solut c c includ stdio h number vertic graph defin v 4 void printsolut int color util function check current color assign safe vertex v bool issaf int v bool graph v v int color int c int 0 v graph v c color return fals return true recurs util function solv color problem bool graphcoloringutil bool graph v v int int color int v base case vertic assign color return true v v return true consid vertex v tri differ color int c 1 c c check assign color c v fine issaf v graph color c color v c recur assign color rest vertic graphcoloringutil graph color v 1 true return true assign color c lead solut remov color v 0 color assign vertex return fals return fals function solv color problem use backtrack 
+mainli use graphcoloringutil solv problem 
+return fals color cannot assign otherwis return true print assign color vertic 
+pleas note may one solut function print one feasibl solut 
+bool graphcolor bool graph v v int initi color valu 0 initi need correct function issaf int color new int v int 0 v color 0 call graphcoloringutil vertex 0 graphcoloringutil graph color 0 fals printf solut exist return fals print solut printsolut color return true util function print solut void printsolut int color printf solut exist follow assign color n int 0 v printf color printf n driver program test function int main creat follow graph test whether 3 color 3 2 0 1 bool graph v v 0 1 1 1 1 0 1 0 1 1 0 1 1 0 1 0 int 3 number color graphcolor graph return 0 

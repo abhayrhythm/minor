@@ -1,0 +1,123 @@
+
+A number is Sparse if there are no two adjacent 1s in its binary representation.  For example 5 (binary representation: 101) is sparse, but 6 (binary representation: 110) is not sparse.
+Given a number x, find the smallest Sparse number which greater than or equal to x.
+Examples: 
+
+Input: x = 6
+Output: Next Sparse Number is 8
+
+Input: x = 4
+Output: Next Sparse Number is 4
+
+Input: x = 38
+Output: Next Sparse Number is 40
+
+Input: x = 44
+Output: Next Sparse Number is 64
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+A Simple Solution is to do following:
+
+1) Write a utility function isSparse(x) that takes a number 
+   and returns true if x is sparse, else false.  This function
+   can be easily written by traversing the bits of input number.
+2) Start from x and do following 
+   while(1)
+   {
+      if (isSparse(x))
+         return x;
+      else 
+         x++
+   }
+
+Time complexity of isSparse() is O(Log x). Time complexity of this solution is O(x Log x).  The next sparse number can be at most O(x) distance away.
+Thanks to kk_angel for suggesting above solution.
+An Efficient Solution can solve this problem without checking all numbers on by one.  Below are steps.
+
+1) Find binary of the given number and store it in a 
+   boolean array.
+2) Initialize last_finalized bit position as 0.
+2) Start traversing the binary from least significant bit.
+    a) If we get two adjacent 1's such that next (or third) 
+       bit is not 1, then 
+          (i)  Make all bits after this 1 to last finalized
+               bit (including last finalized) as 0. 
+          (ii) Update last finalized bit as next bit. 
+For example, let binary representation be 01010001011101, we change it to  01010001100000 (all bits after highlighted 11 are set to 0). Again two 1’s are adjacent, so change binary representation to 01010010000000.  This is our final answer.
+Below is C++ implementation of above solution.
+
+// C++ program to find next sparse number
+#include<bits/stdc++.h>
+using namespace std;
+
+int nextSparse(int x)
+{
+    // Find binary representation of x and store it in bin[].
+    // bin[0] contains least significant bit (LSB), next
+    // bit is in bin[1], and so on.
+    vector<bool> bin;
+    while (x != 0)
+    {
+        bin.push_back(x&1);
+        x >>= 1;
+    }
+
+    // There my be extra bit in result, so add one extra bit
+    bin.push_back(0);
+    int n = bin.size();  // Size of binary representation
+
+    // The position till which all bits are finalized
+    int last_final = 0;
+
+    // Start from second bit (next to LSB)
+    for (int i=1; i<n-1; i++)
+    {
+       // If current bit and its previous bit are 1, but next
+       // bit is not 1.
+       if (bin[i] == 1 && bin[i-1] == 1 && bin[i+1] != 1)
+       {
+            // Make the next bit 1
+            bin[i+1] = 1;
+
+            // Make all bits before current bit as 0 to make
+            // sure that we get the smallest next number
+            for (int j=i; j>=last_final; j--)
+                bin[j] = 0;
+
+            // Store position of the bit set so that this bit
+            // and bits before it are not changed next time.
+            last_final = i+1;
+        }
+    }
+
+    // Find decimal equivalent of modified bin[]
+    int ans = 0;
+    for (int i =0; i<n; i++)
+        ans += bin[i]*(1<<i);
+    return ans;
+}
+
+// Driver program
+int main()
+{
+    int x = 38;
+    cout << "Next Sparse Number is " << nextSparse(x);
+    return 0;
+}
+
+Output:
+Next Sparse Number is 40
+Time complexity of this solution is O(Log x).
+Thanks to gccode for suggesting above solution here.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

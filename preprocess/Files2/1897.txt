@@ -1,0 +1,13 @@
+given number print word individu digit 
+allow use switch 
+exampl input n 123 output one two three input n 350 output three five zero strongli recommend minim browser tri first 
+idea use array string store digit word map 
+step 
+let input number n creat array string store digit word map 
+creat anoth array digit store individu digit n travers digit n store digit 
+note standard way travers repeat store n 10 n n 10 travers digit revers order 
+travers digit array end begin print word use map creat step 1 c implement idea 
+c program print individu word without without switch includ bit stdc h use namespac std store digit word map char word 10 zero one two three four five six seven eight nine void printwordswithoutifswitch int n store individu digit int digit 10 32 bit int 10 digit int dc 0 initi digit count given number n loop store individu digit n revers order 
+use handl 0 input digit dc n 10 n n 10 dc n 0 travers individu digit print word use word int dc 1 0 cout word digit driver program int main int n 350 printwordswithoutifswitch n return 0 output three five zero thank utkarsh trivedi suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

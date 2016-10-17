@@ -1,0 +1,19 @@
+quit simpl 
+travers node root left recurs left null 
+node whose left null node minimum valu 
+tree start 20 move left 8 keep move left see null 
+sinc left 4 null 4 node minimum valu 
+c includ stdio h includ stdlib h binari tree node data pointer left child pointer right child struct node int data struct node left struct node right helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null return node give binari search tree number insert new node given number correct place tree 
+return new root pointer caller use standard trick avoid use refer paramet 
+struct node insert struct node node int data 1 tree empti return new singl node node null return newnod data els 2 otherwis recur tree data node data node left insert node left data els node right insert node right data return unchang node pointer return node given non empti binari search tree return minimum data valu found tree 
+note entir tree need search 
+int minvalu struct node node struct node current node loop find leftmost leaf current left null current current left return current data driver program test sametre function int main struct node root null root insert root 4 insert root 2 insert root 1 insert root 3 insert root 6 insert root 5 printf n minimum valu bst minvalu root getchar return 0 java java program find minimum valu node binari search tree binari tree node class node int data node left right node int data left right null class binarytre static node head given binari search tree number insert new node given number correct place tree 
+return new root pointer caller use standard trick avoid use refer paramet 
+node insert node node int data 1 tree empti return new singl node node null return new node data els 2 otherwis recur tree data node data node left insert node left data els node right insert node right data return unchang node pointer return node given non empti binari search tree return minimum data valu found tree 
+note entir tree need search 
+int minvalu node node node current node loop find leftmost leaf current left null current current left return current data driver program test function public static void main string arg binarytre tree new binarytre node root null root tree insert root 4 tree insert root 2 tree insert root 1 tree insert root 3 tree insert root 6 tree insert root 5 system println minimum valu bst tree minvalu root code contribut mayank jaiswal python python program find node minimum valu bst binari tree node class node constructor creat new node def __init__ self key self data key self left none self right none give binari search tree number insert new node given number correct place tree 
+return new root pointer caller use standard trick avoid use refer paramet 
+def insert node data 1 tree empti return new singl node node none return node data els 2 otherwis recur tree data node data node left insert node left data els node right insert node right data return unchang node pointer return node given non empti binari search tree return minimum data valu found tree 
+note entir tree need search 
+def minvalu node current node loop find lefmost leaf current left none current current left return current data driver program root none root insert root 4 insert root 2 insert root 1 insert root 3 insert root 6 insert root 5 print nminimum valu bst minvalu root code contribut nikhil kumar singh nickzuck_007 time complex n worst case happen left skew tree 

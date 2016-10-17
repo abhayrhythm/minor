@@ -1,0 +1,69 @@
+post represent float point format 
+object articl provid brief introduct float point format 
+follow descript explain terminolog primari detail ieee 754 binari float point represent 
+discuss confin singl doubl precis format 
+usual real number binari repres follow format imim 1 i2i1i0 f1f2 fnfn 1 im fn either 0 1 integ fraction part respect 
+finit number also repres four integ compon sign base b significand expon e 
+numer valu number evalu 1 x x ________ b depend base number bit use encod variou compon ieee 754 standard defin five basic format 
+among five format binary32 binary64 format singl precis doubl precis format respect base 2 tabl 1 precis represent precis base sign expon significand singl precis 2 1 8 23 1 doubl precis 2 1 11 52 1 singl precis format mention tabl 1 singl precis format 23 bit significand 1 repres impli bit detail 8 bit expon 1 bit sign 
+exampl ration number 9 2 convert singl precis float format follow 9 10 2 10 4 5 10 100 1 2 result said normal repres lead 1 bit e 
+1 001 2 x 22 
+similarli number 0 000000001101 2 x 23 normal appear 1 101 2 x 2 6 
+omit impli 1 left extrem give us mantissa float number 
+normal number provid accuraci correspond de normal number 
+impli signific bit use repres even accur significand 23 1 24 bit call subnorm represent 
+float point number repres normal form 
+subnorm number fall categori de normal number 
+subnorm represent slightli reduc expon rang normal sinc would result expon fit field 
+subnorm number less accur e 
+less room nonzero bit fraction field normal number 
+inde accuraci drop size subnorm number decreas 
+howev subnorm represent use file gap float point scale near zero 
+word result written 1 0 x 1 001 2 x 22 yield integ compon 0 b 2 significand 1 001 mantissa 001 e 2 correspond singl precis float number repres binari shown expon field suppos 2 yet encod 129 127 2 call bias expon 
+expon field plain binari format also repres neg expon encod like sign magnitud 1 compliment 2 complement etc 
+bias expon use represent neg expon 
+bias expon advantag neg represent perform bitwis compar two float point number equal 
+bia 2n 1 1 n bit use expon ad expon e get bias expon e 
+bias expon e singl precis number obtain e e 127 rang expon singl precis format 126 127 
+valu use special symbol 
+note unpack float point number expon obtain bias expon 
+subtract 127 bias expon extract unbias expon 
+float scale follow figur repres float point scale 
+doubl precis format mention tabl 1 doubl precis format 52 bit significand 1 repres impli bit 10 bit expon 1 bit sign 
+definit doubl precis format except size variou compon 
+precis smallest chang repres float point represent call precis 
+fraction part singl precis normal number exactli 23 bit resolut 24 bit impli bit 
+correspond log 10 223 6 924 7 characterist logarithm decim digit accuraci 
+similarli case doubl precis number precis log 10 252 15 654 16 decim digit 
+accuraci accuraci float point represent govern number significand bit wherea rang limit expon 
+real number exactli repres float point format 
+numberwhich float point number two option float point approxim say closest float point number less x x_ closest float point number greater x x 
+round oper perform number signific bit mantissa field base select mode 
+round mode caus x set x_ round mode caus x set x round toward zero mode caus x either x_ x whichev zero 
+round nearest mode set x x_ x whichev nearest x usual round nearest use mode 
+close float point represent actual valu call accuraci 
+special bit pattern standard defin special float point bit pattern 
+zero signific 1 bit henc normal 
+hidden bit represent requir special techniqu store zero 
+two differ bit pattern 0 0 numer valu zero 
+singl precis float point represent pattern given 0 00000000 00000000000000000000000 0 1 00000000 00000000000000000000000 0 similarli standard repres two differ bit patter inf inf 
+given 0 11111111 00000000000000000000000 inf 1 11111111 00000000000000000000000 inf special number well special number subnorm number repres use special bit pattern expon field 
+slightli reduc expon rang quit accept sinc rang larg 
+attempt comput express like 0 x inf 0 inf etc 
+make mathemat sens 
+standard call result express number nan 
+subsequ express nan yield nan 
+represent nan non zero significand 1s expon field 
+shown singl precis format x care bit x 11111111 1m0000000000000000000000 0 1 give us two differ represent nan 
+0 11111111 110000000000000000000000 _____________ signal nan snan 0 11111111 100000000000000000000000 _____________quiet nan qnan usual qnan snan use error handl 
+qnan rais except propag oper 
+wherea snan consum oper rais invalid except 
+overflow underflow overflow said occur true result arithmet oper finit larger magnitud largest float point number store use given precis 
+underflow said occur true result arithmet oper smaller magnitud infinitesim smallest normal float point number store 
+overflow ignor calcul wherea underflow effect replac zero 
+endian ieee 754 standard defin binari float point format 
+architectur detail left hardwar manufactur 
+storag order individu byte binari float point number vari architectur architectur 
+thank venki write articl 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

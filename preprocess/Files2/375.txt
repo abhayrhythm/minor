@@ -1,0 +1,17 @@
+given array string find anagram pair given array 
+exampl input arr geeksquiz geeksforgeek abcd forgeeksgeek zuiqkeeg output geeksforgeek forgeeksgeek geeksquiz zuiqkeeg find whether two string anagram linear time use count array see method 2 
+one simpl idea find whether anagram pair run two nest loop 
+outer loop pick string one one 
+inner loop check whether remain string anagram string pick outer loop 
+follow c implement simpl approach 
+includ iostream use namespac std defin no_of_char 256 function check whether two string anagram bool areanagram string str1 string str2 creat two count array initi valu 0 int count no_of_char 0 int charact input string increment count correspond count array 0 str1 str2 count str1 count str2 string differ length 
+remov condit make program fail string like aaca aca str1 str2 return fals see non zero valu count array 0 no_of_char count return fals return true function print anagram pair given array strign void findallanagram string arr int n int 0 n int j 1 j n j areanagram arr arr j cout arr anagram arr j endl driver program test pront printdup int main string arr geeksquiz geeksforgeek abcd forgeeksgeek zuiqkeeg int n sizeof arr sizeof arr 0 findallanagram arr n return 0 output geeksquiz anagram zuiqkeeg geeksforgeek anagram forgeeksgeek time complex solut n2 n number string maximum length string 
+optim optim solut use follow approach 
+1 use sort sort array string anagram come togeth 
+print anagram linearli travers sort array 
+time complex solut mnlogn would nlogn comparison sort comparison would take time 2 use hash build hash function like xor sum ascii valu charact string 
+use hash function build hash tabl 
+build hash tabl check valu alreadi hash 
+ye call areanagram check two string actual anagram note xor sum ascii valu suffici see kaushik lele comment articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic 
+adsbygoogl window adsbygoogl push 

@@ -1,0 +1,80 @@
+recent interview adob noida offic got offer 
+1 year work experi 
+standard process compris aptitud technic test hackerrank 
+everi time 
+look test previou archiv 
+screen aptitud test technic test 13 mcq 7 standard code question 
+interview noida offic round 1 
+1 interview start gener introduct 
+interview want know depth knowledg work ask sort question relat technolog use someth els 
+2 question relat c c h file load link c file 
+know much experi java told equival answer java 
+3 find minimum element rotat array 
+e g 
+4 5 6 1 2 3 gave answer use binari search 4 find common node two link list 
+1 2 3 4 null 5 6 gave answer use differ length ll wrote code handl case 
+5 discuss oper system concept virtual memori page etc 
+note 
+make sure write code handl test case especi boundari one 
+round 2 
+1 interview start brief introduct 
+time interview interest toward hobbi passion 
+ask keep updat latest technolog trend 
+2 ask one question relat geometri 
+question given isoscel right angl triangl 
+find radiu smaller circl 
+solv use basic pythagora theorem 
+weird ask one question 
+round 3 round tricki one 
+1 interview ask ask till 
+confid said like goemetri ask 
+said question given rectangl abcd length l breadth b fold along diagon bd 
+e 
+join c find length line segment ef solv question hint 
+basic involv deduct relat imagin pythagora theorem 
+basic ae ec ef ec 
+simpl geometri question 
+2 heapifi array 
+time complex invold 
+appar interest exact complex 
+told alway start heapifi last parent whose index array n 1 2 
+ask heapifi individu element etc 
+heap sort work 
+basic want answer heapifi element n 1 2 till n decrea time complex nlogn answer end 
+3 int 8 char b int b point 
+question relat big endian littl endian want ask architechtur littl endian big endian 
+told know 
+question told mechan background know much comput architechtur 
+littl shock skip os question 
+lucki 
+4 know number power 2 1 
+n n 1 0 true fals 5 given array number repeat one non repeat find non repeat number 
+gave algorithm use xor 
+6 extend previou question find two number non repeat 
+want xor approach 
+7 given two binari tree b check b subtre solv use nomal tree travers 
+8 find kth smallest element unsort array number 
+first gave approach use heap 
+put element array min heap extract k time 
+interest better approach 
+answer use quick select algorithm modifi quick sort 
+told optim approach select pivot element use order statist 
+knew order statist method quit satisfi basic quick select algorithm 
+round 4 director round 1 brief introduct 
+low cgpa etc 
+
+2 given array size n index alloc 
+minim number comparison search element array 
+wrote basic linear search code 
+ask minim number comparison 
+3 given n point plane form polygon 
+find random point exist insid polygon 
+4 would find volum lake 
+interest approach 
+gave 2 3 method one quit funni laugh 
+end ask question regard role 
+would like take moment thank geeksforgeek help interview prepar 
+cheer guy 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

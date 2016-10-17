@@ -1,0 +1,38 @@
+
+The idea of Encapsulation is to bundle data and methods (that work on the data) together and restrict access of private data members outside the class.  In C++, a friend function or friend class can also access private data members.  
+Is it possible to access private members outside a class without friend?
+Yes, it is possible using pointers. See the following program as an example.
+
+#include<iostream>
+using namespace std;
+
+class Test
+{
+private:
+    int data;
+public:
+    Test() { data = 0; }
+    int getData() { return data; }
+};
+
+int main()
+{
+    Test t;
+    int* ptr = (int*)&t;
+    *ptr = 10;
+    cout << t.getData();
+    return 0;
+} 
+Output:
+10
+Note that the above way of accessing private data members is not at all a recommended way of accessing members and should never be used.  Also, it doesn’t mean that the encapsulation doesn’t work in C++.  The idea of making private members is to avoid accidental changes. The above change to data is not accidental. It’s an intentionally written code to fool the compiler.
+This article is contributed by Ashish Kumar. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

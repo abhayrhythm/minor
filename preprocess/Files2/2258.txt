@@ -1,0 +1,17 @@
+given two date find total number day 
+count day must calcul 1 time 1 auxiliari space 
+exampl input dt1 10 2 2014 dt2 10 3 2015 output 393 dt1 repres 10 feb 2014 dt2 repres 10 mar 2015 differ 365 28 input dt1 10 2 2000 dt2 10 3 2000 output 29 note 2000 leap year input dt1 10 2 2000 dt2 10 2 2000 output 0 date input dt1 1 2 2000 dt2 1 2 2004 output 1461 number day 365 4 1 strongli recommend click practic move solut 
+one naiv solut start dt1 keep count day till dt2 reach 
+solut requir 1 time 
+better simpl solut count total number day dt1 e total day 00 00 0000 dt1 count total number day dt2 
+final return differ two count 
+let given two date 1 feb 2000 1 feb 2004 dt1 1 2 2000 dt2 1 2 2004 count number day dt1 
+let count n1 
+everi leap year add one extra day 29 feb total day 
+n1 2000 365 31 1 number leap year count leap year date calcul use follow formula number leap year 4 100 400 2 1 4 1 100 1 400 2 divis must done use integ arithmet remaind ignor 
+01 01 2000 leap year count 1999 4 1999 100 1999 400 499 19 4 484 therefor n1 2000 365 31 1 484 similarli count number day dt2 
+let count n2 
+final return n2 n1 c implement idea 
+c program two find number day two given date includ iostream use namespac std date day month year struct date int store number day month januari dec const int monthday 12 31 28 31 30 31 30 31 31 30 31 30 31 function count number leap year given date int countleapyear date int year check current year need consid count leap year 2 year year leap year multipl 4 multipl 400 multipl 100 return year 4 year 100 year 400 function return number day two given date int getdiffer date dt1 date dt2 count total number day first date dt1 initi count use year day long int n1 dt1 365 dt1 add day month given date int 0 dt1 1 n1 monthday sinc everi leap year 366 day add day everi leap year n1 countleapyear dt1 similarli count total number day dt2 long int n2 dt2 365 dt2 int 0 dt2 1 n2 monthday n2 countleapyear dt2 return differ two count return n2 n1 driver program int main date dt1 1 2 2000 date dt2 1 2 2004 cout differ two date getdiffer dt1 dt2 return 0 output differ two date 1461 note program follow gregorian calend begin time 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

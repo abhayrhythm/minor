@@ -1,0 +1,16 @@
+given link list write function revers everi altern k node k input function effici way 
+give complex algorithm 
+exampl input 1 2 3 4 5 6 7 8 9 null k 3 output 3 2 1 4 5 6 9 8 7 null 
+method 1 process 2k node recurs call rest list method basic extens method discuss post 
+kaltrevers struct node head int k 1 revers first k node 
+2 modifi list head point kth node 
+chang next head k 1 th node 3 move current pointer skip next k node 
+4 call kaltrevers recurs rest n 2k node 
+5 return new head list 
+c includ stdio h includ stdlib h link list node struct node int data struct node next revers altern k node return pointer new head node struct node kaltrevers struct node head int k struct node current head struct node next struct node prev null int count 0 1 revers first k node link list current null count k next current next current next prev prev current current next count 2 head point kth node 
+chang next head k 1 th node head null head next current 3 want revers next k node 
+move current pointer skip next k node count 0 count k 1 current null current current next count 4 recurs call list start current next 
+make rest list next first node current null current next kaltrevers current next k 5 prev new head input list return prev util function function push node void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function print link list void printlist struct node node int count 0 node null printf node data node node next count drier program test function int main void start empti list struct node head null creat list 1 2 3 4 5 20 int 20 0 push head printf n given link list n printlist head head kaltrevers head 3 printf n modifi link list n printlist head getchar return 0 java java program revers altern k node link list class linkedlist static node head class node int data node next node int data next null revers altern k node return pointer new head node node kaltrevers node node int k node current node node next null prev null int count 0 1 revers first k node link list current null count k next current next current next prev prev current current next count 2 head point kth node 
+chang next head k 1 th node node null node next current 3 want revers next k node 
+move current pointer skip next k node count 0 count k 1 current null current current next count 4 recurs call list start current next 
+make rest list next first node current null current next kaltrevers current next k 5 prev new head input list return prev void printlist node node node null system print node data node node next void push int newdata node mynod new node newdata mynod next head head mynod public static void main string arg linkedlist list new linkedlist creat linkedlist int 20 0 list push system println given link list list printlist head head list kaltrevers head 3 system println system println modifi link list list printlist head code contribut mayank jaiswal output given link list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 modifi link list 3 2 1 4 5 6 9 8 7 10 11 12 15 14 13 16 17 18 20 19 

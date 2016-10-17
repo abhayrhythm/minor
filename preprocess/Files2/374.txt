@@ -1,0 +1,18 @@
+given string check charact given string rearrang form palindrom 
+exampl charact geeksogeek rearrang form palindrom geeksoskeeg charact geeksforgeek cannot rearrang form palindrom 
+strongli recommend minim browser tri first 
+set charact form palindrom one charact occur odd number time charact occur even number time 
+simpl solut run two loop outer loop pick charact one one inner loop count number occurr pick charact 
+keep track odd count 
+time complex solut n2 
+n time use count array 
+follow detail step 
+1 creat count array alphabet size typic 256 initi valu count array 0 
+2 travers given string increment count everi charact 
+3 travers count array count array one odd valu return fals 
+otherwis return true 
+follow c implement approach 
+includ iostream use namespac std defin no_of_char 256 function check whether charact string form palindrom bool canformpalindrom char str creat count array initi valu 0 int count no_of_char 0 charact input string increment count correspond count array int 0 str count str count odd occur charact int odd 0 int 0 no_of_char count 1 odd return true odd count 0 1 otherwis fals return odd 1 driver program test pront printdup int main canformpalindrom geeksforgeek 
+cout ye n cout n canformpalindrom geeksogeek 
+cout ye n cout n return 0 output ye articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

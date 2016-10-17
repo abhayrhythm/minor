@@ -1,0 +1,112 @@
+
+Given an input string and a pattern, check if characters in the input string follows the same order as determined by characters present in the pattern. Assume there won’t be any duplicate characters in the pattern.
+Another solution to the same problem is posted here.
+Examples:
+
+Input: string = "engineers rock", pattern = "er";
+Output: true
+All 'e' in the input string are before all 'r'.
+
+Input: string = "engineers rock", pattern = "egr";
+Output: false
+There are two 'e' after 'g' in the input string.
+
+Input: string = "engineers rock", pattern = "gsr";
+Output: false
+There are one 'r' before 's' in the input string.
+
+
+
+The idea here is to reduce the given string to the pattern given. For characters given in the pattern, we only keep the corresponding characters in the string. In the new string, we delete continuous repeated characters. The modified string should then be equal to the pattern given. Lastly, we compare modified string to the pattern given and return true of false accordingly.
+Illustration: 
+
+str = "bfbaeadeacc", pat[] = "bac"
+
+1) Remove extra characters from str (characters
+  that are not present in pat[]
+str = "bbaaacc"   [f, e and d are removed]
+
+3) Removed consecutive repeating occurrences of 
+   characters
+str = "bac"   
+
+4) Since str is same as pat[], we return true
+
+Below is Java implementation of above steps.
+
+// Java program to check if characters of a string follow
+// pattern defined by given pattern.
+import java.util.*;
+
+public class OrderOfCharactersForPattern
+{
+    public static boolean followsPattern(String str, String pattern)
+    {
+        // Insert all characters of pattern in a hash set,
+        Set<Character> patternSet = neHashSet<>();
+        for (int i=0; i<pattern.length(); i++)
+            patternSet.add(pattern.charAt(i));
+
+        // Build modified string (string with characters only from
+        // pattern are taken)
+        StringBuilder modifiedString = new StringBuilder(str);
+        for (int i=str.length()-1; i>=0; i--)
+            if (!patternSet.contains(modifiedString.charAt(i)))
+                modifiedString.deleteCharAt(i);
+
+        // Remove more than one consecutive occurrences of pattern
+        // characters from modified string.
+        for (int i=modifiedString.length()-1; i>0; i--)
+            if (modifiedString.charAt(i) == modifiedString.charAt(i-1))
+                modifiedString.deleteCharAt(i);
+
+        // After above modifications, the length of modified string
+        // must be same as pattern length
+        if (pattern.length() != modifiedString.length())
+            return false;
+
+        // And pattern characters must also be same as modified string
+        // characters
+        for (int i=0; i<pattern.length(); i++)
+            if (pattern.charAt(i) != modifiedString.charAt(i))
+                return false;
+
+        return true;
+    }
+
+    // Driver program
+    int main()
+    {
+        String str = "engineers rock";
+        String pattern = "er";
+        System.out.println("Expected: true, Actual: " +
+                           followsPattern(str, pattern));
+
+        str = "engineers rock";
+        pattern = "egr";
+        System.out.println("Expected: false, Actual: " +
+                          followsPattern(str, pattern));
+
+        str = "engineers rock";
+        pattern = "gsr";
+        System.out.println("Expected: false, Actual: " +
+                           followsPattern(str, pattern));
+
+        str = "engineers rock";
+        pattern = "eger";
+        System.out.println("Expected: true, Actual: " +
+                           followsPattern(str, pattern));
+
+        return 0;
+    }
+}
+
+Output:
+
+Expected: true, Actual: true
+Expected: false, Actual: false
+Expected: false, Actual: false
+Expected: true, Actual: true
+
+
+Time Complexity: 

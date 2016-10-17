@@ -1,0 +1,37 @@
+graph color problem assign color certain element graph subject certain constraint 
+vertex color common graph color problem 
+problem given color find way color vertic graph two adjac vertic color use color 
+graph color problem like edg color vertex incid two edg color face color geograph map color transform vertex color 
+chromat number smallest number color need color graph g call chromat number 
+exampl follow color minimum 3 color 
+problem find chromat number given graph np complet 
+applic graph color graph color problem huge number applic 
+1 make schedul time tabl suppos want make exam schedul univers 
+list differ subject student enrol everi subject 
+mani subject would common student batch backlog student etc 
+schedul exam two exam common student schedul time 
+mani minimum time slot need schedul exam 
+problem repres graph everi vertex subject edg two vertic mean common student 
+graph color problem minimum number time slot equal chromat number graph 
+2 mobil radio frequenc assign frequenc assign tower frequenc assign tower locat must differ 
+assign frequenc constraint 
+minimum number frequenc need 
+problem also instanc graph color problem everi tower repres vertex edg two tower repres rang 
+3 suduku suduku also variat graph color problem everi cell repres vertex 
+edg two vertic row column block 
+4 regist alloc compil optim regist alloc process assign larg number target program variabl onto small number cpu regist 
+problem also graph color problem 
+5 bipartit graph check graph bipartit colow graph use two color 
+given graph 2 color bipartit otherwis 
+see detail 
+6 map color geograph map countri state two adjac citi cannot assign color 
+four color suffici color map see four color theorem mani applic exampl refer video lectur case studi 1 18 akamai run network thousand server server use distribut content internet 
+instal new softwar updat exist softwar pretti much everi week 
+updat cannot deploy everi server time server may taken instal 
+also updat done one time take lot time 
+set server cannot taken togeth certain critic function 
+typic schedul applic graph color problem 
+turn 8 color good enough color graph 75000 node 
+could instal updat 8 pass 
+soon discuss differ way solv graph color problem 
+refer lec 6 mit 6 042j mathemat comput scienc fall 2010 video lectur pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

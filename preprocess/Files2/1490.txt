@@ -1,0 +1,26 @@
+given array size n integ k return count distinct number window size k exampl input arr 1 2 1 3 4 2 3 k 4 output 3 4 4 3 explan first window 1 2 1 3 count distinct number 3 second window 2 1 3 4 count distinct number 4 third window 1 3 4 2 count distinct number 4 fourth window 3 4 2 3 count distinct number 3 strongli recommend minim browser tri first 
+sourc microsoft interview question simpl solut travers given array consid everi window count distinct element window 
+c implement simpl solut 
+simpl c program count distinct element everi window size k includ iostream use namespac std count distinct element window size k int countwindowdistinct int win int k int dist_count 0 travers int 0 k check element arr exist arr 0 1 int j j 0 j j win win j break j dist_count return dist_count count distinct element window size k void countdistinct int arr int n int k travers everi window int 0 n k cout countwindowdistinct arr k endl driver program int main int arr 1 2 1 3 4 2 3 k 4 int n sizeof arr sizeof arr 0 countdistinct arr n k return 0 output 3 4 4 3 time complex solut nk2 
+improv time complex nklok modifi countwindowdistinct use sort 
+function optim use hash find distinct element window 
+hash time complex becom nk 
+differ approach work n time 
+effici solut use count previou window slide window 
+idea creat hash map store element current widow 
+slide window remov element hash add element 
+also keep track distinct element 
+algorithm 
+1 creat empti hash map 
+let hash map hm 2 initi distinct element count dist_count 0 
+3 travers first window insert element first window hm 
+element use key count valu hm 
+also keep updat dist_count 4 print dist_count first window 
+3 travers remain array window 
+remov first element previou window 
+remov element appear remov hm dist_count els appear multipl time hm decrement count hm add current element last element new window ad element present hm add hm dist_count els ad element appear multipl time increment count hm implement approach 
+java effici java program count distinct element everi window size k import java util hashmap class countdistinctwindow static void countdistinct int arr int k creat empti hashmap hm hashmap integ integ hm new hashmap integ integ initi distinct element count current window int dist_count 0 travers first window store count everi element hash map int 0 k hm get arr null hm put arr 1 dist_count els int count hm get arr hm put arr count 1 print count first window system println dist_count travers remain array int k arr length remov first element previou window one occurr reduc distinct count 
+hm get arr k 1 hm remov arr k dist_count els reduc count remov element int count hm get arr k hm put arr k count 1 add new element current window element appear first time increment distinct element count hm get arr null hm put arr 1 dist_count els increment distinct element count int count hm get arr hm put arr count 1 print count current window system println dist_count driver method public static void main string arg int arr 1 2 1 3 4 2 3 int k 4 countdistinct arr k c includ iostream includ map use namespac std void countdistinct int arr int k int n creat empti hashmap hm map int int hm initi distinct element count current window int dist_count 0 travers first window store count everi element hash map int 0 k hm arr 0 dist_count hm arr 1 print count first window cout dist_count endl travers remain array int k n remov first element previou window one occurr reduc distinct count 
+hm arr k 1 dist_count reduc count remov element hm arr k 1 add new element current window element appear first time increment distinct element count hm arr 0 dist_count hm arr 1 print count current window cout dist_count endl int main int arr 1 2 1 3 4 2 3 int size sizeof arr sizeof arr 0 int k 4 countdistinct arr k size return 0 solut contribut aditya goel output 3 4 4 3 time complex solut n 
+articl contribut piyush 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

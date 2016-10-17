@@ -1,0 +1,27 @@
+
+In C, return type of getchar(), fgetc() and getc() is int (not char).  So it is recommended to assign the returned values of these functions to an integer type variable. 
+
+  char ch;  /* May cause problems */  
+  while ((ch = getchar()) != EOF) 
+  {
+     putchar(ch);
+  }
+
+Here is a version that uses integer to compare the value of getchar().
+
+  int in;  
+  while ((in = getchar()) != EOF) 
+  {
+     putchar(in);
+  }
+
+See this  for more details. 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

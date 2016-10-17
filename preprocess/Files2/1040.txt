@@ -1,0 +1,6 @@
+predict output follow c program 
+question 1 includ stdio h defin fun x x 10 int main int fun 5 int 0 printf geesforgeek n return 0 output compil error extra space macro declar caus fun raplac x 
+remov extra space program work fine print geeksforgeek 50 time 
+follow work program 
+includ stdio h defin fun x x 10 int main int fun 5 int 0 printf geesforgeek n return 0 care deal macro 
+extra space may lead problem 

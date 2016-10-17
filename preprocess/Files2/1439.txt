@@ -1,0 +1,24 @@
+given binari tree key write function print ancestor key given binari tree 
+exampl consid follow binari tree 1 2 3 4 5 6 7 8 9 10 follow differ input key ancestor tree input key list ancestor 1 2 1 3 1 4 2 1 5 2 1 6 3 1 7 3 1 8 4 2 1 9 5 2 1 10 7 3 1 recurs solut problem discuss 
+clear need use stack base iter travers binari tree 
+idea ancestor stack reach node given key 
+reach key print content stack 
+get ancestor stack reach given node 
+travers node postord way 
+take closer look recurs postord travers easili observ recurs function call node recurs call stack contain ancestor node 
+idea iter postord travers stop travers reach desir node 
+follow c implement approach 
+c program print ancestor given key includ stdio h includ stdlib h maximum stack size defin max_siz 100 structur tree node struct node int data struct node left right structur stack struct stack int size int top struct node array util function creat new tree node struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node util function creat stack given size struct stack createstack int size struct stack stack struct stack malloc sizeof struct stack stack size size stack top 1 stack array struct node malloc stack size sizeof struct node return stack basic oper stack int isful struct stack stack return stack top 1 stack size int isempti struct stack stack return stack top 1 void push struct stack stack struct node node isful stack return stack array stack top node struct node pop struct stack stack isempti stack return null return stack array stack top struct node peek struct stack stack isempti stack return null return stack array stack top iter function print ancestor given key void printancestor struct node root int key root null return creat stack hold ancestor struct stack stack createstack max_siz travers complet tree postord way till find key 1 travers left side 
+travers push node stack right subtre travers later root root data key push stack root push current node root root left move next node node whose ancestor print found break loop 
+root root data key break check right sub tree exist node top pop node need node 
+peek stack right null root pop stack pop node right child top remov top well 
+left child top must process 
+consid follow tree exampl key 3 remov follow loop program go infinit loop reach 5 
+1 2 3 4 5 isempti stack peek stack right root root pop stack stack empti simpli set root right child top start travers right sub tree 
+root isempti stack 
+null peek stack right stack empti print content stack assumpt key tree isempti stack printf pop stack data driver program test function int main let us construct binari tree struct node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 root left left left newnod 8 root left right right newnod 9 root right right left newnod 10 printf follow key ancestor n int key 1 key 10 key printf key printancestor root key printf n getchar return 0 output follow key ancestor 1 2 1 3 1 4 2 1 5 2 1 6 3 1 7 3 1 8 4 2 1 9 5 2 1 10 7 3 1 exercis note solut assum given key present given binari tree 
+may go infinit loop key present 
+extend solut work even key present tree 
+articl contrubut chandra prakash 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

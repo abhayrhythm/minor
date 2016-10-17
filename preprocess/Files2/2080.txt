@@ -1,0 +1,3 @@
+c cannot access global variabl local variabl name possibl c use scope resolut oper 
+includ iostream use namespac std int x global x int main int x 10 local x cout valu global x x endl cout valu local x x getchar return 0 pleas write comment find anyth incorrect gfact want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

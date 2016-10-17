@@ -1,0 +1,9 @@
+write one line c function calcul return 
+exampl n 64 function return 6 n 129 function return 7 follow solut use recurs 
+includ stdio h unsign int log2n unsign int n return n 1 
+1 log2n n 2 0 int main unsign int n 32 printf u log2n n getchar return 0 let us tri extend veris problem 
+write one line function logn n r return 
+follow solut extend problem 
+includ stdio h unsign int logn unsign int n unsign int r return n r 1 
+1 logn n r r 0 int main unsign int n 256 unsign int r 4 printf u logn n r getchar return 0 pleas write comment find code incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

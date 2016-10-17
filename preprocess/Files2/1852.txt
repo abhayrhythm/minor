@@ -1,0 +1,2 @@
+prerequisit vector basic follow import point save time littl thing interview import code contest 
+vector int vect 10 vs vector int vect 10 

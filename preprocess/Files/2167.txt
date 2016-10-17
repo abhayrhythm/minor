@@ -1,0 +1,43 @@
+
+The question is to find XOR of the XOR’s of all subsets. i.e if the set is {1,2,3}. All subsets are : [{1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}]. Find the XOR of each of the subset and then find the XOR of every subset result.
+We strongly recommend you to minimize your browser and try this yourself first.
+This is a very simple question to solve if we get the first step (and only step) right.  The solution is XOR is always 0 when n > 1 and Set[0] when n is 1.
+
+// C++ program to find XOR of XOR's of all subsets
+#include <iostream>
+using namespace std;
+
+// Returns XOR of all XOR's of given subset
+int findXOR(int Set[], int n)
+{
+    // XOR is 1 only when n is 1, else 0
+    if (n == 1)
+       return Set[0];
+    else
+       return 0;
+}
+
+// Driver program
+int main()
+{
+    int Set[] = {1, 2, 3};
+    int n = sizeof(Set)/sizeof(Set[0]);
+    cout << "XOR of XOR's of all subsets is "
+         << findXOR(Set, n);
+    return 0;
+}
+
+Output:
+XOR of XOR's of all subsets is 0
+How does this work?
+The logic goes simple. Let us consider n’th element, it can be included in all subsets of remaining (n-1) elements. The number of subsets for (n-1) elements is equal to 2(n-1) which is always even when n>1. Thus, in the XOR result, every element is included even number of times and XOR of even occurrences of any number is 0.
+This article is contributed by Ekta Goel. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

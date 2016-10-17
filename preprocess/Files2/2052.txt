@@ -1,0 +1,7 @@
+c c charact array initi doubl quot string array size specifi compil automat alloc one extra space string termin 0 
+exampl follow program print 6 output 
+includ stdio h int main char arr geek size arr 6 0 termin printf sizeof arr getchar return 0 array size specifi 5 program program work without warn error print 5 c caus compil error c 
+work c compil error c includ stdio h int main char arr 5 geek arr termin 0 size 5 printf sizeof arr getchar return 0 charact array initi comma separ list charact array size specifi compil creat extra space string termin 0 
+exampl follow program print 5 
+includ stdio h int main char arr g e e k arr termin 0 size 5 printf sizeof arr getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

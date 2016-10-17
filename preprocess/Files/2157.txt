@@ -1,0 +1,145 @@
+
+Consider a special family of Engineers and Doctors with following rules :
+
+ Everybody has two children. 
+ First child of an Engineer is an Engineer and second child is a Doctor.
+ First child of an Doctor is Doctor and second child is an Engineer.
+ All generations of Doctors and Engineers start with Engineer.
+
+We can represent the situation using below diagram:
+
+                E
+           /        \
+          E          D
+        /   \       /  \
+       E     D     D    E
+      / \   / \   / \   / \
+     E   D D   E  D  E  E  D
+
+Given level and position of a person in above ancestor tree, find profession of the person.
+Examples:
+
+Input : level = 4, pos = 2
+Output : Doctor
+
+Input : level = 3, pos = 4
+Output : Engineer
+
+Source : Oracle Interview 
+
+
+Method 1 (Recursive)
+The idea is based on the fact that profession of a person depends on following two.
+
+Profession of parent. 
+Position of node : If position of a node is odd, then its profession is same as its parent. Else profession is different from its parent.
+
+We recursively find profession of parent, then use point 2 above to find profession of current node. 
+Below is C++ implementation of above idea.
+
+// C++ program to find profession of a person at
+// given level and position.
+#include<bits/stdc++.h>
+using namespace std;
+
+// Returns 'e' if profession of node at given level
+// and position is engineer. Else doctor. The function
+// assumes that given position and level have valid values.
+char findProffesion(int level, int pos)
+{
+    // Base case
+    if (level == 1)
+        return 'e';
+
+    // Recursively find parent's profession. If parent
+    // is a doctar, this node will be a doctal if it is
+    // at odd position and an engineer if at even position
+    if (findProffesion(level-1, (pos+1)/2) == 'd')
+        return (pos%2)? 'd' : 'e';
+
+    // If parent is an engineer, then current node will be
+    // an enginner if at add position and doctor if even
+    // position.
+    return (pos%2)?  'e' : 'd';
+}
+
+// Driver code
+int main(void)
+{
+    int level = 4, pos = 2;
+    (findProffesion(level, pos) == 'e')? cout << "Engineeer"
+                                       : cout << "Doctor" ;
+    return 0;
+}
+
+Output:
+
+Doctor
+
+ 
+ 
+Method 2 (Using Bitwise Operators)
+Level 1: E
+Level 2: ED
+Level 3: EDDE
+Level 4: EDDEDEED
+Level 5: EDDEDEEDDEEDEDDE 
+Level input isn’t necessary (if we ignore max position limit) because first elements are same.
+The result is based on count of 1’s in binary representation of position minus one.  If count of 1’s is even then result is Engineer, else then Doctor.
+And of course position limit is 2^(Level-1)
+
+// C++ program to find profession of a person at
+// given level and position.
+#include<bits/stdc++.h>
+using namespace std;
+
+/* Function to get no of set bits in binary
+   representation of passed binary no. */
+int countSetBits(int n)
+{
+    int count = 0;
+    while (n)
+    {
+      n &= (n-1) ;
+      count++;
+    }
+    return count;
+}
+
+// Returns 'e' if profession of node at given level
+// and position is engineer. Else doctor. The function
+// assumes that given position and level have valid values.
+char findProffesion(int level, int pos)
+{
+    // Count set bits in 'pos-1'
+    int c = countSetBits(pos-1);
+
+    // If set bit count is odd, then doctor, else engineer
+    return (c%2)?  'd' : 'e';
+}
+
+// Driver code
+int main(void)
+{
+    int level = 3, pos = 4;
+    (findProffesion(level, pos) == 'e')? cout << "Engineeer"
+                                       : cout << "Doctor" ;
+    return 0;
+}
+
+Output:
+
+Doctor
+
+Thanks to  Furkan Uslu for suggesting this method.
+This article is contributed by Harsh Parikh. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

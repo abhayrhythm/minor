@@ -1,0 +1,10 @@
+given string odd length print string x format 
+exampl input 12345 output 1 5 2 4 3 2 4 1 5 input geeksforgeek output g e k e e k e g f r f r g k e e e e k g strongli recommend minim browser tri first 
+idea use two variabl singl loop first variabl goe left right second variabl j goe right left 
+upper part cross x print meet 
+central charact print meet lower part print cross 
+upper part str print str j lower part str j print str 
+c implement idea 
+c program print cross pattern includ iostream use namespac std function print given string cross pattern length string must odd void printpattern string str int len str length goe 0 len j goe len 1 0 int 0 j len 1 len j 0 j print upper part 
+loop run til middl point string j becom j print space int x 0 x x cout print th charact cout str print j 1 space int x 0 x j 1 x cout print j th charact cout str j endl print center point j print space int x 0 x x cout print middl charact cout str endl print lower part els j print j spanc int x j 1 x 0 x cout print j th charact cout str j print j 1 space int x 0 x j 1 x cout print h charact cout str endl driver program int main printpattern geeksforgeek return 0 output g e k e e k e g f r f r g k e e e e k g articl contribut dinesh p 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

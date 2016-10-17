@@ -1,0 +1,18 @@
+given two binari search tree bst print element bst sort form 
+expect time complex n number node first tree n number node second tree 
+maximum allow auxiliari space height first tree height second tree 
+exampl first bst 3 1 5 second bst 4 2 6 output 1 2 3 4 5 6 first bst 8 2 10 1 second bst 5 3 0 output 0 1 2 3 5 8 10 sourc googl interview question similar question discuss earlier 
+let us first discuss alreadi discuss method previou post balanc bst 
+method 1 appli also time complex n 2 worst case 
+method 2 also appli extra space requir n violat constraint given question 
+method 3 appli step 3 method 3 done n unbalanc bst 
+thank kumar suggest follow solut 
+idea use iter inord travers 
+use two auxiliari stack two bst 
+sinc need print element sort form whenev get smaller element tree print 
+element greater push back stack next iter 
+includ stdio h includ stdlib h structur bst node struct node int data struct node left struct node right start stack relat stuff stack node struct snode struct node struct snode next function add elemt k stack void push struct snode struct node k struct snode tmp struct snode malloc sizeof struct snode perform memori check tmp k tmp next tmp function pop element stack struct node pop struct snode struct node struct snode st st next st free st return fucntion check whether stack empti int isempti struct snode null return 1 return 0 end stack relat stuff util function creat new binari tree node struct node newnod int data struct node temp new struct node temp data data temp left null temp right null return temp util function print inod travers binari tree void inord struct node root root null inord root left printf root data inord root right function print data two bst sort order void merg struct node root1 struct node root2 s1 stack hold node first bst struct snode s1 null current node first bst struct node current1 root1 s2 stack hold node second bst struct snode s2 null current node second bst struct node current2 root2 first bst empti output inord travers second bst root1 null inord root2 return second bst empti output inord travers first bst root2 null inord root1 return run loop node yet print 
+node may stack explor print may yet explor current1 null isempti s1 current2 null isempti s2 follow step follow iter inord travers current1 null current2 null reach leftmost node bst push ancestor leftmost node stack s1 s2 respect current1 null push s1 current1 current1 current1 left current2 null push s2 current2 current2 current2 left els reach null node either stack empti one tree exhaust ptint tree isempti s1 isempti s2 current2 pop s2 current2 left null inord current2 return isempti s2 isempti s1 current1 pop s1 current1 left null inord current1 return pop element stack compar pop element current1 pop s1 current2 pop s2 element first tree smaller print push right subtre 
+element larger push back correspond stack 
+current1 data current2 data printf current1 data current1 current1 right push s2 current2 current2 null els printf current2 data current2 current2 right push s1 current1 current1 null driver program test function int main struct node root1 null root2 null let us creat follow tree first tree 3 1 5 root1 newnod 3 root1 left newnod 1 root1 right newnod 5 let us creat follow tree second tree 4 2 6 root2 newnod 4 root2 left newnod 2 root2 right newnod 6 print sort node tree merg root1 root2 return 0 time complex n auxiliari space height first tree height second tree pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

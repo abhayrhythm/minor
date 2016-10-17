@@ -1,0 +1,28 @@
+given n men n women person rank member opposit sex order prefer marri men women togeth two peopl opposit sex would rather current partner 
+peopl marriag stabl sourc wiki 
+consid follow exampl 
+let two men m1 m2 two women w1 w2 
+let m1 list prefer w1 w2 let m2 list prefer w1 w2 let w1 list prefer m1 m2 let w2 list prefer m1 m2 match m1 w2 w1 m2 stabl m1 w1 would prefer assign partner 
+match m1 w1 m2 w2 stabl two peopl opposit sex would prefer assign partner 
+alway possibl form stabl marriag list prefer see refer proof 
+follow gale shapley algorithm find stabl match idea iter free men free man avail 
+everi free man goe women prefer list accord order 
+everi woman goe check woman free ye becom engag 
+woman free woman choos either say dump current engag accord prefer list 
+engag done broken woman get better option 
+follow complet algorithm wiki initi men women free exist free man still woman w propos w highest rank woman yet propos w free w becom engag els pair w alreadi exist w prefer w becom engag becom free els w remain engag input output input 2d matrix size 2 n n n number women men 
+row 0 n 1 repres prefer list men row n 2 n 1 repres prefer list women 
+men number 0 n 1 women number n 2 n 1 output list marri pair 
+follow c implement algorithm 
+c program stabl marriag problem includ iostream includ string h includ stdio h use namespac std number men women defin n 4 function return true woman w prefer man m1 man bool wprefersm1overm int prefer 2 n n int w int int m1 check w prefer current engag m1 int 0 n m1 come lisr w w prefer cirrent engag anyth prefer w m1 return true cme m1 w list free current engag engag prefer w return fals print stabl match n boy n girl 
+boy number 0 n 1 
+girl numbere n 2n 1 
+void stablemarriag int prefer 2 n n store partner women 
+output array store pa inform 
+valu wpartner indic partner assign woman n 
+note woman number n 2 n 1 
+valu 1 indic n th woman free int wpartner n array store avail men 
+mfree fals man free otherwis engag 
+bool mfree n initi men women free memset wpartner 1 sizeof wpartner memset mfree fals sizeof mfree int freecount n free men freecount 0 pick first free man could pick int 0 n mfree fals break one one go women accord prefer 
+pick free man int 0 n mfree fals int w prefer woman prefer free w becom partner note partnership mayb chang later 
+say engag marri wpartner w n 1 wpartner w n mfree true freecount els w free find current engag w int m1 wpartner w n w prefer current engag m1 break engag w m1 engag w wprefersm1overm prefer w m1 fals wpartner w n mfree true mfree m1 fals end els end loop goe women list end main loop print solut cout woman man endl int 0 n cout n wpartner endl driver program test function int main int prefer 2 n n 7 5 6 4 5 4 6 7 4 5 6 7 4 5 6 7 0 1 2 3 0 1 2 3 0 1 2 3 0 1 2 3 stablemarriag prefer return 0 output woman man 4 2 5 1 6 3 7 0 refer http www csee wvu edu ksmani cours fa01 random lecnot lecture5 pdf http www youtub com watch v 5rsmlgy06ew 11m4 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

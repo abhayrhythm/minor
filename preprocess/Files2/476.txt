@@ -1,0 +1,9 @@
+binari heap binari tree follow properti 
+1 complet tree level complet fill except possibl last level last level key left possibl 
+properti binari heap make suitabl store array 
+2 binari heap either min heap max heap 
+min binari heap key root must minimum among key present binari heap 
+properti must recurs true node binari tree 
+max binari heap similar min heap 
+exampl min heap 10 10 20 100 15 30 30 40 50 100 40 applic heap 1 heap sort heap sort use binari heap sort array nlogn time 
+2 prioriti queue 

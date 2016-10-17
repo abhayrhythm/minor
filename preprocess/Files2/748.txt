@@ -1,0 +1,23 @@
+hi interview experi amazon internship 
+hope help round 1 onlin round 20 object question question relat data structur analysi algorithm c languag puzzl 
+2 code question 90 minut write program revers k altern node link list ex 1 2 3 4 5 6 7 8 9 k 3 output 3 2 1 6 5 4 9 8 7 given string 
+write program form string first charact word 
+ex bucket full water output tbifow check edg corner case 
+round 2 face face round given binari tree 
+modifi way modif preorder travers use right pointer 
+modif use right well left pointer 
+write complet code dri run test case 
+given 2 link list 
+find intersect 
+ye find intersect point write complet code 
+could rememb simpl way find length list simpli move forward shorter list differ length find intersect point 
+instead join end first list end 2nd list went cycl find floyd cycl find algorithm 
+although n impress new approach 
+round 3 face face round given sort array 0 1 
+find 
+0 
+write recurs iter version code check test case 
+spiral level order travers without use extra variabl detect level use one stack one queue implement well 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

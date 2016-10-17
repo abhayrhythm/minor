@@ -1,0 +1,14 @@
+predict output program question 1 includ stdio h int main struct site char name geeksforgeek int no_of_pag 200 struct site ptr printf ptr no_of_pag printf ptr name getchar return 0 output compil error explan note differ structur union declar variabl declar 
+declar structur actual declar new data type suitabl purpos 
+cannot initi valu variabl declar data type declar 
+refer http www lix polytechniqu fr liberti public comput prog c c syntax struct html question 2 int main char 2 3 3 g e e k f r g e e k printf getchar return 0 output geeksforgeek explan creat 3d array 2 3 3 18 element initi 13 
+c initi less element array uniniti element becom 0 case char 0 case integ 
+question 3 int main char str geek nforgeek char ptr1 ptr2 ptr1 str 3 ptr2 str 5 printf c str ptr1 ptr2 2 printf str getchar return 0 output heej forgeek explan initi ptr1 point k ptr2 point n geek nforgeek 
+print statement valu str increment 1 valu ptr1 decrement 1 string becom heej nforgeek 
+first print statement becom printf c h j n 2 h j n 2 2 n 2 n first print statement newlin charact 
+next print statement print heej nforgeek 
+question 4 includ stdio h int fun int n int j sum 0 1 n j j j sum sum j return sum int main printf fun 15 getchar return 0 output 120 explan fun n calcul sum first n integ say return n n 1 2 
+question 5 includ stdio h int main int c 5 1000 c c printf n return 0 output except divid zero explan bug program 
+goe insid loop c 0 also 
+care use loop like 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

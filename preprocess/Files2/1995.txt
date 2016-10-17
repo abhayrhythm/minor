@@ -1,0 +1,17 @@
+ever wonder design class c inherit 
+java c program languag featur built 
+use final keyword java seal c make class non extend 
+mechan use achiev behavior c 
+make use privat constructor virtual inherit friend class 
+follow code make final class non inherit 
+class deriv tri inherit get compil error 
+extra class makefin whose default constructor privat use purpos 
+constructor final call privat constructor makefin final friend makefin 
+note makefin also virtual base class 
+reason call constructor makefin constructor deriv final constructor virtual base class call class inherit instead constructor call constructor concret class 
+program compil error demonstr final class cannot inherit includ iostream use namespac std class final class made final class makefin use make final class final privat makefin cout makfin constructor endl friend class final class final virtual makefin public final cout final constructor endl class deriv public final compil error public deriv cout deriv constructor endl int main int argc char argv deriv return 0 output compil error constructor deriv deriv error makefin makefin privat exampl deriv constructor directli invok makefin constructor constructor makefin privat therefor get compil error 
+creat object final class friend class makefin access constructor 
+exampl follow program work fine 
+program without compil error demonstr instanc final class creat includ iostream use namespac std class final class makefin privat makefin cout makefin constructor endl friend class final class final virtual makefin public final cout final constructor endl int main int argc char argv final f return 0 output compil run fine makefin constructor final constructor articl compil gopal gorthi review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

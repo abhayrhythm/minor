@@ -1,0 +1,40 @@
+prerequisit suffix array set 2 kasai algorithm longest common extens lce problem consid string comput pair l r longest sub string start l r lce queri answer length longest common prefix start index l r exampl string abbababba queri lce 1 2 lce 1 6 lce 0 5 find length longest common prefix start index given 1 2 1 6 0 5 
+string highlight green longest common prefix start index l r respect queri 
+find length longest common prefix start index 1 2 1 6 0 5 
+set 1 explain naiv method find length lce string mani queri 
+set show lce problem reduc rmq problem henc decreas asymptot time complex naiv method 
+reduct lce rmq let input string queri formlc l r 
+let suffix array suff lcp array lcp 
+longest common extens two suffix sl sr obtain lcp array follow way 
+let low rank sl among suffix suff low l 
+let high rank sr among suffix without loss gener assum low high 
+longest common extens sl sr lcp low high min low k high lcp k 
+proof let sl sl sl c sn sr sr sr c sn let c longest common extens sl sr e 
+sl sl c 1 sn sr c 1 
+assum string sentinel charact suffix prefix suffix 
+low high 1 low lcp low c longest common extens sl sr done 
+low high 1 select lcp minimum valu interv low high lcp array 
+two possibl case c lcp contradict sl 
+
+
+sl lcp 1 sr 
+
+sr lcp 1 definit lcp tabl fact entri lcp correspond sort suffix c lcp let high suff shigh suffix associ posit si shigh 
+
+
+shigh lcp 1 sl 
+
+
+sl lcp 1 shigh 
+
+
+shigh lcp 1 sr 
+
+
+sr lcp 1 sinc sl 
+
+
+sl c 1 sr 
+
+sr c 1 lcp array wrongli sort contradict 
+therefor c lcp 

@@ -1,0 +1,16 @@
+write sortedmerg function take two list sort increas order merg two togeth one list increas order 
+sortedmerg return new list 
+new list made splice togeth node first two list 
+exampl first link list 5 10 15 link list b 2 3 20 sortedmerg return pointer head node merg list 2 3 5 10 15 20 
+mani case deal either b may empti process either b may run first final problem start result list empti build go b 
+method 1 use dummi node strategi use temporari dummi node start result list 
+pointer tail alway point last node result list append new node easi 
+dummi node give tail someth point initi result list empti 
+dummi node effici sinc temporari alloc stack 
+loop proce remov one node either b ad tail 
+done result dummi next 
+c c program merg two sort link list includ stdio h includ stdlib h includ assert h link list node struct node int data struct node next pull front node sourc put dest void movenod struct node destref struct node sourceref take two list sort increas order splice node togeth make one big sort list return 
+struct node sortedmerg struct node struct node b dummi first node hang result struct node dummi tail point last result node struct node tail dummi tail next place add new node result 
+dummi next null 1 null either list run use list tail next b break els b null tail next break data b data movenod tail next els movenod tail next b tail tail next return dummi next util function movenod function take node front sourc move front dest 
+error call sourc list empti 
+call movenod sourc 1 2 3 dest 1 2 3 affter call movenod sourc 2 3 dest 1 1 2 3 void movenod struct node destref struct node sourceref front sourc node struct node newnod sourceref assert newnod null advanc sourc pointer sourceref newnod next link old dest new node newnod next destref move dest point new node destref newnod function insert node beging link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function print node given link list void printlist struct node node node null printf node data node node next drier program test function int main start empti list struct node re null struct node null struct node b null let us creat two sort link list test function creat list 5 10 15 b 2 3 20 push 15 push 10 push 5 push b 20 push b 3 push b 2 remov duplic link list re sortedmerg b printf merg link list n printlist re return 0 output merg link list 2 3 5 10 15 20 

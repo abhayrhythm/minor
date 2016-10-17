@@ -1,0 +1,32 @@
+standard c librari provid qsort function use sort array 
+follow prototyp qsort function 
+sort array type 
+paramet base address array size array pointer compar function void qsort void base size_t num size_t size int compar const void const void requir pointer array number element array size element compar function 
+discuss qsort compar detail 
+c standard librari provid similar function sort origin stl 
+discuss c sort 
+follow prototyp c sort function 
+sort default ascend order 
+templat void sort first last sort accord order specifi comp 
+templat void sort first last compar comp order equal element guarante preserv 
+c provid std stable_sort use preserv order 
+comparison qsort sort 1 implement detail name suggest qsort function use quicksort algorithm sort given array although c standard requir implement quicksort 
+c sort function use introsort hybrid algorithm 
+differ implement use differ algorithm 
+gnu standard c librari exampl use 3 part hybrid sort algorithm introsort perform first introsort hybrid quicksort heap sort follow insert sort result 
+2 complex c standard talk complex qsort 
+new c 11 standard requir complex sort nlog n worst case 
+previou version c c 03 allow possibl worst case scenario n 2 
+averag complex requir n log n 
+3 run time stl sort ran faster c qsort c templat gener optim code particular data type particular comparison function 
+stl sort run 20 50 faster hand code quicksort 250 1000 faster c qsort librari function 
+c might fastest languag qsort slow 
+tri sort one million integ c 14 time taken c qsort 0 247883 sec time taken c sort 0 086125 sec c program demonstr perform c qsort c sort algorithm includ bit stdc h use namespac std number element sort defin n 1000000 compar function use qsort int compar const void const void b return int int b driver program test function int main int arr n duparr n seed random input srand time null measur time taken qsort sort clock_t begin end doubl time_sp gener random input int 0 n duparr arr rand 100000 begin clock qsort arr n sizeof int compar end clock calcul time taken c qsort function time_sp doubl end begin clocks_per_sec cout time taken c qsort time_sp endl time_sp 0 0 begin clock sort duparr duparr n end clock calcul time taken c sort time_sp doubl end begin clocks_per_sec cout time taken c sort time_sp endl return 0 output time taken c qsort 0 247883 time taken c sort 0 086125 c sort blazingli faster qsort equival data due inlin 
+sort contain integ compil use std less oper default inlin sort compar integ directli 
+hand qsort make indirect call function pointer everi comparison compil fail optim 
+4 flexibl stl sort work data type differ data contain like c array c vector c dequ etc contain written user 
+kind flexibl rather difficult achiev c 5 safeti compar qsort templat sort type safe sinc requir access data item unsaf void pointer qsort 
+refer http theori stanford edu amitp rant c vs chttp en wikipedia org wiki sort_ c 2b 2b articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

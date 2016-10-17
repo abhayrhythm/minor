@@ -1,0 +1,16 @@
+
+Microsoft Visited our campus  for Internship selections on IDC and IT profile. There were three rounds for the selection process of IDC profile
+First Round :Coding round
+3 Questions were asked in different sets . Out of which people who solved 2 and more are shortlisted . People who solved 3 were shortlisted for Personal Interview , while the one’s who solved 2 were shortlisted for Group fly round.
+Questions were :
+
+You will be given buildings of certain height that lie adjacent to each other . Sun starts falling from left side. If there is a building of certain Height, all the buildings right of it having lesser heights cannot see the sun . You need to find the total number of such buildings that receive sunlight .
+Find the increasing subsequence (Not strictly ) with 1st building as the starting building.
+You will be given two arrays of equal size and you need to maximize the first array with the second array elements ( swap the first array elements with second array elements . Once swapped , you cannot use the element anymore )
+For ex: A: 3 4 6 8 9 and A : 5 7 3 6 8
+B : 6 7 8 8 9 B : 3 4 6 9 10
+Op: 9 8 8 8 9 Op : 10 9 6 6 8
+Sort the second array and start swapping if the a[i] < b[i] . else wait for the next a’s element which is less than b[i] and swap ( naive merge procedure )
+You will be given two trees t1 and t2. You need to check if t2 is a subtree of t1. If it is a subtree ,you need to return the size of t2(number of nodes in it).
+If either of t1 or t2 are NULL, return -1 .
+If t2 is not a subtree of t1 , then also return -1

@@ -1,0 +1,19 @@
+given number n print prime smaller equal n also given n small number 
+exampl n 10 output 2 3 5 7 
+n 20 output 2 3 5 7 11 13 17 19 
+siev eratosthen one effici way find prime smaller n n smaller 10 million ref wiki 
+strongli recommend click practic move solut 
+follow algorithm find prime number less equal given integ n eratosthen method creat list consecut integ 2 n 2 3 4 n 
+initi let p equal 2 first prime number 
+start p count increment p mark number greater p list 
+number 2p 3p 4p etc 
+note may alreadi mark 
+find first number greater p list mark 
+number stop 
+otherwis let p equal number next prime repeat step 3 algorithm termin number list mark prime 
+explan exampl let us take exampl n 50 need print print number smaller equal 50 creat list number 2 50 accord algorithm mark number divis 2 move next unmark number 3 mark number multipl 3 move next unmark number 5 mark multipl 5 continu process final tabl look like prime number unmark one 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 thank krishan kumar provid explan 
+implement follow c implement algorithm 
+follow implement boolean array arr size n use mark multipl prime number 
+c c c program print prime smaller equal n use siev eratosthen includ bit stdc h use namespac std void sieveoferatosthen int n creat boolean array prime 0 n initi entri true 
+valu prime final fals prime els true 
+bool prime n 1 memset prime true sizeof prime int p 2 p p n p prime p chang prime prime p true updat multipl p int p 2 n p prime fals print prime number int p 2 p n p prime p cout p driver program test function int main int n 30 cout follow prime number smaller equal n endl sieveoferatosthen n return 0 

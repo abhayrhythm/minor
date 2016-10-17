@@ -1,0 +1,56 @@
+
+Given a integer as a input and replace all the ‘0’ with ‘5’ in the integer.
+Examples:
+
+    102 - 152
+    1020 - 1525 
+Use of array to store all digits is not allowed.
+Source: Amazon interview Experience | Set 136 (For SDE-T)
+We strongly recommend to minimize the browser and try this yourself first.
+The idea is simple, we get the last digit using mod operator ‘%’. If the digit is 0, we replace it with 5, otherwise keep it as it is.  Then we recur for remaining digits. 
+Following is C implementation of the above idea.
+
+// C program to replace all ‘0’ with ‘5’ in an input Integer
+#include<stdio.h>
+
+// A recursive function to replace all 0s with 5s in an input number
+// It doesn't work if input number itself is 0.
+int convert0To5Rec(int num)
+{
+    // Base case for recursion termination
+    if (num == 0)
+        return 0;
+
+    // Extraxt the last digit and change it if needed
+    int digit = num % 10;
+    if (digit == 0)
+        digit = 5;
+
+    // Convert remaining digits and append the last digit
+    return convert0To5Rec(num/10) * 10 + digit;
+}
+
+// It handles 0 and calls convert0To5Rec() for other numbers
+int convert0To5(int num)
+{
+    if (num == 0)
+       return 5;
+    else return  convert0To5Rec(num);
+}
+
+// Driver program to test above function
+int main()
+{
+    int num = 10120;
+    printf("%d", convert0To5(num));
+    return 0;
+}
+Output:
+15125
+This article is contributed by Sai Kiran. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above. 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

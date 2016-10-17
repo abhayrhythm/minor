@@ -1,0 +1,7 @@
+except handl catch base deriv class except base deriv class caught except catch block deriv class must appear base class 
+put base class first deriv class catch block never reach 
+exampl follow c code print caught base except includ iostream use namespac std class base class deriv public base int main deriv stuff tri monitor code throw catch base b cout caught base except catch deriv catch block never execut cout caught deriv except getchar return 0 c code chang order catch statement catch statement becom reachabl 
+follow modif program print caught deriv except includ iostream use namespac std class base class deriv public base int main deriv stuff tri monitor code throw catch deriv cout caught deriv except catch base b cout caught base except getchar return 0 java catch base class except deriv allow compil 
+c compil might give warn compil code 
+exampl follow java code fail compil error messag except deriv alreadi caught filenam main java class base extend except class deriv extend base public class main public static void main string arg tri throw new deriv catch base b catch deriv pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

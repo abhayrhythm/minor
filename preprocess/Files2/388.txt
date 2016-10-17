@@ -1,0 +1,4 @@
+introduc link list previou post 
+also creat simpl link list 3 node discuss link list travers 
+program discuss post consid follow represent link list 
+c link list node struct node int data struct node next 

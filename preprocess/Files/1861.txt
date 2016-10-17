@@ -1,0 +1,111 @@
+
+Consider the problem of adding contents of two arrays into a third array. It is given that all arrays are of same size.
+Following is simple C++ program without transform().
+
+// A C++ code to add two arrays
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  int arr1[] = {1, 2, 3};
+  int arr2[] = {4, 5, 6};
+  int n = sizeof(arr1)/sizeof(arr1[0]);
+  int res[n];
+
+  // Code to add two arrays
+  for (int i=0; i<n; i++)
+    res[i] = arr1[i] + arr2[i];
+
+  for (int i=0; i<3; i++)
+    cout << res[i] << " ";
+}
+
+Output :
+5 7 9
+Using transform function of STL, we can add arrays in single line.
+
+// Using tansform() in STL to add two arrays
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  int arr1[] = {1, 2, 3};
+  int arr2[] = {4, 5, 6};
+  int n = sizeof(arr1)/sizeof(arr1[0]);
+  int res[n];
+
+  // Single line code to add arr1[] and arr2[] and
+  // store result in res[]
+  transform(arr1, arr1+n, arr2, res, plus<int>());
+
+  for (int i=0; i<n; i++)
+    cout << res[i] << " ";
+}
+
+Output :
+5 7 9
+
+transform() in C++ is used in two forms:
+
+Unary Operation : Applies a unary operator on input to convert into output
+
+transform(Iterator inputBegin, Iterator inputEnd, 
+         Iterator OutputBegin, unary_operation) 
+Following is C++ example.
+
+// C++ program to demonstrate working of
+// transform with unary operator.
+#include <bits/stdc++.h>
+using namespace std;
+
+int increment(int x) {  return (x+1); }
+
+int main()
+{
+    int arr[] = {1, 2, 3, 4, 5};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    // Apply increment to all elements of
+    // arr[] and store the modified elements
+    // back in arr[]
+    transform(arr, arr+n, arr, increment);
+
+    for (int i=0; i<n; i++)
+        cout << arr[i] << " ";
+
+    return 0;
+}
+
+Output :
+2 3 4 5 6 
+
+Binary Operation : Applies a binary operator on input to convert into output
+
+transform(Iterator inputBegin1, Iterator inputEnd1, 
+         Iterator inputBegin2, Iterator OutputBegin, 
+         binary_operation) 
+The example mentioned above for adding two arrays is an example of transform with binary operation.
+
+
+More examples:
+We can use transform to convert a string to upper case (See this) 
+We can modify above examples for vectors also.
+
+    
+    // vect is a vector of integers.
+    transform(vect.begin(), vect.end(), 
+              vect.begin(), increment); 
+Related Topic:
+Functors in C++
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

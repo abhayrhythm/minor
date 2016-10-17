@@ -1,0 +1,32 @@
+c follow 6 oper bitwis oper work bit level bitwis take two number operand everi bit two number 
+result 1 bit 1 
+bitwis take two number operand everi bit two number 
+result 1 two bit 1 
+bitwis xor take two number operand xor everi bit two number 
+result xor 1 two bit differ 
+left shift take two number left shift bit first operand second operand decid number place shift 
+right shift take two number right shift bit first operand second operand decid number place shift 
+bitwis take one number invert bit follow exampl c program 
+c program demonstr use bitwis oper includ stdio h int main unsign char 5 b 9 4 00000101 b 8 00001001 printf b n b printf b n b result 00000001 printf b n b result 00001101 printf b n b result 00001100 printf n result 11111010 printf b 1 n b 1 result 00010010 printf b 1 n b 1 result 00000100 return 0 output 5 b 9 b 1 b 13 b 12 250 b 1 18 b 1 4 follow interest fact bitwis oper 
+1 left shift right shift oper use neg number result undefin behabiour operand neg number 
+exampl result 1 1 1 1 undefin 
+also number shift size integ behaviour undefin 
+exampl 1 33 undefin integ store use 32 bit 
+see detail 
+2 bitwis xor oper use oper technic interview perspect 
+use mani problem 
+simpl exampl could given set number element occur even number time except one number find odd occur number problem effici solv xor number 
+function return odd occur element int findodd int arr int n int re 0 0 n re arr return re int main void int arr 12 12 14 90 14 14 14 int n sizeof arr sizeof arr 0 printf odd occur element findodd arr n return 0 output odd occur element 90 follow mani interest problem use use xor oper 
+find miss number swap two number without use temporari variabl memori effici doubli link list find two non repeat element 
+mani see 3 bitwis oper use place logic oper 
+result logic oper 
+either 0 1 bitwis oper return integ valu 
+also logic oper consid non zero operand 1 exampl consid follow program result differ operand 
+int main int x 2 5 x 
+printf true printf fals x 
+printf true printf fals return 0 output fals true 4 left shift right shift oper equival multipl divis 2 respect 
+mention point 1 work number posit 
+int main int x 19 printf x 1 n x 1 printf x 1 n x 1 return 0 output 38 9 5 oper use quickli check number odd even valu express x 1 would non zero x odd otherwis valu would zero 
+int main int x 19 x 1 
+printf odd printf even return 0 output odd 6 oper use care result oper small number big number result store unsign variabl 
+result may neg number result store sign variabl assum neg number store 2 complement form leftmost bit sign bit note output follow program compil depend int main unsign int x 1 printf sign result n x printf unsign result ud n x return 0 output sign result 2 unsign result 4294967294d pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

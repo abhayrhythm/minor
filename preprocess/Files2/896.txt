@@ -1,0 +1,37 @@
+predict output follow c program 
+includ iostream use namespac std int main int test 0 cout first charact 1 endl cout second charact test 
+3 1 endl return 0 one would expect output print statement 
+howev output first charact 1 second charact 49 second statement print 49 
+read ternari express 
+ternari oper c c ternari oper follow form exp1 
+exp2 exp3 express exp1 evalu alway 
+execut exp2 exp3 depend outcom exp1 
+outcom exp1 non zero exp2 evalu otherwis exp3 evalu 
+side effect side effect exp1 evalu updat immedi execut exp2 exp3 
+word sequenc point evalu condit ternari express 
+either exp2 exp3 side effect one evalu 
+see relat post 
+return type anoth interest fact 
+ternari oper return type 
+return type depend exp2 convert exp3 exp2 per usual overload convers rule 
+convert compil throw error 
+see exampl follow program compil without error 
+return type ternari express expect float exp2 exp3 e 
+liter zero int type implicitli convert float 
+includ iostream use namespac std int main int test 0 float fvalu 3 111f cout test 
+fvalu 0 endl return 0 follow program compil compil unabl find return type ternari express implicit convers unavail exp2 char array exp3 int 
+includ iostream use namespac std int main int test 0 cout test 
+string 0 endl return 0 follow program may compil fail runtim 
+return type ternari express bound type char yet express return int henc program fail 
+liter program tri print string 0th address runtim 
+includ iostream use namespac std int main int test 0 cout test 
+string 0 endl return 0 observ exp2 consid output type exp3 convert exp2 runtim 
+convers implicit compil insert stub convers 
+convers explicit compil throw error 
+compil miss catch error program may fail runtim 
+best practic power c type system avoid bug 
+make sure express exp2 exp3 return type atleast safe convert type 
+see idiom like c convert union safe convers 
+pleas write comment find anyth incorrect want share inform topic discuss 
+happi learn updat geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

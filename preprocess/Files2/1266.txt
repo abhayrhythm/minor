@@ -1,0 +1,10 @@
+given input string write function return run length encod string input string 
+exampl input string wwwwaaadexxxxxx function return w4a3d1e1x6 
+algorithm pick first charact sourc string 
+b append pick charact destin string 
+c count number subsequ occurr pick charact append count destin string 
+pick next charact repeat step b c end string reach 
+includ stdio h includ string h includ stdlib h defin max_rlen 50 return run length encod string sourc string src char encod char src int rlen char count max_rlen int len strlen src charact sourc string differ size destin string would twice input string 
+exampl src abcd dest would a1b1c1d1 input size would less twice 
+char dest char malloc sizeof char len 2 1 int j 0 k travers input string one one 0 len copi first occurr new charact dest j src count number occurr new charact rlen 1 1 len src src 1 rlen store rlen charact array count sprintf count rlen copi count destin k 0 count k k j dest j count k termin destin string dest j 0 return dest driver program test function int main char str geeksforgeek char re encod str printf re getchar time complex n refer http en wikipedia org wiki run length_encod pleas write comment find code algorithm incorrect find better way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

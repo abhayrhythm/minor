@@ -1,0 +1,12 @@
+write code convert matrix specif way without use extra space 
+input 1 2 3 4 5 6 7 8 9 output 1 6 7 2 5 8 3 4 9 first look problem seem similar find transpos matrix 
+look care notic everi even column output matrix element correspond row input matrix opposit order 
+strongli recommend minim browser tri first 
+problem easili convert transpos matrix modif input matrix 
+invert everi even row present input matrix use solut given convert matrix desir order without use auxiliari memori 
+c implement idea 
+program convert matrix specif order use place matrix transpos includ bit stdc h defin hash_siz 128 use namespac std non squar matrix transpos matrix size r x c base address void transformmatrix int int r int c invert even row int 1 r 2 int j1 0 j2 c 1 j1 j2 j1 j2 swap c j1 c j2 rest code post http tinyurl com j79j445 int size r c 1 int hold element replac eventu becom next element move int next locat move int cyclebegin hold start cycl bitset hash_siz b hash mark move element b reset b 0 b size 1 int 1 note 0 size 1 move size cyclebegin input matrix r x c output matrix 1 i_new r n 1 next r size swap next b 1 next cyclebegin get next move queri random locat 
+1 size b util function print 2d array size nr x nc base address void print2darray int int nr int nc int r 0 r nr r int c 0 c nc c printf 4d r nc c printf n printf n driver program test function int main void int 4 1 2 3 4 5 6 7 8 9 10 11 12 int r 3 c 4 cout given matrix n print2darray int r c transformmatrix int r c cout transform matrix n print2darray int c r return 0 output given matrix 1 2 3 4 5 6 7 8 9 10 11 12 transform matrix 1 8 9 2 7 10 3 6 11 4 5 12 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

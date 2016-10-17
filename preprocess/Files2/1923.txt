@@ -1,0 +1,5 @@
+data type like char short int take less number byte int data type automat promot int unsign int oper perform 
+call integ promot 
+exampl arithmet calcul happen smaller type like char short enum 
+first convert int unsign int arithmet done 
+int repres valu origin type valu convert int 

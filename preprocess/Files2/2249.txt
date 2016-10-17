@@ -1,0 +1,31 @@
+prerequisit articl machin learn goal data analysi extract raw inform accur estim 
+one import common question concern statist relationship respons variabl explanatori variabl xi 
+option answer question employ regress analysi order model relationship 
+use predict respons variabl arbitrari set explanatori variabl 
+problem multivari regress one simplest machin learn algorithm 
+come class supervis learn algorithm e provid train dataset 
+problem solv use model research collect data three psycholog variabl four academ variabl standard test score type educ program student 600 high school student 
+interest set psycholog variabl relat academ variabl type program student 
+doctor collect data cholesterol blood pressur weight 
+also collect data eat habit subject e g mani ounc red meat fish dairi product chocol consum per week 
+want investig relationship three measur health eat habit 
+properti dealer want set hous price base variou factor like size hous bedroom age hous etc 
+shall discuss algorithm use exampl 
+solut solut divid variou part 
+select featur find featur respons variabl depend one import step multivari regress 
+make analysi simpl assum featur respons variabl depend alreadi select 
+normal featur featur scale order bring rang 0 1 make better analysi 
+done chang valu featur select hypothesi cost function hypothesi predict valu respons variabl repres h x 
+cost function defin cost wrongli predict hypothesi 
+small possibl 
+choos hypothesi function linear combin featur x minim cost function next cost minim algorithm run dataset adjust paramet hypothesi 
+cost function minim train dataset also minim arbitrari dataset relat univers 
+gradient descent algorithm good choic minim cost function case multivari regress 
+test hypothesi hypothesi function test test set check correct effici 
+implement multivari regress techniqu implement effici help matrix oper 
+python implement use numpi librari contain definit oper matrix object 
+code requir numpi librari python www numpi org instal gfg server thu code unabl run gfg ide 
+howev link code code http code geeksforgeek org wxxmig refer 1 http cs229 stanford edu inform multivari regress 2 http doc scipi org use numpi librari python 3 exampl taken http www at ucla edu stat stata dae mvreg htm articl contribut abhishek sharma 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

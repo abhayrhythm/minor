@@ -1,0 +1,24 @@
+given two balanc binari search tree e g avl red black tree 
+write function merg two given balanc bst balanc binari search tree 
+let element first tree n element tree 
+merg function take n time 
+follow solut assum size tree also given input 
+size given get size travers tree see 
+method 1 insert element first tree second take element first bst one one insert second bst 
+insert element self balanc bst take logn time see n size bst 
+time complex method log n log n 1 log n 1 
+valu express mlogn mlog n 1 
+optim pick smaller tree first tree 
+method 2 merg inord travers 1 inord travers first tree store travers one temp array arr1 
+step take time 
+2 inord travers second tree store travers anoth temp array arr2 
+step take n time 
+3 array creat step 1 2 sort array 
+merg two sort array one array size n step take n time 
+4 construct balanc tree merg array use techniqu discuss post 
+step take n time 
+time complex method n better method 1 method take n time even input bst balanc 
+follow c implement method 
+includ stdio h includ stdlib h binari tree node data pointer left child pointer right child struct node int data struct node left struct node right util unction merg two sort array one int merg int arr1 int arr2 int int n helper function store inord travers tree inord array void storeinord struct node node int inord int index_ptr function construct balanc binari search tree sort array see http www geeksforgeek org archiv 17138 struct node sortedarraytobst int arr int start int end function merg two balanc bst root root1 root2 
+n size tree respect struct node mergetre struct node root1 struct node root2 int int n store inord travers first tree array arr1 int arr1 new int int 0 storeinord root1 arr1 store inord travers second tree anoth array arr2 int arr2 new int n int j 0 storeinord root2 arr2 j merg two sort array one int mergedarr merg arr1 arr2 n construct tree merg array return root tree return sortedarraytobst mergedarr 0 n 1 helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null return node util function print inord travers given binari tree void printinord struct node node node null return first recur left child printinord node left printf node data recur right child printinord node right util unction merg two sort array one int merg int arr1 int arr2 int int n mergedarr go contain result int mergedarr new int n int 0 j 0 k 0 travers array j n pick smaler element put mergedarr arr1 arr2 j mergedarr k arr1 els mergedarr k arr2 j j k element first array mergedarr k arr1 k element second array j n mergedarr k arr2 j j k return mergedarr helper function store inord travers tree root node void storeinord struct node node int inord int index_ptr node null return first recur left child storeinord node left inord index_ptr inord index_ptr node data index_ptr increas index next entri recur right child storeinord node right inord index_ptr function construct balanc binari search tree sort array see http www geeksforgeek org archiv 17138 struct node sortedarraytobst int arr int start int end base case start end return null get middl element make root int mid start end 2 struct node root newnod arr mid recurs construct left subtre make left child root root left sortedarraytobst arr start mid 1 recurs construct right subtre make right child root root right sortedarraytobst arr mid 1 end return root driver program test function int main creat follow tree first balanc bst 100 50 300 20 70 struct node root1 newnod 100 root1 left newnod 50 root1 right newnod 300 root1 left left newnod 20 root1 left right newnod 70 creat follow tree second balanc bst 80 40 120 struct node root2 newnod 80 root2 left newnod 40 root2 right newnod 120 struct node mergedtre mergetre root1 root2 5 3 printf follow inord travers merg tree n printinord mergedtre getchar return 0 output follow inord travers merg tree 20 40 50 70 80 100 120 300 

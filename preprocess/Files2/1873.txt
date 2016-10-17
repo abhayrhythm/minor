@@ -1,0 +1,13 @@
+consid follow c program show problem null need nullptr c program demontr problem null includ bit stdc h use namespac std function integ argument int fun int n cout fun int overload function char pointer argument int fun char cout fun char int main ideal call fun char caus compil error 
+fun null output 16 13 error call overload fun null ambigu fun null problem program 
+null typic defin void 0 convers null integr type allow 
+function call fun null becom ambigu 
+program compil may produc warn includ stdio h int main int x null nullptr solv problem 
+program replac null nullptr get output fun char 
+nullptr keyword use place null expect 
+like null nullptr implicitli convert compar pointer type 
+unlik null implicitli convert compar integr type 
+program compil includ stdio h int main int x nullptr output compil error side note nullptr convert bool 
+program compil includ iostream use namespac std int main int ptr nullptr line compil ptr cout true els cout fals output fals unspecifi thing compar two simpl pointer comparison two valu type nullptr_t specifi comparison return true comparison return fals compar pointer type nullptr return true fals null non null respect 
+c program show comparison nullptr includ bit stdc h use namespac std driver program test behavior nullptr int main creat two variabl nullptr_t type e valu equal nullptr nullptr_t np1 np2 comparison alway return true np1 np2 cout compar endl els cout compar endl initi pointer valu equal np1 char x np1 x nullptr x null also work x nullptr cout x null endl els cout x null endl return 0 output compar x null articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

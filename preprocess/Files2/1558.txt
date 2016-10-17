@@ -1,0 +1,32 @@
+given postord travers binari search tree construct bst 
+exampl given travers 1 7 5 50 40 10 follow tree construct root tree return 
+10 5 40 1 7 50 method 1 n 2 time complex last element postord travers alway root 
+first construct root 
+find index last element smaller root 
+let index 
+valu 0 part left subtre valu 1 n 2 part right subtre 
+divid given post index recur left right sub tree 
+exampl 1 7 5 40 50 10 10 last element make root 
+look last element smaller 10 find 5 know structur bst follow 
+10 1 7 5 50 40 recurs follow step subarray 1 7 5 40 50 get complet tree 
+method 2 n time complex trick set rang min max everi node 
+initi rang int_min int_max 
+last node definit rang creat root node 
+construct left subtre set rang int_min root data 
+valu rang int_min root data valu part part left subtre 
+construct right subtre set rang root data int_max 
+follow code use gener exact binari search tree given post order travers 
+c n program construct bst postord travers includ stdio h includ stdlib h includ limit h binari tree node data pointer left child pointer right child struct node int data struct node left right util function creat node struct node newnod int data struct node temp struct node malloc sizeof struct node temp data data temp left temp right null return temp recurs function construct bst post 
+postindex use keep track index post 
+struct node constructtreeutil int post int postindex int key int min int max int size base case postindex 0 return null struct node root null current element post rang part current subtre key min key max alloc memori root subtre decrement postindex root newnod key postindex postindex 1 postindex 0 node rang key max go right subtre first node root right subtre 
+root right constructtreeutil post postindex post postindex key max size contruct subtre root node rang min key go left subtre first node root left subtre 
+root left constructtreeutil post postindex post postindex min key size return root main function construct bst given postord travers 
+function mainli use constructtreeutil struct node constructtre int post int size int postindex size 1 return constructtreeutil post postindex post postindex int_min int_max size util function print inord travers binari tree void printinord struct node node node null return printinord node left printf node data printinord node right driver program test function int main int post 1 7 5 50 40 10 int size sizeof post sizeof post 0 struct node root constructtre post size printf inord travers construct tree n printinord root return 0 java n program construct bst postord travers binari tree node data pointer left child pointer right child class node int data node left right node int data data data left right null class contain variabl keep track overal calcul postindex class index int postindex 0 class binarytre recurs function construct bst post 
+postindex use keep track index post 
+node constructtreeutil int post index postindex int key int min int max int size base case postindex postindex 0 return null node root null current element post rang part current subtre key min key max alloc memori root subtre decrement postindex root new node key postindex postindex postindex postindex 1 postindex postindex 0 node rang key max go right subtre first node root right subtre root right constructtreeutil post postindex post postindex postindex key max size contruct subtre root node rang min key go left subtre first node root left subtre 
+root left constructtreeutil post postindex post postindex postindex min key size return root main function construct bst given postord travers 
+function mainli use constructtreeutil node constructtre int post int size index index new index index postindex size 1 return constructtreeutil post index post index postindex integ min_valu integ max_valu size util function print inord travers binari tree void printinord node node node null return printinord node left system print node data printinord node right driver program test function public static void main string arg binarytre tree new binarytre int post new int 1 7 5 50 40 10 int size post length node root tree constructtre post size system println inord travers construct tree tree printinord root code contribut mayank jaiswal output inord travers construct tree 1 5 7 10 40 50 note output program alway sort sequenc print inord travers binari search tree 
+refer http qa geeksforgeek org 6613 construct postord travers one help articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

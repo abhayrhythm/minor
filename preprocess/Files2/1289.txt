@@ -1,0 +1,14 @@
+squar matrix whose size continu expand factor 2 given sequenc present matrix posit j point time need return sequenc present posit j n 1 n n size matrix 
+say matrix expand expand matrix form multipli element origin 2 x 2 matrix current n x n matrix 
+expand matrix dimens 2n x 2n 
+instanc consid 2x2 matrix b c expand result 4x4 matrix follow ax b bx b aa ab ba bb c c ac ad bc bd ca cb da db cx b dx b cc cd dc dd c c expand result 8x8 matrix follow 
+ax aa ab ba bb bx aa ab ba bb aaa aab aba abb baa bab bba bbb ac ad bc bd ac ad bc bd aac aad abc abd bac bad bbc bbd ca cb da db ca cb da db aca acb ada adb bca bcb bda bdb cc cd dc dd cc cd dc dd acc acd adc add bcc bcd bdc bdd caa cab cba cbb daa dab dba dbb cx aa ab ba bb dx aa ab ba bb cac cad cbc cbd dac dad dbc dbd ac ad bc bd ac ad bc bd cca ccb cda cdb dca dcb dda ddb ca cb da db ca cb da db ccc ccd cdc cdd dcc dcd ddc ddd cc cd dc dd cc cd dc dd basic given sequenc need find sequenc left 
+matrix may assum circular e 
+sequenc present postion 0 return sequenc present posit n 1 exampl input str dda output dcb input str cca output ddb input str aacbddc output aacbdcd strongli recommend minim browser tri first 
+care analyz see pattern 
+algorithm start scan string rightmost posit charact follow 1 current charact b chang c respect return string 
+2 current charact c chang b respect move next charact left 
+repeat step 1 next left charact 
+program return previou element expand matrix 
+includ bit stdc h use namespac std return left str expand matrix b c string findleft string str int n str length start rightmost posit n current charact b chang c respect break loop str n str n c break str n b str n break current charact c chang b respect str n str n b els str n c str n return str driver program test method int main string str aacbddc cout left str findleft str return 0 output left aacbddc aacbdcd articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

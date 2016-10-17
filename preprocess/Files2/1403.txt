@@ -1,0 +1,10 @@
+given two list sort increas order creat return new list repres intersect two list 
+new list made memori origin list chang 
+exampl let first link list 1 2 3 4 6 second link list 2 4 6 8 function creat return third list 2 4 6 
+method 1 use dummi node strategi use temporari dummi node start result list 
+pointer tail alway point last node result list append new node easi 
+dummi node give tail someth point initi result list empti 
+dummi node effici sinc temporari alloc stack 
+loop proce remov one node either b ad tail 
+done result dummi next 
+includ stdio h includ stdlib h link list node struct node int data struct node next void push struct node head_ref int new_data solut use temporari dummi build result list struct node sortedintersect struct node struct node b struct node dummi struct node tail dummi dummi next null one list run done null b null data b data push tail next data tail tail next next b b next els data b data advanc smaller list next els b b next return dummi next util function function insert node beging link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function print node given link list void printlist struct node node node null printf node data node node next drier program test function int main start empti list struct node null struct node b null struct node intersect null let us creat first sort link list test function creat link list 1 2 3 4 5 6 push 6 push 5 push 4 push 3 push 2 push 1 let us creat second sort link list creat link list 2 4 6 8 push b 8 push b 6 push b 4 push b 2 find intersect two link list intersect sortedintersect b printf n link list contain common item b n printlist intersect getchar time complex n n number node first second link list respect 

@@ -1,0 +1,32 @@
+problem statement given text txt 0 n 1 pattern pat 0 1 write function search char pat char txt print occurr pat txt 
+may assum n discuss previou post discuss two way effici solv problem 
+1 preprocess pattern kmp algorithm rabin karp algorithm finit automata boyer moor algorithm 
+2 preoprocess text suffix tree best possibl time complex achiev first preprocss pattern n second preprocess text n length pattern text respect 
+note second way search time prefer text chang frequent mani search queri 
+discuss suffix tree compress trie suffix text 
+implement suffix tree may time consum problem code technic interview program context 
+post simpl implement standard trie suffix discuss 
+implement close suffix tree thing simpl trie instead compress trie 
+discuss suffix tree post idea everi pattern present text say everi substr text must prefix one possibl suffix 
+build trie suffix find pattern time pattern length 
+build trie suffix 1 gener suffix given text 
+2 consid suffix individu word build trie 
+let us consid exampl text banana 0 0 string termin charact 
+follow suffix banana 0 banana 0 anana 0 nana 0 ana 0 na 0 0 0 consid suffix individu word build trie get follow 
+search pattern built trie 
+follow step search pattern built trie 
+1 start first charact pattern root trie follow everi charact 
+current charact pattern edg current node follow edg 
+b edg print pattern exist text return 
+2 charact pattern process e path root charact given pattern print print index pattern present 
+store index use list everi node store index suffix start node 
+follow c implement idea 
+simpl c implement substr search use trie suffix includ iostream includ list defin max_char 256 use namespac std suffix trie trie suffix node class suffixtrienod privat suffixtrienod children max_char list int index public suffixtrienod constructor creat empti link list index suffix start node index new list int initi child pointer null int 0 max_char children null recurs function insert suffix txt subtre root node void insertsuffix string suffix int index function search pattern subtre root node function return pointer link list contain index pattern present 
+return index index last charact match text 
+list int search string pat trie suffix class suffixtri privat suffixtrienod root public constructor build trie suffi given text suffixtri string txt consid suffix given string insert suffix trie use recurs function insertsuffix suffixtrienod class int 0 txt length root insertsuffix txt substr function search pattern suffix trie 
+void search string pat recurs function insert suffix txt subtre root node void suffixtrienod insertsuffix string int index store index link list index push_front index string charact length 0 find first charact char cindex 0 edg charact add new edg children cindex null children cindex new suffixtrienod recur next suffix children cindex insertsuffix substr 1 index 1 recurs function search pattern subtre root node list int suffixtrienod search string charact pattern process length 0 return index edg current node suffix trie follow edg 
+children 0 null return children 0 search substr 1 edg pattern exist text els return null print occurr pat suffix trie built text void suffixtri search string pat let us call recurs search function root trie 
+get list index pat present text variabl result list int result root search pat check list index empti result null cout pattern found endl els list int iter int patlen pat length result begin result end cout pattern found posit patlen endl driver program test function int main let us build suffix trie text geeksforgeek org string txt geeksforgeek org suffixtri txt cout search ee endl search ee cout nsearch geek endl search geek cout nsearch quiz endl search quiz cout nsearch forgeek endl search forgeek return 0 output search ee pattern found posit 9 pattern found posit 1 search geek pattern found posit 8 pattern found posit 0 search quiz pattern found search forgeek pattern found posit 5 time complex search function k length pattern k number occurr pattern text 
+articl contribut ashish anand 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

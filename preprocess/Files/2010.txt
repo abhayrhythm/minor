@@ -1,0 +1,207 @@
+
+When are the constructors called for different types of objects like global, local, static local, dynamic? 
+1) Global objects: For a global object, constructor is called before main() is called. For example, see the following program and output: 
+
+#include<iostream>
+using namespace std;
+
+class Test
+{
+public:
+  Test();
+};
+
+Test::Test()  {
+    cout << "Constructor Called \n";
+}
+
+Test t1;
+
+int main() {
+    cout << "main() started\n";
+    return 0;
+}
+/* OUTPUT:
+      Constructor Called 
+      main() started
+*/
+
+
+2) Function or Block Scope ( automatic variables and constants )  For a non-static local object, constructor is called when execution reaches point where object is declared.  For example, see the following program and output: 
+
+using namespace std;
+
+class Test
+{
+public:
+  Test();
+};
+
+Test::Test()  {
+    cout << "Constructor Called \n";
+}
+
+void fun() {
+  Test t1;
+}
+
+int main() {
+    cout << "Before fun() called\n";
+    fun();
+    cout << "After fun() called\n";
+    return 0;
+}
+/* OUTPUT:
+       Before fun() called
+       Constructor Called
+       After fun() called
+*/
+
+For a local static object, the first time (and only the first time) execution reaches point where object is declared. For example, output of the following program is:
+#include<iostream>
+using namespace std;
+
+class Test
+{
+public:
+  Test();
+};
+
+Test::Test()  {
+    cout << "Constructor Called \n";
+}
+
+void fun() {
+  static Test t1;
+}
+
+int main() {
+    cout << "Before fun() called\n";
+    fun();
+    cout << "After fun() called\n";
+    fun();  //constructor is not called this time.
+    return 0;
+}
+/* OUTPUT
+       Before fun() called
+       Constructor Called
+       After fun() called
+*/
+
+3) Class Scope: When an object is created, compiler makes sure that constructors for all of its subobjects (its member and inherited objects) are called.  If members have default constructurs or constructor without parameter then these constrctors are called automatically, otherwise parameterized constructors can be called using Initializer List.  For example, see PROGRAM 1 and PROGRAM 2 and their output.
+
+// PROGRAM 1: Constrcuctor without any parameter
+#include<iostream>
+using namespace std;
+
+class A
+{
+public:
+  A();
+};
+
+A::A() {
+    cout << "A's Constructor Called \n";
+}
+
+class B
+{
+  A t1;
+public:
+  B();
+};
+
+B::B() {
+    cout << "B's Constructor Called \n";
+}
+
+int main() {
+    B b;
+    return 0;
+}
+/* OUTPUT:
+      A's Constructor Called
+      B's Constructor Called
+*/
+
+
+// PROGRAM 2: Constrcuctor with parameter (using initializer list)
+#include <iostream>
+using namespace std;
+
+class A
+{
+public:
+    int i;
+    A(int );
+};
+
+A::A(int arg)
+{
+    i = arg;
+    cout << "A's Constructor called: Value of i: " << i << endl;
+}
+
+// Class B contains object of A
+class B
+{
+    A a;
+public:
+    B(int );
+};
+
+B::B(int x):a(x)
+{
+    cout << "B's Constructor called";
+}
+
+int main()
+{
+    B obj(10);
+    return 0;
+}
+/* OUTPUT
+       A's Constructor called: Value of i: 10
+       B's Constructor called
+*/
+
+4) Dynamic objects: For a dynamically allocated object, constructor is invoked by new operator. For example, see the following program and output.
+#include<iostream>
+
+using namespace std;
+
+class Test
+{
+public:
+  Test();
+};
+
+Test::Test()  {
+    cout << "Constructor Called \n";
+}
+
+int main()
+{
+    cout << "Before new called\n";
+    Test *t1 = new Test;
+    cout << "After new called\n";
+    return 0;
+}
+/* OUTPUT
+      Before new called
+      Constructor Called
+      After new called
+*/
+
+References:
+http://web.cs.wpi.edu/~cs2303/c10/Protected/Lectures-C10/Week5_MoreClasses.ppt
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

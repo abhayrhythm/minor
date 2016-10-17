@@ -1,0 +1,36 @@
+given two link list sort increas order 
+merg way result list decreas order revers order 
+exampl input 5 10 15 40 b 2 3 20 output re 40 20 15 10 5 3 2 input null b 2 3 20 output re 20 3 2 strongli recommend click practic move solut 
+simpl solut follow 
+1 revers first list 
+2 revers second list b 
+3 merg two revers list 
+anoth simpl solut first merg list revers merg list 
+solut requir two travers link list 
+solv without revers 1 auxiliari space place one travers list 
+idea follow merg style process 
+initi result list empti 
+travers list begin end 
+compar current node list insert smaller two begin result list 
+1 initi result list empti re null 
+2 let b head first second list respect 
+3 null b null find smaller two current b b insert smaller valu node front result 
+c move ahead list smaller node 
+4 b becom null insert node result list begin 
+5 becom null b insert node result list begin 
+implement solut 
+c c given two sort non empti link list 
+merg way result list revers order 
+revers link list allow 
+also extra space 1 includ iostream use namespac std link list node struct node int key struct node next given two non empti link list b node sortedmerg node node b list empti null b null return null initi head result list node re null travers list node 
+null b null current valu smaller equal b current valu 
+key b key store next current node first list node temp next add front result list next re re move ahead first list temp valu greater 
+step similar replac b els node temp b next b next re re b b temp second list reach end first list node 
+add remain node first list front result list null node temp next next re re temp first list reach end second list node 
+add remain node first list front result list b null node temp b next b next re re b b temp return re function print node given link list void printlist struct node node node null cout node key node node next util function creat new node given key node newnod int key node temp new node temp key key temp next null return temp drier program test function int main start empti list struct node re null let us creat two sort link list test function 
+creat list shall 5 10 15 b 2 3 20 node newnod 5 next newnod 10 next next newnod 15 node b newnod 2 b next newnod 3 b next next newnod 20 cout list merg n printlist cout nlist b merg n printlist b merg 2 increas order ll descres order re sortedmerg b cout nmerg link list n printlist re return 0 java java program merg two sort link list merg list revers order link list class class linkedlist node head head list static node b node class static class node int data node next constructor creat new node node int data next null void printlist node node node null system print node data node node next node sortedmerg node node1 node node2 node null node1 null node2 null return null result node node re null node present travers node1 null node2 null compar node current data node1 data node2 data node temp node1 next node1 next re re node1 node1 temp els node temp node2 next node2 next re re node2 node2 temp second list reach end first list node 
+add remain node first list front result list node1 null node temp node1 next node1 next re re node1 node1 temp first list reach end second list node 
+add remain node first list front result list node2 null node temp node2 next node2 next re re node2 node2 temp return re public static void main string arg linkedlist list new linkedlist node result null let us creat two sort link list test function 
+creat list shall 5 10 15 b 2 3 20 list new node 5 list next new node 10 list next next new node 15 list b new node 2 list b next new node 3 list b next next new node 20 system println list merg list printlist system println system println list b merg list printlist b merg two sort linkedlist decreas order result list sortedmerg b system println system println merg link list list printlist result code contribut mayank jaiswal output list merg 5 10 15 list b merg 2 3 20 merg link list 20 15 10 5 3 2 solut travers list requir revers work place 
+articl contribut moham raqeeb 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

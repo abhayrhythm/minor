@@ -1,0 +1,15 @@
+output follow program 
+includ stdio h int main int 10 printf return 0 11 b 10 c 9 none answer none compil error 
+explan c c pre increment decrement post increment decrement oper requir l valu express operand 
+provid r valu const qualifi variabl result compil error 
+program express result r valu operand pre increment oper 
+pre increment oper requir l valu operand henc compil throw error 
+increment decrement oper need updat operand sequenc point need l valu 
+unari oper need l valu operand 
+express valid 
+c rule littl complic refer 
+appli pre post increment decrement oper refer variabl qualifi const 
+refer also return function 
+puzzl phrase venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

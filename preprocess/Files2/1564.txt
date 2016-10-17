@@ -1,0 +1,38 @@
+given n ari tree resourc arrang hierarch height tree log n n total number node resourc 
+process need lock resourc node order use 
+node cannot lock descend ancestor lock 
+follow oper requir given resourc node islock return true given node lock fals 
+node lock lock success execut node 
+lock lock given node possibl updat lock inform 
+lock possibl ancestor descend current node lock 
+unlock unlock node updat inform 
+design resourc node implement oper follow time complex achiev 
+islock 1 lock log n unlock log n sourc amazon interview question strongli recommend minim browser tri first 
+given resourc need store form n ari tree 
+question augment tree achiev complex bound 
+method 1 simpl simpl solut store boolean variabl islock everi resourc node 
+boolean variabl islock true current node lock els fals 
+let us see oper work use approach 
+islock check islock given node 
+lock islock set node cannot lock 
+els check descend ancestor node lock also node cannot lock 
+none condit true lock node set islock true 
+unlock islock given node fals noth 
+els set islock fals 
+time complex islock 1 lock n unlock 1 lock n n descend 
+method 2 time complex accord question idea augment tree follow three field boolean field islock method 
+parent pointer access ancestor log n time 
+count lock descend 
+note node ancestor mani descend 
+check descend lock use count 
+let us see oper work use approach 
+islock check islock given node 
+lock travers ancestor 
+none ancestor lock count lock descend 0 islock fals set islock current node true 
+increment count lock descend ancestor 
+time complex log n log n ancestor 
+unlock travers ancestor decreas count lock descend ancestor 
+set islock current node fals 
+time complex log n thank utkarsh trivedi suggest approach 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

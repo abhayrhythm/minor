@@ -1,0 +1,12 @@
+given number x two posit right side binari represent x write function swap n bit given two posit return result 
+also given two set bit overlap 
+strongli recommend click practic move solut 
+exampl let p1 p2 two given posit 
+exampl 1 input x 47 00101111 p1 1 start second bit right side p2 5 start 6th bit right side n 3 bit swap output 227 11100011 3 bit start second bit right side swap 3 bit start 6th posit right side exampl 2 input x 28 11100 p1 0 start first bit right side p2 3 start 4th bit right side n 2 bit swap output 7 00111 2 bit start 0th postion right side swap 2 bit start 4th posit right side solut need swap two set bit 
+xor use similar way use swap 2 number 
+follow algorithm 
+1 move bit first set rightmost side set1 x p1 1u n 1 express 1u n 1 give number contain last n bit set bit 0 express bit last n bit becom 0 
+2 move bit second set rightmost side set2 x p2 1u n 1 3 xor two set bit xor set1 set2 4 put xor bit back origin posit 
+xor xor p1 xor p2 5 final xor xor origin number two set swap 
+result x xor implement includ stdio h int swapbit unsign int x unsign int p1 unsign int p2 unsign int n move bit first set rightmost side unsign int set1 x p1 1u n 1 moce bit second set rightmost side unsign int set2 x p2 1u n 1 xor two set unsign int xor set1 set2 put xor bit back origin posit xor xor p1 xor p2 xor xor origin number two set swap unsign int result x xor return result drier program test function int main int re swapbit 28 0 3 2 printf nresult re return 0 output result 7 follow shorter implement logic int swapbit unsign int x unsign int p1 unsign int p2 unsign int n xor contain xor two set unsign int xor x p1 x p2 1u n 1 swap two set need xor xor origin set return x xor p1 xor p2 refer swap individu bit xor pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

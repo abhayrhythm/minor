@@ -1,0 +1,40 @@
+
+In C, sizeof operator works on following kind of operands: 
+1) type-name:  type-name must be specified in parentheses.
+ 
+   sizeof (type-name) 
+
+2) expression:  expression can be specified with or without the parentheses. 
+ 
+    sizeof expression
+
+The expression is used only for getting the type of operand and not evaluated.  For example, below code prints value of i as 5.
+
+#include <stdio.h>
+
+int main()
+{
+ int i = 5;
+ int int_size = sizeof(i++);
+ printf("\n size of i = %d", int_size);
+ printf("\n Value of i = %d", i);
+
+ getchar();
+ return 0;
+}
+
+Output of the above program:
+size of i   =  depends on compiler
+value of i = 5 
+References:
+http://h30097.www3.hp.com/docs/base_doc/DOCUMENTATION/V40G_HTML/AQTLTCTE/DOCU0015.HTM
+http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#The-sizeof-Operator
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

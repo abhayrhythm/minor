@@ -1,0 +1,22 @@
+binari tree inord successor node next node inord travers binari tree 
+inord successor null last node inoord travers 
+binari search tree inord successor input node also defin node smallest key greater key input node 
+sometim import find next node sort order 
+diagram inord successor 8 10 inord successor 10 12 inord successor 14 20 method 1 use parent pointer method assum everi node parent pointer 
+algorithm divid two case basi right subtre input node empti 
+input node root node node whose inord successor need 
+output succ succ inord successor node 
+1 right subtre node null succ lie right subtre 
+follow 
+go right subtre return node minimum key valu right subtre 
+2 right sbtree node null succ one ancestor 
+follow 
+travel use parent pointer see node left child parent 
+parent node succ 
+implement note function find inord successor highlight gray background code 
+c includ stdio h includ stdlib h binari tree node data pointer left child pointer right child struct node int data struct node left struct node right struct node parent struct node minvalu struct node node struct node inordersuccessor struct node root struct node n step 1 algorithm n right null return minvalu n right step 2 algorithm struct node p n parent p null n p right n p p p parent return p given non empti binari search tree return minimum data valu found tree 
+note entir tree need search 
+struct node minvalu struct node node struct node current node loop find leftmost leaf current left null current current left return current helper function alloc new node given data null left right pointer 
+struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left null node right null node parent null return node give binari search tree number insert new node given number correct place tree 
+return new root pointer caller use standard trick avoid use refer paramet 
+struct node insert struct node node int data 1 tree empti return new singl node node null return newnod data els struct node temp 2 otherwis recur tree data node data temp insert node left data node left temp temp parent node els temp insert node right data node right temp temp parent node return unchang node pointer return node driver program test function int main struct node root null temp succ min creat tree given diagram root insert root 20 root insert root 8 root insert root 22 root insert root 4 root insert root 12 root insert root 10 root insert root 14 temp root left right right succ inordersuccessor root temp succ null printf n inord successor temp data succ data els printf n inord successor exit getchar return 0 

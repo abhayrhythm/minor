@@ -1,0 +1,5 @@
+c rtti run time type inform avail class least one virtual function 
+exampl dynamic_cast use rtti follow program fail error cannot dynamic_cast b type class b type class sourc type polymorph virtual function base class b 
+includ iostream use namespac std class b class public b int main b b new dynamic_cast b null cout work els cout cannot cast b getchar return 0 ad virtual function base class b make work 
+includ iostream use namespac std class b virtual void fun class public b int main b b new dynamic_cast b null cout work els cout cannot cast b getchar return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

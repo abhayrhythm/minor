@@ -1,0 +1,26 @@
+number spars two adjac 1s binari represent 
+exampl 5 binari represent 101 spars 6 binari represent 110 spars 
+given number x find smallest spars number greater equal x exampl input x 6 output next spars number 8 input x 4 output next spars number 4 input x 38 output next spars number 40 input x 44 output next spars number 64 strongli recommend click practic move solut 
+simpl solut follow 1 write util function isspars x take number return true x spars els fals 
+function easili written travers bit input number 
+2 start x follow 1 isspars x return x els x time complex isspars log x 
+time complex solut x log x 
+next spars number x distanc away 
+thank kk_angel suggest solut 
+effici solut solv problem without check number one 
+step 
+1 find binari given number store boolean array 
+2 initi last_fin bit posit 0 
+2 start travers binari least signific bit 
+get two adjac 1 next third bit 1 make bit 1 last final bit includ last final 0 
+ii updat last final bit next bit 
+exampl let binari represent 01010001011101 chang 01010001100000 bit highlight 11 set 0 
+two 1 adjac chang binari represent 01010010000000 final answer 
+c implement solut 
+c program find next spars number includ bit stdc h use namespac std int nextspars int x find binari represent x store bin 
+bin 0 contain least signific bit lsb next bit bin 1 
+vector bool bin x 0 bin push_back x 1 x 1 extra bit result add one extra bit bin push_back 0 int n bin size size binari represent posit till bit final int last_fin 0 start second bit next lsb int 1 n 1 current bit previou bit 1 next bit 1 bin 1 bin 1 1 bin 1 1 make next bit 1 bin 1 1 make bit current bit 0 make sure get smallest next number int j j last_fin j bin j 0 store posit bit set bit bit chang next time 
+last_fin 1 find decim equival modifi bin int an 0 int 0 n an bin 1 return an driver program int main int x 38 cout next spars number nextspars x return 0 output next spars number 40 time complex solut log x 
+thank gccode suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

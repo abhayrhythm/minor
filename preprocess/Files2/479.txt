@@ -1,0 +1,23 @@
+heap mainli use implement prioriti queue 
+discuss heap previou post 
+binari heap binomi heap term time complex fibonacci heap beat binari binomi heap 
+amort time complex fibonacci heap 
+1 find min θ 1 binari binomi 2 delet min log n θ log n binari binomi 3 insert θ 1 θ log n binari θ 1 binomi 4 decreas key θ 1 θ log n binari binomi 5 merg θ 1 θ log n θ n binari θ log n binomi like binomi heap fibonacci heap collect tree min heap max heap properti 
+fibonacci heap tree shape even tree singl node unlik binomi heap everi tree binomi tree 
+exampl fibonacci heap taken 
+fibonacci heap maintain pointer minimum valu root tree 
+tree root connect use circular doubli link list access use singl min pointer 
+main idea execut oper lazi way 
+exampl merg oper simpli link two heap insert oper simpli add new tree singl node 
+oper extract minimum complic oper 
+delay work consolid tree 
+make delet also complic delet first decreas key minu infinit call extract minimum 
+interest fact fibonacci heap reduc time complex decreas key import dijkstra prim algorithm 
+binari heap time complex algorithm vlogv elogv 
+fibonacci heap use time complex improv vlogv e although fibonacci heap look promis time complex wise found slow practic hidden constant high sourc wiki 
+fibonacci heap mainli call fibonacci number use run time analysi 
+also everi node fibonacci heap degre log n size subtre root node degre k least fk 2 fk kth fibonacci number 
+soon discuss fibonacci heap oper detail 
+articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

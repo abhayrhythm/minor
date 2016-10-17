@@ -1,0 +1,146 @@
+
+Given a matrix where every row is sorted in increasing order. Write a function that finds and returns a common element in all rows. If there is no common element, then returns -1. 
+Example:
+Input: mat[4][5] = { {1, 2, 3, 4, 5},
+                    {2, 4, 5, 8, 10},
+                    {3, 5, 7, 9, 11},
+                    {1, 3, 5, 7, 9},
+                  };
+Output: 5
+A O(m*n*n) simple solution is to take every element of first row and search it in all other rows, till we find a common element. Time complexity of this solution is O(m*n*n) where m is number of rows and n is number of columns in given matrix. This can be improved to O(m*n*Logn) if we use Binary Search instead of linear search.
+We can solve this problem in O(mn) time using the approach similar to merge of Merge Sort. The idea is to start from the last column of every row. If elements at all last columns are same, then we found the common element. Otherwise we find the minimum of all last columns. Once we find a minimum element, we know that all other elements in last columns cannot be a common element, so we reduce last column index for all rows except for the row which has minimum value. We keep repeating these steps till either all elements at current last column don’t become same, or a last column index reaches 0.
+Below is C implementation of above idea.
+
+// A C program to find a common element in all rows of a
+// row wise sorted array
+#include<stdio.h>
+
+// Specify number of rows and columns
+#define M 4
+#define N 5
+
+// Returns common element in all rows of mat[M][N]. If there is no
+// common element, then -1 is returned
+int findCommon(int mat[M][N])
+{
+    // An array to store indexes of current last column
+    int column[M];
+    int min_row;  // To store index of row whose current
+                  // last element is minimum
+
+    // Initialize current last element of all rows
+    int i;
+    for (i=0; i<M; i++)
+        column[i] = N-1;
+
+    min_row = 0; // Initialize min_row as first row
+
+    // Keep finding min_row in current last column, till either
+    // all elements of last column become same or we hit first column.
+    while (column[min_row] >= 0)
+    {
+       // Find minimum in current last column
+       for (i=0; i<M; i++)
+       {
+          if (mat[i][column[i]] < mat[min_row][column[min_row]] )
+             min_row = i;
+       }
+
+       // eq_count is count of elements equal to minimum in current last
+       // column.
+       int eq_count = 0;
+
+       // Travers current last column elements again to update it
+       for (i=0; i<M; i++)
+       {
+          //  Decrease last column index of a row whose value is more
+          // than minimum.
+          if (mat[i][column[i]] > mat[min_row][column[min_row]])
+          {
+             if (column[i] == 0)
+                return -1;
+
+             column[i] -= 1; // Reduce last column index by 1
+          }
+          else
+             eq_count++;
+       }
+
+       // If equal count becomes M, return the value
+       if (eq_count == M)
+          return mat[min_row][column[min_row]];
+    }
+    return -1;
+}
+
+// driver program to test above function
+int main()
+{
+  int mat[M][N] = { {1, 2, 3, 4, 5},
+                    {2, 4, 5, 8, 10},
+                    {3, 5, 7, 9, 11},
+                    {1, 3, 5, 7, 9},
+                  };
+  int result = findCommon(mat);
+  if (result == -1)
+    printf("No common element");
+  else
+    printf("Common element is %d", result);
+  return 0;
+}
+
+Output:
+Common element is 5
+Explanation for working of above code
+Let us understand working of above code for following example.
+Initially entries in last column array are N-1, i.e., {4, 4, 4, 4}
+    {1, 2, 3, 4, 5},
+    {2, 4, 5, 8, 10},
+    {3, 5, 7, 9, 11},
+    {1, 3, 5, 7, 9},
+The value of min_row is 0, so values of last column index for rows with value greater than 5 is reduced by one. So column[] becomes {4, 3, 3, 3}.
+    {1, 2, 3, 4, 5},
+    {2, 4, 5, 8, 10},
+    {3, 5, 7, 9, 11},
+    {1, 3, 5, 7, 9},
+The value of min_row remains 0 and and value of last column index for rows with value greater than 5 is reduced by one. So column[] becomes {4, 2, 2, 2}.
+    {1, 2, 3, 4, 5},
+    {2, 4, 5, 8, 10},
+    {3, 5, 7, 9, 11},
+    {1, 3, 5, 7, 9},
+The value of min_row remains 0 and value of last column index for rows with value greater than 5 is reduced by one. So colomun[] becomes {4, 2, 1, 2}.
+    {1, 2, 3, 4, 5},
+    {2, 4, 5, 8, 10},
+    {3, 5, 7, 9, 11},
+    {1, 3, 5, 7, 9},
+Now all values in current last columns of all rows is same, so 5 is returned.
+A Hashing Based Solution
+We can also use hashing.  This solution works even if the rows are not sorted.  It can be used to print all common elements.
+
+Step1:  Create a Hash Table with all key as distinct elements 
+        of row1. Value for all these will be 0.
+
+Step2:  
+For i = 1 to M-1
+ For j = 0 to N-1
+  If (mat[i][j] is already present in Hash Table)
+   If (And this is not a repetition in current row.
+      This can be checked by comparing HashTable value with
+      row number)
+         Update the value of this key in HashTable with current 
+         row number
+
+Step3: Iterate over HashTable and print all those keys for 
+       which value = M 
+Time complexity of the above hashing based solution is O(MN) under the assumption that search and insert in HashTable take O(1) time. Thanks to Nishant for suggesting this solution in a comment below.
+Exercise: Given n sorted arrays of size m each, find all common elements in all arrays in O(mn) time.
+This article is contributed by Anand Agrawal. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

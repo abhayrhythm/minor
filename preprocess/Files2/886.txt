@@ -1,0 +1,10 @@
+consid c c program 
+includ stdio h int x 0 int f1 x 5 return x int f2 x 10 return x int main int p f1 f2 printf x getchar return 0 would output program 5 10 
+output undefin order evalu f1 f2 mandat standard 
+compil free first call either f1 f2 
+equal level preced oper appear express associ come pictur 
+exampl f1 f2 f3 consid f1 f2 f3 
+among first pair function operand evalu first defin standard 
+thank venki suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

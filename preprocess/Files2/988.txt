@@ -1,0 +1,6 @@
+consid follow program 
+chang program output printf alway 10 allow chang main 
+fun chang 
+void fun add someth printf main print 10 int main int 10 fun 20 printf return 0 use macro argument chang output printf 
+includ stdio h void fun defin printf x printf x 10 int main int 10 fun 20 printf return 0 output 10 articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

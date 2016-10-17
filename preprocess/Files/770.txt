@@ -1,0 +1,55 @@
+
+The problems in Clocks usually deal with finding the angle between the hour hand and the minute hand, number of times the two hands coincide, etc.
+
+The markings on the face of a clock are 60 spaces, one each for a minute. Every hour, the minute hand completes one round of 60 spaces and the hour hand completes one full round every 12 hours.
+In 60 minutes, the minute hand gains 55 spaces (also known as minute spaces) over the hour hand. For example, if the initial time is 12:00, then after 1 hour, the minute hand would cover 60 spaces whereas the hour hand would cover only 5 spaces. Thus, the minute hand covers 55 spaces extra than the hour hand.
+The minute hand covers 360 degrees in 60 minutes.
+=> In 1 minute, the minute hand covers 360 / 60 = 6 degrees
+The hour hand covers 360 degrees in 12 hours.
+=> In 1 hour, the hour hand covers 360 / 12 = 30 degrees
+=> In 1 minute, the hour hand covers 30 / 60 = 0.50 degrees
+The angle between the minute hand and the hour hand increases by 5.50 degrees every minute. For example, after 2 minutes, angle made by the minute hand = 2 x 6 = 12 degrees and angle made by the hour hand = 2 x 0.50 = 1 degree
+=> Angle between the hour hand and the minute hand after 2 minutes = 12 – 1 = 11 degrees = 2 x 5.50 degrees
+In every hour, the minute hand and the hour hand coincide once.
+If the minute hand and the hour hand are in the same line, then the angle between them is either 0 degree or 180 degrees.
+The angle between the minute hand and the hour hand is 180 degrees if they are 30 spaces apart, 90 degrees if they are 15 spaces apart, and 0 degrees if they are 0 minute spaces apart.
+If the clock shows time ahead of the actual time, it is said to be running fast.
+For example, if the clock is showing 12:15 PM but it is actually 12:00 PM, then the clock is said to be running 15 minutes fast.
+If the clock shows time behind the actual time, it is said to be running slow.
+For example, if the clock is showing 2:15 PM but it is actually 2:30 PM, then the clock is said to be running 15 minutes slow.
+
+Sample Problems
+Question 1 : Find the angle between the hands of a clock at 3:20 PM.
+Solution : At 3:00 PM, angle made by the minute hand = 0 degree and angle made by the hour hand = 3 x angle made by the hour hand in one hour = 3 x 30 = 90 degrees
+Now, in the next 20 minutes, angle made by the hour hand = 20 x angle made by the minute hand in 1 minute = 20 x 6 = 120 degrees and angle made by the hour hand = 20 x angle made by the hour hand in 1 minute = 20 x 0.50 = 10 degrees
+=> Angle made by the minute hand at 3:20 PM = 0 + 120 = 120 degrees
+=> Angle made by the hour hand at 3:20 PM = 90 + 10 = 100 degrees
+Therefore, angle between the hands of the clock at 3:20 PM = 120 – 100 = 20 degrees
+Another Method : 
+At 3:00 PM, angle made by the minute hand = 0 degree and angle made by the hour hand = 3 x angle made by the hour hand in one hour = 3 x 30 = 90 degrees
+=> Initial angle between the two hands = 90 degrees
+Now, we know that the difference between the two hands of the clock increases every minute by 5.50 degrees.
+=> Difference between the hands of the clock after 20 minutes = 20 x 5.50 = 110 degrees
+Therefore, difference between the two hands at 3:20 PM = 110 – 90 = 20 degrees
+ 
+Question 2 : At what time between 3 PM and 4 PM would the two hands of the clock be together ?
+Solution : At 3 PM, the hour hand would be at 15 spaces and the minute hand would be at 0 spaces. The minute hand would have to cover these extra 15 spaces in order to meet the hour hand.
+Now, 55 minutes are gained by the minute hand in 60 minutes.
+=> 15 minutes would be gained in (60 / 55) x 15 = 180 / 11 minutes
+Thus, the two hands of the clock meet at 180 / 11 minutes past 3 PM, i.e., around 3:16:22 PM.
+ 
+Question 3 : How many times in a day the two hands of a clock coincide?
+Solution : Between 11 to 1, the hands of the clock coincide only once, i.e., at 12. So, every 12 hours, they coincide 11 times.
+Therefore, the two hands of the clock coincide 22 times in a day.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

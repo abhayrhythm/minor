@@ -1,0 +1,54 @@
+minimum span tree 
+given connect undirect graph span tree graph subgraph tree connect vertic togeth 
+singl graph mani differ span tree 
+minimum span tree mst minimum weight span tree weight connect undirect graph span tree weight less equal weight everi span tree 
+weight span tree sum weight given edg span tree 
+mani edg minimum span tree 
+minimum span tree v 1 edg v number vertic given graph 
+applic minimum span tree 
+see applic mst 
+step find mst use kruskal algorithm 1 sort edg non decreas order weight 
+2 pick smallest edg 
+check form cycl span tree form far 
+cycl form includ edg 
+els discard 
+3 repeat step 2 v 1 edg span tree 
+step 2 use union find algorithm detect cycl 
+recommend read follow post prerequisit 
+union find algorithm set 1 detect cycl graph union find algorithm set 2 union rank path compress algorithm greedi algorithm 
+greedi choic pick smallest weight edg caus cycl mst construct far 
+let us understand exampl consid input graph 
+graph contain 9 vertic 14 edg 
+minimum span tree form 9 1 8 edg 
+sort weight src dest 1 7 6 2 8 2 2 6 5 4 0 1 4 2 5 6 8 6 7 2 3 7 7 8 8 0 7 8 1 2 9 3 4 10 5 4 11 1 7 14 3 5 pick edg one one sort list edg 1 pick edg 7 6 cycl form includ 
+2 pick edg 8 2 cycl form includ 
+3 pick edg 6 5 cycl form includ 
+4 pick edg 0 1 cycl form includ 
+5 pick edg 2 5 cycl form includ 
+6 pick edg 8 6 sinc includ edg result cycl discard 
+7 pick edg 2 3 cycl form includ 
+8 pick edg 7 8 sinc includ edg result cycl discard 
+9 pick edg 0 7 cycl form includ 
+10 pick edg 1 2 sinc includ edg result cycl discard 
+11 pick edg 3 4 cycl form includ 
+sinc number edg includ equal v 1 algorithm stop 
+c c c program kruskal algorithm find minimum span tree given connect undirect weight graph includ stdio h includ stdlib h includ string h structur repres weight edg graph struct edg int src dest weight structur repres connect undirect weight graph struct graph v number vertic e number edg int v e graph repres array edg 
+sinc graph undirect edg src dest also edg dest src 
+count 1 edg 
+struct edg edg creat graph v vertic e edg struct graph creategraph int v int e struct graph graph struct graph malloc sizeof struct graph graph v v graph e e graph edg struct edg malloc graph e sizeof struct edg return graph structur repres subset union find struct subset int parent int rank util function find set element use path compress techniqu int find struct subset subset int find root make root parent path compress subset parent subset parent find subset subset parent return subset parent function union two set x use union rank void union struct subset subset int x int int xroot find subset x int yroot find subset attach smaller rank tree root high rank tree union rank subset xroot rank subset yroot rank subset xroot parent yroot els subset xroot rank subset yroot rank subset yroot parent xroot rank make one root increment rank one els subset yroot parent xroot subset xroot rank compar two edg accord weight 
+use qsort sort array edg int mycomp const void const void b struct edg a1 struct edg struct edg b1 struct edg b return a1 weight b1 weight main function construct mst use kruskal algorithm void kruskalmst struct graph graph int v graph v struct edg result v tni store result mst int e 0 index variabl use result int 0 index variabl use sort edg step 1 sort edg non decreas order weight allow chang given graph creat copi array edg qsort graph edg graph e sizeof graph edg 0 mycomp alloc memori creat v ssubset struct subset subset struct subset malloc v sizeof struct subset creat v subset singl element int v 0 v v v subset v parent v subset v rank 0 number edg taken equal v 1 e v 1 step 2 pick smallest edg 
+increment index next iter struct edg next_edg graph edg int x find subset next_edg src int find subset next_edg dest includ edg caus cycl includ result increment index result next edg x result e next_edg union subset x els discard next_edg print content result display built mst printf follow edg construct mst n 0 e printf n result src result dest result weight return driver program test function int main let us creat follow weight graph 10 0 1 6 5 15 2 3 4 int v 4 number vertic graph int e 5 number edg graph struct graph graph creategraph v e add edg 0 1 graph edg 0 src 0 graph edg 0 dest 1 graph edg 0 weight 10 add edg 0 2 graph edg 1 src 0 graph edg 1 dest 2 graph edg 1 weight 6 add edg 0 3 graph edg 2 src 0 graph edg 2 dest 3 graph edg 2 weight 5 add edg 1 3 graph edg 3 src 1 graph edg 3 dest 3 graph edg 3 weight 15 add edg 2 3 graph edg 4 src 2 graph edg 4 dest 3 graph edg 4 weight 4 kruskalmst graph return 0 java java program kruskal algorithm find minimum span tree given connect undirect weight graph import java util 
+import java lang 
+import java io 
+class graph class repres graph edg class edg implement compar edg int src dest weight compar function use sort edg base weight public int compareto edg compareedg return weight compareedg weight class repres subset union find class subset int parent rank int v e v 
+vertic e edg edg edg collect edg creat graph v vertic e edg graph int v int e v v e e edg new edg e int 0 e edg new edg util function find set element use path compress techniqu int find subset subset int find root make root parent path compress subset parent subset parent find subset subset parent return subset parent function union two set x use union rank void union subset subset int x int int xroot find subset x int yroot find subset attach smaller rank tree root high rank tree union rank subset xroot rank subset yroot rank subset xroot parent yroot els subset xroot rank subset yroot rank subset yroot parent xroot rank make one root increment rank one els subset yroot parent xroot subset xroot rank main function construct mst use kruskal algorithm void kruskalmst edg result new edg v tni store result mst int e 0 index variabl use result int 0 index variabl use sort edg 0 v result new edg step 1 sort edg non decreas order weight 
+allow chang given graph creat copi array edg array sort edg alloc memori creat v ssubset subset subset new subset v 0 v subset new subset creat v subset singl element int v 0 v v v subset v parent v subset v rank 0 0 index use pick next edg number edg taken equal v 1 e v 1 step 2 pick smallest edg 
+increment index next iter edg next_edg new edg next_edg edg int x find subset next_edg src int find subset next_edg dest includ edg caus cycl includ result increment index result next edg x result e next_edg union subset x els discard next_edg print content result display built mst system println follow edg construct mst 0 e system println result src result dest result weight driver program public static void main string arg let us creat follow weight graph 10 0 1 6 5 15 2 3 4 int v 4 number vertic graph int e 5 number edg graph graph graph new graph v e add edg 0 1 graph edg 0 src 0 graph edg 0 dest 1 graph edg 0 weight 10 add edg 0 2 graph edg 1 src 0 graph edg 1 dest 2 graph edg 1 weight 6 add edg 0 3 graph edg 2 src 0 graph edg 2 dest 3 graph edg 2 weight 5 add edg 1 3 graph edg 3 src 1 graph edg 3 dest 3 graph edg 3 weight 15 add edg 2 3 graph edg 4 src 2 graph edg 4 dest 3 graph edg 4 weight 4 graph kruskalmst code contribut aakash hasija follow edg construct mst 2 3 4 0 3 5 0 1 10 time complex elog elogv 
+sort edg take elog time 
+sort iter edg appli find union algorithm 
+find union oper take atmost logv time 
+overal complex elog elogv time 
+valu e atmost v2 logv loge 
+therefor overal time complex elog elogv refer http www ic uci edu eppstein 161 960206 html http en wikipedia org wiki minimum_spanning_tre articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

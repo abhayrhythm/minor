@@ -1,0 +1,22 @@
+problem given 2 process j need write program guarante mutual exclus two without addit hardwar support 
+solut multipl way solv problem requir addit hardwar support 
+simplest popular way use peterson algorithm mutual exclus 
+develop peterson 1981 though initi work direct done theodoru jozef dekker came dekker algorithm 1960 later refin peterson came known peterson algorithm 
+basic peterson algorithm provid guarante mutual exclus use share memori 
+use two idea algorithm willing acquir lock 
+turn acquir lock 
+prerequisit multithread c explan idea first thread express desir acquir lock set flag self 1 give thread chanc acquir lock 
+thread desir acquir lock get lock pass chanc 1st thread 
+desir get lock loop break 1st thread get chanc 
+implement c languag filenam peterson_spinlock c use command compil gcc pthread peterson_spinlock c peterson_spinlock includ stdio h includ pthread h includ mythread h int flag 2 int turn const int max 1e9 int an 0 void lock_init initi lock reset desir thread acquir lock 
+give turn one 
+flag 0 flag 1 0 turn 0 execut enter critic section void lock int self set flag self 1 say want acquir lock flag self 1 first give thread chanc acquir lock turn 1 self wait thread loos desir acquir lock turn get lock 
+flag 1 self 1 turn 1 self execut leav critic section void unlock int self desir acquir lock futur 
+allow thread acquir lock 
+flag self 0 sampl function run two thread creat main void func void int 0 int self int printf thread enter n self lock self critic section one thread enter time 0 max an unlock self driver code int main initi lock fork 2 thread pthread_t p1 p2 lock_init creat two thread run func pthread_creat p1 null func void 0 pthread_creat p2 null func void 1 wait thread end 
+pthread_join p1 null pthread_join p2 null printf actual count expect count n an max 2 return 0 mythread h wrapper header file assert statement ifndef __mythreads_h__ defin __mythreads_h__ includ pthread h includ assert h includ sched h void pthread_mutex_lock pthread_mutex_t int rc pthread_mutex_lock assert rc 0 void pthread_mutex_unlock pthread_mutex_t int rc pthread_mutex_unlock assert rc 0 void pthread_creat pthread_t thread const pthread_attr_t attr void start_routin void void arg int rc pthread_creat thread attr start_routin arg assert rc 0 void pthread_join pthread_t thread void value_ptr int rc pthread_join thread value_ptr assert rc 0 endif __mythreads_h__ output thread enter 1 thread enter 0 actual count 2000000000 expect count 2000000000 produc output 2 109 109 increment thread 
+articl contribut pinkesh badjatiya 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

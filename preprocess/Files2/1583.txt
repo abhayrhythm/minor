@@ -1,0 +1,24 @@
+discuss thread binari tree 
+idea thread binari tree make inord travers faster without stack without recurs 
+simpl thread binari tree null right pointer use store inord successor 
+ever right pointer null use store inord successor 
+follow diagram show exampl singl thread binari tree 
+dot line repres thread 
+follow structur singl thread binari tree 
+struct node int key node left right use indic whether right pointer normal right pointer pointer inord successor 
+bool isthread convert given binari tree thread binari tree 
+basic need set null right pointer inord successor 
+first inord travers tree store queue use simpl array also inord successor becom next node 
+inord travers whenev find node whose right null take front item queuue make right current node 
+also set isthread true indic right pointer thread link 
+follow implement idea 
+c c program convert binari tree thread tree includ iostream includ queue use namespac std structur node thread binari tree struct node int key node left right use indic whether right pointer normal right pointer pointer inord successor 
+bool isthread helper function put node inord queue void populatequeu node root std queue node q root null return root left populatequeu root left q q push root root right populatequeu root right q function travers queue make tree thread void createthreadedutil node root std queue node q root null return root left createthreadedutil root left q q pop root right createthreadedutil root right q right pointer null link inord successor set isthread bit 
+els root right q front root isthread true function use populatequeu createthreadedutil convert given binari tree thread tree 
+void createthread node root creat queue store inord travers std queue node q store inord travers queue populatequeu root q link null right pointer inord successor createthreadedutil root q util function find leftmost node binari tree root root 
+function use inord node leftmost node root root null root left null root root left return root function inord travers thread binari tree void inord node root root null return find leftmost node binari tree node cur leftmost root cur null cout cur key node thread node go inord successor cur isthread cur cur right els els go leftmost child right subtre cur leftmost cur right util function creat new node node newnod int key node temp new node temp left temp right null temp key key return temp driver program test function int main 1 2 3 4 5 6 7 node root newnod 1 root left newnod 2 root right newnod 3 root left left newnod 4 root left right newnod 5 root right left newnod 6 root right right newnod 7 createthread root cout inord travers creeat thread tree n inord root return 0 java java program convert binari tree thread tree import java util linkedlist import java util queue class contain left right child current node key valu class node int data node left right use indic whether right pointer normal right pointer pointer inord successor 
+boolean isthread public node int item data item left right null class binarytre node root helper function put node inord queue void populatequeu node node queue node q node null return node left null populatequeu node left q q add node node right null populatequeu node right q function travers queue make tree thread void createthreadedutil node node queue node q node null return node left null createthreadedutil node left q q remov node right null createthreadedutil node right q right pointer null link inord successor set isthread bit 
+els node right q peek node isthread true function use populatequeu createthreadedutil convert given binari tree thread tree 
+void createthread node node creat queue store inord travers queue node q new linkedlist node store inord travers queue populatequeu node q link null right pointer inord successor createthreadedutil node q util function find leftmost node binari tree root root 
+function use inord node leftmost node node node null node left null node node left return node function inord travers thread binari tree void inord node node node null return find leftmost node binari tree node cur leftmost node cur null system print cur data node thread node go inord successor cur isthread true cur cur right els els go leftmost child right subtre cur leftmost cur right driver program test function public static void main string arg binarytre tree new binarytre tree root new node 1 tree root left new node 2 tree root right new node 3 tree root left left new node 4 tree root left right new node 5 tree root right left new node 6 tree root right right new node 7 tree createthread tree root system println inord travers creat thread tree tree inord tree root code contribut mayank jaiswal output inord travers creeat thread tree 4 2 5 1 6 3 7 articl contribut minhaz 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

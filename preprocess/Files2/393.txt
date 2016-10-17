@@ -1,0 +1,9 @@
+consid simpl represent without dummi node link list 
+function oper link list divid two categori 1 function modifi head pointer exampl function includ print link list updat data member node like ad given valu node oper access updat data node gener easi decid prototyp function categori 
+alway pass head pointer argument travers updat list 
+exampl follow function add x data member node 
+void addxtolist struct node node int x node null node data node data x node node next 2 function modifi head pointer exampl includ insert node begin head pointer alway modifi function insert node end head pointer modifi first node insert delet given node head pointer modifi delet node first node 
+may differ way updat head pointer function 
+let us discuss way use follow simpl problem given link list write function deletefirst delet first node given link list 
+exampl list 1 2 3 4 modifi 2 3 4 algorithm solv problem simpl 3 step process store head pointer b chang head pointer point next node c delet previou head node 
+follow differ way updat head pointer deletefirst list updat everywher 

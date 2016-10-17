@@ -1,0 +1,26 @@
+question 1 given direct weight graph 
+also given shortest path sourc vertex destin vertex 
+weight everi edg increas 10 unit shortest path remain modifi graph 
+shortest path may chang 
+reason may differ number edg differ path exampl let shortest path weight 15 5 edg 
+let anoth path 2 edg total weight 25 weight shortest path increas 5 10 becom 15 50 weight path increas 2 10 becom 25 20 shortest path chang path weight 45 question 2 similar question 
+shortest path chang weight edg multipli 10 
+multipli edg weight 10 shortest path chang 
+reason simpl weight path get multipli amount 
+number edg path matter 
+like chang unit weight 
+question 3 given direct graph everi edg weight either 1 2 find shortest path given sourc vertex given destin vertex 
+expect time complex v e 
+appli dijkstra shortest path algorithm get shortest path e vlogv time 
+v e time 
+idea use bf 
+one import observ bf path use bf alway least number edg two vertic 
+edg weight use bf find shortest path 
+problem modifi graph split edg weight 2 two edg weight 1 
+modifi graph use bf find shortest path 
+approach v e 
+worst case edg weight 2 need e oper split edg time complex becom e v e v e 
+question 4 given direct acycl weight graph find shortest path sourc destin v e time 
+see shortest path direct acycl graph question see follow link question 
+http algs4 cs princeton edu 44sp http geeksquiz com graph shortest path pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

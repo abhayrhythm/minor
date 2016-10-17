@@ -1,0 +1,47 @@
+
+Artificial Intelligence: Artificial Intelligence (AI) is the study of computer science focusing on developing software or machines that exhibit human intelligence. A lot of people think that AI is just a sci-fi concept that’s being used in movies like Star Wars, Terminator or Lucy, but there is a lot more to it. AI is a very broad topic ranging from a simple calculator to self-drive technology to something that might change the future.
+Primary Goals and Applications of AI
+The primary goals of AI include deduction and reasoning, knowledge representation, planning, natural language processing (NLP), learning, perception and the ability to manipulate and move objects. Long-term goals of AI research includes achieving Creativity, Social Intelligence, and General (Human Level) Intelligence.
+AI has heavily influenced different sectors, that we may not recognize. Ray Kurzweil says “Many thousands of AI applications are deeply embedded in the infrastructure of every industry”. John McCarthy, one of the founders of AI, once said that “as soon as it works, no one calls it AI anymore.”
+Categories of AI
+While, there are various different forms of AI as it’s a broad concept, we can divide it into the following three categories based on AI’s capabilities –
+Weak AI – Also referred as Narrow AI, a weak AI focuses on one narrow task. There is no self-awareness, genuine intelligence in case of a weak AI.
+Siri is a good example of a weak AI combining several weak AI techniques to function. It can do a lot of things for the user, but fails when asked question outside the limits of application.
+Strong AI – Also  referred as General AI, or Human-Level AI, it’s a computer that is as smart as a human brain. This sort of AI will be able to perform all tasks that a human could do. There is a lot of research going in this field, but we still have to conquer it.
+Artificial Superintelligence – Nick Bostrom, leading AI thinker, defines it as “an intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom and social skills.”
+Artificial Superintelligence is the reason for why many prominent scientists and technologists including Stephen Hawking and Elon Musk have raised concerns regarding the possibility of human extinction.
+How to Get Started?
+The first thing that you need to do is learn a programming language. Though there are a lot of languages that you can start with, Python is the preferred choice of many to start with because of libraries better suited for Machine Learning.
+Introduction to Bots
+A BOT is the most basic example of a weak AI that can do automated tasks on your behalf. Chat bots were one of the first automated programs to be called as ‘bots’. Web crawlers used by Search Engines like Google are a perfect example of sophisticated and advanced BOT.
+You are advised to learn the following before you start programming bot in order to make your lives easier –
+
+xpath – This will help you to inspect and target HTML and build your bot from what you see there.
+regex – regex will help you to process the data you feed your bot by cleaning up or targeting (or both) the parts that matter to your logic.
+REST – This is really important as you will eventually work with APIs. You can use requests to do this for its simplicity.
+
+How to Build Your First Bot?
+You can start learning how to create bots in Python through these two tutorials in the simplest way . You can also start by using APIs and tools that offer the ability to build end-user application. This helps you by actually building something without worrying too much about the theory at first. Some of the APIs that you can use for the same are Cloud,Diffbot, Mallet etc
+What next?
+Once you have a thorough understanding of your preferred programming language and enough practice with the basics, you should start to learn more about Machine Learning. In Python start learning Scikit-learn, NLTK, SciPy, PyBrain, and numpy libraries which will be useful while coding Machine Learning algorithms.
+It is also very important to familiarize yourself with Advanced Math and Stats as it will help you a lot in writing ML algorithms.
+Here are a few resources for you to learn and practice ML –
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+https://www.coursera.org/learn/machine-learning (By Andrew Ng)
+https://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml
+https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x
+https://www.udacity.com/course/intro-to-statistics–st101
+https://www.udacity.com/course/intro-to-artificial-intelligence–cs271(Includes Logic and Robotics)
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/
+I’ll also recommend you to participate in various AI & BOT Programming Contests at different places on the Internet .
+About the author:
+Mumbai based Ritesh Giri is an active blogger having keen interest in writing about  technical Blogs Besides passionate about writing, he also has keen interest in learning new powerful algorithms . Currently studying at Mumbai University, he is also a Mentor at Google Summer of Code 2016.He is an active blog contributor at GeeksforGeeks. If you also wish to showcase your blog here, please see GBlog for guest blog writingon GeeksforGeeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

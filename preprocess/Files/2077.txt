@@ -1,0 +1,44 @@
+
+Write a C/C++ program that accepts a number from the user and prints “Even” if the entered number is even and prints “Odd” if the number is odd.  Your are not allowed to use any comparison (==, <, >..etc) or conditional (if, else, switch, ternary operator,..etc) statement.
+Method 1
+Below is a tricky code can be used to print “Even” or “Odd” accordingly.
+
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+  char arr[2][5] = {"Even", "Odd"};
+  int no;
+  cout << "Enter a number: ";
+  cin >> no;
+  cout << arr[no%2];
+  getch();
+  return 0;
+}
+
+Method 2
+Below is another tricky code can be used to print “Even” or “Odd” accordingly.  Thanks to student for suggesting this method.
+
+#include<stdio.h>
+int main()
+{
+    int no;
+    printf("Enter a no: ");
+    scanf("%d", &no);
+    (no & 1 && printf("odd"))|| printf("even");
+    return 0;
+}
+
+Please write comments if you find the above code incorrect, or find better ways to solve the same problem
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

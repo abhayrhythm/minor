@@ -1,0 +1,17 @@
+given three link list say b c find one node list sum valu node equal given number 
+exampl three link list 12 6 29 23 5 8 90 20 59 given number 101 output tripel 6 5 90 
+follow solut size three link list assum simplic analysi 
+follow solut work link list differ size also 
+simpl method solv problem run three nest loop 
+outermost loop pick element list middl loop pick element b innermost loop pick c innermost loop also check whether sum valu current node b c equal given number 
+time complex method n 3 
+sort use reduc time complex n n 
+follow detail step 
+1 sort list b ascend order list c descend order 
+2 b c sort one one pick element list find pair travers b c see issumsort follow code 
+idea similar quadrat algorithm 3 sum problem 
+follow code implement step 2 
+solut easili modifi unsort list ad merg sort code discuss 
+c c c c program find triplet three link list sum equal given number includ stdio h includ stdlib h link list node struct node int data struct node next util function insert node begin link list void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod function chech three element b c whose sum equal givennumb 
+function assum list b sort ascend order c sort descend order 
+bool issumsort struct node heada struct node headb struct node headc int givennumb struct node heada travers node null struct node b headb struct node c headc everi node list prick two node list b abd c b null c null triplet given sum print return true int sum data b data c data sum givennumb printf triplet found data b data c data return true sum triplet smaller look greater valu b els sum givennumb b b next els sum greater look smaller valu c c c next next move ahead list printf triplet return fals drier program test function int main start empti list struct node heada null struct node headb null struct node headc null creat link list 10 15 5 20 push heada 20 push heada 4 push heada 15 push heada 10 creat sort link list b 2 4 9 10 push headb 10 push headb 9 push headb 4 push headb 2 creat anoth sort link list c 8 4 2 1 push headc 1 push headc 2 push headc 4 push headc 8 int givennumb 25 issumsort heada headb headc givennumb return 0 

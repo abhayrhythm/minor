@@ -1,0 +1,7 @@
+progress sequenc seri number arrang particular order form predict order 
+predict order mean given number find next number seri 
+arithmet progress ap sequenc number call arithmet progress differ two consecut term alway 
+simpl term mean next number seri calcul ad fix number previou number seri 
+fix number call common differ 
+exampl 2 4 6 8 10 ap differ two consecut term seri common differ 4 2 6 4 8 6 10 8 2 
+first term common differ 

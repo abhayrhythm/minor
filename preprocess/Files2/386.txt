@@ -1,0 +1,24 @@
+like array link list linear data structur 
+unlik array link list element store contigu locat element link use pointer 
+link list 
+array use store linear data similar type array follow limit 
+1 size array fix must know upper limit number element advanc 
+also gener alloc memori equal upper limit irrespect usag 
+2 insert new element array element expens room creat new element creat room exist element shift 
+exampl system maintain sort list id array id 
+id 1000 1010 1050 2000 2040 
+want insert new id 1005 maintain sort order move element 1000 exclud 1000 
+delet also expens array unless special techniqu use 
+exampl delet 1010 id everyth 1010 move 
+advantag array 1 dynam size 2 eas insert delet drawback 1 random access allow 
+access element sequenti start first node 
+cannot binari search link list 
+2 extra memori space pointer requir element list 
+represent c link list repres pointer first node link list 
+first node call head 
+link list empti valu head null 
+node list consist least two part 1 data 2 pointer next node c repres node use structur 
+exampl link list node integ data 
+java linkedlist repres class node separ class 
+linkedlist class contain refer node class type 
+c link list node struct node int data struct node next 

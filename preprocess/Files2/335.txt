@@ -1,0 +1,35 @@
+introduc branch bound discuss 0 1 knapsack problem post 
+branch bound set 1 introduct 0 1 knapsack branch bound set 2 implement 0 1 knapsack puzzl solut 8 puzzl problem discuss 
+given 3 3 board 8 tile everi tile one number 1 8 one empti space 
+object place number tile match final configur use empti space 
+slide four adjac left right tile empti space 
+exampl 1 df brute forc perform depth first search state space set configur given problem e 
+state reach initi state tree 
+state space tree 8 puzzl imag sourc http cours cs washington edu cours cse473 12au slide lect3 pdf solut success move take us away goal rather bring closer 
+search state space tree follow leftmost path root regardless initi state 
+answer node may never found approach 
+2 bf brute forc perform breadth first search state space tree 
+alway find goal state nearest root 
+matter initi state algorithm attempt sequenc move like df 
+3 branch bound search answer node often speed use intellig rank function also call approxim cost function avoid search sub tree contain answer node 
+similar backtrack techniqu use bf like search 
+basic three type node involv branch bound 1 live node node gener whose children yet gener 
+2 e node live node whose children current explor 
+word e node node current expand 
+3 dead node gener node expand explor 
+children dead node alreadi expand 
+cost function node x search tree associ cost 
+cost function use determin next e node 
+next e node one least cost 
+cost function defin c x g x h x g x cost reach current node root h x cost reach answer node x ideal cost function 8 puzzl algorithm assum move one tile direct 1 unit cost 
+keep mind defin cost function 8 puzzl algorithm c x f x h x f x length path root x number move far h x number non blank tile goal posit number mi place tile 
+least h x move transform state x goal state algorithm avail get approxim h x unknown valu 
+complet algorithm algorithm lcsearch use c x find answer node lcsearch use least add maintain list live node least find live node least c x delet list return add x add x list live node implement list live node min heap struct list_nod list_nod next help trace path answer found list_nod parent float cost algorithm lcsearch list_nod search answer node input root node tree output path answer node root answer node print return e e node initi list live node empti true child x e x answer node print path x return add x add x list live node x parent e pointer path root live node print answer node return find live node least estim cost e least found node delet list live node diagram show path follow algorithm reach final configur given initi configur 8 puzzl 
+note node least valu cost function expand 
+program print path root node destin node n n 1 puzzl algorithm use branch bound solut assum instanc puzzl solvabl includ bit stdc h use namespac std defin n 3 state space tree node struct node store parent node current node help trace path answer found node parent store matrix int mat n n store blank tile cordin int x store number misplac tile int cost store number move far int level function print n x n matrix int printmatrix int mat n n int 0 n int j 0 j n j printf mat j printf n function alloc new node node newnod int mat n n int x int int newx int newi int level node parent node node new node set pointer path root node parent parent copi data parent node current node memcpi node mat mat sizeof node mat move tile 1 postion swap node mat x node mat newx newi set number misplac tile node cost int_max set number move far node level level updat new blank tile cordin node x newx node newi return node botton left top right int row 1 0 1 0 int col 0 1 0 1 function calcul number misplac tile ie 
+number non blank tile goal posit int calculatecost int initi n n int final n n int count 0 int 0 n int j 0 j n j initi j initi j final j count return count function check x valid matrix cordin int issaf int x int return x 0 x n 0 n print path root node destin node void printpath node root root null return printpath root parent printmatrix root mat printf n comparison object use order heap struct comp bool oper const node lh const node rh const return lh cost lh level rh cost rh level function solv n n 1 puzzl algorithm use branch bound 
+x blank tile coordin initi state void solv int initi n n int x int int final n n creat prioriti queue store live node search tree priority_queu node std vector node comp pq creat root node calcul cost node root newnod initi x x 0 null root cost calculatecost initi final add root list live node pq push root find live node least cost add children list live node final delet list 
+pq empti find live node least estim cost node min pq top found node delet list live node pq pop min answer node min cost 0 print path root destin printpath min return child min max 4 children node int 0 4 issaf min x row min col creat child node calcul cost node child newnod min mat min x min min x row min col min level 1 min child cost calculatecost child mat final add child list live node pq push child driver code int main initi configur valu 0 use empti space int initi n n 1 2 3 5 6 0 7 8 4 solvabl final configur valu 0 use empti space int final n n 1 2 3 5 8 6 0 7 4 blank tile coordin initi configur int x 1 2 solv initi x final return 0 output 1 2 3 5 6 0 7 8 4 1 2 3 5 0 6 7 8 4 1 2 3 5 8 6 7 0 4 1 2 3 5 8 6 0 7 4 sourc www cs umsl edu sanjiv class cs5130 lectur bb pdf http www sea gwu edu bell csci212 branch_and_bound pdf articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

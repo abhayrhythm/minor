@@ -1,0 +1,12 @@
+given link list 
+link list altern ascend descend order 
+sort list effici 
+exampl input list 10 40 53 30 67 12 89 null output list 10 12 30 43 53 67 89 null sourc http qa geeksforgeek org 616 link sort altern ascend descend order strongli recommend minim browser tri first 
+simpl solut use merg sort link list 
+solut take n log n time 
+effici solut work n time 
+step 
+1 separ two list 
+2 revers one descend order 3 merg list 
+c java implement algorithm 
+c c program sort link list altern sort increas decreas order includ bit stdc h use namespac std link list node struct node int data struct node next node mergelist node head1 node head2 void splitlist node head node ahead node dhead void reverselist node head main function sort link list void sort node head split list list node ahead dhead splitlist head ahead dhead revers descend link list reverselist dhead merg two link list head mergelist ahead dhead util function creat new node node newnod int key node temp new node temp data key temp next null return temp util function revers link list void reverselist node head node prev null curr head next curr next curr next curr next prev prev curr curr next head prev util function print link list void printlist node head head null cout head data head head next cout endl util function merg two sort link list node mergelist node head1 node head2 base case head1 return head2 head2 return head1 node temp null head1 data head2 data temp head1 head1 next mergelist head1 next head2 els temp head2 head2 next mergelist head1 head2 next return temp function altern split link list head head two exampl 10 20 30 15 40 7 split 10 30 40 20 15 7 ahead refer head ascend link list dhead refer head descend link list void splitlist node head node ahead node dhead creat two dummi node initi head two link list ahead newnod 0 dhead newnod 0 node ascn ahead node dscn dhead node curr head link altern node curr link altern node ascend link list ascn next curr ascn ascn next curr curr next link altern node descend link list curr dscn next curr dscn dscn next curr curr next ascn next null dscn next null ahead ahead next dhead dhead next driver program test function int main node head newnod 10 head next newnod 40 head next next newnod 53 head next next next newnod 30 head next next next next newnod 67 head next next next next next newnod 12 head next next next next next next newnod 89 cout given link list endl printlist head sort head cout sort link list endl printlist head return 0 

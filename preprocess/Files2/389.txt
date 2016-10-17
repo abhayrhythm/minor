@@ -1,0 +1,10 @@
+discuss link list introduct link list insert previou post singli link list 
+let us formul problem statement understand delet process 
+given key delet first occurr key link list 
+delet node link list need follow step 
+1 find previou node node delet 
+2 chang next previou node 
+3 free memori node delet 
+sinc everi node link list dynam alloc use malloc c need call free free memori alloc node delet 
+c c complet work c program demonstr delet singli link list includ stdio h includ stdlib h link list node struct node int data struct node next given refer pointer pointer head list int insert new node front list 
+void push struct node head_ref int new_data struct node new_nod struct node malloc sizeof struct node new_nod data new_data new_nod next head_ref head_ref new_nod given refer pointer pointer head list key delet first occurr key link list void deletenod struct node head_ref int key store head node struct node temp head_ref prev head node hold key delet temp null temp data key head_ref temp next chang head free temp free old head return search key delet keep track previou node need chang prev next temp null temp data key prev temp temp temp next key present link list temp null return unlink node link list prev next temp next free temp free memori function print content link list start given node void printlist struct node node node null printf node data node node next drier program test function int main start empti list struct node head null push head 7 push head 1 push head 3 push head 2 put creat link list printlist head deletenod head 1 put nlink list delet 1 printlist head return 0 

@@ -1,0 +1,17 @@
+given binari matrix find maximum size rectangl binari sub matrix 1 
+input 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 output 1 1 1 1 1 1 1 1 strongli recommend minim browser tri first 
+discuss dynam program base solut find largest squar 1s 
+post interest method discuss use largest rectangl histogram subroutin 
+step 
+idea updat column given row correspond column previou row find largest histogram area row 
+step 1 find maximum area row 0 step 2 row 1 n 1 column row row column 1 updat row column row column row 1 column find area row updat maximum area far illustr step 1 0 1 1 0 maximum area 2 step 2 row 1 1 2 2 1 area 4 maximum area becom 4 row 2 2 3 3 2 area 8 maximum area becom 8 row 3 3 4 0 0 area 6 maximum area remain 8 c implement 
+strongli recommend refer post first code taken 
+c program find largest rectangl 1s binari matrix includ bit stdc h use namespac std row column input matrix defin r 4 defin c 4 find maximum area histogram repres histogram 
+see articl detail 
+http www geeksforgeek org largest rectangl histogram int maxhist int row creat empti stack 
+stack hold index hist array bar store stack alway increas order height 
+stack int result int top_val top stack int max_area 0 initi max area current row histogram int area 0 initi area current top run bar given histogram row int 0 c bar higher bar top stack push stack result empti row result top row result push els bar lower top stack calcul area rectangl stack top smallest minimum height bar 
+right index top element top stack left index top_val row result top result pop area top_val result empti area top_val result top 1 max_area max area max_area pop remain bar stack calcul area everi pop bar smallest bar result empti top_val row result top result pop area top_val result empti area top_val result top 1 max_area max area max_area return max_area return area largest rectangl 1s int maxrectangl int c calcul area first row initi result int result maxhist 0 iter row find maximum rectangular area consid row histogram int 1 r int j 0 j c j j 1 add 1 j j j 1 j updat result area current row last row rectangl result max result maxhist return result driver code int main int c 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 cout area maximum rectangl maxrectangl return 0 output area maximum rectangl 8 time complex r x x articl contribut sanjiv kumar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

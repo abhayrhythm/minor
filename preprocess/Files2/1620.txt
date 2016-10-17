@@ -1,0 +1,25 @@
+given binari tree bt convert doubli link list dll 
+left right pointer node use previou next pointer respect convert dll 
+order node dll must inord given binari tree 
+first node inord travers left node bt must head node dll 
+solut problem discuss post 
+post anoth simpl effici solut discuss 
+solut discuss two simpl step 
+1 fix left pointer step chang left pointer point previou node dll 
+idea simpl inord travers tree 
+inord travers keep track previou visit node chang left pointer previou node 
+see fixprevptr implement 
+2 fix right pointer intuit simpl 
+chang right pointer point next node dll 
+idea use left pointer fix step 1 start rightmost node binari tree bt 
+rightmost node last node dll 
+sinc left pointer chang point previou node dll linearli travers complet dll use pointer 
+travers would last first node 
+travers dll keep track previous visit node chang right pointer previou node 
+see fixnextptr implement 
+c simpl inord travers base program convert binari tree dll includ stdio h includ stdlib h tree node struct node int data struct node left right util function creat new tree node struct node newnod int data struct node node struct node malloc sizeof struct node node data data node left node right null return node standard inord travers tree void inord struct node root root null inord root left printf root data inord root right chang left pointer work previou pointer convert dll function simpli inord travers binari tree updat left pointer use previous visit node void fixprevptr struct node root static struct node pre null root null fixprevptr root left root left pre pre root fixprevptr root right chang right pointer work next pointer convert dll struct node fixnextptr struct node root struct node prev null find right node bt last node dll root root right null root root right start rightmost node travers back use left pointer 
+travers chang right pointer node 
+root root left null prev root root root left root right prev leftmost node head link list return return root main function convert bst dll return head dll struct node bttodll struct node root set previou pointer fixprevptr root set next pointer return head dll return fixnextptr root travers dll left tor right void printlist struct node root root null printf root data root root right driver program test function int main void let us creat tree shown diagram struct node root newnod 10 root left newnod 12 root right newnod 15 root left left newnod 25 root left right newnod 30 root right left newnod 36 printf n tinord tree travers n n inord root struct node head bttodll root printf n n tdll travers n n printlist head return 0 python simpl inord travers base program convert binari tree dll binari tree node class node constructor creat new tree node def __init__ self data self data data self left none self right none standard inord travers tree def inord root root none inord root left print root data inord root right chang left pointer work previou pointer convert dll function simpli inord travers binari tree updat left pointer use previous visit node def fixprevptr root root none fixprevptr root left root left fixprevptr pre fixprevptr pre root fixprevptr root right chang right pointer work nexr pointer convert dll def fixnextptr root prev none find right node bt last node dll root root right none root root right start rightmost node travers back use left pointer travers chang right pointer node root root left none prev root root root left root right prev leftmost node head link list return return root main function convert bst dll return head dll def bttodll root set previou pointer fixprevptr root set next pointer return head dll return fixnextptr root traverss dll left right def printlist root root none print root data root root right driver program test function root node 10 root left node 12 root right node 15 root left left node 25 root left right node 30 root right left node 36 print n inord tree travers n inord root static variabl pre function fixprevptr fixprevptr pre none head bttodll root print n n tdll travers n printlist head code contribut nikhil kumar singh nickzuck_007 output inord tree travers 25 12 30 10 36 15 dll travers 25 12 30 10 36 15 time complex n n number node given binari tree 
+solut simpli two travers binari tree node 
+articl contribut bala 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

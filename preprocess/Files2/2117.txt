@@ -1,0 +1,5 @@
+write c program show memori represent c variabl like int float pointer etc 
+algorithm get address size variabl 
+typecast address char pointer 
+loop size variabl print valu typecast pointer 
+program includ stdio h typedef unsign char byte_point show byte take byte pointer argument print memori content byte_point byte_point len void show_byt byte_point start int len int 0 len printf 2x start printf n void show_int int x show_byt byte_point x sizeof int void show_float float x show_byt byte_point x sizeof float void show_point void x show_byt byte_point x sizeof void drover program test function int main int 1 float f 1 0 int p show_float f show_int show_point p show_int getchar return 0 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

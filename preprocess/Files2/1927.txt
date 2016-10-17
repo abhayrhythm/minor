@@ -1,0 +1,14 @@
+pointer use store address dynam alloc array array pass argument function 
+context array pointer two differ thing see follow program justifi statement 
+behavior sizeof oper 1st program show array pointer differ includ stdio h int main int arr 10 20 30 40 50 60 int ptr arr sizof int number element arr print printf size arr n sizeof arr sizeof pointer print type pointer char void etc printf size ptr sizeof ptr return 0 output size arr 24 size ptr 4 assign address array variabl allow 
+iind program show array pointer differ includ stdio h int main int arr 10 20 x 10 int ptr x fine arr x compil error return 0 output compil error incompat type assign type int 2 type int see previou post topic differ 
+although array pointer differ thing follow properti array make look similar 
+1 array name give address first element array 
+consid follow program exampl 
+includ stdio h int main int arr 10 20 30 40 50 60 int ptr arr assign address array ptr printf valu first element ptr return 0 output valu first element 10 2 array member access use pointer arithmet 
+compil use pointer arithmet access array element 
+exampl express like arr treat arr compil 
+express like arr work array arr express like ptr also work pointer ptr 
+includ stdio h int main int arr 10 20 30 40 50 60 int ptr arr printf arr 2 n arr 2 printf arr 2 n arr 2 printf ptr 2 n ptr 2 printf ptr 2 n ptr 2 return 0 output arr 2 30 arr 2 30 ptr 2 30 ptr 2 30 3 array paramet alway pass pointer even use squar bracket 
+includ stdio h int fun int ptr int x 10 size pointer print printf sizeof ptr n sizeof ptr allow ptr pointer array ptr x printf ptr ptr return 0 int main int arr 10 20 30 40 50 60 fun arr return 0 output sizeof ptr 4 ptr 10 articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,4 @@
+follow question ask gate cs 2010 exam 
+1 follow program print 
+includ stdio h void f int p int q p q p 2 int 0 j 1 int main f j printf n j getchar return 0 2 2 b 2 1 c 0 1 0 2 answer see f comment explan 
+p point q point j void f int p int q p q p also point j p 2 valu j chang 2 

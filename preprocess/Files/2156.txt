@@ -1,0 +1,120 @@
+
+Given an array of n unique integers where each element in the array is in range [1, n]. The array has all distinct elements and size of array is (n-2).  Hence Two numbers from the range are missing from this array. Find the two missing numbers.
+Examples:
+
+Input  : arr[] = {1, 3, 5, 6}, n = 6
+Output : 2 4
+
+Input : arr[] = {1, 2, 4}, n = 5
+Output : 3 5
+
+Input : arr[] = {1, 2}, n = 4
+Output : 3 4
+
+
+
+Find Two Missing Numbers | Set 1 (An Interesting Linear Time Solution)
+We have discussed two methods to solve this problem in above article. The method 1 requires O(n) extra space and method 2 can causes overflow.  In this post, a new solution is discussed. The solution discussed here is O(n) time, O(1) extra space and causes no overflow.
+Below are steps.
+
+ Find XOR of all array elements and natural numbers from 1 to n.  Let the array  be arr[] = {1, 3, 5, 6}
+
+   XOR = (1 ^ 3  ^ 5 ^ 6) ^ (1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6)
+
+ As per the property of XOR, same elements will cancel out and we will be left with 2 XOR 4 = 6 (110). But we don’t know the exact numbers,let them be X and Y.
+A bit is set in xor only if corresponding bits in X and Y are different. This is the crucial step to understand.
+We take a set bit in XOR. Let us consider the rightmost set bit in XOR, set_bit_no = 010
+ Now again if we XOR all the elements of arr[] and 1 to n that have rightmost bit set we will get one of the repeating numbers, say x.
+
+Ex: Elements in arr[] with bit set: {3, 6}
+Elements from 1 to n with bit set {2, 3, 6}
+Result of XOR'ing all these is x = 2.
+
+ Similarly, if we XOR all the elements of arr[] and 1 to n that have rightmost bit not set, we will get the other element, say y.
+
+Ex: Elements in arr[] with bit not set: {1, 5}
+Elements from 1 to n with bit not set {1, 4, 5}
+Result of XOR'ing all these is y = 4 
+
+
+Below is C++ implementation of above steps.
+
+// C++ Program to find 2 Missing Numbers using O(1)
+// extra space and no overflow.
+#include<bits/stdc++.h>
+
+// Function to find two missing numbers in range
+// [1, n]. This function assumes that size of array
+// is n-2 and all array elements are distinct
+void findTwoMissingNumbers(int arr[], int n)
+{
+    /* Get the XOR of all elements in arr[] and
+       {1, 2 .. n} */
+    int XOR = arr[0];
+    for (int i = 1; i < n-2; i++)
+        XOR ^= arr[i];
+    for (int i = 1; i <= n; i++)
+        XOR ^= i;
+
+    // Now XOR has XOR of two missing elements. Any set
+    // bit in it must be set in one missing and unset in
+    // other missing number
+
+    // Get a set bit of XOR (We get the rightmost set bit)
+    int set_bit_no = XOR & ~(XOR-1);
+
+    // Now divide elements in two sets by comparing rightmost
+    // set bit of XOR with bit at same position in each element.
+    int x = 0, y = 0; // Initialize missing numbers
+    for (int i = 0; i < n-2; i++)
+    {
+        if (arr[i] & set_bit_no)
+            x = x ^ arr[i]; /*XOR of first set in arr[] */
+        else
+            y = y ^ arr[i]; /*XOR of second set in arr[] */
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        if (i & set_bit_no)
+            x = x ^ i; /* XOR of first set in arr[] and
+                         {1, 2, ...n }*/
+        else
+            y = y ^ i; /* XOR of second set in arr[] and
+                         {1, 2, ...n } */
+    }
+
+    printf("Two Missing Numbers are\n %d %d", x, y);
+}
+
+// Driver program to test above function
+int main()
+{
+    int arr[] = {1, 3, 5, 6};
+
+    // Range of numbers is 2 plus size of array
+    int n = 2 + sizeof(arr)/sizeof(arr[0]);
+
+    findTwoMissingNumbers(arr, n);
+
+    return 0;
+}
+
+Output:
+
+Two Missing Numbers are
+2 4
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+No integer overflow
+This article is contributed by Shivam Agrawal. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

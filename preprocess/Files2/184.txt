@@ -1,0 +1,13 @@
+given number check divis 7 allow use modulo oper float point arithmet also allow 
+simpl method repeat subtract 
+follow anoth interest method 
+divis 7 check recurs method 
+number form 10a b divis 7 2b divis 7 word subtract twice last digit number form remain digit 
+continu small number 
+exampl number 371 37 2 1 37 2 35 3 2 5 3 10 7 thu sinc 7 divis 7 371 divis 7 follow c implement method program check whether number divis 7 includ stdio h int isdivisibleby7 int num number neg make posit num 0 return isdivisibleby7 num base case num 0 num 7 return 1 num 10 return 0 recur num 10 2 num 10 return isdivisibleby7 num 10 2 num num 10 10 driver program test function int main int num 616 isdivisibleby7 num printf divis els printf divis return 0 output divis work 
+let b last digit number n let number get split b 
+represent number may also multipli number rel prime divisor without chang divis 
+observ 7 divid 21 perform follow 10 b multipli 2 becom 20 2 b 21 2 b elimin multipl 21 give 2b multipli 1 give 2b interest method check divis 7 number 
+see follow wiki page detail 
+refer http en wikipedia org wiki divisibility_rul pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

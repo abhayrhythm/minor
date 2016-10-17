@@ -1,0 +1,22 @@
+consid array n element valu element zero 
+perform follow oper array 
+increment oper choos 1 element array increment valu 1 doubl oper doubl valu element array 
+given desir array target contain n element 
+comput return smallest possibl number oper need chang array zero desir array 
+sampl test case input target 2 3 output 4 get target array 0 0 first increment element 1 2 oper doubl array 1 oper 
+final increment second element 1 oper input target 2 1 output 3 one optim solut appli increment oper 2 time first second element 
+input target 16 16 16 output 7 output solut look follow 
+first appli increment oper element 
+appli doubl oper four time 
+total number oper 3 4 7 sourc http qa geeksforgeek org 7023 creat desir array zero array one import thing note task count number step get given target array convert zero array target array 
+idea follow revers step e 
+convert target array zero 
+step 
+take target array first 
+initi result 0 even divid element 2 increment result 1 find odd element make even reduc 1 everi reduct increment result 1 final get zero target array 
+c implement algorithm 
+c program count minimum number oper get given target array includ bit stdc h use namespac std return count minimum oper covert zero array target array increment doubl oper 
+function comput count revers step e convert target zero array 
+int countminoper unsign int target int n initi result count minimum move int result 0 keep loop element target becom 0 1 store count zero current target array int zero_count 0 int find first odd element 0 n odd number found target 1 break 0 increment zero_count els target 0 zero_count number 0 zero_count n return result number even n divid whole array 2 increment result int j 0 j n j target j target j 2 result make odd number even subtract one increment result 
+int j j n j target j 1 target j result driver program test function int main unsign int arr 16 16 16 int n sizeof arr sizeof arr 0 cout minimum number step requir get given target array countminoper arr n return 0 output minimum number step requir get given target array 7 articl contribut shivam agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

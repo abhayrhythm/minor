@@ -1,0 +1,24 @@
+given balanc binari search tree bst write function istripletpres return true triplet given bst sum equal 0 otherwis return fals 
+expect time complex n 2 logn extra space use 
+modifi given binari search tree 
+note height balanc bst alway logn exampl istripletpres return true follow bst triplet sum 0 triplet 13 6 7 
+brute forc solut consid triplet bst check whether sum add upto zero 
+time complex solut n 3 
+better solut creat auxiliari array store inord travers bst array 
+array sort inord travers bst alway produc sort data 
+inord travers use method 2 post find triplet sum equal 0 solut work n 2 time requir n auxiliari space 
+follow solut work n 2 time use logn extra space 1 convert given bst doubli link list dll 2 iter everi node dll key node neg find pair dll sum equal key current node multipli 1 find pair use approach use hasarraytwocandid method 1 post 
+c program check triplet sum equal 0 given bst includ stdio h bst node key left right pointer struct node int key struct node left struct node right function convert given bst doubli link list 
+left pointer use previou pointer right pointer use next pointer 
+function set head point first tail point last node convert dll void convertbsttodl node root node head node tail base case root null return first convert left subtre root left convertbsttodl root left head tail chang left current root last node left subtre root left tail tail null set right tail root els current node head tail tail right root els head root updat tail tail root final convert right subtre root right convertbsttodl root right head tail function return true pair dll sum equal given sum 
+algorithm similar hasarraytwocandid method 1 http tinyurl com dy6palr bool ispresentindl node head node tail int sum head tail int curr head key tail key curr sum return true els curr sum tail tail left els head head right return fals main function return true 0 sum triplet bst otherwis return fals bool istripletpres node root check given bst empti root null return fals convert given bst doubli link list 
+head tail store pointer first last node dlll node head null node tail null convertbsttodl root head tail iter everi node find pair sum equal 1 heaf key head current node head right tail head key 0 pair sum equal 1 head key return true els move forward ispresentindl head right tail 1 head key return true els head head right reach 0 sum triplet return fals util function creat new bst node key given num node newnod int num node temp new node temp key num temp left temp right null return temp util function insert given key bst node insert node root int key root null return newnod key root key key root left insert root left key els root right insert root right key return root driver program test function int main node root null root insert root 6 root insert root 13 root insert root 14 root insert root 8 root insert root 15 root insert root 13 root insert root 7 istripletpres root printf present els printf present return 0 output present note solut modifi given bst 
+time complex time taken convert bst dll n time taken find triplet dll n 2 
+auxiliari space auxiliari space need function call stack recurs function convertbsttodl 
+sinc given tree balanc height logn number function call stack never logn 
+also find triplet time extra space without modifi tree 
+see next post 
+code discuss use find triplet also 
+articl compil ashish anand review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

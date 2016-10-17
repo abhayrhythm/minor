@@ -1,0 +1,20 @@
+given unsort integ posit valu array size n form group two three group sum element group multipl 3 count possibl number group gener way 
+input arr 3 6 7 2 9 output 8 group 3 6 3 9 9 6 7 2 3 6 9 3 7 2 7 2 6 7 2 9 input arr 2 1 3 4 output 4 group 2 1 2 4 2 1 3 2 4 3 idea see remaind everi element divid 3 set element form group sun remaind multipl 3 sinc task enumer group count element differ remaind 
+1 hash element count array base remaind e element c 3 2 c 0 contain number element divid 3 leav remaind 0 similarli c 1 remaind 1 c 2 2 
+3 group 2 2 possibl 
+2 element remaind 0 group 
+possibl c 0 c 0 1 2 b 
+1 element remaind 1 1 remaind 2 group group c 1 c 2 
+4 group 3 4 possibl 
+3 element remaind group 0 
+group c 0 c3 b 
+3 element remaind group 1 
+group c 1 c3 c 3 element remaind group 2 
+group c 2 c3 1 element 3 group 
+
+group c 0 c 1 c 2 
+5 add group step 3 4 obtain result 
+c includ stdio h return count possibl group form element 
+int findgroup int arr int n creat array c 3 store count element remaind 0 1 2 c would store count element remaind int c 3 0 int re 0 store result count element remaind 0 1 2 0 n c arr 3 case 3 count group size 2 0 remaind element re c 0 c 0 1 1 case 3 b count group size 2 one element 1 remaind 2 remaind re c 1 c 2 case 4 count group size 3 0 remaind element re c 0 c 0 1 c 0 2 6 case 4 b count group size 3 1 remaind element re c 1 c 1 1 c 1 2 6 case 4 c count group size 3 2 remaind element re c 2 c 2 1 c 2 2 6 case 4 c count group size 3 differ remaind re c 0 c 1 c 2 return total count store re return re driver program test function int main int arr 3 6 7 2 9 int n sizeof arr sizeof arr 0 printf requir number group n findgroup arr n return 0 java class findgroup return count possibl group form element 
+int findgroup int arr int n creat array c 3 store count element remaind 0 1 2 c would store count element remaind int c new int 0 0 0 int int re 0 store result count element remaind 0 1 2 0 n c arr 3 case 3 count group size 2 0 remaind element re c 0 c 0 1 1 case 3 b count group size 2 one element 1 remaind 2 remaind re c 1 c 2 case 4 count group size 3 0 remaind element re c 0 c 0 1 c 0 2 6 case 4 b count group size 3 1 remaind element re c 1 c 1 1 c 1 2 6 case 4 c count group size 3 2 remaind element re c 2 c 2 1 c 2 2 6 case 4 c count group size 3 differ remaind re c 0 c 1 c 2 return total count store re return re public static void main string arg findgroup group new findgroup int arr 3 6 7 2 9 int n arr length system println requir number group group findgroup arr n output requir number group 8 time complex n auxiliari space 1 articl contribut amit jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

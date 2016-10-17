@@ -1,0 +1,34 @@
+prerequisit binari heap k ari heap gener binari heap k 2 node k children instead 2 like binari heap follow two properti 1 nearli complet binari tree level maximum number node except last fill left right manner 
+2 like binari heap divid two categori max k ari heap key root greater descend recurs true node 
+b min k ari heap key root greater descend recurs true node exampl 3 ari max heap root node maximum node 10 7 9 8 4 6 5 7 3 ari min heap root node minimum node 10 12 11 13 14 15 18 height complet k ari tree n node given logkn 
+applic k ari heap k ari heap use implement prioriti queue allow faster decreas key oper compar binari heap log2n binari heap vs logkn k ari heap 
+nevertheless caus complex extractmin oper increas k log kn compar complex log2n use binari heap prioriti queue 
+allow k ari heap effici algorithm decreas prioriti oper common extractmin oper exampl dijkstra algorithm singl sourc shortest path prim algorithm minimum span tree k ari heap better memori cach behaviour binari heap allow run quickli practic although larger worst case run time extractmin delet oper k log kn 
+implement assum 0 base index array array repres k ari heap node consid parent node index except root node locat index 1 k children node index indic k 1 k 2 
+k k last non leaf node heap size n locat index n 1 k buildheap build heap input array 
+function run loop start last non leaf node way upto root node call function restoredown also known maheapifi index restor pass index correct posit heap shift node k ari heap build bottom manner 
+start loop last non leaf node 
+node leaf node trivial satisfi heap properti children henc alreadi root k ari max heap 
+restoredown maxheapifi use maintain heap properti 
+run loop find maximum node children compar valu swap max valu children valu node 
+repeat step node restor origin posit heap 
+extractmax extract root node 
+k ari max heap store largest element root 
+return root node copi last node first call restor first node thu maintain heap properti 
+insert insert node heap achiev insert node last posit call restoreup given index restor node proper posit heap 
+restoreup iter compar given node parent sinc max heap parent alway greater equal children node node swap parent key greater parent 
+combin follow c implement k ari heap 
+c program demonstr oper k ari heap includ bit stdc h use namespac std function heapifi restor max heap properti 
+use build k ari heap extractmin att array store heap len size array index index element restor heapifi void restoredown int arr int len int index int k child array store index children given node int child k 1 1 child 1 node leaf children children int 1 k child k index len 
+k index 1 max_child store maximum child max_child_index hold index int max_child 1 max_child_index loop find maximum children given node int 1 k child 1 arr child max_child max_child_index child max_child arr child leaf node max_child 1 break swap key max_child_index greater key node arr index arr max_child_index swap arr index arr max_child_index index max_child_index restor given node heap 
+use decreasekey insert void restoreup int arr int index int k parent store index parent variabl node int parent index 1 k loop run till root node case element insert maximum restor send root node parent 0 arr index arr parent swap arr index arr parent index parent parent index 1 k node restor correct posit els break function build heap arr 0 n 1 alu k void buildheap int arr int n int k heapifi intern node start last non leaf node way upto root node call restor int n 1 k 0 restoredown arr n k function insert valu heap 
+paramet array size heap valu k element insert void insert int arr int n int k int elem put new element last posit arr n elem increas heap size 1 n n 1 call restoreup last index restoreup arr n 1 k function return key root node heap restor heap properti remain node int extractmax int arr int n int k store key root node return int max arr 0 copi last node key root node arr 0 arr n 1 decreas heap size 1 n n 1 call restoredown root node restor correct posit heap restoredown arr n 0 k return max driver program int main const int capac 100 int arr capac 4 5 6 7 8 9 10 int n 7 int k 3 buildheap arr n k printf built heap n int 0 n printf arr int element 3 insert arr n k element printf n nheap insert n element int 0 n printf arr printf n nextract max extractmax arr n k printf n nheap extract max n int 0 n printf arr return 0 output built heap 10 9 6 7 8 4 5 heap insert 3 10 9 6 7 8 4 5 3 extract max 10 heap extract max 9 8 6 7 3 4 5 time complex analysi k ari heap n node maximum height given heap logkn 
+restoreup run maximum logkn time everi iter node shift one level case restoreup one level case restoredown 
+restoredown call recurs k children 
+time complex function k logkn 
+insert decreasekey oper call restoreup 
+complex logkn 
+sinc extractmax call restoredown complex k logkn time complex build heap n analysi similar binari heap articl contribut anurag rai 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

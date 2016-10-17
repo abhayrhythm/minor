@@ -1,0 +1,14 @@
+given number n write function return true n divis 9 els fals 
+simpl way check n divis 9 n 9 
+anoth method sum digit n sum digit multipl 9 n multipl 9 method bitwis oper base method requir use 
+bitwis oper gener faster modulo divis oper 
+follow bitwis oper base method check divis 9 
+includ iostream use namespac std bitwis oper base function check divis 9 bool isdivby9 int n base case n 0 n 9 return true n 9 return fals n greater 9 recur floor n 9 n 8 return isdivby9 int n 3 int n 7 driver program test function int main let us print multipl 9 0 100 use method int 0 100 isdivby9 cout return 0 output 0 9 18 27 36 45 54 63 72 81 90 99 work 
+n 9 written term n 8 use follow simpl formula 
+n 9 n 8 n 72 sinc need use bitwis oper get valu floor n 8 use n 3 get valu n 8 use n 7 
+need write express term floor n 8 n 8 
+n 8 equal floor n 8 n 8 8 
+let us write express term floor n 8 n 8 n 9 floor n 8 n 8 8 floor n 8 n 8 8 9 n 9 floor n 8 floor n 8 9 n 8 8 n 8 8 9 n 9 floor n 8 floor n 8 n 8 9 equat n multipl 9 express floor n 8 floor n 8 n 8 9 integ 
+express integ sub express floor n 8 n 8 9 integ 
+subexpress integ floor n 8 n 8 multipl 9 problem reduc smaller valu written term bitwis oper 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,30 @@
+
+
+When 2 or more people compete to reach a certain point, they are said to be participating in a race.
+Start : If one person gives a start to another person, it means that the second person has to run less than the first person. For example, if A gives a start of 40 m to B in 100 m race, it means that A will run for 100 m but B will run for 100 – 40 = 60 m.
+
+Sample Problems
+Question 1 : In a 100 m race, A beats B by 28 metres. Also, at the finish line, A was 7 seconds ahead of B. Find the time taken by A to complete the race.
+Solution : According to the question, B covers 28 m in 7 seconds.
+=> B’s speed = 28 / 7 = 4 m/s
+=> Time required by B to complete 100 m = 100 / 4 = 25 s
+Now, A needs 7 s less than B to complete the race.
+=> Time required by A = 25 – 7 = 18 s
+ 
+Question 2 : In a 100 m race, A can give a start of 4 m to B and 6.4 m to C. How much start can B give to C ?
+Solution : If A covers 100 m, B covers 96 m and C covers 93.6 m
+=> When B covers 96 m, C covers 93.6 m
+=> When B covers 100 m, C covers (93.6 / 96) x 100 = 97.5 m
+Therefore, B can give a start of 100 – 97.5 = 2.5 m to C.
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

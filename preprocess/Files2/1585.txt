@@ -1,0 +1,40 @@
+serial store tree file later restor 
+structur tree must maintain 
+deseri read tree back file 
+follow simpler version problem given tree binari search tree 
+given binari tree binari search tree store either store preorder postord travers 
+case binari search tree preorder postord travers suffici store structur inform 
+given binari tree complet tree 
+binari tree complet level complet fill except possibl last level node last level left possibl binari heap complet binari tree 
+complet binari tree level order travers suffici store tree 
+know first node root next two node node next level next four node node 2nd level 
+given binari tree full tree 
+full binari binari tree everi node either 0 2 children 
+easi serial tree everi intern node 2 children 
+simpli store preorder travers store bit everi node indic whether node intern node leaf node 
+store gener binari tree 
+simpl solut store inord preorder travers 
+solut requir requir space twice size binari tree 
+save space store preorder travers marker null pointer 
+let marker null pointer 1 input 12 13 output 12 13 1 1 input 20 8 22 output 20 8 1 1 22 1 1 input 20 8 4 12 10 14 output 20 8 4 1 1 12 10 1 1 14 1 1 1 input 20 8 10 5 output 20 8 10 5 1 1 1 1 1 input 20 8 10 5 output 20 1 8 1 10 1 5 1 1 deseri done simpli read data file one one 
+follow c implement idea 
+c program demonstr serial deseriali binari tree includ stdio h defin marker 1 binari tree node key pointer left right children struct node int key struct node left right helper function alloc new node given key null left right pointer 
+node newnod int key node temp new node temp key key temp left temp right null return temp function store tree file point fp void serial node root file fp current node null store marker root null fprintf fp marker return els store current node recur children fprintf fp root key serial root left fp serial root right fp function construct tree file point fp void deseri node root file fp read next item file 
+theer item next item marker return int val fscanf fp val val marker return els creat node item recur children root newnod val deseri root left fp deseri root right fp simpl inord travers use test construct tree void inord node root root inord root left printf root key inord root right driver program test function int main let us construct tree shown figur struct node root newnod 20 root left newnod 8 root right newnod 22 root left left newnod 4 root left right newnod 12 root left right left newnod 10 root left right right newnod 14 let us open file serial tree file file fp fopen tree txt w fp null put could open file return 0 serial root fp fclose fp let us deseri store tree root1 node root1 null fp fopen tree txt r deseri root1 fp printf inord travers tree construct file n inord root1 return 0 output inord travers tree construct file 4 8 10 12 14 20 22 much extra space requir solut 
+n key solut requir n 1 marker may better simpl solut store key twice situat key big key big data item associ 
+optim 
+solut optim mani way 
+take closer look serial tree observ leaf node requir two marker 
+one simpl optim store separ bit everi node indic node intern extern 
+way store two marker everi leaf node leav identifi extra bit 
+still need marker intern node one child 
+exampl follow diagram use indic intern node set bit use null marker 
+diagram taken 
+pleas note alway leaf node intern node binari tree number leaf node number intern node plu 1 optim make sens 
+serial n ari tree 
+n ari tree design left right child 
+store end children marker everi node 
+follow diagram show serial use end children marker 
+soon cover implement n ari tree 
+diagram taken 
+refer http www cs usfca edu brook s04class cs245 lectur lecture11 pdf articl contribut shivam gupta pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

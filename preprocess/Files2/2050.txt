@@ -1,0 +1,4 @@
+c c preced prefix prefix derefer oper preced postfix postfix higher prefix 
+p pointer p equival p p equival p prefix right associ 
+exampl program 1 print h program 2 print e 
+program 1 includ stdio h int main char arr geeksforgeek char p arr p printf c p getchar return 0 output h 

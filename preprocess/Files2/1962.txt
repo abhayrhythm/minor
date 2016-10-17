@@ -1,0 +1,19 @@
+one use optim techniqu linux kernel __builtin_expect 
+work condit code els statement often know branch true 
+compil know inform advanc gener optim code 
+let us see macro definit like unlik macro linux kernel code http lxr linux linux v3 6 5 includ linux compil h line 146 147 
+defin like x __builtin_expect 
+x 1 defin unlik x __builtin_expect 
+x 0 follow exampl mark branch like true const char home_dir home_dir getenv home like home_dir printf home directori n home_dir els perror getenv exampl mark condit like true compil put true code immedi branch fals code within branch instruct 
+way compil achiev optim 
+use like unlik macro blindli 
+predict correct mean zero cycl jump instruct predict wrong take sever cycl processor need flush pipelin worst predict 
+access memori slowest cpu oper compar cpu oper 
+avoid limit cpu use cpu cach e g l1 cach l2 cach etc 
+idea behind cach copi part memori cpu 
+access cach memori much faster memori 
+problem limit size cach memori copi entir memori cach 
+cpu guess memori go use near futur load memori cpu cach macro hint load memori cpu cach 
+articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

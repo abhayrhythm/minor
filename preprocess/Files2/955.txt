@@ -1,0 +1,11 @@
+old concept use 16 bit intel architectur day ms do much use anymor 
+near pointer use store 16 bit address mean within current segment 16 bit machin 
+limit access 64kb data time 
+far pointer typic 32 bit access memori outsid current segment 
+use compil alloc segment regist store segment address anoth regist store offset within current segment 
+like far pointer huge pointer also typic 32 bit access outsid segment 
+case far pointer segment fix 
+huge pointer access multipl segment 
+far pointer segment part cannot modifi far 
+see link detail 
+http www answer com q what_are_near_far_and_huge_pointers_in_c http www quora com differ near far huge pointer c c http stackoverflow com question 8727122 explain differ near far huge pointer c sourc http qa geeksforgeek org 664 near far huge pointer show 664 q664 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

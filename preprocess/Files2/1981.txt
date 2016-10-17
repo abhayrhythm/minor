@@ -1,0 +1,15 @@
+like function also pass variabl length argument macro 
+use follow preprocessor identifi 
+support variabl length argument macro must includ ellips macro definit 
+also __va_args__ preprocess identifi take care variabl length argument substitut provid macro 
+concaten oper aka past oper use concaten variabl argument 
+let us see exampl 
+macro take variabl length argument like printf function 
+macro error log 
+macro print filenam follow line number final print info error messag 
+first argument prio determin prioriti messag e 
+whether inform messag error stream may standard output standard error 
+display info messag stdout error messag stderr stream 
+includ stdio h defin info 1 defin err 2 defin std_out stdout defin std_err stderr defin log_messag prio stream msg char str prio info str info els prio err str err fprintf stream msg n str __file__ __line__ __va_args__ 0 int main void char hello display normal messag log_messag err std_err fail open file provid string argument log_messag info std_out geek geek provid integ argument log_messag info std_out 10 20 10 20 return 0 compil run program produc result 
+narendra media partit gfg variable_length err variable_length c 26 fail open file info variable_length c 27 hello geek geek info variable_length c 28 10 20 30 narendra media partit gfg articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

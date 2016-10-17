@@ -1,0 +1,47 @@
+k tree also call k dimension tree binari search tree data node k dimension point space 
+short space partit detail data structur organ point k dimension space 
+non leaf node k tree divid space two part call half space 
+point left space repres left subtre node point right space repres right subtre 
+soon explain concept space divid tree form 
+sake simplic let us understand 2 tree exampl 
+root would x align plane root children would align plane root grandchildren would x align plane root great grandchildren would align plane 
+gener let us number plane 0 1 2 k 1 
+exampl quit clear point node depth align plane calcul mod k determin point lie left subtre right subtre 
+root node align planea left subtre contain point whose coordin plane smaller root node 
+similarli right subtre contain point whose coordin plane greater equal root node 
+creation 2 tree consid follow point 2 plane 3 6 17 15 13 15 6 12 9 1 2 7 10 19 insert 3 6 sinc tree empti make root node 
+insert 17 15 compar root node point 
+sinc root node x align x coordin valu compar determin lie rightsubtre right subtre 
+point align 
+insert 13 15 x valu point greater x valu point root node 
+lie right subtre 3 6 
+compar valu point valu point 17 15 
+sinc equal point lie right subtre 17 15 
+point x align 
+insert 6 12 x valu point greater x valu point root node 
+lie right subtre 3 6 
+compar valu point valu point 17 15 
+sinc 12 15 point lie left subtre 17 15 
+point x align 
+insert 9 1 similarli point lie right 6 12 
+insert 2 7 similarli point lie left 3 6 
+insert 10 19 similarli point lie left 13 15 
+space partit 
+7 point plot x plane follow point 3 6 divid space two part draw line x 3 point 2 7 divid space left line x 3 two part horizont 
+draw line 7 left line x 3 point 17 15 divid space right line x 3 two part horizont 
+draw line 15 right line x 3 point 6 12 divid space line 15 right line x 3 two part 
+draw line x 6 right line x 3 line 15 point 13 15 divid space line 15 right line x 6 two part 
+draw line x 13 right line x 6 line 15 point 9 1 divid space line x 3 x 6 15 two part 
+draw line 1 line x 3 x 6 point 10 19 divid space right line x 3 line 15 two part 
+draw line 19 right line x 3 line 15 follow c implement kd tree basic oper like search insert delet 
+c program demonstr oper kd tree includ bit stdc h use namespac std const int k 2 structur repres node kd tree struct node int point k store k dimension point node left right method creat node k tree struct node newnod int arr struct node temp new node int 0 k temp point arr temp left temp right null return temp insert new node return root modifi tree paramet depth use decid axi comparison node insertrec node root int point unsign depth tree empti 
+root null return newnod point calcul current dimens cd comparison unsign cd depth k compar new point root current dimens cd decid left right subtre point cd root point cd root left insertrec root left point depth 1 els root right insertrec root right point depth 1 return root function insert new point given point kd tree return new root 
+mainli use recurs function insertrec node insert node root int point return insertrec root point 0 util method determin two point k dimension space bool arepointssam int point1 int point2 compar individu pointin valu int 0 k point1 point2 return fals return true search point repres point k tree 
+paramet depth use determin current axi 
+bool searchrec node root int point unsign depth base case root null return fals arepointssam root point point return true current dimens comput use current depth total dimens k unsign cd depth k compar point root respect cd current dimens point cd root point cd return searchrec root left point depth 1 return searchrec root right point depth 1 search point k tree 
+mainli use searchrec bool search node root int point pass current depth 0 return searchrec root point 0 driver program test function int main struct node root null int point k 3 6 17 15 13 15 6 12 9 1 2 7 10 19 int n sizeof point sizeof point 0 int 0 n root insert root point int point1 10 19 search root point1 
+cout found n cout found n int point2 12 19 search root point2 
+cout found n cout found n return 0 output found found refer articl find minimum delet oper 
+k tree find minimum k tree delet articl compil aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

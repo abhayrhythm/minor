@@ -1,0 +1,45 @@
+given string find rank among permut sort lexicograph 
+exampl rank abc 1 rank acb 2 rank cba 6 strongli recommend click practic move solut 
+simplic let us assum string contain duplic charact 
+one simpl solut initi rank 1 gener permut lexicograph order 
+gener permut check gener permut given string return rank increment rank 1 time complex solut exponenti worst case 
+follow effici solut 
+let given string string 
+input string first charact 
+total 6 charact 4 smaller 
+4 5 
+smaller string first charact smaller like follow r x x x x x x x x x x n x x x x x g x x x x x let us fix find smaller string stare 
+repeat process rank 4 5 
+4 4 
+fix repeat process r rank 4 5 
+4 4 
+3 3 
+fix r repeat process rank 4 5 
+4 4 
+3 3 
+1 2 
+fix repeat process n rank 4 5 
+4 4 
+3 3 
+1 2 
+1 1 
+fix n repeat process g rank 4 5 
+4 4 3 3 
+1 2 
+1 1 
+0 0 
+rank 4 5 
+4 4 
+3 3 
+1 2 
+1 1 
+0 0 
+597 sinc valu rank start 1 final rank 1 597 598 includ stdio h includ string h util function find factori n int fact int n return n 1 
+1 n fact n 1 util function count smaller charact right arr low int findsmallerinright char str int low int high int countright 0 low 1 high str str low countright return countright function find rank string permut charact int findrank char str int len strlen str int mul fact len int rank 1 int countright int 0 len mul len count number char smaller str fron str 1 str len 1 countright findsmallerinright str len 1 rank countright mul return rank driver program test function int main char str string printf findrank str return 0 output 598 time complex solut n 2 
+reduc time complex n creat auxiliari array size 256 see follow code 
+n solut find rank string includ stdio h includ string h defin max_char 256 util function find factori n int fact int n return n 1 
+1 n fact n 1 construct count array valu everi index contain count smaller charact whole string void populateandincreasecount int count char str int 0 str count str 1 256 count count 1 remov charact ch count array construct populateandincreasecount void updatecount int count char ch int ch max_char count function find rank string permut charact int findrank char str int len strlen str int mul fact len int rank 1 int count max_char 0 element count initi 0 popul count array count contain count charact present str smaller populateandincreasecount count str 0 len mul len count number char smaller str fron str 1 str len 1 rank count str 1 mul reduc count charact greater str updatecount count str return rank driver program test function int main char str string printf findrank str return 0 program work duplic charact 
+make work duplic charact find charact smaller includ equal time also time divid rank form p 
+p count occurr repeat charact 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

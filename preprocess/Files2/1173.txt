@@ -1,0 +1,11 @@
+ask binod question two sort array 
+first one size n contain element 
+anoth one size n contain n element 
+merg two array first array size n output sort 
+input array n element mplusn 
+na valu fill avail array mplusn 
+n array block 
+input array n element n 
+output n merg mplusn modifi mplusn algorithm let first array mplusn array n 1 move element mplusn end 
+2 start nth element mplusn 0th element n merg mplusn 
+implement c c includ stdio h assum 1 fill place element avail defin na 1 function move element end array mplusn void movetoend int mplusn int size int 0 j size 1 size 1 0 mplusn na mplusn j mplusn j merg array n size n array mplusn size n int merg int mplusn int n int int n int n current index p part mplusn int j 0 current index n int k 0 current index output mplusn k n take element mplusn valu pick element smaller reach end b reach end n n mplusn n j j n mplusn k mplusn k els otherwis take element n mplusn k n j k j util print array line void printarray int arr int size int 0 size printf arr printf n driver function test function int main initi array int mplusn 2 8 na na na 13 na 15 20 int n 5 7 9 25 int n sizeof n sizeof n 0 int sizeof mplusn sizeof mplusn 0 n move element end mplusn movetoend mplusn n merg n mplusn merg mplusn n n print result mplusn printarray mplusn n return 0 

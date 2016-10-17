@@ -1,0 +1,6 @@
+undirect graph call biconnect two vertex disjoint path two vertic 
+biconnect graph simpl cycl two vertic 
+convent two node connect edg form biconnect graph verifi properti 
+graph two vertic properti must biconnect 
+follow exampl 
+see exampl 

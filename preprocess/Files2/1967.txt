@@ -1,0 +1,23 @@
+multipl inherit featur c class inherit one class 
+constructor inherit class call order inherit 
+exampl follow program b constructor call constructor 
+includ iostream use namespac std class public cout constructor call endl class b public b cout b constructor call endl class c public b public note order public c cout c constructor call endl int main c c return 0 output b constructor call constructor call c constructor call destructor call revers order constructor 
+diamond problem diamond problem occur two superclass class common base class 
+exampl follow diagram ta class get two copi attribut person class caus ambigu 
+exampl consid follow program 
+includ iostream use namespac std class person data member person public person int x cout person person int call endl class faculti public person data member faculti public faculti int x person x cout faculti faculti int call endl class student public person data member student public student int x person x cout student student int call endl class ta public faculti public student public ta int x student x faculti x cout ta ta int call endl int main ta ta1 30 person person int call faculti faculti int call person person int call student student int call ta ta int call program constructor person call two time 
+destructor person also call two time object ta1 destruct 
+object ta1 two copi member person caus ambigu 
+solut problem virtual keyword 
+make class faculti student virtual base class avoid two copi person ta class 
+exampl consid follow program 
+includ iostream use namespac std class person public person int x cout person person int call endl person cout person person call endl class faculti virtual public person public faculti int x person x cout faculti faculti int call endl class student virtual public person public student int x person x cout student student int call endl class ta public faculti public student public ta int x student x faculti x cout ta ta int call endl int main ta ta1 30 output person person call faculti faculti int call student student int call ta ta int call program constructor person call 
+one import thing note output default constructor person call 
+use virtual keyword default constructor grandpar class call default even parent class explicitli call parameter constructor 
+call parameter constructor person class 
+constructor call ta class 
+exampl see follow program 
+includ iostream use namespac std class person public person int x cout person person int call endl person cout person person call endl class faculti virtual public person public faculti int x person x cout faculti faculti int call endl class student virtual public person public student int x person x cout student student int call endl class ta public faculti public student public ta int x student x faculti x person x cout ta ta int call endl int main ta ta1 30 output person person int call faculti faculti int call student student int call ta ta int call gener allow call grandpar constructor directli call parent class 
+allow virtual keyword use 
+exercis predict output follow program 
+question 1 includ iostream use namespac std class int x public void setx int x void print cout x class b public public b setx 10 class c public public c setx 20 class public b public c int main print return 0 question 2 includ iostream use namespac std class int x public int x void print cout x class b virtual public public b 10 class c virtual public public c 10 class public b public c int main print return 0 

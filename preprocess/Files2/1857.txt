@@ -1,0 +1,39 @@
+opaqu pointer 
+opaqu name suggest someth see 
+e g 
+wood opaqu 
+opaqu pointer pointer point ds whose content expos time definit 
+follow pointer opaqu 
+one know data contain stest structur look definit 
+struct stest pstest safe assign null opaqu pointer 
+pstest null opaqu pointer 
+place want hint compil hey 
+ds use client 
+worri client provid implement prepar compil unit 
+type design robust deal share code 
+pleas see exampl let say work app deal imag 
+sinc live world everyth move cloud devic afford buy want develop app window android appl platform 
+would nice good design robust scalabl flexibl per requir 
+share code would use platform differ end point platform specif code 
+deal imag cimag class expos api deal variou imag oper scale rotat move save etc 
+sinc platform provid oper would defin class header file 
+way imag handl might differ across platform 
+like appl differ mechan access pixel imag window 
+mean api might demand differ set info perform oper 
+work share code would like imag h header file store class declar 
+class provid api deal variou imag oper 
+differ platform implement oper differ way 
+class cimag public cimag cimag struct simageinfo pimageinfo void rotat doubl angl void scale doubl scalefactorx doubl scalefactori void move int tox int toy privat void initimageinfo imag cpp code share across differ end point constructor destructor cimag cimag cimag initimageinfo cimag cimag destroy stuff image_window cpp code specif window resid struct simageinfo window specif dataset void cimag initimageinfo pimageinfo new simageinfo initi window specif info void cimag rotat make use window specif simageinfo image_appl cpp code specif appl resid struct simageinfo appl specif dataset void cimag initimageinfo pimageinfo new simageinfo initi appl specif info void cimag rotat make use appl specif simageinfo seen exampl defin blueprint cimag class mention simageinfo ds 
+content simageinfo unknown 
+respons client window appl android defin ds use per requir 
+futur want develop app new end point x design alreadi 
+need defin simageinfo end point x use accordingli 
+pleas note explain exampl one way 
+design discuss requir 
+good design decid take mani factor account 
+also platform specif class like cimagewindow cimageappl put platform specif code 
+question 
+keep come 
+would love answer 
+articl contribut aashish barnwal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

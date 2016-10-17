@@ -1,0 +1,28 @@
+given set n nut differ size n bolt differ size 
+one one map nut bolt 
+match nut bolt effici 
+constraint comparison nut anoth nut bolt anoth bolt allow 
+mean nut compar bolt bolt compar nut see one bigger smaller 
+way ask problem given box lock key one lock open one key box 
+need match pair 
+brute forc way start first bolt compar nut find match 
+worst case requir n comparison 
+bolt give us n 2 complex 
+quick sort way use quick sort techniqu solv 
+repres nut bolt charact array understand logic 
+nut repres array charact char nut bolt repres array charact char bolt algorithm first perform partit pick last element bolt array pivot rearrang array nut return partit index nut smaller nut left side nut greater nut right side 
+next use nut partit array bolt 
+partit oper easili implement n 
+oper also make nut bolt array nice partit 
+appli partit recurs left right sub array nut bolt 
+appli partit nut bolt total time complex θ 2 nlogn θ nlogn averag 
+sake simplic chosen last element alway pivot 
+random quick sort 
+java base implement idea java program solv nut bolt problem use quick sort public class nutsandboltsmatch driver method public static void main string arg nut bolt repres array charact char nut char bolt method base quick sort match nut bolt matchpair nut bolt 0 5 system println match nut bolt printarray nut printarray bolt method print array privat static void printarray char arr char ch arr system print ch system print n method work like quick sort privat static void matchpair char nut char bolt int low int high low high choos last charact bolt array nut partit 
+int pivot partit nut low high bolt high use partit nut choos bolt partit 
+partit bolt low high nut pivot recur low pivot 1 pivot 1 high nut bolt array 
+matchpair nut bolt low pivot 1 matchpair nut bolt pivot 1 high similar standard partit method 
+pass pivot element instead choos insid method 
+privat static int partit char arr int low int high char pivot int low char temp1 temp2 int j low j high j arr j pivot temp1 arr arr arr j arr j temp1 els arr j pivot temp1 arr j arr j arr high arr high temp1 j temp2 arr arr arr high arr high temp2 return partit index array base pivot element array 
+return output match nut bolt articl contribut kumar gautam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

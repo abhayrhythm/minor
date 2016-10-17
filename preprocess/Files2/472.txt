@@ -1,0 +1,32 @@
+given balanc binari search tree target sum write function return true pair sum equal target sum otherwis return fals 
+expect time complex n logn extra space use 
+modif binari search tree allow 
+note height balanc bst alway logn 
+problem mainli extens previou post 
+allow modifi bst 
+brute forc solut consid pair bst check whether sum equal x time complex solut n 2 
+better solut creat auxiliari array store inord travers bst array 
+array sort inord travers bst alway produc sort data 
+inord travers pair n time see detail 
+solut work n time requir n auxiliari space 
+space optim solut discuss previou post 
+idea first place convert bst doubli link list dll find pair sort dll n time 
+solut take n time logn extra space modifi given bst 
+solut discuss take n time logn space modifi bst 
+idea find pair sort array see method 1 detail 
+travers bst normal inord revers inord simultan 
+revers inord start rightmost node maximum valu node 
+normal inord start left node minimum valu node 
+add sum current node travers compar sum given target sum 
+sum target sum return true 
+sum target sum move next node revers inord travers otherwis move next node normal inord travers 
+travers finish without find pair return fals 
+follow c implement approach 
+balanc binari search tree ispairpres two element sum given valu time n space logn includ stdio h includ stdlib h defin max_siz 100 bst node struct node int val struct node left right stack type struct stack int size int top struct node array util function creat stack given size struct stack createstack int size struct stack stack struct stack malloc sizeof struct stack stack size size stack top 1 stack array struct node malloc stack size sizeof struct node return stack basic oper stack int isful struct stack stack return stack top 1 stack size int isempti struct stack stack return stack top 1 void push struct stack stack struct node node isful stack return stack array stack top node struct node pop struct stack stack isempti stack return null return stack array stack top return true pair target sum exist bst otherwis fals bool ispairpres struct node root int target creat two stack 
+s1 use normal inord travers s2 use revers inord travers struct stack s1 createstack max_siz struct stack s2 createstack max_siz note size stack max_siz find tree size fix stack size logn balanc tree like avl red black tree 
+use max_siz keep code simpl done1 val1 curr1 use normal inord travers use s1 done2 val2 curr2 use revers inord travers use s2 bool done1 fals done2 fals int val1 0 val2 0 struct node curr1 root curr2 root loop break either find pair one two travers complet 1 find next node normal inord travers 
+see follow post http www geeksforgeek org inord tree travers without recurs done1 fals curr1 null push s1 curr1 curr1 curr1 left els isempti s1 done1 1 els curr1 pop s1 val1 curr1 val curr1 curr1 right done1 1 find next node revers inord travers 
+differ loop loop right subtre travers left subtre done2 fals curr2 null push s2 curr2 curr2 curr2 right els isempti s2 done2 1 els curr2 pop s2 val2 curr2 val curr2 curr2 left done2 1 find pair print pair return 
+first condit make sure two valu ad val1 val2 val1 val2 target printf n pair found n val1 val2 target return true sum current valu smaller move next node normal inord travers els val1 val2 target done1 fals sum current valu greater move next node revers inord travers els val1 val2 target done2 fals inord travers pair return fals val1 val2 return fals util function creat bst node struct node newnod int val struct node tmp struct node malloc sizeof struct node tmp val val tmp right tmp left null return tmp driver program test function int main 15 10 20 8 12 16 25 struct node root newnod 15 root left newnod 10 root right newnod 20 root left left newnod 8 root left right newnod 12 root right left newnod 16 root right right newnod 25 int target 33 ispairpres root target fals printf n valu found n getchar return 0 output pair found 8 25 33 articl compil kumar review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

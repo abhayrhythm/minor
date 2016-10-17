@@ -1,0 +1,78 @@
+intuit visit campu recrut 2016 batch student internship fte devop profil 
+four round 
+round one onlin exam hacker earth platform 
+20 mcq question 5 mark 
+3 code question 100 mark 
+mcq question technic question logic question 
+technic question cn data structur algorithm 
+three code question 
+1 girl stand matrix size n 
+stand posit 1 1 
+card number written 
+exampl top card valu 4 bottom b 6 girl move point x b posit x suppos croo boundari matric 
+throw away card cant make move 
+pic next card 
+suppos find number jump made until card complet 
+input 1 number test case 3 3 size matrix 2 number card 1 1 valu b card 4 1 mark 100 output singl integ valu give number jump 
+2 splendid matrix question 
+matrix number particular form given 
+analyz matric suppos understand trick creat matric splendid matric foe valu n 1 2 3 given 
+2 n 2 n matrix 
+given valu n gener 2 n 2 n matrix 
+n 1 1 2 3 4 n 2 1 2 5 6 3 4 7 8 9 10 13 14 11 12 15 16 n 3 1 2 5 6 17 18 21 22 3 4 7 8 19 20 23 24 9 10 13 14 25 26 29 30 11 12 15 16 27 28 31 32 33 34 37 38 49 50 53 54 35 36 39 40 51 52 55 56 41 42 45 46 57 58 61 62 43 44 47 48 59 60 63 64 input number test case valu n queri 
+queri would 1 find index given number present 
+2 given index valu j find number index 
+output number index valu base queri 
+mark 100 3 navi counter strike pro 
+alway say good counter strike 
+tire navi friend decid test skill shoot 
+put target x plane target denot x x x coordin coordin 
+friend also gave n locat x plane navi shoot target 
+navi know shoot target manhattan distanc locat target 
+navi shoot half target odd valu check integr part half say 3 3 2 1 friend believ pro counter strike otherwis 
+input first line input contain integ denot number test case 
+first line test case consist three integ n separ space 
+next n line test case contain pair integ denot x co ordin co ordin 
+next line test case contain pair integ denot x co ordin co ordin target 
+n number shoot locat navi 
+number target 
+shoot rang navi 
+output test case print ye pro els without quot 
+base reult round one 12 student shortlist second round 
+round 2 technic round introduct devop profil 
+question 1 tell 
+2 technic interest hobbi 
+3 comput scienc 
+import 
+3 deep discuss project implement problem face technolog use etc 
+prepar well project expect know everyth relat project 
+4 scenario given ask give solut 
+e g requiri 1 second retriev 1 gb data databas 
+fill databs 10gb data 
+take 3 second 
+technolog u use reduc 3 one second even retriv 10gb data 
+5 question relatd skill u mention resum 
+mention cisco packet tracer ask question relat 
+round 3 technic round 1 tell youself 
+2 cloud 
+3 big data 
+4 differ cloud bog data 
+4 banker algorithm 
+5 tcp protocol three way handshak 6 delet intermedi node link list 7 quicksort algorithm round 4 hr round introduct devop work work 
+explain everyth relat devop profil 
+1 tell 
+2 strength 
+3 hobbi 
+4 sinc came devop test troubl shoot capabl student 
+nbap nbap nbap nbap nbap search bluetooth googl give result televis 
+nbap nbap nbap nbap nbap b tri open websit get unexpect websit like fake websit 
+nbap nbap nbap nbap nbap c hous connect speaker telivison watch movi 
+find cant hear sound 
+find problem rectifi 
+5 question relat project 
+6 use technolog studi until help devop team 
+7 see 3 year 
+8 approach toward learn new technolog 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

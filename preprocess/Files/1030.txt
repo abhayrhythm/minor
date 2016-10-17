@@ -1,0 +1,55 @@
+
+Difficulty Level: Rookie 
+Question 1
+Predict the output of below program. 
+
+int main()
+{
+  char arr[] = "geeksforgeeks";
+  printf("%d", sizeof(arr));
+  getchar();
+  return 0;
+}
+
+Output: 14
+The string “geeksforgeeks” has 13 characters, but the size is 14 because compiler includes a single ‘\0′ (string terminator) when char array size is not explicitly mentioned.
+Question 2
+In below program, what would you put in place of “?” to print “geeks”. Obviously, something other than “geeks”.
+
+int main()
+{
+  char arr[] = "geeksforgeeks";
+  printf("%s", ?);
+  getchar();
+  return 0;
+}
+
+Answer: (arr+8)
+The printf statement prints everything starting from arr+8 until it finds ‘\0’
+Question 3
+Predict the output of below program.
+
+int main()
+{
+  int x, y = 5, z = 5;
+  x = y==z;
+  printf("%d", x);
+  
+  getchar();
+  return 0;
+}
+
+The crux of the question lies in the statement x = y==z.  The operator == is executed before = because precedence of comparison operators (<=, >= and ==) is higher than assignment operator =.
+The result of a comparison operator is either 0 or 1 based on the comparison result. Since y is equal to z, value of the expression y == z becomes 1 and the value is assigned to x via the assignment operator.
+Question 4
+Predict the output of below program.
+
+int main()
+{
+  printf(" \"GEEKS %% FOR %% GEEKS\"");
+  getchar();
+  return 0;
+}
+
+Output: “GEEKS % FOR  % GEEKS”
+Backslash (\) works as escape character for double quote (“).   For explanation of %%, please see this.

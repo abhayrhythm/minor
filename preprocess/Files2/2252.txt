@@ -1,0 +1,16 @@
+given rang low high print smallest twin number given rang low high inclus 
+two number twin prime differ 2 exampl input low 10 high 100 output smallest twin given rang 11 13 11 13 prime number differ two therefor twin 
+smallest twin 10 100 input low 50 high 100 output smallest twin given rang 59 61 strongli recommend minim browser tri first 
+simpl solut start start low everi number x check x x 2 prime 
+x vari low high 2 
+effici solut use siev eratosthen 1 creat boolean array prime 0 high initi entri true 
+valu prime final fals prime number els true 
+2 run loop p 2 high 
+prime p true p prime 
+see b mark multipl p prime prime 
+3 run loop low high print first twin use prime built step 2 c implement idea 
+c program find smallest twin given rang includ bit stdc h use namespac std void printtwin int low int high creat boolean array prime 0 high initi entri true 
+valu prime final fals prime els true 
+bool prime high 1 memset prime true sizeof prime prime 0 prime 1 fals look smallest twin int p 2 p floor sqrt high 1 p p mark prime prime p updat multipl p int p 2 high p prime fals print smallest twin rang int low high prime prime 2 cout smallest twin given rang 2 break driver program int main printtwin 10 100 return 0 output smallest twin given rang 11 13 thank utkarsh trivedi suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

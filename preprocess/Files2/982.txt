@@ -1,0 +1,4 @@
+solut print number use recurs 
+altern loop statement recurs goto statement use goto suggest gener program practic goto statement chang normal program execut sequenc make difficult undestand maintain 
+includ stdio h print number 1 n void printno unsign int n n 0 printno n 1 printf n return driver program test printno int main printno 100 getchar return 0 time complex n tri write program without construct 
+print 1 100 c without loop recurs adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

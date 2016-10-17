@@ -1,0 +1,14 @@
+given binari tree need find maximum valu get subtract valu node b valu node b two node binari tree ancestor b expect time complex n 
+exampl consid binari tree imag taken wiki 
+variou ancestor node differ given 8 3 5 3 7 4 8 1 7 10 13 3 
+
+
+
+among differ maximum valu 7 obtain subtract 1 8 need return result 
+given binari tree relationship node valu need travers whole binari tree get max differ obtain result one travers follow step leaf node return valu ancestor node 
+intern node tri get minimum valu left subtre right subtre calcul differ node valu minimum valu accord updat result 
+calcul minimum valu retun recurr check optim possibl check node valu minimum subtre valu differ henc calcul result one travers 
+c implement idea 
+c c program find maximum differ node ancestor includ bit stdc h use namespac std binari tree node key pointer left child pointer right child struct node int key struct node left right creat newnod tree return pointer struct node newnod int key node temp new node temp key key temp left temp right null return temp recurs function calcul maximum ancestor node differ binari tree 
+updat valu re store result 
+return valu function minimum valu subtre root int maxdiffutil node int re return maximum int valu node one child case null return int_max leaf node return node valu left null right null return key recurs call left right subtre minimum valu int val min maxdiffutil left re maxdiffutil right re updat re node valu minimum valu subtre bigger re re max re key val return minimum valu got far return min val key function mainli call maxdiffutil int maxdiff node root initialis result minimum int valu int re int_min maxdiffutil root re return re helper function print inord travers binari tree void inord node root root inord root left printf root key inord root right driver program test function int main make given diagram binari tree node root root newnod 8 root left newnod 3 root left left newnod 1 root left right newnod 6 root left right left newnod 4 root left right right newnod 7 root right newnod 10 root right right newnod 14 root right right left newnod 13 printf maximum differ node ancestor n maxdiff root 

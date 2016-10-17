@@ -1,0 +1,21 @@
+given array number arrang way yield largest valu 
+exampl given number 54 546 548 60 arrang 6054854654 give largest valu 
+given number 1 34 3 98 9 76 45 4 arrang 998764543431 give largest valu 
+strongli recommend click practic move solut 
+simpl solut come mind sort number descend order simpli sort work 
+exampl 548 greater 60 output 60 come 548 second exampl 98 greater 9 9 come 98 output 
+go 
+idea use comparison base sort algorithm 
+use sort algorithm instead use default comparison write comparison function mycompar use sort number 
+given two number x mycompar decid number put first compar two number xy append end x yx x append end 
+xy larger x come output els come 
+exampl let x 542 60 compar x compar 54260 60542 sinc 60542 greater 54260 put first 
+follow c implement approach 
+keep code simpl number consid string vector use instead normal array 
+given array number program arrang number form largest number includ iostream includ string includ vector includ algorithm use namespac std comparison function use sort printlargest int mycompar string x string first append end x string xy x append append x end string yx append x see two form number greater return xy compar yx 0 
+1 0 main function print arrang largest valu 
+function accept vector string void printlargest vector string arr sort number use librari sort funtion 
+function use comparison function mycompar compar two string 
+see http www cplusplu com refer algorithm sort detail sort arr begin arr end mycompar int 0 arr size cout arr driverr program test function int main vector string arr output 6054854654 arr push_back 54 arr push_back 546 arr push_back 548 arr push_back 60 printlargest arr output 777776 arr push_back 7 arr push_back 776 arr push_back 7 arr push_back 7 output 998764543431 arr push_back 1 arr push_back 34 arr push_back 3 arr push_back 98 arr push_back 9 arr push_back 76 arr push_back 45 arr push_back 4 return 0 output 6054854654 articl compil ravi chandra enaganti 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

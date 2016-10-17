@@ -1,0 +1,66 @@
+
+Following questions have been asked in GATE CS 2006 exam. 
+1. Consider the following C-program fragment in which i, j and n are integer variables.
+
+for (i = n, j = 0; i >0; i /= 2, j += i);
+
+Let val(j) denote the value stored in the variable j after termination of the for loop. Which one of the following is true?
+(A) val(j)  = Θ(logn)
+(B) vaI(j) = Θ(sqrt(n))
+(C) val(j) = Θ(n)
+(D) val(j) = Θ(nlogn)
+Answer (C)
+Note the semicolon after the for loop, so there is nothing in the body. The variable j is initially 0 and value of j is sum of values of i.  i is initialized as n and is reduced to half in each iteration.
+j = n/2 + n/4 + n/8 + .. + 1 = Θ(n)
+2. Consider the following C-function in which a[n] and b[m] are two sorted integer arrays and c[n + m] be another integer array.
+
+void xyz(int a[], int b [], int c[])
+{
+  int i, j, k;
+  i = j = k = O;
+  while ((i<n) && (j<m))
+     if (a[i] < b[j]) c[k++] = a[i++];
+     else c[k++] = b[j++];
+}
+
+Which of the following condition(s) hold(s) after the termination of the while loop?
+  (i) j < m, k = n+j-1, and a[n-1] < b[j] if i = n
+  (ii) i < n, k = m+i-1, and b[m-1] <= a[i] if j = m
+(A) only (i)
+(B) only (ii)
+(C) either (i) or (ii) but not both
+(D) neither (i) nor (ii)
+Answer (C)
+The condition (i) is true if the last inserted element in c[] is from a[] and condition (ii) is true if the last inserted element is from b[].
+
+3. Consider this C code to swap two integers and these five statements: the code
+
+void swap(int *px, int *py) 
+{
+   *px = *px - *py;
+   *py = *px + *py;
+   *px = *py - *px;
+}
+
+S1: will generate a compilation error
+S2: may generate a segmentation fault at runtime depending on the arguments passed
+S3: correctly implements the swap procedure for all input pointers referring to integers stored in memory locations accessible to the process
+S4: implements the swap procedure correctly for some but not all valid input pointers
+S5: may add or subtract integers and pointers.
+(A) S1
+(B) S2 and S3
+(C) S2 and S4
+(D) S2 and S5
+Answer (C)
+S2:  May generate segmentation fault if value at pointers px or py is constant or px or py points to a memory location that is invalid
+S4:  May not work for all inputs as arithmetic overflow can occur.
+Please write comments if you find any of the answers/explanations incorrect, or you want to share more information about the topics discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

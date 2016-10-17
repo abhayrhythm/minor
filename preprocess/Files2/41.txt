@@ -1,0 +1,20 @@
+given array number size n also given array element rang 0 n2 1 sort given array linear time 
+exampl sinc 5 element element 0 24 input arr 0 23 14 12 9 output arr 0 9 12 14 23 sinc 3 element element 0 8 input arr 7 0 2 output arr 0 2 7 strongli recommend minim browser tri first 
+solut use count sort would take n 2 time given rang size n 2 
+use comparison base sort like merg sort heap sort etc would take nlogn time 
+question aris 0 n 
+firstli possibl 
+use data given question 
+n number rang 0 n2 1 
+idea use radix sort 
+follow standard radix sort algorithm 
+1 follow digit vari least signific digit signific digit 
+sort input array use count sort stabl sort accord th digit let digit input integ 
+radix sort take n b time b base repres number exampl decim system b 10 sinc n2 1 maximum possibl valu valu would logb n 
+overal time complex n b logb n 
+look time complex comparison base sort algorithm larg k idea chang base b set b n valu logb n becom 1 overal time complex becom n 
+arr 0 10 13 12 7 let us consid element base 5 exampl 13 base 5 23 7 base 5 12 arr 00 0 20 10 23 13 22 12 12 7 first iter sort accord last digit base 5 get 
+arr 00 0 20 10 12 7 22 12 23 13 second iter get arr 00 0 12 7 20 10 22 12 23 13 follow c implement sort array size n element rang 0 n2 1 c includ iostream use namespac std function count sort arr accord digit repres exp 
+int countsort int arr int n int exp int output n output array int count n int 0 n count 0 store count occurr count 0 n count arr exp n chang count count contain actual posit digit output 1 n count count 1 build output array n 1 0 output count arr exp n 1 arr count arr exp n copi output array arr arr contain sort number accord curent digit 0 n arr output main function sort arr size n use radix sort void sort int arr int n count sort first digit base n note instead pass digit number exp n 0 0 pass 
+countsort arr n 1 count sort second digit base n note instead pass digit number exp n 1 n pass 
+countsort arr n n util function print array void printarr int arr int n int 0 n cout arr driver program test function int main sinc array size 7 element 0 48 int arr 40 12 45 32 33 1 22 int n sizeof arr sizeof arr 0 cout given array n printarr arr n sort arr n cout nsort array n printarr arr n return 0 

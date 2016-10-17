@@ -1,0 +1,37 @@
+given larg n ari tree 
+root node inform want pass children leav constraint pass inform one children time take one iter 
+next iter child node transfer inform one children time instanc child parent e 
+root pass info one remain children 
+continu way find minimum iter requir pass inform node tree 
+minimum iter tree 6 root first pass inform b next iter pass inform e b pass inform h 
+strongli recommend minim browser tri first 
+done use post order travers 
+idea consid height children count everi node 
+child node take ci iter pass info subtre parent take ci 1 iter pass info subtre root child parent children pass info subsequ iter 
+let say children parent take c1 c2 c3 c4 cn iter pass info subtre parent pass info n children one one n iter 
+parent pick child ith iter parent take ci iter pass info child subtre 
+iter parent pass info child 1 children 1 got info parent alreadi previou iter pass info subsequ iter child 1 child 
+pass info whole tree minimum iter need made sure bandwidth util effici possibl e 
+maximum passabl node pass info iter best possibl scenario would nth iter n differ node pass info child 
+node height 0 trivial case leaf node children inform pass need iter would zero 
+node height 1 node pass info children one one children leaf node inform pass 
+sinc children leaf node pass info child order pick child receiv info yet 
+one iter need child iter would children node height 1 n children take n iter 
+take counter initi zero loop children keep increment counter 
+node height 1 let assum n children 1 n node minimum iter n children c1 c2 cn 
+make sure maximum node particip info pass iter parent 1st pass info child take maximum iter pass info subsequ iter 
+e 
+iter parent choos child take maximum iter later 
+thought greedi approach parent choos child 1st need maximum iter subsequ iter util effici 
+parent goe fashion end could node done quit earli sit idl bandwidth util effici iter 
+two children j minimum iter ci cj ci cj parent pick child j 1st iter need parent pass info children subtre would max 1 cj 2 ci 2 ci parent pick child 1st iter need parent pass info children subtre would max 1 ci 2 cj 1 ci pick ci give better result pick cj tell parent alway choos child max ci valu iter 
+greedi approach sort ci valu decreas order let say sort valu c1 c2 c3 
+cn take counter c set c 1 c1 child maximum iter children 2 n c c 1 ci total iter need parent max n c let minitr minimum iter need pass info node sub tree 
+let child count children node recurs relat would 1 get minitr b children b node 2 sort minitr b descend order 3 get minitr base minitr b minitr child children b 0 child minitr max minitr minitr b 1 base case would node leaf minitr 0 node height 1 minitr children count follow c implement idea 
+c program find minimum number iter pass inform root node n ari tree includ iostream includ list includ cmath includ stdlib h use namespac std class repres n ari tree note implement similar graph simplic implement class narytre int n 
+node tree pointer array contain list children list int adj function use getminit basic postord void getminiterutil int v int minitr public narytre int n constructor function add child w v void addchild int v int w main function find minimum iter int getminit static int compar const void const void b narytre narytre int n n n adj new list int n add child w v void narytre addchild int v int w adj v push_back w add w v list 
+recurs function use getminit 
+function mainli postord travers get minimum iter children node u sort decreas order get minimum iter node u 1 get minitr b children b node 2 sort minitr b descend order 3 get minitr base minitr b minitr child child children count node children b 0 child minitr max minitr minitr b 1 base case would node leaf minitr 0 node height 1 minitr children count void narytre getminiterutil int u int minitr minitr u adj u size int minitrtemp new int minitr u int k 0 tmp 0 recur vertic adjac vertex list int iter adj u begin adj u end getminiterutil minitr minitrtemp k minitr qsort minitrtemp minitr u sizeof int compar k 0 k adj u size k tmp minitrtemp k k 1 minitr u max minitr u tmp delet minitrtemp function postord travers 
+use recurs getminiterutil int narytre getminit set minimum iter vertic zero int minitr new int n int re 1 int 0 n minitr 0 start post order travers root getminiterutil 0 minitr re minitr 0 delet minitr return re int narytre compar const void const void b return int b int driver function test function int main testcas 1 narytre tree1 17 tree1 addchild 0 1 tree1 addchild 0 2 tree1 addchild 0 3 tree1 addchild 0 4 tree1 addchild 0 5 tree1 addchild 0 6 tree1 addchild 1 7 tree1 addchild 1 8 tree1 addchild 1 9 tree1 addchild 4 10 tree1 addchild 4 11 tree1 addchild 6 12 tree1 addchild 7 13 tree1 addchild 7 14 tree1 addchild 10 15 tree1 addchild 11 16 cout testcas 1 minimum iter tree1 getminit endl testcas 2 narytre tree2 3 tree2 addchild 0 1 tree2 addchild 0 2 cout testcas 2 minimum iter tree2 getminit endl testcas 3 narytre tree3 1 cout testcas 3 minimum iter tree3 getminit endl testcas 4 narytre tree4 6 tree4 addchild 0 1 tree4 addchild 1 2 tree4 addchild 2 3 tree4 addchild 3 4 tree4 addchild 4 5 cout testcas 4 minimum iter tree4 getminit endl testcas 5 narytre tree5 6 tree5 addchild 0 1 tree5 addchild 0 2 tree5 addchild 2 3 tree5 addchild 2 4 tree5 addchild 2 5 cout testcas 5 minimum iter tree5 getminit endl testcas 6 narytre tree6 6 tree6 addchild 0 1 tree6 addchild 0 2 tree6 addchild 2 3 tree6 addchild 2 4 tree6 addchild 3 5 cout testcas 6 minimum iter tree6 getminit endl testcas 7 narytre tree7 14 tree7 addchild 0 1 tree7 addchild 0 2 tree7 addchild 0 3 tree7 addchild 1 4 tree7 addchild 2 5 tree7 addchild 2 6 tree7 addchild 4 7 tree7 addchild 5 8 tree7 addchild 5 9 tree7 addchild 7 10 tree7 addchild 8 11 tree7 addchild 8 12 tree7 addchild 10 13 cout testcas 7 minimum iter tree7 getminit endl testcas 8 narytre tree8 14 tree8 addchild 0 1 tree8 addchild 0 2 tree8 addchild 0 3 tree8 addchild 0 4 tree8 addchild 0 5 tree8 addchild 1 6 tree8 addchild 2 7 tree8 addchild 3 8 tree8 addchild 4 9 tree8 addchild 6 10 tree8 addchild 7 11 tree8 addchild 8 12 tree8 addchild 9 13 cout testcas 8 minimum iter tree8 getminit endl testcas 9 narytre tree9 25 tree9 addchild 0 1 tree9 addchild 0 2 tree9 addchild 0 3 tree9 addchild 0 4 tree9 addchild 0 5 tree9 addchild 0 6 tree9 addchild 1 7 tree9 addchild 2 8 tree9 addchild 3 9 tree9 addchild 4 10 tree9 addchild 5 11 tree9 addchild 6 12 tree9 addchild 7 13 tree9 addchild 8 14 tree9 addchild 9 15 tree9 addchild 10 16 tree9 addchild 11 17 tree9 addchild 12 18 tree9 addchild 13 19 tree9 addchild 14 20 tree9 addchild 15 21 tree9 addchild 16 22 tree9 addchild 17 23 tree9 addchild 19 24 cout testcas 9 minimum iter tree9 getminit endl return 0 output testcas 1 minimum iter 6 testcas 2 minimum iter 2 testcas 3 minimum iter 0 testcas 4 minimum iter 5 testcas 5 minimum iter 4 testcas 6 minimum iter 3 testcas 7 minimum iter 6 testcas 8 minimum iter 6 testcas 9 minimum iter 8 articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,34 @@
+topolog sort direct acycl graph dag linear order vertic everi direct edg uv vertex u come v order 
+topolog sort graph possibl graph dag 
+exampl topolog sort follow graph 5 4 2 3 1 0 
+one topolog sort graph 
+exampl anoth topolog sort follow graph 4 5 2 3 1 0 
+first vertex topolog sort alway vertex degre 0 vertex come edg 
+topolog sort vs depth first travers df df print vertex recurs call df adjac vertic 
+topolog sort need print vertex adjac vertic 
+exampl given graph vertex 5 print vertex 0 unlik df vertex 4 also print vertex 0 
+topolog sort differ df 
+exampl df graph 5 2 3 1 0 4 topolog sort algorithm find topolog sort recommend first see implement df 
+modifi df find topolog sort graph 
+df start vertex first print recurs call df adjac vertic 
+topolog sort use temporari stack 
+print vertex immedi first recurs call topolog sort adjac vertic push stack 
+final print content stack 
+note vertex push stack adjac vertic adjac vertic alreadi stack 
+follow c java implement topolog sort 
+pleas see code depth first travers disconnect graph note differ second code given code 
+c c program print topolog sort dag includ iostream includ list includ stack use namespac std class repres graph class graph int v 
+vertic pointer array contain adjac listslist list int adj function use topologicalsort void topologicalsortutil int v bool visit stack int stack public graph int v constructor function add edg graph void addedg int v int w print topolog sort complet graph void topologicalsort graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w add w v list 
+recurs function use topologicalsort void graph topologicalsortutil int v bool visit stack int stack mark current node visit 
+visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit topologicalsortutil visit stack push current vertex stack store result stack push v function topolog sort 
+use recurs topologicalsortutil void graph topologicalsort stack int stack mark vertic visit bool visit new bool v int 0 v visit fals call recurs helper function store topolog sort start vertic one one int 0 v visit fals topologicalsortutil visit stack print content stack stack empti fals cout stack top stack pop driver program test function int main creat graph given diagram graph g 6 g addedg 5 2 g addedg 5 0 g addedg 4 0 g addedg 4 1 g addedg 2 3 g addedg 3 1 cout follow topolog sort given graph n g topologicalsort return 0 java java program print topolog sort dag import java io 
+import java util 
+class repres direct graph use adjac list represent class graph privat int v 
+vertic privat linkedlist integ adj adjac list constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w recurs function use topologicalsort void topologicalsortutil int v boolean visit stack stack mark current node visit 
+visit v true integ recur vertic adjac vertex iter integ adj v iter hasnext next visit topologicalsortutil visit stack push current vertex stack store result stack push new integ v function topolog sort 
+use recurs topologicalsortutil void topologicalsort stack stack new stack mark vertic visit boolean visit new boolean v int 0 v visit fals call recurs helper function store topolog sort start vertic one one int 0 v visit fals topologicalsortutil visit stack print content stack stack empti fals system print stack pop driver method public static void main string arg creat graph given diagram graph g new graph 6 g addedg 5 2 g addedg 5 0 g addedg 4 0 g addedg 4 1 g addedg 2 3 g addedg 3 1 system println follow topolog sort given graph g topologicalsort code contribut aakash hasija output follow topolog sort given graph 5 4 2 3 1 0 time complex algorithm simpli df extra stack 
+time complex df v e 
+applic topolog sort mainli use schedul job given depend among job 
+comput scienc applic type aris instruct schedul order formula cell evalu recomput formula valu spreadsheet logic synthesi determin order compil task perform makefil data serial resolv symbol depend linker 2 
+relat articl kahn algorithm topolog sort anoth v e algorithm 
+topolog sort direct acycl graph refer http www person kent edu rmuhamma algorithm myalgorithm graphalgor toposort htm http en wikipedia org wiki topological_sort pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

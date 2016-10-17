@@ -1,0 +1,18 @@
+
+Eligibility Criteria: CGPA >= 5.0
+Round 1: Technical Test
+An online test held on HackerRank which consists of 20 MCQ’s and 2 coding questions.
+
+Coding Question 1: Find a tour that visits all the stations
+Coding Question 2: An array consists of 0’s and 1’s. A flip operation is one in which you turn 1 ? 0 and a 0 ? 1.You have to do a “Flip” operation at most once on a sub array. Then finally display the maximum number of 1 you can have in the array after one flip operation.
+In both the questions brute force solutions were accepted, i.e O(n^2).
+
+MCQ’s
+They were pretty simple you just need to have basic knowledge about Scheduling Algorithms, Threads and Time Complexity. In this section major portion was from the Operating Systems.
+I would suggest you go through last minute notes on OS, they were life savior for me in Online round as well as in further round.
+We were told that there will be only 2 Technical Rounds and No HR round.
+Face to Face Round 1: (~1 hour)
+
+Questions 1: Fold a LinkedList :
+1 ->2->3->4->5->6 is converted to 1->6->2->5->3->4
+My approach :

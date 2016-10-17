@@ -1,0 +1,26 @@
+given boolean 2d matrix find number island 
+group connect 1s form island 
+exampl matrix contain 5 island 1 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 1 cell 2d matrix connect 8 neighbor 
+variat standard problem count number connect compon undirect graph 
+discuss df base solut set 1 find number island also solv question use disjoint set data structur explain 
+idea consid 1 valu individu set 
+travers matrix union adjac 1 vertic 
+detail step 
+approach 1 initi result count island 0 2 travers index 2d matrix 
+3 valu index 1 check 8 neighbour 
+neighbour also equal 1 take union index neighbour 
+4 defin array size row column store frequenc set 
+5 travers matrix 
+6 valu index 1 find set 
+7 frequenc set array 0 increment result 1 follow java implement step 
+java program fnd number island use disjoint set data structur 
+import java io 
+import java util 
+public class main public static void main string arg throw ioexcept int new int 1 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 1 system println number island countisland return number island static int countisland int int n length int 0 length disjointunionset du new disjointunionset n follow loop check neighbour unit index 1 
+int j 0 j n j int k 0 k k cell 0 noth j k 0 continu check 8 neighbour union neighbour set neighbour also 1 j 1 n j 1 k 1 du union j k j 1 k j 1 0 j 1 k 1 du union j k j 1 k k 1 j k 1 1 du union j k j k 1 k 1 0 j k 1 1 du union j k j k 1 j 1 n k 1 j 1 k 1 1 du union j k j 1 k 1 j 1 n k 1 0 j 1 k 1 1 du union j k j 1 k 1 j 1 0 k 1 j 1 k 1 1 du union j k j 1 k 1 j 1 0 k 1 0 j 1 k 1 1 du union j k j 1 k 1 array note frequenc set int c new int n int numberofisland 0 int j 0 j n j int k 0 k k j k 1 int x du find j k frequenc set 0 increment numberofisland c x 0 numberofisland c x els c x return numberofisland class repres disjoint set data structur class disjointunionset int rank parent int n public disjointunionset int n rank new int n parent new int n n n makeset void makeset initi element set 
+int 0 n parent find repres set x element int find int x parent x x x parent x repres set 
+recurs call find parent move node directli repres set return find parent x return x unit set includ x set includ void union int x int find repres root node x int xroot find x int yroot find element set need unit anyth 
+xroot yroot return x rank less rank move x depth tree remain less rank xroot rank yroot parent xroot yroot els rank less x rank move x depth tree remain less els rank yroot rank xroot parent yroot xroot els els rank move x matter one goe parent yroot xroot increment result tree rank 1 rank xroot rank xroot 1 output number island 5 articl contribut nikhil tekwani like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

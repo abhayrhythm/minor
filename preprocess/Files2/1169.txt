@@ -1,0 +1,6 @@
+write function rotat ar n rotat arr size n element 
+rotat array 2 make array algorithm initi arr 0 1 b arr n 1 1 follow size equal size b shorter divid b bl br br length swap br chang ablbr brbla 
+final place recur piec b b longer divid al ar al length b swap al b chang alarb baral 
+b final place recur piec 
+2 final b equal size block swap 
+recurs implement includ stdio h prototyp util function void printarray int arr int size void swap int arr int fi int si int void leftrot int arr int int n return number element rotat zero equal array size 0 n return number element rotat exactli half array size n swap arr 0 n return shorter n swap arr 0 n leftrot arr n els b shorter swap arr 0 n leftrot arr n 2 n tricki util function function print array void printarray int arr int size int 0 size printf arr printf n function swap element start index fi element start index si void swap int arr int fi int si int int temp 0 temp arr fi arr fi arr si arr si temp driver program test function int main int arr 1 2 3 4 5 6 7 leftrot arr 2 7 printarray arr 7 getchar return 0 

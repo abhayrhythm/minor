@@ -1,0 +1,35 @@
+given string recurs remov adjac duplic charact string 
+output string adjac duplic 
+see follow exampl 
+input azxxzi output ay first azxxzi reduc azzi 
+string azzi contain duplic reduc ay 
+input geeksforgeeg output gksfor first geeksforgeeg reduc gksforgg 
+string gksforgg contain duplic reduc gksfor 
+input caaabbbaacdddd output empti string input acaaabbbacdddd output acac simpl approach would run input string multipl pass 
+everi pass remov adjac duplic left right 
+stop run pass duplic 
+worst time complex method would n 2 
+c c program remov adjac duplic string includ iostream includ string h use namespac std function recurs remov duplic return modifi string char removedup char str int n int len strlen str int k 0 store index result start second charact add uniqu one int 1 len differ increment k add previou charact str 1 str str k str 1 els keep skip remov charact 
+str 1 str add last charact termin str k str 1 str k 0 recur string remov charact k n removedup str k shlemial painter algorithm charact uniqu els return str int main char str1 geeksforgeeg cout removedup str1 strlen str1 endl char str2 azxxxzi cout removedup str2 strlen str2 endl char str3 caaabbbaac cout removedup str3 strlen str3 endl char str4 gghhg cout removedup str4 strlen str4 endl char str5 aaaacddddcappp cout removedup str5 strlen str5 endl char str6 aaaaaaaaaa cout removedup str6 strlen str6 endl char str7 qpaaaaadaaaaadprq cout removedup str7 strlen str7 endl char str8 acaaabbbacdddd cout removedup str8 strlen str8 endl char str9 acbbcddc cout removedup str9 strlen str9 endl code contribut aditya goel 
+output gksfor ay g qrq acac remov duplic n time 
+1 start leftmost charact remov duplic left corner 
+2 first charact must differ adjac 
+recur string length n 1 string without first charact 
+3 let string obtain reduc right substr length n 1 rem_str 
+three possibl case first charact rem_str match first charact origin string remov first charact rem_str 
+b els last remov charact recurs call first charact origin string 
+ignor first charact origin string return rem_str 
+c els append first charact origin string begin rem_str 
+4 return rem_str 
+follow c python implement algorithm 
+c c c program remov adjac duplic string includ iostream includ string h use namespac std recurs remov adjac duplic str return new string 
+las_remov pointer last_remov charact char removeutil char str char last_remov length string 1 0 str 0 0 str 1 0 return str remov leftmost charact recur remain string str 0 str 1 last_remov str 0 str 1 str 0 str 1 str str return removeutil str last_remov point first charact definiot differ adjac 
+ignor first charact recurs remov charact remain string char rem_str removeutil str 1 last_remov check first charact rem_str match first charact origin string rem_str 0 rem_str 0 str 0 last_remov str 0 return rem_str 1 remov first charact remain string becom empti last remov charact first charact origin string 
+need string like acbbcddc rem_str 0 0 last_remov str 0 return rem_str two first charact str rem_str match append first charact str first charact rem_str 
+rem_str rem_str 0 str 0 return rem_str char remov char str char last_remov 0 return removeutil str last_remov driver program test function int main char str1 geeksforgeeg cout remov str1 endl char str2 azxxxzi cout remov str2 endl char str3 caaabbbaac cout remov str3 endl char str4 gghhg cout remov str4 endl char str5 aaaacddddcappp cout remov str5 endl char str6 aaaaaaaaaa cout remov str6 endl char str7 qpaaaaadaaaaadprq cout remov str7 endl char str8 acaaabbbacdddd cout remov str8 endl char str9 acbbcddc cout remov str9 endl return 0 python python program remov adjac duplic string recurs remov adjac duplic str return new string 
+las_remov pointer last_remov charact def removeutil string last_remov length string 1 0 len string 0 len string 1 return string remov leftmost charact recur remain string string 0 string 1 last_remov ord string 0 len string 1 string 0 string 1 string string 1 string string 1 return removeutil string last_remov point first charact definiot differ adjac 
+ignor first charact recurs remov charact remain string rem_str removeutil string 1 last_remov check first charact rem_str match first charact origin string len rem_str 0 rem_str 0 string 0 last_remov ord string 0 return rem_str 1 remain string becom empti last remov charact first charact origin string 
+need string like acbbcddc len rem_str 0 last_remov ord string 0 return rem_str two first charact str rem_str match append first charact str first charact rem_str 
+return string 0 rem_str def remov string last_remov 0 return tostr removeutil tolist string last_remov util function def tolist string x string x append return x def tostr x return join x driver program string1 geeksforgeeg print remov string1 string2 azxxxzi print remov string2 string3 caaabbbaac print remov string3 string4 gghhg print remov string4 string5 aaaacddddcappp print remov string5 string6 aaaaaaaaaa print remov string6 string7 qpaaaaadaaaaadprq print remov string7 string8 acaaabbbacdddd print remov string8 string9 acbbcddc print remov string9 code contribut bhavya jain output gksfor ay g qrq acac time complex time complex solut written n n k k n length input string k number first charact 
+solut recurr n thank prachi bodk suggest problem initi solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

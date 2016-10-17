@@ -1,0 +1,13 @@
+given 2 x n board tile size 2 x 1 count number way tile given board use 2 x 1 tile 
+tile either place horizont e 1 x 2 tile vertic e 2 x 1 tile 
+exampl input n 3 output 3 explan need 3 tile tile board size 2 x 3 tile board use follow way 1 place 3 tile vertic 
+2 place first tile vertic remain 2 tile horizont 
+3 place first 2 tile horizont remain tile vertic input n 4 output 5 explan 2 x 4 board 5 way 1 4 vertic 2 4 horizont 3 first 2 vertic remain 2 horizont 4 first 2 horizont remain 2 vertic 5 corner 2 vertic middl 2 horizont strongli recommend click practic move solut 
+let count n count way place tile 2 x n grid follow two way place first tile 
+1 place first tile vertic problem reduc count n 1 2 place first tile horizont place second tile also horizont 
+problem reduc count n 2 therefor count n written 
+count n n n 1 n 2 count n count n 1 count n 2 recurr note fibonacci number express 
+find n th fibonacci number log n time see method find n th fibonacci number 
+differ method n th fibonacci number 
+articl contribut saurabh jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

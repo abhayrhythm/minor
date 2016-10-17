@@ -1,0 +1,113 @@
+
+Operators are the foundation of any programming language. Thus the functionality of C language is incomplete without the use of operators. Operators allow us to perform different kinds of operations on operands. In C, operators in Can be categorized in following categories: 
+
+Arithmetic Operators (+, -, *, /, %, post-increment, pre-increment, post-decrement, pre-decrement) 
+Relational Operators (==, != , >, <, >= & <=) Logical Operators (&&, || and !)  
+Bitwise Operators (&, |, ^, ~, >> and <<)
+Assignment Operators (=, +=, -=, *=, etc)
+Other Operators (conditional, comma, sizeof, address, redirecton)
+
+Arithmetic Operators: These are used to perform arithmetic/mathematical operations on operands. The binary operators falling in this category are:
+
+
+Addition: The ‘+’ operator adds two operands. For example, x+y.
+Subtraction: The ‘-‘ operator subtracts two operands. For example, x-y.
+Multiplication: The ‘*’ operator multiplies two operands. For example, x*y.
+Division: The ‘/’ operator divides the first operand by the second. For example, x/y.
+Modulus: The ‘%’ operator returns the remainder when first operand is divided by the second. For example, x%y.
+
+
+
+// C program to demonstrate working of binary arithmetic operators
+#include<stdio.h>
+
+int main()
+{
+    int a = 10, b = 4, res;
+
+    //printing a and b
+    printf("a is %d and b is %d\n", a, b);
+
+    res = a+b; //addition
+    printf("a+b is %d\n", res);
+
+    res = a-b; //subtraction
+    printf("a-b is %d\n", res);
+
+    res = a*b; //multiplication
+    printf("a*b is %d\n", res);
+
+    res = a/b; //division
+    printf("a/b is %d\n", res);
+
+    res = a%b; //modulus
+    printf("a%%b is %d\n", res);
+
+    return 0;
+}
+
+Output:
+a is 10 and b is 4
+a+b is 14
+a-b is 6
+a*b is 40
+a/b is 2
+a%b is 2
+The ones falling into the category of unary arithmetic operators are:
+
+Increment: The ‘++’ operator is used to increment the value of an integer. When placed before the variable name (also called pre-increment operator), its value is incremented instantly. For example, ++x.
+And when it is placed after the variable name (also called post-increment operator), its value is preserved temporarily until the execution of this statement and it gets updated before the execution of the next statement. For example, x++.
+Decrement: The ‘–‘ operator is used to decrement the value of an integer. When placed before the variable name (also called pre-decrement operator), its value is decremented instantly. For example, –x.
+And when it is placed after the variable name (also called post-decrement operator), its value is preserved temporarily until the execution of this statement and it gets updated before the execution of the next statement. For example, x–.
+
+
+// C program to demonstrate working of Unary arithmetic operators
+#include<stdio.h>
+
+int main()
+{
+    int a = 10, b = 4, res;
+
+    // post-increment example:
+    // res is assigned 10 only, a is not updated yet
+    res = a++;
+    printf("a is %d and res is %d\n", a, res); //a becomes 11 now
+
+
+    // post-decrement example:
+    // res is assigned 11 only, a is not updated yet
+    res = a--;
+    printf("a is %d and res is %d\n", a, res);  //a becomes 10 now
+
+
+    // pre-increment example:
+    // res is assigned 11 now since a is updated here itself
+    res = ++a;
+    // a and res have same values = 11
+    printf("a is %d and res is %d\n", a, res);
+
+
+    // pre-decrement example:
+    // res is assigned 10 only since a is updated here itself
+    res = --a;
+    // a and res have same values = 10
+    printf("a is %d and res is %d\n",a,res); 
+
+    return 0;
+}
+
+Output:
+a is 11 and res is 10
+a is 10 and res is 11
+a is 11 and res is 11
+a is 10 and res is 10
+We will soon be discussing other categories of operators in different posts.
+To know about Operator Precedence and Associativity, refer this link:
+Quiz on Operators in C
+This article is contributed by Ayush Jaggi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

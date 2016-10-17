@@ -1,0 +1,14 @@
+consid simpl program c program read integ use scanf read string use fget 
+c program demonstr problem fget get use scanf includ stdio h int main int x char str 100 scanf x fget str 100 stdin printf x str x str return 0 input 10 test output x 10 str problem code scanf read integ leav newlin charact buffer 
+fget read newlin string test ignor program 
+similar problem occur scanf use loop 
+c program demonstr problem scanf use loop includ stdio h int main char c printf enter q quit n printf enter charact n scanf c c printf c n c c q return 0 input b q output enter q quit enter charact enter charact enter charact b enter charact enter charact q notic program print extra enter charact follow extra new line 
+happen everi scanf leav newlin charact buffer read next scanf 
+solv problem 
+make scanf read new line use extra n e scanf n x 
+fact scanf x also work note extra space 
+add getchar scanf read extra newlin 
+see correct program 
+problem occur scanner java nextlin use nextxxx 
+articl contribut dheeraj gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

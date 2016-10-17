@@ -1,0 +1,3 @@
+class declar insid function becom local function call local class c 
+exampl follow program test local class fun 
+includ iostream use namespac std void fun class test local fun member test class int main return 0 

@@ -1,0 +1,15 @@
+difficulti level rooki tree 
+unlik array link list linear data structur tree hierarch non linear data structur 
+1 one reason use tree might want store inform natur form hierarchi 
+exampl file system comput file system root home ugrad cours cs101 cs112 cs113 2 organ key form tree order e g bst search given key moder time quicker link list slower array 
+self balanc search tree like avl red black tree guarante upper bound logn search 
+3 insert delet key moder time quicker array slower unord link list 
+self balanc search tree like avl red black tree guarante upper bound logn insert delet 
+4 like link list unlik array pointer implement tree upper limit number node node link use pointer 
+per wikipedia follow common use tree 
+1 manipul hierarch data 
+2 make inform easi search see tree travers 
+3 manipul sort list data 
+4 workflow composit digit imag visual effect 
+5 router algorithm refer http www cs bu edu teach c tree binari http en wikipedia org wiki tree_ 28data_structur 29 common_us pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,34 @@
+
+Round 1
+
+60 aptitude questions – I attempted around 48 (since negative marks were there…i didn’t attend those for which i had no idea)….and got through this round.
+
+Round 2 (Technical )
+
+Introduction – about myself, educational background, project works, etc.
+Project – in and out; I was explaining and while explaining if the interviewer had some doubt or clarification; he asked and i answered; and so it was more of a conversation. Later he asked me few data structure questions.
+He asked me to write a program to reverse a linked list. Before i started writing it; he asked me if i knew it, i told yes; so he asked me to explain it without writing it….I explained him with my hands visually and very clearly(guess i impressed him atleast a little with this)
+Next, he asked me to write a working program for all operations in a stack and also asked, What is a stack, its use, etc? (gave a simple definition, its applications and the principle on which it works). I did this all pretty well.
+Again as usual, when given the chance to ask questions; asked him lots of questions and made sure that i stand out from others.
+
+The interview duration was approx 1.5 hours if am right, which was the longest comparing to others in the same panel. Later was through to HR Round directly after this round.
+HR Round
+
+It was again with lots of simple questions and what i would do in various scenarios; and was again given a chance to ask questions; i made sure i make full use of the opportunity and asked around 5-7 questions. (PROPER QUESTIONS about the company…). And i had completed a course in ENGLISH in coursera, and i also was school first in English in CLASS XII; so by seeing these two the HR asked me why i did that course? (considering my english wasn’t very bad…maybe it could be better on the vocabulary part, but who cares…?)
+I told her that i did that course because i wanted to improve my English speaking and writing skills in a professional way; and also told that around 200 students scored the same mark as me in English in CLASS XII, though it was the first mark….(She laughed and told Okay)
+For every answer i gave some clarity to it…and when i told something negative about myself or something…i backed it up by giving some valid reason for the same…
+For ex: My weakness was I forget things; I told her i’ll overcome this by making use of reminders, alarms, and by taking notes as and when things are told….so that i don’t forget things easily….
+
+This time I was lucky enough to have got placed in QUALCOMM with FTE + INTERNSHIP OFFER.
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

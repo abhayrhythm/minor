@@ -1,0 +1,238 @@
+
+Prerequisites: BIT
+
+Given ‘n’ line segments, each of them is either horizontal or vertical, find the maximum number of triangles(including triangles with zero area) that can be formed by joining the intersection points of the line segments.
+No two horizontal line segments overlap, nor do two vertical line segments. A line is represented using two points(four integers, first two being the x and y coordinates, respectively for the first point and the other two being the x and y coordinates for the second point)
+Examples:
+
+       |
+    ---|-------|--
+       |       |    -----
+       |  --|--|-     |
+       |       |      |
+
+For the above line segments, there are four points of intersection between 
+vertical and horizontal lines, every three out of which form a triangle, 
+so there can be 4C3 triangles.
+
+
+
+The idea is based on Sweep Line Algorithm.
+Building a solution in steps:
+
+Store both points of all line segments with the corresponding event(described below) in a vector and sort all the points, in non-decreasing order of their x coordinates.
+Let’s now imagine a vertical line that we sweep across all these points and describe 3 events, based on which point we currently are:
+
+in – leftmost point of a horizontal line segment
+out – rightmost point of a horizontal line segment
+a vertical line
+
+
+We call the region “active” or the horizontal lines “active” that have had the first event but not second. We will have a BIT(Binary indexed tree) to store the ‘y’ coordinates of all active lines.
+Once a line becomes inactive, we remove its ‘y’ from the BIT.
+When an event of third type occurs, that is, when we are at a vertical line, we query the tree in range of its ‘y’ coordinates and add the result to the number of intersection points so far.
+Finally, we will have the number of points of intersections, say m, then the number of triangles (including zero area) will be mC3.
+
+Note: We need to carefully sort the points, look at the cmp() function in the implementation for clarification.
+
+// A C++ implementation of the above idea
+#include<bits/stdc++.h>
+#define maxy 1000005
+#define maxn 10005
+
+using namespace std;
+
+// structure to store point
+struct point
+{
+    int x, y;
+    point(int a, int b)
+    {
+        x = a, y = b;
+    }
+};
+
+// Note: Global arrays are initially zero
+// array to store BIT and vector to store
+// the points and their corresponding event number,
+// in the second field of the pair
+int bit[maxy];
+vector<pair<point, int> > events;
+
+// compare function to sort in order of non-decreasing
+// x coordinate and if x coordinates are same then
+// order on the basis of events on the points
+bool cmp(pair<point, int> &a, pair<point, int> &b)
+{
+    if ( a.first.x != b.first.x )
+        return a.first.x < b.first.x;
+
+    //if the x coordinates are same
+    else
+    {
+        // both points are of the same vertical line
+        if (a.second == 3 && b.second == 3)
+        {
+            return true;
+        }
+
+        // if an 'in' event occurs before 'vertical'
+        // line event for the same x coordinate
+        else if (a.second == 1 && b.second == 3)
+        {
+            return true;
+        }
+
+        // if a 'vertical' line comes before an 'in'
+        // event for the same x coordinate, swap them
+        else if (a.second == 3 && b.second == 1)
+        {
+            return false;
+        }
+
+        // if an 'out' event occurs before a 'vertical'
+        // line event for the same x coordinate, swap.
+        else if (a.second == 2 && b.second == 3)
+        {
+            return false;
+        }
+
+        //in all other situations
+        return true;
+    }
+}
+
+// update(y, 1) inserts a horizontal line at y coordinate
+// in an active region, while update(y, -1) removes it
+void update(int idx, int val)
+{
+    while (idx < maxn)
+    {
+        bit[idx] += val;
+        idx += idx & (-idx);
+    }
+}
+
+// returns the number of lines in active region whose y
+// coordinate is between 1 and idx
+int query(int idx)
+{
+    int res = 0;
+    while (idx > 0)
+    {
+        res += bit[idx];
+        idx -= idx & (-idx);
+    }
+    return res;
+}
+
+// inserts a line segment
+void insertLine(point a, point b)
+{
+    // if it is a horizontal line
+    if (a.y == b.y)
+    {
+        int beg = min(a.x, b.x);
+        int end = max(a.x, b.x);
+
+        // the second field in the pair is the event number
+        events.push_back(make_pair(point(beg, a.y), 1));
+        events.push_back(make_pair(point(end, a.y), 2));
+    }
+
+    //if it is a vertical line
+    else
+    {
+        int up = max(b.y, a.y);
+        int low = min(b.y, a.y);
+
+        //the second field of the pair is the event number
+        events.push_back(make_pair(point(a.x, up), 3));
+        events.push_back(make_pair(point(a.x, low), 3));
+    }
+}
+
+// returns the number of intersection points between all
+// the lines, vertical and horizontal, to be run after the
+// points have been sorted using the cmp() function
+int findIntersectionPoints()
+{
+    int intersection_pts = 0;
+    for (int i = 0 ; i < events.size() ; i++)
+    {
+        //if the current point is on an 'in' event
+        if (events[i].second == 1)
+        {
+            //insert the 'y' coordinate in the active region
+            update(events[i].first.y, 1);
+        }
+
+        // if current point is on an 'out' event
+        else if (events[i].second == 2)
+        {
+            // remove the 'y' coordinate from the active region
+            update(events[i].first.y, -1);
+        }
+
+        // if the current point is on a 'vertical' line
+        else
+        {
+            // find the range to be queried
+            int low = events[i++].first.y;
+            int up = events[i].first.y;
+            intersection_pts += query(up) - query(low);
+        }
+    }
+    return intersection_pts;
+}
+
+// returns (intersection_pts)C3
+int findNumberOfTriangles()
+{
+    int pts = findIntersectionPoints();
+    if ( pts >= 3 )
+        return ( pts * (pts - 1) * (pts - 2) ) / 6;
+    else
+        return 0;
+}
+
+
+// driver code
+int main()
+{
+    insertLine(point(2, 1), point(2, 9));
+    insertLine(point(1, 7), point(6, 7));
+    insertLine(point(5, 2), point(5, 8));
+    insertLine(point(3, 4), point(6, 4));
+    insertLine(point(4, 3), point(4, 5));
+    insertLine(point(7, 6), point(9, 6));
+    insertLine(point(8, 2), point(8, 5));
+
+    // sort the points based on x coordinate
+    // and event they are on
+    sort(events.begin(), events.end(), cmp);
+
+    cout << "Number of triangles are: " <<
+         findNumberOfTriangles() << "\n";
+
+    return 0;
+}
+
+Output:
+
+Number of triangles are: 4
+
+
+Time Complexity: O( n * log(n) + n * log(maximum_y) )
+
+This article is contributed by Saumye Malhotra. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

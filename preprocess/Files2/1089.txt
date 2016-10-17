@@ -1,0 +1,12 @@
+given array digit valu 0 9 find minimum possibl sum two number form digit array 
+digit given array must use form two number 
+input 6 8 4 5 2 3 output 604 minimum sum form number 358 246 input 5 3 0 7 4 output 82 minimum sum form number 35 047 minimum number form set digit smallest digit appear signific posit next smallest digit appear next signific posit an idea sort array increas order build two number altern pick digit array 
+first number form digit present odd posit array second number form digit even posit array 
+final return sum first second number 
+c implement idea 
+c program find minimum sum two number form digit array 
+includ bit stdc h use namespac std function find return minimum sum two number form digit array 
+int solv int arr int n sort array sort arr arr n let two number b int 0 b 0 int 0 n fill b everi altern digit input array 1 10 arr els b b 10 arr return sum return b driver code int main int arr 6 8 4 5 2 3 int n sizeof arr sizeof arr 0 cout sum solv arr n return 0 output sum 604 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

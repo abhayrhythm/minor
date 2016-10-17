@@ -1,0 +1,127 @@
+
+Given a string of odd length, print the string X format.
+Examples:
+
+Input: 12345
+Output:
+1       5
+  2   4
+    3
+  2   4
+1       5 
+
+Input: geeksforgeeks
+Output:
+g                         s
+  e                     k
+    e                 e
+      k             e
+        s         g
+          f      r
+             o
+          f     r
+        s         g
+      k             e
+    e                 e
+  e                      k
+g                          s 
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use two variables in a single loop, the first variable ‘i’ goes from left to right and second variables ‘j’ goes from right to left.  The upper part of Cross (or X) is printed before they meet.  The central character is printed when they meet and lower parted is printed after they cross each other.  In the upper part  str[i] is printed before str[j] and in the lower part, str[j] is printed before str[i].
+Below is C++ implementation of above idea.
+
+// C++ program to print Cross pattern
+#include<iostream>
+using namespace std;
+
+// Function to print given string in cross pattern
+// Length of string must be odd
+void printPattern(string str)
+{
+    int len = str.length();
+
+    // i goes from 0 to len and j goes from len-1 to 0
+    for (int i=0,j=len-1; i<=len,j>=0; i++,j--)
+    {
+        // To print the upper part. This loop runs
+        // til middle point of string (i and j become
+        // same
+        if (i<j)
+        {
+            // Print i spaces
+            for (int x=0; x<i; x++)
+                cout << " ";
+
+            // Print i'th character
+            cout << str[i];
+
+            // Print j-i-1 spaces
+            for (int x=0; x<j-i-1; x++)
+                cout << " ";
+
+            // Print j'th character
+            cout << str[j] << endl;
+        }
+
+        // To print center point
+        if (i==j)
+        {
+            // Print i spaces
+            for (int x=0; x<i; x++)
+                cout << " ";
+
+            // Print middle character
+            cout << str[i] << endl;
+        }
+
+        // To print lower part
+        else if (i>j)
+        {
+            // Print j spances
+            for (int x = j-1; x>=0; x--)
+                cout << " ";
+
+            // Print j'th character
+            cout << str[j];
+
+            // Print i-j-1 spaces
+            for (int x=0; x<i-j-1; x++)
+                cout << " ";
+
+            // Print i'h character
+            cout << str[i] << endl;
+        }
+    }
+}
+
+// Driver program
+int main()
+{
+    printPattern("geeksforgeeks");
+    return 0;
+}
+
+Output:
+
+g           s
+ e         k
+  e       e
+   k     e
+    s   g
+     f r
+      o
+     f r
+    s   g
+   k     e
+  e       e
+ e         k
+g           s
+This article is contributed by Dinesh T.P.D. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

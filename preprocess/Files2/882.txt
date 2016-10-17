@@ -1,0 +1,27 @@
+oper foundat program languag 
+thu function c languag incomplet without use oper 
+oper allow us perform differ kind oper operand 
+c oper categor follow categori arithmet oper post increment pre increment post decrement pre decrement relat oper logic oper 
+bitwis oper assign oper etc oper condit comma sizeof address redirecton arithmet oper use perform arithmet mathemat oper operand 
+binari oper fall categori addit oper add two operand 
+exampl x 
+subtract oper subtract two operand 
+exampl x 
+multipl oper multipli two operand 
+exampl x divis oper divid first operand second 
+exampl x 
+modulu oper return remaind first operand divid second 
+exampl x 
+c program demonstr work binari arithmet oper includ stdio h int main int 10 b 4 re print b printf b n b re b addit printf b n re re b subtract printf b n re re b multipl printf b n re re b divis printf b n re re b modulu printf b n re return 0 output 10 b 4 b 14 b 6 b 40 b 2 b 2 one fall categori unari arithmet oper increment oper use increment valu integ 
+place variabl name also call pre increment oper valu increment instantli 
+exampl x 
+place variabl name also call post increment oper valu preserv temporarili execut statement get updat execut next statement 
+exampl x 
+decrement oper use decrement valu integ 
+place variabl name also call pre decrement oper valu decrement instantli 
+exampl x 
+place variabl name also call post decrement oper valu preserv temporarili execut statement get updat execut next statement 
+exampl x 
+c program demonstr work unari arithmet oper includ stdio h int main int 10 b 4 re post increment exampl re assign 10 updat yet re printf re n re becom 11 post decrement exampl re assign 11 updat yet re printf re n re becom 10 pre increment exampl re assign 11 sinc updat re re valu 11 printf re n re pre decrement exampl re assign 10 sinc updat re re valu 10 printf re n re return 0 output 11 re 10 10 re 11 11 re 11 10 re 10 soon discuss categori oper differ post 
+know oper preced associ refer link quiz oper c articl contribut ayush jaggi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

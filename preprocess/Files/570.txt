@@ -1,0 +1,15 @@
+
+Background : 
+In a flow network, an s-t cut is a cut that requires the source ‘s’ and the sink ‘t’ to be in different subsets, and it consists of edges going from the source’s side to the sink’s side. The capacity of an s-t cut is defined by the sum of capacity of each edge in the cut-set. (Source: Wiki).  Given a two vertices, s and t, we can find minimum s-t cut using max flow algorithm.
+Since there are total O(n2) possible pairs, at first look it seems that there would be total  O(n2) total minimum s-t cut values.  But when we use Gomory-Hu Tree, we would see that there are total n-1 different cut values [A Tree with n vertices has n-1 edges]
+Popular graph problems that can be solved using Gomory-Hu Tree : 
+
+ Given a weighted and connected graph, find minimum s-t cut for all pairs of vertices.  Or a problem like find minimum of all possible minimum s-t cuts. 
+ Minimum K-Cut problem : Find minimum weight set of edges whose removal would partition the graph to k connected components. This is a NP-Hard problem, Gomory-Hu Tree provides an approximate solution for this problem.
+
+What is Gomory-Hu Tree?
+A Gomory-Hu Tree is defined for a flow graph with edge capacity function c. The tree has same set of vertices as input graph and has n-1 (n is number of vertices) edges. Edge capacity function c’ is defined using following properties:
+Equivalent flow tree : For  any  pair  of  vertices  s and t, the minimum s-t cut in graph is equal to the smallest capacity of the edges on the path between s and t in Tree.
+Cut property :  a  minimum s-t cut in  Tree  is  also  a minimum cut in Graph.G
+For example, consider the following Graph and Corresponding Gomory-Hu Tree.
+

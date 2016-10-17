@@ -1,0 +1,7 @@
+algorithm roundno num 1 num posit add 0 5 
+2 els subtract 0 5 
+3 type cast result int return 
+exampl num 1 67 int num 0 5 int 2 17 2 num 1 67 int num 0 5 int 2 17 2 implement program round float point number includ stdio h int roundno float num return num 0 
+num 0 5 num 0 5 int main printf roundno 1 777 getchar return 0 output 2 time complex 1 space complex 1 tri round given precis 
+e given precis 2 function return 1 63 1 63322 1 63 1 6332 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

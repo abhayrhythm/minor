@@ -1,0 +1,31 @@
+
+First round (online round,)
+It had some 15 mcq questions, most of it was technical, had questions from almost all CS subjects we learnt in college. I was lucky enough to guess most of the questions correctly and so was called for the coding round.
+Second round
+For the selected students, there was a coding round which had 2 standard questions in data structures, from GeeksforGeeks.org. I solved one question fully with all test cases working, and later results were out after 1 month. I was lucky again to get through this round without having the solve one program by solving only one program….
+Third round
+The next round was a group fly round(written programming round) which was to be followed by technical in person interviews. These rounds were held in Bangalore.
+
+Find the least common ancestor of two nodes in a binary tree.
+I asked the person assigned for my group if i could change the structure of the node, making the tree having parent pointers, and that person told ok. So, i changed the structure and made it have parent pointers, and also used a boolean flag variable, then it was very simple; when two nodes have any common node in its path from itself to root, then that node is the ancestor for these two nodes. So i assumed the function was given three parameters, root, node1 and node2…). And first i made an assumption that flag of all nodes zero, later i traversed from one node to root, making every node in that path have the flag variable set to 1. Later traversed from second node to root, and while traversing i checked if flag variable was 1 for any of the nodes already, if it was, then i returned that node as the ancestor of these two nodes…. Time complexity is O(h) (I THINK SO)…
+I explained this well with all test cases….so that the person assigned to my group was happy with my solution.
+Given two sorted arrays (with repetitive elements) find the kth minimum number from both arrays.
+My approach to this problem was, Maintain an index for each array, both initialized to the first element of their respective array. Loop k times and in each iteration find the minimum element among the current indices and increment the index of the array containing the minimum. If the elements are equal, increment both indices. Time complexity is O(k).
+I explained this well again with all test cases and made sure the person assigned to my group was happy with my solution.
+As i made sure i took care of corner cases, and most importantly satisfied the person assigned to my group with the solution i gave, i was called for the in-person interview.
+
+ In – Person Interview
+A quick-brief introduction. We spoke In and out about my project, and also he wanted to see my app in my phone. He asked few basic questions about the project implementation.
+Later he gave me a technical question, Fold and merge a linked list….I was comparatively little less nervous now, but was still not very good in paper coding…..made lots of mistakes but somehow wrote some code….but there were few mistakes here and there which i found and corrected when he pointed it out to me…But this time i wasn’t lucky enough and was rejected after this round.
+ 
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

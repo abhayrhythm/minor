@@ -1,0 +1,128 @@
+
+Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution alphabets .The encryption of the original text is done using the Vigenère square or Vigenère table.
+
+
+The table consists of the alphabets written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar Ciphers.
+At different points in the encryption process, the cipher uses a different alphabet from one of the rows.
+The alphabet used at each point depends on a repeating keyword.
+
+Example:
+Input : Plaintext :   GEEKSFORGEEKS
+             Keyword :  AYUSH
+Output : Ciphertext :  GCYCZFMLYLEIM
+For generating key, the given keyword is repeated
+in a circular manner until it matches the length of 
+the plain text.
+The keyword "AYUSH" generates the key "AYUSHAYUSHAYU"
+The plain text is then encrypted using the process 
+explained below.
+
+Encryption
+The first letter of the plaintext, G is paired with A, the first letter of the key. So use row G and column A of the Vigenère square, namely G. Similarly, for the second letter of the plaintext, the second letter of the key is used, the letter at row E and column Y is C. The rest of the plaintext is enciphered in a similar fashion.
+Table to encrypt – Geeks
+ 
+Decryption
+Decryption is performed by going to the row in the table corresponding to the key, finding the position of the ciphertext letter in this row, and then using the column’s label as the plaintext. For example, in row A (from AYUSH), the ciphertext G appears in column G, which is the first plaintext letter. Next we go to row Y (from AYUSH), locate the ciphertext C which is found in column E, thus E is the second plaintext letter.
+A more easy implementation could be to visualize Vigenère algebraically by converting [A-Z] into numbers [0–25].
+Encryption
+The the plaintext(P) and key(K) are added modulo 26.
+Ei = (Pi + Ki) mod 26
+
+Decryption
+Di = (Ei - Ki + 26) mod 26
+
+Note: Di denotes the offset of the i-th character of the plaintext. Like offset of A is 0 and of B is 1 and so on.
+Below is C++ implementation of the idea.
+
+// C++ code to implement Vigenere Cipher
+#include<bits/stdc++.h>
+using namespace std;
+
+// This function generates the key in
+// a cyclic manner until it's length isi'nt
+// equal to the length of original text
+string generateKey(string str, string key)
+{
+    int x = str.size();
+
+    for (int i = 0; ; i++)
+    {
+        if (x == i)
+            i = 0;
+        if (key.size() == str.size())
+            break;
+        key.push_back(key[i]);
+    }
+    return key;
+}
+
+// This function returns the encrypted text
+// generated with the help of the key
+string cipherText(string str, string key)
+{
+    string cipher_text;
+
+    for (int i = 0; i < str.size(); i++)
+    {
+        // converting in range 0-25
+        int x = (str[i] + key[i]) %26;
+
+        // convert into alphabets(ASCII)
+        x += 'A';
+
+        cipher_text.push_back(x);
+    }
+    return cipher_text;
+}
+
+// This function decrypts the encrypted text
+// and returns the original text
+string originalText(string cipher_text, string key)
+{
+    string orig_text;
+
+    for (int i = 0 ; i < cipher_text.size(); i++)
+    {
+        // converting in range 0-25
+        int x = (cipher_text[i] - key[i] + 26) %26;
+
+        // convert into alphabets(ASCII)
+        x += 'A';
+        orig_text.push_back(x);
+    }
+    return orig_text;
+}
+
+// Driver program to test the above function
+int main()
+{
+    string str = "GEEKSFORGEEKS";
+    string keyword = "AYUSH";
+
+    string key = generateKey(str, keyword);
+    string cipher_text = cipherText(str, key);
+
+    cout << "Ciphertext : "
+         << cipher_text << "\n";
+
+    cout << "Original/Decrypted Text : "
+         << originalText(cipher_text, key);
+    return 0;
+}
+
+Output:
+Ciphertext : GCYCZFMLYLEIM
+Original/Decrypted Text : GEEKSFORGEEKS
+
+Reference :  https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+This article is contributed by Ayush Khanduri. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

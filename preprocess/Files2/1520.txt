@@ -1,0 +1,21 @@
+given array n element element k away target posit devis algorithm sort n log k time 
+exampl let us consid k 2 element index 7 sort array index 5 6 7 8 9 given array 
+sourc nearli sort algorithm use insert sort sort element effici 
+follow c code standard insert sort 
+function sort array use insert sort void insertionsort int int size int key j 1 size key j 1 move element 0 1 greater key one posit ahead current posit 
+loop run k time j 0 j key j 1 j j j 1 j 1 key inner loop run k time 
+move everi element correct place k element need move 
+overal complex nk sort array effici help heap data structur 
+follow detail process use heap 
+1 creat min heap size k 1 first k 1 element 
+take k time see gfact 2 one one remov min element heap put result array add new element heap remain element 
+remov element ad new element min heap take logk time 
+overal complex k n k logk includ iostream use namespac std prototyp util function swap two integ void swap int x int class min heap class minheap int harr pointer array element heap int heap_siz size min heap public constructor minheap int int size heapifi subtre root given index void minheapifi int get index left child node index int left int return 2 1 get index right child node index int right int return 2 2 remov min root add new valu x return old root int replacemin int x extract root minimum element int extractmin given array size n everi element k away target posit sort array nlogk time 
+int sortk int arr int n int k creat min heap first k 1 element input array int harr new int k 1 int 0 k n n condit need k n harr arr minheap hp harr k 1 index remain element arr ti target index cuurent minimum element min heapm hp 
+int k 1 ti 0 ti n ti remain element place root heap target index add arr min heap n arr ti hp replacemin arr otherwis place root target index reduc heap size els arr ti hp extractmin follow implement standard min heap method cormen book constructor build heap given array given size minheap minheap int int size heap_siz size harr store address array int heap_siz 1 2 0 minheapifi method remov minimum element root min heap int minheap extractmin int root harr 0 heap_siz 1 harr 0 harr heap_siz 1 heap_siz minheapifi 0 return root method chang root given valu x return old root int minheap replacemin int x int root harr 0 harr 0 x root x minheapifi 0 return root recurs method heapifi subtre root given index method assum subtre alreadi heapifi void minheap minheapifi int int l left int r right int smallest l heap_siz harr l harr smallest l r heap_siz harr r harr smallest smallest r smallest swap harr harr smallest minheapifi smallest util function swap two element void swap int x int int temp x x temp util function print array element void printarray int arr int size int 0 size cout arr cout endl driver program test function int main int k 3 int arr 2 6 3 12 56 8 int n sizeof arr sizeof arr 0 sortk arr n k cout follow sort array n printarray arr n return 0 output follow sort array 2 3 6 8 12 56 min heap base method take nlogk time use k auxiliari space 
+also use balanc binari search tree instead heap store k 1 element 
+insert delet oper balanc bst also take logk time 
+balanc bst base method also take nlogk time heap bass method seem effici minimum element alway root 
+also heap need extra space left right pointer 
+pleas write comment find code algorithm incorrect find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

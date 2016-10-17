@@ -1,0 +1,15 @@
+given graph direct undirect edg 
+given direct edg form cycl 
+assign direct undirect edg graph direct edg remain acycl even assign 
+exampl graph blue edg direct 
+strongli recommend minim browser tri first 
+idea use topolog sort 
+follow two step use algorithm 
+1 consid subgraph direct edg find topolog sort subgraph 
+exampl topolog sort 0 5 1 2 3 4 
+diagram show topolog sort exampl graph 
+2 use topolog sort assign direct undirect edg 
+everi undirect edg u v assign direct u v u come v topolog sort els assign direct v u diagram show assign direct exampl graph 
+sourc http cours csail mit edu 6 006 oldquizz solut q2 f2009 sol pdf articl contribut aditya agraw 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

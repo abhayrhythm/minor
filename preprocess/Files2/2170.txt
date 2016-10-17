@@ -1,0 +1,32 @@
+given array integ 
+find maximum xor subarray valu given array 
+expect time complex n 
+exampl input arr 1 2 3 4 output 7 subarray 3 4 maximum xor valu input arr 8 1 2 12 7 6 output 15 subarray 1 2 12 maximum xor valu input arr 4 6 output 6 subarray 6 maximum xor valu strongli recommend minim browser tri first 
+simpl solut use two loop find xor subarray return maximum 
+simpl c program find max subarray xor includ bit stdc h use namespac std int maxsubarrayxor int arr int n int an int_min initi result pick start point subarray int 0 n int curr_xor 0 store xor current subarray pick end point subarray start int j j n j curr_xor curr_xor arr j an max an curr_xor return an driver program test function int main int arr 8 1 2 12 int n sizeof arr sizeof arr 0 cout max subarray xor maxsubarrayxor arr n return 0 output max subarray xor 15 time complex solut n2 
+effici solut solv problem n time assumpt integ take fix number bit store 
+idea use trie data structur 
+algorithm 
+1 creat empti trie 
+everi node trie go contain two children 0 1 valu bit 
+2 initi pre_xor 0 insert trie 
+3 initi result minu infinit 4 travers given array follow everi array element arr 
+pre_xor pre_xor arr pre_xor contain xor element arr 0 arr 
+b queri maximum xor valu end arr trie 
+c updat result valu obtain step 4 b current valu result 
+4 b work 
+observ algorithm build trie contain xor prefix given array 
+find maximum xor subarray end arr may two case 
+prefix maximum xor valu end arr 
+exampl 2 8 2 1 12 maximum subarray xor end arr 2 whole prefix 
+ii need remov prefix end index 0 1 
+exampl 3 8 2 1 12 maximum subarray xor end arr 3 start arr 1 need remov arr 0 
+find prefix remov find entri trie maximum xor valu current prefix 
+xor previou prefix current prefix get maximum xor valu end arr 
+prefix remov case return 0 insert 0 trie 
+c implement algorithm 
+c program trie base n solut find max subarray xor includ bit stdc h use namespac std assum int size defin int_siz 32 trie node struct trienod int valu use leaf node trienod arr 2 util function tp creat trie node trienod newnod trienod temp new trienod temp valu 0 temp arr 0 temp arr 1 null return temp insert pre_xor trie given root void insert trienod root int pre_xor trienod temp root start msb insert bit pre_xor trie int int_siz 1 0 find current bit given prefix bool val pre_xor 1 creat new node need temp arr val null temp arr val newnod temp temp arr val store valu leaf node temp valu pre_xor find maximum xor end last number prefix xor pre_xor return xor maximum pre_xor maximum xor end last element pre_xor 
+int queri trienod root int pre_xor trienod temp root int int_siz 1 0 find current bit given prefix bool val pre_xor 1 travers trie first look prefix opposit bit temp arr 1 val null temp temp arr 1 val prefix opposit bit look bit 
+els temp arr val null temp temp arr val return pre_xor temp valu return maximum xor valu subarray arr 0 n 1 int maxsubarrayxor int arr int n creat trie insert 0 trienod root newnod insert root 0 initi answer xor current prefix int result int_min pre_xor 0 travers input array element int 0 n updat current prefix xor insert trie pre_xor pre_xor arr insert root pre_xor queri current prefix xor trie updat result requir result max result queri root pre_xor return result driver program test function int main int arr 8 1 2 12 int n sizeof arr sizeof arr 0 cout max subarray xor maxsubarrayxor arr n return 0 output max subarray xor 15 exercis extend solut also print start end index subarray maximum valu hint add one field trie node achiev articl contribut romil punetha 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,4 @@
+consid follow algorithm build heap input array build heap heapsiz size floor heapsiz 2 downto 1 heapifi end end worst case time complex algo 
+although worst case complex look like nlogn upper bound time complex n 
+see follow link proof time complex 
+http www cse iitk ac user sbaswana cours eso211 heap pdf http www cs sfu ca coursecentr 307 petra 2009 sln_2 pdf adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

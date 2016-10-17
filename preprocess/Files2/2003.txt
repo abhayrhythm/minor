@@ -1,0 +1,7 @@
+gcc famili c compil mark function execut main 
+startup code execut main start cleanup code execut main end 
+exampl follow program mystartupfun call main mycleanupfun call main 
+includ stdio h appli constructor attribut mystartupfun execut main void mystartupfun void __attribute__ constructor appli destructor attribut mycleanupfun execut main void mycleanupfun void __attribute__ destructor implement mystartupfun void mystartupfun void printf startup code main n implement mycleanupfun void mycleanupfun void printf cleanup code main n int main void printf hello n return 0 output startup code main hello cleanup code main like featur gcc ad mani interest featur standard c languag 
+see detail 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,45 @@
+
+Consider the following program.  Change the program so that the output of printf is always 10.  It is not allowed to change main().  Only fun() can be changed.
+
+void fun()
+{
+    // Add something here so that the printf in main prints 10
+}
+
+int main()
+{
+    int i = 10;
+    fun();
+    i = 20;
+    printf("%d", i);
+    return 0;
+} 
+We can use Macro Arguments to change the output of printf.
+
+#include <stdio.h>
+
+void fun()
+{
+   #define printf(x, y) printf(x, 10);
+}
+
+int main()
+{
+    int i = 10;
+    fun();
+    i = 20;
+    printf("%d", i);
+    return 0;
+} 
+Output:
+10
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

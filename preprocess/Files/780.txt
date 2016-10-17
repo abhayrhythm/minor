@@ -1,0 +1,46 @@
+
+In error detection / correction, we are given a sentence divided into parts and we have to find the part that is incorrect and sometimes, we are given the error and we need to correct it.
+Sample Problems
+Question 1 : Find the part of the sentence that is incorrect in usage :
+A) Agitated over the delay in getting arrears,
+B) factory workers protested against the president
+C) when he reaches the factory.
+D) No Error
+Solution : C) when he reaches the factory.
+It should be : when he reached the factory.
+ 
+Question 2 : Select the option that replaces the error (underlined) most appropriately
+Sentence – The motto of our company is to make sure that the employees are happy, have the ability to be intellectually stimulated and contributes towards their growth.
+A) contribute to the growth
+B) contribute towards its growth
+C) contribute toward its growing
+D) No correction required
+Solution : B) contribute towards its growth
+ 
+Question 3 : Find the error in the following statement :
+A) Sariska is transforming into
+B) India’s most fastest growing sanctuary
+C) attracting large number of tourists
+D) throughout the world.
+Solution : B) India’s most fastest growing sanctuary
+Here, “most fastest” is incorrect. It should be “fastest”.
+ 
+Question 4 : Select the option that replaces the error (underlined) most appropriately
+Sentence – It has been found by the researchers that children with high blood sugar are at increase risk for developing heart problems.
+A) were at increased risk
+B) have high risk
+C) are increasing riskly
+D) No correction required
+Solution : A) were at increased risk
+ 
+This article has been contributed by Nishant Arora
+ 
+Please write comments if you have any doubts related to the topic discussed above, or if you are facing difficulty in any question or if you would like to discuss a question other than those mentioned above.
+ 
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

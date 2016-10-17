@@ -1,0 +1,5 @@
+predict output follow program 
+difficulti level rooki question 1 includ stdio h int main int 10 b 20 c 30 c b printf true els printf fals getchar return 0 output fals let us consid condit insid statement 
+sinc two greater oper express c b associ consid 
+associ left right 
+express c b evalu c b fals 

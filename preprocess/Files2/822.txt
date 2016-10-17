@@ -1,0 +1,25 @@
+idea manag usag time variou app site softwar beep alert mail 
+introduct atla code python enabl user set maximum minimum usag time differ applic websit softwar 
+user add multipl app websit name along max min time usag 
+user alert max time limit cross min limit achiev 
+max time exceed case beep sound continu whenev app foreground activ limit reach 
+min time case minimum time usag total time set user remind pop fix interv remind user meet minimum time requir 
+activ app foreground app contribut usag time 
+also mail featur allow one send email max time exceed min time met 
+featur use parent control parent put limit child time usag differ app websit time usag 
+exampl user put time limit usag facebook 
+limit exceed whenev use facebook becom activ come foreground alert come start beep 
+user put minimum time limit say hour total time 5 hour educ softwar 
+meet minimum requir use softwar atleast hour next 5 hour 
+alert everi hour till 5 hour 
+also stop meet requir total time 
+modul tkinter gui python 
+win32gui modul nativ win32 gui api 
+mainli use project get name app foreground use getforegroundwindow 
+smtplib simpl mail transfer protocol librari mail featur 
+gmail winsound beep alert 
+time set timer 
+_thread enableset multipl alert 
+softwar tool pycharm pip idea contribut sushrut khandelw like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,18 @@
+given sort array posit integ rearrang array altern e first element maximum valu second minimum valu third second max fourth second min 
+exampl input arr 1 2 3 4 5 6 7 output arr 7 1 6 2 5 3 4 input arr 1 2 3 4 5 6 output arr 6 1 5 2 4 3 expect time complex n 
+strongli recommend click practic move solut 
+problem becom easi extra space allow 
+copi array anoth array place element altern posit 
+place 
+idea use fact number posit 
+one one place number correct posit mark neg 
+find correct output posit element arr 
+observ output follow pattern input array 
+output index j element arr n 2 j 2 1 els j 2 n 1 c program base fact 
+c program rearrang array minimum maximum form use 1 space 
+includ bit stdc h use namespac std put max first posit min second posit second max third posit second min fourth posit 
+void rearrang int arr int n travers number int 0 n int temp arr number neg alreadi process 
+els process number replac cyclic way temp 0 find index arr go int j n 2 
+2 1 2 n 1 arr alreadi correct posit mark neg j arr temp break swap number temp current number target posit swap temp arr j mark number process arr j arr j next process previou number target posit j chang number origin valu int 0 n arr arr driver program test function int main int arr 1 2 3 4 5 6 7 8 9 int n sizeof arr sizeof arr 0 cout origin array n int 0 n cout arr rearrang arr n cout nmodifi array n int 0 n cout arr return 0 output origin array 1 2 3 4 5 6 7 8 9 modifi array 9 1 8 2 7 3 6 4 5 time complex solut n everi element travers twice 
+thank mysteri mind suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

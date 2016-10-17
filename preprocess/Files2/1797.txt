@@ -1,0 +1,42 @@
+hamiltonian path undirect graph path visit vertex exactli 
+hamiltonian cycl hamiltonian circuit hamiltonian path edg graph last vertex first vertex hamiltonian path 
+determin whether given graph contain hamiltonian cycl 
+contain print path 
+follow input output requir function 
+input 2d array graph v v v number vertic graph graph v v adjac matrix represent graph 
+valu graph j 1 direct edg j otherwis graph j 0 output array path v contain hamiltonian path 
+path repres ith vertex hamiltonian path 
+code also return fals hamiltonian cycl graph 
+exampl hamiltonian cycl follow graph 0 1 2 4 3 0 
+hamiltonian cycl graph like 0 3 4 2 1 0 0 1 2 3 4 follow graph contain hamiltonian cycl 
+0 1 2 3 4 naiv algorithm gener possibl configur vertic print configur satisfi given constraint 
+n 
+n factori configur 
+untri conflagr gener next configur edg two consecut vertic configur edg last vertex first 
+print configur break backtrack algorithm creat empti path array add vertex 0 
+add vertic start vertex 1 ad vertex check whether adjac previous ad vertex alreadi ad 
+find vertex add vertex part solut 
+find vertex return fals 
+implement backtrack solut follow implement backtrack solut 
+c c c c program solut hamiltonian cycl problem use backtrack includ stdio h number vertic graph defin v 5 void printsolut int path util function check vertex v ad index po hamiltonian cycl construct far store path bool issaf int v bool graph v v int path int po check vertex adjac vertex previous ad vertex 
+graph path po 1 v 0 return fals check vertex alreadi includ 
+step optim creat array size v int 0 po path v return fals return true recurs util function solv hamiltonian cycl problem bool hamcycleutil bool graph v v int path int po base case vertic includ hamiltonian cycl po v edg last includ vertex first vertex graph path po 1 path 0 1 return true els return fals tri differ vertic next candid hamiltonian cycl 
+tri 0 includ 0 start point hamcycl int v 1 v v v check vertex ad hamiltonian cycl issaf v graph path po path po v recur construct rest path hamcycleutil graph path po 1 true return true ad vertex v lead solut remov path po 1 vertex ad hamiltonian cycl construct far return fals return fals function solv hamiltonian cycl problem use backtrack 
+mainli use hamcycleutil solv problem 
+return fals hamiltonian cycl possibl otherwis return true print path 
+pleas note may one solut function print one feasibl solut 
+bool hamcycl bool graph v v int path new int v int 0 v path 1 let us put vertex 0 first vertex path 
+hamiltonian cycl path start point cycl graph undirect path 0 0 hamcycleutil graph path 1 fals printf nsolut exist return fals printsolut path return true util function print solut void printsolut int path printf solut exist follow one hamiltonian cycl n int 0 v printf path let us print first vertex show complet cycl printf path 0 printf n driver program test function int main let us creat follow graph 0 1 2 3 4 bool graph1 v v 0 1 0 1 0 1 0 1 1 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1 0 print solut hamcycl graph1 let us creat follow graph 0 1 2 3 4 bool graph2 v v 0 1 0 1 0 1 0 1 1 1 0 1 0 0 1 1 1 0 0 0 0 1 1 0 0 print solut hamcycl graph2 return 0 java java program solut hamiltonian cycl problem use backtrack class hamiltoniancycl final int v 5 int path util function check vertex v ad index po hamiltonian cycl construct far store path boolean issaf int v int graph int path int po check vertex adjac vertex previous ad vertex 
+graph path po 1 v 0 return fals check vertex alreadi includ 
+step optim creat array size v int 0 po path v return fals return true recurs util function solv hamiltonian cycl problem boolean hamcycleutil int graph int path int po base case vertic includ hamiltonian cycl po v edg last includ vertex first vertex graph path po 1 path 0 1 return true els return fals tri differ vertic next candid hamiltonian cycl 
+tri 0 includ 0 start point hamcycl int v 1 v v v check vertex ad hamiltonian cycl issaf v graph path po path po v recur construct rest path hamcycleutil graph path po 1 true return true ad vertex v lead solut remov path po 1 vertex ad hamiltonian cycl construct far return fals return fals function solv hamiltonian cycl problem use backtrack 
+mainli use hamcycleutil solv problem 
+return fals hamiltonian cycl possibl otherwis return true print path 
+pleas note may one solut function print one feasibl solut 
+int hamcycl int graph path new int v int 0 v path 1 let us put vertex 0 first vertex path 
+hamiltonian cycl path start point cycl graph undirect path 0 0 hamcycleutil graph path 1 fals system println nsolut exist return 0 printsolut path return 1 util function print solut void printsolut int path system println solut exist follow one hamiltonian cycl int 0 v system print path let us print first vertex show complet cycl system println path 0 driver program test function public static void main string arg hamiltoniancycl hamiltonian new hamiltoniancycl let us creat follow graph 0 1 2 3 4 int graph1 0 1 0 1 0 1 0 1 1 1 0 1 0 0 1 1 1 0 0 1 0 1 1 1 0 print solut hamiltonian hamcycl graph1 let us creat follow graph 0 1 2 3 4 int graph2 0 1 0 1 0 1 0 1 1 1 0 1 0 0 1 1 1 0 0 0 0 1 1 0 0 print solut hamiltonian hamcycl graph2 code contribut abhishek shankhadhar output solut exist follow one hamiltonian cycl 0 1 2 4 3 0 solut exist note code alway print cycl start 0 start point matter cycl start point 
+want chang start point make two chang code 
+chang path 0 0 path 0 new start point 
+also chang loop int v 1 v v v hamcycleutil int v 0 v v v 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

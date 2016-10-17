@@ -1,0 +1,10 @@
+round 1 1hr 15 min onlin test cocub contain 3 code question 1 find number time carri 1 perform addit two number input 56 99 output 3 2 given array integ shift number left right place maintain order number given array order number given array input 10 7 5 9 12 15 output 5 12 10 7 9 15 3 find sum node child minimum level 
+return 1 root null input root tree pass function 5 2 6 7 3 9 4 8 3 output 14 7 3 4 around 65 student select round2 round 2 group flier around 45 min take n polynomi input write function sort p add p1 p2 sub p1 p2 multipli p1 p2 implement sort function accord indic polynomi function optim space time around 28 student got select technic interview round 3 technic interview around 40 45 min 1 tell 2 cours done 
+3 suppos detail stock market day price given earn profit buy stock cheaper amount sell write program find maximum profit could attain use one loopo n time 1 space input day 1 2 3 4 5 6 7 price 60 10 5 12 8 40 9 output 35 40 5 4 differ process thread 
+5 suppos sort array given array rotat k unit find k write program logn time input 5 6 7 1 2 3 4 output 3 3 rotat happen round 4 hr interview around 30 min skype 1 tell 2 previou intern experi detail work assign 3 cours done favourit cours 4 explain sort algorithm decid one better 5 project done 6 languag use 
+7 difficult task project 8 implement librari book json data field need stuff like 9 microsoft think elig 10 goal thing would like achiev futur overal experi nice 
+interview friendli 
+thank gfg 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

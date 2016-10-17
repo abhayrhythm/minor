@@ -1,0 +1,33 @@
+given n job everi job repres follow three element 
+start time finish time profit valu associ find maximum profit subset job two job subset overlap 
+exampl input number job n 4 job detail start time finish time profit job 1 1 2 50 job 2 3 5 20 job 3 6 19 100 job 4 2 100 200 output maximum profit 250 get maximum profit schedul job 1 4 note longer schedul possibl job 1 2 3 profit schedul 20 50 100 less 250 simpl version problem discuss everi job profit valu 
+greedi strategi activ select work longer schedul may smaller profit valu 
+problem solv use follow recurs solut 
+1 first sort job accord finish time 
+2 appli follow recurs process 
+arr array n job findmaximumprofit arr n n 1 return arr 0 b return maximum follow two profit 
+maximum profit exclud current job e findmaximumprofit arr n 1 ii maximum profit includ current job find profit includ current job 
+idea find latest job current job sort array conflict current job arr n 1 
+find job recur job till job add profit current job result 
+exampl job 1 latest non conflict job 4 job 2 latest non conflict job 3 
+follow c implement naiv recurs method 
+c program weight job schedul use naiv recurs method includ iostream includ algorithm use namespac std job start time finish time profit 
+struct job int start finish profit util function use sort event accord finish time bool jobcomparataor job s1 job s2 return s1 finish s2 finish find latest job sort array conflict job 
+compat job return 1 int latestnonconflict job arr int int j 1 j 0 j arr j finish arr 1 start return j return 1 recurs function return maximum possibl profit given array job 
+array job must sort accord finish time 
+int findmaxprofitrec job arr int n base case n 1 return arr n 1 profit find profit current job inclued int inclprof arr n 1 profit int latestnonconflict arr n 1 inclprof findmaxprofitrec arr 1 find profit current job exclud int exclprof findmaxprofitrec arr n 1 return max inclprof exclprof main function return maximum possibl profit given array job int findmaxprofit job arr int n sort job accord finish time sort arr arr n jobcomparataor return findmaxprofitrec arr n driver program int main job arr 3 10 20 1 2 50 6 19 100 2 100 200 int n sizeof arr sizeof arr 0 cout optim profit findmaxprofit arr n return 0 output optim profit 250 solut may contain mani overlap subproblem 
+exampl lastnonconflict alway return previou job findmaxprofitrec arr n 1 call twice time complex becom n 2n 
+anoth exampl lastnonconflict return previou previou job two recurs call n 2 n 1 
+exampl case recurs becom fibonacci number 
+problem properti dynam program optim substructur overlap subproblem 
+like dynam program problem solv problem make tabl store solut subproblem 
+c implement base dynam program 
+c program weight job schedul use dynam program 
+includ iostream includ algorithm use namespac std job start time finish time profit 
+struct job int start finish profit util function use sort event accord finish time bool jobcomparataor job s1 job s2 return s1 finish s2 finish find latest job sort array conflict job int latestnonconflict job arr int int j 1 j 0 j arr j finish arr start return j return 1 main function return maximum possibl profit given array job int findmaxprofit job arr int n sort job accord finish time sort arr arr n jobcomparataor creat array store solut subproblem 
+tabl store profit job till arr includ arr int tabl new int n tabl 0 arr 0 profit fill entri use recurs properti int 1 n find profit includ current job int inclprof arr profit int l latestnonconflict arr l 1 inclprof tabl l store maximum includ exclud tabl max inclprof tabl 1 store result free dynam memori alloc tabl int result tabl n 1 delet tabl return result driver program int main job arr 3 10 20 1 2 50 6 19 100 2 100 200 int n sizeof arr sizeof arr 0 cout optim profit findmaxprofit arr n return 0 output optim profit 250 time complex dynam program solut n2 
+note solut optim nlogn use binari search latestnonconflict instead linear search 
+thank garvit suggest optim 
+pleas refer post detail 
+weight job schedul n log n time refer http cours cs washington edu cours cse521 13wi slide 06dp sched pdf articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

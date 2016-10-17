@@ -1,0 +1,4 @@
+memori leak occur programm creat memori heap forget delet 
+memori leak particularli seriou issu program like daemon server definit never termin 
+function memori leak includ stdlib h void f int ptr int malloc sizeof int work return return without free ptr avoid memori leak memori alloc heap alway freed longer need 
+function without memori leak includ stdlib h void f int ptr int malloc sizeof int work free ptr return adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

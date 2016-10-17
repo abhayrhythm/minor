@@ -1,0 +1,13 @@
+given string find possibl palindrom partit given string 
+exampl strongli recommend minim browser tri first 
+note problem differ palindrom partit problem task find partit minimum cut input string 
+need print possibl partit 
+idea go everi substr start first charact check palindrom 
+ye add substr solut recur remain part 
+complet algorithm 
+c implement idea c c program print palindrom partit given string includ bit stdc h use namespac std util function check str palindroem bool ispalindrom string str int low int high low high str low str high return fals low high return true recurs function find palindrom partit str start n 1 allpart vector vector string 
+everi vector insid store partit currpart vector string store current partit void allpalpartutil vector vector string allpart vector string currpart int start int n string str start reach len start n allpart push_back currpart return pick possibl end point substr int start n substr str start palindrom ispalindrom str start add substr result currpart push_back str substr start start 1 recur remain remain substr allpalpartutil allpart currpart 1 n str remov substr str start current partit currpart pop_back function print possibl palindrom partit str 
+mainli creat vector call allpalpartutil void allpalpartit string str int n str length store palindrom partit vector vector string allpart store current palindrom partit vector string currpart call recurs function gener partiion store allpart allpalpartutil allpart currpart 0 n str print partit gener call int 0 allpart size int j 0 j allpart size j cout allpart j cout n driver program int main string str nitin allpalpartit str return 0 python n 2 time 1 space program find longest palindrom substr function print longest palindrom substr lp str 
+also return length longest palindrom def longestpalsubstr string maxlength 1 start 0 length len string low 0 high 0 one one consid everi charact center point even length palindrom xrang 1 length find longest even length palindrom center point 1 low 1 high low 0 high length string low string high high low 1 maxlength start low maxlength high low 1 low 1 high 1 find longest odd length palindrom center point low 1 high 1 low 0 high length string low string high high low 1 maxlength start low maxlength high low 1 low 1 high 1 print longest palindrom substr print string start start maxlength return maxlength driver program test function string forgeeksskeegfor print length str longestpalsubstr string code contribut bhavya jain output n n n iti n nitin articl contribut ekta goel 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

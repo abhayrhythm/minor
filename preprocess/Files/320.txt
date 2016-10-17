@@ -1,0 +1,116 @@
+
+Given a dictionary, and two words ‘start’ and ‘target’ (both of same length). Find length of the smallest chain from ‘start’ to ‘target’ if it exists, such that adjacent words in the chain only differ by one character and each word in the chain is a valid word i.e., it exists in the dictionary. It may be assumed that the ‘target’ word exists in dictionary and length of all dictionary words is same.
+Example:
+Input:  Dictionary = {POON, PLEE, SAME, POIE, PLEA, PLIE, POIN}
+             start = TOON
+             target = PLEA
+Output: 7
+Explanation: TOON - POON - POIN - POIE - PLIE - PLEE - PLEA
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use BFS. We start from the given start word, traverse all words that adjacent (differ by one character) to it and keep doing so until we find the target word or we have traversed all words.
+Below is C++ implementation of above idea.
+
+// C++ program to find length of the shortest chain
+// transformation from source to target
+#include<bits/stdc++.h>
+using namespace std;
+
+// To check if strings differ by exactly one character
+bool isadjacent(string& a, string& b)
+{
+    int count = 0;  // to store count of differences
+    int n = a.length();
+
+    // Iterate through all characters and return false
+    // if there are more than one mismatching characters
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] != b[i]) count++;
+        if (count > 1) return false;
+    }
+    return count == 1 ? true : false;
+}
+
+// A queue item to store word and minimum chain length
+// to reach the word.
+struct QItem
+{
+    string word;
+    int len;
+};
+
+// Returns length of shortest chain to reach 'target' from 'start'
+// using minimum number of adjacent moves.  D is dictionary
+int shortestChainLen(string& start, string& target, set<string> &D)
+{
+    // Create a queue for BFS and insert 'start' as source vertex
+    queue<QItem> Q;
+    QItem item = {start, 1};  // Chain length for start word is 1
+    Q.push(item);
+
+    // While queue is not empty
+    while (!Q.empty())
+    {
+        // Take the front word
+        QItem curr = Q.front();
+        Q.pop();
+
+        // Go through all words of dictionary
+        for (set<string>::iterator it = D.begin(); it != D.end(); it++)
+        {
+            // Process a dictionary word if it is adjacent to current
+            // word (or vertex) of BFS
+            string temp = *it;
+            if (isadjacent(curr.word, temp))
+            {
+                // Add the dictionary word to Q
+                item.word = temp;
+                item.len = curr.len + 1;
+                Q.push(item);
+
+                // Remove from dictionary so that this word is not
+                // processed again.  This is like marking visited
+                D.erase(temp);
+
+                // If we reached target
+                if (temp == target)
+                  return item.len;
+            }
+        }
+    }
+    return 0;
+}
+
+// Driver program
+int main()
+{
+    // make dictionary
+    set<string> D;
+    D.insert("poon");
+    D.insert("plee");
+    D.insert("same");
+    D.insert("poie");
+    D.insert("plie");
+    D.insert("poin");
+    D.insert("plea");
+    string start = "toon";
+    string target = "plea";
+    cout << "Length of shortest chain is: " 
+         << shortestChainLen(start, target, D); 
+    return 0; 
+} 
+Output:
+Length of shortest chain is: 7
+Time Complexity of the above code is O(n²m) where n is the number of entries originally in the dictionary and m is the size of the string
+
+Thanks to Gaurav Ahirwar and Rajnish Kumar Jha for above solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

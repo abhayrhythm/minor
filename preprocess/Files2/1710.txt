@@ -1,0 +1,34 @@
+vertex cover undirect graph subset vertic everi edg u v graph either u v vertex cover 
+may lot vertex cover possibl graph 
+problem find size minimum size vertex cover cardin vertex cover minimum cardin undirect connect graph v vertic edg 
+exampl input v 6 e 6 6 1 5 3 2 4 output minimum vertex cover size 2 consid subset vertic 1 2 everi edg graph either incid vertex 1 2 henc minimum vertex cover 1 2 size 2 input v 6 e 7 2 4 6 1 3 5 output minimum vertex cover size 3 consid subset vertic 2 3 4 everi edg graph either incid vertex 2 3 4 henc minimum size vertex cover 3 method 1 naiv check e v time given subset vertic vertex cover use follow algorithm 
+gener 2v subset vertic graph follow everi subset 
+1 edges_cov 0 2 vertex current subset 3 edg emerg current vertex 4 edg alreadi mark visit 5 mark edg visit 6 edges_cov 7 edges_cov equal total number edg 8 return size current subset upper bound time complex solut e v 2v method 2 binari search gener 2v subset first gener vcv subset vc v 1 subset upto vc0 subset 2v vcv vc v 1 vc1 vc0 
+object find minimum k least one subset size k amongst vck subset vertex cover know minimum size vertex cover size k exist vertex cover size k vertex cover size k 1 k 2 k 3 n let imagin boolean array size n call iscov 
+answer question vertex cover size x exist ye put 1 xth posit otherwis 0 
+array iscov look like 1 2 3 
+
+
+k 
+
+
+n 0 0 0 
+
+
+1 
+
+
+1 array sort henc binari searchabl index k 1 everi index k inclus 1 k answer 
+appli binari search find minimum size vertex set cover edg problem equival find last 1 iscov 
+problem gener subset given size 
+idea use gosper hack 
+gosper hack 
+gosper hack techniqu get next number number bit set 
+set first x bit right gener next number x bit set number less 2v 
+way gener vcx number x bit set 
+int set 1 k 1 int limit 1 v set limit stuff current set dostuff set gosper hack int c set set int r set c set r set 2 c r sourc stackexchang use gosper hack gener subset size x 0 x v check whether 1 0 index x iscov array 
+c program find size minimum vertex cover use binari search includ bit stdc h defin maxn 25 use namespac std global array store graph note sinc array global element 0 initi bool gr maxn maxn return true possibl subset size k vertex cover bool iscov int v int k int e set first k bit high initi int set 1 k 1 int limit 1 v mark edg cover subset size k bool vi maxn maxn set limit reset visit array everi subset vertic memset vi 0 sizeof vi set counter number edg cover subset vertic zero int cnt 0 select vertex cover indic set bit high int j 1 v 1 j limit j j 1 v set j mark edg emerg vertex visit int k 1 k v k gr v k vi v k vi v k 1 vi k v 1 cnt current subset cover edg cnt e return true gener previou combin k bit high set set 1 last bit high set int c set set int r set c set r set 2 c r return fals return answer graph store gr int findmincov int n int binari search answer int left 1 right n right left int mid left right 1 iscov n mid fals left mid 1 els right mid end loop left right equal loop exit minimum size vertex cover left right return left insert edg graph void insertedg int u int v gr u v 1 gr v u 1 undirect graph driver code int main 6 1 5 vertex cover 1 2 3 2 4 int v 6 e 6 insertedg 1 2 insertedg 2 3 insertedg 1 3 insertedg 1 4 insertedg 1 5 insertedg 1 6 cout minimum size vertex cover findmincov v e endl let us creat anoth graph memset gr 0 sizeof gr 2 4 6 1 vertex cover 2 3 4 3 5 v 6 e 7 insertedg 1 2 insertedg 1 3 insertedg 2 3 insertedg 2 4 insertedg 3 5 insertedg 4 5 insertedg 4 6 cout minimum size vertex cover findmincov v e endl return 0 output minimum size vertex cover 2 minimum size vertex cover 3 conclus time complex e vcv 2 vcv 4 vcv 8 upto vck term log v worst case 
+note gosper hack work upto v 31 take long long int instead int work upto v 63 articl contribut saumy malhotra like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

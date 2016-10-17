@@ -1,0 +1,68 @@
+
+There can be some instances where you need to return multiple values (may be of different data types ) while solving a problem. One method to do the same is by using pointers, structures or global variables, already discussed here
+There is another interesting method to do the same without using the above methods,  using tuples (for returning multiple values ) and pair (for two values).
+We can declare the function with return type as pair or tuple (whichever required) and can pack the values to be returned and return the packed set of values. The returned values can be unpacked in the calling function.
+Tuple
+
+A tuple is an object capable to hold a collection of elements where each element can be of a different type.
+Class template std::tuple is a fixed-size collection of heterogeneous values
+
+Pair
+
+This class couples together a pair of values, which may be of different types
+A pair is a specific case of a std::tuple with two elements
+
+Note : Tuple can also be used to return two values instead of using pair .
+
+#include<bits/stdc++.h>
+using namespace std;
+
+// A Method that returns multiple values using
+// tuple in C++.
+tuple<int, int, char> foo(int n1, int n2)
+{
+    // Packing values to return a tuple
+    return make_tuple(n2, n1, 'a');             
+}
+
+// A Method returns a pair of values using pair
+std::pair<int, int> foo1(int num1, int num2)
+{
+    // Packing two values to return a pair 
+    return std::make_pair(num2, num1);            
+}
+
+int main()
+{
+    int a,b;
+    char cc;
+    
+    // Unpack the elements returned by foo
+    tie(a, b, cc) = foo(5, 10);      
+    
+    // Storing  returned values in a pair 
+    pair<int, int> p = foo1(5,2);  
+    
+    cout << "Values returned by tuple: ";
+    cout << a << " " << b << " " << cc << endl;
+    
+    cout << "Values returned by Pair: ";
+    cout << p.first << " " << p.second;
+    return 0;
+}
+
+Output:
+Values returned by tuple: 10 5 a
+Values returned by Pair: 2 5
+
+This article is contributed by Mayank Rawat. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

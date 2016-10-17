@@ -1,0 +1,29 @@
+given integ n write function return count trail zero n 
+exampl input n 5 output 1 factori 5 20 one trail 0 input n 20 output 4 factori 20 2432902008176640000 4 trail zero 
+input n 100 output 24 strongli recommend click practic move solut 
+simpl method first calcul factori n count trail 0s result count trail 0s repeatedli divid factori 10 till remaind 0 
+method caus overflow slightli bigger number factori number big number see factori 20 given exampl 
+idea consid prime factor factori n trail zero alway produc prime factor 2 5 count number 5s 2s task done 
+consid follow exampl 
+n 5 one 5 3 2s prime factor 5 
+2 2 2 3 5 
+count trail 0s 1 n 11 two 5s three 2s prime factor 11 
+2 8 34 52 7 
+count trail 0s 2 easili observ number 2s prime factor alway equal number 5s 
+count 5s prime factor done 
+count total number 5s prime factor n 
+simpl way calcul floor n 5 
+exampl 7 
+one 5 10 
+two 5s 
+done yet one thing consid 
+number like 25 125 etc one 5 exampl consid 28 get one extra 5 number 0s becom 6 handl simpl first divid n 5 remov singl 5s divid 25 remov extra 5s 
+follow summar formula count trail 0s 
+trail 0s n 
+count 5s prime factor n 
+floor n 5 floor n 25 floor n 125 follow c program base formula 
+c program count trail 0s n 
+includ iostream use namespac std function return trail 0s factori n int findtrailingzero int n initi result int count 0 keep divid n power 5 updat count int 5 n 1 5 count n return count driver program test function int main int n 100 cout count trail 0s 100 
+findtrailingzero n return 0 output count trail 0s 100 
+24 articl contribut rahul jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

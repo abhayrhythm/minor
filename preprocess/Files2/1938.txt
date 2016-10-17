@@ -1,0 +1,17 @@
+function base class function name deriv class base class function call deriv class object 
+interest question experi predict output follow c program 
+includ iostream use namespac std class base public int f int cout f int return 3 class deriv public base public doubl f doubl cout f doubl return 3 3 int main deriv dp new deriv cout dp f 3 n cout dp f 3 3 n delet dp return 0 output program f doubl 6 3 f doubl 6 6 instead suppos output f int 6 f doubl 6 6 overload work deriv class c program languag 
+overload resolut base deriv 
+compil look scope deriv find singl function doubl f doubl call 
+never disturb enclos scope base 
+c overload across scope deriv class scope except gener rule 
+see exampl refer technic faq www stroustrup com consid java version program class base public int f int system print f int return 3 class deriv extend base public doubl f doubl system print f doubl return 3 3 class myprogram3 public static void main string arg deriv obj new deriv system println obj f 3 system println obj f 3 3 output program f int 6 f doubl 6 6 java overload work across scope contrari c 
+java compil determin correct version overload method execut compil time base upon type argument use call method paramet overload method class receiv valu argument use call execut overload method 
+final let us tri output follow c program use system class base public int f int consol write f int return 3 class deriv base public doubl f doubl consol write f doubl return 3 3 class myprogram static void main string arg deriv obj new deriv consol writelin obj f 3 consol writelin obj f 3 3 consol readkey write line use visual studio note consol readkey use halt consol 
+similar getch c c 
+output program f doubl 6 3 f doubl 6 6 instead assum output f int 6 f doubl 6 6 reason explain c program 
+like c overload resolut class base class deriv 
+c overload across scope deriv class scope except gener rule 
+c c design much closer c accord ander hejlsberg creator c languag 
+articl contribut pravasi meet 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

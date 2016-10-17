@@ -1,0 +1,127 @@
+
+Given a Directed Acyclic Graph (DAG), find Topological Sort of the graph.
+Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering. Topological Sorting for a graph is not possible if the graph is not a DAG.
+For example, a topological sorting of the following graph is “5 4 2 3 1 0″. There can be more than one topological sorting for a graph. For example, another topological sorting of the following graph is “4 5 2 3 1 0″.
+
+Please note that the first vertex in topological sorting is always a vertex with in-degree as 0 (a vertex with no incoming edges). For above graph, vertex 4 and 5 have no incoming edges.
+
+
+We have already discussed a DFS-based algorithm using stack and Kahn’s Algorithm for Topological Sorting. We have also discussed how to print all topological sorts of the DAG here. In this post, another DFS based approach is discussed for finding Topological sort of a graph by introducing concept of arrival and departure time of a vertex in DFS.
+What is Arrival Time & Departure Time of Vertices in DFS? 
+In DFS, Arrival Time is the time at which the vertex was explored for the first time and Departure Time is the time at which we have explored all the neighbors of the vertex and we are ready to backtrack.
+How to find Topological Sort of a graph using departure time?
+To find Topological Sort of a graph, we run DFS starting from all unvisited vertices one by one. For any vertex, before exploring any  of its neighbors, we note the arrival time of that vertex and after exploring all the neighbors of the vertex, we note its departure time. Please note only departure time is needed to find Topological Sort of a graph, so we can skip arrival time of vertex. Finally, after we have visited all the vertices of the graph, we print the vertices in order of their decreasing departure time which is our desired Topological Order of Vertices.
+Below is C++ implementation of above idea –
+
+// A C++ program to print topological sorting of a DAG
+#include <bits/stdc++.h>
+using namespace std;
+
+// Graph class represents a directed graph using adjacency 
+// list representation
+class Graph
+{
+    int V; // No. of vertices
+    // Pointer to an array containing adjacency lists
+    list<int>* adj;
+public:
+    Graph(int); // Constructor
+    ~Graph();    // Destructor
+
+    // function to add an edge to graph
+    void addEdge(int, int);
+
+    // The function to do DFS traversal
+    void DFS(int, vector<bool> &, vector<int> &, int &);
+
+    // The function to do Topological Sort.
+    void topologicalSort();
+};
+
+Graph::Graph(int V)
+{
+    this->V = V;
+    adj = new list<int>[V];
+}
+
+Graph::~Graph()
+{
+    delete[] adj;
+}
+
+void Graph::addEdge(int v, int w)
+{
+    adj[v].push_back(w);    // Add w to v's list.
+}
+
+// The function to do DFS() and stores departure time 
+// of all vertex
+void Graph::DFS(int v, vector<bool> &visited, 
+                vector<int> &departure, int &time)
+{
+    visited[v] = true;
+    // time++;    // arrival time of vertex v
+
+    for(int i : adj[v])
+        if(!visited[i])
+            DFS(i, visited, departure, time);
+
+    // set departure time of vertex v
+    departure[++time] = v;
+}
+
+// The function to do Topological Sort. It uses DFS().
+void Graph::topologicalSort()
+{
+    // vector to store departure time of vertex.
+    vector<int> departure(V, -1);
+
+    // Mark all the vertices as not visited
+    vector<bool> visited(V, false);
+    int time = -1;
+
+    // perform DFS on all unvisited vertices
+    for(int i = 0; i < V; i++)
+        if(!visited[i])
+            DFS(i, visited, departure, time);
+    
+    // Print vertices in topological order
+    for(int i = V - 1; i >= 0; i--)
+        cout << departure[i] << " ";
+}
+
+// Driver program to test above functions
+int main()
+{
+    // Create a graph given in the above diagram
+    Graph g(6);
+    g.addEdge(5, 2);
+    g.addEdge(5, 0);
+    g.addEdge(4, 0);
+    g.addEdge(4, 1);
+    g.addEdge(2, 3);
+    g.addEdge(3, 1);
+
+    cout << "Topological Sort of the given graph is \n";
+    g.topologicalSort();
+
+    return 0;
+}
+
+Output:
+
+Topological Sort of the given graph is 
+5 4 2 3 1 0 
+
+Time Complexity of above solution is O(V + E).
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

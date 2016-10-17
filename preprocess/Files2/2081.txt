@@ -1,0 +1,3 @@
+write copi constructor shallow copi ok c object pointer run time alloc resourc like file handl network connect etc shallow copi probabl suffici 
+therefor default copi constructor default assign oper default destructor ok need write 
+sourc http www fredosauru com note cpp oop condestructor copyconstructor html adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

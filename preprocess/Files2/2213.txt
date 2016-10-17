@@ -1,0 +1,4 @@
+write c function int addovf int result int int b overflow function place result sum b result return 0 otherwis return 1 solut cast long ad find detect overflow allow 
+method 1 overflow sign two number sign sum opposit sign number 
+1 calcul sum 2 number posit sum neg return 1 els number neg sum posit return 1 els return 0 includ stdio h includ stdlib h take pointer result two number argument 
+overflow function place result sum b result return 0 otherwis return 1 int addovf int result int int b result b 0 b 0 result 0 return 1 0 b 0 result 0 return 1 return 0 int main int re int malloc sizeof int int x 2147483640 int 10 printf addovf re x printf n re getchar return 0 time complex 1 space complex 1 

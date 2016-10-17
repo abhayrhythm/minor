@@ -1,0 +1,9 @@
+delet deriv class object use pointer base class non virtual destructor result undefin behavior 
+correct situat base class defin virtual destructor 
+sourc http www securecod cert org confluenc display cplusplu oop34 cpp ensur proper destructor call polymorph object exampl follow program result undefin behavior 
+although output follow program may differ differ compil compil use dev cpp print follow 
+construct base construct deriv destruct base program without virtual destructor caus undefin behavior includ iostream use namespac std class base public base cout construct base n base cout destruct base n class deriv public base public deriv cout construct deriv n deriv cout destruct deriv n int main void deriv new deriv base b delet b getchar return 0 make base class destructor virtual guarante object deriv class destruct properli e base class deriv class destructor call 
+exampl follow program print construct base construct deriv destruct deriv destruct base program virtual destructor includ iostream use namespac std class base public base cout construct base n virtual base cout destruct base n class deriv public base public deriv cout construct deriv n deriv cout destruct deriv n int main void deriv new deriv base b delet b getchar return 0 guidelin time virtual function class immedi add virtual destructor even noth 
+way ensur surpris later 
+articl contribut rahul gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

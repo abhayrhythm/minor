@@ -1,0 +1,12 @@
+consid follow two definit main 
+int main return 0 int main void return 0 differ 
+c differ 
+definit work c also second definit void consid technic better clearli specifi main call without paramet 
+c function signatur specifi argument mean function call number paramet without paramet 
+exampl tri compil run follow two c program rememb save file c 
+note differ two signatur fun 
+program 1 compil run fine c c void fun int main void fun 10 gfg gq return 0 program compil run fine see follow program fail compil see program 2 fail compil c c void fun void int main void fun 10 gfg gq return 0 unlik c c program fail compil 
+c fun fun void 
+differ c int main call number argument int main void call without argument 
+although make differ time use int main void recommend practic c exercis predict output follow c program 
+question 1 includ stdio h int main static int 5 printf main 10 question 2 includ stdio h int main void static int 5 printf main 10 pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

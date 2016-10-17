@@ -1,0 +1,22 @@
+given matrix dimens n cell matrix valu 0 1 2 follow mean 0 empti cell 1 cell fresh orang 2 cell rotten orang determin minimum time requir orang becom rotten 
+rotten orang index j rot fresh orang index 1 j 1 j j 1 j 1 left right 
+imposs rot everi orang simpli return 1 exampl input arr c 2 1 0 2 1 1 0 1 2 1 1 0 0 2 1 output orang becom rotten 2 time frame 
+input arr c 2 1 0 2 1 0 0 1 2 1 1 0 0 2 1 output orang cannot rotten 
+sourc microsoft interview question strongli recommend minim browser tri first 
+idea user breadth first search 
+algorithm 
+1 creat empti q 
+2 find rotten orang enqueu q also enqueu delimit indic begin next time frame 
+3 q empti follow 3 delimit q reach dequeu orang queue rot adjac orang 
+rot adjac make sure time frame increment 
+time frame icnrement adjac orang 
+3 b dequeu old delimit enqueu new delimit 
+orang rotten previou time frame lie two delimit 
+c implement idea 
+c program find minimum time requir make orang rotten includ bit stdc h defin r 3 defin c 5 use namespac std function check whether cell valid invalid bool isvalid int int j return 0 j 0 r j c structur store coordin cell struct ele int x function check whether cell delimit 1 1 bool isdelim ele temp return temp x 1 temp 1 function check whether still fresh orang remain bool checkal int arr c int 0 r int j 0 j c j arr j 1 return true return fals function find possibl rot orang 
+possibl return minimum time requir rot otherwis return 1 int rotorang int arr c creat queue cell queue ele q ele temp int an 0 store cell rotten orang first time frame int 0 r int j 0 j c j arr j 2 temp x temp j q push temp separ rotten orang orang rotten due orang first time frame use delimit 1 1 temp x 1 temp 1 q push temp process grid rotten orang queue q empti flag use determin whether even singl fresh orang get rotten due rotten orang current time frame increas count requir time 
+bool flag fals process rotten orang current time frame 
+isdelim q front temp q front check right adjac cell rotten isvalid temp x 1 temp arr temp x 1 temp 1 first orang get rotten increas count set flag 
+flag an flag true make orang rotten arr temp x 1 temp 2 push adjac orang queue temp x q push temp temp x move back current cell check left adjac cell rotten isvalid temp x 1 temp arr temp x 1 temp 1 flag an flag true arr temp x 1 temp 2 temp x q push temp push cell queue temp x check top adjac cell rotten isvalid temp x temp 1 arr temp x temp 1 1 flag an flag true arr temp x temp 1 2 temp q push temp push cell queue temp check bottom adjac cell rotten isvalid temp x temp 1 arr temp x temp 1 1 flag an flag true arr temp x temp 1 2 temp q push temp push cell queue q pop pop delimit q pop orang rotten current frame separ rotten orang use delimit next frame process 
+q empti temp x 1 temp 1 q push temp queue empti rotten orang left process exit return 1 arrang could rot otherwis 1 return checkal arr 
+1 an drive program int main int arr c 2 1 0 2 1 1 0 1 2 1 1 0 0 2 1 int an rotorang arr an 1 cout orang cannot rot n els cout time requir orang rot an endl return 0 output time requir orang rot 2 thank gaurav ahirwar suggest solut pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

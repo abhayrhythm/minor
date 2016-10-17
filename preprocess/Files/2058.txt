@@ -1,0 +1,51 @@
+
+In C/C++, initialization of a multidimensional arrays can have left most dimension as optional.  Except the left most dimension, all other dimensions must be specified.
+
+For example, following program fails in compilation because two dimensions are not specified.
+
+#include<stdio.h>
+int main()
+{
+  int a[][][2] = { {{1, 2}, {3, 4}}, 
+                   {{5, 6}, {7, 8}}
+                 };  // error
+  printf("%d", sizeof(a)); 
+  getchar();
+  return 0;
+}
+
+Following 2 programs work without any error.
+
+// Program 1
+#include<stdio.h>
+int main()
+{
+  int a[][2] = {{1,2},{3,4}}; // Works
+  printf("%d", sizeof(a)); // prints 4*sizeof(int)
+  getchar();
+  return 0;
+}
+
+
+// Program 2
+#include<stdio.h>
+int main()
+{
+  int a[][2][2] = { {{1, 2}, {3, 4}}, 
+                     {{5, 6}, {7, 8}}
+                   }; // Works
+  printf("%d", sizeof(a)); // prints 8*sizeof(int)
+  getchar();
+  return 0;
+}
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

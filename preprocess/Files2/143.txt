@@ -1,0 +1,21 @@
+discuss backtrack knight tour problem set 1 let us discuss rat maze anoth exampl problem solv use backtrack 
+maze given n n binari matrix block sourc block upper left block e maze 0 0 destin block lower rightmost block e maze n 1 n 1 
+rat start sourc reach destin 
+rat move two direct forward 
+maze matrix 0 mean block dead end 1 mean block use path sourc destin 
+note simpl version typic maze problem 
+exampl complex version rat move 4 direct complex version limit number move 
+follow exampl maze 
+gray block dead end valu 0 
+follow binari matrix represent maze 
+1 0 0 0 1 1 0 1 0 1 0 0 1 1 1 1 follow maze highlight solut path 
+follow solut matrix output program input matrx 
+1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 enteri solut path mark 1 naiv algorithm naiv algorithm gener path sourc destin one one check gener path satisfi constraint 
+untri path gener next path path block 1 print path backtrackng algorithm destin reach print solut matrix els mark current cell solut matrix 1 b move forward horizont direct recurs check move lead solut 
+c move chosen step lead solut move check move lead solut 
+none solut work unmark cell 0 backtrack return fals 
+implement backtrack solut c c c c program solv rat maze problem use backtrack includ stdio h maze size defin n 4 bool solvemazeutil int maze n n int x int int sol n n util function print solut matrix sol n n void printsolut int sol n n int 0 n int j 0 j n j printf sol j printf n util function check x valid index n n maze bool issaf int maze n n int x int x outsid maze return fals x 0 x n 0 n maze x 1 return true return fals function solv maze problem use backtrack 
+mainli use solvemazeutil solv problem 
+return fals path possibl otherwis return true print path form 1s 
+pleas note may one solut function print one feasibl solut 
+bool solvemaz int maze n n int sol n n 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 solvemazeutil maze 0 0 sol fals printf solut exist return fals printsolut sol return true recurs util function solv maze problem bool solvemazeutil int maze n n int x int int sol n n x goal return true x n 1 n 1 sol x 1 return true check maze x valid issaf maze x true mark x part solut path sol x 1 move forward x direct solvemazeutil maze x 1 sol true return true move x direct give solut move direct solvemazeutil maze x 1 sol true return true none movement work backtrack unmark x part solut path sol x 0 return fals return fals driver program test function int main int maze n n 1 0 0 0 1 1 0 1 0 1 0 0 1 1 1 1 solvemaz maze return 0 

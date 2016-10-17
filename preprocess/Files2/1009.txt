@@ -1,0 +1,9 @@
+follow question ask gate cs exam 
+1 consid follow three c function pi int g void int x 10 return x p2 int g void int px px 10 return px p3 int g void int px px int malloc sizeof int px 10 return px three function like caus problem pointer 
+gate 2001 p3 b p1 p3 c p1 p2 p1 p2 p3 answer c eplain p1 pointer variabl x local variabl g g return pointer variabl 
+x may vanish g return x exist stack 
+x may becom invalid 
+p2 pointer variabl px assign valu without alloc memori 
+p3 work perfectli fine 
+memori alloc pointer variabl px use malloc 
+px exist heap exist remain memori even return g heap 

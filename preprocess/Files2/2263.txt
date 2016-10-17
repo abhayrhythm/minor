@@ -1,0 +1,21 @@
+given n set integ differ size 
+set may contain duplic also 
+find intersect set 
+element present multipl time set ad mani time result 
+exampl consid three set 1 2 2 3 4 2 2 3 5 6 1 3 2 2 6 
+intersect given set 2 2 3 follow effici approach solv problem 
+1 sort set 
+2 take smallest set insert element frequenc map 
+3 element map follow element present set ignor b find frequenc element set use binari search 
+less frequenc map updat frequenc c element found set add result 
+c implement approach 
+c program find intersect n set includ iostream includ vector includ algorithm includ map use namespac std main function receiv set set paramet return set contain intersect set vector int getintersect vector vector int set vector int result store reaultant set int smallsetind 0 initi index smallest set int minsiz set 0 size initi size smallest set sort set also find smallest set int 1 set size sort set sort set begin set end updat minsiz need minsiz set size minsiz set size smallsetind map int int elementsmap add element smallest set map alreadi present updat frequenc int 0 set smallsetind size elementsmap find set smallsetind elementsmap end elementsmap set smallsetind 1 els elementsmap set smallsetind iter map element see present remain set map int int iter elementsmap begin elementsmap end int elem first int freq second bool bfound true iter set int j 0 j set size j set smallest set binari search j smallsetind element found set find frequenc binary_search set j begin set j end elem int lind lower_bound set j begin set j end elem set j begin int rind upper_bound set j begin set j end elem set j begin updat minimum frequenc need rind lind freq freq rind lind element present set need proceed element 
+els bfound fals break element found set add result freq time bfound int k 0 k freq k result push_back elem return result util function print set element void printset vector int set int 0 set size cout set test case void testcase1 vector vector int set vector int set1 set1 push_back 1 set1 push_back 1 set1 push_back 2 set1 push_back 2 set1 push_back 5 set push_back set1 vector int set2 set2 push_back 1 set2 push_back 1 set2 push_back 4 set2 push_back 3 set2 push_back 5 set2 push_back 9 set push_back set2 vector int set3 set3 push_back 1 set3 push_back 1 set3 push_back 2 set3 push_back 3 set3 push_back 5 set3 push_back 6 set push_back set3 vector int r getintersect set printset r driver program test function int main testcase1 return 0 output 1 1 5 time complex let n list averag size list 
+sort phase take n log time sort n list averag length 
+search phase take n log time 
+element list search n list log time 
+overal time complex n log 
+auxiliari space space store map 
+articl compil ravi chandra enaganti 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,70 @@
+person piec work n day one day person 1 n work 
+convers person 1 n work one day person requir n day finish work 
+question comparison work effici use formula m1 d1 h1 e1 w1 m2 d2 h2 e2 w2 number worker number day h number work hour day e effici worker w unit work case one type worker formula modifi mi ei d1 h1 w1 mj ej d2 h2 w2 j may vari per number worker 
+person n time effici person b ratio work done b one day ratio effici n 1 ratio time taken b 1 n total work 
+day x effici group peopl given salari job togeth individu salari ratio individu effici work number day 
+otherwis salari divid ratio unit work done 
+topic way attempt question decid factor get accur answer less time 
+shall tri cover type question ask topic detail explan way attempt 
+sampl problem question 1 complet work person take 10 day anoth person b take 15 day 
+work togeth much time complet work 
+solut method 1 one day work effici 1 10 b one day work effici 1 15 total work done one day 1 10 1 15 1 6 therefor work togeth complet total work 6 day 
+method 2 short method let total work lcm 10 15 30 unit effici 30 10 3 unit day b effici 30 15 2 unit day combin effici b 3 2 5 unit day one day b work togeth finish 5 unit work given 30 unit 
+therefor time taken complet total work 30 5 6 day question 2 two friend b work togeth complet assign 4 day 
+assign alon 12 day mani day b alon assign 
+solut let total work lcm 4 12 12 effici 12 12 1 unit day combin effici b 12 4 3 unit day therefor b effici combin effici b effici 2 unit day time taken b complet assign alon 12 2 6 day question 3 three peopl b c work factori 
+b work togeth finish task 18 day wherea b c work togeth task 24 day c work togeth 36 day 
+mani day b c finish task work togeth work separ 
+solut let total work lcm 18 24 36 72 combin effici b 72 18 4 unit day combin effici b c 72 24 3 unit day combin effici c 72 36 2 unit day sum effici 2 x combin effici b c 9 unit day combin effici b c 4 5 unit day therefor time requir complet task b c work togeth 72 4 5 16 day also find individu time need find individu effici 
+subtract combin effici two combin effici three 
+effici combin effici b c combin effici b c 4 5 3 1 5 unit day effici b combin effici b c combin effici c 4 5 2 2 5 unit day effici c combin effici b c combin effici b 4 5 4 0 5 unit day therefor time requir complet task alon 72 1 5 48 day time requir b complet task alon 72 2 5 28 8 day time requir c complet task alon 72 0 5 144 day question 4 two friend b employ piec work 18 day 
+twice effici b find time taken friend work alon 
+solut let effici b 1 unit day 
+effici 2 unit day 
+combin effici b 2 1 3 unit day total work 
+day x effici 18 day x 3 unit day 54 unit therefor time requir complet work alon 54 2 27 day time requir b complet work alon 54 1 54 day question 5 two worker b employ cleanup work 
+clean whole area 800 day 
+work 100 day leav work 
+b work alon finish remain work 350 day 
+b would work whole time much time would taken complet work 
+solut let total work 800 unit 
+effici 800 800 1 unit day work done 100 day 100 unit remain work 700 unit leav b alon complet remain 700 unit work 350 day 
+effici b 700 350 2 unit day therefor combin effici b 3 unit day time taken complet work b would work whole time 800 3 266 667 day question 6 three worker b c given job paint room 
+end day given rs 
+800 collect wage 
+work alon work would complet 6 day 
+b work alon work would complet 8 day c work alon work would complet 24 day 
+find individu daili wage 
+solut let total work lcm 6 8 24 24 unit 
+effici 24 6 4 unit day b effici 24 8 3 unit day c effici 24 24 1 unit day know ratio effici ratio wage ratio daili wage b c 4 3 1 also given get rs 
+800 collect end day 
+therefor daili wage rs 
+400 b daili wage rs 
+300 c daili wage rs 
+100 question 7 person piec work 9 day wherea anoth person b piec work 12 day 
+busi schedul decid work one day altern 
+b first one start find time requir work complet 
+consid part day use whole day count 
+solut let total work lcm 9 12 36 unit effici 36 9 4 unit day b effici 36 12 3 unit day sinc work altern would complet 7 unit work two day 
+5 cycl altern work e 10 day would complet 35 unit work 
+work left 1 unit b would less one day take account one full day even work goe part day 
+therefor time requir work complet 10 1 11 day question 8 45 men dig canal 16 day 
+six day start work 30 men join 
+mani day remain work complet 
+solut let effici man 1 unit day 
+let total work 45 x 16 720 unit work done 6 day 45 men 45 x 6 270 unit remain work 720 270 450 unit 75 men effici 1 unit day complet work 
+thu day requir complet work 450 75 6 day altern method use formula comparison work effici m1 d1 h1 e1 w1 m2 d2 h2 e2 w2 m1 45 initi number men d1 6 number day 45 men work w1 270 work done 45 men 6 day e1 e2 1 effici man assum h1 h2 number work hour day m2 75 number men 6 day d2 number day 75 men work number day requir w2 270 work done 75 men 45 x 6 x 1 270 75 x d2 x 1 450 therefor d2 6 day henc 6 day requir complet work 
+question 9 2 men 3 women work togeth finish job 10 day 
+take 8 day finish job 3 men 2 women employ 
+2 men 1 woman employ find time would take complet job 
+solut need use summat formula comparison work effici mi ei d1 h1 w1 mj ej d2 h2 w2 mi ei 2m 3w effici man w effici woman mj ej 3m 2w d1 10 d2 8 also h1 h2 w1 w2 2m 3w x 10 3m 2w x 8 w 7 2 assum constant proportion k 
+7k w 2k appli summat formula lh given set valu rh set valu correspond 2 men 1 woman 
+therefor 2m 3w x 10 2m 1w x number day requir complet work 2 men 1 woman employ 
+20k x 10 16k x 12 5 day question 10 complet job alon take 2 day b togeth 
+b alon take 18 day b togeth 
+find time taken work togeth 
+solut let time requir b work togeth n day 
+alon take n 2 day b alon take n 18 day work done one day alon 1 n 2 work done b one day alon 1 n 18 total work done b one day alon 1 n 2 1 n 18 total work done one day b work togeth 1 n therefor 1 n 2 1 n 18 1 n 2n 20 n 2 x n 18 1 n 2n2 20n n2 20n 36 n2 36 n 6 sinc n number day cannot neg therefor time taken complet job b work togeth 6 day short method type question simpli n2 d1 x d2 d1 addit day requir d2 addit day requir b 
+note short cut applic two peopl work job n2 2 x 18 36 n 6 therefor time taken complet job b work togeth 6 day quiz work wage articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

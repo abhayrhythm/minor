@@ -1,0 +1,12 @@
+write program valid ipv4 address 
+accord wikipedia ipv4 address canon repres dot decim notat consist four decim number rang 0 255 separ dot e g 172 16 254 1 follow step check whether given string valid ipv4 address step 1 pars string delimit use strtok function 
+e g 
+ptr strtok str delim step 2 ptr contain charact digit return 0 b convert ptr decim number say num c num rang 0 255 return 0 num rang 0 255 ptr non null increment dot_count 1 e ptr null goto step 3 els goto step 1 step 3 dot_count 3 return 0 els return 1 
+program check given string valid ipv4 address includ stdio h includ stdlib h includ string h defin delim 
+return 1 string contain digit els return 0 int valid_digit char ip_str ip_str ip_str 0 ip_str 9 ip_str els return 0 return 1 return 1 ip string valid els return 0 int is_valid_ip char ip_str int num dot 0 char ptr ip_str null return 0 see follow link strtok http pub opengroup org onlinepub 009695399 function strtok_r html ptr strtok ip_str delim ptr null return 0 ptr pars string must contain digit valid_digit ptr return 0 num atoi ptr check valid ip num 0 num 255 pars remain string ptr strtok null delim ptr null dot els return 0 valid ip string must contain 3 dot dot 3 return 0 return 1 driver program test function int main char ip1 128 0 0 1 char ip2 125 16 100 1 char ip3 125 512 100 1 char ip4 125 512 100 abc is_valid_ip ip1 
+printf valid n printf valid n is_valid_ip ip2 
+printf valid n printf valid n is_valid_ip ip3 
+printf valid n printf valid n is_valid_ip ip4 
+printf valid n printf valid n return 0 output valid valid valid valid articl compil narendra kangralkar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

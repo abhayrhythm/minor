@@ -1,0 +1,86 @@
+
+scanf family functions support scanset specifiers which are represented by %[]. Inside scanset, we can specify single character or range of characters. While processing scanset, scanf will process only those characters which are part of scanset. We can define scanset by putting characters inside squre brackets. Please note that the scansets are case-sensitive.
+Let us see with example.  Below example will store only capital letters to character array ‘str’, any other character will not be stored inside character array.
+
+/* A simple scanset example */
+#include <stdio.h>
+
+int main(void)
+{
+    char str[128];
+
+    printf("Enter a string: ");
+    scanf("%[A-Z]s", str);
+
+    printf("You entered: %s\n", str);
+
+    return 0;
+}
+
+
+  [root@centos-6 C]# ./scan-set 
+  Enter a string: GEEKs_for_geeks
+  You entered: GEEK
+
+If first character of scanset is ‘^’, then the specifier will stop reading after first occurence of that character. For example, given below scanset will read all characters but stops after first occurence of ‘o’
+
+	scanf("%[^o]s", str);
+
+Let us see with example.
+
+/* Another scanset example with ^ */
+#include <stdio.h>
+
+int main(void)
+{
+    char str[128];
+
+    printf("Enter a string: ");
+    scanf("%[^o]s", str);
+
+    printf("You entered: %s\n", str);
+
+    return 0;
+}
+
+
+  [root@centos-6 C]# ./scan-set 
+  Enter a string: http://geeks for geeks
+  You entered: http://geeks f
+  [root@centos-6 C]# 
+
+Let us implement gets() function by using scan set. gets() fucntion reads a line from stdin into the buffer pointed to by s until either a terminating newline or EOF found.
+
+/* implementation of gets() function using scanset */
+#include <stdio.h>
+
+int main(void)
+{
+    char str[128];
+
+    printf("Enter a string with spaces: ");
+    scanf("%[^\n]s", str);
+
+    printf("You entered: %s\n", str);
+
+    return 0;
+}
+
+
+  [root@centos-6 C]# ./gets 
+  Enter a string with spaces: Geeks For Geeks
+  You entered: Geeks For Geeks
+  [root@centos-6 C]# 
+
+As a side note, using gets() may not be a good indea in general. Check below note from Linux man page.
+Never  use  gets(). Because it is impossible to tell without knowing the data in advance how many characters gets() will read, and because gets() will continue to store characters past the end of the buffer, it is extremely dangerous to use. It has  been  used  to  break  computer security. Use fgets() instead. Also see this post.
+This article is compiled by “Narendra Kangralkar“ and reviewed by GeeksforGeeks team. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

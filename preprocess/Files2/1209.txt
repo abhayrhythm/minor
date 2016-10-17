@@ -1,0 +1,25 @@
+given string contain 0 1 wildcard charact gener binari string form replac wildcard charact 0 1 
+input str 1 
+0 101 output 10000101 10001101 10100101 10101101 11000101 11001101 11100101 11101101 method 1 use recurs pass index next charact recurs function 
+current charact wildcard charact replac 0 1 recurs remain charact 
+print string reach end 
+recurs c implement 
+recurs c program gener binari string form replac wildcard charact 0 1 includ iostream use namespac std recurs function gener binari string form replac wildcard charact 0 1 void print string str int index index str size cout str endl return str index 
+replac 
+0 recurs str index 0 print str index 1 replac 
+1 recurs str index 1 print str index 1 need backtrack string pass valu function els print str index 1 driver code test function int main string str 1 
+0 101 print str 0 return 0 output 10000101 10001101 10100101 10101101 11000101 11001101 11100101 11101101 method 2 use queue also achiev use iter 
+idea use queue 
+find posit first occurr wildcard charact input string replac 0 1 push string queue 
+pop next string queue repeat process till queue empti 
+wildcard charact left simpli print string 
+iter c implement use queue 
+iter c program gener binari string form replac wildcard charact 0 1 includ iostream includ queue use namespac std iter function gener binari string form replac wildcard charact 0 1 void print string str queue string q q push str q empti string str q front find posit first occurr wildcard size_t index str find 
+match found find return string npo index string npo replac 
+0 push string queue str index 0 q push str replac 
+1 push string queue str index 1 q push str els wildcard charact left print string 
+cout str endl q pop driver code test function int main string str 1 
+0 101 print str return 0 output 10000101 10001101 10100101 10101101 11000101 11001101 11100101 11101101 articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

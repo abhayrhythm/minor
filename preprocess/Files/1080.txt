@@ -1,0 +1,81 @@
+
+A sequence of n numbers (n < 3000) is called Jolly Jumper if the absolute values of the differences between the successive elements take on all possible values from 1 through n-1. The definition implies that any sequence of a single integer is a jolly jumper.
+Examples:
+
+Input: 1 4 2 3
+Output: True
+This sequence 1 4 2 3 is Jolly Jumper because
+the absolute differences are 3, 2, and 1.
+
+Input: 1 4 2 -1 6  
+Output: False
+The absolute differences are 3, 2, 3, 7. 
+This does not contain  all the  values from 1 
+through n-1. So, this sequence is not Jolly.
+
+Input: 11 7 4 2 1 6
+Output: True
+
+
+
+The idea is to maintain a boolean array to store set of absolute difference of successive elements.
+a) If absolute difference between two elements is more than n-1 or 0, return false.
+b) If an absolute difference repeated, then all absolute differences from 1 to n-1 can’t be present (Pigeon Hole Principle), return false.
+Below is C++ implementation based on above idea.
+
+// Program for Jolly Jumper Sequence
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function to check whether given sequence is
+// Jolly Jumper or not
+bool isJolly(int a[], int n)
+{
+    // Boolean vector to diffSet set of differences.
+    // The vector is initialized as false.
+    vector<bool> diffSet(n, false);
+
+    // Traverse all array elements
+    for (int i=0; i < n-1 ; i++)
+    {
+        // Find absolute difference between current two
+        int d = abs(a[i]-a[i+1]);
+
+        // If difference is out of range or repeated,
+        // return false.
+        if (d == 0 || d > n-1 || diffSet[d] == true)
+            return false;
+
+        // Set presence of d in set.
+        diffSet[d] = true;
+    }
+
+    return true;
+}
+
+// Driver Code
+int main()
+{
+    int a[] = {11, 7, 4, 2, 1, 6};
+    int n = sizeof(a)/ sizeof(a[0]);
+    isJolly(a, n)? cout << "Yes" : cout << "No";
+    return 0;
+}
+
+Output:
+Yes
+
+Time Complexity: O(n)
+References:
+http://users.csc.calpoly.edu/~jdalbey/301/Labs/JollyJumpers.html
+This article is contributed by Rahul Agrawal. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

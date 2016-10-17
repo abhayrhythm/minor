@@ -1,0 +1,25 @@
+given n citi distanc everi pair citi select k citi place warehous atm cloud server maximum distanc citi warehous atm cloud server minim 
+exampl consid follow four citi 0 1 2 3 distanc place 2 atm among 4 citi maximum distanc citi atm minim 
+polynomi time solut avail problem problem known np hard problem 
+polynomi time greedi approxim algorithm greedi algorithm provid solut never wors twice optim solut 
+greedi solut work distanc citi follow triangular inequ distanc two point alway smaller sum distanc third point 
+2 approxim greedi algorithm 1 choos first center arbitrarili 
+2 choos remain k 1 center use follow criteria 
+let c1 c2 c3 ci alreadi chosen center 
+choos 1 th center pick citi farthest alreadi select center e point p follow valu maximum min dist p c1 dist p c2 dist p c3 
+dist p ci follow diagram taken illustr algorithm 
+exampl k 3 shown graph let first arbitrarili pick vertex 0 b next vertex 1 1 farthest vertex 0 c remain citi 2 3 calcul distanc alreadi select center 0 1 
+greedi algorithm basic calcul follow valu 
+minimum distanc 2 alreadi consid center min dist 2 0 dist 2 1 min 7 8 7 minimum distanc 3 alreadi consid center min dist 3 0 dist 3 1 min 6 5 5 comput valu citi 2 pick valu correspond 2 maximum 
+note greedi algorithm give best solut k 2 approxim algorithm bound twice optim 
+proof greedi algorithm 2 approxim 
+let opt maximum distanc citi center optim solut 
+need show maximum distanc obtain greedi algorithm 2 opt 
+proof done use contradict 
+assum distanc furthest point center 2 opt 
+b mean distanc center also 2 opt 
+c k 1 point distanc 2 opt everi pair 
+point center optim solut distanc opt 
+e exist pair point center x optim solut pigeonhol principl k optim center k 1 point f distanc 2 opt triangl inequ contradict 
+sourc http algo2 iti kit edu vanste cours kcenter pdf articl contribut harshit 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

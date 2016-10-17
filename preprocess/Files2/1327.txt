@@ -1,0 +1,9 @@
+given 2d matrix print element given matrix diagon order 
+exampl consid follow 5 x 4 input matrix 
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 diagon print matrix 1 5 2 9 6 3 13 10 7 4 17 14 11 8 18 15 12 19 16 20 strongli recommend click practic move solut 
+follow c code diagon print 
+diagon print given matrix matrix row col alway row col 1 line output includ stdio h includ stdlib h defin row 5 defin col 4 util function find min two integ int min int int b return b 
+b util function find min three integ int min int int b int c return min min b c util function find max two integ int max int int b return b 
+b main function print given matrix diagon order void diagonalord int matrix col row col 1 line output int line 1 line row col 1 line get column index first element line output 
+index 0 first row line line row remain line int start_col max 0 line row get count element line 
+count element equal minimum line number col start_col row int count min line col start_col row print element line int j 0 j count j printf 5d matrix min row line j 1 start_col j ptint element next diagon next line printf n util function print matrix void printmatrix int matrix row col int 0 row int j 0 j col j printf 5d matrix j printf n driver program test function int main int row col 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 printf given matrix n printmatrix printf ndiagon print matrix n diagonalord return 0 output given matrix 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 diagon print matrix 1 5 2 9 6 3 13 10 7 4 17 14 11 8 18 15 12 19 16 20 

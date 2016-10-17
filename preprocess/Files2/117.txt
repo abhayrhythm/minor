@@ -1,0 +1,26 @@
+given input number section section 2 plot either side road 
+find possibl way construct build plot space 2 build 
+exampl n 1 output 4 place build one side 
+place build side place build 
+place build side 
+n 3 output 25 3 section mean possibl way one side bss bsb sss sb ssb b repres build repres empti space total possibl way 25 way place one side correspond 5 way side 
+n 4 output 64 strongli recommend minim browser tri first simplifi problem first calcul one side 
+know result one side alway squar result get result two side 
+new build place section section space 
+space place anywher matter whether previou section build 
+let countb count possibl way section end build 
+count count possibl way section end space 
+space ad build space 
+count n countb n 1 count n 1 build ad space 
+countb n count n 1 result one side sum two count 
+result1 n count n countb n result two side squar result1 n result2 n result1 n result1 n implement idea 
+c c program count possibl way construct build includ iostream use namespac std return count possibl way n section int countway int n base case n 1 return 4 2 one side 4 two side countb count way build end count count way space end prev_countb prev_count previou valu countb count respect 
+initi countb count one side int countb 1 count 1 prev_countb prev_count use recurs formula calcul countb count use previou valu int 2 n prev_countb countb prev_count count count prev_countb prev_count countb prev_count result one side sum way end build end space int result count countb result 2 side squar result one side return result result driver program int main int n 3 cout count way n section countway n return 0 java class build return count possibl way n section static int countway int n base case n 1 return 4 2 one side 4 two side countb count way build end count count way space end prev_countb prev_count previou valu countb count respect 
+initi countb count one side int countb 1 count 1 prev_countb prev_count use recurs formula calcul countb count use previou valu int 2 n prev_countb countb prev_count count count prev_countb prev_count countb prev_count result one side sum way end build end space int result count countb result 2 side squar result one side return result result public static void main string arg int n 3 system println count way n section countway n code contribut rajat mishra output 25 time complex n auxiliari space 1 algorithm paradigm dynam program optim solut note solut optim 
+take closer look result differ valu notic result two side squar fibonacci number 
+n 1 result 4 result one side 2 n 2 result 9 result one side 3 n 3 result 25 result one side 5 n 4 result 64 result one side 8 n 5 result 169 result one side 13 
+
+gener say result n fib n 2 2 fib n function return n th fibonacci number 
+therefor use logn implement fibonacci number find number way logn time 
+articl contribut gopinath 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

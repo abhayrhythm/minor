@@ -1,0 +1,18 @@
+first solut come mind one learn school 
+sum digit number multipl 3 number multipl 3 e g 612 sum digit 9 multipl 3 solut effici 
+get decim digit one one add check sum multipl 3 pattern binari represent number use find number multipl 3 differ count odd set bit bit set odd posit even set bit multipl 3 number 
+exampl 23 00 10111 1 get count set bit odd posit 23 3 
+2 get count set bit even posit 23 1 
+3 differ two count multipl 3 number also multipl 3 
+23 2 23 multipl 3 take exampl like 21 15 etc algorithm ismutlipleof3 n 1 make n posit n neg 
+2 number 0 return 1 3 number 1 return 0 4 initi odd_count 0 even_count 0 5 loop n 0 rightmost bit set increment odd count 
+b right shift n 1 bit c rightmost bit set increment even count 
+right shift n 1 bit 6 return ismutlipleof3 odd_count even_count proof prove take exampl 11 decim number 
+context 11 decim number 3 binari number differ sum odd digit even digit multipl 11 decim number multipl 11 let see 
+let take exampl 2 digit number decim ab 11a b 11a b b multipl 11 ab 
+let us take 3 digit number 
+abc 99a 11b b c 99a 11b c b c b multipl 11 c b let us take 4 digit number 
+abcd 1001a 11c c 999b b 1001a 999b 11c b c b c multipl 11 abcd 
+continu decim number 
+concept prove 3 binari number way 
+time complex logn program includ stdio h fnction check n multipl 3 int ismultipleof3 int n int odd_count 0 int even_count 0 make posit n multipl 3 n avoid stack overflow recurs n 0 n n n 0 return 1 n 1 return 0 n odd bit set increment odd counter n 1 odd_count n n 1 even bit set increment even counter n 1 even_count n n 1 return ismultipleof3 ab odd_count even_count program test function ismultipleof3 int main int num 23 ismultipleof3 num printf num multipl 3 els printf num multipl 3 getchar return 0 adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

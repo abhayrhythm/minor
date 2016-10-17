@@ -1,0 +1,68 @@
+
+Consider below statements in Python 2.7
+
+# A Python 2.7 program to demonstrate use of 
+# "/" for integers
+print 5/2
+print -5/2
+
+Output:
+
+2
+-3
+
+First output is fine, but the second one may be surprising if we are coming Java/C++ world. In Python 2.7, the “/” operator works as a floor division for integer arguments. However, the operator / returns a float value if one of the arguments is a float (this is similar to C++)
+
+# A Python 2.7 program to demonstrate use of 
+# "/" for floating point numbers
+print 5.0/2
+print -5.0/2
+
+Output:
+
+2.5
+-2.5
+
+The real floor division operator is “//”. It returns floor value for both integer and floating point arguments.
+
+# A Python 2.7 program to demonstrate use of 
+# "//" for both integers and floating points
+print 5//2
+print -5//2
+print 5.0//2
+print -5.0//2
+
+Output:
+
+2
+-3
+2.0
+-3.0
+How about Python 3?
+Here is another surprise, In Python 3, ‘/’ operator does floating point division for both int and float arguments.
+
+# A Python 3 program to demonstrate use of 
+# "/" for both integers and floating points
+print (5/2)
+print (-5/2)
+print (5.0/2)
+print (-5.0/2)
+
+Output:
+
+2.5
+-2.5
+2.5
+-2.5
+
+Behavior of “//” is same Python 2.7 and Python 3.  See this for example.
+This article is contributed by Arpit Agrawal. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,4 @@
+write c function unset rightmost set bit integ 
+exampl input 12 00 01100 output 8 00 01000 input 7 00 00111 output 6 00 00110 let input number n n 1 would bit flip rightmost set bit includ set bit 
+n n 1 would give us requir result 
+includ stdio h unset rightmost set bit n return result int fun unsign int n return n n 1 driver program test function int main int n 7 printf number unset rightmost set bit fun n getchar return 0 pleas write comment find code algorithm incorrect find better way solv problem adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

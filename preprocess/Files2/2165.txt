@@ -1,0 +1,24 @@
+binari number default way store number mani applic binari number difficult use variat binari number need 
+gray code use 
+gray code properti two success number differ one bit properti gray code cycl variou state minim effort use k map error correct commun etc 
+gener n bit gray code 
+follow 2 bit sequenc n 2 00 01 11 10 follow 3 bit sequenc n 3 000 001 011 010 110 111 101 100 follow 4 bit sequenc n 4 0000 0001 0011 0010 0110 0111 0101 0100 1100 1101 1111 1110 1010 1011 1001 1000 n bit gray code gener list n 1 bit gray code use follow step 
+let list n 1 bit gray code l1 
+creat anoth list l2 revers l1 
+modifi list l1 prefix 0 code l1 
+modifi list l2 prefix 1 code l2 
+concaten l1 l2 
+concaten list requir list n bit gray code 
+pleas refer gener n bit gray code detail program 
+convert binari gray vice versa 
+binari 0011 gray 0010 binari 01001 gray 01101 comput scienc mani time need convert binari code gray code vice versa 
+convers done appli follow rule binari gray convers signific bit msb gray code alway equal msb given binari code 
+bit output gray code obtain xore binari code bit index previou index 
+gray binari convers signific bit msb binari code alway equal msb given binari number 
+bit output binari code obtain check gray code bit index 
+current gray code bit 0 copi previou binari code bit els copi invert previou binari code bit 
+c implement step 
+c program binari gray gray binari convers includ iostream use namespac std helper function xor two charact char xor_c char char b return b 
+0 1 helper function flip bit char flip char c return c 0 
+1 0 function convert binari string gray string string binarytogray string binari string gray msb gray code binari code gray binari 0 comput remain bit next bit comut xor previou current binari int 1 binari length concaten xor previou bit current bit gray xor_c binari 1 binari return gray function convert gray code string binari string string graytobinari string gray string binari msb binari code gray code binari gray 0 comput remain bit int 1 gray length current bit 0 concaten previou bit gray 0 binari binari 1 els concaten invert previou bit els binari flip binari 1 return binari driver program test function int main string binari 01001 cout gray code binari binarytogray binari endl string gray 01101 cout binari code gray graytobinari gray endl return 0 output gray code 01001 01101 binari code 01101 01001 articl contribut utkarsh trivedi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

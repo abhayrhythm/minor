@@ -1,0 +1,9 @@
+consid program 
+includ stdio h void fun int arr int sizeof use get number element array int arr_siz sizeof arr sizeof arr 0 incorrect use siseof 0 arr_siz arr execut int main int int arr 4 0 0 0 0 fun arr use sizeof fine 0 sizeof arr sizeof arr 0 printf arr getchar return 0 output 0 0 0 0 ia 32 machin 
+function fun receiv array paramet arr tri find number element arr use sizeof oper 
+c array paramet treat pointer see http geeksforgeek org p 4088 detail 
+express sizeof arr sizeof arr 0 becom sizeof int sizeof int result 1 ia 32 bit machin size int int 4 loop insid fun execut irrespect size array 
+therefor sizeof use get number element case 
+separ paramet array size length pass fun 
+correct program includ stdio h void fun int arr size_t arr_siz int 0 arr_siz arr int main int int arr 4 0 0 0 0 fun arr 4 0 sizeof arr sizeof arr 0 printf arr getchar return 0 pleas write comment find anyth incorrect articl want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

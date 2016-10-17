@@ -1,0 +1,20 @@
+given two array repres preorder postord travers full binari tree construct binari tree 
+full binari tree binari tree everi node either 0 2 children follow exampl full tree 
+1 2 3 4 5 6 7 1 2 3 4 5 6 7 1 2 3 4 5 6 7 8 9 possibl construct gener binari tree preorder postord travers see 
+know binari tree full construct tree without ambigu 
+let us understand help follow exampl 
+let us consid two given array pre 1 2 4 8 9 5 3 6 7 post 8 9 4 5 2 6 7 3 1 pre leftmost element root tree 
+sinc tree full array size 1 valu next 1 pre must left child root 
+know 1 root 2 left child 
+find node left subtre 
+know 2 root node left subtre 
+node 2 post must left subtre 
+know 1 root element 8 9 4 5 2 left subtre element 6 7 3 right subtre 
+1 8 9 4 5 2 6 7 3 recurs follow approach get follow tree 
+1 2 3 4 5 6 7 8 9 program construct full binari tree includ stdio h includ stdlib h binari tree node data pointer left child pointer right child struct node int data struct node left struct node right util function creat node struct node newnod int data struct node temp struct node malloc sizeof struct node temp data data temp left temp right null return temp recurs function construct full pre post 
+preindex use keep track index pre 
+l low index h high index current subarray post struct node constructtreeutil int pre int post int preindex int l int h int size base case preindex size l h return null first node preorder travers root 
+take node preindex preorder make root increment preindex struct node root newnod pre preindex preindex current subarri one element need recur l h return root search next element pre post int l h pre preindex post break use index element found postord divid postord array two part 
+left subtre right subtre h root left constructtreeutil pre post preindex l size root right constructtreeutil pre post preindex 1 h size return root main function construct full binari tree given preorder postord travers 
+function mainli use constructtreeutil struct node constructtre int pre int post int size int preindex 0 return constructtreeutil pre post preindex 0 size 1 size util function print inord travers binari tree void printinord struct node node node null return printinord node left printf node data printinord node right driver program test function int main int pre 1 2 4 8 9 5 3 6 7 int post 8 9 4 5 2 6 7 3 1 int size sizeof pre sizeof pre 0 struct node root constructtre pre post size printf inord travers construct tree n printinord root return 0 output inord travers construct tree 8 4 9 2 5 1 6 3 7 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

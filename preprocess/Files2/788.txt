@@ -1,0 +1,21 @@
+variabl java object store memori 
+c featur miss java 
+final variabl java need forward declar java 
+widen primit convers java string class java volatil keyword java instanc variabl hide java jvm creat object main class class main 
+use underscor numer liter scope variabl java differ way integ string convers java array class java initi compar string java 
+input output scanner class java differ scanner bufferread class java redirect system println output file java fast java competit program way read input consol java oper bitwis right shift oper java comparison autobox integ object java addit concaten java java numer promot condit express array java array java compar two array java 
+final array java jag array java understand array indexoutofbound except java array vs arraylist java static keyword comparison static keyword c java static block java static local variabl allow java 
+static class java overload overrid static method java 
+final super keyword final keyword java super keyword java blank final java method java paramet pass java 
+return multipl valu java function overload return type overrid equal method java overrid tostr java privat final method java java strictli pass valu overload main java valid variant main java variabl argument vararg java primit wrapper class immut java clone method java remot method invoc java default method java method overload null error java new oper vs newinst method java instanceof oper vs isinst method java constructor default constructor java assign valu static final variabl java copi constructor java except handl comparison except handl c java catch base deriv class except check vs uncheck except java user defin custom except java infin except 
+multicatch java regular express regular express java quantifi java inherit comparison inherit c java inherit constructor java default virtual behavior differ c java 
+access grandpar member java shadow static function java overrid privat method java 
+happen restrict access given deriv class method java 
+parent child class data member java java multipl inherit interfac abstract class interfac java access specifi method interfac access specifi class interfac java abstract class java compar interfac java java interfac method nest interfac java compar vs compar java function interfac java queue interfac java multithread multithread java synchron java inter thread commun java produc consum solut use thread java misc object class java null pointer except java enum java transient keyword java copi file use filestream java li island isol java interest fact null java establish jdbc connect java java support goto 
+inner class java initi block java string vs stringbuild vs stringbuff java final final final java biginteg class java refer java serial java tricki program java foreach c java flexibl natur java lang object swap exchang object java 
+swap two variabl one line 
+privat constructor singleton class java gener java reflect java assert java pair class java commonli ask java program interview question set 1 annot java implement hash tabl separ chain java quick way check prime find next prime java myth file name class name java mark sweep garbag collect algorithm static vs dynam bind java command line argument java creat immut class java 
+java instanceof applic date class java exampl system exit java collect java iter java collect java use iter java 
+iter vs foreach java retriev element collect java iter listiter enumerationiter set java hashset java link list java stack class java differ hashmap hashtabl java hashmap treemap java arraylist java priorityqueu class java java 8 lambda express java 8 stream java output question output java program set 1 output java program set 2 output java program set 3 output java program set 4 quizz java data type oper array function class object constructor inherit abstract class interfac final keyword except handl packag articl java categori creat new java topic discuss geek use geeksforgeek ask question page 
+see alreadi discuss java question q 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,8 @@
+propos data structur follow data structur would hold element 0 n 1 
+order element ascend descend order requir complex oper follow insert element 1 delet element 1 find element 1 strongli recommend minim browser tri first 
+boolean array work 
+array valu true ith index present fals absent 
+initi creat array size n initi element absent 
+void initi int n bool n int 0 n 0 n fals insert element void insert unsign set valu index true 1 true delet element void delet unsign make valu index 0 0 fals find element return true present els fals bool find unsign return exercis chang data structur hold valu 1 n instead 0 n 1 
+articl contribut sachin 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

@@ -1,0 +1,46 @@
+given string print permut sort order 
+exampl input string abc output abc acb bac bca cab cba 
+discuss program print permut post must print permut increas order 
+follow step print permut lexicograph alli 1 sort given string non decreas order print 
+first permut alway string sort non decreas order 
+2 start gener next higher permut 
+next higher permut possibl 
+reach permut charact sort non increas order permut last permut 
+step gener next higher permut 1 take previous print permut find rightmost charact smaller next charact 
+let us call charact first charact 
+2 find ceil first charact 
+ceil smallest charact right first charact greater first charact 
+let us call ceil charact second charact 
+3 swap two charact found 2 step 
+4 sort substr non decreas order origin index first charact 
+let us consid string abcdef 
+let previous print permut dcfeba 
+next permut sort order deabcf 
+let us understand step find next permut 
+first charact c 
+second charact e 
+swap two get defcba 
+final step sort substr charact origin index first charact 
+final get deabcf 
+follow c implement algorithm 
+program print permut string sort order 
+includ stdio h includ stdlib h includ string h follow function need librari function qsort 
+refer http www cplusplu com refer clibrari cstdlib qsort int compar const void const void b return char char b util function two swap two charact b void swap char char b char b b function find index smallest charact greater first present str l h int findceil char str char first int l int h initi index ceil element int ceilindex l iter rest element find smallest charact greater first int l 1 h str first str str ceilindex ceilindex return ceilindex print permut str sort order void sortedpermut char str get size string int size strlen str sort string increas order qsort str size sizeof str 0 compar print permut one one bool isfinish fals 
+isfinish print permut printf n str find rightmost charact smaller next charact 
+let us call first char int size 2 0 str str 1 break chracter sort decreas order mean print last permut done 
+1 isfinish true els find ceil first char right first charact 
+ceil charact smallest charact greater int ceilindex findceil str str 1 size 1 swap first second charact swap str str ceilindex sort string right first char qsort str 1 size 1 sizeof str 0 compar driver program test function int main char str abcd sortedpermut str return 0 output abcd abdc dcab dcba upper bound time complex program n 2 x n 
+optim step 4 algorithm find next permut 
+instead sort subarray first charact revers subarray subarray get swap alway sort non increas order 
+optim make time complex n x n 
+see follow optim code 
+optim version use revers instead sort find next permut util function revers string str l h void revers char str int l int h l h swap str l str h l h print permut str sort order void sortedpermut char str get size string int size strlen str sort string increas order qsort str size sizeof str 0 compar print permut one one bool isfinish fals 
+isfinish print permut printf n str find rightmost charact smaller next charact 
+let us call first char int size 2 0 str str 1 break chracter sort decreas order mean print last permut done 
+1 isfinish true els find ceil first char right first charact 
+ceil charact smallest charact greater int ceilindex findceil str str 1 size 1 swap first second charact swap str str ceilindex revers string right first char revers str 1 size 1 program print duplic permut charact repeat 
+avoid keep track previou permut 
+print current permut previou permut print 
+articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,59 @@
+round 1 written elig circuit branch 
+written round consist aptitud technic question 10 question 90 minut durat 
+1 question time complex search unsort array 
+2 question recurs ie number recurs call 
+1 question analys given function string 
+1 question probabl two hotel say b probabl move b 2 3 stay 1 3 
+probabl move b stay b 1 2 
+make decis hour 7 00 pm probabl b 10 00 pm 
+set element 1 2 3 4 
+n 
+sum element power set 
+ex 1 2 
+power set 1 2 1 2 
+sum 6 set element 1 2 3 4 5 6 7 8 9 10 
+mani subset 3 element consecut element 
+1 question design dfa string start end c least b 
+1 question machin instruct 
+find minimum number cycl need execut given set instruct 
+instruct execut given order 
+b instruct execut random order 
+1 puzzl round see answer 
+also verifi approach give correct explain answer 
+ampl amount time 
+32 shortlist among 350 one among 
+2nd round code round two question 
+3 hour durat 
+1 long question rememb fulli 
+give input output exampl 
+basic string decod 
+jon2snow3 decod string jonjonsnowjonjonsnowjonjonsnow 
+given string integ k print kth charact decod string input jon2snow3 8 output n 2 given array integ k return number contigu sub array whose sum divis k input format n k input 4 5 10 0 4 5 output 4 explain 10 0 10 0 5 sub array sum divis 5 rememb also review individu code 
+pass 10 test case first question 11 test case 2nd question 3 case exceed time limit 
+one case fail 8 shortlist round 
+3rd round technic hr interview tell 
+ask one project 
+modul use featur 
+ask optimis code written first question creat new string specifi question write code 
+given binari tree find maximum sum path root leaf 
+problem said tree posit integ given geeksforgeek 
+store path use global array 
+ask altern global array said pass array paramet 
+ask disadvantag use global variabl 
+given list word 
+given three oper find minimum step reach sourc string destin string 
+basic modif problem 
+question said use graph travers techniqu 
+start ask bf df use 
+ask question 
+interview alumni colleg got offer internship ni 
+ask internship experi 
+work 
+said work develop new languag imag process 
+ask current work 
+said work labview 
+interview ask know labview 
+said know use 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

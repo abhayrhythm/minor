@@ -1,0 +1,10 @@
+need anyth number posit 
+want chang neg number 
+sinc neg number store 2 complement form get absolut valu neg number toggl bit number add 1 result 
+exampl 2 8 bit system store follow 1 1 1 1 1 1 1 0 leftmost bit sign bit 
+get absolut valu neg number toggl bit add 1 toggl number e 0 0 0 0 0 0 0 1 1 give absolut valu 1 1 1 1 1 1 1 0 also rememb need oper number neg sign bit set 
+method 1 1 set mask right shift integ 31 assum integ store use 32 bit 
+mask n 31 2 neg number step set mask 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 posit number 
+add mask given number 
+mask n 3 xor mask n mask give absolut valu 
+mask n mask implement includ stdio h defin char_bit 8 function return absoult valu n unsign int getab int n int const mask n sizeof int char_bit 1 return n mask mask driver program test function int main int n 6 printf absout valu u n getab n getchar return 0 

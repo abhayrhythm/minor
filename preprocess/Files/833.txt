@@ -1,0 +1,21 @@
+
+The prime motive is to create a framework to get updates in real time. The updates can be news updates, emergency traffic alerts or an update from any social networking website. The updates are going to be personalized as they will be based on multiple factors like user’s geographical location, user’s preferences and social networks i.e. Facebook Friends, twitter followers etc. 
+Features:
+Updates can be classified as coming from trustworthy sources like news websites, verified twitter accounts etc. and from untrustworthy sources like friend’s status updates, tweet from any unverified twitter account etc.
+Research:
+Different types of Data Mining and Text Mining techniques can be researched to get the most optimal and relevant updates. 
+Tools:
+For developing the front end, any Javascript based framework like Ext JS, Angular JS can be used. For backend, PHP can be used to interact with Database.
+References:
+http://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/view/1509
+About the author:
+“Harshit is a technology enthusiast and has keen interest in programming. He holds a  B.Tech. degree in Computer Science from JIIT, Noida and currently works as Front-end Developer at SAP. He is also a state level table tennis player. Apart from this he likes to unwind by watching movies and English sitcoms. He is based out of Delhi and you can reach out to him at https://in.linkedin.com/pub/harshit-jain/2a/129/bb5
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,39 @@
+given stream charact find first non repeat charact stream 
+need tell first non repeat charact 1 time moment 
+follow first approach discuss need store stream travers one time find first non repeat charact moment 
+use extend approach discuss post need go count array everi time first non repeat element queri 
+find first non repeat charact stream moment without travers array 
+strongli recommend minim browser tri first 
+idea use dll doubli link list effici get first non repeat charact stream 
+dll contain non repeat charact order e head dll contain first non repeat charact second node contain second non repeat 
+also maintain two array one array maintain charact alreadi visit two time call repeat array array pointer link list node call indll 
+size array equal alphabet size typic 256 
+1 creat empti dll 
+also creat two array indll repeat size 256 indll array pointer dll node 
+repeat boolean array repeat x true x repeat two time otherwis fals 
+indll x contain pointer dll node charact x present dll otherwis null 
+2 initi entri indll null repeat fals 
+3 get first non repeat charact return charact head dll 
+4 follow step process new charact x stream 
+repeat x true ignor charact x alreadi repeat two time stream b repeat x fals indll x null x seen first time append x dll store address new dll node indll x 
+c repeat x fals indll x null x seen second time get dll node x use indll x remov node 
+also mark indll x null repeat x true 
+note append new node dll 1 oper maintain tail pointer 
+remov node dll also 1 
+oper addit new charact find first non repeat charact take 1 time 
+c c c program find first non repeat charact stream charact includ iostream defin max_char 256 use namespac std link list node struct node char struct node next prev util function append charact x end dll 
+note function may chang head tail pointer pointer pointer pass 
+void appendnod struct node head_ref struct node tail_ref char x struct node temp new node temp x temp prev temp next null head_ref null head_ref tail_ref temp return tail_ref next temp temp prev tail_ref tail_ref temp util function remov node temp fromt dll 
+note function may chang head tail pointer pointer pointer pass 
+void removenod struct node head_ref struct node tail_ref struct node temp head_ref null return head_ref temp head_ref head_ref next tail_ref temp tail_ref tail_ref prev temp next null temp next prev temp prev temp prev null temp prev next temp next delet temp void findfirstnonrep indll x contain pointer dll node x present dll 
+x present indll x null struct node indll max_char repeat x true x repeat two time 
+x seen far x seen 
+repeat x fals bool repeat max_char initi two array struct node head null tail null int 0 max_char indll null repeat fals let us consid follow stream see process char stream geeksforgeeksandgeeksquizfor int 0 stream char x stream cout read x stream n process charact occur occur 
+repeat x true x repeat twice repeat x charact dll add end dll 
+indll x null appendnod head tail stream indll x tail els otherwis remov charact dll removenod head tail indll x indll x null repeat x true also mark repeat print current first non repeat charact stream head null cout first non repeat charact far head endl driver program test function int main findfirstnonrep return 0 python python program find first non repeat charact stream charact max_char 256 def findfirstnonrep indll x contain pointer dll node x present dll 
+x present indll x null indll max_char repeat x true x repeat two time 
+x seen far x seen 
+repeat x fals repeat fals max_char let us consid follow stream see process stream geeksforgeeksandgeeksquizfor xrang len stream x stream print read x stream process charact occur occur 
+repeat x true x repeat twice repeat ord x charact dll add end dll x indll indll append x els indll remov x len indll 0 print first non repeat charact far print str indll 0 driver program findfirstnonrep code contribut bhavya jain output read g stream first non repeat charact far g read e stream first non repeat charact far g read e stream first non repeat charact far g read k stream first non repeat charact far g read stream first non repeat charact far g read f stream first non repeat charact far g read stream first non repeat charact far g read r stream first non repeat charact far g read g stream first non repeat charact far k read e stream first non repeat charact far k read e stream first non repeat charact far k read k stream first non repeat charact far read stream first non repeat charact far f read stream first non repeat charact far f read n stream first non repeat charact far f read stream first non repeat charact far f read g stream first non repeat charact far f read e stream first non repeat charact far f read e stream first non repeat charact far f read k stream first non repeat charact far f read stream first non repeat charact far f read q stream first non repeat charact far f read u stream first non repeat charact far f read stream first non repeat charact far f read z stream first non repeat charact far f read f stream first non repeat charact far read stream first non repeat charact far r read r stream first non repeat charact far articl contribut amit jain 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

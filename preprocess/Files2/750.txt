@@ -1,0 +1,66 @@
+type number integ number whose fraction part 0 zero like 3 2 1 0 10 100 integ 
+natur number count number like 1 2 3 4 5 6 basic integ greater 0 natur number 
+whole number natur number 0 zero whole number 
+prime number number two distinct factor number 1 call prime number 
+prime number 2 3 53 67 191 composit number number greater 1 prime composit number 
+composit number 4 60 91 100 import point prime number 1 neither prime composit 
+2 even prime number 
+25 prime number less 100 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 check number p prime find number n n smallest natur number satisfi n2 p check p divis prime number less equal n 
+p divis prime number p prime number 
+otherwis p prime number 
+co prime two number b call co prime highest common factor hcf 1 divis test divis 2 number divis 2 last digit 0 2 4 6 8 divis 3 number divis 3 sum digit divis 3 exampl 12321 divis 3 1 2 3 2 1 9 9 divis 3 divis 4 number divis 4 last two digit divis 4 exampl 1234 divis 4 last two digit 34 divis 4 1232 divis 4 last two digit 32 divis 4 divis 5 number divis 5 last digit either 0 5 divis 6 number divis 6 divis 2 3 exampl 114 divis 6 divis 2 last digit 4 3 1 1 4 6 6 divis 3 
+divis 7 number divis 7 iff repeatedli follow step singl digit left leav singl digit 0 7 
+1 remov last digit 
+2 subtract doubl last digit number obtain step 1 number last digit remov 
+exampl given number 196 remov last digit get 19 subtract 12 doubl remov digit get 7 sinc last left digit 7 number multipl 7 divis 8 number divis 8 last three digit divis 8 exampl 1234 divis 8 last three digit 234 divis 8 1232 divis 8 last three digit 232 divis 8 divis 9 number divis 9 sum digit divis 9 exampl 12321 divis 3 1 2 3 2 1 9 9 divis 9 divis 11 number divis 11 differ sum number even posit odd posit either 0 multipl 11 note p q co prime number n divis p q n divis p x q exampl 48 divis 3 8 also 3 x 8 24 p q co prime fact n would divis p x q given n divis p q necessari 
+exampl 144 divis 8 12 co prime divis 8 x 12 96 divis theorem dividend divisor x quotient remaind xn divis x valu n exampl n 2 x2 a2 x x divis x 
+similarli n 3 x3 a3 x x2 a2 xa divis x 
+xn divis x even valu n exampl n 2 x2 a2 x x divis x 
+similarli n 3 x3 a3 x x2 a2 xa divis x 
+xn divis x odd valu n exampl n 3 x3 a3 x x2 a2 xa divis x 
+sampl problem question 1 number success divid 2 3 7 get 1 2 3 remaind respect 
+smallest number 
+solut number form 2a 1 3b 2 7c 3 
+put c 1 proceed follow basic success multipli divisor result previou stage add correspond remaind 
+7 x 1 3 10 3 x 10 2 32 2 x 32 1 65 thu 65 requir answer 
+note answer would differ chang order divisor 
+smallest number arrang divisor decreas order 
+question 2 number success divid 2 4 8 get 1 1 0 remaind respect 
+smallest number 
+solut proceed similar manner question 8 x 1 0 8 4 x 8 1 33 2 x 33 1 67 thu 67 requir answer 
+question 3 would maximum valu b follow equat 1 2 b b 4 c c 6 7 1035 solut leftmost part number two digit 
+split answer 1 2 b b 4 c c 6 7 10 3 5 column 1 easili infer b c 8 first let us consid b c 18 case possibl b c 9 equat would 129 949 967 2045 need 1035 answer 
+thu requir case 
+b c 8 maximum b put c 0 therefor b 8 verifi answer put b 8 c 0 given equat 
+1 2 8 8 4 0 0 6 7 10 3 5 therefor answer b 8 correct 
+question 4 follow prime number 
+247 ii 397 iii 423 solut 162 256 247 prime number less 16 2 3 5 7 11 13 247 divis 13 therefor 247 prime number 
+composit number 
+ii 202 400 397 prime number less 20 2 3 5 7 11 13 17 19 397 divis 
+therefor 397 prime number 
+iii 212 441 423 prime number less 21 2 3 5 7 11 13 17 19 423 divis 3 therefor 423 prime number 
+composit number 
+question 5 find unit digit product 17 153 x 31 62 solut unit digit given equat would unit digit equat 7153 x 162 need find pattern unit digit gradual increas power 7 
+71 give 7 72 give 9 73 give 3 74 give 1 fourth power get unit digit 1 therefor make work easi need write origin power 153 multipl 4 closest extent possibl 
+multipli power 4 number get nearest 153 4 x 38 152 7152 also 1 unit place 
+17 153 7 unit place 31 62 1 unit place 
+therefor problem simpli reduc 7 x 1 7 henc unit digit 7 question 6 find unit digit 17 153 31 62 solut unit digit given equat would unit digit equat 7153 162 need find pattern unit digit gradual increas power 7 
+71 give 7 72 give 9 73 give 3 74 give 1 fourth power get unit digit 1 therefor make work easi need write origin power 153 multipl 4 closest extent possibl 
+multipli power 4 number get nearest 153 4 x 38 152 7152 also 1 unit place 
+17 153 7 unit place 31 62 1 unit place 
+therefor problem simpli reduc 7 1 8 henc unit digit 8 question 7 find total number prime factor express 14 11 x 7 2 x 11 3 
+solut 14 11 x 7 2 x 11 3 2 x 7 11 x 7 2 x 11 3 2 11 x 7 11 x 7 2 x 11 3 2 11 x 7 13 x 11 3 therefor total number prime factor 11 13 3 27 question 8 digit come place number 12386 divis 8 5 
+solut sinc given number divis 5 0 5 must come place 
+number end 5 never divis 8 0 replac 
+number form last three digit 6 0 becom divis 8 replac 4 henc digit place 4 0 respect 
+question 9 least number must subtract 9999 make exactli divis 19 
+solut divid 9999 19 get 5 remaind 
+therefor number subtract 5 question 10 least number must ad 9999 make exactli divis 19 
+solut divid 9999 19 get 5 remaind 
+therefor number ad 19 5 14 question 11 number divid 340 give remaind 47 would remaind number divid 17 
+solut number form 340a 47 17 20a 17 2 13 17 20a 2 13 therefor divid number 17 would get 13 remaind 
+question 12 find remaind 321 divid 5 solut 34 81 unit digit 34 1 therefor unit digit 320 1 thu unit digit 321 1 3 3 
+3 divid 5 give 3 remaind 
+remaind 321 divid 5 3 quiz number articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

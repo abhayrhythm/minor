@@ -1,0 +1,22 @@
+previou post explain longest increas sub sequenc li problem detail 
+howev post cover code relat queri size li construct li 
+left exercis 
+solv cheer 
+alon code 
+read previou post read 
+note code print li revers order 
+modifi print order use stack explicit system stack 
+leav explan exercis easi 
+c implement find longest increas subsequ n log n time 
+includ bit stdc h use namespac std binari search int getceilindex int arr vector int int l int r int key r l 1 int l r l 2 arr key r els l return r int longestincreasingsubsequ int arr int n add boundari case array n zero depend smart pointer vector int tailindic n 0 initi 0 vector int previndic n 1 initi 1 int len 1 alway point empti locat int 1 n arr arr tailindic 0 new smallest valu tailindic 0 els arr arr tailindic len 1 arr want extend largest subsequ previndic tailindic len 1 tailindic len els arr want potenti condid futur subsequ replac ceil valu tailindic int po getceilindex arr tailindic 1 len 1 arr previndic tailindic po 1 tailindic po cout li given input endl int tailindic len 1 0 previndic cout arr cout endl return len int main int arr 2 5 3 7 11 8 10 13 6 int n sizeof arr sizeof arr 0 printf li size n longestincreasingsubsequ arr n return 0 exercis 1 know kadan algorithm find maximum sum sub array 
+modifi kadan algorithm trace start end locat maximum sum sub array 
+2 modifi kadan algorithm find maximum sum sub array circular array 
+refer gfg forum mani comment question 
+3 given two integ b input 
+find number fibonacci number exist two number includ b 
+exampl 3 b 18 4 fibonacci number 3 5 8 13 
+log k time k max b 
+observ 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

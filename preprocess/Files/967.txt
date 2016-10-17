@@ -1,0 +1,21 @@
+
+Consider the following prototype of free() function which is used to free memory allocated using malloc() or calloc() or realloc().
+
+  void free(void *ptr);
+
+Note that the free function does not accept size as a parameter. How does free() function know how much memory to free given just a pointer?
+Following is the most common way to store size of memory so that free() knows the size of memory to be deallocated.
+When memory allocation is done, the actual heap space allocated is one word larger than the requested memory. The extra word is used to store the size of the allocation and is later used by free( )
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+References:
+http://www.cs.cmu.edu/afs/cs/academic/class/15213-f10/www/lectures/17-allocation-basic.pptx
+http://en.wikipedia.org/wiki/Malloc
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

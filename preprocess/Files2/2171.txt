@@ -1,0 +1,14 @@
+given two integ find xor without use xor oper e without use c c 
+exampl input x 1 2 output 3 input x 3 5 output 6 strongli recommend minim browser tri first 
+simpl solut travers bit one one 
+everi pair bit check set correspond bit 0 output otherwis set 1 
+c program find xor without use includ iostream use namespac std return xor x int myxor int x int int re 0 initi result assum 32 bit integ int 31 0 find current bit x bool b1 x 1 bool b2 1 1 0 els xor bool xoredbit b1 b2 
+0 b1 b2 updat result re 1 re xoredbit return re driver program test function int main int x 3 5 cout xor myxor x return 0 output xor 6 thank utkarsh trivedi suggest solut 
+better solut find xor without use loop 
+1 find bitwis x result set bit either x set set bit 
+x 3 011 5 101 7 111 2 remov extra set bit find place x set bit 
+valu express x 0 bit wherev x set bit 
+3 bitwis x x produc requir result 
+c implement 
+c program find xor without use includ iostream use namespac std return xor x int myxor int x int return x x driver program test function int main int x 3 5 cout xor myxor x return 0 output xor 6 thank jitu_the_best suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

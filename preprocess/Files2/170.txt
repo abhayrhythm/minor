@@ -1,0 +1,10 @@
+algorithm method deriv predat newton raphson method 
+1 start arbitrari posit start valu x closer root better 
+2 initi 1 
+3 follow desir approxim achiev 
+get next approxim root use averag x b set n x implement return squar root n note function float squareroot float n use n initi approxim definit improv float x n float 1 float e 0 000001 e decid accuraci level x e x x 2 n x return x driver program test function int main int n 50 printf squar root f n squareroot n getchar exampl n 4 n use initi approxim initi x 4 1 next approxim x x 2 2 500000 n x 1 600000 next approxim x 2 050000 1 951220 next approxim x 2 000610 1 999390 next approxim x 2 000000 2 000000 termin x e 
+sure n perfect squar use follow method 
+method go infinit loop non perfect squar number 
+exampl 3 loop never termin 
+return squar root n note function work number perfect squar unsign int squareroot int n int x n int 1 x x x 2 n x return x driver program test function int main int n 49 printf root n squareroot n getchar refer http en wikipedia org wiki square_root http en wikipedia org wiki babylonian_method babylonian_method ask snehal pleas write comment find bug program algorithm want share inform babylonian method 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

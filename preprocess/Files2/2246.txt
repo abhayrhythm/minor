@@ -1,0 +1,49 @@
+data structur particular way organ data comput use effect 
+idea reduc space time complex differ task 
+overview popular linear data structur 
+1 array 2 link list 3 stack 4 queue array array data structur use store homogen element contigu locat 
+size array must provid store data 
+let size array n access time 1 possibl element store contigu locat search time n sequenti search log n binari search array sort insert time n worst case occur insert happen begin array requir shift element delet time n worst case occur delet happen begin array requir shift element exampl exampl let us say want store mark student class use array store 
+help reduc use number variabl need creat separ variabl mark everi subject 
+mark access simpli travers array 
+link list link list linear data structur like array element separ object 
+element node list compris two item data refer next node 
+type link list 1 singli link list type link list everi node store address refer next node list last node next address refer null 
+exampl 1 2 3 4 null 2 doubli link list type link list two refer associ node one refer point next node one previou node 
+advantag data structur travers direct delet need explicit access previou node 
+eg 
+null 1 2 3 null 3 circular link list circular link list link list node connect form circl 
+null end 
+circular link list singli circular link list doubli circular link list 
+advantag data structur node made start node 
+use implement circular queue link list 
+eg 
+1 2 3 1 next pointer last node point first access time element n search time element n insert element 1 posit insert element delet element 1 know address node previou node delet exampl consid previou exampl made array mark student 
+new subject ad cours mark also ad array mark 
+size array fix alreadi full add new element 
+make array size lot number subject possibl array remain empti 
+reduc space wastag link list form add node new element introduc 
+insert delet also becom easier link list 
+one big drawback link list random access allow 
+array access th element 1 time 
+link list take θ time 
+stack stack lifo last first abstract data type serv collect element two princip oper push add element collect pop remov last element ad 
+stack oper push pop take place end top stack 
+implement use array link list 
+insert 1 delet 1 access time n worst case insert delet allow one end 
+exampl stack use maintain function call last call function must finish execut first alway remov recurs help stack 
+stack also use case revers word check balanc parenthesi editor word type last first remov use undo oper 
+similarli implement back function web browser 
+queue queue fifo first first abstract data type serv collect element two princip oper enqueu process ad element collect 
+element ad rear side dequeu process remov first element ad 
+element remov front side 
+implement use array link list 
+insert 1 delet 1 access time n worst case exampl queue name say data structur built accord queue bu stop train person stand front queue stand longest time first one get ticket 
+situat resourc share among multipl user serv first come first server basi 
+exampl includ cpu schedul disk schedul 
+anoth applic queue data transfer asynchron data necessarili receiv rate sent two process 
+exampl includ io buffer pipe file io etc 
+circular queue advantag data structur reduc wastag space case array implement insert n 1 th element done 0 th index empti 
+overview data structur set 2 binari tree bst heap hash articl contribut abhiraj smit 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

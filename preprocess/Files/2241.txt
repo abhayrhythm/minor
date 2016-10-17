@@ -1,0 +1,20 @@
+
+
+ Navigate to any article you want to add in your To-Do/Done List.
+  Scroll down, you will see two check boxes just above the comments, namely ‘Add to TODO List’ and ‘Mark as DONE’ clicking which will add the article to the respective list.
+
+ To move the article from one list to other, simply check the other checkbox.
+ To remove an article from a list, simply uncheck the respective checkbox.
+To view your To-Do/Done List, you can visit Your Profile.  The profile link is available on top right of sidebar.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

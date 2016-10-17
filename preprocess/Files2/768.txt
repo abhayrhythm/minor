@@ -1,0 +1,52 @@
+factori factori n written n 
+n x n 1 x n 2 x n 3 x x 3 x 2 x 1 0 
+1 permut differ arrang given number element taken one one time 
+exampl two element b possibl arrang ab ba 
+total 2 arrang possibl 
+number permut r element arrang total n element n p r n 
+n r 
+combin differ select given number element taken one one time 
+exampl two element b possibl select ab ba 
+total 1 arrang possibl 
+number combin r element select total n element n c r n 
+r 
+x n r 
+n c r n c n r note exampl differ case permut combin 
+permut ab ba two differ thing select ab ba 
+sampl problem question 1 mani word form use 3 letter word delhi 
+solut word delhi 5 differ word 
+therefor requir number word 5 p 3 5 
+5 3 
+requir number word 5 
+2 
+120 2 60 question 2 mani word form use letter word driver vowel alway togeth 
+solut type question assum vowel singl charact e ie singl charact 
+total 5 charact word name r v r ie 
+r occur 2 time 
+number possibl arrang 5 
+2 
+60 two vowel arrang 2 
+2 way 
+total number possibl word vowel alway togeth 60 x 2 120 question 3 mani way select team 4 student given choic 15 
+solut number possibl way select 15 c 4 15 
+4 
+x 11 
+number possibl way select 15 x 14 x 13 x 12 4 x 3 x 2 x 1 1365 question 4 mani way group 5 member form select 3 boy 6 2 girl 5 
+solut number way 3 boy select 6 6 c 3 6 
+3 
+x 3 
+6 x 5 x 4 3 x 2 x 1 20 number way 2 girl select 5 5 c 2 5 
+2 
+x 3 
+5 x 4 2 x 1 10 therefor total number way form group 20 x 10 200 question 5 mani word form use letter word driver vowel never togeth 
+solut assum vowel singl charact e ie singl charact 
+total 5 charact word name r v r ie 
+r occur 2 time 
+number possibl arrang 5 
+2 
+60 two vowel arrang 2 
+2 way 
+total number possibl word vowel alway togeth 60 x 2 120 also total number possibl word 6 
+2 
+720 2 360 therefor total number possibl word vowel never togeth 360 120 240 articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

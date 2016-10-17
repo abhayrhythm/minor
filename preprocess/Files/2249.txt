@@ -1,0 +1,50 @@
+
+Prerequisite Article-Machine Learning
+The goal in any data analysis is to extract from raw information the accurate estimation. One of the most important and common question concerning if there is statistical relationship between a response variable (Y) and explanatory variables (Xi). An option to answer this question is to employ regression analysis in order to model its relationship. Further it can be used to predict the response variable for any arbitrary set of explanatory variables.
+ The Problem:
+Multivariate Regression is one of the simplest Machine Learning Algorithm. It comes under the class of Supervised Learning Algorithms i.e, when we are provided with training dataset. Some of the problems that can be solved using this model are:
+
+A researcher has collected data on three psychological variables, four academic variables (standardized test scores), and the type of educational program the student is in for 600 high school students. She is interested in how the set of psychological variables is related to the academic variables and the type of program the student is in.
+
+
+A doctor has collected data on cholesterol, blood pressure, and weight.  She also collected data on the eating habits of the subjects (e.g., how many ounces of red meat, fish, dairy products, and chocolate consumed per week).  She wants to investigate the relationship between the three measures of health and eating habits.
+
+
+A property dealer wants to set housing prices which are based various factors like Size of house, No of bedrooms, Age of house, etc. We shall discuss the algorithm further using this example.
+
+The Solution:
+          The solution is divided into various parts.
+
+Selecting the features: Finding the features on which a response variable depends (or not) is one of the most important steps in Multivariate Regression. To make our analysis simple, we assume that the features on which the response variable is dependent are already selected.
+Normalizing the features: The features are then scaled in order to bring them in range of (0,1) to make better analysis. This can be done by changing the value of each feature by:
+ 
+
+
+Selecting Hypothesis and Cost function: A hypothesis is a predicted value of the response variable represented by h(x). Cost function defines the cost for wrongly predicting hypothesis. It should be as small as possible. We choose hypothesis function as linear combination of features X.
+
+
+
+Minimizing the Cost function: Next some Cost minimization algorithm runs over the datasets which adjusts the parameters of the hypothesis. Once the cost function is minimized for the training dataset, it should also be minimized for an arbitrary dataset if the relation is universal. Gradient descent algorithm is a good choice for minimizing the cost function in case of multivariate regression.
+
+
+Testing the hypothesis: The hypothesis function is then tested over the test set to check its correctness and efficiency.
+
+Implementation:
+Multivariate regression technique can be implemented efficiently with the help of matrix operations. With python, it can be implemented using “numpy” library which contains definitions and operations for matrix object.
+The code requires “numpy” library for python (www.numpy.org/) which is not installed on GfG servers and thus the code is unable to run on gfg IDE. However link to the code is:
+Code: http://code.geeksforgeeks.org/WxxMIg
+References:
+          [1]http://cs229.stanford.edu(For more information on Multivariate Regression)
+          [2]http://docs.scipy.org (For using “numpy” library with python)
+          [3] Some examples are taken from
+            http://www.ats.ucla.edu/stat/stata/dae/mvreg.htm
+This article is contributed by Abhishek Sharma. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

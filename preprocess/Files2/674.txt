@@ -1,0 +1,43 @@
+amazon came colleg fte two month summer intern 
+first round onlin code round along mcq rememb attempt mcq correctli order improv chanc get round code question may difficult 
+q1 
+find next greatest number use digit given number 
+stl usag allow 
+q2 
+given array find maximum valu ai aj j equal j pretti simpl 
+mcq standard permut combin probabl mostli also output code snippet 
+5 1 select ratio 
+second round face 2 face interview 1 ask favorit data structur question 
+answer tree link list 
+question basic tree 
+q1 
+check given binari tree binari search tree 
+question stem order successor part order successor code without use parent pointer 
+q2 
+implement stack use array link list queue 
+comment advantag disadvantag 
+q3 
+implement queue use stack comment complex 
+question simpl enough code requir 
+20 peopl 31 select 
+third round f2f interview 2 differ interview set 
+found question higher standard compar previou round time consum 
+q1 
+maintain first non repeat charact stream incom go charact digit simpli 1 
+gave solut n particular instant time 
+use hash queue allow maintain first non repeat charact element could access randomli 
+lot hint final understood interview hint dequ hash valu node pointer dequ 
+sum small thing give final solut bit piec arrang 
+satisfactori 
+q2 
+clone binari tree random pointer clone normal binari tree could random pointer need link path 
+gave nlogn solut store path node random pointer node 
+final came hash map solut seem fine 
+interview told practic qustion increas depth knowledg data structur 
+interview 
+though question common standard question found gfg 
+somehow kept think collect hint answer sum 
+thank huge amount onlin resourc avail learn practic especi geeeksforgeek org 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

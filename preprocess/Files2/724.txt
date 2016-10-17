@@ -1,0 +1,14 @@
+total 2 round 
+round 1 60 mcq 20 english 20 logic reason 20 data interpret solv 1 hour 
+round 2 got 3 code question 
+1 given two number 
+find number bit requir chang binari convers 1st number get convert second number 
+simpli compar bit number whenev bit differ insreas count 1 return count end 
+2 link 2nd question http www geeksforgeek org find excel column name given number 3 given string find number pattern 1 0 1 0 repres number zero minimum requir one 0 charact except 0 0 sequenc 
+eg 
+100001abc101 an 2 eg 
+1001ab010abc01001 an 2 round host cocub com solv three problem got select internship 
+thank geeksforgeek success 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

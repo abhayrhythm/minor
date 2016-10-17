@@ -1,0 +1,22 @@
+given array n uniqu integ element array rang 1 n 
+array distinct element size array n 2 
+henc two number rang miss array 
+find two miss number 
+exampl input arr 1 3 5 6 output 2 4 input arr 1 2 4 output 3 5 input arr 1 2 output 3 4 method 1 n time complex n extra space step 1 take boolean array mark keep track element present array 
+step 2 iter 1 n check everi element mark true boolean array simpli display element 
+c program find two miss number use n extra space includ bit stdc h use namespac std function find two miss number rang 1 n 
+function assum size array n 2 array element distinct void findtwomissingnumb int arr int n creat boolean vector size n 1 mark present element arr 
+vector bool mark n 1 fals int 0 n 2 mark arr true print two unmark element cout two miss number n int 1 n 
+mark cout cout endl driver program test function int main int arr 1 3 5 6 rang number 2 plu size array int n 2 sizeof arr sizeof arr 0 findtwomissingnumb arr n return 0 output two miss number 2 4 method 2 n time complex 1 extra space idea base popular solut find one miss number 
+extend solut two miss element print 
+let find sum 2 miss number arrsum sum element array sum sum 2 miss number sum integ 1 n arrsum n n 1 2 arrsum avg averag 2 miss number sum 2 one number less equal avg one strictli greater avg 
+two number never equal sinc given number distinct 
+find first miss number sum natur number 1 avg e avg avg 1 2 minu sum array element smaller avg find second miss number sum natur number avg 1 n minu sum array element greater avg consid exampl better clarif input 1 3 5 6 n 6 sum miss integ n n 1 2 1 3 5 6 6 averag miss integ 6 2 3 sum array element less equal averag 1 3 4 sum natur number 1 avg avg avg 1 2 3 4 2 6 first miss number 6 4 2 sum natur number avg 1 n n n 1 2 avg avg 1 2 6 7 2 3 4 2 15 sum array element greater averag 5 6 11 second miss number 15 11 4 c implement idea 
+c program find 2 miss number use 1 extra space includ iostream use namespac std return sum array int getsum int arr int n int sum 0 int 0 n sum arr return sum function find two miss number rang 1 n 
+function assum size array n 2 array element distinct void findtwomissingnumb int arr int n sum 2 miss number int sum n n 1 2 getsum arr n 2 find averag two element int avg sum 2 find sum element smaller averag avg sum element greater averag avg int sumsmallerhalf 0 sumgreaterhalf 0 int 0 n 2 arr avg sumsmallerhalf arr els sumgreaterhalf arr cout two miss number n first smaller element sum natur number upto avg sum array element smaller equal avg int totalsmallerhalf avg avg 1 2 cout totalsmallerhalf sumsmallerhalf first smaller element sum natur number avg 1 n sum array element greater avg cout n n 1 2 totalsmallerhalf sumgreaterhalf driver program test function int main int arr 1 3 5 6 rang number 2 plu size array int n 2 sizeof arr sizeof arr 0 findtwomissingnumb arr n return 0 output two miss number 2 4 note overflow issu solut 
+set 2 anoth solut n time 1 space caus overflow issu discuss 
+find two miss number set 2 xor base solut articl contribut chirag agarw 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,19 @@
+scope identifi part program identifi may directli access 
+c identifi lexic static scope 
+c scope rule cover follow two categori 
+global scope access anywher program 
+filenam file1 c int int main void 2 filenam file2 c file link file1 c function file access extern int int myfun 2 restrict access current file global variabl mark static 
+block scope block set statement enclos within left right brace respect 
+block may nest c block may contain block insid 
+variabl declar block access block inner block block access outsid block 
+inner block one variabl name 
+inner block declar variabl name variabl declar outer block visibl outer block variabl end pint declar inner block 
+int main int x 10 20 outer block contain declar x follow statement valid print 10 20 printf x n x declar outer block access block int 40 x chang outer block variabl x 11 chang block variabl 41 printf x n x statement access outer block variabl printf x n x return 0 output x 10 20 x 11 41 x 11 20 function paramet pass function 
+function block 
+paramet local variabl function follow block scope rule 
+variabl block access anoth subsequ block 
+variabl declar block access insid block inner block block 
+exampl follow program produc compil error 
+int main int x 10 printf x error x access return 0 output error x undeclar first use function exercis predict output follow program 
+int main int x 1 2 z 3 printf x z n x z int x 10 float 20 printf x f z n x z int z 100 printf x f z n x z return 0 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

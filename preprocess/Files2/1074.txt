@@ -1,0 +1,15 @@
+given array distinct element find third largest element 
+exampl input arr 1 14 2 16 10 20 output third largest element 14 input arr 19 10 20 14 2 16 10 output third largest element 16 method 1 simpl simplest way solv question first iter array find first maximum 
+store first maximum well index 
+travers whole array find second max chang condit 
+final travers array third time find third largest element 
+c program find third largest element array distinct element includ bit stdc h void thirdlargest int arr int arr_siz atleast three element arr_siz 3 printf invalid input return find first largest element int first arr 0 int 1 arr_siz arr first first arr find second largest element int second int_min int 0 arr_siz arr second arr first second arr find third largest element int third int_min int 0 arr_siz arr third arr second third arr printf third largest element n third driver program test function int main int arr 12 13 1 10 34 16 int n sizeof arr sizeof arr 0 thirdlargest arr n return 0 output third largest element 13 method 2 method need iter array three time 
+find third largest one travers 
+initi first 0 second inf third inf iter array compar element first 
+greater first updat first second third third second second first first arr els compar arr second greater second updat third second second arr els compar arr third greater third updat third arr return third c program find third largest element array includ bit stdc h void thirdlargest int arr int arr_siz atleast three element arr_siz 3 printf invalid input return initi first second third largest element int first arr 0 second int_min third int_min travers array element find third largest int 1 arr_siz current element greater first updat first second third arr first third second second first first arr arr first second els arr second third second second arr arr second third els arr third third arr printf third largest element n third driver program test function int main int arr 12 13 1 10 34 16 int n sizeof arr sizeof arr 0 thirdlargest arr n return 0 output third largest element 13 exercis extend solut find third largest array may duplic 
+exampl input array 10 5 15 5 15 10 1 1 output 5 extend solut also work one travers 
+relat articl find smallest second smallest element array k largest smallest element array k th smallest largest element unsort array set 3 worst case linear time articl contribut vidhi jindal 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

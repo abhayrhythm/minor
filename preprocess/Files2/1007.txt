@@ -1,0 +1,18 @@
+assert statement use test assumpt made programm 
+exampl may use assert check pointer return malloc null 
+follow syntax assert 
+void assert int express express evalu 0 fals express sourcecod filenam line number sent standard error abort function call 
+exampl consid follow program 
+includ stdio h includ assert h int main int x 7 big code let say x accident chang 9 x 9 programm assum x 7 rest code assert x 7 rest code return 0 output assert fail x 5 file test cpp line 13 applic request runtim termin unusu way 
+pleas contact applic support team inform 
+assert vs normal error handl assert mainli use check logic imposs situat 
+exampl use check state code expect start run state finish run 
+unlik normal error handl assert gener disabl run time 
+therefor good idea write statement asser caus side effect 
+exampl write someth like assert x 5 good idea x chang chang happen assert disabl 
+see detail 
+ignor assert c c complet remov assert compil time use preprocessor nodebug 
+program run fine ndebug defin defin ndebug includ assert h int main int x 7 assert x 5 return 0 program compil run fine 
+java assert enabl default must pass option run time engin enabl 
+refer http en wikipedia org wiki assertion_ 28software_develop 29 pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

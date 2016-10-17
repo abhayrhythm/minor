@@ -1,0 +1,10 @@
+trie effici inform retriev data structur 
+use trie search complex brought optim limit key length 
+store key binari search tree well balanc bst need time proport log n maximum string length n number key tree 
+use trie search key time 
+howev penalti trie storag requir 
+everi node trie consist multipl branch 
+branch repres possibl charact key 
+need mark last node everi key leaf node 
+trie node field valu use distinguish node leaf node use valu field 
+simpl structur repres node english alphabet follow trie node struct trienod struct trienod children alphabet_s isleaf true node repres end word bool isleaf 

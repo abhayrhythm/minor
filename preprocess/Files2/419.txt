@@ -1,0 +1,9 @@
+given array print next greater element nge everi element 
+next greater element element x first greater element right side x array 
+element greater element exist consid next greater element 1 exampl array rightmost element alway next greater element 1 b array sort decreas order element next greater element 1 c input array 4 5 2 25 next greater element element follow 
+element nge 4 5 5 25 2 25 25 1 input array 13 7 6 12 next greater element element follow 
+element nge 13 1 7 12 6 12 12 1 method 1 simpl use two loop outer loop pick element one one 
+inner loop look first greater element element pick outer loop 
+greater element found element print next otherwis 1 print 
+thank sachin provid follow code 
+c c simpl c program print next greater element given array includ stdio h print element nge pair element arr size n void printng int arr int n int next j 0 n next 1 j 1 j n j arr arr j next arr j break printf n arr next int main int arr 11 13 21 3 int n sizeof arr sizeof arr 0 printng arr n getchar return 0 python function print element nge pair element list def printng arr rang 0 len arr 1 next 1 j rang 1 len arr 1 arr arr j next arr j break print str arr str next driver program test function arr 11 13 21 3 printng arr code contribut sunni karira output 

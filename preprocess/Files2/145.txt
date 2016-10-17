@@ -1,0 +1,42 @@
+subset sum problem find subset element select given set whose sum add given number k consid set contain non neg valu 
+assum input set uniqu duplic present 
+strongli recommend click practic move solut 
+exhaust search algorithm subset sum one way find subset sum k consid possibl subset 
+power set contain subset gener given set 
+size power set 2n 
+backtrack algorithm subset sum use exhaust search consid subset irrespect whether satisfi given constraint 
+backtrack use make systemat consider element select 
+assum given set 4 element say w 1 w 4 
+tree diagram use design backtrack algorithm 
+follow tree diagram depict approach gener variabl size tupl 
+tree node repres function call branch repres candid element 
+root node contain 4 children 
+word root consid everi element set differ branch 
+next level sub tree correspond subset includ parent node 
+branch level repres tupl element consid 
+exampl level 1 tuple_vector 1 take valu four branch gener 
+level 2 left node tuple_vector 2 take valu three branch gener exampl left child root gener subset includ w 1 
+similarli second child root gener subset includ w 2 exclud w 1 
+go along depth tree add element far ad sum satisfi explicit constraint continu gener child node 
+whenev constraint met stop gener sub tree node backtrack previou node explor node yet explor 
+mani scenario save consider amount process time 
+tree trigger clue implement backtrack algorithm tri 
+print subset whose sum add given number 
+need explor node along breadth depth tree 
+gener node along breadth control loop node along depth gener use recurs post order travers 
+pseudo code given subset satisfi constraint print subset exclud current element consid next element els gener node present level along breadth tree recur next level follow c implement subset sum use variabl size tupl vector 
+note follow program explor possibl similar exhaust search 
+demonstr backtrack use 
+see next code verifi optim backtrack solut 
+includ stdio h includ stdlib h defin arrays sizeof sizeof 0 static int total_nod print subset found void printsubset int int size int 0 size printf 5 printf n input set vector tuplet vector s_size set size t_size tuplet size far sum sum far ite node count target_sum sum found void subset_sum int int int s_size int t_size int sum int ite int const target_sum total_nod target_sum sum found subset printsubset t_size exclud previous ad item consid next candid subset_sum s_size t_size 1 sum ite ite 1 target_sum return els gener node along breadth int ite s_size t_size consid next level node along depth subset_sum s_size t_size 1 sum 1 target_sum wrapper print subset sum target_sum input weight vector target_sum void generatesubset int int size int target_sum int tuplet_vector int malloc size sizeof int subset_sum tuplet_vector size 0 0 0 target_sum free tuplet_vector int main int weight 10 7 5 18 12 20 15 int size arrays weight generatesubset weight size 35 printf node gener n total_nod return 0 power backtrack appear combin explicit implicit constraint stop gener node check fail 
+improv algorithm strengthen constraint check presort data 
+sort initi array need consid rest array sum far greater target number 
+backtrack check possibl 
+similarli assum array presort found one subset 
+gener next node exclud present node inclus next node satisfi constraint 
+given optim implement prune subtre satisfi contraint 
+includ stdio h includ stdlib h defin arrays sizeof sizeof 0 static int total_nod print subset found void printsubset int int size int 0 size printf 5 printf n qsort compar function int compar const void plh const void prh int lh int plh int rh int prh return lh rh input set vector tuplet vector s_size set size t_size tuplet size far sum sum far ite node count target_sum sum found void subset_sum int int int s_size int t_size int sum int ite int const target_sum total_nod target_sum sum found sum printsubset t_size constraint check ite 1 s_size sum ite ite 1 target_sum exclud previou ad item consid next candid subset_sum s_size t_size 1 sum ite ite 1 target_sum return els constraint check ite s_size sum ite target_sum gener node along breadth int ite s_size t_size sum target_sum consid next level node along depth subset_sum s_size t_size 1 sum 1 target_sum wrapper print subset sum target_sum void generatesubset int int size int target_sum int tuplet_vector int malloc size sizeof int int total 0 sort set qsort size sizeof int compar int 0 size total 0 target_sum total target_sum subset_sum tuplet_vector size 0 0 0 target_sum free tuplet_vector int main int weight 15 22 14 26 32 9 16 8 int target 53 int size arrays weight generatesubset weight size target printf node gener n total_nod return 0 anoth approach gener tree fix size tupl analog binari pattern 
+kill sub tree constraint satisfi 
+venki 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

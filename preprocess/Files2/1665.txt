@@ -1,0 +1,28 @@
+invers count array indic far close array sort 
+array alreadi sort invers count 0 array sort revers order invers count maximum 
+two element j form invers j j simplic may assum element uniqu 
+exampl input arr 8 4 2 1 output 6 given array six invers 8 4 4 2 8 2 8 1 4 1 2 1 
+alreadi discuss naiv approach merg sort base approach count invers 
+time complex naiv approach n2 merg sort base approach n log n 
+post one n log n approach discuss 
+idea use self balanc binari search tree like red black tree avl tree etc augment everi node also keep track number node right subtre 
+1 creat empti avl tree 
+tree augment everi node also maintain size subtre root node 
+2 initi invers count result 0 
+3 iter 0 n 1 follow everi element arr insert arr avl tree 
+insert oper also updat result 
+idea keep count greater node tree travers root leaf insert 
+4 return result 
+explan step 3 1 insert arr element arr 0 arr 1 alreadi insert avl tree 
+need count node 
+2 insert avl tree travers tree root leaf compar everi node arr 
+arr smaller current node increas invers count 1 plu number node right subtre current node 
+basic count greater element left arr e invers 
+c implement idea 
+avl tree base c program count invers array includ bit stdc h use namespac std avl tree node struct node int key height struct node left right int size size tree root node util function get height tree root n int height struct node n n null return 0 return n height util function size tree root n int size struct node n n null return 0 return n size helper function alloc new node given key null left right pointer 
+struct node newnod int key struct node node new node node key key node left node right null node height node size 1 return node util function right rotat subtre root struct node rightrot struct node struct node x left struct node t2 x right perform rotat x right left t2 updat height height max height left height right 1 x height max height x left height x right 1 updat size size size left size right 1 x size size x left size x right 1 return new root return x util function left rotat subtre root x struct node leftrot struct node x struct node x right struct node t2 left perform rotat left x x right t2 updat height x height max height x left height x right 1 height max height left height right 1 updat size x size size x left size x right 1 size size left size right 1 return new root return get balanc factor node n int getbal struct node n n null return 0 return height n left height n right insert new key tree rot node 
+also updat result invers count struct node insert struct node node int key int result 1 perform normal bst rotat node null return newnod key key node key node left insert node left key result updat count great element key result result size node right 1 els node right insert node right key result 2 updat height size ancestor node node height max height node left height node right 1 node size size node left size node right 1 3 get balanc factor ancestor node check whether node becam unbalanc int balanc getbal node node becom unbalanc 4 case left left case balanc 1 key node left key return rightrot node right right case balanc 1 key node right key return leftrot node left right case balanc 1 key node left key node left leftrot node left return rightrot node right left case balanc 1 key node right key node right rightrot node right return leftrot node return unchang node pointer return node follow function return invers count arr int getinvcount int arr int n struct node root null creat empti avl tree int result 0 initi result start first element insert element one one avl tree 
+int 0 n note address result pass insert oper updat result ad count element greater arr left arr root insert root arr result return result driver program test int main int arr 8 4 2 1 int n sizeof arr sizeof int cout number invers count getinvcount arr n return 0 output number invers count 6 time complex solut n log n avl insert take log n time 
+count invers use set c stl 
+soon discuss binari index tree base approach 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

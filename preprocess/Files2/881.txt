@@ -1,0 +1,16 @@
+function read charact input return integ valu 
+integ return accommod special valu use indic failur 
+valu eof gener use purpos 
+getc read singl charact given input stream return correspond integ valu typic ascii valu read charact success 
+return eof failur 
+syntax int getc file stream exampl exampl getc c includ stdio h int main printf c getc stdin return 0 input g press enter key output g getchar differ getc getchar getc read input stream getchar read standard input 
+getchar equival getc stdin 
+syntax int getchar void exampl exampl getchar c includ stdio h int main printf c getchar return 0 input g press enter key output g getch getch nonstandard function present conio h header file mostli use ms do compil like turbo c part c standard librari iso c defin posix sourc http en wikipedia org wiki conio h like function read also singl charact keyboard 
+use buffer enter charact immedi return without wait enter key 
+syntax int getch exampl exampl getch c includ stdio h includ conio h int main printf c getch return 0 input g without enter key output program termin immedi 
+use do shell turbo c show singl g e g getch like getch also non standard function present conio h 
+read singl charact keyboard display immedi output screen without wait enter key 
+syntax int getch void exampl includ stdio h includ conio h exampl getch c int main printf c getch return 0 input g without enter key buffer output program termin immedi 
+use do shell turbo c doubl g e gg articl contribut vankayala karunakar 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

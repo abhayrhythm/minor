@@ -1,0 +1,21 @@
+given number n write effici function print prime factor n exampl input number 12 output 2 2 3 
+input number 315 output 3 3 5 7 
+follow step find prime factor 
+1 n divis 2 print 2 divid n 2 
+2 step 1 n must odd 
+start loop 3 squar root n divid n print divid n increment 2 continu 
+3 n prime number greater 2 n becom 1 two step 
+print n greater 2 
+program print prime factor includ stdio h includ math h function print prime factor given number n void primefactor int n print number 2s divid n n 2 0 printf 2 n n 2 n must odd point 
+skip one element note 2 int 3 sqrt n 2 divid n print divid n n 0 printf n n condit handl case whien n prime number greater 2 n 2 printf n driver program test function int main int n 315 primefactor n return 0 output 3 3 5 7 work 
+step 1 2 take care composit number step 3 take care prime number 
+prove complet algorithm work need prove step 1 2 actual take care composit number 
+clear step 1 take care even number 
+step 1 remain prime factor must odd differ two prime factor must least 2 explain increment 2 main part loop run till squar root n till 
+prove optim work let us consid follow properti composit number 
+everi composit number least one prime factor less equal squar root 
+properti prove use counter statement 
+let b two factor n b n greater n b n n contradict express b n 
+step 2 algorithm run loop follow loop find least prime factor must less n b remov occurr n repeatedli divid n c repeat step b divid n 2 step b repeat till n becom either 1 prime number 
+thank vishwa garg suggest algorithm 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

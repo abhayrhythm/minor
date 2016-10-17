@@ -1,0 +1,54 @@
+sr 
+softwar requir specif sr descript softwar system develop 
+lay function non function requir may includ set use case describ user interact softwar must provid 
+sr 
+order fulli understand one project import come sr list requir go meet complet project 
+help team save upon time abl comprehend go go project 
+also enabl team find limit risk earli 
+follow sampl sr wrote one project 
+project plan meeturm 1 introduct document lay project plan develop meeturm open sourc repositori system anurag mishra 
+intend reader document current futur develop work meeturm sponsor project 
+plan includ restrict summari system function scope project perspect meeturm team mentor schedul deliveri estim project risk risk mitig process develop project metric measur record throughout project 
+2 overview today world own heavi workload employe huge amount stress live 
+even presenc mani gadget around abl reliev stress 
+aim develop applic would enabl share thing like meet person passion 
+eg 
+someon want share art share platform someon want sing song record share 
+also share video funni commentari background share mysteri peopl solv post question 
+platform enabl meet peopl share common interest passion chat fun 
+2 1 custom everyon 
+anyon use applic rang child old age person 
+2 2 function user abl regist alreadi exist account 
+abl share snap video snap 
+peopl abl like comment post 
+one person follow anoth person share common interest like would enabl find mate apart usual friend circl 
+user profil pictur statu peopl post mysteri peopl solv mysteri 
+user get point popular post number mysteri solv 
+add funni commentari video post question regard interest peopl answer 
+p 
+ital point featur inculc later 
+2 3 platform launch web base applic mobil app android 
+2 4 develop respons anurag mishra would develop softwar respons creation databas relat stuff 
+3 goal scope user abl regist alreadi exist account 
+abl share snap video snap 
+peopl abl like comment post 
+one person follow anoth person share common interest like would enabl find mate apart usual friend circl 
+user profil pictur statu 
+peopl post mysteri peopl solv mysteri 
+user get point popular post number mysteri solv 
+4 deliver deliv follow cours develop featur specif product design test plan develop document sourc code 5 risk manag 5 1 risk identif follow risk involv project 1 peopl alreadi use facebook find friend 
+would real caus would motiv join applic 
+5 2 risk mitig even though user would alreadi use facebook platform would still offer mani thing facebook 
+eg 
+meet peopl share common interest passion much 
+applic would enabl meet peopl apart usual friend share common interest passion frequent basi 
+user fb cannot share song go sung wherea app go 
+peopl post mysteri case peopl solv 
+moreov peopl get point case solv mysteri basi popular post 
+importantli peopl need regist applic instead login use alreadi exist account googl facebook 
+thu think consider amount differ facebook instagram twitter applic would attract mani peopl 
+6 schedul estim mileston descript releas date releas iter m1 applic view design octob 5 2015 r1 front end develop m2 databas applic octob 17 2015 r1 back end m3 integr view design novemb 12 2015 r1 integr front end back end m4 test initi releas novemb 20 20015 r2 m5 issu tracker user review decemb 1 2015 r2 web design integr m6 final releas decemb 23 2015 r2 7 technic process follow would languag would use develop applic within stipul time period front end develop jqueri html css php 
+back end develop php mysql 
+android app java android sdk 
+blog contribut anurag mishra 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

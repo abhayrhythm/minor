@@ -1,0 +1,54 @@
+
+Given two strings str1 and str2, find if str1 is a subsequence of str2. A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements (source: wiki).  Expected time complexity is linear.
+Examples:
+
+Input: str1 = "AXY", str2 = "ADXCPY"
+Output: True (str1 is a subsequence of str2)
+
+Input: str1 = "AXY", str2 = "YADXCP"
+Output: False (str1 is not a subsequence of str2)
+
+Input: str1 = "gksrek", str2 = "geeksforgeeks"
+Output: True (str1 is a subsequence of str2)
+
+We strongly recommend to minimize the browser and try this yourself first.
+The idea is simple, we traverse both strings from one side to other side (say from rightmost character to leftmost).  If we find a matching character, we move ahead in both strings. Otherwise we move ahead only in str2.  
+Following is Recursive Implementation in C++ and Python of the above idea.
+
+C/C++
+
+
+
+// Recursive C++ program to check if a string is subsequence of another string
+#include<iostream>
+#include<cstring>
+using namespace std;
+
+// Returns true if str1[] is a subsequence of str2[]. m is
+// length of str1 and n is length of str2
+bool isSubSequence(char str1[], char str2[], int m, int n)
+{
+    // Base Cases
+    if (m == 0) return true;
+    if (n == 0) return false;
+
+    // If last characters of two strings are matching
+    if (str1[m-1] == str2[n-1])
+        return isSubSequence(str1, str2, m-1, n-1);
+
+    // If last characters are not matching
+    return isSubSequence(str1, str2, m, n-1);
+}
+
+// Driver program to test methods of graph class
+int main()
+{
+    char str1[] = "gksrek";
+    char str2[] = "geeksforgeeks";
+    int m = strlen(str1);
+    int n = strlen(str2);
+    isSubSequence(str1, str2, m, n)? cout << "Yes ":
+                                     cout << "No";
+    return 0;
+}
+

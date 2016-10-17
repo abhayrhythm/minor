@@ -1,0 +1,5 @@
+given string s1 string s2 write snippet say whether s2 rotat s1 use one call strstr routin 
+eg given s1 abcd s2 cdab return true given s1 abcd s2 acbd return fals algorithm arerot str1 str2 1 creat temp string store concaten str1 str1 temp 
+temp str1 str1 2 str2 substr temp str1 str2 rotat 
+exampl str1 abacd str2 cdaba temp str1 str1 abacdabacd sinc str2 substr temp str1 str2 rotat 
+implement c c program check two given string rotat includ stdio h includ string h includ stdlib h function check pass string str1 str2 rotat int arerot char str1 char str2 int size1 strlen str1 int size2 strlen str2 char temp void ptr check size two string size1 size2 return 0 creat temp string valu str1 str1 temp char malloc sizeof char size1 2 1 temp 0 0 strcat temp str1 strcat temp str1 check str2 substr temp ptr strstr temp str2 free temp free dynam alloc memori strstr return null second string substr first string ptr null return 1 els return 0 driver program test arerot int main char str1 aacd char str2 acda arerot str1 str2 printf string rotat els printf string rotat getchar return 0 

@@ -1,0 +1,28 @@
+
+Deque or Double Ended Queue is a generalized version of Queue data structure that allows insert and delete at both ends.
+Operations on Deque:
+Mainly the following four basic operations are performed on queue:
+insetFront(): Adds an item at the front of Deque.
+insertLast(): Adds an item at the rear of Deque.
+ deleteFront(): Deletes an item from front of Deque.
+ deleteLast(): Deletes an item from rear of Deque.
+In addition to above operations, following operations are also supported
+ getFront(): Gets the front item from queue.
+ getRear(): Gets the last item from queue.
+ isEmpty(): Checks whether Deque is empty or not.
+ isFull(): Checks whether Deque is full or not.
+Applications of Deque:
+Since Deque supports both stack and queue operations, it can be used as both.  The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
+Also, the problems where elements need to be removed and or added both ends can be efficiently solved using Deque.  For example see Maximum of all subarrays of size k problem..
+See wiki page for another example of A-Steal job scheduling algorithm where Deque is used as deletions operation is required at both ends.
+Language Support:
+C++ STL provides implementation of Deque as std::deque and Java provides Deque interface.  See this for more details.
+Implementation:
+A Deque can be implemented either using a doubly linked list or circular array.   In both implementation, we can implement all operations in O(1) time.  We will soon be discussing C/C++ implementation of Deque Data structure.
+Please write comments if you find the above codes/algorithms incorrect, or find other ways to solve the same problem.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

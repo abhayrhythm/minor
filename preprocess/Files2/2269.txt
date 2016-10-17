@@ -1,0 +1,4 @@
+question 1 consid follow recurs c function 
+let len length string num number charact print screen give relat num len len alway greater 0 void abc char 0 0 return abc 1 abc 1 printf c 0 follow relat num len 
+num 2 len 1 0 1 time print 1 2 time print 2 4 time print print 2 time strlen 1 print 2 strlen 1 time total 1 2 2 strlen 1 2 strlen 1 exampl follow program print 7 charact 
+includ stdio h void abc char 0 0 return abc 1 abc 1 printf c 0 int main abc xyz return 0 thank bharat nag suggest solut 

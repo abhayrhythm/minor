@@ -1,0 +1,24 @@
+
+The order of operands of logical operators &&, || are important in C/C++.
+In mathematics, logical AND, OR, EXOR, etc… operations are commutative. The result will not change even if we swap RHS and LHS of the operator.
+In C/C++ (may be in other languages as well)  even though these operators are commutative, their order is critical. For example see the following code,
+
+// Traverse every alternative node
+while( pTemp && pTemp->Next )
+{
+   // Jump over to next node
+   pTemp = pTemp->Next->Next;
+}
+
+The first part pTemp will be evaluated against NULL and followed by pTemp->Next. If pTemp->Next is placed first, the pointer pTemp will be dereferenced and there will be runtime error when pTemp is NULL.
+It is mandatory to follow the order. Infact, it helps in generating efficient code. When the pointer pTemp is NULL, the second part will not be evaluated since the outcome of AND (&&) expression is guaranteed to be 0.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

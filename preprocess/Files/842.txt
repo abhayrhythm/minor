@@ -1,0 +1,48 @@
+
+Geek on the top is all about success stories of Geeks who are working hard to chase their goals and are inspiration for other geeks.
+Harshil Shah might not need introduction to many geeks reading this article. He is a super talented programming nerd with so many contest positions in his profile , Adobe Hackathon, SnackDown,  Cook offs being the highlights.
+
+How did it all start? What made you land into the world of competitive programming?
+It all started with programming club session in my college. Our senior Archit Karandikar (ICPC WF’13 and ‘14) motivated us to get started in this sport. His words “If you can solve hard problems on Codechef, you can easily get 1 crore job in Google” was something that got me started. Being naive, I did start programming with the intention of good placements, but later this thing became much more of a sport for me, since questions asked in programming competitions are lot more tougher and different than those asked in interviews. Soon I came to know about ACM ICPC and it became golden motivation for me to keep going in the world of competitive programming. I got a good company of peers Utkarsh Saxena and Aditya Shah who were all time together with me in this journey and without whom it wouldn’t have been awesome.
+You have won Adobe Hackathon with a prize 1.5 Lakh too. How winning these hackathons can play a part in getting anyone a good internship and job?
+Yes, winning such hackathons can play a good part in getting a good internship and job. Such achievements can cast a good impression on interviewer. However, they won’t be of much help if you can’t clear the interviews. Projects are much more crucial along with such achievements for getting a good internship or job offer. Many major firms select candidates solely on the base of interview performance and projects because skills expected in interviews are different than that of programming competitions. In interviews, many things like code quality, code readability, analytical skills, ability to express ideas etc. matters which aren’t required in programming competitions. But obviously, you need to solve the interview problems in first place which would be not be difficult if you are capable to win such hackathons.
+How did you handle the stress while competing to code? What are your suggestions for other students for the same?
+When it comes to programming competitions, stress management can be very important thing. Everyone faces this issue in some way or the other. Only way to come over this issue is to practice a lot. Keep participating in all the competitions on all the platforms. Since most of the programming competitions only provide you with limited amount of time, so while practicing also, one should practice in the same way focusing on increasing speed and improving accuracy simultaneously. Eventually, you will learn how to manage stress and maintain focus during competitions.
+Do you think being an IITian played a crucial role in your win?
+Yeah, being an IITian played a good role in the win, but what more crucial is the good company of peers, who are passionate just like you. The people you are with and environment you get plays a very crucial role in win. There are lot of teams who went to ACM ICPC World Finals from India previously but doesn’t belong to any IIT and secured a fabulous rank for India at World Finals.
+What should one keep in mind when beginning to pursue the Competitive Programming and job preparation?
+Competitive programming is much of a sport. It helps in increasing your aptitude to a level where job preparation doesn’t seem difficult. However, one needs atleast 2 years of time to become good in this sport. So if you have placements coming in your current semester, competitive programming might not be fruitful. But if you have good amount time, it could be a hen hatching golden eggs. You can improve your problem solving aptitude using this sport and it will be helpful in all challenges of life including job preparation.
+People call you nerd – How do you handle that 😉 ??
+People don’t just call me a nerd, they call me a programming nerd. Once you become good in solving problems, you will get lots of cool T-shirts with mind blowing programming quotes on them. I wear all such T-shirts daily and encourage all those people calling me a nerd to become a nerd like me. However, keep in mind that programming all time doesn’t make you a nerd because it is something you enjoy and have fun. Just like some people love playing cricket, some people love to code and that doesn’t make you a nerd.
+What’s your advice to students who aim to become excellent programmer like yours?
+Solve as many problems as you can. Keep participating in all the contests on the platforms like Codeforces, Topcoder, Codechef, Hackerrank, Hackerearth, GeeeksforGeeks etc. Keep in mind that most important thing for improvement is to upsolve the contest afterwards. Give atleast twice the duration of contest to upsolve it later.
+Always try to solve problems one level higher than your ability while practicing. Solving lots of easy problems are not as beneficial as practicing some hard problems. Focus on seeking ability rather than speed.
+Brainstorming is the most important thing for becoming excellent in this sport. Take some time to figure out solution on your own before looking at editorials. Even if you have to read the editorials, try to implement them on your own.
+After solving the problem, look at the solutions of experienced great programmers. There will be tons of things you will get to know from those solutions. Codeforces “friends standing” feature is very helpful for this purpose.
+The best strategy to become good in this sport is to find someone just like you and to practice together regularly. Having peers will encourage healthy competitions and learning opportunities.
+Harshil’s  Coding Profile:
+
+Codeforces: _shil
+Topcoder: shil_4
+Codechef: harshil7924
+Hackerrank: harshil7924
+
+Harshil’s Achievements:
+
+Secured 1st rank in Adobe Hackathon 2015 among 8000 participants
+Secured 7th position in India in Morgan Stanley Codeathon,2016.
+Qualified for onsite finals of Codechef Snackdown 2016 and ranked 20th position in India
+Secured 3rd position in nationwide programming contest held by Hewlett-Packard Enterprise.
+Three TOP5 finishes in Codechef Cook-Off in India
+
+If you know a top Geek whose interview should also be published, please drop an e-mail to contribute@geeksforgeeks.org.
+Let the top geeks inspire other students!!
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

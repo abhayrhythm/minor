@@ -1,0 +1,29 @@
+amount lent deposit call princip money princip gener call interest 
+money gener result borrow lend 
+simpl interest interest calcul princip amount rather calcul cumul amount 
+simpl interest si p x r x 100 p princip r rate interest per unit time period time period 
+final amount princip si sampl problem question 1 would annual interest accru deposit rs 
+10 000 bank pay 4 per annum rate simpl interest 
+solut p 10000 r 4 1 si p x r x 100 si 10000 x 4 x 1 100 si 400 thu annual interest would rs 
+400 question 2 sum money amount rs 
+28 000 2 year 20 simpl interest per annum 
+find sum 
+solut 18000 2 r 20 p si p p x r x 100 p 1 r x 100 28000 p 1 0 4 p 28000 1 4 p 20000 thu requir sum rs 
+20 000 question 3 man borrow certain sum money rate 6 per annum first two year 9 per annum next three year 14 per annum period beyond 5 year 
+pay total interest rs 
+22 800 end 9 year find amount borrow 
+solut let borrow sum p si first 2 year si next 3 year si next 4 year 22800 p x 6 x 2 100 p x 9 x 3 100 p x 14 x 4 100 22800 95 p 100 22800 p 24000 therefor borrow sum rs 
+24 000 question 4 annual rate interest sum money thrice 10 year 
+solut amount princip si sum money would thrice princip 10 year si would twice princip 
+si 2 x p p x r x 100 2 x p r x 100 2 r x 200 r x 10 200 r 20 thu requir rate interest 20 question 5 simpl interest sum money 5 year 12 per annum rs 
+400 less simpl interest accru sum 7 year 10 per annum 
+find sum 
+solut let sum p si 5 year 12 per annum p x 12 x 5 100 0 6 p si 7 year 10 per annum p x 10 x 7 100 0 7 p accord question 0 7 p 0 6 p 400 0 1 p 400 p 4000 thu requir sum rs 
+4000 question 6 sum rs 
+1000 lent two peopl one rate 5 rate 8 
+simpl interest one year rs 
+62 find sum lent rate 
+solut let sum lent 5 p sum lent 8 1000 p accord question si 5 si 8 62 p x 5 x 1 100 1000 p x 8 x 1 100 62 5 p 8 1000 p 620 5 p 8000 8 p 6200 3 p 1800 p 600 therefor sum lent 5 p rs 
+600 sum lent 8 1000 p rs 
+400 articl contribut nishant arora pleas write comment doubt relat topic discuss face difficulti question would like discuss question mention 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

@@ -1,0 +1,30 @@
+given direct acycl graph dag find topolog sort graph 
+topolog sort direct acycl graph dag linear order vertic everi direct edg uv vertex u come v order 
+topolog sort graph possibl graph dag 
+exampl topolog sort follow graph 5 4 2 3 1 0 
+one topolog sort graph 
+exampl anoth topolog sort follow graph 4 5 2 3 1 0 
+pleas note first vertex topolog sort alway vertex degre 0 vertex incom edg 
+graph vertex 4 5 incom edg 
+alreadi discuss df base algorithm use stack kahn algorithm topolog sort 
+also discuss print topolog sort dag 
+post anoth df base approach discuss find topolog sort graph introduc concept arriv departur time vertex df 
+arriv time departur time vertic df 
+df arriv time time vertex explor first time departur time time explor neighbor vertex readi backtrack 
+find topolog sort graph use departur time 
+find topolog sort graph run df start unvisit vertic one one 
+vertex explor neighbor note arriv time vertex explor neighbor vertex note departur time 
+pleas note departur time need find topolog sort graph skip arriv time vertex 
+final visit vertic graph print vertic order decreas departur time desir topolog order vertic 
+c implement idea c program print topolog sort dag includ bit stdc h use namespac std graph class repres direct graph use adjac list represent class graph int v 
+vertic pointer array contain adjac list list int adj public graph int constructor graph destructor function add edg graph void addedg int int function df travers void df int vector bool vector int int function topolog sort 
+void topologicalsort graph graph int v v v adj new list int v graph graph delet adj void graph addedg int v int w adj v push_back w add w v list 
+function df store departur time vertex void graph df int v vector bool visit vector int departur int time visit v true time arriv time vertex v int adj v visit df visit departur time set departur time vertex v departur time v function topolog sort 
+use df 
+void graph topologicalsort vector store departur time vertex 
+vector int departur v 1 mark vertic visit vector bool visit v fals int time 1 perform df unvisit vertic int 0 v visit df visit departur time print vertic topolog order int v 1 0 cout departur driver program test function int main creat graph given diagram graph g 6 g addedg 5 2 g addedg 5 0 g addedg 4 0 g addedg 4 1 g addedg 2 3 g addedg 3 1 cout topolog sort given graph n g topologicalsort return 0 output topolog sort given graph 5 4 2 3 1 0 time complex solut v e 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

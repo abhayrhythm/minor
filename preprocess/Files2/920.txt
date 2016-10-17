@@ -1,0 +1,11 @@
+consid two statement c differ two 
+char geeksquiz char geeksquiz statement char geeksquiz creat charact array like array array oper 
+special thing array although initi 9 element size 10 compil automat add 0 includ stdio h int main char geeksquiz printf lu sizeof 0 j printf n return 0 output 10 jeeksquiz statement char geeksquiz creat string liter 
+string liter store read part memori compil 
+c c standard say string liter static storag durat attempt modifi give undefin behavior 
+pointer like pointer store address string liter 
+includ stdio h int main char geeksquiz printf lu sizeof uncom line would caus undefin behaviour caus segment fault gcc 0 j return 0 output 8 run program may gener warn also warn deprec convers string constant char 
+warn occur const pointer store address read locat 
+warn avoid pointer const 
+includ stdio h int main const char geeksquiz printf lu sizeof return 0 articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

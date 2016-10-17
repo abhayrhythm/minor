@@ -1,0 +1,14 @@
+given dictionari two word start target length 
+find length smallest chain start target exist adjac word chain differ one charact word chain valid word e exist dictionari 
+may assum target word exist dictionari length dictionari word 
+exampl input dictionari poon plee poie plea plie poin start toon target plea output 7 explan toon poon poin poie plie plee plea strongli recommend minim browser tri first 
+idea use bf 
+start given start word travers word adjac differ one charact keep find target word travers word 
+c implement idea 
+c program find length shortest chain transform sourc target includ bit stdc h use namespac std check string differ exactli one charact bool isadjac string string b int count 0 store count differ int n length iter charact return fals one mismatch charact int 0 n b count count 1 return fals return count 1 
+true fals queue item store word minimum chain length reach word 
+struct qitem string word int len return length shortest chain reach target start use minimum number adjac move 
+dictionari int shortestchainlen string start string target set string creat queue bf insert start sourc vertex queue qitem q qitem item start 1 chain length start word 1 q push item queue empti q empti take front word qitem curr q front q pop go word dictionari set string iter begin end process dictionari word adjac current word vertex bf string temp isadjac curr word temp add dictionari word q item word temp item len curr len 1 q push item remov dictionari word process 
+like mark visit eras temp reach target temp target return item len return 0 driver program int main make dictionari set string insert poon insert plee insert insert poie insert plie insert poin insert plea string start toon string target plea cout length shortest chain shortestchainlen start target return 0 output length shortest chain 7 time complex code n²m n number entri origin dictionari size string thank gaurav ahirwar rajnish kumar jha solut 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

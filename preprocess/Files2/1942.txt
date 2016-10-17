@@ -1,0 +1,10 @@
+c virtual function privat overridden deriv class 
+exampl follow program compil run fine 
+includ iostream use namespac std class deriv class base privat virtual void fun cout base fun friend int main class deriv public base public void fun cout deriv fun int main base ptr new deriv ptr fun return 0 output deriv fun thing note program 
+1 ptr pointer base type point deriv class object 
+ptr fun call fun deriv execut 
+2 int main friend base 
+remov friendship program compil see 
+get compil error 
+note behavior total differ java 
+java privat method final default cannot overridden see pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

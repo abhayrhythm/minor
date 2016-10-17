@@ -1,0 +1,20 @@
+given string posit integ rearrang charact given string charact becom least distanc away 
+note mani possibl rearrang output one possibl rearrang 
+arrang possibl also report 
+expect time complex n n length input string 
+exampl input aaaabbbcc 2 output ababacabc input aacbbc 3 output abcabc input geeksforgeek 3 output egkesfegkeor input aaa 2 output cannot rearrang alreadi discuss put charact exactli distanc away 
+extend version charact move least distanc away 
+idea use extra space store frequenc charact maintain array insert valu correct distanc 
+follow complet algorithm let given string str size string n alphabet size assum 256 constant 
+scan input string str store frequenc charact array freq 
+creat array dist insert valu correct distanc 
+dist j store least distanc current posit next posit use charact j 
+dist j 0 charact j insert current posit 
+run loop n time search next elig charact maximum frequenc dist j 0 found charact put charact next avail posit output array decreas frequenc reset distanc find charact string cannot rearrang return fals 
+move forward output string decrement distanc charact dist 1 follow c implement algorithm 
+c program rearrang string charact becom atleast distanc away includ bit stdc h defin max_char 256 use namespac std function return next elig charact maximum frequenc greedi 
+zero neg distanc int nextchar int freq int dist int max int_min int 0 max_char dist 0 freq 0 max int_min freq freq max max return max main function rearrang input string str two charact becom atleast distanc away int rearrang char str char int find length input string int n strlen str creat array store charact frequenc str int freq max_char 0 travers input string store frequenc charact freq array 
+int 0 n freq str creat array insert valu correct distanc dist j store least distanc current posit next posit use charact j int dist max_char 0 int 0 n find next elig charact int j nextchar freq dist return 0 string cannot rearrang j int_min return 0 put charact j next posit j decreas frequenc freq j set distanc dist j decreas distanc charact 1 int 0 max_char dist null termin output string n 0 return success return 1 driver code int main char str aaaabbbcc int n strlen str store output char n rearrang str 2 cout els cout cannot rearrang return 0 output ababacabc articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

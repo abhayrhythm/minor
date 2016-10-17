@@ -1,0 +1,5 @@
+given direct graph two vertic u v count possibl walk u v exactli k edg walk 
+graph given adjac matrix represent valu graph j 1 indic edg vertex vertex j valu 0 indic edg j exampl consid follow graph 
+let sourc u vertex 0 destin v 3 k 2 output 2 two walk 0 3 exactli 2 edg 
+walk 0 2 3 0 1 3 simpl solut start u go adjac vertic recur adjac vertic k k 1 sourc adjac vertex destin v follow c implement simpl solut 
+c c program count walk u v exactli k edg includ iostream use namespac std number vertic graph defin v 4 naiv recurs function count walk u v k edg int countwalk int graph v int u int v int k base case k 0 u v return 1 k 1 graph u v return 1 k 0 return 0 initi result int count 0 go adjac u recur int 0 v graph u 1 check adjac u count countwalk graph v k 1 return count driver program test function int main let us creat graph shown diagram int graph v v 0 1 1 1 0 0 0 1 0 0 0 1 0 0 0 0 int u 0 v 3 k 2 cout countwalk graph u v k return 0 

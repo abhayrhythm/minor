@@ -1,0 +1,87 @@
+
+Predict the output of following C program.
+
+int main(void)
+{
+    struct str
+    {
+        int i: 1;
+        int j: 2;
+        int k: 3;
+        int l: 4;
+    };
+
+    struct str s;
+
+    s.i = 1;
+    s.j = 2;
+    s.k = 5;
+    s.l = 10;
+
+    printf(" i: %d \n j: %d \n k: %d \n l: %d \n", s.i, s.j, s.k, s.l);
+
+    getchar();
+    return 0;
+}
+
+The above code is non-portable and output is compiler dependent. We get following output using GCC compiler for intel 32 bit machine.  
+
+  [narendra@ubuntu]$ ./structure
+  i: -1
+  j: -2
+  k: -3
+  l: -6
+
+Let us take a closer look at declaration of structure.
+
+struct str
+{
+    int i: 1;
+    int j: 2;
+    int k: 3;
+    int l: 4;
+};
+
+In the structure declaration, for structure member ‘i’, we used width of bit field as 1, width of ‘j’ as 2, and so on.  At first, it looks we can store values in range [0-1] for ‘i’, range [0-3] for ‘j’, and so on. But in the above declaration, type of bit fields is integer (signed).  That’s why  out of available bits, 1 bit is used to store sign information. So for ‘i’, the values we can store are 0 or -1 (for a machine that uses two’s complement to store signed integers). For variable ‘k’, number of bits is 3. Out of these 3 bits, 2 bits are used to store data and 1 bit is used to store sign.  
+Let use declare structure members as “unsigned int” and check output.
+
+int main(void)
+{
+    struct str
+    {
+        unsigned int i: 1;
+        unsigned int j: 2;
+        unsigned int k: 3;
+        unsigned int l: 4;
+    };
+    struct str s;
+
+    s.i = 1;
+    s.j = 2;
+    s.k = 5;
+    s.l = 10;
+
+    printf(" i: %d \n j: %d \n k: %d \n l: %d \n", s.i, s.j, s.k, s.l);
+
+    getchar();
+    return 0;
+}
+
+output:
+
+  [narendra@ubuntu]$ ./structure
+  i: 1
+  j: 2
+  k: 5
+  l: 10
+
+This article is compiled by “Narendra Kangralkar“ and reviewed by GeeksforGeeks team. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

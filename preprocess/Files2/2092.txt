@@ -1,0 +1,6 @@
+c copi constructor may call follow case 1 object class return valu 
+2 object class pass function valu argument 
+3 object construct base anoth object class 
+4 compil gener temporari object 
+howev guarante copi constructor call case c standard allow compil optim copi away certain case one exampl return valu optim sometim refer rvo 
+refer http www fredosauru com note cpp oop condestructor copyconstructor html http en wikipedia org wiki copy_constructor adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

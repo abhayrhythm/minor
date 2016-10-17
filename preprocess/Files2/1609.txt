@@ -1,0 +1,14 @@
+given binari tree bt convert doubli link list dll place 
+left right pointer node use previou next pointer respect convert dll 
+order node dll must inord given binari tree 
+first node inord travers left node bt must head node dll 
+follow two differ solut discuss problem 
+convert given binari tree doubli link list set 1 convert given binari tree doubli link list set 2 post third solut discuss seem simplest 
+idea inord travers binari tree 
+inord travers keep track previous visit node variabl say prev 
+everi visit node make next prev previou node prev 
+thank rahul wishal reader use comment two post 
+follow c implement solut 
+c c program place convers binari tree dll includ iostream use namespac std binari tree node data left right pointer struct node int data node left node right simpl recurs function convert given binari tree doubli link list root root binari tree head pointer head node creat doubli link list void binarytree2doublelinkedlist node root node head base case root null return initi previous visit node null 
+static valu access recurs call static node prev null recurs convert left subtre binarytree2doublelinkedlist root left head convert node prev null head root els root left prev prev right root prev root final convert right subtre binarytree2doublelinkedlist root right head helper function alloc new node given data null left right pointer 
+node newnod int data node new_nod new node new_nod data data new_nod left new_nod right null return new_nod function print node given doubli link list void printlist node node node null cout node data node node right driver program test function int main let us creat tree shown diagram node root newnod 10 root left newnod 12 root right newnod 15 root left left newnod 25 root left right newnod 30 root right left newnod 36 convert dll node head null binarytree2doublelinkedlist root head print convert list printlist head return 0 

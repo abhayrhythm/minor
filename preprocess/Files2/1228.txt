@@ -1,0 +1,9 @@
+given list word list print sentenc possibl take one word list time via recurs 
+exampl input sleep eat drink output sleep eat drink sleep eat drink sleep eat drink sleep eat drink strongli recommend minim browser tri first 
+idea base simpl depth first travers 
+start everi word first list first word output sentenc recur remain list 
+c implement idea 
+implement input list list consid 2d array 
+take closer look observ code close df graph 
+c c program print possibl sentenc list word list includ iostream includ string defin r 3 defin c 3 use namespac std recurs function print possibl sentenc form list word list void printutil string arr r c int int n string output r add current word output array output arr n last word current output sentenc print output sentenc r 1 int 0 r cout output cout endl return recur next row int 0 c arr 1 printutil arr 1 output wrapper printutil void print string arr r c creat array store sentenc string output r consid word first row start point print sentenc int 0 c arr 0 printutil arr 0 output driver program test function int main string arr r c sleep eat drink print arr return 0 python python program recurs print sentenc form list word list r 3 c 3 recurs function print possibl sentenc form list word list def printutil arr n output add current word output array output arr n last word current output sentenc print output sentenc r 1 xrang r print output print n return recur next row xrang c arr 1 printutil arr 1 output wrapper printutil def printf arr creat array store sentenc output r consid word first row start point print sentenc xrang c arr 0 printutil arr 0 output driver program arr sleep eat drink printf arr code contribut bhavya jain output sleep eat drink sleep eat drink sleep eat drink sleep eat drink articl contribut kartik 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

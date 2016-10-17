@@ -1,0 +1,64 @@
+
+We have discussed some of the cases of sorting 2D vector in below set 1.
+Sorting 2D Vector in C++ | Set 1 (By row and column)
+More cases are discussed in this article
+Case 3 : To sort a particular row of 2D vector in descending order
+This type of sorting arranges a selected row of 2D vector in descending order . This is achieved by using “sort()” and passing iterators of 1D vector as its arguments.
+
+// C++ code to demonstrate sorting of a
+// row of 2D vector in descending order
+#include<iostream>
+#include<vector> // for 2D vector
+#include<algorithm> // for sort()
+using namespace std;
+ 
+int main()
+{
+    // Initializing 2D vector "vect" with
+    // values
+    vector< vector<int> > vect{{3, 5, 1},
+                               {4, 8, 6},
+                               {7, 2, 9}};
+    // Number of rows;
+    int m = vect.size();
+ 
+    // Number of columns (Assuming all rows
+    // are of same size).  We can have different
+    // sizes though (like Java).
+    int n = vect[0].size();
+ 
+    // Displaying the 2D vector before sorting
+    cout << "The Matrix before sorting 1st row is:\n";
+    for (int i=0; i<m; i++)
+    {
+        for (int j=0; j<n ;j++)
+           cout << vect[i][j] << " ";
+        cout << endl;
+    }
+ 
+    // Use of "sort()" for sorting first row
+    sort(vect[0].rbegin(), vect[0].rend());
+ 
+    // Displaying the 2D vector after sorting
+    cout << "The Matrix after sorting 1st row is:\n";
+    for (int i=0; i<m; i++)
+    {
+        for (int j=0; j<n ;j++)
+            cout << vect[i][j] << " ";
+        cout << endl;
+    }
+ 
+    return 0;
+}
+
+Output:
+
+The Matrix before sorting 1st row is:
+3 5 1 
+4 8 6 
+7 2 9 
+The Matrix after sorting 1st row is:
+5 3 1 
+4 8 6 
+7 2 9 
+

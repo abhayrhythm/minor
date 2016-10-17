@@ -1,0 +1,55 @@
+given sequenc word limit number charact put one line line width 
+put line break given sequenc line print neatli 
+assum length word smaller line width 
+word processor like ms word task place line break 
+idea balanc line 
+word line lot extra space line small amount extra space 
+extra space includ space put end everi line except last one 
+problem minim follow total cost 
+cost line number extra space line 3 total cost sum cost line exampl consid follow string line width 15 geek geek present word wrap problem follow optim arrang word 3 line geek geek present word wrap problem total extra space line 1 line 2 line 3 0 2 3 respect 
+optim valu total cost 0 2 2 3 3 13 pleas note total cost function sum extra space sum cube squar also use extra space 
+idea behind cost function balanc space among line 
+exampl consid follow two arrang set word 1 3 line 
+one line 3 extra space line 0 extra space 
+total extra space 3 0 0 3 total cost 3 3 3 0 0 0 0 0 0 27 
+2 3 line 
+3 line one extra space 
+total extra space 1 1 1 3 total cost 1 1 1 1 1 1 1 1 1 3 total extra space 3 scenario second arrang prefer extra space balanc three line 
+cost function cubic sum serv purpos valu total cost second scenario less 
+method 1 greedi solut greedi solut place mani word possibl first line 
+thing second line word place 
+solut give optim solut mani case give optim solut case 
+exampl consid follow string aaa bb cc ddddd line width 6 greedi method produc follow output 
+aaa bb cc ddddd extra space 3 line 0 4 1 respect 
+total cost 0 64 1 65 solut best solut 
+follow arrang balanc space 
+therefor less valu total cost function 
+aaa bb cc ddddd extra space 3 line 3 1 1 respect 
+total cost 27 1 1 29 despit sub optim case greedi approach use mani word processor like ms word openoffic org writer 
+method 2 dynam program follow dynam approach strictli follow algorithm given solut cormen book 
+first comput cost possibl line 2d tabl lc 
+valu lc j indic cost put word j singl line j index word input sequenc 
+sequenc word j cannot fit singl line lc j consid infinit avoid part solut 
+lc tabl construct calcul total cost use follow recurs formula 
+follow formula c j optim total cost arrang word 1 j recurs overlap subproblem properti 
+exampl solut subproblem c 2 use c 3 c 4 
+dynam program use store result subproblem 
+array c comput left right sinc valu depend earlier valu 
+print output keep track word go line keep parallel p array point c valu came 
+last line start word p n goe word n previou line start word p p n goe word p n 1 etc 
+function printsolut use p print solut 
+program input array l repres length word sequenc 
+valu l indic length ith word start 1 theinput sequenc 
+dynam program solut word wrap problem includ limit h includ stdio h defin inf int_max util function print solut int printsolut int p int n l repres length differ word input sequenc 
+exampl l 3 2 2 5 sentenc like aaa bb cc ddddd 
+n size l line width maximum 
+charact fit line void solvewordwrap int l int n int simplic 1 extra space use array extra j number extra space word j put singl line int extra n 1 n 1 lc j cost line word j int lc n 1 n 1 c total cost optim arrang word 1 int c n 1 p use print solut 
+int p n 1 int j calcul extra space singl line 
+valu extra j indic extra space word word number j place singl line 1 n extra l 1 j 1 j n j extra j extra j 1 l j 1 1 calcul line cost correspond calcul extra space 
+valu lc j indic cost put word word number j singl line 1 n j j n j extra j 0 lc j inf els j n extra j 0 lc j 0 els lc j extra j extra j calcul minimum cost find minimum cost arrang 
+valu c j indic optim cost arrang word word number 1 j c 0 0 j 1 j n j c j inf 1 j c 1 inf lc j inf c 1 lc j c j c j c 1 lc j p j printsolut p n int printsolut int p int n int k p n 1 k 1 els k printsolut p p n 1 1 printf line number word 
+n k p n n return k driver program test function int main int l 3 2 2 5 int n sizeof l sizeof l 0 int 6 solvewordwrap l n return 0 output line number 1 word 
+1 1 line number 2 word 
+2 3 line number 3 word 
+4 4 time complex n 2 auxiliari space n 2 auxiliari space use program cane optim n see refer 2 detail refer http en wikipedia org wiki word_wrap pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

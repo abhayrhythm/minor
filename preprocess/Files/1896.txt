@@ -1,0 +1,52 @@
+
+What code to write in place of “// your code”  so that the below code prints 20.
+
+#include <stdio.h>
+int f();
+
+int main()
+{
+    int a = 0;
+    f();
+    printf("%d",a);
+    return 0;
+}
+
+int f()
+{
+   // your code
+}
+Output:
+
+20 
+Source: http://qa.geeksforgeeks.org/5998/change-local-variable
+We strongly recommend you to minimize your browser and try this yourself first
+This question seems to be a trick question, as it is not possible to update local variable in a function without sending it, we can’t make value of ‘a’ as 20 but for outputting 20 we can write function f as below – 
+
+#include <stdio.h>
+int f();
+
+int main()
+{
+    int a = 0;
+    f();
+    printf("%d",a);
+    return 0;
+}
+ 
+int f()
+{
+    printf("2");
+}
+2 will be printed by f() and 0 will be printed by a
+Thanks to Utkarsh Trivedi for suggesting above solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

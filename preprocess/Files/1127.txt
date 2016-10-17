@@ -1,0 +1,83 @@
+
+Given a binary string, count number of substrings that start and end with 1. For example, if the input string is “00100101”, then there are three substrings “1001”, “100101” and “101”.
+Source: Amazon Interview Experience | Set 162
+Difficulty Level: Rookie
+ 
+We strongly recommend that you click here and practice it, before moving on to the solution.
+A Simple Solution is to run two loops. Outer loops picks every 1 as starting point and inner loop searches for ending 1 and increments count whenever it finds 1.
+
+C/C++
+
+
+// A simple C++ program to count number of substrings starting and ending
+// with 1
+#include<iostream>
+using namespace std;
+
+int countSubStr(char str[])
+{
+   int res = 0;  // Initialize result
+
+   // Pick a starting point
+   for (int i=0; str[i] !='\0'; i++)
+   {
+        if (str[i] == '1')
+        {
+            // Search for all possible ending point
+            for (int j=i+1; str[j] !='\0'; j++)
+               if (str[j] == '1')
+                  res++;
+        }
+   }
+   return res;
+}
+
+// Driver program to test above function
+int main()
+{
+  char str[] = "00100101";
+  cout << countSubStr(str);
+  return 0;
+}
+
+Java
+
+
+// A simple C++ program to count number of 
+//substrings starting and ending with 1
+
+class CountSubString 
+{
+    int countSubStr(char str[],int n) 
+    {
+        int res = 0;  // Initialize result
+
+        // Pick a starting point
+        for (int i = 0; i<n; i++) 
+        {
+            if (str[i] == '1') 
+            {
+                // Search for all possible ending point
+                for (int j = i + 1; j< n; j++) 
+                {
+                    if (str[j] == '1')
+                        res++;
+                }
+            }
+        }
+        return res;
+    }
+
+    // Driver program to test the above function
+    public static void main(String[] args) 
+    {
+        CountSubString count = new CountSubString();
+        String string = "00100101";
+        char str[] = string.toCharArray();
+        int n = str.length;
+        System.out.println(count.countSubStr(str,n));
+    }
+}
+
+
+Output:

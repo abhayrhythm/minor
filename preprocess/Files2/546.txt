@@ -1,0 +1,72 @@
+segment tree introduc previou post exampl rang sum problem 
+use sum given rang problem explain lazi propag updat work simpl segment tree 
+previou post updat function call updat singl valu array 
+pleas note singl valu updat array may caus multipl updat segment tree may mani segment tree node singl array element rang 
+simpl logic use previou post 
+1 start root segment tree 
+2 array index updat current node rang return 3 els updat current node recur children 
+code taken previou post 
+recurs function updat node given index rang 
+follow paramet tree segment tree si index current node segment tree 
+initi valu pass 0 ss se start end index array element cover node segment tree 
+initi valu pass 0 n 1 
+index element updat 
+index input array 
+diff valu ad node array index rang void updatevalueutil int tree int ss int se int int diff int si base case input index lie outsid rang segment ss se return input index rang node updat valu node children st si st si diff se ss int mid getmid ss se updatevalueutil st ss mid diff 2 si 1 updatevalueutil st mid 1 se diff 2 si 2 updat rang array index 
+exampl add 10 valu index 2 7 array 
+updat call everi index 2 7 avoid multipl call write function updaterang updat node accordingli 
+function updat segment tree rang updat input array 
+si index current node segment tree ss se start end index element current node store sum 
+us eu start end index updat queri ue end index updat queri diff need add rang us ue void updaterangeutil int si int ss int se int us int ue int diff rang ss se ss ue se us return current node leaf node ss se add differ current node tree si diff return leaf node recur children 
+int mid ss se 2 updaterangeutil si 2 1 ss mid us ue diff updaterangeutil si 2 2 mid 1 se us ue diff use result children call updat node tree si tree si 2 1 tree si 2 2 lazi propag optim make rang updat faster mani updat updat done rang postpon updat avoid recurs call updat updat requir 
+pleas rememb node segment tree store repres result queri rang index 
+node rang lie within updat oper rang descend node must also updat 
+exampl consid node valu 27 diagram node store sum valu index 3 5 updat queri rang 2 5 need updat node descend node 
+lazi propag updat node valu 27 postpon updat children store updat inform separ node call lazi node valu 
+creat array lazi repres lazi node 
+size lazi array repres segment tree tree code 
+idea initi element lazi 0 valu 0 lazi indic pend updat node segment tree 
+non zero valu lazi mean amount need ad node segment tree make queri node 
+modifi updat method 
+updat segment tree chang array valu array index us ue 
+updaterang us ue 1 current segment tree node pend updat first add pend updat current node 
+2 current node rang lie complet updat queri rang 
+updat current node b postpon updat children set lazi valu children node 
+3 current node rang overlap updat rang follow approach simpl updat 
+recur left right children 
+b updat current node use result left right call 
+chang queri function also 
+sinc chang updat postpon oper may problem queri made node yet updat 
+need updat queri method also getsumutil previou post 
+getsumutil first check pend updat updat node 
+make sure pend updat done work previou getsumutil 
+program demonstr work lazi propag 
+c c program show segment tree demonstr lazi propag includ stdio h includ math h defin max 1000 ideal use global variabl larg constant size array done simplic 
+int tree max 0 store segment tree int lazi max 0 store pend updat si index current node segment tree ss se start end index element current node store sum 
+us eu start end index updat queri ue end index updat queri diff need add rang us ue void updaterangeutil int si int ss int se int us int ue int diff lazi valu non zero current node segment tree pend updat 
+need make sure pend updat done make new updat 
+valu may use parent recurs call see last line function lazi si 0 make pend updat use valu store lazi node tree si se ss 1 lazi si check leaf node leaf node cannot go ss se postpon updat children need new valu 
+sinc yet updat children si need set lazi flag children lazi si 2 1 lazi si lazi si 2 2 lazi si set lazi valu current node 0 updat lazi si 0 rang ss se ss ue se us return current segment fulli rang ss us se ue add differ current node tree si se ss 1 diff logic check leaf node ss se store valu lazi node rather updat segment tree itelf sinc need updat valu postpon updat store valu lazi lazi si 2 1 diff lazi si 2 2 diff return complet rang overlap recur children int mid ss se 2 updaterangeutil si 2 1 ss mid us ue diff updaterangeutil si 2 2 mid 1 se us ue diff use result children call updat node tree si tree si 2 1 tree si 2 2 function updat rang valu segment tree us eu start end index updat queri ue end index updat queri diff need add rang us ue void updaterang int n int us int ue int diff updaterangeutil 0 0 n 1 us ue diff recurs function get sum valu given rang array 
+follow paramet function 
+si index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e tree si qs qe start end index queri rang int getsumutil int ss int se int qs int qe int si lazi flag set current node segment tree pend updat 
+need make sure pend updat done process sub sum queri lazi si 0 make pend updat node 
+note node repres sum element arr ss se element must increas lazi si tree si se ss 1 lazi si check leaf node leaf node cannot go ss se sinc yet updat children os si need set lazi valu children lazi si 2 1 lazi si lazi si 2 2 lazi si unset lazi valu current node updat lazi si 0 rang ss se ss qe se qs return 0 point sure pend lazi updat done current node 
+return valu queri previou post segment lie rang ss qs se qe return tree si part segment overlap given rang int mid ss se 2 return getsumutil ss mid qs qe 2 si 1 getsumutil mid 1 se qs qe 2 si 2 return sum element rang index qs quey start qe queri end 
+mainli use getsumutil int getsum int n int qs int qe check erron input valu qs 0 qe n 1 qs qe printf invalid input return 1 return getsumutil 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st void constructstutil int arr int ss int se int si rang ss never greater se ss se return one element array store current node segment tree return ss se tree si arr ss return one element recur left right subtre store sum valu node int mid ss se 2 constructstutil arr ss mid si 2 1 constructstutil arr mid 1 se si 2 2 tree si tree si 2 1 tree si 2 2 function construct segment tree given array 
+function alloc memori segment tree call constructstutil fill alloc memori void constructst int arr int n fill alloc memori st constructstutil arr 0 n 1 0 driver program test function int main int arr 1 3 5 7 9 11 int n sizeof arr sizeof arr 0 build segment tree given array constructst arr n print sum valu array index 1 3 printf sum valu given rang n getsum n 1 3 add 10 node index 1 5 updaterang n 1 5 10 find sum valu updat printf updat sum valu given rang n getsum n 1 3 return 0 java java program demonstr lazi propag segment tree class lazysegmenttre final int max 1000 max tree size int tree new int max store segment tree int lazi new int max store pend updat si index current node segment tree ss se start end index element current node store sum 
+us eu start end index updat queri ue end index updat queri diff need add rang us ue void updaterangeutil int si int ss int se int us int ue int diff lazi valu non zero current node segment tree pend updat 
+need make sure pend updat done make new updat 
+valu may use parent recurs call see last line function lazi si 0 make pend updat use valu store lazi node tree si se ss 1 lazi si check leaf node leaf node cannot go ss se postpon updat children need new valu 
+sinc yet updat children si need set lazi flag children lazi si 2 1 lazi si lazi si 2 2 lazi si set lazi valu current node 0 updat lazi si 0 rang ss se ss ue se us return current segment fulli rang ss us se ue add differ current node tree si se ss 1 diff logic check leaf node ss se store valu lazi node rather updat segment tree itelf sinc need updat valu postpon updat store valu lazi lazi si 2 1 diff lazi si 2 2 diff return complet rang overlap recur children int mid ss se 2 updaterangeutil si 2 1 ss mid us ue diff updaterangeutil si 2 2 mid 1 se us ue diff use result children call updat node tree si tree si 2 1 tree si 2 2 function updat rang valu segment tree us eu start end index updat queri ue end index updat queri diff need add rang us ue void updaterang int n int us int ue int diff updaterangeutil 0 0 n 1 us ue diff recurs function get sum valu given rang array 
+follow paramet function 
+si index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e tree si qs qe start end index queri rang int getsumutil int ss int se int qs int qe int si lazi flag set current node segment tree pend updat 
+need make sure pend updat done process sub sum queri lazi si 0 make pend updat node 
+note node repres sum element arr ss se element must increas lazi si tree si se ss 1 lazi si check leaf node leaf node cannot go ss se sinc yet updat children os si need set lazi valu children lazi si 2 1 lazi si lazi si 2 2 lazi si unset lazi valu current node updat lazi si 0 rang ss se ss qe se qs return 0 point sure pend lazi updat done current node 
+return valu queri previou post segment lie rang ss qs se qe return tree si part segment overlap given rang int mid ss se 2 return getsumutil ss mid qs qe 2 si 1 getsumutil mid 1 se qs qe 2 si 2 return sum element rang index qs queri start qe queri end 
+mainli use getsumutil int getsum int n int qs int qe check erron input valu qs 0 qe n 1 qs qe system println invalid input return 1 return getsumutil 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st void constructstutil int arr int ss int se int si rang ss never greater se ss se return one element array store current node segment tree return ss se tree si arr ss return one element recur left right subtre store sum valu node int mid ss se 2 constructstutil arr ss mid si 2 1 constructstutil arr mid 1 se si 2 2 tree si tree si 2 1 tree si 2 2 function construct segment tree given array 
+function alloc memori segment tree call constructstutil fill alloc memori void constructst int arr int n fill alloc memori st constructstutil arr 0 n 1 0 driver program test function public static void main string arg int arr 1 3 5 7 9 11 int n arr length lazysegmenttre tree new lazysegmenttre build segment tree given array tree constructst arr n print sum valu array index 1 3 system println sum valu given rang tree getsum n 1 3 add 10 node index 1 5 tree updaterang n 1 5 10 find sum valu updat system println updat sum valu given rang tree getsum n 1 3 code contribut ankur narain verma output sum valu given rang 15 updat sum valu given rang 45 articl contribut ankit mittal 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

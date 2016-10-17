@@ -1,0 +1,26 @@
+given two polynomi repres two array write function multipli given two polynomi 
+exampl input 5 0 10 6 b 1 2 4 output prod 5 10 30 26 52 24 first input array repres 5 0x 1 10x 2 6x 3 second array repres 1 2x 1 4x 2 output 5 10x 1 30x 2 26x 3 52x 4 24x 5 strongli recommend click practic move solut 
+simpl solut one one consid everi term first polynomi multipli everi term second polynomi 
+follow algorithm simpl method 
+multipli 0 1 b 0 n01 1 creat product array prod size n 1 
+2 initi entri prod 0 
+3 traver array follow everi element 3 travers array b follow everi element b j prod j prod j b j 4 return prod 
+follow c implement algorithm 
+simpl c program multipli two polynomi includ iostream use namespac std repres coeffici first polynomi b repres coeffici second polynomi n size b respect int multipli int int b int int n int prod new int n 1 initi porduct polynomi int 0 n 1 prod 0 multipli two polynomi term term take ever term first polynomi int 0 multipli current term first polynomi everi term second polynomi 
+int j 0 j n j prod j b j return prod util function print polynomi void printpoli int poli int n int 0 n cout poli 0 cout x n 1 cout driver program test function int main follow array repres polynomi 5 10x 2 6x 3 int 5 0 10 6 follow array repres polynomi 1 2x 4x 2 int b 1 2 4 int sizeof sizeof 0 int n sizeof b sizeof b 0 cout first polynomi n printpoli cout nsecond polynomi n printpoli b n int prod multipli b n cout nproduct polynomi n printpoli prod n 1 return 0 output first polynomi 5 0x 1 10x 2 6x 3 second polynomi 1 2x 1 4x 2 product polynomi 5 10x 1 30x 2 26x 3 52x 4 24x 5 time complex solut mn 
+size two polynomi time complex n2 
+better 
+method multipl faster n2 time 
+method mainli base divid conquer 
+follow one simpl method divid given polynomi degre n two polynomi one contain lower degre term lower n 2 contain higher degre tern higher equal n 2 let two given polynomi b simplic let us assum given two polynomi degre degre power 2 e n 2i polynomi written a0 a1 xn 2 polynomi b written b0 b1 xn 2 exampl 1 10x 6x2 4x3 5x4 written 1 10x 6 4x 5x2 x2 b a0 a1 xn 2 b0 b1 xn 2 a0 b0 a0 b1 xn 2 a1 b0 xn 2 a1 b1 xn a0 b0 a0 b1 a1 b0 xn 2 a1 b1 xn divid conquer approach requir 4 multipl n time add 4 result 
+therefor time complex n 4t n 2 n 
+solut recurr n2 simpl solut 
+idea reduc number multipl 3 make recurr n 3t n 2 n reduc number multipl 
+requir littl trick similar strassen matrix multipl 
+follow 3 multipl 
+x a0 a1 b0 b1 first multipl a0b0 second z a1b1 third miss middl term multipl equat a0 b0 a0 b1 a1 b0 xn 2 a1 b1 xn obtain use 
+a0b1 a1b0 x z time taken algorithm n 3t n 2 n solut recurr nlg3 better n2 
+soon discuss implement approach 
+nlogn algorithm also use fast fourier transform multipli two polynomi refer detail sourc http www cse ust hk dekai 271 note l03 l03 pdf articl contribut harsh 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

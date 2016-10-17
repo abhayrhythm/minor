@@ -1,0 +1,39 @@
+
+system() is used to invoke an operating system command from a C/C++ program. 
+
+    int system(const char *command);
+
+Note: stdlib.h or cstdlib needs to be included to call system. 
+Using system(), we can execute any command that can run on terminal if operating system allows.  For example, we can call system(“dir”) on Windows and system(“ls”) to list contents of a directory.
+Writing a C/C++ program that compiles and runs other program?
+We can invoke gcc from our program using system().  See below code written for Linux.  We can easily change code to run on windows.
+
+// A C++ program that compiles and runs another C++ 
+// program
+#include <bits/stdc++.h>
+using namespace std;
+int main ()
+{
+    char filename[100];
+    cout << "Enter file name to compile ";
+    cin.getline(filename, 100);
+
+    // Build command to execute.  For example if the input
+    // file name is a.cpp, then str holds "gcc -o a.out a.cpp" 
+    // Here -o is used to specify executable file name
+    string str = "gcc ";
+    str = str + " -o a.out " + filename;
+
+    // Convert string to const char * as system requires
+    // parameter of type const char *
+    const char *command = str.c_str();
+
+    cout << "Compiling file using " << command << endl;
+    system(command);
+
+    cout << "\nRunning file ";
+    system("./a.out");
+
+    return 0;
+}
+

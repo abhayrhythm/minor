@@ -1,0 +1,38 @@
+given string str check construct take substr append multipl copi substr togeth 
+exampl input str abcabcabc output true given string 3 time repetit abc input str abadabad output true given string 2 time repetit abad input str aabaabaabaab output true given string 4 time repetit aab input str abcdabc output fals sourc googl interview question strongli recommend click practic move solut 
+mani solut problem 
+challeng part solv problem n time 
+n algorithm 
+let given string str length given string n 
+1 find length longest proper prefix str also suffix 
+let length longest proper prefix suffix len 
+comput n time use pre process step kmp string match algorithm 
+2 valu n len divid n n n len 0 return true els return fals 
+case true substr str 0 n len 1 substr repeat n n len time 
+let us take exampl 
+input str abcdabcd n 8 number charact str valu len 4 abcd longest substr prefix suffix sinc n len divid n answer true 
+input str abcdabc n 7 number charact str valu len 3 abc longest substr prefix suffix sinc n len divid n answer fals 
+input str abcabcabcabcabc n 15 number charact str valu len 12 abcabcabcabc longest substr prefix suffix sinc n len divid n answer true 
+work 
+length longest proper prefix suffix len alway 0 n 1 
+len n 1 charact string 
+exampl len 3 aaaa 
+len n 2 n even two charact string repeat n 2 time 
+exampl abababab length lp 6 reason first n 2 charact last n 2 charact start first pair everi pair charact ident next pair 
+follow diagram demonstr substr length 4 follow c implement algorithm 
+c c program check string n time repetit one substr includ iostream includ cstring use namespac std util function fill lp comput prefix funcrion use kmp string match algorithm 
+refer http www geeksforgeek org archiv 11902 detail void computelpsarray char str int int lp int len 0 lenght previou longest prefix suffix int lp 0 0 lp 0 alway 0 1 loop calcul lp 1 1 str str len len lp len els pat pat len len 0 tricki 
+consid exampl aaacaaaa 7 len lp len 1 also note increment els len 0 lp 0 return true str repetit one substr els return fals 
+bool isrepeat char str find length string creat array store lp valu use kmp int n strlen str int lp n preprocess pattern calcul lp array computelpsarray str n lp find length longest suffix also prefix str 
+int len lp n 1 exist suffix also prefix length remain substr divid total length str 0 n len 1 substr repeat n n len time reader print substr valu n n len clariti 
+return len 0 n n len 0 
+true fals driver program test function int main char txt 100 abcabc ababab abcdabcd geeksforgeek geekgeek aaaacaaaac abcdabc int n sizeof txt sizeof txt 0 int 0 n isrepeat txt 
+cout true n cout fals n return 0 python python program check string n time repetit one substr util function fill lp comput prefix funcrion use kmp string match algorithm 
+refer http www geeksforgeek org archiv 11902 detail def computelpsarray string lp length 0 length previou longest prefix suffix 1 lp 0 0 lp 0 alway 0 loop calcul lp 1 1 string string length length 1 lp length 1 els length 0 tricki 
+consid exampl aaacaaaa 7 length lp length 1 also note increment els lp 0 1 return true string repetit one substr els return fals 
+def isrepeat string find length string creat array store lp valu use kmp n len string lp 0 n preprocess pattern calcul lp array computelpsarray string n lp find length longest suffix also prefix str 
+length lp n 1 exist suffix also prefix length remain substr divid total length str 0 n len 1 substr repeat n n len time reader print substr valu n n len clariti 
+len 0 n n length 0 return true els fals driver program txt abcabc ababab abcdabcd geeksforgeek geekgeek aaaacaaaac abcdabc n len txt xrang n isrepeat txt print true els print fals code contribut bhavya jain output true true true fals true true fals time complex time complex solut n use kmp preprocess algorithm linear time algorithm 
+articl contribut harshit agraw 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

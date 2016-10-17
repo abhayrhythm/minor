@@ -1,0 +1,24 @@
+consid follow c program 
+program demonstr need namespac int main int valu valu 0 doubl valu error valu 0 0 output compil error valu previou declar int valu scope name repres one entiti 
+cannot two variabl name scope 
+use namespac creat two variabl member function name 
+see one variabl use without report error 
+declar differ namespac scope 
+includ iostream use namespac std variabl creat insid namespac namespac first int val 500 global variabl int val 100 int main local variabl int val 200 variabl access outsid namespac use scope oper cout first val n return 0 output 500 definit creation namespac allow us group name entiti otherwis would global scope narrow scope give namespac scope 
+allow organ element program differ logic scope refer name 
+namespac featur ad c present c namespac declar region provid scope identifi name type function variabl etc insid 
+multipl namespac block name allow 
+declar within block declar name scope 
+namespac definit begin keyword namespac follow namespac name follow namespac namespace_nam int x code declar x declar namespace_nam scope namespac declar appear global scope 
+namespac declar nest within anoth namespac 
+namespac declar access specifi 
+public privat need give semicolon close brace definit namespac 
+split definit namespac sever unit 
+creat namespac includ iostream use namespac std namespac ns1 int valu return 5 namespac ns2 const doubl x 100 doubl valu return 2 x int main access valu function within ns1 cout ns1 valu n access valu function within ns2 cout ns2 valu n access variabl x directli cout ns2 x n return 0 output 5 200 100 class namespac follow simpl way creat class name space c program demonstr use class namespac includ iostream use namespac std namespac ns class namespac class geek public void display cout ns geek display n int main creat object student class ns geek obj obj display return 0 output ns geek display class also declar insid namespac defin outsid namespac use follow syntax c program demonstr use class namespac includ iostream use namespac std namespac ns declar class class geek defin class outsid class ns geek public void display cout ns geek display n int main creat object student class ns geek obj obj display return 0 output ns geek display defin method also outsid namespac 
+follow exampl code 
+c code demonstr defin method outsid namespac 
+includ iostream use namespac std creat namespac namespac ns void display class geek public void display defin method namespac void ns geek display cout ns geek display n void ns display cout ns display n driver code int main ns geek obj ns display obj display return 0 output ns display ns geek display namespac nest c 
+refer http www cplusplu com doc tutori namespac articl contribut abhinav tiwari 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

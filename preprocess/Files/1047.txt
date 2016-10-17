@@ -1,0 +1,21 @@
+
+Predict the output of following C program.
+Question 1
+
+#include <stdio.h>
+
+int main()
+{
+    char a = 30;
+    char b = 40;
+    char c = 10;
+    char d = (a * b) / c;
+    printf ("%d ", d);
+
+    return 0;
+}
+
+At first look, the expression (a*b)/c seems to cause arithmetic overflow because signed characters can have values only from -128 to 127 (in most of the C compilers), and the value of subexpression ‘(a*b)’ is 1200. For example, the following code snippet prints -80 on a 32 bit little endian machine.
+    char d = 1200;
+    printf ("%d ", d);
+Arithmetic overflow doesn’t happen in the original program and the output of the program is 120. In C, char and short are converted to int for arithmetic calculations. So in the expression ‘(a*b)/c’, a, b and c are promoted to int and no overflow happens.

@@ -1,0 +1,13 @@
+predict output program 
+question 1 includ stdio h int main int n n 7 n 0 n printf n n getchar return 0 output program goe infinit loop n never zero loop condit n 0 check 
+question 2 includ stdio h int main printf x 1 1 getchar return 0 output depend compil 
+32 bit compil would fffffffe 16 bit would fffe 
+question 3 includ stdio h defin scanf geek geek main printf scanf scanf getchar return 0 output geek geek geek geek explan pre process phase compil printf statement becom 
+printf geek geek geek geek easili guess output geek geek geek geek 
+question 4 includ stdlib h includ stdio h enum fals true int main int 1 printf n 15 continu fals getchar return 0 output 1 explan wile loop check condit iter 
+continu statement control transfer statement fals 
+sinc condit fals print 
+tri program 
+includ stdlib h includ stdio h enum fals true int main int 1 printf n 15 break true getchar return 0 question 5 char getstr char str nice test string return str int main printf getstr getchar return 0 output nice test string program work string constant store data section stack section 
+getstr return str lost 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

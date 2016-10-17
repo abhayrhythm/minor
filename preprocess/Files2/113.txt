@@ -1,0 +1,8 @@
+given valu v want make chang v cent infinit suppli c c1 c2 cm valu coin minimum number coin make chang 
+exampl input coin 25 10 5 v 30 output minimum 2 coin requir use one coin 25 cent one 5 cent input coin 9 6 5 1 v 11 output minimum 2 coin requir use one coin 6 cent 1 coin 5 cent strongli recommend minim browser tri first 
+problem variat problem discuss coin chang problem 
+instead find total number possibl solut need find solut minimum number coin 
+minimum number coin valu v comput use recurs formula 
+v 0 0 coin requir 
+v 0 mincoin coin 0 1 v min 1 mincoin v coin vari 0 1 coin v recurs solut base recurs formula 
+c naiv recurs c program find minimum coin make given chang v includ bit stdc h use namespac std size coin array number differ coin int mincoin int coin int int v base case v 0 return 0 initi result int re int_max tri everi coin smaller valu v int 0 coin v int sub_r mincoin coin v coin check int_max avoid overflow see result minim sub_r int_max sub_r 1 re re sub_r 1 return re driver program test function int main int coin 9 6 5 1 int sizeof coin sizeof coin 0 int v 11 cout minimum coin requir mincoin coin v return 0 

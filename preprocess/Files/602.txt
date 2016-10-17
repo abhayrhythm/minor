@@ -1,0 +1,51 @@
+
+Propose a data structure for the following:
+The data structure would hold elements from 0 to n-1. There is no order on the elements (no ascending/descending order requirement)
+The complexity of the operations should be as follows:
+* Insertion of an element – O(1)
+* Deletion of an element – O(1)
+* Finding an element – O(1)
+We strongly recommend to minimize the browser and try this yourself first.
+A boolean array works here. Array will have value ‘true’ at ith index if i is present, and ‘false’ if absent.
+Initialization:
+We create an array of size n and initialize all elements as absent.
+
+void initialize(int n)
+{
+  bool A[n];
+  for (int i = 0; i<n; i++)
+    A[i] = {0}; // or A[n] = {false};
+}
+
+Insertion of an element:
+
+void insert(unsigned i)
+{
+   /* set the value at index i to true */
+   A[i] = 1; // Or A[i] = true;
+}
+
+Deletion of an element:
+
+void delete(unsigned i)
+{
+  /* make the value at index i to 0 */
+  A[i] = 0;  // Or A[i] = false;
+}
+
+ Finding an element:
+
+// Returns true if 'i' is present, else false
+bool find(unsigned i)
+{
+    return A[i];
+}
+
+As an exercise, change the data structure so that it holds values from 1 to n instead of 0 to n-1.
+This article is contributed by Sachin. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

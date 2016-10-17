@@ -1,0 +1,29 @@
+
+Given an integer, write a function that calculates ⌈7n/8⌉ (ceiling of 7n/8) without using division and multiplication operators.
+We strongly recommend to minimize your browser and try this yourself first.
+Method 1:
+The idea is to first calculate floor of n/8, i.e., ⌊n/8⌋ using right shift bitwise operator.  The expression n>>3 produces the same. 
+If we subtract ⌊n/8⌋ from n, we get ⌈7n/8⌉
+Below is C program based on above idea.
+
+// C program to evaluate ceil(7n/8) without using * and /
+#include<stdio.h>
+
+int multiplyBySevenByEight(unsigned int n)
+{
+    /* Note the inner bracket here. This is needed
+       because precedence of '-' operator is higher
+       than '<<' */
+    return (n - (n>>3));
+}
+
+/* Driver program to test above function */
+int main()
+{
+    unsigned int n = 9;
+    printf("%d", multiplyBySevenByEight(n));
+    return 0;
+}
+
+Output:
+8

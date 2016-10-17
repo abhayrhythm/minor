@@ -1,0 +1,34 @@
+interview recent goldman sach bangalor 2 year java develop posit 
+got call consult profil got shortlist got mail hr onlin test 
+round 1 onlin test hacker rank 16 mcq java question 
+2 program 1 find number uniqu anagram given string 2 find path reach end matrix n least cost 0 0 round 2 f2f technic oop concept real time exampl 
+except handl 
+hash map work intern explain board 
+hashmap vs cocurrenthashmap vs hashtabl vs synchronizedmap round 3 f2f technic singleton design pattern 
+make doubl ton even call getinst first object return odd call getinst second instanc return 
+make tripl 
+hashset intern work 
+load factor work hashmap 
+go arraylist linkedlist 
+round 4 f2f technic print seri 010203040506 use multi thread 1st thread print 0 2nd thread print even number 3rd thread print odd number 
+sql queri normal join queri 
+synchron block vs synchron method round 5 f2f technic sax parser vs dom parser 
+store key valu pair sort way base valu 
+given doubli circular link list one node point next find fix 
+question next pointer point random pointer find fix 
+break treeset properti store object non sort order round 6 f2f non technic given situat three lift b c lift kth floor user want go nth floor test case situat 
+interview gave 3 4 situat problem write test case 
+method take date e 
+11 09 2013 return expiri date 3rd friday input month 
+write unit case cover corner case sure method never fail 
+round 7 manageri current project architectur technolog work 
+use soap rest 
+use sax dom 
+agil 
+role 
+java 8 featur 
+round 8 manageri puzzl 
+explain gs work gs 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

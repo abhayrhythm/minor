@@ -1,0 +1,27 @@
+strongli recommend refer post prerequisit 
+branch bound set 1 introduct 0 1 knapsack discuss differ approach solv problem saw branch bound solut best suit method item weight integ 
+post implement branch bound method 0 1 knapsack problem discuss 
+find bound everi node 0 1 knapsack 
+idea use fact greedi approach provid best solut fraction knapsack problem 
+check particular node give us better solut comput optim solut node use greedi approach 
+solut comput greedi approach best far get better solut node 
+complet algorithm sort item decreas order ratio valu per unit weight upper bound comput use greedi approach 
+initi maximum profit maxprofit 0 creat empti queue q creat dummi node decis tree enqueu q profit weight dummi node 0 follow q empti 
+extract item q let extract item u comput profit next level node 
+profit maxprofit updat maxprofit 
+comput bound next level node 
+bound maxprofit add next level node q consid case next level node consid part solut add node queue level next weight profit without consid next level node 
+illustr input first thing everi pair weight item second thing valu item item arr 2 40 3 14 50 1 98 100 5 95 3 30 knapsack capac w 10 output maximum possibl profit 235 diagram show illustr 
+item consid sort valu weight 
+note imag strictli follow algorithm code dummi node imag 
+imag adopt 
+follow c implement idea 
+c program solv knapsack problem use branch bound includ bit stdc h use namespac std stuctur item store weight correspond valu item struct item float weight int valu node structur store inform decis tree struct node level level node decis tree index arr profit profit node path root node includ node bound upper bound maximum profit subtre node int level profit bound float weight comparison function sort item accord val weight ratio bool cmp item item b doubl r1 doubl valu weight doubl r2 doubl b valu b weight return r1 r2 return bound profit subtre root u 
+function mainli use greedi solut find upper bound maximum profit 
+int bound node u int n int w item arr weight overcom knapsack capac return 0 expect bound u weight w return 0 initi bound profit current profit int profit_bound u profit start includ item index 1 current item index int j u level 1 int totweight u weight check index condit knapsack capac condit j n totweight arr j weight w totweight arr j weight profit_bound arr j valu j k n includ last item partial upper bound profit j n profit_bound w totweight arr j valu arr j weight return profit_bound return maximum profit get capac w int knapsack int w item arr int n sort item basi valu per unit weight 
+sort arr arr n cmp make queue travers node queue node q node u v dummi node start u level 1 u profit u weight 0 q push u one one extract item decis tree comput profit children extract item keep save maxprofit int maxprofit 0 q empti dequeu node u q front q pop start node assign level 0 u level 1 v level 0 noth next level u level n 1 continu els last node increment level comput profit children node 
+v level u level 1 take current level item add current level weight valu node u weight valu v weight u weight arr v level weight v profit u profit arr v level valu cumul weight less w profit greater previou profit updat maxprofit v weight w v profit maxprofit maxprofit v profit get upper bound profit decid whether add v q 
+v bound bound v n w arr bound valu greater profit push queue consider v bound maxprofit q push v thing without take item knapsack v weight u weight v profit u profit v bound bound v n w arr v bound maxprofit q push v return maxprofit driver program test function int main int w 10 weight knapsack item arr 2 40 3 14 50 1 98 100 5 95 3 30 int n sizeof arr sizeof arr 0 cout maximum possibl profit knapsack w arr n return 0 output maximum possibl profit 235 articl contribut utkarsh trivedi 
+likegeeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

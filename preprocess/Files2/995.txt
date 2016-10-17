@@ -1,0 +1,5 @@
+write c code print geeksforgeek without main function 
+trick question solv follow way 
+1 use macro defin main includ stdio h defin fun main int fun void printf geeksforgeek return 0 output geeksforgeek 2 use token past oper solut word main 
+allow even write main ca use token past oper see detail includ stdio h defin fun n int fun printf geeksforgeek return 0 output geeksforgeek refer macro preprocessor c articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

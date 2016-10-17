@@ -1,0 +1,13 @@
+caesar cipher techniqu one earliest simplest method encrypt techniqu 
+simpli type substitut cipher e letter given text replac letter fix number posit alphabet 
+exampl shift 1 would replac b b would becom c 
+method appar name juliu caesar appar use commun offici 
+thu cipher given text need integ valu known shift indic number posit letter text move 
+encrypt repres use modular arithmet first transform letter number accord scheme 0 b 1 z 25 encrypt letter shift n describ mathemat 
+encrypt phase shift n decrypt phase shift n exampl text abcdefghijklmnopqrstuvwxyz shift 23 cipher xyzabcdefghijklmnopqrstuvw text attackatonc shift 4 cipher exxegoexsrgi algorithm caesar cipher input string lower case letter call text 
+integ 0 25 denot requir shift 
+procedur travers given text one charact time 
+charact transform given charact per rule depend whether encrypt decrypt text 
+return new string gener 
+program receiv text string shift valu integ return encrypt text 
+c c program illustr caesar cipher techniqu includ iostream use namespac std function receiv text shift return encrypt text string encrypt string text int string result travers text int 0 text length appli transform charact encrypt uppercas letter isupp text result char int text 65 26 65 encrypt lowercas letter els result char int text 97 26 97 return result string return result driver program test function int main string text attackatonc int 4 cout text text cout nshift cout ncipher encrypt text return 0 

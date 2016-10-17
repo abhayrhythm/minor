@@ -1,0 +1,12 @@
+
+#define is a preprocessor directive. Things defined by #define are replaced by the preprocessor before compilation begins.  
+const variables are actual variables like other normal variable.
+The big advantage of const over #define is type checking.  We can also have poitners to const varaibles, we can pass them around, typecast them and any other thing that can be done with a normal variable.  One disadvantage that one could think of is extra space for variable which is immaterial due to optimizations done by compilers.
+In general const is a better option if we have a choice. There are situations when #define cannot be replaced by const.  For example, #define can take parameters (See this for example). #define can also be used to replace some text in a program with another text.
+This article is contributed by Abhay Rathi. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

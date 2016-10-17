@@ -1,0 +1,16 @@
+write code find lexicograph minimum circular array e g 
+array bcabdadab lexicograph minimum abbcabdad 
+sourc googl written test exampl input geeksquiz output eeksquizg input gfg output fgg input geeksforgeek output eeksforgeeksg follow simpl solut 
+let given string str 1 concaten str store temporari string say concat 
+2 creat array string store rotat str 
+let array arr 
+3 find rotat str take substr concat index 0 1 2 n 1 
+store rotat arr 4 sort arr return arr 0 
+follow c implement solut 
+simpl c program find lexicograph minimum rotat given string includ iostream includ algorithm use namespac std functionr return lexicograph minimum rotat str string minlexrot string str find length given string int n str length creat array string store rotat string arr n creat concaten string string concat str str one one store rotat str array 
+rotat obtain get substr concat int 0 n arr concat substr n sort rotat sort arr arr n return first rotat sort array return arr 0 driver program test function int main cout minlexrot geeksforgeek endl cout minlexrot geeksquiz endl cout minlexrot bcabdadab endl output eeksforgeeksg eeksquizg abbcabdad time complex solut n2logn assumpt use nlogn sort algorithm 
+problem solv use effici method like booth algorithm solv problem n time 
+soon cover method separ post 
+articl contribut abhishek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

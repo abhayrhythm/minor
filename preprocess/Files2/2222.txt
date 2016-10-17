@@ -1,0 +1,11 @@
+consid sequenc start 1 machin 
+success step machin simultan transform digit 0 sequenc 10 digit 1 sequenc 01 first time step sequenc 01 obtain second sequenc 1001 third sequenc 01101001 
+mani pair consecut zero appear sequenc n step 
+exampl input number step 3 output 1 3rd step sequenc 01101001 input number step 4 output 3 4rd step sequenc 1001011001101001 input number step 5 output 5 3rd step sequenc 01101001100101101001011001101001 simpl reason problem 
+see sequenc care abl find pattern given sequenc 
+n 1 sequenc 01 number pair consecut zero 0 n 2 sequenc 1001 number pair consecut zero 1 n 3 sequenc 01101001 number pair consecut zero 1 n 4 sequenc 1001011001101001 number pair consecut zero 3 length sequenc alway power 2 see length 12 sequenc repeat length 12 segment length 12 total 2 pair consecut zero 
+henc gener given pattern q 2 n 12 total pair consecut zero 2 q 1 
+c program find number consecut 0s sequenc includ bit stdc h use namespac std function find number consecut zero pair n number step int consecutivezeropair int n base case n 1 return 0 n 2 n 3 return 1 calcul mani time divis 12 e count total number repeat segment length 12 int q pow 2 n 12 number consecut zero pair return 2 q 1 driver program run test case int main int n 5 cout consecutivezeropair n endl return 0 output 5 articl contribut shashank mishra gullu 
+articl review team geeksforgeek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

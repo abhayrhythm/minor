@@ -1,0 +1,6 @@
+follow thing deriv class inherit parent 
+1 everi data member defin parent class although member may alway access deriv class 
+2 everi ordinari member function parent class although member may alway access deriv class 
+3 initi data layout base class 
+follow thing deriv class inherit parent 1 base class constructor destructor 
+2 base class friend adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,45 @@
+given n ari tree count number way travers n ari direct acycl graph tree start root vertex 
+suppos given n ari tree shown 
+find number way travers whole tree start root vertex 
+mani way 
+list 
+1 n k j b f e c h l kind depth first travers 
+2 b f e k j g c h n l level order travers 3 4 
+
+
+
+strongli recommend minim browser tri first 
+count way travers product factori number children node 
+refer figur clear understand four children 4 
+permut possibl b two children 2 
+permut possibl f children 0 
+permut possibl henc way 4 
+2 
+0 
+1 
+3 
+2 
+0 
+0 
+0 
+0 
+1 
+0 
+0 
+576 way huge number way among prove use like inord level order preorder postord arrang accord popular travers c program find number way travers n ari tree start root node includ bit stdc h use namespac std structur node n ari tree struct node char key vector node child util function creat new tree node node newnod int key node temp new node temp key key return temp until function find factori given number int factori int n n 0 return 1 return n factori n 1 function calcul number way traves n ari start root 
+function modifi breadth first search 
+use depth first search 
+int calculateway node root int way 1 initi result tree empti way travers tree 
+root null return 0 creat queue enqueu root 
+queue node q q push root level order travers 
+q empti dequeu item queue print node p q front q pop number way product factori number children node 
+way way factori p child size enqueu childrent dequeu item int 0 p child size q push p child return way driver program int main let us creat tree b f e k j g c h n l node root newnod root child push_back newnod b root child push_back newnod f root child push_back newnod root child push_back newnod e root child 0 child push_back newnod k root child 0 child push_back newnod j root child 2 child push_back newnod g root child 3 child push_back newnod c root child 3 child push_back newnod h root child 3 child push_back newnod root child 0 child 0 child push_back newnod n root child 0 child 0 child push_back newnod root child 3 child 2 child push_back newnod l cout calculateway root return 0 output 576 time complex visit node level order travers take n time comput factori everi node 
+total time taken nn n number node n ari tree 
+optim solut work n time per comput factori number 1 n auxiliari space sinc use queue structur everi node overal space complex also n 
+common pitfal sinc product factori tend grow huge may overflow 
+prefer use data type like unsign long long int c c number way never neg number 
+java python big integ take care overflow 
+articl contribut rachit belwariar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,23 @@
+given list ticket find itinerari order use given list 
+exampl input chennai banglor bombay delhi goa chennai delhi goa output bombay delhi delhi goa goa chennai chennai banglor may assum input list ticket cyclic one ticket everi citi except final destin 
+one solut build graph topolog sort graph 
+time complex solut n 
+also use hash avoid build graph 
+idea first find start point 
+start point would never side ticket 
+find start point simpli travers given map print itinerari order 
+follow step 
+1 creat hashmap given pair ticket 
+let creat hashmap dataset 
+everi entri dataset form like chennai banglor 2 find start point itinerari 
+creat revers hashmap 
+let revers reversemap entri reversemap form form 
+follow reversemap exampl 
+banglor chennai delhi bombay chennai goa goa delhi b travers dataset 
+everi key dataset check reversemap 
+key present found start point 
+exampl bombay start point 
+3 start found start point travers dataset print itinerari 
+step requir n time overal time complex n 
+java implement idea 
+java java program print itinerari order import java util hashmap import java util map public class printitinerari driver function public static void main string arg map string string dataset new hashmap string string dataset put chennai banglor dataset put bombay delhi dataset put goa chennai dataset put delhi goa printresult dataset function popul result given input dataset privat static void printresult map string string dataset store revers given map map string string reversemap new hashmap string string fill revers map iter given map map entri string string entri dataset entryset reversemap put entri getvalu entri getkey find start point itinerari string start null map entri string string entri dataset entryset reversemap containskey entri getkey start entri getkey break could find start point someth wrong input start null system println invalid input return start point simpl need go next next next use given hash map string dataset get start null system print start start dataset get c includ iostream includ map includ string use namespac std void printitinerari map string string dataset store revers given map map string string reversemap map string string iter fill revers map iter given map dataset begin dataset end reversemap second first find start point itinerari string start dataset begin dataset end reversemap find first reversemap end start first break could find start point someth wrong input start empti cout invalid input endl return start point simpl need go next next next use given hash map dataset find start dataset end cout first second endl dataset find second int main map string string dataset dataset chennai banglor dataset bombay delhi dataset goa chennai dataset delhi goa printitinerari dataset return 0 c implement contribut aditya goel output 

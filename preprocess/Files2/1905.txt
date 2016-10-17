@@ -1,0 +1,17 @@
+c specifi size bit structur union member 
+idea use memori effici know valu field group field never exceed limit with small rang 
+exampl consid follow declar date without use bit field 
+includ stdio h simpl represent date struct date unsign int unsign int unsign int int main printf size date byte n sizeof struct date struct date dt 31 12 2014 printf date dt dt dt output size date 12 byte date 31 12 2014 represent date take 12 byte compil unsign int take 4 byte 
+sinc know valu alway 1 31 valu 1 12 optim space use bit field 
+includ stdio h space optim represent date struct date valu 1 31 5 bit suffici unsign int 5 valu 1 12 4 bit suffici unsign int 4 unsign int int main printf size date byte n sizeof struct date struct date dt 31 12 2014 printf date dt dt dt return 0 output size date 8 byte date 31 12 2014 follow interest fact bit field c 1 special unnam bit field size 0 use forc align next boundari 
+exampl consid follow program 
+includ stdio h structur without forc align struct test1 unsign int x 5 unsign int 8 structur forc align struct test2 unsign int x 5 unsign int 0 unsign int 8 int main printf size test1 byte n sizeof struct test1 printf size test2 byte n sizeof struct test2 return 0 output size test1 4 byte size test2 8 byte 2 cannot pointer bit field member may start byte boundari 
+includ stdio h struct test unsign int x 5 unsign int 5 unsign int z int main test uncom follow line make program compil run printf address x p x line work fine z bit field member printf address z p z return 0 output error attempt take address bit field structur member test x 3 implement defin assign rang valu bit field member 
+includ stdio h struct test unsign int x 2 unsign int 2 unsign int z 2 int main test x 5 printf x return 0 output implement depend 4 c static member structur class bit field cannot static 
+c program compil run fine struct test1 static unsign int x int main c program fail compil bit field cannot static struct test1 static unsign int x 5 int main error static member x cannot bit field 5 array bit field allow 
+exampl program fail compil 
+struct test unsign int x 10 5 int main output error bit field x invalid type exercis predict output follow program 
+assum unsign int take 4 byte long int take 8 byte 
+1 includ stdio h struct test unsign int x unsign int 33 unsign int z int main printf sizeof struct test return 0 2 includ stdio h struct test unsign int x long int 33 unsign int z int main struct test unsign int ptr1 x unsign int ptr2 z printf ptr2 ptr1 return 0 3 union test unsign int x 3 unsign int 3 int z int main union test x 5 4 z 1 printf x z x z return 0 4 use bit field c figur way whether machin littl endian big endian 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

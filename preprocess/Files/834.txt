@@ -1,0 +1,30 @@
+
+The idea is to provide a framework for students and instructor.  The framework provides an instructor-friendly remote monitoring of lab, effective evaluation, and grading methodology. The system also provides a student-friendly remote login, software access, and problem resolution through effective help from the teacher. The framework can be easily implemented as a client–server in Java.
+Features:
+Instructor Panel:
+    a) Sees icons for all students.  Can click on an icon to see what student is doing.
+    b) Can chat with students
+    c) Can identify copying/opening windows other than IDE.  An icon blinks if there is a sudden change in picture.
+Student Panel:
+    a) Can send a help request to instructor.
+    b) Can chat with instructor
+Implementation:
+We can capture screenshots of all students and send them at fixed intervals (say 2 seconds) to the instructor.
+Tools:
+Java provides rich libraries for networking and Image processing.   Java and Netbeans can be downloaded from below link:
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+Research:
+a) Image compression techniques specialized for images that contains programming text.
+b) Feature (c) mentioned in instructor panel is interesting.
+Reference:
+IEEE Transaction paper on Addressing the Bandwidth Efficiency, Control, and Evaluation Issues in Software Remote Laboratory
+If you also wish to showcase your project idea here, please send an email to contribute@geeksforgeeks.org. 
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

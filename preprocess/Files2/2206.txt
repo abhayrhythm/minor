@@ -1,0 +1,10 @@
+rare machin branch expens obviou approach find minimum slow use branch 
+obviou approach find minimum involv branch int min int x int return x 
+x method get minimum maximum without use branch 
+typic obviou approach best though 
+method 1 use xor comparison oper minimum x x x work x x one r x 0 x x otherwis x x zero r x 0 machin evalu x 0 1 requir branch instruct may advantag 
+find maximum use x x x includ stdio h function find minimum x int min int x int return x x function find maximum x int max int x int return x x x driver program test function int main int x 15 int 6 printf minimum x printf min x printf nmaximum x printf max x getchar method 2 use subtract shift know int_min x int_max use follow faster x need evalu 
+minimum x x x sizeof int char_bit 1 method shift subtract x 31 size integ 32 
+x smaller 0 x 31 1 x greater equal 0 x 31 0 x get minimum x 0 x get minimum x 1 x similarli find maximum use x x x sizeof int char_bit 1 includ stdio h defin char_bit 8 function find minimum x int min int x int return x x sizeof int char_bit 1 function find maximum x int max int x int return x x x sizeof int char_bit 1 driver program test function int main int x 15 int 6 printf minimum x printf min x printf nmaximum x printf max x getchar note 1989 ansi c specif specifi result sign right shift method portabl 
+except thrown overflow valu x unsign cast unsign subtract avoid unnecessarili throw except howev right shift need sign operand produc one bit neg cast sign 
+sourc http graphic stanford edu seander bithack html integerminormax adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

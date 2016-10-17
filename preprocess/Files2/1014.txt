@@ -1,0 +1,13 @@
+follow question ask gate cs 2006 exam 
+1 consid follow c program fragment j n integ variabl 
+n j 0 0 2 j let val j denot valu store variabl j termin loop 
+one follow true 
+val j θ logn b vai j θ sqrt n c val j θ n val j θ nlogn answer c note semicolon loop noth bodi 
+variabl j initi 0 valu j sum valu initi n reduc half iter 
+j n 2 n 4 n 8 1 θ n 2 consid follow c function n b two sort integ array c n anoth integ array 
+void xyz int int b int c int j k j k n j b j c k els c k b j follow condit hold termin loop 
+j k n j 1 n 1 b j n ii n k 1 b 1 j b ii c either ii neither ii answer c condit true last insert element c condit ii true last insert element b 
+3 consid c code swap two integ five statement code void swap int px int py px px py py px py px py px s1 gener compil error s2 may gener segment fault runtim depend argument pass s3 correctli implement swap procedur input pointer refer integ store memori locat access process s4 implement swap procedur correctli valid input pointer s5 may add subtract integ pointer 
+s1 b s2 s3 c s2 s4 s2 s5 answer c s2 may gener segment fault valu pointer px py constant px py point memori locat invalid s4 may work input arithmet overflow occur 
+pleas write comment find answer explan incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

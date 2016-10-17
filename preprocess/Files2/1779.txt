@@ -1,0 +1,30 @@
+edg undirect connect graph bridg iff remov disconnect graph 
+disconnect undirect graph definit similar bridg edg remov increas number connect compon 
+like articul point bridg repres vulner connect network use design reliabl network 
+exampl wire comput network articul point indic critic comput bridg indic critic wire connect 
+follow exampl graph bridg highlight red color 
+find bridg given graph 
+simpl approach one one remov edg see remov edg caus disconnect graph 
+follow step simpl approach connect graph 
+1 everi edg u v follow remov u v graph b see graph remain connect either use bf df c add u v back graph 
+time complex method e v e graph repres use adjac list 
+better 
+v e algorithm find bridg idea similar v e algorithm articul point 
+df travers given graph 
+df tree edg u v u parent v df tree bridg exit altern reach u ancestor u subtre root v discuss previou post valu low v indic earliest visit vertex reachabl subtre root v condit edg u v bridg low v disc u 
+follow c java implement approach 
+c c program find bridg given undirect graph includ iostream includ list defin nil 1 use namespac std class repres undirect graph class graph int v 
+vertic list int adj dynam array adjac list void bridgeutil int v bool visit int disc int low int parent public graph int v constructor void addedg int v int w add edg graph void bridg print bridg graph graph int v v v adj new list int v void graph addedg int v int w adj v push_back w adj w push_back v note graph undirect recurs function find print bridg use df travers u vertex visit next visit keep tract visit vertic disc store discoveri time visit vertic parent store parent vertic df tree void graph bridgeutil int u bool visit int disc int low int parent static variabl use simplic avoid use static variabl pass pointer 
+static int time 0 mark current node visit visit u true initi discoveri time low valu disc u low u time go vertic aadjac list int iter adj u begin adj u end int v v current adjac u v visit yet recur visit v parent v u bridgeutil v visit disc low parent check subtre root v connect one ancestor u low u min low u low v lowest vertex reachabl subtre v u df tree u v bridg low v disc u cout u v endl updat low valu u parent function call 
+els v parent u low u min low u disc v df base function find bridg 
+use recurs function bridgeutil void graph bridg mark vertic visit bool visit new bool v int disc new int v int low new int v int parent new int v initi parent visit array int 0 v parent nil visit fals call recurs helper function find bridg df tree root vertex int 0 v visit fals bridgeutil visit disc low parent driver program test function int main creat graph given diagram cout nbridg first graph n graph g1 5 g1 addedg 1 0 g1 addedg 0 2 g1 addedg 2 1 g1 addedg 0 3 g1 addedg 3 4 g1 bridg cout nbridg second graph n graph g2 4 g2 addedg 0 1 g2 addedg 1 2 g2 addedg 2 3 g2 bridg cout nbridg third graph n graph g3 7 g3 addedg 0 1 g3 addedg 1 2 g3 addedg 2 0 g3 addedg 1 3 g3 addedg 1 4 g3 addedg 1 6 g3 addedg 3 5 g3 addedg 4 5 g3 bridg return 0 java java program find bridg given undirect graph import java io 
+import java util 
+import java util linkedlist class repres undirect graph use adjac list represent class graph privat int v 
+vertic array list adjac list represent privat linkedlist integ adj int time 0 static final int nil 1 constructor graph int v v v adj new linkedlist v int 0 v adj new linkedlist function add edg graph void addedg int v int w adj v add w add w v list 
+adj w add v add v w list recurs function find print bridg use df travers u vertex visit next visit keep tract visit vertic disc store discoveri time visit vertic parent store parent vertic df tree void bridgeutil int u boolean visit int disc int low int parent count children df tree int children 0 mark current node visit visit u true initi discoveri time low valu disc u low u time go vertic aadjac iter integ adj u iter hasnext int v next v current adjac u v visit yet make child u df tree recur 
+v visit yet recur visit v parent v u bridgeutil v visit disc low parent check subtre root v connect one ancestor u low u math min low u low v lowest vertex reachabl subtre v u df tree u v bridg low v disc u system println u v updat low valu u parent function call 
+els v parent u low u math min low u disc v df base function find bridg 
+use recurs function bridgeutil void bridg mark vertic visit boolean visit new boolean v int disc new int v int low new int v int parent new int v initi parent visit ap articul point array int 0 v parent nil visit fals call recurs helper function find bridg df tree root vertex int 0 v visit fals bridgeutil visit disc low parent public static void main string arg creat graph given diagram system println bridg first graph graph g1 new graph 5 g1 addedg 1 0 g1 addedg 0 2 g1 addedg 2 1 g1 addedg 0 3 g1 addedg 3 4 g1 bridg system println system println bridg second graph graph g2 new graph 4 g2 addedg 0 1 g2 addedg 1 2 g2 addedg 2 3 g2 bridg system println system println bridg third graph graph g3 new graph 7 g3 addedg 0 1 g3 addedg 1 2 g3 addedg 2 0 g3 addedg 1 3 g3 addedg 1 4 g3 addedg 1 6 g3 addedg 3 5 g3 addedg 4 5 g3 bridg code contribut aakash hasija output bridg first graph 3 4 0 3 bridg second graph 2 3 1 2 0 1 bridg third graph 1 6 time complex function simpl df addit array 
+time complex df v e adjac list represent graph 
+refer http www cs washington edu educ cours 421 04su slide artic pdf http www slideshar net traianrebedea algorithm design complex cours 8 http faculti simpson edu lydia sinapova www cmsc250 ln250_weiss l25 connect htm http www youtub com watch v bmyyxnyzkzi pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,20 @@
+given string parenthesi like x need find maximum depth balanc parenthesi like 4 exampl 
+sinc surround 4 balanc parenthesi 
+parenthesi unbalanc return 1 exampl b c e f g h j k l output 4 p q output 3 output 0 b c output 1 b c output 1 sourc walmart lab interview question method 1 use stack simpl solut use stack keep track current open bracket 
+1 creat stack 
+2 travers string follow everi charact current charact push stack 
+b charact pop element 
+c maintain maximum count travers 
+time complex n auxiliari space n method 2 1 auxiliari space also done without use stack 
+1 take two variabl max current_max initi 0 
+2 travers string follow everi charact current charact increment current_max updat max valu requir 
+b charact 
+check current_max posit condit ensur parenthesi balanc 
+posit mean previous charact decrement current_max without worri 
+posit parenthesi balanc 
+thu return 1 
+3 current_max 0 return 1 ensur parenthesi balanc 
+els return max c implement algorithm 
+c c c program find maximum depth nest parenthesi given express includ iostream use namespac std function take string return maximum depth nest parenthesi int maxdepth string int current_max 0 current count int max 0 overal maximum count int n length travers input string int 0 n current_max updat max requir current_max max max current_max els current_max 0 current_max els return 1 final check unbalanc string current_max 0 return 1 return max driver program int main string x cout maxdepth return 0 python python program find maximum depth nest parenthesi given express function take string return maximum depth nest parenthesi def maxdepth current_max 0 max 0 n len travers input string xrang n current_max 1 current_max max max current_max elif current_max 0 current_max 1 els return 1 final check unbalanc string current_max 0 return 1 return max driver program x print maxdepth code contribut bhavya jain output 4 time complex n auxiliari space 1 articl contribut gaurav sharma 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

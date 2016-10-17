@@ -1,0 +1,27 @@
+major element major element array size n element appear n 2 time henc one element 
+write function take array emit major element exist otherwis print none follow p 3 3 4 2 4 4 2 4 4 p 4 p 3 3 4 2 4 4 2 4 p none method 1 basic basic solut two loop keep track maximum count differ element 
+maximum count becom greater n 2 break loop return element maximum count 
+maximum count becom n 2 major element exist 
+time complex n n 
+auxiliari space 1 
+method 2 use binari search tree thank sachin midha suggest solut 
+node binari search tree use approach follow 
+struct tree int element int count bst insert element bst one one element alreadi present increment count node 
+stage count node becom n 2 return 
+method work well case n 2 1 occurr major element present start array exampl 1 1 1 1 1 2 3 4 
+time complex binari search tree use time complex n 2 
+self balanc binari search tree use nlogn auxiliari space n method 3 use moor vote algorithm two step process 
+1 get element occur time array 
+phase make sure major element return 
+2 check element obtain step major element 
+1 find candid algorithm first phase work n known moor vote algorithm 
+basic idea algorithm cancel occurr element e element differ e e exist till end major element 
+findcandid size 1 initi index count major element maj_index 0 count 1 2 loop 1 size 1 maj_index count b els count c count 0 maj_index count 1 3 return maj_index algorithm loop element maintain count maj_index next element increment count next element decrement count count reach 0 chang maj_index current element set count 1 first phase algorithm give us candid element 
+second phase need check candid realli major element 
+second phase simpl easili done n 
+need check count candid element greater n 2 
+exampl 2 2 3 5 2 2 6 initi maj_index 0 count 1 candid 2 
+2 2 3 5 2 2 6 maj_index count 2 2 2 3 5 2 2 6 differ maj_index count 1 2 2 3 5 2 2 6 differ maj_index count 0 sinc count 0 chang candid major element 5 maj_index 3 count 1 2 2 3 5 2 2 6 differ maj_index count 0 sinc count 0 chang candid major element 2 maj_index 4 2 2 3 5 2 2 6 maj_index count 2 2 2 3 5 2 2 6 differ maj_index count 1 final candid major element 2 first step use moor vote algorithm get candid major element 
+2 check element obtain step 1 major printmajor size 1 find candid major 2 candid major 
+e appear n 2 time 
+print candid 3 els print none implement method 3 c program find major element array includ stdio h defin bool int int findcandid int int bool ismajor int int int function print major element void printmajor int int size find candid major int cand findcandid size print candid major ismajor size cand printf cand els printf major element function find candid major int findcandid int int size int maj_index 0 count 1 int 1 size maj_index count els count count 0 maj_index count 1 return maj_index function check candid occur n 2 time bool ismajor int int size int cand int count 0 0 size cand count count size 2 return 1 els return 0 driver function test function int main int 1 3 3 1 2 int size sizeof sizeof 0 printmajor size getchar return 0 java program find major element array class majorityel function print major element void printmajor int int size find candid major int cand findcandid size print candid major ismajor size cand system println cand els system println major element function find candid major int findcandid int int size int maj_index 0 count 1 int 1 size maj_index count els count count 0 maj_index count 1 return maj_index function check candid occur n 2 time boolean ismajor int int size int cand int count 0 0 size cand count count size 2 return true els return fals driver program test function public static void main string arg majorityel majorel new majorityel int new int 1 3 3 1 2 int size length majorel printmajor size code contribut mayank jaiswal output 

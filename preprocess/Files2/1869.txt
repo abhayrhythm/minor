@@ -1,0 +1,4 @@
+discuss qsort c c stl provid similar function sort sort vector array item random access 
+simpl program show work sort 
+c program demonstr default behaviour sort stl 
+includ bit stdc h use namespac std int main int arr 1 5 8 9 6 7 3 4 2 0 int n sizeof arr sizeof arr 0 sort arr arr n cout narray sort use default sort n int 0 n cout arr return 0 output array sort use default sort 0 1 2 3 4 5 6 7 8 9 default sort sort array ascend order 

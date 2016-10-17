@@ -1,0 +1,23 @@
+number repres link list digit correspond node link list 
+add 1 
+exampl 1999 repres 1 9 9 9 ad 1 chang 2 0 0 0 strongli recommend click practic move solut 
+step revers given link list 
+exampl 1 9 9 9 convert 9 9 9 1 
+start travers link list leftmost node add 1 
+carri move next node 
+keep move next node carri 
+revers modifi link list return head 
+c implement step 
+c program add 1 link list includ bit stdc h link list node struct node int data node next function creat new node given data node newnod int data node new_nod new node new_nod data data new_nod next null return new_nod function revers link list node revers node head node prev null node current head node next current null next current next current next prev prev current current next return prev add one link list return head node result list node addoneutil node head re head node result list node re head node temp prev null int carri 1 sum head null list exist calcul valu next digit result list 
+next digit sum follow thing carri ii next digit head list next digit sum carri head 
+head data 0 updat carri next calul carri sum 10 
+1 0 updat sum greater 10 sum sum 10 creat new node sum data head data sum move head second pointer next node temp head head head next carri still add new node result list 
+carri 0 temp next newnod carri return head result list return re function mainli use addoneutil 
+node addon node head revers link list head revers head add one left right revers list head addoneutil head revers modifi list return revers head util function print link list void printlist node node node null printf node data node node next printf n driver program test function int main void node head newnod 1 head next newnod 9 head next next newnod 9 head next next next newnod 9 printf list printlist head head addon head printf nresult list printlist head return 0 output list 1999 result list 2000 recurs implement recurs reach last node forward carri previou node 
+recurs solut requir revers link list 
+also use stack place recurs temporarili hold node 
+c implement recurs solut 
+recurs c program add 1 link list includ bit stdc h link list node struct node int data node next function creat new node given data node newnod int data node new_nod new node new_nod data data new_nod next null return new_nod recurs add 1 end begin return carri node process 
+int addwithcarri node head link list empti return carri head null return 1 add carri return next node call int re head data addwithcarri head next updat data return new carri head data re 10 return re 10 function mainli use addwithcarri 
+node addon node head add 1 link list end begin int carri addwithcarri head carri process node need add new node link list carri node newnod new node newnod data carri newnod next head return newnod new node becom head return head util function print link list void printlist node node node null printf node data node node next printf n driver program test function int main void node head newnod 1 head next newnod 9 head next next newnod 9 head next next next newnod 9 printf list printlist head head addon head printf nresult list printlist head return 0 output list 1999 result list 2000 articl contribut aditya goel 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

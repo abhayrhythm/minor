@@ -1,0 +1,19 @@
+given array job everi job deadlin associ profit job finish deadlin 
+also given everi job take singl unit time minimum possibl deadlin job 1 maxim total profit one job schedul time 
+exampl input four job follow deadlin profit jobid deadlin profit 4 20 b 1 10 c 1 40 1 30 output follow maximum profit sequenc job c input five job follow deadlin profit jobid deadlin profit 2 100 b 1 19 c 2 27 1 25 e 3 15 output follow maximum profit sequenc job c e strongli recommend minim browser tri first 
+simpl solut gener subset given set job check individu subset feasibl job subset 
+keep track maximum profit among feasibl subset 
+time complex solut exponenti 
+standard greedi algorithm problem 
+follow algorithm 
+1 sort job decreas order profit 
+2 initi result sequenc first job sort job 
+3 follow remain n 1 job current job fit current result sequenc without miss deadlin add current job result 
+els ignor current job 
+follow c implement algorithm 
+program find maximum profit job sequenc given array job deadlin profit includ iostream includ algorithm use namespac std structur repres job struct job char id job id int dead deadlin job int profit profit job deadlin function use sort job accord profit bool comparison job job b return profit b profit return minimum number platform reqquir void printjobschedul job arr int n sort job accord decreas order prfit sort arr arr n comparison int result n store result sequenc job bool slot n keep track free time slot initi slot free int 0 n slot fals iter given job int 0 n find free slot job note start last possibl slot int j min n arr dead 1 j 0 j free slot found slot j fals result j add job result slot j true make slot occupi break print result int 0 n slot cout arr result id driver program test method int main job arr 2 100 b 1 19 c 2 27 1 25 e 3 15 int n sizeof arr sizeof arr 0 cout follow maximum profit sequenc job n printjobschedul arr n return 0 output follow maximum profit sequenc job c e time complex solut n2 
+optim use disjoint set data structur 
+pleas refer post detail 
+job sequenc problem set 2 use disjoint set sourc http ocw mit edu cours civil environment engin 1 204 comput algorithm system engin spring 2010 lectur note mit1_204s10_lec10 pdf articl contribut shubham 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

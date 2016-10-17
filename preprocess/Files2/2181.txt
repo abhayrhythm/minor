@@ -1,0 +1,6 @@
+difficulti level rooki given number n valu k turn k th bit n exampl input n 15 k 1 output 14 input n 15 k 2 output 13 input n 15 k 3 output 11 input n 15 k 4 output 7 input n 15 k 5 output 15 idea use bitwis oper 
+use express 1 k 1 get number bit set except k th bit 
+bitwis express n get number bit n except k th bit 0 follow c implement 
+includ iostream use namespac std return number bit n except k th bit made 0 int turnoffk int n int k k must greater 0 k 0 return n n number set bit except k th bit return n 1 k 1 driver program test function int main int n 15 int k 4 cout turnoffk n k return 0 output 7 exercis write function turnonk turn k th bit 
+articl contribut rahul jain 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,11 @@
+version number string use identifi uniqu state softwar product 
+version number look like b c b etc number version number string number separ dot 
+number gener repres hierarchi major minor major minor 
+problem given two version number need compar conclud one late version number version number smaller 
+exampl v1 1 0 31 v2 1 0 27 v2 version latest smaller v2 v1 possibl compar directli dot compar numer part wise check version latest 
+code method implement travers string separ numer part compar equal go next numer part differ otherwis flag equal 
+code method implement compar two version two version versioncompar method use cmp method sort method sort version accord specifi comparison 
+c c c c program compar two version number includ bit stdc h use namespac std method compar two version 
+return 1 v2 smaller 1 v1 smaller 0 equal int versioncompar string v1 string v2 vnum store numer part version int vnum1 0 vnum2 0 loop until string process int 0 j 0 v1 length j v2 length store numer part version 1 vnum1 v1 length v1 
+vnum1 vnum1 10 v1 0 store numer part version 2 vnum2 j v2 length v2 j 
+vnum2 vnum2 10 v2 j 0 j vnum1 vnum2 return 1 vnum2 vnum1 return 1 equal reset variabl go next numer part vnum1 vnum2 0 j return 0 driver method check comparison function int main string version1 1 0 3 string version2 1 0 7 versioncompar version1 version2 0 cout version1 smaller n els versioncompar version1 version2 0 cout version2 smaller n els cout version equal n return 0 

@@ -1,0 +1,25 @@
+given string need print longest possibl substr exactli uniqu charact 
+one substr longest possibl length print one 
+exampl aabbcc k 1 max substr one aa bb cc 
+aabbcc k 2 max substr one aabb bbcc 
+aabbcc k 3 substr exactli 3 uniqu charact aabbcc abbcc aabbc abbc max aabbcc length 6 
+aaabbb k 3 two uniqu charact thu show error messag 
+sourc googl interview question method 1 brute forc length string n n n 1 2 possibl substr 
+simpl way gener substr check one whether exactli k uniqu charact 
+appli brute forc would take n2 gener substr n check one 
+thu overal would go n3 
+improv solut creat hash tabl gener substr check number uniqu charact use hash tabl 
+thu would improv n2 
+method 2 linear time problem solv n 
+idea maintain window add element window till contain less equal k updat result requir 
+uniqu element exce requir window start remov element left side 
+c python implement 
+implement assum input string alphabet contain 26 charact z 
+code easili extend 256 charact 
+c c program find longest substr k uniqu charact given string includ iostream includ cstring defin max_char 26 use namespac std function calcul number uniqu charact use associ array count 
+return true 
+charact less requir els return fals 
+bool isvalid int count int k int val 0 int 0 max_char count 0 val return true k greater equal val return k val find maximum substr exactli k uniqu char void kuniqu string int k int u 0 number uniqu charact int n length associ array store count charact int count max_char memset count 0 sizeof count travers string fill associ array count count number uniqu charact int 0 n count 0 u count enough uniqu charact show error messag 
+u k cout enough uniqu charact return otherwis take window first element 
+start end variabl 
+int curr_start 0 curr_end 0 also initi valu result longest window int max_window_s 1 max_window_start 0 initi associ array count zero memset count 0 sizeof count count 0 put first charact start second charact add charact window accord explan int 1 n add charact current window count curr_end k uniqu charact current window remov left side isvalid count k count curr_start curr_start updat max window size requir curr_end curr_start 1 max_window_s max_window_s curr_end curr_start 1 max_window_start curr_start cout max sustr substr max_window_start max_window_s length max_window_s endl driver function int main string aabacbebeb int k 3 kuniqu k return 0 

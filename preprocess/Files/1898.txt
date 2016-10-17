@@ -1,0 +1,26 @@
+
+This is simple, but interesting programming  puzzle. Given three integers, low, high and x such that high >= low. How to check if x lies in range [low, high] or not using single comparison. For example, if range is [10, 100] and number is 30, then output is true and if the number is 5, then output is false for same range.  
+A simple solution is compare x with low and high
+
+#include <iostream>
+using namespace std;
+
+// Returns true if x is in range [low..high], else false
+bool inRange(unsigned low, unsigned high, unsigned x)
+{
+    return (low <= x  && x <= high);
+}
+
+int main()
+{
+    inRange(10, 100, 30)? cout << "Yes\n":  cout  <<"No\n";
+    inRange(10, 100, 5)?  cout << "Yes\n":  cout  <<"No\n";
+}
+
+Output:
+Yes
+No
+
+
+  The above solution does two comparisons, 
+  Can we do the same task using one comparison?  

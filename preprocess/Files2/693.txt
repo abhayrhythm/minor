@@ -1,0 +1,78 @@
+amazon recent visit campu hire intern 6 month internship 
+round 1 onlin test round 1 onlin test 90 minut 
+host hackerrank platform 
+20 mcq question 2 code question 
+mcq question 1 mark 
+neg mark 0 25 wrong mcq answer 
+mcq question data structur dbm aptitud etc 
+code question q1 
+http www geeksforgeek org revers word given string q2 
+http www geeksforgeek org find possibl word phone digit note import atleast one code question clear round 
+even get 20 mcq correct code question chanc get select low 
+suggest everyon mcq initi 30 minut devot last 60 minut code question 
+15 mcq 2 code question 
+got select next round 
+overal 19 student got select next round 
+round 2 interview interview first ask one project mention cv 
+ask two question 
+q1 
+given map map 1 b map 2 c map 3 z map 26 given number n tell mani distinct string form number n use given map 
+exampl input 121 output 3 explan read number n 1 2 1 string form aba 1 2 b 
+also read number n 12 1 string form la 12 l 1 
+also read number n 1 21 string form au 1 21 u 
+form maximum 3 distinct string number 121 use given map 
+gave recurs solut interview satisfi solut 
+ask code solut paper 
+code solut check code 
+satisfi move next problem 
+q2 
+http www geeksforgeek org remov bst key outsid given rang shortlist announc 
+10 student got shortlist next round 
+got shortlist next round 
+round 3 final interview final interview process 
+inteview first ask introduc ask one project 
+ask sever question follow q1 
+binari tree 
+differ type travers bt 
+differ travers 
+travers base bf base df 
+answer question appropri 
+satisfi answer 
+q2 
+http www geeksforgeek org level order travers spiral form gave solut ask code paper 
+check solut manual test case 
+satisfi move next question 
+q3 
+max heap 
+min heap 
+real life applic heap 
+q4 
+insert heap 
+time complex 
+q5 
+delet min element min heap 
+time complex 
+q6 
+given array n number build min heap array 
+time complex 
+answer appropri 
+told solv problem n time complex 
+ask prove complex n 
+prove exampl array 
+satisfi answer 
+q7 
+constant flow number come infinit list number need maintain data structur return top 100 number given point time 
+assum number integ number 
+sol gave solut use min heap 
+creat min heap 100 element 
+first 100 element easi handl 
+let say get 101th element list 
+number less root binari heap need anyth 
+number greater root binari heap need replac root element element call percol procedur root binari heap 
+interview conclud interview question 
+suggest everyon go amazon interview experi atleast 5 peopl geeksforgeek com amazon select process 
+final would say focu data structur os dbm network 
+data structur focu mainli binari tree binari heap link list 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

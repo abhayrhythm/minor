@@ -1,0 +1,16 @@
+given two integ array size arr index reorder element arr accord given index array 
+allow given array arr length 
+exampl input arr 10 11 12 index 1 0 2 output arr 11 10 12 index 0 1 2 input arr 50 40 70 60 90 index 3 0 4 1 2 output arr 40 60 90 50 70 index 0 1 2 3 4 expect time complex n auxiliari space 1 strongli recommend minim browser tri first 
+simpl solut use auxiliari array temp size given array 
+travers given array put element correct place temp use index 
+final copi temp arr set valu index 
+c program sort array accord given index includ iostream use namespac std function reorder element arr accord index void reorder int arr int index int n int temp n arr present index index int 0 n temp index arr copi temp arr int 0 n arr temp index driver program int main int arr 50 40 70 60 90 int index 3 0 4 1 2 int n sizeof arr sizeof arr 0 reorder arr index n cout reorder array n int 0 n cout arr cout nmodifi index array n int 0 n cout index return 0 output reorder array 40 60 90 50 70 modifi index array 0 1 2 3 4 thank gccode suggest solut 
+solv without auxiliari array 
+algorithm 
+1 follow everi element arr index equal store array index valu target correct posit arr place 
+correct posit arr index ii place arr correct posit 
+also updat index valu correct posit 
+iii copi old valu correct posit store step arr index loop continu c implement algorithm 
+n time 1 extra space c program sort array accord given index includ iostream use namespac std function reorder element arr accord index void reorder int arr int index int n fix element one one int 0 n index arr fix index store valu target correct posit place arr int oldtargeti index index char oldtarget arr index place arr target correct posit 
+also copi correct index new posit arr index arr index index index copi old target valu arr index index oldtargeti arr oldtarget driver program int main int arr 50 40 70 60 90 int index 3 0 4 1 2 int n sizeof arr sizeof arr 0 reorder arr index n cout reorder array n int 0 n cout arr cout nmodifi index array n int 0 n cout index return 0 output reorder array 40 60 90 50 70 modifi index array 0 1 2 3 4 thank shyamala_lokr suggest solut 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

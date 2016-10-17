@@ -1,0 +1,27 @@
+
+
+We strongly recommend that you click here and practice it, before moving on to the solution.
+
+Below are the solutions to get sum of the digits.  
+1. Iterative:
+The function has three lines instead of one line but it calculates sum in line.  It can be made one line function if we pass pointer to sum.
+
+# include<stdio.h>
+int main()
+{
+  int n = 687;
+  printf(" %d ", getSum(n));
+
+  getchar();
+  return 0;
+}
+
+/* Function to get sum of digits */
+int getSum(int n)
+{
+    int sum;
+    /*Single line that calculates sum*/
+    for(sum=0; n > 0; sum+=n%10,n/=10);
+    return sum;
+}
+

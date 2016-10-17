@@ -1,0 +1,24 @@
+implement lru cach scheme 
+data structur use 
+given total possibl page number refer 
+also given cach memori size number page frame cach hold time 
+lru cach scheme remov least recent use frame cach full new page referenc cach 
+pleas see galvin book detail see lru page replac slide 
+use two data structur implement lru cach 
+queue implement use doubli link list 
+maximum size queue equal total number frame avail cach size recent use page near front end least recent page near rear end 
+hash page number key address correspond queue node valu 
+page referenc requir page may memori 
+memori need detach node list bring front queue 
+requir page memori bring memori 
+simpl word add new node front queue updat correspond node address hash 
+queue full e 
+frame full remov node rear queue add new node front queue 
+note initi page memori 
+c implement c program show implement lru cach includ stdio h includ stdlib h queue node queue implement use doubli link list typedef struct qnode struct qnode prev next unsign pagenumb page number store qnode qnode queue fifo collect queue node typedef struct queue unsign count number fill frame unsign numberoffram total number frame qnode front rear queue hash collect pointer queue node typedef struct hash int capac mani page qnode array array queue node hash util function creat new queue node 
+queue node store given pagenumb qnode newqnod unsign pagenumb alloc memori assign pagenumb qnode temp qnode malloc sizeof qnode temp pagenumb pagenumb initi prev next null temp prev temp next null return temp util function creat empti queue 
+queue numberoffram node queue createqueu int numberoffram queue queue queue malloc sizeof queue queue empti queue count 0 queue front queue rear null number frame store memori queue numberoffram numberoffram return queue util function creat empti hash given capac hash createhash int capac alloc memori hash hash hash hash malloc sizeof hash hash capac capac creat array pointer refer queue node hash array qnode malloc hash capac sizeof qnode initi hash entri empti int 0 hash capac hash array null return hash function check slot avail memori int areallframesful queue queue return queue count queue numberoffram util function check queue empti int isqueueempti queue queue return queue rear null util function delet frame queue void dequeu queue queue isqueueempti queue return node list chang front queue front queue rear queue front null chang rear remov previou rear qnode temp queue rear queue rear queue rear prev queue rear queue rear next null free temp decrement number full frame 1 queue count function add page given pagenumb queue hash void enqueu queue queue hash hash unsign pagenumb frame full remov page rear areallframesful queue remov page hash hash array queue rear pagenumb null dequeu queue creat new node given page number add new node front queue qnode temp newqnod pagenumb temp next queue front queue empti chang front rear pointer isqueueempti queue queue rear queue front temp els els chang front queue front prev temp queue front temp add page entri hash also hash array pagenumb temp increment number full frame queue count function call page given pagenumb referenc cach memori 
+two case 1 frame memori bring memori add front queue 2 frame memori move frame front queue void referencepag queue queue hash hash unsign pagenumb qnode reqpag hash array pagenumb page cach bring reqpag null enqueu queue hash pagenumb page front chang pointer els reqpag queue front unlink rquest page current locat queue 
+reqpag prev next reqpag next reqpag next reqpag next prev reqpag prev request page rear chang rear node move front reqpag queue rear queue rear reqpag prev queue rear next null put request page current front reqpag next queue front reqpag prev null chang prev current front reqpag next prev reqpag chang front request page queue front reqpag driver program test function int main let cach hold 4 page queue q createqueu 4 let 10 differ page request page referenc number 0 9 hash hash createhash 10 let us refer page 1 2 3 1 4 5 referencepag q hash 1 referencepag q hash 2 referencepag q hash 3 referencepag q hash 1 referencepag q hash 4 referencepag q hash 5 let us print cach frame referenc page printf q front pagenumb printf q front next pagenumb printf q front next next pagenumb printf q front next next next pagenumb return 0 output 5 4 1 3 articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

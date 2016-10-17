@@ -1,0 +1,29 @@
+strongli recommend refer post prerequisit 
+random algorithm set 1 introduct analysi classif random algorithm classifi two categori 
+la vega algorithm alway produc correct optimum result 
+time complex algorithm base random valu time complex evalu expect valu 
+exampl random quicksort alway sort input array expect worst case time complex quicksort nlogn 
+mont carlo produc correct optimum result probabl 
+algorithm determinist run time gener easier find worst case time complex 
+exampl implement karger algorithm produc minimum cut probabl greater equal 1 n2 n number vertic worst case time complex e 
+anoth exampl fermet method primal test 
+exampl understand classif consid binari array exactli half element 0 half 1 task find index 1 la vega algorithm task keep pick random element find 1 mont carlo algorithm keep pick random element either find 1 tri maximum allow time say k la vega algorithm alway find index 1 time complex determin expect valu 
+expect number trial success 2 therefor expect time complex 1 
+mont carlo algorithm find 1 probabl 1 1 2 k 
+time complex mont carlo k determinist applic scope consid tool basic sort 
+let tool use mani user user alway use tool alreadi sort array 
+tool use simpl random quicksort user alway go face worst case situat 
+hand tool use random quicksort user alway get worst case 
+everybodi get expect n log n time 
+random algorithm huge applic cryptographi 
+load balanc 
+number theoret applic primal test data structur hash sort search order statist comput geometri 
+algebra ident polynomi matrix ident verif 
+interact proof system 
+mathemat program faster algorithm linear program round linear program solut integ program solut graph algorithm minimum span tree shortest path minimum cut 
+count enumer matrix perman count combinatori structur 
+parallel distribut comput deadlock avoid distribut consensu 
+probabilist exist proof show combinatori object aris non zero probabl among object drawn suitabl probabl space 
+derandom first devis random algorithm argu derandom yield determinist algorithm 
+sourc http theori stanford edu peopl pragh amstalk pdf http en wikipedia org wiki randomized_algorithm articl contribut ashish sharma 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

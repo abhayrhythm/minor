@@ -1,0 +1,17 @@
+given function rand50 return 0 1 equal probabl write function return 1 75 probabl 0 25 probabl use rand50 
+minim number call rand50 method 
+also use librari function float point arithmet allow 
+idea use bitwis 
+bitwis take two bit return 0 bit 0 otherwis result 1 75 probabl return 1 c implement idea program print 1 75 probabl 0 25 probabl includ iostream use namespac std random function return 0 1 equal probabl int rand50 rand function gener odd even number equal probabl 
+rand gener odd number function return 1 els return 0 return rand 1 random function return 1 75 probabl 0 25 probabl use bitwis bool rand75 return rand50 rand50 driver code test function int main intial random number gener srand time null int 0 50 cout rand75 return 0 output 11101111110010010110011111111101111110111100011000 similar line also use bitwis 
+sinc return 0 75 probabl invert result 
+random function return 1 75 probabl 0 25 probabl use bitwis bool rand75 return 
+rand50 rand50 replac bitwis bitwis oper oper well random function return 1 75 probabl 0 25 probabl use oper int rand75 return 
+rand50 rand50 return rand50 rand50 also achiev result use left shift oper bitwis xor program print 1 75 probabl 0 25 probabl includ iostream use namespac std random function return 0 1 equal probabl int rand50 rand function gener odd even number equal probabl 
+rand gener odd number function return 1 els return 0 return rand 1 random function return 1 75 probabl 0 25 probabl use left shift bitwis xor int rand75 x one 0 1 int x rand50 x x 1 x one 00 10 x x rand50 x one 00 01 10 11 return x 0 
+1 0 driver code test function int main intial random number gener srand time null int 0 50 cout rand75 return 0 output 01101110111011000111111111110001111011101110110110 pleas note solut produc differ result everi time run 
+articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

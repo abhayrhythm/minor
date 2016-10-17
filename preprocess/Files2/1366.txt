@@ -1,0 +1,25 @@
+alreadi discuss 2 differ way clone link list 
+post one simpl method clone link list discuss 
+idea use hash 
+algorithm 
+1 travers origin link list make copi term data 
+2 make hash map key valu pair origin link list node copi link list node 
+3 travers origin link list use hash map adjust next random refer clone link list node 
+java base approach idea 
+java program clone link list random pointer import java util hashmap import java util map link list node class class node int data node data node next random next random refer node constructor public node int data data data next random null link list class class linkedlist node head link list head refer link list constructor public linkedlist node head head head push method put data alway head link list 
+public void push int data node node new node data node next head head node method print list 
+void print node temp head temp null node random temp random int randomdata random null 
+random data 1 system println data temp data random data randomdata temp temp next actual clone method return head refer clone link list 
+public linkedlist clone initi two refer one origin list head 
+node origcurr head clonecurr null hash map contain node node map origin clone link list 
+map node node map new hashmap node node travers origin list make copi clone link list 
+origcurr null clonecurr new node origcurr data map put origcurr clonecurr origcurr origcurr next adjust origin list refer 
+origcurr head travers origin list adjust next random refer clone list use hash map 
+origcurr null clonecurr map get origcurr clonecurr next map get origcurr next clonecurr random map get origcurr random origcurr origcurr next return head refer clone list 
+return new linkedlist map get head driver class class main main method 
+public static void main string arg push data link list 
+linkedlist list new linkedlist new node 5 list push 4 list push 3 list push 2 list push 1 set random refer 
+list head random list head next next list head next random list head next next next list head next next random list head next next next next list head next next next random list head next next next next next list head next next next next random list head next make clone origin link list 
+linkedlist clone list clone print origin clone link list 
+system println origin link list list print system println nclone link list clone print output origin link list data 1 random data 3 data 2 random data 4 data 3 random data 5 data 4 random data 1 data 5 random data 2 clone link list data 1 random data 3 data 2 random data 4 data 3 random data 5 data 4 random data 1 data 5 random data 2 time complex n auxiliari space n articl contribut kumar gautam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

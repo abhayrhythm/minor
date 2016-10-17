@@ -1,0 +1,50 @@
+background suffix array suffix array sort array suffix given string 
+let given string banana 
+0 banana 5 1 anana sort suffix 3 ana 2 nana 1 anana 3 ana alphabet 0 banana 4 na 4 na 5 2 nana suffix array banana suffix 5 3 1 0 4 2 discuss suffix array nlogn construct 
+suffix array built use effici search pattern text 
+exampl use binari search find pattern complet code discuss lcp array binari search base solut discuss take logn time length pattern search n length text 
+help lcp array search pattern log n time 
+exampl task search ana banana 3 n 5 lcp array array size n like suffix array 
+valu lcp indic length longest common prefix suffix inex suffix suffix 1 
+suffix n 1 defin suffix 
+txt 0 n 1 banana suffix 5 3 1 0 4 2 lcp 1 3 0 0 2 0 suffix repres suffix array order ana anana banana na nana lcp 0 longest common prefix ana 1 lcp 1 longest common prefix ana anana 3 lcp 2 longest common prefix anana banana 0 lcp 3 longest common prefix banana na 0 lcp 4 longest common prefix na nana 2 lcp 5 longest common prefix nana none 0 construct lcp array 
+lcp array construct done two way 1 comput lcp array byproduct suffix array manber myer algorithm 2 use alreadi construct suffix array order comput lcp valu 
+kasai algorithm 
+exist algorithm construct suffix array n time therefor alway construct lcp array n time 
+implement n log n algorithm discuss 
+kasai algorithm articl kasai algorithm discuss 
+algorithm construct lcp array suffix array input text n time 
+idea base fact let lcp suffix begin txt k k greater 0 lcp suffix begin txt 1 least k 1 
+reason rel order charact remain 
+delet first charact suffix know least k charact match 
+exampl substr ana lcp 3 string na lcp least 2 refer proof 
+c implement kasai algorithm 
+c program build lcp array given text includ bit stdc h use namespac std structur store inform suffix struct suffix int index store origin index int rank 2 store rank next rank pair comparison function use sort compar two suffix compar two pair return 1 first pair smaller int cmp struct suffix struct suffix b return rank 0 b rank 0 
+rank 1 b rank 1 1 0 rank 0 b rank 0 1 0 main function take string txt size n argument build return suffix array given string vector int buildsuffixarray string txt int n structur store suffix index struct suffix suffix n store suffix index array structur 
+structur need sort suffix alphabat maintain old index sort int 0 n suffix index suffix rank 0 txt suffix rank 1 1 n 
+txt 1 1 sort suffix use comparison function defin 
+sort suffix suffix n cmp point suffix sort accord first 2 charact 
+let us sort suffix accord first 4 charact first 8 int ind n array need get index suffix origin index 
+map need get next suffix 
+int k 4 k 2 n k k 2 assign rank index valu first suffix int rank 0 int prev_rank suffix 0 rank 0 suffix 0 rank 0 rank ind suffix 0 index 0 assign rank suffix int 1 n first rank next rank previou suffix array assign new rank suffix suffix rank 0 prev_rank suffix rank 1 suffix 1 rank 1 prev_rank suffix rank 0 suffix rank 0 rank els otherwis increment rank assign prev_rank suffix rank 0 suffix rank 0 rank ind suffix index assign next rank everi suffix int 0 n int nextindex suffix index k 2 suffix rank 1 nextindex n 
+suffix ind nextindex rank 0 1 sort suffix accord first k charact sort suffix suffix n cmp store index sort suffix suffix array vector int suffixarr int 0 n suffixarr push_back suffix index return suffix array return suffixarr construct return lcp vector int kasai string txt vector int suffixarr int n suffixarr size store lcp array vector int lcp n 0 auxiliari array store invers suffix array element 
+exampl suffixarr 0 5 invsuff 5 would store 0 use get next suffix string suffix array 
+vector int invsuff n 0 fill valu invsuff int 0 n invsuff suffixarr initi length previou lcp int k 0 process suffix one one start first suffix txt int 0 n current suffix n 1 next substr consid 
+lcp defin substr put zero 
+invsuff n 1 k 0 continu j contain index next substr consid compar present substr e next string suffix array int j suffixarr invsuff 1 directli start match k th index least k 1 charact match k n j k n txt k txt j k k lcp invsuff k lcp present suffix 
+delet start charact string 
+k 0 k return construct lcp array return lcp util function print array void printarr vector int arr int n int 0 n cout arr cout endl driver program int main string str banana vector int suffixarr buildsuffixarray str str length int n suffixarr size cout suffix array n printarr suffixarr n vector int lcp kasai str suffixarr cout nlcp array n printarr lcp n return 0 output suffix array 5 3 1 0 4 2 lcp array 1 3 0 0 2 0 illustr txt banana suffix 5 3 1 0 4 2 suffix array repres ana anana banana na nana invers suffix array would invsuff 3 2 5 1 4 0 lcp valu evalu order first comput lcp first suffix text banana 
+need next suffx suffix array comput lcp rememb lcp defin longest common prefix suffix suffix 1 
+find next suffix suffixarr use suffinv 
+next suffix na 
+sinc common prefix banana na valu lcp banana 0 index 3 suffix array fill lcp 3 0 next comput lcp second suffix anana 
+next suffix anana suffix array banana 
+sinc common prefix valu lcp anana 0 index 2 suffix array fill lcp 2 0 next comput lcp third suffix nana 
+sinc next suffix valu lcp nana defin 
+fill lcp 5 0 next suffix text ana 
+next suffix ana suffix array anana 
+sinc common prefix length 3 valu lcp ana 3 fill lcp 1 3 lcp next suffix text na 
+kasai algorithm use trick lcp valu must least 2 previou lcp valu 3 sinc charact na final valu lcp 2 fill lcp 4 2 next suffix text 
+lcp valu must least 1 previou valu 2 sinc charact final valu lcp 1 fill lcp 0 1 soon discuss implement search help lcp array lcp array help reduc time complex log n 
+refer http web stanford edu class cs97si suffix array pdf http www mi fu berlin de wiki pub abi rnaseqp4 suffix array pdf http codeforc com blog entri 12796 articl contribut prakhar agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

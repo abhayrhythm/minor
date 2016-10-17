@@ -1,0 +1,30 @@
+given undirect connect weight graph find minimum span tree mst graph use prim algorithm 
+input adjac list represent graph output edg mst 0 1 1 2 2 3 3 4 2 5 5 6 6 7 2 8 note two possibl mst mst includ edg 0 7 place 1 2 discuss prim mst implement 
+prim algorithm adjac matrix represent c c time complex v2 prim algorithm adjac list represent c time complex elogv second implement time complex wise better realli complex implement prioriti queue 
+stl provid priority_queu provid prioriti queue support decreas key oper 
+prim algorithm need prioriti queue oper prioriti queue extractmin vertic yet includ mst need get vertex minimum key valu 
+decreasekey extract vertex need updat key adjac vertic new key smaller updat data structur 
+algorithm discuss modifi decreas key never requir 
+idea insert vertic prioriti queue mst visit vertex includ mst 
+keep track vertic includ mst separ boolean array inmst 
+1 initi key vertic infinit parent everi vertex 1 
+2 creat empti priority_queu pq 
+everi item pq pair weight vertex 
+weight key use use first item pair first item default use compar two pair 
+3 initi vertic part mst yet 
+use boolean array inmst purpos 
+array requir make sure alreadi consid vertex includ pq 
+ptim implement differ dijkstra 
+dijkstr algorithm need array distanc alway increas 
+requir array key valu process vertex may decreas check 
+4 insert sourc vertex pq make key 0 
+5 either pq becom empti extract minimum key vertex pq 
+let extract vertex u b includ u mst use inmst u true 
+c loop adjac u follow everi vertex v weight edg u v smaller key v v alreadi mst inmst v fals key v weight u v updat key v e key v weight u v ii insert v pq iv parent v u 6 print mst edg use parent array 
+c implement idea 
+stl implement prim algorithm mst includ bit stdc h use namespac std defin inf 0x3f3f3f3f ipair integ pair typedef pair int int ipair class repres direct graph use adjac list represent class graph int v 
+vertic weight graph need store vertex weight pair everi edg list pair int int adj public graph int v constructor function add edg graph void addedg int u int v int w print mst use prim algorithm void primmst alloc memori adjac list graph graph int v v v adj new list ipair v void graph addedg int u int v int w adj u push_back make_pair v w adj v push_back make_pair u w print shortest path src vertic void graph primmst creat prioriti queue store vertic preinmst 
+weird syntax c 
+refer link detail syntax http geeksquiz com implement min heap use stl priority_queu ipair vector ipair greater ipair pq int src 0 take vertex 0 sourc creat vector key initi key infinit inf vector int key v inf store parent array turn store mst vector int parent v 1 keep track vertic includ mst vector bool inmst v fals insert sourc prioriti queue initi key 0 pq push make_pair 0 src key src 0 loop till prioriti queue becom empti pq empti first vertex pair minimum key vertex extract prioriti queue 
+vertex label store second pair done way keep vertic sort key key must first item pair int u pq top second pq pop inmst u true includ vertex mst use get adjac vertic vertex list pair int int iter adj u begin adj u end get vertex label weight current adjac u int v first int weight second v mst weight u v smaller current key v inmst v fals key v weight updat key v key v weight pq push make_pair key v v parent v u print edg mst use parent array int 1 v printf n parent driver program test method graph class int main creat graph given fugur int v 9 graph g v make shown graph g addedg 0 1 4 g addedg 0 7 8 g addedg 1 2 8 g addedg 1 7 11 g addedg 2 3 7 g addedg 2 8 2 g addedg 2 5 4 g addedg 3 4 9 g addedg 3 5 14 g addedg 4 5 10 g addedg 5 6 2 g addedg 6 7 1 g addedg 6 8 6 g addedg 7 8 7 g primmst return 0 output 0 1 1 2 2 3 3 4 2 5 5 6 6 7 2 8 time complex e log v articl contribut shubham agraw 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

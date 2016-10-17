@@ -1,0 +1,10 @@
+given string find first non repeat charact 
+exampl input string geeksforgeek output f input string geeksquiz output g 
+use string charact index build count array 
+follow algorithm 
+1 scan string left right construct count array 
+2 scan string left right check count charact find element count 1 return 
+exampl input string str geeksforgeek 1 construct charact count array input string 
+count e 4 count f 1 count g 2 count k 2 2 get first charact count 1 f 
+implement c c c program find first non repeat charact includ stdlib h includ stdio h defin no_of_char 256 return array size 256 conta count charact pass char array int getcharcountarray char str int count int calloc sizeof int no_of_char int 0 str count str return count function return index first non repeat charact string 
+charact repeat return 1 int firstnonrep char str int count getcharcountarray str int index 1 0 str count str 1 index break free count avoid memori leak return index driver program test function int main char str geeksforgeek int index firstnonrep str index 1 printf either charact repeat string empti els printf first non repeat charact c str index getchar return 0 

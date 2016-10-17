@@ -1,0 +1,11 @@
+two link list ident data arrang data also 
+exampl link list 1 2 3 b 1 2 3 ident 
+
+write function check given two link list ident 
+method 1 iter identifi two list ident need travers list simultan travers need compar data 
+c iter c program check two link list ident includ stdio h includ stdlib h structur link list node struct node int data struct node next return true link list b ident otherwis fals bool areident struct node struct node b null b null data b data return fals reach b null data move next node list next b b next link list ident b must null point 
+return null b null util function test fun1 fun2 given refer pointer pointer head list int push new node front list 
+void push struct node head_ref int new_data alloc node struct node new_nod struct node malloc sizeof struct node put data new_nod data new_data link old list new node new_nod next head_ref move head point new node head_ref new_nod druver program test function int main construct link list 3 2 1 b 3 2 1 struct node null struct node b null push 1 push 2 push 3 push b 1 push b 2 push b 3 areident b 
+printf ident printf ident return 0 java iter java program check two link list ident class linkedlist node head head list link list node class node int data node next node int data next null return true link list b ident otherwis fals boolean areident linkedlist listb node head b listb head null b null data b data return fals reach b null data move next node list next b b next link list ident b must null point 
+return null b null util function test fun1 fun2 given refer pointer pointer head list int push new node front list 
+void push int new_data 1 2 alloc node put data node new_nod new node new_data 3 make next new node head new_nod next head 4 move head point new node head new_nod drier program test function public static void main string arg linkedlist llist1 new linkedlist linkedlist llist2 new linkedlist construct link list llist1 3 2 1 llist2 3 2 1 llist1 push 1 llist1 push 2 llist1 push 3 llist2 push 1 llist2 push 2 llist2 push 3 llist1 areident llist2 true system println ident els system println ident code contribut rajat mishra output ident 

@@ -1,0 +1,10 @@
+win three kind basketbal point 1 point 2 point 3 point 
+given total score n print combin compos n exampl n 1 program print follow 1 n 2 program print follow 1 1 2 n 3 program print follow 1 1 1 1 2 2 1 3 n 4 program print follow 1 1 1 1 1 1 2 1 2 1 1 3 2 1 1 2 2 3 1 algorithm first posit three number 1 2 3 first put 1 first posit recurs call n 1 
+put 2 first posit recurs call n 2 
+put 3 first posit recurs call n 3 
+n becom 0 form combin compos n print current combin 
+gener implement 
+implement chang max_point higher point 3 basketbal game 
+defin max_point 3 defin arr_siz 100 includ stdio h util function print array arr void printarray int arr int arr_siz function print combin number 1 2 max_point sum n use recurs keep track index arr next element ad 
+initit valu must pass 0 void printcomposit int n int array must static want keep track valu store arr use current call printcomposit function call stack static int arr arr_siz n 0 printarray arr els n 0 int k k 1 k max_point k arr k printcomposit n k 1 util function util function print array arr void printarray int arr int arr_siz int 0 arr_siz printf arr printf n driver function test function int main int n 5 printf differnt composit form 1 2 3 n n printcomposit n 0 getchar return 0 ask alo pleas write comment find bug code algorithm find way solv problem 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

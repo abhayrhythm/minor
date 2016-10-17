@@ -1,0 +1,15 @@
+given rectangular matrix two possibl valu x 
+valu x alway appear form rectangular island island alway row wise column wise separ least one line 
+note island diagon adjac 
+count number island given matrix 
+exampl mat n x x x x x x x x output number island 3 mat n x x x x x x x x x x x x x x x x x x output number island 4 strongli recommend minim browser tri first 
+idea count top leftmost corner given matrix 
+check x top left check follow condit 
+1 x top rectangl cell 2 x leftmost rectangl cell left note must check condit may one top cell one leftmost cell rectangular island 
+c implement idea 
+c program count number rectangular island everi island separ line includ iostream use namespac std size given matrix x n defin 6 defin n 3 function take matrix x return number rectangular island x two island row wise column wise adjac island may diagonali adjac int countisland int mat n int count 0 initi result travers input matrix int 0 int j 0 j n j current cell x check whether top leftmost rectangl 
+ye increment count mat j x 0 mat 1 j j 0 mat j 1 count return count driver program test function int main int mat n x x x x x x x x cout number rectangular island countisland mat return 0 output number rectangular island 3 time complex solut mn 
+articl contribut udit gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

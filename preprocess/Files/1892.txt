@@ -1,0 +1,95 @@
+
+In C++, if we need to read few sentences from a stream, the generally preferred way is to use getline() function. It can read till it encounters newline or sees a delimiter provided by user.
+Here is a sample program in c++ that reads four sentences and displays them with ” : newline” at the end
+
+// A simple C++ program to show working of getline
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+    string str;
+    int t = 4;
+    while (t--)
+    {
+        // Read a line from standard input in str
+        getline(cin, str);
+        cout << str << " : newline" << endl;
+    }
+    return 0;
+}
+
+Sample Input :
+ This
+ is
+ Geeks
+ for
+As expected output is:
+This : newline
+is  : newline
+Geeks : newline
+for : newline
+The above input and output look good, there may be problems when input has blank lines in between.
+Sample Input :
+This
+
+is 
+
+Geeks
+
+for
+Output:
+This : newline
+ : newline
+is  : newline
+ : newline
+It doesn’t print the last 2 lines. The reason is that getline() reads till enter is encountered even if no characters are read. So even if there is nothing in the third line, getline() considers it as a single line. Further observe the problem in the second line.
+The code can be modified to exclude such blank lines.
+Modified code:
+
+// A simple C++ program that uses getline to read
+// input with blank lines
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+    string str;
+    int t = 4;
+    while (t--)
+    {
+        getline(cin, str);
+
+        // Keep reading a new line while there is
+        // a blank line
+        while (str.length()==0 )
+            getline(cin, str);
+
+        cout << str << " : newline" << endl;
+    }
+    return 0;
+}
+
+Input:
+This
+
+is 
+
+Geeks
+
+for
+Output:
+This : newline
+is  : newline
+Geeks : newline
+for : newline
+This article is contributed by Sarin Nanda. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

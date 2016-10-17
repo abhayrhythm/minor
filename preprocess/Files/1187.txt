@@ -1,0 +1,109 @@
+
+Given a string, find the longest palindrome that can be constructed by removing or shuffling characters from the string. Return only one palindrome if there are multiple palindrome strings of longest length.
+Examples:
+
+Input:  abc
+Output: a OR b OR c
+
+Input:  aabbcc
+Output: abccba OR baccab OR cbaabc OR
+any other palindromic string of length 6.
+
+Input:  abbaccd
+Output: abcdcba OR ...
+
+Input:  aba
+Output: aba
+
+
+
+We can divide any palindromic string into three parts – beg, mid and end. For palindromic string of odd length say 2n + 1, ‘beg’ consists of first n characters of the string, ‘mid’ will consist of only 1 character i.e. (n + 1)th character and ‘end’ will consists of last n characters of the palindromic string. For palindromic string of even length 2n, ‘mid’ will always be empty. It should be noted that ‘end’ will be reverse of ‘beg’ in order for string to be palindrome.
+The idea is to use above observation in our solution. As shuffling of characters is allowed, order of characters doesn’t matter in the input string. We first get frequency of each character in the input string. Then all characters having even occurrence (say 2n) in the input string will be part of the output string as we can easily place n characters in ‘beg’ string and the other n characters in the ‘end’ string (by preserving the palindromic order). For characters having odd occurrence (say 2n + 1), we fill ‘mid’ with one of all such characters. and remaining 2n characters are divided in halves and added at beginning and end.
+Below is C++ implementation of above idea –
+
+// C++ program to find the longest palindrome by removing
+// or shuffling characters from the given string
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to find the longest palindrome by removing
+// or shuffling characters from the given string
+string findLongestPalindrome(string str)
+{
+    // to stores freq of characters in a string
+    int count[256] = { 0 };
+
+    // find freq of characters in the input string
+    for (int i = 0; i < str.size(); i++)
+        count[str[i]]++;
+
+    // Any palindromic string consists of three parts
+    // beg + mid + end
+    string beg = "", mid = "", end = "";
+
+    // solution assumes only lowercase characters are
+    // present in string. We can easily extend this
+    // to consider any set of characters
+    for (char ch = 'a'; ch <= 'z'; ch++)
+    {
+        // if the current character freq is odd
+        if (count[ch] & 1)
+        {
+            // mid will contain only 1 character. It
+            // will be overridden with next character
+            // with odd freq
+            mid = ch;
+
+            // decrement the character freq to make
+            // it even and consider current character
+            // again
+            count[ch--]--;
+        }
+
+        // if the current character freq is even
+        else
+        {
+            // If count is n(an even number), push
+            // n/2 characters to beg string and rest
+            // n/2 characters will form part of end
+            // string
+            for (int i = 0; i < count[ch]/2 ; i++)
+                beg.push_back(ch);
+        }
+    }
+
+    // end will be reverse of beg
+    end = beg;
+    reverse(end.begin(), end.end());
+
+    // return palindrome string
+    return beg + mid + end;
+}
+
+// Driver code
+int main()
+{
+    string str = "abbaccd";
+
+    cout << findLongestPalindrome(str);
+
+    return 0;
+}
+
+Output:
+
+abcdcba
+
+Time complexity of above solution is O(n) where n is length of the string. Since, number of characters in the alphabet is constant, they do not contribute to asymptotic analysis.
+Auxiliary space used by the program is M where M is number of ASCII characters.
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

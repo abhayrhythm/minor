@@ -1,0 +1,4 @@
+ask kapil make use recurs multipli two integ given constraint 
+multipli x recurs add x time 
+thank geek4u suggest method 
+includ stdio h function multipli two number x int multipli int x int 0 multipli anyth give 0 0 return 0 add x one one 0 return x multipli x 1 case neg 0 return multipli x int main printf n multipli 5 11 getchar return 0 time complex second argument function multipli 

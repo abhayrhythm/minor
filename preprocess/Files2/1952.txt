@@ -1,0 +1,11 @@
+find length string without use loop string h c program suppos behav follow way enter string geeksforgeek say user enter geeksforgeek enter string geeksforgeek length 13 may assum length enter string alway less 100 follow solut 
+includ stdio h int main char str 100 printf enter string printf rlength printf enter string n get str 20 return 0 output enter string geeksforgeek enter string geeksforgeek length 13 idea use return valu printf get 
+get return enere string 
+printf return number charact success written output 
+program get return enter string 
+print length use first printf 
+second printf call get print enter string use return valu get also print 20 extra charact print enter string n 
+subtract 20 return valu second printf get length 
+articl contribut umesh sharma 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

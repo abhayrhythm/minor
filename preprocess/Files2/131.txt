@@ -1,0 +1,33 @@
+given text txt 0 n 1 pattern pat 0 1 write function search char pat char txt print occurr pat txt 
+may assum n exampl 1 input txt test text pat test output pattern found index 10 2 input txt aabaacaadaabaaabaa pat aaba output pattern found index 0 pattern found index 9 pattern found index 13 pattern search import problem comput scienc 
+search string notepad word file browser databas pattern search algorithm use show search result 
+discuss follow algorithm previou post naiv algorithm kmp algorithm rabin karp algorithm finit automata base algorithm post discuss boyer moor pattern search algorithm 
+like kmp finit automata algorithm boyer moor algorithm also preprocess pattern 
+boyer moor combin follow two approach 
+1 bad charact heurist 2 good suffix heurist heurist also use independ search pattern text 
+let us first understand two independ approach work togeth boyer moor algorithm 
+take look naiv algorithm slide pattern text one one 
+kmp algorithm preprocess pattern pattern shift one 
+boyer moor algorithm preprocess reason 
+preporcess pattern creat differ array heurist 
+everi step slide pattern max slide suggest two heurist 
+use best two heurist everi step 
+unlik previou pattern search algorithm boyer moor algorithm start match last charact pattern 
+post discuss bad charact heurist discuss good suffix heurist next post 
+idea bad charact heurist simpl 
+charact text match current charact pattern call bad charact 
+whenev charact match slide pattern way align bad charact last occurr pattern 
+preprocess pattern store last occurr everi possibl charact array size equal alphabet size 
+charact present may result shift length pattern 
+therefor bad charact heurist take n time best case 
+program bad charact heurist boyer moor string match algorithm includ limit h includ string h includ stdio h defin no_of_char 256 util function get maximum two integ int max int int b return b 
+b preprocess function boyer moor bad charact heurist void badcharheurist char str int size int badchar no_of_char int initi occurr 1 0 no_of_char badchar 1 fill actual valu last occurr charact 0 size badchar int str pattern search function use bad charact heurist boyer moor algorithm void search char txt char pat int strlen pat int n strlen txt int badchar no_of_char fill bad charact array call preprocess function badcharheurist given pattern badcharheurist pat badchar int 0 shift pattern respect text n int j 1 keep reduc index j pattern charact pattern text match shift j 0 pat j txt j j pattern present current shift index j becom 1 loop j 0 printf n pattern occur shift shift pattern next charact text align last occurr pattern 
+condit n necessari case pattern occur end text n 
+badchar txt 1 els shift pattern bad charact text align last occurr pattern 
+max function use make sure get posit shift 
+may get neg shift last occurr bad charact pattern right side current charact 
+max 1 j badchar txt j driver program test funtion int main char txt abaaabcd char pat abc search txt pat return 0 output pattern occur shift 4 bad charact heurist may take mn time worst case 
+worst case occur charact text pattern 
+exampl txt aaaaaaaaaaaaaaaaaa pat aaaaa 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

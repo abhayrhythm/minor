@@ -1,0 +1,122 @@
+
+Given a string containing many consecutive spaces, trim all spaces so that all words should contain only a single space between them. The conversion should be done in-place and solution should handle trailing and leading spaces and also remove preceding spaces before common punctuation like full stop, comma and a question mark.
+Examples:
+
+Input: 
+str = "   Hello Geeks . Welcome   to  GeeksforGeeks   .    ";
+Output: 
+"Hello Geeks. Welcome to GeeksforGeeks."
+
+Input: 
+str = "GeeksforGeeks";
+Output: 
+"GeeksforGeeks"
+(No change is needed)
+
+This problem is an extension of Remove spaces from a given string
+
+
+The idea is to maintain 2 pointers. Initially both point to the beginning of the array. 
+The first pointer keeps track of next position to be filled in output string.
+The second pointer is advanced to read all characters of the string one by one. 
+On finding any non-space character, the character is copied to the location of the first pointer and then both the first and second pointers are advanced.
+If non-space character is full stop, comma or a question mark, we also remove any preceding space before it. 
+On finding consecutive space characters, one only space is copied to the location of the first pointer and rest are ignored. The leading and trailing spaces are handled separately in the solution.
+Below is C++ implementation of above idea.
+
+// C++ program to implement custom trim() function
+#include <iostream>
+using namespace std;
+
+// Function to in-place trim all spaces in the
+// string such that all words should contain only
+// a single space between them.
+void removeSpaces(string &str)
+{
+    // n is length of the original string
+    int n = str.length();
+
+    // i points to next postion to be filled in
+    // output string/ j points to next character
+    // in the original string
+    int i = 0, j = -1;
+
+    // flag that sets to true is space is found
+    bool spaceFound = false;
+
+    // Handles leading spaces
+    while (++j < n && str[j] == ' ');
+
+    // read all characters of original string
+    while (j < n)
+    {
+        // if current characters is non-space
+        if (str[j] != ' ')
+        {
+            // remove preceding spaces before dot,
+            // comma & question mark
+            if ((str[j] == '.' || str[j] == ',' ||
+                 str[j] == '?') && i - 1 >= 0 &&
+                 str[i - 1] == ' ')
+                str[i - 1] = str[j++];
+
+            else
+                // copy current character at index i
+                // and increment both i and j
+                str[i++] = str[j++];
+
+            // set space flag to false when any
+            // non-space character is found
+            spaceFound = false;
+        }
+        // if current character is a space
+        else if (str[j++] == ' ')
+        {
+            // If space is encountered for the first
+            // time after a word, put one space in the
+            // output and set space flag to true
+            if (!spaceFound)
+            {
+                str[i++] = ' ';
+                spaceFound = true;
+            }
+        }
+    }
+
+    // Remove trailing spaces
+    if (i <= 1)
+        str.erase(str.begin() + i, str.end());
+    else
+        str.erase(str.begin() + i - 1, str.end());
+}
+
+// Driver Code
+int main()
+{
+    string str = "   Hello Geeks . Welcome   to"
+                 "  GeeksforGeeks   .    ";
+
+    removeSpaces(str);
+
+    cout << str;
+
+    return 0;
+}
+
+Output:
+
+Hello Geeks. Welcome to GeeksforGeeks.
+
+Time complexity of above solution is O(n).
+Auxiliary Space is O(1) as the conversion is done in-place.
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,8 @@
+predict output follow c program 
+includ stdio h defin r 4 defin c 4 void modifymatrix int mat c mat mat 1 1 100 mat mat 1 1 200 void printmatrix int mat c int j 0 r j 0 j c j printf 3d mat j printf n int main int mat r c 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 printf origin matrix n printmatrix mat modifymatrix mat printf matrix modif n printmatrix mat return 0 output program compil fine produc follow output origin matrix 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 matrix modif 1 2 3 4 5 6 7 8 9 100 11 12 13 200 15 16 first look line mat modifymatrix seem invalid 
+valid c line array paramet alway pointer see detail 
+modifymatrix mat pointer point block size c sizeof int 
+follow function prototyp void modifymatrix int mat c void modifymatrix int mat c mat mat start point next row mat 1 1 start refer valu 10 mat 1 1 valu 10 chang 100 statement mat 1 1 100 
+mat increment mat 1 1 valu 14 chang 200 next coupl statement modifymatrix 
+line mat 1 1 100 valid pointer arithmet array index equival c side note mat main mat 2 array main pointer 
+pleas write comment find answer explan incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

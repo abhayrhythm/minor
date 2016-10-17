@@ -1,0 +1,34 @@
+given matrix everi row sort increas order 
+write function find return common element row 
+common element return 1 exampl input mat 4 5 1 2 3 4 5 2 4 5 8 10 3 5 7 9 11 1 3 5 7 9 output 5 n n simpl solut take everi element first row search row till find common element 
+time complex solut n n number row n number column given matrix 
+improv n logn use binari search instead linear search 
+solv problem mn time use approach similar merg merg sort 
+idea start last column everi row 
+element last column found common element 
+otherwis find minimum last column 
+find minimum element know element last column cannot common element reduc last column index row except row minimum valu 
+keep repeat step till either element current last column becom last column index reach 0 c implement idea 
+c program find common element row row wise sort array includ stdio h specifi number row column defin 4 defin n 5 return common element row mat n 
+common element 1 return int findcommon int mat n array store index current last column int column int min_row store index row whose current last element minimum initi current last element row int 0 column n 1 min_row 0 initi min_row first row keep find min_row current last column till either element last column becom hit first column 
+column min_row 0 find minimum current last column 0 mat column mat min_row column min_row min_row eq_count count element equal minimum current last column 
+int eq_count 0 traver current last column element updat 0 decreas last column index row whose valu minimum 
+mat column mat min_row column min_row column 0 return 1 column 1 reduc last column index 1 els eq_count equal count becom return valu eq_count return mat min_row column min_row return 1 driver program test function int main int mat n 1 2 3 4 5 2 4 5 8 10 3 5 7 9 11 1 3 5 7 9 int result findcommon mat result 1 printf common element els printf common element result return 0 output common element 5 explan work code let us understand work code follow exampl 
+initi entri last column array n 1 e 4 4 4 4 1 2 3 4 5 2 4 5 8 10 3 5 7 9 11 1 3 5 7 9 valu min_row 0 valu last column index row valu greater 5 reduc one 
+column becom 4 3 3 3 
+1 2 3 4 5 2 4 5 8 10 3 5 7 9 11 1 3 5 7 9 valu min_row remain 0 valu last column index row valu greater 5 reduc one 
+column becom 4 2 2 2 
+1 2 3 4 5 2 4 5 8 10 3 5 7 9 11 1 3 5 7 9 valu min_row remain 0 valu last column index row valu greater 5 reduc one 
+colomun becom 4 2 1 2 
+1 2 3 4 5 2 4 5 8 10 3 5 7 9 11 1 3 5 7 9 valu current last column row 5 return 
+hash base solut also use hash 
+solut work even row sort 
+use print common element 
+step1 creat hash tabl key distinct element row1 
+valu 0 step2 1 1 j 0 n 1 mat j alreadi present hash tabl repetit current row 
+check compar hashtabl valu row number updat valu key hashtabl current row number step3 iter hashtabl print key valu time complex hash base solut mn assumpt search insert hashtabl take 1 time 
+thank nishant suggest solut comment 
+exercis given n sort array size find common element array mn time 
+articl contribut anand agraw 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

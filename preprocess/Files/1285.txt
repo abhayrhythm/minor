@@ -1,0 +1,109 @@
+
+Given a N x N binary matrix (elements in matrix can be either 1 or 0) where each row and column of the matrix is sorted in ascending order, count number of 0s present in it.
+Expected time complexity is O(N).
+Examples:
+
+Input: 
+[0, 0, 0, 0, 1]
+[0, 0, 0, 1, 1]
+[0, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
+
+Output: 8
+
+
+Input: 
+[0, 0]
+[0, 0]
+
+Output: 4
+
+
+Input: 
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+
+Output: 0
+
+
+
+The idea is very simple. We start from the bottom-left corner of the matrix and repeat below steps until we find the top or right edge of the matrix.
+1. Decrement row index until we find a 0.
+2. Add number of 0s in current column i.e. current row index + 1 to the result and move right to next column (Increment col index by 1).
+The above logic will work since the matrix is row-wise and column-wise sorted. The logic will also work for any matrix containing non-negative integers.
+Below is its C++ implementation –
+// C++ program to count number of 0s in the given
+// row-wise and column-wise sorted binary matrix.
+#include <iostream>
+using namespace std;
+// define size of square matrix
+#define N 5
+
+// Function to count number of 0s in the given
+// row-wise and column-wise sorted binary matrix.
+int countZeroes(int mat[N][N])
+{
+    // start from bottom-left corner of the matrix
+    int row = N - 1, col = 0;
+
+    // stores number of zeroes in the matrix
+    int count = 0;
+
+    while (col < N)
+    {
+        // move up until you find a 0
+        while (mat[row][col])
+
+            // if zero is not found in current column,
+            // we are done
+            if (--row < 0)
+                return count;
+
+        // add 0s present in current column to result
+        count += (row + 1);
+
+        // move right to next column
+        col++;
+    }
+
+    return count;
+}
+
+// Driver Program to test above functions
+int main()
+{
+    int mat[N][N] =
+    {
+        { 0, 0, 0, 0, 1 },
+        { 0, 0, 0, 1, 1 },
+        { 0, 1, 1, 1, 1 },
+        { 1, 1, 1, 1, 1 },
+        { 1, 1, 1, 1, 1 }
+    };
+
+    cout << countZeroes(mat);
+
+    return 0;
+}
+
+Output:
+
+8
+
+Time complexity of above solution is O(n) since the solution follows single path from bottom-left corner to top or right edge of the matrix.
+Auxiliary space used by the program is O(1).
+Do share with us if you find more interesting methods of solving this problem.
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

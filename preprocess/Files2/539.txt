@@ -1,0 +1,42 @@
+worst case time complex binari search tree bst oper like search delet insert n 
+worst case occur tree skew 
+get worst case time complex logn avl red black tree 
+better avl red black tree practic situat 
+like avl red black tree splay tree also self balanc bst 
+main idea splay tree bring recent access item root tree make recent search item access 1 time access 
+idea use local refer typic applic 80 access 20 item 
+imagin situat million billion key access frequent like mani practic applic 
+splay tree oper run log n time averag n number entri tree 
+singl oper take theta n time worst case 
+search oper search oper splay tree standard bst search addit search also splay move node root 
+search success node found splay becom new root 
+els last node access prior reach null splay becom new root 
+follow case node access 
+1 node root simpli return root anyth els access node alreadi root 
+2 zig node child root node grandpar 
+node either left child root right rotat node right child parent left rotat 
+t1 t2 t3 subtre tree root left side x right side x zig right rotat x t3 t1 t1 t2 zag left rotat t2 t3 3 node parent grandpar 
+follow subcas 
+3 zig zig zag zag node left child parent parent also left child grand parent two right rotat node right child parent parent also right child grand parent two left rotat 
+zig zig left left case g p x p t4 rightrot g x g rightrot p t1 p x t3 t1 t2 t3 t4 t2 g t1 t2 t3 t4 zag zag right right case g p x t1 p leftrot g g x leftrot p p t4 t2 x t1 t2 t3 t4 g t3 t3 t4 t1 t2 3 b zig zag zag zig node left child parent parent right child grand parent left rotat follow right rotat node right child parent parent left child grand parent right rotat follow left rotat 
+zig zag left right case g g x p t4 leftrot p x t4 rightrot g p g t1 x p t3 t1 t2 t3 t4 t2 t3 t1 t2 zag zig right left case g g x t1 p rightrot p t1 x leftrot p g p x t4 t2 p t1 t2 t3 t4 t2 t3 t3 t4 exampl 100 100 20 50 200 50 200 50 search 20 search 20 40 20 30 100 1 zig zig 2 zig zig 30 40 30 100 40 200 20 40 import thing note search splay oper bring search key root also balanc bst 
+exampl case height bst reduc 1 implement code adopt http goo gl sdh9hh includ stdio h includ stdlib h avl tree node struct node int key struct node left right helper function alloc new node given key null left right pointer 
+struct node newnod int key struct node node struct node malloc sizeof struct node node key key node left node right null return node util function right rotat subtre root see diagram given 
+struct node rightrot struct node x struct node x left x left right right x return util function left rotat subtre root x see diagram given 
+struct node leftrot struct node x struct node x right x right left left x return function bring key root key present tree 
+key present bring last access item root 
+function modifi tree return new root struct node splay struct node root int key base case root null key present root root null root key key return root key lie left subtre root key key key tree done root left null return root zig zig left left root left key key first recurs bring key root left left root left left splay root left left key first rotat root second rotat done els root rightrot root els root left key key zig zag left right first recurs bring key root left right root left right splay root left right key first rotat root left root left right null root left leftrot root left second rotat root return root left null 
+root rightrot root els key lie right subtre key tree done root right null return root zag zig right left root right key key bring key root right left root right left splay root right left key first rotat root right root right left null root right rightrot root right els root right key key zag zag right right bring key root right right first rotat root right right splay root right right key root leftrot root second rotat root return root right null 
+root leftrot root search function splay tree 
+note function return new root splay tree 
+key present tree move root 
+struct node search struct node root int key return splay root key util function print preorder travers tree 
+function also print height everi node void preorder struct node root root null printf root key preorder root left preorder root right drier program test function int main struct node root newnod 100 root left newnod 50 root right newnod 200 root left left newnod 40 root left left left newnod 30 root left left left left newnod 20 root search root 20 printf preorder travers modifi splay tree n preorder root return 0 output preorder travers modifi splay tree 20 50 30 40 100 200 summari 1 splay tree excel local properti 
+frequent access item easi find 
+infrequ item way 
+2 splay tree oper take logn time averag 
+splay tree rigor shown run log n averag time per oper sequenc oper assum start empti tree 3 splay tree simpler compar avl red black tree extra field requir everi tree node 
+4 unlik avl tree splay tree chang even read oper like search 
+applic splay tree splay tree becom wide use basic data structur invent last 30 year fastest type balanc search tree mani applic 
+splay tree use window nt virtual memori network file system code gcc compil gnu c librari sed string editor fore system network router popular implement unix malloc linux loadabl kernel modul much softwar sourc http www cs berkeley edu jr 61b lec 36 see splay tree set 2 insert splay tree insert 
+refer http www cs berkeley edu jr 61b lec 36 http www cs cornel edu cours cs3110 2009fa recit rec splay html http cours cs washington edu cours cse326 01au lectur splaytre ppt pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

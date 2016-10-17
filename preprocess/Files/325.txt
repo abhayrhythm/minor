@@ -1,0 +1,62 @@
+
+What is a Randomized Algorithm?
+An algorithm that uses random numbers to decide what to do next anywhere in its logic is called Randomized Algorithm..  For example, in Randomized Quick Sort, we use random number to pick the next pivot (or we randomly shuffle the array). And in Karger’s algorithm, we randomly pick an edge.
+How to analyse Randomized Algorithms?
+Some randomized algorithms have deterministic time complexity.  For example, this implementation of Karger’s algorithm has time complexity as O(E). Such algorithms are called Monte Carlo Algorithms and are easier to analyse for worst case.
+On the other hand, time complexity of other randomized algorithms (other than Las Vegas) is dependent on value of random variable. Such Randomized algorithms are called Las Vegas Algorithms. These algorithms are typically analysed for expected worst case. To compute expected time taken in worst case, all possible values of the used random variable needs to be considered in worst case and time taken by every possible value needs to be evaluated. Average of all evaluated times is the expected worst case time complexity. Below facts are generally helpful in analysis os such algorithms.
+Linearity of Expectation
+Expected Number of Trials until Success.
+For example consider below a randomized version of QuickSort. 
+A Central Pivot is a pivot that divides the array in such a way that one side has at-least 1/4 elements.
+
+// Sorts an array arr[low..high]
+randQuickSort(arr[], low, high)
+
+1. If low >= high, then EXIT.
+
+2. While pivot 'x' is not a Central Pivot.
+  (i)   Choose uniformly at random a number from [low..high]. 
+        Let the randomly picked number number be x.
+  (ii)  Count elements in arr[low..high] that are smaller 
+        than arr[x]. Let this count be sc.
+  (iii) Count elements in arr[low..high] that are greater 
+        than arr[x]. Let this count be gc.
+  (iv)  Let n = (high-low+1). If sc >= n/4 and
+        gc >= n/4, then x is a central pivot.
+
+3. Partition arr[low..high] around the pivot x.
+
+4. // Recur for smaller elements
+   randQuickSort(arr, low, sc-1) 
+
+5. // Recur for greater elements
+   randQuickSort(arr, high-gc+1, high) 
+The important thing in our analysis is, time taken by step 2 is O(n). 
+How many times while loop  runs before finding a central pivot?
+The probability that the randomly chosen element is central pivot is 1/2.
+Therefore, expected number of times the while loop runs is 2 (See this for details)
+Thus, the expected time complexity of step 2 is O(n).
+What is overall Time Complexity in Worst Case?
+In worst case, each partition divides array such that one side has n/4 elements and other side has 3n/4 elements.  The worst case height of recursion tree is Log 3/4 n which is O(Log n).
+
+
+T(n) < T(n/4) + T(3n/4) + O(n)
+T(n) < 2T(3n/4) + O(n)
+
+Solution of above recurrence is O(n Log n) 
+Note that the above randomized algorithm is not the best way to implement randomized Quick Sort.  The idea here is to simplify the analysis as it is simple to analyse.
+Typically, randomized Quick Sort is implemented by randomly picking a pivot (no loop).  Or by shuffling array elements.  Expected worst case time complexity of this algorithm is also O(n Log n), but analysis is complex, the MIT prof himself mentions same in his lecture here.  
+Randomized Algorithms | Set 2 (Classification and Applications)
+
+References:
+http://www.tcs.tifr.res.in/~workshop/nitrkl_igga/randomized-lecture.pdf
+This article is contributed by Ashish Sharma. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

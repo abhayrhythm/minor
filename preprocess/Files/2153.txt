@@ -1,0 +1,91 @@
+
+Given a number, check whether it is even or odd.
+Examples:
+
+input: 2 
+output: even
+
+input: 5
+output: odd
+
+
+One simple solution is to find remainder after dividing by 2.
+
+// A simple C++ program to check for
+// even or odd
+#include <iostream>
+using namespace std;
+
+// Returns true if n is even, else odd
+bool isEven(int n)
+{
+   return (n%2 == 0);
+}
+
+// Driver code
+int main()
+{  
+   int n = 101;
+   isEven(n)? cout << "Even" : cout << "Odd";
+  
+   return 0;
+} 
+
+
+Odd
+
+A better solution is to use bitwise operators.  We need to check whether last bit is 1 or not.  If last bit is 1 then number is odd, otherwise always even.
+Explanation:
+
+ input : 5    // odd
+   00000101              
+ & 00000001                
+--------------                
+   00000001       
+--------------
+
+input : 8     //even
+   00001000              
+ & 00000001                 
+--------------               
+   00000000        
+--------------
+
+Below is C++ implementation of the idea.
+
+// A simple C++ program to check for
+// even or odd
+#include <iostream>
+using namespace std;
+
+// Returns true if n is even, else odd
+bool isEven(int n)
+{
+   // n&1 is 1, then odd, else even
+   return (!(n&1));
+}
+
+// Driver code
+int main()
+{  
+   int n = 101;
+   isEven(n)? cout << "Even" : cout << "Odd";
+  
+   return 0;
+} 
+
+Output:
+
+Odd
+
+This article is contributed by Prabhat Raushan. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

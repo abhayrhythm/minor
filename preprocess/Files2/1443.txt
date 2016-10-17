@@ -1,0 +1,38 @@
+given set time interv order merg overlap interv one output result mutual exclus interv 
+let interv repres pair integ simplic 
+exampl let given set interv 1 3 2 4 5 7 6 8 
+interv 1 3 2 4 overlap merg becom 1 4 
+similarli 5 7 6 8 merg becom 5 8 strongli recommend click practic move solut 
+write function produc set merg interv given set interv 
+simpl approach start first interv compar interv overlap overlap interv remov interv list merg first interv 
+repeat step remain interv first 
+approach cannot implement better n 2 time 
+effici approach first sort interv accord start time 
+sort interv combin interv linear travers 
+idea sort array interv interv overlap interv 1 interv 1 cannot overlap interv 1 start time interv 1 must greater equal interv 
+follow detail step step algorithm 
+1 sort interv base increas order start time 
+2 push first interv stack 
+3 interv follow current interv overlap stack top push 
+b current interv overlap stack top end time current interv stack top updat stack top end time current interv 
+4 end stack contain merg interv 
+c implement approach 
+c program merg overlap interv includ bit stdc h use namespac std interv start time end time struct interv int start end compar two interv accord stare time 
+need sort interv use librari function std sort 
+see http goo gl igspv bool compareinterv interv i1 interv i2 return i1 start i2 start main function take set interv merg overlap interv print result void mergeinterv interv arr int n test given set least one interv n 0 return creat empti stack interv stack interv sort interv increas order start time sort arr arr n compareinterv push first interv stack push arr 0 start next interv merg necessari int 1 n get interv stack top interv top top current interv overlap stack top push stack top end arr start push arr otherwis updat end time top end current interv els top end arr end top end arr end pop push top print content stack cout n merg interv empti interv top cout start end pop return driver program int main interv arr 6 8 1 9 2 4 4 7 int n sizeof arr sizeof arr 0 mergeinterv arr n return 0 output merg interv 1 9 time complex method nlogn sort 
+array interv sort merg take linear time 
+n log n 1 extra space solut solut requir n extra space stack 
+avoid use extra space merg oper place 
+detail step 
+1 sort interv decreas order start time 
+2 travers sort interv start first interv follow everi interv 
+current interv first interv overlap previou interv merg previou interv 
+keep interv overlap previou one 
+b els add current interv output list interv 
+note interv sort decreas order start time quickli check interv overlap compar start time previou interv end time current interv 
+c implement algorithm 
+c program merg overlap interv n log n time 1 extra space 
+includ bit stdc h use namespac std interv struct interv int e function use sort bool mycomp interv interv b return b void mergeinterv interv arr int n sort interv decreas order start time sort arr arr n mycomp int index 0 store index last element output array modifi arr travers input interv int 0 n first interv overlap previou one index 0 arr index 1 arr e index 0 arr index 1 arr e merg previou current interv arr index 1 e max arr index 1 e arr e arr index 1 min arr index 1 arr index els overlap previou add solut arr index arr index arr 0 index 1 store merg interv cout n merg interv int 0 index cout arr arr e driver program int main interv arr 6 8 1 9 2 4 4 7 int n sizeof arr sizeof arr 0 mergeinterv arr n return 0 output merg interv 1 9 thank gaurav ahirwar suggest method 
+articl compil ravi chandra enaganti 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

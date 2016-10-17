@@ -1,0 +1,28 @@
+round 1 written round three question 
+q1 find peak element 
+http www geeksforgeek org find peak given array q2 top view binari tree 
+http www geeksforgeek org print node top view binari tree q3 maximum differ node ancestor binari tree 
+http www geeksforgeek org maximum differ node ancestor binari tree round 2 f2f q1 given array distinct integ find two pair b c b c b c distinct element 
+multipl answer print 
+expect complex n2 ex 3 4 7 1 2 9 8 output 3 8 4 7 q2 lowest common ancestor binari tree http www geeksforgeek org lowest common ancestor binari tree set 1 question need proper work code cover everi edg case 
+round 3 f2f q1 design media player want store song play random order data structur use store song 
+b select next song play way prevent song play consecut turn 
+spend time final came work solut 
+q2 clone binari tree random pointer 
+http www geeksforgeek org clone binari tree random pointer hint use hashmap round 4 telephon q1 tell 
+current compani role respons 
+reason leav current compani 
+q2 maximum triangl path sum start top pyramid number like walk go one step right left reach bottom row one walk 55 94 30 26 comput total number seen walk case 205 problem find maximum total among possibl path top bottom row triangl 
+littl exampl 321 q3 design process control block pcb 
+q4 give exampl project work well 
+q5 thing supervisor disagre 
+round 5 telephon q1 tell 
+current compani role respons 
+q2 ask challeng face current compani 
+ever boss like get along 
+q3 check balanc parenthes express 
+http www geeksforgeek org check balanc parenthes express ask write code well collabedit site 
+q4 move zero end array 
+http www geeksforgeek org move zero end array like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

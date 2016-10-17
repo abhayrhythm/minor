@@ -1,0 +1,8 @@
+given singli link list 0s 1s find decim equival 
+input 0 0 0 1 1 0 0 1 0 output 50 input 1 0 0 output 4 decim valu empti link list consid 0 initi result 0 travers link list node multipli result 2 add node data 
+c program find decim valu binari link list includ iostream use namespac std link list node struct node bool data struct node next return decim valu binari link list int decimalvalu struct node head initi result int re 0 travers link list head null multipli result 2 add head data re re 1 head data move next head head next return re util function creat new node 
+node newnod bool data struct node temp new node temp data data temp next null return temp drier program test function int main start empti list struct node head newnod 1 head next newnod 0 head next next newnod 1 head next next next newnod 1 cout decim valu decimalvalu head return 0 output decim valu 11 articl contribut shivam gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

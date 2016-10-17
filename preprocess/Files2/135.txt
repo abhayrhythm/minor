@@ -1,0 +1,17 @@
+given input text array k word arr find occurr word input text 
+let n length text total number charact word e 
+length arr 0 length arr 1 n length arr k 1 
+k total number input word 
+exampl input text ahish arr output word appear 1 3 word appear 4 5 word appear 3 5 word appear 4 7 use linear time search algorithm like kmp need one one search word text 
+give us total time complex n length word 0 n length word 1 n length word 2 n length word k 1 
+time complex written n k 
+aho corasick algorithm find word n z time z total number occurr word text 
+aho corasick string match algorithm form basi origin unix command fgrep 
+prepocess build automaton word arr automaton mainli three function go function simpli follow edg trie word arr 
+repres 2d array g store next state current state charact 
+failur function store edg follow current charact edg trie 
+repres 1d array f store next state current state 
+output store index word end current state 
+repres 1d array store index match word bitmap current state 
+match travers given text built automaton find match word 
+preprocess first build trie keyword tree word 

@@ -1,0 +1,16 @@
+given sort array number x find pair array whose sum closest x exampl input arr 10 22 28 29 30 40 x 54 output 22 30 input arr 1 3 4 7 10 x 15 output 4 10 simpl solut consid everi pair keep track closest pair absolut differ pair sum x minimum 
+final print closest pair 
+time complex solut n2 effici solut find pair n time 
+idea similar method 2 post 
+follow detail algorithm 
+1 initi variabl diff infinit diff use store differ pair x 
+need find minimum diff 
+2 initi two index variabl l r given sort array 
+initi first leftmost index l 0 b initi second rightmost index r n 1 3 loop l r ab arr l arr r sum diff updat diff result b els arr l arr r sum l c els r follow c implement algorithm 
+c simpl c program find pair sum closest given 
+includ iostream includ climit includ cstdlib use namespac std print pair sum closest x void printclosest int arr int n int x int res_l res_r store index result pair initi left right index differ pair sum x int l 0 r n 1 diff int_max element l r r l check pair closer closest pair far ab arr l arr r x diff res_l l res_r r diff ab arr l arr r x pair sum move smaller valu 
+arr l arr r x r els move larger valu l cout closest pair arr res_l arr res_r driver program test function int main int arr 10 22 28 29 30 40 x 54 int n sizeof arr sizeof arr 0 printclosest arr n x return 0 java java program find pair sum closest x import java io 
+import java util 
+import java lang math class closesum print pair sum cloest x static void printclosest int arr int n int x int res_l 0 res_r 0 store index result pair initi left right index differ pair sum x int l 0 r n 1 diff integ max_valu element l r r l check pair closer closest pair far math ab arr l arr r x diff res_l l res_r r diff math ab arr l arr r x pair sum move smaller valu 
+arr l arr r x r els move larger valu l system println closest pair arr res_l arr res_r driver program test function public static void main string arg int arr 10 22 28 29 30 40 x 54 int n arr length printclosest arr n x code contribut devesh agraw output closest pair 22 30 articl contribut harsh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

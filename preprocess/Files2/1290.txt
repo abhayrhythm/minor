@@ -1,0 +1,20 @@
+given squar matrix turn 90 degre anti clockwis direct without use extra space 
+exampl input 1 2 3 4 5 6 7 8 9 output 3 6 9 2 5 8 1 4 7 input 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 output 4 8 12 16 3 7 11 15 2 6 10 14 1 5 9 13 strongli recommend minim browser tri first 
+approach requir extra space alreadi discuss 
+without extra space 
+import observ 
+first row sourc first column destin element fill opposit order second row sourc second column destin element fill opposit order last row sourc last column destin element fill opposit order 
+n x n matrix floor n 2 squar cycl 
+exampl 4 x 4 matrix 2 cycl 
+first cycl form 1st row last column last row 1st column 
+second cycl form 2nd row second last column second last row 2nd column 
+idea squar cycl swap element involv correspond cell matrix anti clockwis direct e 
+top left left bottom bottom right right top one time 
+use noth temporari variabl achiev 
+step demonstr idea first cycl involv red element 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 move first group four element first element 1st row last row 1st column last column first cycl counter clockwis 
+4 2 3 16 5 6 7 8 9 10 11 12 1 14 15 13 move next group four element first cycl counter clockwis 4 8 3 16 5 6 7 15 2 10 11 12 1 14 9 13 move final group four element first cycl counter clockwis 4 8 12 16 3 6 7 15 2 10 11 14 1 5 9 13 second cycl involv blue element 4 8 12 16 3 6 7 15 2 10 11 14 1 5 9 13 fix second cycl 4 8 12 16 3 7 11 15 2 6 10 14 1 5 9 13 c implement idea 
+c program rotat matrix 90 degre includ bit stdc h defin n 4 use namespac std void displaymatrix int mat n n inplac function rotat n x n matrix 90 degre anti clockwis direct void rotatematrix int mat n consid squar one one int x 0 x n 2 x consid element group 4 current squar int x n x 1 store current cell temp variabl int temp mat x move valu right top mat x mat n 1 x move valu bottom right mat n 1 x mat n 1 x n 1 move valu left bottom mat n 1 x n 1 mat n 1 x assign temp left mat n 1 x temp function print matrix void displaymatrix int mat n n int 0 n int j 0 j n j printf 2d mat j printf n printf n driver program test function int main test case 1 int mat n n 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 tese case 2 int mat n n 1 2 3 4 5 6 7 8 9 tese case 3 int mat n n 1 2 4 5 displaymatrix mat rotatematrix mat print rotat matrix displaymatrix mat return 0 output rotat matrix 4 8 12 16 3 7 11 15 2 6 10 14 1 5 9 13 exercis turn 2d matrix 90 degre clockwis direct without use extra space 
+relat qa topic http qa geeksforgeek org 4493 rotat matrix inplac articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

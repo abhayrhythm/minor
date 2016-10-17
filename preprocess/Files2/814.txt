@@ -1,0 +1,14 @@
+introduct random number comput scienc use cryptographi simul sampl design game 
+past need random increas 
+develop seek random 
+project base gener random number use simpl program local system 
+featur sourc random avail person comput like laptop includ surround light scene surround sound nois tcp inform network rtt specif network depend congest network system time schedul delay core multicor project aim extract random factor gener random number 
+method end give list differ number number reduc manag form use hash function like cwchash pjwhash sha1 hash 
+also method take time use process iter time take process henc project use gener true random seed use algorithm known blum blum shub gener seri random number 
+blum blum shub need two larg prime number execut 
+two prime number gener randomli choos random number run seri fermat primal test 
+take random 50 digit number run fermat test 10 time differ 40 digit number implement http github com adeepkit01 rng softwar tool though whole project implement python github repo use differ languag python java c base strength 
+implement need python librari pyaudio wave cv2 numpi idea contribut ankit deepak 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

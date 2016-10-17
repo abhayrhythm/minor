@@ -1,0 +1,175 @@
+
+
+numeric header in C++ STL | Set 1
+adjacent_difference
+This functions assigns the difference between the corresponding elements of an array to another array. It returns the adjacent difference of all the set of values lying between [ First, last ). 
+For Example: If a[] represents an element in provided range [first, last) and b[] represents the result.
+
+b[0] = a[1] 
+b[1] = a[1] – a[0] 
+b[2] = a[2] – a[1] 
+b[3] = a[3] – a[2] 
+b[4] = a[4] – a[3] 
+... ... ...
+
+Syntax:
+
+adjacent_difference(first, last, b);
+adjacent_difference(first, last, b, myfun );
+adjacent_difference(first, last, b, multiplies() ) ;
+
+first, last : address of first and last element of range whose elements are to be added
+b:index of array where  corresponding partial sum will be stored;
+myfun : a user defined function for performing any specific task
+multiplies():a pre defined function.
+
+
+#include <iostream> 
+#include <functional> // for multiplies function
+#include <numeric>	 //for adjacent_difference
+
+using namespace std;
+
+int myfun (int x, int y) 
+{
+	return x+y;
+}
+
+int main () 
+{
+	int a[] = { 1, 2, 3, 4, 5, 6} ;
+	int b[6];
+	
+	// using adjacent_difference function
+	adjacent_difference (a, a+6, b);
+	cout << "\nResult using adjacent_difference: ";
+	for (int i=0; i<6; i++) 
+		std::cout << b[i] << ' ' ;	 
+	
+	// using adjacent_difference function
+	// user defined function	
+	adjacent_difference (a, a+6, b, myfun);
+	cout << "\nResult using accumulate with user-"
+	         "defined function: ";
+	for (int i=0; i<6; i++) 
+		std::cout << b[i] << ' ';
+	
+	// using adjacent_difference with pre-defined function
+	adjacent_difference (a, a+6, b, multiplies<int>() ) ;
+	
+	cout << "\nResult using accumulate with pre-defined function: " ;
+	for (int i=0; i<6; i++) 
+		std::cout << b[i] << ' ';
+	
+	return 0;
+}
+
+Output:
+
+Result using adjacent_difference: 1 1 1 1 1 1 
+Result using accumulate with user-defined function: 1 3 5 7 9 11 
+Result using accumulate with pre-defined function: 1 2 6 12 20 30 
+
+inner_product
+This function returns the result of addition of var with the inner products of the pairs formed by the elements of two ranges starting at first1 and first2.
+Syntax:
+
+inner_product(first, last, b, var) ;
+inner_product(a, a+3, b, var, fun, fun1) ;
+inner_product(a , a+3, b, init, minus (), divides () );
+
+first, last : address of first and last element of range whose elements are to be added
+b: index of array where  corresponding partial sum will be stored;
+fun, fun1: a user defined function for performing any specific task
+minus(), divides()  : pre defined function.
+
+
+#include <iostream>	 
+#include <functional> // for subtraction, std::divides
+#include <numeric>	 // for inner_product
+
+using namespace std;
+
+int fun (int x, int y) 
+{
+    return x-y;
+}
+
+int fun1 (int x, int y) 
+{
+    return x+y;
+}
+
+int main () 
+{
+    int var = 200;
+    int a[] = { 10, 15, 20} ;
+    int b[] = { 1, 3, 5} ;
+    
+    cout << "\nResult using inner_product " ;    
+
+    // inner_product with default method
+    cout << inner_product(a, a+3, b, var ) ;
+    
+    // inner_product with pre-defined function
+    cout << "\nResult using inner_product with pre-defined function: ";
+    cout << inner_product(a, a+3, b, var, minus<int>(), divides<int>());
+    
+    // inner_product with user defined function
+    cout << "\nResult using inner_product with user-defined function: ";
+    cout << inner_product(a, a+3, b, var, fun, fun1);
+
+    return 0;
+}
+
+
+Output:
+
+Result using inner_product 355
+Result using inner_product with pre-defined function: 181
+Result using inner_product with user-defined function: 146
+
+iota
+This function assigns a value to the elements in the range [first,last ) of the array which is incremented at each step by val++ .
+Syntax  –
+
+iota(first, last,val) ;
+
+first, last : address of first and last element of range whose elements are to be added
+val: initial value to store, the expression ++value must be well-formed
+
+
+#include <iostream> 
+#include <iostream> 
+#include <numeric>	 // std::iota
+using namespace std;
+
+int main ( )
+{
+    int a[7];
+    
+    //using iota function to store 100, 101, 102,...    
+    iota(a, a+7,100);
+    cout << " a : " ;
+    for (int& x: a) 
+        cout << ' ' << x;
+    
+    return 0;
+}
+
+
+Output :
+
+a: 100 101 102 103 104 105 106 
+
+This article is contributed by Abhinav Tiwari . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

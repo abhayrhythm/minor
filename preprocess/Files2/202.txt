@@ -1,0 +1,7 @@
+tower hanoi mathemat puzzl three rod n disk 
+object puzzl move entir stack anoth rod obey follow simpl rule 1 one disk move time 
+2 move consist take upper disk one stack place top anoth stack e 
+disk move uppermost disk stack 
+3 disk may place top smaller disk 
+includ stdio h c recurs function solv tower hanoi puzzl void towerofhanoi int n char fromrod char torod char auxrod n 1 printf n move disk 1 rod c rod c fromrod torod return towerofhanoi n 1 fromrod auxrod torod printf n move disk rod c rod c n fromrod torod towerofhanoi n 1 auxrod torod fromrod int main int n 4 number disk towerofhanoi n c b b c name rod return 0 output move disk 1 rod rod b move disk 2 rod rod c move disk 1 rod b rod c move disk 3 rod rod b move disk 1 rod c rod move disk 2 rod c rod b move disk 1 rod rod b move disk 4 rod rod c move disk 1 rod b rod c move disk 2 rod b rod move disk 1 rod c rod move disk 3 rod b rod c move disk 1 rod rod b move disk 2 rod rod c move disk 1 rod b rod c n disk total 2n 1 move requir 
+relat articl recurs function iter solut toh puzzl quiz recurs refer http en wikipedia org wiki tower_of_hanoi adsbygoogl window adsbygoogl push 

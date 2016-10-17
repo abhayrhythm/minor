@@ -1,0 +1,123 @@
+
+Given a set of strings, find the longest common prefix.
+Input  : {“geeksforgeeks”, “geeks”, “geek”, “geezer”}
+Output : "gee"
+
+Input  : {"apple", "ape", "april"}
+Output : "ap"
+
+Previous Approaches –  Word by Word Matching ,  Character by Character Matching,  Divide and Conquer 
+In this article, an approach using Binary Search is discussed.
+Steps:
+
+Find the string having the minimum length. Let this length be L. 
+Perform a binary search on any one string (from the input array of strings). Let us take the first string and do a binary search on the characters from the index –  0 to L-1.
+ Initially, take low = 0 and high = L-1 and divide the string into two halves – left (low to mid) and right (mid+1 to high).
+ Check whether all the characters in the left half is present at the corresponding indices (low to mid) of all the strings or not. If it is present then we append this half to our prefix string and we look in the right half in a hope to find a longer prefix.(It is guaranteed that a common prefix string is there.)
+ Otherwise, if all the characters in the left half is not present at the corresponding indices (low to mid) in all the strings, then we need not look at the right half as there is some character(s) in the left half itself which is not a part of the longest prefix string. So we indeed look at the left half in a hope to find a common prefix string. (It may be possible that we don’t find any common prefix string)
+
+Algorithm Illustration considering strings as – “geeksforgeeks”, “geeks”, “geek”, “geezer”
+
+
+
+//  A C++ Program to find the longest common prefix
+#include<bits/stdc++.h>
+using namespace std;
+
+// A Function to find the string having the minimum
+// length and returns that length
+int findMinLength(string arr[], int n)
+{
+    int min = INT_MAX;
+
+    for (int i=0; i<=n-1; i++)
+        if (arr[i].length() < min)
+            min = arr[i].length();
+    return(min);
+}
+
+bool allContainsPrefix(string arr[], int n, string str,
+                       int start, int end)
+{
+    for (int i=0; i<=n-1; i++)
+        for (int j=start; j<=end; j++)
+            if (arr[i][j] != str[j])
+                return (false);
+    return (true);
+}
+
+// A Function that returns the longest common prefix
+// from the array of strings
+string commonPrefix(string arr[], int n)
+{
+    int index = findMinLength(arr, n);
+    string prefix; // Our resultant string
+
+    // We will do an in-place binary search on the
+    // first string of the array in the range 0 to
+    // index
+    int low = 0, high = index;
+
+    while (low <= high)
+    {
+        // Same as (low + high)/2, but avoids overflow
+        // for large low and high
+        int mid = low + (high - low) / 2;
+
+        if (allContainsPrefix (arr, n, arr[0], low, mid))
+        {
+            // If all the strings in the input array contains
+            // this prefix then append this substring to
+            // our answer
+            prefix = prefix + arr[0].substr(low, mid-low+1);
+
+            // And then go for the right part
+            low = mid + 1;
+        }
+
+        else // Go for the left part
+            high = mid - 1;
+    }
+
+    return (prefix);
+}
+
+// Driver program to test above function
+int main()
+{
+    string arr[] = {"geeksforgeeks", "geeks",
+                    "geek", "geezer"};
+    int n = sizeof (arr) / sizeof (arr[0]);
+
+    string ans = commonPrefix(arr, n);
+
+    if (ans.length())
+        cout << "The longest common prefix is "
+             << ans;
+    else
+        cout << "There is no common prefix";
+    return (0);
+}
+
+Output :
+The longest common prefix is - gee
+Time Complexity : 
+The recurrence relation is
+T(M) = T(M/2) + O(MN) 
+where
+N = Number of strings
+M = Length of the largest string string
+
+So we can say that the time complexity is O(NM log M)
+Auxiliary Space: To store the longest prefix string we are allocating space which is O(N) where, N = length of the largest string among all the strings 
+This article is contributed by Rachit Belwariar. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

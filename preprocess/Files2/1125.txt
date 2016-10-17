@@ -1,0 +1,8 @@
+given array integ print miss element lie rang 0 99 one miss collat otherwis print number 
+note input array may sort may contain number outsid rang 0 99 rang consid print miss element 
+exampl input 88 105 3 2 200 0 10 output 1 4 9 11 87 89 99 input 9 6 900 850 5 90 100 99 output 0 4 7 8 10 89 91 98 expect time complex n n size input array 
+idea use boolean array size 100 keep track array element lie rang 0 99 first travers input array mark present element boolean array 
+present element mark boolean array use print miss element 
+follow implement idea 
+c c program print miss element includ stdio h defin limit 100 n function print miss element array void printmiss int arr int n initi number 0 99 seen bool seen limit fals mark present element rang 0 99 seen int 0 n arr limit seen arr true print miss element int 0 limit miss seen fals find miss element int j 1 j limit seen j fals j print miss singl rang 1 j 
+printf n printf n j 1 updat u j els driver program int main int arr 88 105 3 2 200 0 10 int n sizeof arr sizeof arr 0 printmiss arr n return 0 

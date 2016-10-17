@@ -1,0 +1,33 @@
+structur 
+structur user defin data type c c 
+structur creat data type use group item possibl differ type singl type 
+creat structur 
+struct keyword use creat structur 
+follow exampl 
+struct addrress char name 50 char street 100 char citi 50 char state 20 int pin declar structur variabl 
+structur variabl either declar structur declar separ declar like basic type 
+variabl declar structur declar 
+struct point int x p1 variabl p1 declar point variabl declar like basic data type struct point int x int main struct point p1 variabl p1 declar like normal variabl note c struct keyword option declar variabl 
+c mandatori 
+initi structur member 
+structur member cannot initi declar 
+exampl follow c program fail compil 
+struct point int x 0 compil error cannot initi member int 0 compil error cannot initi member reason error simpl datatyp declar memori alloc 
+memori alloc variabl creat 
+structur member initi use curli brace 
+exampl follow valid initi 
+struct point int x int main valid initi 
+member x get valu 0 get valu 1 order declar follow 
+struct point p1 0 1 access structur element 
+structur member access use dot 
+oper 
+struct point int x int main struct point p1 0 1 acces member point p1 p1 x 20 printf x p1 x p1 return 0 output 20 1 design initi 
+design initi allow structur member initi order 
+featur ad c99 standard 
+struct point int x z int main exampl initializt use design initi struct point p1 0 z 1 x 2 struct point p2 x 20 printf x z n p1 x p1 p1 z printf x p2 x return 0 output x 2 0 z 1 x 20 featur avail c work c array structur 
+like primit data type creat array structur 
+struct point int x int main creat array structur struct point arr 10 access array member arr 0 x 10 arr 0 20 printf arr 0 x arr 0 return 0 output 10 20 structur pointer 
+like primit type pointer structur 
+pointer structur member access use arrow oper 
+struct point int x int main struct point p1 1 2 p2 pointer structur p1 struct point p2 p1 access structur member use structur pointer printf p2 x p2 return 0 output 1 2 structur member align 
+see http www geeksforgeek org structur member align pad data pack soon discuss union struct relat topic c pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push 

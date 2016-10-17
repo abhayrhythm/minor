@@ -1,0 +1,28 @@
+given inord level order travers binari tree construct binari tree 
+follow exampl illustr problem 
+input two array repres inord level order travers binari tree 4 8 10 12 14 20 22 level 20 8 22 4 12 10 14 output construct tree repres two array 
+two array construct tree shown diagram right side strongli recommend minim browser tri first 
+follow post consid prerequisit 
+construct tree given inord preorder travers let us consid exampl 
+4 8 10 12 14 20 22 level 20 8 22 4 12 10 14 levelord sequenc first element root tree 
+know 20 root given sequenc 
+search 20 inord sequenc find element left side 20 left subtre element right right subtre 
+know structur 
+20 4 8 10 12 14 22 let us call 4 8 10 12 14 left subarray inord travers 22 right subarray inord travers 
+level order travers key left right subtre consecut 
+extract node level order travers left subarray inord travers 
+construct left subtre root recur extract element level order travers left subarray inord travers 
+exampl recur follow two array 
+recur follow array construct left subtre 4 8 10 12 14 level 8 4 12 10 14 similarli recur follow two array construct right subtre 
+recur follow array construct right subtre 22 level 22 follow implement approach 
+c program construct tree use inord levelord travers includ iostream use namespac std binari tree node struct node int key struct node left right function find index valu arr start end int search int arr int strt int end int valu int strt end arr valu return return 1 n size level size n function extract key level present 
+order extract key must maintain int extrackkey int int level int int n int newlevel new int j 0 int 0 n search 0 1 level 1 newlevel j level j return newlevel function alloc new node given key node newnod int key node node new node node key key node left node right null return node recurs function construct binari tree size n inord travers level order travers level 
+insrt inend start end index array initi valu instrt inend 0 n 1 function error check case inord levelord form tree node buildtre int int level int instrt int inend int n start index end index instrt inend return null first node level order travers root node root newnod level 0 node children return instrt inend return root els find index node inord travers int inindex search instrt inend root key extract left subtre key level order travers int llevel extrackkey level inindex n extract right subtre key level order travers int rlevel extrackkey inindex 1 level n inindex 1 n construct left right subtress root left buildtre llevel instrt inindex 1 n root right buildtre rlevel inindex 1 inend n free memori avoid memori leak delet llevel delet rlevel return root uti iti function print inord travers binari tree void printinord node node node null return printinord node left cout node key printinord node right driver program test function int main int 4 8 10 12 14 20 22 int level 20 8 22 4 12 10 14 int n sizeof sizeof 0 node root buildtre level 0 n 1 n let us test built tree print insord travers cout inord travers construct tree n printinord root return 0 java java program construct tree level order inord travers binari tree node class node int data node left right node int item data item left right null public void setleft node left left left public void setright node right right right class tree node root node buildtre int int level node startnod null return constructtre startnod level 0 length 1 node constructtre node startnod int levelord int inord int instart int inend start index end index instart inend return null instart inend return new node inord instart boolean found fals int index 0 repres index inord array element appear first levelord array 
+int 0 levelord length 1 int data levelord int j instart j inend j data inord j startnod new node data index j found true break found true break element present index part left child startnod 
+element present index part right child startnod 
+startnod setleft constructtre startnod levelord inord instart index 1 startnod setright constructtre startnod levelord inord index 1 inend return startnod util function print inord travers binari tree void printinord node node node null return printinord node left system print node data printinord node right driver program test function public static void main string arg tree tree new tree int new int 4 8 10 12 14 20 22 int level new int 20 8 22 4 12 10 14 int n length node node tree buildtre level let us test built tree print inord travers system print inord travers construct tree tree printinord node code contribut mayank jaiswal output inord travers construct tree 4 8 10 12 14 20 22 upper bound time complex method n3 
+main recurs function extractnod call take n2 time 
+code optim mani way may better solut 
+look improv optim approach solv problem 
+articl contribut abhay rathi 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

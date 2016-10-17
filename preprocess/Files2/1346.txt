@@ -1,0 +1,16 @@
+given singli link list find link list circular 
+link list call circular null termin node connect form cycl 
+exampl circular link list 
+empti link list consid circular 
+note problem differ cycl detect problem node part cycl 
+idea store head link list travers 
+reach null link list circular 
+reach head link list circular 
+c program check link list circular includ bit stdc h use namespac std link list node struct node int data struct node next function return true given link list circular els fals 
+bool iscircular struct node head empti link list circular head null return true next head struct node node head next loop would stope case 1 circular 2 circular node null node head node node next loop stop circular condit return node head util function creat new node 
+node newnod int data struct node temp new node temp data data temp next null return temp drier program test function int main start empti list struct node head newnod 1 head next newnod 2 head next next newnod 3 head next next next newnod 4 iscircular head 
+cout ye n cout n make link list circular head next next next next head iscircular head 
+cout ye n cout n return 0 output ye articl contribut shivam gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,23 @@
+given string consist open close parenthesi find length longest valid parenthesi substr 
+exampl input output 2 explan input output 4 explan input output 6 explan strongli recommend minim browser tri first 
+simpl approach find substr given string 
+everi string check valid string 
+valid length maximum length far updat maximum length 
+check whether substr valid linear time use stack see detail 
+time complex solut n2 
+effici solut solv problem n time 
+idea store index previou start bracket stack 
+first element stack special element provid index begin valid substr base next valid string 
+1 creat empti stack push 1 
+first element stack use provid base next valid string 
+2 initi result 0 
+3 charact e 
+str push index stack 
+2 els charact pop item stack time open bracket b stack empti find length current valid substr take differ current index top stack 
+current length result updat result 
+c stack empti push current index base next valid substr 
+3 return result 
+c python implement algorithm 
+c c program find length longest valid substr includ bit stdc h use namespac std int findmaxlen string str int n str length creat stack push 1 initi index 
+stack int stk stk push 1 initi result int result 0 travers charact given string int 0 n open bracket push index str stk push els close bracket e str pop previou open bracket index stk pop check length form base current valid substr max far stk empti result max result stk top stack empti 
+push current index base next valid substr els stk push return result driver program int main string str cout findmaxlen str endl str cout findmaxlen str endl return 0 

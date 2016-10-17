@@ -1,0 +1,221 @@
+
+We have discussed recursive implementation to delete an entire binary tree here.
+We strongly recommend you to minimize your browser and try this yourself first.
+Now how to delete an entire tree without using recursion. This could easily be done with the help of Level Order Tree Traversal. The idea is for each dequeued node from the queue, delete it after queuing its left and right nodes (if any). The solution will work as we are traverse all the nodes of the tree level by level from top to bottom, and before deleting the parent node, we are storing its children into queue that will be deleted later.
+
+C++
+
+
+/* Non-Recursive Program to delete an entire binary tree. */
+#include <bits/stdc++.h>
+using namespace std;
+
+// A Binary Tree Node
+struct Node
+{
+    int data;
+    struct Node *left, *right;
+};
+
+/* Non-recursive function to delete an entire binary tree. */
+void _deleteTree(Node *root)
+{
+    // Base Case
+    if (root == NULL)
+        return;
+
+    // Create an empty queue for level order traversal
+    queue<Node *> q;
+
+    // Do level order traversal starting from root
+    q.push(root);
+    while (!q.empty())
+    {
+        Node *node = q.front();
+        q.pop();
+
+        if (node->left != NULL)
+            q.push(node->left);
+        if (node->right != NULL)
+            q.push(node->right);
+
+        free(node);
+    }
+}
+
+/* Deletes a tree and sets the root as NULL */
+void deleteTree(Node** node_ref)
+{
+  _deleteTree(*node_ref);
+  *node_ref = NULL;
+}
+
+// Utility function to create a new tree Node
+Node* newNode(int data)
+{
+    Node *temp = new Node;
+    temp->data = data;
+    temp->left = temp->right = NULL;
+
+    return temp;
+}
+
+// Driver program to test above functions
+int main()
+{
+    // create a binary tree
+    Node *root =  newNode(15);
+    root->left = newNode(10);
+    root->right = newNode(20);
+    root->left->left = newNode(8);
+    root->left->right = newNode(12);
+    root->right->left = newNode(16);
+    root->right->right = newNode(25);
+
+    //delete entire binary tree
+    deleteTree(&root);
+
+    return 0;
+}
+
+Java
+
+
+/* Non-recursive program to delete the entire binary tree */
+import java.util.*;
+
+// A binary tree node
+class Node 
+{
+    int data;
+    Node left, right;
+
+    public Node(int data) 
+    {
+        this.data = data;
+        left = right = null;
+    }
+}
+
+class BinaryTree 
+{
+    Node root;
+
+    /* Non-recursive function to delete an entire binary tree. */
+    void _deleteTree() 
+    {
+        // Base Case
+        if (root == null)
+            return;
+
+        // Create an empty queue for level order traversal
+        Queue<Node> q = new LinkedList<Node>();
+
+        // Do level order traversal starting from root
+        q.add(root);
+        while (!q.isEmpty()) 
+        {
+            Node node = q.peek();
+            q.poll();
+
+            if (node.left != null)
+                q.add(node.left);
+            if (node.right != null)
+                q.add(node.right);
+        }
+    }
+
+    /* Deletes a tree and sets the root as NULL */
+    void deleteTree() 
+    {
+        _deleteTree();
+        root = null;
+    }
+
+    // Driver program to test above functions
+    public static void main(String[] args) 
+    {
+        // create a binary tree
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(15);
+        tree.root.left = new Node(10);
+        tree.root.right = new Node(20);
+        tree.root.left.left = new Node(8);
+        tree.root.left.right = new Node(12);
+        tree.root.right.left = new Node(16);
+        tree.root.right.right = new Node(25);
+
+        // delete entire binary tree
+        tree.deleteTree();
+    }
+}
+
+// This code has been contributed by Mayank Jaiswal(mayank_24)
+
+
+Python
+
+
+
+
+# Python program to delete an entire binary tree
+# using non-recursive approach
+
+# A binary tree node
+class Node:
+    
+    # A constructor to create a new node
+    def __init__(self, data):
+        self.data = data 
+        self.left = None
+        self.right = None
+
+# Non-recursive function to delete an entrie binary tree
+def _deleteTree(root):
+    
+    # Base Case
+    if root is None:
+        return 
+
+    # Create a empty queue for level order traversal
+    q = []
+
+    # Do level order traversal starting from root
+    q.append(root)
+    while(len(q)>0):
+        node = q.pop(0)
+    
+        if node.left is not None:
+            q.append(node.left)
+
+        if node.right is not None:
+            q.append(node.right)
+
+        node = None
+    return node
+
+# Deletes a tree and sets the root as None
+def deleteTree(node_ref):
+    node_ref = _deleteTree(node_ref)
+    return node_ref
+
+# Driver program to test above function
+
+# Create a binary tree
+root = Node(15)
+root.left = Node(10)
+root.right = Node(20)
+root.left.left = Node(8)
+root.left.right = Node(12)
+root.right.left = Node(16)
+root.right.right = Node(25)
+
+# delete entire binary tree
+root = deleteTree(root)
+
+
+# This program is contributed by Nikhil Kumar Singh(nickzuck_007)
+
+
+
+This article is contributed by Aditya Goel. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

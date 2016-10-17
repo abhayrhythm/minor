@@ -1,0 +1,31 @@
+
+Use printf statement inside the if condition
+
+
+#include<stdio.h>
+int main()
+{
+      if( printf( "Geeks for Geeks" ) )
+      {    }
+}   
+
+One trivial extension of the above problem: Write a C program to print “;” without using a semicolon 
+
+#include<stdio.h>
+int main()
+{
+   if(printf("%c",59))
+   {
+   }
+}
+
+Please comment if you know more solutions to this problem.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

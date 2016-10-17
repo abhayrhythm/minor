@@ -1,0 +1,40 @@
+
+littl big endian two way store multibyt data type int float etc 
+littl endian machin last byte binari represent multibyt data type store first 
+hand big endian machin first byte binari represent multibyt data type store first 
+suppos integ store 4 byte use do base compil c 3 0 integ 2 byte variabl x valu 0x01234567 store follow 
+memori represent integ ox01234567 insid big littl endian machin see memori represent multibyt data type machin 
+sampl c code show byte represent int float pointer 
+includ stdio h function show byte memori locat start start n void show_mem_rep char start int n int 0 n printf 2x start printf n main function call function 0x01234567 int main int 0x01234567 show_mem_rep char sizeof getchar return 0 program run littl endian machin give 67 45 23 01 output run endian machin give 01 23 45 67 output 
+quick way determin endian machin 
+n 
+way determin endian machin 
+one quick way 
+includ stdio h int main unsign int 1 char c char c printf littl endian els printf big endian getchar return 0 program charact pointer c point integ sinc size charact 1 byte charact pointer de referenc contain first byte integ 
+machin littl endian c 1 last byte store first machin big endian c 0 endian matter programm 
+time compil take care endian howev endian becom issu follow case 
+matter network program suppos write integ file littl endian machin transfer file big endian machin 
+unless littl andian big endian transform big endian machin read file revers order 
+find practic exampl 
+standard byte order network big endian also known network byte order 
+transfer data network data first convert network byte order big endian 
+sometim matter use type cast program exampl 
+includ stdio h int main unsign char arr 2 0x01 0x00 unsign short int x unsign short int arr printf x getchar return 0 program char array typecast unsign short integ type 
+run program littl endian machin get 1 output run big endian machin get 256 make program endian independ program style avoid 
+bi endian 
+bi endian processor run mode littl big endian 
+exampl littl big endian bi endian machin 
+intel base processor littl endian 
+arm processor littl endian 
+current gener arm processor bi endian 
+motorola 68k processor big endian 
+powerpc motorola spark sun processor big endian 
+current version processor bi endian 
+endian effect file format 
+file format 1 byte basic unit independ endian e g ascii file 
+file format use fix endian forrmat e g jpeg file store big endian format 
+one better littl endian big endian term littl big endian came gulliv travel jonathan swift 
+two group could agre end egg open littl big 
+like egg issu technolog reason choos one byte order convent henc argument degener bicker sociopolit issu 
+long one convent select adher consist choic arbitrari 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

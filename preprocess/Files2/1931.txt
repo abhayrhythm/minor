@@ -1,0 +1,17 @@
+predict output follow c program 
+program 1 includ stdio h int main void int arr 10 20 int p arr p printf arr 0 arr 1 p arr 0 arr 1 p return 0 program 2 includ stdio h int main void int arr 10 20 int p arr p printf arr 0 arr 1 p arr 0 arr 1 p return 0 program 3 includ stdio h int main void int arr 10 20 int p arr p printf arr 0 arr 1 p arr 0 arr 1 p return 0 output program program easili guess rememb follow simpl rule postfix prefix derefer oper 1 preced prefix 
+associ right left 
+2 preced postfix higher prefix 
+associ postfix left right 
+refer preced tabl express p two oper preced compil look assoi 
+associ oper right left 
+therefor express treat p 
+therefor output first program arr 0 11 arr 1 20 p 11 
+express p treat p preced postfix higher 
+therefor output second program arr 0 10 arr 1 20 p 20 
+express p two oper preced compil look assoi 
+associ oper right left 
+therefor express treat p 
+therefor output second program arr 0 10 arr 1 20 p 20 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

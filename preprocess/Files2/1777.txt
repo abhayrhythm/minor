@@ -1,0 +1,35 @@
+given direct graph find whether graph strongli connect 
+direct graph strongli connect path two pair vertic 
+exampl follow strongli connect graph 
+easi undirect graph bf df start vertex 
+bf df visit vertic given undirect graph connect 
+approach work direct graph 
+exampl consid follow graph strongli connect 
+start df bf vertex 0 reach vertic start vertex cannot reach vertic 
+direct graph 
+simpl idea use pair shortest path algorithm like floyd warshal find transit closur graph 
+time complex method would v3 
+also df v time start everi vertex 
+df visit vertic graph strongli connect 
+algorithm take v v e time transit closur dens graph 
+better idea strongli connect compon scc algorithm 
+find scc v e time 
+number scc one graph strongli connect 
+algorithm scc extra work find scc 
+follow kosaraju df base simpl algorithm two df travers graph 1 initi vertic visit 
+2 df travers graph start arbitrari vertex v df travers visit vertic return fals 
+3 revers arc find transpos revers graph 4 mark vertic visit revers graph 
+5 df travers revers graph start vertex v step 2 
+df travers visit vertic return fals 
+otherwis return true 
+idea everi node reach vertex v everi node reach v graph strongli connect 
+step 2 check vertic reachabl v step 4 check vertic reach v revers graph vertic reachabl v vertic reach v origin graph 
+follow c implement algorithm 
+c c program check given direct graph strongli connect includ iostream includ list includ stack use namespac std class graph int v 
+vertic list int adj array adjac list recurs function print df start v void dfsutil int v bool visit public constructor destructor graph int v v v adj new list int v graph delet adj method add edg void addedg int v int w main function return true graph strongli connect otherwis fals bool issc function return revers transpos graph graph gettranspos recurs function print df start v void graph dfsutil int v bool visit mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end visit dfsutil visit function return revers transpos graph graph graph gettranspos graph g v int v 0 v v v recur vertic adjac vertex list int iter adj v begin adj v end g adj push_back v return g void graph addedg int v int w adj v push_back w add w v list 
+main function return true graph strongli connect bool graph issc st1p 1 mark vertic visit first df bool visit v int 0 v visit fals step 2 df travers start first vertex 
+dfsutil 0 visit df travers visit vertic return fals 
+int 0 v visit fals return fals step 3 creat revers graph graph gr gettranspos step 4 mark vertic visit second df int 0 v visit fals step 5 df revers graph start first vertex 
+stare vertex must start point first df gr dfsutil 0 visit vertic visit second df return fals int 0 v visit fals return fals return true driver program test function int main creat graph given diagram graph g1 5 g1 addedg 0 1 g1 addedg 1 2 g1 addedg 2 3 g1 addedg 3 0 g1 addedg 2 4 g1 addedg 4 2 g1 issc 
+cout ye n cout n graph g2 4 g2 addedg 0 1 g2 addedg 1 2 g2 addedg 2 3 g2 issc 
+cout ye n cout n return 0 

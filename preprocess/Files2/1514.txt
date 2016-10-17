@@ -1,0 +1,58 @@
+main applic binari heap implement prioriti queue 
+binomi heap extens binari heap provid faster union merg oper togeth oper provid binari heap 
+binomi heap collect binomi tree binomi tree 
+binomi tree order 0 1 node 
+binomi tree order k construct take two binomi tree order k 1 make one leftmost child 
+binomi tree order k follow properti 
+exactli 2k node 
+b depth k c exactli kci node depth 0 1 
+
+
+k root degre k children root binomi tree order k 1 k 2 0 left right 
+follow diagram taken 2nd edit clr book 
+binomi heap binomi heap set binomi tree binomi tree follow min heap properti 
+one binomi tree degre 
+exampl binomi heap 12 10 20 15 50 70 50 40 30 80 85 65 100 binomi heap 13 node 
+collect 3 binomi tree order 0 2 3 left right 
+10 20 15 50 70 50 40 30 80 85 65 100 binomi heap 12 node 
+collect 2 binomi tree order 2 3 left right 
+binari represent number binomi heap binomi heap n node number binomi tree equal number set bit binari represent n exampl let n 13 3 set bit binari represent n 00001101 henc 3 binomi tree 
+also relat degre binomi tree posit set bit 
+relat conclud logn binomi tree binomi heap n node 
+oper binomi heap main oper binomi heap union oper mainli use oper 
+union oper combin two binomi heap one 
+let us first discuss oper discuss union later 
+1 insert h k insert key k binomi heap h 
+oper first creat binomi heap singl key k call union h new binomi heap 
+2 getmin h simpl way getmin travers list root binomi tree return minimum key 
+implement requir logn time 
+optim 1 maintain pointer minimum key root 
+3 extractmin h oper also use union 
+first call getmin find minimum key binomi tree remov node creat new binomi heap connect subtre remov minimum node 
+final call union h newli creat binomi heap 
+oper requir logn time 
+4 delet h like binari heap delet oper first reduc key minu infinit call extractmin 
+5 decreasekey h decreasekey also similar binari heap 
+compar decreas key parent parent key swap key recur parent 
+stop either reach node whose parent smaller key hit root node 
+time complex decreasekey logn 
+union oper binomi heap given two binomi heap h1 h2 union h1 h2 creat singl binomi heap 
+1 first step simpli merg two heap non decreas order degre 
+follow diagram figur b show result merg 
+2 simpl merg need make sure one binomi tree order 
+need combin binomi tree order 
+travers list merg root keep track three pointer prev x next x 
+follow 4 case travers list root 
+case 1 order x next x simpli move ahead 
+follow 3 case order x next x 
+case 2 order next next x also move ahead 
+case 3 key x smaller equal key next x make next x child x link x 
+case 4 key x greater make x child next 
+follow diagram taken 2nd edit clr book 
+repres binomi heap 
+binomi heap set binomi tree 
+binomi tree must repres way allow sequenti access sibl start leftmost sibl need extractmin delet 
+idea repres binomi tree leftmost child right sibl represent e everi node store two pointer one leftmost child right sibl 
+soon discuss implement binomi heap 
+sourc introduct algorithm clifford stein thoma h cormen charl e leiserson ronald l articl contribut shivam 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

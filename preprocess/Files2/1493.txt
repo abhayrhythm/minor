@@ -1,0 +1,27 @@
+design data structur support follow oper θ 1 time 
+insert x insert item x data structur alreadi present 
+remov x remov item x data structur present 
+search x search item x data structur 
+getrandom return random element current set element strongli recommend minim browser tri first 
+use hash support first 3 oper θ 1 time 
+4th oper 
+idea use resiz array arraylist java vector c togeth hash 
+resiz array support insert θ 1 amort time complex 
+implement getrandom simpli pick random number 0 size 1 size number current element return element index 
+hash map store array valu key array index valu 
+follow detail oper 
+insert x 1 check x alreadi present hash map lookup 
+2 present insert end array 
+3 add hash tabl also x ad key last array index index 
+remov x 1 check x present hash map lookup 
+2 present find index remov hash map 
+3 swap last element element array remov last element 
+swap done last element remov 1 time 
+4 updat index last element hash map 
+getrandom 1 gener random number 0 last index 
+2 return array element randomli gener index 
+search x lookup x hash map 
+java implement data structur 
+java program design data structur support folloiwng oper theta n time insert b delet c search getrandom import java util 
+class repres requir data structur class myd arraylist integ arr resiz array hash key array element vlaue index arr hashmap integ integ hash constructor creat arr hash public myd arr new arraylist integ hash new hashmap integ integ theta 1 function add element myd data structur void add int x ekement alreadi present note hash get x null return els put element end arr int arr size arr add x put hash also hash put x theta 1 function remov element myd data structur void remov int x check element present integ index hash get x index null return present remov element hash hash remov x swap element last element remov arr done 1 time int size arr size integ last arr get size 1 collect swap arr index size 1 remov last element 1 arr remov size 1 updat hash tabl new index last element hash put last index return random element myd int getrandom find random index 0 size 1 random rand new random choos differ seed int index rand nextint arr size return element randomli pick index return arr get index return index element element present otherwis null integ search int x return hash get x driver class class main public static void main string arg myd ds new myd ds add 10 ds add 20 ds add 30 ds add 40 system println ds search 30 ds remov 20 ds add 50 system println ds search 50 system println ds getrandom output 2 3 40 articl contribut manish gupta 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

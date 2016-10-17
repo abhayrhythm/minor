@@ -1,0 +1,8 @@
+ascii nul zero repres 0x00 0x30 respect 
+ascii nul charact serv sentinel charact string c c 
+programm use 0 code repres 0x30 hex form 
+fill binari represent integ follow program 
+char charnul 0 unsign int integ 0 char charbinari 0 binari form charnul bit set logic 0 binari form integ bit set logic 0 mean byte fill nul charact 0 
+binari form charbinari set binari equival hex 0x30 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

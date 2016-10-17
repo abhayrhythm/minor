@@ -1,0 +1,59 @@
+
+Given a positive integer n, print first k digits after point in value of 1/n.  Your program should avoid overflow and floating point arithmetic.
+Examples:
+
+Input:   n = 3, k = 3
+Output:  333
+
+Input:   n = 50, k = 4
+Output:  0200
+
+We strongly recommend to minimize the browser and try this yourself first.
+Let us consider an example n = 7, k = 3.  The first digit of 1/7 is ‘1’, it can be obtained by doing integer value of 10/7.  Remainder of 10/7 is  3.  Next digit is 4 which can be obtained by taking integer value of 30/7.  Remainder of 30/7 is 2.  Next digits is 2 which can be obtained by taking integer value of 20/7
+
+#include <iostream>
+using namespace std;
+
+// Function to print first k digits after dot in value
+// of 1/n.  n is assumed to be a positive integer.
+void print(int n, int k)
+{
+   int rem = 1; // Initialize remainder
+
+   // Run a loop k times to print k digits
+   for (int i = 0; i < k; i++)
+   {
+         // The next digit can always be obtained as
+         // doing (10*rem)/10
+         cout << (10 * rem) / n;
+
+         // Update remainder
+         rem = (10*rem) % n;
+   }
+}
+
+// Driver program to test above function
+int main()
+{
+    int n = 7, k = 3;
+    print(n, k);
+    cout << endl;
+
+    n = 21, k = 4;
+    print(n, k);
+
+    return 0;
+}
+
+Output:
+142
+0476
+Reference:
+Algorithms And Programming: Problems And Solutions by Alexander Shen
+This article is contributed by Sachin. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+

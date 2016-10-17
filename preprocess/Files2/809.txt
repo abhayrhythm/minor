@@ -1,0 +1,37 @@
+laravel 
+laravel web applic framework creat taylor otwel 2011 like modern framework also follow model view control mvc architectur pattern 
+laravel valu eleg simplic readabl one talk build applic php framework laravel second none 
+sinc laravel open sourc one find sourc code github repositori 
+also document framework found 
+laracast 
+need help get start laravel right away start learn develop use laracast hundr video tutori 
+skim basic start journey laravel masteri laracast 
+want start 
+laravel scratch laracast link 
+make laravel special 
+laravel power pack 
+one explor readi use bundl schedul includ support schedul period execut task 
+cashier manag subscript bill servic 
+flysystem allow remot storag use way local file system 
+socialit simplifi mechan authent provid like facebook github googl etc 
+good laravel 
+let us realiti check good laravel web applic framework base key point languag support php version 5 5 9 mvc framework ye laravel 2 onward object relat map ye 
+need enforc constraint relationship databas object 
+test ye 
+unit test provid integr part laravel prevent regress framework 
+phpunit databas migrat ye 
+help simplifi deploy updat applic 
+secur ye 
+ssh secur shell use encrypt network protocol execut cli command line interfac command 
+cach ye 
+form valid ye 
+event listen bind intern invok form valid method thu actual form gener 
+scaffold ye 
+laravel programm specifi applic databas may use 
+rapid applic develop ye 
+mobil 
+synopsi develop taylor otwel languag php latest stabl releas laravel 5 2 21 oper system cross platform framework link http laravel com github link http github com laravel websit built use laravel deltanet travel neighbourhood lender articl harshit gupta kolkata base harshit gupta activ blogger keen interest write current affair technic blog stori person life experi 
+besid passion write also love code danc 
+current studi iiest activ blog contributor geeksforgeek 
+reach http linkedin com pub harshit gupta 102 b71 605 also wish showcas blog pleas see gblog guest blog write geeksforgeek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

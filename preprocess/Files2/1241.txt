@@ -1,0 +1,11 @@
+given two string str1 str2 find str1 subsequ str2 
+subsequ sequenc deriv anoth sequenc delet element without chang order remain element sourc wiki 
+expect time complex linear 
+exampl input str1 axi str2 adxcpi output true str1 subsequ str2 input str1 axi str2 yadxcp output fals str1 subsequ str2 input str1 gksrek str2 geeksforgeek output true str1 subsequ str2 strongli recommend minim browser tri first 
+idea simpl travers string one side side say rightmost charact leftmost 
+find match charact move ahead string 
+otherwis move ahead str2 
+follow recurs implement c python idea 
+c c recurs c program check string subsequ anoth string includ iostream includ cstring use namespac std return true str1 subsequ str2 
+length str1 n length str2 bool issubsequ char str1 char str2 int int n base case 0 return true n 0 return fals last charact two string match str1 1 str2 n 1 return issubsequ str1 str2 1 n 1 last charact match return issubsequ str1 str2 n 1 driver program test method graph class int main char str1 gksrek char str2 geeksforgeek int strlen str1 int n strlen str2 issubsequ str1 str2 n 
+cout ye cout return 0 

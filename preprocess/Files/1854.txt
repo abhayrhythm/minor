@@ -1,0 +1,28 @@
+
+Consider the following program.  Predict the output of it when compiled with C and C++ compilers.
+
+void func()
+{
+    /* definition */
+}
+
+int main()
+{
+    func();
+    func(2);
+}
+
+The above program compiles fine in C, but doesn’t compiler in C++.
+In C++, func() is equivalent to func(void)
+In C,   func() is equivalent to func(…)
+Refer this for details and this for more programs that compile in C, but not in C++.
+This article is compiler by Rahul Mittalal. If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,70 @@
+let us consid follow problem understand segment tree 
+array arr 0 
+
+
+n 1 
+abl 1 find sum element index l r 0 l r n 1 2 chang valu specifi element array new valu x need arr x 0 n 1 
+simpl solut run loop l r calcul sum element given rang 
+updat valu simpli arr x first oper take n time second oper take 1 time 
+anoth solut creat anoth array store sum start ith index array 
+sum given rang calcul 1 time updat oper take n time 
+work well number queri oper larg updat 
+number queri updat equal 
+perform oper log n time given array 
+use segment tree oper logn time 
+represent segment tree 1 leaf node element input array 
+2 intern node repres merg leaf node 
+merg may differ differ problem 
+problem merg sum leav node 
+array represent tree use repres segment tree 
+node index left child index 2 1 right child 2 2 parent 
+construct segment tree given array start segment arr 0 
+
+
+n 1 
+everi time divid current segment two halv yet becom segment length 1 call procedur halv segment store sum correspond node 
+level construct segment tree complet fill except last level 
+also tree full binari tree alway divid segment two halv everi level 
+sinc construct tree alway full binari tree n leav n 1 intern node 
+total number node 2 n 1 height segment tree 
+sinc tree repres use array relat parent child index must maintain size memori alloc segment tree 
+queri sum given rang tree construct get sum use construct segment tree 
+follow algorithm get sum element 
+int getsum node l r rang node within l r return valu node els rang node complet outsid l r return 0 els return getsum node left child l r getsum node right child l r updat valu like tree construct queri oper updat also done recurs 
+given index need updat 
+let diff valu ad 
+start root segment tree add diff node given index rang 
+node given index rang make chang node 
+implement follow implement segment tree 
+program implement construct segment tree given array 
+also implement queri updat oper 
+c c program show segment tree oper like construct queri updat includ stdio h includ math h util function get middl index corner index 
+int getmid int int e return e 2 recurs function get sum valu given rang array 
+follow paramet function 
+st pointer segment tree si index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e st si qs qe start end index queri rang int getsumutil int st int ss int se int qs int qe int si segment node part given rang return sum segment qs ss qe se return st si segment node outsid given rang se qs ss qe return 0 part segment overlap given rang int mid getmid ss se return getsumutil st ss mid qs qe 2 si 1 getsumutil st mid 1 se qs qe 2 si 2 recurs function updat node given index rang 
+follow paramet st si ss se getsumutil index element updat 
+index input array 
+diff valu ad node rang void updatevalueutil int st int ss int se int int diff int si base case input index lie outsid rang segment ss se return input index rang node updat valu node children st si st si diff se ss int mid getmid ss se updatevalueutil st ss mid diff 2 si 1 updatevalueutil st mid 1 se diff 2 si 2 function updat valu input array segment tree 
+use updatevalueutil updat valu segment tree void updatevalu int arr int st int n int int new_val check erron input index 0 n 1 printf invalid input return get differ new valu old valu int diff new_val arr updat valu array arr new_val updat valu node segment tree updatevalueutil st 0 n 1 diff 0 return sum element rang index qs quey start qe queri end 
+mainli use getsumutil int getsum int st int n int qs int qe check erron input valu qs 0 qe n 1 qs qe printf invalid input return 1 return getsumutil st 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st int constructstutil int arr int ss int se int st int si one element array store current node segment tree return ss se st si arr ss return arr ss one element recur left right subtre store sum valu node int mid getmid ss se st si constructstutil arr ss mid st si 2 1 constructstutil arr mid 1 se st si 2 2 return st si function construct segment tree given array 
+function alloc memori segment tree call constructstutil fill alloc memori int constructst int arr int n alloc memori segment tree height segment tree int x int ceil log2 n maximum size segment tree int max_siz 2 int pow 2 x 1 alloc memori int st new int max_siz fill alloc memori st constructstutil arr 0 n 1 st 0 return construct segment tree return st driver program test function int main int arr 1 3 5 7 9 11 int n sizeof arr sizeof arr 0 build segment tree given array int st constructst arr n print sum valu array index 1 3 printf sum valu given rang n getsum st n 1 3 updat set arr 1 10 updat correspond segment tree node updatevalu arr st n 1 10 find sum valu updat printf updat sum valu given rang n getsum st n 1 3 return 0 java java program show segment tree oper like construct queri updat class segmenttre int st array store segment tree node constructor construct segment tree given array 
+constructor alloc memori segment tree call constructstutil fill alloc memori segmenttre int arr int n alloc memori segment tree height segment tree int x int math ceil math log n math log 2 maximum size segment tree int max_siz 2 int math pow 2 x 1 st new int max_siz memori alloc constructstutil arr 0 n 1 0 util function get middl index corner index 
+int getmid int int e return e 2 recurs function get sum valu given rang array 
+follow paramet function 
+st pointer segment tree si index current node segment tree 
+initi 0 pass root alway index 0 ss se start end index segment repres current node e st si qs qe start end index queri rang int getsumutil int ss int se int qs int qe int si segment node part given rang return sum segment qs ss qe se return st si segment node outsid given rang se qs ss qe return 0 part segment overlap given rang int mid getmid ss se return getsumutil ss mid qs qe 2 si 1 getsumutil mid 1 se qs qe 2 si 2 recurs function updat node given index rang 
+follow paramet st si ss se getsumutil index element updat 
+index input array 
+diff valu ad node rang void updatevalueutil int ss int se int int diff int si base case input index lie outsid rang segment ss se return input index rang node updat valu node children st si st si diff se ss int mid getmid ss se updatevalueutil ss mid diff 2 si 1 updatevalueutil mid 1 se diff 2 si 2 function updat valu input array segment tree 
+use updatevalueutil updat valu segment tree void updatevalu int arr int n int int new_val check erron input index 0 n 1 system println invalid input return get differ new valu old valu int diff new_val arr updat valu array arr new_val updat valu node segment tree updatevalueutil 0 n 1 diff 0 return sum element rang index qs quey start qe queri end 
+mainli use getsumutil int getsum int n int qs int qe check erron input valu qs 0 qe n 1 qs qe system println invalid input return 1 return getsumutil 0 n 1 qs qe 0 recurs function construct segment tree array ss se 
+si index current node segment tree st int constructstutil int arr int ss int se int si one element array store current node segment tree return ss se st si arr ss return arr ss one element recur left right subtre store sum valu node int mid getmid ss se st si constructstutil arr ss mid si 2 1 constructstutil arr mid 1 se si 2 2 return st si driver program test function public static void main string arg int arr 1 3 5 7 9 11 int n arr length segmenttre tree new segmenttre arr n build segment tree given array print sum valu array index 1 3 system println sum valu given rang tree getsum n 1 3 updat set arr 1 10 updat correspond segment tree node tree updatevalu arr n 1 10 find sum valu updat system println updat sum valu given rang tree getsum n 1 3 code contribut ankur narain verma output sum valu given rang 15 updat sum valu given rang 22 time complex time complex tree construct n 
+total 2n 1 node valu everi node calcul tree construct 
+time complex queri logn 
+queri sum process four node everi level number level logn 
+time complex updat also logn 
+updat leaf valu process one node everi level number level logn 
+segment tree set 2 rang minimum queri refer http www cse iitk ac user aca lop12 slide 06 pdf pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

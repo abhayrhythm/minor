@@ -1,0 +1,34 @@
+determinist finit automaton dfa use check whether number num divis k 
+number divis remaind also obtain use dfa 
+consid binari represent num build dfa k state 
+dfa transit function 0 1 dfa built process num dfa get remaind 
+let us walk exampl 
+suppos want check whether given number num divis 3 
+number written form num 3 b quotient b remaind 
+3 3 state dfa correspond remaind 0 1 2 state two transit correspond 0 1 consid binari represent given num 
+transit function f p x q tell read alphabet x move state p state q let us name state 0 1 2 initi state alway 0 final state indic remaind 
+final state 0 number divis 
+diagram doubl circl state final state 
+1 state 0 read 0 remain state 0 
+2 state 0 read 1 move state 1 
+number form 1 decim give remaind 1 
+3 state 1 read 0 move state 2 
+number form 10 decim give remaind 2 
+4 state 1 read 1 move state 0 
+number form 11 decim give remaind 0 
+5 state 2 read 0 move state 1 
+number form 100 decim give remaind 1 
+6 state 2 read 1 remain state 2 
+number form 101 decim gve remaind 2 transit tabl look like follow state 0 1 _____________ 0 0 1 1 2 0 2 1 2 let us check whether 6 divis 3 
+binari represent 6 110 state 0 1 state 0 read 1 new state 1 2 state 1 read 1 new state 0 3 state 0 read 0 new state 0 sinc final state 0 number divis 3 let us take anoth exampl number 4 state 0 1 state 0 read 1 new state 1 2 state 1 read 0 new state 2 3 state 2 read 0 new state 1 sinc final state 0 number divis 3 remaind 1 note final state give remaind 
+extend solut valu k valu k state would 0 1 
+k 1 
+calcul transit decim equival binari bit seen far cross rang k 
+state p read p decim 
+read 0 new read number becom 2 p read 1 new read number becom 2 p 1 
+new state obtain subtract k valu 2p 2p 1 0 p k base approach follow work code includ stdio h includ stdlib h function build dfa divisor k void preprocess int k int tabl 2 int trans0 trans1 follow loop calcul two transit state start state 0 int state 0 state k state calcul next state bit 0 trans0 state 1 tabl state 0 trans0 k 
+trans0 trans0 k calcul next state bit 1 trans1 state 1 1 tabl state 1 trans1 k 
+trans1 trans1 k recurs util function take num dfa transit tabl input process num bit bit dfa void isdivisibleutil int num int state int tabl 2 process num bit bit msb lsb num 0 isdivisibleutil num 1 state tabl state tabl state num 1 main function divid num k return remaind int isdivis int num int k alloc memori transit tabl 
+tabl k 2 entri int tabl 2 int 2 malloc k sizeof tabl fill transit tabl preprocess k tabl process num dfa get remaind int state 0 isdivisibleutil num state tabl note final valu state remaind return state driver program test function int main int num 47 number divid int k 5 divisor int remaind isdivis num k remaind 0 printf divis n els printf divis remaind n remaind return 0 output divis remaind 2 dfa base divis use binari stream input want check divis decim valu stream time 
+articl compil aashish barnwal review geeksforgeek team 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

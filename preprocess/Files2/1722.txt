@@ -1,0 +1,20 @@
+given graph g integ k k core graph connect compon left vertic degre less k remov sourc wiki exampl input adjac list represent graph shown left side diagram output k core 2 3 4 6 3 2 4 6 7 4 2 3 6 7 6 2 3 4 7 7 3 4 6 strongli recommend minim browser tri first 
+standard algorithm find k core graph remov vertic degre less k input graph 
+must care remov vertex reduc degre vertic adjac henc degre adjac vertic also drop k 
+thu may remov vertic also 
+process may may go vertic left graph 
+implement algorithm modifi df input graph delet vertic degre less k updat degre adjac vertic degre fall k delet 
+c implement idea 
+note program print vertic k core easili extend print complet k core modifi adjac list 
+c program find k core graph includ bit stdc h use namespac std class repres undirect graph use adjac list represent class graph int v 
+vertic pointer array contain adjac list list int adj public graph int v constructor function add edg graph void addedg int u int v recurs function print df start v bool dfsutil int vector bool vector int int k print k core given graph void printkcor int k recurs function print df start v return true degre v process less k els fals also updat degre adjac degre v less k degre process adjac becom less k reduc degre v also bool graph dfsutil int v vector bool visit vector int vdegre int k mark current node visit print visit v true recur vertic adjac vertex list int iter adj v begin adj v end degre v less k degre adjac must reduc vdegre v k vdegre adjac process process visit degre adjac process becom less k reduc degre v also 
+dfsutil visit vdegre k vdegre v return true degre v less k return vdegre v k graph graph int v v v adj new list int v void graph addedg int u int v adj u push_back v adj v push_back u print k core undirect graph void graph printkcor int k initi mark vertic visit process 
+vector bool visit v fals vector bool process v fals int mindeg int_max int startvertex store degre vertic vector int vdegre v int 0 v vdegre adj size vdegre mindeg mindeg vdegre startvertex dfsutil startvertex visit vdegre k df travers updat degre vertic 
+int 0 v visit fals dfsutil visit vdegre k print k core cout k core n int v 0 v v v consid vertic degre k bf vdegre v k cout n v travers adjac list v print adjac vdegre k bf 
+list int iter itr itr adj v begin itr adj v end itr vdegre itr k cout itr driver program test method graph class int main creat graph given diagram int k 3 graph g1 9 g1 addedg 0 1 g1 addedg 0 2 g1 addedg 1 2 g1 addedg 1 5 g1 addedg 2 3 g1 addedg 2 4 g1 addedg 2 5 g1 addedg 2 6 g1 addedg 3 4 g1 addedg 3 6 g1 addedg 3 7 g1 addedg 4 6 g1 addedg 4 7 g1 addedg 5 6 g1 addedg 5 8 g1 addedg 6 7 g1 addedg 6 8 g1 printkcor k cout endl endl graph g2 13 g2 addedg 0 1 g2 addedg 0 2 g2 addedg 0 3 g2 addedg 1 4 g2 addedg 1 5 g2 addedg 1 6 g2 addedg 2 7 g2 addedg 2 8 g2 addedg 2 9 g2 addedg 3 10 g2 addedg 3 11 g2 addedg 3 12 g2 printkcor k return 0 output k core 2 3 4 6 3 2 4 6 7 4 2 3 6 7 6 2 3 4 7 7 3 4 6 k core time complex solut v e v number vertic e number edg 
+relat concept degeneraci degeneraci graph largest valu k graph k core 
+exampl shown graph 3 core 4 higher core 
+therefor graph 3 degener 
+degeneraci graph use measur spars graph 
+refer http en wikipedia org wiki degeneracy_ 28graph_theori 29 articl contribut rachit belwariar 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

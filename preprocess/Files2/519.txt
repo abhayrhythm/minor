@@ -1,0 +1,44 @@
+discuss implement revers dn look cach 
+forward dn look get ip address given domain name type web browser 
+cach follow oper 1 add map url ip address 2 find ip address given url 
+chang revers dn look cach need incorpor 
+1 instead 0 9 
+dot need take care z z 
+dot 
+domain name contain lowercas charact assum z 
+27 children trie node 
+2 type www googl googl browser take us page 
+need add domain name trie word www 
+similarli search domain name correspond ip address remov www 
+user provid 
+left exercis simplic taken care www 
+also 
+one solut use hash 
+post trie base solut discuss 
+one advantag trie base solut worst case upper bound 1 trie hash best possibl averag case time complex 1 
+also trie implement prefix search find ip common prefix url 
+gener disadvantag trie larg amount memori requir 
+idea store url trie node store correspond ip address last leaf node 
+follow c style implement c 
+c base program implement revers dn lookup includ stdio h includ stdlib h includ string h atmost 27 differ char valid url assum url consist z 
+defin char 27 maximum length valid url defin max 100 util function find index child given charact c int getindex char c return c 
+
+26 c util function find charact given child index 
+char getcharfromindex int return 26 
+
+trie node 
+struct trienod bool isleaf char ipadd struct trienod child char function creat new trie node 
+struct trienod newtrienod void struct trienod newnod new trienod newnod isleaf fals newnod ipadd null int 0 char newnod child null return newnod method insert url correspond ip address trie 
+last node trie contain ip address 
+void insert struct trienod root char url char ipadd length url int len strlen url struct trienod pcrawl root travers length url 
+int level 0 level len level get index child node current charact url index must 0 26 0 25 use alphabet 26 dot int index getindex url level creat new child exist alreadi pcrawl child index pcrawl child index newtrienod move child pcrawl pcrawl child index need carri last node 
+save correspond ip address url last node trie 
+pcrawl isleaf true pcrawl ipadd new char strlen ipadd 1 strcpi pcrawl ipadd ipadd function return ip address given url present dn cach 
+els return null char searchdnscach struct trienod root char url root node trie 
+struct trienod pcrawl root int len strlen url travers length url 
+int level 0 level len level int index getindex url level pcrawl child index return null pcrawl pcrawl child index find last node given ip address print ip address 
+pcrawl null pcrawl isleaf return pcrawl ipadd return null driver function 
+int main char url 50 www samsung com www samsung net www googl char ipadd max 107 108 11 123 107 109 123 255 74 125 200 106 int n sizeof url sizeof url 0 struct trienod root newtrienod insert domain name correspond ip address int 0 n insert root url ipadd forward dn look succe print url along resolv ip address 
+char url www samsung com char res_ip searchdnscach root url res_ip null printf forward dn look resolv cach n url res_ip els printf forward dn look resolv cach return 0 output forward dn look resolv cach www samsung com 107 108 11 123 articl contribut kumar gautam 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

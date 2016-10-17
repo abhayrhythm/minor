@@ -1,0 +1,9 @@
+split string delimit common task 
+exampl comma separ list item file want individu item array 
+almost program languag provid function split string delimit 
+c c split str accord given delimit 
+return next token 
+need call loop get token 
+return null token 
+char strtok char str const char delim c c program split string use strtok includ stdio h includ string h int main char str geek geek return first token char token strtok str keep print token one delimit present str 
+token null printf n token token strtok null return 0 output geek geek 

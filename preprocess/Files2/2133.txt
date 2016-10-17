@@ -1,0 +1,3 @@
+time pointer array access treat act major except 1 sizeof oper sizeof array return amount memori use element array sizeof pointer return amount memori use pointer variabl 2 oper array alia array 0 return address first element array pointer return address pointer 3 string liter initi charact array char array abc set first four element array b c 0 char pointer abc set pointer address abc string may store read memori thu unchang 4 pointer variabl assign valu wherea array variabl cannot 
+int 10 int p p legal p illeg 5 arithmet pointer variabl allow 
+p legal illeg refer http icecub wisc edu dglo c_class array_ptr html adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

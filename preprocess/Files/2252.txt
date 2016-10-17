@@ -1,0 +1,87 @@
+
+Given a range [low..high], print the smallest twin numbers in given range (low and high inclusive). Two numbers are twins if they are primes and there difference is 2.
+Example:
+
+Input:  low = 10,  high = 100
+Output: Smallest twins in given range: (11, 13)
+Both 11 and 13 are prime numbers and difference 
+between them is two, therefore twins.  And these
+are the smallest twins in [10..100]
+
+Input:  low = 50,  high = 100
+Output: Smallest twins in given range: (59, 61) 
+We strongly recommend you to minimize your browser and try this yourself first.
+A Simple Solution is to start to start from low and for every number x check if x and  x + 2 are primes are not.  Here x varies from low to high-2.
+An Efficient Solution is to use Sieve of Eratosthenes
+
+1) Create a boolean array "prime[0..high]" and initialize all 
+   entries in it as true. A value in prime[i] will finally 
+   be false if i is not a prime number, else true.
+
+2) Run a loop from p = 2 to high. 
+    a) If prime[p] is true, then p is prime. [See this]
+    b) Mark all multiples of p as not prime in prime[]. 
+
+3) Run a loop from low to high and print the first twins
+   using prime[] built in step 2.   
+
+Below is C++ implementation of above idea.
+
+// C++ program to find the smallest twin in given range
+#include <bits/stdc++.h>
+using namespace std;
+
+void printTwins(int low, int high)
+{
+    // Create a boolean array "prime[0..high]" and initialize
+    // all entries it as true. A value in prime[i] will finally
+    // be false if i is Not a prime, else true.
+    bool prime[high+1];
+    memset(prime, true, sizeof(prime));
+
+    prime[0] = prime[1] = false;
+
+    // Look for the smallest twin
+    for (int p=2; p<=floor(sqrt(high))+1; p++)
+    {
+        // If p is not marked, then it is a prime
+        if (prime[p])
+        {
+            // Update all multiples of p
+            for (int i=p*2; i<=high; i += p)
+                prime[i] = false;
+        }
+    }
+
+    // Now print the smallest twin in range
+    for (int i=low; i<=high; i++)
+    {
+        if (prime[i] && prime[i+2])
+        {
+            cout << "Smallest twins in given range: ("
+                 << i << ", " << i+2 <<  ")";
+            break;
+        }
+    }
+}
+
+// Driver program
+int main()
+{
+    printTwins(10, 100);
+    return 0;
+}
+
+Output:
+Smallest twins in given range: (11, 13)
+Thanks to Utkarsh Trivedi for suggesting this solution.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

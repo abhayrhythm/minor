@@ -1,0 +1,26 @@
+project base upon web base uml design 
+main reason select topic day boom internet user want complet work less time effici manner 
+main object tool provid good qualiti onlin tool help one draw uml design optim time 
+drag drop facil give great power user 
+core function user modul registr use featur tool user regist login help correct usernam password user login view old design help function user see previou diagram save system 
+draw modul modul provid facil user draw relat diagram help differ tool provid 
+tool contain differ shape line use design diagram 
+user simpli drag drop symbol draw area 
+tool differ diagram categor tool class diagram tool use case diagram tool sequenc diagram tool erd tool flow chart custom modul tool provid follow function user chang font user chang font face size requir 
+resiz facil user chang size differ shape use diagram 
+style user facil make symbol 3d 
+chang color user chang color differ symbol 
+archiv facil user save diagram directli system 
+save facil help user save diagram server form pdf imag 
+enhanc function gener class diagram user fill form full specif class like name class attribut method 
+mention parent class detail class 
+click gener button inform pass server 
+tool draw class diagram output 
+user facil save 
+special function templat edit develop provid predefin class diagram templat differ topic like hotel manag system 
+user facil edit templat need save 
+video record user record design process futur purpos 
+languag use php server side actionscript client side mysql dbm project idea contribut mohit kumar 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

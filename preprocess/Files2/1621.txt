@@ -1,0 +1,33 @@
+given set link e g 
+b b c b e print tree would form pair link charact start end point join togeth 
+maintain fidel w r 
+height node e 
+node height n root print row column 
+set link given tree print b c e note link need form singl tree could form ahem forest 
+consid follow link b g b c c e c f z x x w output would follow forest 
+b c e f g z x w assum given link form tree forest tree duplic among link 
+solut idea maintain two array one array tree node tree call array forest 
+element node array contain treenod object correspond respect charact 
+element forest array contain tree object correspond respect root tree 
+obviou crucial part creat forest creat print requir format straightforward 
+creat forest follow procedur use follow input link 1 start link present node array creat treenod object start charact add entri start array 
+2 end link present node array creat treenod object start charact add entri end node array 
+3 end link present node array 
+end link present forest array remov 
+4 add edg tree start end node link 
+clear procedur run linear time number node well link make one pass link 
+also requir linear space term alphabet size 
+follow java implement algorithm 
+follow implement charact assum lower case charact z 
+java program creat custom tree given set link 
+main class repres tree main method public class tree privat treenod root return array tree link input 
+link assum string form e e start end point link 
+return array size 26 non null valu index correspond root tree output public tree buildfromlink string link creat two array node forest treenod node new treenod 26 tree forest new tree 26 process link string link link find two end current link string end link split int start int end 0 charat 0 start node int end int end 1 charat 0 end node start link seen add two array node start null node start new treenod char start note may remov later charact last charact link 
+exampl let first see b c 
+first add array tree see link c remov tree array 
+forest start new tree node start end link seen add node array node end null node end new treenod char end end link seen remov forest exist 
+els forest end null establish parent child relationship start end node start addchild node end end return forest constructor public tree treenod root root root public static void printforest string link tree new tree new treenod 0 tree t1 buildfromlink link t1 null t1 root printtreeid system println driver method test public static void main string arg string links1 b b c b e system println forest 1 printforest links1 string links2 b g b c c e c f z x x w system println forest 2 printforest links2 class repres tree node class treenod treenod children char c add child n node public void addchild treenod n int index children index n constructor public treenod char c c c children new treenod 26 recurs method print indent tree root node 
+public void printtreeid string indent system println indent c treenod child children child null child printtreeid indent output forest 1 b c e forest 2 b c e f g z x w exercis implement endpoint input link assum set 26 charact 
+extend implement endpoint string length 
+articl contribut ciph 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

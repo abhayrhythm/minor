@@ -1,0 +1,3 @@
+
+In C++, what is the difference between exit(0) and return 0 ?
+When exit(0) is used to exit from program, destructors for locally scoped non-static objects are not called. But destructors are called if return 0 is used. 

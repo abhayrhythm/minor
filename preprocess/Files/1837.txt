@@ -1,0 +1,97 @@
+
+Void functions are “void” due to the fact that they are not supposed to return values. True, but not completely. We cannot return values but there is something we can surely return from void functions. Some of cases are listed below.
+ 
+A void function can do return
+We can simply write return statement in a void fun().  In-fact it is considered a good practice (for readability of code) to write return; statement to indicate end of function.
+
+#include <iostream>
+using namespace std;
+
+void fun()
+{
+   cout << "Hello";
+
+   // We can write return in void
+   return; 
+}
+
+int main()
+{
+   fun();
+   return 0;
+}
+
+Output :
+Hello
+ 
+A void fun() can return another void function
+
+// C++ code to demonstrate void()
+// returning void()
+#include<iostream>
+using namespace std;
+
+// A sample void function
+void work()
+{
+    cout << "The void function has returned "
+            " a void() !!! \n";
+}
+
+// Driver void() returning void work()
+void test()
+{
+    // Returning void function
+    return work();
+}
+
+int main()
+{
+    // Calling void function
+    test();
+    return 0;
+}
+
+Output:
+
+The void function has returned a void() !!! 
+
+The above code explains how void() can actually be useful to return void functions without giving error.
+ 
+A void() can return a void value.
+A void() cannot return a value that can be used. But it can return a value which is void without giving an error.
+
+// C++ code to demonstrate void()
+// returning a void value
+#include<iostream>
+using namespace std;
+
+// Driver void() returning a void value
+void test()
+{
+    cout << "Hello";  
+ 
+    // Returning a void value
+    return (void)"Doesn't Print";
+}
+int main()
+{  
+    test();
+    return 0;
+}
+
+Output:
+
+Hello
+
+This article is contributed by Manjeet Singh   .If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

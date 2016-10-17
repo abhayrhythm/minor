@@ -1,0 +1,25 @@
+game consid n n array squar 
+squar empti solid non solid squar mark integ 1 2 3 integ occupi exactli two differ squar board 
+task player connect two occurr integ board simpl path use horizont vertic movement alon 
+two differ path allow intersect one anoth 
+path may includ solid squar solid squar forbidden appear path 
+final non solid squar must fill path 
+algorithm prepar valid random puzzl given board size n n first gener random simpl mutual non intersect path board 
+isol squar remain outsid gener path mark isol squar solid forbidden 
+suppli endpoint path list solid squar puzzl 
+thu first gener solut work puzzl solut 
+path solid squar partit n n board 
+use union find data structur gener partit 
+data structur deal subset set n 2 squar board 
+pseudocod locat squar j k l randomli board j k l neighbor one anoth b neither j k l belong path gener far 
+pair squar found entir board return failur j k l first two squar new path construct 
+make union two union find tree contain j k l 
+repeat long current path extend renam j k l 
+locat random neighbor squar k l j k l belong path gener far includ current one b neighbor k l partial construct current path j 
+neighbor k l found path cannot extend break loop otherwis make union two union find tree j k l belong 
+set endpoint flag two squar begin end new path 
+return success complet run code articl 
+articl contribut vaibhav aggarw 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

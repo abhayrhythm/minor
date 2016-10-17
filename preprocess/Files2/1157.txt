@@ -1,0 +1,8 @@
+given array valu find triplet array whose sum equal given valu 
+triplet present array print triplet return true 
+els return fals 
+exampl given array 12 3 4 1 6 9 given sum 24 triplet 12 3 9 present array whose sum 24 strongli recommend click practic move solut 
+method 1 naiv simpl method gener possibl triplet compar sum everi triplet given valu 
+follow code implement simpl method use three nest loop 
+c includ stdio h return true triplet sum equal sum present 
+also print triplet bool find3numb int int arr_siz int sum int l r fix first element int 0 arr_siz 2 fix second element j int j 1 j arr_siz 1 j look third number int k j 1 k arr_siz k j k sum printf triplet j k return true reach triplet found return fals driver program test function int main int 1 4 45 6 10 8 int sum 22 int arr_siz sizeof sizeof 0 find3numb arr_siz sum getchar return 0 

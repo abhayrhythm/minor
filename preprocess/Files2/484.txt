@@ -1,0 +1,46 @@
+suppos want design system store employe record key use phone number 
+want follow queri perform effici insert phone number correspond inform 
+search phone number fetch inform 
+delet phone number relat inform 
+think use follow data structur maintain inform differ phone number 
+array phone number record 
+link list phone number record 
+balanc binari search tree phone number key 
+direct access tabl 
+array link list need search linear fashion costli practic 
+use array keep data sort phone number search logn time use binari search insert delet oper becom costli maintain sort order 
+balanc binari search tree get moder search insert delet time 
+oper guarante logn time 
+anoth solut one think use direct access tabl make big array use phone number index array 
+entri array nil phone number present els array entri store pointer record correspond phone number 
+time complex wise solut best among oper 1 time 
+exampl insert phone number creat record detail given phone number use phone number index store pointer creat record tabl 
+solut mani practic limit 
+first problem solut extra space requir huge 
+exampl phone number n digit need 10n space tabl size pointer record 
+anoth problem integ program languag may store n digit 
+due limit direct access tabl cannot alway use 
+hash solut use almost situat perform extrem well compar data structur like array link list balanc bst practic 
+hash get 1 search time averag reason assumpt n worst case 
+hash improv direct access tabl 
+idea use hash function convert given phone number key smaller number use small number index tabl call hash tabl 
+hash function function convert given big phone number small practic integ valu 
+map integ valu use index hash tabl 
+simpl term hash function map big number string small integ use index hash tabl 
+good hash function follow properti 1 effici comput 
+2 uniformli distribut key tabl posit equal like key exampl phone number bad hash function take first three digit 
+better function consid last three digit 
+pleas note may best hash function 
+may better way 
+hash tabl array store pointer record correspond given phone number 
+entri hash tabl nil exist phone number hash function valu equal index entri 
+collis handl sinc hash function get us small number big key possibl two key result valu 
+situat newli insert key map alreadi occupi slot hash tabl call collis must handl use collis handl techniqu 
+follow way handl collis chain idea make cell hash tabl point link list record hash function valu 
+chain simpl requir addit memori outsid tabl 
+open address open address element store hash tabl 
+tabl entri contain either record nil 
+search element one one examin tabl slot desir element found clear element tabl 
+next post separ chain collis handl open address collis handl refer mit video lectur iitd video lectur introduct algorithm second edit thoma h cormen charl e leiserson ronald l rivest clifford stein 
+http www cs princeton edu rs algsds07 10hash pdf http www martinbroadhurst com articl hash tabl html pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push 

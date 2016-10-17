@@ -1,0 +1,9 @@
+given two binari tree write function return true two tree mirror els fals 
+exampl function return true follow input tree 
+strongli recommend click practic move solut 
+problem differ problem discuss 
+two tree b mirror imag follow three condit must true root node key must left subtre root right subtre root b mirror 
+right subtre left subtre b mirror 
+c implement idea 
+c c program check two tree mirror includ bit stdc h use namespac std binari tree node data pointer left child pointer right child struct node int data node left right given two tree return true mirror int aremirror node node b base case empti null b null return true one empti null b null return fals non empti compar recurs note recurs call pass left one tree right tree return data b data aremirror left b right aremirror right b left helper function alloc new node node newnod int data node node new node node data data node left node right null return node driver program test aremirror int main node newnod 1 node b newnod 1 left newnod 2 right newnod 3 left left newnod 4 left right newnod 5 b left newnod 3 b right newnod 2 b right left newnod 5 b right right newnod 4 aremirror b 
+cout ye cout return 0 

@@ -1,0 +1,26 @@
+
+In C++, Reference variables are safer than pointers because reference variables must be initialized and they cannot be changed to refer to something else once they are initialized.  But there are exceptions where we can have invalid references.
+1) Reference to value at uninitialized pointer.
+
+  int *ptr;
+  int &ref = *ptr;  // Reference to value at some random memory location
+
+2) Reference to a local variable is returned.
+
+int& fun()
+{
+   int a = 10;
+   return a;
+}
+
+Once fun() returns, the space allocated to it on stack frame will be taken back. So the reference to a local variable will not be valid.
+Please write comments if you find anything incorrect in the above GFact or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

@@ -1,0 +1,29 @@
+given sequenc non neg integ find subsequ length 3 maximum product number subsequ ascend order 
+exampl input arr 6 7 8 1 2 3 9 10 output 8 9 10 input arr 1 5 10 8 9 output 5 8 9 sinc want find maximum product need find follow two thing everi element given sequenc lsl largest smaller element left given element lgr largest greater element right given element 
+find lsl lgr element find product element lsl lgr exist 
+calcul product everi element return maximum product 
+simpl method use nest loop 
+outer loop travers everi element sequenc 
+insid outer loop run two inner loop one find lsl lgr current element 
+time complex method n2 
+nlogn time 
+simplic let us first creat two array lsl lgr size n n number element input array arr 
+main task fill two array lsl lgr 
+two array fill need find maximum product lsl arr lgr 0 n 1 note lsl exist 0 lgr exist n 1 
+fill lsl nlogn time 
+idea use balanc binari search tree like avl 
+start empti avl tree insert leftmost element 
+travers input array start second element second last element 
+everi element current travers find floor avl tree 
+floor exist store floor lsl otherwis store nil 
+store floor insert current element avl tree 
+fill lgr n time 
+idea similar post 
+travers right side keep track largest element 
+largest element greater current element store lgr otherwis store nil 
+final run n loop return maximum lsl arr lgr overal complex approach nlogn n n nlogn 
+auxiliari space requir n 
+note avoid space requir lsl find use lsl valu final loop 
+articl contribut amit jain 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

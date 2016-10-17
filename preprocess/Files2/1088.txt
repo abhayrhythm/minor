@@ -1,0 +1,18 @@
+given sort array posit integ count number occurr element array 
+assum element array less constant without travers complet array 
+e 
+expect time complex less n 
+exampl input arr 1 1 1 2 3 3 5 5 8 8 8 9 9 10 output element 1 occur 3 time element 2 occur 1 time element 3 occur 2 time element 5 occur 2 time element 8 occur 3 time element 9 occur 2 time element 10 occur 1 time method 1 linear search idea travers input array distinct element array store frequenc map final print map 
+approach take n time 
+method 2 use binari search problem solv less n use modifi binari search 
+idea recurs divid array two equal subarray end element differ 
+end element mean element subarray also array alreadi sort 
+simpli increment count element size subarray 
+time complex approach log n number distinct element array size n sinc constant time complex solut log n 
+c implement idea c program count number occurr element array less n time includ iostream includ vector use namespac std recurs function count number occurr element array without travers whole array void findfrequencyutil int arr int low int high vector int freq element index low equal element index high array arr low arr high increment frequenc element count element high low freq arr low high low 1 els find mid recurs left right subarray int mid low high 2 findfrequencyutil arr low mid freq findfrequencyutil arr mid 1 high freq wrapper recurs function findfrequencyutil 
+print number occurr element array 
+void findfrequ int arr int n creat empti vector store frequenc initi 0 size vector maximum valu last valu sort array plu 1 vector int freq arr n 1 1 0 fill vector frequenc findfrequencyutil arr 0 n 1 freq print frequenc int 0 arr n 1 freq 0 cout element occur freq time endl driver function int main int arr 1 1 1 2 3 3 5 5 8 8 8 9 9 10 int n sizeof arr sizeof arr 0 findfrequ arr n return 0 output element 1 occur 3 time element 2 occur 1 time element 3 occur 2 time element 5 occur 2 time element 8 occur 3 time element 9 occur 2 time element 10 occur 1 time articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

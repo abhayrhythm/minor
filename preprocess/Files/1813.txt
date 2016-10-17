@@ -1,0 +1,111 @@
+
+Prerequisite : Namespaces in C++
+An inline namespace is a namespace that uses the optional keyword inline in its original-namespace-definition.
+
+// C++ program to demonstrate working of
+// inline namespaces
+#include <iostream>
+using namespace std;
+
+namespace ns1
+{
+   inline namespace ns2
+   {
+       int var = 10;
+   }
+}
+
+int main()
+{
+   cout << ns1::var;
+   return 0;
+}
+Output:
+
+10
+
+We can see from above example that members of an inline namespace are treated as if they are members of the enclosing namespace in many situations (listed below). This property is transitive: if a namespace N contains an inline namespace M, which in turn contains an inline namespace O, then the members of O can be used as though they were members of M or N.
+
+// C++ program to demonstrate working of
+// inline namespaces inside inline namespaces
+
+#include <iostream>
+using namespace std;
+
+namespace ns1
+{
+    inline namespace ns2
+    {
+        inline namespace ns3
+        {
+            int var = 10;
+        }
+    }
+}
+
+int main()
+{
+    cout << ns1::var;
+    return 0;
+}
+
+Output:
+
+10
+
+The inline specifier makes the declarations from the nested namespace appear exactly as if they had been declared in the enclosing namespace. This means it drags out the declaration (“var” in the above example) from a nested namespace to the containing namespace.
+Advantages of using inline namespaces:
+
+ Avoid verbose :Consider the above code, if you want to print “var”, you write:
+  cout << ns1::ns2::ns3::var;
+	This looks good only if namespace's names are short as in the above example. But by using inline with namespaces there is no need to type the entire namespace as given above or use the "using" directive.
+Support of Library :The inline namespace mechanism is intended to support library evolution by providing a mechanism that supports a form of versioning. Refer this for details.
+
+"Using" directive
+This same behavior (same as inline namesapces) can also be achieved by using the "using" declarative inside namespaces. A using-directive that names the inline namespace is implicitly inserted in the enclosing namespace (similar to the implicit using-directive for the unnamed namespace).  Consider the following C++ code:
+
+// C++ program to demonstrate working
+// of "using" to get the same effect as
+// inline.
+#include <iostream>
+using namespace std;
+
+namespace ns1
+{
+    namespace ns2
+    {
+        namespace ns3
+        {
+            int var = 10;
+        }
+        using namespace ns3;
+    }
+    
+    using namespace ns2;
+}
+
+int main()
+{
+    cout << ns1::var;
+    return 0;
+}
+
+Output :
+
+10
+
+Here again, the using directive makes the declarations from the nested namespace appear exactly as if they had been declared in the enclosing namespace.
+Also see: Nesting of namespaces
+
+References: http://en.cppreference.com/w/cpp/language/namespace
+This article is contributed by Arnav Shrivastava . If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

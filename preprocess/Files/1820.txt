@@ -1,0 +1,234 @@
+
+Some of the merge operation classes are provided in C++ STL under the header file “algorithm”, which facilitates several merge operations in a easy manner. Some of them are mentioned below.
+1. merge(beg1, end1, beg2, end2, beg3) :- This function merges two sorted containers and stores in new container in sorted order (merge sort). It takes 5 arguments, first and last iterator of 1st container, first and last iterator of 2nd container and 1st iterator of resultant container.
+2. includes(beg1, end1, beg2, end2) :- This function is used to check whether one sorted container elements are including other sorted container elements or not. Returns true if 1st container includes 2nd container else returns false.
+
+// C++ code to demonstrate the working of 
+// merge() and include()
+#include<iostream>
+#include<algorithm> // merge operations
+#include<vector> // for vector
+using namespace std;
+int main()
+{
+ // Initializing 1st vector
+ vector<int> v1 = {1, 3, 4, 5, 20, 30};
+    
+ // Initializing 2nd vector
+ vector<int> v2 = {1, 5, 6, 7, 25, 30};
+    
+ // Declaring resultant vector
+ // for mergeing
+ vector<int> v3(12);
+    
+ // Using merge() to merge vectors v1 and v2
+ // and storing result in v3
+ merge(v1.begin(), v1.end(), v2.begin(), 
+                   v2.end(), v3.begin());
+    
+ // Displaying resultant container
+ cout << "The new container after merging is :\n";
+ for (int &x : v3) 
+     cout << x << " ";
+ cout << endl;
+ 
+ // Initializing new vector
+ vector<int> v4 = {1, 3, 4, 5, 6, 20, 25, 30};
+ 
+ // Using include() to check if v4 contains v1
+ includes(v4.begin(), v4.end(), v1.begin(), v1.end())?
+        cout << "v4 includes v1":
+        cout << "v4 does'nt include v1";
+ 
+ return 0;    
+}
+
+Output
+
+The new container after merging is :
+1 1 3 4 5 5 6 7 20 25 30 30 
+v4 includes v1
+
+
+3. inplace_merge(beg1, beg2, end) :- This function is used to sort two consecutively placed sorted ranges in a single container. It takes 3 arguments, iterator to beginning of 1st sorted range, iterator to beginning of 2nd sorted range, and iterator to last position.
+
+
+// C++ code to demonstrate the working of 
+// inplace_merge()
+#include<iostream>
+#include<algorithm> // merge operations
+#include<vector> // for vector
+using namespace std;
+int main()
+{
+ 
+ // Initializing 1st vector
+ vector<int> v1 = {1, 3, 4, 5, 20, 30};
+    
+ // Initializing 2nd vector
+ vector<int> v2 = {1, 5, 6, 7, 25, 30};
+    
+ // Declaring resultant vector
+ // for inplace_merge()
+ vector<int> v3(12);
+ 
+ // using copy to copy both vectors into 
+ // one container
+ auto it = copy(v1.begin(), v1.end(), v3.begin());
+ copy(v2.begin(), v2.end(), it);
+ 
+ // Using inplace_merge() to sort the container
+ inplace_merge(v3.begin(),it,v3.end());
+    
+ // Displaying resultant container
+ cout << "The new container after inplace_merging is :\n";
+ for (int &x : v3) 
+     cout << x << " ";
+ cout << endl;
+
+ return 0;
+    
+}
+
+Output:
+
+The new container after inplace_merging is :
+1 1 3 4 5 5 6 7 20 25 30 30 
+
+
+One way to implement set-union and set-intersection in sorted ranges can be found here
+4. set_union(beg1, end1, beg2, end2, beg3) :- This function computes the set union of two containers and stores in new container.It returns the iterator to the last element of resultant container. It takes 5 arguments, first and last iterator of 1st container, first and last iterator of 2nd container and 1st iterator of resultant container. The containers should be sorted and it is necessary that new container is resized to suitable size.
+5. set_intersection(beg1, end1, beg2, end2, beg3) :- This function computes the set intersection of two containers and stores in new container.It returns the iterator to the last element of resultant container. It takes 5 arguments, first and last iterator of 1st container, first and last iterator of 2nd container and 1st iterator of resultant container. The containers should be sorted and it is necessary that new container is resized to suitable size.
+
+// C++ code to demonstrate the working of 
+// set_union() and set_intersection()
+#include<iostream>
+#include<algorithm> // for merge operations
+#include<vector> // for vector
+using namespace std;
+int main()
+{
+ // Initializing 1st vector
+ vector<int> v1 = {1, 3, 4, 5, 20, 30};
+    
+ // Initializing 2nd vector
+ vector<int> v2 = {1, 5, 6, 7, 25, 30};
+    
+ // Declaring resultant vector
+ // for union
+ vector<int> v3(10);
+    
+ // Declaring resultant vector
+ // for intersection
+ vector<int> v4(10);
+    
+ // using set_union() to compute union  of 2 
+ // containers v1 and v2 and store result in v3
+ auto it = set_union(v1.begin(), v1.end(), v2.begin(), 
+                              v2.end(), v3.begin());
+    
+ // using set_intersection() to compute intersection
+ // of 2 containers v1 and v2 and store result in v4
+ auto it1 = set_intersection(v1.begin(),v1.end(), 
+               v2.begin(), v2.end(), v4.begin());
+    
+ // resizing new container
+ v3.resize(it - v3.begin());
+    
+ // resizing new container
+ v4.resize(it1 - v4.begin());
+    
+ // Displaying set union
+ cout << "Union of two containers is : ";
+ for (int &x : v3) 
+     cout << x << " ";
+ cout << endl;
+    
+ // Displaying set intersection
+ cout << "Intersection of two containers is : ";
+ for (int &x : v4) 
+     cout << x << " ";
+ cout << endl;
+    
+ return 0;    
+}
+
+Output:
+
+Union of two containers is : 1 3 4 5 6 7 20 25 30 
+Intersection of two containers is : 1 5 30 
+
+
+6. set_difference(beg1, end1, beg2, end2, beg3) :- This function computes the set difference of two containers and stores in new container.It returns the iterator to the last element of resultant container. It takes 5 arguments, first and last iterator of 1st container, first and last iterator of 2nd container and 1st iterator of resultant container. The containers should be sorted and it is necessary that new container is resized to suitable size.
+7. set_symmetric_difference(beg1, end1, beg2, end2, beg3) :- This function computes the set symmetric difference of two containers and stores in new container.It returns the iterator to the last element of resultant container. It takes 5 arguments, first and last iterator of 1st container, first and last iterator of 2nd container and 1st iterator of resultant container. The containers should be sorted and it is necessary that new container is resized to suitable size.
+
+// C++ code to demonstrate the working of 
+// set_difference() and set_symmetric_difference()
+#include<iostream>
+#include<algorithm> // for merge operations
+#include<vector> // for vector
+using namespace std;
+int main()
+{
+ // Initializing 1st vector
+ vector<int> v1 = {1, 3, 4, 5, 20, 30};
+    
+ // Initializing 2nd vector
+ vector<int> v2 = {1, 5, 6, 7, 25, 30};
+    
+ // Declaring resultant vector
+ // for difference
+ vector<int> v3(10);
+    
+ // Declaring resultant vector
+ // for symmetric_difference
+ vector<int> v4(10);
+    
+    
+ // using set_difference() to compute difference
+ // of 2 containers v1 and v2.
+ auto it = set_difference(v1.begin(), v1.end(),
+              v2.begin(), v2.end(), v3.begin());
+    
+ // using set_symmetric_difference() to compute 
+ // symmetric_difference/ of 2 containers
+ auto it1 = set_symmetric_difference(v1.begin(), 
+       v1.end(), v2.begin(), v2.end(), v4.begin());
+    
+ // resizing new container
+ v3.resize(it - v3.begin());
+    
+ // resizing new container
+ v4.resize(it1 - v4.begin());
+    
+ // Displaying set difference
+ cout << "Difference of two containers is : ";
+ for (int &x : v3) 
+     cout << x << " ";
+ cout << endl;
+    
+ // Displaying set symmetric_difference
+ cout << "symmetric_difference of two containers is : ";
+ for (int &x : v4) 
+     cout << x << " ";
+ cout << endl;
+    
+ return 0;    
+}
+
+Output:
+
+Difference of two containers is : 3 4 20 
+Symmetric difference of two containers is : 3 4 6 7 20 25 
+
+This article is contributed by Manjeet Singh   .If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

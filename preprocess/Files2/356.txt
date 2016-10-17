@@ -1,0 +1,25 @@
+given n appoint find conflict appoint 
+exampl input appoint 1 5 3 7 2 6 10 15 5 6 4 100 output follow conflict interv 3 7 conflict 1 5 2 6 conflict 1 5 5 6 conflict 3 7 4 100 conflict 1 5 appoint conflict conflict previou appoint array 
+strongli recommend minim browser tri first 
+simpl solut one one process appoint second appoint last 
+everi appoint check conflict 1 2 0 time complex method n2 
+use interv tree solv problem nlogn time 
+follow detail algorithm 
+1 creat interv tree initi first appoint 
+2 follow appoint start second one 
+check current appoint conflict exist appoint interv tree 
+conflict print current appoint 
+step done logn time 
+b insert current appoint interv tree 
+step also done logn time 
+follow c implement idea 
+c program print conflict appoint given set appoint includ iostream use namespac std structur repres interv struct interv int low high structur repres node interv search tree struct itnod interv could also normal variabl int max itnod left right util function creat new interv search tree node itnod newnod interv itnod temp new itnod temp new interv temp max high temp left temp right null util function insert new interv search tree node 
+similar bst insert 
+low valu interv use tomaintain bst properti itnod insert itnod root interv base case tree empti new node becom root root null return newnod get low valu interv root int l root low root low valu smaller new interv goe left subtre low l root left insert root left els new node goe right subtre 
+els root right insert root right updat max valu ancestor need root max high root max high return root util function check given two interv overlap bool dooverlap interv i1 interv i2 i1 low i2 high i2 low i1 high return true return fals main function search given interv given interv tree 
+interv overlapsearch itnod root interv base case tree empti root null return null given interv overlap root dooverlap root return root left child root present max left child greater equal given interv may overlap interv left subtre root left null root left max low return overlapsearch root left els interv overlap right subtre return overlapsearch root right function print conflict appoint given array apoint 
+void printconflict interv appt int n creat empti interv search tree add first appoint itnod root null root insert root appt 0 process rest interv int 1 n current appoint conflict exist interv print interv re overlapsearch root appt re null cout appt low appt high conflict re low re high n insert appoint root insert root appt driver program test function int main let us creat interv tree shown figur interv appt 1 5 3 7 2 6 10 15 5 6 4 100 int n sizeof appt sizeof appt 0 cout follow conflict interv n printconflict appt n return 0 output follow conflict interv 3 7 conflict 1 5 2 6 conflict 1 5 5 6 conflict 3 7 4 100 conflict 1 5 note implement use simpl binari search tree insert oper 
+therefor time complex implement nlogn 
+use red black tree avl tree balanc techniqu make implement nlogn 
+articl contribut anmol 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

@@ -1,0 +1,18 @@
+follow articl extens articl discuss 
+avl tree insert use rotat tool balanc insert caus imbal 
+red black tree use two tool balanc 
+1 recolor 2 rotat tri recolor first recolor work go rotat 
+follow detail algorithm 
+algorithm mainli two case depend upon color uncl 
+uncl red recolor 
+uncl black rotat recolor 
+color null node consid black 
+let x newli insert node 
+1 perform standard bst insert make color newli insert node red 
+2 x root chang color x black black height complet tree increas 1 
+3 follow color x parent black x root 
+x uncl red grand parent must black properti 4 chang color parent uncl black 
+ii color grand parent red 
+iii chang x x grandpar repeat step 2 3 new x 
+b x uncl black four configur x x parent p x grandpar g similar avl tree left left case p left child g x left child p ii left right case p left child g x right child p iii right right case mirror case iv right left case mirror case c follow oper perform four subcas uncl black 
+four case uncl black left left case see g p x left right case see g p x right right case see g p x right left case see g p x 

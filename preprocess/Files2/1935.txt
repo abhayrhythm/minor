@@ -1,0 +1,32 @@
+consid follow simpl program exampl runtim polymorph 
+includ iostream use namespac std class base public virtual void show cout base n class deriv public base public void show cout deriv n int main void base bp new deriv bp show run time polymorph return 0 output deriv main thing note program deriv class function call use base class pointer 
+idea virtual function call accord type object point refer accord type pointer refer 
+word virtual function resolv late runtim 
+use 
+virtual function allow us creat list base class pointer call method deriv class without even know kind deriv class object 
+exampl consid employe manag softwar organ let code simpl base class employe class contain virtual function like raisesalari transfer promot etc 
+differ type employe like manag engin etc may implement virtual function present base class employe 
+complet softwar need pass list employe everywher call appropri function without even know type employe 
+exampl easili rais salari employe iter list employe 
+everi type employe may logic class need worri raisesalari present specif employe type function would call 
+class employe public virtual void raisesalari common rais salari code virtual void promot common promot code class manag public employe virtual void raisesalari manag specif rais salari code may contain increment manag specif incent virtual void promot manag specif promot similarli may type employe need simpl function increment salari employe note emp array pointer actual point object type employe 
+function ideal class like organ made global keep thing simpl void globalraisesalari employe emp int n int 0 n emp raisesalari polymorph call call raisesalari accord actual object accord type pointer like globalraisesalari mani oper appropri done list employe without even know type actual object 
+virtual function use later languag like java keep method virtual default 
+compil magic late resolut 
+compil maintain two thing magic vtabl tabl function pointer 
+maintain per class 
+vptr pointer vtabl 
+maintain per object see exampl 
+compil add addit code two place maintain use vptr 
+1 code everi constructor 
+code set vptr object creat 
+code set vptr point vtabl class 
+2 code polymorph function call e g 
+bp show code 
+wherev polymorph call made compil insert code first look vptr use base class pointer refer exampl sinc point refer object deriv type vptr deriv class access 
+vptr fetch vtabl deriv class access 
+use vtabl address deriv deriv class function show access call 
+standard way implement run time polymorph c 
+c standard mandat exactli runtim polymoph must implement compil gener use minor variat basic model 
+quiz virtual function 
+refer http en wikipedia org wiki virtual_method_t http en wikipedia org wiki virtual_funct http www drbio cornel edu pl47 program ticpp 2nd ed vol one html frame html pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

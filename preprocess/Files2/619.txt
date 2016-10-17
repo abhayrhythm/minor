@@ -1,0 +1,38 @@
+1 5 year experienc guy current work one good product base compani whitefield bangalor 
+spent 1 2 year present compani previous spent 6 month tc pune 
+recent got chanc interview amazon bangalor referr made friend facebook p 
+prepar amazon last 6 8 month geeksforgeek org 
+must say geeksforgeek make life peopl 
+got offer amazon prepar geeksforgeek 
+question reach 25th floor wtc brigad gateway 25 peopl ask write code 3 question paper onsit written round 1 two number repres 2 linkedlist 
+find result linkedlist repres sum given linkedlist 
+2 given number say 12345 find immedi next number use digit case 12354 
+3 
+3 point triangl given 
+find given forth point lie insid outsid triangl 
+f2f round 1 1 given hotel checkin checkout time visitor find maximum number room requir 
+differ version train platform question 2 given sequenti place box repres number may posit neg need select number order maximum sum constraint seelct given box cannot select adjac box select 
+solut let box posit index array valu array valu 
+select valu index 0 cannot select valu index 1 select index 2 3 appli dynam program 
+f2f round 2 hire manag round hr call gave tip interview must say amazon interview peopl realli cool make candid feel comfort 
+told listen question care answer perfectli interview matter lot 
+1 ask experi work current compani 
+discuss last 1 hour explain deep ask cross question 
+2 given 2 number add without use arithmet oper 
+hint use binari oper specif gave answer question realli impress 
+also cool natur f2f round 3 1 discuss project work current compani 
+2 given gener stack design advanc ds getmin getmax happen 1 
+mani cross question 
+optim 
+hr told interview went well call last round interview 
+last f2f round bar raiser 1 given file mani line text word given dictionari api function boolean isvalid string word return true word pass function valid word dic return fals given pass argument valid word dic 
+read file check word well possibl word l r r l combin valid word dic 
+
+e g 
+say first line file name gourav word name possibl valid word name l r l r man r l r l 
+implement simpl question java code use hashmap avoid process alreadi process word 
+2 amazon 
+3 extraordinari work done compani scope design 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

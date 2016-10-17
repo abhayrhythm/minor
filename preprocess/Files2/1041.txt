@@ -1,0 +1,5 @@
+predict output follow c program 
+question 1 includ stdio h int main enum channel star soni zee enum symbol hash star int 0 star zee printf return 0 output compil error redeclar enumer star program enumart constant star appear two time main caus error 
+enumar constant must uniqu within scope defin 
+follow program work fine print 0 1 2 enumar constant automat get valu start 0 
+includ stdio h int main enum channel star soni zee int 0 star zee printf return 0 output 0 1 2 

@@ -1,0 +1,61 @@
+suffix tree use numer string process comput biolog problem 
+mani book e resourc talk theoret place code implement discuss 
+still felt someth miss easi implement code construct suffix tree usag mani applic 
+attempt bridg gap theori complet work code implement 
+discuss ukkonen suffix tree construct algorithm 
+discuss step step detail way multipl part theori implement 
+start brute forc way tri understand differ concept trick involv ukkonen algorithm last part code implement discuss 
+note may find portion algorithm difficult understand 1st 2nd read perfectli fine 
+attempt thought abl understand portion 
+book algorithm string tree sequenc comput scienc comput biolog dan gusfield explain concept well 
+suffix tree charact string root direct tree exactli leav number 1 given last string charact uniqu string root zero one children 
+intern node root least two children 
+edg label nonempti substr two edg come node edg label begin charact 
+concaten edg label path root leaf give suffix start posit e 
+
+note posit start 1 zero index later code implement use zero index posit string xabxac 6 suffix tree look like follow one root node two intern node 6 leaf node 
+string depth red path 1 repres suffix c start posit 6 string depth blue path 4 repres suffix bxca start posit 3 string depth green path 2 repres suffix ac start posit 5 string depth orang path 6 repres suffix xabxac start posit 1 edg label green xa orang non leaf edg end intern node 
+edg leaf edg end leaf one suffix match prefix anoth suffix last charact uniqu string path first suffix would end leaf 
+string xabxa 5 follow suffix tree 5 suffix xabxa abxa bxa xa path suffix xa end leaf 
+tree like figur 2 call implicit suffix tree suffix xa seen explicitli tree 
+avoid problem add charact present string alreadi 
+normal use etc termin charact 
+follow suffix tree string xabxa 6 6 suffix end leaf 
+naiv algorithm build suffix tree given string length enter singl edg suffix l entir string tree success enter suffix grow tree increas 2 let ni denot intermedi tree encod suffix 1 ni 1 construct ni follow start root ni find longest path root match prefix 1 match end either node say w middl edg say u v 
+middl edg u v break edg u v two edg insert new node w last charact edg match charact l first charact edg mismatch 
+new edg u w label part u v label match 1 new edg w v label remain part u v label 
+creat new edg w 1 w new leaf label 1 label new edg unmatch part suffix 1 take m2 build suffix tree string length follow step build suffix tree base string xabxa base algorithm implicit suffix tree gener suffix tree use ukkonen algorithm see implicit suffix tree intermedi step time depend charact string implicit suffix tree edg termin charact label intern node one edg go 
+get implicit suffix tree suffix tree remov termin symbol edg label tree remov edg label remov node one edg go merg edg 
+high level descript ukkonen algorithm ukkonen algorithm construct implicit suffix tree ti prefix l length 
+first build t1 use 1st charact t2 use 2nd charact t3 use 3rd charact tm use mth charact 
+implicit suffix tree ti 1 built top implicit suffix tree ti 
+true suffix tree built tm ad 
+time ukkonen algorithm build suffix tree charact seen far line properti may use situat 
+time taken 
+ukkonen algorithm divid phase one phase charact string length phase 1 tree ti 1 built tree ti 
+phase 1 divid 1 extens one 1 suffix 1 1 extens j phase 1 algorithm first find end path root label substr j 
+extend substr ad charact 1 end alreadi 
+extens 1 phase 1 put string 1 1 tree 
+1 alreadi present tree due previou phase need add 1 th charact tree alreadi 
+extens 2 phase 1 put string 2 1 tree 
+2 alreadi present tree due previou phase need add 1 th charact tree alreadi extens 3 phase 1 put string 3 1 tree 
+3 alreadi present tree due previou phase need add 1 th charact tree alreadi 
+
+extens 1 phase 1 put string 1 1 tree 
+one charact may tree charact seen first time far 
+add new leaf edg label 1 
+high level ukkonen algorithm construct tree t1 1 1 begin phase 1 j 1 1 begin extens j find end path root label j current tree 
+extend path ad charact l alreadi end end suffix extens ad next charact suffix tree built far 
+extens j phase 1 algorithm find end j alreadi tree due previou phase extend j sure suffix j 1 tree 
+3 extens rule rule 1 path root label j end leaf edg e 
+last charact leaf edg charact 1 ad end label leaf edg 
+rule 2 path root label j end non leaf edg e 
+charact path next charact 1 new leaf edg label 1 number j creat start charact 1 
+new intern node also creat 1 end insid non leaf edg 
+rule 3 path root label j end non leaf edg e 
+charact path next charact 1 alreadi tree noth 
+one import point note given node root intern one one edg start one charact 
+one edg go node start charact 
+follow step step suffix tree construct string xabxac use ukkonen algorithm next part part 2 part 3 part 4 part 5 discuss suffix link activ point trick final code implement part 6 
+refer http web stanford edu mjkay gusfield pdf articl contribut anurag singh 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

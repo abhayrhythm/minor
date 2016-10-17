@@ -1,0 +1,12 @@
+given squar matrix find toeplitz matrix 
+toeplitz diagon constant matrix matrix descend diagon left right constant e element diagon 
+gener n n matrix mat toeplitz matrix everi cell mat j mat 1 j 1 mat 1 j 1 mat 2 j 2 mat 2 j 2 everi cell mat j valid cell mat k j k mat k j k exampl input mat n n 6 7 8 4 6 7 1 4 6 output true valu diagon 
+input mat n n 6 7 8 9 4 6 7 8 1 4 6 7 0 1 4 6 2 0 1 4 output true input mat n n 6 3 8 4 9 7 1 4 6 output fals idea simpl 
+element first row first column last row last column matrix check descend diagon start element valu 
+found diagon differ valu return fals 
+c program check whether given matrix toeplitz matrix includ iostream use namespac std defin n 5 defin 4 function check element present descend diagon start posit j matrix bool checkdiagon int mat n int int j int re mat j n j mismatch found mat j re return fals reach element given diagon return true function check whether given matrix toeplitz matrix bool istoepliz int mat n element first row int 0 check descend diagon start posit 0 j matrix checkdiagon mat 0 return fals element first column int 1 n check descend diagon start posit 0 matrix checkdiagon mat 0 return fals reach descend diagon left right return true driver code int main int mat n 6 7 8 9 4 6 7 8 1 4 6 7 0 1 4 6 2 0 1 4 istoepliz mat cout matrix toepliz els cout matrix toepliz return 0 output matrix toepliz time complex solut would n2 travers element matrix 
+refer http en wikipedia org wiki toeplitz_matrix articl contribut aditya goel 
+like geeksforgeek would like contribut also write articl use contribut geeksforgeek org mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss 
+adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 

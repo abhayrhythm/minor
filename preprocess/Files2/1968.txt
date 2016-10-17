@@ -1,0 +1,5 @@
+discuss similar topic java 
+unlik java c allow give restrict access deriv class method 
+exampl follow program compil fine 
+includ iostream use namespac std class base public virtual int fun int class deriv public base privat int fun int x int main program chang main follow get compil error becuas fun privat deriv class 
+int main deriv fun 1 return 0 

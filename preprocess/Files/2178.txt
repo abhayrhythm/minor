@@ -1,0 +1,121 @@
+
+Given an integer n, calculate square of a number without using *, / and pow(). 
+Examples:
+
+Input: n = 5
+Output: 25
+
+Input: 7
+Output: 49
+
+Input: n = 12
+Output: 144
+
+A Simple Solution is to repeatedly add n to result.  Below is C++ implementation of this idea.
+
+// Simple solution to calculate square without
+// using * and pow()
+#include<iostream>
+using namespace std;
+
+int square(int n)
+{
+   // handle negative input
+   if (n<0) n = -n;
+
+   // Initialize result
+   int res = n;
+
+   // Add n to res n-1 times
+   for (int i=1; i<n; i++)
+       res += n;
+
+   return res;
+}
+
+// drive program
+int main()
+{
+    for (int n = 1; n<=5; n++)
+        cout << "n = " << n << ", n^2 = "
+             << square(n) << endl;
+    return 0;
+}
+
+Output
+n = 1, n^2 = 1
+n = 2, n^2 = 4
+n = 3, n^2 = 9
+n = 4, n^2 = 16
+n = 5, n^2 = 25
+Time complexity of above solution is O(n).  We can do it in O(Logn) time using bitwise operators. The idea is based on the following fact.
+
+  square(n) = 0 if n == 0
+  if n is even 
+     square(n) = 4*square(n/2) 
+  if n is odd
+     square(n) = 4*square(floor(n/2)) + 4*floor(n/2) + 1 
+
+Examples
+  square(6) = 4*square(3)
+  square(3) = 4*(square(1)) + 4*1 + 1 = 9
+  square(7) = 4*square(3) + 4*3 + 1 = 4*9 + 4*3 + 1 = 49
+
+How does this work?
+
+If n is even, it can be written as
+  n = 2*x 
+  n2 = (2*x)2 = 4*x2
+If n is odd, it can be written as 
+  n = 2*x + 1
+  n2 = (2*x + 1)2 = 4*x2 + 4*x + 1
+floor(n/2) can be calculated using bitwise right shift operator. 2*x and 4*x can be calculated 
+Below is C++ implementation based on above idea.
+
+// Square of a number using bitwise operators
+#include<iostream>
+using namespace std;
+
+int square(int n)
+{
+    // Base case
+    if (n==0) return 0;
+
+    // Handle negative number
+    if (n < 0) n = -n;
+
+    // Get floor(n/2) using right shift
+    int x = n>>1;
+
+    // If n is odd
+    if (n&1)
+        return ((square(x)<<2) + (x<<2) + 1);
+    else // If n is even
+        return (square(x)<<2);
+}
+
+// drive program
+int main()
+{
+    for (int n = 1; n<=5; n++)
+        cout << "n = " << n << ", n^2 = " << square(n) << endl;
+    return 0;
+}
+
+Output
+n = 1, n^2 = 1
+n = 2, n^2 = 4
+n = 3, n^2 = 9
+n = 4, n^2 = 16
+n = 5, n^2 = 25
+Time complexity of the above solution is O(Logn).
+This article is contributed by Ujjwal Jain. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+Company Wise Coding Practice
+   Topic Wise Coding Practice

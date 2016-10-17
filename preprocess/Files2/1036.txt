@@ -1,0 +1,6 @@
+predict output follow c program 
+question 1 includ stdio h defin r 10 defin c 20 int main int p r c printf sizeof p getchar return 0 output 10 20 sizeof int 800 compil integ size 4 byte 
+pointer p de referenc henc yield type object 
+present case array array integ 
+print r c sizeof int 
+thank venki suggest solut 

@@ -19,12 +19,12 @@
 
 /* Change with of sidebar from 0 to 250px */
 #wrapper.menuDisplayed #sidebar-wrapper {
-    width: 300px;
+    width: 250px;
 }
 
 /* Since we added left padding, we need to shrink the width by 250px */
 #wrapper.menuDisplayed #page-content-wrapper {
-    padding-left: 300px;
+    padding-left: 250px;
 }
 
 

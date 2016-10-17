@@ -6,15 +6,17 @@ from nltk.tokenize import sent_tokenize
 import json
 import numpy as np
 import os.path
+import collections
+import hashlib
 
-list=[]
+
+liststop=[]
 cachedStopWords = stopwords.words("english")
-list=cachedStopWords
-
+liststop=cachedStopWords
 docs_len={}
 d1hash={}
 count=0
-
+d = collections.defaultdict(list)
 
 def removestop(s):
     text =s
@@ -78,6 +80,25 @@ def makestructd1hash(var):
     docs_len[var]=len(list)
 
 
+def MakeHash(var):
+    global d
+    list = []
+    hash_object = set()
+    print(var)
+    fp = open("preprocess/Files2/" + str(var) + ".txt", "r", encoding='utf-8')
+    strg = fp.read()
+
+    for x in strg.split('\n'):
+        x = x.replace(' ', '')
+        list.append(x)
+
+    for x in list:
+        y = hashlib.md5(x.encode())
+        y = y.hexdigest()
+        hash_object.add(y)
+    d[var] = hash_object
+
+
 def makestruct():
     global count
     path = 'preprocess/Files'
@@ -86,18 +107,24 @@ def makestruct():
 
     for i in range(1, count + 1):
         print("processing nlp of document :" + str(i))
-        applynlp(i)
+        #
+        # applynlp(i)
     for i in range(1, count + 1):
         print("processing document for d1hash :" + str(i))
         makestructd1hash(i)
+    for i in range(1, count + 1):
+        print("processing document for d sentence hash :" + str(i))
+        MakeHash(i)
 
 def process(request):
     global d1hash
+    global d
     makestruct()
     print("successfully created d1hash")
     print(count)
     np.save("preprocess/results/d1hash.npy", d1hash)
     np.save("preprocess/results/docslenhash.npy", docs_len)
+    np.save("preprocess/results/hash.npy", d)
     values = [{"words": k, "document reference": v} for k, v in d1hash.items()]
     fo = open("preprocess/results/d1hash.json", "w")
     fo.write(json.dumps(values, indent=4))

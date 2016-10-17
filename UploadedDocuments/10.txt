@@ -1,0 +1,33 @@
+well know fact known polynomi time solut np complet problem problem occur lot real world see exampl 
+must way handl 
+seen algorithm problem p approxim exampl 2 approxim travel salesman 
+better 
+polynomi time approxim scheme pta type approxim algorithm provid user control accuraci desir featur 
+algorithm take addit paramet ε 0 provid solut 1 ε approxim minim 1 ε maxim 
+exampl consid minim problem ε 0 5 solut provid pta algorithm 1 5 approxim 
+run time pta must polynomi term n howev exponenti term ε pta algorithm expon polynomi increas dramat ε reduc exampl runtim n 1 ε 
+problem 
+stricter scheme fulli polynomi time approxim scheme fpta 
+fpta algorithm need polynomi problem size n 1 ε 
+exampl 0 1 knapsack problem know 0 1 knapsack np complet 
+dp base pseudo polynomi solut 
+input valu high solut becom infeas need approxim solut 
+one approxim solut use greedi approach comput valu per kg item put highest valu per kg first smaller w greedi approach pta control accuraci 
+fpta solut 0 1 knapsack problem input w capac knapsack val 0 n 1 valu item wt 0 n 1 weight item find maximum valu item e find maximum valu val 
+let maximum valu maxval 
+comput adjust factor k valu k maxval ε n adjust valu e creat new array val valu divid k follow everi valu val 
+val floor val k run dp base solut reduc valu e val 0 n 1 paramet 
+solut work polynomi time term n ε solut provid fpta 1 ε approxim 
+idea round least signific digit valu bound polynomi 1 ε 
+exampl val 12 16 4 8 wt 3 4 5 2 w 10 ε 0 5 maxval 20 maximum valu val adjust factor k 16 0 5 4 2 0 appli dp base solut modifi instanc problem 
+val 6 8 2 
+4 val floor val k wt 3 4 5 2 w 10 solut 1 ε opt 
+opt optim valu 
+let set produc fpta algorithm total valu val 
+need show val 1 ε opt let set produc optim solut solut total valu opt e val opt 
+val k val n k val floor val k dynam program step get set optim scale instanc therefor must least good choos set smaller profit 
+conclud val k 
+val val nk opt ε maxval opt ε opt opt maxval 1 ε opt sourc http math mit edu goeman 18434s06 knapsack katherin pdf http en wikipedia org wiki polynomi time_approximation_schem articl contribut dheeraj gupta 
+like geeksforgeek would like contribut also write articl mail articl contribut geeksforgeek org 
+see articl appear geeksforgeek main page help geek 
+pleas write comment find anyth incorrect want share inform topic discuss adsbygoogl window adsbygoogl push compani wise code practic topic wise code practic 
